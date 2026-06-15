@@ -1,0 +1,523 @@
+{
+  "sourceLesson": "BBB4M.S5.Catherine 2026-06-04",
+  "sourceFormat": "feishu_minutes_markdown",
+  "methodology": "TeachAny",
+  "title": "BBB4M Exit Card Learning Package: SWOT and China's Investment Appeal",
+  "subject": {
+    "courseCode": "BBB4M",
+    "courseName": "International Business Fundamentals",
+    "strand": "Global Business Environment",
+    "teacher": "Catherine Wang",
+    "lessonDate": "2026-06-04"
+  },
+  "problemAnchor": "A company says China is attractive for foreign investment because it has a large market and good infrastructure. Is that a strong business argument yet, or just a list of opinions?",
+  "abt": {
+    "and": "Students have reviewed the SWOT framework and heard peer presentations about China's competitive advantages and foreign investment appeal.",
+    "but": "Many presentation points stayed broad, opinion-based, or unsupported by official data, making it hard to distinguish strengths, opportunities, and investor-facing evidence.",
+    "therefore": "The exit card checks whether students can classify SWOT factors, turn broad claims into evidence-based business points, and improve a presentation from an investor's perspective."
+  },
+  "objective": "Students can apply SWOT to an international business case, distinguish internal and external factors, support claims with specific data, and evaluate China's investment appeal from a foreign investor perspective.",
+  "knowledgeNodes": [
+    {
+      "id": "swot-framework",
+      "name": "SWOT框架",
+      "nameEn": "SWOT Framework",
+      "definition": "A tool for analyzing internal strengths and weaknesses plus external opportunities and threats that affect a business or market decision."
+    },
+    {
+      "id": "internal-external-factors",
+      "name": "内部与外部因素",
+      "nameEn": "Internal vs External Factors",
+      "definition": "Strengths and weaknesses describe internal capabilities or limits; opportunities and threats describe outside market, policy, social, or competitive conditions."
+    },
+    {
+      "id": "evidence-based-claim",
+      "name": "基于证据的商业主张",
+      "nameEn": "Evidence-Based Business Claim",
+      "definition": "A claim becomes stronger when it uses specific, credible data such as official statistics, policy details, cost comparisons, or market size figures."
+    },
+    {
+      "id": "foreign-investor-perspective",
+      "name": "外国投资者视角",
+      "nameEn": "Foreign Investor Perspective",
+      "definition": "An investor evaluates not only advantages but also risks, exit flexibility, policy reliability, costs, labor, infrastructure, demand, and return potential."
+    },
+    {
+      "id": "china-investment-appeal",
+      "name": "中国投资吸引力",
+      "nameEn": "China's Investment Appeal",
+      "definition": "Common appeal factors include large domestic market, infrastructure, skilled workforce, supply chain capacity, transport network, policy support, and consumption growth."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "4-5 correct",
+      "targetedRemediation": "2-3 correct",
+      "reteach": "0-1 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-bbb4m-0604-q1",
+        "nodeId": "swot-framework",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-swot-category-confusion",
+        "stem": "A foreign company says China's high-speed rail and port network can reduce logistics time. In a SWOT analysis of investing in China, this is best classified as:",
+        "options": [
+          {
+            "id": "a",
+            "label": "A",
+            "text": "A strength (internal to the company)",
+            "correct": false,
+            "feedbackWrong": "This is an external condition of the country, not a capability of the investing company."
+          },
+          {
+            "id": "b",
+            "label": "B",
+            "text": "A weakness (internal to the company)",
+            "correct": false,
+            "feedbackWrong": "This is a positive factor, not a weakness."
+          },
+          {
+            "id": "c",
+            "label": "C",
+            "text": "An opportunity (external favorable condition)",
+            "correct": true,
+            "feedbackCorrect": "Correct. The infrastructure is an external market condition that can benefit the investing company."
+          },
+          {
+            "id": "d",
+            "label": "D",
+            "text": "A threat (external unfavorable condition)",
+            "correct": false,
+            "feedbackWrong": "Infrastructure is helpful, not harmful, to investors."
+          }
+        ]
+      },
+      {
+        "id": "diag-bbb4m-0604-q2",
+        "nodeId": "internal-external-factors",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "errorId": "err-internal-external-boundary",
+        "stem": "Which pair correctly separates internal and external factors for a company deciding whether to enter China?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A",
+            "text": "Internal: company's brand reputation; External: China's consumer trends",
+            "correct": true,
+            "feedbackCorrect": "Correct: brand reputation is a company asset (internal), consumer trends are market conditions (external)."
+          },
+          {
+            "id": "b",
+            "label": "B",
+            "text": "Internal: China's labor costs; External: company's technology",
+            "correct": false,
+            "feedbackWrong": "Labor costs are external, technology is internal – the categories are swapped."
+          },
+          {
+            "id": "c",
+            "label": "C",
+            "text": "Internal: company's management team; External: company's financial situation",
+            "correct": false,
+            "feedbackWrong": "Both management and financial situation are internal factors."
+          },
+          {
+            "id": "d",
+            "label": "D",
+            "text": "Internal: China's trade policies; External: company's product quality",
+            "correct": false,
+            "feedbackWrong": "Trade policies are external, product quality is internal – the categories are swapped."
+          }
+        ]
+      },
+      {
+        "id": "diag-bbb4m-0604-q3",
+        "nodeId": "evidence-based-claim",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-unsupported-claim",
+        "stem": "A student writes, 'China has cheap living costs and good infrastructure.' Which revision best follows Catherine's feedback?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A",
+            "text": "No change, it's clear.",
+            "correct": false,
+            "feedbackWrong": "The statement lacks specific data; Catherine asked for official data and comparisons."
+          },
+          {
+            "id": "b",
+            "label": "B",
+            "text": "Add more adjectives like 'very cheap' and 'excellent'.",
+            "correct": false,
+            "feedbackWrong": "Vague adjectives do not make an evidence-based claim."
+          },
+          {
+            "id": "c",
+            "label": "C",
+            "text": "Add official data: e.g., 'China's cost of living is 30% lower than the US average, and its high-speed rail network covers over 42,000 km.'",
+            "correct": true,
+            "feedbackCorrect": "Correct: it adds specific, credible data to support the claim."
+          },
+          {
+            "id": "d",
+            "label": "D",
+            "text": "Remove 'cheap' and 'good' and keep only the country name.",
+            "correct": false,
+            "feedbackWrong": "That removes the claim entirely, making it weaker."
+          }
+        ]
+      },
+      {
+        "id": "diag-bbb4m-0604-q4",
+        "nodeId": "foreign-investor-perspective",
+        "type": "single_choice",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "errorId": "err-investor-perspective-missing",
+        "stem": "Felix said China's state-directed economic model is an advantage. From a foreign investor's perspective, which of the following is a key concern that the presenter should also address?",
+        "options": [
+          {
+            "id": "a",
+            "label": "A",
+            "text": "The investor might worry about exit flexibility if policies change.",
+            "correct": true,
+            "feedbackCorrect": "Correct: investors need to know if they can easily withdraw investment; state-directed models may have restrictions."
+          },
+          {
+            "id": "b",
+            "label": "B",
+            "text": "The investor might worry about the weather.",
+            "correct": false,
+            "feedbackWrong": "Weather is not a primary concern in this context."
+          },
+          {
+            "id": "c",
+            "label": "C",
+            "text": "The investor might worry that the company won't get enough profit.",
+            "correct": false,
+            "feedbackWrong": "Profit is a concern, but the specific risk related to state-direction is policy reliability and exit ability."
+          },
+          {
+            "id": "d",
+            "label": "D",
+            "text": "The investor might worry about the language barrier.",
+            "correct": false,
+            "feedbackWrong": "Language is a minor operational issue, not a strategic investor concern."
+          }
+        ]
+      },
+      {
+        "id": "diag-bbb4m-0604-q5",
+        "nodeId": "china-investment-appeal",
+        "type": "open_ended",
+        "bloomLevel": "create",
+        "scaffoldLevel": "L3",
+        "errorId": "err-vague-business-language",
+        "stem": "Revise the following sentence into a stronger business presentation point: 'China has a large market and many workers, so investors should come.' In your revision, add specific evidence and explain why it matters for investors.",
+        "rubric": "Strong answer includes specific market size/labor/supply-chain logic, explains why it matters to foreign investors, and names what evidence should be added. Example: 'China's 1.4 billion population and 900 million labor force provide both demand and production capacity; combined with improving logistics, this reduces per-unit costs for investors, as shown by World Bank data on manufacturing competitiveness.'",
+        "sampleStrongAnswer": "China's 1.4 billion population and 900 million labor force provide both demand and production capacity; combined with improving logistics, this reduces per-unit costs for investors, as shown by World Bank data on manufacturing competitiveness."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "condition": "4-5 correct",
+      "systemAction": "mark passed and continue normal independent learning or homework",
+      "studentMessage": "你已经抓住这节课的核心思路，可以进入正常作业或下一步学习。"
+    },
+    {
+      "condition": "2-3 correct",
+      "systemAction": "assign reteach modules matching missed errorIds, then retest",
+      "studentMessage": "你有几个点还没连稳。先做对应补救，再复测确认。"
+    },
+    {
+      "condition": "0-1 correct",
+      "systemAction": "start full reteach path, then retest all core errorIds",
+      "studentMessage": "这节课的核心框架还没有建立。系统会带你重新理解一遍，再做复测。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-swot-category-confusion",
+      "trigger": "When a diagnostic question about SWOT classification is asked, the student selects the wrong category, often labeling any positive factor as a Strength without considering internal vs. external.",
+      "studentMisunderstanding": "Students know the terms Strength, Weakness, Opportunity, Threat, but they often classify any positive factor as a Strength, regardless of whether it is internal or external. For example, they might label China's excellent infrastructure as a Strength of the investing company, when it is actually an external Opportunity.",
+      "miniLesson": {
+        "explain": "SWOT analysis divides factors into two dimensions: helpful vs. harmful and internal vs. external. Strengths and Weaknesses are internal—they are capabilities or shortcomings of the organization itself. Opportunities and Threats are external—they are conditions in the market or environment. To classify correctly, ask: Is this factor about the company itself (internal) or about the outside world (external)? Then ask: Is it positive or negative?",
+        "example": "In our lesson, we used McDonald's as a case. McDonald's strong brand recognition is a Strength (internal and positive). But a growing demand for fast food in a new country is an Opportunity (external and positive). If you say 'McDonald's can use China's high-speed rail for logistics,' that rail network is not a Strength of McDonald's—it's an external condition, so it's an Opportunity. Similarly, a new tariff policy that increases costs is a Threat (external and negative).",
+        "memoryAnchor": "The 'Inside-Outside' Check: Before you label a factor, point to yourself for internal (strengths/weaknesses) or to the window for external (opportunities/threats). Then thumbs up for positive, thumbs down for negative."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A company has a highly skilled R&D team. In a SWOT analysis, is this a Strength, Weakness, Opportunity, or Threat?",
+          "answer": "Strength (internal, positive)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A new trade agreement lowers tariffs for foreign companies entering the market. Classify this factor for a foreign investor.",
+          "answer": "Opportunity (external, positive)."
+        },
+        {
+          "level": "L3",
+          "prompt": "You are analyzing a Canadian tech startup considering entering China. Identify whether each factor is internal or external, and whether it is helpful or harmful: A) The startup has proprietary AI algorithms. B) China's government is offering tax incentives for AI companies. C) China has strict data localization laws.",
+          "answer": "A) Internal, helpful → Strength; B) External, helpful → Opportunity; C) External, harmful → Threat."
+        }
+      ]
+    },
+    {
+      "errorId": "err-internal-external-boundary",
+      "trigger": "When a student classifies a country's market condition, such as 'China's large population' or 'good infrastructure', as a strength of the company investing there.",
+      "studentMisunderstanding": "Students think that any positive factor about a country (like large market, good infrastructure) is automatically a strength of the company investing there. They don't distinguish between external market conditions and internal company capabilities.",
+      "miniLesson": {
+        "explain": "In SWOT analysis, 'internal' means factors the company can control (e.g., its brand, technology, management). 'External' means factors in the country or market that the company cannot control (e.g., size of population, infrastructure, government policies). Strengths and weaknesses are internal; opportunities and threats are external. So, China's infrastructure is an external opportunity for the investing company, not a strength of that company.",
+        "example": "McDonald's case: McDonald's owns its brand, recipes, and supply chain (internal strengths). But China's rising middle class and growing demand for fast food are external opportunities. McDonald's cannot 'own' the middle class; it can only take advantage of it.",
+        "memoryAnchor": "Whose factor is it? If it's the country's, it's external – an opportunity or threat. If it's the company's, it's internal – a strength or weakness."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Classify: 'McDonald's patented cooking process.' Is this internal or external? Strength, weakness, opportunity, or threat?",
+          "answer": "Internal strength. The cooking process is controlled by the company, so it's internal and a strength."
+        },
+        {
+          "level": "L2",
+          "prompt": "Two statements: (1) 'McDonald's has a strong global brand.' (2) 'China has a growing urban population.' Which is internal, which is external? Explain your reasoning.",
+          "answer": "Statement (1) is internal: brand is a company asset. Statement (2) is external: population growth is a market condition. Internal statements are strengths/weaknesses; external are opportunities/threats."
+        },
+        {
+          "level": "L3",
+          "prompt": "A company lists 'China's high-speed rail reduces logistics costs' as a strength in their SWOT. Identify the error and rewrite it correctly as an opportunity.",
+          "answer": "Error: High-speed rail is a country infrastructure, not a company capability, so it's external. Correct rewrite: 'China's high-speed rail network (42,000 km) is an opportunity for investors because it lowers logistics costs, improving supply chain efficiency.'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-unsupported-claim",
+      "trigger": "Student writes a claim like 'China has cheap labor and good infrastructure, so it is good for investment' without any numbers, sources, or comparisons.",
+      "studentMisunderstanding": "The student thinks that stating a confident opinion or listing general advantages is enough to convince an investor, and does not realize that business claims require specific, credible data to be persuasive.",
+      "miniLesson": {
+        "explain": "In international business, a claim becomes strong only when it is backed by specific, credible evidence. Vague words like 'big', 'cheap', 'good' lack precision and don't help an investor make a decision. To build a persuasive argument, you must: (1) state your claim, (2) support it with official data, statistics, or policy details, and (3) explain why that evidence matters to the investor. For example, instead of saying 'China has a large market', say 'China has 1.4 billion consumers, with retail sales growing 8% annually (National Bureau of Statistics), which means high demand potential for foreign brands.'",
+        "example": "In our lesson, Zhuofan Yu said 'China's living costs are cheap' but didn't provide cost-of-living comparisons with Western countries. Catherine Wang asked him to add specific data, such as 'Cost of living in Shanghai is 40% lower than in New York, according to Numbeo 2025 data.' Without that comparison, the claim is weak and unconvincing to investors.",
+        "memoryAnchor": "Remember the 'Claim + Data + Why' triangle: Every claim needs a Data point (number, source, comparison) and a Why that links it to investor benefit."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Identify whether each claim is supported or unsupported:\n\nA) 'China has a skilled workforce.'\nB) 'Over 60% of Chinese workers have completed upper secondary education, and the country produces 8 million STEM graduates annually (Ministry of Education 2024).'\nC) 'China's infrastructure is world-class.'\nD) 'China's high-speed rail network covers 42,000 km, the longest in the world, reducing logistics time by up to 50% (World Bank report).'",
+          "answer": "A: Unsupported (no data), B: Supported, C: Unsupported (no data), D: Supported"
+        },
+        {
+          "level": "L2",
+          "prompt": "Improve this weak claim by adding specific evidence (number, source, or comparison):\n\n'China has a large consumer market with growing middle class.'",
+          "answer": "Accept any response that adds specific data. Example: 'China has 1.4 billion people, with the middle class surpassing 400 million and spending on luxury goods increasing 12% in 2025 (McKinsey).' Or 'China's middle class is larger than the entire U.S. population, and e-commerce sales grew 15% last year (National Bureau of Statistics).'"
+        },
+        {
+          "level": "L3",
+          "prompt": "Take this vague claim and transform it into a full business argument that addresses an investor's perspective. Include specific evidence and explain why it matters.\n\nClaim: 'China's government supports foreign investment.'",
+          "answer": "Strong answer should include specific policy details and investor benefit. Example: 'China's 2024 Foreign Investment Law guarantees national treatment for foreign firms and shortens the negative list to 31 sectors (Ministry of Commerce). This reduces regulatory uncertainty, which is a top concern for investors. Additionally, the government offers tax holidays in special economic zones, lowering initial costs. For an investor, this means a more predictable legal environment and lower financial risk, encouraging long-term commitment.'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-investor-perspective-missing",
+      "trigger": "Student presentation lists only positive points about China without addressing any risks or concerns a foreign investor would have.",
+      "studentMisunderstanding": "Student thinks a persuasive business presentation just lists advantages; they do not realize that foreign investors weigh risks and concerns before deciding.",
+      "miniLesson": {
+        "explain": "When making a business case to attract foreign investors, you must address both the opportunities and the risks or concerns they care about. Investors evaluate not only advantages but also policy reliability, exit flexibility, costs, labor conditions, and return potential. If you only list advantages, your argument looks one-sided and unconvincing. You need to proactively address investor concerns to build trust.",
+        "example": "Felix presented China's state-directed economic model as an advantage. Catherine Wang noted that the presenter should also address investor concern about exit flexibility—whether an investor can easily withdraw their money if conditions change. A stronger presentation would acknowledge that concern and provide evidence of policy stability or exit options.",
+        "memoryAnchor": "Think like an investor: 'What could go wrong?' Not just 'What is great?' Address the risks to make your case credible."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A student says: 'China has a large population so it's a great market.' List one concern a foreign investor might have about entering China.",
+          "answer": "An investor might worry about government regulations changing suddenly, affecting their ability to operate or exit."
+        },
+        {
+          "level": "L2",
+          "prompt": "A presentation claims: 'China offers cheap labor and world-class infrastructure.' Add one investor concern that should be addressed and suggest what evidence could help.",
+          "answer": "Investor concern: The cheap labor may come with stricter labor laws or rising wages. Evidence: Compare labor costs with other Asian countries and include recent wage trends and labor law updates."
+        },
+        {
+          "level": "L3",
+          "prompt": "Rewrite this sentence to include both an advantage and an investor concern, then explain how you would address it: 'China has a huge market, so investors should come.'",
+          "answer": "Revised: 'China offers a vast market of 1.4 billion consumers with rising purchasing power, but investors often worry about exit restrictions. To address this, we can point to the shrinking FDI negative list and stable repatriation policies that allow profit and capital to be moved out.'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-vague-business-language",
+      "trigger": "China is a good place to invest because it has a big market and cheap labor.",
+      "studentMisunderstanding": "Students think that general positive adjectives like 'big' and 'cheap' are enough to persuade investors, not realizing that investors need measurable data, comparisons, and specific policy details to make informed decisions.",
+      "miniLesson": {
+        "explain": "Vague business language uses words like 'good,' 'big,' 'cheap,' 'fancy,' or 'helpful' without specific definitions, data, or context. Investors need concrete evidence: market size in numbers, cost comparisons with other countries, official policy details, and measurable benefits. Replacing vague words with specific facts makes your argument credible and persuasive.",
+        "example": "In Shi Shangyi's presentation, he described products as 'fancy goods' and claimed 'good infrastructure.' Catherine Wang advised him to specify product categories and provide policy details or official statistics, such as 'China's high-speed rail network covers 42,000 km' and 'the negative list for FDI has been reduced to 33 items.'",
+        "memoryAnchor": "Vague = Virtual promise; Specific = Sold deal."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following statements uses vague business language? A) 'China has a 1.4 billion population, providing a massive consumer base.' B) 'China has a big market with many customers.'",
+          "answer": "B) 'big market' and 'many customers' are vague. A) uses specific numbers."
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite this vague claim into a specific, evidence-based claim: 'China has cheap labor, so investors can save money.' Use facts from the lesson (e.g., labor force size, cost comparison).",
+          "answer": "China's labor force of over 900 million workers, combined with average manufacturing wages that are 30% lower than in the US, allows investors to reduce production costs significantly (World Bank data 2025)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student said: 'China is a good place for foreign investors because it has good infrastructure and a big market.' Write a revised sentence that is investor-ready. Include at least one specific statistic and explain why that matters for an investor's decision.",
+          "answer": "China's high-speed rail network (42,000 km) and port capacity (top 10 worldwide) reduce logistics time by up to 40%, while its 1.4 billion consumers offer a large demand base. For a foreign investor, this means lower distribution costs and faster market access, improving return on investment (source: World Bank Logistics Performance Index)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-swot-category-confusion",
+      "questions": [
+        {
+          "id": "swot-classify-1",
+          "type": "single_choice",
+          "stem": "A Canadian e-commerce company is analyzing expansion into Brazil. It has a strong supply chain network within Canada. In a SWOT analysis for this expansion, how should 'strong supply chain network in Canada' be classified?",
+          "options": [
+            "Strength",
+            "Weakness",
+            "Opportunity",
+            "Threat"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "swot-classify-2",
+          "type": "open_ended",
+          "stem": "Consider a German automaker planning to build a factory in Mexico. Classify each of the following factors as Strength, Weakness, Opportunity, or Threat, and explain your reasoning briefly:\nA) The automaker has advanced battery technology.\nB) Mexico's government offers tax holidays for foreign manufacturers.\nC) The automaker's labor costs in Germany are high.\nD) A new trade agreement reduces export tariffs from Mexico to the US.",
+          "rubric": "Correct classification: A=Strength (internal+positive), B=Opportunity (external+positive), C=Weakness (internal+negative), D=Opportunity (external+positive). Explanation should refer to internal vs external and positive vs negative dimensions. Partial credit for correct classification with weak explanation."
+        }
+      ],
+      "passRule": "All answers correct. For the open-ended question, all four factors must be correctly classified. Explanation should show understanding of internal/external and helpful/harmful dimensions."
+    },
+    {
+      "forErrorId": "err-internal-external-boundary",
+      "questions": [
+        {
+          "id": "retest-err-internal-external-boundary-sc",
+          "type": "single_choice",
+          "stem": "In a SWOT analysis for a foreign company investing in China, which of the following is an example of an external opportunity (not an internal strength)?",
+          "options": [
+            "The company's advanced technology",
+            "China's large consumer market",
+            "The company's experienced management team",
+            "The company's strong brand reputation"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-internal-external-boundary-oe",
+          "type": "open_ended",
+          "stem": "A student wrote: 'One of McDonald's internal strengths is China's growing middle class.' Explain why this statement is incorrect and rewrite it as a correct SWOT entry.",
+          "rubric": "Response must identify that China's growing middle class is an external market condition (opportunity), not an internal strength of McDonald's. A correct rewrite should classify it as an external opportunity, e.g., 'China's growing middle class is an external opportunity for McDonald's because it increases demand for fast food.'"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass."
+    },
+    {
+      "forErrorId": "err-unsupported-claim",
+      "questions": [
+        {
+          "id": "q1-unsupported-claim",
+          "type": "single_choice",
+          "stem": "Which of the following claims is supported by specific evidence?",
+          "options": [
+            "China has a large and growing middle class, which increases demand for consumer goods.",
+            "China's middle class reached 400 million people in 2024, and consumer spending on luxury goods grew 12% year-on-year (McKinsey Global Institute).",
+            "China's infrastructure is very good and helps businesses operate efficiently.",
+            "China offers a favorable environment for foreign investment due to government policies."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-unsupported-claim",
+          "type": "open_ended",
+          "stem": "Rewrite the following weak claim into a strong business argument by adding specific evidence (include a number or data point and a source). Then explain why this evidence would matter to a foreign investor.\n\nWeak claim: 'China has cheap labor.'",
+          "rubric": "Student must provide a rewritten claim that includes a specific statistic (e.g., average manufacturing wage in China vs. another country) with a credible source (e.g., World Bank, National Bureau of Statistics), and then explain why that data is relevant to an investor (e.g., lower labor costs improve profit margins). Full credit requires both specific data with source and a clear explanation linking to investor decision-making."
+        }
+      ],
+      "passRule": "Must answer q1 correctly (answer index 1) and q2 must include at least one specific numerical data point with a named source (e.g., 'World Bank 2025') and a brief explanation of why that data matters to an investor."
+    },
+    {
+      "forErrorId": "err-investor-perspective-missing",
+      "questions": [
+        {
+          "id": "investor-perspective-q1",
+          "type": "single_choice",
+          "stem": "When presenting a business case to attract foreign investors to China, which of the following best demonstrates an understanding of the investor's perspective?",
+          "options": [
+            "C. In addition to market size, investors consider risks such as policy changes and exit flexibility.",
+            "A. China has a huge population and low labor costs, so it is an attractive market.",
+            "B. Investors are only interested in high returns; other factors like policy stability are less important.",
+            "D. Every investor cares most about cheap labor, so we should focus on that."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "investor-perspective-q2",
+          "type": "open_ended",
+          "stem": "A foreign investor says: 'China's market is attractive, but I am worried about sudden government policy changes that could affect my profits.' Write a short response (2–3 sentences) that addresses this concern by acknowledging the risk and providing evidence that supports policy stability or flexibility.",
+          "rubric": "Full credit (4 points): Response acknowledges the investor's concern about policy changes, provides a specific evidence (e.g., shrinking FDI negative list, stable repatriation policies, or recent policy continuity examples), and maintains a confident tone. Partial credit (2–3 points): Mentions the concern but provides weak or vague evidence. Low credit (0–1 points): Only lists advantages without addressing the concern."
+        }
+      ],
+      "passRule": "The student must select the correct single-choice answer (C) and score at least 3 out of 4 on the open-ended question."
+    },
+    {
+      "forErrorId": "err-vague-business-language",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following statements uses specific business language that an investor can evaluate?",
+          "options": [
+            "China has a strong manufacturing base.",
+            "China's manufacturing output accounts for 30% of global total (UNIDO 2025).",
+            "China is good for manufacturing.",
+            "Manufacturing in China is cheap."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A student wrote: 'China has a big population and fancy goods, so it's a good market for foreign companies.' Rewrite this claim to make it specific and evidence-based. Include at least one statistic from the lesson (e.g., population size, infrastructure figures, policy details) and explain why that statistic matters for an investor.",
+          "rubric": "Response includes a specific statistic (e.g., '1.4 billion population', '42,000 km high-speed rail', 'negative list reduced to 33 items') and clearly explains its relevance to an investor's decision (e.g., large market size indicates demand, good infrastructure reduces logistics costs, policy openness reduces risk). Avoids vague adjectives like 'big', 'good', 'fancy'."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly for the student to demonstrate mastery."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores 0-1 on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题已经从单题错误变成概念框架或表达框架没有建立。"
+  },
+  "studentAnalytics": {
+    "trackedDimensions": [
+      "swotClassificationAccuracy",
+      "internalExternalReasoning",
+      "evidenceUse",
+      "investorPerspective",
+      "businessSpecificity"
+    ],
+    "nextTrainingIfWeak": [
+      "SWOT sorting drill with 12 mixed factors",
+      "claim-evidence-investor implication writing drill",
+      "presentation revision task using teacher feedback"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-06-12T02:11:34.749Z",
+  "model": "deepseek-v4-flash",
+  "fileName": "smoke-test-mcv4u.md",
+  "issues": [
+    "at least 3 questions should use figures when the lesson needs visual evidence",
+    "q1 must have exactly one correct option",
+    "q2 must have exactly one correct option",
+    "q3 must have exactly one correct option",
+    "q4 must have exactly one correct option",
+    "q5 must have exactly one correct option",
+    "q6 must have exactly one correct option",
+    "q7 must have exactly one correct option",
+    "q8 must have exactly one correct option",
+    "q9 open_ended missing sampleStrongAnswer",
+    "q10 open_ended missing sampleStrongAnswer"
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 5829,
+    "total_tokens": 7060,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 1231
+  },
+  "latencyMs": 43812
+}

@@ -1,0 +1,853 @@
+{
+  "title": "Curve Sketching Exit Card",
+  "sourceLesson": "MCV4U.S5.Michael 2026-06-10",
+  "sourceFormat": "feishu_transcript_markdown",
+  "methodology": "TeachAny + DeepSeek + deterministic figureSpec + JSXGraph renderer",
+  "subject": {
+    "courseCode": "MCV4U",
+    "courseName": "Calculus and Vectors",
+    "strand": "Curve Sketching",
+    "teacher": "Michael Konstantopoulos",
+    "lessonDate": "2026-06-10"
+  },
+  "drawingProjectChoice": {
+    "selectedProject": "JSXGraph",
+    "reason": "JSXGraph provides interactive function plotting and asymptote visualization, aligning with the lesson's emphasis on derivative sign charts and rational function analysis."
+  },
+  "problemAnchor": "Given a polynomial or rational function, use derivatives to determine intervals of increase/decrease, concavity, and asymptotes, then sketch the curve.",
+  "abt": {
+    "and": "You have learned the algorithm for curve sketching: find domain, intercepts, asymptotes, first and second derivatives, sign charts, and sketch.",
+    "but": "You may struggle to connect derivative signs to function behavior, identify asymptotes correctly, or interpret the relationship between f, f', and f''.",
+    "therefore": "This exit card will diagnose your understanding of these core concepts so we can target remediation."
+  },
+  "objective": "Students will demonstrate the ability to use first and second derivatives to analyze and sketch polynomial and rational functions, including identifying asymptotes and interpreting f/f'/f'' relationships.",
+  "knowledgeNodes": [
+    {
+      "id": "KN01",
+      "name": "Domain and Intercepts",
+      "lessonEvidence": "Lesson covered finding domain restrictions and intercepts for polynomial and rational functions."
+    },
+    {
+      "id": "KN02",
+      "name": "First Derivative and Increasing/Decreasing",
+      "lessonEvidence": "Lesson used f'(x) sign chart to determine intervals of increase/decrease for f(x)=x^3-6x^2+9x."
+    },
+    {
+      "id": "KN03",
+      "name": "Second Derivative and Concavity",
+      "lessonEvidence": "Lesson used f''(x) sign chart to determine concavity and inflection points."
+    },
+    {
+      "id": "KN04",
+      "name": "Asymptotes (Vertical and Oblique)",
+      "lessonEvidence": "Lesson analyzed rational function f(x)=x^2/(x-1) with vertical asymptote x=1 and oblique asymptote y=x+1."
+    },
+    {
+      "id": "KN05",
+      "name": "Relationship between f, f', and f''",
+      "lessonEvidence": "Lesson discussed how f' sign indicates increase/decrease and f'' sign indicates concavity, with examples."
+    }
+  ],
+  "errorTaxonomy": [
+    {
+      "errorId": "E01",
+      "meaning": "Misidentifies domain restrictions or intercepts."
+    },
+    {
+      "errorId": "E02",
+      "meaning": "Confuses sign of f' with increasing/decreasing behavior."
+    },
+    {
+      "errorId": "E03",
+      "meaning": "Confuses sign of f'' with concavity."
+    },
+    {
+      "errorId": "E04",
+      "meaning": "Incorrectly identifies vertical or oblique asymptotes."
+    },
+    {
+      "errorId": "E05",
+      "meaning": "Misinterprets the relationship between f, f', and f'' graphs."
+    }
+  ],
+  "figures": [
+    {
+      "figureId": "mcv4u-cubic-curve-jsxgraph",
+      "figureType": "function_curve",
+      "renderer": "jsxgraph",
+      "fallbackRenderer": "local_svg",
+      "figureSpec": {
+        "library": "JSXGraph",
+        "jsxgraph": {
+          "boundingBox": [
+            -0.8,
+            5.2,
+            4.2,
+            -1.2
+          ],
+          "expressionJs": "x*x*x-6*x*x+9*x",
+          "points": [
+            {
+              "x": 0,
+              "y": 0,
+              "label": "(0,0)"
+            },
+            {
+              "x": 1,
+              "y": 4,
+              "label": "local max"
+            },
+            {
+              "x": 2,
+              "y": 2,
+              "label": "inflection"
+            },
+            {
+              "x": 3,
+              "y": 0,
+              "label": "local min"
+            }
+          ]
+        }
+      },
+      "answerLock": {
+        "domain": "all real numbers",
+        "intercepts": [
+          "(0,0)",
+          "(3,0)"
+        ],
+        "localMaximum": "(1,4)",
+        "localMinimum": "(3,0)",
+        "inflectionPoint": "(2,2)",
+        "increasing": [
+          "(-infinity,1)",
+          "(3,infinity)"
+        ],
+        "decreasing": [
+          "(1,3)"
+        ],
+        "concaveDown": [
+          "(-infinity,2)"
+        ],
+        "concaveUp": [
+          "(2,infinity)"
+        ]
+      }
+    },
+    {
+      "figureId": "mcv4u-cubic-sign-chart",
+      "figureType": "derivative_sign_chart",
+      "renderer": "local_svg",
+      "fallbackRenderer": null,
+      "figureSpec": {
+        "criticalNumbers": [
+          1,
+          3
+        ],
+        "inflectionCandidate": 2,
+        "fPrimeSign": [
+          {
+            "interval": "(-infinity,1)",
+            "sign": "+"
+          },
+          {
+            "interval": "(1,3)",
+            "sign": "-"
+          },
+          {
+            "interval": "(3,infinity)",
+            "sign": "+"
+          }
+        ],
+        "fDoublePrimeSign": [
+          {
+            "interval": "(-infinity,2)",
+            "sign": "-"
+          },
+          {
+            "interval": "(2,infinity)",
+            "sign": "+"
+          }
+        ]
+      },
+      "answerLock": {
+        "fPrimePositiveMeans": "f is increasing",
+        "fPrimeNegativeMeans": "f is decreasing",
+        "fDoublePrimePositiveMeans": "f is concave up",
+        "fDoublePrimeNegativeMeans": "f is concave down"
+      }
+    },
+    {
+      "figureId": "mcv4u-rational-asymptote-jsxgraph",
+      "figureType": "rational_function_asymptotes",
+      "renderer": "jsxgraph",
+      "fallbackRenderer": "local_svg",
+      "figureSpec": {
+        "library": "JSXGraph",
+        "jsxgraph": {
+          "boundingBox": [
+            -3,
+            8,
+            5,
+            -6
+          ],
+          "expressionJs": "(x*x)/(x-1)",
+          "excludedX": [
+            1
+          ],
+          "asymptotes": [
+            {
+              "type": "vertical",
+              "equation": "x=1"
+            },
+            {
+              "type": "oblique",
+              "equation": "y=x+1"
+            }
+          ]
+        }
+      },
+      "answerLock": {
+        "domainRestriction": "x != 1",
+        "verticalAsymptote": "x=1",
+        "obliqueAsymptote": "y=x+1",
+        "noHorizontalAsymptoteReason": "numerator degree is exactly one more than denominator degree, so use long division for an oblique asymptote"
+      }
+    },
+    {
+      "figureId": "mcv4u-f-fprime-fdoubleprime-relationship",
+      "figureType": "derivative_graph_relationship",
+      "renderer": "local_svg",
+      "fallbackRenderer": null,
+      "figureSpec": {
+        "relationshipRules": [
+          "If f is increasing, f' is above the x-axis.",
+          "If f is decreasing, f' is below the x-axis.",
+          "If f changes concavity, f'' changes sign.",
+          "Points of inflection are located on f, not on f'' itself."
+        ]
+      },
+      "answerLock": {
+        "slopeEvidence": "above/below x-axis of f'",
+        "concavityEvidence": "sign of f''"
+      }
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 12,
+    "passRule": {
+      "pass": "8-10 correct",
+      "targetedRemediation": "5-7 correct",
+      "reteach": "0-4 correct"
+    },
+    "questions": [
+      {
+        "id": "Q01",
+        "nodeId": "KN01",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "errorId": "E01",
+        "stem": "What is the domain of the polynomial function f(x)=x^3-6x^2+9x?",
+        "figureId": null,
+        "options": [
+          {
+            "label": "A",
+            "text": "All real numbers",
+            "correct": true,
+            "feedbackCorrect": "Correct! Polynomials are defined for all real numbers.",
+            "feedbackWrong": "Incorrect. Polynomials have no domain restrictions."
+          },
+          {
+            "label": "B",
+            "text": "x ≠ 0",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Polynomials have no domain restrictions."
+          },
+          {
+            "label": "C",
+            "text": "x ≠ 3",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Polynomials have no domain restrictions."
+          },
+          {
+            "label": "D",
+            "text": "x > 0",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Polynomials have no domain restrictions."
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "nodeId": "KN02",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "E02",
+        "stem": "Use the figure. For f(x)=x^3-6x^2+9x, on which interval is f increasing?",
+        "figureId": "mcv4u-cubic-curve-jsxgraph",
+        "options": [
+          {
+            "label": "A",
+            "text": "(-∞,1) and (3,∞)",
+            "correct": true,
+            "feedbackCorrect": "Correct! f is increasing where f' > 0.",
+            "feedbackWrong": "Incorrect. Check the sign of f' on the intervals."
+          },
+          {
+            "label": "B",
+            "text": "(1,3)",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. f is decreasing on (1,3)."
+          },
+          {
+            "label": "C",
+            "text": "(-∞,2)",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. That interval includes decreasing parts."
+          },
+          {
+            "label": "D",
+            "text": "(2,∞)",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. That interval includes decreasing parts."
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "nodeId": "KN03",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "E03",
+        "stem": "Use the figure. For f(x)=x^3-6x^2+9x, on which interval is f concave down?",
+        "figureId": "mcv4u-cubic-curve-jsxgraph",
+        "options": [
+          {
+            "label": "A",
+            "text": "(-∞,2)",
+            "correct": true,
+            "feedbackCorrect": "Correct! f'' < 0 on (-∞,2).",
+            "feedbackWrong": "Incorrect. Check the sign of f''."
+          },
+          {
+            "label": "B",
+            "text": "(2,∞)",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. f is concave up on (2,∞)."
+          },
+          {
+            "label": "C",
+            "text": "(-∞,1)",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Concavity changes at x=2, not x=1."
+          },
+          {
+            "label": "D",
+            "text": "(1,3)",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Concavity changes at x=2."
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "nodeId": "KN02",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "E02",
+        "stem": "Use the figure. If f'(x) > 0 on an interval, what can you conclude about f?",
+        "figureId": "mcv4u-cubic-sign-chart",
+        "options": [
+          {
+            "label": "A",
+            "text": "f is increasing",
+            "correct": true,
+            "feedbackCorrect": "Correct! Positive f' means f is increasing.",
+            "feedbackWrong": "Incorrect. Positive f' indicates increasing function."
+          },
+          {
+            "label": "B",
+            "text": "f is decreasing",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Positive f' indicates increasing function."
+          },
+          {
+            "label": "C",
+            "text": "f is concave up",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Concavity is determined by f''."
+          },
+          {
+            "label": "D",
+            "text": "f has a local maximum",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Local extrema occur where f' changes sign."
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "nodeId": "KN03",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "E03",
+        "stem": "Use the figure. If f''(x) < 0 on an interval, what can you conclude about f?",
+        "figureId": "mcv4u-cubic-sign-chart",
+        "options": [
+          {
+            "label": "A",
+            "text": "f is concave down",
+            "correct": true,
+            "feedbackCorrect": "Correct! Negative f'' means concave down.",
+            "feedbackWrong": "Incorrect. Negative f'' indicates concave down."
+          },
+          {
+            "label": "B",
+            "text": "f is concave up",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Negative f'' indicates concave down."
+          },
+          {
+            "label": "C",
+            "text": "f is increasing",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Increase/decrease is from f'."
+          },
+          {
+            "label": "D",
+            "text": "f is decreasing",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Increase/decrease is from f'."
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "nodeId": "KN04",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "E04",
+        "stem": "Use the figure. What is the vertical asymptote of f(x)=x^2/(x-1)?",
+        "figureId": "mcv4u-rational-asymptote-jsxgraph",
+        "options": [
+          {
+            "label": "A",
+            "text": "x=1",
+            "correct": true,
+            "feedbackCorrect": "Correct! Denominator zero at x=1.",
+            "feedbackWrong": "Incorrect. Set denominator equal to zero."
+          },
+          {
+            "label": "B",
+            "text": "x=0",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Denominator zero at x=1."
+          },
+          {
+            "label": "C",
+            "text": "y=1",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Vertical asymptote is a vertical line x=constant."
+          },
+          {
+            "label": "D",
+            "text": "y=x+1",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. That is the oblique asymptote."
+          }
+        ]
+      },
+      {
+        "id": "Q07",
+        "nodeId": "KN04",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "E04",
+        "stem": "Use the figure. What is the oblique asymptote of f(x)=x^2/(x-1)?",
+        "figureId": "mcv4u-rational-asymptote-jsxgraph",
+        "options": [
+          {
+            "label": "A",
+            "text": "y=x+1",
+            "correct": true,
+            "feedbackCorrect": "Correct! Long division gives quotient x+1.",
+            "feedbackWrong": "Incorrect. Perform long division: (x^2)/(x-1) = x+1 + 1/(x-1)."
+          },
+          {
+            "label": "B",
+            "text": "y=x-1",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Long division gives quotient x+1."
+          },
+          {
+            "label": "C",
+            "text": "y=1",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. That would be horizontal, but degree numerator > denominator."
+          },
+          {
+            "label": "D",
+            "text": "No oblique asymptote",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Since degree numerator = degree denominator +1, there is an oblique asymptote."
+          }
+        ]
+      },
+      {
+        "id": "Q08",
+        "nodeId": "KN05",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "errorId": "E05",
+        "stem": "Use the figure. If f' is above the x-axis on an interval, what is true about f?",
+        "figureId": "mcv4u-f-fprime-fdoubleprime-relationship",
+        "options": [
+          {
+            "label": "A",
+            "text": "f is increasing",
+            "correct": true,
+            "feedbackCorrect": "Correct! f' > 0 means f increasing.",
+            "feedbackWrong": "Incorrect. f' above x-axis means f' > 0, so f increasing."
+          },
+          {
+            "label": "B",
+            "text": "f is decreasing",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. f' above x-axis means f' > 0, so f increasing."
+          },
+          {
+            "label": "C",
+            "text": "f is concave up",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Concavity is from f''."
+          },
+          {
+            "label": "D",
+            "text": "f is concave down",
+            "correct": false,
+            "feedbackCorrect": null,
+            "feedbackWrong": "Incorrect. Concavity is from f''."
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "nodeId": "KN05",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "errorId": "E05",
+        "stem": "Use the figure. Explain how the sign of f' and f'' relate to the shape of f. Provide an example using f(x)=x^3-6x^2+9x.",
+        "figureId": "mcv4u-f-fprime-fdoubleprime-relationship",
+        "rubric": "Full credit: Clearly states that f' > 0 means f increasing, f' < 0 means f decreasing; f'' > 0 means concave up, f'' < 0 means concave down. Uses the example: on (-∞,1), f' > 0 so f increasing; on (1,3), f' < 0 so f decreasing; on (3,∞), f' > 0 so f increasing. f'' < 0 on (-∞,2) so concave down; f'' > 0 on (2,∞) so concave up. Inflection at x=2.",
+        "sampleStrongAnswer": "For f(x)=x^3-6x^2+9x, f'(x)=3x^2-12x+9. f' > 0 on (-∞,1) and (3,∞), so f is increasing there. f' < 0 on (1,3), so f decreasing. f''(x)=6x-12. f'' < 0 on (-∞,2) so concave down; f'' > 0 on (2,∞) so concave up. Inflection point at x=2 because concavity changes."
+      },
+      {
+        "id": "Q10",
+        "nodeId": "KN04",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "E04",
+        "stem": "Use the figure. For f(x)=x^2/(x-1), identify the vertical and oblique asymptotes and explain how you find them.",
+        "figureId": "mcv4u-rational-asymptote-jsxgraph",
+        "rubric": "Full credit: Vertical asymptote at x=1 because denominator zero. Oblique asymptote y=x+1 because degree numerator = degree denominator +1; use long division: x^2/(x-1)=x+1+1/(x-1).",
+        "sampleStrongAnswer": "Vertical asymptote: set denominator x-1=0 → x=1. Oblique asymptote: since numerator degree (2) is one more than denominator degree (1), there is no horizontal asymptote. Perform long division: (x^2) ÷ (x-1) = x+1 with remainder 1. So oblique asymptote is y=x+1."
+      }
+    ]
+  },
+  "reteachModules": [
+    {
+      "errorId": "E01",
+      "trigger": "Student incorrectly identifies domain or intercepts.",
+      "studentMisunderstanding": "Student may think polynomials have restrictions or confuses intercepts with asymptotes.",
+      "miniLesson": {
+        "explain": "Polynomial functions are defined for all real numbers. To find x-intercepts, set f(x)=0 and solve. For rational functions, domain excludes values that make denominator zero.",
+        "example": "f(x)=x^3-6x^2+9x: domain all real numbers. Set f(x)=0 → x(x-3)^2=0 → intercepts at x=0 and x=3.",
+        "memoryAnchor": "Polynomials: no restrictions. Rational: denominator ≠ 0."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find the domain of f(x)=1/(x-2).",
+          "answer": "x ≠ 2"
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the x-intercepts of f(x)=x^2-4.",
+          "answer": "x=2 and x=-2"
+        },
+        {
+          "level": "L3",
+          "prompt": "Find the domain and intercepts of f(x)=(x^2-1)/(x-3).",
+          "answer": "Domain: x ≠ 3. x-intercepts: x=1 and x=-1. y-intercept: (0,1/3)."
+        }
+      ]
+    },
+    {
+      "errorId": "E02",
+      "trigger": "Student confuses sign of f' with increasing/decreasing.",
+      "studentMisunderstanding": "Student may think f' > 0 means decreasing or vice versa.",
+      "miniLesson": {
+        "explain": "If f'(x) > 0 on an interval, f is increasing. If f'(x) < 0, f is decreasing. Use a sign chart to determine intervals.",
+        "example": "For f(x)=x^3-6x^2+9x, f'(x)=3x^2-12x+9=3(x-1)(x-3). Sign: + on (-∞,1), - on (1,3), + on (3,∞). So f increases on (-∞,1) and (3,∞), decreases on (1,3).",
+        "memoryAnchor": "f' positive → f goes up (like a positive slope)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If f'(x) > 0 on (a,b), is f increasing or decreasing?",
+          "answer": "Increasing"
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f'(x)=2x, determine where f is increasing.",
+          "answer": "f increasing when x > 0"
+        },
+        {
+          "level": "L3",
+          "prompt": "For f(x)=x^2-4x+3, find intervals of increase and decrease.",
+          "answer": "f'(x)=2x-4=0 at x=2. f' < 0 on (-∞,2) so decreasing; f' > 0 on (2,∞) so increasing."
+        }
+      ]
+    },
+    {
+      "errorId": "E03",
+      "trigger": "Student confuses sign of f'' with concavity.",
+      "studentMisunderstanding": "Student may think f'' > 0 means concave down or vice versa.",
+      "miniLesson": {
+        "explain": "If f''(x) > 0, f is concave up (like a cup). If f''(x) < 0, f is concave down (like a frown).",
+        "example": "For f(x)=x^3-6x^2+9x, f''(x)=6x-12. f'' < 0 on (-∞,2) so concave down; f'' > 0 on (2,∞) so concave up. Inflection at x=2.",
+        "memoryAnchor": "f'' > 0: cup (concave up). f'' < 0: frown (concave down)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If f''(x) > 0, is f concave up or down?",
+          "answer": "Concave up"
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f''(x)=6x, determine concavity intervals.",
+          "answer": "f'' < 0 on (-∞,0) so concave down; f'' > 0 on (0,∞) so concave up."
+        },
+        {
+          "level": "L3",
+          "prompt": "For f(x)=x^3-3x^2+2, find concavity intervals and inflection point.",
+          "answer": "f''(x)=6x-6=0 at x=1. f'' < 0 on (-∞,1) concave down; f'' > 0 on (1,∞) concave up. Inflection at x=1."
+        }
+      ]
+    },
+    {
+      "errorId": "E04",
+      "trigger": "Student incorrectly identifies vertical or oblique asymptotes.",
+      "studentMisunderstanding": "Student may confuse vertical asymptote with x-intercept or forget to check degree for oblique asymptote.",
+      "miniLesson": {
+        "explain": "Vertical asymptotes occur where denominator = 0 (and numerator ≠ 0). Oblique asymptotes occur when degree of numerator = degree of denominator + 1; find by long division.",
+        "example": "f(x)=x^2/(x-1). Denominator zero at x=1 → vertical asymptote. Degrees: numerator 2, denominator 1 → oblique asymptote. Long division: x^2/(x-1)=x+1+1/(x-1) → oblique asymptote y=x+1.",
+        "memoryAnchor": "Vertical: denominator zero. Oblique: degree numerator = degree denominator + 1."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find the vertical asymptote of f(x)=1/(x-3).",
+          "answer": "x=3"
+        },
+        {
+          "level": "L2",
+          "prompt": "Does f(x)=x^2/(x+2) have a horizontal or oblique asymptote?",
+          "answer": "Oblique because degree numerator (2) = degree denominator (1) + 1."
+        },
+        {
+          "level": "L3",
+          "prompt": "Find the oblique asymptote of f(x)=(x^2+1)/(x-1).",
+          "answer": "Long division: (x^2+1)/(x-1)=x+1+2/(x-1) → oblique asymptote y=x+1."
+        }
+      ]
+    },
+    {
+      "errorId": "E05",
+      "trigger": "Student misinterprets relationship between f, f', and f'' graphs.",
+      "studentMisunderstanding": "Student may think f' above x-axis means f concave up, or confuse inflection points on f with zeros of f''.",
+      "miniLesson": {
+        "explain": "f' above x-axis (positive) means f increasing. f' below x-axis (negative) means f decreasing. f'' positive means concave up; f'' negative means concave down. Inflection points on f occur where f'' changes sign (or f''=0).",
+        "example": "For f(x)=x^3-6x^2+9x, f' positive on (-∞,1) and (3,∞) so f increasing there. f'' negative on (-∞,2) so concave down; positive on (2,∞) so concave up. Inflection at x=2.",
+        "memoryAnchor": "f' sign → slope. f'' sign → concavity."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If f' is below the x-axis, is f increasing or decreasing?",
+          "answer": "Decreasing"
+        },
+        {
+          "level": "L2",
+          "prompt": "If f'' is positive, is f concave up or down?",
+          "answer": "Concave up"
+        },
+        {
+          "level": "L3",
+          "prompt": "Given f' graph: positive on (-∞,2), negative on (2,∞). f'' graph: negative on (-∞,1), positive on (1,∞). Describe f's behavior.",
+          "answer": "f increasing on (-∞,2), decreasing on (2,∞). Concave down on (-∞,1), concave up on (1,∞). Inflection at x=1. Local maximum at x=2."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "E01",
+      "questions": [
+        {
+          "id": "R01",
+          "type": "single_choice",
+          "stem": "What is the domain of f(x)=1/(x+5)?",
+          "options": [
+            "All real numbers",
+            "x ≠ -5",
+            "x ≠ 5",
+            "x > -5"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R02",
+          "type": "open_ended",
+          "stem": "Find the x-intercepts of f(x)=x^2-9.",
+          "rubric": "Correct: x=3 and x=-3."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E02",
+      "questions": [
+        {
+          "id": "R03",
+          "type": "single_choice",
+          "stem": "If f'(x) < 0 on (a,b), then f is:",
+          "options": [
+            "increasing",
+            "decreasing",
+            "concave up",
+            "concave down"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R04",
+          "type": "open_ended",
+          "stem": "Given f'(x)=4x-8, find intervals where f is increasing.",
+          "rubric": "f increasing when x > 2."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E03",
+      "questions": [
+        {
+          "id": "R05",
+          "type": "single_choice",
+          "stem": "If f''(x) > 0 on an interval, f is:",
+          "options": [
+            "concave up",
+            "concave down",
+            "increasing",
+            "decreasing"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R06",
+          "type": "open_ended",
+          "stem": "Given f''(x)=12x^2, determine concavity.",
+          "rubric": "f''(x) ≥ 0 always, so f is concave up everywhere (except possibly at x=0 where f''=0 but no sign change)."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E04",
+      "questions": [
+        {
+          "id": "R07",
+          "type": "single_choice",
+          "stem": "What is the vertical asymptote of f(x)=3/(x-4)?",
+          "options": [
+            "x=4",
+            "x=-4",
+            "y=0",
+            "y=3"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R08",
+          "type": "open_ended",
+          "stem": "Find the oblique asymptote of f(x)=(x^2+2x)/(x+1).",
+          "rubric": "Long division: (x^2+2x)/(x+1)=x+1 - 1/(x+1) → oblique asymptote y=x+1."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E05",
+      "questions": [
+        {
+          "id": "R09",
+          "type": "single_choice",
+          "stem": "If f' is above the x-axis, f is:",
+          "options": [
+            "increasing",
+            "decreasing",
+            "concave up",
+            "concave down"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R10",
+          "type": "open_ended",
+          "stem": "Explain how to determine concavity from f''.",
+          "rubric": "If f'' > 0, concave up; if f'' < 0, concave down."
+        }
+      ],
+      "passRule": "Both correct."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "Student scores 0-4 on diagnostic and shows persistent confusion across multiple error categories after reteach.",
+    "message": "Please schedule a 1-on-1 session with the student to review foundational curve sketching concepts, focusing on derivative sign interpretation and asymptote identification."
+  }
+}

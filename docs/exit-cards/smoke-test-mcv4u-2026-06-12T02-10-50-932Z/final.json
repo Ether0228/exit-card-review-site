@@ -1,0 +1,775 @@
+{
+  "title": "Geometric Vectors: Magnitude, Direction, and Equality",
+  "sourceLesson": "MCV4U Vectors - Geometric Vectors",
+  "sourceFormat": "uploaded_text",
+  "methodology": "DeepSeek API generation + local validator/renderer QA",
+  "subject": {
+    "courseCode": "MCV4U",
+    "courseName": "Calculus and Vectors",
+    "strand": "Vectors",
+    "teacher": "Teacher",
+    "lessonDate": "2025-01-01"
+  },
+  "lessonAnalysis": {
+    "topic": "Geometric Vectors",
+    "coreLearningGoal": "Understand the definition of a vector, distinguish between scalar and vector quantities, and identify equal, opposite, and parallel vectors.",
+    "successCriteria": [
+      "Define a vector as having magnitude and direction.",
+      "Give examples of scalars and vectors.",
+      "Identify equal, opposite, and parallel vectors from a diagram.",
+      "Express direction using true bearing."
+    ],
+    "lessonExamplesDetected": [
+      "Scalar: mass, temperature",
+      "Vector: displacement, velocity",
+      "Vector AB notation",
+      "Equal vectors: same magnitude and direction",
+      "Opposite vectors: same magnitude, opposite direction",
+      "Parallel vectors: same or opposite direction",
+      "True bearing: southeast = 135°"
+    ],
+    "targetProducts": [
+      "Identify equal and opposite vectors from a set of arrows on a grid."
+    ],
+    "inputEvidenceStudentsShouldUse": [
+      "Arrows u, v, w on a grid"
+    ],
+    "doNotRevealAsQuestionCondition": [
+      "The specific arrows u, v, w and their relationships"
+    ]
+  },
+  "problemAnchor": "A hiker walks 5 km east, then 5 km north. How far and in what direction is the hiker from the start?",
+  "abt": {
+    "and": "We know scalars have only magnitude.",
+    "but": "Many real-world quantities need direction too.",
+    "therefore": "We need vectors to describe them."
+  },
+  "objective": "By the end of this lesson, you will be able to identify and describe geometric vectors, including equal, opposite, and parallel vectors, and use true bearing.",
+  "knowledgeNodes": [
+    {
+      "id": "KN1",
+      "name": "Scalar vs Vector",
+      "lessonEvidence": "Teacher: A scalar has magnitude only, like mass or temperature. A vector has magnitude and direction, like displacement or velocity."
+    },
+    {
+      "id": "KN2",
+      "name": "Vector Notation",
+      "lessonEvidence": "Teacher: Vector AB starts at A and ends at B."
+    },
+    {
+      "id": "KN3",
+      "name": "Equal Vectors",
+      "lessonEvidence": "Teacher: Equal vectors have the same magnitude and same direction even if they are in different locations."
+    },
+    {
+      "id": "KN4",
+      "name": "Opposite Vectors",
+      "lessonEvidence": "Teacher: Opposite vectors have the same magnitude but opposite directions."
+    },
+    {
+      "id": "KN5",
+      "name": "Parallel Vectors",
+      "lessonEvidence": "Teacher: Parallel vectors can point in the same or opposite direction."
+    },
+    {
+      "id": "KN6",
+      "name": "True Bearing",
+      "lessonEvidence": "Teacher: True bearing is measured clockwise from north. Example: southeast is 135 degrees."
+    }
+  ],
+  "errorTaxonomy": [
+    {
+      "errorId": "E01",
+      "meaning": "Confuses scalar and vector quantities"
+    },
+    {
+      "errorId": "E02",
+      "meaning": "Misidentifies equal vectors (ignores direction)"
+    },
+    {
+      "errorId": "E03",
+      "meaning": "Misidentifies opposite vectors (confuses with parallel)"
+    },
+    {
+      "errorId": "E04",
+      "meaning": "Misapplies true bearing (e.g., uses counterclockwise)"
+    }
+  ],
+  "figures": [
+    {
+      "figureId": "fig1",
+      "title": "Arrows u, v, w on a grid",
+      "figureType": "vector_arrow_diagram",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "arrows": [
+          {
+            "x1": 0,
+            "y1": 0,
+            "x2": 3,
+            "y2": 0,
+            "tailLabel": "A",
+            "headLabel": "B",
+            "color": "blue"
+          },
+          {
+            "x1": 1,
+            "y1": 1,
+            "x2": 4,
+            "y2": 1,
+            "tailLabel": "C",
+            "headLabel": "D",
+            "color": "red"
+          },
+          {
+            "x1": 0,
+            "y1": 2,
+            "x2": 0,
+            "y2": 5,
+            "tailLabel": "E",
+            "headLabel": "F",
+            "color": "green"
+          }
+        ],
+        "labels": [
+          {
+            "x": 1.5,
+            "y": -0.5,
+            "text": "u"
+          },
+          {
+            "x": 2.5,
+            "y": 0.5,
+            "text": "v"
+          },
+          {
+            "x": -0.5,
+            "y": 3.5,
+            "text": "w"
+          }
+        ]
+      },
+      "answerLock": {
+        "equalVectors": [
+          "u",
+          "v"
+        ],
+        "oppositeVectors": [],
+        "parallelVectors": [
+          "u",
+          "v"
+        ]
+      }
+    },
+    {
+      "figureId": "fig2",
+      "title": "True bearing diagram",
+      "figureType": "compass_bearing_workspace",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "center": {
+          "x": 0,
+          "y": 0
+        },
+        "labels": [
+          {
+            "x": 0,
+            "y": 5,
+            "text": "N"
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "text": "E"
+          },
+          {
+            "x": 0,
+            "y": -5,
+            "text": "S"
+          },
+          {
+            "x": -5,
+            "y": 0,
+            "text": "W"
+          }
+        ],
+        "arrows": [
+          {
+            "x1": 0,
+            "y1": 0,
+            "x2": 3.54,
+            "y2": -3.54,
+            "tailLabel": "",
+            "headLabel": "SE",
+            "color": "black"
+          }
+        ]
+      },
+      "answerLock": {
+        "bearing": 135
+      }
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 12,
+    "passRule": {
+      "pass": "8-10 correct",
+      "targetedRemediation": "5-7 correct",
+      "reteach": "0-4 correct"
+    },
+    "questions": [
+      {
+        "id": "Q01",
+        "nodeId": "KN1",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "recall",
+        "errorId": "E01",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "Which of the following is a vector quantity?"
+          }
+        ],
+        "options": [
+          {
+            "id": "A",
+            "content": "Mass"
+          },
+          {
+            "id": "B",
+            "content": "Temperature"
+          },
+          {
+            "id": "C",
+            "content": "Displacement"
+          },
+          {
+            "id": "D",
+            "content": "Time"
+          }
+        ],
+        "correct": "C",
+        "feedback": {
+          "correct": "Correct! Displacement has both magnitude and direction.",
+          "incorrect": "Mass, temperature, and time are scalars; they have only magnitude."
+        }
+      },
+      {
+        "id": "Q02",
+        "nodeId": "KN1",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "classify",
+        "errorId": "E01",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "Which pair consists of one scalar and one vector?"
+          }
+        ],
+        "options": [
+          {
+            "id": "A",
+            "content": "Speed and velocity"
+          },
+          {
+            "id": "B",
+            "content": "Distance and displacement"
+          },
+          {
+            "id": "C",
+            "content": "Mass and weight"
+          },
+          {
+            "id": "D",
+            "content": "All of the above"
+          }
+        ],
+        "correct": "D",
+        "feedback": {
+          "correct": "Correct! In each pair, the first is scalar and the second is vector.",
+          "incorrect": "Hint: Speed is scalar, velocity is vector; distance is scalar, displacement is vector; mass is scalar, weight is vector."
+        }
+      },
+      {
+        "id": "Q03",
+        "nodeId": "KN2",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "recall",
+        "errorId": "E01",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "Vector AB is drawn from point A to point B. What does the arrow indicate?"
+          }
+        ],
+        "options": [
+          {
+            "id": "A",
+            "content": "The magnitude only"
+          },
+          {
+            "id": "B",
+            "content": "The direction from A to B"
+          },
+          {
+            "id": "C",
+            "content": "The direction from B to A"
+          },
+          {
+            "id": "D",
+            "content": "Both magnitude and direction from A to B"
+          }
+        ],
+        "correct": "D",
+        "feedback": {
+          "correct": "Correct! The arrow shows both magnitude (length) and direction (from tail to head).",
+          "incorrect": "The arrow indicates both magnitude and direction from the tail (A) to the head (B)."
+        }
+      },
+      {
+        "id": "Q04",
+        "nodeId": "KN3",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "compare",
+        "errorId": "E02",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "Refer to Figure 1. Which two vectors are equal?"
+          }
+        ],
+        "options": [
+          {
+            "id": "A",
+            "content": "u and v"
+          },
+          {
+            "id": "B",
+            "content": "u and w"
+          },
+          {
+            "id": "C",
+            "content": "v and w"
+          },
+          {
+            "id": "D",
+            "content": "None are equal"
+          }
+        ],
+        "correct": "A",
+        "feedback": {
+          "correct": "Correct! u and v have the same length and point right, so they are equal.",
+          "incorrect": "Equal vectors have the same magnitude and direction. u and v both point right and are the same length."
+        }
+      },
+      {
+        "id": "Q05",
+        "nodeId": "KN4",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "compare",
+        "errorId": "E03",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "If vector p has magnitude 5 and points east, which vector is opposite to p?"
+          }
+        ],
+        "options": [
+          {
+            "id": "A",
+            "content": "Magnitude 5, pointing west"
+          },
+          {
+            "id": "B",
+            "content": "Magnitude 5, pointing east"
+          },
+          {
+            "id": "C",
+            "content": "Magnitude 10, pointing west"
+          },
+          {
+            "id": "D",
+            "content": "Magnitude 5, pointing north"
+          }
+        ],
+        "correct": "A",
+        "feedback": {
+          "correct": "Correct! Opposite vectors have same magnitude but opposite direction.",
+          "incorrect": "Opposite vectors have the same magnitude but opposite direction. West is opposite to east."
+        }
+      },
+      {
+        "id": "Q06",
+        "nodeId": "KN5",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "classify",
+        "errorId": "E03",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "Two vectors are parallel if they:"
+          }
+        ],
+        "options": [
+          {
+            "id": "A",
+            "content": "Have the same magnitude"
+          },
+          {
+            "id": "B",
+            "content": "Point in exactly the same direction"
+          },
+          {
+            "id": "C",
+            "content": "Point in the same or opposite direction"
+          },
+          {
+            "id": "D",
+            "content": "Have the same starting point"
+          }
+        ],
+        "correct": "C",
+        "feedback": {
+          "correct": "Correct! Parallel vectors have the same or opposite direction.",
+          "incorrect": "Parallel vectors have the same line of action; they can point in the same or opposite direction."
+        }
+      },
+      {
+        "id": "Q07",
+        "nodeId": "KN6",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "calculate",
+        "errorId": "E04",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "What is the true bearing of a vector pointing directly east?"
+          }
+        ],
+        "options": [
+          {
+            "id": "A",
+            "content": "0°"
+          },
+          {
+            "id": "B",
+            "content": "90°"
+          },
+          {
+            "id": "C",
+            "content": "180°"
+          },
+          {
+            "id": "D",
+            "content": "270°"
+          }
+        ],
+        "correct": "B",
+        "feedback": {
+          "correct": "Correct! True bearing is measured clockwise from north; east is 90°.",
+          "incorrect": "True bearing is measured clockwise from north. East is 90°."
+        }
+      },
+      {
+        "id": "Q08",
+        "nodeId": "KN6",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "calculate",
+        "errorId": "E04",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "A vector has a true bearing of 225°. Which direction does it point?"
+          }
+        ],
+        "options": [
+          {
+            "id": "A",
+            "content": "Northeast"
+          },
+          {
+            "id": "B",
+            "content": "Southeast"
+          },
+          {
+            "id": "C",
+            "content": "Southwest"
+          },
+          {
+            "id": "D",
+            "content": "Northwest"
+          }
+        ],
+        "correct": "C",
+        "feedback": {
+          "correct": "Correct! 225° is halfway between south (180°) and west (270°), so southwest.",
+          "incorrect": "225° is between 180° (south) and 270° (west), so it is southwest."
+        }
+      },
+      {
+        "id": "Q09",
+        "nodeId": "KN3",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "cognitiveAction": "compare",
+        "errorId": "E02",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "In Figure 1, are vectors u and w equal? Explain why or why not."
+          }
+        ],
+        "rubric": "No, they are not equal. u points right (horizontal), w points up (vertical). They have different directions, so they are not equal, even if their magnitudes might be the same.",
+        "feedback": "Equal vectors must have the same magnitude and direction. u and w have different directions."
+      },
+      {
+        "id": "Q10",
+        "nodeId": "KN4",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "cognitiveAction": "compare",
+        "errorId": "E03",
+        "stemParts": [
+          {
+            "type": "text",
+            "content": "If vector a = (3,4) and vector b = (-3,-4), are a and b opposite vectors? Explain."
+          }
+        ],
+        "rubric": "Yes, they are opposite vectors because they have the same magnitude (5) and opposite directions (a points to the northeast, b points to the southwest).",
+        "feedback": "Opposite vectors have the same magnitude and opposite direction. The components are negatives, so direction is opposite."
+      }
+    ]
+  },
+  "reteachModules": [
+    {
+      "errorId": "E01",
+      "trigger": "Student confuses scalar and vector quantities.",
+      "studentMisunderstanding": "Thinks that any quantity with a number is a vector, or that direction is optional.",
+      "miniLesson": {
+        "explain": "A scalar has only magnitude (size). Examples: mass, temperature, speed. A vector has both magnitude and direction. Examples: displacement, velocity, force. To decide, ask: Does it make sense to ask 'which way?' If yes, it's a vector.",
+        "example": "Speed is scalar (e.g., 50 km/h). Velocity is vector (e.g., 50 km/h north).",
+        "memoryAnchor": "Think of a car's speedometer (scalar) vs. a GPS arrow (vector)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Is 'distance' a scalar or vector?",
+          "answer": "Scalar, because it only has magnitude."
+        },
+        {
+          "level": "L2",
+          "prompt": "Is 'acceleration' a scalar or vector?",
+          "answer": "Vector, because it has magnitude and direction (e.g., 9.8 m/s² downward)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Give an example of a scalar and a vector from everyday life.",
+          "answer": "Scalar: temperature 25°C. Vector: wind 20 km/h from the west."
+        }
+      ]
+    },
+    {
+      "errorId": "E02",
+      "trigger": "Student misidentifies equal vectors, often ignoring direction.",
+      "studentMisunderstanding": "Thinks vectors are equal if they have the same length, regardless of direction.",
+      "miniLesson": {
+        "explain": "Equal vectors must have the same magnitude AND the same direction. Two arrows of the same length but pointing different ways are not equal. They can be in different locations, but the direction must be identical.",
+        "example": "Two arrows both 3 cm long pointing east are equal, even if one starts at (0,0) and the other at (1,1).",
+        "memoryAnchor": "Equal vectors are like identical twins: same size and same orientation, but can be in different places."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If vector p is 5 units east, and vector q is 5 units east, are they equal?",
+          "answer": "Yes, same magnitude and direction."
+        },
+        {
+          "level": "L2",
+          "prompt": "If vector r is 5 units east, and vector s is 5 units west, are they equal?",
+          "answer": "No, opposite directions."
+        },
+        {
+          "level": "L3",
+          "prompt": "Two vectors have the same magnitude but different directions. Can they be equal?",
+          "answer": "No, they must have the same direction."
+        }
+      ]
+    },
+    {
+      "errorId": "E03",
+      "trigger": "Student confuses opposite vectors with parallel vectors.",
+      "studentMisunderstanding": "Thinks opposite vectors are any vectors pointing in different directions, or that parallel vectors are always in the same direction.",
+      "miniLesson": {
+        "explain": "Opposite vectors have the same magnitude but exactly opposite directions (180° apart). Parallel vectors have the same or opposite direction (they are along the same line), but they can have different magnitudes. All opposite vectors are parallel, but not all parallel vectors are opposite.",
+        "example": "Vectors (3,4) and (-3,-4) are opposite. Vectors (3,4) and (6,8) are parallel (same direction) but not opposite.",
+        "memoryAnchor": "Opposite = same length, opposite way. Parallel = same line, any length, same or opposite way."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If vector a points north and vector b points south, are they opposite?",
+          "answer": "Yes, if they have the same magnitude."
+        },
+        {
+          "level": "L2",
+          "prompt": "If vector c points north and vector d points north, are they opposite?",
+          "answer": "No, they are parallel and in the same direction."
+        },
+        {
+          "level": "L3",
+          "prompt": "Can two vectors be parallel but not opposite? Give an example.",
+          "answer": "Yes, e.g., (1,0) and (2,0) are parallel (same direction) but not opposite."
+        }
+      ]
+    },
+    {
+      "errorId": "E04",
+      "trigger": "Student misapplies true bearing, e.g., uses counterclockwise or cardinal directions incorrectly.",
+      "studentMisunderstanding": "Thinks bearing is measured from east or counterclockwise.",
+      "miniLesson": {
+        "explain": "True bearing is measured clockwise from north, from 0° to 360°. North = 0°, east = 90°, south = 180°, west = 270°. For directions like southeast, it's halfway between south and east: 135°.",
+        "example": "A vector pointing northeast has bearing 045° (45° clockwise from north).",
+        "memoryAnchor": "Remember: 'North to East is 90°' – clockwise from north."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the true bearing of north?",
+          "answer": "0°"
+        },
+        {
+          "level": "L2",
+          "prompt": "What is the true bearing of west?",
+          "answer": "270°"
+        },
+        {
+          "level": "L3",
+          "prompt": "A vector points northwest. What is its true bearing?",
+          "answer": "315° (halfway between north 0° and west 270°? Actually northwest is 315° because it's 45° west of north, so 360-45=315° or 270+45=315°)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "E01",
+      "questions": [
+        {
+          "id": "R01",
+          "type": "single_choice",
+          "stem": "Which of the following is a scalar quantity?",
+          "options": [
+            "Velocity",
+            "Displacement",
+            "Temperature",
+            "Acceleration"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "R02",
+          "type": "open_ended",
+          "stem": "Explain why force is a vector quantity.",
+          "rubric": "Force has both magnitude (how strong) and direction (which way it pushes or pulls)."
+        }
+      ],
+      "passRule": "Both questions correct"
+    },
+    {
+      "forErrorId": "E02",
+      "questions": [
+        {
+          "id": "R03",
+          "type": "single_choice",
+          "stem": "Two vectors are equal if they have:",
+          "options": [
+            "Same magnitude",
+            "Same direction",
+            "Same magnitude and direction",
+            "Same starting point"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "R04",
+          "type": "open_ended",
+          "stem": "Vector p = (2,3) and vector q = (2,3) but q starts at (1,1). Are p and q equal? Explain.",
+          "rubric": "Yes, they have the same components, so same magnitude and direction. Location does not matter."
+        }
+      ],
+      "passRule": "Both questions correct"
+    },
+    {
+      "forErrorId": "E03",
+      "questions": [
+        {
+          "id": "R05",
+          "type": "single_choice",
+          "stem": "Opposite vectors have:",
+          "options": [
+            "Same magnitude, same direction",
+            "Same magnitude, opposite direction",
+            "Different magnitude, same direction",
+            "Different magnitude, opposite direction"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R06",
+          "type": "open_ended",
+          "stem": "Give an example of two parallel vectors that are not opposite.",
+          "rubric": "Any two vectors with same direction but different magnitude, e.g., (1,0) and (2,0)."
+        }
+      ],
+      "passRule": "Both questions correct"
+    },
+    {
+      "forErrorId": "E04",
+      "questions": [
+        {
+          "id": "R07",
+          "type": "single_choice",
+          "stem": "What is the true bearing of a vector pointing south?",
+          "options": [
+            "0°",
+            "90°",
+            "180°",
+            "270°"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "R08",
+          "type": "open_ended",
+          "stem": "A vector has a true bearing of 045°. In which cardinal direction does it point?",
+          "rubric": "Northeast (45° clockwise from north)."
+        }
+      ],
+      "passRule": "Both questions correct"
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "Student scores 0-4 on diagnostic and also fails retest after reteach.",
+    "message": "Student may have significant gaps in prerequisite knowledge (e.g., basic geometry, coordinate systems). Consider one-on-one intervention."
+  }
+}

@@ -1,0 +1,1089 @@
+{
+  "title": "Introduction to Vectors: Geometric Vectors and Their Properties",
+  "sourceLesson": "MCV4U.S5.Michael 2026-06-11",
+  "sourceFormat": "feishu_transcript_markdown",
+  "methodology": "DeepSeek-first analysis + DeepSeek quality repair + deterministic validator/renderer QA",
+  "subject": {
+    "courseCode": "MCV4U",
+    "courseName": "Calculus and Vectors",
+    "strand": "Vectors",
+    "teacher": "Michael Konstantopoulos",
+    "lessonDate": "2026-06-11"
+  },
+  "lessonAnalysis": {
+    "topic": "Introduction to geometric vectors: definition, magnitude, direction, equal vectors, opposite vectors, parallel vectors, and bearing representation.",
+    "coreLearningGoal": "Understand that a vector has both magnitude and direction, and be able to identify equal, opposite, and parallel vectors from diagrams and descriptions.",
+    "successCriteria": [
+      "Define a vector as a quantity with magnitude and direction.",
+      "Distinguish between vectors and scalars.",
+      "Identify equal vectors (same magnitude and direction).",
+      "Identify opposite vectors (same magnitude, opposite direction).",
+      "Identify parallel vectors (same or opposite direction).",
+      "Represent direction using compass (N/S/E/W) and true bearing (clockwise from north).",
+      "Calculate magnitude from components using Pythagorean theorem."
+    ],
+    "lessonExamplesDetected": [
+      "Cube example: vectors EF, AB, GC, etc. on a cube with side length 10 cm.",
+      "Map example: distance from Toronto to Mississauga (approx 15 km) with scale.",
+      "Velocity example: 3 m/s east and 4 m/s north gives resultant 5 m/s.",
+      "Force example: two boxes pushed with 5 N east each, total 10 N east.",
+      "Grid example: vectors PR and RQ on a square grid."
+    ],
+    "targetProducts": [
+      "Drawing vectors on a cube and identifying equal/opposite pairs.",
+      "Computing magnitude from components.",
+      "Identifying true/false statements about parallel and opposite vectors."
+    ],
+    "inputEvidenceStudentsShouldUse": [
+      "Cube diagram with labeled vertices.",
+      "Map with compass and scale.",
+      "Grid with points P, Q, R.",
+      "Compass rose for bearing."
+    ],
+    "doNotRevealAsQuestionCondition": [
+      "The resultant velocity magnitude (5 m/s) should not be given as a condition; students should compute it.",
+      "The total force (10 N east) should not be given; students should add vectors."
+    ]
+  },
+  "problemAnchor": "A delivery drone flies 3 km east then 4 km north. What is its displacement from the start?",
+  "abt": {
+    "and": "Vectors have both magnitude and direction, and we can represent them as arrows.",
+    "but": "Many students confuse magnitude with direction, or think vectors are just numbers.",
+    "therefore": "We need to practice identifying equal, opposite, and parallel vectors, and using bearings to describe direction."
+  },
+  "objective": "By the end of this exit card, you will be able to identify and describe geometric vectors, including their magnitude, direction, and relationships (equal, opposite, parallel).",
+  "knowledgeNodes": [
+    {
+      "id": "KN1",
+      "name": "Definition of a vector",
+      "lessonEvidence": "Teacher states: 'Vectors are quantities that have both magnitude and direction.'"
+    },
+    {
+      "id": "KN2",
+      "name": "Magnitude of a vector",
+      "lessonEvidence": "Teacher explains magnitude as length, always positive, and uses Pythagorean theorem: sqrt(3^2+4^2)=5."
+    },
+    {
+      "id": "KN3",
+      "name": "Direction of a vector",
+      "lessonEvidence": "Teacher discusses compass directions (N/S/E/W) and true bearing (clockwise from north)."
+    },
+    {
+      "id": "KN4",
+      "name": "Equal vectors",
+      "lessonEvidence": "Teacher defines equal vectors as having same magnitude and direction, uses cube example: EF = AB."
+    },
+    {
+      "id": "KN5",
+      "name": "Opposite vectors",
+      "lessonEvidence": "Teacher defines opposite vectors as same magnitude, opposite direction, uses cube example: FB and AE."
+    },
+    {
+      "id": "KN6",
+      "name": "Parallel vectors",
+      "lessonEvidence": "Teacher explains parallel vectors have same or opposite direction, can be placed on same line."
+    },
+    {
+      "id": "KN7",
+      "name": "Scalar vs vector",
+      "lessonEvidence": "Teacher contrasts scalars (only magnitude) with vectors (magnitude and direction)."
+    }
+  ],
+  "errorTaxonomy": [
+    {
+      "errorId": "E01",
+      "meaning": "Confuses magnitude with direction; thinks a vector is defined only by its length."
+    },
+    {
+      "errorId": "E02",
+      "meaning": "Thinks equal vectors must be on the same line or have same starting point."
+    },
+    {
+      "errorId": "E03",
+      "meaning": "Thinks opposite vectors are not parallel."
+    },
+    {
+      "errorId": "E04",
+      "meaning": "Misapplies Pythagorean theorem or forgets to take square root when computing magnitude."
+    },
+    {
+      "errorId": "E05",
+      "meaning": "Confuses true bearing (clockwise from north) with compass quadrant bearing."
+    },
+    {
+      "errorId": "E06",
+      "meaning": "Thinks all parallel vectors are equal."
+    },
+    {
+      "errorId": "E07",
+      "meaning": "Cannot identify vector direction from diagram (tail to head)."
+    }
+  ],
+  "figures": [
+    {
+      "figureId": "fig1",
+      "title": "Comparison of vectors u, v, w, z",
+      "figureType": "comparison_vectors",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "arrows": [
+          {
+            "x1": 100,
+            "y1": 200,
+            "x2": 250,
+            "y2": 200,
+            "tailLabel": "u",
+            "headLabel": "",
+            "color": "red"
+          },
+          {
+            "x1": 100,
+            "y1": 150,
+            "x2": 250,
+            "y2": 150,
+            "tailLabel": "v",
+            "headLabel": "",
+            "color": "blue"
+          },
+          {
+            "x1": 300,
+            "y1": 200,
+            "x2": 150,
+            "y2": 200,
+            "tailLabel": "w",
+            "headLabel": "",
+            "color": "green"
+          },
+          {
+            "x1": 300,
+            "y1": 150,
+            "x2": 150,
+            "y2": 150,
+            "tailLabel": "z",
+            "headLabel": "",
+            "color": "orange"
+          }
+        ],
+        "labels": [
+          {
+            "x": 90,
+            "y": 210,
+            "text": "u"
+          },
+          {
+            "x": 90,
+            "y": 140,
+            "text": "v"
+          },
+          {
+            "x": 310,
+            "y": 210,
+            "text": "w"
+          },
+          {
+            "x": 310,
+            "y": 140,
+            "text": "z"
+          }
+        ]
+      },
+      "answerLock": {
+        "equalPairs": [
+          [
+            "u",
+            "v"
+          ]
+        ],
+        "oppositePairs": [
+          [
+            "u",
+            "w"
+          ],
+          [
+            "v",
+            "z"
+          ]
+        ]
+      }
+    },
+    {
+      "figureId": "fig2",
+      "title": "Grid with points P, Q, R",
+      "figureType": "vector_arrow_diagram",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "arrows": [
+          {
+            "x1": 100,
+            "y1": 200,
+            "x2": 100,
+            "y2": 100,
+            "tailLabel": "P",
+            "headLabel": "R",
+            "color": "purple"
+          },
+          {
+            "x1": 100,
+            "y1": 100,
+            "x2": 200,
+            "y2": 100,
+            "tailLabel": "R",
+            "headLabel": "Q",
+            "color": "green"
+          }
+        ],
+        "labels": [
+          {
+            "x": 90,
+            "y": 210,
+            "text": "P"
+          },
+          {
+            "x": 90,
+            "y": 90,
+            "text": "R"
+          },
+          {
+            "x": 210,
+            "y": 90,
+            "text": "Q"
+          }
+        ]
+      },
+      "answerLock": {
+        "vectorPR": {
+          "direction": "downward",
+          "magnitude": 3
+        },
+        "vectorRQ": {
+          "direction": "rightward",
+          "magnitude": 4
+        }
+      }
+    },
+    {
+      "figureId": "fig3",
+      "title": "Compass rose with bearing",
+      "figureType": "compass_bearing_workspace",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "bearings": [
+          {
+            "angleDeg": 45,
+            "label": "NE",
+            "color": "red"
+          },
+          {
+            "angleDeg": 135,
+            "label": "SE",
+            "color": "blue"
+          },
+          {
+            "angleDeg": 225,
+            "label": "SW",
+            "color": "green"
+          },
+          {
+            "angleDeg": 315,
+            "label": "NW",
+            "color": "orange"
+          }
+        ]
+      },
+      "answerLock": {
+        "trueBearingNE": "045°",
+        "trueBearingSE": "135°",
+        "trueBearingSW": "225°",
+        "trueBearingNW": "315°"
+      }
+    },
+    {
+      "figureId": "fig4",
+      "title": "Two boxes pushed east with 5 N each",
+      "figureType": "vector_arrow_diagram",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "arrows": [
+          {
+            "x1": 100,
+            "y1": 150,
+            "x2": 300,
+            "y2": 150,
+            "tailLabel": "Box1",
+            "headLabel": "5 N",
+            "color": "blue"
+          },
+          {
+            "x1": 100,
+            "y1": 250,
+            "x2": 300,
+            "y2": 250,
+            "tailLabel": "Box2",
+            "headLabel": "5 N",
+            "color": "red"
+          }
+        ],
+        "labels": [
+          {
+            "x": 200,
+            "y": 130,
+            "text": "East"
+          },
+          {
+            "x": 200,
+            "y": 270,
+            "text": "East"
+          }
+        ]
+      },
+      "answerLock": {
+        "totalForce": "10 N east"
+      }
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 12,
+    "passRule": {
+      "pass": "8-10 correct",
+      "targetedRemediation": "5-7 correct",
+      "reteach": "0-4 correct"
+    },
+    "questions": [
+      {
+        "id": "Q01",
+        "nodeId": "KN1",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "recall",
+        "errorId": "E01",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "Which of the following quantities is a vector?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "Temperature of 25°C",
+            "correct": false,
+            "feedbackWrong": "Temperature has only magnitude, so it is a scalar."
+          },
+          {
+            "label": "B",
+            "text": "Mass of 10 kg",
+            "correct": false,
+            "feedbackWrong": "Mass has only magnitude, so it is a scalar."
+          },
+          {
+            "label": "C",
+            "text": "Velocity of 20 m/s north",
+            "correct": true,
+            "feedbackCorrect": "Correct! Velocity has both magnitude (20 m/s) and direction (north)."
+          },
+          {
+            "label": "D",
+            "text": "Time of 5 seconds",
+            "correct": false,
+            "feedbackWrong": "Time has only magnitude, so it is a scalar."
+          }
+        ]
+      },
+      {
+        "id": "Q02",
+        "nodeId": "KN2",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "compute",
+        "errorId": "E04",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "A vector has components 3 units east and 4 units north. What is its magnitude?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "7 units",
+            "correct": false,
+            "feedbackWrong": "Incorrect. You added the components directly. Use the Pythagorean theorem: sqrt(3^2+4^2)=5."
+          },
+          {
+            "label": "B",
+            "text": "5 units",
+            "correct": true,
+            "feedbackCorrect": "Correct! sqrt(3^2+4^2)=sqrt(9+16)=sqrt(25)=5."
+          },
+          {
+            "label": "C",
+            "text": "12 units",
+            "correct": false,
+            "feedbackWrong": "Incorrect. You multiplied the components. Use the Pythagorean theorem: sqrt(3^2+4^2)=5."
+          },
+          {
+            "label": "D",
+            "text": "25 units",
+            "correct": false,
+            "feedbackWrong": "Incorrect. You forgot to take the square root. sqrt(3^2+4^2)=5, not 25."
+          }
+        ]
+      },
+      {
+        "id": "Q03",
+        "nodeId": "KN4",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "identify",
+        "errorId": "E02",
+        "figureId": "fig1",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "In the figure, which vector is equal to vector u?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "Vector v",
+            "correct": true,
+            "feedbackCorrect": "Correct! Both u and v have the same magnitude and direction (rightward)."
+          },
+          {
+            "label": "B",
+            "text": "Vector w",
+            "correct": false,
+            "feedbackWrong": "Incorrect. w points left, while u points right."
+          },
+          {
+            "label": "C",
+            "text": "Vector z",
+            "correct": false,
+            "feedbackWrong": "Incorrect. z points left, while u points right."
+          },
+          {
+            "label": "D",
+            "text": "None of the above",
+            "correct": false,
+            "feedbackWrong": "Incorrect. v is equal to u."
+          }
+        ]
+      },
+      {
+        "id": "Q04",
+        "nodeId": "KN5",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "identify",
+        "errorId": "E03",
+        "figureId": "fig1",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "In the figure, which vector is opposite to vector u?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "Vector v",
+            "correct": false,
+            "feedbackWrong": "Incorrect. v points same direction as u, not opposite."
+          },
+          {
+            "label": "B",
+            "text": "Vector w",
+            "correct": true,
+            "feedbackCorrect": "Correct! w points left, opposite to u's rightward direction, same magnitude."
+          },
+          {
+            "label": "C",
+            "text": "Vector z",
+            "correct": false,
+            "feedbackWrong": "Incorrect. z points left but has different magnitude than u."
+          },
+          {
+            "label": "D",
+            "text": "None of the above",
+            "correct": false,
+            "feedbackWrong": "Incorrect. w is opposite to u."
+          }
+        ]
+      },
+      {
+        "id": "Q05",
+        "nodeId": "KN6",
+        "type": "single_choice",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "cognitiveAction": "judge",
+        "errorId": "E06",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "True or False: If two vectors are parallel, they must be equal."
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "True",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Parallel vectors can have different magnitudes. For example, two vectors pointing east with lengths 3 and 5 are parallel but not equal."
+          },
+          {
+            "label": "B",
+            "text": "False",
+            "correct": true,
+            "feedbackCorrect": "Correct! Parallel vectors have the same or opposite direction but may have different magnitudes."
+          },
+          {
+            "label": "C",
+            "text": "Only if they point the same direction",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Even if they point the same direction, they may have different magnitudes."
+          },
+          {
+            "label": "D",
+            "text": "Only if they have the same magnitude",
+            "correct": false,
+            "feedbackWrong": "Incorrect. They also need the same direction to be equal."
+          }
+        ]
+      },
+      {
+        "id": "Q06",
+        "nodeId": "KN3",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "interpret",
+        "errorId": "E05",
+        "figureId": "fig3",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "Using the compass rose in the figure, what is the true bearing of the vector pointing northeast?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "045°",
+            "correct": true,
+            "feedbackCorrect": "Correct! Northeast is 45° clockwise from north, so true bearing is 045°."
+          },
+          {
+            "label": "B",
+            "text": "135°",
+            "correct": false,
+            "feedbackWrong": "Incorrect. 135° is southeast."
+          },
+          {
+            "label": "C",
+            "text": "225°",
+            "correct": false,
+            "feedbackWrong": "Incorrect. 225° is southwest."
+          },
+          {
+            "label": "D",
+            "text": "315°",
+            "correct": false,
+            "feedbackWrong": "Incorrect. 315° is northwest."
+          }
+        ]
+      },
+      {
+        "id": "Q07",
+        "nodeId": "KN7",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "distinguish",
+        "errorId": "E01",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "Which of the following is a scalar quantity?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "Displacement of 5 km east",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Displacement has direction, so it is a vector."
+          },
+          {
+            "label": "B",
+            "text": "Force of 10 N downward",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Force has direction, so it is a vector."
+          },
+          {
+            "label": "C",
+            "text": "Speed of 60 km/h",
+            "correct": true,
+            "feedbackCorrect": "Correct! Speed has only magnitude, so it is a scalar."
+          },
+          {
+            "label": "D",
+            "text": "Acceleration of 9.8 m/s² downward",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Acceleration has direction, so it is a vector."
+          }
+        ]
+      },
+      {
+        "id": "Q08",
+        "nodeId": "KN4",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "identify",
+        "errorId": "E07",
+        "figureId": "fig2",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "In the grid figure, vector PR is drawn from P to R. What is the direction of vector PR?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "Downward",
+            "correct": true,
+            "feedbackCorrect": "Correct! PR goes from P (top) to R (bottom), so it is downward."
+          },
+          {
+            "label": "B",
+            "text": "Upward",
+            "correct": false,
+            "feedbackWrong": "Incorrect. PR goes from P to R, which is downward."
+          },
+          {
+            "label": "C",
+            "text": "Rightward",
+            "correct": false,
+            "feedbackWrong": "Incorrect. PR is vertical, not horizontal."
+          },
+          {
+            "label": "D",
+            "text": "Leftward",
+            "correct": false,
+            "feedbackWrong": "Incorrect. PR is vertical, not horizontal."
+          }
+        ]
+      },
+      {
+        "id": "Q09",
+        "nodeId": "KN2",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "cognitiveAction": "compute",
+        "errorId": "E04",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "A vector has components 6 units west and 8 units south. Calculate its magnitude. Show your work."
+          }
+        ],
+        "rubric": "Correct answer: 10 units. Work: sqrt(6^2+8^2)=sqrt(36+64)=sqrt(100)=10. Accept 10 units or 10.",
+        "sampleStrongAnswer": "Magnitude = sqrt(6^2 + 8^2) = sqrt(36 + 64) = sqrt(100) = 10 units."
+      },
+      {
+        "id": "Q10",
+        "nodeId": "KN3",
+        "type": "open_ended",
+        "bloomLevel": "create",
+        "scaffoldLevel": "L3",
+        "cognitiveAction": "construct",
+        "errorId": "E05",
+        "stemParts": [
+          {
+            "type": "text",
+            "value": "A ship sails 50 km on a true bearing of 120°. Describe its direction using compass quadrants (e.g., N30°E)."
+          }
+        ],
+        "rubric": "Correct: S60°E (since 120° clockwise from north is 60° east of south). Accept equivalent descriptions like '60° east of south' or 'S60°E'.",
+        "sampleStrongAnswer": "The direction is S60°E, meaning 60° east of south."
+      }
+    ]
+  },
+  "reteachModules": [
+    {
+      "errorId": "E01",
+      "trigger": "Student selects scalar when asked for vector or vice versa.",
+      "studentMisunderstanding": "Thinks a vector is defined only by its magnitude or confuses vector with scalar.",
+      "miniLesson": {
+        "explain": "A vector has both magnitude and direction. A scalar has only magnitude. For example, speed (scalar) vs velocity (vector).",
+        "example": "Temperature 25°C is scalar; wind 20 km/h north is vector.",
+        "memoryAnchor": "Think of an arrow: the length is magnitude, the arrowhead shows direction."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Is '5 kg' a vector or scalar?",
+          "answer": "Scalar"
+        },
+        {
+          "level": "L2",
+          "prompt": "Is 'displacement 10 m east' a vector or scalar?",
+          "answer": "Vector"
+        },
+        {
+          "level": "L3",
+          "prompt": "Give an example of a vector and a scalar from everyday life.",
+          "answer": "Vector: force 5 N up; scalar: time 10 s."
+        }
+      ]
+    },
+    {
+      "errorId": "E02",
+      "trigger": "Student thinks equal vectors must start at same point or be on same line.",
+      "studentMisunderstanding": "Confuses equal vectors with identical vectors (same position).",
+      "miniLesson": {
+        "explain": "Equal vectors have the same magnitude and direction, regardless of starting point. They are parallel and point the same way.",
+        "example": "In the figure, vectors u and v are equal: both same length, both pointing right.",
+        "memoryAnchor": "Equal vectors are like two arrows of same length pointing same way, even if placed elsewhere."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Are two vectors equal if they have same length but different direction?",
+          "answer": "No"
+        },
+        {
+          "level": "L2",
+          "prompt": "In the figure, is vector u equal to vector w? (u right, w left)",
+          "answer": "No, opposite direction"
+        },
+        {
+          "level": "L3",
+          "prompt": "Draw two equal vectors that are not on the same line.",
+          "answer": "Two parallel arrows of same length pointing same direction, separated."
+        }
+      ]
+    },
+    {
+      "errorId": "E03",
+      "trigger": "Student says opposite vectors are not parallel.",
+      "studentMisunderstanding": "Thinks parallel means same direction only.",
+      "miniLesson": {
+        "explain": "Parallel vectors can be in the same or opposite direction. Opposite vectors are always parallel because they lie on parallel lines.",
+        "example": "Vectors u and w in the figure are opposite and parallel.",
+        "memoryAnchor": "Parallel lines can go same way or opposite ways; vectors on them are parallel."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or false: Opposite vectors are parallel.",
+          "answer": "True"
+        },
+        {
+          "level": "L2",
+          "prompt": "Give an example of two parallel vectors that are not opposite.",
+          "answer": "Two vectors pointing east of different lengths."
+        },
+        {
+          "level": "L3",
+          "prompt": "If vector u and v are opposite, are they parallel? Explain.",
+          "answer": "Yes, because they lie on parallel lines."
+        }
+      ]
+    },
+    {
+      "errorId": "E04",
+      "trigger": "Student computes magnitude incorrectly (e.g., adds components or forgets square root).",
+      "studentMisunderstanding": "Misapplies Pythagorean theorem.",
+      "miniLesson": {
+        "explain": "Magnitude = sqrt(x^2 + y^2). Do not add components directly; square each, sum, then take square root.",
+        "example": "For components 3 and 4: sqrt(9+16)=sqrt(25)=5.",
+        "memoryAnchor": "Pythagorean theorem: a^2+b^2=c^2, so c = sqrt(a^2+b^2)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find magnitude of vector with components 5 and 12.",
+          "answer": "13"
+        },
+        {
+          "level": "L2",
+          "prompt": "Find magnitude of vector with components 8 and 15.",
+          "answer": "17"
+        },
+        {
+          "level": "L3",
+          "prompt": "A vector has components 2 and 2. What is its magnitude? Simplify.",
+          "answer": "sqrt(8)=2√2"
+        }
+      ]
+    },
+    {
+      "errorId": "E05",
+      "trigger": "Student confuses true bearing with quadrant bearing.",
+      "studentMisunderstanding": "Thinks bearing is measured from east or counterclockwise.",
+      "miniLesson": {
+        "explain": "True bearing is measured clockwise from north, always three digits (e.g., 045°). Quadrant bearing uses N/S and E/W (e.g., N45°E).",
+        "example": "Northeast is 045° true bearing, or N45°E quadrant.",
+        "memoryAnchor": "True bearing: start at north, turn clockwise. Like a compass rose: north=000°, east=090°, south=180°, west=270°."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the true bearing of east?",
+          "answer": "090°"
+        },
+        {
+          "level": "L2",
+          "prompt": "Convert S30°W to true bearing.",
+          "answer": "210°"
+        },
+        {
+          "level": "L3",
+          "prompt": "A vector points 60° east of north. What is its true bearing?",
+          "answer": "060°"
+        }
+      ]
+    },
+    {
+      "errorId": "E06",
+      "trigger": "Student thinks all parallel vectors are equal.",
+      "studentMisunderstanding": "Ignores magnitude requirement for equality.",
+      "miniLesson": {
+        "explain": "Parallel vectors have same or opposite direction, but may have different magnitudes. Equal vectors must have same magnitude AND direction.",
+        "example": "Two arrows pointing east, one 5 cm, one 10 cm: parallel but not equal.",
+        "memoryAnchor": "Parallel = same line direction; equal = same length AND same direction."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Are all parallel vectors equal?",
+          "answer": "No"
+        },
+        {
+          "level": "L2",
+          "prompt": "Give an example of parallel vectors that are not equal.",
+          "answer": "Vector of length 2 east and vector of length 3 east."
+        },
+        {
+          "level": "L3",
+          "prompt": "If two vectors are equal, must they be parallel? Explain.",
+          "answer": "Yes, because same direction implies parallel."
+        }
+      ]
+    },
+    {
+      "errorId": "E07",
+      "trigger": "Student misidentifies direction from diagram (e.g., reads tail to head incorrectly).",
+      "studentMisunderstanding": "Confuses which end is tail and which is head.",
+      "miniLesson": {
+        "explain": "A vector is drawn from tail to head. The arrowhead points to the head. The direction is from tail to head.",
+        "example": "In vector AB, A is tail, B is head, direction from A to B.",
+        "memoryAnchor": "Read vector notation: first letter is tail, second is head. Arrow points from first to second."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In vector PQ, which point is the tail?",
+          "answer": "P"
+        },
+        {
+          "level": "L2",
+          "prompt": "If vector is drawn from X to Y, what is the direction?",
+          "answer": "From X to Y"
+        },
+        {
+          "level": "L3",
+          "prompt": "Draw vector from (0,0) to (3,4). What is its direction?",
+          "answer": "Approximately 53° above horizontal."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "E01",
+      "questions": [
+        {
+          "id": "R01",
+          "type": "single_choice",
+          "stem": "Which of the following is a vector quantity?",
+          "options": [
+            "Distance of 10 km",
+            "Speed of 50 km/h",
+            "Velocity of 50 km/h north",
+            "Time of 2 hours"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "R02",
+          "type": "open_ended",
+          "stem": "Explain the difference between a scalar and a vector. Give one example of each.",
+          "rubric": "Scalar has only magnitude (e.g., mass). Vector has magnitude and direction (e.g., displacement)."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E02",
+      "questions": [
+        {
+          "id": "R03",
+          "type": "single_choice",
+          "stem": "Two vectors are equal if they have:",
+          "options": [
+            "Same magnitude and same direction",
+            "Same magnitude only",
+            "Same direction only",
+            "Same starting point"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R04",
+          "type": "open_ended",
+          "stem": "Draw two equal vectors that are not on the same line. Describe them.",
+          "rubric": "Two arrows of same length pointing same direction, not overlapping."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E03",
+      "questions": [
+        {
+          "id": "R05",
+          "type": "single_choice",
+          "stem": "Opposite vectors are always:",
+          "options": [
+            "Parallel",
+            "Equal",
+            "Perpendicular",
+            "Collinear but not parallel"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R06",
+          "type": "open_ended",
+          "stem": "Explain why opposite vectors are parallel.",
+          "rubric": "They lie on parallel lines (same orientation, opposite direction)."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E04",
+      "questions": [
+        {
+          "id": "R07",
+          "type": "single_choice",
+          "stem": "A vector has components 9 and 12. Its magnitude is:",
+          "options": [
+            "21",
+            "15",
+            "3",
+            "144"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R08",
+          "type": "open_ended",
+          "stem": "Find the magnitude of a vector with components 7 and 24. Show work.",
+          "rubric": "sqrt(49+576)=sqrt(625)=25"
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E05",
+      "questions": [
+        {
+          "id": "R09",
+          "type": "single_choice",
+          "stem": "The true bearing of a vector pointing directly west is:",
+          "options": [
+            "090°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "R10",
+          "type": "open_ended",
+          "stem": "Convert the quadrant bearing N60°W to a true bearing.",
+          "rubric": "300° (since 360-60=300)"
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E06",
+      "questions": [
+        {
+          "id": "R11",
+          "type": "single_choice",
+          "stem": "If two vectors are parallel, they:",
+          "options": [
+            "Must be equal",
+            "Must have same magnitude",
+            "May have different magnitudes",
+            "Must be opposite"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "R12",
+          "type": "open_ended",
+          "stem": "Give an example of two parallel vectors that are not equal.",
+          "rubric": "e.g., 3 cm east and 5 cm east."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E07",
+      "questions": [
+        {
+          "id": "R13",
+          "type": "single_choice",
+          "stem": "In vector notation, vector AB is drawn from:",
+          "options": [
+            "A to B",
+            "B to A",
+            "A to A",
+            "B to B"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R14",
+          "type": "open_ended",
+          "stem": "Draw a vector from point (1,2) to point (4,6). What is its direction (angle from horizontal)?",
+          "rubric": "Approximately 53° (since tanθ=4/3)."
+        }
+      ],
+      "passRule": "Both correct"
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "Student scores 0-4 correct on diagnostic, or shows persistent confusion on multiple error types after reteach.",
+    "message": "Please schedule a 1-on-1 session with Michael to review vector fundamentals, especially the definition of vectors, magnitude, and direction."
+  }
+}

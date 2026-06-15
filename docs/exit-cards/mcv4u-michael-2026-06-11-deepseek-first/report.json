@@ -1,0 +1,42 @@
+{
+  "generatedAt": "2026-06-12T01:06:19.457Z",
+  "modelStrategy": "DeepSeek-first generation plus DeepSeek quality repair; script performs mechanical validation/rendering only",
+  "qualityReview": {
+    "summary": "Mechanical validation passed, but pedagogical and renderer review found quality issues that need DeepSeek repair.",
+    "issues": [
+      "stemParts currently use {text: ...} instead of {type:'text', value:'...'}, causing question stems to render blank in the review HTML.",
+      "Several figure answerLock objects are empty. Each figure must contain the values students are expected to infer, such as equal/opposite relationships, bearing angles, vector directions, or component magnitudes.",
+      "Some figureSpec arrow coordinates are outside the renderer viewBox safe area. Use x=40..680 and y=50..330 for arrows, labels y=30..350.",
+      "The cube figure is pedagogically risky: the EF/AB/FB/AE relationships may not match the conventional cube naming used in class. If using a cube, define the layout clearly in figureSpec and make answerLock explicit; otherwise replace with a simpler comparison_vectors diagram.",
+      "Previous repair failed because fig1 answerLock marked the same vector pairs as both equal and opposite. This is a concept blocker.",
+      "Q10 says true bearing 120° equals S60°E, but 120° clockwise from north is E30°S or S60°E depending convention; the prompt asks compass quadrants and needs clearer wording and answerLock to avoid ambiguity.",
+      "The card overuses isolated recall/recognition. Add at least one integrated vector reasoning item using input evidence, such as components -> magnitude/direction or same/opposite/parallel classification from arrows.",
+      "Do not reveal final resultant or total force as a diagnostic condition. Use evidence/workspace figures only."
+    ],
+    "requiredFixes": [
+      "Keep DeepSeek-authored lessonAnalysis but update it if needed.",
+      "Use valid stemParts format: {type:'text', value:'...'} and {type:'math', latex:'...'} for formula/vector notation.",
+      "Rewrite figures to be renderer-safe, with non-empty answerLock.",
+      "Replace fig1 with a simple comparison_vectors diagram. Do not use cube_vector_edges for fig1. Use clearly separated arrows named u, v, w, z so that equal and opposite relationships are unambiguous.",
+      "No pair may appear in both answerLock.equalPairs and answerLock.oppositePairs.",
+      "Keep exactly 10 questions, 8 single_choice, 2 open_ended.",
+      "Keep every diagnostic errorId mapped to reteach and retest.",
+      "Maintain Evidence Before Product: no diagnostic figure may be final_product."
+    ]
+  },
+  "repair": {
+    "model": "deepseek-v4-flash",
+    "latencyMs": 47847,
+    "usage": {
+      "prompt_tokens": 16569,
+      "completion_tokens": 8640,
+      "total_tokens": 25209,
+      "prompt_tokens_details": {
+        "cached_tokens": 1152
+      },
+      "prompt_cache_hit_tokens": 1152,
+      "prompt_cache_miss_tokens": 15417
+    }
+  },
+  "finalIssues": []
+}

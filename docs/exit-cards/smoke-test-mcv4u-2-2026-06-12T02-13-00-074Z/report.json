@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-06-12T02:14:18.200Z",
+  "model": "deepseek-v4-flash",
+  "fileName": "smoke-test-mcv4u-2.md",
+  "issues": [
+    "at least 3 questions should use figures when the lesson needs visual evidence",
+    "F02 missing answerLock"
+  ],
+  "usage": {
+    "prompt_tokens": 1231,
+    "completion_tokens": 5500,
+    "total_tokens": 6731,
+    "prompt_tokens_details": {
+      "cached_tokens": 1152
+    },
+    "prompt_cache_hit_tokens": 1152,
+    "prompt_cache_miss_tokens": 79
+  },
+  "latencyMs": 40884,
+  "repair": {
+    "model": "deepseek-v4-flash",
+    "latencyMs": 37227,
+    "usage": {
+      "prompt_tokens": 7586,
+      "completion_tokens": 6633,
+      "total_tokens": 14219,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 7586
+    }
+  }
+}

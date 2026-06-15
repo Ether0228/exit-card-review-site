@@ -1,0 +1,2160 @@
+{
+  "title": "MCV4U Curve Sketching Exit Card",
+  "sourceLesson": "MCV4U.S5.Michael 2026-06-10 Transcript",
+  "sourceFormat": "uploaded_text",
+  "methodology": "DeepSeek API generation + local validator/renderer QA",
+  "subject": {
+    "courseCode": "MCV4U",
+    "courseName": "Calculus and Vectors",
+    "strand": "Curve Sketching",
+    "teacher": "Michael Konstantopoulos",
+    "lessonDate": "2026-06-10"
+  },
+  "lessonAnalysis": {
+    "topic": "Curve Sketching Using First and Second Derivatives",
+    "coreLearningGoal": "Students will be able to analyze a function using its first and second derivatives to determine intervals of increase/decrease, concavity, critical points, and points of inflection, and then synthesize this information to sketch the graph.",
+    "successCriteria": [
+      "Determine the domain of a function and identify any discontinuities or asymptotes.",
+      "Compute first and second derivatives correctly.",
+      "Construct and interpret sign charts for f'(x) and f''(x).",
+      "Identify local extrema and points of inflection from derivative information.",
+      "Sketch a function's graph by combining domain, intercepts, asymptotes, and derivative analysis."
+    ],
+    "lessonExamplesDetected": [
+      "Polynomial: f(x) = x^3 - 6x^2 + 9x",
+      "Polynomial: f(x) = x^4 - 2x^2 (implied from discussion of intervals and concavity)",
+      "Rational: f(x) = (x^2)/(x-1) (oblique asymptote example)",
+      "Graph matching: identifying f, f', f'' from three given curves"
+    ],
+    "targetProducts": [
+      "A complete sketch of a function's graph with labeled intercepts, asymptotes, local extrema, and inflection points."
+    ],
+    "inputEvidenceStudentsShouldUse": [
+      "Sign charts for f'(x) and f''(x)",
+      "Derivative values at test points",
+      "Given graphs of f, f', f'' for matching",
+      "Algebraic expressions for f(x) and its derivatives"
+    ],
+    "doNotRevealAsQuestionCondition": [
+      "The final complete graph of the function being analyzed",
+      "The correct matching labels (e.g., 'A = f') in graph matching tasks"
+    ]
+  },
+  "assessmentBlueprint": {
+    "finalTargetProduct": "A fully labeled sketch of a function's graph based on derivative analysis.",
+    "diagnosticEvidence": [
+      "Sign charts (completed or partially completed)",
+      "Derivative graphs (f' or f'')",
+      "Function graphs with missing features",
+      "Flawed student work",
+      "Comparison of multiple graph options"
+    ],
+    "excludedOrDeferredContent": [
+      "Vectors (introduced next lesson)",
+      "Detailed algebraic simplification of derivatives (focus on interpretation)",
+      "Non-rational asymptotes beyond oblique (e.g., curvilinear)"
+    ],
+    "questionPlan": [
+      {
+        "questionId": "Q1",
+        "knowledgeNode": "KN1",
+        "errorId": "E1",
+        "cognitiveAction": "identify_algorithm_entry_point",
+        "evidenceNeeded": [
+          "original function"
+        ],
+        "reasonForInclusion": "Checks that students start curve sketching from function type, domain, and continuity rather than a prebuilt sign chart.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q1 reveals a blocker in identify_algorithm_entry_point."
+      },
+      {
+        "questionId": "Q2",
+        "knowledgeNode": "KN2",
+        "errorId": "E2",
+        "cognitiveAction": "find_critical_numbers_from_derivative",
+        "evidenceNeeded": [
+          "original function",
+          "first derivative factorization"
+        ],
+        "reasonForInclusion": "Checks that students can move from derivative to critical numbers before reading a sign chart.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q2 reveals a blocker in find_critical_numbers_from_derivative."
+      },
+      {
+        "questionId": "Q3",
+        "knowledgeNode": "KN3",
+        "errorId": "E3",
+        "cognitiveAction": "interpret_concavity_chart",
+        "evidenceNeeded": [
+          "sign chart for f''(x)"
+        ],
+        "reasonForInclusion": "Core skill: reading concavity from second derivative sign.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q3 reveals a blocker in interpret_concavity_chart."
+      },
+      {
+        "questionId": "Q4",
+        "knowledgeNode": "KN4",
+        "errorId": "E4",
+        "cognitiveAction": "identify_inflection_point",
+        "evidenceNeeded": [
+          "sign chart for f''(x)"
+        ],
+        "reasonForInclusion": "Common error: confusing inflection points with extrema or points where f'=0.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q4 reveals a blocker in identify_inflection_point."
+      },
+      {
+        "questionId": "Q5",
+        "knowledgeNode": "KN5",
+        "errorId": "E5",
+        "cognitiveAction": "match_derivative_graphs",
+        "evidenceNeeded": [
+          "three graphs labeled A, B, C"
+        ],
+        "reasonForInclusion": "Diagnoses understanding of f/f'/f'' graphical relationships.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q5 reveals a blocker in match_derivative_graphs."
+      },
+      {
+        "questionId": "Q6",
+        "knowledgeNode": "KN6",
+        "errorId": "E6",
+        "cognitiveAction": "identify_asymptote",
+        "evidenceNeeded": [
+          "rational function equation"
+        ],
+        "reasonForInclusion": "Essential for rational function sketching; common error: missing oblique asymptote.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q6 reveals a blocker in identify_asymptote."
+      },
+      {
+        "questionId": "Q7",
+        "knowledgeNode": "KN7",
+        "errorId": "E7",
+        "cognitiveAction": "analyze_flawed_sketch",
+        "evidenceNeeded": [
+          "flawed graph with derivative info"
+        ],
+        "reasonForInclusion": "Higher-order: critique a sketch against derivative evidence.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q7 reveals a blocker in analyze_flawed_sketch."
+      },
+      {
+        "questionId": "Q8",
+        "knowledgeNode": "KN8",
+        "errorId": "E8",
+        "cognitiveAction": "select_matching_graph",
+        "evidenceNeeded": [
+          "derivative sign info",
+          "four graph options"
+        ],
+        "reasonForInclusion": "Synthesis: choose the graph consistent with given derivative behavior.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q8 reveals a blocker in select_matching_graph."
+      },
+      {
+        "questionId": "Q9",
+        "knowledgeNode": "KN9",
+        "errorId": "E9",
+        "cognitiveAction": "explain_concavity_change",
+        "evidenceNeeded": [
+          "sign chart for f''(x)"
+        ],
+        "reasonForInclusion": "Open-ended: articulate reasoning about inflection points.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q9 reveals a blocker in explain_concavity_change."
+      },
+      {
+        "questionId": "Q10",
+        "knowledgeNode": "KN10",
+        "errorId": "E10",
+        "cognitiveAction": "describe_sketch_features",
+        "evidenceNeeded": [
+          "derivative sign charts",
+          "asymptote info"
+        ],
+        "reasonForInclusion": "Open-ended: describe key features of a graph without drawing it.",
+        "lessonEvidence": "Supported by the transcript discussion of curve sketching, derivative sign charts, extrema, concavity, graph matching, or rational asymptotes.",
+        "failureReveals": "A wrong answer on Q10 reveals a blocker in describe_sketch_features."
+      }
+    ],
+    "materialPlan": [
+      {
+        "materialId": "M1",
+        "materialType": "sign_chart",
+        "supportsQuestionIds": [
+          "Q1",
+          "Q2"
+        ],
+        "evidencePurpose": "Provide f'(x) sign information for interpretation.",
+        "studentVisibleInfo": [
+          "intervals",
+          "signs of f'"
+        ],
+        "hiddenAnswerInfo": [
+          "conclusions about increase/decrease",
+          "classification of critical points"
+        ]
+      },
+      {
+        "materialId": "M2",
+        "materialType": "sign_chart",
+        "supportsQuestionIds": [
+          "Q3",
+          "Q4",
+          "Q9"
+        ],
+        "evidencePurpose": "Provide f''(x) sign information for concavity and inflection.",
+        "studentVisibleInfo": [
+          "intervals",
+          "signs of f''"
+        ],
+        "hiddenAnswerInfo": [
+          "concavity intervals",
+          "inflection points"
+        ]
+      },
+      {
+        "materialId": "M3",
+        "materialType": "derivative_graph_matching",
+        "supportsQuestionIds": [
+          "Q5"
+        ],
+        "evidencePurpose": "Three curves for f, f', f'' matching.",
+        "studentVisibleInfo": [
+          "curves A, B, C"
+        ],
+        "hiddenAnswerInfo": [
+          "correct labels: A=f, B=f', C=f''"
+        ]
+      },
+      {
+        "materialId": "M4",
+        "materialType": "function_curve",
+        "supportsQuestionIds": [
+          "Q7"
+        ],
+        "evidencePurpose": "Flawed sketch for critique.",
+        "studentVisibleInfo": [
+          "graph with errors"
+        ],
+        "hiddenAnswerInfo": [
+          "correct features"
+        ]
+      },
+      {
+        "materialId": "M5",
+        "materialType": "function_curve",
+        "supportsQuestionIds": [
+          "Q8"
+        ],
+        "evidencePurpose": "Four graph options for selection.",
+        "studentVisibleInfo": [
+          "four curves"
+        ],
+        "hiddenAnswerInfo": [
+          "which curve matches derivative info"
+        ]
+      }
+    ],
+    "evidenceProgression": "This card starts by checking the curve-sketching entry point and critical-number generation from the original function, then moves to interpretation of provided derivative sign charts, derivative-graph matching, flawed-work critique, and synthesis of graph features.",
+    "openingQuestionRationale": "The lesson target is a curve-sketching algorithm, so the opening questions should not assume the derivative evidence is already understood. They begin with the original polynomial and the derivative-to-critical-number step before using completed sign charts as later evidence."
+  },
+  "questionMaterialContracts": [
+    {
+      "questionId": "Q3",
+      "figureId": "F2",
+      "cognitiveAction": "interpret_concavity_chart",
+      "requiredEvidence": [
+        "sign chart for f''(x)"
+      ],
+      "whyThisFigureIsNeeded": "Concavity is determined by the sign of f''.",
+      "whatMustNotBeShown": [
+        "concavity intervals"
+      ]
+    },
+    {
+      "questionId": "Q4",
+      "figureId": "F2",
+      "cognitiveAction": "identify_inflection_point",
+      "requiredEvidence": [
+        "sign chart for f''(x)"
+      ],
+      "whyThisFigureIsNeeded": "Inflection points occur where f'' changes sign.",
+      "whatMustNotBeShown": [
+        "location of inflection points"
+      ]
+    },
+    {
+      "questionId": "Q5",
+      "figureId": "F3",
+      "cognitiveAction": "match_derivative_graphs",
+      "requiredEvidence": [
+        "three curves A, B, C"
+      ],
+      "whyThisFigureIsNeeded": "Visual matching of f, f', f'' requires the graphs.",
+      "whatMustNotBeShown": [
+        "labels indicating which is f, f', f''"
+      ]
+    },
+    {
+      "questionId": "Q7",
+      "figureId": "F4",
+      "cognitiveAction": "analyze_flawed_sketch",
+      "requiredEvidence": [
+        "flawed graph",
+        "derivative info"
+      ],
+      "whyThisFigureIsNeeded": "Students must compare the sketch to derivative evidence.",
+      "whatMustNotBeShown": [
+        "the correct graph"
+      ]
+    },
+    {
+      "questionId": "Q8",
+      "figureId": "F5",
+      "cognitiveAction": "select_matching_graph",
+      "requiredEvidence": [
+        "derivative sign info",
+        "four graph options"
+      ],
+      "whyThisFigureIsNeeded": "Students must visually identify the graph consistent with derivative behavior.",
+      "whatMustNotBeShown": [
+        "which graph is correct"
+      ]
+    },
+    {
+      "questionId": "Q9",
+      "figureId": "F2",
+      "cognitiveAction": "explain_concavity_change",
+      "requiredEvidence": [
+        "sign of f'' before and after x = -1",
+        "change in concavity"
+      ],
+      "whyThisFigureIsNeeded": "Students must use the second derivative sign chart to justify why a point is an inflection point rather than only naming f''=0.",
+      "whatMustNotBeShown": [
+        "the written conclusion that x = -1 is an inflection point",
+        "a completed final graph"
+      ]
+    }
+  ],
+  "problemAnchor": "You are helping a classmate check their curve-sketching work. They have computed derivatives and made sign charts, but they are unsure how to interpret them to sketch the graph correctly.",
+  "abt": {
+    "and": "Students can compute derivatives and create sign charts",
+    "but": "they struggle to translate sign chart information into accurate graph features like intervals of increase, concavity, and inflection points",
+    "therefore": "we need to diagnose their ability to read and apply sign charts and derivative graphs to sketch or critique curves."
+  },
+  "objective": "Diagnose students' ability to interpret first and second derivative sign charts, match f/f'/f'' graphs, identify asymptotes, and critique or select graphs based on derivative evidence.",
+  "knowledgeNodes": [
+    {
+      "id": "KN1",
+      "name": "Interpreting f' sign charts for increase/decrease",
+      "lessonEvidence": "Teacher explained using sign chart to determine where f' > 0 (increasing) and f' < 0 (decreasing)."
+    },
+    {
+      "id": "KN2",
+      "name": "Classifying critical points using first derivative test",
+      "lessonEvidence": "Teacher found critical points where f'=0 and checked sign change to identify local max/min."
+    },
+    {
+      "id": "KN3",
+      "name": "Interpreting f'' sign charts for concavity",
+      "lessonEvidence": "Teacher used f'' sign chart to determine concave up (f''>0) and concave down (f''<0)."
+    },
+    {
+      "id": "KN4",
+      "name": "Identifying points of inflection from f'' sign change",
+      "lessonEvidence": "Teacher set f''=0 and checked sign change to find inflection points."
+    },
+    {
+      "id": "KN5",
+      "name": "Matching graphs of f, f', f''",
+      "lessonEvidence": "Teacher showed three graphs and explained how f' sign relates to slope of f, and f'' sign relates to concavity of f."
+    },
+    {
+      "id": "KN6",
+      "name": "Finding asymptotes of rational functions",
+      "lessonEvidence": "Teacher found vertical asymptote (denominator=0) and oblique asymptote (long division) for rational function."
+    },
+    {
+      "id": "KN7",
+      "name": "Critiquing a graph against derivative evidence",
+      "lessonEvidence": "Teacher discussed how a graph must be consistent with derivative sign charts."
+    },
+    {
+      "id": "KN8",
+      "name": "Selecting a graph consistent with derivative behavior",
+      "lessonEvidence": "Teacher sketched graphs based on derivative analysis."
+    },
+    {
+      "id": "KN9",
+      "name": "Explaining concavity change and inflection",
+      "lessonEvidence": "Teacher explained that concavity changes where f'' changes sign."
+    },
+    {
+      "id": "KN10",
+      "name": "Describing graph features from derivative info",
+      "lessonEvidence": "Teacher summarized features like extrema, inflection, and asymptotes before sketching."
+    }
+  ],
+  "errorTaxonomy": [
+    {
+      "errorId": "E1",
+      "meaning": "Misreads sign chart: thinks f'>0 means decreasing or vice versa."
+    },
+    {
+      "errorId": "E2",
+      "meaning": "Assumes every critical point is a local extremum, ignoring sign change requirement."
+    },
+    {
+      "errorId": "E3",
+      "meaning": "Confuses concavity: thinks f''>0 means concave down."
+    },
+    {
+      "errorId": "E4",
+      "meaning": "Identifies inflection point where f'=0 instead of where f'' changes sign."
+    },
+    {
+      "errorId": "E5",
+      "meaning": "Cannot correctly match f, f', f'' graphs; e.g., matches f' to the graph with the most extrema."
+    },
+    {
+      "errorId": "E6",
+      "meaning": "Misses oblique asymptote when degree of numerator is one more than denominator."
+    },
+    {
+      "errorId": "E7",
+      "meaning": "Fails to notice inconsistency between sketch and derivative sign (e.g., increasing where f'<0)."
+    },
+    {
+      "errorId": "E8",
+      "meaning": "Selects a graph that does not match given derivative behavior (e.g., wrong concavity)."
+    },
+    {
+      "errorId": "E9",
+      "meaning": "Cannot articulate why an inflection point occurs; only states f''=0 without sign change."
+    },
+    {
+      "errorId": "E10",
+      "meaning": "Omits key features (asymptotes, inflection) when describing a graph from derivative info."
+    }
+  ],
+  "figures": [
+    {
+      "figureId": "F1",
+      "title": "Sign chart for f'(x)",
+      "figureType": "derivative_sign_chart",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "kind": "sign_chart",
+        "functionLabel": "f'(x)",
+        "criticalPoints": [
+          -2,
+          1,
+          4
+        ],
+        "intervals": [
+          {
+            "interval": "(-∞, -2)",
+            "sign": "+"
+          },
+          {
+            "interval": "(-2, 1)",
+            "sign": "-"
+          },
+          {
+            "interval": "(1, 4)",
+            "sign": "-"
+          },
+          {
+            "interval": "(4, ∞)",
+            "sign": "+"
+          }
+        ],
+        "type": "sign_chart"
+      },
+      "answerLock": {
+        "increaseIntervals": [
+          "(-∞, -2)",
+          "(4, ∞)"
+        ],
+        "decreaseIntervals": [
+          "(-2, 1)",
+          "(1, 4)"
+        ],
+        "criticalPointTypes": {
+          "1": "neither (no sign change)",
+          "4": "local min",
+          "-2": "local max"
+        }
+      }
+    },
+    {
+      "figureId": "F2",
+      "title": "Sign chart for f''(x)",
+      "figureType": "derivative_sign_chart",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "kind": "sign_chart",
+        "functionLabel": "f''(x)",
+        "criticalPoints": [
+          -1,
+          2
+        ],
+        "intervals": [
+          {
+            "interval": "(-∞, -1)",
+            "sign": "-"
+          },
+          {
+            "interval": "(-1, 2)",
+            "sign": "+"
+          },
+          {
+            "interval": "(2, ∞)",
+            "sign": "-"
+          }
+        ],
+        "type": "sign_chart"
+      },
+      "answerLock": {
+        "concaveUpIntervals": [
+          "(-1, 2)"
+        ],
+        "concaveDownIntervals": [
+          "(-∞, -1)",
+          "(2, ∞)"
+        ],
+        "inflectionPoints": [
+          "x = -1",
+          "x = 2"
+        ]
+      }
+    },
+    {
+      "figureId": "F3",
+      "title": "Graphs of f, f', f''",
+      "figureType": "derivative_graph_matching",
+      "renderer": "local_svg",
+      "materialRole": "comparison_option",
+      "figureSpec": {
+        "kind": "derivative_graph_matching",
+        "grid": {
+          "xRange": [
+            -3,
+            3
+          ],
+          "yRange": [
+            -5,
+            5
+          ]
+        },
+        "curves": [
+          {
+            "id": "A",
+            "color": "red",
+            "label": "A",
+            "studentLabel": "A",
+            "reviewLabel": "A = f",
+            "points": [
+              {
+                "x": -2.5,
+                "y": -3.25
+              },
+              {
+                "x": -2,
+                "y": 0
+              },
+              {
+                "x": -1.5,
+                "y": 1.69
+              },
+              {
+                "x": -1,
+                "y": 2
+              },
+              {
+                "x": -0.5,
+                "y": 1.44
+              },
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0.5,
+                "y": -1.44
+              },
+              {
+                "x": 1,
+                "y": -2
+              },
+              {
+                "x": 1.5,
+                "y": -1.69
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 2.5,
+                "y": 3.25
+              }
+            ]
+          },
+          {
+            "id": "B",
+            "color": "blue",
+            "label": "B",
+            "studentLabel": "B",
+            "reviewLabel": "B = f'",
+            "points": [
+              {
+                "x": -2.5,
+                "y": 4.69
+              },
+              {
+                "x": -2,
+                "y": 3
+              },
+              {
+                "x": -1.5,
+                "y": 1.31
+              },
+              {
+                "x": -1,
+                "y": 0
+              },
+              {
+                "x": -0.5,
+                "y": -0.94
+              },
+              {
+                "x": 0,
+                "y": -1.5
+              },
+              {
+                "x": 0.5,
+                "y": -0.94
+              },
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 1.5,
+                "y": 1.31
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 2.5,
+                "y": 4.69
+              }
+            ]
+          },
+          {
+            "id": "C",
+            "color": "green",
+            "label": "C",
+            "studentLabel": "C",
+            "reviewLabel": "C = f''",
+            "points": [
+              {
+                "x": -2.5,
+                "y": -3.75
+              },
+              {
+                "x": -2,
+                "y": -3
+              },
+              {
+                "x": -1.5,
+                "y": -2.25
+              },
+              {
+                "x": -1,
+                "y": -1.5
+              },
+              {
+                "x": -0.5,
+                "y": -0.75
+              },
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0.5,
+                "y": 0.75
+              },
+              {
+                "x": 1,
+                "y": 1.5
+              },
+              {
+                "x": 1.5,
+                "y": 2.25
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 2.5,
+                "y": 3.75
+              }
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "x": -2.85,
+            "y": 4.6,
+            "text": "Use slope evidence: extrema of one curve align with zeros of another."
+          },
+          {
+            "x": -2.85,
+            "y": 4.05,
+            "text": "Use concavity evidence: slope changes align with second-derivative signs."
+          }
+        ]
+      },
+      "answerLock": {
+        "correctMatch": {
+          "f": "A",
+          "f'": "B",
+          "f''": "C"
+        },
+        "explanation": "A has local extrema where B crosses the x-axis; B has an extremum where C crosses the x-axis."
+      }
+    },
+    {
+      "figureId": "F4",
+      "title": "Flawed sketch for critique",
+      "figureType": "function_curve",
+      "renderer": "local_svg",
+      "materialRole": "flawed_work",
+      "figureSpec": {
+        "kind": "function_curve",
+        "grid": {
+          "xRange": [
+            -3,
+            3
+          ],
+          "yRange": [
+            -5,
+            5
+          ]
+        },
+        "curves": [
+          {
+            "id": "flawed",
+            "color": "black",
+            "points": [
+              {
+                "x": -3,
+                "y": 4
+              },
+              {
+                "x": -2,
+                "y": 2
+              },
+              {
+                "x": -1,
+                "y": 0
+              },
+              {
+                "x": 0,
+                "y": -1
+              },
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 3,
+                "y": 4
+              }
+            ]
+          }
+        ],
+        "keyPoints": [],
+        "features": {}
+      },
+      "answerLock": {
+        "errors": [
+          "Curve is increasing on (-2,0) but f' chart shows negative on that interval.",
+          "Curve is concave up everywhere but f'' chart shows concave down on (-∞,-1)."
+        ]
+      }
+    },
+    {
+      "figureId": "F5",
+      "title": "Graph options for selection",
+      "figureType": "function_curve",
+      "renderer": "local_svg",
+      "materialRole": "comparison_option",
+      "figureSpec": {
+        "kind": "function_curve",
+        "grid": {
+          "xRange": [
+            -3,
+            3
+          ],
+          "yRange": [
+            -5,
+            5
+          ]
+        },
+        "curves": [
+          {
+            "id": "opt1",
+            "color": "red",
+            "points": [
+              {
+                "x": -3,
+                "y": -4
+              },
+              {
+                "x": -2,
+                "y": 0
+              },
+              {
+                "x": -1,
+                "y": 2
+              },
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 1,
+                "y": -2
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": 4
+              }
+            ]
+          },
+          {
+            "id": "opt2",
+            "color": "blue",
+            "points": [
+              {
+                "x": -3,
+                "y": 4
+              },
+              {
+                "x": -2,
+                "y": 0
+              },
+              {
+                "x": -1,
+                "y": -2
+              },
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 1,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": -4
+              }
+            ]
+          },
+          {
+            "id": "opt3",
+            "color": "green",
+            "points": [
+              {
+                "x": -3,
+                "y": 2
+              },
+              {
+                "x": -2,
+                "y": 0
+              },
+              {
+                "x": -1,
+                "y": -2
+              },
+              {
+                "x": 0,
+                "y": -4
+              },
+              {
+                "x": 1,
+                "y": -2
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": 2
+              }
+            ]
+          },
+          {
+            "id": "opt4",
+            "color": "purple",
+            "points": [
+              {
+                "x": -3,
+                "y": -2
+              },
+              {
+                "x": -2,
+                "y": 0
+              },
+              {
+                "x": -1,
+                "y": 2
+              },
+              {
+                "x": 0,
+                "y": 4
+              },
+              {
+                "x": 1,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": -2
+              }
+            ]
+          }
+        ],
+        "keyPoints": [],
+        "features": {}
+      },
+      "answerLock": {
+        "correctOption": "opt1"
+      }
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 12,
+    "passRule": {
+      "pass": "8-10 correct",
+      "targetedRemediation": "5-7 correct",
+      "reteach": "0-4 correct"
+    },
+    "questions": [
+      {
+        "id": "Q1",
+        "nodeId": "KN1",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "identify_algorithm_entry_point",
+        "errorId": "E1",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "For the lesson example "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)=x^3-6x^2+9x"
+          },
+          {
+            "type": "text",
+            "text": ", what is the best first entry in a curve-sketching solution before using derivative sign charts?"
+          }
+        ],
+        "figureId": null,
+        "options": [
+          {
+            "label": "A",
+            "text": "Identify that it is a polynomial, so the domain is all real numbers and it is continuous everywhere.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The curve-sketching algorithm starts by classifying the function and recording domain/continuity."
+          },
+          {
+            "label": "B",
+            "text": "Start by drawing the final graph from memory.",
+            "correct": false,
+            "feedbackWrong": "The final graph is the target product, not the first diagnostic step."
+          },
+          {
+            "label": "C",
+            "text": "Assume there is a vertical asymptote at x = 0 because f(0)=0.",
+            "correct": false,
+            "feedbackWrong": "An x-intercept is not a vertical asymptote; polynomials have no vertical asymptotes."
+          },
+          {
+            "label": "D",
+            "text": "Use f'' first and ignore f'.",
+            "correct": false,
+            "feedbackWrong": "The first derivative is needed to find increase/decrease and local extrema."
+          }
+        ],
+        "correct": 0
+      },
+      {
+        "id": "Q2",
+        "nodeId": "KN2",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "find_critical_numbers_from_derivative",
+        "errorId": "E2",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "For "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)=x^3-6x^2+9x"
+          },
+          {
+            "type": "text",
+            "text": ", the derivative is "
+          },
+          {
+            "type": "math",
+            "latex": "f'(x)=3x^2-12x+9=3(x-1)(x-3)"
+          },
+          {
+            "type": "text",
+            "text": ". Which critical numbers should be used to build the first derivative sign chart?"
+          }
+        ],
+        "figureId": null,
+        "options": [
+          {
+            "label": "A",
+            "text": "x = 0 and x = 3",
+            "correct": false,
+            "feedbackWrong": "Those include x-intercepts of f, not both critical numbers from f'=0."
+          },
+          {
+            "label": "B",
+            "text": "x = 1 and x = 3",
+            "correct": true,
+            "feedbackCorrect": "Correct. Critical numbers here come from f'(x)=0, so x=1 and x=3."
+          },
+          {
+            "label": "C",
+            "text": "x = 2 only",
+            "correct": false,
+            "feedbackWrong": "x=2 is related to f''=0 for this example, not the first derivative critical numbers."
+          },
+          {
+            "label": "D",
+            "text": "No critical numbers because the function is continuous.",
+            "correct": false,
+            "feedbackWrong": "A continuous function can still have critical numbers where f'=0."
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "id": "Q3",
+        "nodeId": "KN3",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "interpret_concavity_chart",
+        "errorId": "E3",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Use the sign chart for "
+          },
+          {
+            "type": "math",
+            "latex": "f''(x)"
+          },
+          {
+            "type": "text",
+            "text": " in Figure F2. On which interval is "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": " concave up?"
+          }
+        ],
+        "figureId": "F2",
+        "options": [
+          {
+            "type": "math",
+            "latex": "(-\\infty, -1)",
+            "label": "A",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "(-\\infty, -1)"
+              }
+            ],
+            "text": "(-\\infty, -1)",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "type": "math",
+            "latex": "(-1, 2)",
+            "label": "B",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "(-1, 2)"
+              }
+            ],
+            "text": "(-1, 2)",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "type": "math",
+            "latex": "(2, \\infty)",
+            "label": "C",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "(2, \\infty)"
+              }
+            ],
+            "text": "(2, \\infty)",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "type": "math",
+            "latex": "(-\\infty, -1) \\cup (2, \\infty)",
+            "label": "D",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "(-\\infty, -1) \\cup (2, \\infty)"
+              }
+            ],
+            "text": "(-\\infty, -1) \\cup (2, \\infty)",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "id": "Q4",
+        "nodeId": "KN4",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "identify_inflection_point",
+        "errorId": "E4",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Using Figure F2, at which x-value(s) does "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": " have a point of inflection?"
+          }
+        ],
+        "figureId": "F2",
+        "options": [
+          {
+            "type": "math",
+            "latex": "x = -1",
+            "label": "A",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "x = -1"
+              }
+            ],
+            "text": "x = -1",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "type": "math",
+            "latex": "x = 2",
+            "label": "B",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "x = 2"
+              }
+            ],
+            "text": "x = 2",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "type": "math",
+            "latex": "x = -1 \\text{ and } x = 2",
+            "label": "C",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "x = -1 \\text{ and } x = 2"
+              }
+            ],
+            "text": "x = -1 \\text{ and } x = 2",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "type": "math",
+            "latex": "x = 0",
+            "label": "D",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "x = 0"
+              }
+            ],
+            "text": "x = 0",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 2
+      },
+      {
+        "id": "Q5",
+        "nodeId": "KN5",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "match_derivative_graphs",
+        "errorId": "E5",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Figure F3 shows three curves labeled A, B, C. Which is the correct matching?"
+          }
+        ],
+        "figureId": "F3",
+        "options": [
+          {
+            "label": "A",
+            "text": "A = f, B = f', C = f''",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "B",
+            "text": "A = f', B = f, C = f''",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "C",
+            "text": "A = f'', B = f', C = f",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "D",
+            "text": "A = f, B = f'', C = f'",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 0
+      },
+      {
+        "id": "Q6",
+        "nodeId": "KN6",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "identify_asymptote",
+        "errorId": "E6",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Consider "
+          },
+          {
+            "type": "math",
+            "latex": "f(x) = \\frac{x^2}{x-1}"
+          },
+          {
+            "type": "text",
+            "text": ". Which of the following is an asymptote of "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": "?"
+          }
+        ],
+        "options": [
+          {
+            "type": "math",
+            "latex": "y = x + 1",
+            "label": "A",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "y = x + 1"
+              }
+            ],
+            "text": "y = x + 1",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "type": "math",
+            "latex": "y = x - 1",
+            "label": "B",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "y = x - 1"
+              }
+            ],
+            "text": "y = x - 1",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "type": "math",
+            "latex": "y = 1",
+            "label": "C",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "y = 1"
+              }
+            ],
+            "text": "y = 1",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "type": "math",
+            "latex": "x = 0",
+            "label": "D",
+            "parts": [
+              {
+                "type": "math",
+                "latex": "x = 0"
+              }
+            ],
+            "text": "x = 0",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 0
+      },
+      {
+        "id": "Q7",
+        "nodeId": "KN7",
+        "type": "single_choice",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "analyze_flawed_sketch",
+        "errorId": "E7",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "A student sketched the graph in Figure F4 for a function "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": " with the sign chart from Figure F2. Which statement identifies a concavity error in the sketch?"
+          }
+        ],
+        "figureId": "F4",
+        "options": [
+          {
+            "label": "A",
+            "text": "The sketch is concave up on an interval where the f'' sign chart says f should be concave down.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The flawed sketch does not respect the concavity information from f''."
+          },
+          {
+            "label": "B",
+            "text": "The sketch must cross the x-axis at every critical point.",
+            "correct": false,
+            "feedbackWrong": "Critical points are not automatically x-intercepts."
+          },
+          {
+            "label": "C",
+            "text": "The sketch should show f'' as the graph itself.",
+            "correct": false,
+            "feedbackWrong": "The sign chart describes concavity of f; it is not the graph of f."
+          },
+          {
+            "label": "D",
+            "text": "The sketch has no issue related to concavity.",
+            "correct": false,
+            "feedbackWrong": "Compare the curve shape with the signs in the f'' chart."
+          }
+        ],
+        "correct": 0
+      },
+      {
+        "id": "Q8",
+        "nodeId": "KN8",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "select_matching_graph",
+        "errorId": "E8",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "A function "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": " has "
+          },
+          {
+            "type": "math",
+            "latex": "f'(x) > 0"
+          },
+          {
+            "type": "text",
+            "text": " on "
+          },
+          {
+            "type": "math",
+            "latex": "(-\\infty, -2) \\cup (2, \\infty)"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "math",
+            "latex": "f'(x) < 0"
+          },
+          {
+            "type": "text",
+            "text": " on "
+          },
+          {
+            "type": "math",
+            "latex": "(-2, 2)"
+          },
+          {
+            "type": "text",
+            "text": ", and "
+          },
+          {
+            "type": "math",
+            "latex": "f''(x) < 0"
+          },
+          {
+            "type": "text",
+            "text": " on "
+          },
+          {
+            "type": "math",
+            "latex": "(-\\infty, 0)"
+          },
+          {
+            "type": "text",
+            "text": ", "
+          },
+          {
+            "type": "math",
+            "latex": "f''(x) > 0"
+          },
+          {
+            "type": "text",
+            "text": " on "
+          },
+          {
+            "type": "math",
+            "latex": "(0, \\infty)"
+          },
+          {
+            "type": "text",
+            "text": ". Which graph in Figure F5 matches this?"
+          }
+        ],
+        "figureId": "F5",
+        "options": [
+          {
+            "label": "A",
+            "text": "Red curve",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "B",
+            "text": "Blue curve",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "C",
+            "text": "Green curve",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "D",
+            "text": "Purple curve",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 0
+      },
+      {
+        "id": "Q9",
+        "nodeId": "KN9",
+        "type": "open_ended",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "explain_concavity_change",
+        "errorId": "E9",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Using Figure F2, explain why "
+          },
+          {
+            "type": "math",
+            "latex": "x = -1"
+          },
+          {
+            "type": "text",
+            "text": " is a point of inflection for "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ],
+        "figureId": "F2",
+        "rubric": "Correct answer must state that f'' changes sign from negative to positive at x = -1, indicating a change in concavity.",
+        "sampleStrongAnswer": "At x = -1, f'' changes sign from negative to positive in Figure F2, so f changes from concave down to concave up. That change in concavity makes x = -1 an inflection point."
+      },
+      {
+        "id": "Q10",
+        "nodeId": "KN10",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "describe_sketch_features",
+        "errorId": "E10",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "A function "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": " has the sign charts from Figure F1 and Figure F2, and a vertical asymptote at "
+          },
+          {
+            "type": "math",
+            "latex": "x = 1"
+          },
+          {
+            "type": "text",
+            "text": ". Describe the key features you would include when sketching "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": ". (Do not draw the graph.)"
+          }
+        ],
+        "figureId": null,
+        "rubric": "Must mention: local max at x=-2, local min at x=4, inflection points at x=-1 and x=2, increasing/decreasing intervals, concavity intervals, vertical asymptote at x=1, and behavior near asymptote.",
+        "sampleStrongAnswer": "I would include the vertical asymptote x = 1, increasing/decreasing intervals from the f' sign chart, local max at x = -2 and local min at x = 4, concavity intervals from f'', and inflection points at x = -1 and x = 2. I would describe behavior near the asymptote without drawing the full graph."
+      }
+    ]
+  },
+  "reteachModules": [
+    {
+      "errorId": "E1",
+      "trigger": "Q1 incorrect",
+      "studentMisunderstanding": "Confuses sign of f' with direction of f.",
+      "miniLesson": {
+        "explain": "f'(x) > 0 means the slope is positive, so f is increasing. f'(x) < 0 means slope negative, f decreasing.",
+        "example": "If f'(x) chart shows '+' on (0,2), then f goes up on (0,2).",
+        "memoryAnchor": "Positive derivative = uphill; Negative derivative = downhill."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "f'(x) > 0 on (1,3). Is f increasing or decreasing there?",
+          "answer": "Increasing"
+        },
+        {
+          "level": "L2",
+          "prompt": "Given sign chart: f' + on (-∞,0), - on (0,∞). Where is f increasing?",
+          "answer": "(-∞,0)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Sketch a possible f if f' is positive on (-∞,1) and negative on (1,∞).",
+          "answer": "Curve rising to a peak at x=1 then falling."
+        }
+      ]
+    },
+    {
+      "errorId": "E2",
+      "trigger": "Q2 incorrect",
+      "studentMisunderstanding": "Thinks any critical point is an extremum.",
+      "miniLesson": {
+        "explain": "A critical point is a local extremum only if f' changes sign. If f' has same sign on both sides, it's not an extremum.",
+        "example": "At x=1 in Figure F1, f' is negative on both sides, so no extremum.",
+        "memoryAnchor": "Sign change = extremum; no sign change = saddle or plateau."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "f' changes from + to - at x=2. What type of point?",
+          "answer": "Local maximum"
+        },
+        {
+          "level": "L2",
+          "prompt": "f' is + on both sides of x=0. Is x=0 an extremum?",
+          "answer": "No"
+        },
+        {
+          "level": "L3",
+          "prompt": "Given f' sign chart: + on (-∞,3), + on (3,∞). Classify x=3.",
+          "answer": "Neither; f' does not change sign."
+        }
+      ]
+    },
+    {
+      "errorId": "E3",
+      "trigger": "Q3 incorrect",
+      "studentMisunderstanding": "Reverses concavity sign rule.",
+      "miniLesson": {
+        "explain": "f''(x) > 0 means f is concave up (like a cup). f''(x) < 0 means concave down (like a frown).",
+        "example": "Figure F2: f'' + on (-1,2) so f is concave up there.",
+        "memoryAnchor": "Second derivative positive = smile (concave up); negative = frown (concave down)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "f''(x) < 0 on (0,5). Concave up or down?",
+          "answer": "Concave down"
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f'' sign chart: + on (-∞,1), - on (1,∞). Where is f concave up?",
+          "answer": "(-∞,1)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Sketch a curve that is concave up on (-∞,0) and concave down on (0,∞).",
+          "answer": "Curve like a cubic with inflection at 0."
+        }
+      ]
+    },
+    {
+      "errorId": "E4",
+      "trigger": "Q4 incorrect",
+      "studentMisunderstanding": "Confuses inflection points with f'=0 or extrema.",
+      "miniLesson": {
+        "explain": "An inflection point occurs where f'' changes sign (concavity changes). It may or may not have f'=0.",
+        "example": "In Figure F2, f'' changes sign at x=-1 and x=2, so those are inflection points.",
+        "memoryAnchor": "Inflection = concavity change (f'' sign change)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "f'' changes from + to - at x=4. Is x=4 an inflection point?",
+          "answer": "Yes"
+        },
+        {
+          "level": "L2",
+          "prompt": "f'' is positive on both sides of x=1. Is x=1 an inflection point?",
+          "answer": "No"
+        },
+        {
+          "level": "L3",
+          "prompt": "Given f'' sign chart: - on (-∞,2), + on (2,∞). Identify inflection point(s).",
+          "answer": "x=2"
+        }
+      ]
+    },
+    {
+      "errorId": "E5",
+      "trigger": "Q5 incorrect",
+      "studentMisunderstanding": "Cannot relate features of f, f', f'' graphs.",
+      "miniLesson": {
+        "explain": "Where f has a local max/min, f' crosses x-axis. Where f has inflection, f'' crosses x-axis. f' above x-axis means f increasing.",
+        "example": "In Figure F3, A has extrema where B crosses axis; B has extrema where C crosses axis.",
+        "memoryAnchor": "f' zeros = f extrema; f'' zeros = f inflection; f' sign = f slope."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If f has a max at x=2, what is true about f'(2)?",
+          "answer": "f'(2)=0"
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f' graph crosses x-axis at x=-1 and x=3. Where might f have extrema?",
+          "answer": "x=-1 and x=3"
+        },
+        {
+          "level": "L3",
+          "prompt": "Match: f graph has min at x=0, inflection at x=1. Which derivative graph crosses axis at x=0? x=1?",
+          "answer": "f' crosses at x=0; f'' crosses at x=1."
+        }
+      ]
+    },
+    {
+      "errorId": "E6",
+      "trigger": "Q6 incorrect",
+      "studentMisunderstanding": "Forgets oblique asymptotes when degree numerator = degree denominator + 1.",
+      "miniLesson": {
+        "explain": "When degree of numerator is exactly one more than denominator, there is an oblique (slant) asymptote found by polynomial long division.",
+        "example": "For f(x)=x^2/(x-1), divide: x^2 ÷ (x-1) = x+1 + 1/(x-1). Oblique asymptote is y=x+1.",
+        "memoryAnchor": "Degree difference of 1 → slant asymptote (do long division)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Does f(x)=x^3/(x^2+1) have a horizontal or oblique asymptote?",
+          "answer": "Oblique"
+        },
+        {
+          "level": "L2",
+          "prompt": "Find oblique asymptote of f(x)=(x^2+1)/x.",
+          "answer": "y=x"
+        },
+        {
+          "level": "L3",
+          "prompt": "Find all asymptotes of f(x)=(2x^2+3x)/(x-2).",
+          "answer": "Vertical: x=2; Oblique: y=2x+7"
+        }
+      ]
+    },
+    {
+      "errorId": "E7",
+      "trigger": "Q7 incorrect",
+      "studentMisunderstanding": "Does not verify sketch against derivative sign charts.",
+      "miniLesson": {
+        "explain": "Always check: on intervals where f'>0, graph must go up; where f'<0, go down. Concavity must match f'' sign.",
+        "example": "In Figure F4, the sketch goes up on (-2,0) but f' chart says negative there—contradiction.",
+        "memoryAnchor": "Sketch must obey: f' sign = slope direction; f'' sign = curvature."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "f'>0 on (0,2). Should the graph go up or down on (0,2)?",
+          "answer": "Up"
+        },
+        {
+          "level": "L2",
+          "prompt": "A sketch shows concave down on (1,3) but f''>0 there. Is it correct?",
+          "answer": "No"
+        },
+        {
+          "level": "L3",
+          "prompt": "Given f'<0 on (-∞,1) and f''>0 on (-∞,1), describe the shape on (-∞,1).",
+          "answer": "Decreasing and concave up."
+        }
+      ]
+    },
+    {
+      "errorId": "E8",
+      "trigger": "Q8 incorrect",
+      "studentMisunderstanding": "Cannot translate derivative conditions into graph shape.",
+      "miniLesson": {
+        "explain": "Break it down: f'>0 means increasing; f'<0 decreasing. f''>0 concave up; f''<0 concave down. Combine to sketch mentally.",
+        "example": "Given conditions in Q8: increasing on (-∞,-2) and (2,∞), decreasing on (-2,2); concave down on (-∞,0), up on (0,∞). Graph rises to peak at -2, falls to valley at 2, with inflection at 0.",
+        "memoryAnchor": "Use sign charts to build shape: increasing/decreasing tells direction; concavity tells curvature."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "f'>0 and f''>0 on (0,∞). Describe shape.",
+          "answer": "Increasing and concave up."
+        },
+        {
+          "level": "L2",
+          "prompt": "f'<0 and f''<0 on (-∞,0). Describe shape.",
+          "answer": "Decreasing and concave down."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given f'>0 on (-∞,1), f'<0 on (1,∞), f''<0 everywhere. Sketch a possible graph.",
+          "answer": "Curve increasing to a max at x=1, then decreasing, always concave down."
+        }
+      ]
+    },
+    {
+      "errorId": "E9",
+      "trigger": "Q9 incorrect",
+      "studentMisunderstanding": "Thinks f''=0 alone gives inflection point.",
+      "miniLesson": {
+        "explain": "An inflection point requires f'' to change sign. f''=0 is necessary but not sufficient.",
+        "example": "At x=-1 in Figure F2, f'' changes from - to +, so inflection. If f'' didn't change sign, it wouldn't be inflection.",
+        "memoryAnchor": "Inflection = sign change of f'' (not just f''=0)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "f''(2)=0 but f'' is positive on both sides. Inflection?",
+          "answer": "No"
+        },
+        {
+          "level": "L2",
+          "prompt": "f'' changes from + to - at x=0. Inflection?",
+          "answer": "Yes"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why x=0 is not an inflection point for f(x)=x^4.",
+          "answer": "f''(0)=0 but f'' does not change sign (always positive)."
+        }
+      ]
+    },
+    {
+      "errorId": "E10",
+      "trigger": "Q10 incorrect",
+      "studentMisunderstanding": "Omits key features like asymptotes or inflection when describing a graph.",
+      "miniLesson": {
+        "explain": "When describing a graph from derivative info, list: domain, asymptotes, intercepts, intervals of increase/decrease, local extrema, concavity, inflection points.",
+        "example": "For Q10: vertical asymptote at x=1, local max at x=-2, local min at x=4, inflection at x=-1 and x=2, increasing on (-∞,-2) and (4,∞), etc.",
+        "memoryAnchor": "Checklist: domain, asymptotes, intercepts, inc/dec, extrema, concavity, inflection."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Name three features to include when describing a graph.",
+          "answer": "Intercepts, extrema, asymptotes (any three)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f' and f'' charts, what feature does f'' sign change indicate?",
+          "answer": "Inflection points"
+        },
+        {
+          "level": "L3",
+          "prompt": "Describe key features of f(x)=1/(x-2) using derivative info.",
+          "answer": "Vertical asymptote x=2, no intercepts, decreasing on (-∞,2) and (2,∞), concave up on (2,∞), concave down on (-∞,2)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "E1",
+      "questions": [
+        {
+          "id": "R1a",
+          "type": "single_choice",
+          "stem": "Given f'(x) > 0 on (0,5). On this interval, f is:",
+          "options": [
+            "Increasing",
+            "Decreasing",
+            "Constant",
+            "Concave up"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R1b",
+          "type": "open_ended",
+          "stem": "A sign chart for f' shows '+' on (-∞,3) and '-' on (3,∞). Describe the behavior of f on (-∞,3).",
+          "rubric": "Answer must state f is increasing on (-∞,3)."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E2",
+      "questions": [
+        {
+          "id": "R2a",
+          "type": "single_choice",
+          "stem": "f'(x) changes from + to - at x=1. x=1 is a:",
+          "options": [
+            "Local max",
+            "Local min",
+            "Neither",
+            "Inflection point"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R2b",
+          "type": "open_ended",
+          "stem": "f'(x) is negative on both sides of x=0. Is x=0 a local extremum? Explain.",
+          "rubric": "No, because f' does not change sign."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E3",
+      "questions": [
+        {
+          "id": "R3a",
+          "type": "single_choice",
+          "stem": "f''(x) < 0 on (2,4). f is:",
+          "options": [
+            "Concave up",
+            "Concave down",
+            "Increasing",
+            "Decreasing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R3b",
+          "type": "open_ended",
+          "stem": "Given f''(x) > 0 on (-∞,1). Describe the concavity of f on that interval.",
+          "rubric": "Concave up."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E4",
+      "questions": [
+        {
+          "id": "R4a",
+          "type": "single_choice",
+          "stem": "f'' changes sign at x=3. x=3 is a:",
+          "options": [
+            "Local max",
+            "Local min",
+            "Inflection point",
+            "Critical point"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "R4b",
+          "type": "open_ended",
+          "stem": "f''(x) = 0 at x=1 but f'' does not change sign. Is x=1 an inflection point? Explain.",
+          "rubric": "No, because f'' must change sign for an inflection point."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E5",
+      "questions": [
+        {
+          "id": "R5a",
+          "type": "single_choice",
+          "stem": "If graph A has a local max where graph B crosses the x-axis, then B is likely:",
+          "options": [
+            "f",
+            "f'",
+            "f''",
+            "None"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R5b",
+          "type": "open_ended",
+          "stem": "Given three graphs: one has a peak at x=2, another crosses x-axis at x=2, the third has a wiggle at x=2. Which is f, f', f''?",
+          "rubric": "Peak = f, crosses = f', wiggle = f''."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E6",
+      "questions": [
+        {
+          "id": "R6a",
+          "type": "single_choice",
+          "stem": "f(x) = (x^2+1)/(x-1) has which asymptote?",
+          "options": [
+            "y = x+1",
+            "y = x-1",
+            "y = 1",
+            "No oblique asymptote"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R6b",
+          "type": "open_ended",
+          "stem": "Find the oblique asymptote of f(x) = (x^2+2x)/(x+1).",
+          "rubric": "y = x+1 (by long division)."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E7",
+      "questions": [
+        {
+          "id": "R7a",
+          "type": "single_choice",
+          "stem": "A sketch shows f increasing on (0,2) but f' chart shows negative there. The sketch is:",
+          "options": [
+            "Correct",
+            "Incorrect",
+            "Partially correct",
+            "Cannot determine"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R7b",
+          "type": "open_ended",
+          "stem": "Given f'<0 on (1,3) and f''>0 on (1,3). Describe the shape a correct sketch must have on (1,3).",
+          "rubric": "Decreasing and concave up."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E8",
+      "questions": [
+        {
+          "id": "R8a",
+          "type": "single_choice",
+          "stem": "f'>0 on (-∞,0), f'<0 on (0,∞), f''<0 everywhere. Which graph shape?",
+          "options": [
+            "Increasing then decreasing, always concave down",
+            "Decreasing then increasing, concave up",
+            "Always increasing, concave down",
+            "Always decreasing, concave up"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R8b",
+          "type": "open_ended",
+          "stem": "Describe the graph of f if f'>0 on (-∞,2), f'<0 on (2,∞), f''>0 on (-∞,1), f''<0 on (1,∞).",
+          "rubric": "Increases to max at x=2, then decreases; concave up until x=1, then concave down; inflection at x=1."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E9",
+      "questions": [
+        {
+          "id": "R9a",
+          "type": "single_choice",
+          "stem": "f''(x)=0 at x=4, but f'' is positive on both sides. x=4 is:",
+          "options": [
+            "Inflection point",
+            "Local max",
+            "Local min",
+            "Not an inflection point"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "R9b",
+          "type": "open_ended",
+          "stem": "Explain why x=0 is an inflection point for f(x)=x^3 but not for f(x)=x^4.",
+          "rubric": "For x^3, f'' changes sign at 0; for x^4, f'' does not change sign."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E10",
+      "questions": [
+        {
+          "id": "R10a",
+          "type": "single_choice",
+          "stem": "Which feature is often missed when describing a rational function's graph?",
+          "options": [
+            "Intercepts",
+            "Asymptotes",
+            "Extrema",
+            "Inflection points"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R10b",
+          "type": "open_ended",
+          "stem": "List all key features to include when describing the graph of f(x) = (x-1)/(x+2) using derivative info.",
+          "rubric": "Domain x≠-2, vertical asymptote x=-2, horizontal asymptote y=1, intercepts (0,-1/2) and (1,0), increasing on (-∞,-2) and (-2,∞), no extrema, concave down on (-∞,-2), concave up on (-2,∞)."
+        }
+      ],
+      "passRule": "Both correct"
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "Student scores 0-4 on diagnostic card or fails two retest cards for the same error.",
+    "message": "Student shows significant gaps in interpreting derivative sign charts and connecting them to graph features. Recommend one-on-one review of the first and second derivative tests, with emphasis on sign chart construction and reading. Use physical graphing (e.g., Desmos) to visually connect f' sign to slope and f'' sign to concavity. Provide additional practice with polynomial and rational functions."
+  },
+  "generationDecisionLog": {
+    "lessonType": "skill_procedure",
+    "primaryAssessmentMode": "mixed",
+    "whyThisModeFitsTranscript": "The transcript teaches a curve-sketching procedure: students move from function information to derivative evidence, then interpret sign charts, critique flawed sketches, and synthesize graph features.",
+    "materialsNeeded": "figure",
+    "riskOfOverfittingPrompt": "Avoid treating sign charts as mandatory opening evidence for every MCV lesson; use them here because this transcript emphasizes interpreting derivative evidence after algorithm setup."
+  }
+}

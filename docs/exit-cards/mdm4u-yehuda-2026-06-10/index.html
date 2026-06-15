@@ -1,0 +1,81 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MDM4U Exit Card Learning Package: Linear Regression, Correlation, and Residuals</title><style>body{font-family:system-ui,-apple-system,sans-serif;margin:0;background:#f6f7f9;color:#17202a}header{background:#fff;border-bottom:1px solid #d9dee7;padding:24px}main{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:16px}section,article{background:#fff;border:1px solid #d9dee7;border-radius:8px;padding:16px}pre{white-space:pre-wrap;background:#111827;color:#d1d5db;padding:12px;border-radius:8px;overflow:auto}.ok{color:#047857}.warn{color:#b54708}@media(max-width:900px){main{grid-template-columns:1fr}}</style></head><body><div class="teacher-review-banner" style="position:sticky;top:0;z-index:9999;background:#172033;color:#fff;padding:10px 16px;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap">
+  <div style="font-weight:700">Teacher review copy · 退场卡审核页面</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap">
+    <a href="../" style="color:#fff;text-decoration:underline">Back to index</a>
+    
+    <a href="https://xcnyxq1qiokk.feishu.cn/base/JKGDbc9A5arAqvsiEJccAP9Bnpg" style="color:#fff;text-decoration:underline" target="_blank" rel="noopener">Open Lark Base</a>
+  </div>
+</div><header><h1>MDM4U Exit Card Learning Package: Linear Regression, Correlation, and Residuals</h1><p>When a scatter plot seems to show a relationship, how do we decide whether a linear regression model is strong enough to predict, and how do r, r squared, slope/intercept, residuals, outliers, and extrapolation change that decision?</p><p class="warn">DeepSeek API: blocked by policy; local-safe fallback generated.</p><p class="ok">Final validation issues: 0</p></header><main><section><h2>诊断卡</h2><article><h3>Q1. A scatter plot has r = -0.91. What does this tell us?</h3><p>err-r-direction-strength | understand | L1</p><ol><li>✓ A. There is a strong negative linear correlation.<br><small>Correct. The negative sign gives the direction, and 0.91 is close to 1, so the strength is strong.</small></li><li> B. There is a weak negative linear correlation.<br><small>The direction is negative, but |r| = 0.91 is close to 1, so the relationship is strong, not weak.</small></li><li> C. There is a strong positive linear correlation.<br><small>The magnitude is strong, but the negative sign means the trend goes downward.</small></li><li> D. About 91% of y is explained by x.<br><small>That interpretation belongs to r squared, not r. r gives direction and strength.</small></li></ol></article><article><h3>Q2. If r = -0.92, then r squared is about 0.85. What does 0.85 mean in context?</h3><p>err-r-squared-meaning | apply | L2</p><ol><li>✓ A. About 85% of the variation in y is explained by the linear relationship with x.<br><small>Correct. r squared is the proportion of variation in y explained by the linear model.</small></li><li> B. The relationship is 85% negative.<br><small>r squared does not keep the direction. Direction comes from r, not r squared.</small></li><li> C. 85% of the data points are exactly on the line.<br><small>r squared is about explained variation, not the percent of points lying exactly on the regression line.</small></li><li> D. The slope of the line is 0.85.<br><small>Slope describes change in y per one unit of x. r squared describes explained variation.</small></li></ol></article><article><h3>Q3. For predicted sales = 4113 - 162.91(price), what does the slope -162.91 mean?</h3><p>err-slope-intercept-context | apply | L2</p><ol><li>✓ A. For each $1 increase in price, predicted sales decrease by about 163 shirts.<br><small>Correct. The slope is the predicted change in sales for each one-dollar increase in price.</small></li><li> B. If the price is $0, the model predicts about 163 shirts sold.<br><small>The price = 0 prediction is the intercept, 4113. The slope is -162.91.</small></li><li> C. For each extra shirt sold, price decreases by about $163.<br><small>The equation predicts sales from price, so the slope describes predicted sales change as price changes.</small></li><li> D. The correlation coefficient is -162.91.<br><small>A correlation coefficient must be between -1 and 1. This number is the slope.</small></li></ol></article><article><h3>Q4. A residual plot forms a clear curved pattern. What is the best conclusion?</h3><p>err-residual-plot-pattern | analyze | L2</p><ol><li>✓ A. A linear model is probably inappropriate because the relationship may be non-linear.<br><small>Correct. A visible pattern in residuals means the line is missing structure in the data.</small></li><li> B. The linear model is strong because residuals are never useful.<br><small>Residuals are exactly what we use to judge whether the line fits well.</small></li><li> C. The correlation must be exactly 1.<br><small>A curved residual pattern does not mean perfect correlation; it warns that a line may not be appropriate.</small></li><li> D. The model is automatically good as long as a calculator gives a line.<br><small>Technology can produce a line for many datasets, but residuals help decide whether that line is a good model.</small></li></ol></article><article><h3>Q5. In the hairdresser tips example, why might a prediction for 32 years of experience be unreliable if the collected data only covered much smaller experience values?</h3><p>err-outlier-extrapolation-risk | evaluate | L3</p><ol></ol><p><b>Rubric:</b> Strong answer states that 32 years is outside the observed data range, so the prediction is extrapolation; it also explains that outliers can change the regression line and therefore change predicted values.</p><p><b>Sample:</b> The model was built from smaller experience values, so predicting for 32 years goes outside the data range. That is extrapolation, and the relationship may not continue in the same linear way. Also, an outlier can pull the regression line and change the predicted tips.</p></article></section><section><h2>补救模块</h2><article><h3>err-r-direction-strength</h3><p>The student reads only the size of r or only the sign, instead of combining direction and strength.</p><p><b>Explain:</b> r ranges from -1 to 1. The sign tells direction: positive means upward trend, negative means downward trend. The absolute value tells strength: values close to 1 are strong, close to 0 are weak.</p><p><b>Example:</b> In class, r = 0.89 was interpreted as a strong positive correlation, while r = -0.91 would be a strong negative correlation.</p><p><b>Anchor:</b> Sign = direction; distance from 0 = strength.</p></article><article><h3>err-r-squared-meaning</h3><p>The student thinks r squared keeps the negative sign or means points are correct/on the line.</p><p><b>Explain:</b> r squared is a positive proportion from 0 to 1. It tells how much of the variation in y is explained by the linear relationship with x. It does not tell direction.</p><p><b>Example:</b> The lesson used r = -0.92 and r squared = 0.85. That means about 85% of the variation in y can be explained by x, even though the relationship is negative.</p><p><b>Anchor:</b> r has direction; r squared has explanation power.</p></article><article><h3>err-slope-intercept-context</h3><p>The student treats regression numbers as abstract values and forgets units, direction, or what x and y represent.</p><p><b>Explain:</b> In y-hat = a + bx, a is the predicted y when x = 0. b is the predicted change in y for every one-unit increase in x. Always name the variables and units.</p><p><b>Example:</b> For predicted sales = 4113 - 162.91(price), the intercept says predicted sales at $0, and the slope says each $1 price increase predicts about 163 fewer shirts sold.</p><p><b>Anchor:</b> Intercept starts; slope changes.</p></article><article><h3>err-residual-plot-pattern</h3><p>The student assumes a line of best fit is good just because technology produced one.</p><p><b>Explain:</b> Residuals are actual y minus predicted y. A good linear model usually has residuals scattered randomly around 0. A clear pattern, especially a curve, suggests the relationship is not really linear.</p><p><b>Example:</b> In the paint additive example, the residual plot curved, so the linear model missed the low-middle-high pattern in drying time.</p><p><b>Anchor:</b> Random residuals help the line; patterned residuals warn against the line.</p></article><article><h3>err-outlier-extrapolation-risk</h3><p>The student does not check whether the prediction is inside the observed data range or whether an outlier changed the line.</p><p><b>Explain:</b> Outliers can pull the least-squares line and change predictions. Extrapolation means predicting outside the observed x-values, where the pattern may not continue.</p><p><b>Example:</b> In the hairdresser example, the model with an outlier predicted different tips than the model without it. Predicting tips for 32 years was unreliable because 32 years was far outside the collected data range.</p><p><b>Anchor:</b> Outliers pull; extrapolation stretches too far.</p></article><h2>复测卡</h2><article><h3>err-r-direction-strength</h3><p><b>Pass:</b> 2/2 correct or teacher approves the open response.</p><p><b>retest-r-q1:</b> A scatter plot has r = 0.18. Which interpretation is best?</p><p><b>retest-r-q2:</b> Explain why r = -0.76 is not the same as r = 0.76.</p></article><article><h3>err-r-squared-meaning</h3><p><b>Pass:</b> 2/2 correct or teacher approves the open response.</p><p><b>retest-r2-q1:</b> If r = 0.63, r squared is about 0.40. What does this mean?</p><p><b>retest-r2-q2:</b> Why is r squared never negative?</p></article><article><h3>err-slope-intercept-context</h3><p><b>Pass:</b> 2/2 correct or teacher approves the open response.</p><p><b>retest-line-q1:</b> For predicted pH = 5.43 - 0.053(weeks), what does -0.053 mean?</p><p><b>retest-line-q2:</b> Interpret the intercept 5.43 in the acid rain example.</p></article><article><h3>err-residual-plot-pattern</h3><p><b>Pass:</b> 2/2 correct or teacher approves the open response.</p><p><b>retest-residual-q1:</b> Which residual plot supports a linear model best?</p><p><b>retest-residual-q2:</b> Explain why a curved residual pattern is a warning sign.</p></article><article><h3>err-outlier-extrapolation-risk</h3><p><b>Pass:</b> 2/2 correct or teacher approves the open response.</p><p><b>retest-outlier-q1:</b> Why can removing an outlier change a regression line?</p><p><b>retest-outlier-q2:</b> Why is predicting far outside the observed x-range risky?</p></article><h2>Report</h2><pre>{
+  "generatedAt": "2026-06-10T07:03:12.814Z",
+  "modelStrategy": "local-safe fallback after DeepSeek API export was denied by workspace policy",
+  "deepseekStatus": "blocked_by_policy",
+  "deepseekBlockReason": "Transmitting the MDM4U classroom transcript and architecture to api.deepseek.com was denied by the policy reviewer even after user approval.",
+  "finalIssues": [],
+  "stepReports": [
+    {
+      "step": "sourceTranscript",
+      "issues": [],
+      "repairedBy": "existing-pdf-extraction"
+    },
+    {
+      "step": "architecture",
+      "issues": [],
+      "repairedBy": "manual"
+    },
+    {
+      "step": "diagnosticCard",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "reteach:err-r-direction-strength",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "retest:err-r-direction-strength",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "reteach:err-r-squared-meaning",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "retest:err-r-squared-meaning",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "reteach:err-slope-intercept-context",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "retest:err-slope-intercept-context",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "reteach:err-residual-plot-pattern",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "retest:err-residual-plot-pattern",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "reteach:err-outlier-extrapolation-risk",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    },
+    {
+      "step": "retest:err-outlier-extrapolation-risk",
+      "issues": [],
+      "repairedBy": "local-safe-fallback"
+    }
+  ]
+}</pre></section></main></body></html>

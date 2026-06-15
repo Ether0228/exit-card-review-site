@@ -1,0 +1,769 @@
+{
+  "sourceLesson": "MDM4U.S5.Yehuda 2026-06-10",
+  "sourceFormat": "feishu_transcript_pdf",
+  "methodology": "TeachAny",
+  "title": "MDM4U Exit Card Learning Package: Linear Regression, Correlation, and Residuals",
+  "subject": {
+    "courseCode": "MDM4U",
+    "courseName": "Mathematics of Data Management",
+    "strand": "Data Visualization and Linear Regression",
+    "teacher": "Yehuda Friedman",
+    "lessonDate": "2026-06-10"
+  },
+  "problemAnchor": "When a scatter plot seems to show a relationship, how do we decide whether a linear regression model is strong enough to predict, and how do r, r squared, slope/intercept, residuals, outliers, and extrapolation change that decision?",
+  "abt": {
+    "and": "Students have already described scatter plots by direction, strength, and type, including positive or negative linear relationships.",
+    "but": "A visual trend is not enough: students can mix up r and r squared, misread slope and intercept in context, treat any line as a good model, ignore residual patterns, or extrapolate far beyond the data range.",
+    "therefore": "The exit card checks whether students can interpret regression statistics and residual evidence to decide whether a linear model is appropriate for prediction."
+  },
+  "objective": "Students can interpret correlation coefficient r, coefficient of determination r squared, regression line slope and intercept, residuals and residual plots, and can explain why outliers and extrapolation affect prediction reliability.",
+  "knowledgeNodes": [
+    {
+      "id": "scatterplot-correlation-description",
+      "name": "Scatter Plot Correlation Description",
+      "nameEn": "Scatter Plot Correlation Description",
+      "definition": "Scatter plots can be described by direction, strength, and type: positive or negative direction, weak/moderate/strong strength, and linear or non-linear pattern."
+    },
+    {
+      "id": "correlation-coefficient-r",
+      "name": "Correlation Coefficient r",
+      "nameEn": "Correlation Coefficient r",
+      "definition": "The correlation coefficient r is between -1 and 1 and describes the strength and direction of a linear relationship between two quantitative variables."
+    },
+    {
+      "id": "coefficient-of-determination",
+      "name": "Coefficient of Determination",
+      "nameEn": "Coefficient of Determination r squared",
+      "definition": "r squared is between 0 and 1 and represents the proportion of variation in y explained by the linear relationship with x. It is positive even when r is negative."
+    },
+    {
+      "id": "regression-line-interpretation",
+      "name": "Regression Line Interpretation",
+      "nameEn": "Regression Line Interpretation",
+      "definition": "A regression line y-hat = a + bx predicts y from x. The slope b describes predicted change in y for each one-unit increase in x, and the intercept a is predicted y when x = 0."
+    },
+    {
+      "id": "residuals-and-model-fit",
+      "name": "Residuals and Model Fit",
+      "nameEn": "Residuals and Model Fit",
+      "definition": "A residual is observed y minus predicted y. Small random residuals support a linear model, while large residuals or a visible pattern in the residual plot suggest the line is a poor or inappropriate model."
+    },
+    {
+      "id": "least-squares-outliers-extrapolation",
+      "name": "Least Squares, Outliers, and Extrapolation",
+      "nameEn": "Least Squares, Outliers, and Extrapolation",
+      "definition": "Least squares chooses the line that minimizes the sum of squared residuals. Outliers can strongly change the fitted line, and predictions far outside the data range are unreliable extrapolations."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 12,
+    "passRule": {
+      "pass": "8-10 correct",
+      "targetedRemediation": "5-7 correct",
+      "reteach": "0-4 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-mdm4u-0610-q1",
+        "nodeId": "correlation-coefficient-r",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-r-direction-strength",
+        "stem": "A scatter plot has r = -0.91. What does this tell us?",
+        "options": [
+          {
+            "label": "A",
+            "text": "There is a strong negative linear correlation.",
+            "correct": true,
+            "feedbackCorrect": "Correct! r = -0.91 indicates a strong negative linear relationship because the magnitude is greater than 0.8 and the sign is negative."
+          },
+          {
+            "label": "B",
+            "text": "There is a weak negative linear correlation.",
+            "correct": false,
+            "feedbackWrong": "Not quite: r = -0.91 has a magnitude close to 0.9, which indicates a strong correlation, not weak."
+          },
+          {
+            "label": "C",
+            "text": "There is a strong positive linear correlation.",
+            "correct": false,
+            "feedbackWrong": "The negative sign means the relationship is negative (as one variable increases, the other decreases), not positive."
+          },
+          {
+            "label": "D",
+            "text": "91% of the points follow a straight line.",
+            "correct": false,
+            "feedbackWrong": "r is not a percentage of points on the line; it measures the strength of the linear relationship, not the proportion of points fitting perfectly."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0610-q6",
+        "nodeId": "scatterplot-correlation-description",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "errorId": "err-r-direction-strength",
+        "stem": "Which description best matches a scatter plot whose points are tightly clustered around an upward-sloping line?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Strong positive linear correlation.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Upward gives positive direction, and tight clustering gives strong strength."
+          },
+          {
+            "label": "B",
+            "text": "Weak positive linear correlation.",
+            "correct": false,
+            "feedbackWrong": "The direction is positive, but tight clustering means strong, not weak."
+          },
+          {
+            "label": "C",
+            "text": "Strong negative linear correlation.",
+            "correct": false,
+            "feedbackWrong": "Negative correlation would slope downward, not upward."
+          },
+          {
+            "label": "D",
+            "text": "No linear correlation.",
+            "correct": false,
+            "feedbackWrong": "A tight upward line is clear evidence of a linear relationship."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0610-q2",
+        "nodeId": "coefficient-of-determination",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-r-squared-meaning",
+        "stem": "If r = -0.92, then r squared is about 0.85. What does 0.85 mean in context?",
+        "options": [
+          {
+            "label": "A",
+            "text": "About 85% of the variation in y is explained by the linear relationship with x.",
+            "correct": true,
+            "feedbackCorrect": "Correct! r squared is the proportion of variation in the response variable that is accounted for by the linear model."
+          },
+          {
+            "label": "B",
+            "text": "85% of the data points are close to the regression line.",
+            "correct": false,
+            "feedbackWrong": "r squared does not indicate the percentage of points near the line; it measures explained variation."
+          },
+          {
+            "label": "C",
+            "text": "r squared is -0.85 because r is negative.",
+            "correct": false,
+            "feedbackWrong": "r squared is always positive, regardless of the sign of r. It ranges from 0 to 1."
+          },
+          {
+            "label": "D",
+            "text": "The linear relationship is 85% strong.",
+            "correct": false,
+            "feedbackWrong": "Strength is indicated by the absolute value of r, not r squared. r squared gives the proportion of explained variation."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0610-q3",
+        "nodeId": "regression-line-interpretation",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-slope-intercept-context",
+        "stem": "For predicted sales = 4113 - 162.91(price), what does the slope -162.91 mean?",
+        "options": [
+          {
+            "label": "A",
+            "text": "For each $1 increase in price, predicted sales decrease by about 163 shirts.",
+            "correct": true,
+            "feedbackCorrect": "Correct! The slope indicates the predicted change in y (sales) for each one-unit increase in x (price). The negative sign means sales decrease."
+          },
+          {
+            "label": "B",
+            "text": "When price is $0, predicted sales are about 4113 shirts.",
+            "correct": false,
+            "feedbackWrong": "That is the interpretation of the intercept, not the slope. The slope is -162.91, not 4113."
+          },
+          {
+            "label": "C",
+            "text": "For each shirt sold, price decreases by $162.91.",
+            "correct": false,
+            "feedbackWrong": "The slope describes how y changes with x, not the other way around. Here, x is price and y is sales."
+          },
+          {
+            "label": "D",
+            "text": "The correlation between price and sales is negative.",
+            "correct": false,
+            "feedbackWrong": "While a negative slope implies a negative correlation, the question asks for the meaning of the slope value in context, not just the sign."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0610-q7",
+        "nodeId": "regression-line-interpretation",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-slope-intercept-context",
+        "stem": "For predicted pH = 5.43 - 0.0053(weeks), what pH does the model predict after 150 weeks?",
+        "options": [
+          {
+            "label": "A",
+            "text": "4.635",
+            "correct": true,
+            "feedbackCorrect": "Correct. 5.43 - 0.0053(150) = 5.43 - 0.795 = 4.635."
+          },
+          {
+            "label": "B",
+            "text": "5.43",
+            "correct": false,
+            "feedbackWrong": "5.43 is the intercept, the predicted pH at week 0, not after 150 weeks."
+          },
+          {
+            "label": "C",
+            "text": "7.95",
+            "correct": false,
+            "feedbackWrong": "7.95 is the amount subtracted if using 0.053, not the predicted pH."
+          },
+          {
+            "label": "D",
+            "text": "150",
+            "correct": false,
+            "feedbackWrong": "150 is the x-value in weeks, not the predicted y-value."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0610-q8",
+        "nodeId": "residuals-and-model-fit",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-residual-calculation",
+        "stem": "A model predicts a vehicle price of $26,759, but the actual price is $21,994. What is the residual using observed minus predicted?",
+        "options": [
+          {
+            "label": "A",
+            "text": "-$4,765",
+            "correct": true,
+            "feedbackCorrect": "Correct. Residual = observed - predicted = 21,994 - 26,759 = -4,765."
+          },
+          {
+            "label": "B",
+            "text": "$4,765",
+            "correct": false,
+            "feedbackWrong": "That reverses the subtraction. Residual is actual minus predicted."
+          },
+          {
+            "label": "C",
+            "text": "$48,753",
+            "correct": false,
+            "feedbackWrong": "That adds actual and predicted values instead of subtracting."
+          },
+          {
+            "label": "D",
+            "text": "-$26,759",
+            "correct": false,
+            "feedbackWrong": "That is the negative predicted value, not the difference between actual and predicted."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0610-q4",
+        "nodeId": "residuals-and-model-fit",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "errorId": "err-residual-plot-pattern",
+        "stem": "A residual plot shows a clear curved pattern. What is the best conclusion?",
+        "options": [
+          {
+            "label": "A",
+            "text": "A linear model is probably inappropriate because the relationship may be non-linear.",
+            "correct": true,
+            "feedbackCorrect": "Correct! A curved pattern in the residuals indicates that the relationship is not linear, so a linear model is a poor fit."
+          },
+          {
+            "label": "B",
+            "text": "The linear model fits well because the residuals are small.",
+            "correct": false,
+            "feedbackWrong": "Even if residuals appear small, a curved pattern suggests a systematic error; randomness is more important than size alone."
+          },
+          {
+            "label": "C",
+            "text": "The residual plot indicates no correlation.",
+            "correct": false,
+            "feedbackWrong": "A curved pattern does not indicate lack of correlation; it indicates that the relationship is non-linear."
+          },
+          {
+            "label": "D",
+            "text": "The curved pattern means r is close to 0.",
+            "correct": false,
+            "feedbackWrong": "r measures linear correlation; a curved pattern can still have a high r if the relationship is roughly linear over a range, but the pattern warns that a line is not the best model."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0610-q9",
+        "nodeId": "least-squares-outliers-extrapolation",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "errorId": "err-least-squares-purpose",
+        "stem": "What does the least-squares regression line try to minimize?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The sum of the squared residuals.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Least squares chooses the line that minimizes the total squared vertical errors."
+          },
+          {
+            "label": "B",
+            "text": "The sum of the x-values.",
+            "correct": false,
+            "feedbackWrong": "The x-values are part of the data; least squares minimizes squared residuals, not x-values."
+          },
+          {
+            "label": "C",
+            "text": "The value of r squared.",
+            "correct": false,
+            "feedbackWrong": "A better line usually has higher r squared, but least squares is defined by minimizing squared residuals."
+          },
+          {
+            "label": "D",
+            "text": "The y-intercept only.",
+            "correct": false,
+            "feedbackWrong": "The fitted line depends on both slope and intercept, not only the intercept."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0610-q5",
+        "nodeId": "least-squares-outliers-extrapolation",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "errorId": "err-outlier-extrapolation-risk",
+        "stem": "In the hairdresser tips example, why might a prediction for 32 years of experience be unreliable if the collected data only covered much smaller experience values?",
+        "rubric": "Strong answer states that 32 years is outside the observed data range, so the prediction is extrapolation; it also explains that outliers can change the regression line and therefore change predicted values.",
+        "sampleStrongAnswer": "Strong answer states that 32 years is outside the observed data range, so the prediction is extrapolation; it also explains that outliers can change the regression line and therefore change predicted values."
+      },
+      {
+        "id": "diag-mdm4u-0610-q10",
+        "nodeId": "residuals-and-model-fit",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "errorId": "err-residual-plot-pattern",
+        "stem": "A paint-additive dataset has r = 0.576 and r squared about 0.33, but the residual plot forms a clear curve. Should we trust a linear model for prediction? Explain.",
+        "rubric": "Strong answer says the linear model should not be trusted very much because the residual plot has a pattern/curve, which suggests a non-linear relationship. It may also mention that r squared explains only about 33% of variation, so much variation remains unexplained.",
+        "sampleStrongAnswer": "I would not trust the linear model very much. The curved residual pattern means the line is missing a non-linear structure in the data. Also, r squared is only about 0.33, so the linear relationship explains only about one third of the variation."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "condition": "8-10 correct",
+      "systemAction": "mark passed and continue normal independent practice",
+      "studentMessage": "你已经能把本节课的 regression statistics、model fit 和 prediction reliability 连接起来，可以进入正常练习。"
+    },
+    {
+      "condition": "5-7 correct",
+      "systemAction": "assign reteach modules matching missed errorIds, then retest",
+      "studentMessage": "你已经掌握部分主线，但还有几个统计解释点不稳。先做对应补救，再复测确认。"
+    },
+    {
+      "condition": "0-4 correct",
+      "systemAction": "start full reteach path, then retest all core errorIds",
+      "studentMessage": "这节课的 regression 判断框架还没有建立。系统会带你重新理解一遍。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-r-direction-strength",
+      "trigger": "Student misinterprets r = -0.91 as weak or positive, or treats r as a percentage of points.",
+      "studentMisunderstanding": "Student cannot interpret both the sign and magnitude of r, or mistakes r for a percent. They may think r = -0.91 means a weak correlation or a positive correlation, or believe it indicates 91% of points follow a straight line.",
+      "miniLesson": {
+        "explain": "The correlation coefficient r measures the strength and direction of a linear relationship. Its value always lies between -1 and 1. The sign indicates direction: positive means as x increases, y tends to increase; negative means as x increases, y tends to decrease. The absolute value indicates strength: values near 1 or -1 indicate a strong linear relationship, near 0 indicate a weak one. For example, r = -0.91 has a large absolute value (0.91), so it is strong, and the negative sign tells us the relationship is negative. r is not a percentage; it is a unitless index.",
+        "example": "In the Guess the Correlation game, we saw scatter plots with r values 0.97, 0.89, 0.65, 0.78. For r = 0.97, the points form a very tight upward trend (strong positive). For r = -0.91, the points form a tight downward trend (strong negative).",
+        "memoryAnchor": "Think of r as a force meter: the closer it is to either end of the -1 to +1 rope, the stronger the pull. The sign tells you which way the rope is pulling (up or down)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A scatter plot has r = 0.45. Describe the direction and strength of the relationship.",
+          "answer": "It is a weak to moderate positive linear relationship."
+        },
+        {
+          "level": "L2",
+          "prompt": "For the vehicle price vs. miles example, the correlation is r = -0.92. Explain what the sign and magnitude tell you about the relationship between miles driven and price.",
+          "answer": "The negative sign means that as miles increase, price tends to decrease. The magnitude of 0.92 indicates a strong linear relationship."
+        },
+        {
+          "level": "L3",
+          "prompt": "You see two scatter plots: one with r = 0.70 and another with r = -0.85. Which shows a stronger linear relationship? Explain.",
+          "answer": "The scatter plot with r = -0.85 shows a stronger linear relationship because its absolute value (0.85) is greater than 0.70."
+        }
+      ]
+    },
+    {
+      "errorId": "err-r-squared-meaning",
+      "trigger": "Student says 'r squared is negative because r is negative' or 'r squared tells us how strong the correlation is'.",
+      "studentMisunderstanding": "Student confuses r squared with r, thinks r squared retains the sign of r, or cannot explain that r squared represents the proportion of variation in y explained by x.",
+      "miniLesson": {
+        "explain": "r squared (coefficient of determination) is always between 0 and 1. It measures the proportion of variation in the response variable (y) that is explained by the linear relationship with the explanatory variable (x). Unlike r, which can be negative or positive, r squared is always positive because it is squared. A high r squared (close to 1) means the linear model accounts for most of the variability in y; a low r squared (close to 0) means the model explains little.",
+        "example": "In the T-shirt sales example, r = -0.998 shows a very strong negative linear relationship. Squaring gives r squared = 0.996. This means about 99.6% of the variation in shirt sales is explained by the price of the shirt. Only 0.4% is due to other factors (like season or advertising).",
+        "memoryAnchor": "Think of r squared as the 'explained portion' of y's total wiggle. r gives direction and strength, but r squared tells you how much of the wiggle the line accounts for — it's always a positive fraction."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If r = 0.80, what is r squared? Is it positive or negative?",
+          "answer": "r squared = 0.64. It is positive."
+        },
+        {
+          "level": "L2",
+          "prompt": "A study finds r = -0.75 for the relationship between exercise hours and body fat percentage. Calculate r squared and explain what it means in context.",
+          "answer": "r squared = 0.5625. This means about 56.25% of the variation in body fat percentage is explained by the linear relationship with exercise hours."
+        },
+        {
+          "level": "L3",
+          "prompt": "For two data sets, one has r = 0.5 and the other has r = -0.9. Compare the r squared values and explain which linear model is more useful for prediction.",
+          "answer": "First set: r squared = 0.25. Second set: r squared = 0.81. The second model is more useful because it explains 81% of the variation in y, much more than the first model's 25%. Even though one r is negative, r squared ignores sign and focuses on explained variation."
+        }
+      ]
+    },
+    {
+      "errorId": "err-slope-intercept-context",
+      "trigger": "Student correctly identifies numbers in regression equation but cannot explain slope and intercept with units and context.",
+      "studentMisunderstanding": "Students often correctly identify the numbers in a regression equation but cannot explain what the slope and intercept mean in the specific context of the problem. They may confuse the two, omit units, or misinterpret direction.",
+      "miniLesson": {
+        "explain": "In a regression line y-hat = a + bx, the slope b is the predicted change in the response variable y for each one-unit increase in the explanatory variable x. Always include units and direction. The intercept a is the predicted value of y when x = 0.",
+        "example": "Vehicle price vs miles: y-hat = 38257 - 0.1629x. Slope = -0.1629: for each additional mile, predicted price decreases by $0.16. Intercept = $38,257: predicted price when miles = 0 (new car). T-shirt sales: y-hat = 4113 - 162.91(price). Slope = -162.91: for each $1 increase in price, predicted sales decrease by ~163 shirts. Intercept = 4113: predicted sales when price = $0.",
+        "memoryAnchor": "Slope is the rate of change per one unit of x; intercept is the y when x is zero. Think: 'Slope is the rate, intercept is the starting point.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the equation y-hat = 38257 - 0.1629x (x = miles), what is the slope and what does it mean?",
+          "answer": "Slope = -0.1629; for each additional mile, predicted price decreases by $0.1629."
+        },
+        {
+          "level": "L2",
+          "prompt": "For T-shirt sales, equation is y-hat = 4113 - 162.91(price). Write a sentence interpreting the intercept in context.",
+          "answer": "When price is $0, the predicted number of shirts sold is 4113."
+        },
+        {
+          "level": "L3",
+          "prompt": "A regression for study hours and exam score is y-hat = 50 + 5x. Interpret the slope and intercept in context.",
+          "answer": "Slope: for each additional hour studied, predicted exam score increases by 5 points. Intercept: predicted exam score with 0 hours studied is 50."
+        }
+      ]
+    },
+    {
+      "errorId": "err-residual-plot-pattern",
+      "trigger": "Student selects an answer indicating they think a curved pattern in residuals is acceptable or they ignore the pattern.",
+      "studentMisunderstanding": "The student believes that as long as residuals are small, a linear model is appropriate, even if the residuals show a clear curved pattern. They do not recognize that patterns indicate the model is missing a non-linear relationship.",
+      "miniLesson": {
+        "explain": "A residual plot shows the residuals (observed - predicted) on the vertical axis and the explanatory variable or predicted values on the horizontal axis. For a linear model to be appropriate, the residuals should be randomly scattered around zero with no obvious pattern. If you see a curved pattern (like a U shape or an arch), it means the relationship between the variables is not linear, and a linear model is not the best fit. The pattern indicates that a curved model (like quadratic) might be better.",
+        "example": "In the paint additive drying time example from class, the residual plot showed a clear curved pattern. The linear model gave predictions, but the residuals were not random; they started positive, became negative, then positive again. This told us that the relationship between additive amount and drying time was not linear, so a straight line was an inappropriate model.",
+        "memoryAnchor": "Think of a banana: straight lines don't fit a banana shape. If your residuals curve like a banana, your linear model is a poor fit—try a curve instead."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Look at the residual plot below: (imagining a plot with points randomly scattered around zero, no pattern). Would you say a linear model is appropriate? Answer Yes or No.",
+          "answer": "Yes, because the residuals are random with no pattern."
+        },
+        {
+          "level": "L2",
+          "prompt": "A residual plot shows a clear U-shaped curve. What does this pattern suggest about the linear model?",
+          "answer": "The pattern suggests that a linear model is not appropriate because the relationship is likely non-linear. A curved model may be needed."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why a pattern in the residual plot is more important than the size of individual residuals when judging model fit. Use the paint additive example.",
+          "answer": "A pattern indicates a systematic error: the model consistently over- or under-predicts in certain regions. In the paint additive example, the curved pattern showed that the linear model missed the true relationship. Even if some residuals are small, the pattern means the model is fundamentally wrong. Randomness is key—size alone is not enough."
+        }
+      ]
+    },
+    {
+      "errorId": "err-outlier-extrapolation-risk",
+      "trigger": "Student cannot explain why the 32-year hairdresser-tip prediction is unreliable.",
+      "studentMisunderstanding": "The student treats a regression equation as automatically reliable for any x-value and does not check whether the prediction is inside the observed data range or affected by outliers.",
+      "miniLesson": {
+        "explain": "A regression line is built from the data we observed. If a new x-value is far outside that observed range, the prediction is extrapolation, and the original linear pattern may not continue. Outliers also matter because least-squares regression uses all points, so one unusual point can pull the fitted line and change predictions.",
+        "example": "In the hairdresser tips example, the class compared a model with an outlier and a model without it. For 3 years of experience, both predictions were in the normal data range and fairly close. But predicting tips for 32 years of experience was not reliable, because 32 years was far beyond the collected experience values.",
+        "memoryAnchor": "Inside the data range is safer; outside the range is extrapolation. Outliers pull the line."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What word describes using a regression model to predict far outside the observed x-values?",
+          "answer": "Extrapolation."
+        },
+        {
+          "level": "L2",
+          "prompt": "A dataset includes hairdressers with 0.5, 1, 3, 5, and 8 years of experience. Is predicting for 6 years interpolation or extrapolation? What about 32 years?",
+          "answer": "6 years is inside the observed range, so it is interpolation. 32 years is outside the observed range, so it is extrapolation."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why an outlier can change which regression model gives the better estimate.",
+          "answer": "Least squares uses every point to minimize squared residuals. An outlier has a large residual and can pull the fitted line toward it, changing the slope, intercept, and predictions."
+        }
+      ]
+    },
+    {
+      "errorId": "err-residual-calculation",
+      "trigger": "Student incorrectly computed the residual by subtracting predicted from observed, or reversed the order.",
+      "studentMisunderstanding": "A residual is observed y minus predicted y (actual - predicted). A common error is to compute predicted minus actual, which reverses the sign and misinterprets whether the point is above or below the regression line.",
+      "miniLesson": {
+        "explain": "Residual = observed y - predicted y. It measures the vertical distance from a data point to the regression line. A positive residual means the point is above the line (observed > predicted), a negative residual means below (observed < predicted). If you reverse the subtraction, you get the opposite sign and misinterpret the position.",
+        "example": "From the vehicle price example: For a truck with 70,583 miles, predicted price = 38257 - 0.1629(70583) = $26,759. Actual price was $21,994. Correct residual = 21,994 - 26,759 = -$4,765. This negative residual means the truck cost less than predicted (below the line). If you mistakenly computed 26,759 - 21,994 = +$4,765, you would think it was above the line.",
+        "memoryAnchor": "Think 'Actual minus predicted' as 'A minus P' – like a grade: actual score minus predicted score tells if you did better (+) or worse (-) than expected."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For the vehicle price model y-hat = 38257 - 0.1629x, a car has 40,000 miles and actual price $30,000. Calculate the predicted price and the residual. Show your work.",
+          "answer": "Predicted price = 38257 - 0.1629(40000) = 38257 - 6516 = $31,741. Residual = actual - predicted = 30000 - 31741 = -$1,741."
+        },
+        {
+          "level": "L2",
+          "prompt": "The T-shirt sales model is y-hat = 4113 - 162.91x, where x is price in dollars. A shirt priced at $20 had actual sales of 800 shirts. Compute the residual and state whether the point is above or below the regression line.",
+          "answer": "Predicted sales = 4113 - 162.91(20) = 4113 - 3258.2 = 854.8 ≈ 855 shirts. Residual = 800 - 855 = -55 shirts. Negative residual means the point is below the line (actual sales less than predicted)."
+        },
+        {
+          "level": "L3",
+          "prompt": "In the hairdresser tips example, the regression line for tips (y) vs. years of experience (x) is y-hat = 10.07x + 22.4. A hairdresser with 3 years of experience has a tip of $48. Calculate the residual and interpret it in context. Then explain why a large residual might be a concern for model fit.",
+          "answer": "Predicted tip = 10.07(3) + 22.4 = 30.21 + 22.4 = $52.61. Residual = 48 - 52.61 = -$4.61. The hairdresser earned $4.61 less than predicted. A large residual suggests the model may not fit that point well, possibly indicating an outlier or a poor linear fit for that observation."
+        }
+      ]
+    },
+    {
+      "errorId": "err-least-squares-purpose",
+      "trigger": "Student cannot state what least-squares regression is minimizing.",
+      "studentMisunderstanding": "The student may know that technology gives a line of best fit, but does not understand that the method chooses the line by minimizing the total squared residuals.",
+      "miniLesson": {
+        "explain": "Least squares compares possible lines by looking at residuals, the vertical differences between actual y-values and predicted y-values. It squares those residuals so positive and negative errors do not cancel, then chooses the line with the smallest total squared residuals.",
+        "example": "In class, the teacher showed two lines through the same data. The better line had smaller residual squares overall, while the worse line had large squares. That visual is the idea behind least-squares fit.",
+        "memoryAnchor": "Best fit means smallest squared misses."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What quantity does least squares minimize?",
+          "answer": "The sum of squared residuals."
+        },
+        {
+          "level": "L2",
+          "prompt": "Why do we square residuals instead of just adding residuals?",
+          "answer": "Squaring prevents positive and negative residuals from canceling and gives larger misses more weight."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain in one sentence why an outlier can affect a least-squares line.",
+          "answer": "An outlier can have a large residual, and because residuals are squared, it can pull the line noticeably."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-r-direction-strength",
+      "questions": [
+        {
+          "id": "r-ds-q1",
+          "type": "single_choice",
+          "stem": "A scatter plot shows a correlation coefficient of r = −0.78. Which of the following best describes this relationship?",
+          "options": [
+            "Strong positive linear relationship",
+            "Strong negative linear relationship",
+            "Weak negative linear relationship",
+            "78% of the points lie on a straight line"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "r-ds-q2",
+          "type": "open_ended",
+          "stem": "In a study, the correlation between hours of study and exam score is r = 0.65. Explain what the sign and magnitude tell you about the relationship. Be sure to indicate what the value 0.65 does NOT mean (e.g., is it a percentage?).",
+          "rubric": "Student must state that the positive sign means as study hours increase, exam score tends to increase; the magnitude 0.65 indicates a moderate to strong linear relationship. Must also note that it is not a percentage, i.e., not 65% of points on a line."
+        }
+      ],
+      "passRule": "Both questions answered correctly."
+    },
+    {
+      "forErrorId": "err-r-squared-meaning",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In a study of daily screen time and sleep quality, the correlation is r = -0.60. Which statement correctly interprets r²?",
+          "options": [
+            "r² = -0.36, meaning the relationship is negative and 36% of variation is explained.",
+            "r² = 0.36, meaning 36% of the variation in sleep quality is explained by screen time.",
+            "r² = 0.60, meaning 60% of sleep quality is due to screen time.",
+            "r² = 0.36, meaning the linear model is a perfect fit."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A student claims: 'Since r = -0.8, r² = -0.64.' Is this correct? Explain what r² actually represents and why it is never negative.",
+          "rubric": "Student must state that r² = 0.64 (positive), that r² represents the proportion of variation in y explained by x, and that squaring makes it non-negative. Partial credit for correct calculation but incomplete explanation."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly: the single choice with correct index, and the open-ended response must include correct calculation and explanation that r² is always non-negative and represents proportion of variation explained."
+    },
+    {
+      "forErrorId": "err-slope-intercept-context",
+      "questions": [
+        {
+          "id": "q1-slope-context",
+          "type": "single_choice",
+          "stem": "A regression of vehicle price (in $) on miles driven is y-hat = 38257 - 0.1629x. Which correctly interprets the slope?",
+          "options": [
+            "For each additional mile, the predicted price decreases by $0.1629.",
+            "For each additional dollar, the predicted miles decrease by 0.1629.",
+            "The predicted price when miles = 0 is -0.1629.",
+            "For each additional mile, the predicted price increases by $0.1629."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-intercept-context",
+          "type": "open_ended",
+          "stem": "A regression of house price (in $1000s) on size (in square feet) is y-hat = 80 + 0.4x. Interpret the intercept in context.",
+          "rubric": "Must state: when size is 0 sq ft, the predicted house price is $80,000 (or 80 thousand dollars). Accept equivalent phrasing."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-residual-plot-pattern",
+      "questions": [
+        {
+          "id": "q1-residual-pattern",
+          "type": "single_choice",
+          "stem": "A researcher fits a linear model to study the relationship between hours of sleep and reaction time. The residual plot shows a clear curved pattern: residuals first negative, then positive, then negative again. Based on this residual plot, which conclusion is most appropriate?",
+          "options": [
+            "The linear model is not appropriate because the residuals show a curved pattern.",
+            "The linear model is appropriate because residuals are relatively small.",
+            "The linear model is appropriate because the residuals are randomly scattered.",
+            "The linear model is not appropriate because the residuals are too large in magnitude."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-explain-pattern",
+          "type": "open_ended",
+          "stem": "A residual plot for a linear model predicting monthly electricity bill from average temperature shows a distinct U-shaped curve. The residuals range from -15 to +15, but their pattern is clearly curved. Explain why this pattern indicates that a linear model may not be appropriate. What does the pattern suggest about the relationship between temperature and electricity bill? Use the concept of random residuals in your answer.",
+          "rubric": "Student must state that a linear model requires residuals to be randomly scattered around zero with no pattern. A curved pattern indicates systematic over- and under-prediction, meaning the relationship is non-linear (e.g., quadratic). The pattern suggests that the true relationship between temperature and electricity bill is curved, not linear. Full marks for mentioning randomness and non-linear relationship."
+        }
+      ],
+      "passRule": "Answer Q1 correctly (option A) and in Q2 explain that a curved pattern in residuals means the linear model is inappropriate, residuals are not random, and the relationship is likely non-linear."
+    },
+    {
+      "forErrorId": "err-outlier-extrapolation-risk",
+      "questions": [
+        {
+          "id": "retest-outlier-extrapolation-q1",
+          "type": "single_choice",
+          "stem": "A regression model was built from data where x ranges from 1 to 10. Which prediction is most risky?",
+          "options": [
+            "Predicting y when x = 6",
+            "Predicting y when x = 9",
+            "Predicting y when x = 32",
+            "Predicting y when x = 3"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-outlier-extrapolation-q2",
+          "type": "open_ended",
+          "stem": "Why can an outlier change the slope and intercept of a least-squares regression line?",
+          "rubric": "A strong answer says least squares uses all data points and minimizes squared residuals, so a point far from the main pattern can pull the fitted line and change predictions."
+        }
+      ],
+      "passRule": "Student must identify extrapolation risk and explain how outliers can pull a least-squares regression line."
+    },
+    {
+      "forErrorId": "err-residual-calculation",
+      "questions": [
+        {
+          "id": "residual-calc-mc-1",
+          "type": "single_choice",
+          "stem": "A regression model predicts test scores from study hours. For a student who studied 5 hours, the model predicts a score of 78. The student's actual score is 82. Which calculation gives the correct residual?",
+          "options": [
+            "78 - 82 = -4",
+            "82 - 78 = 4",
+            "82 - 78 = -4",
+            "78 - 82 = 4"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "residual-calc-oe-1",
+          "type": "open_ended",
+          "stem": "Given the regression equation y-hat = 50 + 2x (y is sales in thousands of dollars, x is advertising spend in thousands of dollars). For an advertising spend of 10 thousand dollars, actual sales were 68 thousand dollars. Compute the residual and state whether the actual sales were above or below the predicted value.",
+          "rubric": "Answer must show: predicted = 50 + 2*10 = 70 (thousand dollars), residual = actual - predicted = 68 - 70 = -2 (thousand dollars). The residual is negative, so actual sales are below the predicted value."
+        }
+      ],
+      "passRule": "Student must answer both questions correctly. For the multiple-choice, select the correct option '82 - 78 = 4'. For the open-ended, the answer must include the calculation showing residual = -2 thousand dollars and state that actual sales are below the predicted value."
+    },
+    {
+      "forErrorId": "err-least-squares-purpose",
+      "questions": [
+        {
+          "id": "retest-least-squares-q1",
+          "type": "single_choice",
+          "stem": "Which line would least squares prefer?",
+          "options": [
+            "The line with the smallest sum of squared residuals",
+            "The line with the largest y-intercept",
+            "The line with r closest to 0",
+            "The line that passes through the first point only"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-least-squares-q2",
+          "type": "open_ended",
+          "stem": "Why can one far-away point have a large effect on a least-squares regression line?",
+          "rubric": "Answer must mention that least squares uses squared residuals, so a point far from the line can contribute a large error and pull the fitted line."
+        }
+      ],
+      "passRule": "Student must identify the least-squares objective and explain why large residuals matter."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores 0-1 on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题已经从单题错误变成概念框架或表达框架没有建立。"
+  },
+  "studentAnalytics": {
+    "trackedDimensions": [
+      "correlationInterpretation",
+      "rSquaredExplainedVariation",
+      "regressionLineContext",
+      "residualReasoning",
+      "modelFitJudgment",
+      "outlierExtrapolationAwareness"
+    ],
+    "nextTrainingIfWeak": [
+      "r and r squared interpretation sorting drill",
+      "slope/intercept context sentence practice",
+      "residual calculation and sign drill",
+      "residual plot model-fit judgment task",
+      "outlier and extrapolation reliability check"
+    ]
+  }
+}

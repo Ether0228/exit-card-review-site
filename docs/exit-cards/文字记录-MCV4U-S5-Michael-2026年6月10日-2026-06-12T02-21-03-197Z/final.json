@@ -1,0 +1,1084 @@
+{
+  "title": "Curve Sketching Exit Card",
+  "sourceLesson": "MCV4U.S5.Michael 2026-06-10 Transcript",
+  "sourceFormat": "uploaded_text",
+  "methodology": "DeepSeek API generation + local validator/renderer QA",
+  "subject": {
+    "courseCode": "MCV4U",
+    "courseName": "Calculus and Vectors",
+    "strand": "Curve Sketching",
+    "teacher": "Michael Konstantopoulos",
+    "lessonDate": "2026-06-10"
+  },
+  "lessonAnalysis": {
+    "topic": "Curve Sketching Algorithm",
+    "coreLearningGoal": "Students will be able to apply the curve sketching algorithm (domain, intercepts, asymptotes, first/second derivative analysis) to sketch polynomial and rational functions.",
+    "successCriteria": [
+      "Determine domain and continuity of a function.",
+      "Find x- and y-intercepts.",
+      "Identify vertical, horizontal, and oblique asymptotes for rational functions.",
+      "Compute first derivative, find critical points, and determine intervals of increase/decrease.",
+      "Compute second derivative, find inflection points, and determine concavity intervals.",
+      "Synthesize information to sketch an accurate graph."
+    ],
+    "lessonExamplesDetected": [
+      "f(x) = x^3 - 6x^2 + 9x (polynomial)",
+      "f(x) = x^2/(x-1) (rational function with oblique asymptote)",
+      "Matching graphs of f, f', f''"
+    ],
+    "targetProducts": [
+      "A fully labeled sketch of a function showing intercepts, asymptotes, local extrema, inflection points, and correct increasing/decreasing/concavity behavior."
+    ],
+    "inputEvidenceStudentsShouldUse": [
+      "Given function equation",
+      "Derivative calculations",
+      "Sign charts for f' and f''",
+      "Asymptote equations"
+    ],
+    "doNotRevealAsQuestionCondition": [
+      "The final sketched graph itself",
+      "The exact coordinates of all points from the worked example"
+    ]
+  },
+  "problemAnchor": "A student is given a function and must produce a complete curve sketch. They need to systematically apply the algorithm to avoid missing key features.",
+  "abt": {
+    "and": "Students have learned individual calculus concepts (derivatives, limits)",
+    "but": "They struggle to integrate these into a coherent curve sketching process, often skipping steps or misinterpreting derivative signs.",
+    "therefore": "We need a diagnostic that checks their ability to execute each step of the algorithm and connect the results to the graph."
+  },
+  "objective": "Diagnose students' ability to apply the curve sketching algorithm to a new polynomial function, identifying domain, intercepts, critical points, intervals of increase/decrease, concavity, and inflection points.",
+  "knowledgeNodes": [
+    {
+      "id": "KN1",
+      "name": "Domain and Continuity",
+      "lessonEvidence": "Teacher: 'find the domain... Is the function continuous? Is it not continuous? ... polynomial function ... continuous anywhere or everywhere.'"
+    },
+    {
+      "id": "KN2",
+      "name": "Intercepts",
+      "lessonEvidence": "Teacher: 'find the intercepts... set the function y f equal to 0, and then when we factor, we find our roots'"
+    },
+    {
+      "id": "KN3",
+      "name": "Asymptotes",
+      "lessonEvidence": "Teacher: 'find any asymptotes. If the function is not continuous... vertical asymptote is 1, set the denominator equal to 0... oblique asymptote... use long division'"
+    },
+    {
+      "id": "KN4",
+      "name": "First Derivative Test",
+      "lessonEvidence": "Teacher: 'first derivative test... determine if a function is increasing or decreasing... find the critical points, then we check the interval chart... sign chart'"
+    },
+    {
+      "id": "KN5",
+      "name": "Second Derivative Test and Concavity",
+      "lessonEvidence": "Teacher: 'second derivative test... analyze where the function is concave up or concave down... sign chart for F double prime... identify possible points of inflection'"
+    },
+    {
+      "id": "KN6",
+      "name": "Inflection Points",
+      "lessonEvidence": "Teacher: 'points of inflection, where the first derivative is equal to 0, the second derivative is equal to 0... gives us the turning points'"
+    },
+    {
+      "id": "KN7",
+      "name": "Synthesizing Sketch",
+      "lessonEvidence": "Teacher: 'sketch the whole function... putting it all together... summarize all the local extreme points of inflection... and then we sketch the graph'"
+    }
+  ],
+  "errorTaxonomy": [
+    {
+      "errorId": "E1",
+      "meaning": "Incorrect domain identification (e.g., missing restrictions for rational/root functions, or assuming discontinuity for polynomials)."
+    },
+    {
+      "errorId": "E2",
+      "meaning": "Algebraic errors in finding intercepts (e.g., factoring mistakes, missing x=0 as intercept)."
+    },
+    {
+      "errorId": "E3",
+      "meaning": "Misidentifying asymptotes (e.g., confusing vertical/horizontal/oblique, incorrect long division, missing asymptote due to degree comparison)."
+    },
+    {
+      "errorId": "E4",
+      "meaning": "Errors in first derivative computation or critical point classification (e.g., derivative mistakes, missing critical points where f' undefined, misinterpreting sign chart)."
+    },
+    {
+      "errorId": "E5",
+      "meaning": "Errors in second derivative computation or concavity analysis (e.g., derivative mistakes, misinterpreting sign of f'', incorrect inflection point x-values)."
+    },
+    {
+      "errorId": "E6",
+      "meaning": "Failure to connect derivative information to graph shape (e.g., sketching increase when f' negative, concave up when f'' negative)."
+    },
+    {
+      "errorId": "E7",
+      "meaning": "Incomplete or inaccurate synthesis (e.g., missing key points, asymptotes not drawn, inconsistent behavior near asymptotes)."
+    }
+  ],
+  "figures": [
+    {
+      "figureId": "fig1",
+      "title": "Sign chart for f'(x) of a polynomial",
+      "figureType": "simple_diagram",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "type": "sign_chart",
+        "functionLabel": "f'(x)",
+        "criticalPoints": [
+          "-1",
+          "2"
+        ],
+        "intervals": [
+          {
+            "interval": "(-∞, -1)",
+            "sign": "+"
+          },
+          {
+            "interval": "(-1, 2)",
+            "sign": "-"
+          },
+          {
+            "interval": "(2, ∞)",
+            "sign": "+"
+          }
+        ]
+      },
+      "answerLock": {
+        "correctSigns": [
+          "+",
+          "-",
+          "+"
+        ],
+        "explanation": "f'(x) > 0 for x < -1 and x > 2; f'(x) < 0 for -1 < x < 2."
+      }
+    },
+    {
+      "figureId": "fig2",
+      "title": "Sign chart for f''(x) of a polynomial",
+      "figureType": "simple_diagram",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "type": "sign_chart",
+        "functionLabel": "f''(x)",
+        "criticalPoints": [
+          "0.5"
+        ],
+        "intervals": [
+          {
+            "interval": "(-∞, 0.5)",
+            "sign": "-"
+          },
+          {
+            "interval": "(0.5, ∞)",
+            "sign": "+"
+          }
+        ]
+      },
+      "answerLock": {
+        "correctSigns": [
+          "-",
+          "+"
+        ],
+        "explanation": "f''(x) < 0 for x < 0.5 (concave down); f''(x) > 0 for x > 0.5 (concave up)."
+      }
+    },
+    {
+      "figureId": "fig3",
+      "title": "Graphs of f, f', f'' for matching",
+      "figureType": "coordinate_grid",
+      "renderer": "local_svg",
+      "materialRole": "comparison_option",
+      "figureSpec": {
+        "grid": {
+          "xRange": [
+            -3,
+            3
+          ],
+          "yRange": [
+            -5,
+            5
+          ]
+        },
+        "curves": [
+          {
+            "id": "A",
+            "color": "red",
+            "label": "A = f",
+            "points": [
+              {
+                "x": -2.5,
+                "y": -3.25
+              },
+              {
+                "x": -2,
+                "y": 0
+              },
+              {
+                "x": -1.5,
+                "y": 1.69
+              },
+              {
+                "x": -1,
+                "y": 2
+              },
+              {
+                "x": -0.5,
+                "y": 1.44
+              },
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0.5,
+                "y": -1.44
+              },
+              {
+                "x": 1,
+                "y": -2
+              },
+              {
+                "x": 1.5,
+                "y": -1.69
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 2.5,
+                "y": 3.25
+              }
+            ]
+          },
+          {
+            "id": "B",
+            "color": "blue",
+            "label": "B = f'",
+            "points": [
+              {
+                "x": -2.5,
+                "y": 4.69
+              },
+              {
+                "x": -2,
+                "y": 3
+              },
+              {
+                "x": -1.5,
+                "y": 1.31
+              },
+              {
+                "x": -1,
+                "y": 0
+              },
+              {
+                "x": -0.5,
+                "y": -0.94
+              },
+              {
+                "x": 0,
+                "y": -1.5
+              },
+              {
+                "x": 0.5,
+                "y": -0.94
+              },
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 1.5,
+                "y": 1.31
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 2.5,
+                "y": 4.69
+              }
+            ]
+          },
+          {
+            "id": "C",
+            "color": "green",
+            "label": "C = f''",
+            "points": [
+              {
+                "x": -2.5,
+                "y": -3.75
+              },
+              {
+                "x": -2,
+                "y": -3
+              },
+              {
+                "x": -1.5,
+                "y": -2.25
+              },
+              {
+                "x": -1,
+                "y": -1.5
+              },
+              {
+                "x": -0.5,
+                "y": -0.75
+              },
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 0.5,
+                "y": 0.75
+              },
+              {
+                "x": 1,
+                "y": 1.5
+              },
+              {
+                "x": 1.5,
+                "y": 2.25
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 2.5,
+                "y": 3.75
+              }
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "x": -2.85,
+            "y": 4.6,
+            "text": "A: f has max near x=-1 and min near x=1"
+          },
+          {
+            "x": -2.85,
+            "y": 4.05,
+            "text": "B: f' crosses x-axis at those extrema"
+          },
+          {
+            "x": -2.85,
+            "y": 3.5,
+            "text": "C: f'' crosses x-axis where B has its minimum"
+          }
+        ]
+      },
+      "answerLock": {
+        "correctMatch": {
+          "f": "A",
+          "f'": "B",
+          "f''": "C"
+        },
+        "explanation": "A has local extrema near x=-1 and x=1 where B crosses the x-axis. B has a local minimum near x=0 where C crosses the x-axis. Therefore B is f'."
+      }
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 12,
+    "passRule": {
+      "pass": "8-10 correct",
+      "targetedRemediation": "5-7 correct",
+      "reteach": "0-4 correct"
+    },
+    "questions": [
+      {
+        "id": "Q1",
+        "nodeId": "KN1",
+        "type": "single_choice",
+        "bloomLevel": "Remember",
+        "scaffoldLevel": "Low",
+        "cognitiveAction": "Identify the domain of a polynomial function.",
+        "errorId": "E1",
+        "stem": "What is the domain of the function f(x) = 2x^3 - 5x^2 + 3x - 7?",
+        "options": [
+          {
+            "label": "A",
+            "text": "All real numbers",
+            "correct": true,
+            "feedbackCorrect": "Correct! Polynomials are defined for all real numbers.",
+            "feedbackWrong": "Polynomials have no restrictions; their domain is all real numbers."
+          },
+          {
+            "label": "B",
+            "text": "x ≠ 0",
+            "correct": false,
+            "feedbackWrong": "There is no division by x, so x=0 is allowed."
+          },
+          {
+            "label": "C",
+            "text": "x ≥ 0",
+            "correct": false,
+            "feedbackWrong": "Polynomials are defined for negative x as well."
+          },
+          {
+            "label": "D",
+            "text": "x > 0",
+            "correct": false,
+            "feedbackWrong": "Polynomials are defined for all real numbers, including zero and negatives."
+          }
+        ]
+      },
+      {
+        "id": "Q2",
+        "nodeId": "KN2",
+        "type": "single_choice",
+        "bloomLevel": "Apply",
+        "scaffoldLevel": "Medium",
+        "cognitiveAction": "Find the x-intercepts of a factored polynomial.",
+        "errorId": "E2",
+        "stem": "Given f(x) = x(x - 2)(x + 1), what are the x-intercepts?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0, 2, -1",
+            "correct": true,
+            "feedbackCorrect": "Correct! Setting each factor to zero gives x=0, x=2, x=-1.",
+            "feedbackWrong": "Set each factor equal to zero: x=0, x-2=0 → x=2, x+1=0 → x=-1."
+          },
+          {
+            "label": "B",
+            "text": "0, -2, 1",
+            "correct": false,
+            "feedbackWrong": "Check the signs when solving x-2=0 and x+1=0."
+          },
+          {
+            "label": "C",
+            "text": "2, -1 only",
+            "correct": false,
+            "feedbackWrong": "Don't forget the factor x, which gives x=0."
+          },
+          {
+            "label": "D",
+            "text": "0 only",
+            "correct": false,
+            "feedbackWrong": "There are three factors, so three x-intercepts."
+          }
+        ]
+      },
+      {
+        "id": "Q3",
+        "nodeId": "KN3",
+        "type": "single_choice",
+        "bloomLevel": "Apply",
+        "scaffoldLevel": "Medium",
+        "cognitiveAction": "Identify the vertical asymptote of a rational function.",
+        "errorId": "E3",
+        "stem": "Consider the function f(x) = (x+2)/(x-3). What is the equation of the vertical asymptote?",
+        "options": [
+          {
+            "label": "A",
+            "text": "x = -2",
+            "correct": false,
+            "feedbackWrong": "Vertical asymptotes come from the denominator, not the numerator."
+          },
+          {
+            "label": "B",
+            "text": "x = 3",
+            "correct": true,
+            "feedbackCorrect": "Correct! Setting the denominator x-3=0 gives x=3.",
+            "feedbackWrong": "Set the denominator equal to zero: x-3=0 → x=3."
+          },
+          {
+            "label": "C",
+            "text": "y = 1",
+            "correct": false,
+            "feedbackWrong": "y=1 is a horizontal asymptote, not vertical."
+          },
+          {
+            "label": "D",
+            "text": "y = -2/3",
+            "correct": false,
+            "feedbackWrong": "This is not an asymptote; check by setting the denominator to zero."
+          }
+        ]
+      },
+      {
+        "id": "Q4",
+        "nodeId": "KN4",
+        "type": "single_choice",
+        "bloomLevel": "Apply",
+        "scaffoldLevel": "Medium",
+        "cognitiveAction": "Determine intervals of increase from a sign chart.",
+        "errorId": "E4",
+        "stem": "The sign chart for f'(x) is shown in Figure 1. On which interval(s) is f increasing?",
+        "options": [
+          {
+            "label": "A",
+            "text": "(-∞, -1) only",
+            "correct": false,
+            "feedbackWrong": "f is also increasing on (2, ∞) where f'(x) > 0."
+          },
+          {
+            "label": "B",
+            "text": "(-1, 2) only",
+            "correct": false,
+            "feedbackWrong": "On (-1, 2), f'(x) < 0, so f is decreasing."
+          },
+          {
+            "label": "C",
+            "text": "(-∞, -1) and (2, ∞)",
+            "correct": true,
+            "feedbackCorrect": "Correct! f'(x) > 0 on these intervals, so f is increasing.",
+            "feedbackWrong": "Look for intervals where f'(x) is positive (+)."
+          },
+          {
+            "label": "D",
+            "text": "(2, ∞) only",
+            "correct": false,
+            "feedbackWrong": "f is also increasing on (-∞, -1)."
+          }
+        ],
+        "figureId": "fig1"
+      },
+      {
+        "id": "Q5",
+        "nodeId": "KN4",
+        "type": "single_choice",
+        "bloomLevel": "Analyze",
+        "scaffoldLevel": "High",
+        "cognitiveAction": "Classify a critical point using the first derivative test.",
+        "errorId": "E4",
+        "stem": "Using Figure 1, what type of critical point occurs at x = -1?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Local minimum",
+            "correct": false,
+            "feedbackWrong": "f' changes from + to -, which indicates a local maximum."
+          },
+          {
+            "label": "B",
+            "text": "Local maximum",
+            "correct": true,
+            "feedbackCorrect": "Correct! f' changes from positive to negative, so f has a local maximum at x=-1.",
+            "feedbackWrong": "Check the sign change: f' goes from + to -, so it's a local maximum."
+          },
+          {
+            "label": "C",
+            "text": "Neither",
+            "correct": false,
+            "feedbackWrong": "There is a sign change, so it is a local extremum."
+          },
+          {
+            "label": "D",
+            "text": "Inflection point",
+            "correct": false,
+            "feedbackWrong": "Inflection points are determined by f'', not f'."
+          }
+        ]
+      },
+      {
+        "id": "Q6",
+        "nodeId": "KN5",
+        "type": "single_choice",
+        "bloomLevel": "Apply",
+        "scaffoldLevel": "Medium",
+        "cognitiveAction": "Determine concavity from a sign chart.",
+        "errorId": "E5",
+        "stem": "The sign chart for f''(x) is shown in Figure 2. On which interval is f concave up?",
+        "options": [
+          {
+            "label": "A",
+            "text": "(-∞, 0.5)",
+            "correct": false,
+            "feedbackWrong": "On (-∞, 0.5), f''(x) < 0, so f is concave down."
+          },
+          {
+            "label": "B",
+            "text": "(0.5, ∞)",
+            "correct": true,
+            "feedbackCorrect": "Correct! f''(x) > 0 on (0.5, ∞), so f is concave up.",
+            "feedbackWrong": "Concave up means f''(x) > 0; look for the + interval."
+          },
+          {
+            "label": "C",
+            "text": "(-∞, ∞)",
+            "correct": false,
+            "feedbackWrong": "The sign of f'' changes, so concavity is not the same everywhere."
+          },
+          {
+            "label": "D",
+            "text": "Nowhere",
+            "correct": false,
+            "feedbackWrong": "There is an interval where f'' is positive."
+          }
+        ],
+        "figureId": "fig2"
+      },
+      {
+        "id": "Q7",
+        "nodeId": "KN6",
+        "type": "single_choice",
+        "bloomLevel": "Apply",
+        "scaffoldLevel": "Medium",
+        "cognitiveAction": "Identify the x-coordinate of an inflection point from f'' sign change.",
+        "errorId": "E5",
+        "stem": "Using Figure 2, at which x-value does an inflection point occur?",
+        "options": [
+          {
+            "label": "A",
+            "text": "x = -1",
+            "correct": false,
+            "feedbackWrong": "Figure 2 is for f'', not f'. Inflection points occur where f'' changes sign."
+          },
+          {
+            "label": "B",
+            "text": "x = 0",
+            "correct": false,
+            "feedbackWrong": "At x=0, f'' is negative on both sides? Check the chart."
+          },
+          {
+            "label": "C",
+            "text": "x = 0.5",
+            "correct": true,
+            "feedbackCorrect": "Correct! f'' changes from negative to positive at x=0.5, indicating an inflection point.",
+            "feedbackWrong": "Inflection points occur where f'' changes sign; that happens at x=0.5."
+          },
+          {
+            "label": "D",
+            "text": "x = 2",
+            "correct": false,
+            "feedbackWrong": "x=2 is a critical point from Figure 1, not an inflection point from Figure 2."
+          }
+        ]
+      },
+      {
+        "id": "Q8",
+        "nodeId": "KN7",
+        "type": "single_choice",
+        "bloomLevel": "Analyze",
+        "scaffoldLevel": "High",
+        "cognitiveAction": "Match graphs of f, f', f'' based on derivative relationships.",
+        "errorId": "E6",
+        "stem": "Figure 3 shows three graphs labeled A, B, C. Which graph represents f'?",
+        "options": [
+          {
+            "label": "A",
+            "text": "A",
+            "correct": false,
+            "feedbackWrong": "Graph A has local extrema where B crosses the x-axis, so A is likely f."
+          },
+          {
+            "label": "B",
+            "text": "B",
+            "correct": true,
+            "feedbackCorrect": "Correct! B crosses the x-axis at the extrema of A, and its extrema align with C's x-intercepts, so B is f'.",
+            "feedbackWrong": "Look for the graph that shows the slopes of another graph."
+          },
+          {
+            "label": "C",
+            "text": "C",
+            "correct": false,
+            "feedbackWrong": "C crosses the x-axis at the extrema of B, so C is likely f''."
+          },
+          {
+            "label": "D",
+            "text": "Cannot be determined",
+            "correct": false,
+            "feedbackWrong": "The relationship between the graphs can be determined by analyzing extrema and x-intercepts."
+          }
+        ],
+        "figureId": "fig3"
+      },
+      {
+        "id": "Q9",
+        "nodeId": "KN7",
+        "type": "open_ended",
+        "bloomLevel": "Analyze",
+        "scaffoldLevel": "High",
+        "cognitiveAction": "Synthesize derivative evidence into graph-feature predictions without drawing the final graph.",
+        "errorId": "E7",
+        "stem": "Given f'(x) > 0 for x < -1 and x > 2, f'(x) < 0 for -1 < x < 2, f''(x) < 0 for x < 0.5, and f''(x) > 0 for x > 0.5, list the increasing/decreasing intervals, concavity intervals, and the likely x-values of local extrema and inflection. Do not draw the final graph.",
+        "rubric": "Strong answer identifies: increasing on (-∞,-1) and (2,∞); decreasing on (-1,2); concave down on (-∞,0.5); concave up on (0.5,∞); local maximum near x=-1; local minimum near x=2; inflection candidate at x=0.5 because f'' changes sign.",
+        "sampleStrongAnswer": "f is increasing on (-∞,-1) and (2,∞), and decreasing on (-1,2). It is concave down on (-∞,0.5) and concave up on (0.5,∞). Since f' changes from positive to negative at x=-1, there is a local maximum there. Since f' changes from negative to positive at x=2, there is a local minimum there. Since f'' changes from negative to positive at x=0.5, x=0.5 is an inflection candidate."
+      },
+      {
+        "id": "Q10",
+        "nodeId": "KN7",
+        "type": "open_ended",
+        "bloomLevel": "Evaluate",
+        "scaffoldLevel": "High",
+        "cognitiveAction": "Explain the relationship between f, f', and f'' in curve sketching.",
+        "errorId": "E6",
+        "stem": "Explain how the signs of f'(x) and f''(x) determine the shape of the graph of f(x). Use the terms increasing, decreasing, concave up, and concave down in your explanation.",
+        "rubric": "Must state: f'(x) > 0 implies f increasing, f'(x) < 0 implies f decreasing; f''(x) > 0 implies concave up, f''(x) < 0 implies concave down. May mention critical points and inflection points.",
+        "sampleStrongAnswer": "The sign of f'(x) tells us whether f is increasing or decreasing: if f'(x) > 0, the graph goes up as x increases; if f'(x) < 0, it goes down. The sign of f''(x) tells us about concavity: if f''(x) > 0, the graph is concave up (curving upward like a cup); if f''(x) < 0, it is concave down (curving downward like a cap). Together, they determine the overall shape, such as increasing and concave down, or decreasing and concave up."
+      }
+    ]
+  },
+  "reteachModules": [
+    {
+      "errorId": "E1",
+      "trigger": "Incorrect domain identification",
+      "studentMisunderstanding": "Student does not recognize that polynomials have domain all real numbers, or incorrectly applies restrictions from rational/root functions to polynomials.",
+      "miniLesson": {
+        "explain": "The domain of a function is the set of all x-values for which the function is defined. Polynomial functions (sums of powers of x with real coefficients) are defined for all real numbers because you can plug any real number into a polynomial and get a real output. There are no division by zero or even roots of negative numbers to worry about.",
+        "example": "f(x) = 3x^5 - 2x^2 + 7 is a polynomial. Its domain is all real numbers, written as (-∞, ∞) or ℝ.",
+        "memoryAnchor": "Polynomials = no restrictions. Think: 'Poly wants all x's.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the domain of f(x) = x^2 + 4?",
+          "answer": "All real numbers."
+        },
+        {
+          "level": "L2",
+          "prompt": "Is there any value of x that makes f(x) = 5x^3 - x + 1 undefined?",
+          "answer": "No, it's a polynomial, so it's defined for all real x."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the domain of f(x) = 1/x is not all real numbers, but the domain of f(x) = x is all real numbers.",
+          "answer": "f(x)=1/x has division by x, so x cannot be 0. f(x)=x is a polynomial, so no division or roots, thus all real numbers are allowed."
+        }
+      ]
+    },
+    {
+      "errorId": "E2",
+      "trigger": "Algebraic errors in finding intercepts",
+      "studentMisunderstanding": "Student makes factoring errors or forgets to set y=0 to find x-intercepts, or sets x=0 incorrectly for y-intercept.",
+      "miniLesson": {
+        "explain": "To find x-intercepts, set y=0 and solve for x. Factor the polynomial if possible. Each factor gives an x-intercept. To find the y-intercept, set x=0 and evaluate f(0).",
+        "example": "For f(x)=x(x-2)(x+1), set 0=x(x-2)(x+1). By zero product property, x=0, x-2=0 → x=2, x+1=0 → x=-1. So x-intercepts at 0, 2, -1. y-intercept: f(0)=0(0-2)(0+1)=0.",
+        "memoryAnchor": "x-intercepts: let y=0 and factor. y-intercept: let x=0."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find the x-intercepts of f(x) = (x-3)(x+4).",
+          "answer": "Set 0=(x-3)(x+4) → x=3, x=-4."
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the y-intercept of f(x) = x^2 - 5x + 6.",
+          "answer": "f(0) = 0^2 -5(0)+6 = 6, so y-intercept is (0,6)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student says the x-intercepts of f(x)=x^2-4 are 2 and -2, but forgets to check. Are they correct? What is the y-intercept?",
+          "answer": "Yes, x^2-4=(x-2)(x+2)=0 gives x=2,-2. y-intercept: f(0)=-4, so (0,-4)."
+        }
+      ]
+    },
+    {
+      "errorId": "E3",
+      "trigger": "Misidentifying asymptotes",
+      "studentMisunderstanding": "Student confuses vertical asymptotes (denominator=0) with x-intercepts, or incorrectly determines horizontal/oblique asymptotes by not comparing degrees.",
+      "miniLesson": {
+        "explain": "For rational functions f(x)=p(x)/q(x): Vertical asymptotes where q(x)=0 (and p(x)≠0). Horizontal asymptote: if degree(p) < degree(q), y=0; if equal, y=leading coeff ratio; if degree(p) > degree(q), no horizontal asymptote (but may have oblique). Oblique asymptote if degree(p) = degree(q)+1; find by polynomial long division.",
+        "example": "f(x)=(x+2)/(x-3). Denominator zero at x=3 → vertical asymptote x=3. Degrees equal (1 and 1) → horizontal asymptote y=1/1=1.",
+        "memoryAnchor": "Vertical: set bottom=0. Horizontal: compare degrees (BOB0, EATS DC, or no HA). Oblique: degree top = bottom+1."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find the vertical asymptote of f(x) = 1/(x-5).",
+          "answer": "Set x-5=0 → x=5."
+        },
+        {
+          "level": "L2",
+          "prompt": "Does f(x) = (2x)/(x^2+1) have a horizontal asymptote? If so, what is it?",
+          "answer": "Degree top=1, bottom=2, so y=0."
+        },
+        {
+          "level": "L3",
+          "prompt": "Find all asymptotes of f(x) = (x^2+1)/(x-1).",
+          "answer": "Vertical: x=1. Degree top=2, bottom=1 → no horizontal, but oblique. Long division: x^2+1 divided by x-1 gives x+1 + 2/(x-1), so oblique asymptote y=x+1."
+        }
+      ]
+    },
+    {
+      "errorId": "E4",
+      "trigger": "Errors in first derivative computation or critical point classification",
+      "studentMisunderstanding": "Student makes mistakes in differentiation rules, algebra when solving f'(x)=0, or misinterprets the sign chart (e.g., thinking positive derivative means decreasing).",
+      "miniLesson": {
+        "explain": "First derivative f'(x) gives slope. Critical points where f'(x)=0 or undefined. Use a sign chart: test points in each interval between critical points. If f'(x)>0, f is increasing; if f'(x)<0, f is decreasing. A critical point is a local max if f' changes from + to -, local min if - to +.",
+        "example": "For f(x)=x^3-3x, f'(x)=3x^2-3=3(x-1)(x+1). Critical points at x=-1,1. Sign chart: (-∞,-1): + (increasing); (-1,1): - (decreasing); (1,∞): + (increasing). So local max at x=-1, local min at x=1.",
+        "memoryAnchor": "f' sign = slope direction. + means up, - means down. Max: + to -. Min: - to +."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find f'(x) for f(x)=4x^3 - 2x.",
+          "answer": "f'(x)=12x^2 - 2."
+        },
+        {
+          "level": "L2",
+          "prompt": "The sign chart for f'(x) is: (-∞,0): -, (0,2): +, (2,∞): -. Classify the critical point at x=0.",
+          "answer": "f' changes from - to +, so local minimum at x=0."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student says f(x)=x^3 has a local maximum at x=0 because f'(0)=0. Explain the error.",
+          "answer": "f'(x)=3x^2, which is positive on both sides of 0, so no sign change; thus no local extremum at 0 (it's an inflection point)."
+        }
+      ]
+    },
+    {
+      "errorId": "E5",
+      "trigger": "Errors in second derivative computation or concavity analysis",
+      "studentMisunderstanding": "Student incorrectly computes second derivative, misinterprets sign (e.g., f''>0 means concave down), or fails to find inflection points where f'' changes sign.",
+      "miniLesson": {
+        "explain": "Second derivative f''(x) tells concavity. f''(x)>0 → concave up (cup shape); f''(x)<0 → concave down (cap shape). Inflection points occur where f''(x)=0 or undefined AND concavity changes (sign of f'' changes).",
+        "example": "f(x)=x^3-3x, f''(x)=6x. Set 6x=0 → x=0. Sign chart: (-∞,0): - (concave down); (0,∞): + (concave up). Concavity changes at x=0, so inflection point at (0,0).",
+        "memoryAnchor": "Second derivative: positive = smile (concave up), negative = frown (concave down). Inflection = smile changes to frown or vice versa."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If f''(x) = 2, is f concave up or down?",
+          "answer": "Concave up (positive)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the x-coordinate of any inflection point for f(x)=x^4-6x^2.",
+          "answer": "f''(x)=12x^2-12=12(x-1)(x+1). Set =0 → x=1,-1. Sign changes at both, so inflection points at x=1 and x=-1."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student claims f(x)=x^4 has an inflection point at x=0 because f''(0)=0. Are they correct?",
+          "answer": "No, f''(x)=12x^2, which is positive on both sides of 0, so concavity does not change (always concave up). No inflection point."
+        }
+      ]
+    },
+    {
+      "errorId": "E6",
+      "trigger": "Failure to connect derivative information to graph shape",
+      "studentMisunderstanding": "Student can compute derivatives but cannot translate sign information into the actual shape of the graph (e.g., drawing increasing when derivative is negative).",
+      "miniLesson": {
+        "explain": "The graph of f is a visual representation of all the derivative information. f' tells slope: positive f' means graph goes up as x increases; negative f' means graph goes down. f'' tells bending: positive f'' means graph curves upward (like a cup); negative f'' means curves downward (like a cap). Combine them: e.g., f'>0 and f''<0 means increasing but bending downwards (getting less steep).",
+        "example": "If f'>0 and f''>0, graph is increasing and concave up (getting steeper). If f'<0 and f''<0, graph is decreasing and concave down (getting steeper downward). Sketch small segments to practice.",
+        "memoryAnchor": "Think of driving a car: f' is speed (positive=forward), f'' is acceleration (positive=speed increasing)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If f'(x) > 0, is the graph going up or down?",
+          "answer": "Up (increasing)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Describe the shape of f on an interval where f' < 0 and f'' > 0.",
+          "answer": "Decreasing and concave up (slope negative but becoming less negative, graph curving upward)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Sketch a small segment of a graph where f' > 0 and f'' < 0. Explain your sketch.",
+          "answer": "The segment should go upward (increasing) but bend downward (concave down), like the right side of an upside-down parabola."
+        }
+      ]
+    },
+    {
+      "errorId": "E7",
+      "trigger": "Incomplete or inaccurate synthesis",
+      "studentMisunderstanding": "Student may correctly find individual features but fails to combine them into a coherent graph, missing asymptotes, inconsistent behavior near asymptotes, or not labeling key points.",
+      "miniLesson": {
+        "explain": "Curve sketching is like assembling a puzzle. Start by drawing asymptotes as dashed lines. Plot intercepts and critical/inflection points. Then use sign charts to sketch the curve's direction and bending in each interval. Ensure the graph approaches asymptotes correctly (e.g., vertical asymptote: graph goes to ±∞; horizontal/oblique: graph approaches the line as x→±∞).",
+        "example": "For f(x)=1/(x-2)+1, vertical asymptote x=2, horizontal y=1. Plot y-intercept (0,0.5). As x→2⁻, f(x)→-∞; as x→2⁺, f(x)→+∞. As x→±∞, f(x)→1. Sketch accordingly.",
+        "memoryAnchor": "Asymptotes are boundaries the graph cannot cross (usually). Plot points, then connect with correct slope and concavity."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the first thing you should draw when sketching a rational function?",
+          "answer": "Dashed lines for asymptotes."
+        },
+        {
+          "level": "L2",
+          "prompt": "For f(x)=1/(x-1), describe the behavior as x approaches 1 from the left.",
+          "answer": "As x→1⁻, x-1 is a small negative number, so 1/(small negative) → -∞. The graph goes down towards negative infinity."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student sketches f(x)=(x^2-1)/(x-2) but forgets the oblique asymptote. What is the asymptote and how would it affect the sketch?",
+          "answer": "Long division gives y=x+2. The graph should approach this line as x→±∞. Without it, the end behavior will be incorrect."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "E1",
+      "questions": [
+        {
+          "id": "R1a",
+          "type": "single_choice",
+          "stem": "What is the domain of f(x) = -4x^6 + 2x^3 - 9?",
+          "options": [
+            "All real numbers",
+            "x ≠ 0",
+            "x ≥ 0",
+            "x ≤ 0"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R1b",
+          "type": "open_ended",
+          "stem": "Explain why the domain of f(x) = √(x-2) is not all real numbers, but the domain of f(x) = x^2 - 2 is all real numbers.",
+          "rubric": "Must mention that square root requires non-negative radicand, so x-2≥0 → x≥2. Polynomial has no restrictions."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E2",
+      "questions": [
+        {
+          "id": "R2a",
+          "type": "single_choice",
+          "stem": "Find the x-intercepts of f(x) = (x+3)(x-1)(x-4).",
+          "options": [
+            "-3, 1, 4",
+            "3, -1, -4",
+            "-3, -1, -4",
+            "0, -3, 1, 4"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R2b",
+          "type": "open_ended",
+          "stem": "Find the x- and y-intercepts of f(x) = x^2 - 7x + 10.",
+          "rubric": "x-intercepts: set 0=x^2-7x+10=(x-5)(x-2) → x=5,2. y-intercept: f(0)=10. Must show work."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E3",
+      "questions": [
+        {
+          "id": "R3a",
+          "type": "single_choice",
+          "stem": "What are the vertical and horizontal asymptotes of f(x) = (3x)/(x+2)?",
+          "options": [
+            "Vertical: x=-2; Horizontal: y=3",
+            "Vertical: x=2; Horizontal: y=0",
+            "Vertical: x=-2; Horizontal: y=0",
+            "Vertical: x=3; Horizontal: none"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R3b",
+          "type": "open_ended",
+          "stem": "Find all asymptotes of f(x) = (x^2 - 1)/(x + 1).",
+          "rubric": "Factor numerator: (x-1)(x+1)/(x+1) = x-1 for x≠-1. Hole at x=-1, no vertical asymptote. No horizontal/oblique since it simplifies to linear (but technically oblique y=x-1 with hole). Accept explanation of hole vs asymptote."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E4",
+      "questions": [
+        {
+          "id": "R4a",
+          "type": "single_choice",
+          "stem": "Given f'(x) = (x-1)(x+2), on which interval is f decreasing?",
+          "options": [
+            "(-∞, -2)",
+            "(-2, 1)",
+            "(1, ∞)",
+            "(-∞, -2) and (1, ∞)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R4b",
+          "type": "open_ended",
+          "stem": "Find the critical points of f(x) = x^3 - 6x^2 + 9x and classify each as local max, min, or neither.",
+          "rubric": "f'(x)=3x^2-12x+9=3(x-1)(x-3). Critical points x=1,3. Sign chart: (-∞,1): +; (1,3): -; (3,∞): +. So local max at x=1, local min at x=3."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E5",
+      "questions": [
+        {
+          "id": "R5a",
+          "type": "single_choice",
+          "stem": "For f(x) = x^3 - 3x, what is the concavity at x = -1?",
+          "options": [
+            "Concave up",
+            "Concave down",
+            "Neither",
+            "Inflection point"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R5b",
+          "type": "open_ended",
+          "stem": "Find the inflection point(s) of f(x) = x^4 - 4x^3.",
+          "rubric": "f''(x)=12x^2-24x=12x(x-2). Set =0 → x=0,2. Sign chart: (-∞,0): +; (0,2): -; (2,∞): +. Concavity changes at both, so inflection points at x=0 and x=2. Find y: f(0)=0, f(2)=16-32=-16. Points: (0,0) and (2,-16)."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E6",
+      "questions": [
+        {
+          "id": "R6a",
+          "type": "single_choice",
+          "stem": "If f'(x) < 0 and f''(x) > 0, which graph shape is correct?",
+          "options": [
+            "Increasing and concave up",
+            "Decreasing and concave up",
+            "Increasing and concave down",
+            "Decreasing and concave down"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "R6b",
+          "type": "open_ended",
+          "stem": "Sketch a graph that is increasing and concave down. Label a segment where this occurs.",
+          "rubric": "Graph must go upward (positive slope) but bend downward (like right side of upside-down parabola). Accept any reasonable sketch with labels."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "E7",
+      "questions": [
+        {
+          "id": "R7a",
+          "type": "single_choice",
+          "stem": "When sketching f(x) = 1/(x-2) + 1, what is the behavior as x → 2⁺?",
+          "options": [
+            "f(x) → ∞",
+            "f(x) → -∞",
+            "f(x) → 1",
+            "f(x) → 0"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R7b",
+          "type": "open_ended",
+          "stem": "Sketch the graph of f(x) = (x-1)/(x+2). Label all asymptotes and intercepts.",
+          "rubric": "Vertical asymptote x=-2; horizontal asymptote y=1; x-intercept (1,0); y-intercept (0,-1/2). Graph should approach asymptotes correctly. Must label."
+        }
+      ],
+      "passRule": "Both correct"
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "If a student scores 0-4 on the diagnostic card, indicating full reteach is needed.",
+    "message": "This student has not demonstrated sufficient understanding of the curve sketching algorithm. Consider one-on-one or small group instruction focusing on the foundational steps: domain, intercepts, and derivative sign charts. Use the reteach modules for each error type. Provide additional practice with polynomial functions before moving to rational functions."
+  }
+}

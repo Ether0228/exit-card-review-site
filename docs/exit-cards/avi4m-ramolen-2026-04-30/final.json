@@ -1,0 +1,523 @@
+{
+  "sourceLesson": "AVI4M.S5.Ramolen 2026-04-30",
+  "sourceFormat": "feishu_minutes_markdown",
+  "methodology": "TeachAny",
+  "title": "AVI4M Exit Card Learning Package: Elements of Art and Principles of Design",
+  "subject": {
+    "courseCode": "AVI4M",
+    "courseName": "Visual Arts",
+    "strand": "Foundations: Elements of Art and Principles of Design",
+    "teacher": "Ramolen Laruan",
+    "lessonDate": "2026-04-30"
+  },
+  "problemAnchor": "When analyzing an artwork such as The Scream, how do we move beyond naming 'line' or 'color' and explain how those choices create movement, emphasis, unity, or emotion?",
+  "abt": {
+    "and": "Students learned definitions and examples of line, shape, form, space, color, value, texture, balance, rhythm, movement, pattern, repetition, emphasis, unity, and variety.",
+    "but": "Students may memorize terms separately without being able to identify them in an artwork or explain their visual effect.",
+    "therefore": "The exit card diagnoses whether students can connect art vocabulary to visual evidence and interpret how elements and principles work together."
+  },
+  "objective": "Students can identify key elements of art and principles of design, distinguish similar terms, and use visual evidence to explain how an artwork creates depth, movement, emphasis, balance, unity, variety, or emotion.",
+  "knowledgeNodes": [
+    {
+      "id": "line-shape-form",
+      "name": "Line, Shape, and Form",
+      "nameEn": "Line, Shape, and Form",
+      "definition": "Line is a continuous mark with direction and length; shape is two-dimensional enclosed space; form is three-dimensional volume or the illusion of volume."
+    },
+    {
+      "id": "space-positive-negative-depth",
+      "name": "Space, Positive/Negative Space, and Depth",
+      "nameEn": "Space, Positive/Negative Space, and Depth",
+      "definition": "Space is the area around, between, above, below, or within objects. Positive space is the main ink/object area; negative space is the surrounding empty area. Depth can be implied by perspective or color temperature."
+    },
+    {
+      "id": "color-value-texture",
+      "name": "Color, Value, and Texture",
+      "nameEn": "Color, Value, and Texture",
+      "definition": "Color includes hue, value, and intensity. Value is lightness/darkness and can create form. Texture can be real or implied and often depends on reflected light and value changes."
+    },
+    {
+      "id": "balance-rhythm-movement",
+      "name": "Balance, Rhythm, and Movement",
+      "nameEn": "Balance, Rhythm, and Movement",
+      "definition": "Balance creates stability through symmetrical, asymmetrical, or radial arrangements. Rhythm uses repeated elements, and movement guides the viewer's eye or creates action."
+    },
+    {
+      "id": "emphasis-unity-variety",
+      "name": "Emphasis, Unity, and Variety",
+      "nameEn": "Emphasis, Unity, and Variety",
+      "definition": "Emphasis creates a focal point; unity makes parts feel like a whole; variety creates contrast and areas of interest."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "4-5 correct",
+      "targetedRemediation": "2-3 correct",
+      "reteach": "0-1 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-avi4m-0430-q1",
+        "nodeId": "line-shape-form",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-element-definition-confusion",
+        "stem": "Which statement best distinguishes shape from form?",
+        "options": [
+          {
+            "id": "q1a",
+            "label": "A",
+            "text": "Shape is 2D with height and width; form is 3D or creates the illusion of volume with height, width, and depth.",
+            "feedbackCorrect": "Correct! Shape is two-dimensional, while form has three-dimensional volume or illusion of depth.",
+            "correct": true
+          },
+          {
+            "id": "q1b",
+            "label": "B",
+            "text": "Shape and form are the same thing.",
+            "feedbackWrong": "Incorrect. Shape and form are different: shape is flat, form has depth.",
+            "correct": false
+          },
+          {
+            "id": "q1c",
+            "label": "C",
+            "text": "Shape is three-dimensional; form is two-dimensional.",
+            "feedbackWrong": "Incorrect. That is reversed: shape is 2D, form is 3D.",
+            "correct": false
+          },
+          {
+            "id": "q1d",
+            "label": "D",
+            "text": "Shape has depth; form does not.",
+            "feedbackWrong": "Incorrect. Form has depth or illusion of depth; shape does not.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "diag-avi4m-0430-q2",
+        "nodeId": "space-positive-negative-depth",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-space-depth-confusion",
+        "stem": "In a black-and-white wood-block print, the black ink forms the main subject and the white area surrounds it. The black area is usually called:",
+        "options": [
+          {
+            "id": "q2a",
+            "label": "A",
+            "text": "Positive space",
+            "feedbackCorrect": "Correct! The main subject (black ink) occupies positive space.",
+            "correct": true
+          },
+          {
+            "id": "q2b",
+            "label": "B",
+            "text": "Negative space",
+            "feedbackWrong": "Incorrect. Negative space is the surrounding empty area; here the white area is negative space.",
+            "correct": false
+          },
+          {
+            "id": "q2c",
+            "label": "C",
+            "text": "Foreground",
+            "feedbackWrong": "Incorrect. Foreground refers to the part closest to the viewer, not the same as positive space.",
+            "correct": false
+          },
+          {
+            "id": "q2d",
+            "label": "D",
+            "text": "Background",
+            "feedbackWrong": "Incorrect. Background is the rear area, not necessarily positive or negative space.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "diag-avi4m-0430-q3",
+        "nodeId": "color-value-texture",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "errorId": "err-color-value-mixup",
+        "stem": "A drawing of stones looks three-dimensional mainly because it uses highlights and shadows. Which element is doing most of that work?",
+        "options": [
+          {
+            "id": "q3a",
+            "label": "A",
+            "text": "Value",
+            "feedbackCorrect": "Correct! Value (lightness/darkness) creates the illusion of form through highlights and shadows.",
+            "correct": true
+          },
+          {
+            "id": "q3b",
+            "label": "B",
+            "text": "Color",
+            "feedbackWrong": "Incorrect. Color refers to hue, but the stone drawing likely uses black-and-white values to show form.",
+            "correct": false
+          },
+          {
+            "id": "q3c",
+            "label": "C",
+            "text": "Texture",
+            "feedbackWrong": "Incorrect. Texture is about surface quality, not the illusion of three-dimensional form through light and dark.",
+            "correct": false
+          },
+          {
+            "id": "q3d",
+            "label": "D",
+            "text": "Line",
+            "feedbackWrong": "Incorrect. Line defines edges, but three-dimensionality here comes from value changes, not lines.",
+            "correct": false
+          }
+        ]
+      },
+      {
+        "id": "diag-avi4m-0430-q4",
+        "nodeId": "balance-rhythm-movement",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "errorId": "err-principle-evidence-gap",
+        "stem": "In The Scream, the swirling sky and water help create movement and rhythm. What visual evidence supports that interpretation?",
+        "rubric": "Answer should identify visual elements like swirling lines, repetition of curves, and contrasting colors that create a sense of movement and rhythm. They should connect these elements to the principle of movement/rhythm.",
+        "sampleStrongAnswer": "In The Scream, the swirling lines of the sky and water create a sense of motion, as if the whole scene is vibrating. The repetition of wavy lines throughout the composition establishes a rhythm that guides the eye around the painting. The contrast between the dark figure and the bright sky further emphasizes the dynamic flow, making the viewer feel the tension and unease."
+      },
+      {
+        "id": "diag-avi4m-0430-q5",
+        "nodeId": "emphasis-unity-variety",
+        "type": "single_choice",
+        "bloomLevel": "create",
+        "scaffoldLevel": "L3",
+        "errorId": "err-effect-without-vocabulary",
+        "stem": "You want the viewer to notice one face first in a busy composition. Which combination of choices would best create emphasis?",
+        "options": [
+          {
+            "id": "q5a",
+            "label": "A",
+            "text": "Use strong value contrast and place the face in a central area.",
+            "feedbackCorrect": "Correct! Strong contrast draws attention, and central placement creates a focal point, both emphasizing the face.",
+            "correct": true
+          },
+          {
+            "id": "q5b",
+            "label": "B",
+            "text": "Use the same colors as the background and place the face at the edge.",
+            "feedbackWrong": "Incorrect. Low contrast and edge placement would make the face blend in and not stand out.",
+            "correct": false
+          },
+          {
+            "id": "q5c",
+            "label": "C",
+            "text": "Repeat the same shape throughout to make it blend.",
+            "feedbackWrong": "Incorrect. Repetition can create rhythm, but to emphasize a face you need contrast, not repetition.",
+            "correct": false
+          },
+          {
+            "id": "q5d",
+            "label": "D",
+            "text": "Use very small size and low contrast.",
+            "feedbackWrong": "Incorrect. Small size and low contrast reduce visual weight, making the face less noticeable.",
+            "correct": false
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "condition": "4-5 correct",
+      "systemAction": "mark passed and continue normal independent learning or homework",
+      "studentMessage": "你已经抓住这节课的核心思路，可以进入正常作业或下一步学习。"
+    },
+    {
+      "condition": "2-3 correct",
+      "systemAction": "assign reteach modules matching missed errorIds, then retest",
+      "studentMessage": "你有几个点还没连稳。先做对应补救，再复测确认。"
+    },
+    {
+      "condition": "0-1 correct",
+      "systemAction": "start full reteach path, then retest all core errorIds",
+      "studentMessage": "这节课的核心框架还没有建立。系统会带你重新理解一遍，再做复测。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-element-definition-confusion",
+      "trigger": "When asked to distinguish line, shape, and form in an artwork, the student uses the terms interchangeably.",
+      "studentMisunderstanding": "The student confuses the definitions of line, shape, form, space, color, value, and texture, often using one term to mean another without recognizing distinct attributes.",
+      "miniLesson": {
+        "explain": "Line is a continuous mark with direction and length. Shape is a two-dimensional enclosed area (height and width). Form is three-dimensional volume or the illusion of volume (height, width, depth). Space refers to the area around, between, or within objects, divided into positive (occupied) and negative (empty). Color includes hue, value (lightness/darkness), and intensity. Texture can be real or implied, often depending on value changes. Confusion happens because value is part of color and often creates form and texture. To avoid confusion, focus on the core attribute: line = direction, shape = flat boundary, form = depth/volume, space = areas, value = light/dark, texture = surface feel.",
+        "example": "In a drawing of stones (from the lesson), the stones are shapes when flat, but highlights and shadows (value) give them form, making them look three-dimensional. The texture of the stones is implied by small value changes. If a student says 'color creates the form,' that is incorrect—it is value, not hue, that creates the illusion of volume.",
+        "memoryAnchor": "Shape = flat cookie cutter; Form = 3D cookie with icing; Value = the shadows that make it pop; Color = the icing's hue; Texture = the sprinkles' feel. Remember: shape is 2D, form is 3D, value makes form."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which term describes a two-dimensional enclosed area?\nA) line\nB) shape\nC) form\nD) space",
+          "answer": "B) shape"
+        },
+        {
+          "level": "L2",
+          "prompt": "In a wood-block print, black ink forms the main subject and white paper surrounds it. The black area is described as:\nA) negative space\nB) form\nC) positive space\nD) texture\nExplain your choice briefly.",
+          "answer": "C) positive space. Positive space is the area occupied by the main subject. The black ink is the subject, so it is positive space. Negative space is the white background. Shape refers to the outline, but the term 'positive space' more precisely describes the occupied area."
+        },
+        {
+          "level": "L3",
+          "prompt": "In The Scream, the swirling sky uses repeated curved lines. Does this contribute more to creating movement or form? Justify your answer using the terms line, shape, and form.",
+          "answer": "The repeated curved lines primarily create movement, because the direction and repetition of lines guide the viewer's eye across the image, producing a sense of motion. The sky itself is a shape (the enclosed area of the sky), but it is the line quality (curved, repeated, flowing) that creates movement rather than form. Form is not created because the sky is rendered flat without shading to give it volume. Thus, line contributes to movement, not form."
+        }
+      ]
+    },
+    {
+      "errorId": "err-space-depth-confusion",
+      "trigger": "When identifying positive or negative space on an artwork, the student confuses it with foreground/background or depth.",
+      "studentMisunderstanding": "The student thinks that any object in the foreground is positive space and anything in the background is negative space, mixing the concept of depth (spatial layers) with positive/negative space (occupied vs. empty areas).",
+      "miniLesson": {
+        "explain": "Positive space is the area occupied by the main subject(s) of an artwork. Negative space is the empty area around, between, above, below, or within the subjects. Depth is the illusion of distance (foreground, middle ground, background) created by techniques like overlapping, size, and color temperature (warm colors advance, cool colors recede). These are separate concepts: a subject in the background is still positive space, and negative space can also show depth through color changes.",
+        "example": "In a black-and-white wood‑block print, the black ink forms the main subject (positive space) and the white paper around it is negative space. In The Scream, the swirling sky is negative space, but warm colors in the sky can make it feel closer, while cool tones in the background recede—that’s depth, not positive/negative space.",
+        "memoryAnchor": "Think: Positive = The subject itself (like the black ink). Negative = The empty air around it (like the white paper). Depth = How far back or forward things feel (like warm = closer, cool = farther away). Never swap them: something can be in the background and still be positive space."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a drawing, a cat is drawn in the center with lots of empty background. The cat is ______ space.",
+          "answer": "positive space"
+        },
+        {
+          "level": "L2",
+          "prompt": "A landscape painting has a mountain in the back (painted with cool colors) and a tree in front (painted with warm colors). The tree is in the foreground (depth) and is positive space. The mountain is in the background (depth) and is also positive space because it is a subject. Is that statement true or false?",
+          "answer": "True. Both the tree and mountain are positive spaces, even though they are at different depths."
+        },
+        {
+          "level": "L3",
+          "prompt": "Describe the positive and negative spaces in a drawing of a vase with flowers. Also identify how depth is created using color temperature.",
+          "answer": "The vase and flowers are positive spaces; the background is negative space. Depth is created by warm colors (red flowers) coming forward and cool colors (blue background) receding."
+        }
+      ]
+    },
+    {
+      "errorId": "err-color-value-mixup",
+      "trigger": "Student says 'color' when asked about highlights/shadows creating form, or attributes depth only to hue.",
+      "studentMisunderstanding": "Student treats all color-related effects as hue and misses the role of value (lightness/darkness) in creating form, depth, and contrast.",
+      "miniLesson": {
+        "explain": "Color has three components: hue (the name of the color, like red or blue), value (how light or dark it is), and intensity (how bright or dull). Value is what creates the illusion of three-dimensional form through highlights and shadows. Even in a black-and-white drawing, value alone can make objects look round and solid. Many students confuse value with hue—they think 'color' means just the hue, but lightness and darkness are just as important.",
+        "example": "Look at the drawing of stones from our lesson. The stones appear three-dimensional not because of their hue (they are gray), but because of the highlights (light values) and shadows (dark values) that define their curves. Without value changes, the stones would look flat.",
+        "memoryAnchor": "Value is the 'light-dark' that gives shape a body. Think of a grayscale photo: even without any hue, you can see depth and form because of value."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a completely grayscale drawing, which element (hue, value, or texture) creates the illusion of depth and roundness?",
+          "answer": "Value. Grayscale has no hue, so value differences (light to dark) are what make objects look three-dimensional."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student says: 'The drawing of the stones looks 3D because of the gray color.' Is that explanation correct? Why or why not?",
+          "answer": "Not entirely. The stones are gray in hue, but the 3D effect comes from value—the lightness (highlights) and darkness (shadows) within that gray. Calling it 'color' is too vague; you need to specify value."
+        },
+        {
+          "level": "L3",
+          "prompt": "In The Scream, the bright sky and dark figure create strong contrast that makes the figure stand out. Is this contrast based on hue or value? Explain your reasoning using visual evidence.",
+          "answer": "It is based on value. The sky has a very light value (brightness) while the figure has a very dark value (near black). Even though the sky is also warm in hue, the primary reason the figure pops out is the stark value contrast, not the hue difference. Value contrast creates emphasis by making the figure visually distinct from the background."
+        }
+      ]
+    },
+    {
+      "errorId": "err-principle-evidence-gap",
+      "trigger": "When analyzing artwork, the student may name a principle like 'movement' or 'balance' without citing specific visual elements that create that effect.",
+      "studentMisunderstanding": "The student thinks naming a principle alone is sufficient analysis, and does not link the principle to observable elements such as lines, colors, or shapes.",
+      "miniLesson": {
+        "explain": "A principle of design is not just a label; it must be justified by visual evidence. Use the sentence frame: 'I see [specific visual element], which creates [principle] because [reason].' For example, in The Scream, the swirling lines in the sky and water create movement because the repeated curves guide the eye in a circular path, making the scene feel unstable and active.",
+        "example": "In The Scream, the repeated wavy lines in the sky and water create rhythm and movement. The visual evidence is the continuous, curving lines that lead the viewer's eye across the canvas.",
+        "memoryAnchor": "Evidence-Link: See it (visual element), Name it (principle), Prove it (explain how)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Read: 'The artist used contrasting colors.' Principle: 'Emphasis.' Write one sentence using the evidence frame: 'I see ___, which creates ___ because ___.'",
+          "answer": "I see contrasting colors (warm vs cool), which creates emphasis because the warm area stands out against the cool background, drawing the viewer's eye."
+        },
+        {
+          "level": "L2",
+          "prompt": "In a drawing of stones, the artist uses highlights and shadows. Which principle is most at work, and what is the evidence? Use the sentence frame.",
+          "answer": "I see highlights and shadows (value changes), which creates form/volume because the light and dark areas give the stones a three-dimensional appearance."
+        },
+        {
+          "level": "L3",
+          "prompt": "Look at Agnes Martin's work with repeated lines. Identify a principle and provide visual evidence using the sentence frame.",
+          "answer": "I see repeated horizontal lines evenly spaced, which creates regular rhythm because the consistent repetition establishes a steady visual beat that guides the eye across the canvas."
+        }
+      ]
+    },
+    {
+      "errorId": "err-effect-without-vocabulary",
+      "trigger": "When asked to explain why an artwork feels a certain way, the student describes the emotion without using design principles like emphasis or rhythm.",
+      "studentMisunderstanding": "The student can articulate an emotional response to an artwork but lacks the vocabulary to connect that response to specific principles of design such as emphasis, unity, variety, rhythm, or balance.",
+      "miniLesson": {
+        "explain": "When you feel something from an artwork, that feeling is often created by specific design principles. For example, unease may come from imbalance or jagged rhythm, calm from symmetrical balance or repetition. Always ask yourself: What principle is causing that feeling? Use evidence like lines, colors, or arrangement.",
+        "example": "In Edvard Munch's *The Scream*, viewers often feel anxiety. That feeling is created by: (1) swirling lines that create rhythm and movement, (2) the bright sky contrasting with the dark figure creating emphasis, (3) the asymmetrical balance through the railing, making the composition feel unstable.",
+        "memoryAnchor": "FEEL → PRINCIPLE: 'I feel ____ because the artist used ____ (principle) through ____ (visual evidence).'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A student says a painting feels 'chaotic.' Which principle is most likely creating that effect? (a) Unity (b) Movement/rhythm (c) Balance",
+          "answer": "Movement/rhythm. Chaotic often comes from irregular rhythm or strong directional lines that create a sense of motion and disorganization."
+        },
+        {
+          "level": "L2",
+          "prompt": "Look at this description: 'The artist placed the main figure in the center, used bright red against a dull gray background, and made the figure larger than everything else.' What principle does this create?",
+          "answer": "Emphasis. The central placement, high color contrast, and size difference all make the figure stand out as the focal point."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate says *The Scream* feels 'uneasy.' Write one sentence connecting that feeling to a specific design principle and visual evidence from the artwork.",
+          "answer": "The feeling of unease in *The Scream* is created by the principle of movement through the swirling, repeated lines in the sky and water, which makes the scene feel unstable and dynamic."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-element-definition-confusion",
+      "questions": [
+        {
+          "id": "retest-err-def-1",
+          "type": "single_choice",
+          "stem": "In a sculpture, the artist carves a figure that has height, width, and depth. This is best described as:",
+          "options": [
+            "form",
+            "shape",
+            "line",
+            "space"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-err-def-2",
+          "type": "open_ended",
+          "stem": "Look at the description of a painting: 'A single horizontal line divides the canvas into sky and water. A sailboat with a curved hull and a triangular sail sits on the water. The sail casts a shadow that makes it look rounded.' Identify and explain how line, shape, and form are used in this description.",
+          "rubric": "Student must correctly identify: line (horizontal line dividing canvas), shape (triangular sail, curved hull as 2D outlines), form (rounded sail from shadow gives 3D volume). For each element, a clear distinction between line (direction), shape (flat enclosure), form (volume/depth) is required."
+        }
+      ],
+      "passRule": "Student must answer the multiple-choice question correctly (form) AND in the open-ended response correctly identify line, shape, and form from the description, explaining each with appropriate attributes (direction for line, flat enclosure for shape, volume/depth for form)."
+    },
+    {
+      "forErrorId": "err-space-depth-confusion",
+      "questions": [
+        {
+          "id": "q1_space_depth_sc",
+          "type": "single_choice",
+          "stem": "In a painting of a forest, there is a large tree in the foreground (warm browns) and a smaller deer in the middle ground (cool grays). The background is hazy blue sky. Which of the following statements correctly separates positive/negative space from depth?",
+          "options": [
+            "The tree, deer, and sky are all positive spaces because they are subjects; the negative space is the area between tree branches and around the deer.",
+            "The tree is positive space because it is in the foreground; the sky is negative space because it is in the background.",
+            "The deer is negative space because it is smaller and farther away; the tree is positive space because it is larger and closer.",
+            "Positive space is only the foreground objects; negative space is everything in the background."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_space_depth_oe",
+          "type": "open_ended",
+          "stem": "Consider this artwork description: a still life with a red apple on a table in the foreground, a blue vase in the middle ground, and a yellow wall in the background. All objects are solid colors with no shadows. Identify all positive and negative spaces. Then explain how depth is created using color temperature. Do not confuse positive/negative space with depth.",
+          "rubric": "Correctly identifies apple, vase, and wall as positive spaces; correctly identifies empty areas (e.g., between objects, above table) as negative space. Explains that warm colors (red) advance, cool colors (blue) recede, and yellow is neutral, creating depth. Does not state that foreground is positive and background is negative unless it is an empty area."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly: single_choice selects the first option (index 0), and open_ended response correctly identifies positive/negative spaces as separate from depth and explains depth via color temperature without mixing concepts."
+    },
+    {
+      "forErrorId": "err-color-value-mixup",
+      "questions": [
+        {
+          "id": "q1_color_value_single",
+          "type": "single_choice",
+          "stem": "In a black-and-white photograph of a subway tunnel, the tunnel appears to recede into the distance. What visual element is primarily responsible for this illusion of depth?",
+          "options": [
+            "Hue",
+            "Value",
+            "Intensity",
+            "Texture"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_color_value_open",
+          "type": "open_ended",
+          "stem": "Look at the wood-block print from the lesson: black ink is positive space, white is negative space. However, some areas of the black ink have lighter patches. Explain whether these lighter patches are a change in hue or a change in value, and how they affect the appearance of the print.",
+          "rubric": "Student must identify that lighter patches are changes in value (not hue, because black ink remains black hue). They should note that value changes can suggest highlights, shading, or texture, adding depth or variation to the flat black areas. Score 1: identifies value correctly. Score 2: explains effect on appearance (e.g., adds depth, suggests texture). Score 3: full explanation with reference to the print's positive/negative space."
+        }
+      ],
+      "passRule": "Student must answer the single-choice question correctly and score at least 2 out of 3 on the open-ended question."
+    },
+    {
+      "forErrorId": "err-principle-evidence-gap",
+      "questions": [
+        {
+          "id": "retest_q1",
+          "type": "single_choice",
+          "stem": "A student writes: 'The artist used the principle of rhythm in the painting.' Which piece of visual evidence would best support this claim?",
+          "options": [
+            "The colors are all cool blues and greens.",
+            "The same leaf shape is repeated at regular intervals across the canvas.",
+            "The focal point is a bright yellow sun.",
+            "The composition is perfectly symmetrical."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest_q2",
+          "type": "open_ended",
+          "stem": "Look at this description: A sculptor carves deep grooves into stone, creating rows of parallel lines that catch the light differently. Identify one principle of design at work and provide visual evidence using the sentence frame: 'I see ____, which creates ____ because ____.'",
+          "rubric": "Student must name a relevant principle (e.g., texture, rhythm, movement) and cite specific visual elements (e.g., deep grooves, parallel lines, light catching) with a clear causal link. Example: 'I see deep grooves and parallel lines catching light, which creates texture because the differences in value (light and shadow) make the surface feel rough and three-dimensional.'"
+        }
+      ],
+      "passRule": "Student must answer the single-choice question correctly and provide a complete open-ended response that identifies a principle, cites specific visual evidence, and explains the causal link."
+    },
+    {
+      "forErrorId": "err-effect-without-vocabulary",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A painting uses similar colors, repeated shapes, and a symmetrical arrangement. Viewers often feel a sense of harmony. Which design principle is most likely responsible for this feeling?",
+          "options": [
+            "Balance",
+            "Rhythm",
+            "Emphasis",
+            "Unity"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "An artwork has all the main shapes clustered on the left side, while the right side is mostly empty. Viewers describe the feeling as 'unstable'. Explain which design principle is most likely creating this feeling and cite at least one visual element as evidence.",
+          "rubric": "Student must identify the principle of balance (specifically asymmetrical or lack of balance) and provide at least one specific visual element (e.g., 'cluster of shapes on left', 'empty space on right') to support their answer."
+        }
+      ],
+      "passRule": "Single choice correct AND open-ended response identifies balance principle and cites relevant visual evidence."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores 0-1 on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题已经从单题错误变成概念框架或表达框架没有建立。"
+  },
+  "studentAnalytics": {
+    "trackedDimensions": [
+      "artVocabularyAccuracy",
+      "visualEvidenceUse",
+      "elementPrincipleConnection",
+      "analysisSpecificity",
+      "creativeApplication"
+    ],
+    "nextTrainingIfWeak": [
+      "term sorting drill with visual examples",
+      "artwork evidence sentence-frame practice",
+      "mini critique task: identify element, principle, evidence, effect"
+    ]
+  }
+}

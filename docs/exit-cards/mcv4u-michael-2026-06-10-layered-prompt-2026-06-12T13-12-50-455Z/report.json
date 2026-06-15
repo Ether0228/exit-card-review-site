@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-06-12T13:16:11.537Z",
+  "model": "deepseek-v4-pro",
+  "fileName": "mcv4u-michael-2026-06-10-layered-prompt.txt",
+  "issues": [],
+  "usage": {
+    "prompt_tokens": 6801,
+    "completion_tokens": 11365,
+    "total_tokens": 18166,
+    "prompt_tokens_details": {
+      "cached_tokens": 0
+    },
+    "prompt_cache_hit_tokens": 0,
+    "prompt_cache_miss_tokens": 6801
+  },
+  "latencyMs": 104890,
+  "repair": {
+    "model": "deepseek-v4-pro",
+    "latencyMs": 96175,
+    "usage": {
+      "prompt_tokens": 19873,
+      "completion_tokens": 12944,
+      "total_tokens": 32817,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 19873
+    }
+  },
+  "targetedRepairAt": "2026-06-12T13:19:00.818Z",
+  "targetedRepair": "Fixed question type ratio and visual evidence count.",
+  "rerenderedAt": "2026-06-12T13:20:57.467Z",
+  "rendererUpdate": "Unified canonical math figure schema and student-safe labels."
+}

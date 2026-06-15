@@ -1,0 +1,1632 @@
+{
+  "title": "MCV4U Curve Sketching Exit Card",
+  "sourceLesson": "MCV4U.S5.Michael 2026-06-10",
+  "sourceFormat": "uploaded_text",
+  "methodology": "DeepSeek API generation + local validator/renderer QA",
+  "subject": {
+    "courseCode": "MCV4U",
+    "courseName": "Calculus and Vectors",
+    "strand": "Curve Sketching",
+    "teacher": "Michael Konstantopoulos",
+    "lessonDate": "2026-06-10"
+  },
+  "generationDecisionLog": {
+    "lessonType": "skill_procedure",
+    "primaryAssessmentMode": "generate_evidence",
+    "whyThisModeFitsTranscript": "The lesson focuses on a step-by-step algorithm for curve sketching, requiring students to produce derivative sign charts and sketch graphs. The exit card diagnoses whether students can execute the procedure correctly.",
+    "materialsNeeded": "figure",
+    "riskOfOverfittingPrompt": "Low. The transcript provides specific examples and teacher emphasis, allowing generation of diagnostic questions directly tied to lesson evidence."
+  },
+  "lessonAnalysis": {
+    "topic": "Curve Sketching Using First and Second Derivatives",
+    "coreLearningGoal": "Students will be able to sketch a function by analyzing its domain, intercepts, asymptotes, and using first and second derivative sign charts to determine intervals of increase/decrease, concavity, local extrema, and inflection points.",
+    "successCriteria": [
+      "Correctly find domain and intercepts of a polynomial or rational function.",
+      "Compute first and second derivatives accurately.",
+      "Construct sign charts for f' and f'' to determine intervals of increase/decrease and concavity.",
+      "Identify local extrema and inflection points from sign charts.",
+      "Sketch a graph consistent with the derivative analysis."
+    ],
+    "lessonExamplesDetected": [
+      "Polynomial: f(x)=x^3-6x^2+9x",
+      "Polynomial: f(x)=x^4-2x^2 (implied from discussion around x=0, ±1/√2)",
+      "Rational: f(x)=(x^2)/(x-1) (oblique asymptote example)",
+      "Graph matching: identifying f, f', f'' from given curves"
+    ],
+    "targetProducts": [
+      "Completed sign charts for f' and f''",
+      "Labeled sketch of the function showing key features"
+    ],
+    "inputEvidenceStudentsShouldUse": [
+      "Given function equation",
+      "Computed derivatives",
+      "Critical points and points of inflection",
+      "Sign chart intervals"
+    ],
+    "doNotRevealAsQuestionCondition": [
+      "The final sketched graph before students attempt it",
+      "The correct matching of f, f', f'' in graph identification questions"
+    ]
+  },
+  "assessmentBlueprint": {
+    "finalTargetProduct": "A complete curve sketch with supporting sign charts.",
+    "diagnosticEvidence": [
+      "Correct identification of domain and intercepts",
+      "Accurate first and second derivatives",
+      "Proper sign chart construction",
+      "Correct interpretation of sign charts to determine intervals and points",
+      "Consistent graph sketch"
+    ],
+    "evidenceProgression": "Start with basic domain/intercept identification, move to derivative computation, then sign chart interpretation, and finally graph matching/sketching.",
+    "openingQuestionRationale": "Begin with domain identification to check foundational understanding before assessing derivative skills.",
+    "excludedOrDeferredContent": [
+      "Non-differentiable points (not emphasized in this lesson)",
+      "Detailed oblique asymptote long division (only one example, not core diagnostic)"
+    ],
+    "questionPlan": [
+      {
+        "questionId": "Q1",
+        "knowledgeNode": "domain",
+        "errorId": "E1",
+        "cognitiveAction": "identify",
+        "evidenceNeeded": [
+          "function equation"
+        ],
+        "lessonEvidence": "Teacher emphasized finding domain as step 1: 'find the domain' for both continuous and discontinuous functions.",
+        "failureReveals": "Student cannot determine domain restrictions, indicating a gap in prerequisite algebra skills.",
+        "reasonForInclusion": "Domain is the first step in the algorithm; missing it blocks the entire process."
+      },
+      {
+        "questionId": "Q2",
+        "knowledgeNode": "intercepts",
+        "errorId": "E2",
+        "cognitiveAction": "compute",
+        "evidenceNeeded": [
+          "function equation"
+        ],
+        "lessonEvidence": "Teacher factored x^3-6x^2+9x to find intercepts at 0 and 3.",
+        "failureReveals": "Student cannot find x-intercepts by solving f(x)=0, indicating weak equation-solving skills.",
+        "reasonForInclusion": "Intercepts are key points for sketching; inability to find them leads to incorrect graph placement."
+      },
+      {
+        "questionId": "Q3",
+        "knowledgeNode": "first_derivative",
+        "errorId": "E3",
+        "cognitiveAction": "compute",
+        "evidenceNeeded": [
+          "function equation"
+        ],
+        "lessonEvidence": "Teacher computed f'(x)=3x^2-12x+9 for the polynomial example.",
+        "failureReveals": "Student makes errors in differentiation, a fundamental calculus skill.",
+        "reasonForInclusion": "Correct first derivative is essential for all subsequent analysis."
+      },
+      {
+        "questionId": "Q4",
+        "knowledgeNode": "critical_points",
+        "errorId": "E4",
+        "cognitiveAction": "compute",
+        "evidenceNeeded": [
+          "first derivative"
+        ],
+        "lessonEvidence": "Teacher set f'(x)=0 to find critical points x=1 and x=3.",
+        "failureReveals": "Student cannot solve f'(x)=0, indicating algebraic weakness or misunderstanding of critical points.",
+        "reasonForInclusion": "Critical points are the backbone of the sign chart; missing them prevents interval analysis."
+      },
+      {
+        "questionId": "Q5",
+        "knowledgeNode": "sign_chart_fprime",
+        "errorId": "E5",
+        "cognitiveAction": "interpret",
+        "evidenceNeeded": [
+          "first derivative",
+          "critical points"
+        ],
+        "lessonEvidence": "Teacher created a sign chart for f' and identified intervals where f'>0 (increasing) and f'<0 (decreasing).",
+        "failureReveals": "Student cannot correctly test intervals or interpret the sign of f', leading to incorrect monotonicity intervals.",
+        "reasonForInclusion": "The sign chart is the core diagnostic tool; misinterpreting it means the student cannot determine increasing/decreasing behavior."
+      },
+      {
+        "questionId": "Q6",
+        "knowledgeNode": "second_derivative",
+        "errorId": "E6",
+        "cognitiveAction": "compute",
+        "evidenceNeeded": [
+          "first derivative"
+        ],
+        "lessonEvidence": "Teacher computed f''(x)=6x-12 for the polynomial example.",
+        "failureReveals": "Student cannot differentiate correctly to obtain second derivative.",
+        "reasonForInclusion": "Second derivative is needed for concavity and inflection points."
+      },
+      {
+        "questionId": "Q7",
+        "knowledgeNode": "inflection_points",
+        "errorId": "E7",
+        "cognitiveAction": "compute",
+        "evidenceNeeded": [
+          "second derivative"
+        ],
+        "lessonEvidence": "Teacher set f''(x)=0 to find inflection point at x=2.",
+        "failureReveals": "Student cannot find where concavity changes, missing key feature of the graph.",
+        "reasonForInclusion": "Inflection points are critical for accurate curve shape."
+      },
+      {
+        "questionId": "Q8",
+        "knowledgeNode": "sign_chart_fdoubleprime",
+        "errorId": "E8",
+        "cognitiveAction": "interpret",
+        "evidenceNeeded": [
+          "second derivative",
+          "inflection points"
+        ],
+        "lessonEvidence": "Teacher discussed concavity intervals: concave down for x<2, concave up for x>2.",
+        "failureReveals": "Student cannot interpret f'' sign to determine concavity, leading to incorrect curvature in sketch.",
+        "reasonForInclusion": "Concavity is essential for accurate graph shape."
+      },
+      {
+        "questionId": "Q9",
+        "knowledgeNode": "graph_matching_derivatives",
+        "errorId": "E9",
+        "cognitiveAction": "match",
+        "evidenceNeeded": [
+          "graphs of f, f', f''"
+        ],
+        "lessonEvidence": "Teacher showed graphs labeled A, B, C and explained: 'B is f prime... when function has positive slope, B is above x-axis.'",
+        "failureReveals": "Student cannot relate features of f to signs of f' and f'', indicating a conceptual gap in derivative-graph connection.",
+        "reasonForInclusion": "This relationship is a key learning outcome; inability to match means the student cannot verify their own sketch."
+      },
+      {
+        "questionId": "Q10",
+        "knowledgeNode": "sketch_from_analysis",
+        "errorId": "E10",
+        "cognitiveAction": "synthesize",
+        "evidenceNeeded": [
+          "sign charts",
+          "critical points",
+          "inflection points",
+          "intercepts"
+        ],
+        "lessonEvidence": "Teacher sketched the polynomial graph after completing sign charts.",
+        "failureReveals": "Student cannot integrate all information into a coherent sketch, indicating a synthesis failure.",
+        "reasonForInclusion": "The ultimate goal is to produce a sketch; this open-ended question directly assesses that ability."
+      }
+    ],
+    "materialPlan": [
+      {
+        "materialId": "fig1",
+        "materialType": "derivative_graph_matching",
+        "supportsQuestionIds": [
+          "Q9"
+        ],
+        "evidencePurpose": "Graphs of f, f', f''",
+        "studentVisibleInfo": [
+          "Graphs of f, f', f''"
+        ],
+        "hiddenAnswerInfo": [
+          "correctMatch"
+        ]
+      },
+      {
+        "materialId": "fig2",
+        "materialType": "derivative_sign_chart",
+        "supportsQuestionIds": [
+          "Q5"
+        ],
+        "evidencePurpose": "Sign chart for f'(x)=3(x-1)(x-3)",
+        "studentVisibleInfo": [
+          "Sign chart for f'(x)=3(x-1)(x-3)"
+        ],
+        "hiddenAnswerInfo": [
+          "correctSigns",
+          "increasing",
+          "decreasing"
+        ]
+      },
+      {
+        "materialId": "fig3",
+        "materialType": "derivative_sign_chart",
+        "supportsQuestionIds": [
+          "Q8"
+        ],
+        "evidencePurpose": "Sign chart for f''(x)=6x-12",
+        "studentVisibleInfo": [
+          "Sign chart for f''(x)=6x-12"
+        ],
+        "hiddenAnswerInfo": [
+          "correctSigns",
+          "concaveDown",
+          "concaveUp",
+          "inflection"
+        ]
+      }
+    ]
+  },
+  "questionMaterialContracts": [
+    {
+      "questionId": "Q9",
+      "figureId": "fig1",
+      "cognitiveAction": "match_derivative_graphs",
+      "requiredEvidence": [
+        "curve shapes",
+        "zeros of derivative graph",
+        "relative degree/shape"
+      ],
+      "whyThisFigureIsNeeded": "Students need graph evidence to match f, f', and f''.",
+      "whatMustNotBeShown": [
+        "student-visible labels naming f, f', f''"
+      ]
+    },
+    {
+      "questionId": "Q5",
+      "figureId": "fig2",
+      "cognitiveAction": "interpret_first_derivative_sign_chart",
+      "requiredEvidence": [
+        "sign of f' on each interval"
+      ],
+      "whyThisFigureIsNeeded": "Students must use the sign chart to identify where f is increasing, not just recall the answer.",
+      "whatMustNotBeShown": [
+        "final graph",
+        "prewritten increasing/decreasing conclusion"
+      ]
+    },
+    {
+      "questionId": "Q8",
+      "figureId": "fig3",
+      "cognitiveAction": "explain_concavity_from_second_derivative",
+      "requiredEvidence": [
+        "sign of f'' on each interval",
+        "sign change at x=2"
+      ],
+      "whyThisFigureIsNeeded": "Students must justify concavity and inflection from second derivative evidence.",
+      "whatMustNotBeShown": [
+        "completed final graph",
+        "written conclusion that f is concave up after x=2"
+      ]
+    }
+  ],
+  "problemAnchor": "You are helping a classmate who missed the curve sketching lesson. They need to sketch f(x)=x^3-6x^2+9x and understand how derivatives relate to the graph.",
+  "abt": {
+    "and": "Curve sketching requires a systematic algorithm using derivatives",
+    "but": "Students often struggle to connect sign charts to the actual graph shape",
+    "therefore": "We need to diagnose whether they can correctly execute each step and interpret derivative signs."
+  },
+  "objective": "Diagnose student ability to perform curve sketching steps: domain, intercepts, derivatives, sign charts, and graph synthesis.",
+  "knowledgeNodes": [
+    {
+      "id": "domain",
+      "name": "Domain Identification",
+      "lessonEvidence": "Teacher: 'find the domain' as step 1."
+    },
+    {
+      "id": "intercepts",
+      "name": "Intercepts",
+      "lessonEvidence": "Teacher factored to find x-intercepts at 0 and 3."
+    },
+    {
+      "id": "first_derivative",
+      "name": "First Derivative Computation",
+      "lessonEvidence": "Teacher computed f'(x)=3x^2-12x+9."
+    },
+    {
+      "id": "critical_points",
+      "name": "Critical Points",
+      "lessonEvidence": "Teacher set f'(x)=0 to get x=1,3."
+    },
+    {
+      "id": "sign_chart_fprime",
+      "name": "Sign Chart for f'",
+      "lessonEvidence": "Teacher created interval chart for f'."
+    },
+    {
+      "id": "second_derivative",
+      "name": "Second Derivative Computation",
+      "lessonEvidence": "Teacher computed f''(x)=6x-12."
+    },
+    {
+      "id": "inflection_points",
+      "name": "Inflection Points",
+      "lessonEvidence": "Teacher set f''(x)=0 to get x=2."
+    },
+    {
+      "id": "sign_chart_fdoubleprime",
+      "name": "Sign Chart for f''",
+      "lessonEvidence": "Teacher discussed concavity intervals."
+    },
+    {
+      "id": "graph_matching_derivatives",
+      "name": "Graph Matching f, f', f''",
+      "lessonEvidence": "Teacher showed labeled graphs and explained relationships."
+    },
+    {
+      "id": "sketch_from_analysis",
+      "name": "Sketching from Analysis",
+      "lessonEvidence": "Teacher sketched the polynomial graph after analysis."
+    }
+  ],
+  "errorTaxonomy": [
+    {
+      "errorId": "E1",
+      "meaning": "Cannot determine domain of a function."
+    },
+    {
+      "errorId": "E2",
+      "meaning": "Cannot find x-intercepts by solving f(x)=0."
+    },
+    {
+      "errorId": "E3",
+      "meaning": "Error in computing first derivative."
+    },
+    {
+      "errorId": "E4",
+      "meaning": "Cannot find critical points from f'(x)=0."
+    },
+    {
+      "errorId": "E5",
+      "meaning": "Misinterprets sign of f' for increasing/decreasing intervals."
+    },
+    {
+      "errorId": "E6",
+      "meaning": "Error in computing second derivative."
+    },
+    {
+      "errorId": "E7",
+      "meaning": "Cannot find inflection points from f''(x)=0."
+    },
+    {
+      "errorId": "E8",
+      "meaning": "Misinterprets sign of f'' for concavity."
+    },
+    {
+      "errorId": "E9",
+      "meaning": "Cannot match graphs of f, f', f'' based on derivative relationships."
+    },
+    {
+      "errorId": "E10",
+      "meaning": "Cannot synthesize analysis into a correct sketch."
+    }
+  ],
+  "figures": [
+    {
+      "figureId": "fig1",
+      "title": "Graphs of f, f', f''",
+      "figureType": "derivative_graph_matching",
+      "renderer": "local_svg",
+      "materialRole": "comparison_option",
+      "figureSpec": {
+        "grid": {
+          "xRange": [
+            -1,
+            5
+          ],
+          "yRange": [
+            -5,
+            5
+          ]
+        },
+        "curves": [
+          {
+            "id": "A",
+            "color": "blue",
+            "studentLabel": "A",
+            "reviewLabel": "f''",
+            "points": [
+              {
+                "x": 0,
+                "y": -12
+              },
+              {
+                "x": 1,
+                "y": -6
+              },
+              {
+                "x": 2,
+                "y": 0
+              },
+              {
+                "x": 3,
+                "y": 6
+              },
+              {
+                "x": 4,
+                "y": 12
+              }
+            ],
+            "label": "A"
+          },
+          {
+            "id": "B",
+            "color": "red",
+            "studentLabel": "B",
+            "reviewLabel": "f'",
+            "points": [
+              {
+                "x": 0,
+                "y": 9
+              },
+              {
+                "x": 1,
+                "y": 0
+              },
+              {
+                "x": 2,
+                "y": -3
+              },
+              {
+                "x": 3,
+                "y": 0
+              },
+              {
+                "x": 4,
+                "y": 9
+              }
+            ],
+            "label": "B"
+          },
+          {
+            "id": "C",
+            "color": "green",
+            "studentLabel": "C",
+            "reviewLabel": "f",
+            "points": [
+              {
+                "x": 0,
+                "y": 0
+              },
+              {
+                "x": 1,
+                "y": 4
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 3,
+                "y": 0
+              },
+              {
+                "x": 4,
+                "y": 4
+              }
+            ],
+            "label": "C"
+          }
+        ],
+        "labels": [],
+        "asymptotes": [],
+        "kind": "derivative_graph_matching"
+      },
+      "answerLock": {
+        "correctMatch": {
+          "f": "C",
+          "f'": "B",
+          "f''": "A"
+        }
+      }
+    },
+    {
+      "figureId": "fig2",
+      "title": "Sign chart for f'(x)=3(x-1)(x-3)",
+      "figureType": "derivative_sign_chart",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "kind": "sign_chart",
+        "type": "sign_chart",
+        "functionLabel": "f'(x)",
+        "criticalPoints": [
+          "1",
+          "3"
+        ],
+        "intervals": [
+          {
+            "interval": "(-∞, 1)",
+            "sign": "+"
+          },
+          {
+            "interval": "(1, 3)",
+            "sign": "-"
+          },
+          {
+            "interval": "(3, ∞)",
+            "sign": "+"
+          }
+        ]
+      },
+      "answerLock": {
+        "correctSigns": [
+          "+",
+          "-",
+          "+"
+        ],
+        "increasing": [
+          "(-∞,1)",
+          "(3,∞)"
+        ],
+        "decreasing": [
+          "(1,3)"
+        ]
+      }
+    },
+    {
+      "figureId": "fig3",
+      "title": "Sign chart for f''(x)=6x-12",
+      "figureType": "derivative_sign_chart",
+      "renderer": "local_svg",
+      "materialRole": "input_evidence",
+      "figureSpec": {
+        "kind": "sign_chart",
+        "type": "sign_chart",
+        "functionLabel": "f''(x)",
+        "criticalPoints": [
+          "2"
+        ],
+        "intervals": [
+          {
+            "interval": "(-∞, 2)",
+            "sign": "-"
+          },
+          {
+            "interval": "(2, ∞)",
+            "sign": "+"
+          }
+        ]
+      },
+      "answerLock": {
+        "correctSigns": [
+          "-",
+          "+"
+        ],
+        "concaveDown": [
+          "(-∞,2)"
+        ],
+        "concaveUp": [
+          "(2,∞)"
+        ],
+        "inflection": [
+          "x=2"
+        ]
+      }
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 12,
+    "passRule": {
+      "pass": "8-10 correct",
+      "targetedRemediation": "5-7 correct",
+      "reteach": "0-4 correct"
+    },
+    "questions": [
+      {
+        "id": "Q1",
+        "nodeId": "domain",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "identify",
+        "errorId": "E1",
+        "lessonEvidence": "Teacher: 'find the domain' as step 1; polynomial functions are continuous everywhere.",
+        "failureReveals": "Student cannot determine domain restrictions.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "What is the domain of "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)=x^3-6x^2+9x"
+          },
+          {
+            "type": "text",
+            "text": "?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "\\{x \\in \\mathbb{R} \\mid x \\neq 0, 3\\}",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "B",
+            "text": "\\{x \\in \\mathbb{R} \\mid x \\geq 0\\}",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "C",
+            "text": "\\mathbb{R}",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "D",
+            "text": "\\{x \\in \\mathbb{R} \\mid x \\neq 1, 3\\}",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 2
+      },
+      {
+        "id": "Q2",
+        "nodeId": "intercepts",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "compute",
+        "errorId": "E2",
+        "lessonEvidence": "Teacher factored to find intercepts at 0 and 3.",
+        "failureReveals": "Student cannot find x-intercepts.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "What are the x-intercepts of "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)=x^3-6x^2+9x"
+          },
+          {
+            "type": "text",
+            "text": "?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "x=0, 3",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "B",
+            "text": "x=1, 3",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "C",
+            "text": "x=0, 1",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "D",
+            "text": "x=-3, 0",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 0
+      },
+      {
+        "id": "Q3",
+        "nodeId": "first_derivative",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "compute",
+        "errorId": "E3",
+        "lessonEvidence": "Teacher computed f'(x)=3x^2-12x+9.",
+        "failureReveals": "Student makes differentiation errors.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Find "
+          },
+          {
+            "type": "math",
+            "latex": "f'(x)"
+          },
+          {
+            "type": "text",
+            "text": " for "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)=x^3-6x^2+9x"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "3x^2-12x+9",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "B",
+            "text": "3x^2-6x+9",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "C",
+            "text": "x^2-12x+9",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "D",
+            "text": "3x^2-12x",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 0
+      },
+      {
+        "id": "Q4",
+        "nodeId": "critical_points",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "compute",
+        "errorId": "E4",
+        "lessonEvidence": "Teacher set f'(x)=0 to get x=1,3.",
+        "failureReveals": "Student cannot find critical points.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "What are the critical points of "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)=x^3-6x^2+9x"
+          },
+          {
+            "type": "text",
+            "text": "?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "x=0, 3",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "B",
+            "text": "x=1, 3",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "C",
+            "text": "x=1, 2",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "D",
+            "text": "x=2, 3",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "id": "Q5",
+        "nodeId": "sign_chart_fprime",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "interpret",
+        "errorId": "E5",
+        "lessonEvidence": "Teacher: f'>0 for x<1 and x>3; f'<0 for 1<x<3.",
+        "failureReveals": "Student misinterprets sign chart.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Given "
+          },
+          {
+            "type": "math",
+            "latex": "f'(x)=3x^2-12x+9"
+          },
+          {
+            "type": "text",
+            "text": " with critical points at "
+          },
+          {
+            "type": "math",
+            "latex": "x=1, 3"
+          },
+          {
+            "type": "text",
+            "text": ", on which interval(s) is "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": " increasing?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "(1, 3)",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "B",
+            "text": "(-\\infty, 1) \\cup (3, \\infty)",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "C",
+            "text": "(-\\infty, 1) \\cup (1, 3)",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "D",
+            "text": "(3, \\infty)",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 1,
+        "figureId": "fig2"
+      },
+      {
+        "id": "Q6",
+        "nodeId": "second_derivative",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "compute",
+        "errorId": "E6",
+        "lessonEvidence": "Teacher computed f''(x)=6x-12.",
+        "failureReveals": "Student cannot compute second derivative.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Find "
+          },
+          {
+            "type": "math",
+            "latex": "f''(x)"
+          },
+          {
+            "type": "text",
+            "text": " for "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)=x^3-6x^2+9x"
+          },
+          {
+            "type": "text",
+            "text": "."
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "6x-12",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "B",
+            "text": "6x-6",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "C",
+            "text": "3x-12",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "D",
+            "text": "6x+12",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 0
+      },
+      {
+        "id": "Q7",
+        "nodeId": "inflection_points",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "cognitiveAction": "compute",
+        "errorId": "E7",
+        "lessonEvidence": "Teacher set f''(x)=0 to get x=2.",
+        "failureReveals": "Student cannot find inflection points.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "What is the x-coordinate of the inflection point of "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)=x^3-6x^2+9x"
+          },
+          {
+            "type": "text",
+            "text": "?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "x=1",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "B",
+            "text": "x=2",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "C",
+            "text": "x=3",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "D",
+            "text": "x=0",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 1
+      },
+      {
+        "id": "Q8",
+        "nodeId": "sign_chart_fdoubleprime",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "explain_concavity_from_second_derivative",
+        "errorId": "E8",
+        "lessonEvidence": "Teacher: concave down for x<2, concave up for x>2.",
+        "failureReveals": "Student may know f''=0 mechanically but not connect the sign of f'' to concavity and sign change to inflection.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Using Figure 3, explain why "
+          },
+          {
+            "type": "math",
+            "latex": "f"
+          },
+          {
+            "type": "text",
+            "text": " is concave up on "
+          },
+          {
+            "type": "math",
+            "latex": "(2,\\infty)"
+          },
+          {
+            "type": "text",
+            "text": " and identify the inflection x-value."
+          }
+        ],
+        "figureId": "fig3",
+        "rubric": "A strong answer states that f'' is positive on (2,∞), so f is concave up there, and that f'' changes sign at x=2, giving an inflection x-value of 2.",
+        "sampleStrongAnswer": "In Figure 3, f'' is negative before x=2 and positive after x=2. Since f''>0 on (2,∞), f is concave up on that interval. The sign change at x=2 means x=2 is the inflection x-value."
+      },
+      {
+        "id": "Q9",
+        "nodeId": "graph_matching_derivatives",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "cognitiveAction": "match",
+        "errorId": "E9",
+        "lessonEvidence": "Teacher showed graphs and explained: f' above x-axis when f increasing, etc.",
+        "failureReveals": "Student cannot relate f, f', f'' graphs.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Refer to Figure 1. Which curve is "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)"
+          },
+          {
+            "type": "text",
+            "text": "?"
+          }
+        ],
+        "options": [
+          {
+            "label": "A",
+            "text": "A",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "B",
+            "text": "B",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          },
+          {
+            "label": "C",
+            "text": "C",
+            "correct": true,
+            "feedbackCorrect": "Correct."
+          },
+          {
+            "label": "D",
+            "text": "Cannot be determined",
+            "correct": false,
+            "feedbackWrong": "Review the related concept."
+          }
+        ],
+        "correct": 2,
+        "figureId": "fig1"
+      },
+      {
+        "id": "Q10",
+        "nodeId": "sketch_from_analysis",
+        "type": "open_ended",
+        "bloomLevel": "create",
+        "scaffoldLevel": "L3",
+        "cognitiveAction": "synthesize",
+        "errorId": "E10",
+        "lessonEvidence": "Teacher sketched the graph after completing sign charts.",
+        "failureReveals": "Student can compute isolated values but may not synthesize derivative evidence into a coherent feature summary.",
+        "stemParts": [
+          {
+            "type": "text",
+            "text": "Without drawing the full graph, write a feature summary for "
+          },
+          {
+            "type": "math",
+            "latex": "f(x)=x^3-6x^2+9x"
+          },
+          {
+            "type": "text",
+            "text": ". Include intervals of increase/decrease, concavity, local extrema, and the inflection point."
+          }
+        ],
+        "rubric": "Must mention increasing on (-∞,1) and (3,∞), decreasing on (1,3), local maximum at (1,4), local minimum at (3,0), concave down on (-∞,2), concave up on (2,∞), and inflection point (2,2).",
+        "sampleStrongAnswer": "The function increases on (-∞,1), decreases on (1,3), then increases on (3,∞), so it has a local maximum at (1,4) and a local minimum at (3,0). It is concave down on (-∞,2), concave up on (2,∞), and has an inflection point at (2,2)."
+      }
+    ]
+  },
+  "reteachModules": [
+    {
+      "errorId": "E1",
+      "trigger": "Q1 incorrect",
+      "studentMisunderstanding": "Does not know how to find domain of polynomial functions.",
+      "miniLesson": {
+        "explain": "The domain of a function is all x-values for which it is defined. Polynomials are defined for all real numbers because you can plug in any x and get a real output.",
+        "example": "For f(x)=x^2, domain is all real numbers. For f(x)=1/x, domain excludes x=0.",
+        "memoryAnchor": "Polynomials = no restrictions. Rationals = denominator ≠ 0."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "State the domain of f(x)=5x^3-2x+1.",
+          "answer": "All real numbers (ℝ)."
+        },
+        {
+          "level": "L2",
+          "prompt": "State the domain of f(x)=1/(x-2).",
+          "answer": "All real numbers except x=2."
+        },
+        {
+          "level": "L3",
+          "prompt": "State the domain of f(x)=√(x+3).",
+          "answer": "x ≥ -3."
+        }
+      ]
+    },
+    {
+      "errorId": "E2",
+      "trigger": "Q2 incorrect",
+      "studentMisunderstanding": "Cannot find x-intercepts by solving f(x)=0.",
+      "miniLesson": {
+        "explain": "To find x-intercepts, set y=0 and solve for x. Factor if possible.",
+        "example": "For f(x)=x^3-6x^2+9x, set 0=x(x^2-6x+9)=x(x-3)^2, so x=0 or x=3.",
+        "memoryAnchor": "x-intercepts: set f(x)=0 and solve."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find x-intercepts of f(x)=x^2-4.",
+          "answer": "x=2, -2."
+        },
+        {
+          "level": "L2",
+          "prompt": "Find x-intercepts of f(x)=x^3-x.",
+          "answer": "x=0, 1, -1."
+        },
+        {
+          "level": "L3",
+          "prompt": "Find x-intercepts of f(x)=x^3-6x^2+9x.",
+          "answer": "x=0, 3."
+        }
+      ]
+    },
+    {
+      "errorId": "E3",
+      "trigger": "Q3 incorrect",
+      "studentMisunderstanding": "Makes errors in power rule differentiation.",
+      "miniLesson": {
+        "explain": "Use power rule: d/dx (x^n) = n x^(n-1). Differentiate term by term.",
+        "example": "f(x)=x^3-6x^2+9x → f'(x)=3x^2-12x+9.",
+        "memoryAnchor": "Multiply by exponent, reduce exponent by 1."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Differentiate f(x)=x^2.",
+          "answer": "f'(x)=2x."
+        },
+        {
+          "level": "L2",
+          "prompt": "Differentiate f(x)=4x^3-2x.",
+          "answer": "f'(x)=12x^2-2."
+        },
+        {
+          "level": "L3",
+          "prompt": "Differentiate f(x)=x^3-6x^2+9x.",
+          "answer": "f'(x)=3x^2-12x+9."
+        }
+      ]
+    },
+    {
+      "errorId": "E4",
+      "trigger": "Q4 incorrect",
+      "studentMisunderstanding": "Cannot solve f'(x)=0 to find critical points.",
+      "miniLesson": {
+        "explain": "Critical points occur where f'(x)=0 or f'(x) undefined. Solve f'(x)=0 by factoring or quadratic formula.",
+        "example": "f'(x)=3x^2-12x+9=0 → divide by 3: x^2-4x+3=0 → (x-1)(x-3)=0 → x=1,3.",
+        "memoryAnchor": "Set derivative to zero and solve."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find critical points of f(x)=x^2-4x.",
+          "answer": "f'(x)=2x-4=0 → x=2."
+        },
+        {
+          "level": "L2",
+          "prompt": "Find critical points of f(x)=x^3-3x.",
+          "answer": "f'(x)=3x^2-3=0 → x=±1."
+        },
+        {
+          "level": "L3",
+          "prompt": "Find critical points of f(x)=x^3-6x^2+9x.",
+          "answer": "x=1, 3."
+        }
+      ]
+    },
+    {
+      "errorId": "E5",
+      "trigger": "Q5 incorrect",
+      "studentMisunderstanding": "Misinterprets sign of f' for increasing/decreasing.",
+      "miniLesson": {
+        "explain": "If f'(x)>0 on an interval, f is increasing. If f'(x)<0, f is decreasing. Test points in each interval between critical points.",
+        "example": "For f'(x)=3(x-1)(x-3), test x=0: f'(0)=9>0 → increasing on (-∞,1); x=2: f'(2)=-3<0 → decreasing on (1,3); x=4: f'(4)=9>0 → increasing on (3,∞).",
+        "memoryAnchor": "Positive derivative = uphill; negative derivative = downhill."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Given f'(x)=2x-4, on what interval is f increasing?",
+          "answer": "x>2."
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f'(x)=x^2-1, find intervals of increase.",
+          "answer": "(-∞,-1) and (1,∞)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given f'(x)=3x^2-12x+9, find intervals of increase.",
+          "answer": "(-∞,1) and (3,∞)."
+        }
+      ]
+    },
+    {
+      "errorId": "E6",
+      "trigger": "Q6 incorrect",
+      "studentMisunderstanding": "Cannot compute second derivative correctly.",
+      "miniLesson": {
+        "explain": "Second derivative is the derivative of the first derivative. Apply power rule again.",
+        "example": "f'(x)=3x^2-12x+9 → f''(x)=6x-12.",
+        "memoryAnchor": "Differentiate twice."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find f''(x) for f(x)=x^3.",
+          "answer": "f''(x)=6x."
+        },
+        {
+          "level": "L2",
+          "prompt": "Find f''(x) for f(x)=2x^4-x^2.",
+          "answer": "f''(x)=24x^2-2."
+        },
+        {
+          "level": "L3",
+          "prompt": "Find f''(x) for f(x)=x^3-6x^2+9x.",
+          "answer": "f''(x)=6x-12."
+        }
+      ]
+    },
+    {
+      "errorId": "E7",
+      "trigger": "Q7 incorrect",
+      "studentMisunderstanding": "Cannot find inflection points from f''(x)=0.",
+      "miniLesson": {
+        "explain": "Inflection points occur where f''(x)=0 or undefined and concavity changes. Solve f''(x)=0.",
+        "example": "f''(x)=6x-12=0 → x=2. Check sign change: f''(1)=-6<0, f''(3)=6>0, so concavity changes at x=2.",
+        "memoryAnchor": "Set second derivative to zero and verify sign change."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find inflection point of f(x)=x^3.",
+          "answer": "x=0."
+        },
+        {
+          "level": "L2",
+          "prompt": "Find inflection point of f(x)=x^4-6x^2.",
+          "answer": "x=±1."
+        },
+        {
+          "level": "L3",
+          "prompt": "Find inflection point of f(x)=x^3-6x^2+9x.",
+          "answer": "x=2."
+        }
+      ]
+    },
+    {
+      "errorId": "E8",
+      "trigger": "Q8 incorrect",
+      "studentMisunderstanding": "Misinterprets sign of f'' for concavity.",
+      "miniLesson": {
+        "explain": "If f''(x)>0, f is concave up (cup-shaped). If f''(x)<0, f is concave down (cap-shaped).",
+        "example": "f''(x)=6x-12: for x<2, f''<0 → concave down; for x>2, f''>0 → concave up.",
+        "memoryAnchor": "Second derivative positive = smile; negative = frown."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Given f''(x)=2, is f concave up or down?",
+          "answer": "Concave up."
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f''(x)=-6x, find concavity for x>0.",
+          "answer": "Concave down."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given f''(x)=6x-12, find interval where f is concave up.",
+          "answer": "(2,∞)."
+        }
+      ]
+    },
+    {
+      "errorId": "E9",
+      "trigger": "Q9 incorrect",
+      "studentMisunderstanding": "Cannot relate graphs of f, f', f''.",
+      "miniLesson": {
+        "explain": "Where f has a local max/min, f' crosses x-axis. Where f' has local max/min, f'' crosses x-axis. f' positive means f increasing.",
+        "example": "In Figure 1, curve C has local max at x=1 and min at x=3; curve B crosses x-axis at x=1 and 3, so B is f'. Curve B has min at x=2; curve A crosses x-axis at x=2, so A is f''.",
+        "memoryAnchor": "f' zero at f's peaks/valleys; f'' zero at f's steepest points."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If f is increasing, what is the sign of f'?",
+          "answer": "Positive."
+        },
+        {
+          "level": "L2",
+          "prompt": "If f' has a local minimum, what happens to f''?",
+          "answer": "f'' changes from negative to positive."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given three graphs, identify f, f', f''.",
+          "answer": "Match based on derivative relationships."
+        }
+      ]
+    },
+    {
+      "errorId": "E10",
+      "trigger": "Q10 incorrect",
+      "studentMisunderstanding": "Cannot synthesize analysis into a sketch.",
+      "miniLesson": {
+        "explain": "Plot intercepts, critical points, inflection points. Draw curve following increasing/decreasing and concavity intervals.",
+        "example": "For f(x)=x^3-6x^2+9x: plot (0,0), (1,4), (2,2), (3,0). From left, increase to (1,4), decrease to (3,0), increase. Concave down until x=2, then up.",
+        "memoryAnchor": "Plot points, then connect with correct slope and curvature."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Sketch a function increasing on (-∞,2) and decreasing on (2,∞).",
+          "answer": "Peak at x=2."
+        },
+        {
+          "level": "L2",
+          "prompt": "Sketch a function concave up on (-∞,1) and concave down on (1,∞).",
+          "answer": "Inflection at x=1."
+        },
+        {
+          "level": "L3",
+          "prompt": "Sketch f(x)=x^3-6x^2+9x using given analysis.",
+          "answer": "See sample strong answer."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "E1",
+      "questions": [
+        {
+          "id": "R1a",
+          "type": "single_choice",
+          "stem": "What is the domain of f(x)=x^2+3x-2?",
+          "options": [
+            "All real numbers",
+            "x≠0",
+            "x>0",
+            "x<0"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R1b",
+          "type": "open_ended",
+          "stem": "Explain how to find the domain of a rational function.",
+          "rubric": "Set denominator ≠ 0 and solve; domain is all real numbers except those values."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E2",
+      "questions": [
+        {
+          "id": "R2a",
+          "type": "single_choice",
+          "stem": "Find the x-intercepts of f(x)=x^2-5x+6.",
+          "options": [
+            "x=2,3",
+            "x=-2,-3",
+            "x=1,6",
+            "x=0,5"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R2b",
+          "type": "open_ended",
+          "stem": "Find the x-intercepts of f(x)=x^3-4x.",
+          "rubric": "Set x(x^2-4)=0 → x=0, ±2."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E3",
+      "questions": [
+        {
+          "id": "R3a",
+          "type": "single_choice",
+          "stem": "Find f'(x) for f(x)=4x^3-2x^2+x.",
+          "options": [
+            "12x^2-4x+1",
+            "12x^2-2x+1",
+            "4x^2-4x+1",
+            "12x^2-4x"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R3b",
+          "type": "open_ended",
+          "stem": "Differentiate f(x)=x^4-3x^2+2.",
+          "rubric": "f'(x)=4x^3-6x."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E4",
+      "questions": [
+        {
+          "id": "R4a",
+          "type": "single_choice",
+          "stem": "Find critical points of f(x)=x^2-6x+5.",
+          "options": [
+            "x=3",
+            "x=0,6",
+            "x=1,5",
+            "x=-3"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R4b",
+          "type": "open_ended",
+          "stem": "Find critical points of f(x)=x^3-3x^2.",
+          "rubric": "f'(x)=3x^2-6x=3x(x-2)=0 → x=0,2."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E5",
+      "questions": [
+        {
+          "id": "R5a",
+          "type": "single_choice",
+          "stem": "Given f'(x)=x-2, on what interval is f increasing?",
+          "options": [
+            "(2,∞)",
+            "(-∞,2)",
+            "(-∞,∞)",
+            "(0,∞)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R5b",
+          "type": "open_ended",
+          "stem": "Determine intervals of increase/decrease for f(x)=x^3-3x.",
+          "rubric": "f'(x)=3x^2-3; increasing on (-∞,-1) and (1,∞), decreasing on (-1,1)."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E6",
+      "questions": [
+        {
+          "id": "R6a",
+          "type": "single_choice",
+          "stem": "Find f''(x) for f(x)=x^4-2x^3.",
+          "options": [
+            "12x^2-12x",
+            "4x^3-6x^2",
+            "12x^2-6x",
+            "4x^3-12x"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R6b",
+          "type": "open_ended",
+          "stem": "Find f''(x) for f(x)=3x^5-10x^3.",
+          "rubric": "f'(x)=15x^4-30x^2; f''(x)=60x^3-60x."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E7",
+      "questions": [
+        {
+          "id": "R7a",
+          "type": "single_choice",
+          "stem": "Find the inflection point of f(x)=x^3-3x.",
+          "options": [
+            "x=0",
+            "x=1",
+            "x=-1",
+            "x=2"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R7b",
+          "type": "open_ended",
+          "stem": "Find inflection points of f(x)=x^4-4x^3.",
+          "rubric": "f''(x)=12x^2-24x=12x(x-2)=0 → x=0,2; check sign change."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E8",
+      "questions": [
+        {
+          "id": "R8a",
+          "type": "single_choice",
+          "stem": "Given f''(x)=6x, on what interval is f concave up?",
+          "options": [
+            "(0,∞)",
+            "(-∞,0)",
+            "(-∞,∞)",
+            "Nowhere"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R8b",
+          "type": "open_ended",
+          "stem": "Determine concavity of f(x)=x^3-6x^2+9x.",
+          "rubric": "f''(x)=6x-12; concave down on (-∞,2), concave up on (2,∞)."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E9",
+      "questions": [
+        {
+          "id": "R9a",
+          "type": "single_choice",
+          "stem": "If f has a local maximum at x=a, what is true about f'(a)?",
+          "options": [
+            "f'(a)=0",
+            "f'(a)>0",
+            "f'(a)<0",
+            "f'(a) undefined"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R9b",
+          "type": "open_ended",
+          "stem": "Given graphs of f, f', f'', explain how to identify each.",
+          "rubric": "f' crosses x-axis at f's extrema; f'' crosses x-axis at f's inflection points."
+        }
+      ],
+      "passRule": "Both correct."
+    },
+    {
+      "forErrorId": "E10",
+      "questions": [
+        {
+          "id": "R10a",
+          "type": "single_choice",
+          "stem": "Which point is a local maximum of f(x)=x^3-6x^2+9x?",
+          "options": [
+            "(1,4)",
+            "(3,0)",
+            "(2,2)",
+            "(0,0)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "R10b",
+          "type": "open_ended",
+          "stem": "Sketch f(x)=x^3-6x^2+9x labeling all key features.",
+          "rubric": "Correct intercepts, extrema, inflection, concavity."
+        }
+      ],
+      "passRule": "Both correct."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "Student scores 0-4 on diagnostic card or fails retest after remediation.",
+    "message": "Student may need one-on-one review of differentiation rules and sign chart construction before attempting curve sketching again."
+  }
+}
