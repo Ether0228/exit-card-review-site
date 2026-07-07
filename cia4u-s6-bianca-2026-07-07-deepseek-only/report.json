@@ -1,26 +1,15 @@
 {
-  "generatedAt": "2026-07-07T05:19:19.006Z",
+  "generatedAt": "2026-07-07T07:14:40.955Z",
   "deepseekOnly": true,
   "sourceFormat": "feishu_ai_minutes_link",
   "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/JzScdeSWTo6m1xx1Cu6cT6MWn0c?from=vc_group_doc_link#doxcnL88jzIsdn108sxhIZJRzuc",
   "sourceTitle": "CIA4U.S6.Bianca 2026-07-07 智能纪要",
   "officialBankStatus": {
-    "ossd": "missing_course",
-    "knowledgeNodes": "missing_course",
+    "ossd": "loaded",
+    "knowledgeNodes": "loaded",
     "courseCode": "CIA4U"
   },
-  "finalIssues": [
-    "OSSD bank missing for CIA4U: official curriculum alignment is weak",
-    "knowledge node missing for CIA4U: officialNodeId alignment is weak",
-    "OSSD bank missing for CIA4U: q1 has weak alignment",
-    "OSSD bank missing for CIA4U: q2 has weak alignment",
-    "OSSD bank missing for CIA4U: q3 has weak alignment",
-    "OSSD bank missing for CIA4U: q4 has weak alignment",
-    "OSSD bank missing for CIA4U: q5 has weak alignment",
-    "OSSD bank missing for CIA4U: q6 has weak alignment",
-    "OSSD bank missing for CIA4U: q7 has weak alignment",
-    "OSSD bank missing for CIA4U: q8 has weak alignment"
-  ],
+  "finalIssues": [],
   "stepReports": [
     {
       "step": "courseOpsExtract",
@@ -34,65 +23,46 @@
     },
     {
       "step": "diagnosticCard",
-      "issues": [
-        "OSSD bank missing for CIA4U: q1 has weak alignment",
-        "OSSD bank missing for CIA4U: q2 has weak alignment",
-        "OSSD bank missing for CIA4U: q3 has weak alignment",
-        "OSSD bank missing for CIA4U: q4 has weak alignment",
-        "OSSD bank missing for CIA4U: q5 has weak alignment",
-        "OSSD bank missing for CIA4U: q6 has weak alignment",
-        "OSSD bank missing for CIA4U: q7 has weak alignment",
-        "OSSD bank missing for CIA4U: q8 has weak alignment"
-      ],
-      "repairedBy": "pro"
-    },
-    {
-      "step": "reteach:err-opportunity-cost-confusion",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "retest:err-opportunity-cost-confusion",
+      "step": "reteach:err-opportunity-cost-money",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "reteach:err-ppc-shape-linear",
+      "step": "retest:err-opportunity-cost-money",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "retest:err-ppc-shape-linear",
+      "step": "reteach:err-ppc-points-misplaced",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "reteach:err-ppc-points",
+      "step": "retest:err-ppc-points-misplaced",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "retest:err-ppc-points",
+      "step": "reteach:err-ppc-shift-vs-rotation",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "reteach:err-factors-capital-only-money",
+      "step": "retest:err-ppc-shift-vs-rotation",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "retest:err-factors-capital-only-money",
+      "step": "reteach:err-scarcity-needs-vs-wants",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "reteach:err-entrepreneur-definition",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "retest:err-entrepreneur-definition",
+      "step": "retest:err-scarcity-needs-vs-wants",
       "issues": [],
       "repairedBy": null
     }
