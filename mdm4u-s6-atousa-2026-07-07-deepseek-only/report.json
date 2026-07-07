@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-07-07T05:08:55.394Z",
+  "deepseekOnly": true,
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/PEisd6pGMo3My2xWqUZcSZL5nfh?from=vc_group_doc_link#doxcnTyYYTKoy87zDUrJnJ5PRjd",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-07 智能纪要",
+  "officialBankStatus": {
+    "ossd": "loaded",
+    "knowledgeNodes": "loaded",
+    "courseCode": "MDM4U"
+  },
+  "finalIssues": [
+    "q1 officialNodeId \"A1.3\" does not match current course knowledge node bank",
+    "q1 ossdExpectation does not quote or closely match current course official expectations",
+    "q2 officialNodeId \"A1.3\" does not match current course knowledge node bank",
+    "q2 ossdExpectation does not quote or closely match current course official expectations",
+    "q3 officialNodeId \"A1.4\" does not match current course knowledge node bank",
+    "q3 ossdExpectation does not quote or closely match current course official expectations",
+    "q4 officialNodeId \"A1.3\" does not match current course knowledge node bank",
+    "q4 ossdExpectation does not quote or closely match current course official expectations"
+  ],
+  "stepReports": [
+    {
+      "step": "courseOpsExtract",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "factBank",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "diagnosticCard",
+      "issues": [
+        "q1 officialNodeId \"A1.3\" does not match current course knowledge node bank",
+        "q1 ossdExpectation does not quote or closely match current course official expectations",
+        "q2 officialNodeId \"A1.3\" does not match current course knowledge node bank",
+        "q2 ossdExpectation does not quote or closely match current course official expectations",
+        "q3 officialNodeId \"A1.4\" does not match current course knowledge node bank",
+        "q3 ossdExpectation does not quote or closely match current course official expectations",
+        "q4 officialNodeId \"A1.3\" does not match current course knowledge node bank",
+        "q4 ossdExpectation does not quote or closely match current course official expectations"
+      ],
+      "repairedBy": "pro"
+    },
+    {
+      "step": "reteach:err-theoretical-probability",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "retest:err-theoretical-probability",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "reteach:err-experimental-probability-law-large-numbers",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "retest:err-experimental-probability-law-large-numbers",
+      "issues": [],
+      "repairedBy": null
+    }
+  ]
+}

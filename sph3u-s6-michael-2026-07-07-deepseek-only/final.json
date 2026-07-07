@@ -1,0 +1,774 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-07",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Mh1MdUgHgoRSRvx0S45cb4Exnyb?from=vc_group_doc_link#doxcnaRfXplA6KT9ie4mseq1sZg",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-07 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Mh1MdUgHgoRSRvx0S45cb4Exnyb?from=vc_group_doc_link#doxcnaRfXplA6KT9ie4mseq1sZg",
+    "title": "SPH3U.S6.Michael 2026-07-07 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/Downloads/Gia Zhu/02_Active_Projects/创新学校/artifacts/course-chat-ingestion/2026-07-07-sources/sph3u-s6-michael-2026-07-07/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-07",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-07",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson focuses on teaching motion concepts, constant velocity, changing speed, distance vs displacement, with examples and calculations. It is a typical instructional session with academic content.",
+    "academicContentSignals": [
+      "Constant velocity graph characteristics: position changes at constant rate, velocity constant positive or negative",
+      "Changing speed: increasing slope indicates speeding up, decreasing slope indicates slowing down",
+      "Distance vs displacement: scalar vs vector, displacement relative to reference point",
+      "Speed vs velocity: speed is distance/time, velocity is displacement/time",
+      "Example calculations: home-school-library-mall displacement calculation",
+      "Example: dog agility displacement problem"
+    ],
+    "courseOverviewSignals": [
+      "First-class/course-orientation learning content not explicitly present; this is a continuation of kinematics instruction."
+    ],
+    "opsDominanceRisk": "Low; minimal operational items, academic content dominates. Risk of misinterpretation is low.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Continue numerical computation of dog displacement problem",
+        "studentAction": "Complete the numerical computation of the dog's displacement problem the next day.",
+        "deadlineText": "next day",
+        "deadlineISO": "2026-07-08T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Complete Numerical Computations: Continue the numerical computation of the dog's displacement problem the next day.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Distance and Displacement、Speed and Velocity、Motion Graph Analysis）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Distance is a scalar quantity that measures the total path length traveled, regardless of direction.；Displacement is a vector quantity that measures the change in position from a reference point, including direction.；Speed is the rate of change of distance over time, calculated as distance divided by time.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Distinguish between distance (scalar) and displacement (vector) in one-dimensional motion."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Distinguish between speed (scalar) and velocity (vector), and calculate average velocity."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Interpret position-time graphs to describe motion, including constant velocity, speeding up, and slowing down."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Calculate displacement using vector addition in one dimension."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "distance-displacement",
+      "name": "Distance and Displacement",
+      "nameEn": "Distance and Displacement",
+      "definition": "Distance is a scalar quantity representing total path length. Displacement is a vector quantity representing change in position relative to a reference point.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "speed-velocity",
+      "name": "Speed and Velocity",
+      "nameEn": "Speed and Velocity",
+      "definition": "Speed is distance per time (scalar). Velocity is displacement per time (vector).",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "motion-graph-analysis",
+      "name": "Motion Graph Analysis",
+      "nameEn": "Motion Graph Analysis",
+      "definition": "Position-time graphs represent motion; slope indicates velocity, changes in slope indicate acceleration/deceleration.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between distance (scalar) and displacement (vector) in one-dimensional motion."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Distinguish between speed (scalar) and velocity (vector), and calculate average velocity."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Interpret position-time graphs to describe motion, including constant velocity, speeding up, and slowing down."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Calculate displacement using vector addition in one dimension."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-distance-displacement-scalar-vector",
+        "condition": "student picks wrong option on Q1 or Q2",
+        "systemAction": "assign reteach module for err-distance-displacement-scalar-vector",
+        "studentMessage": "Let's review the difference between distance and displacement — direction matters!"
+      },
+      {
+        "errorId": "err-speed-velocity-interchange",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for err-speed-velocity-interchange",
+        "studentMessage": "Speed and velocity are different — velocity includes direction."
+      },
+      {
+        "errorId": "err-graph-slope-interpretation",
+        "condition": "student picks wrong option on Q4 or Q5",
+        "systemAction": "assign reteach module for err-graph-slope-interpretation",
+        "studentMessage": "Let's practice reading position-time graphs — slope tells the story of motion."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-s6-0707-q1",
+        "nodeId": "distance-displacement",
+        "errorId": "err-distance-displacement-scalar-vector",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly selects distance as total path length without direction.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Node B3 directly covers understanding of motion concepts including distance and displacement.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes distance as scalar sum of path lengths.",
+        "commonMisconception": "Student may think distance is the straight-line measure with direction. They may add only one leg or confuse with displacement.",
+        "remediationModule": "err-distance-displacement-scalar-vector",
+        "retestItem": "err-distance-displacement-scalar-vector",
+        "stem": "A student walks 500 m east from home to school, then 1200 m west from school to library. The total distance traveled is:",
+        "options": [
+          {
+            "label": "A",
+            "text": "500 m",
+            "correct": false,
+            "feedbackWrong": "That's only the first leg. Distance includes the whole path."
+          },
+          {
+            "label": "B",
+            "text": "1200 m",
+            "correct": false,
+            "feedbackWrong": "That's only the second leg. Distance is the sum of all path lengths."
+          },
+          {
+            "label": "C",
+            "text": "1700 m",
+            "correct": true,
+            "feedbackCorrect": "Correct! Distance = 500 m + 1200 m = 1700 m, regardless of direction."
+          },
+          {
+            "label": "D",
+            "text": "700 m west",
+            "correct": false,
+            "feedbackWrong": "That describes displacement, not distance. Distance has no direction."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-distance-displacement-scalar-vector."
+      },
+      {
+        "id": "diag-sph3u-s6-0707-q2",
+        "nodeId": "distance-displacement",
+        "errorId": "err-distance-displacement-scalar-vector",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student calculates displacement using vector addition with correct direction.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Displacement calculation is part of understanding linear motion.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can compute displacement from a multi-leg path, including sign/direction.",
+        "commonMisconception": "Student may add magnitudes without considering opposite directions, or omit direction in answer.",
+        "remediationModule": "err-distance-displacement-scalar-vector",
+        "retestItem": "err-distance-displacement-scalar-vector",
+        "stem": "Using the same walk: home to school 500 m east, school to library 1200 m west. Calculate the displacement from home to library. Show your reasoning and include direction.",
+        "rubric": "Full credit: magnitude 700 m and direction west (or negative direction). Partial credit: correct magnitude but no direction, or correct reasoning but arithmetic error.",
+        "sampleStrongAnswer": "Displacement = (500 m east) + (1200 m west) = 500 m east - 1200 m east = -700 m east = 700 m west.",
+        "nextActionIfWrong": "Enter reteach module for err-distance-displacement-scalar-vector."
+      },
+      {
+        "id": "diag-sph3u-s6-0707-q3",
+        "nodeId": "speed-velocity",
+        "errorId": "err-speed-velocity-interchange",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student distinguishes average velocity from speed by including net displacement.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Node B2 includes solving problems involving average velocity.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows velocity is displacement/time, not distance/time.",
+        "commonMisconception": "Student calculates average speed instead of velocity, or thinks net displacement is non-zero.",
+        "remediationModule": "err-speed-velocity-interchange",
+        "retestItem": "err-speed-velocity-interchange",
+        "stem": "A car travels 100 km north in 2 hours, then 100 km south in 2 hours. What is the average velocity for the whole trip?",
+        "options": [
+          {
+            "label": "A",
+            "text": "50 km/h north",
+            "correct": false,
+            "feedbackWrong": "This is the average speed (total distance/total time), but velocity requires net displacement. Net displacement is zero."
+          },
+          {
+            "label": "B",
+            "text": "0 km/h",
+            "correct": true,
+            "feedbackCorrect": "Correct! Net displacement is 0 km (back to start), so average velocity = 0 km/h."
+          },
+          {
+            "label": "C",
+            "text": "100 km/h",
+            "correct": false,
+            "feedbackWrong": "That's just the speed of one leg. Velocity considers overall displacement."
+          },
+          {
+            "label": "D",
+            "text": "25 km/h",
+            "correct": false,
+            "feedbackWrong": "Miscalculation. Total distance is 200 km, total time 4 h, average speed = 50 km/h. But velocity is 0."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-speed-velocity-interchange."
+      },
+      {
+        "id": "diag-sph3u-s6-0707-q4",
+        "nodeId": "motion-graph-analysis",
+        "errorId": "err-graph-slope-interpretation",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly interprets negative slope on position-time graph as motion in negative direction at constant velocity.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Graph interpretation is a key investigative skill in B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows slope indicates velocity and sign indicates direction, not acceleration.",
+        "commonMisconception": "Student thinks negative slope always means slowing down, ignoring that constant slope means constant velocity.",
+        "remediationModule": "err-graph-slope-interpretation",
+        "retestItem": "err-graph-slope-interpretation",
+        "stem": "On a position-time graph, a straight line with negative slope indicates:",
+        "options": [
+          {
+            "label": "A",
+            "text": "The object is speeding up",
+            "correct": false,
+            "feedbackWrong": "A straight line means constant slope, so constant velocity. Speeding up would show a curved line with increasing slope."
+          },
+          {
+            "label": "B",
+            "text": "The object is slowing down",
+            "correct": false,
+            "feedbackWrong": "Slowing down would show the slope decreasing (becoming less steep) over time. A constant negative slope means constant velocity in the negative direction."
+          },
+          {
+            "label": "C",
+            "text": "The object is moving in the negative direction at constant velocity",
+            "correct": true,
+            "feedbackCorrect": "Correct! A constant negative slope means constant negative velocity."
+          },
+          {
+            "label": "D",
+            "text": "The object is stationary",
+            "correct": false,
+            "feedbackWrong": "A stationary object would have a horizontal line (zero slope)."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-graph-slope-interpretation."
+      },
+      {
+        "id": "diag-sph3u-s6-0707-q5",
+        "nodeId": "motion-graph-analysis",
+        "errorId": "err-graph-slope-interpretation",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student describes motion from a two-segment position-time graph (stationary then speeding up in positive direction).",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interpreting graphs to describe motion directly aligns with B2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student can interpret changes in slope (horizontal then increasing slope) as stationary then speeding up.",
+        "commonMisconception": "Student may misinterpret increasing positive slope as constant velocity or slowing down.",
+        "remediationModule": "err-graph-slope-interpretation",
+        "retestItem": "err-graph-slope-interpretation",
+        "stem": "Describe the motion of an object whose position-time graph shows a horizontal line followed by a line with increasing positive slope.",
+        "rubric": "Full credit: mentions stationary (or at rest) for the horizontal segment, then moving in the positive direction and speeding up (increasing velocity) for the second segment. Partial credit: correct identification of stationary but missing 'speeding up' or direction.",
+        "sampleStrongAnswer": "First, the object is stationary (not moving) because the position does not change (horizontal line). Then, the object starts moving in the positive direction and its speed is increasing (the slope is increasing, indicating acceleration).",
+        "nextActionIfWrong": "Enter reteach module for err-graph-slope-interpretation."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-distance-displacement-scalar-vector",
+      "condition": "student picks wrong option on Q1 or Q2",
+      "systemAction": "assign reteach module for err-distance-displacement-scalar-vector",
+      "studentMessage": "Let's review the difference between distance and displacement — direction matters!"
+    },
+    {
+      "errorId": "err-speed-velocity-interchange",
+      "condition": "student picks wrong option on Q3",
+      "systemAction": "assign reteach module for err-speed-velocity-interchange",
+      "studentMessage": "Speed and velocity are different — velocity includes direction."
+    },
+    {
+      "errorId": "err-graph-slope-interpretation",
+      "condition": "student picks wrong option on Q4 or Q5",
+      "systemAction": "assign reteach module for err-graph-slope-interpretation",
+      "studentMessage": "Let's practice reading position-time graphs — slope tells the story of motion."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-distance-displacement-scalar-vector",
+      "trigger": "Student picks wrong option on Q1 or Q2",
+      "studentMisunderstanding": "Students may confuse scalar distance with vector displacement, ignoring direction or treating distance as having direction.",
+      "miniLesson": {
+        "explain": "Distance is a scalar quantity that measures the total path length traveled, regardless of direction. Displacement is a vector quantity that measures the change in position from a reference point, including direction. For example, walking 500 m east then 1200 m west gives a distance of 1700 m (total path) but a displacement of 700 m west (final position relative to start).",
+        "example": "A student walks 500 m east from home to school, then 1200 m west from school to library. Distance = 500 m + 1200 m = 1700 m. Displacement = (500 m east) + (1200 m west) = -700 m east = 700 m west.",
+        "memoryAnchor": "Distance is the whole journey; displacement is the net result with direction."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A person walks 500 m east, then 1200 m west. What is the total distance and displacement?",
+          "answer": "Distance = 1700 m; Displacement = 700 m west."
+        },
+        {
+          "level": "L2",
+          "prompt": "A dog runs 80 m west, then 27 m east. Find the distance and displacement.",
+          "answer": "Distance = 107 m; Displacement = 53 m west."
+        },
+        {
+          "level": "L3",
+          "prompt": "A person walks from home to school (500 m east), then to library (1200 m west), then to mall (22 m west). Calculate the total distance and displacement from home to mall.",
+          "answer": "Distance = 1722 m; Displacement = 722 m west."
+        }
+      ]
+    },
+    {
+      "errorId": "err-speed-velocity-interchange",
+      "trigger": "Student selected option A (average speed 50 km/h north) on diagnostic Q3, confusing speed with velocity.",
+      "studentMisunderstanding": "Students may use total distance instead of net displacement when calculating average velocity, or disregard direction entirely.",
+      "miniLesson": {
+        "explain": "Speed is a scalar: it only measures how fast something is moving, based on total distance traveled. Velocity is a vector: it measures how fast and in what direction, based on displacement (change in position). Average velocity = displacement / time, while average speed = distance / time. For a round trip that returns to start, displacement is zero, so velocity is zero even if speed is positive.",
+        "example": "A dog runs 80 m west, then 27 m east. Total distance = 107 m, so speed depends on time. Displacement = 53 m west. Velocity would be 53 m west divided by time, not 107 m divided by time.",
+        "memoryAnchor": "Velocity is like a GPS showing the straight-line shortcut; speed is like the odometer showing total distance traveled."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Is velocity a scalar or vector quantity?",
+          "answer": "Vector"
+        },
+        {
+          "level": "L2",
+          "prompt": "A person walks 500 m east, then 1200 m west in 1000 seconds. Calculate the average speed and average velocity. (Show your work and include direction for velocity.)",
+          "answer": "Average speed = total distance / time = (500+1200)/1000 = 1.7 m/s. Average velocity = displacement / time = (500 m east + 1200 m west) / 1000 = -700 m east / 1000 = -0.7 m/s east (or 0.7 m/s west)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A dog runs 80 m west, then 27 m east in 1000 seconds. Determine the dog's average speed and average velocity. Explain why they are different.",
+          "answer": "Average speed = (80+27)/1000 = 107/1000 = 0.107 m/s. Average velocity = displacement / time. Displacement = 80 m west + 27 m east = 53 m west. So velocity = 53 m west / 1000 s = 0.053 m/s west. They are different because speed uses total path length (distance) while velocity uses net change in position (displacement), and direction matters for velocity."
+        }
+      ]
+    },
+    {
+      "errorId": "err-graph-slope-interpretation",
+      "trigger": "Student picks wrong option on Q4 or Q5 of the diagnostic assessment.",
+      "studentMisunderstanding": "Students often think a negative slope on a position-time graph means the object is slowing down, when actually a constant negative slope indicates constant velocity in the negative direction. They may also confuse changes in slope (curvature) with the slope itself.",
+      "miniLesson": {
+        "explain": "On a position-time graph, the slope of the line represents the velocity. A straight line means constant velocity; the sign of the slope indicates direction (positive = forward, negative = backward). Curved lines (changing slope) indicate acceleration: increasing slope means speeding up, decreasing slope means slowing down.",
+        "example": "A dog runs 80 m west in 10 seconds. The position-time graph is a straight line from (0,0) to (10,-80). The slope is -8 m/s, meaning constant velocity of 8 m/s westward. A student might think it's slowing down because the position decreases, but constant slope means constant velocity.",
+        "memoryAnchor": "Slope = speed and direction; curvature = change in speed. Straight line = no acceleration."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which statement best describes a straight line with a positive slope on a position-time graph?\nA. The object is speeding up\nB. The object is moving with constant positive velocity\nC. The object is stationary\nD. The object is slowing down",
+          "answer": "B. The object is moving with constant positive velocity."
+        },
+        {
+          "level": "L2",
+          "prompt": "Describe the motion shown by the graph: from t=0 to t=50 s, the line goes from (0,0) to (50,500); from t=50 to t=200 s, the line goes from (50,500) to (200,-700).",
+          "answer": "First segment: constant positive velocity of 10 m/s (east). Second segment: constant negative velocity of -8 m/s (west)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Describe the motion of an object whose position-time graph is a curve that starts steep and gradually becomes horizontal over 80 s, reaching 27 m.",
+          "answer": "The object starts with a high positive velocity and slows down to a stop at 27 m. The decreasing slope indicates deceleration."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-distance-displacement-scalar-vector",
+      "questions": [
+        {
+          "id": "retest-ds-q1",
+          "type": "single_choice",
+          "stem": "A cyclist rides 500 m north, then 1200 m south. Which of the following correctly states the distance and displacement?",
+          "options": [
+            "Distance = 1700 m, Displacement = 700 m north",
+            "Distance = 1700 m, Displacement = 700 m south",
+            "Distance = 700 m, Displacement = 1700 m south",
+            "Distance = 700 m, Displacement = 1700 m"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-ds-q2",
+          "type": "open_ended",
+          "stem": "A soccer player runs 80 m west, then 27 m east. Calculate the distance traveled and the displacement. Include direction where appropriate.",
+          "rubric": "Distance = 107 m (no direction needed, but accept correct magnitude). Displacement = 53 m west (must include direction 'west' or equivalent)."
+        }
+      ],
+      "passRule": "Student must answer both questions correctly. For the multiple-choice, select correct index; for open-ended, provide correct distance and displacement with proper direction."
+    },
+    {
+      "forErrorId": "err-speed-velocity-interchange",
+      "questions": [
+        {
+          "id": "err-speed-velocity-interchange-q1",
+          "type": "single_choice",
+          "stem": "A dog runs 80 m west, then 27 m east in a total time of 1000 seconds. What are the dog's average speed and average velocity? (Choose the best answer.)",
+          "options": [
+            "Average speed = 0.107 m/s, average velocity = 0.107 m/s west.",
+            "Average speed = 0.107 m/s, average velocity = 0.053 m/s west.",
+            "Average speed = 0.053 m/s, average velocity = 0.107 m/s west.",
+            "Average speed = 0.107 m/s, average velocity = 0.053 m/s (no direction)."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "err-speed-velocity-interchange-q2",
+          "type": "open_ended",
+          "stem": "A person walks 500 m east, then 1200 m west in 1000 seconds. Calculate the average speed and average velocity. Include proper units and direction for velocity. Show your work.",
+          "rubric": "Correct average speed: total distance = 500 + 1200 = 1700 m, speed = 1700 / 1000 = 1.7 m/s (1 point). Correct displacement: 500 m east + 1200 m west = 700 m west (or -700 m east) (1 point). Correct average velocity: 700 / 1000 = 0.7 m/s west (1 point). Includes direction for velocity (1 point). Total 4 points. A passing response must earn at least 3 out of 4 points, including direction."
+        }
+      ],
+      "passRule": "Student must select the correct option in Q1 (index 1) and earn at least 3 out of 4 points on Q2, including direction for velocity."
+    },
+    {
+      "forErrorId": "err-graph-slope-interpretation",
+      "questions": [
+        {
+          "id": "retest-slope-1",
+          "type": "single_choice",
+          "stem": "A straight line with a constant negative slope on a position-time graph represents:",
+          "options": [
+            "constant velocity in the negative direction",
+            "slowing down",
+            "speeding up in the negative direction",
+            "stationary"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-slope-2",
+          "type": "open_ended",
+          "stem": "Describe the motion of an object whose position-time graph is a straight line with a slope of -5 m/s over 10 seconds. What can you conclude about its velocity and acceleration?",
+          "rubric": "Correct answer: The object moves with constant velocity of -5 m/s (in the negative direction) and zero acceleration. The slope is constant, so velocity is constant; acceleration is zero."
+        }
+      ],
+      "passRule": "Must answer Q1 correctly and provide correct reasoning in Q2 (constant velocity, zero acceleration)."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-07",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Mh1MdUgHgoRSRvx0S45cb4Exnyb?from=vc_group_doc_link#doxcnaRfXplA6KT9ie4mseq1sZg",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-07 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Distance is a scalar quantity that measures the total path length traveled, regardless of direction.；Displacement is a vector quantity that measures the change in position from a reference point, including direction.；Speed is the rate of change of distance over time, calculated as distance divided by time.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between distance (scalar) and displacement (vector) in one-dimensional motion."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Distinguish between speed (scalar) and velocity (vector), and calculate average velocity."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Interpret position-time graphs to describe motion, including constant velocity, speeding up, and slowing down."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Calculate displacement using vector addition in one dimension."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Continue numerical computation of dog displacement problem",
+        "studentAction": "Complete the numerical computation of the dog's displacement problem the next day.",
+        "deadlineText": "next day",
+        "deadlineISO": "2026-07-08T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Complete Numerical Computations: Continue the numerical computation of the dog's displacement problem the next day.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "distance-displacement",
+      "speed-velocity",
+      "motion-graph-analysis"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-distance-displacement-scalar-vector",
+        "condition": "student picks wrong option on Q1 or Q2",
+        "systemAction": "assign reteach module for err-distance-displacement-scalar-vector"
+      },
+      {
+        "errorId": "err-speed-velocity-interchange",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for err-speed-velocity-interchange"
+      },
+      {
+        "errorId": "err-graph-slope-interpretation",
+        "condition": "student picks wrong option on Q4 or Q5",
+        "systemAction": "assign reteach module for err-graph-slope-interpretation"
+      }
+    ],
+    "nextActions": [
+      "[err-distance-displacement-scalar-vector] student picks wrong option on Q1 or Q2: Let's review the difference between distance and displacement — direction matters!",
+      "[err-speed-velocity-interchange] student picks wrong option on Q3: Speed and velocity are different — velocity includes direction.",
+      "[err-graph-slope-interpretation] student picks wrong option on Q4 or Q5: Let's practice reading position-time graphs — slope tells the story of motion."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-s6-0707-q1",
+        "type": "choice",
+        "question": "A student walks 500 m east from home to school, then 1200 m west from school to library. The total distance traveled is:",
+        "options": [
+          "500 m",
+          "1200 m",
+          "1700 m",
+          "700 m west"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student recognizes distance as scalar sum of path lengths.",
+        "misconceptions": [
+          "That's only the first leg. Distance includes the whole path.",
+          "That's only the second leg. Distance is the sum of all path lengths.",
+          "✓ Correct! Distance = 500 m + 1200 m = 1700 m, regardless of direction.",
+          "That describes displacement, not distance. Distance has no direction."
+        ],
+        "nodeId": "distance-displacement",
+        "errorId": "err-distance-displacement-scalar-vector",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly selects distance as total path length without direction.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Node B3 directly covers understanding of motion concepts including distance and displacement.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may think distance is the straight-line measure with direction. They may add only one leg or confuse with displacement.",
+        "remediationModule": "err-distance-displacement-scalar-vector",
+        "retestItem": "err-distance-displacement-scalar-vector"
+      },
+      {
+        "id": "diag-sph3u-s6-0707-q2",
+        "type": "explain",
+        "question": "Using the same walk: home to school 500 m east, school to library 1200 m west. Calculate the displacement from home to library. Show your reasoning and include direction.",
+        "correct": null,
+        "diagnosis": "Check if student can compute displacement from a multi-leg path, including sign/direction.",
+        "nodeId": "distance-displacement",
+        "errorId": "err-distance-displacement-scalar-vector",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student calculates displacement using vector addition with correct direction.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Displacement calculation is part of understanding linear motion.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may add magnitudes without considering opposite directions, or omit direction in answer.",
+        "remediationModule": "err-distance-displacement-scalar-vector",
+        "retestItem": "err-distance-displacement-scalar-vector"
+      },
+      {
+        "id": "diag-sph3u-s6-0707-q3",
+        "type": "choice",
+        "question": "A car travels 100 km north in 2 hours, then 100 km south in 2 hours. What is the average velocity for the whole trip?",
+        "options": [
+          "50 km/h north",
+          "0 km/h",
+          "100 km/h",
+          "25 km/h"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows velocity is displacement/time, not distance/time.",
+        "misconceptions": [
+          "This is the average speed (total distance/total time), but velocity requires net displacement. Net displacement is zero.",
+          "✓ Correct! Net displacement is 0 km (back to start), so average velocity = 0 km/h.",
+          "That's just the speed of one leg. Velocity considers overall displacement.",
+          "Miscalculation. Total distance is 200 km, total time 4 h, average speed = 50 km/h. But velocity is 0."
+        ],
+        "nodeId": "speed-velocity",
+        "errorId": "err-speed-velocity-interchange",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student distinguishes average velocity from speed by including net displacement.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Node B2 includes solving problems involving average velocity.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student calculates average speed instead of velocity, or thinks net displacement is non-zero.",
+        "remediationModule": "err-speed-velocity-interchange",
+        "retestItem": "err-speed-velocity-interchange"
+      },
+      {
+        "id": "diag-sph3u-s6-0707-q4",
+        "type": "choice",
+        "question": "On a position-time graph, a straight line with negative slope indicates:",
+        "options": [
+          "The object is speeding up",
+          "The object is slowing down",
+          "The object is moving in the negative direction at constant velocity",
+          "The object is stationary"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student knows slope indicates velocity and sign indicates direction, not acceleration.",
+        "misconceptions": [
+          "A straight line means constant slope, so constant velocity. Speeding up would show a curved line with increasing slope.",
+          "Slowing down would show the slope decreasing (becoming less steep) over time. A constant negative slope means constant velocity in the negative direction.",
+          "✓ Correct! A constant negative slope means constant negative velocity.",
+          "A stationary object would have a horizontal line (zero slope)."
+        ],
+        "nodeId": "motion-graph-analysis",
+        "errorId": "err-graph-slope-interpretation",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly interprets negative slope on position-time graph as motion in negative direction at constant velocity.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Graph interpretation is a key investigative skill in B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks negative slope always means slowing down, ignoring that constant slope means constant velocity.",
+        "remediationModule": "err-graph-slope-interpretation",
+        "retestItem": "err-graph-slope-interpretation"
+      },
+      {
+        "id": "diag-sph3u-s6-0707-q5",
+        "type": "explain",
+        "question": "Describe the motion of an object whose position-time graph shows a horizontal line followed by a line with increasing positive slope.",
+        "correct": null,
+        "diagnosis": "Check if student can interpret changes in slope (horizontal then increasing slope) as stationary then speeding up.",
+        "nodeId": "motion-graph-analysis",
+        "errorId": "err-graph-slope-interpretation",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student describes motion from a two-segment position-time graph (stationary then speeding up in positive direction).",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interpreting graphs to describe motion directly aligns with B2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student may misinterpret increasing positive slope as constant velocity or slowing down.",
+        "remediationModule": "err-graph-slope-interpretation",
+        "retestItem": "err-graph-slope-interpretation"
+      }
+    ]
+  }
+}

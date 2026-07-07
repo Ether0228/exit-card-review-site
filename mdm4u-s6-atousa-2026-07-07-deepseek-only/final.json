@@ -1,0 +1,757 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-07",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/PEisd6pGMo3My2xWqUZcSZL5nfh?from=vc_group_doc_link#doxcnTyYYTKoy87zDUrJnJ5PRjd",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-07 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/PEisd6pGMo3My2xWqUZcSZL5nfh?from=vc_group_doc_link#doxcnTyYYTKoy87zDUrJnJ5PRjd",
+    "title": "MDM4U.S6.Atousa 2026-07-07 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/Downloads/Gia Zhu/02_Active_Projects/创新学校/artifacts/course-chat-ingestion/2026-07-07-sources/mdm4u-s6-atousa-2026-07-07/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-07",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-07",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson focused on teaching probability concepts including theoretical vs experimental probability, dice and marble examples, card probability, and complementary probability, with a Python demonstration and class activity.",
+    "academicContentSignals": [
+      "Probability simulation via Python (dice roll)",
+      "Theoretical probability vs experimental probability",
+      "Probability of odd numbers on a die = 1/2",
+      "Probability of 5 or 2 on a die = 1/3",
+      "Marble probability example (4 blue, 6 orange, 7 green, 3 purple)",
+      "Card probability: standard deck of 52 cards",
+      "Probability of drawing an ace = 1/13",
+      "Probability of drawing a face card = 3/13",
+      "Complementary probability concept P(A') = 1 - P(A)"
+    ],
+    "courseOverviewSignals": [
+      "Introduction to course resources: unit notes, homework, quizzes, class activities, handouts"
+    ],
+    "opsDominanceRisk": "Medium risk – operations like assignment deadlines and discussion board submissions could overshadow probability instruction if exit card focuses only on tasks rather than concept mastery.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Python dice roll simulation project",
+        "studentAction": "Run the Python project, change the number of rolls (at least 30), and share your results on the discussion board.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "discussion board (Feishu)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "assigned students to run the Python project, change the number of rolls (at least 30), and share their results on the discussion board",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "In-class activity thinking time",
+        "studentAction": "Think about the questions and attach your answers on the discussion board within 5 minutes (until 9:46).",
+        "deadlineText": "2026-07-07 09:46",
+        "deadlineISO": "2026-07-07T09:46:00+08:00",
+        "platform": "discussion board (Feishu)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "asking students to think about the questions and attach their answers on the discussion board within 5 minutes (until 9:46)",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "Complete class activity answers on score sheet",
+        "studentAction": "After class, finish all the answers to the class activities and attach them on the score sheet.",
+        "deadlineText": "After class (no specific date)",
+        "deadlineISO": null,
+        "platform": "score sheet (likely Feishu doc)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "After class, students are required to finish all the answers and attach them on the score sheet",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "submission_rules",
+        "title": "Share simulation screenshots on discussion board",
+        "studentAction": "Take screenshots of your answers and attach them to the discussion board.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "discussion board (Feishu)",
+        "link": null,
+        "appliesTo": "Students Celeste, Emma, and David specifically",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Students like Celeste and Emma are asked to take screenshots of their answers and attach them to the discussion board. David is required to run the project and attach his answer as well.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Recording settings discussion about manual vs automatic recording",
+        "reason": "Not a student action; administrative detail with unclear resolution."
+      },
+      {
+        "rawText": "Language translation of card suits (Chinese names provided by student)",
+        "reason": "Academic enrichment, not an operation."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Theoretical Probability、Experimental Probability and Law of Large Numbers）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The theoretical probability of any specific outcome on a fair six-sided die is 1/6.；Experimental probability approaches theoretical probability as the number of trials increases.；Probability of an event = (number of favorable outcomes) / (total number of possible outcomes).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Apply the theoretical probability formula P(E) = number of favorable outcomes / total number of outcomes to dice, marbles, and card problems."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Explain that as the number of trials increases, experimental probability tends to approach theoretical probability (Law of Large Numbers)."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Calculate complementary probabilities using P(A') = 1 - P(A)."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "theoretical-probability",
+      "name": "Theoretical Probability",
+      "nameEn": "Theoretical Probability",
+      "definition": "The probability of an event calculated based on the ratio of favorable outcomes to total possible outcomes in a sample space, assuming all outcomes are equally likely. Formula: P(E) = number of favorable outcomes / total number of outcomes.",
+      "officialExpectationCode": "SE A1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space, recognize that the sum of the probabilities of the outcomes is 1, and solve related problems."
+    },
+    {
+      "id": "experimental-probability-law-large-numbers",
+      "name": "Experimental Probability and Law of Large Numbers",
+      "nameEn": "Experimental Probability and Law of Large Numbers",
+      "definition": "Experimental probability is the ratio of the number of times an event occurs to the total number of trials. As the number of trials increases, the experimental probability tends to approach the theoretical probability (Law of Large Numbers).",
+      "officialExpectationCode": "SE A1.4",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "determine, through investigation using class-generated data and technology-based simulation models, the tendency of experimental probability to approach theoretical probability as the number of trials in an experiment increases."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply the theoretical probability formula P(E) = number of favorable outcomes / total number of outcomes to dice, marbles, and card problems."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain that as the number of trials increases, experimental probability tends to approach theoretical probability (Law of Large Numbers)."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Calculate complementary probabilities using P(A') = 1 - P(A)."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-theoretical-probability",
+        "condition": "Student selects wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-theoretical-probability",
+        "studentMessage": "Let's review how to find theoretical probability."
+      },
+      {
+        "errorId": "err-experimental-probability-law-large-numbers",
+        "condition": "Student selects wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-experimental-probability-law-large-numbers",
+        "studentMessage": "Let's review the Law of Large Numbers."
+      },
+      {
+        "errorId": "err-theoretical-probability",
+        "condition": "Student scores 0 on open-ended question targeting this errorId",
+        "systemAction": "assign reteach module for err-theoretical-probability",
+        "studentMessage": "Let's review how to compute theoretical probability."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-s6-0707-q1",
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "stem": "What is the theoretical probability of drawing an ace from a standard deck of 52 cards?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies P(ace) = 4/52 = 1/13.",
+        "ossdExpectation": "determine the theoretical probability, P (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in games of chance, in applying for scholarships, for the results of an experiment), recognize that the sum of the probabilities of the outcomes is 1, and solve related problems.",
+        "officialExpectationCode": "A1.3",
+        "officialNodeId": "A1.3",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "The specific expectation SE A1.3 is mentioned but not a separate node in the Knowledge Node Bank; only overall expectations are nodes.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can apply the theoretical probability formula to a standard card scenario.",
+        "commonMisconception": "Student may think there are 13 aces or forget to simplify fraction; may choose 4/52 without simplifying.",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability",
+        "options": [
+          {
+            "label": "A",
+            "text": "1/2",
+            "correct": false,
+            "feedbackWrong": "Not correct. There are 4 aces, not 26."
+          },
+          {
+            "label": "B",
+            "text": "1/13",
+            "correct": true,
+            "feedbackCorrect": "Correct! There are 4 aces out of 52 cards, so probability is 4/52 = 1/13."
+          },
+          {
+            "label": "C",
+            "text": "4/52",
+            "correct": false,
+            "feedbackWrong": "4/52 is correct but not simplified. The simplest form is 1/13."
+          },
+          {
+            "label": "D",
+            "text": "1/4",
+            "correct": false,
+            "feedbackWrong": "Not correct. That would be 13 aces, but there are only 4."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-0707-q2",
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "stem": "A bag contains 20 marbles: 4 blue, 6 orange, 7 green, 3 purple. What is the theoretical probability of drawing a green marble?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies P(green) = 7/20.",
+        "ossdExpectation": "determine the theoretical probability, P (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in games of chance, in applying for scholarships, for the results of an experiment), recognize that the sum of the probabilities of the outcomes is 1, and solve related problems.",
+        "officialExpectationCode": "A1.3",
+        "officialNodeId": "A1.3",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Same as Q1; targets SE A1.3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can compute probability from a frequency table.",
+        "commonMisconception": "Student may count incorrectly or use wrong numbers.",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability",
+        "options": [
+          {
+            "label": "A",
+            "text": "7/20",
+            "correct": true,
+            "feedbackCorrect": "Correct! 7 green out of 20 total."
+          },
+          {
+            "label": "B",
+            "text": "1/4",
+            "correct": false,
+            "feedbackWrong": "Not correct. That would be 5 green marbles, but there are 7."
+          },
+          {
+            "label": "C",
+            "text": "7/13",
+            "correct": false,
+            "feedbackWrong": "The denominator should be total marbles, not just non-green marbles."
+          },
+          {
+            "label": "D",
+            "text": "3/20",
+            "correct": false,
+            "feedbackWrong": "That's the probability of purple, not green."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-0707-q3",
+        "nodeId": "experimental-probability-law-large-numbers",
+        "errorId": "err-experimental-probability-law-large-numbers",
+        "stem": "Which statement about experimental probability is true?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that experimental probability tends to theoretical probability as trials increase.",
+        "ossdExpectation": "determine, through investigation using class-generated data and technology-based simulation models (e.g., using a random-number generator on a spreadsheet or on a graphing calculator; using dynamic statistical software to simulate repeated trials in an experiment), the tendency of experimental probability to approach theoretical probability as the number of trials in an experiment increases (e.g., “If I simulate tossing two coins 1000 times using technology and determine the experimental probability of getting two heads, this value will likely be very close to the theoretical probability, and even closer for 10 000 tosses” [Law of Large Numbers])",
+        "officialExpectationCode": "A1.4",
+        "officialNodeId": "A1.4",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Targets SE A1.4; no node in bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check understanding of Law of Large Numbers.",
+        "commonMisconception": "Student may think experimental probability always equals theoretical or is completely unpredictable.",
+        "remediationModule": "err-experimental-probability-law-large-numbers",
+        "retestItem": "err-experimental-probability-law-large-numbers",
+        "options": [
+          {
+            "label": "A",
+            "text": "Experimental probability always equals theoretical probability after 10 trials.",
+            "correct": false,
+            "feedbackWrong": "Not always; it varies but tends to stabilize with many trials."
+          },
+          {
+            "label": "B",
+            "text": "Experimental probability becomes more reliable as the number of trials increases.",
+            "correct": true,
+            "feedbackCorrect": "Correct! As trials increase, experimental probability approaches theoretical probability."
+          },
+          {
+            "label": "C",
+            "text": "Experimental probability is always greater than theoretical probability.",
+            "correct": false,
+            "feedbackWrong": "It can be greater or less, but tends to approach the theoretical value."
+          },
+          {
+            "label": "D",
+            "text": "Experimental probability is the same as theoretical probability if the experiment is fair.",
+            "correct": false,
+            "feedbackWrong": "No, experimental probability is based on actual outcomes and may differ from theoretical even in a fair experiment."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-0707-q4",
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "stem": "In a deck of cards, what is the probability of NOT drawing an ace? Explain your reasoning using the complement rule.",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student calculates 1 - (4/52) = 48/52 = 12/13 and explains complement concept.",
+        "ossdExpectation": "determine the theoretical probability, P (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in games of chance, in applying for scholarships, for the results of an experiment), recognize that the sum of the probabilities of the outcomes is 1, and solve related problems.",
+        "officialExpectationCode": "A1.3",
+        "officialNodeId": "A1.3",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Complementary probability is part of solving related problems under SE A1.3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check ability to apply complement rule and justify.",
+        "commonMisconception": "Student may add probabilities incorrectly or not understand complement.",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability",
+        "rubric": "Full marks: correct probability (12/13) and clear explanation using complement: P(not ace) = 1 - P(ace) = 1 - 4/52 = 48/52 = 12/13. Partial: correct probability but weak explanation.",
+        "sampleStrongAnswer": "The probability of not drawing an ace is 1 minus the probability of drawing an ace. Since P(ace) = 4/52 = 1/13, then P(not ace) = 1 - 1/13 = 12/13. This uses the complement rule."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-theoretical-probability",
+      "condition": "Student selects wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for err-theoretical-probability",
+      "studentMessage": "Let's review how to find theoretical probability."
+    },
+    {
+      "errorId": "err-experimental-probability-law-large-numbers",
+      "condition": "Student selects wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for err-experimental-probability-law-large-numbers",
+      "studentMessage": "Let's review the Law of Large Numbers."
+    },
+    {
+      "errorId": "err-theoretical-probability",
+      "condition": "Student scores 0 on open-ended question targeting this errorId",
+      "systemAction": "assign reteach module for err-theoretical-probability",
+      "studentMessage": "Let's review how to compute theoretical probability."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-theoretical-probability",
+      "trigger": "Student incorrectly applies the theoretical probability formula, often using wrong numbers or inverting the fraction.",
+      "studentMisunderstanding": "The student may think the probability is just the number of favorable outcomes without considering the total, or may invert the fraction favorable/total.",
+      "miniLesson": {
+        "explain": "Theoretical probability is calculated using the formula: P(event) = number of favorable outcomes / total number of possible outcomes. All outcomes must be equally likely. For example, in a fair die, each face has probability 1/6.",
+        "example": "For a fair six-sided die, the probability of rolling a 3 is 1/6 because there is 1 favorable outcome (rolling a 3) and 6 total possible outcomes.",
+        "memoryAnchor": "Think of a fraction: favorable over total. Favorable on top, total on bottom."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the probability of rolling an even number on a fair six-sided die?",
+          "answer": "1/2"
+        },
+        {
+          "level": "L2",
+          "prompt": "A bag has 20 marbles: 4 blue, 6 orange, 7 green, 3 purple. What is the probability of drawing a green marble?",
+          "answer": "7/20"
+        },
+        {
+          "level": "L3",
+          "prompt": "What is the probability of NOT drawing an ace from a standard deck of 52 cards?",
+          "answer": "12/13"
+        }
+      ]
+    },
+    {
+      "errorId": "err-experimental-probability-law-large-numbers",
+      "trigger": "Student incorrectly answered question about experimental probability approaching theoretical probability.",
+      "studentMisunderstanding": "Students often think experimental probability is always equal to theoretical probability or does not change as trials increase.",
+      "miniLesson": {
+        "explain": "Experimental probability is the ratio of the number of times an event occurs to the total number of trials. According to the Law of Large Numbers, as the number of trials increases, the experimental probability tends to get closer to the theoretical probability. For example, when rolling a fair die many times, the experimental probability of rolling a 3 will approach 1/6.",
+        "example": "If you roll a die 10 times, you might get a 3 twice (experimental probability = 2/10 = 0.2). After 1000 rolls, the experimental probability will likely be very close to 1/6 ≈ 0.167.",
+        "memoryAnchor": "Think of a dartboard: with few throws, your hits are scattered, but with many throws, your hit percentage stabilizes near your skill level."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "After flipping a fair coin 100 times, you got heads 50 times. What is the experimental probability of heads?",
+          "answer": "1/2"
+        },
+        {
+          "level": "L2",
+          "prompt": "You draw a card from a standard deck 13 times with replacement and get a face card 3 times. What is the experimental probability of drawing a face card?",
+          "answer": "3/13"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain how the Law of Large Numbers applies to rolling a fair die. Use the terms experimental probability and theoretical probability.",
+          "answer": "The theoretical probability of rolling a 3 is 1/6. After many rolls, the experimental probability (number of 3s / total rolls) will get closer and closer to 1/6."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-theoretical-probability",
+      "questions": [
+        {
+          "id": "retest-tp-1",
+          "type": "single_choice",
+          "stem": "A fair six-sided die is rolled. What is the theoretical probability of rolling a number greater than 4?",
+          "options": [
+            "1/6",
+            "1/3",
+            "1/2",
+            "2/3"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-tp-2",
+          "type": "open_ended",
+          "stem": "From a standard deck of 52 playing cards, what is the theoretical probability of drawing a face card? Show your calculation and simplify if possible.",
+          "rubric": "Accept 12/52 = 3/13. Student must state there are 12 face cards (J, Q, K) out of 52 total cards, and reduce fraction."
+        }
+      ],
+      "passRule": "Answer Q1 correctly and Q2 with correct answer and justification."
+    },
+    {
+      "forErrorId": "err-experimental-probability-law-large-numbers",
+      "questions": [
+        {
+          "id": "retest-exp-prob-1",
+          "type": "single_choice",
+          "stem": "A fair coin is flipped 10 times and lands on heads 7 times. After 1000 flips, the experimental probability of heads is closest to:",
+          "options": [
+            "0.7",
+            "0.5",
+            "0.07",
+            "1.0"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-exp-prob-2",
+          "type": "open_ended",
+          "stem": "Explain why the experimental probability of rolling a 6 on a fair die becomes closer to 1/6 as you roll it more times. Use the terms 'experimental probability' and 'law of large numbers' in your answer.",
+          "rubric": "Student correctly states that according to the Law of Large Numbers, as the number of trials increases, the experimental probability approaches the theoretical probability. They should mention that with more rolls, the relative frequency of rolling a 6 gets closer to the theoretical probability of 1/6."
+        }
+      ],
+      "passRule": "both correct"
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-07",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/PEisd6pGMo3My2xWqUZcSZL5nfh?from=vc_group_doc_link#doxcnTyYYTKoy87zDUrJnJ5PRjd",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-07 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "The theoretical probability of any specific outcome on a fair six-sided die is 1/6.；Experimental probability approaches theoretical probability as the number of trials increases.；Probability of an event = (number of favorable outcomes) / (total number of possible outcomes).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply the theoretical probability formula P(E) = number of favorable outcomes / total number of outcomes to dice, marbles, and card problems."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain that as the number of trials increases, experimental probability tends to approach theoretical probability (Law of Large Numbers)."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Calculate complementary probabilities using P(A') = 1 - P(A)."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Python dice roll simulation project",
+        "studentAction": "Run the Python project, change the number of rolls (at least 30), and share your results on the discussion board.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "discussion board (Feishu)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "assigned students to run the Python project, change the number of rolls (at least 30), and share their results on the discussion board",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "In-class activity thinking time",
+        "studentAction": "Think about the questions and attach your answers on the discussion board within 5 minutes (until 9:46).",
+        "deadlineText": "2026-07-07 09:46",
+        "deadlineISO": "2026-07-07T09:46:00+08:00",
+        "platform": "discussion board (Feishu)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "asking students to think about the questions and attach their answers on the discussion board within 5 minutes (until 9:46)",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "Complete class activity answers on score sheet",
+        "studentAction": "After class, finish all the answers to the class activities and attach them on the score sheet.",
+        "deadlineText": "After class (no specific date)",
+        "deadlineISO": null,
+        "platform": "score sheet (likely Feishu doc)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "After class, students are required to finish all the answers and attach them on the score sheet",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "submission_rules",
+        "title": "Share simulation screenshots on discussion board",
+        "studentAction": "Take screenshots of your answers and attach them to the discussion board.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "discussion board (Feishu)",
+        "link": null,
+        "appliesTo": "Students Celeste, Emma, and David specifically",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Students like Celeste and Emma are asked to take screenshots of their answers and attach them to the discussion board. David is required to run the project and attach his answer as well.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Recording settings discussion about manual vs automatic recording",
+        "reason": "Not a student action; administrative detail with unclear resolution."
+      },
+      {
+        "rawText": "Language translation of card suits (Chinese names provided by student)",
+        "reason": "Academic enrichment, not an operation."
+      }
+    ],
+    "watchTags": [
+      "theoretical-probability",
+      "experimental-probability-law-large-numbers"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-theoretical-probability",
+        "condition": "Student selects wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-theoretical-probability"
+      },
+      {
+        "errorId": "err-experimental-probability-law-large-numbers",
+        "condition": "Student selects wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-experimental-probability-law-large-numbers"
+      },
+      {
+        "errorId": "err-theoretical-probability",
+        "condition": "Student scores 0 on open-ended question targeting this errorId",
+        "systemAction": "assign reteach module for err-theoretical-probability"
+      }
+    ],
+    "nextActions": [
+      "[err-theoretical-probability] Student selects wrong option on any question targeting this errorId: Let's review how to find theoretical probability.",
+      "[err-experimental-probability-law-large-numbers] Student selects wrong option on any question targeting this errorId: Let's review the Law of Large Numbers.",
+      "[err-theoretical-probability] Student scores 0 on open-ended question targeting this errorId: Let's review how to compute theoretical probability."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-s6-0707-q1",
+        "type": "choice",
+        "question": "What is the theoretical probability of drawing an ace from a standard deck of 52 cards?",
+        "options": [
+          "1/2",
+          "1/13",
+          "4/52",
+          "1/4"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can apply the theoretical probability formula to a standard card scenario.",
+        "misconceptions": [
+          "Not correct. There are 4 aces, not 26.",
+          "✓ Correct! There are 4 aces out of 52 cards, so probability is 4/52 = 1/13.",
+          "4/52 is correct but not simplified. The simplest form is 1/13.",
+          "Not correct. That would be 13 aces, but there are only 4."
+        ],
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies P(ace) = 4/52 = 1/13.",
+        "ossdExpectation": "determine the theoretical probability, P (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in games of chance, in applying for scholarships, for the results of an experiment), recognize that the sum of the probabilities of the outcomes is 1, and solve related problems.",
+        "officialExpectationCode": "A1.3",
+        "officialNodeId": "A1.3",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "The specific expectation SE A1.3 is mentioned but not a separate node in the Knowledge Node Bank; only overall expectations are nodes.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may think there are 13 aces or forget to simplify fraction; may choose 4/52 without simplifying.",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability"
+      },
+      {
+        "id": "diag-mdm4u-s6-0707-q2",
+        "type": "choice",
+        "question": "A bag contains 20 marbles: 4 blue, 6 orange, 7 green, 3 purple. What is the theoretical probability of drawing a green marble?",
+        "options": [
+          "7/20",
+          "1/4",
+          "7/13",
+          "3/20"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can compute probability from a frequency table.",
+        "misconceptions": [
+          "✓ Correct! 7 green out of 20 total.",
+          "Not correct. That would be 5 green marbles, but there are 7.",
+          "The denominator should be total marbles, not just non-green marbles.",
+          "That's the probability of purple, not green."
+        ],
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies P(green) = 7/20.",
+        "ossdExpectation": "determine the theoretical probability, P (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in games of chance, in applying for scholarships, for the results of an experiment), recognize that the sum of the probabilities of the outcomes is 1, and solve related problems.",
+        "officialExpectationCode": "A1.3",
+        "officialNodeId": "A1.3",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Same as Q1; targets SE A1.3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may count incorrectly or use wrong numbers.",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability"
+      },
+      {
+        "id": "diag-mdm4u-s6-0707-q3",
+        "type": "choice",
+        "question": "Which statement about experimental probability is true?",
+        "options": [
+          "Experimental probability always equals theoretical probability after 10 trials.",
+          "Experimental probability becomes more reliable as the number of trials increases.",
+          "Experimental probability is always greater than theoretical probability.",
+          "Experimental probability is the same as theoretical probability if the experiment is fair."
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of Law of Large Numbers.",
+        "misconceptions": [
+          "Not always; it varies but tends to stabilize with many trials.",
+          "✓ Correct! As trials increase, experimental probability approaches theoretical probability.",
+          "It can be greater or less, but tends to approach the theoretical value.",
+          "No, experimental probability is based on actual outcomes and may differ from theoretical even in a fair experiment."
+        ],
+        "nodeId": "experimental-probability-law-large-numbers",
+        "errorId": "err-experimental-probability-law-large-numbers",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that experimental probability tends to theoretical probability as trials increase.",
+        "ossdExpectation": "determine, through investigation using class-generated data and technology-based simulation models (e.g., using a random-number generator on a spreadsheet or on a graphing calculator; using dynamic statistical software to simulate repeated trials in an experiment), the tendency of experimental probability to approach theoretical probability as the number of trials in an experiment increases (e.g., “If I simulate tossing two coins 1000 times using technology and determine the experimental probability of getting two heads, this value will likely be very close to the theoretical probability, and even closer for 10 000 tosses” [Law of Large Numbers])",
+        "officialExpectationCode": "A1.4",
+        "officialNodeId": "A1.4",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Targets SE A1.4; no node in bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Student may think experimental probability always equals theoretical or is completely unpredictable.",
+        "remediationModule": "err-experimental-probability-law-large-numbers",
+        "retestItem": "err-experimental-probability-law-large-numbers"
+      },
+      {
+        "id": "diag-mdm4u-s6-0707-q4",
+        "type": "explain",
+        "question": "In a deck of cards, what is the probability of NOT drawing an ace? Explain your reasoning using the complement rule.",
+        "correct": null,
+        "diagnosis": "Check ability to apply complement rule and justify.",
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student calculates 1 - (4/52) = 48/52 = 12/13 and explains complement concept.",
+        "ossdExpectation": "determine the theoretical probability, P (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in games of chance, in applying for scholarships, for the results of an experiment), recognize that the sum of the probabilities of the outcomes is 1, and solve related problems.",
+        "officialExpectationCode": "A1.3",
+        "officialNodeId": "A1.3",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Complementary probability is part of solving related problems under SE A1.3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student may add probabilities incorrectly or not understand complement.",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability"
+      }
+    ]
+  }
+}

@@ -1,0 +1,669 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-07",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Wnmwd6xVYoyscXxgvV3cI6ZFnEb?from=vc_group_doc_link#doxcnvNIG2ByqZQp2k67ETvO72f",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-07 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Wnmwd6xVYoyscXxgvV3cI6ZFnEb?from=vc_group_doc_link#doxcnvNIG2ByqZQp2k67ETvO72f",
+    "title": "MHF4U.S6.Taylor 2026-07-07 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/Downloads/Gia Zhu/02_Active_Projects/创新学校/artifacts/course-chat-ingestion/2026-07-07-sources/mhf4u-s6-taylor-2026-07-07/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-07",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-07",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The meeting included both instructional review of functions (domain/range, inverse) and extensive administrative content (assessment plan, schedule, grading, policies).",
+    "academicContentSignals": [
+      "Domain and range of functions (quadratic, reciprocal, linear, sine, exponential, square root, absolute value)",
+      "Set-builder and interval notation for domain and range",
+      "Inverse functions: definition, graphical symmetry about y=x, algebraic method (swap x and y, solve for y)",
+      "Example: f(x)=3x+1 gives inverse f^{-1}(x)=(x-1)/3",
+      "Course objectives: extending experience with polynomial, rational, exponential, logarithmic, trigonometric functions",
+      "Overall expectations per unit (polynomial & rational, exponential & logarithmic, trigonometric, combining functions and rates of change)"
+    ],
+    "courseOverviewSignals": [
+      "Course: Advanced Functions MHF4U, grade 12, 1 credit, 110 hours",
+      "Prerequisite: Grade 11 University Prep math or Grade 12 College math prep",
+      "Textbook: Nelson",
+      "Course extends students' experiences with functions",
+      "Assessment categories: Knowledge and Understanding, Thinking/Inquiry, Communication, Application",
+      "Grading scheme: 70% coursework (quizzes, assignments, conferences/presentations, tests, participation) and 30% final evaluation (culminating assignment and exam)"
+    ],
+    "opsDominanceRisk": "Operations/logistics (assessment changes, schedule details, participation policy) are heavily present and could overshadow the academic content in generation. However, the function review provides concrete learning material. Risk: generating too many administrative reminders and missing the instructional content. Avoid by focusing on the academic signals and using ops items as supplementary.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Prerequisite Skills Test",
+        "studentAction": "Complete the prerequisite skills test during class.",
+        "deadlineText": "2026-07-07 (during class)",
+        "deadlineISO": "2026-07-07",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Today, the review will continue, and a prerequisite skills test will be conducted, which may take about half an hour.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Quiz",
+        "studentAction": "Prepare for Unit 1 quiz covering first five lessons.",
+        "deadlineText": "Friday, July 10, 2026",
+        "deadlineISO": "2026-07-10",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Unit 1 quiz will be on Friday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Unit 1 Conference (Teach a Concept)",
+        "studentAction": "Prepare for conference: choose a concept to teach and present.",
+        "deadlineText": "End of next week (likely July 17)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Unit 1 conference will be at the end of next week",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Function Review: Domain, Range, and Inverse）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Domain and range describe the set of possible inputs and outputs of a function.；The domain of a quadratic function y=x² is all real numbers; range is y≥0.；The inverse of a function is found by swapping x and y and solving for y.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can determine the domain and range of basic functions using correct set-builder or interval notation."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can find the inverse of a function algebraically by swapping x and y and solving for y."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can correctly interpret open and closed brackets in interval notation for domain and range."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-REVIEW-FUNCTIONS",
+      "name": "Function Review: Domain, Range, and Inverse",
+      "nameEn": "Function Review: Domain, Range, and Inverse",
+      "definition": "Students review domain and range in set-builder and interval notation, and find inverses of functions algebraically and graphically.",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can determine the domain and range of basic functions using correct set-builder or interval notation."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can find the inverse of a function algebraically by swapping x and y and solving for y."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can correctly interpret open and closed brackets in interval notation for domain and range."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-domain-range-confusion",
+        "condition": "Student selects an option that confuses domain and range in Q1.",
+        "systemAction": "Assign reteach module for err-domain-range-confusion.",
+        "studentMessage": "It looks like you might be mixing up which set is the domain and which is the range. Let's review that."
+      },
+      {
+        "errorId": "err-inverse-swap-mistake",
+        "condition": "Student answers Q2 incorrectly, showing signs of not swapping x and y or solving incorrectly.",
+        "systemAction": "Assign reteach module for err-inverse-swap-mistake.",
+        "studentMessage": "The inverse process requires swapping x and y. Let's practice that step."
+      },
+      {
+        "errorId": "err-notation-open-closed",
+        "condition": "Student answers Q3 incorrectly, choosing option that misinterprets bracket meaning.",
+        "systemAction": "Assign reteach module for err-notation-open-closed.",
+        "studentMessage": "Interval notation brackets have specific meanings. Let's go over them."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-review-q1",
+        "nodeId": "MHF4U-REVIEW-FUNCTIONS",
+        "errorId": "err-domain-range-confusion",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies the range of f(x)=x² from given options.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "The lesson reviews domain/range of basic functions, which are key features of polynomial functions as per OE C1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can distinguish domain from range for a simple quadratic function.",
+        "commonMisconception": "Students may think the domain of x² is y≥0 (confusing range with domain) or include negative x values incorrectly.",
+        "remediationModule": "err-domain-range-confusion",
+        "retestItem": "err-domain-range-confusion",
+        "stem": "For the function f(x) = x², which of the following correctly describes its range?",
+        "options": [
+          {
+            "label": "A",
+            "text": "All real numbers (x ∈ ℝ)",
+            "correct": false,
+            "feedbackWrong": "This describes the domain, not the range. The range of x² is y ≥ 0."
+          },
+          {
+            "label": "B",
+            "text": "y ≥ 0",
+            "correct": true,
+            "feedbackCorrect": "Correct. The output of x² is always non-negative."
+          },
+          {
+            "label": "C",
+            "text": "y > 0",
+            "correct": false,
+            "feedbackWrong": "Close, but x² can equal 0 (when x=0), so the correct inequality is y ≥ 0, not y > 0."
+          },
+          {
+            "label": "D",
+            "text": "y ≤ 0",
+            "correct": false,
+            "feedbackWrong": "x² gives non-negative outputs, so the range is y ≥ 0, not y ≤ 0."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module err-domain-range-confusion."
+      },
+      {
+        "id": "diag-mhf4u-review-q2",
+        "nodeId": "MHF4U-REVIEW-FUNCTIONS",
+        "errorId": "err-inverse-swap-mistake",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Writes correct inverse function showing swap and solve steps.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Finding inverses connects algebraic and graphical representations, part of OE C1.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can algebraically find the inverse of a linear function.",
+        "commonMisconception": "Students may try to solve for y before swapping x and y, or incorrectly isolate y.",
+        "remediationModule": "err-inverse-swap-mistake",
+        "retestItem": "err-inverse-swap-mistake",
+        "stem": "Find the inverse of the function f(x) = 3x + 1. Show your steps.",
+        "rubric": "Step 1: Write f(x) as y = 3x + 1. Step 2: Swap x and y: x = 3y + 1. Step 3: Solve for y: y = (x - 1)/3. Final answer: f⁻¹(x) = (x - 1)/3. Full marks require correct swap and solve.",
+        "sampleStrongAnswer": "y = 3x + 1, swap: x = 3y + 1 → 3y = x - 1 → y = (x - 1)/3, so f⁻¹(x) = (x - 1)/3.",
+        "nextActionIfWrong": "Enter reteach module err-inverse-swap-mistake."
+      },
+      {
+        "id": "diag-mhf4u-review-q3",
+        "nodeId": "MHF4U-REVIEW-FUNCTIONS",
+        "errorId": "err-notation-open-closed",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly selects meaning of open and closed brackets in interval notation context.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Correct notation for domain/range is a key feature of representing functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of bracket meaning in interval notation for domain/range.",
+        "commonMisconception": "Students think open bracket means the number is included, or closed means excluded.",
+        "remediationModule": "err-notation-open-closed",
+        "retestItem": "err-notation-open-closed",
+        "stem": "The interval notation (3, 5] represents which set of numbers?",
+        "options": [
+          {
+            "label": "A",
+            "text": "All numbers from 3 to 5, including 3 but excluding 5",
+            "correct": false,
+            "feedbackWrong": "Close, but open bracket ( means 3 is excluded, not included. Closed bracket ] means 5 is included."
+          },
+          {
+            "label": "B",
+            "text": "All numbers from 3 to 5, excluding 3 but including 5",
+            "correct": true,
+            "feedbackCorrect": "Correct. The open bracket (3 excludes 3, the closed bracket 5] includes 5."
+          },
+          {
+            "label": "C",
+            "text": "All numbers from 3 to 5, including both endpoints",
+            "correct": false,
+            "feedbackWrong": "That would be [3,5], not (3,5]."
+          },
+          {
+            "label": "D",
+            "text": "All numbers from 3 to 5, excluding both endpoints",
+            "correct": false,
+            "feedbackWrong": "That would be (3,5) with both open, not (3,5]."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module err-notation-open-closed."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-domain-range-confusion",
+      "condition": "Student selects an option that confuses domain and range in Q1.",
+      "systemAction": "Assign reteach module for err-domain-range-confusion.",
+      "studentMessage": "It looks like you might be mixing up which set is the domain and which is the range. Let's review that."
+    },
+    {
+      "errorId": "err-inverse-swap-mistake",
+      "condition": "Student answers Q2 incorrectly, showing signs of not swapping x and y or solving incorrectly.",
+      "systemAction": "Assign reteach module for err-inverse-swap-mistake.",
+      "studentMessage": "The inverse process requires swapping x and y. Let's practice that step."
+    },
+    {
+      "errorId": "err-notation-open-closed",
+      "condition": "Student answers Q3 incorrectly, choosing option that misinterprets bracket meaning.",
+      "systemAction": "Assign reteach module for err-notation-open-closed.",
+      "studentMessage": "Interval notation brackets have specific meanings. Let's go over them."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-domain-range-confusion",
+      "trigger": "Student incorrectly identifies the range of y=x² as all real numbers (domain) instead of y≥0.",
+      "studentMisunderstanding": "Students confuse which set is domain vs range or use incorrect notation.",
+      "miniLesson": {
+        "explain": "The domain of a function is the set of all possible input values (x), while the range is the set of all possible output values (y). For example, for y=x², the domain is all real numbers (x∈ℝ) because any x can be squared. The range is y≥0 because squares are never negative. Notation: use set-builder like {x|x∈ℝ} or interval like (-∞,∞).",
+        "example": "For f(x)=x², domain: x∈ℝ, range: y≥0. In interval notation: domain (-∞,∞), range [0,∞).",
+        "memoryAnchor": "Remember: 'D' for 'Domain' and 'Door' (input comes in); 'R' for 'Range' and 'Result' (output goes out)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Identify the domain and range of y = x² using interval notation.",
+          "answer": "Domain: (-∞, ∞); Range: [0, ∞)"
+        },
+        {
+          "level": "L2",
+          "prompt": "For the function y = 1/x, determine the domain and range in set-builder notation.",
+          "answer": "Domain: {x | x ≠ 0}; Range: {y | y ≠ 0}"
+        },
+        {
+          "level": "L3",
+          "prompt": "Given f(x) = 3x + 1, is the statement 'The range is all real numbers' correct? Explain why or why not.",
+          "answer": "Yes, because f(x) = 3x + 1 is a linear function that covers all y-values. Domain is also all real numbers. But careful: for many functions, domain and range differ."
+        }
+      ]
+    },
+    {
+      "errorId": "err-inverse-swap-mistake",
+      "trigger": "Student answers Q2 incorrectly, showing signs of not swapping x and y or solving incorrectly.",
+      "studentMisunderstanding": "Students forget to swap x and y before solving for the inverse, or incorrectly manipulate the equation after swapping.",
+      "miniLesson": {
+        "explain": "To find the inverse of a function f(x), first replace f(x) with y. Then swap the variables x and y. Finally, solve the resulting equation for y. The result is the inverse function, denoted f^{-1}(x). Remember: the inverse swaps the input and output roles.",
+        "example": "f(x)=3x+1 → y=3x+1 → swap x and y: x=3y+1 → solve for y: 3y=x-1 → y=(x-1)/3 → f^{-1}(x)=(x-1)/3",
+        "memoryAnchor": "Swap first, then solve for the new y."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find the inverse of f(x)=2x-3.",
+          "answer": "f^{-1}(x)=(x+3)/2"
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the inverse of f(x)=(x+4)/5.",
+          "answer": "f^{-1}(x)=5x-4"
+        },
+        {
+          "level": "L3",
+          "prompt": "Find the inverse of f(x)=5/(x+1), x≠-1.",
+          "answer": "f^{-1}(x)=(5/x)-1"
+        }
+      ]
+    },
+    {
+      "errorId": "err-notation-open-closed",
+      "trigger": "Incorrectly identifying whether an endpoint is included in interval notation, such as selecting the wrong option in the diagnostic question about (3,5].",
+      "studentMisunderstanding": "Students often confuse open and closed brackets: they may think an open bracket includes the endpoint or a closed bracket excludes it, or they may not recall the rule at all.",
+      "miniLesson": {
+        "explain": "In interval notation, brackets indicate whether an endpoint is included or excluded. A closed bracket [ or ] means the endpoint is included (≤ or ≥). An open bracket ( or ) means the endpoint is excluded (< or >). Always read from left to right: the first symbol indicates the start, the second indicates the end.",
+        "example": "The interval (3, 5] includes all numbers greater than 3 (but not 3) up to and including 5. So 4 is in the set, but 3 is not. In set-builder notation, this is {x | 3 < x ≤ 5}.",
+        "memoryAnchor": "Think of the bracket as a 'cage': [ ] closes around the number, trapping it inside (included). Parentheses ( ) are 'open gates' that let the number escape (excluded)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What numbers are included in the interval (0, 2]? Are 0, 1, and 2 included?",
+          "answer": "0 is not included (open bracket), 1 is included (between 0 and 2), 2 is included (closed bracket). So the set is {x | 0 < x ≤ 2}."
+        },
+        {
+          "level": "L2",
+          "prompt": "Write the interval notation for the set {x | x ≥ -1}.",
+          "answer": "Since x is greater than or equal to -1, the interval includes -1 (closed bracket) and extends to infinity (always open because infinity is not a number). The correct notation is [-1, ∞)."
+        },
+        {
+          "level": "L3",
+          "prompt": "The domain of a function is all real numbers except 0. Express this in interval notation.",
+          "answer": "The domain is all real numbers except 0, so we use two intervals: (-∞, 0) ∪ (0, ∞). Both use open brackets at 0 to exclude it, and open brackets at infinities."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-domain-range-confusion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following correctly states the domain and range of f(x)=1/x?",
+          "options": [
+            "Domain: ℝ, Range: ℝ",
+            "Domain: {x|x≠0}, Range: {y|y≠0}",
+            "Domain: {x|x≠0}, Range: ℝ",
+            "Domain: ℝ, Range: {y|y≠0}"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A student says the range of g(x)=x² is all real numbers because any x can be squared. Explain the mistake and give the correct range in interval notation.",
+          "rubric": "Student identifies that range is output values, not input; correct: [0, ∞). Accept: 'Range is y ≥ 0' or '[0, ∞)'. Must refute 'all real numbers'."
+        }
+      ],
+      "passRule": "Answer all questions correctly."
+    },
+    {
+      "forErrorId": "err-inverse-swap-mistake",
+      "questions": [
+        {
+          "id": "q1_inverse_swap",
+          "type": "single_choice",
+          "stem": "What is the correct first step to find the inverse of f(x)=3x+2?",
+          "options": [
+            "Replace f(x) with y, then swap x and y.",
+            "Replace f(x) with y, then solve for x.",
+            "Swap x and y without replacing f(x).",
+            "Set f(x)=0 and solve for x."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_inverse_solve",
+          "type": "open_ended",
+          "stem": "Find the inverse of f(x)=4x-5. Show your steps.",
+          "rubric": "Step 1: Write y=4x-5. Step 2: Swap x and y to get x=4y-5. Step 3: Solve for y: add 5 to both sides -> x+5=4y, divide by 4 -> y=(x+5)/4. Step 4: Write inverse as f^{-1}(x)=(x+5)/4."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-notation-open-closed",
+      "questions": [
+        {
+          "id": "notation-single",
+          "type": "single_choice",
+          "stem": "Which interval notation correctly represents the set {x | x ≤ 4}?",
+          "options": [
+            "(-∞, 4]",
+            "(-∞, 4)",
+            "(4, ∞)",
+            "[4, ∞)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "notation-open",
+          "type": "open_ended",
+          "stem": "Write the interval notation for the set {x | -1 < x ≤ 5}.",
+          "rubric": "The correct answer is (-1, 5]. The student must include an open bracket at -1 and a closed bracket at 5."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-07",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Wnmwd6xVYoyscXxgvV3cI6ZFnEb?from=vc_group_doc_link#doxcnvNIG2ByqZQp2k67ETvO72f",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-07 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Domain and range describe the set of possible inputs and outputs of a function.；The domain of a quadratic function y=x² is all real numbers; range is y≥0.；The inverse of a function is found by swapping x and y and solving for y.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can determine the domain and range of basic functions using correct set-builder or interval notation."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can find the inverse of a function algebraically by swapping x and y and solving for y."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can correctly interpret open and closed brackets in interval notation for domain and range."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Prerequisite Skills Test",
+        "studentAction": "Complete the prerequisite skills test during class.",
+        "deadlineText": "2026-07-07 (during class)",
+        "deadlineISO": "2026-07-07",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Today, the review will continue, and a prerequisite skills test will be conducted, which may take about half an hour.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Quiz",
+        "studentAction": "Prepare for Unit 1 quiz covering first five lessons.",
+        "deadlineText": "Friday, July 10, 2026",
+        "deadlineISO": "2026-07-10",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Unit 1 quiz will be on Friday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Unit 1 Conference (Teach a Concept)",
+        "studentAction": "Prepare for conference: choose a concept to teach and present.",
+        "deadlineText": "End of next week (likely July 17)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Unit 1 conference will be at the end of next week",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "MHF4U-REVIEW-FUNCTIONS"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "errorId": "err-domain-range-confusion",
+        "condition": "Student selects an option that confuses domain and range in Q1.",
+        "systemAction": "Assign reteach module for err-domain-range-confusion."
+      },
+      {
+        "errorId": "err-inverse-swap-mistake",
+        "condition": "Student answers Q2 incorrectly, showing signs of not swapping x and y or solving incorrectly.",
+        "systemAction": "Assign reteach module for err-inverse-swap-mistake."
+      },
+      {
+        "errorId": "err-notation-open-closed",
+        "condition": "Student answers Q3 incorrectly, choosing option that misinterprets bracket meaning.",
+        "systemAction": "Assign reteach module for err-notation-open-closed."
+      }
+    ],
+    "nextActions": [
+      "[err-domain-range-confusion] Student selects an option that confuses domain and range in Q1.: It looks like you might be mixing up which set is the domain and which is the range. Let's review that.",
+      "[err-inverse-swap-mistake] Student answers Q2 incorrectly, showing signs of not swapping x and y or solving incorrectly.: The inverse process requires swapping x and y. Let's practice that step.",
+      "[err-notation-open-closed] Student answers Q3 incorrectly, choosing option that misinterprets bracket meaning.: Interval notation brackets have specific meanings. Let's go over them."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-review-q1",
+        "type": "choice",
+        "question": "For the function f(x) = x², which of the following correctly describes its range?",
+        "options": [
+          "All real numbers (x ∈ ℝ)",
+          "y ≥ 0",
+          "y > 0",
+          "y ≤ 0"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can distinguish domain from range for a simple quadratic function.",
+        "misconceptions": [
+          "This describes the domain, not the range. The range of x² is y ≥ 0.",
+          "✓ Correct. The output of x² is always non-negative.",
+          "Close, but x² can equal 0 (when x=0), so the correct inequality is y ≥ 0, not y > 0.",
+          "x² gives non-negative outputs, so the range is y ≥ 0, not y ≤ 0."
+        ],
+        "nodeId": "MHF4U-REVIEW-FUNCTIONS",
+        "errorId": "err-domain-range-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies the range of f(x)=x² from given options.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "The lesson reviews domain/range of basic functions, which are key features of polynomial functions as per OE C1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think the domain of x² is y≥0 (confusing range with domain) or include negative x values incorrectly.",
+        "remediationModule": "err-domain-range-confusion",
+        "retestItem": "err-domain-range-confusion"
+      },
+      {
+        "id": "diag-mhf4u-review-q2",
+        "type": "explain",
+        "question": "Find the inverse of the function f(x) = 3x + 1. Show your steps.",
+        "correct": null,
+        "diagnosis": "Check if student can algebraically find the inverse of a linear function.",
+        "nodeId": "MHF4U-REVIEW-FUNCTIONS",
+        "errorId": "err-inverse-swap-mistake",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Writes correct inverse function showing swap and solve steps.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Finding inverses connects algebraic and graphical representations, part of OE C1.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may try to solve for y before swapping x and y, or incorrectly isolate y.",
+        "remediationModule": "err-inverse-swap-mistake",
+        "retestItem": "err-inverse-swap-mistake"
+      },
+      {
+        "id": "diag-mhf4u-review-q3",
+        "type": "choice",
+        "question": "The interval notation (3, 5] represents which set of numbers?",
+        "options": [
+          "All numbers from 3 to 5, including 3 but excluding 5",
+          "All numbers from 3 to 5, excluding 3 but including 5",
+          "All numbers from 3 to 5, including both endpoints",
+          "All numbers from 3 to 5, excluding both endpoints"
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of bracket meaning in interval notation for domain/range.",
+        "misconceptions": [
+          "Close, but open bracket ( means 3 is excluded, not included. Closed bracket ] means 5 is included.",
+          "✓ Correct. The open bracket (3 excludes 3, the closed bracket 5] includes 5.",
+          "That would be [3,5], not (3,5].",
+          "That would be (3,5) with both open, not (3,5]."
+        ],
+        "nodeId": "MHF4U-REVIEW-FUNCTIONS",
+        "errorId": "err-notation-open-closed",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly selects meaning of open and closed brackets in interval notation context.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Correct notation for domain/range is a key feature of representing functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think open bracket means the number is included, or closed means excluded.",
+        "remediationModule": "err-notation-open-closed",
+        "retestItem": "err-notation-open-closed"
+      }
+    ]
+  }
+}
