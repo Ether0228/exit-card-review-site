@@ -1,24 +1,17 @@
 {
-  "generatedAt": "2026-07-08T05:51:59.442Z",
+  "generatedAt": "2026-07-08T07:01:02.608Z",
   "deepseekOnly": true,
   "sourceFormat": "feishu_ai_minutes_link",
   "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/R1OSdLWNmo3coIxZNO0cDZLKnqg?from=vc_group_doc_link#doxcnmhDaWCQCPVR3rErJ2iHQAf",
   "sourceTitle": "OLC4O.S6.Keth 2026-07-08 智能纪要",
   "officialBankStatus": {
-    "ossd": "missing_course",
-    "knowledgeNodes": "missing_course",
+    "ossd": "loaded",
+    "knowledgeNodes": "loaded",
     "courseCode": "OLC4O"
   },
   "finalIssues": [
-    "OSSD bank missing for OLC4O: official curriculum alignment is weak",
-    "knowledge node missing for OLC4O: officialNodeId alignment is weak",
-    "OSSD bank missing for OLC4O: q1 has weak alignment",
-    "OSSD bank missing for OLC4O: q2 has weak alignment",
-    "OSSD bank missing for OLC4O: q3 has weak alignment",
-    "OSSD bank missing for OLC4O: q4 has weak alignment",
-    "OSSD bank missing for OLC4O: q5 has weak alignment",
-    "OSSD bank missing for OLC4O: q6 has weak alignment",
-    "OSSD bank missing for OLC4O: q7 has weak alignment"
+    "q1 ossdExpectation does not quote or closely match current course official expectations",
+    "q2 ossdExpectation does not quote or closely match current course official expectations"
   ],
   "stepReports": [
     {
@@ -34,15 +27,20 @@
     {
       "step": "diagnosticCard",
       "issues": [
-        "OSSD bank missing for OLC4O: q1 has weak alignment",
-        "OSSD bank missing for OLC4O: q2 has weak alignment",
-        "OSSD bank missing for OLC4O: q3 has weak alignment",
-        "OSSD bank missing for OLC4O: q4 has weak alignment",
-        "OSSD bank missing for OLC4O: q5 has weak alignment",
-        "OSSD bank missing for OLC4O: q6 has weak alignment",
-        "OSSD bank missing for OLC4O: q7 has weak alignment"
+        "q1 ossdExpectation does not quote or closely match current course official expectations",
+        "q2 ossdExpectation does not quote or closely match current course official expectations"
       ],
       "repairedBy": "pro"
+    },
+    {
+      "step": "reteach:err-headline-full-sentence",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "retest:err-headline-full-sentence",
+      "issues": [],
+      "repairedBy": null
     },
     {
       "step": "reteach:err-headline-passive-voice",
@@ -55,102 +53,42 @@
       "repairedBy": null
     },
     {
-      "step": "reteach:err-headline-past-tense",
+      "step": "reteach:err-lead-too-long",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "retest:err-headline-past-tense",
+      "step": "retest:err-lead-too-long",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "reteach:err-headline-articles",
+      "step": "reteach:err-lead-it-because-start",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "retest:err-headline-articles",
+      "step": "retest:err-lead-it-because-start",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "reteach:err-headline-and-comma",
+      "step": "reteach:err-lead-weak-verbs-adjectives",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "retest:err-headline-and-comma",
+      "step": "retest:err-lead-weak-verbs-adjectives",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "reteach:err-lead-word-clutter",
+      "step": "reteach:err-lead-quotation-not-identify-speaker",
       "issues": [],
       "repairedBy": null
     },
     {
-      "step": "retest:err-lead-word-clutter",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "reteach:err-lead-start-it-because",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "retest:err-lead-start-it-because",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "reteach:err-lead-adverbs-adjectives",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "retest:err-lead-adverbs-adjectives",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "reteach:err-lead-5w1h-missing",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "retest:err-lead-5w1h-missing",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "reteach:err-quotation-lead-feelings",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "retest:err-quotation-lead-feelings",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "reteach:err-question-lead-yes-no",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "retest:err-question-lead-yes-no",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "reteach:err-inverted-pyramid-order",
-      "issues": [],
-      "repairedBy": null
-    },
-    {
-      "step": "retest:err-inverted-pyramid-order",
+      "step": "retest:err-lead-quotation-not-identify-speaker",
       "issues": [],
       "repairedBy": null
     }
