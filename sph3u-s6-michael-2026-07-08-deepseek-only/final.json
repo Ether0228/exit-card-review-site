@@ -1,0 +1,845 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-08",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/IB9Yd691QotYptxcyPycGB99nue?from=vc_group_doc_link#doxcnl6w8IxdTOUn99499Kt8Bxg",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-08 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/IB9Yd691QotYptxcyPycGB99nue?from=vc_group_doc_link#doxcnl6w8IxdTOUn99499Kt8Bxg",
+    "title": "SPH3U.S6.Michael 2026-07-08 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/Downloads/Gia Zhu/02_Active_Projects/创新学校/artifacts/course-chat-ingestion/2026-07-08-sources/sph3u-s6-michael-2026-07-08/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-08",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-08",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson is primarily instructional, introducing new concepts of vectors, displacement, speed, velocity, and position-time graphs with examples and calculations.",
+    "academicContentSignals": [
+      "Vector definition as quantity with magnitude and direction",
+      "Vector scale diagrams for visualizing displacement",
+      "Tip-to-tail method for adding displacement vectors",
+      "Algebraic method for vector addition using sine/cosine laws",
+      "Average speed calculation (distance/time)",
+      "Average velocity calculation (displacement/time)",
+      "Position-time graph slope equals velocity",
+      "Unit consistency in calculations",
+      "Example calculations: dog speed, time from displacement and velocity"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low. The lesson is rich in academic content. The only operations are a class activity and planned homework, which are natural follow-ups and do not overshadow learning.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 1 Class Activity",
+        "studentAction": "Start working on the Unit 1 class activity located under Unit 1 on the home page, in the class activity and homework section.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "home page",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students are required to start working on the Unit 1 class activity, which can be found under Unit 1 on the home page, in the class activity and homework section.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Homework on Today's Topics",
+        "studentAction": "Complete the homework assignment on vectors, displacement, speed, and velocity to be assigned by the teacher.",
+        "deadlineText": "next day (2026-07-09)",
+        "deadlineISO": "2026-07-09",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Michael Konstantopoulos will assign a little bit of homework on the topics covered in the class for the next day.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Vector Concepts and Displacement、Speed and Velocity）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "A vector is a quantity that has both magnitude and direction; displacement is a vector.；A vector is represented as a drawn line segment with a tail (starting point) and a tip (ending point).；Vector scale diagrams use a specific scale (e.g., 1:100) to visually represent vectors and solve addition problems.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Represent and add vector displacements using magnitude and direction."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Distinguish between scalar speed and vector velocity, and calculate both using appropriate formulas."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Interpret slope on a position-time graph as average velocity."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Ensure unit consistency when performing kinematic calculations."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "vector-concepts",
+      "name": "Vector Concepts and Displacement",
+      "nameEn": "Vector Concepts and Displacement",
+      "definition": "Vectors are quantities with magnitude and direction (e.g., displacement). They can be represented by arrows and added using tip-to-tail or algebraic methods.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "speed-velocity",
+      "name": "Speed and Velocity",
+      "nameEn": "Speed and Velocity",
+      "definition": "Speed is scalar (distance/time), velocity is vector (displacement/time). Average velocity is slope on position-time graph.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Represent and add vector displacements using magnitude and direction."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Distinguish between scalar speed and vector velocity, and calculate both using appropriate formulas."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Interpret slope on a position-time graph as average velocity."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Ensure unit consistency when performing kinematic calculations."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-vector-direction",
+        "condition": "student chooses option that ignores direction or adds magnitudes directly on Q1",
+        "systemAction": "assign reteach module for err-vector-direction",
+        "studentMessage": "Shall we review how displacement is a vector and how to add them properly?"
+      },
+      {
+        "errorId": "err-speed-velocity-confusion",
+        "condition": "student uses total distance instead of displacement for velocity on Q2",
+        "systemAction": "assign reteach module for err-speed-velocity-confusion",
+        "studentMessage": "Let's clarify the difference between speed (scalar) and velocity (vector)."
+      },
+      {
+        "errorId": "err-unit-inconsistency",
+        "condition": "student fails to convert km to m on Q3",
+        "systemAction": "assign reteach module for err-unit-inconsistency",
+        "studentMessage": "Unit conversion is key! Let's practice converting units before calculating."
+      },
+      {
+        "errorId": "err-slope-interpretation",
+        "condition": "student miscounts slope or confuses slope with another quantity on Q4",
+        "systemAction": "assign reteach module for err-slope-interpretation",
+        "studentMessage": "Remember: slope of a position-time graph gives velocity. Let's revisit."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-s6-q1",
+        "nodeId": "vector-concepts",
+        "errorId": "err-vector-direction",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the resultant displacement as a vector (magnitude and direction).",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires vector addition in two dimensions, directly aligning with expectation B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding that displacement is a vector requiring both magnitude and direction.",
+        "commonMisconception": "Student adds magnitudes without considering direction (uses scalar distance) or ignores direction in velocity.",
+        "remediationModule": "err-vector-direction",
+        "retestItem": "err-vector-direction",
+        "stem": "A person walks 5 m east, then 12 m north. What is the displacement from start to finish?",
+        "options": [
+          {
+            "label": "A",
+            "text": "17 m",
+            "correct": false,
+            "feedbackWrong": "That's the total distance, not displacement. Displacement is a vector from start to end."
+          },
+          {
+            "label": "B",
+            "text": "7 m",
+            "correct": false,
+            "feedbackWrong": "Check the Pythagorean theorem; 5 and 12 give a larger resultant."
+          },
+          {
+            "label": "C",
+            "text": "13 m east",
+            "correct": false,
+            "feedbackWrong": "Direction is not purely east; it is northeast (or at an angle)."
+          },
+          {
+            "label": "D",
+            "text": "13 m northeast",
+            "correct": true,
+            "feedbackCorrect": "Excellent! Displacement magnitude is 13 m and direction is northeast."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-q2",
+        "nodeId": "speed-velocity",
+        "errorId": "err-speed-velocity-confusion",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly uses displacement (zero) to compute average velocity.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires calculation of average velocity from displacement and time, aligning with B2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Distinguish between speed (scalar) and velocity (vector) by computing average velocity in a round trip.",
+        "commonMisconception": "Student uses total distance instead of net displacement to calculate velocity, or treats velocity as scalar.",
+        "remediationModule": "err-speed-velocity-confusion",
+        "retestItem": "err-speed-velocity-confusion",
+        "stem": "A car travels 100 m east in 10 s, then 100 m west in 10 s. What is its average velocity?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0 m/s",
+            "correct": true,
+            "feedbackCorrect": "Yes! Net displacement is 0 m, so average velocity is 0 m/s."
+          },
+          {
+            "label": "B",
+            "text": "10 m/s east",
+            "correct": false,
+            "feedbackWrong": "That's the average speed, but velocity also considers direction. The net displacement is zero."
+          },
+          {
+            "label": "C",
+            "text": "10 m/s west",
+            "correct": false,
+            "feedbackWrong": "Same as B; net displacement is zero."
+          },
+          {
+            "label": "D",
+            "text": "20 m/s",
+            "correct": false,
+            "feedbackWrong": "That's the total distance divided by total time, which gives speed, not velocity."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-q3",
+        "nodeId": "speed-velocity",
+        "errorId": "err-unit-inconsistency",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student converts km to m and computes velocity with correct units and direction.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires unit conversion and calculation, aligning with B2 problem-solving.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to convert units consistently (km to m) and apply velocity formula.",
+        "commonMisconception": "Student forgets to convert km to m, leading to incorrect numerical value, or omits direction.",
+        "remediationModule": "err-unit-inconsistency",
+        "retestItem": "err-unit-inconsistency",
+        "stem": "A cyclist rides 2.0 km east in 120 s. What is the average velocity in m/s?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0.017 m/s east",
+            "correct": false,
+            "feedbackWrong": "Check conversion: 2 km is 2000 m, not 2 m. Divide 2000 by 120."
+          },
+          {
+            "label": "B",
+            "text": "16.7 m/s",
+            "correct": false,
+            "feedbackWrong": "Correct magnitude but missing direction; velocity is a vector."
+          },
+          {
+            "label": "C",
+            "text": "16.7 m/s east",
+            "correct": true,
+            "feedbackCorrect": "Perfect! 2000 m / 120 s = 16.7 m/s east."
+          },
+          {
+            "label": "D",
+            "text": "0.017 m/s",
+            "correct": false,
+            "feedbackWrong": "Wrong conversion and missing direction."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-q4",
+        "nodeId": "speed-velocity",
+        "errorId": "err-slope-interpretation",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly computes slope as change in position over change in time and identifies it as velocity.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires interpreting slope on a position-time graph, a key skill in B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Assess understanding that slope of position-time graph equals average velocity.",
+        "commonMisconception": "Student may confuse slope with position value or time, or calculate slope incorrectly (e.g., time/position).",
+        "remediationModule": "err-slope-interpretation",
+        "retestItem": "err-slope-interpretation",
+        "stem": "On a position-time graph, a straight line passes through (0 s, 0 m) and (10 s, 100 m). What is the slope of this line?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0 m/s",
+            "correct": false,
+            "feedbackWrong": "Slope is rise over run: (100 m - 0 m) / (10 s - 0 s) = 10 m/s."
+          },
+          {
+            "label": "B",
+            "text": "10 m/s",
+            "correct": true,
+            "feedbackCorrect": "Exactly! Slope = 100 m / 10 s = 10 m/s, which is the average velocity."
+          },
+          {
+            "label": "C",
+            "text": "100 m/s",
+            "correct": false,
+            "feedbackWrong": "You might have divided time by position. Slope is position change over time change."
+          },
+          {
+            "label": "D",
+            "text": "0.1 m/s",
+            "correct": false,
+            "feedbackWrong": "That's time over position (10/100). Slope is position over time."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-vector-direction",
+      "condition": "student chooses option that ignores direction or adds magnitudes directly on Q1",
+      "systemAction": "assign reteach module for err-vector-direction",
+      "studentMessage": "Shall we review how displacement is a vector and how to add them properly?"
+    },
+    {
+      "errorId": "err-speed-velocity-confusion",
+      "condition": "student uses total distance instead of displacement for velocity on Q2",
+      "systemAction": "assign reteach module for err-speed-velocity-confusion",
+      "studentMessage": "Let's clarify the difference between speed (scalar) and velocity (vector)."
+    },
+    {
+      "errorId": "err-unit-inconsistency",
+      "condition": "student fails to convert km to m on Q3",
+      "systemAction": "assign reteach module for err-unit-inconsistency",
+      "studentMessage": "Unit conversion is key! Let's practice converting units before calculating."
+    },
+    {
+      "errorId": "err-slope-interpretation",
+      "condition": "student miscounts slope or confuses slope with another quantity on Q4",
+      "systemAction": "assign reteach module for err-slope-interpretation",
+      "studentMessage": "Remember: slope of a position-time graph gives velocity. Let's revisit."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-vector-direction",
+      "trigger": "student adds magnitudes of vectors without considering direction or omits direction in velocity/displacement answers",
+      "studentMisunderstanding": "The student treats displacement as a scalar (distance) and ignores direction when adding vectors or computing velocity.",
+      "miniLesson": {
+        "explain": "Displacement is a vector: it has both magnitude (how far) and direction (which way). When adding displacements, you must consider direction. For example, 5 m east plus 2 m east equals 7 m east, but 5 m east plus 2 m west equals 3 m east (not 7 m). Always include a direction in your answer.",
+        "example": "A car travels 700 m west, then 100 m east. The net displacement is 600 m west (since 700 west minus 100 east = 600 west). If you simply added the magnitudes, you would get 800 m, which is the total distance, not the displacement.",
+        "memoryAnchor": "Direction is non-negotiable! Always ask: 'Where is the tip pointing?'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A person walks 5 m east, then 2 m east. What is the displacement?",
+          "answer": "7 m east"
+        },
+        {
+          "level": "L2",
+          "prompt": "A cyclist rides 700 m west, then 100 m east. What is the displacement?",
+          "answer": "600 m west"
+        },
+        {
+          "level": "L3",
+          "prompt": "A runner goes 43 m east, then 28 m west, then 11 m east. What is the net displacement?",
+          "answer": "26 m east"
+        }
+      ]
+    },
+    {
+      "errorId": "err-speed-velocity-confusion",
+      "trigger": "Student uses total distance instead of displacement when calculating average velocity, or treats velocity as scalar.",
+      "studentMisunderstanding": "You may be confusing speed (a scalar quantity) with velocity (a vector quantity). Speed only cares about how fast an object is moving, while velocity also includes the direction of motion. When calculating average velocity, you must use displacement (change in position, with direction) rather than total distance traveled.",
+      "miniLesson": {
+        "explain": "Speed is a scalar that measures how fast an object moves, calculated as total distance divided by time. Velocity is a vector that measures the rate of change of position, including direction, calculated as displacement divided by time. For example, if a dog runs 43 m in 28 s, its average speed is 43/28 ≈ 1.54 m/s. But if it runs 43 m east and then 43 m west back to start, its displacement is 0 m, so average velocity is 0 m/s (even though speed is positive).",
+        "example": "A car travels 100 m east in 10 s, then 100 m west in 10 s. Average speed = total distance (200 m) / total time (20 s) = 10 m/s. Average velocity = displacement (0 m) / total time (20 s) = 0 m/s. The velocity is zero because the car ended up where it started.",
+        "memoryAnchor": "Remember: 'Velocity is displacement per time; speed is distance per time.' Think of the 'dis' in displacement for 'direction included'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Select the vector quantity from the list: speed, distance, velocity, time.",
+          "answer": "Velocity"
+        },
+        {
+          "level": "L2",
+          "prompt": "A cyclist travels 120 m east in 60 s, then 60 m west in 60 s. What is the average velocity?",
+          "answer": "Displacement = 120 m east - 60 m west = 60 m east. Total time = 120 s. Average velocity = 60 m east / 120 s = 0.5 m/s east."
+        },
+        {
+          "level": "L3",
+          "prompt": "A runner runs 700 m north in 120 s, then 700 m south in 120 s. What is the average velocity?",
+          "answer": "Displacement = 0 m (since north and south cancel), total time = 240 s, average velocity = 0 m/s."
+        }
+      ]
+    },
+    {
+      "errorId": "err-unit-inconsistency",
+      "trigger": "Student incorrectly calculated velocity without converting km to m.",
+      "studentMisunderstanding": "Student fails to convert between units (e.g., km to m) before performing calculations, leading to incorrect numerical results.",
+      "miniLesson": {
+        "explain": "Unit consistency is essential in physics calculations. You must convert all quantities to the same unit (e.g., meters, seconds) before applying formulas. For example, if distance is given in kilometers and time in seconds, convert kilometers to meters (1 km = 1000 m) before calculating speed or velocity.",
+        "example": "A cyclist rides 2 km east in 120 s. To find average velocity in m/s, first convert 2 km to 2000 m, then divide: 2000 m / 120 s = 16.7 m/s east.",
+        "memoryAnchor": "Remember: Just as you can't add apples and oranges, you can't mix units. Convert everything to the same unit first!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Convert 5 km to meters.",
+          "answer": "5000 m"
+        },
+        {
+          "level": "L2",
+          "prompt": "A car travels 2 km in 120 s. What is its average speed in m/s?",
+          "answer": "2000 m / 120 s = 16.7 m/s"
+        },
+        {
+          "level": "L3",
+          "prompt": "A person walks 700 m east, then 2 km west. What is the net displacement? Then find the average velocity if total time is 120 s.",
+          "answer": "Convert 2 km to 2000 m. Net displacement = 700 - 2000 = -1300 m (1300 m west). Velocity = 1300 m / 120 s = 10.8 m/s west."
+        }
+      ]
+    },
+    {
+      "errorId": "err-slope-interpretation",
+      "trigger": "Student miscounts slope or confuses slope with another quantity on Q4.",
+      "studentMisunderstanding": "Student may misinterpret position-time graph slope as speed rather than velocity, or fail to relate slope to displacement and time.",
+      "miniLesson": {
+        "explain": "On a position-time graph, the slope (rise over run) equals the average velocity. Velocity is a vector, so direction matters: positive slope means motion in the positive direction, negative slope means opposite direction. Speed is the absolute value of velocity.",
+        "example": "A line from (0 s, 0 m) to (5 s, 100 m) has slope = (100 m - 0 m) / (5 s - 0 s) = 20 m/s. This is the average velocity. Since the slope is positive, direction is positive (e.g., east).",
+        "memoryAnchor": "Slope = speed? No! Slope = velocity (includes direction). Remember: 'Slope is velocity, speed is absolute.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "On a position-time graph, a line passes through (0 s, 0 m) and (5 s, 100 m). What is the slope?",
+          "answer": "Slope = (100 m - 0 m) / (5 s - 0 s) = 20 m/s."
+        },
+        {
+          "level": "L2",
+          "prompt": "A position-time graph shows a line with slope -10 m/s. What does that tell you about the object's motion?",
+          "answer": "The object is moving at a constant velocity of 10 m/s in the negative direction (e.g., west)."
+        },
+        {
+          "level": "L3",
+          "prompt": "An object moves from position 0 m to 43 m in 28 s. What is its velocity? Then it moves back to 0 m in 28 s. What is the average velocity for the whole trip?",
+          "answer": "First segment: velocity = 43 m / 28 s ≈ 1.54 m/s positive. Whole trip: displacement = 0 m, so average velocity = 0 m/s."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-vector-direction",
+      "questions": [
+        {
+          "id": "retest-vec-dir-q1",
+          "type": "single_choice",
+          "stem": "A car travels 120 m north, then 60 m south. What is the car's displacement?",
+          "options": [
+            "180 m north",
+            "180 m south",
+            "60 m north",
+            "60 m south"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-vec-dir-q2",
+          "type": "open_ended",
+          "stem": "A person walks 5 m east, then 2 m west. What is the displacement? Be sure to include direction and magnitude.",
+          "rubric": "Correct answer: 3 m east. Must include both magnitude and direction."
+        }
+      ],
+      "passRule": "Both questions correct."
+    },
+    {
+      "forErrorId": "err-speed-velocity-confusion",
+      "questions": [
+        {
+          "id": "svq1",
+          "type": "single_choice",
+          "stem": "Which of the following is a vector quantity?",
+          "options": [
+            "Speed",
+            "Distance",
+            "Velocity",
+            "Time"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "svq2",
+          "type": "open_ended",
+          "stem": "A person walks 100 m east in 60 s, then 100 m west in 60 s. Calculate the average speed and average velocity. Show your work.",
+          "rubric": "Average speed = total distance (200 m) / total time (120 s) = 1.67 m/s (or 1.7 m/s). Average velocity = displacement (0 m) / total time (120 s) = 0 m/s. Must recognize that velocity includes direction (though zero). Full credit for correct calculations and distinction between distance and displacement."
+        }
+      ],
+      "passRule": "Q1: Select 'Velocity'. Q2: Provide average speed = 1.67 m/s and average velocity = 0 m/s, with correct reasoning."
+    },
+    {
+      "forErrorId": "err-unit-inconsistency",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A car travels 5 km in 600 s. What is the correct first step to find the average speed in m/s?",
+          "options": [
+            "Convert 5 km to 5000 m.",
+            "Convert 600 s to 0.6 min.",
+            "Convert 5 km to 5,000,000 mm.",
+            "Convert 600 s to 10 min."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A runner covers 2 km in 120 s. Calculate the average speed in m/s. Show your work.",
+          "rubric": "Correct conversion: 2 km = 2000 m (1 mark). Correct calculation: 2000 m / 120 s = 16.7 m/s (1 mark). Final answer with unit (1 mark)."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. For open-ended, answer must include correct conversion and numerical value."
+    },
+    {
+      "forErrorId": "err-slope-interpretation",
+      "questions": [
+        {
+          "id": "retest-slope-1",
+          "type": "single_choice",
+          "stem": "A position-time graph shows a straight line from (0 s, 0 m) to (5 s, 100 m). What does the slope of this line represent?",
+          "options": [
+            "Speed",
+            "Velocity",
+            "Displacement",
+            "Acceleration"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-slope-2",
+          "type": "open_ended",
+          "stem": "A position-time graph for a car moving in a straight line is a straight line from (0 s, 0 m) to (5 s, 100 m) in the eastward direction. Calculate the slope of this line and explain what it means about the car's motion.",
+          "rubric": "Correct slope calculation: (100 m - 0 m) / (5 s - 0 s) = 20 m/s. Correct interpretation: The slope represents the car's average velocity, which is 20 m/s eastward. (Accept 'velocity' or 'average velocity'; mention direction or sign.)"
+        }
+      ],
+      "passRule": "Student must answer Q1 correctly (select 'Velocity') and in Q2, correctly compute the slope as 20 m/s and state that it represents velocity (or average velocity)."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-08",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/IB9Yd691QotYptxcyPycGB99nue?from=vc_group_doc_link#doxcnl6w8IxdTOUn99499Kt8Bxg",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-08 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "A vector is a quantity that has both magnitude and direction; displacement is a vector.；A vector is represented as a drawn line segment with a tail (starting point) and a tip (ending point).；Vector scale diagrams use a specific scale (e.g., 1:100) to visually represent vectors and solve addition problems.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Represent and add vector displacements using magnitude and direction."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Distinguish between scalar speed and vector velocity, and calculate both using appropriate formulas."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Interpret slope on a position-time graph as average velocity."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Ensure unit consistency when performing kinematic calculations."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 1 Class Activity",
+        "studentAction": "Start working on the Unit 1 class activity located under Unit 1 on the home page, in the class activity and homework section.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "home page",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students are required to start working on the Unit 1 class activity, which can be found under Unit 1 on the home page, in the class activity and homework section.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Homework on Today's Topics",
+        "studentAction": "Complete the homework assignment on vectors, displacement, speed, and velocity to be assigned by the teacher.",
+        "deadlineText": "next day (2026-07-09)",
+        "deadlineISO": "2026-07-09",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Michael Konstantopoulos will assign a little bit of homework on the topics covered in the class for the next day.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "vector-concepts",
+      "speed-velocity"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-vector-direction",
+        "condition": "student chooses option that ignores direction or adds magnitudes directly on Q1",
+        "systemAction": "assign reteach module for err-vector-direction"
+      },
+      {
+        "errorId": "err-speed-velocity-confusion",
+        "condition": "student uses total distance instead of displacement for velocity on Q2",
+        "systemAction": "assign reteach module for err-speed-velocity-confusion"
+      },
+      {
+        "errorId": "err-unit-inconsistency",
+        "condition": "student fails to convert km to m on Q3",
+        "systemAction": "assign reteach module for err-unit-inconsistency"
+      },
+      {
+        "errorId": "err-slope-interpretation",
+        "condition": "student miscounts slope or confuses slope with another quantity on Q4",
+        "systemAction": "assign reteach module for err-slope-interpretation"
+      }
+    ],
+    "nextActions": [
+      "[err-vector-direction] student chooses option that ignores direction or adds magnitudes directly on Q1: Shall we review how displacement is a vector and how to add them properly?",
+      "[err-speed-velocity-confusion] student uses total distance instead of displacement for velocity on Q2: Let's clarify the difference between speed (scalar) and velocity (vector).",
+      "[err-unit-inconsistency] student fails to convert km to m on Q3: Unit conversion is key! Let's practice converting units before calculating.",
+      "[err-slope-interpretation] student miscounts slope or confuses slope with another quantity on Q4: Remember: slope of a position-time graph gives velocity. Let's revisit."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-s6-q1",
+        "type": "choice",
+        "question": "A person walks 5 m east, then 12 m north. What is the displacement from start to finish?",
+        "options": [
+          "17 m",
+          "7 m",
+          "13 m east",
+          "13 m northeast"
+        ],
+        "correct": 3,
+        "diagnosis": "Check understanding that displacement is a vector requiring both magnitude and direction.",
+        "misconceptions": [
+          "That's the total distance, not displacement. Displacement is a vector from start to end.",
+          "Check the Pythagorean theorem; 5 and 12 give a larger resultant.",
+          "Direction is not purely east; it is northeast (or at an angle).",
+          "✓ Excellent! Displacement magnitude is 13 m and direction is northeast."
+        ],
+        "nodeId": "vector-concepts",
+        "errorId": "err-vector-direction",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the resultant displacement as a vector (magnitude and direction).",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires vector addition in two dimensions, directly aligning with expectation B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student adds magnitudes without considering direction (uses scalar distance) or ignores direction in velocity.",
+        "remediationModule": "err-vector-direction",
+        "retestItem": "err-vector-direction"
+      },
+      {
+        "id": "diag-sph3u-s6-q2",
+        "type": "choice",
+        "question": "A car travels 100 m east in 10 s, then 100 m west in 10 s. What is its average velocity?",
+        "options": [
+          "0 m/s",
+          "10 m/s east",
+          "10 m/s west",
+          "20 m/s"
+        ],
+        "correct": 0,
+        "diagnosis": "Distinguish between speed (scalar) and velocity (vector) by computing average velocity in a round trip.",
+        "misconceptions": [
+          "✓ Yes! Net displacement is 0 m, so average velocity is 0 m/s.",
+          "That's the average speed, but velocity also considers direction. The net displacement is zero.",
+          "Same as B; net displacement is zero.",
+          "That's the total distance divided by total time, which gives speed, not velocity."
+        ],
+        "nodeId": "speed-velocity",
+        "errorId": "err-speed-velocity-confusion",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly uses displacement (zero) to compute average velocity.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires calculation of average velocity from displacement and time, aligning with B2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student uses total distance instead of net displacement to calculate velocity, or treats velocity as scalar.",
+        "remediationModule": "err-speed-velocity-confusion",
+        "retestItem": "err-speed-velocity-confusion"
+      },
+      {
+        "id": "diag-sph3u-s6-q3",
+        "type": "choice",
+        "question": "A cyclist rides 2.0 km east in 120 s. What is the average velocity in m/s?",
+        "options": [
+          "0.017 m/s east",
+          "16.7 m/s",
+          "16.7 m/s east",
+          "0.017 m/s"
+        ],
+        "correct": 2,
+        "diagnosis": "Check ability to convert units consistently (km to m) and apply velocity formula.",
+        "misconceptions": [
+          "Check conversion: 2 km is 2000 m, not 2 m. Divide 2000 by 120.",
+          "Correct magnitude but missing direction; velocity is a vector.",
+          "✓ Perfect! 2000 m / 120 s = 16.7 m/s east.",
+          "Wrong conversion and missing direction."
+        ],
+        "nodeId": "speed-velocity",
+        "errorId": "err-unit-inconsistency",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student converts km to m and computes velocity with correct units and direction.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires unit conversion and calculation, aligning with B2 problem-solving.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student forgets to convert km to m, leading to incorrect numerical value, or omits direction.",
+        "remediationModule": "err-unit-inconsistency",
+        "retestItem": "err-unit-inconsistency"
+      },
+      {
+        "id": "diag-sph3u-s6-q4",
+        "type": "choice",
+        "question": "On a position-time graph, a straight line passes through (0 s, 0 m) and (10 s, 100 m). What is the slope of this line?",
+        "options": [
+          "0 m/s",
+          "10 m/s",
+          "100 m/s",
+          "0.1 m/s"
+        ],
+        "correct": 1,
+        "diagnosis": "Assess understanding that slope of position-time graph equals average velocity.",
+        "misconceptions": [
+          "Slope is rise over run: (100 m - 0 m) / (10 s - 0 s) = 10 m/s.",
+          "✓ Exactly! Slope = 100 m / 10 s = 10 m/s, which is the average velocity.",
+          "You might have divided time by position. Slope is position change over time change.",
+          "That's time over position (10/100). Slope is position over time."
+        ],
+        "nodeId": "speed-velocity",
+        "errorId": "err-slope-interpretation",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly computes slope as change in position over change in time and identifies it as velocity.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires interpreting slope on a position-time graph, a key skill in B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may confuse slope with position value or time, or calculate slope incorrectly (e.g., time/position).",
+        "remediationModule": "err-slope-interpretation",
+        "retestItem": "err-slope-interpretation"
+      }
+    ]
+  }
+}

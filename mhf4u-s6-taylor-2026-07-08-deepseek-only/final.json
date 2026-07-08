@@ -1,0 +1,824 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-08",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/PY1Ddv10UojfxExVbHBcCM5Tn4g?from=vc_group_doc_link#doxcn0kFnTbY7i4OOgknGqCMFHc",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-08 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/PY1Ddv10UojfxExVbHBcCM5Tn4g?from=vc_group_doc_link#doxcn0kFnTbY7i4OOgknGqCMFHc",
+    "title": "MHF4U.S6.Taylor 2026-07-08 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/Downloads/Gia Zhu/02_Active_Projects/创新学校/artifacts/course-chat-ingestion/2026-07-08-sources/mhf4u-s6-taylor-2026-07-08/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-08",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-08",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson introduces new content (piecewise functions and polynomial functions) after reviewing homework on inverse functions, making it primarily instructional.",
+    "academicContentSignals": [
+      "inverse functions",
+      "matching graphs of inverse functions",
+      "solving for k using inverse points",
+      "piecewise functions definition and graphing",
+      "domain and discontinuity of piecewise functions",
+      "polynomial function form and degree",
+      "classifying polynomials by degree and leading coefficient",
+      "end behavior of polynomials"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low. The lesson is rich in academic content; operational items are limited to standard homework and exit card assignments with no deadlines or platforms, so operations will not overshadow learning.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Assigned homework on piecewise and polynomial functions",
+        "studentAction": "Complete assigned homework covering piecewise functions and polynomial functions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students are required to work on the assigned homework, which includes questions related to piecewise functions and polynomial functions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Exit cards",
+        "studentAction": "Complete the exit cards to help the teacher understand learning progress.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students should complete the exit cards, which help Taylor Cavers understand their learning progress and identify areas that need further review.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Piecewise Functions、Polynomial Functions）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Piecewise functions are defined by multiple sub-functions on different intervals of the domain.；The domain of a piecewise function includes all x-values for which the function is defined.；Discontinuity occurs at points where the graph has open holes (non-included points).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify and interpret piecewise functions: determine domain intervals, identify open/closed endpoints, and determine continuity/discontinuity."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Analyze polynomial functions: determine degree, leading coefficient, and describe end behavior as x→±∞."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "piecewise-functions",
+      "name": "Piecewise Functions",
+      "nameEn": "Piecewise Functions",
+      "definition": "A function defined by two or more sub-functions, each applying to a specific interval of the domain.",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    },
+    {
+      "id": "polynomial-functions",
+      "name": "Polynomial Functions",
+      "nameEn": "Polynomial Functions",
+      "definition": "A function of the form F(x) = a_n x^n + a_{n-1} x^{n-1} + ... + a_1 x + a_0, where n is a whole number and coefficients are real numbers.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and interpret piecewise functions: determine domain intervals, identify open/closed endpoints, and determine continuity/discontinuity."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Analyze polynomial functions: determine degree, leading coefficient, and describe end behavior as x→±∞."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-piecewise-open-closed-hole",
+        "condition": "Student selects an option that applies open/closed circle incorrectly at a piecewise endpoint.",
+        "systemAction": "Assign reteach module for err-piecewise-open-closed-hole.",
+        "studentMessage": "You confused when to use open vs closed circles. Let's review piecewise endpoint conventions."
+      },
+      {
+        "errorId": "err-piecewise-domain-interval",
+        "condition": "Student chooses an option that assigns an x-interval to the wrong piece or misses the correct domain span.",
+        "systemAction": "Assign reteach module for err-piecewise-domain-interval.",
+        "studentMessage": "You need practice identifying which x-values belong to each piece. We'll work on domain intervals."
+      },
+      {
+        "errorId": "err-polynomial-degree",
+        "condition": "Student incorrectly identifies the degree of a polynomial (e.g., miscounting highest power).",
+        "systemAction": "Assign reteach module for err-polynomial-degree.",
+        "studentMessage": "You misidentified the degree. Let's review how to find the highest power in a polynomial."
+      },
+      {
+        "errorId": "err-polynomial-end-behavior",
+        "condition": "Student incorrectly determines end behavior (e.g., mixing up even/odd degree or sign).",
+        "systemAction": "Assign reteach module for err-polynomial-end-behavior.",
+        "studentMessage": "You made an error with end behavior. We'll go over the rules for degree and leading coefficient."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-s6-0708-q1",
+        "nodeId": "piecewise-functions",
+        "errorId": "err-piecewise-open-closed-hole",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies whether a piecewise endpoint should be open or closed based on the inequality.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Piecewise functions are not explicitly in the official MHF4U expectations, but this question aligns with the general skill of interpreting function representations (C1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can distinguish between inclusive (closed) and exclusive (open) boundaries for piecewise intervals.",
+        "commonMisconception": "Student thinks all endpoints are closed or confuses inequality signs with circle type.",
+        "remediationModule": "err-piecewise-open-closed-hole",
+        "retestItem": "err-piecewise-open-closed-hole",
+        "stem": "A piecewise function is defined as: f(x) = { 2x+1, x < 3; -x+4, x ≥ 3 }. At x = 3, what symbol should appear on the graph at the end of the first piece?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Open circle",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "Closed circle",
+            "correct": false,
+            "feedbackWrong": "The first piece is defined for x < 3, so x=3 is not included; an open circle is correct."
+          },
+          {
+            "label": "C",
+            "text": "No symbol needed",
+            "correct": false,
+            "feedbackWrong": "The piecewise function changes at x=3, so a symbol is needed to show inclusion/exclusion."
+          },
+          {
+            "label": "D",
+            "text": "A dashed line",
+            "correct": false,
+            "feedbackWrong": "Dashed lines indicate asymptotes, not piecewise endpoints. Use open/closed circle."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-piecewise-open-closed-hole."
+      },
+      {
+        "id": "diag-mhf4u-s6-0708-q2",
+        "nodeId": "piecewise-functions",
+        "errorId": "err-piecewise-domain-interval",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the interval for a given piece of a function from its graph.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligns with connecting graphical to algebraic representations (C1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can read domain intervals from a graph of a piecewise function.",
+        "commonMisconception": "Student may think the domain interval is all real numbers or misread the endpoints from the graph.",
+        "remediationModule": "err-piecewise-domain-interval",
+        "retestItem": "err-piecewise-domain-interval",
+        "stem": "Consider the graph of a piecewise function: It has a horizontal line at y=2 from x=-∞ to x=1 with a closed circle at (1,2), and a line with slope -1 from x=1 to x=4 with an open circle at (1,? Actually, let's simplify: The graph shows a piece: y = 3 for x in (-∞, 2] and y = x+1 for x in (2, 5]. What is the domain interval for the second piece?",
+        "options": [
+          {
+            "label": "A",
+            "text": "[2, 5]",
+            "correct": false,
+            "feedbackWrong": "The second piece starts at x > 2, not including 2, so the interval should be (2, 5]."
+          },
+          {
+            "label": "B",
+            "text": "(2, 5]",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "(2, 5)",
+            "correct": false,
+            "feedbackWrong": "The graph shows a closed circle at x=5 for the second piece, so 5 is included. Use ] or bracket."
+          },
+          {
+            "label": "D",
+            "text": "(-∞, 2]",
+            "correct": false,
+            "feedbackWrong": "That is the domain of the first piece, not the second."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-piecewise-domain-interval."
+      },
+      {
+        "id": "diag-mhf4u-s6-0708-q3",
+        "nodeId": "polynomial-functions",
+        "errorId": "err-polynomial-degree",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies the degree of a polynomial function.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly aligns with identifying key features (degree) of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can determine the degree from a polynomial expression.",
+        "commonMisconception": "Student may count all terms or include coefficients instead of focusing on the highest exponent.",
+        "remediationModule": "err-polynomial-degree",
+        "retestItem": "err-polynomial-degree",
+        "stem": "What is the degree of the polynomial function P(x) = 3x^5 - 2x^3 + 7x - 1?",
+        "options": [
+          {
+            "label": "A",
+            "text": "5",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "3",
+            "correct": false,
+            "feedbackWrong": "The highest exponent is 5, not 3."
+          },
+          {
+            "label": "C",
+            "text": "4",
+            "correct": false,
+            "feedbackWrong": "There is no x^4 term; the highest exponent present is 5."
+          },
+          {
+            "label": "D",
+            "text": "6",
+            "correct": false,
+            "feedbackWrong": "The terms have exponents 5, 3, 1, and 0; the highest is 5."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-polynomial-degree."
+      },
+      {
+        "id": "diag-mhf4u-s6-0708-q4",
+        "nodeId": "polynomial-functions",
+        "errorId": "err-polynomial-end-behavior",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly determines end behavior based on degree and leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can apply the rules of end behavior (degree even/odd, leading coefficient sign) to describe the limits.",
+        "commonMisconception": "Student may think positive leading coefficient always leads to both ends going up, or confuse degree parity.",
+        "remediationModule": "err-polynomial-end-behavior",
+        "retestItem": "err-polynomial-end-behavior",
+        "stem": "Consider the polynomial f(x) = -2x^4 + 3x^2 - 5. Which statement correctly describes its end behavior as x → +∞ and x → -∞?",
+        "options": [
+          {
+            "label": "A",
+            "text": "As x → ±∞, f(x) → +∞",
+            "correct": false,
+            "feedbackWrong": "Leading coefficient negative and degree even means both ends go down to -∞, not up."
+          },
+          {
+            "label": "B",
+            "text": "As x → ±∞, f(x) → -∞",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "As x → +∞, f(x) → +∞; as x → -∞, f(x) → -∞",
+            "correct": false,
+            "feedbackWrong": "That pattern occurs for odd degree with positive leading coefficient, not for even degree negative."
+          },
+          {
+            "label": "D",
+            "text": "As x → +∞, f(x) → -∞; as x → -∞, f(x) → +∞",
+            "correct": false,
+            "feedbackWrong": "That is for odd degree with negative leading coefficient."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-polynomial-end-behavior."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-piecewise-open-closed-hole",
+      "condition": "Student selects an option that applies open/closed circle incorrectly at a piecewise endpoint.",
+      "systemAction": "Assign reteach module for err-piecewise-open-closed-hole.",
+      "studentMessage": "You confused when to use open vs closed circles. Let's review piecewise endpoint conventions."
+    },
+    {
+      "errorId": "err-piecewise-domain-interval",
+      "condition": "Student chooses an option that assigns an x-interval to the wrong piece or misses the correct domain span.",
+      "systemAction": "Assign reteach module for err-piecewise-domain-interval.",
+      "studentMessage": "You need practice identifying which x-values belong to each piece. We'll work on domain intervals."
+    },
+    {
+      "errorId": "err-polynomial-degree",
+      "condition": "Student incorrectly identifies the degree of a polynomial (e.g., miscounting highest power).",
+      "systemAction": "Assign reteach module for err-polynomial-degree.",
+      "studentMessage": "You misidentified the degree. Let's review how to find the highest power in a polynomial."
+    },
+    {
+      "errorId": "err-polynomial-end-behavior",
+      "condition": "Student incorrectly determines end behavior (e.g., mixing up even/odd degree or sign).",
+      "systemAction": "Assign reteach module for err-polynomial-end-behavior.",
+      "studentMessage": "You made an error with end behavior. We'll go over the rules for degree and leading coefficient."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-piecewise-open-closed-hole",
+      "trigger": "Student selects an option that applies open/closed circle incorrectly at a piecewise endpoint.",
+      "studentMisunderstanding": "Confusing whether to use open or closed hole at interval endpoints",
+      "miniLesson": {
+        "explain": "In piecewise functions, each sub-function applies to a specific interval. At the endpoints of these intervals, we use open circles (holes) to show the point is not included, and closed circles (filled dots) to show it is included. Use '<' or '>' for open, and '≤' or '≥' for closed.",
+        "example": "Let f(x) = { x+1, x < 2; -x+5, x ≥ 2 }. At x=2: first piece has x<2 so open circle at (2,3); second piece has x≥2 so closed circle at (2,3). They join, creating a continuous graph.",
+        "memoryAnchor": "Closed circle means 'you're included' (≤ or ≥); open circle means 'sorry, not included' (< or >)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Given f(x) = { 2x, x < 1; x+1, x ≥ 1 }, what type of circle is at x=1 for the first piece?",
+          "answer": "Open circle"
+        },
+        {
+          "level": "L2",
+          "prompt": "Graph the piecewise function: f(x) = { 3, x ≤ 0; -x+2, x > 0 }. At x=0, what symbols are on the graph?",
+          "answer": "Closed circle at (0,3) for first piece; open circle at (0,2) for second piece."
+        },
+        {
+          "level": "L3",
+          "prompt": "A piecewise function has two pieces. The first piece is defined for x ≤ -2, and the second for x > -2. If the y-values at the endpoint are equal, describe the circles at x=-2.",
+          "answer": "Closed circle on the first piece, open circle on the second piece."
+        }
+      ]
+    },
+    {
+      "errorId": "err-piecewise-domain-interval",
+      "trigger": "Student incorrectly identifies which x-values belong to each piece of a piecewise function, often misinterpreting interval notation or inequality signs.",
+      "studentMisunderstanding": "The student may think that all intervals start at negative infinity and end at positive infinity, or they may confuse open and closed boundaries, leading to incorrect domain intervals.",
+      "miniLesson": {
+        "explain": "A piecewise function is defined by multiple sub-functions, each applied to a specific interval on the x-axis. The interval is given by an inequality (e.g., x < 2, x ≥ 0). To correctly identify the domain interval for a piece, focus on the inequality: it tells you exactly which x-values are allowed. For example, if a piece is defined for x < 3, then the domain interval for that piece is (-∞, 3). If another piece is defined for x ≥ 3, its domain is [3, ∞). A common mistake is to include endpoints incorrectly, such as putting 3 in the first piece when it should be in the second. Always check the inequality symbol: < and > are strict (open circle), ≤ and ≥ are inclusive (closed circle).",
+        "example": "Consider the piecewise function: f(x) = { 2x + 1, x ≤ 2; -x + 5, x > 2 }. The first piece has domain interval (-∞, 2] because it includes x=2. The second piece has domain interval (2, ∞) because it starts just after 2. If you mistakenly thought the first piece was for x < 2, you would miss including x=2, or if you thought the second piece included 2, you'd have two pieces claiming x=2. Intervals must be disjoint and cover the whole domain.",
+        "memoryAnchor": "Draw a number line and mark the boundaries. Each piece covers a section. The circle at the boundary shows if the point is included (filled) or not (open) – that tells you whether to use bracket or parenthesis."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A piecewise function has two pieces: Piece A is defined for x < 3, Piece B for x ≥ 3. What is the domain interval for Piece A? (Use interval notation, e.g., (-∞, 3) )",
+          "answer": "(-∞, 3)"
+        },
+        {
+          "level": "L2",
+          "prompt": "From the graph of a piecewise function, we see: from x=-2 to x=1 (including x=-2, not including x=1) the function is y=2; from x=1 to x=5 (including x=5) the function is y=x-1. What are the domain intervals for the two pieces? Use interval notation.",
+          "answer": "First piece: [-2, 1); second piece: [1, 5]"
+        },
+        {
+          "level": "L3",
+          "prompt": "Create a piecewise function with two pieces using only the numbers 0, 1, 2, 3, 4, 5. The first piece should be defined for x ≤ 2, the second for x > 2. Write the algebraic definition.",
+          "answer": "f(x) = { 0, x ≤ 2; 4, x > 2 } (answer may vary, but must correctly use interval boundaries)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-polynomial-degree",
+      "trigger": "Student misidentified the polynomial's degree.",
+      "studentMisunderstanding": "Student may think degree is based on the number of terms or include coefficients instead of focusing on the highest exponent.",
+      "miniLesson": {
+        "explain": "The degree of a polynomial is the highest exponent of the variable x in the expression. It determines the function's shape and end behavior.",
+        "example": "In P(x)=4x^3+2x-5, the exponents are 3,1,0. The highest is 3, so degree=3.",
+        "memoryAnchor": "Think 'degree = highest power' like the tallest building in a city skyline."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the degree of the polynomial: 2x^4 - 3x^2 + 1?",
+          "answer": "4"
+        },
+        {
+          "level": "L2",
+          "prompt": "Identify the degree: -x^3 + 5x - 7",
+          "answer": "3"
+        },
+        {
+          "level": "L3",
+          "prompt": "Find the degree: 8x^6 - 2x^5 + 4x^3 - x + 15",
+          "answer": "6"
+        }
+      ]
+    },
+    {
+      "errorId": "err-polynomial-end-behavior",
+      "trigger": "Student incorrectly determines end behavior, such as mixing up even/odd degree or leading coefficient sign.",
+      "studentMisunderstanding": "Student confuses the rules for end behavior: they may not correctly apply the effect of degree parity (even/odd) and the sign of the leading coefficient.",
+      "miniLesson": {
+        "explain": "End behavior describes how a polynomial function behaves as x approaches positive or negative infinity. It depends on two features: the degree (even or odd) and the sign of the leading coefficient (positive or negative). For an even-degree polynomial, both ends go in the same direction: up if leading coefficient is positive, down if negative. For an odd-degree polynomial, the ends go in opposite directions: if leading coefficient is positive, the right end goes up and the left end goes down; if negative, the right end goes down and the left end goes up.",
+        "example": "Consider f(x) = -2x^4 + 3x^2 - 5. The degree is 4 (even) and the leading coefficient is -2 (negative). Therefore, as x→+∞, f(x)→-∞, and as x→-∞, f(x)→-∞. So both ends go down.",
+        "memoryAnchor": "Even degree: both ends match. Positive leading → both up; negative leading → both down. Odd degree: ends opposite. Positive leading → up-right, down-left; negative leading → down-right, up-left. Picture a smile (positive even) or a frown (negative even); for odd, think of a line rising to the right (positive) or falling to the right (negative)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Determine the end behavior of f(x) = 3x^2 - 5.",
+          "answer": "Degree 2 (even), leading coefficient positive. As x→±∞, f(x)→+∞."
+        },
+        {
+          "level": "L2",
+          "prompt": "Describe the end behavior of f(x) = -x^5 + 4x^3 - 2x.",
+          "answer": "Degree 5 (odd), leading coefficient negative. As x→+∞, f(x)→-∞; as x→-∞, f(x)→+∞."
+        },
+        {
+          "level": "L3",
+          "prompt": "For the polynomial f(x) = -7x^6 + 0.25x^4 - 8x^2 + 15, what are the limits as x→±∞?",
+          "answer": "Degree 6 (even), leading coefficient -7 (negative). So as x→±∞, f(x)→-∞."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-piecewise-open-closed-hole",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following correctly describes the circles at x=3 for the function f(x) = { 2x+1, x<3; -x+10, x≥3 }? (Note: the y-value at x=3 from first piece is 7, from second piece is also 7.)",
+          "options": [
+            "Open circle at (3,7) on first piece; closed circle at (3,7) on second piece",
+            "Closed circle at (3,7) on first piece; open circle at (3,7) on second piece",
+            "Closed circle on both pieces at (3,7)",
+            "Open circle on both pieces at (3,7)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Consider the piecewise function: g(x) = { 4, x ≤ 2; x+2, x > 2 }. Describe the type of circle (open or closed) at x=2 for each piece. Then determine if the function is continuous at x=2. Explain briefly.",
+          "rubric": "First piece (x ≤ 2): closed circle at (2,4). Second piece (x > 2): open circle at (2,4). Since the y-values are equal and the closed circle fills the point, the function is continuous at x=2. Accept equivalent explanations."
+        }
+      ],
+      "passRule": "student must answer both questions correctly"
+    },
+    {
+      "forErrorId": "err-piecewise-domain-interval",
+      "questions": [
+        {
+          "id": "pw-domain-q1",
+          "type": "single_choice",
+          "stem": "Consider the piecewise function: f(x) = { 2x+1, x < 2; x^2, x ≥ 2 }. What is the domain interval for the first piece?",
+          "options": [
+            "(-∞, 2]",
+            "(-∞, 2)",
+            "[2, ∞)",
+            "(2, ∞)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "pw-domain-q2",
+          "type": "open_ended",
+          "stem": "From a graph, a piecewise function has two linear pieces: Piece A goes from x = -1 to x = 3, including x = -1 but not including x = 3. Piece B starts at x = 3 and continues to x = 7, including both endpoints. Write the domain intervals for Piece A and Piece B in interval notation.",
+          "rubric": "Piece A: [-1, 3); Piece B: [3, 7]"
+        }
+      ],
+      "passRule": "All questions correct"
+    },
+    {
+      "forErrorId": "err-polynomial-degree",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "What is the degree of the polynomial 5x^4 - 2x^3 + 7?",
+          "options": [
+            "4",
+            "3",
+            "2",
+            "5"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Determine the degree of the polynomial: 3x^2 + 4 - x^5 + 6x^3",
+          "rubric": "The correct answer is 5. Accept 5."
+        }
+      ],
+      "passRule": "Both correct"
+    },
+    {
+      "forErrorId": "err-polynomial-end-behavior",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Consider the polynomial f(x) = -2x^6 + 0.25x^4 - 8x^2 + 15. Which statement correctly describes its end behavior?",
+          "options": [
+            "As x → +∞, f(x) → +∞ and as x → -∞, f(x) → +∞",
+            "As x → +∞, f(x) → -∞ and as x → -∞, f(x) → -∞",
+            "As x → +∞, f(x) → +∞ and as x → -∞, f(x) → -∞",
+            "As x → +∞, f(x) → -∞ and as x → -∞, f(x) → +∞"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain the rules for determining the end behavior of a polynomial function based on its degree and leading coefficient. Then, apply these rules to describe the end behavior of f(x) = 3x^5 - 7x^3 + 2.",
+          "rubric": "Student correctly states: degree even -> ends same direction; odd -> opposite. Positive leading -> right end up if odd, both up if even; negative -> right end down if odd, both down if even. For f(x)=3x^5-7x^3+2: degree 5 odd, leading coefficient 3 positive, so as x→+∞, f(x)→+∞; as x→-∞, f(x)→-∞."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-08",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/PY1Ddv10UojfxExVbHBcCM5Tn4g?from=vc_group_doc_link#doxcn0kFnTbY7i4OOgknGqCMFHc",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-08 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Piecewise functions are defined by multiple sub-functions on different intervals of the domain.；The domain of a piecewise function includes all x-values for which the function is defined.；Discontinuity occurs at points where the graph has open holes (non-included points).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and interpret piecewise functions: determine domain intervals, identify open/closed endpoints, and determine continuity/discontinuity."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Analyze polynomial functions: determine degree, leading coefficient, and describe end behavior as x→±∞."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Assigned homework on piecewise and polynomial functions",
+        "studentAction": "Complete assigned homework covering piecewise functions and polynomial functions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students are required to work on the assigned homework, which includes questions related to piecewise functions and polynomial functions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Exit cards",
+        "studentAction": "Complete the exit cards to help the teacher understand learning progress.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students should complete the exit cards, which help Taylor Cavers understand their learning progress and identify areas that need further review.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "piecewise-functions",
+      "polynomial-functions"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-piecewise-open-closed-hole",
+        "condition": "Student selects an option that applies open/closed circle incorrectly at a piecewise endpoint.",
+        "systemAction": "Assign reteach module for err-piecewise-open-closed-hole."
+      },
+      {
+        "errorId": "err-piecewise-domain-interval",
+        "condition": "Student chooses an option that assigns an x-interval to the wrong piece or misses the correct domain span.",
+        "systemAction": "Assign reteach module for err-piecewise-domain-interval."
+      },
+      {
+        "errorId": "err-polynomial-degree",
+        "condition": "Student incorrectly identifies the degree of a polynomial (e.g., miscounting highest power).",
+        "systemAction": "Assign reteach module for err-polynomial-degree."
+      },
+      {
+        "errorId": "err-polynomial-end-behavior",
+        "condition": "Student incorrectly determines end behavior (e.g., mixing up even/odd degree or sign).",
+        "systemAction": "Assign reteach module for err-polynomial-end-behavior."
+      }
+    ],
+    "nextActions": [
+      "[err-piecewise-open-closed-hole] Student selects an option that applies open/closed circle incorrectly at a piecewise endpoint.: You confused when to use open vs closed circles. Let's review piecewise endpoint conventions.",
+      "[err-piecewise-domain-interval] Student chooses an option that assigns an x-interval to the wrong piece or misses the correct domain span.: You need practice identifying which x-values belong to each piece. We'll work on domain intervals.",
+      "[err-polynomial-degree] Student incorrectly identifies the degree of a polynomial (e.g., miscounting highest power).: You misidentified the degree. Let's review how to find the highest power in a polynomial.",
+      "[err-polynomial-end-behavior] Student incorrectly determines end behavior (e.g., mixing up even/odd degree or sign).: You made an error with end behavior. We'll go over the rules for degree and leading coefficient."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-s6-0708-q1",
+        "type": "choice",
+        "question": "A piecewise function is defined as: f(x) = { 2x+1, x < 3; -x+4, x ≥ 3 }. At x = 3, what symbol should appear on the graph at the end of the first piece?",
+        "options": [
+          "Open circle",
+          "Closed circle",
+          "No symbol needed",
+          "A dashed line"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can distinguish between inclusive (closed) and exclusive (open) boundaries for piecewise intervals.",
+        "misconceptions": [
+          "✓ 正确",
+          "The first piece is defined for x < 3, so x=3 is not included; an open circle is correct.",
+          "The piecewise function changes at x=3, so a symbol is needed to show inclusion/exclusion.",
+          "Dashed lines indicate asymptotes, not piecewise endpoints. Use open/closed circle."
+        ],
+        "nodeId": "piecewise-functions",
+        "errorId": "err-piecewise-open-closed-hole",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies whether a piecewise endpoint should be open or closed based on the inequality.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Piecewise functions are not explicitly in the official MHF4U expectations, but this question aligns with the general skill of interpreting function representations (C1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks all endpoints are closed or confuses inequality signs with circle type.",
+        "remediationModule": "err-piecewise-open-closed-hole",
+        "retestItem": "err-piecewise-open-closed-hole"
+      },
+      {
+        "id": "diag-mhf4u-s6-0708-q2",
+        "type": "choice",
+        "question": "Consider the graph of a piecewise function: It has a horizontal line at y=2 from x=-∞ to x=1 with a closed circle at (1,2), and a line with slope -1 from x=1 to x=4 with an open circle at (1,? Actually, let's simplify: The graph shows a piece: y = 3 for x in (-∞, 2] and y = x+1 for x in (2, 5]. What is the domain interval for the second piece?",
+        "options": [
+          "[2, 5]",
+          "(2, 5]",
+          "(2, 5)",
+          "(-∞, 2]"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can read domain intervals from a graph of a piecewise function.",
+        "misconceptions": [
+          "The second piece starts at x > 2, not including 2, so the interval should be (2, 5].",
+          "✓ 正确",
+          "The graph shows a closed circle at x=5 for the second piece, so 5 is included. Use ] or bracket.",
+          "That is the domain of the first piece, not the second."
+        ],
+        "nodeId": "piecewise-functions",
+        "errorId": "err-piecewise-domain-interval",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the interval for a given piece of a function from its graph.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligns with connecting graphical to algebraic representations (C1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may think the domain interval is all real numbers or misread the endpoints from the graph.",
+        "remediationModule": "err-piecewise-domain-interval",
+        "retestItem": "err-piecewise-domain-interval"
+      },
+      {
+        "id": "diag-mhf4u-s6-0708-q3",
+        "type": "choice",
+        "question": "What is the degree of the polynomial function P(x) = 3x^5 - 2x^3 + 7x - 1?",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "6"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can determine the degree from a polynomial expression.",
+        "misconceptions": [
+          "✓ 正确",
+          "The highest exponent is 5, not 3.",
+          "There is no x^4 term; the highest exponent present is 5.",
+          "The terms have exponents 5, 3, 1, and 0; the highest is 5."
+        ],
+        "nodeId": "polynomial-functions",
+        "errorId": "err-polynomial-degree",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies the degree of a polynomial function.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly aligns with identifying key features (degree) of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may count all terms or include coefficients instead of focusing on the highest exponent.",
+        "remediationModule": "err-polynomial-degree",
+        "retestItem": "err-polynomial-degree"
+      },
+      {
+        "id": "diag-mhf4u-s6-0708-q4",
+        "type": "choice",
+        "question": "Consider the polynomial f(x) = -2x^4 + 3x^2 - 5. Which statement correctly describes its end behavior as x → +∞ and x → -∞?",
+        "options": [
+          "As x → ±∞, f(x) → +∞",
+          "As x → ±∞, f(x) → -∞",
+          "As x → +∞, f(x) → +∞; as x → -∞, f(x) → -∞",
+          "As x → +∞, f(x) → -∞; as x → -∞, f(x) → +∞"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can apply the rules of end behavior (degree even/odd, leading coefficient sign) to describe the limits.",
+        "misconceptions": [
+          "Leading coefficient negative and degree even means both ends go down to -∞, not up.",
+          "✓ 正确",
+          "That pattern occurs for odd degree with positive leading coefficient, not for even degree negative.",
+          "That is for odd degree with negative leading coefficient."
+        ],
+        "nodeId": "polynomial-functions",
+        "errorId": "err-polynomial-end-behavior",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly determines end behavior based on degree and leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may think positive leading coefficient always leads to both ends going up, or confuse degree parity.",
+        "remediationModule": "err-polynomial-end-behavior",
+        "retestItem": "err-polynomial-end-behavior"
+      }
+    ]
+  }
+}
