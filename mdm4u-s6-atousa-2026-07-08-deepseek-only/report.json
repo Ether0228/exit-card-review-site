@@ -1,0 +1,76 @@
+{
+  "generatedAt": "2026-07-08T05:23:02.045Z",
+  "deepseekOnly": true,
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/J7CTd7l16oH6blx0DhOcHFQRn9d?from=vc_group_doc_link#doxcnyVB9rrboN3Yh9DhrIBovHc",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-08 智能纪要",
+  "officialBankStatus": {
+    "ossd": "loaded",
+    "knowledgeNodes": "loaded",
+    "courseCode": "MDM4U"
+  },
+  "finalIssues": [
+    "q1 ossdExpectation does not quote or closely match current course official expectations",
+    "q5 ossdExpectation does not quote or closely match current course official expectations"
+  ],
+  "stepReports": [
+    {
+      "step": "courseOpsExtract",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "factBank",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "diagnosticCard",
+      "issues": [
+        "q1 ossdExpectation does not quote or closely match current course official expectations",
+        "q5 ossdExpectation does not quote or closely match current course official expectations"
+      ],
+      "repairedBy": "pro"
+    },
+    {
+      "step": "reteach:err-venn-start-single",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "retest:err-venn-start-single",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "reteach:err-prob-and-or-confusion",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "retest:err-prob-and-or-confusion",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "reteach:err-union-overcount",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "retest:err-union-overcount",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "reteach:err-venn-no-verify",
+      "issues": [],
+      "repairedBy": null
+    },
+    {
+      "step": "retest:err-venn-no-verify",
+      "issues": [],
+      "repairedBy": null
+    }
+  ]
+}

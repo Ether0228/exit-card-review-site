@@ -1,0 +1,1288 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-08",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/J7CTd7l16oH6blx0DhOcHFQRn9d?from=vc_group_doc_link#doxcnyVB9rrboN3Yh9DhrIBovHc",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-08 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/J7CTd7l16oH6blx0DhOcHFQRn9d?from=vc_group_doc_link#doxcnyVB9rrboN3Yh9DhrIBovHc",
+    "title": "MDM4U.S6.Atousa 2026-07-08 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/Downloads/Gia Zhu/02_Active_Projects/创新学校/artifacts/course-chat-ingestion/2026-07-08-sources/mdm4u-s6-atousa-2026-07-08/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-08",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-08",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session includes direct instruction on set probability concepts and Python integration, followed by guided practice (Venn diagram exercises). It also contains administrative announcements and reminders, making it a mixed lesson.",
+    "academicContentSignals": [
+      "Probability calculation for a 20-sided die (divisible by 5)",
+      "Python for loop with modulo operator to count divisible numbers",
+      "Definitions: simple event, compound event, subset",
+      "Set intersection, disjoint (mutually exclusive), set union",
+      "Venn diagram problem-solving strategy (start from triple intersection)",
+      "Sports club registration example calculation",
+      "Probability calculations from Venn diagrams (and/or)"
+    ],
+    "courseOverviewSignals": [
+      "Integrated cross-disciplinary teaching of Python and probability",
+      "Summer session content adjustment for small class size",
+      "Private class customization to prepare for university-level learning"
+    ],
+    "opsDominanceRisk": "Operations such as health reminders, break schedules, and assignment deadlines are present but do not overshadow the significant academic content. Care should be taken not to convert operational reminders into diagnostic items.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Summer Attendance Adaptation",
+        "studentAction": "Be aware that if on-site attendance drops below 3, advanced extension content will be avoided.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the teacher will avoid adding overly advanced extension content when on-site attendance drops below 3 participants",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Health Priority: Prolonged Sedentary Risk Warning",
+        "studentAction": "Do not sit in front of screens for more than 30 consecutive minutes. Take a 5-minute movement break every 20-30 minutes.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "the teacher explicitly reminds students not to sit in front of digital screens for more than 30 consecutive minutes",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Class Activity 2 Grading Timeline",
+        "studentAction": "Expect graded feedback before the start of the next class.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students who submitted Class Activity 2",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students who have already submitted Class Activity 2 will receive graded feedback... before the official start of the next scheduled class session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Class Activity 2 Submission Reminder",
+        "studentAction": "Upload completed Class Activity 2 to the designated platform before the next class.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": "designated platform",
+        "link": null,
+        "appliesTo": "students who have not yet submitted",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students who have not yet submitted their completed Class Activity 2 are required to upload their work to the designated platform before the next class",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "review_focus",
+        "title": "Next Class: Full Review of Class Activity 2",
+        "studentAction": "Prepare to review all question types and common error points from Class Activity 2 in the first half of the next session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The following class will dedicate the full first half of the session to reviewing Class Activity 2",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "teacher_request",
+        "title": "Cross-Disciplinary Practice Encouragement",
+        "studentAction": "Continue connecting probability concepts to Python programming outside of class. Generate your own real-world examples for set theory.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students are encouraged to continue connecting probability concepts to Python programming practice outside of class",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Graded feedback before the official start of the next scheduled class session.",
+        "reason": "Next class date unspecified; deadline cannot be determined."
+      },
+      {
+        "rawText": "Upload to designated platform before the next class.",
+        "reason": "Platform name not specified."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Simple Event in Probability、Compound Event in Probability、Subset in Probability Context、Intersection of Sets）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 9 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Simple event: an event with exactly one outcome.；Compound event: an event consisting of two or more simple events.；Subset: a set whose elements all belong to a larger parent set.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Distinguish between simple and compound events and identify disjoint (mutually exclusive) events."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply the union formula |A ∪ B| = |A| + |B| - |A ∩ B| to solve probability problems."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Construct three-set Venn diagrams following the correct procedure: start from triple intersection, then two-set intersections, then single-set, and verify totals."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Calculate theoretical probabilities using Venn diagram data and avoid common errors."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "mdm4u-set-prob-simple-event",
+      "name": "Simple Event in Probability",
+      "nameEn": "Simple Event",
+      "definition": "An event that consists of exactly one outcome from the sample space.",
+      "officialExpectationCode": "A1.1",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "recognize and describe how probabilities are used to represent the likelihood of a result of an experiment ... and the likelihood of a real-world event"
+    },
+    {
+      "id": "mdm4u-set-prob-compound-event",
+      "name": "Compound Event in Probability",
+      "nameEn": "Compound Event",
+      "definition": "An event that consists of two or more simple events.",
+      "officialExpectationCode": "A1.5",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive, and solve related probability problems"
+    },
+    {
+      "id": "mdm4u-set-prob-subset",
+      "name": "Subset in Probability Context",
+      "nameEn": "Subset",
+      "definition": "A set whose elements are all contained within a larger set (the sample space or another event).",
+      "officialExpectationCode": "A1.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "describe a sample space as a set that contains all possible outcomes of an experiment, and distinguish between a discrete sample space ... and a continuous sample space"
+    },
+    {
+      "id": "mdm4u-set-prob-intersection",
+      "name": "Intersection of Sets",
+      "nameEn": "Intersection",
+      "definition": "The set of elements that belong to both set A and set B, denoted A ∩ B.",
+      "officialExpectationCode": "A1.5",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "recognize and describe an event ... determine whether two or more events are mutually exclusive or non-mutually exclusive, and solve related probability problems"
+    },
+    {
+      "id": "mdm4u-set-prob-union",
+      "name": "Union of Sets",
+      "nameEn": "Union",
+      "definition": "The set of elements that belong to either set A or set B (or both), denoted A ∪ B.",
+      "officialExpectationCode": "A1.5",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "same as above"
+    },
+    {
+      "id": "mdm4u-set-prob-disjoint",
+      "name": "Disjoint (Mutually Exclusive) Sets",
+      "nameEn": "Disjoint Sets",
+      "definition": "Two sets with no common elements; their intersection is the empty set.",
+      "officialExpectationCode": "A1.5",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "same as above"
+    },
+    {
+      "id": "mdm4u-set-prob-union-formula",
+      "name": "Union Size Formula",
+      "nameEn": "Union Formula",
+      "definition": "For two sets, the number of elements in their union is given by |A ∪ B| = |A| + |B| - |A ∩ B|.",
+      "officialExpectationCode": "A1.5",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "same as above"
+    },
+    {
+      "id": "mdm4u-set-prob-venn-diagram-procedure",
+      "name": "Three-Set Venn Diagram Procedure",
+      "nameEn": "Venn Diagram Problem Solving",
+      "definition": "Step-by-step method: 1) Fill triple intersection, 2) Subtract triple from each two-set intersection to get two-set-only values, 3) Subtract overlapping segments from each set total to get single-set-only values, 4) Verify totals.",
+      "officialExpectationCode": "A1.5",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "same as above"
+    },
+    {
+      "id": "mdm4u-set-prob-probability-calculation",
+      "name": "Theoretical Probability Calculation",
+      "nameEn": "Theoretical Probability",
+      "definition": "Probability of an event = number of outcomes in the event divided by total number of outcomes in the sample space (all equally likely).",
+      "officialExpectationCode": "A1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "determine the theoretical probability, Pi, of each outcome of a discrete sample space, recognize that the sum of the probabilities is 1, and solve related problems"
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between simple and compound events and identify disjoint (mutually exclusive) events."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the union formula |A ∪ B| = |A| + |B| - |A ∩ B| to solve probability problems."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Construct three-set Venn diagrams following the correct procedure: start from triple intersection, then two-set intersections, then single-set, and verify totals."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Calculate theoretical probabilities using Venn diagram data and avoid common errors."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-venn-start-single",
+        "condition": "student picks wrong option on Q4 or gives incorrect procedure in Q6",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "It looks like you may have started filling the Venn diagram from the single-set regions. Remember to always begin with the triple intersection."
+      },
+      {
+        "errorId": "err-prob-and-or-confusion",
+        "condition": "student picks wrong option on Q1, Q2, or Q7",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "It seems 'and' (intersection) and 'or' (union) are being mixed up. Let's review the difference with a quick module."
+      },
+      {
+        "errorId": "err-union-overcount",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "You may have added the set totals without subtracting the intersection. The union formula removes double-counted elements."
+      },
+      {
+        "errorId": "err-venn-no-verify",
+        "condition": "student picks wrong option on Q5 or gives incorrect verification in Q8",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "It looks like the Venn diagram totals weren't checked. Always verify each set's total after filling all regions."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-set-prob-q1",
+        "nodeId": "mdm4u-set-prob-simple-event",
+        "errorId": "err-prob-and-or-confusion",
+        "stem": "When rolling a fair 20-sided die, which of the following is a simple event?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that a simple event has exactly one outcome.",
+        "ossdExpectation": "recognize and describe how probabilities are used to represent the likelihood of a result of an experiment (e.g., spinning spinners; drawing tokens from a bag with replacement; tossing a coin) and the likelihood of a real-world event (e.g., that it will rain tomorrow, that an accident will occur when crossing an intersection, that there will be a power failure)",
+        "officialExpectationCode": "A1.1",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "officialExpectationCode A1.1 matches the knowledge node, but node_id is null in the bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of simple vs compound event.",
+        "commonMisconception": "Thinking 'rolling an even number' is a simple event because it feels simple.",
+        "remediationModule": "err-prob-and-or-confusion",
+        "retestItem": "err-prob-and-or-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "Rolling a number greater than 15",
+            "correct": false,
+            "feedbackWrong": "That event contains multiple outcomes (16,17,18,19,20), so it is compound."
+          },
+          {
+            "label": "B",
+            "text": "Rolling a 7",
+            "correct": true,
+            "feedbackCorrect": "Correct. A simple event has exactly one outcome, such as rolling a 7."
+          },
+          {
+            "label": "C",
+            "text": "Rolling a number divisible by 5",
+            "correct": false,
+            "feedbackWrong": "That event contains four outcomes (5,10,15,20), so it is compound."
+          },
+          {
+            "label": "D",
+            "text": "Rolling an odd number",
+            "correct": false,
+            "feedbackWrong": "That event contains ten outcomes, so it is compound."
+          }
+        ],
+        "nextActionIfWrong": "Assign reteach module for err-prob-and-or-confusion."
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q2",
+        "nodeId": "mdm4u-set-prob-compound-event",
+        "errorId": "err-prob-and-or-confusion",
+        "stem": "In the sports club example (18 volleyball, 20 basketball, 13 both), which event is 'plays volleyball OR basketball'?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly interprets union (OR) and uses formula to find 25.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "A1.5 covers union/intersection and probability problems.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Test understanding of union ('or') vs intersection ('and').",
+        "commonMisconception": "Adding 18+20=38 without subtracting overlap, or confusing 'and' (13) with 'or'.",
+        "remediationModule": "err-prob-and-or-confusion",
+        "retestItem": "err-prob-and-or-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "13 students",
+            "correct": false,
+            "feedbackWrong": "13 is the number who play both (intersection), not the union."
+          },
+          {
+            "label": "B",
+            "text": "25 students",
+            "correct": true,
+            "feedbackCorrect": "Correct. Union = 18 + 20 - 13 = 25."
+          },
+          {
+            "label": "C",
+            "text": "38 students",
+            "correct": false,
+            "feedbackWrong": "You added without subtracting the overlap. The correct union is 25."
+          },
+          {
+            "label": "D",
+            "text": "15 students",
+            "correct": false,
+            "feedbackWrong": "15 is not a value from this data. Check your calculation."
+          }
+        ],
+        "nextActionIfWrong": "Assign reteach module for err-prob-and-or-confusion."
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q3",
+        "nodeId": "mdm4u-set-prob-union-formula",
+        "errorId": "err-union-overcount",
+        "stem": "In a class, 12 students play basketball, 15 play volleyball, and 5 play both. How many students play basketball or volleyball?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly applies |A∪B| = |A|+|B|-|A∩B|.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Union formula falls under A1.5.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to use union formula without overcounting.",
+        "commonMisconception": "Simply adding |A|+|B| = 27 without subtracting the overlap.",
+        "remediationModule": "err-union-overcount",
+        "retestItem": "err-union-overcount",
+        "options": [
+          {
+            "label": "A",
+            "text": "27",
+            "correct": false,
+            "feedbackWrong": "You added without subtracting the 5 who play both. The formula is |A|+|B|-|A∩B|."
+          },
+          {
+            "label": "B",
+            "text": "22",
+            "correct": true,
+            "feedbackCorrect": "Correct. 12+15-5=22."
+          },
+          {
+            "label": "C",
+            "text": "5",
+            "correct": false,
+            "feedbackWrong": "5 is the number who play both, not the union."
+          },
+          {
+            "label": "D",
+            "text": "20",
+            "correct": false,
+            "feedbackWrong": "This might come from guessing. Use the union formula."
+          }
+        ],
+        "nextActionIfWrong": "Assign reteach module for err-union-overcount."
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q4",
+        "nodeId": "mdm4u-set-prob-venn-diagram-procedure",
+        "errorId": "err-venn-start-single",
+        "stem": "When filling a three-set Venn diagram for volleyball (15), basketball (12), swimming (10), triple intersection = 3, basketball & swimming = 4, volleyball & swimming = 4, volleyball & basketball = 8, what should you fill first?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies that the triple intersection must be placed first.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Venn diagram procedure is part of solving probability problems in A1.5.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of correct order in Venn diagram construction.",
+        "commonMisconception": "Starting with single-set (only volleyball) instead of triple intersection.",
+        "remediationModule": "err-venn-start-single",
+        "retestItem": "err-venn-start-single",
+        "options": [
+          {
+            "label": "A",
+            "text": "The value for students who play only volleyball.",
+            "correct": false,
+            "feedbackWrong": "Starting with single-set values often leads to errors. Always begin with the triple intersection."
+          },
+          {
+            "label": "B",
+            "text": "The value for students who play all three sports.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Always start with the triple intersection, then adjust two-set intersections and single-set values."
+          },
+          {
+            "label": "C",
+            "text": "The value for students who play volleyball and basketball but not swimming.",
+            "correct": false,
+            "feedbackWrong": "That is a two-set-only value, which should be filled after the triple intersection."
+          },
+          {
+            "label": "D",
+            "text": "The total number of students.",
+            "correct": false,
+            "feedbackWrong": "The total is used at the end to verify, not to start filling."
+          }
+        ],
+        "nextActionIfWrong": "Assign reteach module for err-venn-start-single."
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q5",
+        "nodeId": "mdm4u-set-prob-probability-calculation",
+        "errorId": "err-venn-no-verify",
+        "stem": "Using the three-sport Venn diagram from earlier (total 24 students), what is the probability that a randomly selected student plays volleyball?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student calculates P(volleyball) = 15/24 = 5/8 correctly by reading from correctly filled diagram.",
+        "ossdExpectation": "determine the theoretical probability, P, of each outcome of a discrete sample space (e.g., P(heads) = 1/2, P(rolling a 6) = 1/6), recognize that the sum of the probabilities is 1, and solve related problems",
+        "officialExpectationCode": "A1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Probability calculation from Venn diagram aligns with A1.3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to compute probability from Venn diagram data and verify set totals.",
+        "commonMisconception": "Using the total volleyball number from the problem statement (15) but not verifying that the diagram regions sum to 15, leading to undetected errors.",
+        "remediationModule": "err-venn-no-verify",
+        "retestItem": "err-venn-no-verify",
+        "options": [
+          {
+            "label": "A",
+            "text": "15/24 = 5/8",
+            "correct": true,
+            "feedbackCorrect": "Correct. Volleyball total is 15 out of 24 students."
+          },
+          {
+            "label": "B",
+            "text": "12/24 = 1/2",
+            "correct": false,
+            "feedbackWrong": "That is the probability for basketball, not volleyball."
+          },
+          {
+            "label": "C",
+            "text": "8/24 = 1/3",
+            "correct": false,
+            "feedbackWrong": "8 is the number who play both volleyball and basketball, not total volleyball."
+          },
+          {
+            "label": "D",
+            "text": "3/24 = 1/8",
+            "correct": false,
+            "feedbackWrong": "3 is the triple intersection, not total volleyball."
+          }
+        ],
+        "nextActionIfWrong": "Assign reteach module for err-venn-no-verify."
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q6",
+        "nodeId": "mdm4u-set-prob-venn-diagram-procedure",
+        "errorId": "err-venn-start-single",
+        "stem": "Explain in 1-2 sentences the correct first step when filling a three-set Venn diagram from given totals and intersections.",
+        "type": "open_ended",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student states to start with the triple intersection region.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Procedure for solving probability problems with Venn diagrams.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Assess understanding of the correct sequence in Venn diagram construction.",
+        "commonMisconception": "Starting with the single-set regions or two-set intersections without the triple.",
+        "remediationModule": "err-venn-start-single",
+        "retestItem": "err-venn-start-single",
+        "rubric": "Full credit: 'Always begin by placing the number in the triple intersection (all three circles).' Partial credit: mentions starting from the intersection but not specifically triple.",
+        "sampleStrongAnswer": "The first step is to fill in the number of elements that belong to all three sets (the triple intersection). This allows you to correctly subtract it from the given two-set intersections later.",
+        "nextActionIfWrong": "Assign reteach module for err-venn-start-single."
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q7",
+        "nodeId": "mdm4u-set-prob-disjoint",
+        "errorId": "err-prob-and-or-confusion",
+        "stem": "Two events are mutually exclusive (disjoint) if:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly defines disjoint sets as having no common outcomes.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Mutually exclusive events are covered in A1.5.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of disjoint sets and relation to intersection.",
+        "commonMisconception": "Thinking disjoint means they have nothing to do with each other, but mathematically it means empty intersection.",
+        "remediationModule": "err-prob-and-or-confusion",
+        "retestItem": "err-prob-and-or-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "They can happen at the same time.",
+            "correct": false,
+            "feedbackWrong": "Mutually exclusive means they cannot happen simultaneously."
+          },
+          {
+            "label": "B",
+            "text": "Their intersection is the empty set.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Disjoint sets have no common elements, so P(A and B) = 0."
+          },
+          {
+            "label": "C",
+            "text": "Their union is the sample space.",
+            "correct": false,
+            "feedbackWrong": "That would be exhaustive, not necessarily disjoint."
+          },
+          {
+            "label": "D",
+            "text": "They have the same probability.",
+            "correct": false,
+            "feedbackWrong": "Probability equality is not related to being disjoint."
+          }
+        ],
+        "nextActionIfWrong": "Assign reteach module for err-prob-and-or-confusion."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-venn-start-single",
+      "condition": "student picks wrong option on Q4 or gives incorrect procedure in Q6",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "It looks like you may have started filling the Venn diagram from the single-set regions. Remember to always begin with the triple intersection."
+    },
+    {
+      "errorId": "err-prob-and-or-confusion",
+      "condition": "student picks wrong option on Q1, Q2, or Q7",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "It seems 'and' (intersection) and 'or' (union) are being mixed up. Let's review the difference with a quick module."
+    },
+    {
+      "errorId": "err-union-overcount",
+      "condition": "student picks wrong option on Q3",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "You may have added the set totals without subtracting the intersection. The union formula removes double-counted elements."
+    },
+    {
+      "errorId": "err-venn-no-verify",
+      "condition": "student picks wrong option on Q5 or gives incorrect verification in Q8",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "It looks like the Venn diagram totals weren't checked. Always verify each set's total after filling all regions."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-venn-start-single",
+      "trigger": "Student starts filling Venn diagram from single-set regions or gives incorrect procedure in describing the steps.",
+      "studentMisunderstanding": "The student believes they can fill the single-set (only one sport) regions first, not realizing that the triple intersection must be placed before the two-set or single-set regions to avoid overlapping errors.",
+      "miniLesson": {
+        "explain": "When constructing a three-set Venn diagram, always begin by filling in the number of elements that belong to all three sets (the triple intersection). Then subtract that number from the given two-set intersections to get the values for exactly two sets. Finally, subtract the overlapping parts from each set total to get the number that belong to exactly one set. This order ensures correct totals.",
+        "example": "In the three-sport example: volleyball=15, basketball=12, swimming=10, triple intersection=3, basketball&swimming=4, volleyball&swimming=4, volleyball&basketball=8. Start by placing 3 in the center. Then for volleyball&basketball but not swimming: 8 - 3 = 5. Similarly, basketball&swimming only: 4 - 3 = 1, volleyball&swimming only: 4 - 3 = 1. Then for only volleyball: 15 - (5+3+1) = 6, only basketball: 12 - (5+3+1) = 3, only swimming: 10 - (1+3+1) = 5. Total: 6+5+3+1+1+3+5 = 24, verifying totals.",
+        "memoryAnchor": "TRIple first: T for Triple, R for Region, I for Intersection. Always start with the center (triple intersection) of the Venn diagram."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a small sports club, 5 students play volleyball, 4 play basketball, and 2 play both. When drawing a Venn diagram, which number should you write FIRST in the overlapping region?",
+          "answer": "2"
+        },
+        {
+          "level": "L2",
+          "prompt": "For the three-sport example: volleyball=15, basketball=12, swimming=10, triple intersection=3, volleyball&basketball=8, volleyball&swimming=4, basketball&swimming=4. What is the correct first number to place in the very center of the Venn diagram?",
+          "answer": "3"
+        },
+        {
+          "level": "L3",
+          "prompt": "After placing the triple intersection (3) in a three-sport Venn diagram, what number goes in the region 'volleyball and basketball, but not swimming'? (Hint: given volleyball&basketball=8)",
+          "answer": "5"
+        }
+      ]
+    },
+    {
+      "errorId": "err-prob-and-or-confusion",
+      "trigger": "Student confuses 'and' (intersection) with 'or' (union) in probability problems.",
+      "studentMisunderstanding": "The student does not distinguish between the intersection (AND) and union (OR) of events. They may think 'and' means adding probabilities together, or they confuse the two terms in word problems, resulting in incorrect operations.",
+      "miniLesson": {
+        "explain": "In probability, 'and' refers to the intersection (overlap) of two events, while 'or' refers to the union (all outcomes in either event). For events A and B: P(A or B) = P(A) + P(B) - P(A and B). This formula subtracts the overlap to avoid double-counting. If A and B are mutually exclusive (disjoint), P(A and B)=0, so P(A or B)=P(A)+P(B).",
+        "example": "In a three-sport example with 24 total students: 15 play volleyball (V), 12 play basketball (B), 8 play both. P(V and B)=8/24=1/3. P(V or B)=(15+12-8)/24=19/24. Notice the union is larger and subtracts the overlap.",
+        "memoryAnchor": "'AND' = small overlap (intersection); 'OR' = big combined set minus the double-counted middle."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the sports club example (18 volleyball, 20 basketball, 13 both), how many students play both volleyball and basketball?",
+          "answer": "13"
+        },
+        {
+          "level": "L2",
+          "prompt": "In the three-sport example (15 volleyball, 12 basketball, 10 swimming, triple=3, volley-basket=8, volley-swim=4, basket-swim=4, total=24), what is the probability a student plays volleyball or basketball?",
+          "answer": "(15+12-8)/24 = 19/24"
+        },
+        {
+          "level": "L3",
+          "prompt": "In the same three-sport example, what is the probability a student plays volleyball or swimming?",
+          "answer": "(15+10-4)/24 = 21/24 = 7/8"
+        }
+      ]
+    },
+    {
+      "errorId": "err-union-overcount",
+      "trigger": "Student adds set totals without subtracting the intersection when finding the union.",
+      "studentMisunderstanding": "Student thinks that the number of elements in the union is simply the sum of the elements in each set, not realizing that overlapping elements are counted twice.",
+      "miniLesson": {
+        "explain": "When finding the union of two sets (A ∪ B), you must add the number of elements in each set and then subtract the number of elements that are in both sets (the intersection). This is because those overlapping elements are counted twice if you just add. The formula is |A ∪ B| = |A| + |B| - |A ∩ B|.",
+        "example": "In a sports club, 18 students play volleyball, 20 play basketball, and 13 play both. To find how many play volleyball or basketball, do: 18 + 20 - 13 = 25. Simply adding 18+20=38 would double-count the 13 who play both.",
+        "memoryAnchor": "Don't double-count the overlap; subtract the intersection."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a sports club, 5 students play volleyball, 4 play basketball, and 2 play both. How many students play volleyball or basketball?",
+          "answer": "7"
+        },
+        {
+          "level": "L2",
+          "prompt": "In the three-sport example with 24 total students, 15 play volleyball, 12 play basketball, and 8 play both. What is the probability that a randomly selected student plays volleyball or basketball?",
+          "answer": "19/24"
+        },
+        {
+          "level": "L3",
+          "prompt": "Using the small sports club data (5 volleyball, 4 basketball, 2 both), how many students play exactly one sport (volleyball or basketball but not both)?",
+          "answer": "5"
+        }
+      ]
+    },
+    {
+      "errorId": "err-venn-no-verify",
+      "trigger": "It looks like the Venn diagram totals weren't checked. Always verify each set's total after filling all regions.",
+      "studentMisunderstanding": "Student thinks that after filling in the numbers from the given data, the region values are automatically correct without needing to sum them back to the original set totals.",
+      "miniLesson": {
+        "explain": "After filling all regions in a Venn diagram, you must verify that the sum of regions for each set equals the given total for that set. This catches arithmetic or logic errors, such as forgetting to subtract the triple intersection from a two-set overlap.",
+        "example": "Three-sport example: volleyball=15, basketball=12, swimming=10, triple=3, basketball&swimming=4, volleyball&swimming=4, volleyball&basketball=8. Correct filling: triple=3; basketball&swimming only=4-3=1; volleyball&swimming only=4-3=1; volleyball&basketball only=8-3=5; volleyball only=15-(5+3+1)=6; basketball only=12-(5+3+1)=3; swimming only=10-(1+3+1)=5. Verification: volleyball total=6+5+3+1=15; basketball total=3+5+1+3=12; swimming total=5+1+1+3=10. All match. If you skipped verification, you might think the numbers are correct when they aren't.",
+        "memoryAnchor": "Verify totals: After filling, check each set's sum against the original total. If sums don't match, go back and adjust."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a survey, 18 students play volleyball, 20 play basketball, and 13 play both. The Venn diagram has been filled with: only volleyball = 5, only basketball = 7, both = 13, neither = 0. Verify if the totals match. Show your work.",
+          "answer": "Volleyball total = only volleyball + both = 5 + 13 = 18, matches given total of 18. Basketball total = only basketball + both = 7 + 13 = 20, matches given total of 20. Both is given as 13, which matches. The neither region is consistent (0). Therefore, the diagram is verified correctly."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student filled a three-set Venn diagram for volleyball (15), basketball (12), swimming (10), triple intersection = 3, with the following region values: volleyball & basketball only = 8, volleyball & swimming only = 4, basketball & swimming only = 4, volleyball only = 0, basketball only = 0, swimming only = 0. Use verification to find the error(s).",
+          "answer": "Check volleyball total: 0 + 8 + 4 + 3 = 15, matches given 15. Check basketball total: 0 + 8 + 4 + 3 = 15, but given total is 12. There is an error: volleyball & basketball only should be 8 - 3 = 5, not 8. Similarly, check swimming: 0 + 4 + 4 + 3 = 11, but given total is 10. Error: volleyball & swimming only should be 4 - 3 = 1, and basketball & swimming only should be 4 - 3 = 1. The student did not subtract the triple intersection from the two-set intersections. Correct the triple intersection is subtracted: v&b only = 8-3=5, v&s only = 4-3=1, b&s only = 4-3=1. Then recompute: volleyball only = 15 - (5+3+1) = 6, basketball only = 12 - (5+3+1) = 3, swimming only = 10 - (1+3+1) = 5. After correction, totals verify: volleyball = 6+5+3+1=15, basketball = 3+5+1+3=12, swimming = 5+1+1+3=10."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why verification is important after filling a Venn diagram. Provide a step-by-step verification process for the three-sport example: volleyball=15, basketball=12, swimming=10, triple=3, v&b=8, v&s=4, b&s=4, total students=24.",
+          "answer": "Verification is important because it catches arithmetic mistakes and ensures that all regions are correctly derived from the given totals. Without verification, errors like forgetting to subtract the triple intersection may go undetected. Step-by-step verification for the three-sport example: 1. Fill the triple intersection: 3. 2. For each two-set intersection, subtract the triple to get the two-set-only values: v&b only = 8-3=5, v&s only = 4-3=1, b&s only = 4-3=1. 3. For each set, subtract the sum of overlapping regions (including triple) from the given total to get the only region: volleyball only = 15 - (5+3+1) = 6; basketball only = 12 - (5+3+1) = 3; swimming only = 10 - (1+3+1) = 5. 4. Verify each set total by adding its only region plus all overlapping regions: volleyball total = 6+5+1+3 = 15 (matches given 15); basketball total = 3+5+1+3 = 12 (matches 12); swimming total = 5+1+1+3 = 10 (matches 10). 5. Optionally, verify total students by summing all regions: 6+3+5+5+1+1+3 = 24 (matches total). If any check fails, recheck calculations from step 1."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-venn-start-single",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In a three-set Venn diagram problem, what should you fill in first?",
+          "options": [
+            "The number in the triple intersection",
+            "The numbers in the single-set regions",
+            "The numbers in the two-set intersections",
+            "The total number of elements"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Consider a three-sport Venn diagram: Volleyball=15, Basketball=12, Swimming=10. The triple intersection is 3. Volleyball&Basketball (including triple) is 8, Volleyball&Swimming is 4, Basketball&Swimming is 4. After placing the triple intersection (3) in the center, what number should go in the region that is in Volleyball and Basketball but NOT in Swimming? Show your calculation.",
+          "rubric": "Accept 5. Calculation: 8 - 3 = 5. Student must show subtraction."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-prob-and-or-confusion",
+      "questions": [
+        {
+          "id": "retest-and-or-1",
+          "type": "single_choice",
+          "stem": "In a three-sport example with 24 students: 15 play volleyball, 12 play basketball, 10 play swimming, 3 play all three, 8 play volleyball and basketball (including triple), 4 play volleyball and swimming (including triple), 4 play basketball and swimming (including triple). What is the probability a randomly chosen student plays basketball OR swimming?",
+          "options": [
+            "22/24",
+            "18/24",
+            "12/24",
+            "10/24"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-and-or-2",
+          "type": "open_ended",
+          "stem": "Using the same three-sport example, what is the probability a randomly chosen student plays basketball AND swimming? Express your answer as a fraction in simplest form.",
+          "rubric": "Answer: 4/24 = 1/6. Must show 4/24 or simplified 1/6."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-union-overcount",
+      "questions": [
+        {
+          "id": "retest-err-union-overcount-q1",
+          "type": "single_choice",
+          "stem": "A school has two clubs: chess club has 18 members, drama club has 20 members, and 13 students are members of both clubs. How many students belong to at least one of these two clubs?",
+          "options": [
+            "38",
+            "25",
+            "13",
+            "31"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-union-overcount-q2",
+          "type": "open_ended",
+          "stem": "In a class of 24 students, 15 play volleyball, 12 play basketball, and 8 play both. What is the probability that a randomly selected student plays volleyball or basketball? Show your work, including the union formula, and express the probability as a fraction in simplest form.",
+          "rubric": "Student correctly calculates union size: |V ∪ B| = |V| + |B| - |V ∩ B| = 15 + 12 - 8 = 19. Then probability = 19/24. Full marks for correct calculation and final fraction."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-venn-no-verify",
+      "questions": [
+        {
+          "id": "venn-verify-q1",
+          "type": "single_choice",
+          "stem": "After filling all regions in a Venn diagram from given set totals, what is the most important step to ensure accuracy?",
+          "options": [
+            "Accept the numbers as they are without checking.",
+            "Check that the sum of regions for each set equals the original total for that set.",
+            "Redraw the entire diagram.",
+            "Ignore the totals and use the filled numbers directly."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "venn-verify-q2",
+          "type": "open_ended",
+          "stem": "In a survey, 10 students play football, 8 play rugby, and 5 play both. A student filled the Venn diagram as: only football = 5, only rugby = 3, both = 5. Verify whether the diagram is correct. Show your work.",
+          "rubric": "Student must add the regions for each set: football total = only football + both = 5 + 5 = 10 (matches given 10); rugby total = only rugby + both = 3 + 5 = 8 (matches given 8). Conclude that the diagram is correct. Accept alternative correct approaches (e.g., using union formula)."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-08",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/J7CTd7l16oH6blx0DhOcHFQRn9d?from=vc_group_doc_link#doxcnyVB9rrboN3Yh9DhrIBovHc",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-08 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Simple event: an event with exactly one outcome.；Compound event: an event consisting of two or more simple events.；Subset: a set whose elements all belong to a larger parent set.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between simple and compound events and identify disjoint (mutually exclusive) events."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the union formula |A ∪ B| = |A| + |B| - |A ∩ B| to solve probability problems."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Construct three-set Venn diagrams following the correct procedure: start from triple intersection, then two-set intersections, then single-set, and verify totals."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Calculate theoretical probabilities using Venn diagram data and avoid common errors."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Summer Attendance Adaptation",
+        "studentAction": "Be aware that if on-site attendance drops below 3, advanced extension content will be avoided.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the teacher will avoid adding overly advanced extension content when on-site attendance drops below 3 participants",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Health Priority: Prolonged Sedentary Risk Warning",
+        "studentAction": "Do not sit in front of screens for more than 30 consecutive minutes. Take a 5-minute movement break every 20-30 minutes.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "the teacher explicitly reminds students not to sit in front of digital screens for more than 30 consecutive minutes",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Class Activity 2 Grading Timeline",
+        "studentAction": "Expect graded feedback before the start of the next class.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students who submitted Class Activity 2",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students who have already submitted Class Activity 2 will receive graded feedback... before the official start of the next scheduled class session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Class Activity 2 Submission Reminder",
+        "studentAction": "Upload completed Class Activity 2 to the designated platform before the next class.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": "designated platform",
+        "link": null,
+        "appliesTo": "students who have not yet submitted",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students who have not yet submitted their completed Class Activity 2 are required to upload their work to the designated platform before the next class",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "review_focus",
+        "title": "Next Class: Full Review of Class Activity 2",
+        "studentAction": "Prepare to review all question types and common error points from Class Activity 2 in the first half of the next session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The following class will dedicate the full first half of the session to reviewing Class Activity 2",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "teacher_request",
+        "title": "Cross-Disciplinary Practice Encouragement",
+        "studentAction": "Continue connecting probability concepts to Python programming outside of class. Generate your own real-world examples for set theory.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students are encouraged to continue connecting probability concepts to Python programming practice outside of class",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Graded feedback before the official start of the next scheduled class session.",
+        "reason": "Next class date unspecified; deadline cannot be determined."
+      },
+      {
+        "rawText": "Upload to designated platform before the next class.",
+        "reason": "Platform name not specified."
+      }
+    ],
+    "watchTags": [
+      "mdm4u-set-prob-simple-event",
+      "mdm4u-set-prob-compound-event",
+      "mdm4u-set-prob-subset",
+      "mdm4u-set-prob-intersection",
+      "mdm4u-set-prob-union",
+      "mdm4u-set-prob-disjoint",
+      "mdm4u-set-prob-union-formula",
+      "mdm4u-set-prob-venn-diagram-procedure",
+      "mdm4u-set-prob-probability-calculation"
+    ],
+    "totalQuestions": 7,
+    "completed": false,
+    "passScore": 7,
+    "diagnosisRules": [
+      {
+        "errorId": "err-venn-start-single",
+        "condition": "student picks wrong option on Q4 or gives incorrect procedure in Q6",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-prob-and-or-confusion",
+        "condition": "student picks wrong option on Q1, Q2, or Q7",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-union-overcount",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-venn-no-verify",
+        "condition": "student picks wrong option on Q5 or gives incorrect verification in Q8",
+        "systemAction": "assign reteach module for this errorId"
+      }
+    ],
+    "nextActions": [
+      "[err-venn-start-single] student picks wrong option on Q4 or gives incorrect procedure in Q6: It looks like you may have started filling the Venn diagram from the single-set regions. Remember to always begin with the triple intersection.",
+      "[err-prob-and-or-confusion] student picks wrong option on Q1, Q2, or Q7: It seems 'and' (intersection) and 'or' (union) are being mixed up. Let's review the difference with a quick module.",
+      "[err-union-overcount] student picks wrong option on Q3: You may have added the set totals without subtracting the intersection. The union formula removes double-counted elements.",
+      "[err-venn-no-verify] student picks wrong option on Q5 or gives incorrect verification in Q8: It looks like the Venn diagram totals weren't checked. Always verify each set's total after filling all regions."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-set-prob-q1",
+        "type": "choice",
+        "question": "When rolling a fair 20-sided die, which of the following is a simple event?",
+        "options": [
+          "Rolling a number greater than 15",
+          "Rolling a 7",
+          "Rolling a number divisible by 5",
+          "Rolling an odd number"
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of simple vs compound event.",
+        "misconceptions": [
+          "That event contains multiple outcomes (16,17,18,19,20), so it is compound.",
+          "✓ Correct. A simple event has exactly one outcome, such as rolling a 7.",
+          "That event contains four outcomes (5,10,15,20), so it is compound.",
+          "That event contains ten outcomes, so it is compound."
+        ],
+        "nodeId": "mdm4u-set-prob-simple-event",
+        "errorId": "err-prob-and-or-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that a simple event has exactly one outcome.",
+        "ossdExpectation": "recognize and describe how probabilities are used to represent the likelihood of a result of an experiment (e.g., spinning spinners; drawing tokens from a bag with replacement; tossing a coin) and the likelihood of a real-world event (e.g., that it will rain tomorrow, that an accident will occur when crossing an intersection, that there will be a power failure)",
+        "officialExpectationCode": "A1.1",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "officialExpectationCode A1.1 matches the knowledge node, but node_id is null in the bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking 'rolling an even number' is a simple event because it feels simple.",
+        "remediationModule": "err-prob-and-or-confusion",
+        "retestItem": "err-prob-and-or-confusion"
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q2",
+        "type": "choice",
+        "question": "In the sports club example (18 volleyball, 20 basketball, 13 both), which event is 'plays volleyball OR basketball'?",
+        "options": [
+          "13 students",
+          "25 students",
+          "38 students",
+          "15 students"
+        ],
+        "correct": 1,
+        "diagnosis": "Test understanding of union ('or') vs intersection ('and').",
+        "misconceptions": [
+          "13 is the number who play both (intersection), not the union.",
+          "✓ Correct. Union = 18 + 20 - 13 = 25.",
+          "You added without subtracting the overlap. The correct union is 25.",
+          "15 is not a value from this data. Check your calculation."
+        ],
+        "nodeId": "mdm4u-set-prob-compound-event",
+        "errorId": "err-prob-and-or-confusion",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly interprets union (OR) and uses formula to find 25.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "A1.5 covers union/intersection and probability problems.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Adding 18+20=38 without subtracting overlap, or confusing 'and' (13) with 'or'.",
+        "remediationModule": "err-prob-and-or-confusion",
+        "retestItem": "err-prob-and-or-confusion"
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q3",
+        "type": "choice",
+        "question": "In a class, 12 students play basketball, 15 play volleyball, and 5 play both. How many students play basketball or volleyball?",
+        "options": [
+          "27",
+          "22",
+          "5",
+          "20"
+        ],
+        "correct": 1,
+        "diagnosis": "Check ability to use union formula without overcounting.",
+        "misconceptions": [
+          "You added without subtracting the 5 who play both. The formula is |A|+|B|-|A∩B|.",
+          "✓ Correct. 12+15-5=22.",
+          "5 is the number who play both, not the union.",
+          "This might come from guessing. Use the union formula."
+        ],
+        "nodeId": "mdm4u-set-prob-union-formula",
+        "errorId": "err-union-overcount",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly applies |A∪B| = |A|+|B|-|A∩B|.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Union formula falls under A1.5.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Simply adding |A|+|B| = 27 without subtracting the overlap.",
+        "remediationModule": "err-union-overcount",
+        "retestItem": "err-union-overcount"
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q4",
+        "type": "choice",
+        "question": "When filling a three-set Venn diagram for volleyball (15), basketball (12), swimming (10), triple intersection = 3, basketball & swimming = 4, volleyball & swimming = 4, volleyball & basketball = 8, what should you fill first?",
+        "options": [
+          "The value for students who play only volleyball.",
+          "The value for students who play all three sports.",
+          "The value for students who play volleyball and basketball but not swimming.",
+          "The total number of students."
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of correct order in Venn diagram construction.",
+        "misconceptions": [
+          "Starting with single-set values often leads to errors. Always begin with the triple intersection.",
+          "✓ Correct. Always start with the triple intersection, then adjust two-set intersections and single-set values.",
+          "That is a two-set-only value, which should be filled after the triple intersection.",
+          "The total is used at the end to verify, not to start filling."
+        ],
+        "nodeId": "mdm4u-set-prob-venn-diagram-procedure",
+        "errorId": "err-venn-start-single",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies that the triple intersection must be placed first.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Venn diagram procedure is part of solving probability problems in A1.5.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Starting with single-set (only volleyball) instead of triple intersection.",
+        "remediationModule": "err-venn-start-single",
+        "retestItem": "err-venn-start-single"
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q5",
+        "type": "choice",
+        "question": "Using the three-sport Venn diagram from earlier (total 24 students), what is the probability that a randomly selected student plays volleyball?",
+        "options": [
+          "15/24 = 5/8",
+          "12/24 = 1/2",
+          "8/24 = 1/3",
+          "3/24 = 1/8"
+        ],
+        "correct": 0,
+        "diagnosis": "Check ability to compute probability from Venn diagram data and verify set totals.",
+        "misconceptions": [
+          "✓ Correct. Volleyball total is 15 out of 24 students.",
+          "That is the probability for basketball, not volleyball.",
+          "8 is the number who play both volleyball and basketball, not total volleyball.",
+          "3 is the triple intersection, not total volleyball."
+        ],
+        "nodeId": "mdm4u-set-prob-probability-calculation",
+        "errorId": "err-venn-no-verify",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student calculates P(volleyball) = 15/24 = 5/8 correctly by reading from correctly filled diagram.",
+        "ossdExpectation": "determine the theoretical probability, P, of each outcome of a discrete sample space (e.g., P(heads) = 1/2, P(rolling a 6) = 1/6), recognize that the sum of the probabilities is 1, and solve related problems",
+        "officialExpectationCode": "A1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Probability calculation from Venn diagram aligns with A1.3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Using the total volleyball number from the problem statement (15) but not verifying that the diagram regions sum to 15, leading to undetected errors.",
+        "remediationModule": "err-venn-no-verify",
+        "retestItem": "err-venn-no-verify"
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q6",
+        "type": "explain",
+        "question": "Explain in 1-2 sentences the correct first step when filling a three-set Venn diagram from given totals and intersections.",
+        "correct": null,
+        "diagnosis": "Assess understanding of the correct sequence in Venn diagram construction.",
+        "nodeId": "mdm4u-set-prob-venn-diagram-procedure",
+        "errorId": "err-venn-start-single",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student states to start with the triple intersection region.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Procedure for solving probability problems with Venn diagrams.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Starting with the single-set regions or two-set intersections without the triple.",
+        "remediationModule": "err-venn-start-single",
+        "retestItem": "err-venn-start-single"
+      },
+      {
+        "id": "diag-mdm4u-set-prob-q7",
+        "type": "choice",
+        "question": "Two events are mutually exclusive (disjoint) if:",
+        "options": [
+          "They can happen at the same time.",
+          "Their intersection is the empty set.",
+          "Their union is the sample space.",
+          "They have the same probability."
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of disjoint sets and relation to intersection.",
+        "misconceptions": [
+          "Mutually exclusive means they cannot happen simultaneously.",
+          "✓ Correct. Disjoint sets have no common elements, so P(A and B) = 0.",
+          "That would be exhaustive, not necessarily disjoint.",
+          "Probability equality is not related to being disjoint."
+        ],
+        "nodeId": "mdm4u-set-prob-disjoint",
+        "errorId": "err-prob-and-or-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly defines disjoint sets as having no common outcomes.",
+        "ossdExpectation": "recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies (e.g., Venn diagrams, lists, formulas)",
+        "officialExpectationCode": "A1.5",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Mutually exclusive events are covered in A1.5.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking disjoint means they have nothing to do with each other, but mathematically it means empty intersection.",
+        "remediationModule": "err-prob-and-or-confusion",
+        "retestItem": "err-prob-and-or-confusion"
+      }
+    ]
+  }
+}
