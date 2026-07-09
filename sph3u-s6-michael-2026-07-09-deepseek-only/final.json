@@ -1,0 +1,1035 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-09",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/B6ngdu8LtoRAZtxo0NNcHhjanVd?from=vc_group_doc_link#doxcnRFfsmVJPVcH6cvwoTotsBg",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-09 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/B6ngdu8LtoRAZtxo0NNcHhjanVd?from=vc_group_doc_link#doxcnRFfsmVJPVcH6cvwoTotsBg",
+    "title": "SPH3U.S6.Michael 2026-07-09 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/Downloads/Gia Zhu/02_Active_Projects/创新学校/artifacts/course-chat-ingestion/2026-07-09-sources/sph3u-s6-michael-2026-07-09/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-09",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-09",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson is a regular lecture covering core kinematics graph interpretation and vector addition concepts with explicit teaching and examples.",
+    "academicContentSignals": [
+      "Vector scale diagram rules (scaled down/up)",
+      "Tip-to-tail vector addition",
+      "Average speed vs velocity differences",
+      "Position-time graph: slope meaning (positive forward, negative backward, steep fast, horizontal stop)",
+      "Common misconception: position sign does not indicate acceleration",
+      "Velocity-time graph: positive slope meaning, area under curve equals displacement",
+      "Zero slope in v-t graph represents constant velocity",
+      "Acceleration-time graph: positive values positive acceleration, negative values negative acceleration, area under curve equals velocity change",
+      "Assessment scope: constant acceleration only"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low risk. The operations are limited to pre-class task handling and submission instructions which occur at lesson start; the majority of the lesson is instructional with significant academic content. Generation should prioritize kinematics graph interpretation and vector addition concepts.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete pre-class tasks",
+        "studentAction": "If you have not submitted yesterday's in-class activity, complete it and upload to Dropbox. Otherwise, start the assigned homework and upload when finished.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Dropbox",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students who have not submitted yesterday's in-class activity prioritize completing the pending task, while submitters start the assigned homework in advance. Upload to designated Dropbox folder.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "platform_link",
+        "title": "Course materials link",
+        "studentAction": "Wait for the instructor to release the link to today's course materials; access when provided.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Unknown (likely Feishu)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Instructor will coordinate with IT department to release the link of today's course materials.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Dropbox submission only",
+        "studentAction": "Use only the designated Dropbox folder for uploading all completed tasks; no other submission channels are available.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Dropbox",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All completed pre-class and homework tasks need to be uploaded to the designated Dropbox folder after finishing, no other submission channels are available temporarily.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Pre-class task deadline: 'pre-class task time reservation: 5 to 10 minutes reserved' and 'upload after finishing' - no explicit deadline given.",
+        "reason": "The exact deadline for pre-class task submission is not specified; it may be due by end of class or a later time."
+      },
+      {
+        "rawText": "Course materials link: 'instructor will coordinate with IT department to release the link' - link not provided.",
+        "reason": "The specific link to course materials is not included in the notes; it will be released during class."
+      }
+    ]
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Position-Time Graph Interpretation、Velocity-Time Graph Interpretation、Acceleration-Time Graph Interpretation、Vector Scale Diagrams）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "In a position-time graph, positive slope indicates forward movement, negative slope indicates backward movement, steeper slope means faster motion, and a horizontal line means the object is stationary (zero velocity).；In a position-time graph, the sign of the position change indicates direction of motion, not acceleration or deceleration.；In a velocity-time graph, positive slope means speeding up in the positive direction or slowing down in the negative direction; zero slope means constant velocity.",
+  "learningGoals": [
+    {
+      "id": "lg-pt-graph",
+      "statement": "Interpret position-time graphs: slope indicates velocity (positive/negative/zero), direction, and speed."
+    },
+    {
+      "id": "lg-vt-graph",
+      "statement": "Interpret velocity-time graphs: slope indicates acceleration, area under curve indicates displacement."
+    },
+    {
+      "id": "lg-at-graph",
+      "statement": "Interpret acceleration-time graphs: area under curve indicates change in velocity, constant acceleration focus."
+    },
+    {
+      "id": "lg-vector-diagrams",
+      "statement": "Apply vector scale diagrams: appropriate scaling, tip-to-tail addition, distinguish speed vs velocity."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "position-time-graph",
+      "name": "Position-Time Graph Interpretation",
+      "nameEn": "Position-Time Graph Interpretation",
+      "definition": "A position-time graph plots position on the y-axis versus time on the x-axis. The slope of the line represents velocity: positive slope = forward motion, negative slope = backward motion, steeper slope = faster speed, horizontal line = stationary. The sign of position change indicates direction, not acceleration.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "velocity-time-graph",
+      "name": "Velocity-Time Graph Interpretation",
+      "nameEn": "Velocity-Time Graph Interpretation",
+      "definition": "A velocity-time graph plots velocity on the y-axis versus time on the x-axis. The slope represents acceleration: positive slope = speeding up in positive direction or slowing down in negative direction; zero slope = constant velocity. The area under the curve equals total displacement.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "acceleration-time-graph",
+      "name": "Acceleration-Time Graph Interpretation",
+      "nameEn": "Acceleration-Time Graph Interpretation",
+      "definition": "An acceleration-time graph plots acceleration on the y-axis versus time on the x-axis. Positive values indicate positive acceleration, negative values indicate negative acceleration. The area under the curve equals the change in velocity over that time interval. Only constant acceleration graphs are assessed in this course.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "vector-scale-diagrams",
+      "name": "Vector Scale Diagrams",
+      "nameEn": "Vector Scale Diagrams",
+      "definition": "Vector scale diagrams must be scaled appropriately: smaller scale for large distances (e.g., city maps), larger scale for small objects (e.g., ants). Vectors are added using the tip-to-tail method. Average speed is scalar; average velocity is vector and includes direction.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-pt-graph",
+        "statement": "Interpret position-time graphs: slope indicates velocity (positive/negative/zero), direction, and speed."
+      },
+      {
+        "id": "lg-vt-graph",
+        "statement": "Interpret velocity-time graphs: slope indicates acceleration, area under curve indicates displacement."
+      },
+      {
+        "id": "lg-at-graph",
+        "statement": "Interpret acceleration-time graphs: area under curve indicates change in velocity, constant acceleration focus."
+      },
+      {
+        "id": "lg-vector-diagrams",
+        "statement": "Apply vector scale diagrams: appropriate scaling, tip-to-tail addition, distinguish speed vs velocity."
+      }
+    ],
+    "targetMinutes": 10,
+    "diagnosisRules": [
+      {
+        "errorId": "err-pt-graph-slope-direction",
+        "condition": "Student chooses 'decelerating' or 'moving forward' when negative slope on PT graph",
+        "systemAction": "Assign reteach module: err-pt-graph-slope-direction",
+        "studentMessage": "Negative slope on a position-time graph means the object is moving backward, not necessarily decelerating. Review slope meaning."
+      },
+      {
+        "errorId": "err-slope-acceleration-confusion",
+        "condition": "Student chooses 'acceleration' as meaning of PT graph slope",
+        "systemAction": "Assign reteach module: err-slope-acceleration-confusion",
+        "studentMessage": "The slope of a position-time graph gives velocity, not acceleration. Review the definition of slope."
+      },
+      {
+        "errorId": "err-vt-graph-area-displacement",
+        "condition": "Student chooses 'distance traveled' for area under VT graph",
+        "systemAction": "Assign reteach module: err-vt-graph-area-displacement",
+        "studentMessage": "The area under a velocity-time graph equals displacement (vector), not distance (scalar), because sign matters."
+      },
+      {
+        "errorId": "err-at-graph-area-velocity-change",
+        "condition": "Student chooses 'acceleration' or 'final velocity' for area under AT graph",
+        "systemAction": "Assign reteach module: err-at-graph-area-velocity-change",
+        "studentMessage": "The area under an acceleration-time graph equals the change in velocity, not acceleration itself or final velocity."
+      },
+      {
+        "errorId": "err-vector-scale",
+        "condition": "Student chooses incorrect resultant vector direction or scale misunderstanding",
+        "systemAction": "Assign reteach module: err-vector-scale",
+        "studentMessage": "In tip-to-tail addition, the resultant goes from tail of first to tip of last. Check your vector drawing."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1-pt-slope-direction",
+        "nodeId": "position-time-graph",
+        "errorId": "err-pt-graph-slope-direction",
+        "stem": "The position-time graph below shows the motion of a car. What does the negative slope indicate about the car's motion?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-pt-graph",
+        "successCriteria": "Student identifies that negative slope means moving backward (direction), not deceleration.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Position-time graph interpretation directly addresses understanding of uniform linear motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student confuses negative slope with deceleration instead of direction.",
+        "commonMisconception": "Negative slope on a position-time graph is often misinterpreted as deceleration rather than motion in the negative direction.",
+        "remediationModule": "err-pt-graph-slope-direction",
+        "retestItem": "err-pt-graph-slope-direction",
+        "nextActionIfWrong": "Assign reteach module for err-pt-graph-slope-direction",
+        "options": [
+          {
+            "label": "A",
+            "text": "The car is moving backward.",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "The car is decelerating.",
+            "correct": false,
+            "feedbackWrong": "A negative slope on a position-time graph indicates direction (backward), not deceleration. Deceleration would be shown by a changing slope."
+          },
+          {
+            "label": "C",
+            "text": "The car is moving forward but slowing down.",
+            "correct": false,
+            "feedbackWrong": "A negative slope means the position is decreasing over time, indicating backward motion, not forward motion."
+          },
+          {
+            "label": "D",
+            "text": "The car is stationary.",
+            "correct": false,
+            "feedbackWrong": "A non-zero slope indicates motion. Stationary would be a horizontal line."
+          }
+        ],
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='150'><rect x='10' y='10' width='180' height='130' fill='none' stroke='black'/><line x1='20' y1='120' x2='180' y2='30' stroke='red' stroke-width='3'/><text x='10' y='140' font-size='10'>Position</text><text x='180' y='145' font-size='10'>Time</text></svg>",
+        "figureAlt": "Position-time graph with a straight line decreasing from top-left to bottom-right.",
+        "figureCaption": "Position-time graph for a car moving with constant negative velocity."
+      },
+      {
+        "id": "q2-slope-acceleration-confusion",
+        "nodeId": "position-time-graph",
+        "errorId": "err-slope-acceleration-confusion",
+        "stem": "What does the slope of a position-time graph represent?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-pt-graph",
+        "successCriteria": "Student correctly identifies slope as velocity.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding slope meaning is fundamental to interpreting position-time graphs.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student confuses slope of PT graph with acceleration.",
+        "commonMisconception": "Students often think slope of position-time graph gives acceleration because it relates to change in position.",
+        "remediationModule": "err-slope-acceleration-confusion",
+        "retestItem": "err-slope-acceleration-confusion",
+        "nextActionIfWrong": "Assign reteach module for err-slope-acceleration-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "Velocity",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "Acceleration",
+            "correct": false,
+            "feedbackWrong": "The slope of a position-time graph gives velocity, not acceleration. Acceleration is the slope of a velocity-time graph."
+          },
+          {
+            "label": "C",
+            "text": "Displacement",
+            "correct": false,
+            "feedbackWrong": "Displacement is the difference between final and initial positions, not the slope."
+          },
+          {
+            "label": "D",
+            "text": "Speed",
+            "correct": false,
+            "feedbackWrong": "Slope gives velocity (vector), not just speed (scalar). Velocity includes direction."
+          }
+        ],
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='150'><rect x='10' y='10' width='180' height='130' fill='none' stroke='black'/><line x1='20' y1='120' x2='180' y2='30' stroke='blue' stroke-width='3'/><text x='10' y='140' font-size='10'>Position</text><text x='180' y='145' font-size='10'>Time</text></svg>",
+        "figureAlt": "Position-time graph with a straight line increasing from bottom-left to top-right.",
+        "figureCaption": "Position-time graph for an object moving with constant positive velocity."
+      },
+      {
+        "id": "q3-vt-graph-area",
+        "nodeId": "velocity-time-graph",
+        "errorId": "err-vt-graph-area-displacement",
+        "stem": "The velocity-time graph below shows the motion of an object. What does the area under the curve represent?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-vt-graph",
+        "successCriteria": "Student recognizes area under VT graph as displacement (vector), not distance.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Area under VT graph is a key concept in understanding linear motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student confuses displacement (vector) with distance (scalar) when interpreting VT graph area.",
+        "commonMisconception": "Students think area under VT graph gives total distance traveled, ignoring sign/direction.",
+        "remediationModule": "err-vt-graph-area-displacement",
+        "retestItem": "err-vt-graph-area-displacement",
+        "nextActionIfWrong": "Assign reteach module for err-vt-graph-area-displacement",
+        "options": [
+          {
+            "label": "A",
+            "text": "Displacement",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "Total distance traveled",
+            "correct": false,
+            "feedbackWrong": "Area gives displacement (vector) which accounts for direction. Distance would be the absolute sum of areas."
+          },
+          {
+            "label": "C",
+            "text": "Acceleration",
+            "correct": false,
+            "feedbackWrong": "Acceleration is the slope of the VT graph, not the area."
+          },
+          {
+            "label": "D",
+            "text": "Average velocity",
+            "correct": false,
+            "feedbackWrong": "Average velocity is total displacement divided by time, not directly the area."
+          }
+        ],
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='150'><rect x='10' y='10' width='180' height='130' fill='none' stroke='black'/><polygon points='20,120 20,60 100,60 100,120' fill='lightblue' stroke='blue' stroke-width='2'/><line x1='20' y1='120' x2='180' y2='120' stroke='black' stroke-width='1'/><text x='10' y='140' font-size='10'>Velocity</text><text x='180' y='145' font-size='10'>Time</text></svg>",
+        "figureAlt": "Velocity-time graph with a positive constant velocity (horizontal line) from t=0 to t=80, then zero velocity. The area under the positive part is shaded blue.",
+        "figureCaption": "Velocity-time graph with positive constant velocity followed by rest."
+      },
+      {
+        "id": "q4-at-graph-area",
+        "nodeId": "acceleration-time-graph",
+        "errorId": "err-at-graph-area-velocity-change",
+        "stem": "The acceleration-time graph below shows constant positive acceleration. What does the area under the curve represent?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-at-graph",
+        "successCriteria": "Student identifies area under AT graph as change in velocity.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding area under AT graph is essential for connecting acceleration to velocity change.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student confuses area with acceleration or final velocity.",
+        "commonMisconception": "Students often think area under AT graph gives acceleration or final velocity instead of change in velocity.",
+        "remediationModule": "err-at-graph-area-velocity-change",
+        "retestItem": "err-at-graph-area-velocity-change",
+        "nextActionIfWrong": "Assign reteach module for err-at-graph-area-velocity-change",
+        "options": [
+          {
+            "label": "A",
+            "text": "Change in velocity",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "Acceleration",
+            "correct": false,
+            "feedbackWrong": "Acceleration is the y-axis value, not the area under the curve."
+          },
+          {
+            "label": "C",
+            "text": "Final velocity",
+            "correct": false,
+            "feedbackWrong": "Area gives change in velocity (Δv), not final velocity. Final velocity requires initial velocity plus Δv."
+          },
+          {
+            "label": "D",
+            "text": "Displacement",
+            "correct": false,
+            "feedbackWrong": "Displacement is area under a velocity-time graph, not acceleration-time."
+          }
+        ],
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='150'><rect x='10' y='10' width='180' height='130' fill='none' stroke='black'/><rect x='20' y='60' width='160' height='50' fill='lightgreen' stroke='green' stroke-width='2'/><line x1='20' y1='110' x2='180' y2='110' stroke='black' stroke-width='1'/><text x='10' y='140' font-size='10'>Acceleration</text><text x='180' y='145' font-size='10'>Time</text></svg>",
+        "figureAlt": "Acceleration-time graph with constant positive acceleration (horizontal line above zero) from t=0 to t=160, shaded green.",
+        "figureCaption": "Acceleration-time graph showing constant positive acceleration."
+      },
+      {
+        "id": "q5-vector-scale",
+        "nodeId": "vector-scale-diagrams",
+        "errorId": "err-vector-scale",
+        "stem": "Two vectors are added using the tip-to-tail method. Which statement correctly describes the resultant vector?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-vector-diagrams",
+        "successCriteria": "Student correctly identifies that resultant is from tail of first to tip of last vector.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Vector addition (tip-to-tail) is a key skill in solving problems related to motion.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student understands the tip-to-tail vector addition procedure.",
+        "commonMisconception": "Students sometimes think resultant goes from tip of first to tail of last or confuse the order.",
+        "remediationModule": "err-vector-scale",
+        "retestItem": "err-vector-scale",
+        "nextActionIfWrong": "Assign reteach module for err-vector-scale",
+        "options": [
+          {
+            "label": "A",
+            "text": "The resultant is drawn from the tail of the first vector to the tip of the last vector.",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "The resultant is drawn from the tip of the first vector to the tail of the last vector.",
+            "correct": false,
+            "feedbackWrong": "That would not connect the starting point to the endpoint. The resultant must start at the initial point."
+          },
+          {
+            "label": "C",
+            "text": "The resultant is the sum of the magnitudes, ignoring direction.",
+            "correct": false,
+            "feedbackWrong": "Vector addition takes direction into account; adding magnitudes only works if vectors are parallel and same direction."
+          },
+          {
+            "label": "D",
+            "text": "The resultant is always the longest vector in the diagram.",
+            "correct": false,
+            "feedbackWrong": "The resultant can be shorter than the individual vectors if they partially cancel."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-pt-graph-slope-direction",
+      "condition": "Student chooses 'decelerating' or 'moving forward' when negative slope on PT graph",
+      "systemAction": "Assign reteach module: err-pt-graph-slope-direction",
+      "studentMessage": "Negative slope on a position-time graph means the object is moving backward, not necessarily decelerating. Review slope meaning."
+    },
+    {
+      "errorId": "err-slope-acceleration-confusion",
+      "condition": "Student chooses 'acceleration' as meaning of PT graph slope",
+      "systemAction": "Assign reteach module: err-slope-acceleration-confusion",
+      "studentMessage": "The slope of a position-time graph gives velocity, not acceleration. Review the definition of slope."
+    },
+    {
+      "errorId": "err-vt-graph-area-displacement",
+      "condition": "Student chooses 'distance traveled' for area under VT graph",
+      "systemAction": "Assign reteach module: err-vt-graph-area-displacement",
+      "studentMessage": "The area under a velocity-time graph equals displacement (vector), not distance (scalar), because sign matters."
+    },
+    {
+      "errorId": "err-at-graph-area-velocity-change",
+      "condition": "Student chooses 'acceleration' or 'final velocity' for area under AT graph",
+      "systemAction": "Assign reteach module: err-at-graph-area-velocity-change",
+      "studentMessage": "The area under an acceleration-time graph equals the change in velocity, not acceleration itself or final velocity."
+    },
+    {
+      "errorId": "err-vector-scale",
+      "condition": "Student chooses incorrect resultant vector direction or scale misunderstanding",
+      "systemAction": "Assign reteach module: err-vector-scale",
+      "studentMessage": "In tip-to-tail addition, the resultant goes from tail of first to tip of last. Check your vector drawing."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-pt-graph-slope-direction",
+      "trigger": "Student chooses 'decelerating' or 'moving forward' when negative slope on PT graph",
+      "studentMisunderstanding": "Student incorrectly thinks a negative slope on a position-time graph always means deceleration, when it actually indicates direction of motion (backwards).",
+      "miniLesson": {
+        "explain": "In a position-time graph, the slope represents velocity, a vector that includes direction. Positive slope means forward motion, negative slope means backward motion. The steepness indicates speed: steeper slope = faster motion, horizontal line = stationary. The sign of the slope tells direction, not whether the object is speeding up or slowing down. Deceleration would be indicated by a change in slope (curve) or a slope approaching zero, not simply a negative slope.",
+        "example": "Consider a car whose position decreases from 10 m to 0 m over 5 seconds. The slope is (0 m - 10 m)/(5 s) = -2 m/s. This negative velocity means the car moves backward at 2 m/s. It is not necessarily decelerating; it could be moving backward at constant speed. Deceleration while moving forward would show a positive slope that decreases over time (curved downward).",
+        "memoryAnchor": "Remember: In position-time graphs, slope sign = direction of motion. Negative slope = moving backward. Don't confuse with deceleration. Look for curved lines to spot acceleration."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A position-time graph shows a straight line going downwards. What does the negative slope tell you about the object's motion?",
+          "answer": "The object is moving backward."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student says that a negative slope on a position-time graph means the object is decelerating. Is this correct? Explain.",
+          "answer": "No. A negative slope means the object is moving in the negative direction (backward), not that it is slowing down. Deceleration would be shown by a changing slope (curving), not a constant negative slope. A constant negative slope indicates constant velocity backward."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given a position-time graph with a straight line sloping downward from position +20 m to -10 m in 10 seconds. Calculate the velocity and describe the motion. Is the object decelerating? Why or why not?",
+          "answer": "Velocity = change in position / time = (-10 m - 20 m) / 10 s = -30 m / 10 s = -3 m/s. The object is moving backward at a constant speed of 3 m/s. It is not decelerating because the slope is constant (straight line), meaning zero acceleration. Deceleration would require a curved graph (changing slope)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-vt-graph-area-displacement",
+      "trigger": "The student answers that the area under a velocity-time graph represents 'total distance traveled' instead of 'displacement'.",
+      "studentMisunderstanding": "Students often think the area under a velocity-time graph gives the total distance traveled, but it actually gives displacement. The difference is that displacement accounts for direction (sign), while distance is the sum of absolute areas.",
+      "miniLesson": {
+        "explain": "In a velocity-time graph, the area between the curve and the time axis represents displacement. When velocity is positive, area is positive; when velocity is negative, area is negative. The net area (sum of positive and negative areas) gives displacement, not the total distance. For example, if you walk forward 10 m and then back 5 m, your displacement is 5 m but distance traveled is 15 m.",
+        "example": "Consider a velocity-time graph: from t=0 to t=5 s, v=2 m/s (positive), area = 10 m; from t=5 to t=10 s, v=-1 m/s (negative), area = -5 m. Net area = 5 m, which is displacement. Distance = 10 + 5 = 15 m.",
+        "memoryAnchor": "Area under VT = displacement (direction matters) => Net area = final position - initial position. Think of a bank account: deposits (positive velocity) and withdrawals (negative velocity); balance is net, not total deposits."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "The velocity-time graph shows a constant velocity of 3 m/s for 4 seconds. What is the displacement?",
+          "answer": "12 m (area = 3 m/s × 4 s = 12 m)"
+        },
+        {
+          "level": "L2",
+          "prompt": "A velocity-time graph has a rectangle from 0 to 3 s at v = 4 m/s and from 3 to 5 s at v = -2 m/s. What is the displacement?",
+          "answer": "8 m (positive area: 4×3 = 12 m; negative area: -2×2 = -4 m; net: 12 + (-4) = 8 m)"
+        },
+        {
+          "level": "L3",
+          "prompt": "A velocity-time graph: 0-2 s: v=2 m/s (constant), 2-4 s: v increases linearly from 2 to 6 m/s, 4-6 s: v=6 m/s constant. Find displacement.",
+          "answer": "20 m (rectangle 0-2: 2×2=4; triangle 2-4: ½×2×4=4; rectangle 4-6: 2×6=12; total 4+4+12=20)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-at-graph-area-velocity-change",
+      "trigger": "When a student chooses 'acceleration' or 'final velocity' as the meaning of the area under an acceleration-time graph.",
+      "studentMisunderstanding": "Student thinks the area under an acceleration-time graph represents the acceleration value itself or the final velocity, rather than the change in velocity.",
+      "miniLesson": {
+        "explain": "The area under an acceleration-time graph equals the change in velocity over that time interval, not the acceleration itself (which is the y-value) nor the final velocity (which depends on initial velocity). For constant acceleration, area = acceleration × time = Δv.",
+        "example": "Consider a constant acceleration of 2 m/s² for 5 s. The area under the graph is a rectangle: area = 2 × 5 = 10 m/s. This means the velocity changes by 10 m/s. If the initial velocity is 0, the final velocity is 10 m/s, but the area only gives the change, not the final velocity itself.",
+        "memoryAnchor": "Area under a-t graph = Δv. Think: 'acceleration × time = velocity change'. So the area tells you how much velocity changed, not the velocity itself."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What does the area under an acceleration-time graph represent?",
+          "answer": "Change in velocity"
+        },
+        {
+          "level": "L2",
+          "prompt": "A car accelerates from rest at 3 m/s² for 4 s. Calculate the area under the acceleration-time graph and state what it represents.",
+          "answer": "Area = 3 × 4 = 12 m/s. This represents the change in velocity, so the car's velocity after 4 s is 12 m/s (since initial was 0)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Object A has a constant acceleration of 5 m/s² for 2 s. Object B has a constant acceleration of 2 m/s² for 5 s. Compare the areas under their acceleration-time graphs and the accelerations. What does this tell you about the meaning of the area?",
+          "answer": "Both areas are 10 m/s (5×2 = 10, 2×5 = 10), so the change in velocity is the same. But accelerations are different (5 m/s² vs 2 m/s²). This shows that area gives Δv, not acceleration."
+        }
+      ]
+    },
+    {
+      "errorId": "err-slope-acceleration-confusion",
+      "trigger": "Student chooses 'acceleration' as meaning of position-time graph slope",
+      "studentMisunderstanding": "The student confuses the slope of a position-time graph with acceleration, when it actually represents velocity.",
+      "miniLesson": {
+        "explain": "The slope of a position-time graph represents velocity, not acceleration. Velocity is the rate of change of position, so a steeper slope means faster motion, a positive slope means forward motion, a negative slope means backward motion, and a horizontal line means zero velocity (stationary). Acceleration is the rate of change of velocity, so it is represented by the slope of a velocity-time graph, not a position-time graph.",
+        "example": "Consider a car moving forward at a constant speed of 10 m/s. The position-time graph is a straight line with a positive slope of 10 m/s. The slope indicates velocity (10 m/s), not acceleration (which is 0 since speed is constant).",
+        "memoryAnchor": "Remember: 'Slope of Position is Velocity (SPV)'. To get acceleration, you need the slope of a Velocity-Time graph."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What does the slope of a position-time graph represent?",
+          "answer": "Velocity"
+        },
+        {
+          "level": "L2",
+          "prompt": "A position-time graph shows a straight line from (0 s, 2 m) to (5 s, 12 m). Calculate the slope. What does it represent?",
+          "answer": "Slope = (12-2)/(5-0) = 10/5 = 2 m/s. It represents velocity (2 m/s forward)."
+        },
+        {
+          "level": "L3",
+          "prompt": "An object moves forward for 3 seconds at 4 m/s, then backward for 2 seconds at 2 m/s. Sketch its position-time graph and determine the slope during each segment. What does each slope represent?",
+          "answer": "First segment: slope = 4 m/s (velocity forward). Second segment: slope = -2 m/s (velocity backward). The slopes represent velocities, not accelerations."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-pt-graph-slope-direction",
+      "questions": [
+        {
+          "id": "pt-slope-dir-q1",
+          "type": "single_choice",
+          "stem": "A position-time graph shows a straight line sloping downward from left to right. Which of the following is the correct interpretation?",
+          "options": [
+            "The object is moving backward (negative direction) at constant speed.",
+            "The object is decelerating (slowing down) while moving forward.",
+            "The object is moving forward at increasing speed.",
+            "The object is stationary."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "pt-slope-dir-q2",
+          "type": "open_ended",
+          "stem": "A student claims that a negative slope on a position-time graph always means the object is decelerating. Explain why this statement is incorrect, and describe what a negative slope actually indicates.",
+          "rubric": "Response must indicate that negative slope means the object is moving in the negative direction (backward), not that it is slowing down. Should mention that deceleration would be shown by a changing slope (curve), not a constant negative slope. Accept any reasonable explanation conveying that slope sign indicates direction, not acceleration."
+        }
+      ],
+      "passRule": "Must answer Q1 correctly (index 0) and Q2 explanation must clearly state that negative slope means motion in the opposite direction (backward) not deceleration, and/or that deceleration requires a changing slope."
+    },
+    {
+      "forErrorId": "err-vt-graph-area-displacement",
+      "questions": [
+        {
+          "id": "q1-vt-area-concept",
+          "type": "single_choice",
+          "stem": "A velocity-time graph shows a positive velocity of 5 m/s for 4 seconds, then a negative velocity of 3 m/s for 2 seconds. What does the total area (sum of positive and negative areas) represent?",
+          "options": [
+            "The total distance traveled",
+            "The displacement",
+            "The average velocity",
+            "The acceleration"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-vt-area-calculation",
+          "type": "open_ended",
+          "stem": "A car moves forward at 10 m/s for 3 seconds, then reverses at 4 m/s for 2 seconds. Calculate the car's displacement and total distance traveled. Show your work.",
+          "rubric": "Correctly calculates displacement = (10 m/s × 3 s) + (-4 m/s × 2 s) = 30 m - 8 m = 22 m. Correctly calculates distance = (10 m/s × 3 s) + (4 m/s × 2 s) = 30 m + 8 m = 38 m. Must show area calculations and distinguish between net and total area."
+        }
+      ],
+      "passRule": "Answer both questions correctly: Q1 must select 'The displacement', Q2 must correctly calculate both displacement (22 m) and distance (38 m) with proper reasoning showing area calculations and distinction between net and total area."
+    },
+    {
+      "forErrorId": "err-at-graph-area-velocity-change",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "What does the area under an acceleration-time graph represent?",
+          "options": [
+            "Acceleration",
+            "Displacement",
+            "Change in velocity",
+            "Final velocity"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A cart experiences a constant acceleration of 4 m/s² for 3 s. Calculate the area under the acceleration-time graph and explain what this value represents.",
+          "rubric": "Correct calculation (12 m/s) AND explains it represents change in velocity (Δv), not final velocity or acceleration."
+        }
+      ],
+      "passRule": "Must answer Q1 correctly and provide a complete correct response for Q2 (correct calculation and correct interpretation)."
+    },
+    {
+      "forErrorId": "err-slope-acceleration-confusion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A position-time graph is shown for a car moving in a straight line. The graph is a straight line with a positive slope. What physical quantity does the slope of this graph represent?",
+          "options": [
+            "Acceleration",
+            "Velocity",
+            "Displacement",
+            "Force"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Consider the position-time graph of an object that is moving forward and then backward. The slope of each segment is calculated. Explain why the slope of the position-time graph is not a measure of acceleration, and what it actually represents.",
+          "rubric": "The student must state that slope represents velocity (rate of change of position). They must explain that acceleration is the slope of a velocity-time graph, not a position-time graph. A full answer may note that a positive slope means forward motion, negative slope backward, and steeper slope means faster speed."
+        }
+      ],
+      "passRule": "all correct"
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-09",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/B6ngdu8LtoRAZtxo0NNcHhjanVd?from=vc_group_doc_link#doxcnRFfsmVJPVcH6cvwoTotsBg",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-09 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "In a position-time graph, positive slope indicates forward movement, negative slope indicates backward movement, steeper slope means faster motion, and a horizontal line means the object is stationary (zero velocity).；In a position-time graph, the sign of the position change indicates direction of motion, not acceleration or deceleration.；In a velocity-time graph, positive slope means speeding up in the positive direction or slowing down in the negative direction; zero slope means constant velocity.",
+    "learningGoals": [
+      {
+        "id": "lg-pt-graph",
+        "statement": "Interpret position-time graphs: slope indicates velocity (positive/negative/zero), direction, and speed."
+      },
+      {
+        "id": "lg-vt-graph",
+        "statement": "Interpret velocity-time graphs: slope indicates acceleration, area under curve indicates displacement."
+      },
+      {
+        "id": "lg-at-graph",
+        "statement": "Interpret acceleration-time graphs: area under curve indicates change in velocity, constant acceleration focus."
+      },
+      {
+        "id": "lg-vector-diagrams",
+        "statement": "Apply vector scale diagrams: appropriate scaling, tip-to-tail addition, distinguish speed vs velocity."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete pre-class tasks",
+        "studentAction": "If you have not submitted yesterday's in-class activity, complete it and upload to Dropbox. Otherwise, start the assigned homework and upload when finished.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Dropbox",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students who have not submitted yesterday's in-class activity prioritize completing the pending task, while submitters start the assigned homework in advance. Upload to designated Dropbox folder.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "platform_link",
+        "title": "Course materials link",
+        "studentAction": "Wait for the instructor to release the link to today's course materials; access when provided.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Unknown (likely Feishu)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Instructor will coordinate with IT department to release the link of today's course materials.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Dropbox submission only",
+        "studentAction": "Use only the designated Dropbox folder for uploading all completed tasks; no other submission channels are available.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Dropbox",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All completed pre-class and homework tasks need to be uploaded to the designated Dropbox folder after finishing, no other submission channels are available temporarily.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Pre-class task deadline: 'pre-class task time reservation: 5 to 10 minutes reserved' and 'upload after finishing' - no explicit deadline given.",
+        "reason": "The exact deadline for pre-class task submission is not specified; it may be due by end of class or a later time."
+      },
+      {
+        "rawText": "Course materials link: 'instructor will coordinate with IT department to release the link' - link not provided.",
+        "reason": "The specific link to course materials is not included in the notes; it will be released during class."
+      }
+    ],
+    "watchTags": [
+      "position-time-graph",
+      "velocity-time-graph",
+      "acceleration-time-graph",
+      "vector-scale-diagrams"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-pt-graph-slope-direction",
+        "condition": "Student chooses 'decelerating' or 'moving forward' when negative slope on PT graph",
+        "systemAction": "Assign reteach module: err-pt-graph-slope-direction"
+      },
+      {
+        "errorId": "err-slope-acceleration-confusion",
+        "condition": "Student chooses 'acceleration' as meaning of PT graph slope",
+        "systemAction": "Assign reteach module: err-slope-acceleration-confusion"
+      },
+      {
+        "errorId": "err-vt-graph-area-displacement",
+        "condition": "Student chooses 'distance traveled' for area under VT graph",
+        "systemAction": "Assign reteach module: err-vt-graph-area-displacement"
+      },
+      {
+        "errorId": "err-at-graph-area-velocity-change",
+        "condition": "Student chooses 'acceleration' or 'final velocity' for area under AT graph",
+        "systemAction": "Assign reteach module: err-at-graph-area-velocity-change"
+      },
+      {
+        "errorId": "err-vector-scale",
+        "condition": "Student chooses incorrect resultant vector direction or scale misunderstanding",
+        "systemAction": "Assign reteach module: err-vector-scale"
+      }
+    ],
+    "nextActions": [
+      "[err-pt-graph-slope-direction] Student chooses 'decelerating' or 'moving forward' when negative slope on PT graph: Negative slope on a position-time graph means the object is moving backward, not necessarily decelerating. Review slope meaning.",
+      "[err-slope-acceleration-confusion] Student chooses 'acceleration' as meaning of PT graph slope: The slope of a position-time graph gives velocity, not acceleration. Review the definition of slope.",
+      "[err-vt-graph-area-displacement] Student chooses 'distance traveled' for area under VT graph: The area under a velocity-time graph equals displacement (vector), not distance (scalar), because sign matters.",
+      "[err-at-graph-area-velocity-change] Student chooses 'acceleration' or 'final velocity' for area under AT graph: The area under an acceleration-time graph equals the change in velocity, not acceleration itself or final velocity.",
+      "[err-vector-scale] Student chooses incorrect resultant vector direction or scale misunderstanding: In tip-to-tail addition, the resultant goes from tail of first to tip of last. Check your vector drawing."
+    ],
+    "cards": [
+      {
+        "id": "q1-pt-slope-direction",
+        "type": "choice",
+        "question": "The position-time graph below shows the motion of a car. What does the negative slope indicate about the car's motion?",
+        "options": [
+          "The car is moving backward.",
+          "The car is decelerating.",
+          "The car is moving forward but slowing down.",
+          "The car is stationary."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student confuses negative slope with deceleration instead of direction.",
+        "misconceptions": [
+          "✓ 正确",
+          "A negative slope on a position-time graph indicates direction (backward), not deceleration. Deceleration would be shown by a changing slope.",
+          "A negative slope means the position is decreasing over time, indicating backward motion, not forward motion.",
+          "A non-zero slope indicates motion. Stationary would be a horizontal line."
+        ],
+        "nodeId": "position-time-graph",
+        "errorId": "err-pt-graph-slope-direction",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-pt-graph",
+        "successCriteria": "Student identifies that negative slope means moving backward (direction), not deceleration.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Position-time graph interpretation directly addresses understanding of uniform linear motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Negative slope on a position-time graph is often misinterpreted as deceleration rather than motion in the negative direction.",
+        "remediationModule": "err-pt-graph-slope-direction",
+        "retestItem": "err-pt-graph-slope-direction"
+      },
+      {
+        "id": "q2-slope-acceleration-confusion",
+        "type": "choice",
+        "question": "What does the slope of a position-time graph represent?",
+        "options": [
+          "Velocity",
+          "Acceleration",
+          "Displacement",
+          "Speed"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student confuses slope of PT graph with acceleration.",
+        "misconceptions": [
+          "✓ 正确",
+          "The slope of a position-time graph gives velocity, not acceleration. Acceleration is the slope of a velocity-time graph.",
+          "Displacement is the difference between final and initial positions, not the slope.",
+          "Slope gives velocity (vector), not just speed (scalar). Velocity includes direction."
+        ],
+        "nodeId": "position-time-graph",
+        "errorId": "err-slope-acceleration-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-pt-graph",
+        "successCriteria": "Student correctly identifies slope as velocity.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding slope meaning is fundamental to interpreting position-time graphs.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often think slope of position-time graph gives acceleration because it relates to change in position.",
+        "remediationModule": "err-slope-acceleration-confusion",
+        "retestItem": "err-slope-acceleration-confusion"
+      },
+      {
+        "id": "q3-vt-graph-area",
+        "type": "choice",
+        "question": "The velocity-time graph below shows the motion of an object. What does the area under the curve represent?",
+        "options": [
+          "Displacement",
+          "Total distance traveled",
+          "Acceleration",
+          "Average velocity"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student confuses displacement (vector) with distance (scalar) when interpreting VT graph area.",
+        "misconceptions": [
+          "✓ 正确",
+          "Area gives displacement (vector) which accounts for direction. Distance would be the absolute sum of areas.",
+          "Acceleration is the slope of the VT graph, not the area.",
+          "Average velocity is total displacement divided by time, not directly the area."
+        ],
+        "nodeId": "velocity-time-graph",
+        "errorId": "err-vt-graph-area-displacement",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-vt-graph",
+        "successCriteria": "Student recognizes area under VT graph as displacement (vector), not distance.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Area under VT graph is a key concept in understanding linear motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think area under VT graph gives total distance traveled, ignoring sign/direction.",
+        "remediationModule": "err-vt-graph-area-displacement",
+        "retestItem": "err-vt-graph-area-displacement"
+      },
+      {
+        "id": "q4-at-graph-area",
+        "type": "choice",
+        "question": "The acceleration-time graph below shows constant positive acceleration. What does the area under the curve represent?",
+        "options": [
+          "Change in velocity",
+          "Acceleration",
+          "Final velocity",
+          "Displacement"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student confuses area with acceleration or final velocity.",
+        "misconceptions": [
+          "✓ 正确",
+          "Acceleration is the y-axis value, not the area under the curve.",
+          "Area gives change in velocity (Δv), not final velocity. Final velocity requires initial velocity plus Δv.",
+          "Displacement is area under a velocity-time graph, not acceleration-time."
+        ],
+        "nodeId": "acceleration-time-graph",
+        "errorId": "err-at-graph-area-velocity-change",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-at-graph",
+        "successCriteria": "Student identifies area under AT graph as change in velocity.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding area under AT graph is essential for connecting acceleration to velocity change.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often think area under AT graph gives acceleration or final velocity instead of change in velocity.",
+        "remediationModule": "err-at-graph-area-velocity-change",
+        "retestItem": "err-at-graph-area-velocity-change"
+      },
+      {
+        "id": "q5-vector-scale",
+        "type": "choice",
+        "question": "Two vectors are added using the tip-to-tail method. Which statement correctly describes the resultant vector?",
+        "options": [
+          "The resultant is drawn from the tail of the first vector to the tip of the last vector.",
+          "The resultant is drawn from the tip of the first vector to the tail of the last vector.",
+          "The resultant is the sum of the magnitudes, ignoring direction.",
+          "The resultant is always the longest vector in the diagram."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student understands the tip-to-tail vector addition procedure.",
+        "misconceptions": [
+          "✓ 正确",
+          "That would not connect the starting point to the endpoint. The resultant must start at the initial point.",
+          "Vector addition takes direction into account; adding magnitudes only works if vectors are parallel and same direction.",
+          "The resultant can be shorter than the individual vectors if they partially cancel."
+        ],
+        "nodeId": "vector-scale-diagrams",
+        "errorId": "err-vector-scale",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-vector-diagrams",
+        "successCriteria": "Student correctly identifies that resultant is from tail of first to tip of last vector.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Vector addition (tip-to-tail) is a key skill in solving problems related to motion.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students sometimes think resultant goes from tip of first to tail of last or confuse the order.",
+        "remediationModule": "err-vector-scale",
+        "retestItem": "err-vector-scale"
+      }
+    ]
+  }
+}
