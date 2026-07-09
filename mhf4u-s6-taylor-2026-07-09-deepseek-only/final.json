@@ -1,0 +1,1346 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-09",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HA8ndYTPvoql4Ix3QWmcmcgLnRb?from=vc_group_doc_link#doxcnijmmFQX61UtVjoy31OXFie",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-09 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/HA8ndYTPvoql4Ix3QWmcmcgLnRb?from=vc_group_doc_link#doxcnijmmFQX61UtVjoy31OXFie",
+    "title": "MHF4U.S6.Taylor 2026-07-09 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/Downloads/Gia Zhu/02_Active_Projects/创新学校/artifacts/course-chat-ingestion/2026-07-09-sources/mhf4u-s6-taylor-2026-07-09/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-09",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-09",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes direct instruction on polynomial properties and finite differences, guided practice, homework Q&A, and administrative announcements. Academic content is substantial.",
+    "academicContentSignals": [
+      "Distinction between polynomial degree parity and odd/even function",
+      "End behavior rules for even/odd degree polynomials",
+      "Finite difference rule: constant n-th order difference for n-degree polynomial",
+      "Constant difference formula CD = n! * a",
+      "Polynomial derivation steps using finite differences",
+      "In-class practice: cubic polynomial difference verification (constant difference = 6)",
+      "In-class practice: quartic polynomial equation derivation (result x^4 - 2x^3 + 5)",
+      "End behavior writing rule: no quadrant references",
+      "Missing term representation as 0 coefficient in polynomials",
+      "Graphing requirements: background, axis labeling, endpoint marking standards"
+    ],
+    "courseOverviewSignals": [
+      "Polynomial functions unit: finite differences, degree, leading coefficient, end behavior"
+    ],
+    "opsDominanceRisk": "Medium. Multiple submission rules and schedule adjustments could overshadow academic content. Diagnostic card should focus on finite differences and polynomial properties, with at most one lightweight ops readiness check.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Homework Q&A Scope",
+        "studentAction": "Request separate explanation for simple sub-questions via class chat if needed.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu class chat",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Only high-difficulty parts of homework question 1, 3, 6, 9, 12 are covered on site, simple sub-questions can be requested for separate explanation via the class chat.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Graph Background Requirement",
+        "studentAction": "Use white, light yellow, light pink, or light blue background for graded graph assignments.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Graded graph assignments cannot use dark background paper, only white, light yellow, light pink or light blue backgrounds are allowed.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Axis Labeling Requirement",
+        "studentAction": "Fully label and number x and y axes on graded assignments.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Assignments submitted for grading must have fully labeled and numbered x and y axes.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Endpoint Marking Standard",
+        "studentAction": "Mark endpoints with solid circles for ≤/≥ and open circles for </> on piecewise functions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "For piecewise function endpoints, intervals with ≤ / ≥ use solid closed circles, intervals with < / > use hollow open circles.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Graphing Method Options",
+        "studentAction": "Choose either function transformation or value table method for graphing piecewise functions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Graphing Method Options: Students can choose either function transformation or value table plotting.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "follow_up_action",
+        "title": "Post-class Solution Upload",
+        "studentAction": "Check for complete solutions and explanation videos for questions 6,9,12 after class.",
+        "deadlineText": "Day after class (July 10)",
+        "deadlineISO": "2026-07-10",
+        "platform": "Feishu",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Complete solutions for all homework questions will be uploaded the day after class, dedicated explanation videos will be provided for un-covered questions 6, 9, 12.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Polynomial Degree Parity vs. Function Parity、Polynomial End Behavior Rules、Finite Differences for Polynomial Functions、Deriving Polynomial Expression from Finite Differences）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 6 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Polynomial degree parity (even/odd degree) is independent of whether the function is odd or even.；Even-degree polynomials have both ends trending in the same direction; odd-degree polynomials have ends trending in opposite directions.；End behavior must be described using formal descriptive expressions, not quadrant references.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Distinguish between the parity of a polynomial's degree (even/odd degree) and whether the function is odd or even."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Describe the end behavior of polynomial functions using formal descriptive language (not quadrant references)."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Apply the finite difference rule: an nth-degree polynomial has constant nth-order differences, and the constant difference equals n! times the leading coefficient."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Derive the algebraic expression of a polynomial from a given set of finite differences."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Identify that missing terms in a polynomial have a coefficient of zero and account for them in calculations."
+    },
+    {
+      "id": "lg-6",
+      "statement": "Correctly mark endpoints (solid vs. open circles) for piecewise functions based on interval notation."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-C-OE01-poly-degree-parity",
+      "name": "Polynomial Degree Parity vs. Function Parity",
+      "nameEn": "Polynomial Degree Parity vs. Function Parity",
+      "definition": "The parity of a polynomial's degree (even or odd) is independent of whether the polynomial function is odd or even. Even-degree polynomials have end behaviors in the same direction; odd-degree polynomials have end behaviors in opposite directions.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    },
+    {
+      "id": "MHF4U-C-OE01-end-behavior",
+      "name": "Polynomial End Behavior Rules",
+      "nameEn": "Polynomial End Behavior Rules",
+      "definition": "Even-degree polynomials have both ends trending in the same direction (both up or both down). Odd-degree polynomials have ends trending in opposite directions (one up, one down). End behavior must be described using formal descriptive expressions, not quadrant references.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    },
+    {
+      "id": "MHF4U-C-OE01-finite-difference",
+      "name": "Finite Differences for Polynomial Functions",
+      "nameEn": "Finite Differences for Polynomial Functions",
+      "definition": "An nth-degree polynomial has constant nth-order finite differences. The constant difference (CD) is given by CD = n! * a, where n is the degree and a is the leading coefficient. This property can be used to determine the degree and leading coefficient from a table of values.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    },
+    {
+      "id": "MHF4U-C-OE03-polynomial-derivation",
+      "name": "Deriving Polynomial Expression from Finite Differences",
+      "nameEn": "Deriving Polynomial Expression from Finite Differences",
+      "definition": "To derive a polynomial from finite differences: (1) find the degree n by identifying when differences become constant, (2) use CD = n! * a to find leading coefficient a, (3) substitute known points to build a system of equations and solve for remaining coefficients.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    },
+    {
+      "id": "MHF4U-C-OE01-missing-terms",
+      "name": "Missing Terms in Polynomials Have Coefficient Zero",
+      "nameEn": "Missing Terms in Polynomials Have Coefficient Zero",
+      "definition": "Any missing term in a polynomial corresponds to a coefficient of 0. For example, x^3 can be written as x^3 + 0x^2 + 0x + 0. This is important for polynomial division and understanding finite differences.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    },
+    {
+      "id": "MHF4U-C-OE01-graphing-standards",
+      "name": "Graphing Standards for Piecewise Functions",
+      "nameEn": "Graphing Standards for Piecewise Functions",
+      "definition": "For piecewise function graphs: intervals with ≤ or ≥ endpoints use solid closed circles; intervals with < or > endpoints use hollow open circles. Graded assignments require fully labeled x and y axes and light-colored backgrounds (white, light yellow, light pink, light blue).",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between the parity of a polynomial's degree (even/odd degree) and whether the function is odd or even."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Describe the end behavior of polynomial functions using formal descriptive language (not quadrant references)."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply the finite difference rule: an nth-degree polynomial has constant nth-order differences, and the constant difference equals n! times the leading coefficient."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Derive the algebraic expression of a polynomial from a given set of finite differences."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Identify that missing terms in a polynomial have a coefficient of zero and account for them in calculations."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Correctly mark endpoints (solid vs. open circles) for piecewise functions based on interval notation."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-polynomial-degree-function-parity",
+        "condition": "Student answers Q1 incorrectly",
+        "systemAction": "assign reteach module for err-polynomial-degree-function-parity",
+        "studentMessage": "Degree parity and function parity are different concepts. Let's review them."
+      },
+      {
+        "errorId": "err-end-behavior-quadrant",
+        "condition": "Student answers Q2 incorrectly",
+        "systemAction": "assign reteach module for err-end-behavior-quadrant",
+        "studentMessage": "End behavior should be described in formal language, not quadrant references. Let's practice."
+      },
+      {
+        "errorId": "err-finite-difference-misapplication",
+        "condition": "Student answers Q3 incorrectly",
+        "systemAction": "assign reteach module for err-finite-difference-misapplication",
+        "studentMessage": "The constant difference formula uses n-factorial, not just n. Let's review it."
+      },
+      {
+        "errorId": "err-missing-term-coefficient",
+        "condition": "Student answers Q4 incorrectly",
+        "systemAction": "assign reteach module for err-missing-term-coefficient",
+        "studentMessage": "Missing terms have coefficient zero. Let's see why that matters."
+      },
+      {
+        "errorId": "err-piecewise-endpoint-circles",
+        "condition": "Student answers Q5 incorrectly",
+        "systemAction": "assign reteach module for err-piecewise-endpoint-circles",
+        "studentMessage": "Correct marking of endpoints in piecewise functions is important. Let's review."
+      },
+      {
+        "errorId": "err-finite-difference-degree-determination",
+        "condition": "Student answers Q6 or Q7 incorrectly",
+        "systemAction": "assign reteach module for err-finite-difference-degree-determination",
+        "studentMessage": "Determining the degree from finite differences requires careful counting. Let's practice."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-c-polynomial-parity-q1",
+        "nodeId": "MHF4U-C-OE01-poly-degree-parity",
+        "errorId": "err-polynomial-degree-function-parity",
+        "stem": "Which statement about a fifth-degree polynomial function is correct?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that an odd-degree polynomial is not necessarily an odd function.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses polynomial degree parity and function parity.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student conflates degree parity with odd/even function property.",
+        "commonMisconception": "Student thinks odd-degree polynomial must be an odd function or even-degree must be even function.",
+        "remediationModule": "err-polynomial-degree-function-parity",
+        "retestItem": "err-polynomial-degree-function-parity",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><line x1='20' y1='100' x2='180' y2='100' stroke='black' stroke-width='1' marker-end='url(#arrow)'/><line x1='100' y1='180' x2='100' y2='20' stroke='black' stroke-width='1' marker-end='url(#arrow)'/><defs><marker id='arrow' viewBox='0 0 10 10' refX='5' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'><path d='M 0 0 L 10 5 L 0 10 z' fill='black'/></marker></defs><path d='M 20 160 Q 50 140 80 120 T 140 60 T 180 20' fill='none' stroke='blue' stroke-width='2'/></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "It must be an odd function because the degree is odd.",
+            "correct": false,
+            "feedbackWrong": "An odd-degree polynomial does not have to be an odd function. Function parity depends on symmetry about the origin, not just the degree."
+          },
+          {
+            "label": "B",
+            "text": "It is not necessarily an odd function; degree parity and function parity are independent.",
+            "correct": true,
+            "feedbackCorrect": "Correct. A fifth-degree polynomial can be neither odd nor even; its parity depends on the specific coefficients."
+          },
+          {
+            "label": "C",
+            "text": "It must be an even function because all polynomials are symmetric.",
+            "correct": false,
+            "feedbackWrong": "Polynomials are not necessarily symmetric. Even-degree polynomials have symmetry about the y-axis only if they are even functions, but that is not guaranteed."
+          },
+          {
+            "label": "D",
+            "text": "It cannot be an odd function because the degree is odd.",
+            "correct": false,
+            "feedbackWrong": "It can be odd if it satisfies f(-x) = -f(x), for example f(x) = x^5. So degree parity alone does not determine function parity."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-c-end-behavior-q2",
+        "nodeId": "MHF4U-C-OE01-end-behavior",
+        "errorId": "err-end-behavior-quadrant",
+        "stem": "Which of the following is the correct formal description of the end behavior of an even-degree polynomial with a positive leading coefficient?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student uses formal descriptive language (e.g., 'both ends go up') rather than quadrant references.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial graphs.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student uses formal descriptive language instead of quadrant references for end behavior.",
+        "commonMisconception": "Student uses quadrant references (e.g., 'from quadrant III to quadrant I') instead of describing direction.",
+        "remediationModule": "err-end-behavior-quadrant",
+        "retestItem": "err-end-behavior-quadrant",
+        "options": [
+          {
+            "label": "A",
+            "text": "Both ends go up.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Even-degree with positive leading coefficient: as x → ±∞, y → +∞."
+          },
+          {
+            "label": "B",
+            "text": "One end goes up, the other goes down.",
+            "correct": false,
+            "feedbackWrong": "That describes an odd-degree polynomial, not even-degree."
+          },
+          {
+            "label": "C",
+            "text": "It goes from Q2 to Q1.",
+            "correct": false,
+            "feedbackWrong": "Quadrant references are not formal description. Use 'both ends go up' or 'as x→±∞, y→+∞'."
+          },
+          {
+            "label": "D",
+            "text": "Both ends go down.",
+            "correct": false,
+            "feedbackWrong": "That would be correct for a negative leading coefficient, not positive."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-c-finite-difference-misapplication-q3",
+        "nodeId": "MHF4U-C-OE01-finite-difference",
+        "errorId": "err-finite-difference-misapplication",
+        "stem": "For a cubic polynomial (degree 3), the constant third difference (CD) is 12. Which formula correctly relates the constant difference to the leading coefficient a?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly uses CD = n! * a to find leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Finite differences are a numeric representation of polynomial functions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student applies CD = n! * a correctly.",
+        "commonMisconception": "Student uses CD = n * a instead of CD = n! * a.",
+        "remediationModule": "err-finite-difference-misapplication",
+        "retestItem": "err-finite-difference-misapplication",
+        "options": [
+          {
+            "label": "A",
+            "text": "CD = 3 × a, so a = 12 / 3 = 4",
+            "correct": false,
+            "feedbackWrong": "The formula uses factorial, not just n. CD = 3! × a = 6a, so a = 12 / 6 = 2."
+          },
+          {
+            "label": "B",
+            "text": "CD = 3! × a, so a = 12 / 6 = 2",
+            "correct": true,
+            "feedbackCorrect": "Correct. CD = n! × a, so for n=3, CD = 6a, a = 2."
+          },
+          {
+            "label": "C",
+            "text": "CD = 3^2 × a, so a = 12 / 9 = 1.33",
+            "correct": false,
+            "feedbackWrong": "The formula uses factorial, not square. CD = 3!×a = 6a."
+          },
+          {
+            "label": "D",
+            "text": "CD = a, so a = 12",
+            "correct": false,
+            "feedbackWrong": "The constant difference is related to a by CD = n!×a. It is not equal to a."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-c-missing-term-coefficient-q4",
+        "nodeId": "MHF4U-C-OE01-missing-terms",
+        "errorId": "err-missing-term-coefficient",
+        "stem": "When writing the polynomial x^3 - 2x + 5 in expanded form with all terms, which representation is correct?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student writes missing terms with coefficient 0.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Missing terms with zero coefficients are part of polynomial representation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes that missing terms have coefficient 0.",
+        "commonMisconception": "Student omits missing terms entirely instead of including them with coefficient 0.",
+        "remediationModule": "err-missing-term-coefficient",
+        "retestItem": "err-missing-term-coefficient",
+        "options": [
+          {
+            "label": "A",
+            "text": "x^3 - 2x + 5",
+            "correct": false,
+            "feedbackWrong": "This is the compact form, but to show all terms we must include the x^2 term with coefficient 0."
+          },
+          {
+            "label": "B",
+            "text": "x^3 + 0x^2 - 2x + 5",
+            "correct": true,
+            "feedbackCorrect": "Correct. The missing x^2 term is shown with coefficient 0."
+          },
+          {
+            "label": "C",
+            "text": "x^3 + 0x - 2x + 5",
+            "correct": false,
+            "feedbackWrong": "This incorrectly adds an extra x term. The correct is x^3 + 0x^2 - 2x + 5."
+          },
+          {
+            "label": "D",
+            "text": "x^3 - 2x + 5 + 0x^2",
+            "correct": false,
+            "feedbackWrong": "The ordering should be descending powers: x^3 + 0x^2 - 2x + 5."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-c-piecewise-endpoint-circles-q5",
+        "nodeId": "MHF4U-C-OE01-graphing-standards",
+        "errorId": "err-piecewise-endpoint-circles",
+        "stem": "For the piecewise function: f(x) = { x+1 for x < 2; x^2 for x ≥ 2 }, which endpoint marking is correct at x = 2?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-6",
+        "successCriteria": "Student correctly assigns solid circle for ≤/≥ and open circle for </>.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Graphing standards for piecewise functions are part of representing polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows when to use solid vs open circles for piecewise endpoints.",
+        "commonMisconception": "Student uses open circle for inclusive or solid for strict inequality.",
+        "remediationModule": "err-piecewise-endpoint-circles",
+        "retestItem": "err-piecewise-endpoint-circles",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><line x1='20' y1='150' x2='180' y2='150' stroke='black' stroke-width='1' marker-end='url(#arrow)'/><line x1='60' y1='180' x2='60' y2='20' stroke='black' stroke-width='1' marker-end='url(#arrow)'/><defs><marker id='arrow' viewBox='0 0 10 10' refX='5' refY='5' markerWidth='6' markerHeight='6' orient='auto-start-reverse'><path d='M 0 0 L 10 5 L 0 10 z' fill='black'/></marker></defs><line x1='20' y1='130' x2='60' y2='90' stroke='blue' stroke-width='2'/><circle cx='60' cy='90' r='3' fill='white' stroke='blue' stroke-width='1'/><path d='M 60 90 Q 80 70 100 60 T 140 50' fill='none' stroke='red' stroke-width='2'/><circle cx='60' cy='90' r='3' fill='red' stroke='red' stroke-width='1'/></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "An open circle on the point (2, 3) from the first piece, and a solid circle on (2, 4) from the second piece.",
+            "correct": true,
+            "feedbackCorrect": "Correct. For x < 2, use open circle; for x ≥ 2, use solid circle."
+          },
+          {
+            "label": "B",
+            "text": "Solid circles on both points.",
+            "correct": false,
+            "feedbackWrong": "The first piece uses <, so it should have an open circle, not solid."
+          },
+          {
+            "label": "C",
+            "text": "Open circles on both points.",
+            "correct": false,
+            "feedbackWrong": "The second piece uses ≥, so it should have a solid circle."
+          },
+          {
+            "label": "D",
+            "text": "An open circle on (2,4) and a solid circle on (2,3).",
+            "correct": false,
+            "feedbackWrong": "Reversed: open for <, solid for ≥."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-c-finite-difference-degree-determination-q6",
+        "nodeId": "MHF4U-C-OE01-finite-difference",
+        "errorId": "err-finite-difference-degree-determination",
+        "stem": "You compute first differences: 3, 5, 7, 9; second differences: 2, 2, 2. What is the degree of the polynomial?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student counts the number of differences until constant to determine degree.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Finite differences help identify polynomial degree.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student correctly determines polynomial degree from finite differences.",
+        "commonMisconception": "Student confuses the order of differences with degree; e.g., thinks first differences constant means degree 1, etc.",
+        "remediationModule": "err-finite-difference-degree-determination",
+        "retestItem": "err-finite-difference-degree-determination",
+        "options": [
+          {
+            "label": "A",
+            "text": "Degree 1",
+            "correct": false,
+            "feedbackWrong": "First differences are not constant; they increase by 2 each time. Constant second differences indicate degree 2."
+          },
+          {
+            "label": "B",
+            "text": "Degree 2",
+            "correct": true,
+            "feedbackCorrect": "Correct. Since second differences are constant, the polynomial has degree 2."
+          },
+          {
+            "label": "C",
+            "text": "Degree 3",
+            "correct": false,
+            "feedbackWrong": "Third differences would need to be computed to know if constant; here we only computed up to second differences which are already constant."
+          },
+          {
+            "label": "D",
+            "text": "Degree 0",
+            "correct": false,
+            "feedbackWrong": "A constant function would have zero differences constant; here first differences vary."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-polynomial-degree-function-parity",
+      "condition": "Student answers Q1 incorrectly",
+      "systemAction": "assign reteach module for err-polynomial-degree-function-parity",
+      "studentMessage": "Degree parity and function parity are different concepts. Let's review them."
+    },
+    {
+      "errorId": "err-end-behavior-quadrant",
+      "condition": "Student answers Q2 incorrectly",
+      "systemAction": "assign reteach module for err-end-behavior-quadrant",
+      "studentMessage": "End behavior should be described in formal language, not quadrant references. Let's practice."
+    },
+    {
+      "errorId": "err-finite-difference-misapplication",
+      "condition": "Student answers Q3 incorrectly",
+      "systemAction": "assign reteach module for err-finite-difference-misapplication",
+      "studentMessage": "The constant difference formula uses n-factorial, not just n. Let's review it."
+    },
+    {
+      "errorId": "err-missing-term-coefficient",
+      "condition": "Student answers Q4 incorrectly",
+      "systemAction": "assign reteach module for err-missing-term-coefficient",
+      "studentMessage": "Missing terms have coefficient zero. Let's see why that matters."
+    },
+    {
+      "errorId": "err-piecewise-endpoint-circles",
+      "condition": "Student answers Q5 incorrectly",
+      "systemAction": "assign reteach module for err-piecewise-endpoint-circles",
+      "studentMessage": "Correct marking of endpoints in piecewise functions is important. Let's review."
+    },
+    {
+      "errorId": "err-finite-difference-degree-determination",
+      "condition": "Student answers Q6 or Q7 incorrectly",
+      "systemAction": "assign reteach module for err-finite-difference-degree-determination",
+      "studentMessage": "Determining the degree from finite differences requires careful counting. Let's practice."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-polynomial-degree-function-parity",
+      "trigger": "Student answered diagnostic question Q1 incorrectly, indicating confusion between polynomial degree parity and function parity.",
+      "studentMisunderstanding": "Student confuses polynomial degree parity (even/odd degree) with the property of a function being odd or even. They may think that an odd-degree polynomial is necessarily an odd function or that an even-degree polynomial is necessarily an even function.",
+      "miniLesson": {
+        "explain": "Polynomial degree parity (even or odd degree) is independent of whether the polynomial function is odd or even. An odd-degree polynomial does not have to be an odd function, and an even-degree polynomial does not have to be an even function. Function parity refers to symmetry: even functions satisfy f(-x)=f(x) and odd functions satisfy f(-x)=-f(x). Degree parity only tells us about end behavior: even-degree polynomials have both ends going the same direction, odd-degree have ends opposite. Do not assume a polynomial's function parity based solely on its degree.",
+        "example": "Consider the polynomial x^4 - 2x^3 + 5. Its degree is 4 (even), but it is not an even function because f(-x)=(-x)^4 - 2(-x)^3 + 5 = x^4 + 2x^3 + 5, which is not equal to f(x). Thus, an even-degree polynomial can be neither even nor odd.",
+        "memoryAnchor": "Remember: Degree parity = end behavior; Function parity = symmetry. They are independent."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Is the polynomial x^4 - 2x^3 + 5 an even function? Answer Yes or No.",
+          "answer": "No, because f(-x) = x^4 + 2x^3 + 5, which is not equal to f(x)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Given that a polynomial has degree 4, list one possible reason it might not be an even function.",
+          "answer": "It could contain an odd-degree term, such as x^3, causing f(-x) not to equal f(x)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the statement 'If a polynomial has an even degree, it must be an even function' is incorrect. Use the polynomial x^4 - 2x^3 + 5 in your explanation.",
+          "answer": "The polynomial x^4 - 2x^3 + 5 has even degree 4, but it is not even because it contains an odd-degree term -2x^3. Substituting -x gives x^4 + 2x^3 + 5, which is not equal to the original. Therefore, degree parity alone does not determine function parity."
+        }
+      ]
+    },
+    {
+      "errorId": "err-end-behavior-quadrant",
+      "trigger": "Student uses quadrant references instead of formal descriptive language for end behavior.",
+      "studentMisunderstanding": "End behavior must be described using formal descriptive expressions (e.g., 'as x → ∞, y → ∞') rather than quadrant references (e.g., 'from Q3 to Q2').",
+      "miniLesson": {
+        "explain": "End behavior describes what happens to y as x approaches positive or negative infinity. Instead of saying 'from quadrant II to quadrant I', we use formal language: 'as x → -∞, y → ... ; as x → ∞, y → ...'. For even-degree polynomials, both ends go in the same direction; for odd-degree, they go opposite directions.",
+        "example": "For a quadratic with positive leading coefficient, as x → ±∞, y → ∞ (both ends up). For a cubic with positive leading coefficient, as x → -∞, y → -∞ and as x → ∞, y → ∞ (one down, one up).",
+        "memoryAnchor": "Remember: Even-degree = Same ends; Odd-degree = Opposite ends. Always use 'as x → ...' language."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Fill in the blanks: For an even-degree polynomial with negative leading coefficient, as x → -∞, y → ______ and as x → ∞, y → ______.",
+          "answer": "-∞, -∞"
+        },
+        {
+          "level": "L2",
+          "prompt": "Describe the end behavior of P(x) = x^4 - 2x^3 + 5 using formal language.",
+          "answer": "As x → -∞, y → ∞; as x → ∞, y → ∞."
+        },
+        {
+          "level": "L3",
+          "prompt": "A polynomial has end behavior: as x → -∞, y → ∞; as x → ∞, y → ∞. What can you conclude about its degree and leading coefficient?",
+          "answer": "Even degree, positive leading coefficient."
+        }
+      ]
+    },
+    {
+      "errorId": "err-finite-difference-misapplication",
+      "trigger": "Student uses CD = n * a instead of CD = n! * a when relating constant difference to leading coefficient.",
+      "studentMisunderstanding": "Student thinks the constant difference for an nth-degree polynomial is n times the leading coefficient, rather than n factorial times the leading coefficient.",
+      "miniLesson": {
+        "explain": "The finite difference rule states that an nth-degree polynomial has constant nth-order differences. The constant difference (CD) is given by CD = n! * a, where a is the leading coefficient. For example, for a cubic (n=3), CD = 3! * a = 6a. For a quartic (n=4), CD = 4! * a = 24a. Remember that n! (n factorial) is the product of all positive integers up to n, so 3! = 3×2×1 = 6, 4! = 4×3×2×1 = 24.",
+        "example": "Consider the cubic polynomial 2x^3 + ... Its constant third difference is CD = 3! * 2 = 12. For the quartic polynomial x^4 - 2x^3 + 5, the leading coefficient a=1, degree n=4, so CD = 4! * 1 = 24.",
+        "memoryAnchor": "Think 'Factorial is the key: n! times a gives CD.' Remember that the number of differences determines n, and we multiply by n!."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For a cubic polynomial (n=3) with leading coefficient a=2, what is the constant third difference? Use the correct formula.",
+          "answer": "CD = 3! * 2 = 6*2 = 12."
+        },
+        {
+          "level": "L2",
+          "prompt": "A polynomial has constant second differences CD = 8. If the leading coefficient is a, which equation relates CD and a? Solve for a.",
+          "answer": "CD = n! * a, with n=2, so 8 = 2! * a = 2a => a = 4."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given a quartic polynomial (n=4) with leading coefficient a=3, what is the constant fourth difference? Then, if you instead mistakenly used CD = n*a, what would you get? Explain the error.",
+          "answer": "Correct: CD = 4! * 3 = 24*3 = 72. Mistake: CD = 4*3 = 12, which is incorrect because it omits the factorial factor of 6."
+        }
+      ]
+    },
+    {
+      "errorId": "err-missing-term-coefficient",
+      "trigger": "Student incorrectly answers diagnostic question about missing terms in polynomial (does not include zero coefficients for missing terms).",
+      "studentMisunderstanding": "The student forgets that missing terms in a polynomial correspond to a coefficient of zero, leading to errors in polynomial division or finite difference calculations.",
+      "miniLesson": {
+        "explain": "A polynomial must include all powers from the highest degree down to the constant term. If a term is missing, it means its coefficient is 0. For example, the polynomial x^3 - 2x + 5 is actually x^3 + 0x^2 - 2x + 5. This is important when writing polynomials in expanded form, performing polynomial division, or setting up finite difference tables.",
+        "example": "Consider the polynomial x^4 - 2x^3 + 5. The missing x^2 and x terms have coefficients 0. So the full expanded form is x^4 - 2x^3 + 0x^2 + 0x + 5.",
+        "memoryAnchor": "Missing terms are like zeros in place value: 304 has a 0 in the tens place. In polynomials, missing terms have coefficient 0."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Write the polynomial x^3 - 2x + 5 in expanded form, including all terms with zero coefficients.",
+          "answer": "x^3 + 0x^2 - 2x + 5"
+        },
+        {
+          "level": "L2",
+          "prompt": "For the polynomial x^4 - 2x^3 + 5, what is the coefficient of x^2?",
+          "answer": "0"
+        },
+        {
+          "level": "L3",
+          "prompt": "A cubic polynomial has constant third difference 6. Its expression is x^3 + ax^2 + bx + c. If there is no x^2 term, what is the value of a? Use the formula CD = n! * a.",
+          "answer": "a = 0 (since missing term implies coefficient 0)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-piecewise-endpoint-circles",
+      "trigger": "Student incorrectly identifies endpoint markings in piecewise functions (diagnostic question Q5 incorrect).",
+      "studentMisunderstanding": "The student confuses the use of solid and open circles for piecewise function endpoints: solid circles are used for inclusive inequalities (≤, ≥) and open circles are used for strict inequalities (<, >).",
+      "miniLesson": {
+        "explain": "When graphing piecewise functions, the endpoints of each piece must be marked with a circle to indicate whether the point is included or not. Use a solid (filled) circle if the inequality includes 'or equal to' (≤ or ≥). Use a hollow (open) circle if the inequality is strict (< or >).",
+        "example": "For the function f(x) = { x+1 for x < 2; x^2 for x ≥ 2 }, at x=2: the first piece (x < 2) has an open circle at (2,3); the second piece (x ≥ 2) has a solid circle at (2,4).",
+        "memoryAnchor": "Solid circle = 'closed door' for inclusive (≥, ≤). Open circle = 'open door' for exclusive (>, <)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For the interval x ≤ 1, should you use a solid or open circle at x=1?",
+          "answer": "Solid circle (because ≤ includes the endpoint)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f(x) = { 2x for x < 3; 6-x for x ≥ 3 }, what type of circle is used at x=3 for each piece?",
+          "answer": "First piece (x < 3): open circle at (3,6). Second piece (x ≥ 3): solid circle at (3,3)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Graph the piecewise function: f(x) = { -x for x ≤ 0; x^2 for x > 0 }. Describe the endpoint markings at x=0.",
+          "answer": "At x=0: first piece (x ≤ 0) has a solid circle at (0,0); second piece (x > 0) has an open circle at (0,0). The graph should show a solid dot at the origin from the first piece, and an open dot just to the right from the second piece."
+        }
+      ]
+    },
+    {
+      "errorId": "err-finite-difference-degree-determination",
+      "trigger": "Student incorrectly determines polynomial degree because they miscount the number of differences until constant.",
+      "studentMisunderstanding": "Student miscounts the number of differences needed to reach a constant, leading to wrong polynomial degree.",
+      "miniLesson": {
+        "explain": "To determine the degree of a polynomial using finite differences, compute successive differences until you obtain a constant row. The number of times you compute differences (the order of the constant difference) equals the degree. For example, a cubic polynomial has constant third differences (e.g., 6), and a quartic polynomial has constant fourth differences (e.g., 24).",
+        "example": "Consider a cubic polynomial: first differences vary, second differences vary, third differences are constant (all 6). Thus degree = 3. For a quartic polynomial, fourth differences are constant (all 24), so degree = 4.",
+        "memoryAnchor": "Constant at the nth difference means degree n."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "You computed differences: first differences: 4, 6, 8, 10; second differences: 2, 2, 2. What is the degree?",
+          "answer": "Second differences are constant, so degree = 2."
+        },
+        {
+          "level": "L2",
+          "prompt": "Given y-values: 3, 9, 27, 63, 123. Compute differences and find the degree.",
+          "answer": "First differences: 6, 18, 36, 60. Second differences: 12, 18, 24. Third differences: 6, 6. Constant third differences, so degree = 3."
+        },
+        {
+          "level": "L3",
+          "prompt": "A polynomial has constant fourth differences = 24. Find its degree and leading coefficient a using CD = n! × a.",
+          "answer": "Degree = 4 (fourth differences constant). CD = 4! × a = 24a = 24 → a = 1."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-polynomial-degree-function-parity",
+      "questions": [
+        {
+          "id": "retest-Q1",
+          "type": "single_choice",
+          "stem": "Which statement about polynomial degree parity and function parity is correct?",
+          "options": [
+            "An even-degree polynomial is always an even function.",
+            "An odd-degree polynomial is always an odd function.",
+            "Degree parity determines end behavior, not function parity.",
+            "A polynomial's degree parity and function parity are always the same."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-Q2",
+          "type": "open_ended",
+          "stem": "Provide an example of a polynomial with an even degree that is not an even function. Explain why it fails the even function test.",
+          "rubric": "The polynomial must have an even degree (e.g., 4) and include at least one odd-degree term (e.g., x^3). The explanation must state that f(-x) ≠ f(x) because the odd-degree term changes sign. Example: f(x)=x^4−2x^3+5; f(-x)=x^4+2x^3+5 ≠ f(x)."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-end-behavior-quadrant",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is the correct formal description of the end behavior for the polynomial P(x) = x^4 - 2x^3 + 5?",
+          "options": [
+            "As x → -∞, y → ∞; as x → ∞, y → ∞",
+            "Quadrant II to Quadrant I",
+            "As x → -∞, y → -∞; as x → ∞, y → ∞",
+            "Both ends go up"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Describe the end behavior of a cubic polynomial with a positive leading coefficient using formal mathematical language (use 'as x → ...').",
+          "rubric": "As x → -∞, y → -∞; as x → ∞, y → ∞"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-finite-difference-misapplication",
+      "questions": [
+        {
+          "id": "q1-fd-formula-choice",
+          "type": "single_choice",
+          "stem": "Which of the following expressions correctly gives the constant nth-order difference for an nth-degree polynomial with leading coefficient a?",
+          "options": [
+            "n × a",
+            "n! × a",
+            "2n × a",
+            "a^n"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-fd-cubic-calculation",
+          "type": "open_ended",
+          "stem": "For a cubic polynomial with leading coefficient 5, calculate the constant third difference. Show your work.",
+          "rubric": "Student writes correct formula CD = n! × a, substitutes n=3, computes 3! = 6, multiplies by 5 to get 30. Award full marks for correct numerical answer and clear demonstration of using factorial."
+        }
+      ],
+      "passRule": "Answer both questions correctly: select n! × a in question 1 and provide a complete, correct calculation yielding 30 in question 2."
+    },
+    {
+      "forErrorId": "err-missing-term-coefficient",
+      "questions": [
+        {
+          "id": "retest-missing-1",
+          "type": "single_choice",
+          "stem": "What is the coefficient of the x^2 term in the polynomial x^3 - 2x + 5?",
+          "options": [
+            "0",
+            "1",
+            "-2",
+            "5"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-missing-2",
+          "type": "open_ended",
+          "stem": "Write the polynomial x^4 - 2x^3 + 5 in expanded form, including all terms with coefficients (use zero for missing terms).",
+          "rubric": "x^4 - 2x^3 + 0x^2 + 0x + 5"
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-piecewise-endpoint-circles",
+      "questions": [
+        {
+          "id": "retest-piecewise-1",
+          "type": "single_choice",
+          "stem": "For the piecewise function f(x) = { 2x+1 for x ≤ 3; 5x-2 for x > 3 }, what type of circle should be used at x=3 for the first piece?",
+          "options": [
+            "Solid (filled) circle",
+            "Open (hollow) circle",
+            "No circle is needed",
+            "Both solid and open circles"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-piecewise-2",
+          "type": "open_ended",
+          "stem": "Given g(x) = { -x for x < 0; x+1 for x ≥ 0 }, describe the endpoint markings at x=0 for each piece. Include the coordinates.",
+          "rubric": "First piece (x < 0): open circle at (0, 0). Second piece (x ≥ 0): solid circle at (0, 1)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. Multiple-choice must select correct option; open-ended must correctly state both endpoint markings and coordinates."
+    },
+    {
+      "forErrorId": "err-finite-difference-degree-determination",
+      "questions": [
+        {
+          "id": "retest_fdd_1",
+          "type": "single_choice",
+          "stem": "A student computed finite differences for a polynomial function and obtained: first differences: -1, 1, 3, 5; second differences: 2, 2, 2. What is the degree of the polynomial?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest_fdd_2",
+          "type": "open_ended",
+          "stem": "Consider the polynomial defined by the following table of values for equally spaced x-values (x = 0,1,2,3,4): y(0)=5, y(1)=4, y(2)=5, y(3)=32, y(4)=133. Compute finite differences to determine the degree of the polynomial. Then determine the leading coefficient a using the formula CD = n! * a.",
+          "rubric": "Correct answer includes: first differences (-1, 1, 27, 101), second differences (2, 26, 74), third differences (24, 48), fourth differences (24 constant). Degree = 4. Leading coefficient a = 24 / 4! = 1."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-09",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HA8ndYTPvoql4Ix3QWmcmcgLnRb?from=vc_group_doc_link#doxcnijmmFQX61UtVjoy31OXFie",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-09 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Polynomial degree parity (even/odd degree) is independent of whether the function is odd or even.；Even-degree polynomials have both ends trending in the same direction; odd-degree polynomials have ends trending in opposite directions.；End behavior must be described using formal descriptive expressions, not quadrant references.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between the parity of a polynomial's degree (even/odd degree) and whether the function is odd or even."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Describe the end behavior of polynomial functions using formal descriptive language (not quadrant references)."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply the finite difference rule: an nth-degree polynomial has constant nth-order differences, and the constant difference equals n! times the leading coefficient."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Derive the algebraic expression of a polynomial from a given set of finite differences."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Identify that missing terms in a polynomial have a coefficient of zero and account for them in calculations."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Correctly mark endpoints (solid vs. open circles) for piecewise functions based on interval notation."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Homework Q&A Scope",
+        "studentAction": "Request separate explanation for simple sub-questions via class chat if needed.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu class chat",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Only high-difficulty parts of homework question 1, 3, 6, 9, 12 are covered on site, simple sub-questions can be requested for separate explanation via the class chat.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Graph Background Requirement",
+        "studentAction": "Use white, light yellow, light pink, or light blue background for graded graph assignments.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Graded graph assignments cannot use dark background paper, only white, light yellow, light pink or light blue backgrounds are allowed.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Axis Labeling Requirement",
+        "studentAction": "Fully label and number x and y axes on graded assignments.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Assignments submitted for grading must have fully labeled and numbered x and y axes.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Endpoint Marking Standard",
+        "studentAction": "Mark endpoints with solid circles for ≤/≥ and open circles for </> on piecewise functions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "For piecewise function endpoints, intervals with ≤ / ≥ use solid closed circles, intervals with < / > use hollow open circles.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Graphing Method Options",
+        "studentAction": "Choose either function transformation or value table method for graphing piecewise functions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Graphing Method Options: Students can choose either function transformation or value table plotting.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "follow_up_action",
+        "title": "Post-class Solution Upload",
+        "studentAction": "Check for complete solutions and explanation videos for questions 6,9,12 after class.",
+        "deadlineText": "Day after class (July 10)",
+        "deadlineISO": "2026-07-10",
+        "platform": "Feishu",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Complete solutions for all homework questions will be uploaded the day after class, dedicated explanation videos will be provided for un-covered questions 6, 9, 12.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "MHF4U-C-OE01-poly-degree-parity",
+      "MHF4U-C-OE01-end-behavior",
+      "MHF4U-C-OE01-finite-difference",
+      "MHF4U-C-OE03-polynomial-derivation",
+      "MHF4U-C-OE01-missing-terms",
+      "MHF4U-C-OE01-graphing-standards"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-polynomial-degree-function-parity",
+        "condition": "Student answers Q1 incorrectly",
+        "systemAction": "assign reteach module for err-polynomial-degree-function-parity"
+      },
+      {
+        "errorId": "err-end-behavior-quadrant",
+        "condition": "Student answers Q2 incorrectly",
+        "systemAction": "assign reteach module for err-end-behavior-quadrant"
+      },
+      {
+        "errorId": "err-finite-difference-misapplication",
+        "condition": "Student answers Q3 incorrectly",
+        "systemAction": "assign reteach module for err-finite-difference-misapplication"
+      },
+      {
+        "errorId": "err-missing-term-coefficient",
+        "condition": "Student answers Q4 incorrectly",
+        "systemAction": "assign reteach module for err-missing-term-coefficient"
+      },
+      {
+        "errorId": "err-piecewise-endpoint-circles",
+        "condition": "Student answers Q5 incorrectly",
+        "systemAction": "assign reteach module for err-piecewise-endpoint-circles"
+      },
+      {
+        "errorId": "err-finite-difference-degree-determination",
+        "condition": "Student answers Q6 or Q7 incorrectly",
+        "systemAction": "assign reteach module for err-finite-difference-degree-determination"
+      }
+    ],
+    "nextActions": [
+      "[err-polynomial-degree-function-parity] Student answers Q1 incorrectly: Degree parity and function parity are different concepts. Let's review them.",
+      "[err-end-behavior-quadrant] Student answers Q2 incorrectly: End behavior should be described in formal language, not quadrant references. Let's practice.",
+      "[err-finite-difference-misapplication] Student answers Q3 incorrectly: The constant difference formula uses n-factorial, not just n. Let's review it.",
+      "[err-missing-term-coefficient] Student answers Q4 incorrectly: Missing terms have coefficient zero. Let's see why that matters.",
+      "[err-piecewise-endpoint-circles] Student answers Q5 incorrectly: Correct marking of endpoints in piecewise functions is important. Let's review.",
+      "[err-finite-difference-degree-determination] Student answers Q6 or Q7 incorrectly: Determining the degree from finite differences requires careful counting. Let's practice."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-c-polynomial-parity-q1",
+        "type": "choice",
+        "question": "Which statement about a fifth-degree polynomial function is correct?",
+        "options": [
+          "It must be an odd function because the degree is odd.",
+          "It is not necessarily an odd function; degree parity and function parity are independent.",
+          "It must be an even function because all polynomials are symmetric.",
+          "It cannot be an odd function because the degree is odd."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student conflates degree parity with odd/even function property.",
+        "misconceptions": [
+          "An odd-degree polynomial does not have to be an odd function. Function parity depends on symmetry about the origin, not just the degree.",
+          "✓ Correct. A fifth-degree polynomial can be neither odd nor even; its parity depends on the specific coefficients.",
+          "Polynomials are not necessarily symmetric. Even-degree polynomials have symmetry about the y-axis only if they are even functions, but that is not guaranteed.",
+          "It can be odd if it satisfies f(-x) = -f(x), for example f(x) = x^5. So degree parity alone does not determine function parity."
+        ],
+        "nodeId": "MHF4U-C-OE01-poly-degree-parity",
+        "errorId": "err-polynomial-degree-function-parity",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that an odd-degree polynomial is not necessarily an odd function.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses polynomial degree parity and function parity.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks odd-degree polynomial must be an odd function or even-degree must be even function.",
+        "remediationModule": "err-polynomial-degree-function-parity",
+        "retestItem": "err-polynomial-degree-function-parity"
+      },
+      {
+        "id": "diag-mhf4u-c-end-behavior-q2",
+        "type": "choice",
+        "question": "Which of the following is the correct formal description of the end behavior of an even-degree polynomial with a positive leading coefficient?",
+        "options": [
+          "Both ends go up.",
+          "One end goes up, the other goes down.",
+          "It goes from Q2 to Q1.",
+          "Both ends go down."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student uses formal descriptive language instead of quadrant references for end behavior.",
+        "misconceptions": [
+          "✓ Correct. Even-degree with positive leading coefficient: as x → ±∞, y → +∞.",
+          "That describes an odd-degree polynomial, not even-degree.",
+          "Quadrant references are not formal description. Use 'both ends go up' or 'as x→±∞, y→+∞'.",
+          "That would be correct for a negative leading coefficient, not positive."
+        ],
+        "nodeId": "MHF4U-C-OE01-end-behavior",
+        "errorId": "err-end-behavior-quadrant",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student uses formal descriptive language (e.g., 'both ends go up') rather than quadrant references.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial graphs.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student uses quadrant references (e.g., 'from quadrant III to quadrant I') instead of describing direction.",
+        "remediationModule": "err-end-behavior-quadrant",
+        "retestItem": "err-end-behavior-quadrant"
+      },
+      {
+        "id": "diag-mhf4u-c-finite-difference-misapplication-q3",
+        "type": "choice",
+        "question": "For a cubic polynomial (degree 3), the constant third difference (CD) is 12. Which formula correctly relates the constant difference to the leading coefficient a?",
+        "options": [
+          "CD = 3 × a, so a = 12 / 3 = 4",
+          "CD = 3! × a, so a = 12 / 6 = 2",
+          "CD = 3^2 × a, so a = 12 / 9 = 1.33",
+          "CD = a, so a = 12"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student applies CD = n! * a correctly.",
+        "misconceptions": [
+          "The formula uses factorial, not just n. CD = 3! × a = 6a, so a = 12 / 6 = 2.",
+          "✓ Correct. CD = n! × a, so for n=3, CD = 6a, a = 2.",
+          "The formula uses factorial, not square. CD = 3!×a = 6a.",
+          "The constant difference is related to a by CD = n!×a. It is not equal to a."
+        ],
+        "nodeId": "MHF4U-C-OE01-finite-difference",
+        "errorId": "err-finite-difference-misapplication",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly uses CD = n! * a to find leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Finite differences are a numeric representation of polynomial functions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student uses CD = n * a instead of CD = n! * a.",
+        "remediationModule": "err-finite-difference-misapplication",
+        "retestItem": "err-finite-difference-misapplication"
+      },
+      {
+        "id": "diag-mhf4u-c-missing-term-coefficient-q4",
+        "type": "choice",
+        "question": "When writing the polynomial x^3 - 2x + 5 in expanded form with all terms, which representation is correct?",
+        "options": [
+          "x^3 - 2x + 5",
+          "x^3 + 0x^2 - 2x + 5",
+          "x^3 + 0x - 2x + 5",
+          "x^3 - 2x + 5 + 0x^2"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student recognizes that missing terms have coefficient 0.",
+        "misconceptions": [
+          "This is the compact form, but to show all terms we must include the x^2 term with coefficient 0.",
+          "✓ Correct. The missing x^2 term is shown with coefficient 0.",
+          "This incorrectly adds an extra x term. The correct is x^3 + 0x^2 - 2x + 5.",
+          "The ordering should be descending powers: x^3 + 0x^2 - 2x + 5."
+        ],
+        "nodeId": "MHF4U-C-OE01-missing-terms",
+        "errorId": "err-missing-term-coefficient",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student writes missing terms with coefficient 0.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Missing terms with zero coefficients are part of polynomial representation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student omits missing terms entirely instead of including them with coefficient 0.",
+        "remediationModule": "err-missing-term-coefficient",
+        "retestItem": "err-missing-term-coefficient"
+      },
+      {
+        "id": "diag-mhf4u-c-piecewise-endpoint-circles-q5",
+        "type": "choice",
+        "question": "For the piecewise function: f(x) = { x+1 for x < 2; x^2 for x ≥ 2 }, which endpoint marking is correct at x = 2?",
+        "options": [
+          "An open circle on the point (2, 3) from the first piece, and a solid circle on (2, 4) from the second piece.",
+          "Solid circles on both points.",
+          "Open circles on both points.",
+          "An open circle on (2,4) and a solid circle on (2,3)."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows when to use solid vs open circles for piecewise endpoints.",
+        "misconceptions": [
+          "✓ Correct. For x < 2, use open circle; for x ≥ 2, use solid circle.",
+          "The first piece uses <, so it should have an open circle, not solid.",
+          "The second piece uses ≥, so it should have a solid circle.",
+          "Reversed: open for <, solid for ≥."
+        ],
+        "nodeId": "MHF4U-C-OE01-graphing-standards",
+        "errorId": "err-piecewise-endpoint-circles",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-6",
+        "successCriteria": "Student correctly assigns solid circle for ≤/≥ and open circle for </>.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Graphing standards for piecewise functions are part of representing polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student uses open circle for inclusive or solid for strict inequality.",
+        "remediationModule": "err-piecewise-endpoint-circles",
+        "retestItem": "err-piecewise-endpoint-circles"
+      },
+      {
+        "id": "diag-mhf4u-c-finite-difference-degree-determination-q6",
+        "type": "choice",
+        "question": "You compute first differences: 3, 5, 7, 9; second differences: 2, 2, 2. What is the degree of the polynomial?",
+        "options": [
+          "Degree 1",
+          "Degree 2",
+          "Degree 3",
+          "Degree 0"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student correctly determines polynomial degree from finite differences.",
+        "misconceptions": [
+          "First differences are not constant; they increase by 2 each time. Constant second differences indicate degree 2.",
+          "✓ Correct. Since second differences are constant, the polynomial has degree 2.",
+          "Third differences would need to be computed to know if constant; here we only computed up to second differences which are already constant.",
+          "A constant function would have zero differences constant; here first differences vary."
+        ],
+        "nodeId": "MHF4U-C-OE01-finite-difference",
+        "errorId": "err-finite-difference-degree-determination",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student counts the number of differences until constant to determine degree.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Finite differences help identify polynomial degree.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student confuses the order of differences with degree; e.g., thinks first differences constant means degree 1, etc.",
+        "remediationModule": "err-finite-difference-degree-determination",
+        "retestItem": "err-finite-difference-degree-determination"
+      }
+    ]
+  }
+}

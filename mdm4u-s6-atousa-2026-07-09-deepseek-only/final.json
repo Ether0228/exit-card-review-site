@@ -1,0 +1,946 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-09",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Hi6TdveFPooQ2ixnYorcJoiyn9f?from=vc_group_doc_link#doxcnPa9wISItFbC89OxdCeU26b",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-09 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Hi6TdveFPooQ2ixnYorcJoiyn9f?from=vc_group_doc_link#doxcnPa9wISItFbC89OxdCeU26b",
+    "title": "MDM4U.S6.Atousa 2026-07-09 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/Downloads/Gia Zhu/02_Active_Projects/创新学校/artifacts/course-chat-ingestion/2026-07-09-sources/mdm4u-s6-atousa-2026-07-09/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-09",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-09",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Class includes teaching of probability rules and worked examples (instruction), in-class practice exercises (practice), and administrative items including homework submission, audit requirements, and break policy.",
+    "academicContentSignals": [
+      "General union formula for two sets: P(A∪B) = P(A) + P(B) - P(A∩B)",
+      "Mutually exclusive events simplified rule: P(A∪B) = P(A) + P(B) when A∩B = ∅",
+      "Conversion from set counting formula to probability formula",
+      "Recommended problem-solving method: draw Venn diagrams",
+      "Worked example: basketball and hockey team bus capacity",
+      "Worked example: probability of even number or less than 3 on a six-sided die",
+      "Worked example: probability of selecting Bauer or left-handed hockey stick",
+      "Worked example: blood donation statistics with mutually exclusive types",
+      "Worked example: probability of rolling sum of 4 or doubles on two dice",
+      "Worked example: Grade 12 course survey using Venn diagram with triple overlap",
+      "In-class exercise: probability formula rearrangement, union probability calculation, mutually exclusive event probability calculation"
+    ],
+    "courseOverviewSignals": [
+      "Course difficulty clarification: highly accessible, requires basic imagination",
+      "Learning guidance: do not overcomplicate problem-solving",
+      "Long-term career recommendation: genetic data analysis with AI as high-demand field"
+    ],
+    "opsDominanceRisk": "Moderate - significant operational items (audit, homework submission, break policy) could overshadow the probability learning content if over-emphasized in diagnostics, but academic content is substantial.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "teacher_request",
+        "title": "Special early leave approval for Emma for IELTS preparation",
+        "studentAction": "Emma may leave class 15 minutes early.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Emma only",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Emma, who has an upcoming IELTS exam, is granted explicit permission to leave the class 15 minutes early",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Mandatory mid-session break",
+        "studentAction": "Take a 10-minute break: drink water, stretch, and walk around.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all present students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "A mandatory 10-minute mid-session break is scheduled with explicit guidance",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Submit completed Class Activity 1 and Class Activity 2",
+        "studentAction": "Upload fully completed Class Activity 1 and Class Activity 2 to Scology discussion board before the next class.",
+        "deadlineText": "Before the start of the next scheduled class session",
+        "deadlineISO": null,
+        "platform": "Scology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All students are required to submit completed Class Activity 1 and Class Activity 2 after the session; all responses to be posted to Scology discussion board",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Next class will begin with a 5-minute review of probability rules",
+        "studentAction": "Be prepared to review probability rules from this session at the start of next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Next class will open with a 5-minute review of the core probability rules covered in this session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Teacher reminds students not to stress over class activity grades",
+        "studentAction": "Relax, as all reasonable attempts will receive full marks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Atousa explicitly advises students not to stress about class activity grades, as all reasonable attempts will receive full marks",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Platform for homework submission: either 'course platform' or 'Scology discussion board'?",
+        "reason": "Notes mention both 'upload to the course platform' and 'post to Scology discussion board' - it's unclear if these are the same or separate submission requirements."
+      },
+      {
+        "rawText": "Exact link to Scology discussion board not provided",
+        "reason": "No URL given for the Scology platform where responses should be posted."
+      },
+      {
+        "rawText": "Next class date unknown - 'before the start of the next scheduled class session' is relative",
+        "reason": "No specific date given, only relative reference; cannot determine exact ISO date."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Union Probability Formula、Mutually Exclusive Events、Venn Diagram Method）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "P(A∪B) = P(A) + P(B) - P(A∩B) for any two events.；For mutually exclusive events, P(A∪B) = P(A) + P(B) because P(A∩B)=0.；Probability of an event = (number of favorable outcomes) / (total number of outcomes in sample space).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Apply the general union probability formula P(A∪B) = P(A) + P(B) - P(A∩B) to calculate the probability of combined events."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Determine whether events are mutually exclusive and apply the simplified formula P(A∪B) = P(A) + P(B)."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Use Venn diagrams to represent and solve probability problems involving two events."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MDM4U-S6-union-probability",
+      "name": "Union Probability Formula",
+      "nameEn": "Union Probability Formula",
+      "definition": "The probability of the union of two events A and B is given by P(A∪B) = P(A) + P(B) - P(A∩B).",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces."
+    },
+    {
+      "id": "MDM4U-S6-mutually-exclusive",
+      "name": "Mutually Exclusive Events",
+      "nameEn": "Mutually Exclusive Events",
+      "definition": "Events that cannot occur simultaneously; their intersection is empty, so P(A∪B) = P(A) + P(B).",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces."
+    },
+    {
+      "id": "MDM4U-S6-venn-diagram-method",
+      "name": "Venn Diagram Method",
+      "nameEn": "Venn Diagram Method",
+      "definition": "Use Venn diagrams to visualize sets, intersections, and unions for solving probability problems.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply the general union probability formula P(A∪B) = P(A) + P(B) - P(A∩B) to calculate the probability of combined events."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Determine whether events are mutually exclusive and apply the simplified formula P(A∪B) = P(A) + P(B)."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use Venn diagrams to represent and solve probability problems involving two events."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-union-forgot-intersection",
+        "condition": "Student picks an option that omits subtracting the intersection in union probability.",
+        "systemAction": "Assign reteach module for err-union-forgot-intersection.",
+        "studentMessage": "You may have forgotten to subtract the overlap. Let's revisit the formula."
+      },
+      {
+        "errorId": "err-mutually-exclusive-assume-all",
+        "condition": "Student incorrectly treats non-mutually exclusive events as mutually exclusive or misidentifies mutually exclusive events.",
+        "systemAction": "Assign reteach module for err-mutually-exclusive-assume-all.",
+        "studentMessage": "Make sure to check whether events can occur at the same time. Let's practice identifying mutually exclusive pairs."
+      },
+      {
+        "errorId": "err-venn-overlap-counting",
+        "condition": "Student miscounts the number of elements in Venn diagram regions.",
+        "systemAction": "Assign reteach module for err-venn-overlap-counting.",
+        "studentMessage": "Venn diagrams require careful counting of each region. Let's go through an example."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-q1",
+        "nodeId": "MDM4U-S6-union-probability",
+        "errorId": "err-union-forgot-intersection",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly calculates P(A∪B) by subtracting the intersection.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses union probability calculation for discrete sample spaces.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student remembers to subtract intersection when calculating union probability.",
+        "commonMisconception": "Student adds probabilities without subtracting intersection, thinking P(A∪B)=P(A)+P(B) always.",
+        "remediationModule": "err-union-forgot-intersection",
+        "retestItem": "err-union-forgot-intersection",
+        "stem": "In a survey of 100 students, 60 are in Math club, 45 are in Science club, and 20 are in both. What is the probability that a randomly selected student is in either Math club or Science club?",
+        "options": [
+          {
+            "label": "A",
+            "text": "0.85",
+            "correct": true,
+            "feedbackWrong": "Correct! P(Math ∪ Science) = (60+45-20)/100 = 85/100 = 0.85."
+          },
+          {
+            "label": "B",
+            "text": "1.05",
+            "correct": false,
+            "feedbackWrong": "You added only P(Math)+P(Science) without subtracting the overlap. Remember: P(A∪B)=P(A)+P(B)-P(A∩B)."
+          },
+          {
+            "label": "C",
+            "text": "0.20",
+            "correct": false,
+            "feedbackWrong": "0.20 is the probability of being in both clubs, not the union."
+          },
+          {
+            "label": "D",
+            "text": "0.65",
+            "correct": false,
+            "feedbackWrong": "Check your counts. Did you perhaps use only one club's probability?"
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-q2",
+        "nodeId": "MDM4U-S6-mutually-exclusive",
+        "errorId": "err-mutually-exclusive-assume-all",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies mutually exclusive events.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding mutually exclusive events is foundational for union probability problems.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Determine whether student can identify when events cannot occur simultaneously.",
+        "commonMisconception": "Student thinks all events are mutually exclusive or misidentifies overlapping events as mutually exclusive.",
+        "remediationModule": "err-mutually-exclusive-assume-all",
+        "retestItem": "err-mutually-exclusive-assume-all",
+        "stem": "When rolling a standard six-sided die, which pair of events are mutually exclusive?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Rolling an even number and rolling a number greater than 3.",
+            "correct": false,
+            "feedbackWrong": "These events overlap (e.g., 4 and 6 are both even and greater than 3), so they are not mutually exclusive."
+          },
+          {
+            "label": "B",
+            "text": "Rolling an odd number and rolling a multiple of 3.",
+            "correct": false,
+            "feedbackWrong": "3 is both odd and a multiple of 3, so these events overlap."
+          },
+          {
+            "label": "C",
+            "text": "Rolling a 3 and rolling an even number.",
+            "correct": true,
+            "feedbackWrong": "Correct! A 3 is odd, so it cannot be even; they have no outcomes in common."
+          },
+          {
+            "label": "D",
+            "text": "Rolling a 2 and rolling an even number.",
+            "correct": false,
+            "feedbackWrong": "2 is an even number, so these events overlap (rolling a 2 satisfies both)."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-q3",
+        "nodeId": "MDM4U-S6-venn-diagram-method",
+        "errorId": "err-venn-overlap-counting",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly uses Venn diagram counts to find the number of elements outside the union.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Venn diagrams are a method to analyze sample spaces and compute probabilities.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can correctly calculate counts in a Venn diagram involving two overlapping sets.",
+        "commonMisconception": "Student may double-count the intersection or forget to subtract it when finding total in union.",
+        "remediationModule": "err-venn-overlap-counting",
+        "retestItem": "err-venn-overlap-counting",
+        "stem": "In a survey of 100 Grade 12 students, 30 take Physics, 40 take Chemistry, and 15 take both. How many students take neither Physics nor Chemistry?",
+        "options": [
+          {
+            "label": "A",
+            "text": "45",
+            "correct": true,
+            "feedbackWrong": "Correct! Physics only=30-15=15, Chemistry only=40-15=25, both=15, total taking at least one=55, so neither=100-55=45."
+          },
+          {
+            "label": "B",
+            "text": "55",
+            "correct": false,
+            "feedbackWrong": "55 is the number taking at least one subject, not neither."
+          },
+          {
+            "label": "C",
+            "text": "30",
+            "correct": false,
+            "feedbackWrong": "Check your subtraction. Did you forget to subtract the overlap from both totals?"
+          },
+          {
+            "label": "D",
+            "text": "25",
+            "correct": false,
+            "feedbackWrong": "This might be the number taking Chemistry only or some other miscount. Use a Venn diagram to organize."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-q4",
+        "nodeId": "MDM4U-S6-union-probability",
+        "errorId": "err-union-forgot-intersection",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student writes correct calculation and reasoning for union probability, showing subtraction of intersection.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Open-ended question assesses ability to apply the formula with proper steps.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Assess whether student can independently apply the union formula and show steps.",
+        "commonMisconception": "Student may forget to subtract the intersection or misinterpret the problem.",
+        "remediationModule": "err-union-forgot-intersection",
+        "retestItem": "err-union-forgot-intersection",
+        "stem": "In a group of 50 students, 25 speak French, 20 speak Spanish, and 10 speak both. Calculate the probability that a randomly selected student speaks French or Spanish. Show your work.",
+        "rubric": "Uses formula P(F∪S)=P(F)+P(S)-P(F∩S). Correctly finds P(F)=25/50=0.5, P(S)=20/50=0.4, P(F∩S)=10/50=0.2, calculates 0.5+0.4-0.2=0.7. Also acceptable if expressed as fraction 35/50=7/10.",
+        "sampleStrongAnswer": "P(F)=25/50=0.5, P(S)=20/50=0.4, P(F∩S)=10/50=0.2. Using union formula: P(F∪S)=0.5+0.4-0.2=0.7."
+      },
+      {
+        "id": "diag-mdm4u-q5",
+        "nodeId": "MDM4U-S6-mutually-exclusive",
+        "errorId": "err-mutually-exclusive-assume-all",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly applies the mutually exclusive rule to calculate probability.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Application of mutually exclusive events to compute union probability.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student selects the correct method for mutually exclusive events.",
+        "commonMisconception": "Student may still subtract an intersection, or think the probability is smaller due to misleading options.",
+        "remediationModule": "err-mutually-exclusive-assume-all",
+        "retestItem": "err-mutually-exclusive-assume-all",
+        "stem": "In a standard deck of 52 cards, drawing a heart and drawing a spade are mutually exclusive. What is the probability of drawing a heart or a spade from a shuffled deck?",
+        "options": [
+          {
+            "label": "A",
+            "text": "1/2",
+            "correct": true,
+            "feedbackWrong": "Correct! 13 hearts + 13 spades = 26, so probability = 26/52 = 1/2."
+          },
+          {
+            "label": "B",
+            "text": "1/4",
+            "correct": false,
+            "feedbackWrong": "That is the probability of drawing a single suit, not the union of two suits."
+          },
+          {
+            "label": "C",
+            "text": "1/13",
+            "correct": false,
+            "feedbackWrong": "This is too small. Remember each suit has 13 cards, so two suits together have 26 cards."
+          },
+          {
+            "label": "D",
+            "text": "1/26",
+            "correct": false,
+            "feedbackWrong": "Check your counting. The union of heart and spade includes both suits, so it should be larger than a single suit."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-union-forgot-intersection",
+      "condition": "Student picks an option that omits subtracting the intersection in union probability.",
+      "systemAction": "Assign reteach module for err-union-forgot-intersection.",
+      "studentMessage": "You may have forgotten to subtract the overlap. Let's revisit the formula."
+    },
+    {
+      "errorId": "err-mutually-exclusive-assume-all",
+      "condition": "Student incorrectly treats non-mutually exclusive events as mutually exclusive or misidentifies mutually exclusive events.",
+      "systemAction": "Assign reteach module for err-mutually-exclusive-assume-all.",
+      "studentMessage": "Make sure to check whether events can occur at the same time. Let's practice identifying mutually exclusive pairs."
+    },
+    {
+      "errorId": "err-venn-overlap-counting",
+      "condition": "Student miscounts the number of elements in Venn diagram regions.",
+      "systemAction": "Assign reteach module for err-venn-overlap-counting.",
+      "studentMessage": "Venn diagrams require careful counting of each region. Let's go through an example."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-union-forgot-intersection",
+      "trigger": "Student adds probabilities without subtracting intersection",
+      "studentMisunderstanding": "Believes that P(A∪B) = P(A) + P(B) for any two events, ignoring the overlap that gets counted twice.",
+      "miniLesson": {
+        "explain": "When finding P(A or B), we add P(A) and P(B), but outcomes in both A and B are counted twice. To correct, subtract P(A and B) once: P(A∪B) = P(A) + P(B) - P(A∩B).",
+        "example": "For a six-sided die: P(even) = 3/6, P(<3) = 2/6, P(even and <3) = 1/6 (outcome 2). So P(even or <3) = 3/6 + 2/6 - 1/6 = 4/6 = 2/3.",
+        "memoryAnchor": "Double count = subtract the overlap. Like counting students in two clubs: add both, subtract those in both."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a class of 20 students, 10 play soccer, 8 play basketball, and 4 play both. What is the probability a randomly selected student plays soccer or basketball?",
+          "answer": "7/10 or 0.7"
+        },
+        {
+          "level": "L2",
+          "prompt": "In a survey of 100 people, 40 like coffee, 50 like tea, and 20 like both. What is the probability a randomly selected person likes coffee or tea?",
+          "answer": "0.7"
+        },
+        {
+          "level": "L3",
+          "prompt": "When rolling two fair six-sided dice, find the probability that the sum is 4 or the dice show doubles.",
+          "answer": "8/36 = 2/9"
+        }
+      ]
+    },
+    {
+      "errorId": "err-mutually-exclusive-assume-all",
+      "trigger": "Student incorrectly treats non-mutually exclusive events as mutually exclusive or misidentifies mutually exclusive events.",
+      "studentMisunderstanding": "Students may incorrectly assume all events are mutually exclusive and skip the subtraction term when calculating P(A∪B).",
+      "miniLesson": {
+        "explain": "Not all events are mutually exclusive. Mutually exclusive events cannot occur simultaneously (e.g., rolling a 2 and rolling an even number are not mutually exclusive because 2 is even). When events are mutually exclusive, P(A∪B) = P(A) + P(B). When they overlap, you must subtract the intersection: P(A∪B) = P(A) + P(B) - P(A∩B). Always check if events share outcomes before choosing the formula.",
+        "example": "Blood donation: type O and type A are mutually exclusive (a person can only have one blood type), so P(O or A) = P(O) + P(A). But consider hockey stick inventory: 20 Bauer sticks, 28 left-handed sticks, 8 Bauer and left-handed. Bauer and left-handed are not mutually exclusive (some sticks are both). So P(Bauer or left-handed) = 20/60 + 28/60 - 8/60 = 40/60.",
+        "memoryAnchor": "If events can't happen together, just add; if they can overlap, subtract the overlap."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "When rolling a six-sided die, which pair of events are mutually exclusive? Choose: (A) Rolling an even number and rolling a number greater than 3. (B) Rolling an odd number and rolling a multiple of 3. (C) Rolling a 3 and rolling an even number. (D) Rolling a 2 and rolling an even number.",
+          "answer": "C. Rolling a 3 and rolling an even number are mutually exclusive because 3 is odd, so they have no outcomes in common."
+        },
+        {
+          "level": "L2",
+          "prompt": "In a standard deck of 52 cards, drawing a heart and drawing a spade are mutually exclusive. What is the probability of drawing a heart or a spade from a shuffled deck?",
+          "answer": "13/52 + 13/52 = 26/52 = 1/2"
+        },
+        {
+          "level": "L3",
+          "prompt": "In a hockey stick inventory of 60 sticks, 20 are Bauer, 28 are left-handed, and 8 are both Bauer and left-handed. Calculate the probability that a randomly selected stick is either Bauer or left-handed. Show that the events are not mutually exclusive and use the correct formula.",
+          "answer": "P(Bauer) = 20/60, P(left-handed) = 28/60, P(Bauer and left-handed) = 8/60. Since P(Bauer and left-handed) ≠ 0, events are not mutually exclusive. P(Bauer or left-handed) = 20/60 + 28/60 - 8/60 = 40/60 = 2/3."
+        }
+      ]
+    },
+    {
+      "errorId": "err-venn-overlap-counting",
+      "trigger": "I think I might have miscounted the overlapping region in a Venn diagram.",
+      "studentMisunderstanding": "Students often double-count the elements that belong to both categories when finding the total for the union, or they forget to subtract the overlap when calculating the number in each category individually.",
+      "miniLesson": {
+        "explain": "When using a Venn diagram for two overlapping sets A and B, the total number in the union is: (only A) + (only B) + (both). Alternatively, total in A plus total in B minus both. To find only A, subtract both from total A. Similarly for B. Always verify that the sum of all regions equals the total sample size.",
+        "example": "In a survey of 60 hockey sticks, 20 are Bauer, 28 are left-handed, and 8 are both Bauer and left-handed. Draw a Venn diagram: Bauer only = 20-8=12, left-handed only = 28-8=20, both = 8. Then union = 12+20+8=40. Check: 20+28-8=40.",
+        "memoryAnchor": "Only A = total A - both; only B = total B - both; union = only A + only B + both."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a class of 30 students, 15 play basketball, 12 play volleyball, and 5 play both. How many students play only basketball?",
+          "answer": "10"
+        },
+        {
+          "level": "L2",
+          "prompt": "In a group of 50 people, 30 like coffee, 25 like tea, and 15 like both. What is the probability that a randomly selected person likes coffee or tea?",
+          "answer": "0.8"
+        },
+        {
+          "level": "L3",
+          "prompt": "In a survey of 80 people, 35 like hockey, 40 like soccer, and 15 like both. How many like neither? Use a Venn diagram.",
+          "answer": "20"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-union-forgot-intersection",
+      "questions": [
+        {
+          "id": "retest-union-1",
+          "type": "single_choice",
+          "stem": "In a school, 60% of students play a sport, 30% play a musical instrument, and 15% do both. Which expression correctly gives the probability that a randomly selected student plays a sport or plays a musical instrument?",
+          "options": [
+            "0.60 + 0.30 - 0.15 = 0.75",
+            "0.60 + 0.30 = 0.90",
+            "0.60 + 0.15 = 0.75",
+            "0.30 - 0.15 = 0.15"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-union-2",
+          "type": "open_ended",
+          "stem": "In a survey of 50 customers, 25 like chocolate, 20 like vanilla, and 10 like both. What is the probability that a randomly selected customer likes chocolate or vanilla? Show your calculation and answer as a reduced fraction.",
+          "rubric": "Accept 7/10 or 0.7 with correct steps. Full marks: P(C∪V) = 25/50 + 20/50 - 10/50 = 35/50 = 7/10."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-mutually-exclusive-assume-all",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "Which of the following pairs of events is mutually exclusive? Choose the correct option.",
+          "options": [
+            "Rolling a die: getting a 2 and getting an even number.",
+            "Drawing a card: getting a heart and getting a spade.",
+            "Rolling a die: getting an even number and getting a number less than 4.",
+            "Selecting a student: being left-handed and being a girl."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "In a school of 200 students, 120 play soccer, 80 play basketball, and 40 play both. A student is selected at random. Calculate the probability that the student plays soccer or basketball. Show your steps and state whether the events are mutually exclusive.",
+          "rubric": "Student should note that soccer and basketball are not mutually exclusive because 40 play both. Calculate P(S or B) = P(S) + P(B) - P(S and B) = 120/200 + 80/200 - 40/200 = 160/200 = 4/5 = 0.8. Award full marks for recognizing non-mutually exclusive and correct calculation."
+        }
+      ],
+      "passRule": "Both questions correctly answered. For question 1, correct option is B. For question 2, answer must include recognition that events are not mutually exclusive and probability calculation 120/200 + 80/200 - 40/200 = 160/200 = 4/5."
+    },
+    {
+      "forErrorId": "err-venn-overlap-counting",
+      "questions": [
+        {
+          "id": "q1-venn-overlap-sc",
+          "type": "single_choice",
+          "stem": "A survey of 100 people shows: 45 like dogs, 55 like cats, and 20 like both. What is P(dog or cat)?",
+          "options": [
+            "0.8",
+            "1.0",
+            "0.45",
+            "0.55"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-venn-overlap-oe",
+          "type": "open_ended",
+          "stem": "In a group of 60 students, 25 play soccer, 30 play basketball, and 10 play both. What is the probability that a randomly chosen student plays neither sport? Provide a brief explanation.",
+          "rubric": "Correct answer: 0.25. Explanation must include: union = 25+30-10 = 45, neither = 60-45 = 15, probability = 15/60 = 0.25. Accept equivalent forms like 1/4 or 15/60."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-09",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Hi6TdveFPooQ2ixnYorcJoiyn9f?from=vc_group_doc_link#doxcnPa9wISItFbC89OxdCeU26b",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-09 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "P(A∪B) = P(A) + P(B) - P(A∩B) for any two events.；For mutually exclusive events, P(A∪B) = P(A) + P(B) because P(A∩B)=0.；Probability of an event = (number of favorable outcomes) / (total number of outcomes in sample space).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply the general union probability formula P(A∪B) = P(A) + P(B) - P(A∩B) to calculate the probability of combined events."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Determine whether events are mutually exclusive and apply the simplified formula P(A∪B) = P(A) + P(B)."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use Venn diagrams to represent and solve probability problems involving two events."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "teacher_request",
+        "title": "Special early leave approval for Emma for IELTS preparation",
+        "studentAction": "Emma may leave class 15 minutes early.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Emma only",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Emma, who has an upcoming IELTS exam, is granted explicit permission to leave the class 15 minutes early",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Mandatory mid-session break",
+        "studentAction": "Take a 10-minute break: drink water, stretch, and walk around.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all present students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "A mandatory 10-minute mid-session break is scheduled with explicit guidance",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Submit completed Class Activity 1 and Class Activity 2",
+        "studentAction": "Upload fully completed Class Activity 1 and Class Activity 2 to Scology discussion board before the next class.",
+        "deadlineText": "Before the start of the next scheduled class session",
+        "deadlineISO": null,
+        "platform": "Scology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All students are required to submit completed Class Activity 1 and Class Activity 2 after the session; all responses to be posted to Scology discussion board",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Next class will begin with a 5-minute review of probability rules",
+        "studentAction": "Be prepared to review probability rules from this session at the start of next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Next class will open with a 5-minute review of the core probability rules covered in this session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Teacher reminds students not to stress over class activity grades",
+        "studentAction": "Relax, as all reasonable attempts will receive full marks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Atousa explicitly advises students not to stress about class activity grades, as all reasonable attempts will receive full marks",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Platform for homework submission: either 'course platform' or 'Scology discussion board'?",
+        "reason": "Notes mention both 'upload to the course platform' and 'post to Scology discussion board' - it's unclear if these are the same or separate submission requirements."
+      },
+      {
+        "rawText": "Exact link to Scology discussion board not provided",
+        "reason": "No URL given for the Scology platform where responses should be posted."
+      },
+      {
+        "rawText": "Next class date unknown - 'before the start of the next scheduled class session' is relative",
+        "reason": "No specific date given, only relative reference; cannot determine exact ISO date."
+      }
+    ],
+    "watchTags": [
+      "MDM4U-S6-union-probability",
+      "MDM4U-S6-mutually-exclusive",
+      "MDM4U-S6-venn-diagram-method"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-union-forgot-intersection",
+        "condition": "Student picks an option that omits subtracting the intersection in union probability.",
+        "systemAction": "Assign reteach module for err-union-forgot-intersection."
+      },
+      {
+        "errorId": "err-mutually-exclusive-assume-all",
+        "condition": "Student incorrectly treats non-mutually exclusive events as mutually exclusive or misidentifies mutually exclusive events.",
+        "systemAction": "Assign reteach module for err-mutually-exclusive-assume-all."
+      },
+      {
+        "errorId": "err-venn-overlap-counting",
+        "condition": "Student miscounts the number of elements in Venn diagram regions.",
+        "systemAction": "Assign reteach module for err-venn-overlap-counting."
+      }
+    ],
+    "nextActions": [
+      "[err-union-forgot-intersection] Student picks an option that omits subtracting the intersection in union probability.: You may have forgotten to subtract the overlap. Let's revisit the formula.",
+      "[err-mutually-exclusive-assume-all] Student incorrectly treats non-mutually exclusive events as mutually exclusive or misidentifies mutually exclusive events.: Make sure to check whether events can occur at the same time. Let's practice identifying mutually exclusive pairs.",
+      "[err-venn-overlap-counting] Student miscounts the number of elements in Venn diagram regions.: Venn diagrams require careful counting of each region. Let's go through an example."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-q1",
+        "type": "choice",
+        "question": "In a survey of 100 students, 60 are in Math club, 45 are in Science club, and 20 are in both. What is the probability that a randomly selected student is in either Math club or Science club?",
+        "options": [
+          "0.85",
+          "1.05",
+          "0.20",
+          "0.65"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student remembers to subtract intersection when calculating union probability.",
+        "misconceptions": [
+          "✓ 正确",
+          "You added only P(Math)+P(Science) without subtracting the overlap. Remember: P(A∪B)=P(A)+P(B)-P(A∩B).",
+          "0.20 is the probability of being in both clubs, not the union.",
+          "Check your counts. Did you perhaps use only one club's probability?"
+        ],
+        "nodeId": "MDM4U-S6-union-probability",
+        "errorId": "err-union-forgot-intersection",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly calculates P(A∪B) by subtracting the intersection.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses union probability calculation for discrete sample spaces.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student adds probabilities without subtracting intersection, thinking P(A∪B)=P(A)+P(B) always.",
+        "remediationModule": "err-union-forgot-intersection",
+        "retestItem": "err-union-forgot-intersection"
+      },
+      {
+        "id": "diag-mdm4u-q2",
+        "type": "choice",
+        "question": "When rolling a standard six-sided die, which pair of events are mutually exclusive?",
+        "options": [
+          "Rolling an even number and rolling a number greater than 3.",
+          "Rolling an odd number and rolling a multiple of 3.",
+          "Rolling a 3 and rolling an even number.",
+          "Rolling a 2 and rolling an even number."
+        ],
+        "correct": 2,
+        "diagnosis": "Determine whether student can identify when events cannot occur simultaneously.",
+        "misconceptions": [
+          "These events overlap (e.g., 4 and 6 are both even and greater than 3), so they are not mutually exclusive.",
+          "3 is both odd and a multiple of 3, so these events overlap.",
+          "✓ 正确",
+          "2 is an even number, so these events overlap (rolling a 2 satisfies both)."
+        ],
+        "nodeId": "MDM4U-S6-mutually-exclusive",
+        "errorId": "err-mutually-exclusive-assume-all",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies mutually exclusive events.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding mutually exclusive events is foundational for union probability problems.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks all events are mutually exclusive or misidentifies overlapping events as mutually exclusive.",
+        "remediationModule": "err-mutually-exclusive-assume-all",
+        "retestItem": "err-mutually-exclusive-assume-all"
+      },
+      {
+        "id": "diag-mdm4u-q3",
+        "type": "choice",
+        "question": "In a survey of 100 Grade 12 students, 30 take Physics, 40 take Chemistry, and 15 take both. How many students take neither Physics nor Chemistry?",
+        "options": [
+          "45",
+          "55",
+          "30",
+          "25"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can correctly calculate counts in a Venn diagram involving two overlapping sets.",
+        "misconceptions": [
+          "✓ 正确",
+          "55 is the number taking at least one subject, not neither.",
+          "Check your subtraction. Did you forget to subtract the overlap from both totals?",
+          "This might be the number taking Chemistry only or some other miscount. Use a Venn diagram to organize."
+        ],
+        "nodeId": "MDM4U-S6-venn-diagram-method",
+        "errorId": "err-venn-overlap-counting",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly uses Venn diagram counts to find the number of elements outside the union.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Venn diagrams are a method to analyze sample spaces and compute probabilities.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may double-count the intersection or forget to subtract it when finding total in union.",
+        "remediationModule": "err-venn-overlap-counting",
+        "retestItem": "err-venn-overlap-counting"
+      },
+      {
+        "id": "diag-mdm4u-q4",
+        "type": "explain",
+        "question": "In a group of 50 students, 25 speak French, 20 speak Spanish, and 10 speak both. Calculate the probability that a randomly selected student speaks French or Spanish. Show your work.",
+        "correct": null,
+        "diagnosis": "Assess whether student can independently apply the union formula and show steps.",
+        "nodeId": "MDM4U-S6-union-probability",
+        "errorId": "err-union-forgot-intersection",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student writes correct calculation and reasoning for union probability, showing subtraction of intersection.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Open-ended question assesses ability to apply the formula with proper steps.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may forget to subtract the intersection or misinterpret the problem.",
+        "remediationModule": "err-union-forgot-intersection",
+        "retestItem": "err-union-forgot-intersection"
+      },
+      {
+        "id": "diag-mdm4u-q5",
+        "type": "choice",
+        "question": "In a standard deck of 52 cards, drawing a heart and drawing a spade are mutually exclusive. What is the probability of drawing a heart or a spade from a shuffled deck?",
+        "options": [
+          "1/2",
+          "1/4",
+          "1/13",
+          "1/26"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student selects the correct method for mutually exclusive events.",
+        "misconceptions": [
+          "✓ 正确",
+          "That is the probability of drawing a single suit, not the union of two suits.",
+          "This is too small. Remember each suit has 13 cards, so two suits together have 26 cards.",
+          "Check your counting. The union of heart and spade includes both suits, so it should be larger than a single suit."
+        ],
+        "nodeId": "MDM4U-S6-mutually-exclusive",
+        "errorId": "err-mutually-exclusive-assume-all",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly applies the mutually exclusive rule to calculate probability.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Application of mutually exclusive events to compute union probability.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may still subtract an intersection, or think the probability is smaller due to misleading options.",
+        "remediationModule": "err-mutually-exclusive-assume-all",
+        "retestItem": "err-mutually-exclusive-assume-all"
+      }
+    ]
+  }
+}
