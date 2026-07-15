@@ -1,0 +1,1011 @@
+{
+  "sourceLesson": "BOH4M.S6.Catherine 2026-07-14",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HbXwd2ySAoFZyJxHRTyc8KfWnSd?from=vc_group_doc_link#doxcnofFwskhU74LDzvn1RWEmRf",
+  "sourceTitle": "BOH4M.S6.Catherine 2026-07-14 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/HbXwd2ySAoFZyJxHRTyc8KfWnSd?from=vc_group_doc_link#doxcnofFwskhU74LDzvn1RWEmRf",
+    "title": "BOH4M.S6.Catherine 2026-07-14 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/boh4m-s6-catherine-2026-07-14/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "BOH4M",
+  "lessonDate": "2026-07-14",
+  "teacher": "Catherine",
+  "section": "S6",
+  "subject": "business",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-07-14",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes direct instruction on CSR strategy framework and professional email writing, case discussion of ethical dilemma, and deployment of Unit 1 group assignment with timeline and rules.",
+    "academicContentSignals": [
+      "Ethical dilemma case: management confidentiality vs. personal responsibility to colleague facing layoff",
+      "CSR definition: obligation to balance economic activity and public good",
+      "4-tier CSR strategy classification: Obstructionist, Defensive, Accommodating, Proactive with real-world examples",
+      "Professional email writing: neutral email address, subject line structure, salutation choice, clear opening context, readable body, standard sign-off, final review",
+      "AI tool usage guidance: need to edit AI-generated content for context"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations items include attendance policies, group assignment logistics, and deadline reminders. However, these are secondary to substantive instruction on CSR and email writing. Risk is low if diagnostic exit card focuses on academic content rather than administrative details.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Camera must remain on during class",
+        "studentAction": "Keep camera activated for full session; otherwise marked absent.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Mandatory camera requirement: All class attendees must keep their cameras activated for the full session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Unit 1 Group CSR Assignment Due Next Monday",
+        "studentAction": "Submit final group document to assignment folder (one submission per group).",
+        "deadlineText": "Next Monday (2026-07-20)",
+        "deadlineISO": "2026-07-20T23:59:00+08:00",
+        "platform": "Assignment folder (unspecified)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Both the Unit 1 group CSR assignment and the Unit 1 written exam are scheduled for completion on next Monday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Written Exam Next Monday",
+        "studentAction": "Prepare for and take the Unit 1 exam.",
+        "deadlineText": "Next Monday (2026-07-20)",
+        "deadlineISO": "2026-07-20T23:59:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Both the Unit 1 group CSR assignment and the Unit 1 written exam are scheduled for completion on next Monday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "No Free-Rider Policy",
+        "studentAction": "Participate in group work; non-participants will not be listed on submission and receive zero credit.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students in groups",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "any group member who does not participate in assignment work will not be listed on the final submission, and will receive zero credit for the group project",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Group Leads Notify Non-Participating Members",
+        "studentAction": "Group leads send short notification to Catherine Wang listing non-contributing attendees.",
+        "deadlineText": "Before submission",
+        "deadlineISO": null,
+        "platform": "Email",
+        "link": null,
+        "appliesTo": "Group leads (Group 1: Ali, Jasmine, Vivian, Leo, Chenyang; Group 2: Ashley, Wenqi, Evo, Chen Xi, Zhang Xi, Zentao)",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Group leads are not held responsible for non-participating members, and only need to send a short notification to Catherine Wang listing non-contributing attendees for official record keeping.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "material_needed",
+        "title": "Assignment Template to be Shared",
+        "studentAction": "Use provided template for final document formatting.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Unknown",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "A standard assignment template including cover page and section structure will be shared with all students to standardize the formatting of final submission documents.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "review_focus",
+        "title": "Mastery of 4-Tier CSR Framework Required for Assignment",
+        "studentAction": "Review CSR framework to correctly classify selected companies.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Catherine Wang explicitly noted that mastery of this 4-tier CSR classification framework is a core requirement for the upcoming Unit 1 assignment",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "class_policy",
+        "title": "Professional Email Address Required",
+        "studentAction": "Create a formal, full-name aligned email address for academic/professional correspondence.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Email",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All students are required to create a formal, full-name aligned email address for all academic and professional correspondence",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "Next Class: Unit 2 Content",
+        "studentAction": "Be prepared to start Unit 2 in next session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "the next session scheduled to launch Unit 2 content the following day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-010",
+        "category": "follow_up_action",
+        "title": "Absent Students to Receive Missed Content",
+        "studentAction": "Admin staff will share assignment requirements and missed content with absent students.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Absent students: Terrance, Wenqi, Chen Xi, Zhang Xi, Evo, Zentao, Chenyang (new)",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All absent students will receive a copy of the assignment requirements and missed class content from administrative staff",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "BOH4M Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（CSR Strategy Framework、Professional Email Writing、Workplace Ethical Dilemma）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "CSR is a universal obligation balancing economic activity and public good.；Four CSR strategies: Obstructionist, Defensive, Accommodating, Proactive.；Obstructionist: avoids obligations, may act unethically.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can differentiate between the four CSR strategies (Obstructionist, Defensive, Accommodating, Proactive) and classify company actions."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can apply professional email writing conventions, including appropriate salutation for unknown recipients."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can evaluate ethical dilemmas by balancing confidentiality and responsibility without direct disclosure."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "csr-framework",
+      "name": "CSR Strategy Framework",
+      "nameEn": "Corporate Social Responsibility Strategy Framework",
+      "definition": "Four-tier classification of organizational approaches to social responsibility: Obstructionist (avoid obligations, may act unethically), Defensive (comply with law only, prioritize profit), Accommodating (recognize obligations, balance stakeholders), Proactive (actively seek public good opportunities).",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "BOH4M-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Evaluate the impact of issues related to ethics and social responsibility on the management of organizations."
+    },
+    {
+      "id": "professional-email",
+      "name": "Professional Email Writing",
+      "nameEn": "Professional Email Writing",
+      "definition": "Set of rules for formal email: use neutral email address (real name), clear subject line (short, specific, urgency marking if needed), appropriate salutation (avoid gendered terms, use 'To Whom It May Concern' for unknown), clear opening (state name and purpose), structured body (short paragraphs, ≤5 sentences each, line breaks), standard sign-off (full name, title, organization), and final review before sending.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "BOH4M-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Demonstrate the use of appropriate communication techniques related to business management."
+    },
+    {
+      "id": "ethical-dilemma",
+      "name": "Workplace Ethical Dilemma",
+      "nameEn": "Workplace Ethical Dilemma",
+      "definition": "Scenario requiring balance between corporate confidentiality and personal responsibility to a colleague, e.g., knowing about upcoming layoffs while a colleague seeks advice on a home purchase. Acceptable solutions protect confidentiality while advising caution without disclosing insider information.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "BOH4M-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Evaluate the impact of issues related to ethics and social responsibility on the management of organizations."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can differentiate between the four CSR strategies (Obstructionist, Defensive, Accommodating, Proactive) and classify company actions."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can apply professional email writing conventions, including appropriate salutation for unknown recipients."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can evaluate ethical dilemmas by balancing confidentiality and responsibility without direct disclosure."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-csr-confuse-accommodating-proactive",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Focus on the difference between Accommodating and Proactive CSR strategies."
+      },
+      {
+        "errorId": "err-email-gendered-salutation",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Review professional email salutation conventions, especially for unknown recipients."
+      },
+      {
+        "errorId": "err-ethical-dilemma-disclose-layoffs",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Review how to handle ethical dilemmas involving confidentiality."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-boh4m-0714-q1",
+        "nodeId": "csr-framework",
+        "errorId": "err-csr-confuse-accommodating-proactive",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Classifies a company action as Accommodating rather than Proactive.",
+        "ossdExpectation": "Evaluate the impact of issues related to ethics and social responsibility on the management of organizations.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "BOH4M-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "CSR strategy classification directly aligns with evaluating ethics and social responsibility in management.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "classify",
+        "stemIntent": "Test ability to distinguish Accommodating from Proactive CSR strategies using a real-world example.",
+        "commonMisconception": "Student confuses reactive compliance (Accommodating) with active social initiative (Proactive).",
+        "remediationModule": "err-csr-confuse-accommodating-proactive",
+        "retestItem": "err-csr-confuse-accommodating-proactive",
+        "stem": "A company donates to charitable causes only after being publicly criticized, but does not actively seek opportunities to contribute to the community. This approach best describes which CSR strategy?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Obstructionist",
+            "correct": false,
+            "feedbackWrong": "Obstructionist means avoiding obligations and may involve unethical behavior. This company is reacting to pressure, not avoiding entirely."
+          },
+          {
+            "label": "B",
+            "text": "Defensive",
+            "correct": false,
+            "feedbackWrong": "Defensive companies only do the legal minimum. Donating after criticism goes beyond legal compliance."
+          },
+          {
+            "label": "C",
+            "text": "Accommodating",
+            "correct": true,
+            "feedbackCorrect": "Correct. Accommodating companies recognize obligations and respond to stakeholder pressure, but do not actively seek out social initiatives."
+          },
+          {
+            "label": "D",
+            "text": "Proactive",
+            "correct": false,
+            "feedbackWrong": "Proactive companies actively seek opportunities for public good without waiting for pressure. This company only acts after criticism, so it's not proactive."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-0714-q2",
+        "nodeId": "professional-email",
+        "errorId": "err-email-gendered-salutation",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Selects gender-neutral salutation for unknown recipient.",
+        "ossdExpectation": "Demonstrate the use of appropriate communication techniques related to business management.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "BOH4M-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Professional email conventions are core to business communication techniques.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "choose",
+        "stemIntent": "Check understanding of appropriate salutation when recipient gender is unknown.",
+        "commonMisconception": "Student assumes 'Sir' or 'Madam' is always proper, ignoring potential misgendering.",
+        "remediationModule": "err-email-gendered-salutation",
+        "retestItem": "err-email-gendered-salutation",
+        "stem": "You need to email an HR manager whose name you do not know. Which salutation is most appropriate?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Dear Sir",
+            "correct": false,
+            "feedbackWrong": "Using 'Sir' assumes the recipient is male, which may be incorrect and is not inclusive."
+          },
+          {
+            "label": "B",
+            "text": "To Whom It May Concern",
+            "correct": true,
+            "feedbackCorrect": "Correct. This is a standard, gender-neutral salutation when the recipient's name or gender is unknown."
+          },
+          {
+            "label": "C",
+            "text": "Hi there",
+            "correct": false,
+            "feedbackWrong": "This is too informal for a professional email, especially when addressing an unknown manager."
+          },
+          {
+            "label": "D",
+            "text": "Dear Madam",
+            "correct": false,
+            "feedbackWrong": "Similar to 'Dear Sir', this assumes the recipient is female and may not be appropriate."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-0714-q3",
+        "nodeId": "ethical-dilemma",
+        "errorId": "err-ethical-dilemma-disclose-layoffs",
+        "type": "single_choice",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Chooses ethical response that maintains confidentiality while providing non-specific caution.",
+        "ossdExpectation": "Evaluate the impact of issues related to ethics and social responsibility on the management of organizations.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "BOH4M-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Ethical dilemma resolution is part of evaluating ethics in management.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "justify",
+        "stemIntent": "Test ability to balance confidentiality and responsibility in an ethical dilemma.",
+        "commonMisconception": "Student believes direct disclosure is acceptable or that hinting is sufficient.",
+        "remediationModule": "err-ethical-dilemma-disclose-layoffs",
+        "retestItem": "err-ethical-dilemma-disclose-layoffs",
+        "stem": "Your organization plans layoffs next month. A colleague is about to sign a mortgage and asks you if the company is financially stable. What should you do?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Inform the colleague about the upcoming layoffs so they can make an informed decision.",
+            "correct": false,
+            "feedbackWrong": "Directly disclosing confidential layoff information violates your duty to the organization and may breach company policy."
+          },
+          {
+            "label": "B",
+            "text": "Advise them to postpone large financial decisions without mentioning specific reasons.",
+            "correct": true,
+            "feedbackCorrect": "Correct. This protects confidentiality while still warning the colleague to be cautious, fulfilling your ethical responsibility."
+          },
+          {
+            "label": "C",
+            "text": "Ignore the question and change the subject.",
+            "correct": false,
+            "feedbackWrong": "Avoiding the question does not fulfill your ethical responsibility to help the colleague; a more supportive response is appropriate."
+          },
+          {
+            "label": "D",
+            "text": "Tell them the company is fine to avoid causing worry.",
+            "correct": false,
+            "feedbackWrong": "This is dishonest and could lead the colleague into a bad financial decision, violating trust and ethics."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-0714-q4",
+        "nodeId": "csr-framework",
+        "errorId": "err-csr-confuse-accommodating-proactive",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Classifies a company action as Proactive rather than Accommodating.",
+        "ossdExpectation": "Evaluate the impact of issues related to ethics and social responsibility on the management of organizations.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "BOH4M-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "CSR strategy classification directly aligns with evaluating ethics and social responsibility in management.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "classify",
+        "stemIntent": "Test ability to distinguish Proactive from Accommodating CSR strategies using a proactive example.",
+        "commonMisconception": "Student confuses active social initiative (Proactive) with reactive compliance (Accommodating).",
+        "remediationModule": "err-csr-confuse-accommodating-proactive",
+        "retestItem": "err-csr-confuse-accommodating-proactive",
+        "stem": "A company actively develops eco-friendly products and partners with environmental NGOs, even though there is no public pressure. This approach best describes which CSR strategy?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Obstructionist",
+            "correct": false,
+            "feedbackWrong": "Obstructionist companies avoid social responsibility; this company is actively pursuing it."
+          },
+          {
+            "label": "B",
+            "text": "Defensive",
+            "correct": false,
+            "feedbackWrong": "Defensive companies only comply with legal minimums; going beyond that is not defensive."
+          },
+          {
+            "label": "C",
+            "text": "Accommodating",
+            "correct": false,
+            "feedbackWrong": "Accommodating companies respond to pressure; this company acts without pressure, so it is not accommodating."
+          },
+          {
+            "label": "D",
+            "text": "Proactive",
+            "correct": true,
+            "feedbackCorrect": "Correct. Proactive companies actively seek opportunities to benefit society, even without external pressure."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-csr-confuse-accommodating-proactive",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Focus on the difference between Accommodating and Proactive CSR strategies."
+    },
+    {
+      "errorId": "err-email-gendered-salutation",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Review professional email salutation conventions, especially for unknown recipients."
+    },
+    {
+      "errorId": "err-ethical-dilemma-disclose-layoffs",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Review how to handle ethical dilemmas involving confidentiality."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-csr-confuse-accommodating-proactive",
+      "trigger": "Student incorrectly classifies a company's CSR action as Proactive when it is Accommodating, or vice versa, failing to distinguish between reactive responses to pressure and proactive initiatives without external pressure.",
+      "studentMisunderstanding": "Students often think that any positive social action is Proactive, but they do not recognize whether the action was triggered by external pressure (Accommodating) or initiated voluntarily (Proactive). They may also overlook the reactive nature of Accommodating strategies.",
+      "miniLesson": {
+        "explain": "The key difference between Accommodating and Proactive CSR strategies lies in motivation and timing. Accommodating companies respond to stakeholder pressure or criticism; they meet ethical obligations but do not go beyond what is demanded. Proactive companies actively seek opportunities to contribute to public good without waiting for pressure; they integrate social responsibility into their core strategy. Remember: Accommodating = reactive, responds to pressure; Proactive = proactive, initiates action.",
+        "example": "McDonald's building Ronald McDonald Houses for families of sick children is Proactive because it was initiated voluntarily to support communities. In contrast, a company that matches employee donations only after employees repeatedly request it is Accommodating because it responds to pressure.",
+        "memoryAnchor": "Accommodating reacts, Proactive acts first."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which CSR strategy involves actively seeking opportunities for public good without external pressure?",
+          "answer": "Proactive"
+        },
+        {
+          "level": "L2",
+          "prompt": "A company donates to charity only after being publicly criticized for not giving back. What CSR strategy does this represent?",
+          "answer": "Accommodating"
+        },
+        {
+          "level": "L3",
+          "prompt": "Company A changes its packaging to be more eco-friendly after customers complain. Company B develops a new recyclable product line without any customer demand. Which company is Accommodating and which is Proactive? Explain your reasoning.",
+          "answer": "Company A is Accommodating because it responded to customer complaints (pressure). Company B is Proactive because it initiated the eco-friendly product line voluntarily without external pressure."
+        }
+      ]
+    },
+    {
+      "errorId": "err-email-gendered-salutation",
+      "trigger": "Student selects a gendered salutation (e.g., 'Dear Sir' or 'Dear Madam') for an unknown recipient in a professional email scenario.",
+      "studentMisunderstanding": "Students believe that terms like 'Sir' or 'Madam' are universally appropriate for addressing unknown recipients in professional emails, not realizing that these terms assume a specific gender and may misgender the recipient, which is unprofessional and can cause offense.",
+      "miniLesson": {
+        "explain": "In professional emails, avoid gendered salutations like 'Dear Sir' or 'Dear Madam' when the recipient's name or gender is unknown. These terms assume the recipient's gender, which may be incorrect or disrespectful. Instead, use gender-neutral salutations such as 'To Whom It May Concern,' 'Dear Hiring Manager,' or 'Dear [Department Name] Team.' This ensures your communication is inclusive and professional.",
+        "example": "Instead of writing 'Dear Sir,' write 'To Whom It May Concern' or 'Dear Customer Service Team.'",
+        "memoryAnchor": "Think: When in doubt, leave gender out. Use 'To Whom It May Concern' as your default for unknown recipients."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is a gender-neutral salutation for an unknown recipient?",
+          "answer": "To Whom It May Concern."
+        },
+        {
+          "level": "L2",
+          "prompt": "You are writing an email to the HR department of a company, but you don't know the name of the manager. What is the most appropriate salutation?",
+          "answer": "Dear HR Manager or To Whom It May Concern."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why 'Dear Sir' is not appropriate for an email to an unknown recipient. Suggest a better salutation.",
+          "answer": "Because 'Dear Sir' assumes the recipient is male, which may not be correct and can be offensive. A better salutation is 'To Whom It May Concern' or a job-title based salutation like 'Dear Hiring Manager'."
+        }
+      ]
+    },
+    {
+      "errorId": "err-ethical-dilemma-disclose-layoffs",
+      "trigger": "In a scenario where you know about upcoming layoffs and a colleague asks if the company is financially stable, the student chooses to directly disclose the layoff information.",
+      "studentMisunderstanding": "Student believes directly disclosing layoff information is ethical, failing to recognize confidentiality obligations.",
+      "miniLesson": {
+        "explain": "This is an ethical dilemma that requires balancing corporate confidentiality with personal responsibility to a colleague. Directly disclosing confidential information violates company policy and trust. The ethical solution is to protect confidentiality while still advising caution, e.g., suggesting postponing large financial decisions without giving specific reasons.",
+        "example": "Your organization plans layoffs next month. A colleague is about to sign a mortgage and asks if the company is financially stable. The ethical response is to advise them to postpone large financial decisions without mentioning the layoffs. This protects confidentiality and fulfills your responsibility to warn them.",
+        "memoryAnchor": "Protect confidentiality, guide without disclosure."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is the primary ethical obligation in this dilemma? (a) To help the colleague by sharing all information (b) To protect confidential information (c) To ignore the colleague's question (d) To tell them the company is fine.",
+          "answer": "b"
+        },
+        {
+          "level": "L2",
+          "prompt": "A colleague is considering a major purchase and asks about the company's future. You know of upcoming layoffs. What is the best response? (a) Tell them the truth about layoffs (b) Advise them to be cautious with financial decisions (c) Say you don't know (d) Warn them not to buy.",
+          "answer": "b"
+        },
+        {
+          "level": "L3",
+          "prompt": "Evaluate the following response: 'I can't say much, but you might want to hold off on big purchases.' Does this properly balance confidentiality and responsibility? Explain.",
+          "answer": "Yes, it protects confidentiality while advising caution, without disclosing specific information."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-csr-confuse-accommodating-proactive",
+      "questions": [
+        {
+          "id": "csr-retest-q1",
+          "type": "single_choice",
+          "stem": "After facing public protests over labor practices, a company announces a new policy to improve working conditions. This is an example of which CSR strategy?",
+          "options": [
+            "Obstructionist",
+            "Defensive",
+            "Accommodating",
+            "Proactive"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "csr-retest-q2",
+          "type": "open_ended",
+          "stem": "Explain why the following scenario describes a Proactive strategy: A tech company develops a free educational software program for underprivileged schools without any external demand or pressure.",
+          "rubric": "Student must indicate that the action was initiated voluntarily, without external pressure, and aims to contribute to public good."
+        }
+      ],
+      "passRule": "Answer question 1 correctly (select 'Accommodating') and provide a clear explanation in question 2 that identifies the voluntary, proactive nature (no external pressure, initiated by the company)."
+    },
+    {
+      "forErrorId": "err-email-gendered-salutation",
+      "questions": [
+        {
+          "id": "email-salutation-mcq",
+          "type": "single_choice",
+          "stem": "Which of the following salutations is most appropriate for an email to an unknown recipient?",
+          "options": [
+            "Dear Sir",
+            "Dear Madam",
+            "To Whom It May Concern",
+            "Hey there"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "email-salutation-open",
+          "type": "open_ended",
+          "stem": "You need to email the customer support team of a company but don't know any names. Write an appropriate salutation for your email.",
+          "rubric": "Must use a gender-neutral salutation such as 'To Whom It May Concern,' 'Dear Customer Support Team,' or similar. Avoid 'Dear Sir' or 'Dear Madam'."
+        }
+      ],
+      "passRule": "allCorrect"
+    },
+    {
+      "forErrorId": "err-ethical-dilemma-disclose-layoffs",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "You are a manager and learn that the company will downsize a department next quarter. A colleague from that department asks if you think it's safe to take on a new car loan. Which response best balances confidentiality and responsibility?",
+          "options": [
+            "Tell them to delay major financial decisions, without explaining why.",
+            "Share the downsizing information so they can make an informed choice.",
+            "Say you don't know anything and avoid the conversation.",
+            "Suggest they ask their supervisor for guidance."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "A trusted colleague is considering investing a large bonus into company stock, because a rumor says the company is about to land a major contract. You know that the rumor is false and that the contract negotiations have failed. Write a brief response to your colleague that protects confidentiality and fulfills your ethical responsibility.",
+          "rubric": "Student must not disclose the failed negotiations. Instead, they should advise caution about the investment without revealing the confidential information, e.g., 'Based on what I know, I would be cautious about investing heavily in company stock right now, but I can't share details.' A response that directly reveals the failure or that misleads (e.g., saying the rumor is true) should be marked incorrect."
+        }
+      ],
+      "passRule": "Select correct option in Q1 and provide a response in Q2 that protects confidentiality while advising caution (as per rubric)."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-07-14",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HbXwd2ySAoFZyJxHRTyc8KfWnSd?from=vc_group_doc_link#doxcnofFwskhU74LDzvn1RWEmRf",
+    "sourceTitle": "BOH4M.S6.Catherine 2026-07-14 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "CSR is a universal obligation balancing economic activity and public good.；Four CSR strategies: Obstructionist, Defensive, Accommodating, Proactive.；Obstructionist: avoids obligations, may act unethically.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can differentiate between the four CSR strategies (Obstructionist, Defensive, Accommodating, Proactive) and classify company actions."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can apply professional email writing conventions, including appropriate salutation for unknown recipients."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can evaluate ethical dilemmas by balancing confidentiality and responsibility without direct disclosure."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Camera must remain on during class",
+        "studentAction": "Keep camera activated for full session; otherwise marked absent.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Mandatory camera requirement: All class attendees must keep their cameras activated for the full session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Unit 1 Group CSR Assignment Due Next Monday",
+        "studentAction": "Submit final group document to assignment folder (one submission per group).",
+        "deadlineText": "Next Monday (2026-07-20)",
+        "deadlineISO": "2026-07-20T23:59:00+08:00",
+        "platform": "Assignment folder (unspecified)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Both the Unit 1 group CSR assignment and the Unit 1 written exam are scheduled for completion on next Monday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Written Exam Next Monday",
+        "studentAction": "Prepare for and take the Unit 1 exam.",
+        "deadlineText": "Next Monday (2026-07-20)",
+        "deadlineISO": "2026-07-20T23:59:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Both the Unit 1 group CSR assignment and the Unit 1 written exam are scheduled for completion on next Monday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "No Free-Rider Policy",
+        "studentAction": "Participate in group work; non-participants will not be listed on submission and receive zero credit.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students in groups",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "any group member who does not participate in assignment work will not be listed on the final submission, and will receive zero credit for the group project",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Group Leads Notify Non-Participating Members",
+        "studentAction": "Group leads send short notification to Catherine Wang listing non-contributing attendees.",
+        "deadlineText": "Before submission",
+        "deadlineISO": null,
+        "platform": "Email",
+        "link": null,
+        "appliesTo": "Group leads (Group 1: Ali, Jasmine, Vivian, Leo, Chenyang; Group 2: Ashley, Wenqi, Evo, Chen Xi, Zhang Xi, Zentao)",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Group leads are not held responsible for non-participating members, and only need to send a short notification to Catherine Wang listing non-contributing attendees for official record keeping.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "material_needed",
+        "title": "Assignment Template to be Shared",
+        "studentAction": "Use provided template for final document formatting.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Unknown",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "A standard assignment template including cover page and section structure will be shared with all students to standardize the formatting of final submission documents.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "review_focus",
+        "title": "Mastery of 4-Tier CSR Framework Required for Assignment",
+        "studentAction": "Review CSR framework to correctly classify selected companies.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Catherine Wang explicitly noted that mastery of this 4-tier CSR classification framework is a core requirement for the upcoming Unit 1 assignment",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "class_policy",
+        "title": "Professional Email Address Required",
+        "studentAction": "Create a formal, full-name aligned email address for academic/professional correspondence.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Email",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All students are required to create a formal, full-name aligned email address for all academic and professional correspondence",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "Next Class: Unit 2 Content",
+        "studentAction": "Be prepared to start Unit 2 in next session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "the next session scheduled to launch Unit 2 content the following day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-010",
+        "category": "follow_up_action",
+        "title": "Absent Students to Receive Missed Content",
+        "studentAction": "Admin staff will share assignment requirements and missed content with absent students.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Absent students: Terrance, Wenqi, Chen Xi, Zhang Xi, Evo, Zentao, Chenyang (new)",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All absent students will receive a copy of the assignment requirements and missed class content from administrative staff",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "csr-framework",
+      "professional-email",
+      "ethical-dilemma"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-csr-confuse-accommodating-proactive",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-email-gendered-salutation",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-ethical-dilemma-disclose-layoffs",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      }
+    ],
+    "nextActions": [
+      "[err-csr-confuse-accommodating-proactive] student picks wrong option on any question targeting this errorId: Focus on the difference between Accommodating and Proactive CSR strategies.",
+      "[err-email-gendered-salutation] student picks wrong option on any question targeting this errorId: Review professional email salutation conventions, especially for unknown recipients.",
+      "[err-ethical-dilemma-disclose-layoffs] student picks wrong option on any question targeting this errorId: Review how to handle ethical dilemmas involving confidentiality."
+    ],
+    "cards": [
+      {
+        "id": "diag-boh4m-0714-q1",
+        "type": "choice",
+        "question": "A company donates to charitable causes only after being publicly criticized, but does not actively seek opportunities to contribute to the community. This approach best describes which CSR strategy?",
+        "options": [
+          "Obstructionist",
+          "Defensive",
+          "Accommodating",
+          "Proactive"
+        ],
+        "correct": 2,
+        "diagnosis": "Test ability to distinguish Accommodating from Proactive CSR strategies using a real-world example.",
+        "misconceptions": [
+          "Obstructionist means avoiding obligations and may involve unethical behavior. This company is reacting to pressure, not avoiding entirely.",
+          "Defensive companies only do the legal minimum. Donating after criticism goes beyond legal compliance.",
+          "✓ Correct. Accommodating companies recognize obligations and respond to stakeholder pressure, but do not actively seek out social initiatives.",
+          "Proactive companies actively seek opportunities for public good without waiting for pressure. This company only acts after criticism, so it's not proactive."
+        ],
+        "nodeId": "csr-framework",
+        "errorId": "err-csr-confuse-accommodating-proactive",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Classifies a company action as Accommodating rather than Proactive.",
+        "ossdExpectation": "Evaluate the impact of issues related to ethics and social responsibility on the management of organizations.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "BOH4M-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "CSR strategy classification directly aligns with evaluating ethics and social responsibility in management.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "classify",
+        "commonMisconception": "Student confuses reactive compliance (Accommodating) with active social initiative (Proactive).",
+        "remediationModule": "err-csr-confuse-accommodating-proactive",
+        "retestItem": "err-csr-confuse-accommodating-proactive"
+      },
+      {
+        "id": "diag-boh4m-0714-q2",
+        "type": "choice",
+        "question": "You need to email an HR manager whose name you do not know. Which salutation is most appropriate?",
+        "options": [
+          "Dear Sir",
+          "To Whom It May Concern",
+          "Hi there",
+          "Dear Madam"
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of appropriate salutation when recipient gender is unknown.",
+        "misconceptions": [
+          "Using 'Sir' assumes the recipient is male, which may be incorrect and is not inclusive.",
+          "✓ Correct. This is a standard, gender-neutral salutation when the recipient's name or gender is unknown.",
+          "This is too informal for a professional email, especially when addressing an unknown manager.",
+          "Similar to 'Dear Sir', this assumes the recipient is female and may not be appropriate."
+        ],
+        "nodeId": "professional-email",
+        "errorId": "err-email-gendered-salutation",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Selects gender-neutral salutation for unknown recipient.",
+        "ossdExpectation": "Demonstrate the use of appropriate communication techniques related to business management.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "BOH4M-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Professional email conventions are core to business communication techniques.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "choose",
+        "commonMisconception": "Student assumes 'Sir' or 'Madam' is always proper, ignoring potential misgendering.",
+        "remediationModule": "err-email-gendered-salutation",
+        "retestItem": "err-email-gendered-salutation"
+      },
+      {
+        "id": "diag-boh4m-0714-q3",
+        "type": "choice",
+        "question": "Your organization plans layoffs next month. A colleague is about to sign a mortgage and asks you if the company is financially stable. What should you do?",
+        "options": [
+          "Inform the colleague about the upcoming layoffs so they can make an informed decision.",
+          "Advise them to postpone large financial decisions without mentioning specific reasons.",
+          "Ignore the question and change the subject.",
+          "Tell them the company is fine to avoid causing worry."
+        ],
+        "correct": 1,
+        "diagnosis": "Test ability to balance confidentiality and responsibility in an ethical dilemma.",
+        "misconceptions": [
+          "Directly disclosing confidential layoff information violates your duty to the organization and may breach company policy.",
+          "✓ Correct. This protects confidentiality while still warning the colleague to be cautious, fulfilling your ethical responsibility.",
+          "Avoiding the question does not fulfill your ethical responsibility to help the colleague; a more supportive response is appropriate.",
+          "This is dishonest and could lead the colleague into a bad financial decision, violating trust and ethics."
+        ],
+        "nodeId": "ethical-dilemma",
+        "errorId": "err-ethical-dilemma-disclose-layoffs",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Chooses ethical response that maintains confidentiality while providing non-specific caution.",
+        "ossdExpectation": "Evaluate the impact of issues related to ethics and social responsibility on the management of organizations.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "BOH4M-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Ethical dilemma resolution is part of evaluating ethics in management.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "justify",
+        "commonMisconception": "Student believes direct disclosure is acceptable or that hinting is sufficient.",
+        "remediationModule": "err-ethical-dilemma-disclose-layoffs",
+        "retestItem": "err-ethical-dilemma-disclose-layoffs"
+      },
+      {
+        "id": "diag-boh4m-0714-q4",
+        "type": "choice",
+        "question": "A company actively develops eco-friendly products and partners with environmental NGOs, even though there is no public pressure. This approach best describes which CSR strategy?",
+        "options": [
+          "Obstructionist",
+          "Defensive",
+          "Accommodating",
+          "Proactive"
+        ],
+        "correct": 3,
+        "diagnosis": "Test ability to distinguish Proactive from Accommodating CSR strategies using a proactive example.",
+        "misconceptions": [
+          "Obstructionist companies avoid social responsibility; this company is actively pursuing it.",
+          "Defensive companies only comply with legal minimums; going beyond that is not defensive.",
+          "Accommodating companies respond to pressure; this company acts without pressure, so it is not accommodating.",
+          "✓ Correct. Proactive companies actively seek opportunities to benefit society, even without external pressure."
+        ],
+        "nodeId": "csr-framework",
+        "errorId": "err-csr-confuse-accommodating-proactive",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Classifies a company action as Proactive rather than Accommodating.",
+        "ossdExpectation": "Evaluate the impact of issues related to ethics and social responsibility on the management of organizations.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "BOH4M-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "CSR strategy classification directly aligns with evaluating ethics and social responsibility in management.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "classify",
+        "commonMisconception": "Student confuses active social initiative (Proactive) with reactive compliance (Accommodating).",
+        "remediationModule": "err-csr-confuse-accommodating-proactive",
+        "retestItem": "err-csr-confuse-accommodating-proactive"
+      }
+    ]
+  }
+}

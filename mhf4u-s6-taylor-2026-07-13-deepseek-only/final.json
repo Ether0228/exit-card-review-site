@@ -1,0 +1,642 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-13",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/NQ7pdZhx5okHg1xFIIUcDPFonob?from=vc_group_doc_link#doxcn16DKzrxWMhmtS3qL39Z2Te",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-13 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/NQ7pdZhx5okHg1xFIIUcDPFonob?from=vc_group_doc_link#doxcn16DKzrxWMhmtS3qL39Z2Te",
+    "title": "MHF4U.S6.Taylor 2026-07-13 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/mhf4u-s6-taylor-2026-07-13/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-13",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-13",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Core instruction on polynomial orders and factored form, with review of pre-submitted student questions.",
+    "academicContentSignals": [
+      "Polynomial order definition (order 1,2,3)",
+      "X-axis interaction: order1=linear crossing, order2=parabolic bounce, order3=S-shaped cubic crossing",
+      "Standard graphing workflow: find x-intercepts, order mapping, end behavior, plot sequentially",
+      "Total degree from factored form: sum of orders of linear factors",
+      "Equation construction from factored form: f(x) = a * product of (x - r)^order",
+      "Leading coefficient calculation using a known point",
+      "End behavior: even degree -> same direction, odd -> opposite; positive leading coefficient -> right end up",
+      "Domain and range notation, formal set/interval notation",
+      "Odd function symmetry: origin-symmetric, turning points in mirrored pairs",
+      "Population modeling application with degree-4 polynomial with negative leading coefficient"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations are minimal and clearly subordinate to academic content. The exit card and homework assignments are mentioned at the end; they should not overshadow the diagnostic card's focus on polynomial content.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Lesson 4 Homework",
+        "studentAction": "Complete Lesson 4 homework",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Post-Lesson Requirements: Lesson 4 homework and a short exit card will be assigned to all students",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Short Exit Card",
+        "studentAction": "Complete short exit card",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Post-Lesson Requirements: Lesson 4 homework and a short exit card will be assigned to all students",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "teacher_request",
+        "title": "Submit Follow-Up Questions via Email",
+        "studentAction": "Email instructor with any follow-up questions",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "any student",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "any follow-up questions can be submitted to the instructor via email for support",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Polynomial Factored Form、Graphing Polynomials from Factored Form）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Sketch vs graph: sketch has no scaling; graph has labeled proportional axes.；Degree n polynomial has at most n-1 turning points.；Order of a factor is its exponent in factored form.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can identify and describe key features of polynomial functions from factored form, including the effect of factor order on x-axis behavior."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can graph polynomial functions from factored form following the graphing workflow: find x-intercepts, note orders, determine end behavior, and construct the equation from graph."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "poly-factored-form",
+      "name": "Polynomial Factored Form",
+      "nameEn": "Polynomial Factored Form",
+      "definition": "Polynomial expressed as product of linear factors (x - r)^order; order determines x-axis behavior: order 1 (cross), order 2 (bounce), order 3 (S-cross).",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    },
+    {
+      "id": "poly-graphing-workflow",
+      "name": "Graphing Polynomials from Factored Form",
+      "nameEn": "Graphing Polynomials from Factored Form",
+      "definition": "Step-by-step: find x-intercepts, note orders, determine end behavior (degree parity and leading coefficient), plot shape at each intercept, use a known point to scale.",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify and describe key features of polynomial functions from factored form, including the effect of factor order on x-axis behavior."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can graph polynomial functions from factored form following the graphing workflow: find x-intercepts, note orders, determine end behavior, and construct the equation from graph."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-poly-factored-form",
+        "condition": "Student answers incorrectly on any question targeting this errorId.",
+        "systemAction": "Assign reteach module err-poly-factored-form.",
+        "studentMessage": "Let's review how the order of a factor affects the graph at the x-intercept."
+      },
+      {
+        "errorId": "err-poly-graphing-workflow",
+        "condition": "Student answers incorrectly on any question targeting this errorId.",
+        "systemAction": "Assign reteach module err-poly-graphing-workflow.",
+        "studentMessage": "Let's practice the steps for graphing polynomials from factored form."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-c1-q1",
+        "nodeId": "poly-factored-form",
+        "errorId": "err-poly-factored-form",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that a factor of order 2 causes the graph to bounce off the x-axis.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses key features of polynomial functions: behavior at zeros based on factor order.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stem": "If a polynomial has a factor (x - 3)^2, what does the graph do at x = 3?",
+        "stemIntent": "Check understanding that a factor of order 2 causes a parabolic bounce (tangent touch) at the x-intercept.",
+        "commonMisconception": "Students may think order 2 means crossing or S-shaped crossing.",
+        "remediationModule": "err-poly-factored-form",
+        "retestItem": "err-poly-factored-form",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect width='400' height='300' fill='white'/><line x1='50' y1='150' x2='350' y2='150' stroke='black' stroke-width='2'/><line x1='200' y1='50' x2='200' y2='250' stroke='black' stroke-width='2'/><text x='380' y='145' font-size='12'>x</text><text x='205' y='40' font-size='12'>y</text><path d='M 50 250 Q 200 0 350 250' stroke='blue' stroke-width='3' fill='none'/><circle cx='200' cy='150' r='4' fill='red'/></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "The graph crosses the x-axis with a linear shape.",
+            "correct": false,
+            "feedbackWrong": "Order 2 does not produce a linear crossing. It bounces or touches."
+          },
+          {
+            "label": "B",
+            "text": "The graph bounces off the x-axis and turns around.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Order 2 creates a parabolic bounce at the zero."
+          },
+          {
+            "label": "C",
+            "text": "The graph has an S-shaped cubic crossing.",
+            "correct": false,
+            "feedbackWrong": "S-shaped crossing occurs for order 3, not order 2."
+          },
+          {
+            "label": "D",
+            "text": "There is no x-intercept at x = 3.",
+            "correct": false,
+            "feedbackWrong": "If (x - 3) is a factor, there is an intercept at x = 3. Order 2 still has an intercept."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-c1-q2",
+        "nodeId": "poly-factored-form",
+        "errorId": "err-poly-factored-form",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly describes the behavior at each zero for a given factored polynomial.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly applies knowledge of factor order to describe graphical behavior.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stem": "Consider the polynomial f(x) = (x + 2)^3 (x - 1). Describe the behavior of the graph at each x-intercept. Include whether the graph crosses or touches, and the shape.",
+        "stemIntent": "Check ability to apply factor order rules to describe x-intercept behavior in a specific polynomial.",
+        "commonMisconception": "Student may incorrectly apply order rules, e.g., thinking order 3 causes a bounce.",
+        "remediationModule": "err-poly-factored-form",
+        "retestItem": "err-poly-factored-form",
+        "rubric": "Full credit: states that at x = -2 (order 3) the graph crosses with an S-shape, and at x = 1 (order 1) the graph crosses linearly.",
+        "sampleStrongAnswer": "At x = -2, the factor is (x+2)^3, order 3, so the graph crosses with an S-shaped cubic inflection. At x = 1, the factor is (x-1)^1, order 1, so the graph crosses linearly."
+      },
+      {
+        "id": "diag-mhf4u-c1-q3",
+        "nodeId": "poly-graphing-workflow",
+        "errorId": "err-poly-graphing-workflow",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly determines the end behavior of a polynomial given its degree and leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial functions.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stem": "A polynomial has degree 4 and a negative leading coefficient. What is the end behavior?",
+        "stemIntent": "Check understanding of how degree parity and leading coefficient sign determine end behavior.",
+        "commonMisconception": "Student may think even degree always means both ends up, regardless of leading coefficient sign.",
+        "remediationModule": "err-poly-graphing-workflow",
+        "retestItem": "err-poly-graphing-workflow",
+        "options": [
+          {
+            "label": "A",
+            "text": "As x → -∞, y → -∞; as x → +∞, y → -∞",
+            "correct": true,
+            "feedbackCorrect": "Correct! Even degree with negative leading coefficient means both ends go down."
+          },
+          {
+            "label": "B",
+            "text": "As x → -∞, y → +∞; as x → +∞, y → +∞",
+            "correct": false,
+            "feedbackWrong": "That would be even degree with positive leading coefficient."
+          },
+          {
+            "label": "C",
+            "text": "As x → -∞, y → +∞; as x → +∞, y → -∞",
+            "correct": false,
+            "feedbackWrong": "That is odd degree with positive leading coefficient."
+          },
+          {
+            "label": "D",
+            "text": "As x → -∞, y → -∞; as x → +∞, y → +∞",
+            "correct": false,
+            "feedbackWrong": "That is odd degree with negative leading coefficient."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-c1-q4",
+        "nodeId": "poly-graphing-workflow",
+        "errorId": "err-poly-graphing-workflow",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student constructs a polynomial equation from given zeros, order, and a point, and determines the leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Constructing an equation from graph features is a key connection between representations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "construct",
+        "stem": "A degree 4 polynomial has zeros at x = 2, 6, 10, 14 all of order 1, and passes through (3.5, 0.5). Determine the factored form f(x) = a * (x - 2)(x - 6)(x - 10)(x - 14) and solve for the leading coefficient a.",
+        "stemIntent": "Check ability to apply the graphing workflow backwards: use zeros and a point to find the equation.",
+        "commonMisconception": "Student may forget the leading coefficient a, or incorrectly substitute the point.",
+        "remediationModule": "err-poly-graphing-workflow",
+        "retestItem": "err-poly-graphing-workflow",
+        "rubric": "Full credit: writes f(3.5) = a * (1.5)(-2.5)(-6.5)(-10.5) = 0.5, computes product, solves for a ≈ -0.002.",
+        "sampleStrongAnswer": "Substitute x=3.5: f(3.5)= a*(1.5)(-2.5)(-6.5)(-10.5) = a * (-255.9375) = 0.5, so a = 0.5 / (-255.9375) ≈ -0.00195. Thus f(x) ≈ -0.002(x-2)(x-6)(x-10)(x-14)."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-poly-factored-form",
+      "condition": "Student answers incorrectly on any question targeting this errorId.",
+      "systemAction": "Assign reteach module err-poly-factored-form.",
+      "studentMessage": "Let's review how the order of a factor affects the graph at the x-intercept."
+    },
+    {
+      "errorId": "err-poly-graphing-workflow",
+      "condition": "Student answers incorrectly on any question targeting this errorId.",
+      "systemAction": "Assign reteach module err-poly-graphing-workflow.",
+      "studentMessage": "Let's practice the steps for graphing polynomials from factored form."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-poly-factored-form",
+      "trigger": "Student incorrectly identifies graph behavior at x-intercepts based on factor order (e.g., confuses order 2 bounce with crossing).",
+      "studentMisunderstanding": "Students often think that any factor with an exponent greater than 1 still produces a simple crossing, or they confuse order 2 (bounce) with order 3 (S-shaped crossing).",
+      "miniLesson": {
+        "explain": "A polynomial in factored form is written as a product of linear factors (x - r)^order. The order (exponent) determines how the graph behaves at that x-intercept: order 1 = crosses linearly, order 2 = bounces off (parabolic touch), order 3 = crosses with an S-shaped cubic inflection. This is a key feature for sketching graphs.",
+        "example": "For f(x) = (x - 2)^2 (x + 1), at x = 2 (order 2) the graph bounces, at x = -1 (order 1) it crosses linearly.",
+        "memoryAnchor": "Order 1: line through; Order 2: bounce; Order 3: S-cross."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What does the graph do at x = 4 if the polynomial has a factor (x - 4)^3?",
+          "answer": "The graph crosses with an S-shaped cubic inflection."
+        },
+        {
+          "level": "L2",
+          "prompt": "Describe the behavior at each x-intercept for f(x) = (x + 3)^2 (x - 5): include whether it crosses or bounces and the shape.",
+          "answer": "At x = -3 (order 2) the graph bounces (parabolic touch). At x = 5 (order 1) the graph crosses linearly."
+        },
+        {
+          "level": "L3",
+          "prompt": "At x = 0, the graph of a polynomial crosses with an S-shaped cubic inflection. What is the order of the factor (x - 0)?",
+          "answer": "Order 3."
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-graphing-workflow",
+      "trigger": "Student incorrectly answers a question on the polynomial graphing workflow during the diagnostic.",
+      "studentMisunderstanding": "Student may not follow the correct order of steps or may misinterpret end behavior rules.",
+      "miniLesson": {
+        "explain": "The graphing workflow for polynomials from factored form consists of four steps: 1) Find x-intercepts from factors. 2) Note the order of each factor to determine behavior at each intercept (order 1: linear crossing, order 2: parabolic bounce, order 3: S-shaped cubic crossing). 3) Determine end behavior using the degree (even/odd) and the sign of the leading coefficient (positive: right end up, negative: right end down). 4) Plot the intercepts, use the known shape at each, and connect from left to right, using a known point to scale if needed.",
+        "example": "For a degree 4 polynomial with zeros at 2,6,10,14 all order 1 and passing through (3.5,0.5), we find end behavior: even degree, negative leading coefficient (since f(3.5)=0.5>0 and to the right of last zero, the graph goes down, so leading coeff negative). The graph crosses linearly at each zero. Using the point, we solve for leading coefficient a ≈ -0.002.",
+        "memoryAnchor": "Remember the acronym 'INEB': Intercepts, Notes (orders), End behavior, Build graph (using known point)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "List the four main steps of the polynomial graphing workflow in order.",
+          "answer": "1. Find x-intercepts from factors. 2. Note the order of each factor (determines shape at intercept). 3. Determine end behavior from degree and leading coefficient sign. 4. Plot intercepts and sketch the graph using the determined behavior, using a known point to find the leading coefficient if needed."
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f(x) = (x+1)^2 (x-3), describe the end behavior and the behavior at each x-intercept.",
+          "answer": "End behavior: degree = 3 (odd) with positive leading coefficient (1>0) → as x→ -∞, y→ -∞; as x→ +∞, y→ +∞. At x=-1 (order 2): bounce off x-axis. At x=3 (order 1): cross linearly."
+        },
+        {
+          "level": "L3",
+          "prompt": "A degree 4 polynomial has zeros at x=2,6,10,14 all order 1 and passes through (3.5, 0.5). Determine the leading coefficient a and write the factored form. Use the workflow steps to explain your process.",
+          "answer": "Step1: x-intercepts at 2,6,10,14. Step2: all order 1 so linear crossing. Step3: degree 4 even, right end behavior: since graph goes down after last zero (as x→+∞, y→-∞), leading coefficient is negative. Step4: Use point (3.5,0.5): 0.5 = a*(3.5-2)*(3.5-6)*(3.5-10)*(3.5-14) = a*(1.5)*(-2.5)*(-6.5)*(-10.5). Compute product: (1.5)*(-2.5)= -3.75; (-3.75)*(-6.5)= 24.375; (24.375)*(-10.5)= -255.9375. So a = 0.5 / (-255.9375) ≈ -0.00195, which rounds to -0.002. Thus f(x) = -0.002(x-2)(x-6)(x-10)(x-14)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-poly-factored-form",
+      "questions": [
+        {
+          "id": "retest-poly-form-mc",
+          "type": "single_choice",
+          "stem": "For the polynomial f(x) = (x - 13)^1 (x - 14)^2, what is the behavior of the graph at x = 14?",
+          "options": [
+            "Crosses linearly",
+            "Bounces (parabolic touch)",
+            "Crosses with an S-shaped cubic inflection"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-poly-form-oe",
+          "type": "open_ended",
+          "stem": "A polynomial in factored form is f(x) = (x - 3)^3 (x + 5)^2. Describe the graphical behavior at each x-intercept.",
+          "rubric": "Includes: at x=3 (order 3) the graph crosses with an S-shaped cubic inflection; at x=-5 (order 2) the graph bounces (parabolic touch). Partial credit for correct identification of at least one."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-poly-graphing-workflow",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "What is the correct order of steps in the polynomial graphing workflow?",
+          "options": [
+            "Find end behavior, then x-intercepts, then order of each factor, then sketch.",
+            "Find x-intercepts, note order of each factor, determine end behavior, then sketch using a known point.",
+            "Determine order of factors first, then find x-intercepts, then end behavior, then sketch.",
+            "Plot known points first, then find intercepts, then determine end behavior."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Given the polynomial f(x) = -0.002(x-3)(x-7)(x-13)(x-14) (all factors order 1). Your task: a) Determine the end behavior (as x→ -∞ and x→ +∞). b) Describe the behavior at each x-intercept (cross or bounce). c) Calculate f(10) to verify if it is positive or negative. Use the graphing workflow steps in your explanation.",
+          "rubric": "a) End behavior: degree 4 (even) with leading coefficient negative → both ends go down (as x→ -∞, y→ -∞; as x→ +∞, y→ -∞). b) All zeros order 1, so graph crosses linearly at each intercept. c) f(10) = -0.002*(7)*(3)*(-3)*(-4) = -0.002*(7*3=21; 21*(-3)=-63; -63*(-4)=252) = -0.002*252 = -0.504. So f(10) is negative. (Exact value not required, just correct sign.)"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For question 2, the student must demonstrate the correct order of steps and accurate calculations/sign."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-13",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/NQ7pdZhx5okHg1xFIIUcDPFonob?from=vc_group_doc_link#doxcn16DKzrxWMhmtS3qL39Z2Te",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-13 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Sketch vs graph: sketch has no scaling; graph has labeled proportional axes.；Degree n polynomial has at most n-1 turning points.；Order of a factor is its exponent in factored form.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify and describe key features of polynomial functions from factored form, including the effect of factor order on x-axis behavior."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can graph polynomial functions from factored form following the graphing workflow: find x-intercepts, note orders, determine end behavior, and construct the equation from graph."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Lesson 4 Homework",
+        "studentAction": "Complete Lesson 4 homework",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Post-Lesson Requirements: Lesson 4 homework and a short exit card will be assigned to all students",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Short Exit Card",
+        "studentAction": "Complete short exit card",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Post-Lesson Requirements: Lesson 4 homework and a short exit card will be assigned to all students",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "teacher_request",
+        "title": "Submit Follow-Up Questions via Email",
+        "studentAction": "Email instructor with any follow-up questions",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "any student",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "any follow-up questions can be submitted to the instructor via email for support",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "poly-factored-form",
+      "poly-graphing-workflow"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-poly-factored-form",
+        "condition": "Student answers incorrectly on any question targeting this errorId.",
+        "systemAction": "Assign reteach module err-poly-factored-form."
+      },
+      {
+        "errorId": "err-poly-graphing-workflow",
+        "condition": "Student answers incorrectly on any question targeting this errorId.",
+        "systemAction": "Assign reteach module err-poly-graphing-workflow."
+      }
+    ],
+    "nextActions": [
+      "[err-poly-factored-form] Student answers incorrectly on any question targeting this errorId.: Let's review how the order of a factor affects the graph at the x-intercept.",
+      "[err-poly-graphing-workflow] Student answers incorrectly on any question targeting this errorId.: Let's practice the steps for graphing polynomials from factored form."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-c1-q1",
+        "type": "choice",
+        "question": "If a polynomial has a factor (x - 3)^2, what does the graph do at x = 3?",
+        "options": [
+          "The graph crosses the x-axis with a linear shape.",
+          "The graph bounces off the x-axis and turns around.",
+          "The graph has an S-shaped cubic crossing.",
+          "There is no x-intercept at x = 3."
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding that a factor of order 2 causes a parabolic bounce (tangent touch) at the x-intercept.",
+        "misconceptions": [
+          "Order 2 does not produce a linear crossing. It bounces or touches.",
+          "✓ Correct! Order 2 creates a parabolic bounce at the zero.",
+          "S-shaped crossing occurs for order 3, not order 2.",
+          "If (x - 3) is a factor, there is an intercept at x = 3. Order 2 still has an intercept."
+        ],
+        "nodeId": "poly-factored-form",
+        "errorId": "err-poly-factored-form",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that a factor of order 2 causes the graph to bounce off the x-axis.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses key features of polynomial functions: behavior at zeros based on factor order.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think order 2 means crossing or S-shaped crossing.",
+        "remediationModule": "err-poly-factored-form",
+        "retestItem": "err-poly-factored-form"
+      },
+      {
+        "id": "diag-mhf4u-c1-q2",
+        "type": "explain",
+        "question": "Consider the polynomial f(x) = (x + 2)^3 (x - 1). Describe the behavior of the graph at each x-intercept. Include whether the graph crosses or touches, and the shape.",
+        "correct": null,
+        "diagnosis": "Check ability to apply factor order rules to describe x-intercept behavior in a specific polynomial.",
+        "nodeId": "poly-factored-form",
+        "errorId": "err-poly-factored-form",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly describes the behavior at each zero for a given factored polynomial.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly applies knowledge of factor order to describe graphical behavior.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may incorrectly apply order rules, e.g., thinking order 3 causes a bounce.",
+        "remediationModule": "err-poly-factored-form",
+        "retestItem": "err-poly-factored-form"
+      },
+      {
+        "id": "diag-mhf4u-c1-q3",
+        "type": "choice",
+        "question": "A polynomial has degree 4 and a negative leading coefficient. What is the end behavior?",
+        "options": [
+          "As x → -∞, y → -∞; as x → +∞, y → -∞",
+          "As x → -∞, y → +∞; as x → +∞, y → +∞",
+          "As x → -∞, y → +∞; as x → +∞, y → -∞",
+          "As x → -∞, y → -∞; as x → +∞, y → +∞"
+        ],
+        "correct": 0,
+        "diagnosis": "Check understanding of how degree parity and leading coefficient sign determine end behavior.",
+        "misconceptions": [
+          "✓ Correct! Even degree with negative leading coefficient means both ends go down.",
+          "That would be even degree with positive leading coefficient.",
+          "That is odd degree with positive leading coefficient.",
+          "That is odd degree with negative leading coefficient."
+        ],
+        "nodeId": "poly-graphing-workflow",
+        "errorId": "err-poly-graphing-workflow",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly determines the end behavior of a polynomial given its degree and leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial functions.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student may think even degree always means both ends up, regardless of leading coefficient sign.",
+        "remediationModule": "err-poly-graphing-workflow",
+        "retestItem": "err-poly-graphing-workflow"
+      },
+      {
+        "id": "diag-mhf4u-c1-q4",
+        "type": "explain",
+        "question": "A degree 4 polynomial has zeros at x = 2, 6, 10, 14 all of order 1, and passes through (3.5, 0.5). Determine the factored form f(x) = a * (x - 2)(x - 6)(x - 10)(x - 14) and solve for the leading coefficient a.",
+        "correct": null,
+        "diagnosis": "Check ability to apply the graphing workflow backwards: use zeros and a point to find the equation.",
+        "nodeId": "poly-graphing-workflow",
+        "errorId": "err-poly-graphing-workflow",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student constructs a polynomial equation from given zeros, order, and a point, and determines the leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Constructing an equation from graph features is a key connection between representations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "construct",
+        "commonMisconception": "Student may forget the leading coefficient a, or incorrectly substitute the point.",
+        "remediationModule": "err-poly-graphing-workflow",
+        "retestItem": "err-poly-graphing-workflow"
+      }
+    ]
+  }
+}

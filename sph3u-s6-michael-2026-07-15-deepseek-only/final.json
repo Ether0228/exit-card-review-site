@@ -1,0 +1,1137 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-15",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/OL3UdVI2QodqhIxerm7cGPSgn9E?from=vc_group_doc_link#doxcntkqGLJZ7hFLCzQsafF1jub",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-15 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/OL3UdVI2QodqhIxerm7cGPSgn9E?from=vc_group_doc_link#doxcntkqGLJZ7hFLCzQsafF1jub",
+    "title": "SPH3U.S6.Michael 2026-07-15 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/sph3u-s6-michael-2026-07-15/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-15",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-15",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson is primarily instructional, reviewing prior kinematics content and introducing projectile motion fundamentals with in-class sample problem walkthroughs.",
+    "academicContentSignals": [
+      "Review of acceleration as rate of change of velocity, and relationships between acceleration-time, velocity-time, and displacement-time graphs.",
+      "Derivation of 5 standard equations of motion for uniformly accelerated motion from area under velocity-time curves.",
+      "Introduction to projectile motion: definition, assumption of zero air resistance, parabolic flight path.",
+      "Gravitational acceleration g = 9.8 m/s² acting downward; vertical acceleration a_y = -9.8 m/s², horizontal acceleration a_x = 0 m/s².",
+      "Velocity components: initial velocity splits into independent v₀y and v₀x; horizontal velocity constant, vertical velocity changes due to gravity.",
+      "Sample problem: falling flower pot from 10 m height, solving for fall time using kinematic equations.",
+      "Sample problem: tennis ball launched upward at 3 m/s, solving for maximum height and time to peak.",
+      "Application of sign convention for displacement and velocity."
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "low - The lesson contains substantial academic content with no notable operational items; operations are limited to a scheduled break and uncompleted content note.",
+    "opsItems": [],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Projectile Motion Definition、Kinematic Equations in Projectile Motion、Independent Horizontal and Vertical Components、Worked Sample Problems）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Projectile motion is the motion of an object in free fall along a parabolic path, assuming no air resistance.；Gravitational acceleration near Earth's surface is constant at 9.8 m/s² downward.；In projectile motion, horizontal acceleration is zero, so horizontal velocity is constant.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Understand the definition and assumptions of projectile motion, including negligible air resistance."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply the five kinematic equations to solve problems involving projectile motion."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Distinguish between independent horizontal and vertical components and treat them separately."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Use correct sign conventions (e.g., downward as negative) for displacement and acceleration in projectile motion."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "projectile-motion-definition",
+      "name": "Projectile Motion Definition",
+      "nameEn": "Projectile Motion Definition",
+      "definition": "Projectile motion is the motion of an object in free fall under gravity, assuming no air resistance.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "kinematic-equations-applied",
+      "name": "Kinematic Equations in Projectile Motion",
+      "nameEn": "Kinematic Equations in Projectile Motion",
+      "definition": "All five standard kinematic equations for uniformly accelerated motion are fully applicable to projectile motion calculations.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "independent-components",
+      "name": "Independent Horizontal and Vertical Components",
+      "nameEn": "Independent Horizontal and Vertical Components",
+      "definition": "In projectile motion, horizontal acceleration is zero so horizontal velocity is constant; vertical acceleration is constant at -9.8 m/s². The two components are independent.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "sample-problems-worked",
+      "name": "Worked Sample Problems",
+      "nameEn": "Worked Sample Problems",
+      "definition": "In-class problems demonstrate how to select and apply kinematic equations to projectile motion, e.g., flower pot drop and tennis ball toss.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Understand the definition and assumptions of projectile motion, including negligible air resistance."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the five kinematic equations to solve problems involving projectile motion."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between independent horizontal and vertical components and treat them separately."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Use correct sign conventions (e.g., downward as negative) for displacement and acceleration in projectile motion."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-projectile-motion-forgetting-air-resistance",
+        "condition": "Student selects option that includes air resistance or no assumption.",
+        "systemAction": "Assign reteach module err-projectile-motion-forgetting-air-resistance",
+        "studentMessage": "You may not have internalized the no-air-resistance assumption. Review the definition."
+      },
+      {
+        "errorId": "err-kinematic-equation-selection",
+        "condition": "Student picks an equation that does not match the given variables.",
+        "systemAction": "Assign reteach module err-kinematic-equation-selection",
+        "studentMessage": "Choosing the right kinematic equation depends on known and unknown variables. Let's practice selecting equations."
+      },
+      {
+        "errorId": "err-independent-motion-combining",
+        "condition": "Student incorrectly mixes horizontal and vertical quantities in one equation.",
+        "systemAction": "Assign reteach module err-independent-motion-combining",
+        "studentMessage": "Horizontal and vertical motion are independent – cannot mix quantities from different axes in a single equation."
+      },
+      {
+        "errorId": "err-sign-convention-negative",
+        "condition": "Student uses positive sign for downward acceleration/displacement.",
+        "systemAction": "Assign reteach module err-sign-convention-negative",
+        "studentMessage": "Sign conventions matter in equations. In this course, downward is negative, so careful with signs."
+      },
+      {
+        "errorId": "err-constant-horizontal-velocity",
+        "condition": "Student thinks horizontal velocity changes or has acceleration.",
+        "systemAction": "Assign reteach module err-constant-horizontal-velocity",
+        "studentMessage": "Horizontal acceleration is zero, so horizontal velocity stays constant (ignoring air resistance)."
+      },
+      {
+        "errorId": "err-vertical-acceleration-zero",
+        "condition": "Student selects zero for vertical acceleration.",
+        "systemAction": "Assign reteach module err-vertical-acceleration-zero",
+        "studentMessage": "In free fall near Earth's surface, vertical acceleration is constant 9.8 m/s² downward, not zero."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-s6-0715-q1",
+        "nodeId": "projectile-motion-definition",
+        "errorId": "err-projectile-motion-forgetting-air-resistance",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Identifies that projectile motion assumes negligible air resistance.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly targets the definition of projectile motion under B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recalls the key assumption of no air resistance.",
+        "commonMisconception": "Student may think air resistance is included or not relevant.",
+        "remediationModule": "err-projectile-motion-forgetting-air-resistance",
+        "retestItem": "err-projectile-motion-forgetting-air-resistance",
+        "stem": "Which of the following is a core assumption in the definition of projectile motion?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Air resistance is negligible.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Projectile motion assumes no air resistance so the only force is gravity.",
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "Air resistance is significant and must be included.",
+            "correct": false,
+            "feedbackWrong": "In standard projectile motion models, air resistance is ignored to simplify calculations.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "C",
+            "text": "The object has a constant horizontal acceleration.",
+            "correct": false,
+            "feedbackWrong": "Horizontal acceleration is zero, not constant non-zero.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "D",
+            "text": "The object's mass affects its vertical acceleration.",
+            "correct": false,
+            "feedbackWrong": "In free fall (ignoring air resistance), all objects accelerate at g regardless of mass.",
+            "feedbackCorrect": null
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q2",
+        "nodeId": "kinematic-equations-applied",
+        "errorId": "err-kinematic-equation-selection",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Selects correct kinematic equation given known and unknown variables.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires applying equations to solve a problem, under B2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can pick the right equation when given initial velocity, displacement, and acceleration to find time.",
+        "commonMisconception": "Student may use an equation that doesn't include initial velocity or misidentifies given variables.",
+        "remediationModule": "err-kinematic-equation-selection",
+        "retestItem": "err-kinematic-equation-selection",
+        "stem": "A flower pot falls from rest (v₀ = 0) from a height of 10 m. Which kinematic equation is best to find the time to reach the ground?",
+        "options": [
+          {
+            "label": "A",
+            "text": "v = u + at",
+            "correct": false,
+            "feedbackWrong": "That equation uses final velocity, not displacement – insufficient given info.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "B",
+            "text": "s = ut + ½at²",
+            "correct": true,
+            "feedbackCorrect": "Correct. With u=0, s=-10 m, a=-9.8 m/s², this equation directly yields t.",
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "v² = u² + 2as",
+            "correct": false,
+            "feedbackWrong": "This equation would find final velocity, not time.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "D",
+            "text": "s = ( (u+v)/2 ) t",
+            "correct": false,
+            "feedbackWrong": "This requires both u and v; v is unknown.",
+            "feedbackCorrect": null
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q3",
+        "nodeId": "independent-components",
+        "errorId": "err-independent-motion-combining",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Recognizes that horizontal and vertical quantities cannot be mixed in a single kinematic equation.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding independence of components is part of B3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Detect if student tries to mix horizontal displacement with vertical acceleration in one equation.",
+        "commonMisconception": "Student believes a single kinematic equation can incorporate both horizontal and vertical variables simultaneously.",
+        "remediationModule": "err-independent-motion-combining",
+        "retestItem": "err-independent-motion-combining",
+        "stem": "A ball is launched horizontally from a cliff. Which approach is correct for finding the time of flight?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Use the vertical displacement and vertical acceleration in a kinematic equation.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Time of flight depends only on vertical motion; horizontal motion does not affect it.",
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "Use the horizontal velocity and vertical displacement in the same equation.",
+            "correct": false,
+            "feedbackWrong": "Horizontal and vertical quantities must be kept separate; they cannot be combined in one equation.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "C",
+            "text": "Use the horizontal displacement and horizontal acceleration.",
+            "correct": false,
+            "feedbackWrong": "Horizontal acceleration is zero, so that gives no information about time of fall.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "D",
+            "text": "Use the magnitude of initial velocity (the launch speed) directly.",
+            "correct": false,
+            "feedbackWrong": "The initial speed is split into components; the time depends on the vertical component, not the magnitude.",
+            "feedbackCorrect": null
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q4",
+        "nodeId": "kinematic-equations-applied",
+        "errorId": "err-sign-convention-negative",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Correctly identifies the sign of acceleration in a typical free-fall problem.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Sign conventions are essential for correct problem-solving under B2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student uses the correct sign for downward acceleration.",
+        "commonMisconception": "Student may think downward acceleration is positive or that sign can be ignored.",
+        "remediationModule": "err-sign-convention-negative",
+        "retestItem": "err-sign-convention-negative",
+        "stem": "In the flower pot example, the displacement from release point to ground is -10 m (downward). What is the correct value of acceleration a to use in the equations?",
+        "options": [
+          {
+            "label": "A",
+            "text": "+9.8 m/s²",
+            "correct": false,
+            "feedbackWrong": "If displacement is negative, acceleration should also be negative to be consistent; both downward.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "B",
+            "text": "-9.8 m/s²",
+            "correct": true,
+            "feedbackCorrect": "Correct. Downward is negative, so a = -9.8 m/s².",
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "0 m/s²",
+            "correct": false,
+            "feedbackWrong": "Vertical acceleration is never zero in free fall; gravity always acts.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "D",
+            "text": "It doesn't matter as long as you use the same sign for all quantities.",
+            "correct": false,
+            "feedbackWrong": "Sign consistency is important, but the chosen convention must match the physical direction; here consistent negative is required.",
+            "feedbackCorrect": null
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q5",
+        "nodeId": "independent-components",
+        "errorId": "err-constant-horizontal-velocity",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "States that horizontal velocity remains constant in projectile motion (no air resistance).",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding horizontal constancy is part of B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows horizontal acceleration is zero, so horizontal velocity is constant.",
+        "commonMisconception": "Student may think horizontal velocity changes or that there is horizontal acceleration.",
+        "remediationModule": "err-constant-horizontal-velocity",
+        "retestItem": "err-constant-horizontal-velocity",
+        "stem": "In ideal projectile motion (no air resistance), what happens to the horizontal component of velocity?",
+        "options": [
+          {
+            "label": "A",
+            "text": "It increases steadily.",
+            "correct": false,
+            "feedbackWrong": "No horizontal acceleration means velocity does not increase.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "B",
+            "text": "It stays constant.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Horizontal acceleration = 0, so horizontal velocity does not change.",
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "It decreases steadily.",
+            "correct": false,
+            "feedbackWrong": "Without air resistance, no force acts horizontally to slow it down.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "D",
+            "text": "It becomes zero at the highest point.",
+            "correct": false,
+            "feedbackWrong": "At the highest point, vertical velocity is zero, but horizontal velocity remains constant.",
+            "feedbackCorrect": null
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q6",
+        "nodeId": "independent-components",
+        "errorId": "err-vertical-acceleration-zero",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "States that vertical acceleration is constant at -9.8 m/s² in free fall.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding constant vertical acceleration is part of B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows vertical acceleration is nonzero and constant.",
+        "commonMisconception": "Student may think vertical acceleration is zero because horizontal is zero, or that it changes.",
+        "remediationModule": "err-vertical-acceleration-zero",
+        "retestItem": "err-vertical-acceleration-zero",
+        "stem": "For an object in projectile motion near Earth's surface (ignoring air resistance), the vertical acceleration is:",
+        "options": [
+          {
+            "label": "A",
+            "text": "0 m/s²",
+            "correct": false,
+            "feedbackWrong": "Gravity always pulls downward, causing constant vertical acceleration.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "B",
+            "text": "+9.8 m/s² upward",
+            "correct": false,
+            "feedbackWrong": "Acceleration due to gravity is downward, not upward.",
+            "feedbackCorrect": null
+          },
+          {
+            "label": "C",
+            "text": "-9.8 m/s² downward",
+            "correct": true,
+            "feedbackCorrect": "Correct. Vertical acceleration is constant at g = -9.8 m/s² (downward).",
+            "feedbackWrong": null
+          },
+          {
+            "label": "D",
+            "text": "It changes from positive to negative.",
+            "correct": false,
+            "feedbackWrong": "In ideal projectile motion, vertical acceleration remains constant throughout the flight.",
+            "feedbackCorrect": null
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-projectile-motion-forgetting-air-resistance",
+      "condition": "Student selects option that includes air resistance or no assumption.",
+      "systemAction": "Assign reteach module err-projectile-motion-forgetting-air-resistance",
+      "studentMessage": "You may not have internalized the no-air-resistance assumption. Review the definition."
+    },
+    {
+      "errorId": "err-kinematic-equation-selection",
+      "condition": "Student picks an equation that does not match the given variables.",
+      "systemAction": "Assign reteach module err-kinematic-equation-selection",
+      "studentMessage": "Choosing the right kinematic equation depends on known and unknown variables. Let's practice selecting equations."
+    },
+    {
+      "errorId": "err-independent-motion-combining",
+      "condition": "Student incorrectly mixes horizontal and vertical quantities in one equation.",
+      "systemAction": "Assign reteach module err-independent-motion-combining",
+      "studentMessage": "Horizontal and vertical motion are independent – cannot mix quantities from different axes in a single equation."
+    },
+    {
+      "errorId": "err-sign-convention-negative",
+      "condition": "Student uses positive sign for downward acceleration/displacement.",
+      "systemAction": "Assign reteach module err-sign-convention-negative",
+      "studentMessage": "Sign conventions matter in equations. In this course, downward is negative, so careful with signs."
+    },
+    {
+      "errorId": "err-constant-horizontal-velocity",
+      "condition": "Student thinks horizontal velocity changes or has acceleration.",
+      "systemAction": "Assign reteach module err-constant-horizontal-velocity",
+      "studentMessage": "Horizontal acceleration is zero, so horizontal velocity stays constant (ignoring air resistance)."
+    },
+    {
+      "errorId": "err-vertical-acceleration-zero",
+      "condition": "Student selects zero for vertical acceleration.",
+      "systemAction": "Assign reteach module err-vertical-acceleration-zero",
+      "studentMessage": "In free fall near Earth's surface, vertical acceleration is constant 9.8 m/s² downward, not zero."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-projectile-motion-forgetting-air-resistance",
+      "trigger": "Student assumes air resistance is considered or ignores it incorrectly.",
+      "studentMisunderstanding": "The student does not internalize that the standard definition of projectile motion assumes negligible air resistance, which simplifies analysis to only gravitational force.",
+      "miniLesson": {
+        "explain": "Projectile motion is defined as the motion of an object in free fall under gravity, assuming no air resistance. This assumption means the only force acting is gravity, so horizontal acceleration is zero and vertical acceleration is constant at -9.8 m/s². Without this assumption, calculations would become much more complex.",
+        "example": "In the flower pot example from class, we calculated the time to fall from 10 m using equations that ignore air resistance. The result was 1.43 s. If air resistance were significant, the actual time would be longer because air drag opposes motion.",
+        "memoryAnchor": "Think of projectile motion as happening in a vacuum – no air particles to push against, so only gravity matters."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the key assumption about air resistance in projectile motion?",
+          "answer": "We assume air resistance is negligible (ignored)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A ball is thrown horizontally from a 10 m high cliff. Using the no-air-resistance assumption, calculate the time to hit the ground. (Use g = 9.8 m/s² and down as negative).",
+          "answer": "Using s = ut + ½at², with u=0, s=-10 m, a=-9.8 m/s²: -10 = 0 + ½(-9.8)t² => t² = 20/9.8 ≈ 2.04 => t ≈ 1.43 s."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student says: 'The flower pot falls in 1.43 s, but that's only if there is no air resistance. In reality, air resistance would make the fall time longer.' Is the student correct? Explain briefly.",
+          "answer": "Yes, the student is correct. Our calculation assumed no air resistance, which gives the shortest possible time. Air resistance would slow the pot, increasing fall time."
+        }
+      ]
+    },
+    {
+      "errorId": "err-kinematic-equation-selection",
+      "trigger": "Student selects a kinematic equation that does not match the given variables in a projectile motion problem.",
+      "studentMisunderstanding": "The student may not understand how to choose the appropriate kinematic equation based on known and unknown variables, often picking an equation that does not contain the needed unknown or that requires a variable not given.",
+      "miniLesson": {
+        "explain": "When solving projectile motion problems, you must select the right kinematic equation from the five standard ones: v = u + at, s = ut + ½at², s = ((u+v)/2)t, v² = u² + 2as, and s = vt - ½at². To choose, list what you know (given) and what you need (unknown). Then pick the equation that includes all knowns and the unknown. For example, if you know u, s, a and need t, use s = ut + ½at² because it directly relates those four variables.",
+        "example": "For the falling flower pot from rest (u=0) from a height of 10 m (s = -10 m) with a = -9.8 m/s², to find the time t you use s = ut + ½at². Substituting: -10 = 0·t + 0.5·(-9.8)·t² gives t² ≈ 2.04, so t ≈ 1.43 s.",
+        "memoryAnchor": "Think of the equation as a map: you need to know the starting point (knowns) and the destination (unknown). Pick the road (equation) that connects them directly."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "An object starts from rest (u=0) and falls with a = -9.8 m/s². You know displacement s = -10 m and need time t. Which kinematic equation should you use?",
+          "answer": "s = ut + ½at²"
+        },
+        {
+          "level": "L2",
+          "prompt": "A ball is thrown upward with initial velocity 3 m/s from the ground. You need to find the maximum height (s). Which equation is best? (Hint: At maximum height, final velocity v = 0.)",
+          "answer": "v² = u² + 2as (with v=0) → 0 = 3² + 2(-9.8)s → s = 0.46 m"
+        },
+        {
+          "level": "L3",
+          "prompt": "A projectile is launched horizontally at 5 m/s from a height of 10 m. You need the time of flight. What equation do you use for the vertical motion?",
+          "answer": "For vertical: u=0 (initial vertical speed), s = -10 m, a = -9.8 m/s², use s = ut + ½at² to find t."
+        }
+      ]
+    },
+    {
+      "errorId": "err-independent-motion-combining",
+      "trigger": "Student incorrectly mixes horizontal and vertical quantities in a single kinematic equation.",
+      "studentMisunderstanding": "Student believes that horizontal and vertical components can be combined in one equation, not recognizing that they are independent and must be treated separately.",
+      "miniLesson": {
+        "explain": "In projectile motion, the horizontal and vertical motions are independent. This means you must use separate equations for each direction. The horizontal acceleration is zero, so horizontal velocity is constant. The vertical acceleration is constant at -9.8 m/s². Never mix horizontal displacement with vertical acceleration or vice versa.",
+        "example": "A ball is thrown horizontally at 5 m/s from a height of 10 m. To find the time to hit the ground, you only use vertical motion: initial vertical velocity = 0 m/s, displacement = -10 m, acceleration = -9.8 m/s². The horizontal speed does not affect the time.",
+        "memoryAnchor": "Think of horizontal and vertical as separate lanes on a highway. You cannot put a car from the left lane into an equation for the right lane."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which statement correctly describes how to find the time of flight for a projectile launched horizontally from a cliff?",
+          "answer": "Time of flight depends only on vertical motion (height and gravity), not on horizontal velocity."
+        },
+        {
+          "level": "L2",
+          "prompt": "A ball is launched horizontally at 5 m/s from a height of 10 m. Write the kinematic equation and values you would use to find the time to hit the ground.",
+          "answer": "s = ut + ½at² with u = 0 m/s, s = -10 m, a = -9.8 m/s²."
+        },
+        {
+          "level": "L3",
+          "prompt": "A stone is dropped from rest from a height of 10 m. Calculate the time it takes to reach the ground.",
+          "answer": "1.43 s"
+        }
+      ]
+    },
+    {
+      "errorId": "err-sign-convention-negative",
+      "trigger": "Student selects positive sign for downward acceleration or displacement in a projectile motion problem.",
+      "studentMisunderstanding": "Student does not apply a consistent sign convention for direction, often treating downward quantities as positive instead of negative.",
+      "miniLesson": {
+        "explain": "In kinematic equations, direction matters. We define a coordinate system: typically upward is positive, downward is negative. This means displacement downward (e.g., falling) and acceleration due to gravity (always downward) are negative numbers. Using the wrong sign leads to incorrect answers. For example, a flower pot falling 10 m has displacement s = -10 m, and acceleration a = -9.8 m/s². If you treat these as positive, you would get a different (wrong) time.",
+        "example": "Flower pot: released from rest (u=0) at height 10 m. Using s = ut + ½at² gives -10 = 0*t + ½(-9.8)t² → -10 = -4.9t² → t² = 10/4.9 ≈ 2.04 → t ≈ 1.43 s. If you incorrectly used a = +9.8, you would get t² = -10/4.9, impossible.",
+        "memoryAnchor": "Think 'Down is negative, up is positive.' Gravity always pulls down, so a = -9.8 m/s². Falling displacement is also negative."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A ball is thrown upward with initial velocity 3 m/s. At its highest point, the displacement from launch is 0.46 m upward. What are the signs of displacement and acceleration? (Use upward positive convention.)",
+          "answer": "Displacement = +0.46 m (upward), acceleration = -9.8 m/s² (downward)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A stone is dropped from a height of 5 m. Using upward positive convention, what are the values of displacement s and acceleration a in the equation s = ut + ½at²? (u = 0)",
+          "answer": "s = -5 m (downward), a = -9.8 m/s²."
+        },
+        {
+          "level": "L3",
+          "prompt": "A ball is thrown downward with initial speed 3 m/s from a height of 10 m. Using upward positive, write the kinematic equation to find the time to hit the ground and solve for t.",
+          "answer": "s = -10 m, u = -3 m/s, a = -9.8 m/s². Equation: s = ut + ½at² → -10 = -3t -4.9t² → 4.9t² + 3t -10 = 0 → t ≈ 1.14 s (positive root)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-constant-horizontal-velocity",
+      "trigger": "Student selects option that horizontal velocity changes or has acceleration.",
+      "studentMisunderstanding": "The student thinks that horizontal velocity changes during projectile motion, possibly due to gravity or other forces.",
+      "miniLesson": {
+        "explain": "In ideal projectile motion, there is no horizontal force acting on the object (assuming no air resistance). Therefore, horizontal acceleration is zero. When acceleration is zero, velocity remains constant. This means the horizontal component of velocity does not change throughout the flight.",
+        "example": "A ball is thrown horizontally with an initial speed of 5 m/s. At the moment it leaves the hand, its horizontal velocity is 5 m/s. Even after 2 seconds of falling, the horizontal velocity is still 5 m/s because there is no horizontal force to speed it up or slow it down.",
+        "memoryAnchor": "Think of a hockey puck on frictionless ice: once you push it, it glides forever at constant speed. In projectile motion, the horizontal movement is exactly like that puck – no force, no change in speed."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In projectile motion (no air resistance), what is the value of horizontal acceleration?",
+          "answer": "Horizontal acceleration is zero (0 m/s²)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A ball is thrown horizontally at 3 m/s. What is its horizontal velocity after 2 seconds? (Ignore air resistance)",
+          "answer": "3 m/s, because horizontal velocity remains constant."
+        },
+        {
+          "level": "L3",
+          "prompt": "A projectile is launched with an initial horizontal velocity of 5 m/s. It takes 1.43 seconds to hit the ground. How far does it travel horizontally?",
+          "answer": "Distance = horizontal velocity × time = 5 m/s × 1.43 s = 7.15 m."
+        }
+      ]
+    },
+    {
+      "errorId": "err-vertical-acceleration-zero",
+      "trigger": "Student selects 0 m/s² for vertical acceleration in projectile motion.",
+      "studentMisunderstanding": "The student mistakenly believes that vertical acceleration is zero in free fall, possibly confusing it with the absence of horizontal acceleration.",
+      "miniLesson": {
+        "explain": "In projectile motion near Earth's surface, the only force acting (ignoring air resistance) is gravity, which causes a constant downward acceleration of 9.8 m/s². This acceleration is always present throughout the motion, regardless of whether the object is moving up or down. Horizontal acceleration is zero, but vertical acceleration is not.",
+        "example": "Consider a flower pot dropped from rest at height 10 m. Using the equation s = ut + ½at², with s = -10 m, u = 0, and a = -9.8 m/s², we find the fall time is about 1.43 s. If vertical acceleration were zero, the pot would never accelerate downward, contradicting the observed motion.",
+        "memoryAnchor": "Remember: 'No air resistance' means only gravity acts, so vertical acceleration is always -9.8 m/s². Think of it as 'g for gravity'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the vertical acceleration of a ball thrown upward? Choose from: 0 m/s², +9.8 m/s², -9.8 m/s².",
+          "answer": "-9.8 m/s²"
+        },
+        {
+          "level": "L2",
+          "prompt": "A tennis ball is thrown upward with initial speed 3 m/s. What is its vertical acceleration at the highest point? (Use fact: maximum height 0.46 m).",
+          "answer": "-9.8 m/s² (vertical acceleration is constant throughout the entire motion, even at the highest point)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A projectile is launched horizontally from a height of 10 m. Calculate the time to hit the ground using the fact that vertical acceleration is -9.8 m/s². Explain why it cannot be zero.",
+          "answer": "Using s = ut + ½at², with s = -10 m, u = 0 (initial vertical velocity), a = -9.8 m/s², we get t = √(2*10/9.8) ≈ 1.43 s. If a were zero, the equation would give -10 = 0*t + 0, impossible, so a cannot be zero."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-projectile-motion-forgetting-air-resistance",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In standard projectile motion calculations, which of the following is a key assumption?",
+          "options": [
+            "Air resistance is negligible.",
+            "Air resistance is constant and equal to gravity.",
+            "Air resistance is proportional to velocity squared.",
+            "Air resistance is ignored only for vertical motion."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain briefly why we assume no air resistance in projectile motion calculations, and what effect air resistance would have on the time of fall if it were not ignored.",
+          "rubric": "The answer should state that the assumption simplifies analysis to only gravitational force, and that with air resistance the fall time would be longer than the calculated value (e.g., 1.43 s for a 10 m drop)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass."
+    },
+    {
+      "forErrorId": "err-kinematic-equation-selection",
+      "questions": [
+        {
+          "id": "kinematic-selection-q1",
+          "type": "single_choice",
+          "stem": "A ball is thrown vertically upward with an initial velocity of 3 m/s from the ground. Ignore air resistance. Which kinematic equation should you use to find the maximum height reached?",
+          "options": [
+            "v = u + at",
+            "s = ut + ½at²",
+            "s = ((u+v)/2)t",
+            "v² = u² + 2as",
+            "s = vt - ½at²"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "kinematic-selection-q2",
+          "type": "open_ended",
+          "stem": "Using the equation you selected in the previous question, calculate the maximum height. Show your steps.",
+          "rubric": "Student correctly substitutes u=3 m/s, v=0, a=-9.8 m/s² into v² = u² + 2as and solves for s, obtaining s ≈ 0.46 m. Credit for correct equation selection and correct calculation."
+        }
+      ],
+      "passRule": "Must answer both questions correctly: question 1 correct option D (v² = u² + 2as), question 2 shows correct substitution and result 0.46 m."
+    },
+    {
+      "forErrorId": "err-independent-motion-combining",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A ball is launched horizontally from a cliff. Which statement is true about its time of flight?",
+          "options": [
+            "It depends on the horizontal speed.",
+            "It depends only on the height and gravity.",
+            "It depends on both horizontal and vertical initial speeds.",
+            "It depends only on the horizontal speed."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A rock is thrown horizontally at 8 m/s from a height of 20 m. Write the kinematic equation you would use to find the time to hit the ground, and state the values you would substitute for vertical displacement, initial vertical velocity, and vertical acceleration.",
+          "rubric": "Student correctly identifies using s = ut + 1/2 at^2 with s = -20 m, u = 0 m/s, a = -9.8 m/s^2."
+        }
+      ],
+      "passRule": "Student must answer Question 1 correctly and provide correct equation and values in Question 2."
+    },
+    {
+      "forErrorId": "err-sign-convention-negative",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A student writes that the displacement of a falling object is +10 m and the acceleration is +9.8 m/s². Assuming upward is positive, which statement best describes this approach?",
+          "options": [
+            "It is correct because both quantities point in the same direction.",
+            "It is incorrect because downward displacement and acceleration should be negative.",
+            "It is correct as long as consistent sign is used for all quantities.",
+            "It is incorrect because displacement must always be positive."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A ball is thrown straight upward from the ground with an initial speed of 5 m/s. Using the upward positive sign convention, calculate the maximum height reached by the ball. Show your work and include the sign of each quantity.",
+          "rubric": "Correctly identifies u=5 m/s (positive), a=-9.8 m/s², v=0 at maximum height. Uses v² = u² + 2as. Substitutes correctly: 0 = 5² + 2(-9.8)s => s = -25 / (-19.6) ≈ 1.28 m. Displacement is positive because upward. Accept 1.28 m or equivalent."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. For the open-ended question, correct sign convention and accurate calculation (within ±0.05 m) are required."
+    },
+    {
+      "forErrorId": "err-constant-horizontal-velocity",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A ball is thrown horizontally from a cliff. Ignoring air resistance, which statement correctly describes its horizontal motion?",
+          "options": [
+            "Horizontal velocity increases.",
+            "Horizontal velocity decreases.",
+            "Horizontal velocity remains constant.",
+            "Horizontal acceleration is 9.8 m/s²."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A stone is thrown horizontally with a speed of 5 m/s from a height. It takes 1.43 seconds to reach the ground. Calculate the horizontal distance traveled. In your answer, include the formula and explain why you can use that formula.",
+          "rubric": "Correct distance: 7.15 m. Student must use d = v_h * t. Explanation must state that horizontal velocity is constant because no horizontal acceleration (no air resistance). Accept 'horizontal speed does not change' or equivalent. Deduct points for missing units or incorrect calculation."
+        }
+      ],
+      "passRule": "The student must select the correct answer in the multiple-choice question AND provide a correct calculation and explanation in the open-ended question."
+    },
+    {
+      "forErrorId": "err-vertical-acceleration-zero",
+      "questions": [
+        {
+          "id": "q1-vertical-acceleration-at-top",
+          "type": "single_choice",
+          "stem": "A ball is thrown upward from the ground. At the highest point of its trajectory, what is its vertical acceleration?",
+          "options": [
+            "0 m/s²",
+            "+9.8 m/s²",
+            "-9.8 m/s²",
+            "Depends on initial speed"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2-explain-why-not-zero",
+          "type": "open_ended",
+          "stem": "A marble is rolled off a table horizontally. Explain why the vertical acceleration during its flight is not zero. Use the kinematic equations to support your answer.",
+          "rubric": "States that gravity is the only force, so vertical acceleration is constant at -9.8 m/s². Uses a kinematic equation (e.g., s = ut + ½at²) to show that if a=0, the marble would not fall, contradicting observed motion."
+        }
+      ],
+      "passRule": "Correct answer for question 1 and a valid explanation in question 2."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-15",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/OL3UdVI2QodqhIxerm7cGPSgn9E?from=vc_group_doc_link#doxcntkqGLJZ7hFLCzQsafF1jub",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-15 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Projectile motion is the motion of an object in free fall along a parabolic path, assuming no air resistance.；Gravitational acceleration near Earth's surface is constant at 9.8 m/s² downward.；In projectile motion, horizontal acceleration is zero, so horizontal velocity is constant.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Understand the definition and assumptions of projectile motion, including negligible air resistance."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the five kinematic equations to solve problems involving projectile motion."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between independent horizontal and vertical components and treat them separately."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Use correct sign conventions (e.g., downward as negative) for displacement and acceleration in projectile motion."
+      }
+    ],
+    "courseOpsItems": [],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "projectile-motion-definition",
+      "kinematic-equations-applied",
+      "independent-components",
+      "sample-problems-worked"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-projectile-motion-forgetting-air-resistance",
+        "condition": "Student selects option that includes air resistance or no assumption.",
+        "systemAction": "Assign reteach module err-projectile-motion-forgetting-air-resistance"
+      },
+      {
+        "errorId": "err-kinematic-equation-selection",
+        "condition": "Student picks an equation that does not match the given variables.",
+        "systemAction": "Assign reteach module err-kinematic-equation-selection"
+      },
+      {
+        "errorId": "err-independent-motion-combining",
+        "condition": "Student incorrectly mixes horizontal and vertical quantities in one equation.",
+        "systemAction": "Assign reteach module err-independent-motion-combining"
+      },
+      {
+        "errorId": "err-sign-convention-negative",
+        "condition": "Student uses positive sign for downward acceleration/displacement.",
+        "systemAction": "Assign reteach module err-sign-convention-negative"
+      },
+      {
+        "errorId": "err-constant-horizontal-velocity",
+        "condition": "Student thinks horizontal velocity changes or has acceleration.",
+        "systemAction": "Assign reteach module err-constant-horizontal-velocity"
+      },
+      {
+        "errorId": "err-vertical-acceleration-zero",
+        "condition": "Student selects zero for vertical acceleration.",
+        "systemAction": "Assign reteach module err-vertical-acceleration-zero"
+      }
+    ],
+    "nextActions": [
+      "[err-projectile-motion-forgetting-air-resistance] Student selects option that includes air resistance or no assumption.: You may not have internalized the no-air-resistance assumption. Review the definition.",
+      "[err-kinematic-equation-selection] Student picks an equation that does not match the given variables.: Choosing the right kinematic equation depends on known and unknown variables. Let's practice selecting equations.",
+      "[err-independent-motion-combining] Student incorrectly mixes horizontal and vertical quantities in one equation.: Horizontal and vertical motion are independent – cannot mix quantities from different axes in a single equation.",
+      "[err-sign-convention-negative] Student uses positive sign for downward acceleration/displacement.: Sign conventions matter in equations. In this course, downward is negative, so careful with signs.",
+      "[err-constant-horizontal-velocity] Student thinks horizontal velocity changes or has acceleration.: Horizontal acceleration is zero, so horizontal velocity stays constant (ignoring air resistance).",
+      "[err-vertical-acceleration-zero] Student selects zero for vertical acceleration.: In free fall near Earth's surface, vertical acceleration is constant 9.8 m/s² downward, not zero."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-s6-0715-q1",
+        "type": "choice",
+        "question": "Which of the following is a core assumption in the definition of projectile motion?",
+        "options": [
+          "Air resistance is negligible.",
+          "Air resistance is significant and must be included.",
+          "The object has a constant horizontal acceleration.",
+          "The object's mass affects its vertical acceleration."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student recalls the key assumption of no air resistance.",
+        "misconceptions": [
+          "✓ Correct. Projectile motion assumes no air resistance so the only force is gravity.",
+          "In standard projectile motion models, air resistance is ignored to simplify calculations.",
+          "Horizontal acceleration is zero, not constant non-zero.",
+          "In free fall (ignoring air resistance), all objects accelerate at g regardless of mass."
+        ],
+        "nodeId": "projectile-motion-definition",
+        "errorId": "err-projectile-motion-forgetting-air-resistance",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Identifies that projectile motion assumes negligible air resistance.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly targets the definition of projectile motion under B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may think air resistance is included or not relevant.",
+        "remediationModule": "err-projectile-motion-forgetting-air-resistance",
+        "retestItem": "err-projectile-motion-forgetting-air-resistance"
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q2",
+        "type": "choice",
+        "question": "A flower pot falls from rest (v₀ = 0) from a height of 10 m. Which kinematic equation is best to find the time to reach the ground?",
+        "options": [
+          "v = u + at",
+          "s = ut + ½at²",
+          "v² = u² + 2as",
+          "s = ( (u+v)/2 ) t"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can pick the right equation when given initial velocity, displacement, and acceleration to find time.",
+        "misconceptions": [
+          "That equation uses final velocity, not displacement – insufficient given info.",
+          "✓ Correct. With u=0, s=-10 m, a=-9.8 m/s², this equation directly yields t.",
+          "This equation would find final velocity, not time.",
+          "This requires both u and v; v is unknown."
+        ],
+        "nodeId": "kinematic-equations-applied",
+        "errorId": "err-kinematic-equation-selection",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Selects correct kinematic equation given known and unknown variables.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires applying equations to solve a problem, under B2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may use an equation that doesn't include initial velocity or misidentifies given variables.",
+        "remediationModule": "err-kinematic-equation-selection",
+        "retestItem": "err-kinematic-equation-selection"
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q3",
+        "type": "choice",
+        "question": "A ball is launched horizontally from a cliff. Which approach is correct for finding the time of flight?",
+        "options": [
+          "Use the vertical displacement and vertical acceleration in a kinematic equation.",
+          "Use the horizontal velocity and vertical displacement in the same equation.",
+          "Use the horizontal displacement and horizontal acceleration.",
+          "Use the magnitude of initial velocity (the launch speed) directly."
+        ],
+        "correct": 0,
+        "diagnosis": "Detect if student tries to mix horizontal displacement with vertical acceleration in one equation.",
+        "misconceptions": [
+          "✓ Correct. Time of flight depends only on vertical motion; horizontal motion does not affect it.",
+          "Horizontal and vertical quantities must be kept separate; they cannot be combined in one equation.",
+          "Horizontal acceleration is zero, so that gives no information about time of fall.",
+          "The initial speed is split into components; the time depends on the vertical component, not the magnitude."
+        ],
+        "nodeId": "independent-components",
+        "errorId": "err-independent-motion-combining",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Recognizes that horizontal and vertical quantities cannot be mixed in a single kinematic equation.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding independence of components is part of B3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student believes a single kinematic equation can incorporate both horizontal and vertical variables simultaneously.",
+        "remediationModule": "err-independent-motion-combining",
+        "retestItem": "err-independent-motion-combining"
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q4",
+        "type": "choice",
+        "question": "In the flower pot example, the displacement from release point to ground is -10 m (downward). What is the correct value of acceleration a to use in the equations?",
+        "options": [
+          "+9.8 m/s²",
+          "-9.8 m/s²",
+          "0 m/s²",
+          "It doesn't matter as long as you use the same sign for all quantities."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student uses the correct sign for downward acceleration.",
+        "misconceptions": [
+          "If displacement is negative, acceleration should also be negative to be consistent; both downward.",
+          "✓ Correct. Downward is negative, so a = -9.8 m/s².",
+          "Vertical acceleration is never zero in free fall; gravity always acts.",
+          "Sign consistency is important, but the chosen convention must match the physical direction; here consistent negative is required."
+        ],
+        "nodeId": "kinematic-equations-applied",
+        "errorId": "err-sign-convention-negative",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Correctly identifies the sign of acceleration in a typical free-fall problem.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Sign conventions are essential for correct problem-solving under B2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may think downward acceleration is positive or that sign can be ignored.",
+        "remediationModule": "err-sign-convention-negative",
+        "retestItem": "err-sign-convention-negative"
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q5",
+        "type": "choice",
+        "question": "In ideal projectile motion (no air resistance), what happens to the horizontal component of velocity?",
+        "options": [
+          "It increases steadily.",
+          "It stays constant.",
+          "It decreases steadily.",
+          "It becomes zero at the highest point."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows horizontal acceleration is zero, so horizontal velocity is constant.",
+        "misconceptions": [
+          "No horizontal acceleration means velocity does not increase.",
+          "✓ Correct. Horizontal acceleration = 0, so horizontal velocity does not change.",
+          "Without air resistance, no force acts horizontally to slow it down.",
+          "At the highest point, vertical velocity is zero, but horizontal velocity remains constant."
+        ],
+        "nodeId": "independent-components",
+        "errorId": "err-constant-horizontal-velocity",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "States that horizontal velocity remains constant in projectile motion (no air resistance).",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding horizontal constancy is part of B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may think horizontal velocity changes or that there is horizontal acceleration.",
+        "remediationModule": "err-constant-horizontal-velocity",
+        "retestItem": "err-constant-horizontal-velocity"
+      },
+      {
+        "id": "diag-sph3u-s6-0715-q6",
+        "type": "choice",
+        "question": "For an object in projectile motion near Earth's surface (ignoring air resistance), the vertical acceleration is:",
+        "options": [
+          "0 m/s²",
+          "+9.8 m/s² upward",
+          "-9.8 m/s² downward",
+          "It changes from positive to negative."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student knows vertical acceleration is nonzero and constant.",
+        "misconceptions": [
+          "Gravity always pulls downward, causing constant vertical acceleration.",
+          "Acceleration due to gravity is downward, not upward.",
+          "✓ Correct. Vertical acceleration is constant at g = -9.8 m/s² (downward).",
+          "In ideal projectile motion, vertical acceleration remains constant throughout the flight."
+        ],
+        "nodeId": "independent-components",
+        "errorId": "err-vertical-acceleration-zero",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "States that vertical acceleration is constant at -9.8 m/s² in free fall.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding constant vertical acceleration is part of B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may think vertical acceleration is zero because horizontal is zero, or that it changes.",
+        "remediationModule": "err-vertical-acceleration-zero",
+        "retestItem": "err-vertical-acceleration-zero"
+      }
+    ]
+  }
+}

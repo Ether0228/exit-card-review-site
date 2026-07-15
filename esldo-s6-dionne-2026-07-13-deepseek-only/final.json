@@ -1,0 +1,911 @@
+{
+  "sourceLesson": "ESLDO.S6.Dionne 2026-07-13",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/IGdfdyoIjoWFSRx15jPcMH0lnjc?from=vc_group_doc_link#doxcnmGmfHqjmdhdW8ZDhl1uy6b",
+  "sourceTitle": "ESLDO.S6.Dionne 2026-07-13 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/IGdfdyoIjoWFSRx15jPcMH0lnjc?from=vc_group_doc_link#doxcnmGmfHqjmdhdW8ZDhl1uy6b",
+    "title": "ESLDO.S6.Dionne 2026-07-13 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/esldo-s6-dionne-2026-07-13/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "ESLDO",
+  "lessonDate": "2026-07-13",
+  "teacher": "Dionne",
+  "section": "S6",
+  "subject": "esl",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-13",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes direct instruction on descriptive writing concepts (definition, 5 senses, paragraph structure, vocabulary, figurative language) followed by in-class practice exercises (warm-up comparison, 5-senses drills, vocabulary replacement, figurative language matching). Also includes administrative announcements and homework assignment details.",
+    "academicContentSignals": [
+      "Definition of descriptive writing and learning objectives",
+      "5-senses observation methodology",
+      "Standard descriptive paragraph structure (topic sentence, supporting details, concluding sentence)",
+      "Specific vocabulary optimization: replacing generic nouns/verbs with precise words, adding targeted adjectives",
+      "Figurative language: simile vs. metaphor definitions and application rules",
+      "In-class warm-up comparison exercise",
+      "5-senses scenario drills (classroom entry, cafeteria experience)",
+      "Vocabulary replacement drills (nouns, verbs, adjectives)",
+      "Figurative language matching drills (simile, metaphor)"
+    ],
+    "courseOverviewSignals": [
+      "Unit 1 Lesson 6: Descriptive writing - foundational concepts and skills"
+    ],
+    "opsDominanceRisk": "Academic content is substantial and clearly defined, so operations are limited to administrative reminders and deadlines. Risk of ops overshadowing learning is low if diagnostic focuses on descriptive writing techniques and paragraph structure.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Essay marking update for Chenpin Tseng",
+        "studentAction": "Chenpin Tseng's pre-assigned submission is officially marked as late.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Chenpin Tseng",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Chenpin Tseng’s pre-assigned submission... officially marked as late at the start of the class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Progress report requirement",
+        "studentAction": "Ensure all graded assignments are submitted on schedule to have content included in progress reports.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All graded assignments must be submitted on the specified schedule, as missing graded work leaves no valid content to include in official student progress reports.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "deadline",
+        "title": "Forum and homework submission deadline",
+        "studentAction": "Submit in-class forum activity and formal descriptive paragraph homework before the next class session.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All assigned forum and homework content must be submitted prior to the next class session to avoid being marked as late.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "follow_up_action",
+        "title": "Next class preparation",
+        "studentAction": "Review all core descriptive writing concepts from this session ahead of next class, which will focus on descriptive essay structure and drafting.",
+        "deadlineText": "next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students are expected to review all core descriptive writing concepts covered in this session ahead of the next class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Workload reduction clause",
+        "studentAction": "Content completed for the in-class forum can be directly reused for the formal homework, cutting total workload by approximately 50%.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Content completed for the in-class forum can be directly reused for the formal homework, cutting the total required homework workload by approximately 50% for all students.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "ESLDO Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Descriptive Writing Definition、5 Senses Observation、Descriptive Paragraph Structure、Specific Vocabulary）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Descriptive writing prioritizes creating clear, vivid mental imagery for readers, rather than only stating basic, generic factual information.；Effective descriptive writing relies on intentional, detailed observation using the five senses: sight, sound, smell, taste, and touch.；A standard descriptive paragraph consists of three core components: a clear topic sentence, supporting relevant details (especially 5-sense derived), and a concluding sentence.",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "descriptive-writing-definition",
+      "name": "Descriptive Writing Definition",
+      "nameEn": "Descriptive Writing Definition",
+      "definition": "Descriptive writing prioritizes creating clear, vivid mental imagery for readers, rather than only stating basic, generic factual information about a subject.",
+      "officialExpectationCode": "SE C1.2",
+      "officialNodeId": "ESLDO-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "write short texts to express ideas and feelings on personal and familiar topics using a number of forms"
+    },
+    {
+      "id": "five-senses-observation",
+      "name": "5 Senses Observation",
+      "nameEn": "5 Senses Observation",
+      "definition": "Effective descriptive writing relies on intentional, detailed observation using five senses: sight, sound, smell, taste, and touch to make content vivid and memorable.",
+      "officialExpectationCode": "SE C1.2",
+      "officialNodeId": "ESLDO-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "write short texts to express ideas and feelings on personal and familiar topics using a number of forms"
+    },
+    {
+      "id": "paragraph-structure",
+      "name": "Descriptive Paragraph Structure",
+      "nameEn": "Descriptive Paragraph Structure",
+      "definition": "A complete descriptive paragraph consists of a clear topic sentence, supporting relevant details (especially 5-sense derived content), and a concluding sentence that wraps up the core idea.",
+      "officialExpectationCode": "SE C2.1",
+      "officialNodeId": "ESLDO-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "organize information relating to a central idea in a short paragraph with a topic sentence, supporting details, and a concluding sentence"
+    },
+    {
+      "id": "specific-vocabulary",
+      "name": "Specific Vocabulary",
+      "nameEn": "Specific Vocabulary",
+      "definition": "Use precise nouns, strong verbs, and targeted adjectives instead of generic words to create clear and vivid descriptions.",
+      "officialExpectationCode": "SE C1.1",
+      "officialNodeId": "ESLDO-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "write short texts to convey information and ideas for academic purposes using a number of forms"
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-descriptive-writing-definition",
+        "condition": "student selects wrong option on Q1",
+        "systemAction": "assign reteach module for err-descriptive-writing-definition",
+        "studentMessage": "Let's review what descriptive writing really means."
+      },
+      {
+        "errorId": "err-five-senses-observation",
+        "condition": "student selects wrong option on Q2",
+        "systemAction": "assign reteach module for err-five-senses-observation",
+        "studentMessage": "Time to practice using the five senses in descriptions."
+      },
+      {
+        "errorId": "err-paragraph-structure",
+        "condition": "student selects wrong option on Q3",
+        "systemAction": "assign reteach module for err-paragraph-structure",
+        "studentMessage": "Let's go over the parts of a descriptive paragraph."
+      },
+      {
+        "errorId": "err-specific-vocabulary",
+        "condition": "student selects wrong option on Q4",
+        "systemAction": "assign reteach module for err-specific-vocabulary",
+        "studentMessage": "We'll work on using specific words instead of generic ones."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-esldo-s6-0703-q1",
+        "nodeId": "descriptive-writing-definition",
+        "errorId": "err-descriptive-writing-definition",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies the correct definition of descriptive writing.",
+        "ossdExpectation": "write short texts to express ideas and feelings on personal and familiar topics using a number of forms",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Descriptive writing aligns with creating texts for personal expression.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of the primary goal of descriptive writing.",
+        "commonMisconception": "Students may think descriptive writing means listing facts rather than creating imagery.",
+        "remediationModule": "err-descriptive-writing-definition",
+        "retestItem": "err-descriptive-writing-definition",
+        "stem": "What is the main purpose of descriptive writing?",
+        "options": [
+          {
+            "label": "A",
+            "text": "To list as many facts as possible about a subject.",
+            "correct": false,
+            "feedbackWrong": "Descriptive writing is not just listing facts; it aims to create a vivid picture in the reader's mind."
+          },
+          {
+            "label": "B",
+            "text": "To create a clear, vivid mental image for the reader using sensory details.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Descriptive writing prioritizes mental imagery over simple facts."
+          },
+          {
+            "label": "C",
+            "text": "To persuade the reader to agree with a specific opinion.",
+            "correct": false,
+            "feedbackWrong": "That is persuasive writing, not descriptive. Descriptive writing focuses on painting a picture."
+          },
+          {
+            "label": "D",
+            "text": "To tell a story with a clear beginning, middle, and end.",
+            "correct": false,
+            "feedbackWrong": "Narrative writing tells a story; descriptive writing describes a scene, object, or person."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-descriptive-writing-definition."
+      },
+      {
+        "id": "diag-esldo-s6-0703-q2",
+        "nodeId": "five-senses-observation",
+        "errorId": "err-five-senses-observation",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies which senses are used in a given description.",
+        "ossdExpectation": "write short texts to express ideas and feelings on personal and familiar topics using a number of forms",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Using five senses observation is a key technique for descriptive writing.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to recognize sensory details from the five senses.",
+        "commonMisconception": "Students may ignore less obvious senses like smell or touch.",
+        "remediationModule": "err-five-senses-observation",
+        "retestItem": "err-five-senses-observation",
+        "stem": "Read the sentence: 'The warm bread smelled of yeast and tasted slightly sweet.' How many different senses does this sentence use?",
+        "options": [
+          {
+            "label": "A",
+            "text": "1",
+            "correct": false,
+            "feedbackWrong": "It uses both smell ('smelled of yeast') and taste ('tasted slightly sweet'). That's two senses."
+          },
+          {
+            "label": "B",
+            "text": "2",
+            "correct": true,
+            "feedbackCorrect": "Correct! The sentence uses smell and taste."
+          },
+          {
+            "label": "C",
+            "text": "3",
+            "correct": false,
+            "feedbackWrong": "It does not include sight, sound, or touch explicitly."
+          },
+          {
+            "label": "D",
+            "text": "4",
+            "correct": false,
+            "feedbackWrong": "Only two senses are present: smell and taste."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-five-senses-observation."
+      },
+      {
+        "id": "diag-esldo-s6-0703-q3",
+        "nodeId": "paragraph-structure",
+        "errorId": "err-paragraph-structure",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies the correct components of a descriptive paragraph.",
+        "ossdExpectation": "organize information relating to a central idea in a short paragraph with a topic sentence, supporting details, and a concluding sentence",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "ESLDO-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Paragraph structure is directly covered by this specific expectation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check knowledge of the three main parts of a descriptive paragraph.",
+        "commonMisconception": "Students may think a paragraph only needs a topic sentence and details, omitting a concluding sentence.",
+        "remediationModule": "err-paragraph-structure",
+        "retestItem": "err-paragraph-structure",
+        "stem": "What are the three essential parts of a complete descriptive paragraph?",
+        "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 150\"><rect x=\"10\" y=\"10\" width=\"280\" height=\"30\" fill=\"#e0f0ff\" stroke=\"black\" stroke-width=\"1\"/><text x=\"20\" y=\"30\" font-size=\"12\" font-family=\"sans-serif\">Topic Sentence (introduces main idea)</text><rect x=\"10\" y=\"50\" width=\"280\" height=\"50\" fill=\"#f0f0f0\" stroke=\"black\" stroke-width=\"1\"/><text x=\"20\" y=\"65\" font-size=\"12\" font-family=\"sans-serif\">Supporting Details (sensory details)</text><text x=\"20\" y=\"80\" font-size=\"12\" font-family=\"sans-serif\">develop the idea</text><rect x=\"10\" y=\"110\" width=\"280\" height=\"30\" fill=\"#e0ffe0\" stroke=\"black\" stroke-width=\"1\"/><text x=\"20\" y=\"130\" font-size=\"12\" font-family=\"sans-serif\">Concluding Sentence (wraps up the paragraph)</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "Introduction, body, conclusion",
+            "correct": false,
+            "feedbackWrong": "That structure is for an essay, not a single paragraph. A paragraph has a topic sentence, supporting details, and a concluding sentence."
+          },
+          {
+            "label": "B",
+            "text": "Topic sentence, supporting details, concluding sentence",
+            "correct": true,
+            "feedbackCorrect": "Correct! A descriptive paragraph should include all three parts."
+          },
+          {
+            "label": "C",
+            "text": "Title, sentence, picture",
+            "correct": false,
+            "feedbackWrong": "Descriptive paragraphs do not require a title or picture."
+          },
+          {
+            "label": "D",
+            "text": "Topic sentence, supporting details, and a list of facts",
+            "correct": false,
+            "feedbackWrong": "A concluding sentence is needed to wrap up the idea, not just a list."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-paragraph-structure."
+      },
+      {
+        "id": "diag-esldo-s6-0703-q4",
+        "nodeId": "specific-vocabulary",
+        "errorId": "err-specific-vocabulary",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student chooses the most specific and vivid word to improve a description.",
+        "ossdExpectation": "write short texts to convey information and ideas for academic purposes using a number of forms",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Using precise vocabulary is a key skill for writing informational texts.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to replace a generic word with a more specific, vivid alternative.",
+        "commonMisconception": "Students may think that adding any adjective improves the description, rather than choosing a precise noun or strong verb.",
+        "remediationModule": "err-specific-vocabulary",
+        "retestItem": "err-specific-vocabulary",
+        "stem": "Which word best replaces the generic word 'walked' in the sentence 'He walked slowly through the park' to create a more vivid description?",
+        "options": [
+          {
+            "label": "A",
+            "text": "moved",
+            "correct": false,
+            "feedbackWrong": "'Moved' is still generic and does not add vividness."
+          },
+          {
+            "label": "B",
+            "text": "strolled",
+            "correct": true,
+            "feedbackCorrect": "Correct! 'Strolled' suggests a relaxed, leisurely pace and creates a stronger image."
+          },
+          {
+            "label": "C",
+            "text": "went",
+            "correct": false,
+            "feedbackWrong": "'Went' is very generic and does not describe the manner of walking."
+          },
+          {
+            "label": "D",
+            "text": "was",
+            "correct": false,
+            "feedbackWrong": "The verb 'was' does not convey movement at all."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-specific-vocabulary."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-descriptive-writing-definition",
+      "condition": "student selects wrong option on Q1",
+      "systemAction": "assign reteach module for err-descriptive-writing-definition",
+      "studentMessage": "Let's review what descriptive writing really means."
+    },
+    {
+      "errorId": "err-five-senses-observation",
+      "condition": "student selects wrong option on Q2",
+      "systemAction": "assign reteach module for err-five-senses-observation",
+      "studentMessage": "Time to practice using the five senses in descriptions."
+    },
+    {
+      "errorId": "err-paragraph-structure",
+      "condition": "student selects wrong option on Q3",
+      "systemAction": "assign reteach module for err-paragraph-structure",
+      "studentMessage": "Let's go over the parts of a descriptive paragraph."
+    },
+    {
+      "errorId": "err-specific-vocabulary",
+      "condition": "student selects wrong option on Q4",
+      "systemAction": "assign reteach module for err-specific-vocabulary",
+      "studentMessage": "We'll work on using specific words instead of generic ones."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-descriptive-writing-definition",
+      "trigger": "Student selects incorrect option on Q1 of the diagnostic.",
+      "studentMisunderstanding": "Student thinks descriptive writing is just listing facts or telling a story, not creating vivid mental imagery.",
+      "miniLesson": {
+        "explain": "Descriptive writing prioritizes creating clear, vivid mental imagery for readers, rather than only stating basic, generic factual information about a subject. Effective description uses sensory details (sight, sound, smell, taste, touch) to paint a picture in the reader's mind.",
+        "example": "Compare: 'Alex entered the classroom' (basic) vs. 'Alex stepped into the warm, sunlit classroom, the faint scent of chalk dust hanging in the air' (descriptive, using sight and smell).",
+        "memoryAnchor": "Descriptive writing paints a picture in the reader's mind."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which sentence is descriptive? A. 'The dog ran.' B. 'The fluffy golden retriever bounded across the dewy grass, ears flapping.' Choose one.",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite 'The food was good' to create a vivid description using at least two senses.",
+          "answer": "The sizzling steak smelled smoky and tasted rich and buttery."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write one descriptive paragraph about a busy market. Include a topic sentence, three sensory details, and a concluding sentence.",
+          "answer": "The market buzzed with energy. Bright piles of red peppers and green herbs lined the stalls, while the air filled with the tangy scent of ripe mangoes and frying dough. Vendors shouted over the clink of coins. Every corner felt alive and vibrant."
+        }
+      ]
+    },
+    {
+      "errorId": "err-five-senses-observation",
+      "trigger": "Student selects a wrong answer on diagnostic question Q2, which asks to identify the number of senses used in a sentence.",
+      "studentMisunderstanding": "The student may not recognize all five senses (sight, sound, smell, taste, touch) when reading a description, often missing less obvious senses like smell or touch, or overcounting by including non-sensory details.",
+      "miniLesson": {
+        "explain": "Effective descriptive writing uses intentional, detailed observation through the five senses: sight, sound, smell, taste, and touch. Each sense adds vividness and helps readers imagine the scene. When you describe something, ask yourself: What do I see? Hear? Smell? Taste? Feel?",
+        "example": "In the lesson, Alex described the cafeteria: 'The pizza smelled of oregano and cheese, and tasted salty and warm.' This uses two senses: smell and taste. Adding sight: 'I saw the gooey cheese stretching,' and sound: 'I heard the crunch of crust,' would make it even more vivid.",
+        "memoryAnchor": "Think of a detective: you use all 5 senses to gather clues. SIGHT (see), SOUND (hear), SMELL (smell), TASTE (taste), TOUCH (feel). Remember: 5 senses = vivid writing!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Read the sentence: 'The cold ice cream tasted like vanilla on my tongue.' Which two senses are used? Write your answer as two words separated by 'and'.",
+          "answer": "touch and taste"
+        },
+        {
+          "level": "L2",
+          "prompt": "Read the description: 'The rough wood of the bench felt warm, and I could smell pine trees and hear birds chirping.' List all the senses used. Write them in lowercase, separated by commas (e.g., sight, sound).",
+          "answer": "touch, smell, sound"
+        },
+        {
+          "level": "L3",
+          "prompt": "Write one sentence describing a beach scene that uses at least three different senses. Include sight, sound, and touch. Your sentence should be at least 10 words.",
+          "answer": "I saw the bright blue waves, heard the seagulls calling, and felt the warm sand between my toes."
+        }
+      ]
+    },
+    {
+      "errorId": "err-paragraph-structure",
+      "trigger": "Student selected wrong option on diagnostic Q3 (What are the three essential parts of a complete descriptive paragraph?)",
+      "studentMisunderstanding": "Student may think a paragraph only needs a topic sentence and details, omitting a concluding sentence, or may confuse paragraph structure with essay structure.",
+      "miniLesson": {
+        "explain": "A standard descriptive paragraph consists of three core components: a clear topic sentence, supporting relevant details (especially 5-sense derived content), and a concluding sentence that wraps up the core idea.",
+        "example": "Topic sentence: 'The bustling farmer's market overflowed with vibrant colors and enticing aromas.' Supporting details: 'Bright red apples gleamed under the morning sun, and the sweet smell of fresh honey filled the air.' Concluding sentence: 'Every visit to the market was a feast for the senses.'",
+        "memoryAnchor": "Think of the paragraph as a sandwich: the top bun is the topic sentence, the filling is the supporting details, and the bottom bun is the concluding sentence."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is NOT one of the three essential parts of a descriptive paragraph? A) Topic sentence B) Supporting details C) Title D) Concluding sentence",
+          "answer": "C) Title"
+        },
+        {
+          "level": "L2",
+          "prompt": "Read the paragraph below. It is missing one of the three essential parts. Identify which part is missing: 'The old library was a quiet sanctuary. Dusty books lined the shelves, and the faint smell of paper hung in the air. The soft creak of the wooden floor added to the peaceful atmosphere.'",
+          "answer": "Missing part: Concluding sentence. The paragraph has a topic sentence and supporting details but no concluding sentence that wraps up the idea."
+        },
+        {
+          "level": "L3",
+          "prompt": "Rewrite the following sentence group to form a complete descriptive paragraph with all three essential parts: 'The coffee shop was cozy. The rich aroma of roasted beans filled the room. Customers chatted softly.' Add a concluding sentence and ensure the supporting details include sensory language.",
+          "answer": "Topic sentence: 'The cozy coffee shop invited customers with its warm atmosphere.' Supporting details: 'The rich aroma of freshly roasted beans filled the room, and the soft murmur of conversation blended with the hiss of the espresso machine.' Concluding sentence: 'It was the perfect place to unwind on a chilly afternoon.'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-specific-vocabulary",
+      "trigger": "Student selects wrong option on Q4 of diagnostic",
+      "studentMisunderstanding": "Students may think that adding any adjective improves the description, rather than choosing a precise noun or strong verb.",
+      "miniLesson": {
+        "explain": "Descriptive writing uses specific nouns, strong verbs, and targeted adjectives instead of generic words. Replace vague nouns like 'thing' with precise ones like 'canvas backpack'. Replace weak verbs like 'walk' with vivid ones like 'stroll'. Avoid vague adjectives like 'nice'—use specific ones like 'sparkling'.",
+        "example": "Weak: 'He walked slowly through the park.' Vivid: 'He strolled through the park.'",
+        "memoryAnchor": "Swap generic for specific: 'stroll' not 'walk', 'canvas backpack' not 'thing'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Replace the generic noun 'thing' with a more specific noun: 'She carried a thing on her shoulder.'",
+          "answer": "She carried a canvas backpack on her shoulder."
+        },
+        {
+          "level": "L2",
+          "prompt": "Replace the weak verb 'said' with a strong, context-specific verb: 'He said softly in her ear.'",
+          "answer": "He whispered in her ear."
+        },
+        {
+          "level": "L3",
+          "prompt": "Improve this sentence by replacing both the generic noun and weak verb: 'The dog walked across the floor.'",
+          "answer": "The golden retriever trotted across the floor."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-descriptive-writing-definition",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "Which of the following sentences is an example of descriptive writing?",
+          "options": [
+            "The man walked down the street.",
+            "The man strolled along the quiet, tree-lined street, the scent of freshly cut grass mixing with the sound of birds chirping.",
+            "The man wore a blue shirt.",
+            "The man went to work."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Rewrite the following sentence to make it descriptive: 'The food was good.' Use at least two senses in your description.",
+          "rubric": "Student uses specific sensory details (e.g., smell, taste, sight) to create vivid imagery. At least two senses should be evident. Vague words like 'good' or 'nice' should be replaced with precise adjectives."
+        }
+      ],
+      "passRule": "Answer Q1 correctly and Q2 meets rubric criteria."
+    },
+    {
+      "forErrorId": "err-five-senses-observation",
+      "questions": [
+        {
+          "id": "retest-5senses-q1",
+          "type": "single_choice",
+          "stem": "Read the sentence: 'The cold, smooth ice cream melted on my tongue, and I could hear the jingle of the ice cream truck.' Which of the following lists all the senses used in this sentence?",
+          "options": [
+            "touch, taste, sound",
+            "sight, taste, sound",
+            "touch, smell, sound",
+            "sight, touch, sound"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-5senses-q2",
+          "type": "open_ended",
+          "stem": "Write one descriptive sentence about a park scene that uses at least three different senses. Include sight, sound, and touch. Your sentence should be at least 10 words.",
+          "rubric": "Sentence must include at least three senses: sight, sound, and touch. Each sense must be clearly indicated with appropriate sensory words. The sentence must be coherent and at least 10 words."
+        }
+      ],
+      "passRule": "Student must select the correct answer for question 1 (index 0) and write a sentence for question 2 that uses at least three senses (sight, sound, and touch) with appropriate vocabulary and at least 10 words."
+    },
+    {
+      "forErrorId": "err-paragraph-structure",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Read the following paragraph: 'The garden was alive with color. Purple lavender and yellow marigolds swayed in the breeze. The sweet scent of roses mixed with the earthy smell of damp soil.' Which essential part of a descriptive paragraph is missing?",
+          "options": [
+            "Topic sentence",
+            "Supporting details",
+            "Concluding sentence",
+            "Sensory details"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Write a concluding sentence for the paragraph above that wraps up the idea of the garden being vibrant and sensory-rich.",
+          "rubric": "The sentence should summarize or reflect on the garden experience, using appropriate concluding language (e.g., 'The garden was a true feast for the senses.')."
+        }
+      ],
+      "passRule": "Answer Q1 correctly and provide a plausible concluding sentence in Q2 that wraps up the paragraph."
+    },
+    {
+      "forErrorId": "err-specific-vocabulary",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which sentence uses specific vocabulary most effectively?",
+          "options": [
+            "She put the thing on the table.",
+            "She placed the ceramic vase on the oak table.",
+            "She set the object down nicely."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Rewrite the following sentence to make it more descriptive by replacing the generic noun and weak verb with specific vocabulary: 'The man walked across the field.'",
+          "rubric": "Uses a precise noun (e.g., 'farmer', 'hiker', 'soldier') and a strong verb (e.g., 'strode', 'trudged', 'marched'). Accept any reasonable specific noun and verb that fit the context."
+        }
+      ],
+      "passRule": "Answer question 1 correctly and provide a satisfactory rewrite for question 2 (precise noun and strong verb)."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-13",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/IGdfdyoIjoWFSRx15jPcMH0lnjc?from=vc_group_doc_link#doxcnmGmfHqjmdhdW8ZDhl1uy6b",
+    "sourceTitle": "ESLDO.S6.Dionne 2026-07-13 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Descriptive writing prioritizes creating clear, vivid mental imagery for readers, rather than only stating basic, generic factual information.；Effective descriptive writing relies on intentional, detailed observation using the five senses: sight, sound, smell, taste, and touch.；A standard descriptive paragraph consists of three core components: a clear topic sentence, supporting relevant details (especially 5-sense derived), and a concluding sentence.",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Essay marking update for Chenpin Tseng",
+        "studentAction": "Chenpin Tseng's pre-assigned submission is officially marked as late.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Chenpin Tseng",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Chenpin Tseng’s pre-assigned submission... officially marked as late at the start of the class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Progress report requirement",
+        "studentAction": "Ensure all graded assignments are submitted on schedule to have content included in progress reports.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All graded assignments must be submitted on the specified schedule, as missing graded work leaves no valid content to include in official student progress reports.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "deadline",
+        "title": "Forum and homework submission deadline",
+        "studentAction": "Submit in-class forum activity and formal descriptive paragraph homework before the next class session.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All assigned forum and homework content must be submitted prior to the next class session to avoid being marked as late.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "follow_up_action",
+        "title": "Next class preparation",
+        "studentAction": "Review all core descriptive writing concepts from this session ahead of next class, which will focus on descriptive essay structure and drafting.",
+        "deadlineText": "next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students are expected to review all core descriptive writing concepts covered in this session ahead of the next class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Workload reduction clause",
+        "studentAction": "Content completed for the in-class forum can be directly reused for the formal homework, cutting total workload by approximately 50%.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Content completed for the in-class forum can be directly reused for the formal homework, cutting the total required homework workload by approximately 50% for all students.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "descriptive-writing-definition",
+      "five-senses-observation",
+      "paragraph-structure",
+      "specific-vocabulary"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-descriptive-writing-definition",
+        "condition": "student selects wrong option on Q1",
+        "systemAction": "assign reteach module for err-descriptive-writing-definition"
+      },
+      {
+        "errorId": "err-five-senses-observation",
+        "condition": "student selects wrong option on Q2",
+        "systemAction": "assign reteach module for err-five-senses-observation"
+      },
+      {
+        "errorId": "err-paragraph-structure",
+        "condition": "student selects wrong option on Q3",
+        "systemAction": "assign reteach module for err-paragraph-structure"
+      },
+      {
+        "errorId": "err-specific-vocabulary",
+        "condition": "student selects wrong option on Q4",
+        "systemAction": "assign reteach module for err-specific-vocabulary"
+      }
+    ],
+    "nextActions": [
+      "[err-descriptive-writing-definition] student selects wrong option on Q1: Let's review what descriptive writing really means.",
+      "[err-five-senses-observation] student selects wrong option on Q2: Time to practice using the five senses in descriptions.",
+      "[err-paragraph-structure] student selects wrong option on Q3: Let's go over the parts of a descriptive paragraph.",
+      "[err-specific-vocabulary] student selects wrong option on Q4: We'll work on using specific words instead of generic ones."
+    ],
+    "cards": [
+      {
+        "id": "diag-esldo-s6-0703-q1",
+        "type": "choice",
+        "question": "What is the main purpose of descriptive writing?",
+        "options": [
+          "To list as many facts as possible about a subject.",
+          "To create a clear, vivid mental image for the reader using sensory details.",
+          "To persuade the reader to agree with a specific opinion.",
+          "To tell a story with a clear beginning, middle, and end."
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of the primary goal of descriptive writing.",
+        "misconceptions": [
+          "Descriptive writing is not just listing facts; it aims to create a vivid picture in the reader's mind.",
+          "✓ Correct! Descriptive writing prioritizes mental imagery over simple facts.",
+          "That is persuasive writing, not descriptive. Descriptive writing focuses on painting a picture.",
+          "Narrative writing tells a story; descriptive writing describes a scene, object, or person."
+        ],
+        "nodeId": "descriptive-writing-definition",
+        "errorId": "err-descriptive-writing-definition",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies the correct definition of descriptive writing.",
+        "ossdExpectation": "write short texts to express ideas and feelings on personal and familiar topics using a number of forms",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Descriptive writing aligns with creating texts for personal expression.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think descriptive writing means listing facts rather than creating imagery.",
+        "remediationModule": "err-descriptive-writing-definition",
+        "retestItem": "err-descriptive-writing-definition"
+      },
+      {
+        "id": "diag-esldo-s6-0703-q2",
+        "type": "choice",
+        "question": "Read the sentence: 'The warm bread smelled of yeast and tasted slightly sweet.' How many different senses does this sentence use?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 1,
+        "diagnosis": "Check ability to recognize sensory details from the five senses.",
+        "misconceptions": [
+          "It uses both smell ('smelled of yeast') and taste ('tasted slightly sweet'). That's two senses.",
+          "✓ Correct! The sentence uses smell and taste.",
+          "It does not include sight, sound, or touch explicitly.",
+          "Only two senses are present: smell and taste."
+        ],
+        "nodeId": "five-senses-observation",
+        "errorId": "err-five-senses-observation",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies which senses are used in a given description.",
+        "ossdExpectation": "write short texts to express ideas and feelings on personal and familiar topics using a number of forms",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Using five senses observation is a key technique for descriptive writing.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may ignore less obvious senses like smell or touch.",
+        "remediationModule": "err-five-senses-observation",
+        "retestItem": "err-five-senses-observation"
+      },
+      {
+        "id": "diag-esldo-s6-0703-q3",
+        "type": "choice",
+        "question": "What are the three essential parts of a complete descriptive paragraph?",
+        "options": [
+          "Introduction, body, conclusion",
+          "Topic sentence, supporting details, concluding sentence",
+          "Title, sentence, picture",
+          "Topic sentence, supporting details, and a list of facts"
+        ],
+        "correct": 1,
+        "diagnosis": "Check knowledge of the three main parts of a descriptive paragraph.",
+        "misconceptions": [
+          "That structure is for an essay, not a single paragraph. A paragraph has a topic sentence, supporting details, and a concluding sentence.",
+          "✓ Correct! A descriptive paragraph should include all three parts.",
+          "Descriptive paragraphs do not require a title or picture.",
+          "A concluding sentence is needed to wrap up the idea, not just a list."
+        ],
+        "nodeId": "paragraph-structure",
+        "errorId": "err-paragraph-structure",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies the correct components of a descriptive paragraph.",
+        "ossdExpectation": "organize information relating to a central idea in a short paragraph with a topic sentence, supporting details, and a concluding sentence",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "ESLDO-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Paragraph structure is directly covered by this specific expectation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think a paragraph only needs a topic sentence and details, omitting a concluding sentence.",
+        "remediationModule": "err-paragraph-structure",
+        "retestItem": "err-paragraph-structure"
+      },
+      {
+        "id": "diag-esldo-s6-0703-q4",
+        "type": "choice",
+        "question": "Which word best replaces the generic word 'walked' in the sentence 'He walked slowly through the park' to create a more vivid description?",
+        "options": [
+          "moved",
+          "strolled",
+          "went",
+          "was"
+        ],
+        "correct": 1,
+        "diagnosis": "Check ability to replace a generic word with a more specific, vivid alternative.",
+        "misconceptions": [
+          "'Moved' is still generic and does not add vividness.",
+          "✓ Correct! 'Strolled' suggests a relaxed, leisurely pace and creates a stronger image.",
+          "'Went' is very generic and does not describe the manner of walking.",
+          "The verb 'was' does not convey movement at all."
+        ],
+        "nodeId": "specific-vocabulary",
+        "errorId": "err-specific-vocabulary",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student chooses the most specific and vivid word to improve a description.",
+        "ossdExpectation": "write short texts to convey information and ideas for academic purposes using a number of forms",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Using precise vocabulary is a key skill for writing informational texts.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may think that adding any adjective improves the description, rather than choosing a precise noun or strong verb.",
+        "remediationModule": "err-specific-vocabulary",
+        "retestItem": "err-specific-vocabulary"
+      }
+    ]
+  }
+}

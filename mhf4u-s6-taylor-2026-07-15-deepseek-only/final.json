@@ -1,0 +1,819 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-15",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/E32ad8QHxoILTbxiw7WcALCvnoe?from=vc_group_doc_link#doxcnl4OSrzhmNuj6SLxcAl798b",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-15 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/E32ad8QHxoILTbxiw7WcALCvnoe?from=vc_group_doc_link#doxcnl4OSrzhmNuj6SLxcAl798b",
+    "title": "MHF4U.S6.Taylor 2026-07-15 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/mhf4u-s6-taylor-2026-07-15/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-15",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-15",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "This lesson included instruction on Remainder Theorem, Factor Theorem, Rational Root Theorem, with worked examples and in-class practice. Homework review also occurred but the primary focus was new academic content.",
+    "academicContentSignals": [
+      "Synthetic division: dividing polynomials by linear divisors",
+      "Remainder Theorem: remainder = p(b) when dividing by x - b",
+      "Factor Theorem: x - b is a factor if p(b) = 0",
+      "Rational Root Theorem: possible rational roots = factors of constant term / factors of leading coefficient",
+      "Polynomial factorization using long division and quadratic factoring",
+      "Function sketching based on intercepts and leading coefficient",
+      "Greatest common factor extraction before factoring"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low. Academic content dominates; ops items are secondary announcements about homework and future assessments. Ensure exit card focuses on theorem understanding and application, not on deadlines.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Exit Card and Homework",
+        "studentAction": "Submit Unit 1 Lesson 6 exit card and assigned homework by end of today.",
+        "deadlineText": "End of today (2026-07-15)",
+        "deadlineISO": "2026-07-15T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students are required to submit the Unit 1 Lesson 6 exit card and assigned homework after the end of today's class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Answers for Problems 12 and 14",
+        "studentAction": "Review standard answers for homework problems 12 and 14 when released later today.",
+        "deadlineText": "Within same day (2026-07-15)",
+        "deadlineISO": "2026-07-15T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Standard answers for un-walked homework problems 12 and 14 will be shared with students within the same day after class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Next Class Content Preview",
+        "studentAction": "Prepare for upcoming lesson on polynomial factorization practice and basic function transformations.",
+        "deadlineText": "Next class (2026-07-16)",
+        "deadlineISO": "2026-07-16T07:58:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Tomorrow's Class Content: Additional polynomial factorization practice and basic function transformation content will be covered.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Quiz",
+        "studentAction": "Prepare for Unit 1 quiz on Friday.",
+        "deadlineText": "This Friday (2026-07-17)",
+        "deadlineISO": "2026-07-17T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The Unit 1 quiz will be held this Friday.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Final Test",
+        "studentAction": "Prepare for Unit 1 final test at end of next week.",
+        "deadlineText": "End of next week (approx. 2026-07-24)",
+        "deadlineISO": "2026-07-24T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "the Unit 1 final test is scheduled for the end of next week to avoid overloading students.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "Instructor Email Support",
+        "studentAction": "Email Taylor Cavers with any questions about course content or assignments.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students with questions about course content or assignments may contact the instructor via email for targeted support at any time.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Remainder Theorem、Factor Theorem、Rational Root Theorem、Synthetic Division）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "If polynomial p(x) is divided by x - b, the remainder equals p(b).；If polynomial p(x) is divided by ax - b, the remainder equals p(b/a).；x - b is a factor of p(x) if and only if p(b) = 0.",
+  "learningGoals": [
+    {
+      "id": "lg-remainder",
+      "statement": "Apply the Remainder Theorem to evaluate the remainder when a polynomial is divided by a linear binomial."
+    },
+    {
+      "id": "lg-factor",
+      "statement": "Use the Factor Theorem to determine whether a given binomial is a factor of a polynomial."
+    },
+    {
+      "id": "lg-rational-root",
+      "statement": "Apply the Rational Root Theorem to list all possible rational roots of a polynomial with integer coefficients."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-C-OE03-remainder-theorem",
+      "name": "Remainder Theorem",
+      "nameEn": "Remainder Theorem",
+      "definition": "If a polynomial p(x) is divided by x - b, the remainder is p(b). If divided by ax - b, the remainder is p(b/a).",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    },
+    {
+      "id": "MHF4U-C-OE03-factor-theorem",
+      "name": "Factor Theorem",
+      "nameEn": "Factor Theorem",
+      "definition": "x - b is a factor of p(x) if and only if p(b) = 0. Similarly, ax - b is a factor if and only if p(b/a) = 0.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    },
+    {
+      "id": "MHF4U-C-OE03-rational-root-theorem",
+      "name": "Rational Root Theorem",
+      "nameEn": "Rational Root Theorem",
+      "definition": "For a polynomial with integer coefficients, any rational root p/q in lowest terms has p a factor of the constant term and q a factor of the leading coefficient.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    },
+    {
+      "id": "MHF4U-C-OE03-synthetic-division",
+      "name": "Synthetic Division",
+      "nameEn": "Synthetic Division",
+      "definition": "A shorthand method of dividing a polynomial by a linear binomial of the form x - b or ax - b, using only coefficients and the value k = b (or b/a).",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-remainder",
+        "statement": "Apply the Remainder Theorem to evaluate the remainder when a polynomial is divided by a linear binomial."
+      },
+      {
+        "id": "lg-factor",
+        "statement": "Use the Factor Theorem to determine whether a given binomial is a factor of a polynomial."
+      },
+      {
+        "id": "lg-rational-root",
+        "statement": "Apply the Rational Root Theorem to list all possible rational roots of a polynomial with integer coefficients."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-remainder-theorem-evaluate-at-wrong-value",
+        "condition": "Student selects the wrong remainder on Q1 (diagnostic question 1) because they evaluated at the wrong value.",
+        "systemAction": "assign reteach module for err-remainder-theorem-evaluate-at-wrong-value",
+        "studentMessage": "You evaluated f(x) at the wrong x-value. Let's review how to apply the Remainder Theorem correctly."
+      },
+      {
+        "errorId": "err-factor-theorem-multiple-factors",
+        "condition": "Student incorrectly determines whether a binomial is a factor on Q2, Q4, or related questions due to ignoring the ax-b form.",
+        "systemAction": "assign reteach module for err-factor-theorem-multiple-factors",
+        "studentMessage": "The Factor Theorem also works for divisors like ax-b. Let's practice both forms."
+      },
+      {
+        "errorId": "err-rational-root-theorem-signs",
+        "condition": "Student lists incomplete or incorrectly signed rational roots on Q3 or Q5.",
+        "systemAction": "assign reteach module for err-rational-root-theorem-signs",
+        "studentMessage": "Remember to include ± signs and all factor combinations. Let's go over the Rational Root Theorem again."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-u1-0715-q1",
+        "nodeId": "MHF4U-C-OE03-remainder-theorem",
+        "errorId": "err-remainder-theorem-evaluate-at-wrong-value",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-remainder",
+        "successCriteria": "Student correctly evaluates p(b) to find remainder when dividing by x-b.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Remainder Theorem is directly used in solving polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student substitutes the correct value (b) into p(x) when dividing by x-b.",
+        "commonMisconception": "Student may substitute the wrong sign (e.g., use -b instead of b) or evaluate incorrectly.",
+        "remediationModule": "err-remainder-theorem-evaluate-at-wrong-value",
+        "retestItem": "retest-remainder",
+        "stem": "When dividing the polynomial p(x)=x^3+7x^2+2x-5 by x+7, what is the remainder according to the Remainder Theorem?",
+        "options": [
+          {
+            "label": "A",
+            "text": "-19",
+            "correct": true,
+            "feedbackCorrect": "Correct! p(-7) = (-7)^3 + 7(49) + 2(-7) -5 = -343 + 343 -14 -5 = -19, so remainder is -19."
+          },
+          {
+            "label": "B",
+            "text": "-5",
+            "correct": false,
+            "feedbackWrong": "You may have evaluated p(0) instead of p(-7). Remember to set x+7=0 to get x=-7."
+          },
+          {
+            "label": "C",
+            "text": "0",
+            "correct": false,
+            "feedbackWrong": "The remainder is 0 only if x+7 is a factor. Here p(-7) ≠ 0, so remainder is not 0."
+          },
+          {
+            "label": "D",
+            "text": "19",
+            "correct": false,
+            "feedbackWrong": "You might have forgotten the negative sign. p(-7) gives -19, not 19."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-u1-0715-q2",
+        "nodeId": "MHF4U-C-OE03-factor-theorem",
+        "errorId": "err-factor-theorem-multiple-factors",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-factor",
+        "successCriteria": "Student correctly determines whether a binomial of the form ax-b is a factor using the Factor Theorem.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Factor Theorem is a direct application of polynomial division concepts.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can handle factor theorem with divisor ax-b (e.g., 2x+1).",
+        "commonMisconception": "Student may only consider x-b form and ignore the coefficient, or incorrectly compute b/a.",
+        "remediationModule": "err-factor-theorem-multiple-factors",
+        "retestItem": "retest-factor",
+        "stem": "Which of the following binomials is a factor of the polynomial p(x)=12x^4-56x^3+59x^2+9x-18? (Hint: use the Factor Theorem, remembering to check both x-b and ax-b forms.)",
+        "options": [
+          {
+            "label": "A",
+            "text": "x+1",
+            "correct": false,
+            "feedbackWrong": "p(-1) ≠ 0, so x+1 is not a factor."
+          },
+          {
+            "label": "B",
+            "text": "2x+1",
+            "correct": true,
+            "feedbackCorrect": "Correct! p(-1/2)=0, so 2x+1 is a factor."
+          },
+          {
+            "label": "C",
+            "text": "x-2",
+            "correct": false,
+            "feedbackWrong": "p(2) ≠ 0, so x-2 is not a factor."
+          },
+          {
+            "label": "D",
+            "text": "2x-1",
+            "correct": false,
+            "feedbackWrong": "p(1/2) ≠ 0, so 2x-1 is not a factor."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-u1-0715-q3",
+        "nodeId": "MHF4U-C-OE03-rational-root-theorem",
+        "errorId": "err-rational-root-theorem-signs",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-rational-root",
+        "successCriteria": "Student correctly lists all possible rational roots including ± signs.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Rational Root Theorem is essential for solving polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can generate the set of possible rational roots for a polynomial.",
+        "commonMisconception": "Student forgets to include ± signs or misses factors of constant term or leading coefficient.",
+        "remediationModule": "err-rational-root-theorem-signs",
+        "retestItem": "retest-rational-root",
+        "stem": "What is the complete list of possible rational roots for the polynomial p(x)=2x^3+3x^2-8x+3?",
+        "options": [
+          {
+            "label": "A",
+            "text": "±1, ±3",
+            "correct": false,
+            "feedbackWrong": "You forgot the possible roots with denominator 2 (from leading coefficient)."
+          },
+          {
+            "label": "B",
+            "text": "±1, ±3, ±1/2, ±3/2",
+            "correct": true,
+            "feedbackCorrect": "Correct! All combinations of factors of constant term 3 and factors of leading coefficient 2 with ± signs."
+          },
+          {
+            "label": "C",
+            "text": "1, 3, 1/2, 3/2",
+            "correct": false,
+            "feedbackWrong": "You missed the ± signs. Possible roots can be positive or negative."
+          },
+          {
+            "label": "D",
+            "text": "±1, ±1/2",
+            "correct": false,
+            "feedbackWrong": "You missed the factors of constant term 3 (i.e., ±3, ±3/2)."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-remainder-theorem-evaluate-at-wrong-value",
+      "condition": "Student selects the wrong remainder on Q1 (diagnostic question 1) because they evaluated at the wrong value.",
+      "systemAction": "assign reteach module for err-remainder-theorem-evaluate-at-wrong-value",
+      "studentMessage": "You evaluated f(x) at the wrong x-value. Let's review how to apply the Remainder Theorem correctly."
+    },
+    {
+      "errorId": "err-factor-theorem-multiple-factors",
+      "condition": "Student incorrectly determines whether a binomial is a factor on Q2, Q4, or related questions due to ignoring the ax-b form.",
+      "systemAction": "assign reteach module for err-factor-theorem-multiple-factors",
+      "studentMessage": "The Factor Theorem also works for divisors like ax-b. Let's practice both forms."
+    },
+    {
+      "errorId": "err-rational-root-theorem-signs",
+      "condition": "Student lists incomplete or incorrectly signed rational roots on Q3 or Q5.",
+      "systemAction": "assign reteach module for err-rational-root-theorem-signs",
+      "studentMessage": "Remember to include ± signs and all factor combinations. Let's go over the Rational Root Theorem again."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-remainder-theorem-evaluate-at-wrong-value",
+      "trigger": "Students often incorrectly substitute x = b instead of x = -b when dividing by x+b, or incorrectly compute b/a for divisors like ax-b.",
+      "studentMisunderstanding": "Students misunderstand that the Remainder Theorem requires substituting the value that makes the divisor zero, not just the constant term with the opposite sign.",
+      "miniLesson": {
+        "explain": "The Remainder Theorem states that when a polynomial p(x) is divided by x - b, the remainder is p(b). For a divisor like x + b, rewrite it as x - (-b), so substitute x = -b. For a divisor like ax - b, set ax - b = 0, solve for x = b/a, then evaluate p(b/a).",
+        "example": "For p(x)=x^3+7x^2+2x-5 divided by x+7, set x+7=0 => x=-7. Compute p(-7)=(-7)^3+7(-7)^2+2(-7)-5 = -343+343-14-5 = -19. So remainder is -19.",
+        "memoryAnchor": "Set divisor to zero, solve for x, plug it in."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find the remainder when p(x)=x^3-5x^2-2x+24 is divided by x-4.",
+          "answer": "0"
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the remainder when p(x)=x^3+7x^2+2x-5 is divided by x+7.",
+          "answer": "-19"
+        },
+        {
+          "level": "L3",
+          "prompt": "Find the remainder when p(x)=12x^4-56x^3+59x^2+9x-18 is divided by 2x+1.",
+          "answer": "0"
+        }
+      ]
+    },
+    {
+      "errorId": "err-factor-theorem-multiple-factors",
+      "trigger": "Student selects an incorrect binomial factor on Q2 of the diagnostic because they only considered x - b form and ignored the possibility of ax - b.",
+      "studentMisunderstanding": "Students incorrectly think the Factor Theorem only applies to factors of the form x - b (i.e., divisor with leading coefficient 1). They do not realize that for a divisor ax - b, the corresponding root is b/a, and if p(b/a)=0, then ax - b is also a factor.",
+      "miniLesson": {
+        "explain": "The Factor Theorem says: x - b is a factor of p(x) if and only if p(b)=0. More generally, for a linear divisor of the form ax - b (e.g., 2x+1, 3x-2), we set ax - b = 0 to get x = b/a. Then ax - b is a factor if and only if p(b/a)=0. This extends the theorem to any linear binomial.",
+        "example": "Check whether 2x+1 is a factor of p(x)=12x^4-56x^3+59x^2+9x-18. Set 2x+1=0 → x=-1/2. Evaluate p(-1/2)=12(1/16)-56(-1/8)+59(1/4)+9(-1/2)-18 = 0.75+7+14.75-4.5-18=0. Since p(-1/2)=0, 2x+1 is a factor. Synthetic division confirms remainder 0.",
+        "memoryAnchor": "To check if ax-b is a factor, solve ax-b=0 for x, then plug that x into p(x). If zero, it's a factor."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Check if x-4 is a factor of p(x)=x^3-5x^2-2x+24. Evaluate p(4) and state whether it is a factor.",
+          "answer": "p(4)=4^3-5(4^2)-2(4)+24=64-80-8+24=0, so x-4 is a factor."
+        },
+        {
+          "level": "L2",
+          "prompt": "Check if 2x+1 is a factor of p(x)=2x^3+x^2-2x-1. Evaluate p(-1/2) and state whether it is a factor.",
+          "answer": "p(-1/2)=2(-1/8)+(-1/2)^2-2(-1/2)-1 = -1/4+1/4+1-1=0, so 2x+1 is a factor."
+        },
+        {
+          "level": "L3",
+          "prompt": "Factor the polynomial p(x)=4x^4+6x^3-6x^2-4x completely. Hint: start by factoring out the GCF, then use the Factor Theorem for both x-b and ax-b forms.",
+          "answer": "GCF is 2x: p(x)=2x(2x^3+3x^2-3x-2). Test x=1: 2+3-3-2=0, so (x-1) is a factor. Synthetic division of 2x^3+3x^2-3x-2 by (x-1) gives 2x^2+5x+2 = (2x+1)(x+2). Complete factorization: 2x(x-1)(x+2)(2x+1)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-rational-root-theorem-signs",
+      "trigger": "Student omits ± signs or misses some factor combinations when listing possible rational roots.",
+      "studentMisunderstanding": "The student does not realize that the Rational Root Theorem requires considering both positive and negative signs, or that every factor of the constant term can be paired with every factor of the leading coefficient.",
+      "miniLesson": {
+        "explain": "The Rational Root Theorem states that for a polynomial with integer coefficients, any rational root in lowest terms p/q has p as a factor of the constant term and q as a factor of the leading coefficient. To list all possible rational roots, list all factors of the constant term (including both positive and negative) and all factors of the leading coefficient. Then form all fractions ±p/q, where p is a factor of the constant and q is a factor of the leading coefficient, and simplify. Always include both positive and negative signs.",
+        "example": "For p(x)=2x^3+3x^2-8x+3, constant term=3, leading coefficient=2. Factors of constant: ±1, ±3. Factors of leading: ±1, ±2. Possible rational roots: ±1/1, ±3/1, ±1/2, ±3/2, i.e., ±1, ±3, ±1/2, ±3/2.",
+        "memoryAnchor": "Remember: '± p/q, where p divides constant, q divides leading' – and always include both signs."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "List all possible rational roots for p(x)=2x^2+3x-2.",
+          "answer": "±1, ±2, ±1/2"
+        },
+        {
+          "level": "L2",
+          "prompt": "List all possible rational roots for p(x)=2x^3+3x^2-8x+3.",
+          "answer": "±1, ±3, ±1/2, ±3/2"
+        },
+        {
+          "level": "L3",
+          "prompt": "List all possible rational roots for p(x)=6x^3-5x^2-19x+10.",
+          "answer": "±1, ±2, ±5, ±10, ±1/2, ±5/2, ±1/3, ±2/3, ±5/3, ±10/3, ±1/6, ±5/6"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-remainder-theorem-evaluate-at-wrong-value",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "What value should be substituted into p(x) to find the remainder when dividing by x+5?",
+          "options": [
+            "5",
+            "-5",
+            "1/5",
+            "-1/5"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Find the remainder when p(x)=2x^3-4x^2+3x-1 is divided by 2x-3.",
+          "rubric": "Set divisor 2x-3=0 => x=3/2. Compute p(3/2)=2*(27/8)-4*(9/4)+3*(3/2)-1 = 27/4 - 9 + 9/2 - 1 = 27/4 - 36/4 + 18/4 - 4/4 = 5/4. Accept 5/4 or equivalent decimal."
+        }
+      ],
+      "passRule": "all correct"
+    },
+    {
+      "forErrorId": "err-factor-theorem-multiple-factors",
+      "questions": [
+        {
+          "id": "retest-err-factor-1",
+          "type": "single_choice",
+          "stem": "Which of the following is a factor of the polynomial p(x) = 2x^3 - 3x^2 - 3x + 2?",
+          "options": [
+            "x + 2",
+            "2x - 1",
+            "3x + 1",
+            "x - 1"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-factor-2",
+          "type": "open_ended",
+          "stem": "Factor the polynomial p(x) = 4x^3 + 4x^2 - x - 1 completely. Show all steps, including use of the Factor Theorem to verify any linear factors (both x - b and ax - b forms).",
+          "rubric": "Factors out GCF if any (none here). Tests possible rational roots: ±1, ±1/2, ±1/4. Finds p(-1)=0, so x+1 is a factor. Performs synthetic division by -1: coefficients 4,4,-1,-1 yields quotient 4x^2+0x-1 = 4x^2-1. Recognizes difference of squares: (2x-1)(2x+1). Writes complete factorization: (x+1)(2x-1)(2x+1). All steps clear."
+        }
+      ],
+      "passRule": "Answer all questions correctly."
+    },
+    {
+      "forErrorId": "err-rational-root-theorem-signs",
+      "questions": [
+        {
+          "id": "q1-rational-root-signs",
+          "type": "single_choice",
+          "stem": "Which of the following is the complete list of possible rational roots for the polynomial \\(2x^3 - 3x^2 + 4x - 6\\)?",
+          "options": [
+            "\\(\\pm 1, \\pm 2, \\pm 3, \\pm 6\\)",
+            "\\(\\pm 1, \\pm 2, \\pm 3, \\pm 6, \\pm \\frac12, \\pm \\frac32\\)",
+            "\\(1, 2, 3, 6, \\frac12, \\frac32\\)",
+            "\\(\\pm 1, \\pm 2, \\pm 3, \\pm 6, \\pm \\frac12, \\pm \\frac13, \\pm \\frac23, \\pm \\frac16\\)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-rational-root-list",
+          "type": "open_ended",
+          "stem": "List all possible rational roots (in lowest terms) for the polynomial \\(4x^3 - 2x^2 + 3x - 1\\). Include all positive and negative possibilities.",
+          "rubric": "The student must list all possible rational roots: ±1, ±1/2, ±1/4. Accept equivalent expressions (e.g., ±1/1, ±1/2, ±1/4). Missing any signs or any factors leads to incorrect."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-15",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/E32ad8QHxoILTbxiw7WcALCvnoe?from=vc_group_doc_link#doxcnl4OSrzhmNuj6SLxcAl798b",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-15 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "If polynomial p(x) is divided by x - b, the remainder equals p(b).；If polynomial p(x) is divided by ax - b, the remainder equals p(b/a).；x - b is a factor of p(x) if and only if p(b) = 0.",
+    "learningGoals": [
+      {
+        "id": "lg-remainder",
+        "statement": "Apply the Remainder Theorem to evaluate the remainder when a polynomial is divided by a linear binomial."
+      },
+      {
+        "id": "lg-factor",
+        "statement": "Use the Factor Theorem to determine whether a given binomial is a factor of a polynomial."
+      },
+      {
+        "id": "lg-rational-root",
+        "statement": "Apply the Rational Root Theorem to list all possible rational roots of a polynomial with integer coefficients."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Exit Card and Homework",
+        "studentAction": "Submit Unit 1 Lesson 6 exit card and assigned homework by end of today.",
+        "deadlineText": "End of today (2026-07-15)",
+        "deadlineISO": "2026-07-15T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students are required to submit the Unit 1 Lesson 6 exit card and assigned homework after the end of today's class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Answers for Problems 12 and 14",
+        "studentAction": "Review standard answers for homework problems 12 and 14 when released later today.",
+        "deadlineText": "Within same day (2026-07-15)",
+        "deadlineISO": "2026-07-15T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Standard answers for un-walked homework problems 12 and 14 will be shared with students within the same day after class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Next Class Content Preview",
+        "studentAction": "Prepare for upcoming lesson on polynomial factorization practice and basic function transformations.",
+        "deadlineText": "Next class (2026-07-16)",
+        "deadlineISO": "2026-07-16T07:58:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Tomorrow's Class Content: Additional polynomial factorization practice and basic function transformation content will be covered.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Quiz",
+        "studentAction": "Prepare for Unit 1 quiz on Friday.",
+        "deadlineText": "This Friday (2026-07-17)",
+        "deadlineISO": "2026-07-17T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The Unit 1 quiz will be held this Friday.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Final Test",
+        "studentAction": "Prepare for Unit 1 final test at end of next week.",
+        "deadlineText": "End of next week (approx. 2026-07-24)",
+        "deadlineISO": "2026-07-24T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "the Unit 1 final test is scheduled for the end of next week to avoid overloading students.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "Instructor Email Support",
+        "studentAction": "Email Taylor Cavers with any questions about course content or assignments.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students with questions about course content or assignments may contact the instructor via email for targeted support at any time.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "MHF4U-C-OE03-remainder-theorem",
+      "MHF4U-C-OE03-factor-theorem",
+      "MHF4U-C-OE03-rational-root-theorem",
+      "MHF4U-C-OE03-synthetic-division"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "errorId": "err-remainder-theorem-evaluate-at-wrong-value",
+        "condition": "Student selects the wrong remainder on Q1 (diagnostic question 1) because they evaluated at the wrong value.",
+        "systemAction": "assign reteach module for err-remainder-theorem-evaluate-at-wrong-value"
+      },
+      {
+        "errorId": "err-factor-theorem-multiple-factors",
+        "condition": "Student incorrectly determines whether a binomial is a factor on Q2, Q4, or related questions due to ignoring the ax-b form.",
+        "systemAction": "assign reteach module for err-factor-theorem-multiple-factors"
+      },
+      {
+        "errorId": "err-rational-root-theorem-signs",
+        "condition": "Student lists incomplete or incorrectly signed rational roots on Q3 or Q5.",
+        "systemAction": "assign reteach module for err-rational-root-theorem-signs"
+      }
+    ],
+    "nextActions": [
+      "[err-remainder-theorem-evaluate-at-wrong-value] Student selects the wrong remainder on Q1 (diagnostic question 1) because they evaluated at the wrong value.: You evaluated f(x) at the wrong x-value. Let's review how to apply the Remainder Theorem correctly.",
+      "[err-factor-theorem-multiple-factors] Student incorrectly determines whether a binomial is a factor on Q2, Q4, or related questions due to ignoring the ax-b form.: The Factor Theorem also works for divisors like ax-b. Let's practice both forms.",
+      "[err-rational-root-theorem-signs] Student lists incomplete or incorrectly signed rational roots on Q3 or Q5.: Remember to include ± signs and all factor combinations. Let's go over the Rational Root Theorem again."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-u1-0715-q1",
+        "type": "choice",
+        "question": "When dividing the polynomial p(x)=x^3+7x^2+2x-5 by x+7, what is the remainder according to the Remainder Theorem?",
+        "options": [
+          "-19",
+          "-5",
+          "0",
+          "19"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student substitutes the correct value (b) into p(x) when dividing by x-b.",
+        "misconceptions": [
+          "✓ Correct! p(-7) = (-7)^3 + 7(49) + 2(-7) -5 = -343 + 343 -14 -5 = -19, so remainder is -19.",
+          "You may have evaluated p(0) instead of p(-7). Remember to set x+7=0 to get x=-7.",
+          "The remainder is 0 only if x+7 is a factor. Here p(-7) ≠ 0, so remainder is not 0.",
+          "You might have forgotten the negative sign. p(-7) gives -19, not 19."
+        ],
+        "nodeId": "MHF4U-C-OE03-remainder-theorem",
+        "errorId": "err-remainder-theorem-evaluate-at-wrong-value",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-remainder",
+        "successCriteria": "Student correctly evaluates p(b) to find remainder when dividing by x-b.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Remainder Theorem is directly used in solving polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may substitute the wrong sign (e.g., use -b instead of b) or evaluate incorrectly.",
+        "remediationModule": "err-remainder-theorem-evaluate-at-wrong-value",
+        "retestItem": "retest-remainder"
+      },
+      {
+        "id": "diag-mhf4u-u1-0715-q2",
+        "type": "choice",
+        "question": "Which of the following binomials is a factor of the polynomial p(x)=12x^4-56x^3+59x^2+9x-18? (Hint: use the Factor Theorem, remembering to check both x-b and ax-b forms.)",
+        "options": [
+          "x+1",
+          "2x+1",
+          "x-2",
+          "2x-1"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can handle factor theorem with divisor ax-b (e.g., 2x+1).",
+        "misconceptions": [
+          "p(-1) ≠ 0, so x+1 is not a factor.",
+          "✓ Correct! p(-1/2)=0, so 2x+1 is a factor.",
+          "p(2) ≠ 0, so x-2 is not a factor.",
+          "p(1/2) ≠ 0, so 2x-1 is not a factor."
+        ],
+        "nodeId": "MHF4U-C-OE03-factor-theorem",
+        "errorId": "err-factor-theorem-multiple-factors",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-factor",
+        "successCriteria": "Student correctly determines whether a binomial of the form ax-b is a factor using the Factor Theorem.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Factor Theorem is a direct application of polynomial division concepts.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may only consider x-b form and ignore the coefficient, or incorrectly compute b/a.",
+        "remediationModule": "err-factor-theorem-multiple-factors",
+        "retestItem": "retest-factor"
+      },
+      {
+        "id": "diag-mhf4u-u1-0715-q3",
+        "type": "choice",
+        "question": "What is the complete list of possible rational roots for the polynomial p(x)=2x^3+3x^2-8x+3?",
+        "options": [
+          "±1, ±3",
+          "±1, ±3, ±1/2, ±3/2",
+          "1, 3, 1/2, 3/2",
+          "±1, ±1/2"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can generate the set of possible rational roots for a polynomial.",
+        "misconceptions": [
+          "You forgot the possible roots with denominator 2 (from leading coefficient).",
+          "✓ Correct! All combinations of factors of constant term 3 and factors of leading coefficient 2 with ± signs.",
+          "You missed the ± signs. Possible roots can be positive or negative.",
+          "You missed the factors of constant term 3 (i.e., ±3, ±3/2)."
+        ],
+        "nodeId": "MHF4U-C-OE03-rational-root-theorem",
+        "errorId": "err-rational-root-theorem-signs",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-rational-root",
+        "successCriteria": "Student correctly lists all possible rational roots including ± signs.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Rational Root Theorem is essential for solving polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student forgets to include ± signs or misses factors of constant term or leading coefficient.",
+        "remediationModule": "err-rational-root-theorem-signs",
+        "retestItem": "retest-rational-root"
+      }
+    ]
+  }
+}

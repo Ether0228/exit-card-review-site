@@ -1,0 +1,1429 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-13",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/N2iSdte9SorCzmxPMjtcoEtjnSh?from=vc_group_doc_link#doxcnZ2gi7dSewV7SkIKt5kfHub",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-13 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/N2iSdte9SorCzmxPMjtcoEtjnSh?from=vc_group_doc_link#doxcnZ2gi7dSewV7SkIKt5kfHub",
+    "title": "SPH3U.S6.Michael 2026-07-13 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/sph3u-s6-michael-2026-07-13/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-13",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-13",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson involves reviewing kinematic concepts, graph properties, worked examples, and introducing uniform acceleration equations. It is a structured instructional session with substantial academic content.",
+    "academicContentSignals": [
+      "Kinematic concept definitions (position, velocity, acceleration)",
+      "Position-time graph slope interpretation (steepness correlates with speed, sign indicates direction)",
+      "Velocity-time graph rules (speed from absolute value, area under curve equals displacement)",
+      "Acceleration-time graph rules (constant acceleration only, area equals change in velocity)",
+      "Two-phase constant velocity motion example (5 s at 5 m/s, then 3 s at -2 m/s, total displacement 19 m)",
+      "Segmented constant acceleration calculation (30 s, 2 s intervals, cumulative displacement at key points)",
+      "Introduction to 5 uniform acceleration equations (v = v₀ + aΔt, etc.)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low; the lesson is primarily instructional with no significant operational or logistical content that would overshadow academic learning.",
+    "opsItems": [],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Position、Velocity、Acceleration、Position-Time Graph Properties）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 7 个知识节点之间可能存在 7 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Position is an object's specific location relative to a reference point.；Velocity is a vector quantity calculated as the rate of change of position over time (Δx/Δt). Positive/negative sign indicates direction.；Acceleration is a vector quantity calculated as the rate of change of velocity over time (Δv/Δt).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Distinguish between position and displacement, and correctly define velocity and acceleration as vector quantities."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Interpret position-time graphs: slope steepness indicates speed, sign indicates direction."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Interpret velocity-time graphs: area under the curve equals displacement, absolute value equals speed."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Recognize that acceleration-time graphs in Grade 11 only cover constant acceleration."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Select and apply the five uniform acceleration equations to solve motion problems."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "node-position",
+      "name": "Position",
+      "nameEn": "Position",
+      "definition": "An object's specific location relative to a pre-specified reference point.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "node-velocity",
+      "name": "Velocity",
+      "nameEn": "Velocity",
+      "definition": "A vector quantity calculated as the rate of change of position over time (Δx/Δt). Positive/negative sign indicates movement direction relative to the reference axis.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "node-acceleration",
+      "name": "Acceleration",
+      "nameEn": "Acceleration",
+      "definition": "A vector quantity calculated as the rate of change of velocity over time (Δv/Δt).",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "node-pt-graph",
+      "name": "Position-Time Graph Properties",
+      "nameEn": "Position-Time Graph Properties",
+      "definition": "Slope steepness correlates to speed (steeper = faster). Slope sign indicates direction (positive = forward, negative = reverse).",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "node-vt-graph",
+      "name": "Velocity-Time Graph Properties",
+      "nameEn": "Velocity-Time Graph Properties",
+      "definition": "Speed is absolute value of velocity. Area under the curve equals total displacement.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "node-at-graph",
+      "name": "Acceleration-Time Graph Properties",
+      "nameEn": "Acceleration-Time Graph Properties",
+      "definition": "Only constant acceleration scenarios are covered. Area under the curve equals total change in velocity.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "node-uniform-equations",
+      "name": "Uniform Acceleration Equations",
+      "nameEn": "Uniform Acceleration Equations",
+      "definition": "Five core equations derived from acceleration definition and area under v-t graph: v = v₀ + at, Δd = v₀t + ½aΔt², Δd = (v+v₀)/2 * Δt, v² = v₀² + 2aΔd, Δd = vt - ½aΔt².",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    }
+  ],
+  "diagnosticCard": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-13",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between position and displacement, and correctly define velocity and acceleration as vector quantities."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Interpret position-time graphs: slope steepness indicates speed, sign indicates direction."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Interpret velocity-time graphs: area under the curve equals displacement, absolute value equals speed."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recognize that acceleration-time graphs in Grade 11 only cover constant acceleration."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Select and apply the five uniform acceleration equations to solve motion problems."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-position-displacement-confusion",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q1",
+        "systemAction": "assign reteach module for err-position-displacement-confusion",
+        "studentMessage": "You confused position with displacement. Position is relative to a reference point; displacement is the change in position."
+      },
+      {
+        "errorId": "err-velocity-sign-speed",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q2",
+        "systemAction": "assign reteach module for err-velocity-sign-speed",
+        "studentMessage": "A negative velocity does not mean slow; it only indicates direction. Speed is the magnitude."
+      },
+      {
+        "errorId": "err-acceleration-dv-over-dt",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q3",
+        "systemAction": "assign reteach module for err-acceleration-dv-over-dt",
+        "studentMessage": "Acceleration is the rate of change of velocity, not position. Make sure to use ∆v/∆t."
+      },
+      {
+        "errorId": "err-pt-graph-slope-interpretation",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q4",
+        "systemAction": "assign reteach module for err-pt-graph-slope-interpretation",
+        "studentMessage": "On a position-time graph, slope sign tells direction, not speed. Steepness tells speed."
+      },
+      {
+        "errorId": "err-vt-area-misuse",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q5",
+        "systemAction": "assign reteach module for err-vt-area-misuse",
+        "studentMessage": "The area under a velocity-time graph gives displacement, not necessarily total distance traveled."
+      },
+      {
+        "errorId": "err-at-constant-only",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q6",
+        "systemAction": "assign reteach module for err-at-constant-only",
+        "studentMessage": "In Grade 11, acceleration-time graphs only show constant acceleration. Non-constant acceleration is beyond the scope."
+      },
+      {
+        "errorId": "err-equations-applicability",
+        "condition": "student gives incomplete answer on diag-sph3u-u1-0713-q7",
+        "systemAction": "assign reteach module for err-equations-applicability",
+        "studentMessage": "The five equations of motion only apply when acceleration is uniform (constant)."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-u1-0713-q1",
+        "nodeId": "node-position",
+        "errorId": "err-position-displacement-confusion",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies position as a coordinate relative to a reference point, not a change in location.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Position is a fundamental concept of understanding motion in one dimension.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student distinguishes between position (location relative to origin) and displacement (change in position).",
+        "commonMisconception": "Students may think displacement equals position or that position requires displacement to be measured.",
+        "remediationModule": "err-position-displacement-confusion",
+        "retestItem": "err-position-displacement-confusion",
+        "stem": "A car starts at a reference point and moves to a point 10 m east. Which statement is correct?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The car's final position is 10 m east of the reference point.",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "The car's displacement is 0 m because it started at the reference point.",
+            "correct": false,
+            "feedbackWrong": "Displacement is change in position, not absolute location. The car moved, so displacement is 10 m east."
+          },
+          {
+            "label": "C",
+            "text": "The car's position cannot be determined without knowing the distance traveled.",
+            "correct": false,
+            "feedbackWrong": "Position is defined relative to a reference point; here the final position is known as 10 m east from the origin."
+          },
+          {
+            "label": "D",
+            "text": "The car's final position is 10 m, and displacement is also 10 m so they are the same quantity.",
+            "correct": false,
+            "feedbackWrong": "Though numerically equal in this case, position is a coordinate, and displacement is a vector change. They are conceptually different."
+          }
+        ],
+        "figureSvg": null,
+        "figureAlt": null,
+        "figureCaption": null
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q2",
+        "nodeId": "node-velocity",
+        "errorId": "err-velocity-sign-speed",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Recognizes that negative velocity indicates direction, not that the object is moving slowly.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Velocity as a vector quantity with sign indicating direction.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student interprets negative velocity as direction only, not as 'slower'.",
+        "commonMisconception": "Thinking a negative velocity means the object is decelerating or moving slowly.",
+        "remediationModule": "err-velocity-sign-speed",
+        "retestItem": "err-velocity-sign-speed",
+        "stem": "A car has a velocity of -5 m/s. What does this tell you about its motion?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The car is moving backwards at 5 m/s.",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "The car is moving slowly because the value is negative.",
+            "correct": false,
+            "feedbackWrong": "The magnitude is 5 m/s, so speed is 5 m/s. Negative sign indicates direction, not slowness."
+          },
+          {
+            "label": "C",
+            "text": "The car is decelerating.",
+            "correct": false,
+            "feedbackWrong": "Velocity sign does not indicate acceleration. Velocity is constant here; deceleration requires a change in velocity."
+          },
+          {
+            "label": "D",
+            "text": "The car's speed is -5 m/s.",
+            "correct": false,
+            "feedbackWrong": "Speed is a scalar and is always non-negative. The speed is 5 m/s, not -5 m/s."
+          }
+        ],
+        "figureSvg": null,
+        "figureAlt": null,
+        "figureCaption": null
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q3",
+        "nodeId": "node-acceleration",
+        "errorId": "err-acceleration-dv-over-dt",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly defines acceleration as change in velocity over time, not change in position over time.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Acceleration is a key concept in understanding motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows the correct formula for acceleration (∆v/∆t) not (∆x/∆t).",
+        "commonMisconception": "Confusing acceleration with velocity; thinking acceleration is rate of change of position.",
+        "remediationModule": "err-acceleration-dv-over-dt",
+        "retestItem": "err-acceleration-dv-over-dt",
+        "stem": "Acceleration is calculated as:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Change in velocity divided by time interval",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "Change in position divided by time interval",
+            "correct": false,
+            "feedbackWrong": "That is average velocity, not acceleration."
+          },
+          {
+            "label": "C",
+            "text": "Final velocity divided by time",
+            "correct": false,
+            "feedbackWrong": "Acceleration depends on change in velocity, not just final velocity."
+          },
+          {
+            "label": "D",
+            "text": "Speed divided by time",
+            "correct": false,
+            "feedbackWrong": "Speed is scalar; acceleration is vector and uses velocity."
+          }
+        ],
+        "figureSvg": null,
+        "figureAlt": null,
+        "figureCaption": null
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q4",
+        "nodeId": "node-pt-graph",
+        "errorId": "err-pt-graph-slope-interpretation",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Interprets slope sign as direction and steepness as speed on a position-time graph.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Position-time graph analysis is part of investigating motion.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student correctly interprets slope on a position-time graph as velocity, not speed.",
+        "commonMisconception": "Thinking a negative slope means slower speed rather than opposite direction.",
+        "remediationModule": "err-pt-graph-slope-interpretation",
+        "retestItem": "err-pt-graph-slope-interpretation",
+        "stem": "In a position-time graph, a line with a negative slope indicates:",
+        "options": [
+          {
+            "label": "A",
+            "text": "The object is moving backwards (opposite direction).",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "The object is moving slower than if the slope were positive.",
+            "correct": false,
+            "feedbackWrong": "Speed is related to absolute slope value, not sign. A steep negative slope means fast backwards motion."
+          },
+          {
+            "label": "C",
+            "text": "The object is decelerating.",
+            "correct": false,
+            "feedbackWrong": "Slope indicates velocity, not acceleration. Deceleration would appear as curvature."
+          },
+          {
+            "label": "D",
+            "text": "The object is at rest.",
+            "correct": false,
+            "feedbackWrong": "A horizontal line indicates rest; a negative slope means motion."
+          }
+        ],
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='150'><g transform='translate(20,20)'><line x1='0' y1='100' x2='160' y2='100' stroke='black' stroke-width='1'/><line x1='0' y1='0' x2='0' y2='100' stroke='black' stroke-width='1'/><text x='-10' y='10' font-size='10'>x</text><text x='80' y='115' font-size='10'>t</text><line x1='20' y1='40' x2='140' y2='80' stroke='red' stroke-width='2'/></g></svg>",
+        "figureAlt": "Position-time graph with a straight line having negative slope, starting high on the left and ending low on the right.",
+        "figureCaption": "A position-time graph showing an object moving backward (negative velocity)."
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q5",
+        "nodeId": "node-vt-graph",
+        "errorId": "err-vt-area-misuse",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Identifies that area under velocity-time graph gives displacement, not distance.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Velocity-time graph interpretation is essential for problem solving.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows that area under v-t graph gives displacement (a vector), not necessarily total distance.",
+        "commonMisconception": "Thinking area under v-t graph always gives distance traveled, neglecting sign cancellation.",
+        "remediationModule": "err-vt-area-misuse",
+        "retestItem": "err-vt-area-misuse",
+        "stem": "The area under a velocity-time graph represents:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Displacement of the object.",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "Total distance traveled by the object.",
+            "correct": false,
+            "feedbackWrong": "Displacement considers direction; area above axis is positive, below negative. Distance would be sum of absolute areas."
+          },
+          {
+            "label": "C",
+            "text": "Acceleration of the object.",
+            "correct": false,
+            "feedbackWrong": "Acceleration is slope of v-t graph, not area."
+          },
+          {
+            "label": "D",
+            "text": "Change in velocity of the object.",
+            "correct": false,
+            "feedbackWrong": "Change in velocity is area under acceleration-time graph, not velocity-time graph."
+          }
+        ],
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='150'><g transform='translate(20,20)'><line x1='0' y1='100' x2='160' y2='100' stroke='black' stroke-width='1'/><line x1='0' y1='0' x2='0' y2='100' stroke='black' stroke-width='1'/><text x='-10' y='10' font-size='10'>v</text><text x='80' y='115' font-size='10'>t</text><line x1='20' y1='40' x2='140' y2='40' stroke='blue' stroke-width='2'/><rect x='20' y='40' width='120' height='60' fill='rgba(0,0,255,0.1)' stroke='blue' stroke-dasharray='4'/></g></svg>",
+        "figureAlt": "Velocity-time graph with a horizontal line above the time axis, showing constant positive velocity. The area under the graph is shaded as a rectangle.",
+        "figureCaption": "A velocity-time graph where the shaded area under the curve represents displacement."
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q6",
+        "nodeId": "node-at-graph",
+        "errorId": "err-at-constant-only",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Recognizes that a-t graphs in Grade 11 are limited to constant acceleration scenarios.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Acceleration-time graph analysis is part of investigating motion, but scope is restricted.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student knows the grade-level scope: only constant acceleration a-t graphs.",
+        "commonMisconception": "Assuming that any shape of a-t graph is covered in Grade 11.",
+        "remediationModule": "err-at-constant-only",
+        "retestItem": "err-at-constant-only",
+        "stem": "In Grade 11 Physics, acceleration-time graphs typically show:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Constant acceleration only.",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "Any type of acceleration, including changing acceleration.",
+            "correct": false,
+            "feedbackWrong": "Non-constant acceleration is not covered in the Grade 11 curriculum."
+          },
+          {
+            "label": "C",
+            "text": "Only positive acceleration.",
+            "correct": false,
+            "feedbackWrong": "Acceleration can be negative (deceleration) even with constant acceleration."
+          },
+          {
+            "label": "D",
+            "text": "Acceleration as a function of time with linear changes.",
+            "correct": false,
+            "feedbackWrong": "That would be non-constant acceleration, which is beyond the scope."
+          }
+        ],
+        "figureSvg": null,
+        "figureAlt": null,
+        "figureCaption": null
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q7",
+        "nodeId": "node-uniform-equations",
+        "errorId": "err-equations-applicability",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-5",
+        "successCriteria": "States that the five equations of motion only apply when acceleration is constant (uniform).",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the condition for using uniform acceleration equations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "justify",
+        "stemIntent": "Check if student recognizes the limitation of the five equations: they are only valid for constant acceleration.",
+        "commonMisconception": "Applying the equations to non-uniform acceleration without recognizing they are not valid.",
+        "remediationModule": "err-equations-applicability",
+        "retestItem": "err-equations-applicability",
+        "stem": "Explain under what condition the five core equations for uniform acceleration (e.g., v = v₀ + at, Δd = v₀t + ½at²) are valid. Why is that condition necessary?",
+        "rubric": "Full credit: states that acceleration must be constant (uniform). Briefly explains that the equations derive from constant acceleration; if acceleration changes, these equations cannot be applied directly.",
+        "sampleStrongAnswer": "These equations are only valid when acceleration is constant (uniform). The derivation relies on a constant rate of change of velocity; if acceleration varies, the formulas no longer hold because they assume a constant slope on the v-t graph.",
+        "figureSvg": null,
+        "figureAlt": null,
+        "figureCaption": null
+      }
+    ],
+    "retestCards": [
+      {
+        "forErrorId": "err-position-displacement-confusion",
+        "questions": [
+          {
+            "type": "single_choice",
+            "stem": "A student walks 5 m east from the classroom door. The door is the reference point. What is the student's final position?",
+            "options": [
+              "0 m",
+              "5 m east",
+              "5 m",
+              "Displacement is 5 m east"
+            ],
+            "correct": 1,
+            "rubric": null
+          }
+        ],
+        "passRule": "1/1 correct"
+      },
+      {
+        "forErrorId": "err-velocity-sign-speed",
+        "questions": [
+          {
+            "type": "single_choice",
+            "stem": "A car has a velocity of -20 m/s. Which statement is true?",
+            "options": [
+              "It is moving backwards at 20 m/s.",
+              "It is moving slowly.",
+              "Its speed is -20 m/s.",
+              "It is decelerating."
+            ],
+            "correct": 0,
+            "rubric": null
+          }
+        ],
+        "passRule": "1/1 correct"
+      },
+      {
+        "forErrorId": "err-acceleration-dv-over-dt",
+        "questions": [
+          {
+            "type": "single_choice",
+            "stem": "Acceleration is defined as:",
+            "options": [
+              "Displacement per time",
+              "Change in velocity per time",
+              "Force per mass",
+              "Speed per time"
+            ],
+            "correct": 1,
+            "rubric": null
+          }
+        ],
+        "passRule": "1/1 correct"
+      },
+      {
+        "forErrorId": "err-pt-graph-slope-interpretation",
+        "questions": [
+          {
+            "type": "single_choice",
+            "stem": "On a position-time graph, a steeper positive slope compared to a less steep positive slope indicates:",
+            "options": [
+              "Higher speed",
+              "Lower speed",
+              "Same speed",
+              "Acceleration"
+            ],
+            "correct": 0,
+            "rubric": null
+          }
+        ],
+        "passRule": "1/1 correct"
+      },
+      {
+        "forErrorId": "err-vt-area-misuse",
+        "questions": [
+          {
+            "type": "single_choice",
+            "stem": "A velocity-time graph has a triangle above the axis and a triangle of equal area below the axis. The total displacement is:",
+            "options": [
+              "Equal to the sum of both areas",
+              "Zero",
+              "Negative",
+              "Cannot be determined"
+            ],
+            "correct": 1,
+            "rubric": null
+          }
+        ],
+        "passRule": "1/1 correct"
+      },
+      {
+        "forErrorId": "err-at-constant-only",
+        "questions": [
+          {
+            "type": "single_choice",
+            "stem": "In Grade 11, acceleration-time graphs are:",
+            "options": [
+              "Always horizontal lines",
+              "Only for constant acceleration",
+              "Represent any acceleration pattern",
+              "Always linear"
+            ],
+            "correct": 1,
+            "rubric": null
+          }
+        ],
+        "passRule": "1/1 correct"
+      },
+      {
+        "forErrorId": "err-equations-applicability",
+        "questions": [
+          {
+            "type": "single_choice",
+            "stem": "The equation v² = v₀² + 2aΔd can be used when:",
+            "options": [
+              "Acceleration is constant",
+              "Initial velocity is zero",
+              "Motion is one-dimensional",
+              "All of the above"
+            ],
+            "correct": 0,
+            "rubric": null
+          }
+        ],
+        "passRule": "1/1 correct"
+      }
+    ],
+    "passRule": {
+      "pass": "6-7 correct (including open-ended evaluated by rubric)",
+      "targetedRemediation": "4-5 correct",
+      "reteach": "0-3 correct"
+    }
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-position-displacement-confusion",
+      "condition": "student picks wrong option on diag-sph3u-u1-0713-q1",
+      "systemAction": "assign reteach module for err-position-displacement-confusion",
+      "studentMessage": "You confused position with displacement. Position is relative to a reference point; displacement is the change in position."
+    },
+    {
+      "errorId": "err-velocity-sign-speed",
+      "condition": "student picks wrong option on diag-sph3u-u1-0713-q2",
+      "systemAction": "assign reteach module for err-velocity-sign-speed",
+      "studentMessage": "A negative velocity does not mean slow; it only indicates direction. Speed is the magnitude."
+    },
+    {
+      "errorId": "err-acceleration-dv-over-dt",
+      "condition": "student picks wrong option on diag-sph3u-u1-0713-q3",
+      "systemAction": "assign reteach module for err-acceleration-dv-over-dt",
+      "studentMessage": "Acceleration is the rate of change of velocity, not position. Make sure to use ∆v/∆t."
+    },
+    {
+      "errorId": "err-pt-graph-slope-interpretation",
+      "condition": "student picks wrong option on diag-sph3u-u1-0713-q4",
+      "systemAction": "assign reteach module for err-pt-graph-slope-interpretation",
+      "studentMessage": "On a position-time graph, slope sign tells direction, not speed. Steepness tells speed."
+    },
+    {
+      "errorId": "err-vt-area-misuse",
+      "condition": "student picks wrong option on diag-sph3u-u1-0713-q5",
+      "systemAction": "assign reteach module for err-vt-area-misuse",
+      "studentMessage": "The area under a velocity-time graph gives displacement, not necessarily total distance traveled."
+    },
+    {
+      "errorId": "err-at-constant-only",
+      "condition": "student picks wrong option on diag-sph3u-u1-0713-q6",
+      "systemAction": "assign reteach module for err-at-constant-only",
+      "studentMessage": "In Grade 11, acceleration-time graphs only show constant acceleration. Non-constant acceleration is beyond the scope."
+    },
+    {
+      "errorId": "err-equations-applicability",
+      "condition": "student gives incomplete answer on diag-sph3u-u1-0713-q7",
+      "systemAction": "assign reteach module for err-equations-applicability",
+      "studentMessage": "The five equations of motion only apply when acceleration is uniform (constant)."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-position-displacement-confusion",
+      "trigger": "Student picked wrong option on diag-sph3u-u1-0713-q1",
+      "studentMisunderstanding": "Confusing position with displacement; thinking position is the same as displacement or that it requires movement.",
+      "miniLesson": {
+        "explain": "Position is an object's specific location relative to a reference point. It is like a coordinate on a number line. Displacement is the change in position, a vector from start to finish. They are only equal if the object starts at the reference point and moves in a straight line without changing direction, but they are different concepts.",
+        "example": "A student stands at the classroom door (reference point). They walk 5 m east to a desk. Their final position is 5 m east of the door; displacement is also 5 m east. If they then walk back to the door, final position is 0 m (at door), but displacement is -5 m east (or 5 m west) because they returned to start.",
+        "memoryAnchor": "Position = 'You are here on a map.' Displacement = 'How far and in what direction you moved from start.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A soccer player kicks a ball 36 m east from the goal line. The goal line is the reference point. What is the ball's final position?",
+          "answer": "36 m east of the goal line."
+        },
+        {
+          "level": "L2",
+          "prompt": "A delivery drone starts at a warehouse (reference point). It flies 36 m north, then 18 m south. What is its final position?",
+          "answer": "18 m north of the warehouse."
+        },
+        {
+          "level": "L3",
+          "prompt": "A robot moves east at 5 m/s for 5 s, then immediately moves at -2 m/s for 3 s. What is its final position relative to its starting point?",
+          "answer": "19 m east of its starting point."
+        }
+      ]
+    },
+    {
+      "errorId": "err-velocity-sign-speed",
+      "trigger": "The student selected a wrong answer on diagnostic question diag-sph3u-u1-0713-q2, indicating they think a negative velocity means slower speed.",
+      "studentMisunderstanding": "The student believes that a negative sign on velocity indicates a slower speed, when actually the sign only indicates direction and speed is the absolute value (magnitude).",
+      "miniLesson": {
+        "explain": "Velocity is a vector: its sign (+ or -) tells you the direction of motion, not how fast. Speed is the magnitude (absolute value) of velocity. For example, a velocity of -2 m/s means the object is moving at 2 m/s in the negative direction – it is not 'slow' just because it's negative. A velocity of 5 m/s has a speed of 5 m/s, which is faster than 2 m/s regardless of sign.",
+        "example": "A car moving at -2 m/s has a speed of 2 m/s. A car moving at 5 m/s has a speed of 5 m/s. The car with velocity 5 m/s is faster, even though its sign is positive. The negative sign only tells you the direction is opposite to the chosen reference.",
+        "memoryAnchor": "Think of the sign as an arrow showing direction (e.g., left or right). The number is how fast you go. A negative number does not mean 'slow'; it means 'the other way'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A car has a velocity of -2 m/s. What is its speed?",
+          "answer": "2 m/s"
+        },
+        {
+          "level": "L2",
+          "prompt": "Which car is moving faster: one with velocity 5 m/s or one with velocity -2 m/s? Explain.",
+          "answer": "The car with velocity 5 m/s is faster. Speed is the absolute value: 5 m/s vs 2 m/s. The negative sign only indicates direction, not speed."
+        },
+        {
+          "level": "L3",
+          "prompt": "On a velocity-time graph, a horizontal line at -2 m/s is shown. Compare its speed to a horizontal line at 5 m/s. Which line represents faster motion? Use the idea of sign and magnitude.",
+          "answer": "The line at 5 m/s represents faster motion because its speed (magnitude) is 5 m/s, while the line at -2 m/s has speed 2 m/s. The negative sign does not make it slower; it just indicates the opposite direction."
+        }
+      ]
+    },
+    {
+      "errorId": "err-acceleration-dv-over-dt",
+      "trigger": "Student selected incorrect definition of acceleration (change in position over time) on diagnostic question diag-sph3u-u1-0713-q3.",
+      "studentMisunderstanding": "Misapplying acceleration as change in position over time (Δx/Δt) instead of change in velocity over time (Δv/Δt).",
+      "miniLesson": {
+        "explain": "Acceleration is a vector quantity that measures how quickly velocity changes. It is calculated using the formula a = Δv/Δt, where Δv is the change in velocity and Δt is the time interval. This is different from velocity, which is the rate of change of position (Δx/Δt). So, acceleration tells you how much your speed or direction changes each second.",
+        "example": "A car's velocity changes from 5 m/s to -2 m/s in 3 s. The acceleration is a = ( -2 m/s - 5 m/s ) / 3 s = -7 m/s / 3 s ≈ -2.33 m/s². The negative sign indicates acceleration opposite to the initial direction.",
+        "memoryAnchor": "Acceleration = Δv/Δt, not Δx/Δt. Think 'v-change over time' — v-change is the difference in velocity, not position."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the correct formula for acceleration?",
+          "answer": "a = Δv/Δt"
+        },
+        {
+          "level": "L2",
+          "prompt": "A car's velocity changes from 5 m/s to -2 m/s in 3 s. Calculate the acceleration.",
+          "answer": "a = ( -2 - 5 ) / 3 = -7/3 ≈ -2.33 m/s²"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the statement 'Acceleration is the rate of change of position over time' is incorrect.",
+          "answer": "That statement defines velocity, not acceleration. Acceleration is the rate of change of velocity over time (Δv/Δt). Position change over time is velocity, which is a different concept."
+        }
+      ]
+    },
+    {
+      "errorId": "err-pt-graph-slope-interpretation",
+      "trigger": "Student answered incorrectly on diag-sph3u-u1-0713-q4, confusing slope sign with speed.",
+      "studentMisunderstanding": "The student thinks the sign of the slope on a position-time graph indicates speed, rather than direction. They may believe a negative slope means the object is moving slowly, when speed is given by the absolute value of the slope.",
+      "miniLesson": {
+        "explain": "On a position-time graph, the slope represents velocity. The steepness of the slope (magnitude) tells you the speed: a steeper slope means higher speed. The sign of the slope (+ or -) tells you the direction of motion: positive slope means forward, negative slope means backward. A common mistake is to think a negative slope means slow motion; actually, a steep negative slope means fast backward motion.",
+        "example": "Consider a graph with two segments: from t=0 to 5 s, the slope is +5 m/s (steep positive). From t=5 to 8 s, the slope is -2 m/s (gentle negative). The speed during the first segment is 5 m/s, during the second is 2 m/s. The second segment has a negative slope but lower speed. So sign indicates direction, not speed.",
+        "memoryAnchor": "Slope sign tells direction; slope steepness tells speed."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A position-time graph shows a line with a positive slope. What does the positive sign indicate? Choose one: a. The object is moving fast. b. The object is moving forward. c. The object is at rest.",
+          "answer": "b. The object is moving forward. The positive sign indicates direction, not speed. Speed is determined by how steep the line is."
+        },
+        {
+          "level": "L2",
+          "prompt": "Consider a position-time graph with two lines: line A has a slope of +3 m/s, line B has a slope of -5 m/s. Which line represents a higher speed? Explain.",
+          "answer": "Line B has a higher speed because the magnitude (absolute value) of its slope is 5 m/s, which is greater than 3 m/s. The negative sign only indicates that line B is moving backward. So line B is faster, despite being negative."
+        },
+        {
+          "level": "L3",
+          "prompt": "An object moves in two segments: first 5 s at +5 m/s, then 3 s at -2 m/s. What is the total displacement? Which segment had greater speed? Explain.",
+          "answer": "Displacement = (5 m/s × 5 s) + (-2 m/s × 3 s) = 25 m - 6 m = 19 m. The first segment had greater speed (5 m/s > 2 m/s). Speed is the absolute slope value, not the sign. The first segment's positive slope is steeper, so higher speed."
+        }
+      ]
+    },
+    {
+      "errorId": "err-vt-area-misuse",
+      "trigger": "Student selects option that says area under v-t graph equals distance rather than displacement.",
+      "studentMisunderstanding": "The student mistakenly thinks the area under a velocity-time graph always gives the total distance traveled, ignoring that areas below the axis (negative velocity) represent motion in the opposite direction and should be subtracted to find displacement.",
+      "miniLesson": {
+        "explain": "The area under a velocity-time graph represents displacement, which is the net change in position, not the total distance traveled. Displacement accounts for direction: areas above the time axis are positive (forward motion), areas below are negative (backward motion). Distance would be the sum of the absolute values of these areas.",
+        "example": "Consider an object moving at 5 m/s for 30 s (forward) then at -2 m/s for 30 s (backward). The displacement is (5 m/s × 30 s) + (-2 m/s × 30 s) = 150 m - 60 m = 90 m. The total distance traveled is |5|×30 + |-2|×30 = 150 + 60 = 210 m. Notice displacement (90 m) is not the same as distance (210 m).",
+        "memoryAnchor": "Area under v-t = Δx (displacement), not total distance. Remember: + and - cancel; for distance, use absolute values."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What does the area under a velocity-time graph represent?",
+          "answer": "Displacement"
+        },
+        {
+          "level": "L2",
+          "prompt": "An object moves at 4 m/s for 10 s, then at -3 m/s for 5 s. Calculate the displacement.",
+          "answer": "4×10 + (-3)×5 = 40 - 15 = 25 m"
+        },
+        {
+          "level": "L3",
+          "prompt": "An object moves at 6 m/s for 2 s, then at -4 m/s for 3 s, then at 0 m/s for 1 s. What is the displacement and total distance?",
+          "answer": "Displacement: (6×2) + (-4×3) + (0×1) = 12 - 12 + 0 = 0 m. Total distance: |6|×2 + |-4|×3 + |0|×1 = 12 + 12 + 0 = 24 m"
+        }
+      ]
+    },
+    {
+      "errorId": "err-at-constant-only",
+      "trigger": "diagnosis question diag-sph3u-u1-0713-q6 answered incorrectly",
+      "studentMisunderstanding": "Assuming acceleration-time graphs in Grade 11 can show non-constant acceleration.",
+      "miniLesson": {
+        "explain": "In Grade 11 Physics, acceleration-time graphs only cover scenarios where acceleration is constant. The graph is a horizontal line. The area under the graph equals the total change in velocity.",
+        "example": "Consider the segment where an object moves at constant velocity -2 m/s for 3 s. Its acceleration is constant at 0 m/s². The a-t graph is a horizontal line at a=0. The area under that line (height 0 times width 3 s) is 0 m/s, which equals the change in velocity (since velocity is constant).",
+        "memoryAnchor": "Grade 11 a-t graphs are always flat lines – constant acceleration only."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What shape does an acceleration-time graph have in Grade 11 Physics?",
+          "answer": "A horizontal line (constant acceleration)."
+        },
+        {
+          "level": "L2",
+          "prompt": "If an object has a constant acceleration of 0 m/s² for 3 s, what is the change in velocity?",
+          "answer": "0 m/s."
+        },
+        {
+          "level": "L3",
+          "prompt": "Describe the motion of an object whose acceleration-time graph is a horizontal line at a = 0 for a time interval of 3 s.",
+          "answer": "The object moves with constant velocity (zero acceleration) during that interval."
+        }
+      ]
+    },
+    {
+      "errorId": "err-equations-applicability",
+      "trigger": "The five equations of motion only apply when acceleration is uniform (constant).",
+      "studentMisunderstanding": "The five core equations for uniform acceleration (v = v₀ + at, Δd = v₀t + ½aΔt², etc.) are applied to situations where acceleration is not constant, leading to incorrect results. Students may think these equations always work regardless of the motion's nature.",
+      "miniLesson": {
+        "explain": "The five kinematic equations are derived assuming constant acceleration (uniform). If acceleration changes over time, these equations no longer accurately describe the motion. For example, in a velocity-time graph, the equations assume a straight line (constant slope). If acceleration varies, the graph curves, and the simple formulas fail.",
+        "example": "Consider an object moving at 5 m/s for 3 s, then instantly switching to -2 m/s for 3 s. The acceleration is not constant (infinite at the switch). Using Δd = v₀t + ½aΔt² for the entire 6 s would be invalid. Only the total displacement of 19 m can be computed piecewise (5 m/s for 3 s gives 15 m, then -2 m/s for 3 s gives -6 m, total 9 m? Wait, 15 + (-6) = 9 m, but lesson says total displacement 19 m? Actually from lesson: 5 s at 5 m/s then 3 s at -2 m/s gives 25 - 6 = 19 m. But using 3 s each: 15 - 6 = 9 m. So the example is different. I'll use the lesson's two-phase: 5 s at 5 m/s gives 25 m, 3 s at -2 m/s gives -6 m, sum 19 m. The acceleration is zero in each phase but changes at the boundary, so not uniform overall.",
+        "memoryAnchor": "Remember: U.A. only! The five equations are only for Uniform Acceleration."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Under what condition can you use the five kinematic equations (e.g., v = v₀ + at, Δd = v₀t + ½aΔt²)?",
+          "answer": "Acceleration must be constant (uniform)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A car travels at 5 m/s for 3 s, then instantly changes to -2 m/s for another 3 s. Can you use the equation Δd = v₀t + ½aΔt² for the entire 6 s motion? Explain why or why not.",
+          "answer": "No, because the acceleration is not constant. During the first 3 s, acceleration is 0 m/s²; during the last 3 s, acceleration is also 0 m/s², but at the instant of change, acceleration is undefined (infinite). The overall acceleration is not uniform, so the equation does not apply to the full interval."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given that an object experiences constant acceleration and its displacement over 30 s is 90 m, and its initial velocity is 6 m/s, calculate the acceleration using an appropriate equation. (Use numbers from the lesson: 90 m, 30 s, 6 m/s.)",
+          "answer": "Using Δd = v₀t + ½aΔt²: 90 = 6*30 + ½a*(30)² = 180 + ½a*900 = 180 + 450a. So 90 - 180 = -90 = 450a, thus a = -90/450 = -0.2 m/s². (Note: The numbers are from the lesson's segmented motion, but this example assumes constant acceleration from the start. The answer is consistent with the data.)"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-position-displacement-confusion",
+      "questions": [
+        {
+          "id": "retest-position-1",
+          "type": "single_choice",
+          "stem": "A cat is initially 6 m east of a fire hydrant (reference point). It then runs another 18 m east. What is the cat's final position?",
+          "options": [
+            "6 m east",
+            "12 m east",
+            "18 m east",
+            "24 m east"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "retest-position-2",
+          "type": "open_ended",
+          "stem": "In the same scenario, what is the cat's displacement? In one sentence, explain how displacement differs from position.",
+          "rubric": "Displacement is 18 m east. Position is the location relative to a reference point (final position 24 m east), while displacement is the change in position (18 m east). They are different because position depends on the initial location relative to the reference, whereas displacement only depends on the movement."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly: single choice correct and open-ended answer must state displacement = 18 m east and at least mention that position is location relative to a reference while displacement is change in position."
+    },
+    {
+      "forErrorId": "err-velocity-sign-speed",
+      "questions": [
+        {
+          "id": "rc-vel-sign-1",
+          "type": "single_choice",
+          "stem": "A car has a velocity of -2 m/s. What is its speed?",
+          "options": [
+            "-2 m/s",
+            "0 m/s",
+            "2 m/s",
+            "Cannot determine from the sign"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "rc-vel-sign-2",
+          "type": "open_ended",
+          "stem": "In a two-phase motion, an object moves at 5 m/s for 5 seconds, then at -2 m/s for 3 seconds. Compare the speeds during the two phases. Is the negative velocity slower? Explain using the concepts of velocity and speed.",
+          "rubric": "The student must state: Speed is the magnitude (absolute value) of velocity. During the first phase, speed = 5 m/s; during the second phase, speed = 2 m/s. Therefore, the first phase is faster. The negative sign in -2 m/s only indicates direction, not speed."
+        }
+      ],
+      "passRule": "All questions must be answered correctly to pass."
+    },
+    {
+      "forErrorId": "err-acceleration-dv-over-dt",
+      "questions": [
+        {
+          "id": "retest-accel-q1",
+          "type": "single_choice",
+          "stem": "Which formula correctly represents acceleration?",
+          "options": [
+            "a = Δx/Δt",
+            "a = Δv/Δt",
+            "a = Δx · Δt",
+            "a = Δv · Δt"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-accel-q2",
+          "type": "open_ended",
+          "stem": "A cyclist's velocity changes from 2 m/s to 8 m/s in 3 seconds. Calculate the acceleration. Then, in one sentence, explain why acceleration uses change in velocity rather than change in position.",
+          "rubric": "Calculation: a = (8 - 2) / 3 = 6 / 3 = 2 m/s². Explanation: Acceleration is the rate of change of velocity, not position; position change over time is velocity."
+        }
+      ],
+      "passRule": "Q1 correct AND Q2 calculation correct (2 m/s²) AND explanation correctly distinguishes Δv/Δt from Δx/Δt."
+    },
+    {
+      "forErrorId": "err-pt-graph-slope-interpretation",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "On a position-time graph, line A has a slope of +3 m/s and line B has a slope of -5 m/s. Which line represents a higher speed?",
+          "options": [
+            "Line A, because positive slope means faster.",
+            "Line B, because the magnitude of its slope is larger.",
+            "Both have the same speed because speed is always positive.",
+            "Line A, because it is moving forward."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why a negative slope on a position-time graph does not necessarily indicate slow motion. Use the concept of slope magnitude and sign in your answer.",
+          "rubric": "Student must state that speed is determined by the absolute value (magnitude) of the slope, and the sign indicates direction only. A negative slope can be steep (e.g., -10 m/s) which means fast backward motion."
+        }
+      ],
+      "passRule": "All questions correct"
+    },
+    {
+      "forErrorId": "err-vt-area-misuse",
+      "questions": [
+        {
+          "id": "vt-area-misuse-q1",
+          "type": "single_choice",
+          "stem": "What does the area under a velocity-time graph represent?",
+          "options": [
+            "Displacement",
+            "Distance",
+            "Speed",
+            "Acceleration"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "vt-area-misuse-q2",
+          "type": "open_ended",
+          "stem": "An object moves at 5 m/s for 3 seconds, then at -2 m/s for 30 seconds. What is the displacement? Show your calculation.",
+          "rubric": "Correct displacement of -45 m (or 45 m in the opposite direction) with signed area calculation: (5 m/s × 3 s) + (-2 m/s × 30 s) = 15 m - 60 m = -45 m. Accept absolute value if direction is explained."
+        }
+      ],
+      "passRule": "Answer question 1 correctly (option 0) and provide a correct displacement calculation in question 2."
+    },
+    {
+      "forErrorId": "err-at-constant-only",
+      "questions": [
+        {
+          "id": "retest-at-constant-q1",
+          "type": "single_choice",
+          "stem": "In Grade 11 Physics, which statement about acceleration-time graphs is correct?",
+          "options": [
+            "They always show constant acceleration.",
+            "They can show any type of acceleration.",
+            "They always show increasing acceleration.",
+            "They are always parabolic."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-at-constant-q2",
+          "type": "open_ended",
+          "stem": "Explain why acceleration-time graphs in Grade 11 are restricted to constant acceleration. In your explanation, describe what the area under such a graph represents.",
+          "rubric": "Must state that Grade 11 only covers constant acceleration, so the graph is a horizontal line; area under the graph equals change in velocity."
+        }
+      ],
+      "passRule": "Q1 correct AND Q2 includes both 'constant acceleration' and 'area equals change in velocity'."
+    },
+    {
+      "forErrorId": "err-equations-applicability",
+      "questions": [
+        {
+          "id": "eq-app-01",
+          "type": "single_choice",
+          "stem": "In which situation can the equation v² = v₀² + 2aΔd be correctly used to find final velocity?",
+          "options": [
+            "A car accelerates uniformly from rest to 5 m/s over 3 s.",
+            "A ball thrown upward with constant gravitational acceleration.",
+            "A car moves at 5 m/s for 5 s, then instantly changes to -2 m/s for 3 s.",
+            "A train moves at constant velocity 5 m/s for 3 s, then accelerates uniformly for 3 s."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "eq-app-02",
+          "type": "open_ended",
+          "stem": "Calculate the total displacement of an object that moves at 5 m/s for 5 s, then immediately at -2 m/s for 3 s. Explain why the equation Δd = v₀t + ½aΔt² cannot be applied to the entire 8-second interval.",
+          "rubric": "Displacement = 5*5 + (-2)*3 = 25 - 6 = 19 m. Explanation: Acceleration is not constant over the 8 s; it changes abruptly at t=5 s from 0 m/s² to 0 m/s² but with an infinite spike, so the uniform acceleration equation does not apply for the full interval."
+        }
+      ],
+      "passRule": "Both questions answered correctly; for open-ended, answer must include correct displacement (19 m) and mention non-constant acceleration or instant change."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-13",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/N2iSdte9SorCzmxPMjtcoEtjnSh?from=vc_group_doc_link#doxcnZ2gi7dSewV7SkIKt5kfHub",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-13 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Position is an object's specific location relative to a reference point.；Velocity is a vector quantity calculated as the rate of change of position over time (Δx/Δt). Positive/negative sign indicates direction.；Acceleration is a vector quantity calculated as the rate of change of velocity over time (Δv/Δt).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between position and displacement, and correctly define velocity and acceleration as vector quantities."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Interpret position-time graphs: slope steepness indicates speed, sign indicates direction."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Interpret velocity-time graphs: area under the curve equals displacement, absolute value equals speed."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recognize that acceleration-time graphs in Grade 11 only cover constant acceleration."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Select and apply the five uniform acceleration equations to solve motion problems."
+      }
+    ],
+    "courseOpsItems": [],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "node-position",
+      "node-velocity",
+      "node-acceleration",
+      "node-pt-graph",
+      "node-vt-graph",
+      "node-at-graph",
+      "node-uniform-equations"
+    ],
+    "totalQuestions": 7,
+    "completed": false,
+    "passScore": 7,
+    "diagnosisRules": [
+      {
+        "errorId": "err-position-displacement-confusion",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q1",
+        "systemAction": "assign reteach module for err-position-displacement-confusion"
+      },
+      {
+        "errorId": "err-velocity-sign-speed",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q2",
+        "systemAction": "assign reteach module for err-velocity-sign-speed"
+      },
+      {
+        "errorId": "err-acceleration-dv-over-dt",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q3",
+        "systemAction": "assign reteach module for err-acceleration-dv-over-dt"
+      },
+      {
+        "errorId": "err-pt-graph-slope-interpretation",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q4",
+        "systemAction": "assign reteach module for err-pt-graph-slope-interpretation"
+      },
+      {
+        "errorId": "err-vt-area-misuse",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q5",
+        "systemAction": "assign reteach module for err-vt-area-misuse"
+      },
+      {
+        "errorId": "err-at-constant-only",
+        "condition": "student picks wrong option on diag-sph3u-u1-0713-q6",
+        "systemAction": "assign reteach module for err-at-constant-only"
+      },
+      {
+        "errorId": "err-equations-applicability",
+        "condition": "student gives incomplete answer on diag-sph3u-u1-0713-q7",
+        "systemAction": "assign reteach module for err-equations-applicability"
+      }
+    ],
+    "nextActions": [
+      "[err-position-displacement-confusion] student picks wrong option on diag-sph3u-u1-0713-q1: You confused position with displacement. Position is relative to a reference point; displacement is the change in position.",
+      "[err-velocity-sign-speed] student picks wrong option on diag-sph3u-u1-0713-q2: A negative velocity does not mean slow; it only indicates direction. Speed is the magnitude.",
+      "[err-acceleration-dv-over-dt] student picks wrong option on diag-sph3u-u1-0713-q3: Acceleration is the rate of change of velocity, not position. Make sure to use ∆v/∆t.",
+      "[err-pt-graph-slope-interpretation] student picks wrong option on diag-sph3u-u1-0713-q4: On a position-time graph, slope sign tells direction, not speed. Steepness tells speed.",
+      "[err-vt-area-misuse] student picks wrong option on diag-sph3u-u1-0713-q5: The area under a velocity-time graph gives displacement, not necessarily total distance traveled.",
+      "[err-at-constant-only] student picks wrong option on diag-sph3u-u1-0713-q6: In Grade 11, acceleration-time graphs only show constant acceleration. Non-constant acceleration is beyond the scope.",
+      "[err-equations-applicability] student gives incomplete answer on diag-sph3u-u1-0713-q7: The five equations of motion only apply when acceleration is uniform (constant)."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-u1-0713-q1",
+        "type": "choice",
+        "question": "A car starts at a reference point and moves to a point 10 m east. Which statement is correct?",
+        "options": [
+          "The car's final position is 10 m east of the reference point.",
+          "The car's displacement is 0 m because it started at the reference point.",
+          "The car's position cannot be determined without knowing the distance traveled.",
+          "The car's final position is 10 m, and displacement is also 10 m so they are the same quantity."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student distinguishes between position (location relative to origin) and displacement (change in position).",
+        "misconceptions": [
+          "✓ 正确",
+          "Displacement is change in position, not absolute location. The car moved, so displacement is 10 m east.",
+          "Position is defined relative to a reference point; here the final position is known as 10 m east from the origin.",
+          "Though numerically equal in this case, position is a coordinate, and displacement is a vector change. They are conceptually different."
+        ],
+        "nodeId": "node-position",
+        "errorId": "err-position-displacement-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies position as a coordinate relative to a reference point, not a change in location.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Position is a fundamental concept of understanding motion in one dimension.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think displacement equals position or that position requires displacement to be measured.",
+        "remediationModule": "err-position-displacement-confusion",
+        "retestItem": "err-position-displacement-confusion"
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q2",
+        "type": "choice",
+        "question": "A car has a velocity of -5 m/s. What does this tell you about its motion?",
+        "options": [
+          "The car is moving backwards at 5 m/s.",
+          "The car is moving slowly because the value is negative.",
+          "The car is decelerating.",
+          "The car's speed is -5 m/s."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student interprets negative velocity as direction only, not as 'slower'.",
+        "misconceptions": [
+          "✓ 正确",
+          "The magnitude is 5 m/s, so speed is 5 m/s. Negative sign indicates direction, not slowness.",
+          "Velocity sign does not indicate acceleration. Velocity is constant here; deceleration requires a change in velocity.",
+          "Speed is a scalar and is always non-negative. The speed is 5 m/s, not -5 m/s."
+        ],
+        "nodeId": "node-velocity",
+        "errorId": "err-velocity-sign-speed",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Recognizes that negative velocity indicates direction, not that the object is moving slowly.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Velocity as a vector quantity with sign indicating direction.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking a negative velocity means the object is decelerating or moving slowly.",
+        "remediationModule": "err-velocity-sign-speed",
+        "retestItem": "err-velocity-sign-speed"
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q3",
+        "type": "choice",
+        "question": "Acceleration is calculated as:",
+        "options": [
+          "Change in velocity divided by time interval",
+          "Change in position divided by time interval",
+          "Final velocity divided by time",
+          "Speed divided by time"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows the correct formula for acceleration (∆v/∆t) not (∆x/∆t).",
+        "misconceptions": [
+          "✓ 正确",
+          "That is average velocity, not acceleration.",
+          "Acceleration depends on change in velocity, not just final velocity.",
+          "Speed is scalar; acceleration is vector and uses velocity."
+        ],
+        "nodeId": "node-acceleration",
+        "errorId": "err-acceleration-dv-over-dt",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly defines acceleration as change in velocity over time, not change in position over time.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Acceleration is a key concept in understanding motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Confusing acceleration with velocity; thinking acceleration is rate of change of position.",
+        "remediationModule": "err-acceleration-dv-over-dt",
+        "retestItem": "err-acceleration-dv-over-dt"
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q4",
+        "type": "choice",
+        "question": "In a position-time graph, a line with a negative slope indicates:",
+        "options": [
+          "The object is moving backwards (opposite direction).",
+          "The object is moving slower than if the slope were positive.",
+          "The object is decelerating.",
+          "The object is at rest."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student correctly interprets slope on a position-time graph as velocity, not speed.",
+        "misconceptions": [
+          "✓ 正确",
+          "Speed is related to absolute slope value, not sign. A steep negative slope means fast backwards motion.",
+          "Slope indicates velocity, not acceleration. Deceleration would appear as curvature.",
+          "A horizontal line indicates rest; a negative slope means motion."
+        ],
+        "nodeId": "node-pt-graph",
+        "errorId": "err-pt-graph-slope-interpretation",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Interprets slope sign as direction and steepness as speed on a position-time graph.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Position-time graph analysis is part of investigating motion.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Thinking a negative slope means slower speed rather than opposite direction.",
+        "remediationModule": "err-pt-graph-slope-interpretation",
+        "retestItem": "err-pt-graph-slope-interpretation"
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q5",
+        "type": "choice",
+        "question": "The area under a velocity-time graph represents:",
+        "options": [
+          "Displacement of the object.",
+          "Total distance traveled by the object.",
+          "Acceleration of the object.",
+          "Change in velocity of the object."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows that area under v-t graph gives displacement (a vector), not necessarily total distance.",
+        "misconceptions": [
+          "✓ 正确",
+          "Displacement considers direction; area above axis is positive, below negative. Distance would be sum of absolute areas.",
+          "Acceleration is slope of v-t graph, not area.",
+          "Change in velocity is area under acceleration-time graph, not velocity-time graph."
+        ],
+        "nodeId": "node-vt-graph",
+        "errorId": "err-vt-area-misuse",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Identifies that area under velocity-time graph gives displacement, not distance.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Velocity-time graph interpretation is essential for problem solving.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking area under v-t graph always gives distance traveled, neglecting sign cancellation.",
+        "remediationModule": "err-vt-area-misuse",
+        "retestItem": "err-vt-area-misuse"
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q6",
+        "type": "choice",
+        "question": "In Grade 11 Physics, acceleration-time graphs typically show:",
+        "options": [
+          "Constant acceleration only.",
+          "Any type of acceleration, including changing acceleration.",
+          "Only positive acceleration.",
+          "Acceleration as a function of time with linear changes."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows the grade-level scope: only constant acceleration a-t graphs.",
+        "misconceptions": [
+          "✓ 正确",
+          "Non-constant acceleration is not covered in the Grade 11 curriculum.",
+          "Acceleration can be negative (deceleration) even with constant acceleration.",
+          "That would be non-constant acceleration, which is beyond the scope."
+        ],
+        "nodeId": "node-at-graph",
+        "errorId": "err-at-constant-only",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Recognizes that a-t graphs in Grade 11 are limited to constant acceleration scenarios.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Acceleration-time graph analysis is part of investigating motion, but scope is restricted.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Assuming that any shape of a-t graph is covered in Grade 11.",
+        "remediationModule": "err-at-constant-only",
+        "retestItem": "err-at-constant-only"
+      },
+      {
+        "id": "diag-sph3u-u1-0713-q7",
+        "type": "explain",
+        "question": "Explain under what condition the five core equations for uniform acceleration (e.g., v = v₀ + at, Δd = v₀t + ½at²) are valid. Why is that condition necessary?",
+        "correct": null,
+        "diagnosis": "Check if student recognizes the limitation of the five equations: they are only valid for constant acceleration.",
+        "nodeId": "node-uniform-equations",
+        "errorId": "err-equations-applicability",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-5",
+        "successCriteria": "States that the five equations of motion only apply when acceleration is constant (uniform).",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the condition for using uniform acceleration equations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "justify",
+        "commonMisconception": "Applying the equations to non-uniform acceleration without recognizing they are not valid.",
+        "remediationModule": "err-equations-applicability",
+        "retestItem": "err-equations-applicability"
+      }
+    ]
+  }
+}

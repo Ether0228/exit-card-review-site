@@ -1,0 +1,1192 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-14",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/LwrXdWxEYolB0Nx8RdEcmF25nki?from=vc_group_doc_link#doxcngU1yPi8VYTDhNNfl17eoge",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-14 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/LwrXdWxEYolB0Nx8RdEcmF25nki?from=vc_group_doc_link#doxcngU1yPi8VYTDhNNfl17eoge",
+    "title": "OLC4O.S6.Keth 2026-07-14 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/olc4o-s6-keth-2026-07-14-lwrxdwxe/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-14",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-14",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes instruction on graphic text literacy (definition, 4-step reading process, test strategies) and assignment specifications, plus operational reminders about portfolio and deadlines.",
+    "academicContentSignals": [
+      "Graphic text definition and functional benefits",
+      "4-step standard reading process (Preview, Literal extraction, Trend analysis, Conclusion inference)",
+      "Timed test reading strategies (skimming, direct lookup)",
+      "Standard test question types for literacy assessments",
+      "Unit 1 Assignment 2 creation rules and grading criteria"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "High number of operational items (portfolio deadlines, submission rules, catch-up requirements) could overshadow academic content. Ensure diagnostic exit card focuses on graphic text reading process and assignment creation rules rather than logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "deadline",
+        "title": "Complete all pending portfolio submissions before Unit 1 test",
+        "studentAction": "Finish all missing portfolio work and ensure valid submissions",
+        "deadlineText": "Before next Monday's Unit 1 test",
+        "deadlineISO": "2026-07-20T08:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "Falling behind and No submission cohorts",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All pending portfolio work must be completed before next Monday’s in-class Unit 1 test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 in-class test next Monday",
+        "studentAction": "Prepare for test and ensure all portfolio work is complete",
+        "deadlineText": "Next Monday (2026-07-20)",
+        "deadlineISO": "2026-07-20",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Prepare for the Unit 1 in-class test scheduled for next Monday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Unit 1 Assignment 2: Create original graphic text with reflection",
+        "studentAction": "Create one original graphic text (visual article, comparison chart, map, etc.) and write a 500+ word reflection. Submit to Schoology and upload screenshot to Student Voice.",
+        "deadlineText": "One week from meeting date (2026-07-21)",
+        "deadlineISO": "2026-07-21T23:59:59+08:00",
+        "platform": "Schoology, Student Voice",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The assignment is released on the day of the session, with a hard non-negotiable deadline 1 week from the meeting date",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Complete Lesson 6 Graphic Text Worksheet",
+        "studentAction": "Download worksheet from Schoology, complete explanations and sample questions, upload to Schoology",
+        "deadlineText": "Before next class",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Complete the full Lesson 6 graphic text worksheet... for submission before the next class.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "No deadline extensions policy for portfolio and assignments",
+        "studentAction": "Adhere to all deadlines as no extensions will be granted",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "No deadline extensions will be granted at the end of the course",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Portfolio submission status grouping announced",
+        "studentAction": "Check your group and ensure compliance",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students, especially Falling behind and No submission cohorts",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Fully compliant cohort: 2-3 students... Falling behind cohort:... No submission cohort: 16 named students",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "teacher_request",
+        "title": "Valid submission benchmarks and common errors",
+        "studentAction": "Ensure submissions are original, complete, and include required components (graphic example + analysis)",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Valid submissions must be fully student-created original content...",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Graphic Text Definition and Benefits、4-Step Graphic Text Reading Process、Unit 1 Assignment 2 Graphic Text Creation、Reflection Component Requirements）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 5 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Graphic texts combine factual information and deliberate visual elements to communicate core messages; both components carry equal functional weight.；Graphic texts boost audience engagement, reduce reading time, improve long-term retention, and speed up pattern recognition for complex data.；Standard valid graphic text types include diagrams, flow charts, maps, visual articles, comparison charts, step-by-step sequences, and statistical displays.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Understand the definition and benefits of graphic texts."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply the 4-step reading process for graphic texts."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Identify approved formats and originality requirements for Unit 1 Assignment 2."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Understand the reflection component requirements."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Recognize the importance of graphic texts in real-world communication."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "KN-OLC4O-graphic-text-definition",
+      "name": "Graphic Text Definition and Benefits",
+      "nameEn": "Graphic Text Definition and Benefits",
+      "definition": "A graphic text is a communication tool that combines factual information (text, statistics) with deliberate visual elements; both components carry equal functional weight. Benefits include increased audience engagement, reduced reading time, improved long-term retention, and faster pattern recognition for complex datasets.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "KN-OLC4O-graphic-text-reading-process",
+      "name": "4-Step Graphic Text Reading Process",
+      "nameEn": "4-Step Graphic Text Reading Process",
+      "definition": "A structured approach to reading graphic texts: (1) Preview – scan overall structure, type, title, axis units; (2) Literal data extraction – locate explicit facts using labels, legends, keys; (3) Trend and relationship analysis – identify patterns, changes, connections; (4) Conclusion inference – combine extracted data with prior knowledge to draw overarching conclusions.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    },
+    {
+      "id": "KN-OLC4O-graphic-text-creation-assignment",
+      "name": "Unit 1 Assignment 2 Graphic Text Creation",
+      "nameEn": "Unit 1 Assignment 2 Graphic Text Creation",
+      "definition": "Students must create one original graphic text on a real-world topic using an approved format (visual article, comparison chart, map, statistical display, flow chart, or diagram; timelines prohibited) plus a 500-word minimum reflection. The work must be original; AI-generated, copied, or translated content is prohibited. Grading criteria: Knowledge (visual features), Inquiry (originality, planning), Communication (clarity, vocabulary), Application (grammar, reflection-design connection).",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "OLC4O-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks."
+    },
+    {
+      "id": "KN-OLC4O-reflection-component",
+      "name": "Reflection Component Requirements",
+      "nameEn": "Reflection Component Requirements",
+      "definition": "The written reflection must be at least 500 words, structured as cohesive academic analysis (not bullet points), covering personal experience, challenges, core message clarity, and understanding of visual communication.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "KN-OLC4O-communication-skills-importance",
+      "name": "Importance of Communication Skills",
+      "nameEn": "Importance of Communication Skills",
+      "definition": "Understanding that communication skills (including reading and creating graphic texts) are essential in everyday life at school, work, and home. The lesson reinforces this by discussing real-world applications of graphic texts.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "OLC4O-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Understand the definition and benefits of graphic texts."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the 4-step reading process for graphic texts."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Identify approved formats and originality requirements for Unit 1 Assignment 2."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Understand the reflection component requirements."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Recognize the importance of graphic texts in real-world communication."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-graphic-text-timeline-allowed",
+        "condition": "student picks incorrect option on Q1",
+        "systemAction": "assign reteach module for err-graphic-text-timeline-allowed",
+        "studentMessage": "Timelines are not permitted for the assignment. Review the approved formats."
+      },
+      {
+        "errorId": "err-graphic-text-purely-decorative-visuals",
+        "condition": "student picks incorrect option on Q2",
+        "systemAction": "assign reteach module for err-graphic-text-purely-decorative-visuals",
+        "studentMessage": "Visuals carry equal functional weight as text. They are not just decorative."
+      },
+      {
+        "errorId": "err-graphic-text-reading-skim-all-details",
+        "condition": "student picks incorrect option on Q3",
+        "systemAction": "assign reteach module for err-graphic-text-reading-skim-all-details",
+        "studentMessage": "It's more effective to preview the structure first before reading all details."
+      },
+      {
+        "errorId": "err-reflection-bullet-points-allowed",
+        "condition": "student picks incorrect option on Q4",
+        "systemAction": "assign reteach module for err-reflection-bullet-points-allowed",
+        "studentMessage": "The reflection must be a cohesive academic text of at least 500 words, not bullet points."
+      },
+      {
+        "errorId": "err-graphic-text-originality-clip-art",
+        "condition": "student picks incorrect option on Q5",
+        "systemAction": "assign reteach module for err-graphic-text-originality-clip-art",
+        "studentMessage": "The graphic text must be originally created; you may recombine clip art but not reuse a pre-existing graphic."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-gt-q1",
+        "nodeId": "KN-OLC4O-graphic-text-creation-assignment",
+        "errorId": "err-graphic-text-timeline-allowed",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Identifies timeline as prohibited format.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "directly from assignment specifications",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Check knowledge of permitted graphic text formats.",
+        "commonMisconception": "Students may think timelines are acceptable.",
+        "remediationModule": "err-graphic-text-timeline-allowed",
+        "retestItem": "err-graphic-text-timeline-allowed",
+        "stem": "Which of the following formats is NOT allowed for the Unit 1 Assignment 2 graphic text?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Visual article",
+            "correct": false,
+            "feedbackWrong": "Visual articles are permitted. Timelines, however, are prohibited."
+          },
+          {
+            "label": "B",
+            "text": "Comparison chart",
+            "correct": false,
+            "feedbackWrong": "Comparison charts are permitted. Timelines, however, are prohibited."
+          },
+          {
+            "label": "C",
+            "text": "Timeline",
+            "correct": true,
+            "feedbackWrong": "Correct! Timelines are specifically prohibited."
+          },
+          {
+            "label": "D",
+            "text": "Statistical display",
+            "correct": false,
+            "feedbackWrong": "Statistical displays are permitted. Timelines, however, are prohibited."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-gt-q2",
+        "nodeId": "KN-OLC4O-graphic-text-definition",
+        "errorId": "err-graphic-text-purely-decorative-visuals",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Recognizes that visuals are equally functional.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "definition and features of graphic texts",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of the functional weight of visuals.",
+        "commonMisconception": "Visuals are just decoration.",
+        "remediationModule": "err-graphic-text-purely-decorative-visuals",
+        "retestItem": "err-graphic-text-purely-decorative-visuals",
+        "stem": "According to the lesson, what is the role of visual elements in a graphic text?",
+        "options": [
+          {
+            "label": "A",
+            "text": "They are primarily decorative to make the text look attractive.",
+            "correct": false,
+            "feedbackWrong": "Visuals carry equal functional weight, not just decoration."
+          },
+          {
+            "label": "B",
+            "text": "They carry equal functional weight alongside factual information.",
+            "correct": true,
+            "feedbackWrong": "Correct! Both components are equally important."
+          },
+          {
+            "label": "C",
+            "text": "They replace the need for any written text.",
+            "correct": false,
+            "feedbackWrong": "Visuals enhance but do not replace text."
+          },
+          {
+            "label": "D",
+            "text": "They are used only in statistical displays.",
+            "correct": false,
+            "feedbackWrong": "Visuals appear in many graphic text types."
+          }
+        ],
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='200'><rect width='400' height='200' fill='#f0f0f0'/><text x='200' y='100' text-anchor='middle' font-size='16'>Graphic Text Example</text></svg>"
+      },
+      {
+        "id": "diag-olc4o-gt-q3",
+        "nodeId": "KN-OLC4O-graphic-text-reading-process",
+        "errorId": "err-graphic-text-reading-skim-all-details",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Identifies preview step as first step.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "reading strategies for graphic texts",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Check knowledge of the 4-step process steps.",
+        "commonMisconception": "Students might think reading all details first is best.",
+        "remediationModule": "err-graphic-text-reading-skim-all-details",
+        "retestItem": "err-graphic-text-reading-skim-all-details",
+        "stem": "What is the recommended first step when reading a graphic text in a timed test?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Read all the fine print and data labels carefully.",
+            "correct": false,
+            "feedbackWrong": "The recommended first step is to preview the structure, not dive into details."
+          },
+          {
+            "label": "B",
+            "text": "Skim the overall structure, title, and axis units to map content.",
+            "correct": true,
+            "feedbackWrong": "Correct! This is the Preview step."
+          },
+          {
+            "label": "C",
+            "text": "Immediately look for the answer to the question.",
+            "correct": false,
+            "feedbackWrong": "That is not the first step; you need to understand the overall structure first."
+          },
+          {
+            "label": "D",
+            "text": "Count the number of visual elements.",
+            "correct": false,
+            "feedbackWrong": "That is not part of the standard reading process."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-gt-q4",
+        "nodeId": "KN-OLC4O-reflection-component",
+        "errorId": "err-reflection-bullet-points-allowed",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "States that reflection must be 500-word cohesive prose.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "reflection writing form",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Check knowledge of reflection format requirements.",
+        "commonMisconception": "Students may think bullet points are acceptable.",
+        "remediationModule": "err-reflection-bullet-points-allowed",
+        "retestItem": "err-reflection-bullet-points-allowed",
+        "stem": "What is the required format for the reflection component of Unit 1 Assignment 2?",
+        "options": [
+          {
+            "label": "A",
+            "text": "A list of bullet points summarizing key points.",
+            "correct": false,
+            "feedbackWrong": "The reflection must be a cohesive academic paragraph or essay, not bullet points."
+          },
+          {
+            "label": "B",
+            "text": "A cohesive academic paragraph or essay of at least 500 words.",
+            "correct": true,
+            "feedbackWrong": "Correct! It must be at least 500 words in prose format."
+          },
+          {
+            "label": "C",
+            "text": "A short paragraph of 100 words.",
+            "correct": false,
+            "feedbackWrong": "The minimum is 500 words."
+          },
+          {
+            "label": "D",
+            "text": "A series of images with captions.",
+            "correct": false,
+            "feedbackWrong": "The reflection is written text, not images."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-gt-q5",
+        "nodeId": "KN-OLC4O-graphic-text-creation-assignment",
+        "errorId": "err-graphic-text-originality-clip-art",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Understands originality requirement: new creation with recombined clip art.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "originality rules for assignment",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of originality and clip art policy.",
+        "commonMisconception": "Students may think reusing a pre-existing graphic is allowed.",
+        "remediationModule": "err-graphic-text-originality-clip-art",
+        "retestItem": "err-graphic-text-originality-clip-art",
+        "stem": "Which statement about creating the graphic text is accurate according to the assignment rules?",
+        "options": [
+          {
+            "label": "A",
+            "text": "You may reuse a pre-existing graphic from the internet without changes.",
+            "correct": false,
+            "feedbackWrong": "The graphic must be originally created; you cannot simply reuse an existing one."
+          },
+          {
+            "label": "B",
+            "text": "You must create the graphic from scratch, but you may recombine clip art into a new layout.",
+            "correct": true,
+            "feedbackWrong": "Correct! This meets the originality requirement."
+          },
+          {
+            "label": "C",
+            "text": "Using AI-generated images is acceptable if cited.",
+            "correct": false,
+            "feedbackWrong": "AI-generated content is prohibited and results in a zero."
+          },
+          {
+            "label": "D",
+            "text": "You can copy a graphic from a textbook and add one change.",
+            "correct": false,
+            "feedbackWrong": "That would not meet the originality requirement."
+          }
+        ],
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='200'><rect width='400' height='200' fill='#f0f0f0'/><text x='200' y='100' text-anchor='middle' font-size='16'>Graphic Text Example</text></svg>"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-graphic-text-timeline-allowed",
+      "condition": "student picks incorrect option on Q1",
+      "systemAction": "assign reteach module for err-graphic-text-timeline-allowed",
+      "studentMessage": "Timelines are not permitted for the assignment. Review the approved formats."
+    },
+    {
+      "errorId": "err-graphic-text-purely-decorative-visuals",
+      "condition": "student picks incorrect option on Q2",
+      "systemAction": "assign reteach module for err-graphic-text-purely-decorative-visuals",
+      "studentMessage": "Visuals carry equal functional weight as text. They are not just decorative."
+    },
+    {
+      "errorId": "err-graphic-text-reading-skim-all-details",
+      "condition": "student picks incorrect option on Q3",
+      "systemAction": "assign reteach module for err-graphic-text-reading-skim-all-details",
+      "studentMessage": "It's more effective to preview the structure first before reading all details."
+    },
+    {
+      "errorId": "err-reflection-bullet-points-allowed",
+      "condition": "student picks incorrect option on Q4",
+      "systemAction": "assign reteach module for err-reflection-bullet-points-allowed",
+      "studentMessage": "The reflection must be a cohesive academic text of at least 500 words, not bullet points."
+    },
+    {
+      "errorId": "err-graphic-text-originality-clip-art",
+      "condition": "student picks incorrect option on Q5",
+      "systemAction": "assign reteach module for err-graphic-text-originality-clip-art",
+      "studentMessage": "The graphic text must be originally created; you may recombine clip art but not reuse a pre-existing graphic."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-graphic-text-timeline-allowed",
+      "trigger": "Student selects 'Timeline' as an allowed format in the diagnostic question.",
+      "studentMisunderstanding": "Students may think timelines are permitted for the assignment, but the lesson explicitly prohibits timelines.",
+      "miniLesson": {
+        "explain": "For Unit 1 Assignment 2, you must create an original graphic text using one of the approved formats: visual article, comparison/versus chart, map/floor plan, statistical data display, process flow chart, or structural diagram. Timelines are specifically NOT allowed. The lesson states: 'Timelines are prohibited.' Using a timeline will result in a mark of zero.",
+        "example": "A student creates a timeline showing major events in Canadian history. This format is not permitted. Instead, the student could use a flow chart to show the sequence of events or a statistical display to show data over time.",
+        "memoryAnchor": "Remember: 'No timeline on the timeline!' – if you see the word 'timeline', it's not allowed."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is NOT an approved format for Unit 1 Assignment 2?",
+          "answer": "Timeline"
+        },
+        {
+          "level": "L2",
+          "prompt": "Your friend says, 'I'll use a timeline for my graphic text because it shows events in order.' Explain why this is incorrect and suggest an alternative approved format.",
+          "answer": "Timelines are prohibited. Your friend could use a flow chart to show the sequence of events, or a statistical display to present data over time."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate argues that a timeline should be allowed because it is a common graphic text type. Using course evidence, write a response that justifies why timelines are excluded and how this rule supports the learning goals of the assignment.",
+          "answer": "The lesson explicitly states 'Timelines are prohibited' under permitted formats. This rule ensures students focus on creating original graphic texts that require synthesis of visual and textual elements, such as visual articles or flow charts. The assignment aims to develop skills in combining factual information with deliberate visual design, not simply arranging dates in order."
+        }
+      ]
+    },
+    {
+      "errorId": "err-graphic-text-purely-decorative-visuals",
+      "trigger": "Student picks incorrect option on Q2 in diagnostic.",
+      "studentMisunderstanding": "The student believes visual elements in a graphic text are primarily decorative, rather than serving an equal functional role alongside factual information.",
+      "miniLesson": {
+        "explain": "In graphic texts, visual elements are not just decorative embellishments. They carry equal functional weight as the factual information, meaning both text and visuals are essential for communicating the core message. This is because visuals can enhance understanding, speed up pattern recognition, and improve retention. For example, a bar chart in a graphic about energy usage in Ontario shows data visually, making trends easier to grasp than a table of numbers alone.",
+        "example": "Consider a graphic text about the Canadian forestry industry: it might combine a bar graph showing GDP contributions, a map of forest regions, and accompanying text. The visuals (graph, map) are not mere decoration; they convey key data and relationships that the text alone cannot achieve as efficiently.",
+        "memoryAnchor": "Remember: Visuals are partners, not decorations – they carry equal weight with text."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the role of visual elements in a graphic text according to the lesson?",
+          "answer": "They carry equal functional weight alongside factual information."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student argues that visuals in graphic texts are just to make the page look nice. Explain why this is incorrect, using an example from the lesson.",
+          "answer": "This is incorrect because visuals are equally functional. For instance, in the energy usage graphic, the pie chart and bar graph present the data in a way that text alone cannot, making patterns like the relative proportions of energy sources immediately visible."
+        },
+        {
+          "level": "L3",
+          "prompt": "Analyze the statement: 'In graphic texts, visuals are optional decorations.' How does this statement conflict with the lesson's definition? Provide reasoning and a counterexample.",
+          "answer": "The statement conflicts because the lesson defines graphic texts as combining factual information and deliberate visual elements with equal functional weight. If visuals were optional decorations, they could be removed without loss of meaning. However, removing the bar graph from a statistical display would remove essential data, making the graphic incomplete. Therefore, visuals are integral, not optional."
+        }
+      ]
+    },
+    {
+      "errorId": "err-graphic-text-reading-skim-all-details",
+      "trigger": "When a student selects that reading all fine print first is the best approach in a timed test, instead of previewing the overall structure.",
+      "studentMisunderstanding": "Thinks that reading all details carefully is the best first step when approaching a graphic text, but the recommended strategy is to preview the structure first to map content locations.",
+      "miniLesson": {
+        "explain": "The 4-step standard reading process for graphic texts begins with Preview: scan the overall structure, type, title, and axis units. In timed tests, spend 10-30 seconds skimming headings and markers to map content locations, then directly look up specific sections for questions. This is more efficient than reading all details first, as it helps you locate explicit facts and analyze trends quickly.",
+        "example": "Consider the Canadian forestry industry overview graphic (GDP, employment, assets). Instead of reading every number, preview the title, axis labels, and legend. Then, when asked about GDP, you immediately know where to look. This saves time and reduces cognitive load.",
+        "memoryAnchor": "Preview first, details later. Like scanning a map before driving."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the first step in the 4-step reading process for graphic texts?",
+          "answer": "Preview – scan overall structure, type, title, axis units."
+        },
+        {
+          "level": "L2",
+          "prompt": "You are given a bar graph showing energy usage in Ontario, 2013 (pie chart and bar graph). What should you do first in a timed test? Explain why.",
+          "answer": "First, preview the title, axis labels, and legend. This helps you locate specific data efficiently without getting lost in details."
+        },
+        {
+          "level": "L3",
+          "prompt": "How does the preview step help with trend analysis and conclusion inference later? Use an example from the lesson.",
+          "answer": "By previewing, you understand the structure and can identify which data sets to compare. For example, previewing a comparison chart shows you the categories and variables, making it easier to spot trends like 'which category increased the most' and infer conclusions."
+        }
+      ]
+    },
+    {
+      "errorId": "err-reflection-bullet-points-allowed",
+      "trigger": "Student selects 'A list of bullet points summarizing key points' as the required format for the reflection component.",
+      "studentMisunderstanding": "The student believes that bullet points are acceptable for the reflection, but the requirement is a cohesive academic paragraph or essay of at least 500 words.",
+      "miniLesson": {
+        "explain": "The reflection component of Unit 1 Assignment 2 must be written as a cohesive academic paragraph or essay, not as a bullet-point list. It must be at least 500 words and cover personal experience, challenges, core message clarity, and understanding of visual communication. The reflection is a formal piece of writing, not a list of notes.",
+        "example": "For instance, a correct reflection might begin: 'Creating my graphic text on renewable energy sources taught me how visual elements can enhance data comprehension. I faced challenges in selecting appropriate colors to convey urgency…' This is a flowing paragraph, not a set of bullet points.",
+        "memoryAnchor": "Remember: Reflection = essay, not list. Aim for 500+ words of connected prose."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the minimum word count required for the reflection?",
+          "answer": "500 words"
+        },
+        {
+          "level": "L2",
+          "prompt": "Which of the following best describes the required format for the reflection? (A) A series of bullet points, (B) A cohesive academic paragraph or essay.",
+          "answer": "B"
+        },
+        {
+          "level": "L3",
+          "prompt": "A student submits a reflection with three bullet points: '• Learned about graphic texts • Used colors to show trends • Reflection is 300 words'. What are two errors in this submission?",
+          "answer": "1) The reflection is in bullet-point format instead of cohesive prose; 2) It is only 300 words, but the minimum is 500 words."
+        }
+      ]
+    },
+    {
+      "errorId": "err-graphic-text-originality-clip-art",
+      "trigger": "Student selects an option indicating that reusing a pre-existing graphic without recombination is acceptable.",
+      "studentMisunderstanding": "Students may think that using a pre-existing graphic from the internet or a textbook without significant original recombination is acceptable for the assignment.",
+      "miniLesson": {
+        "explain": "While you may reuse clip art and pre-existing images, the graphic text must be originally created by you. This means you cannot simply copy a graphic from another source. You must combine clip art elements into a new, original layout that communicates your own message. The assignment specifically prohibits AI generation, copying, translation tools, or third-party assistance. Violation results in an automatic zero.",
+        "example": "A student who copies an existing infographic from a website and submits it as-is is not allowed. Another student selects clip art images of a tree, a factory, and a graph, arranges them into a new infographic about deforestation impacts, and adds original text – that meets the originality requirement.",
+        "memoryAnchor": "Create, don't copy: Your graphic text must be a new combination of elements, not a borrowed image."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following actions would meet the originality requirement? A) Copying a diagram from a textbook B) Recombining clip art into a new layout C) Using an AI-generated image D) Taking a screenshot from a video",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "You want to create a graphic text about renewable energy. You found a perfect bar chart online. What should you do to meet the originality requirement?",
+          "answer": "You should not use the bar chart directly. Instead, create your own chart using data you research, or recombine clip art of wind turbines, solar panels, etc. into a new visual layout."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain in your own words why the assignment requires original creation and not simply reusing a pre-existing graphic. Include the potential consequences of violating the rule.",
+          "answer": "The assignment requires original creation to demonstrate our own understanding and planning skills. Reusing a pre-existing graphic would not show our own work. Violating the rule results in a zero for the assignment. We can use clip art, but we must recombine it into a new layout that is our own."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-graphic-text-timeline-allowed",
+      "questions": [
+        {
+          "id": "rt-timeline-q1",
+          "type": "single_choice",
+          "stem": "Which of the following graphic text formats is NOT permitted for Unit 1 Assignment 2?",
+          "options": [
+            "Visual article",
+            "Flow chart",
+            "Timeline",
+            "Statistical display"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "rt-timeline-q2",
+          "type": "open_ended",
+          "stem": "A classmate says: 'I'll use a timeline for my graphic text because it shows events in order.' Explain why this is incorrect, and suggest one approved format your classmate could use instead.",
+          "rubric": "Must state that timelines are prohibited per the lesson, and suggest an approved format (e.g., flow chart, statistical display, comparison chart, map, diagram, visual article). Accept any valid approved format."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-graphic-text-purely-decorative-visuals",
+      "questions": [
+        {
+          "id": "retest_q1",
+          "type": "single_choice",
+          "stem": "In a graphic text, which statement best describes the role of visual elements?",
+          "options": [
+            "They are primarily decorative to make the text attractive.",
+            "They carry equal functional weight with factual information to communicate core messages.",
+            "They are optional additions that can be removed without affecting understanding.",
+            "They only serve to summarize the text."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest_q2",
+          "type": "open_ended",
+          "stem": "Explain why a map included in a graphic text about the Canadian forestry industry is not merely decorative. Use the concept of equal functional weight in your answer.",
+          "rubric": "Student must state that the map conveys specific geographic data (e.g., forest regions) essential to the core message, and that visuals and text together provide complete understanding. Reference to equal functional weight or that visuals are partners not decorations is expected."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly: Q1 selects the correct option; Q2 response aligns with the rubric."
+    },
+    {
+      "forErrorId": "err-graphic-text-reading-skim-all-details",
+      "questions": [
+        {
+          "id": "retest-Q1",
+          "type": "single_choice",
+          "stem": "During a timed test, you are given a complex graphic text with many details. What is the most effective first action to take?",
+          "options": [
+            "Read every label and number carefully from top to bottom.",
+            "Preview the overall structure: title, axis units, legends, and main sections.",
+            "Immediately look for the most interesting data point.",
+            "Start writing your conclusion based on prior knowledge."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-Q2",
+          "type": "open_ended",
+          "stem": "Explain the first step of the 4-step reading process for graphic texts. Why is this step especially important in a timed test setting?",
+          "rubric": "Student must name the 'Preview' step and describe it as scanning the overall structure (title, axis units, legends, etc.). Must explain that it helps locate information quickly without getting lost in details, saving time and reducing cognitive load."
+        }
+      ],
+      "passRule": "Student must select the correct answer for Q1 and for Q2, their response must include both the concept of previewing the structure and a benefit related to efficiency or time saving."
+    },
+    {
+      "forErrorId": "err-reflection-bullet-points-allowed",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "What is the required format for the reflection component of Unit 1 Assignment 2?",
+          "options": [
+            "A list of bullet points summarizing key points",
+            "A cohesive academic paragraph or essay of at least 500 words",
+            "A series of short answers to specific questions",
+            "A visual diagram with captions"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Identify two mistakes a student made if they submitted a reflection consisting of three bullet points totaling 300 words.",
+          "rubric": "Student must identify that bullet points are not allowed (must be cohesive prose) and that the minimum word count is 500 words. Accept any phrasing that captures both errors."
+        }
+      ],
+      "passRule": "Answer both questions correctly. For the open-ended question, both mistakes must be identified."
+    },
+    {
+      "forErrorId": "err-graphic-text-originality-clip-art",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following would meet the assignment's originality requirement for creating a graphic text?",
+          "options": [
+            "Copying a diagram from a textbook",
+            "Recombining clip art into a new layout",
+            "Using an AI-generated image",
+            "Taking a screenshot from a video"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain in your own words why the assignment requires original creation rather than reusing a pre-existing graphic. What are the consequences of violating this rule?",
+          "rubric": "The response must state that original creation demonstrates the student's own understanding and planning skills, and that reusing a pre-existing graphic would not show original work. It must also mention that violating the rule results in a zero for the assignment. Accept rephrasing of 'own work' and 'zero'."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-14",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/LwrXdWxEYolB0Nx8RdEcmF25nki?from=vc_group_doc_link#doxcngU1yPi8VYTDhNNfl17eoge",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-14 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Graphic texts combine factual information and deliberate visual elements to communicate core messages; both components carry equal functional weight.；Graphic texts boost audience engagement, reduce reading time, improve long-term retention, and speed up pattern recognition for complex data.；Standard valid graphic text types include diagrams, flow charts, maps, visual articles, comparison charts, step-by-step sequences, and statistical displays.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Understand the definition and benefits of graphic texts."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the 4-step reading process for graphic texts."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Identify approved formats and originality requirements for Unit 1 Assignment 2."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Understand the reflection component requirements."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Recognize the importance of graphic texts in real-world communication."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "deadline",
+        "title": "Complete all pending portfolio submissions before Unit 1 test",
+        "studentAction": "Finish all missing portfolio work and ensure valid submissions",
+        "deadlineText": "Before next Monday's Unit 1 test",
+        "deadlineISO": "2026-07-20T08:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "Falling behind and No submission cohorts",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All pending portfolio work must be completed before next Monday’s in-class Unit 1 test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 in-class test next Monday",
+        "studentAction": "Prepare for test and ensure all portfolio work is complete",
+        "deadlineText": "Next Monday (2026-07-20)",
+        "deadlineISO": "2026-07-20",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Prepare for the Unit 1 in-class test scheduled for next Monday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Unit 1 Assignment 2: Create original graphic text with reflection",
+        "studentAction": "Create one original graphic text (visual article, comparison chart, map, etc.) and write a 500+ word reflection. Submit to Schoology and upload screenshot to Student Voice.",
+        "deadlineText": "One week from meeting date (2026-07-21)",
+        "deadlineISO": "2026-07-21T23:59:59+08:00",
+        "platform": "Schoology, Student Voice",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The assignment is released on the day of the session, with a hard non-negotiable deadline 1 week from the meeting date",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Complete Lesson 6 Graphic Text Worksheet",
+        "studentAction": "Download worksheet from Schoology, complete explanations and sample questions, upload to Schoology",
+        "deadlineText": "Before next class",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Complete the full Lesson 6 graphic text worksheet... for submission before the next class.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "No deadline extensions policy for portfolio and assignments",
+        "studentAction": "Adhere to all deadlines as no extensions will be granted",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "No deadline extensions will be granted at the end of the course",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Portfolio submission status grouping announced",
+        "studentAction": "Check your group and ensure compliance",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students, especially Falling behind and No submission cohorts",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Fully compliant cohort: 2-3 students... Falling behind cohort:... No submission cohort: 16 named students",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "teacher_request",
+        "title": "Valid submission benchmarks and common errors",
+        "studentAction": "Ensure submissions are original, complete, and include required components (graphic example + analysis)",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Valid submissions must be fully student-created original content...",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "KN-OLC4O-graphic-text-definition",
+      "KN-OLC4O-graphic-text-reading-process",
+      "KN-OLC4O-graphic-text-creation-assignment",
+      "KN-OLC4O-reflection-component",
+      "KN-OLC4O-communication-skills-importance"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-graphic-text-timeline-allowed",
+        "condition": "student picks incorrect option on Q1",
+        "systemAction": "assign reteach module for err-graphic-text-timeline-allowed"
+      },
+      {
+        "errorId": "err-graphic-text-purely-decorative-visuals",
+        "condition": "student picks incorrect option on Q2",
+        "systemAction": "assign reteach module for err-graphic-text-purely-decorative-visuals"
+      },
+      {
+        "errorId": "err-graphic-text-reading-skim-all-details",
+        "condition": "student picks incorrect option on Q3",
+        "systemAction": "assign reteach module for err-graphic-text-reading-skim-all-details"
+      },
+      {
+        "errorId": "err-reflection-bullet-points-allowed",
+        "condition": "student picks incorrect option on Q4",
+        "systemAction": "assign reteach module for err-reflection-bullet-points-allowed"
+      },
+      {
+        "errorId": "err-graphic-text-originality-clip-art",
+        "condition": "student picks incorrect option on Q5",
+        "systemAction": "assign reteach module for err-graphic-text-originality-clip-art"
+      }
+    ],
+    "nextActions": [
+      "[err-graphic-text-timeline-allowed] student picks incorrect option on Q1: Timelines are not permitted for the assignment. Review the approved formats.",
+      "[err-graphic-text-purely-decorative-visuals] student picks incorrect option on Q2: Visuals carry equal functional weight as text. They are not just decorative.",
+      "[err-graphic-text-reading-skim-all-details] student picks incorrect option on Q3: It's more effective to preview the structure first before reading all details.",
+      "[err-reflection-bullet-points-allowed] student picks incorrect option on Q4: The reflection must be a cohesive academic text of at least 500 words, not bullet points.",
+      "[err-graphic-text-originality-clip-art] student picks incorrect option on Q5: The graphic text must be originally created; you may recombine clip art but not reuse a pre-existing graphic."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-gt-q1",
+        "type": "choice",
+        "question": "Which of the following formats is NOT allowed for the Unit 1 Assignment 2 graphic text?",
+        "options": [
+          "Visual article",
+          "Comparison chart",
+          "Timeline",
+          "Statistical display"
+        ],
+        "correct": 2,
+        "diagnosis": "Check knowledge of permitted graphic text formats.",
+        "misconceptions": [
+          "Visual articles are permitted. Timelines, however, are prohibited.",
+          "Comparison charts are permitted. Timelines, however, are prohibited.",
+          "✓ 正确",
+          "Statistical displays are permitted. Timelines, however, are prohibited."
+        ],
+        "nodeId": "KN-OLC4O-graphic-text-creation-assignment",
+        "errorId": "err-graphic-text-timeline-allowed",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Identifies timeline as prohibited format.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "directly from assignment specifications",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Students may think timelines are acceptable.",
+        "remediationModule": "err-graphic-text-timeline-allowed",
+        "retestItem": "err-graphic-text-timeline-allowed"
+      },
+      {
+        "id": "diag-olc4o-gt-q2",
+        "type": "choice",
+        "question": "According to the lesson, what is the role of visual elements in a graphic text?",
+        "options": [
+          "They are primarily decorative to make the text look attractive.",
+          "They carry equal functional weight alongside factual information.",
+          "They replace the need for any written text.",
+          "They are used only in statistical displays."
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of the functional weight of visuals.",
+        "misconceptions": [
+          "Visuals carry equal functional weight, not just decoration.",
+          "✓ 正确",
+          "Visuals enhance but do not replace text.",
+          "Visuals appear in many graphic text types."
+        ],
+        "nodeId": "KN-OLC4O-graphic-text-definition",
+        "errorId": "err-graphic-text-purely-decorative-visuals",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Recognizes that visuals are equally functional.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "definition and features of graphic texts",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Visuals are just decoration.",
+        "remediationModule": "err-graphic-text-purely-decorative-visuals",
+        "retestItem": "err-graphic-text-purely-decorative-visuals"
+      },
+      {
+        "id": "diag-olc4o-gt-q3",
+        "type": "choice",
+        "question": "What is the recommended first step when reading a graphic text in a timed test?",
+        "options": [
+          "Read all the fine print and data labels carefully.",
+          "Skim the overall structure, title, and axis units to map content.",
+          "Immediately look for the answer to the question.",
+          "Count the number of visual elements."
+        ],
+        "correct": 1,
+        "diagnosis": "Check knowledge of the 4-step process steps.",
+        "misconceptions": [
+          "The recommended first step is to preview the structure, not dive into details.",
+          "✓ 正确",
+          "That is not the first step; you need to understand the overall structure first.",
+          "That is not part of the standard reading process."
+        ],
+        "nodeId": "KN-OLC4O-graphic-text-reading-process",
+        "errorId": "err-graphic-text-reading-skim-all-details",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Identifies preview step as first step.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "reading strategies for graphic texts",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Students might think reading all details first is best.",
+        "remediationModule": "err-graphic-text-reading-skim-all-details",
+        "retestItem": "err-graphic-text-reading-skim-all-details"
+      },
+      {
+        "id": "diag-olc4o-gt-q4",
+        "type": "choice",
+        "question": "What is the required format for the reflection component of Unit 1 Assignment 2?",
+        "options": [
+          "A list of bullet points summarizing key points.",
+          "A cohesive academic paragraph or essay of at least 500 words.",
+          "A short paragraph of 100 words.",
+          "A series of images with captions."
+        ],
+        "correct": 1,
+        "diagnosis": "Check knowledge of reflection format requirements.",
+        "misconceptions": [
+          "The reflection must be a cohesive academic paragraph or essay, not bullet points.",
+          "✓ 正确",
+          "The minimum is 500 words.",
+          "The reflection is written text, not images."
+        ],
+        "nodeId": "KN-OLC4O-reflection-component",
+        "errorId": "err-reflection-bullet-points-allowed",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "States that reflection must be 500-word cohesive prose.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "reflection writing form",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Students may think bullet points are acceptable.",
+        "remediationModule": "err-reflection-bullet-points-allowed",
+        "retestItem": "err-reflection-bullet-points-allowed"
+      },
+      {
+        "id": "diag-olc4o-gt-q5",
+        "type": "choice",
+        "question": "Which statement about creating the graphic text is accurate according to the assignment rules?",
+        "options": [
+          "You may reuse a pre-existing graphic from the internet without changes.",
+          "You must create the graphic from scratch, but you may recombine clip art into a new layout.",
+          "Using AI-generated images is acceptable if cited.",
+          "You can copy a graphic from a textbook and add one change."
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of originality and clip art policy.",
+        "misconceptions": [
+          "The graphic must be originally created; you cannot simply reuse an existing one.",
+          "✓ 正确",
+          "AI-generated content is prohibited and results in a zero.",
+          "That would not meet the originality requirement."
+        ],
+        "nodeId": "KN-OLC4O-graphic-text-creation-assignment",
+        "errorId": "err-graphic-text-originality-clip-art",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Understands originality requirement: new creation with recombined clip art.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "originality rules for assignment",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think reusing a pre-existing graphic is allowed.",
+        "remediationModule": "err-graphic-text-originality-clip-art",
+        "retestItem": "err-graphic-text-originality-clip-art"
+      }
+    ]
+  }
+}

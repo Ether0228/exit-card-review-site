@@ -1,0 +1,1057 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-14",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/D6podcgG7o9A30x5cFWcbUxUnzb?from=vc_group_doc_link#doxcnR9MX6iEASz3w1WDGqElwwg",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-14 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/D6podcgG7o9A30x5cFWcbUxUnzb?from=vc_group_doc_link#doxcnR9MX6iEASz3w1WDGqElwwg",
+    "title": "MDM4U.S6.Atousa 2026-07-14 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/mdm4u-s6-atousa-2026-07-14/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-14",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-14",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "This is a regular instruction session covering new content on permutations, including concept explanation, formula derivation, and in-class exercise correction.",
+    "academicContentSignals": [
+      "Core concept of permutation vs combination (order matters vs not)",
+      "Full permutation formula n! with examples (7 people seating, 8 horses, 6-letter passwords)",
+      "Distinguishable permutations formula n!/(a!b!c!) with examples (word 'mathematics', housing subdivision)",
+      "n-select-r permutation formula P(n,r)=n!/(n-r)! with examples (club officer election, combination lock, performance order)",
+      "Factorial simplification (e.g., 6!/4! = 30)",
+      "Probability application using permutation (1/495 for selecting 4 roles from 12)",
+      "Scientific calculator nPr/nCr operation steps"
+    ],
+    "courseOverviewSignals": [
+      "Part of Unit 5 on permutations, covering three types: full permutation, distinguishable permutations, and n-select-r permutations",
+      "In-class exercises from Class Activity 5 (questions 1-6 corrected, 7-17 assigned as homework)"
+    ],
+    "opsDominanceRisk": "Low risk. The lesson contains rich academic content. Operational items are minimal (break, homework, material adjustment) and should not overshadow learning content in diagnostic generation.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Mid-course break",
+        "studentAction": "Take a 10-minute break to stretch, drink water, and adjust.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A 10-minute break is arranged in the middle of the course",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Homework: Class Activity 5, questions 7-17",
+        "studentAction": "Complete remaining exercises from Question 7 to Question 17 of Class Activity 5 after class, and submit to the designated learning platform.",
+        "deadlineText": "after class (no specific date given)",
+        "deadlineISO": null,
+        "platform": "designated learning platform (not specified)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students are required to complete the remaining exercises from Question 7 to Question 17 of Class Activity 5 after class, and submit the completed work to the designated learning platform.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Course material unit number adjustment",
+        "studentAction": "Note that the originally planned Unit 8 content is now referred to as Unit 4 in formal course materials.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The originally planned Unit 8 content is adjusted to Unit 4 in formal course materials",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "submit the completed work to the designated learning platform",
+        "reason": "The specific platform name is not mentioned; it is referred to only as 'designated learning platform'."
+      },
+      {
+        "rawText": "after class",
+        "reason": "No specific due date or time is given; 'after class' is ambiguous without a class end time."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（排列 (Permutations)）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 1 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Permutation applies to ordered scenarios like queuing, seating, and ranking; combination applies to unordered groups.；For 3 distinct objects, number of permutations = 6, number of combinations = 1.；Full permutation of n distinct objects: n! = n × (n-1) × ... × 1.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Distinguish between permutations (order matters) and combinations (order does not matter)."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Simplify factorial expressions correctly."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Calculate the number of distinguishable permutations when objects are identical."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Apply the nPr formula for ordered selections without replacement."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Identify when to use the multiplication counting principle (with replacement) versus permutation formula."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "perm-basics",
+      "name": "排列 (Permutations)",
+      "nameEn": "Permutations",
+      "definition": "Permutations count the number of distinct ordered arrangements of objects. For n distinct objects taken all at once: n!. For n distinct objects taken r at a time without replacement: P(n,r) = n!/(n-r)!. For objects with identical items: n!/(a!b!c!...).",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MDM4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between permutations (order matters) and combinations (order does not matter)."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Simplify factorial expressions correctly."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Calculate the number of distinguishable permutations when objects are identical."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Apply the nPr formula for ordered selections without replacement."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Identify when to use the multiplication counting principle (with replacement) versus permutation formula."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-perm-vs-comb",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q1",
+        "systemAction": "assign reteach module for err-perm-vs-comb",
+        "studentMessage": "Let's review when order matters and when it doesn't."
+      },
+      {
+        "errorId": "err-factorial-simplify",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q2",
+        "systemAction": "assign reteach module for err-factorial-simplify",
+        "studentMessage": "Let's practice simplifying factorial expressions."
+      },
+      {
+        "errorId": "err-distinguishable-forget-divide",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q3",
+        "systemAction": "assign reteach module for err-distinguishable-forget-divide",
+        "studentMessage": "Remember to divide by factorials of identical items."
+      },
+      {
+        "errorId": "err-npr-wrong-multiply",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q4",
+        "systemAction": "assign reteach module for err-npr-wrong-multiply",
+        "studentMessage": "Let's check the nPr formula and how to apply it."
+      },
+      {
+        "errorId": "err-replacement-assume-perm",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q5",
+        "systemAction": "assign reteach module for err-replacement-assume-perm",
+        "studentMessage": "Remember that when repetition is allowed, use the multiplication rule, not permutations."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-perm-s6-q1",
+        "nodeId": "perm-basics",
+        "errorId": "err-perm-vs-comb",
+        "stem": "Which of the following best describes selecting a president, vice-president, and secretary from a club of 12 members?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that the situation is a permutation because order matters.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses distinguishing permutations from combinations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can recognize when order is important in a selection problem.",
+        "commonMisconception": "Student thinks that any selection of a group is a combination, ignoring the distinct roles (order).",
+        "remediationModule": "err-perm-vs-comb",
+        "retestItem": "err-perm-vs-comb",
+        "options": [
+          {
+            "label": "A",
+            "text": "It is a permutation because the positions are distinct.",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "It is a combination because it is a selection from a larger group.",
+            "correct": false,
+            "feedbackWrong": "Order matters here because president, VP, and secretary are different roles."
+          },
+          {
+            "label": "C",
+            "text": "It is neither a permutation nor a combination.",
+            "correct": false,
+            "feedbackWrong": "This is a standard permutation problem."
+          },
+          {
+            "label": "D",
+            "text": "It is a combination because the order of selection does not affect the outcome.",
+            "correct": false,
+            "feedbackWrong": "The order affects who gets which role, so order matters."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-perm-s6-q2",
+        "nodeId": "perm-basics",
+        "errorId": "err-factorial-simplify",
+        "stem": "Simplify: 10! / 7!",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly simplifies the factorial division to 720.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Factorial simplification is foundational for permutation calculations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Test ability to simplify factorial expressions by canceling common terms.",
+        "commonMisconception": "Student subtracts denominators or multiplies all factors without canceling.",
+        "remediationModule": "err-factorial-simplify",
+        "retestItem": "err-factorial-simplify",
+        "options": [
+          {
+            "label": "A",
+            "text": "720",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "5040",
+            "correct": false,
+            "feedbackWrong": "You may have computed 7! instead of simplifying. Cancel the common terms: 10!/7! = 10 × 9 × 8 = 720."
+          },
+          {
+            "label": "C",
+            "text": "120",
+            "correct": false,
+            "feedbackWrong": "Check your multiplication: 10×9×8 = 720, not 120."
+          },
+          {
+            "label": "D",
+            "text": "3600",
+            "correct": false,
+            "feedbackWrong": "You may have multiplied 10×9×8×7? Remember to only keep the factors from 10 down to 8."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-perm-s6-q3",
+        "nodeId": "perm-basics",
+        "errorId": "err-distinguishable-forget-divide",
+        "stem": "How many distinct arrangements can be made using all the letters in the word 'BANANA'?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly calculates 60 using the distinguishable permutation formula.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Distinguishable permutations handle repeated items.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Test understanding of dividing by factorials for identical objects.",
+        "commonMisconception": "Student forgets to divide by the factorials of repeated letters, simply using 6!.",
+        "remediationModule": "err-distinguishable-forget-divide",
+        "retestItem": "err-distinguishable-forget-divide",
+        "options": [
+          {
+            "label": "A",
+            "text": "720",
+            "correct": false,
+            "feedbackWrong": "You calculated 6! but forgot to account for repeated letters (A appears 3 times, N appears 2 times). Divide by 3!2! to get 60."
+          },
+          {
+            "label": "B",
+            "text": "120",
+            "correct": false,
+            "feedbackWrong": "Close, but you need to divide by both 3! and 2!. The correct count is 6!/(3!2!) = 60."
+          },
+          {
+            "label": "C",
+            "text": "60",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "D",
+            "text": "30",
+            "correct": false,
+            "feedbackWrong": "You may have divided by too much. The correct formula is 6!/(3!2!) = 60."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-perm-s6-q4",
+        "nodeId": "perm-basics",
+        "errorId": "err-npr-wrong-multiply",
+        "stem": "Calculate P(15,3).",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student correctly calculates 2730 using P(15,3) = 15×14×13 = 2730.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Direct application of nPr formula.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can compute nPr correctly by multiplying r descending factors.",
+        "commonMisconception": "Student might use 15×14×13 wrong or use a different formula.",
+        "remediationModule": "err-npr-wrong-multiply",
+        "retestItem": "err-npr-wrong-multiply",
+        "options": [
+          {
+            "label": "A",
+            "text": "2730",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "3375",
+            "correct": false,
+            "feedbackWrong": "You may have calculated 15^3 = 3375. Remember, nPr is n×(n-1)×...×(n-r+1), not n^r."
+          },
+          {
+            "label": "C",
+            "text": "455",
+            "correct": false,
+            "feedbackWrong": "This looks like a combination result. For C(15,3) it would be 455. Here order matters, so use nPr."
+          },
+          {
+            "label": "D",
+            "text": "15!",
+            "correct": false,
+            "feedbackWrong": "15! is the number of permutations of all 15 objects, not selecting only 3."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-perm-s6-q5",
+        "nodeId": "perm-basics",
+        "errorId": "err-replacement-assume-perm",
+        "stem": "A password is made of 3 digits, each chosen from 0 to 9. Digits may be repeated. Which expression correctly gives the number of possible passwords?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student identifies that since repetition is allowed, the multiplication principle applies: 10^3.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding when permutations do not apply due to replacement.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes that with replacement, we use n^r instead of P(n,r).",
+        "commonMisconception": "Student applies the permutation formula P(10,3) even though repetition is allowed.",
+        "remediationModule": "err-replacement-assume-perm",
+        "retestItem": "err-replacement-assume-perm",
+        "options": [
+          {
+            "label": "A",
+            "text": "10^3",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "P(10,3)",
+            "correct": false,
+            "feedbackWrong": "P(10,3) is for permutations without replacement. Since digits can repeat, use the multiplication rule: 10 choices each time, so 10^3."
+          },
+          {
+            "label": "C",
+            "text": "10!",
+            "correct": false,
+            "feedbackWrong": "10! counts ways to arrange all 10 digits, not relevant here."
+          },
+          {
+            "label": "D",
+            "text": "3^10",
+            "correct": false,
+            "feedbackWrong": "This would be if you had 3 choices for each of 10 positions, but it's 10 choices for each of 3 positions."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-perm-vs-comb",
+      "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q1",
+      "systemAction": "assign reteach module for err-perm-vs-comb",
+      "studentMessage": "Let's review when order matters and when it doesn't."
+    },
+    {
+      "errorId": "err-factorial-simplify",
+      "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q2",
+      "systemAction": "assign reteach module for err-factorial-simplify",
+      "studentMessage": "Let's practice simplifying factorial expressions."
+    },
+    {
+      "errorId": "err-distinguishable-forget-divide",
+      "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q3",
+      "systemAction": "assign reteach module for err-distinguishable-forget-divide",
+      "studentMessage": "Remember to divide by factorials of identical items."
+    },
+    {
+      "errorId": "err-npr-wrong-multiply",
+      "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q4",
+      "systemAction": "assign reteach module for err-npr-wrong-multiply",
+      "studentMessage": "Let's check the nPr formula and how to apply it."
+    },
+    {
+      "errorId": "err-replacement-assume-perm",
+      "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q5",
+      "systemAction": "assign reteach module for err-replacement-assume-perm",
+      "studentMessage": "Remember that when repetition is allowed, use the multiplication rule, not permutations."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-perm-vs-comb",
+      "trigger": "student selects wrong option on question diag-mdm4u-perm-s6-q1",
+      "studentMisunderstanding": "Thinks that any selection of a group is a combination, ignoring the distinct roles (order).",
+      "miniLesson": {
+        "explain": "Permutations count ordered arrangements; combinations count unordered groups. If order matters (e.g., different roles, ranking), use permutations. If order doesn't matter (e.g., just selecting a team), use combinations.",
+        "example": "For 3 distinct objects A, B, C: permutations (arrangements) = 3! = 6 (ABC, ACB, BAC, BCA, CAB, CBA). Combinations (groups) = 1 (just {A,B,C}).",
+        "memoryAnchor": "If the roles are different or the order of arrangement counts, think 'P' for permutation. If you just want a group, think 'C' for combination."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Is choosing a president, VP, treasurer from 10 members a permutation or combination? Answer with 'permutation' or 'combination'.",
+          "answer": "permutation"
+        },
+        {
+          "level": "L2",
+          "prompt": "How many ways to select a president, VP, and secretary from 15 members? (Order matters) Compute the number.",
+          "answer": "2730"
+        },
+        {
+          "level": "L3",
+          "prompt": "A combination lock uses 3 digits chosen from 0 to 59 without repetition. How many possible sequences? (Order matters: 1-2-3 is different from 3-2-1)",
+          "answer": "205320"
+        }
+      ]
+    },
+    {
+      "errorId": "err-factorial-simplify",
+      "trigger": "Let's practice simplifying factorial expressions.",
+      "studentMisunderstanding": "Incorrectly simplifying factorial divisions, e.g., not canceling overlapping terms.",
+      "miniLesson": {
+        "explain": "Factorials represent the product of all positive integers from 1 to n. When dividing factorials, you can cancel the common factorial chain. For example, 6!/4! = (6×5×4×3×2×1)/(4×3×2×1) = 6×5 = 30. You only multiply the numbers from the larger factorial that are not cancelled by the smaller factorial.",
+        "example": "Simplify 10!/7!. Write 10! = 10×9×8×7×6×... and 7! = 7×6×... Cancel 7! from 10! to leave 10×9×8 = 720.",
+        "memoryAnchor": "Cancel the overlapping factorial chain."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Simplify: 6! / 4!",
+          "answer": "30"
+        },
+        {
+          "level": "L2",
+          "prompt": "Simplify: 10! / 7!",
+          "answer": "720"
+        },
+        {
+          "level": "L3",
+          "prompt": "Simplify: 15! / 12!",
+          "answer": "2730"
+        }
+      ]
+    },
+    {
+      "errorId": "err-distinguishable-forget-divide",
+      "trigger": "Student answered diag-mdm4u-perm-s6-q3 incorrectly, indicating forgetting to divide by factorials of identical objects.",
+      "studentMisunderstanding": "The student counts arrangements of letters or objects with repeated items as if all items are distinct, using n! without dividing by the factorials of the identical items.",
+      "miniLesson": {
+        "explain": "When some objects are identical, simply using n! overcounts because swapping identical objects does not create a new arrangement. To correct, divide n! by the factorial of each group of identical objects.",
+        "example": "Consider the word 'BANANA'. There are 6 letters: B (1), A (3), N (2). Number of distinct arrangements = 6!/(3!2!) = 720/(6×2) = 720/12 = 60.",
+        "memoryAnchor": "Identical items? Divide their factorials!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many distinct arrangements of the letters in 'APPLE'?",
+          "answer": "60"
+        },
+        {
+          "level": "L2",
+          "prompt": "How many distinct linear arrangements can you make with 3 identical red marbles and 2 identical blue marbles?",
+          "answer": "10"
+        },
+        {
+          "level": "L3",
+          "prompt": "How many distinct arrangements of the letters in 'BOOK'?",
+          "answer": "12"
+        }
+      ]
+    },
+    {
+      "errorId": "err-npr-wrong-multiply",
+      "trigger": "Student answered the diagnostic question P(15,3) incorrectly.",
+      "studentMisunderstanding": "The student may have used n^r (15^3=3375) or the combination formula (C(15,3)=455) instead of the correct nPr multiplication: starting at 15 and multiplying three descending factors (15×14×13=2730).",
+      "miniLesson": {
+        "explain": "The nPr formula counts ordered selections without replacement. For P(n,r), multiply r factors starting from n and decreasing by 1 each time: n×(n-1)×...×(n-r+1). Do not use n^r (which allows repetition) or combination formula nCr.",
+        "example": "P(15,3) = 15×14×13 = 2730.",
+        "memoryAnchor": "Start at n, take r steps down the multiplication ladder."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Calculate P(6,3).",
+          "answer": "120"
+        },
+        {
+          "level": "L2",
+          "prompt": "Calculate P(10,3).",
+          "answer": "720"
+        },
+        {
+          "level": "L3",
+          "prompt": "From a club of 15 members, how many ways can a president, vice-president, and secretary be chosen?",
+          "answer": "2730"
+        }
+      ]
+    },
+    {
+      "errorId": "err-replacement-assume-perm",
+      "trigger": "You used the permutation formula when the problem allowed repetition.",
+      "studentMisunderstanding": "The student thinks that permutation applies to any ordered selection, but fails to recognize that permutation is only for selection without replacement. When repetition is allowed, each selection is independent and the multiplication principle gives n^r.",
+      "miniLesson": {
+        "explain": "Permutations count ordered arrangements without repetition. If repetition is allowed (e.g., passwords where digits can repeat), each position has n choices, so total = n^r. Do not use P(n,r).",
+        "example": "How many 3-digit codes using digits 0 and 1 with repetition? Each digit has 2 choices, so 2^3 = 8.",
+        "memoryAnchor": "Repetition? Multiply! No repetition? Permute!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which scenario involves repetition? A) 3-digit PIN with digits 0-9 each used only once. B) 3-digit PIN with digits 0-9 allowed to repeat.",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "Calculate the number of 3-digit passwords using digits 0 and 1 with repetition.",
+          "answer": "2^3 = 8"
+        },
+        {
+          "level": "L3",
+          "prompt": "A combination lock uses 3 numbers from 0 to 59, numbers can repeat. How many sequences?",
+          "answer": "60^3"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-perm-vs-comb",
+      "questions": [
+        {
+          "id": "retest-perm-vs-comb-q1",
+          "type": "single_choice",
+          "stem": "A school club has 10 members. They need to select a president, a vice president, and a secretary. Is this a permutation or a combination?",
+          "options": [
+            "Permutation",
+            "Combination"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-perm-vs-comb-q2",
+          "type": "single_choice",
+          "stem": "A committee of 3 members is to be chosen from 5 students. The committee has no specific roles. Is this a permutation or a combination?",
+          "options": [
+            "Permutation",
+            "Combination"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-perm-vs-comb-q3",
+          "type": "open_ended",
+          "stem": "Calculate the number of ways to choose a committee of 3 from 5 students (order does not matter).",
+          "rubric": "The correct answer is 10. Accept C(5,3)=10 or 5 choose 3 = 10."
+        }
+      ],
+      "passRule": "All three questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-factorial-simplify",
+      "questions": [
+        {
+          "id": "retest-err-factorial-simplify-q1",
+          "type": "single_choice",
+          "stem": "Simplify: 10! / 7!",
+          "options": [
+            "720",
+            "5040",
+            "120",
+            "7200"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-err-factorial-simplify-q2",
+          "type": "open_ended",
+          "stem": "If 15 people are in a race and gold, silver, and bronze medals are awarded, how many possible outcomes are there? Simplify the factorial expression.",
+          "rubric": "Correct simplification: 15!/12! = 15 × 14 × 13 = 2730. Accept 2730 even if simplification not shown, but encourage showing steps."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass."
+    },
+    {
+      "forErrorId": "err-distinguishable-forget-divide",
+      "questions": [
+        {
+          "id": "retest-distinguish-1",
+          "type": "single_choice",
+          "stem": "How many distinct arrangements can be made from the letters in the word 'BANANA'?",
+          "options": [
+            "720",
+            "60",
+            "120",
+            "360"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-distinguish-2",
+          "type": "open_ended",
+          "stem": "How many distinct linear arrangements can you make with 3 identical red marbles and 2 identical blue marbles?",
+          "rubric": "10"
+        }
+      ],
+      "passRule": "score >= 2"
+    },
+    {
+      "forErrorId": "err-npr-wrong-multiply",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "What is P(10,4)?",
+          "options": [
+            "5040",
+            "10000",
+            "720",
+            "210"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "In a race with 12 horses, in how many different orders can the top 3 horses finish? Use the permutation formula and show your multiplication.",
+          "rubric": "Answer: 1320 (12×11×10). Accept 12×11×10 = 1320 or P(12,3) = 1320. Partial credit if multiplication shown but calculation error."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass."
+    },
+    {
+      "forErrorId": "err-replacement-assume-perm",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A 5-letter code is formed using the letters A, B, C, D, E. If letters can be repeated, how many distinct codes are possible?",
+          "options": [
+            "5^5 = 3125",
+            "P(5,5) = 120",
+            "5! = 120",
+            "5 = 5"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A student claims that the number of 3-digit lock combinations (digits 0-9, repetition allowed) is P(10,3) = 10×9×8 = 720. Explain why this is incorrect and write the correct calculation.",
+          "rubric": "Student must state that repetition is allowed so each digit has 10 independent choices, leading to 10^3 = 1000. Must identify that permutation formula is for selection without replacement."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-14",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/D6podcgG7o9A30x5cFWcbUxUnzb?from=vc_group_doc_link#doxcnR9MX6iEASz3w1WDGqElwwg",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-14 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Permutation applies to ordered scenarios like queuing, seating, and ranking; combination applies to unordered groups.；For 3 distinct objects, number of permutations = 6, number of combinations = 1.；Full permutation of n distinct objects: n! = n × (n-1) × ... × 1.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between permutations (order matters) and combinations (order does not matter)."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Simplify factorial expressions correctly."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Calculate the number of distinguishable permutations when objects are identical."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Apply the nPr formula for ordered selections without replacement."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Identify when to use the multiplication counting principle (with replacement) versus permutation formula."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Mid-course break",
+        "studentAction": "Take a 10-minute break to stretch, drink water, and adjust.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A 10-minute break is arranged in the middle of the course",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Homework: Class Activity 5, questions 7-17",
+        "studentAction": "Complete remaining exercises from Question 7 to Question 17 of Class Activity 5 after class, and submit to the designated learning platform.",
+        "deadlineText": "after class (no specific date given)",
+        "deadlineISO": null,
+        "platform": "designated learning platform (not specified)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students are required to complete the remaining exercises from Question 7 to Question 17 of Class Activity 5 after class, and submit the completed work to the designated learning platform.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Course material unit number adjustment",
+        "studentAction": "Note that the originally planned Unit 8 content is now referred to as Unit 4 in formal course materials.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The originally planned Unit 8 content is adjusted to Unit 4 in formal course materials",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "submit the completed work to the designated learning platform",
+        "reason": "The specific platform name is not mentioned; it is referred to only as 'designated learning platform'."
+      },
+      {
+        "rawText": "after class",
+        "reason": "No specific due date or time is given; 'after class' is ambiguous without a class end time."
+      }
+    ],
+    "watchTags": [
+      "perm-basics"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-perm-vs-comb",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q1",
+        "systemAction": "assign reteach module for err-perm-vs-comb"
+      },
+      {
+        "errorId": "err-factorial-simplify",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q2",
+        "systemAction": "assign reteach module for err-factorial-simplify"
+      },
+      {
+        "errorId": "err-distinguishable-forget-divide",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q3",
+        "systemAction": "assign reteach module for err-distinguishable-forget-divide"
+      },
+      {
+        "errorId": "err-npr-wrong-multiply",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q4",
+        "systemAction": "assign reteach module for err-npr-wrong-multiply"
+      },
+      {
+        "errorId": "err-replacement-assume-perm",
+        "condition": "student selects wrong option on question diag-mdm4u-perm-s6-q5",
+        "systemAction": "assign reteach module for err-replacement-assume-perm"
+      }
+    ],
+    "nextActions": [
+      "[err-perm-vs-comb] student selects wrong option on question diag-mdm4u-perm-s6-q1: Let's review when order matters and when it doesn't.",
+      "[err-factorial-simplify] student selects wrong option on question diag-mdm4u-perm-s6-q2: Let's practice simplifying factorial expressions.",
+      "[err-distinguishable-forget-divide] student selects wrong option on question diag-mdm4u-perm-s6-q3: Remember to divide by factorials of identical items.",
+      "[err-npr-wrong-multiply] student selects wrong option on question diag-mdm4u-perm-s6-q4: Let's check the nPr formula and how to apply it.",
+      "[err-replacement-assume-perm] student selects wrong option on question diag-mdm4u-perm-s6-q5: Remember that when repetition is allowed, use the multiplication rule, not permutations."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-perm-s6-q1",
+        "type": "choice",
+        "question": "Which of the following best describes selecting a president, vice-president, and secretary from a club of 12 members?",
+        "options": [
+          "It is a permutation because the positions are distinct.",
+          "It is a combination because it is a selection from a larger group.",
+          "It is neither a permutation nor a combination.",
+          "It is a combination because the order of selection does not affect the outcome."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can recognize when order is important in a selection problem.",
+        "misconceptions": [
+          "✓ 正确",
+          "Order matters here because president, VP, and secretary are different roles.",
+          "This is a standard permutation problem.",
+          "The order affects who gets which role, so order matters."
+        ],
+        "nodeId": "perm-basics",
+        "errorId": "err-perm-vs-comb",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that the situation is a permutation because order matters.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses distinguishing permutations from combinations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks that any selection of a group is a combination, ignoring the distinct roles (order).",
+        "remediationModule": "err-perm-vs-comb",
+        "retestItem": "err-perm-vs-comb"
+      },
+      {
+        "id": "diag-mdm4u-perm-s6-q2",
+        "type": "choice",
+        "question": "Simplify: 10! / 7!",
+        "options": [
+          "720",
+          "5040",
+          "120",
+          "3600"
+        ],
+        "correct": 0,
+        "diagnosis": "Test ability to simplify factorial expressions by canceling common terms.",
+        "misconceptions": [
+          "✓ 正确",
+          "You may have computed 7! instead of simplifying. Cancel the common terms: 10!/7! = 10 × 9 × 8 = 720.",
+          "Check your multiplication: 10×9×8 = 720, not 120.",
+          "You may have multiplied 10×9×8×7? Remember to only keep the factors from 10 down to 8."
+        ],
+        "nodeId": "perm-basics",
+        "errorId": "err-factorial-simplify",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly simplifies the factorial division to 720.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Factorial simplification is foundational for permutation calculations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student subtracts denominators or multiplies all factors without canceling.",
+        "remediationModule": "err-factorial-simplify",
+        "retestItem": "err-factorial-simplify"
+      },
+      {
+        "id": "diag-mdm4u-perm-s6-q3",
+        "type": "choice",
+        "question": "How many distinct arrangements can be made using all the letters in the word 'BANANA'?",
+        "options": [
+          "720",
+          "120",
+          "60",
+          "30"
+        ],
+        "correct": 2,
+        "diagnosis": "Test understanding of dividing by factorials for identical objects.",
+        "misconceptions": [
+          "You calculated 6! but forgot to account for repeated letters (A appears 3 times, N appears 2 times). Divide by 3!2! to get 60.",
+          "Close, but you need to divide by both 3! and 2!. The correct count is 6!/(3!2!) = 60.",
+          "✓ 正确",
+          "You may have divided by too much. The correct formula is 6!/(3!2!) = 60."
+        ],
+        "nodeId": "perm-basics",
+        "errorId": "err-distinguishable-forget-divide",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly calculates 60 using the distinguishable permutation formula.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Distinguishable permutations handle repeated items.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student forgets to divide by the factorials of repeated letters, simply using 6!.",
+        "remediationModule": "err-distinguishable-forget-divide",
+        "retestItem": "err-distinguishable-forget-divide"
+      },
+      {
+        "id": "diag-mdm4u-perm-s6-q4",
+        "type": "choice",
+        "question": "Calculate P(15,3).",
+        "options": [
+          "2730",
+          "3375",
+          "455",
+          "15!"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can compute nPr correctly by multiplying r descending factors.",
+        "misconceptions": [
+          "✓ 正确",
+          "You may have calculated 15^3 = 3375. Remember, nPr is n×(n-1)×...×(n-r+1), not n^r.",
+          "This looks like a combination result. For C(15,3) it would be 455. Here order matters, so use nPr.",
+          "15! is the number of permutations of all 15 objects, not selecting only 3."
+        ],
+        "nodeId": "perm-basics",
+        "errorId": "err-npr-wrong-multiply",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student correctly calculates 2730 using P(15,3) = 15×14×13 = 2730.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Direct application of nPr formula.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student might use 15×14×13 wrong or use a different formula.",
+        "remediationModule": "err-npr-wrong-multiply",
+        "retestItem": "err-npr-wrong-multiply"
+      },
+      {
+        "id": "diag-mdm4u-perm-s6-q5",
+        "type": "choice",
+        "question": "A password is made of 3 digits, each chosen from 0 to 9. Digits may be repeated. Which expression correctly gives the number of possible passwords?",
+        "options": [
+          "10^3",
+          "P(10,3)",
+          "10!",
+          "3^10"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student recognizes that with replacement, we use n^r instead of P(n,r).",
+        "misconceptions": [
+          "✓ 正确",
+          "P(10,3) is for permutations without replacement. Since digits can repeat, use the multiplication rule: 10 choices each time, so 10^3.",
+          "10! counts ways to arrange all 10 digits, not relevant here.",
+          "This would be if you had 3 choices for each of 10 positions, but it's 10 choices for each of 3 positions."
+        ],
+        "nodeId": "perm-basics",
+        "errorId": "err-replacement-assume-perm",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student identifies that since repetition is allowed, the multiplication principle applies: 10^3.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding when permutations do not apply due to replacement.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student applies the permutation formula P(10,3) even though repetition is allowed.",
+        "remediationModule": "err-replacement-assume-perm",
+        "retestItem": "err-replacement-assume-perm"
+      }
+    ]
+  }
+}

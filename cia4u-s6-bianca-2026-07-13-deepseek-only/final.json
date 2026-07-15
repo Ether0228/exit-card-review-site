@@ -1,0 +1,1080 @@
+{
+  "sourceLesson": "CIA4U.S6.Bianca 2026-07-13",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Hh8sdXKDmomKVdxynm2cCbcgnWh?from=vc_group_doc_link#doxcn0Rxi8AOaWaQZ78OmgSwU8g",
+  "sourceTitle": "CIA4U.S6.Bianca 2026-07-13 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Hh8sdXKDmomKVdxynm2cCbcgnWh?from=vc_group_doc_link#doxcn0Rxi8AOaWaQZ78OmgSwU8g",
+    "title": "CIA4U.S6.Bianca 2026-07-13 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/cia4u-s6-bianca-2026-07-13/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "CIA4U",
+  "lessonDate": "2026-07-13",
+  "teacher": "Bianca",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-13",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson combines direct instruction on economic growth costs/benefits and unemployment with group discussion and practice, plus administrative announcements for first class.",
+    "academicContentSignals": [
+      "Benefits of economic growth: improved living standards, job opportunities, poverty reduction, public funding for healthcare/infrastructure",
+      "Costs of economic growth: pollution, congestion, resource depletion, income inequality, inflation",
+      "Two unemployment measurement methods: claimant count and labor force survey",
+      "Six unemployment types: voluntary, seasonal, structural, etc.",
+      "Unemployment solutions: minimum wage, retraining, technology integration",
+      "Group discussion: economic growth tradeoffs, new local factory debate"
+    ],
+    "courseOverviewSignals": [
+      "Four core units: economic fundamentals, firms/markets/stakeholders, macroeconomics, global interdependence and inequality",
+      "Assessment structure: 2 assignments + 1 unit test per unit, plus final exam and cumulative project"
+    ],
+    "opsDominanceRisk": "The lesson contains many administrative items (camera rules, late policy, submission deadlines, test plagiarism rules) that could overshadow the core economic content if over-emphasized in generation. Ensure exit card focuses on economic growth and unemployment concepts, with minimal ops questions.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Cameras on for full class & participation required",
+        "studentAction": "Keep camera on during entire class and participate in post-lecture discussions to avoid absence mark.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students must keep cameras on for the full class, and failure to participate in post-lecture discussions will result in an absence mark.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Request assignment extensions in advance via email",
+        "studentAction": "Email instructor Bianca or co-teacher Eileen before the deadline if you need an extension.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students needing assignment extensions must email instructor Bianca or co-teacher Eileen in advance",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "No retake for test plagiarism or AI use",
+        "studentAction": "Ensure all test work is original; plagiarism or AI use results in no retake eligibility.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "test plagiarism/AI use carries no retake eligibility",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "deadline",
+        "title": "Submit Unit 1 Assignment 1 if not yet submitted",
+        "studentAction": "Upload your Unit 1 Assignment 1 immediately before next class.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "2 students who have not submitted",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Only 9 out of all enrolled students have submitted Unit 1 Assignment 1 as of class time, and the remaining 2 non-submitting students must upload their work immediately.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Unit 1 Assignment 2 will be distributed tomorrow",
+        "studentAction": "Be ready to receive Assignment 2 on 2026-07-14.",
+        "deadlineText": "2026-07-14",
+        "deadlineISO": "2026-07-14",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Unit 1 Assignment 2 will be distributed the day after this class",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Test mid-week",
+        "studentAction": "Prepare for Unit 1 test using provided review materials.",
+        "deadlineText": "mid-week (likely 2026-07-15)",
+        "deadlineISO": "2026-07-15",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "low",
+        "sourceEvidence": "the Unit 1 test will be held mid-week",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "assignment",
+        "title": "Homework: 4 basic concept questions on growth and unemployment",
+        "studentAction": "Complete and submit the 4 concept questions by tomorrow morning.",
+        "deadlineText": "morning of 2026-07-14",
+        "deadlineISO": "2026-07-14T08:00:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The assigned homework includes 4 basic concept questions covering growth pros/cons and unemployment definitions, with a hard submission deadline of the following morning.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-008",
+        "category": "review_focus",
+        "title": "Use instructor-provided review materials for Unit 1 test",
+        "studentAction": "Access and study the review materials provided by the instructor only.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "use only the instructor-provided review materials for focused preparation",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "hard submission deadline of the following morning",
+        "reason": "The exact time in the morning is not specified; could be start of class or a specific hour."
+      }
+    ]
+  },
+  "title": "CIA4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Economic Growth Analysis、Macroeconomic Models and Measures、Course Structure and Rules）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Economic growth raises material living standards, expands job opportunities, reduces poverty, and increases public funding for healthcare and infrastructure.；Unregulated economic growth leads to environmental pollution, traffic congestion, non-renewable resource depletion, widening income gaps, and inflation.；Unemployment is measured by claimant count and labor force survey.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can identify both the benefits and costs of economic growth and recognize that growth involves tradeoffs."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can distinguish between different types of unemployment (voluntary, seasonal, structural, frictional, cyclical, technological) and match them to appropriate solutions."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can differentiate between claimant count and labor force survey as methods for measuring unemployment."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "CIA4U-B-OE03",
+      "name": "Economic Growth Analysis",
+      "nameEn": "Economic Growth Analysis",
+      "definition": "Analyse aspects of economic growth/development, including its costs, benefits, and sustainability. Lesson covered benefits (higher living standards, jobs, poverty reduction, public funding) and costs (pollution, congestion, resource depletion, inequality, inflation).",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "CIA4U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Analyse aspects of economic growth/development, including its costs, benefits, and sustainability."
+    },
+    {
+      "id": "CIA4U-D-OE01",
+      "name": "Macroeconomic Models and Measures",
+      "nameEn": "Macroeconomic Models and Measures",
+      "definition": "Demonstrate an understanding of various macroeconomic models and measures, including indicators used to measure economic inequalities. Lesson introduced unemployment measurement (claimant count, labor force survey) and types of unemployment.",
+      "officialExpectationCode": "D1",
+      "officialNodeId": "CIA4U-D-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of various macroeconomic models and measures, including indicators used to measure economic inequalities, and assess their usefulness."
+    },
+    {
+      "id": "CIA4U-course-overview",
+      "name": "Course Structure and Rules",
+      "nameEn": "Course Structure and Rules",
+      "definition": "Overview of CIA4U: four units, assessment structure (2 assignments + 1 test per unit, final exam and project), daily schedule, and classroom policies.",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify both the benefits and costs of economic growth and recognize that growth involves tradeoffs."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can distinguish between different types of unemployment (voluntary, seasonal, structural, frictional, cyclical, technological) and match them to appropriate solutions."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can differentiate between claimant count and labor force survey as methods for measuring unemployment."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": null,
+        "condition": "4-5 correct",
+        "systemAction": "mark passed; unlock normal homework reminder",
+        "studentMessage": "You have a solid understanding of economic growth tradeoffs and unemployment concepts. Continue with the homework."
+      },
+      {
+        "errorId": null,
+        "condition": "2-3 correct",
+        "systemAction": "assign reteach modules for missed errorIds, then retest",
+        "studentMessage": "You understand some areas but need practice on others. Complete the reteach modules for the concepts you missed."
+      },
+      {
+        "errorId": null,
+        "condition": "0-1 correct",
+        "systemAction": "start full reteach path: all three error modules, then retest",
+        "studentMessage": "The core concepts from today need reinforcement. Work through the reteach modules and retake the diagnostic."
+      },
+      {
+        "errorId": "err-economic-growth-always-good",
+        "condition": "student answers incorrectly on at least one question targeting this errorId",
+        "systemAction": "assign reteach module err-economic-growth-always-good",
+        "studentMessage": "Review the tradeoffs of economic growth: it has both benefits and costs. Complete the reteach module."
+      },
+      {
+        "errorId": "err-unemployment-single-type",
+        "condition": "student answers incorrectly on at least one question targeting this errorId",
+        "systemAction": "assign reteach module err-unemployment-single-type",
+        "studentMessage": "Unemployment comes in several types. Review the definitions of voluntary, seasonal, structural, frictional, cyclical, and technological unemployment."
+      },
+      {
+        "errorId": "err-unemployment-measurement-confusion",
+        "condition": "student answers incorrectly on at least one question targeting this errorId",
+        "systemAction": "assign reteach module err-unemployment-measurement-confusion",
+        "studentMessage": "There are two main ways to measure unemployment: claimant count and labor force survey. Review the differences."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-cia4u-0713-q1",
+        "nodeId": "CIA4U-B-OE03",
+        "errorId": "err-economic-growth-always-good",
+        "stem": "Which of the following is a commonly cited benefit of economic growth?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies a benefit of economic growth.",
+        "ossdExpectation": "Analyse aspects of economic growth/development, including its costs, benefits, and sustainability.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "CIA4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly checks understanding of economic growth benefits, aligning with expectation B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "stemIntent": "Check if student can recall a positive outcome of economic growth.",
+        "commonMisconception": "Students may think growth only has costs or confuse benefits with costs.",
+        "remediationModule": "err-economic-growth-always-good",
+        "retestItem": "err-economic-growth-always-good",
+        "options": [
+          {
+            "label": "A",
+            "text": "Increased pollution and congestion",
+            "correct": false,
+            "feedbackWrong": "That is actually a common cost of growth, not a benefit."
+          },
+          {
+            "label": "B",
+            "text": "Higher per capita income and improved living standards",
+            "correct": true,
+            "feedbackCorrect": "Correct. Economic growth typically raises incomes and living standards."
+          },
+          {
+            "label": "C",
+            "text": "Depletion of non-renewable resources",
+            "correct": false,
+            "feedbackWrong": "This is a negative consequence of growth, not a benefit."
+          },
+          {
+            "label": "D",
+            "text": "Widening income inequality",
+            "correct": false,
+            "feedbackWrong": "Income inequality often increases with unregulated growth; it's a cost."
+          }
+        ]
+      },
+      {
+        "id": "diag-cia4u-0713-q2",
+        "nodeId": "CIA4U-B-OE03",
+        "errorId": "err-economic-growth-always-good",
+        "stem": "Unregulated economic growth can lead to which of the following negative outcomes?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies a cost of economic growth.",
+        "ossdExpectation": "Analyse aspects of economic growth/development, including its costs, benefits, and sustainability.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "CIA4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly checks understanding of economic growth costs, aligning with expectation B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "stemIntent": "Check if student can recall a negative outcome of economic growth.",
+        "commonMisconception": "Students may think growth is always positive and ignore costs.",
+        "remediationModule": "err-economic-growth-always-good",
+        "retestItem": "err-economic-growth-always-good",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reduced poverty",
+            "correct": false,
+            "feedbackWrong": "Reduced poverty is actually a benefit of growth, not a negative outcome."
+          },
+          {
+            "label": "B",
+            "text": "Higher employment",
+            "correct": false,
+            "feedbackWrong": "Higher employment is a positive effect of growth."
+          },
+          {
+            "label": "C",
+            "text": "Accelerated inflation",
+            "correct": true,
+            "feedbackCorrect": "Correct. Unregulated growth can lead to demand-pull inflation."
+          },
+          {
+            "label": "D",
+            "text": "Increased fiscal dividend",
+            "correct": false,
+            "feedbackWrong": "Increased fiscal dividend (more tax revenue) is a benefit for government."
+          }
+        ]
+      },
+      {
+        "id": "diag-cia4u-0713-q3",
+        "nodeId": "CIA4U-D-OE01",
+        "errorId": "err-unemployment-single-type",
+        "stem": "Which type of unemployment occurs when workers are temporarily between jobs, often while searching for new ones?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies frictional unemployment.",
+        "ossdExpectation": "Demonstrate an understanding of various macroeconomic models and measures, including indicators used to measure economic inequalities.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "CIA4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Unemployment types are part of macroeconomic models and measures, aligning with D1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recognize",
+        "stemIntent": "Test knowledge of the definition of frictional unemployment.",
+        "commonMisconception": "Students may confuse frictional with structural or cyclical unemployment.",
+        "remediationModule": "err-unemployment-single-type",
+        "retestItem": "err-unemployment-single-type",
+        "options": [
+          {
+            "label": "A",
+            "text": "Structural (job mismatch due to skills or location)",
+            "correct": false,
+            "feedbackWrong": "Structural unemployment is due to changes in the economy, not temporary transitions."
+          },
+          {
+            "label": "B",
+            "text": "Cyclical (unemployment during a recession)",
+            "correct": false,
+            "feedbackWrong": "Cyclical unemployment is linked to the business cycle, not job searching."
+          },
+          {
+            "label": "C",
+            "text": "Frictional (short-term unemployment between jobs)",
+            "correct": true,
+            "feedbackCorrect": "Correct. Frictional unemployment involves workers moving between jobs."
+          },
+          {
+            "label": "D",
+            "text": "Seasonal (unemployment due to weather or tourism cycles)",
+            "correct": false,
+            "feedbackWrong": "Seasonal unemployment is due to predictable seasonal changes, not temporary job searching."
+          }
+        ]
+      },
+      {
+        "id": "diag-cia4u-0713-q4",
+        "nodeId": "CIA4U-D-OE01",
+        "errorId": "err-unemployment-measurement-confusion",
+        "stem": "Which method of measuring unemployment counts only those people who are actively claiming unemployment benefits?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies claimant count.",
+        "ossdExpectation": "Demonstrate an understanding of various macroeconomic models and measures, including indicators used to measure economic inequalities.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "CIA4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Unemployment measurement methods are key macroeconomic indicators under D1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "differentiate",
+        "stemIntent": "Check if student can distinguish between claimant count and labor force survey.",
+        "commonMisconception": "Students may think both methods are identical or confuse the source of data.",
+        "remediationModule": "err-unemployment-measurement-confusion",
+        "retestItem": "err-unemployment-measurement-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "Labor force survey (based on household interviews)",
+            "correct": false,
+            "feedbackWrong": "The labor force survey estimates unemployment by asking people about their job-seeking activity, not by counting benefit claimants."
+          },
+          {
+            "label": "B",
+            "text": "Claimant count (people receiving unemployment benefits)",
+            "correct": true,
+            "feedbackCorrect": "Correct. The claimant count only includes those who are registered as unemployed and claiming benefits."
+          },
+          {
+            "label": "C",
+            "text": "Census (counts all population)",
+            "correct": false,
+            "feedbackWrong": "The census collects broad demographic data, not specifically unemployment benefit claims."
+          },
+          {
+            "label": "D",
+            "text": "National accounts (measures GDP)",
+            "correct": false,
+            "feedbackWrong": "National accounts measure economic output, not unemployment."
+          }
+        ]
+      },
+      {
+        "id": "diag-cia4u-0713-q5",
+        "nodeId": "CIA4U-B-OE03",
+        "errorId": "err-economic-growth-always-good",
+        "stem": "Explain why economic growth is considered a tradeoff: identify one benefit and one cost, and state how a government might balance them.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student provides a balanced explanation including a benefit, a cost, and a policy suggestion.",
+        "ossdExpectation": "Analyse aspects of economic growth/development, including its costs, benefits, and sustainability.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "CIA4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analysis of growth tradeoffs, directly linked to expectation B3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Assess ability to synthesize both sides of growth and propose a policy response.",
+        "commonMisconception": "Students may list only benefits or only costs, indicating a one-sided view.",
+        "remediationModule": "err-economic-growth-always-good",
+        "retestItem": "err-economic-growth-always-good",
+        "rubric": "Student must name one benefit (e.g., higher living standards, more jobs) and one cost (e.g., pollution, inequality), and suggest a policy (e.g., environmental regulation, progressive taxation).",
+        "sampleStrongAnswer": "Economic growth raises incomes and employment (benefit) but can damage the environment (cost). The government could impose environmental standards and invest in green technology to balance growth with sustainability."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": null,
+      "condition": "4-5 correct",
+      "systemAction": "mark passed; unlock normal homework reminder",
+      "studentMessage": "You have a solid understanding of economic growth tradeoffs and unemployment concepts. Continue with the homework."
+    },
+    {
+      "errorId": null,
+      "condition": "2-3 correct",
+      "systemAction": "assign reteach modules for missed errorIds, then retest",
+      "studentMessage": "You understand some areas but need practice on others. Complete the reteach modules for the concepts you missed."
+    },
+    {
+      "errorId": null,
+      "condition": "0-1 correct",
+      "systemAction": "start full reteach path: all three error modules, then retest",
+      "studentMessage": "The core concepts from today need reinforcement. Work through the reteach modules and retake the diagnostic."
+    },
+    {
+      "errorId": "err-economic-growth-always-good",
+      "condition": "student answers incorrectly on at least one question targeting this errorId",
+      "systemAction": "assign reteach module err-economic-growth-always-good",
+      "studentMessage": "Review the tradeoffs of economic growth: it has both benefits and costs. Complete the reteach module."
+    },
+    {
+      "errorId": "err-unemployment-single-type",
+      "condition": "student answers incorrectly on at least one question targeting this errorId",
+      "systemAction": "assign reteach module err-unemployment-single-type",
+      "studentMessage": "Unemployment comes in several types. Review the definitions of voluntary, seasonal, structural, frictional, cyclical, and technological unemployment."
+    },
+    {
+      "errorId": "err-unemployment-measurement-confusion",
+      "condition": "student answers incorrectly on at least one question targeting this errorId",
+      "systemAction": "assign reteach module err-unemployment-measurement-confusion",
+      "studentMessage": "There are two main ways to measure unemployment: claimant count and labor force survey. Review the differences."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-economic-growth-always-good",
+      "trigger": "Student states that economic growth is always beneficial and has no negative consequences.",
+      "studentMisunderstanding": "Economic growth always improves well-being and has no negative consequences.",
+      "miniLesson": {
+        "explain": "Economic growth has both benefits and costs. Benefits include higher per capita income, reduced poverty, increased employment, and more public funding for healthcare and infrastructure. However, unregulated growth can lead to environmental pollution, traffic congestion, depletion of non-renewable resources, widening income gaps, and inflation. Recognizing this tradeoff is essential for balanced policy-making.",
+        "example": "Consider a new factory: it creates jobs (benefit) but also increases pollution and traffic (costs).",
+        "memoryAnchor": "Growth is a double-edged sword: it cuts poverty but can cut into the environment."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is a benefit of economic growth? (A) Increased pollution, (B) Higher per capita income, (C) Resource depletion, (D) Income inequality.",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "List one benefit and one cost of economic growth from the following: higher employment, pollution, reduced poverty, inflation, increased fiscal dividend.",
+          "answer": "Benefit: higher employment (or reduced poverty, increased fiscal dividend). Cost: pollution (or inflation)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A city is experiencing rapid economic growth from new tech companies. However, residents complain about traffic congestion and rising housing costs. Describe one benefit and one cost of this growth, and suggest a government policy to address the cost while maintaining growth.",
+          "answer": "Benefit: more jobs and higher incomes. Cost: traffic congestion and housing affordability. Policy: invest in public transit and affordable housing incentives, while supporting tech industry growth."
+        }
+      ]
+    },
+    {
+      "errorId": "err-unemployment-single-type",
+      "trigger": "Student believes unemployment is always caused by layoffs and does not recognize distinct types.",
+      "studentMisunderstanding": "Believes unemployment is a single phenomenon with a single cause, rather than recognizing six distinct types with different causes and solutions.",
+      "miniLesson": {
+        "explain": "Unemployment is not one problem; there are six different types: voluntary, seasonal, structural, frictional, cyclical, and technological. Each has a specific cause and calls for a different policy response.",
+        "example": "Frictional unemployment occurs when workers are between jobs, while structural unemployment arises from a mismatch between workers' skills and available jobs.",
+        "memoryAnchor": "Remember the 6 types with the acronym VSFFCT: Voluntary, Seasonal, Frictional, Structural, Cyclical, Technological."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Name all six types of unemployment.",
+          "answer": "Voluntary, seasonal, structural, frictional, cyclical, technological."
+        },
+        {
+          "level": "L2",
+          "prompt": "Which type of unemployment is caused by workers' skills becoming outdated due to economic changes?",
+          "answer": "Structural unemployment."
+        },
+        {
+          "level": "L3",
+          "prompt": "For technological unemployment, what is an appropriate solution from the lesson?",
+          "answer": "Worker retraining to help them learn skills for new industries."
+        }
+      ]
+    },
+    {
+      "errorId": "err-unemployment-measurement-confusion",
+      "trigger": "The diagnostic question (diag-cia4u-0713-q4) asked which method counts people claiming benefits. The student chose a wrong answer.",
+      "studentMisunderstanding": "The student confuses the claimant count with the labor force survey, possibly thinking both methods rely on the same data source or that the claimant count includes all unemployed people.",
+      "miniLesson": {
+        "explain": "Unemployment is measured in two main ways. The claimant count simply counts the number of people receiving unemployment benefits. The labor force survey estimates unemployment by interviewing a sample of households and asking about job-seeking activity. The claimant count is a narrow measure (only those who claim benefits), while the labor force survey is broader (includes people who are jobless but not claiming benefits). Both are used to track unemployment trends.",
+        "example": "In Canada, the claimant count might show 1.2 million people receiving EI benefits, while the labor force survey might estimate 1.5 million unemployed. The difference is because not all unemployed people are eligible for or claim benefits.",
+        "memoryAnchor": "Remember: 'Claimant = Claims (only those who apply for benefits)'; 'Survey = Search (asks households if they are looking for work)'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which measurement method counts only individuals who are registered for and receiving unemployment insurance payments?",
+          "answer": "Claimant count"
+        },
+        {
+          "level": "L2",
+          "prompt": "Why might the labor force survey report a higher unemployment number than the claimant count? Explain briefly.",
+          "answer": "The labor force survey captures people who are unemployed but not receiving benefits, such as those who have exhausted benefits or are ineligible. The claimant count only includes benefit recipients."
+        },
+        {
+          "level": "L3",
+          "prompt": "A government notices that the claimant count is falling but the labor force survey shows unemployment rising. What could be happening?",
+          "answer": "This could mean fewer people are eligible for or claiming benefits (e.g., due to stricter eligibility criteria or benefit exhaustion), even though more people are actually unemployed and looking for work. The labor force survey captures this hidden unemployment."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-economic-growth-always-good",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following best describes the overall impact of economic growth?",
+          "options": [
+            "Always beneficial",
+            "Always harmful",
+            "Has both benefits and costs",
+            "Benefits only the wealthy"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Identify one benefit and one cost of economic growth from the following list: higher employment, pollution, reduced poverty, inflation, increased fiscal dividend.",
+          "rubric": "Must include one benefit (higher employment, reduced poverty, or increased fiscal dividend) and one cost (pollution or inflation)."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "stem": "A country experiences rapid economic growth. Which pair of outcomes best illustrates the tradeoff between benefits and costs?",
+          "options": [
+            "More jobs and less pollution",
+            "Higher incomes and more traffic congestion",
+            "Lower poverty and lower inflation",
+            "More schools and less inequality"
+          ],
+          "correct": 1
+        }
+      ],
+      "passRule": "Student must answer both multiple-choice questions correctly (q1: index 2, q3: index 1) and in the open-ended response (q2) provide at least one valid benefit and one valid cost from the specified list."
+    },
+    {
+      "forErrorId": "err-unemployment-single-type",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A worker who voluntarily leaves their job to travel for a year, then returns to the workforce, is an example of which type of unemployment?",
+          "options": [
+            "Frictional",
+            "Voluntary",
+            "Seasonal",
+            "Structural"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why unemployment is not a single phenomenon. Identify two distinct types of unemployment from the lesson and describe their specific causes.",
+          "rubric": "Student must state that unemployment has multiple types with different causes. Accurately name at least two types (e.g., voluntary, seasonal, structural, frictional, cyclical, technological) and correctly describe their causes (e.g., frictional: short-term between jobs; structural: skills mismatch)."
+        }
+      ],
+      "passRule": "Question 1 must be answered correctly and question 2 must meet the rubric criteria."
+    },
+    {
+      "forErrorId": "err-unemployment-measurement-confusion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A country reports 1.5 million people receiving unemployment benefits. At the same time, the labor force survey estimates 2.2 million unemployed. Which explanation best accounts for this difference?",
+          "options": [
+            "The claimant count counts all unemployed people, but the labor force survey counts only job-seekers.",
+            "The labor force survey includes people who are not looking for work.",
+            "Not all unemployed individuals are eligible for or claim unemployment benefits.",
+            "The claimant count includes employed workers who are on temporary leave."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why the claimant count and the labor force survey can produce different unemployment numbers. Provide one specific reason.",
+          "rubric": "Student must identify that the claimant count only includes individuals who are receiving unemployment benefits, whereas the labor force survey estimates unemployment by surveying households and counting all people who are jobless and actively seeking work. A valid reason is that not all unemployed people claim benefits (e.g., due to ineligibility, exhaustion, or discouragement), so the survey captures more individuals."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the response must explicitly mention that the claimant count is limited to benefit recipients, while the labor force survey is broader."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-13",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Hh8sdXKDmomKVdxynm2cCbcgnWh?from=vc_group_doc_link#doxcn0Rxi8AOaWaQZ78OmgSwU8g",
+    "sourceTitle": "CIA4U.S6.Bianca 2026-07-13 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Economic growth raises material living standards, expands job opportunities, reduces poverty, and increases public funding for healthcare and infrastructure.；Unregulated economic growth leads to environmental pollution, traffic congestion, non-renewable resource depletion, widening income gaps, and inflation.；Unemployment is measured by claimant count and labor force survey.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify both the benefits and costs of economic growth and recognize that growth involves tradeoffs."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can distinguish between different types of unemployment (voluntary, seasonal, structural, frictional, cyclical, technological) and match them to appropriate solutions."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can differentiate between claimant count and labor force survey as methods for measuring unemployment."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Cameras on for full class & participation required",
+        "studentAction": "Keep camera on during entire class and participate in post-lecture discussions to avoid absence mark.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students must keep cameras on for the full class, and failure to participate in post-lecture discussions will result in an absence mark.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Request assignment extensions in advance via email",
+        "studentAction": "Email instructor Bianca or co-teacher Eileen before the deadline if you need an extension.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students needing assignment extensions must email instructor Bianca or co-teacher Eileen in advance",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "No retake for test plagiarism or AI use",
+        "studentAction": "Ensure all test work is original; plagiarism or AI use results in no retake eligibility.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "test plagiarism/AI use carries no retake eligibility",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "deadline",
+        "title": "Submit Unit 1 Assignment 1 if not yet submitted",
+        "studentAction": "Upload your Unit 1 Assignment 1 immediately before next class.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "2 students who have not submitted",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Only 9 out of all enrolled students have submitted Unit 1 Assignment 1 as of class time, and the remaining 2 non-submitting students must upload their work immediately.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Unit 1 Assignment 2 will be distributed tomorrow",
+        "studentAction": "Be ready to receive Assignment 2 on 2026-07-14.",
+        "deadlineText": "2026-07-14",
+        "deadlineISO": "2026-07-14",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Unit 1 Assignment 2 will be distributed the day after this class",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Test mid-week",
+        "studentAction": "Prepare for Unit 1 test using provided review materials.",
+        "deadlineText": "mid-week (likely 2026-07-15)",
+        "deadlineISO": "2026-07-15",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "low",
+        "sourceEvidence": "the Unit 1 test will be held mid-week",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "assignment",
+        "title": "Homework: 4 basic concept questions on growth and unemployment",
+        "studentAction": "Complete and submit the 4 concept questions by tomorrow morning.",
+        "deadlineText": "morning of 2026-07-14",
+        "deadlineISO": "2026-07-14T08:00:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The assigned homework includes 4 basic concept questions covering growth pros/cons and unemployment definitions, with a hard submission deadline of the following morning.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-008",
+        "category": "review_focus",
+        "title": "Use instructor-provided review materials for Unit 1 test",
+        "studentAction": "Access and study the review materials provided by the instructor only.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "use only the instructor-provided review materials for focused preparation",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "hard submission deadline of the following morning",
+        "reason": "The exact time in the morning is not specified; could be start of class or a specific hour."
+      }
+    ],
+    "watchTags": [
+      "CIA4U-B-OE03",
+      "CIA4U-D-OE01",
+      "CIA4U-course-overview"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": null,
+        "condition": "4-5 correct",
+        "systemAction": "mark passed; unlock normal homework reminder"
+      },
+      {
+        "errorId": null,
+        "condition": "2-3 correct",
+        "systemAction": "assign reteach modules for missed errorIds, then retest"
+      },
+      {
+        "errorId": null,
+        "condition": "0-1 correct",
+        "systemAction": "start full reteach path: all three error modules, then retest"
+      },
+      {
+        "errorId": "err-economic-growth-always-good",
+        "condition": "student answers incorrectly on at least one question targeting this errorId",
+        "systemAction": "assign reteach module err-economic-growth-always-good"
+      },
+      {
+        "errorId": "err-unemployment-single-type",
+        "condition": "student answers incorrectly on at least one question targeting this errorId",
+        "systemAction": "assign reteach module err-unemployment-single-type"
+      },
+      {
+        "errorId": "err-unemployment-measurement-confusion",
+        "condition": "student answers incorrectly on at least one question targeting this errorId",
+        "systemAction": "assign reteach module err-unemployment-measurement-confusion"
+      }
+    ],
+    "nextActions": [
+      "4-5 correct: You have a solid understanding of economic growth tradeoffs and unemployment concepts. Continue with the homework.",
+      "2-3 correct: You understand some areas but need practice on others. Complete the reteach modules for the concepts you missed.",
+      "0-1 correct: The core concepts from today need reinforcement. Work through the reteach modules and retake the diagnostic.",
+      "[err-economic-growth-always-good] student answers incorrectly on at least one question targeting this errorId: Review the tradeoffs of economic growth: it has both benefits and costs. Complete the reteach module.",
+      "[err-unemployment-single-type] student answers incorrectly on at least one question targeting this errorId: Unemployment comes in several types. Review the definitions of voluntary, seasonal, structural, frictional, cyclical, and technological unemployment.",
+      "[err-unemployment-measurement-confusion] student answers incorrectly on at least one question targeting this errorId: There are two main ways to measure unemployment: claimant count and labor force survey. Review the differences."
+    ],
+    "cards": [
+      {
+        "id": "diag-cia4u-0713-q1",
+        "type": "choice",
+        "question": "Which of the following is a commonly cited benefit of economic growth?",
+        "options": [
+          "Increased pollution and congestion",
+          "Higher per capita income and improved living standards",
+          "Depletion of non-renewable resources",
+          "Widening income inequality"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can recall a positive outcome of economic growth.",
+        "misconceptions": [
+          "That is actually a common cost of growth, not a benefit.",
+          "✓ Correct. Economic growth typically raises incomes and living standards.",
+          "This is a negative consequence of growth, not a benefit.",
+          "Income inequality often increases with unregulated growth; it's a cost."
+        ],
+        "nodeId": "CIA4U-B-OE03",
+        "errorId": "err-economic-growth-always-good",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies a benefit of economic growth.",
+        "ossdExpectation": "Analyse aspects of economic growth/development, including its costs, benefits, and sustainability.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "CIA4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly checks understanding of economic growth benefits, aligning with expectation B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "commonMisconception": "Students may think growth only has costs or confuse benefits with costs.",
+        "remediationModule": "err-economic-growth-always-good",
+        "retestItem": "err-economic-growth-always-good"
+      },
+      {
+        "id": "diag-cia4u-0713-q2",
+        "type": "choice",
+        "question": "Unregulated economic growth can lead to which of the following negative outcomes?",
+        "options": [
+          "Reduced poverty",
+          "Higher employment",
+          "Accelerated inflation",
+          "Increased fiscal dividend"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student can recall a negative outcome of economic growth.",
+        "misconceptions": [
+          "Reduced poverty is actually a benefit of growth, not a negative outcome.",
+          "Higher employment is a positive effect of growth.",
+          "✓ Correct. Unregulated growth can lead to demand-pull inflation.",
+          "Increased fiscal dividend (more tax revenue) is a benefit for government."
+        ],
+        "nodeId": "CIA4U-B-OE03",
+        "errorId": "err-economic-growth-always-good",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies a cost of economic growth.",
+        "ossdExpectation": "Analyse aspects of economic growth/development, including its costs, benefits, and sustainability.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "CIA4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly checks understanding of economic growth costs, aligning with expectation B3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "commonMisconception": "Students may think growth is always positive and ignore costs.",
+        "remediationModule": "err-economic-growth-always-good",
+        "retestItem": "err-economic-growth-always-good"
+      },
+      {
+        "id": "diag-cia4u-0713-q3",
+        "type": "choice",
+        "question": "Which type of unemployment occurs when workers are temporarily between jobs, often while searching for new ones?",
+        "options": [
+          "Structural (job mismatch due to skills or location)",
+          "Cyclical (unemployment during a recession)",
+          "Frictional (short-term unemployment between jobs)",
+          "Seasonal (unemployment due to weather or tourism cycles)"
+        ],
+        "correct": 2,
+        "diagnosis": "Test knowledge of the definition of frictional unemployment.",
+        "misconceptions": [
+          "Structural unemployment is due to changes in the economy, not temporary transitions.",
+          "Cyclical unemployment is linked to the business cycle, not job searching.",
+          "✓ Correct. Frictional unemployment involves workers moving between jobs.",
+          "Seasonal unemployment is due to predictable seasonal changes, not temporary job searching."
+        ],
+        "nodeId": "CIA4U-D-OE01",
+        "errorId": "err-unemployment-single-type",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies frictional unemployment.",
+        "ossdExpectation": "Demonstrate an understanding of various macroeconomic models and measures, including indicators used to measure economic inequalities.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "CIA4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Unemployment types are part of macroeconomic models and measures, aligning with D1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recognize",
+        "commonMisconception": "Students may confuse frictional with structural or cyclical unemployment.",
+        "remediationModule": "err-unemployment-single-type",
+        "retestItem": "err-unemployment-single-type"
+      },
+      {
+        "id": "diag-cia4u-0713-q4",
+        "type": "choice",
+        "question": "Which method of measuring unemployment counts only those people who are actively claiming unemployment benefits?",
+        "options": [
+          "Labor force survey (based on household interviews)",
+          "Claimant count (people receiving unemployment benefits)",
+          "Census (counts all population)",
+          "National accounts (measures GDP)"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can distinguish between claimant count and labor force survey.",
+        "misconceptions": [
+          "The labor force survey estimates unemployment by asking people about their job-seeking activity, not by counting benefit claimants.",
+          "✓ Correct. The claimant count only includes those who are registered as unemployed and claiming benefits.",
+          "The census collects broad demographic data, not specifically unemployment benefit claims.",
+          "National accounts measure economic output, not unemployment."
+        ],
+        "nodeId": "CIA4U-D-OE01",
+        "errorId": "err-unemployment-measurement-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies claimant count.",
+        "ossdExpectation": "Demonstrate an understanding of various macroeconomic models and measures, including indicators used to measure economic inequalities.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "CIA4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Unemployment measurement methods are key macroeconomic indicators under D1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "differentiate",
+        "commonMisconception": "Students may think both methods are identical or confuse the source of data.",
+        "remediationModule": "err-unemployment-measurement-confusion",
+        "retestItem": "err-unemployment-measurement-confusion"
+      },
+      {
+        "id": "diag-cia4u-0713-q5",
+        "type": "explain",
+        "question": "Explain why economic growth is considered a tradeoff: identify one benefit and one cost, and state how a government might balance them.",
+        "correct": null,
+        "diagnosis": "Assess ability to synthesize both sides of growth and propose a policy response.",
+        "nodeId": "CIA4U-B-OE03",
+        "errorId": "err-economic-growth-always-good",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student provides a balanced explanation including a benefit, a cost, and a policy suggestion.",
+        "ossdExpectation": "Analyse aspects of economic growth/development, including its costs, benefits, and sustainability.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "CIA4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analysis of growth tradeoffs, directly linked to expectation B3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Students may list only benefits or only costs, indicating a one-sided view.",
+        "remediationModule": "err-economic-growth-always-good",
+        "retestItem": "err-economic-growth-always-good"
+      }
+    ]
+  }
+}

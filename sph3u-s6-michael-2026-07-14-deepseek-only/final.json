@@ -1,0 +1,839 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-14",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Hc3CdKQWroGEdyxoeCvcqtXTnqe?from=vc_group_doc_link#doxcnm5vKBrCj3sS7jqDUg8Smje",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-14 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Hc3CdKQWroGEdyxoeCvcqtXTnqe?from=vc_group_doc_link#doxcnm5vKBrCj3sS7jqDUg8Smje",
+    "title": "SPH3U.S6.Michael 2026-07-14 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/sph3u-s6-michael-2026-07-14/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-14",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-14",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson contains instruction on kinematic concepts (motion graphs, equations, free fall) with demonstration and practice; no exam or pure admin focus.",
+    "academicContentSignals": [
+      "Slope of v-t graph equals acceleration",
+      "Area under v-t graph equals instantaneous velocity",
+      "Instantaneous vs average velocity",
+      "Acceleration graph mapping from v-t graph",
+      "Five kinematic equations and derivation logic",
+      "Constant acceleration requirement for equations",
+      "Problem-solving cases (sports car, dart impact)",
+      "Free fall acceleration -9.8 m/s²",
+      "Projectile motion preview"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "low: only one assignment item; academic content clearly dominates.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Create PPT on tailgating stance",
+        "studentAction": "Use kinematic equations and Nelson website materials to form a stance on tailgating as dangerous driving, and prepare a structured PPT for presentation.",
+        "deadlineText": "subsequent sessions",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Learners need to use mastered kinematic equations and reference materials from the Nelson website... organize... into a structured PPT to present... in subsequent sessions.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "subsequent sessions",
+        "reason": "The deadline is vague (subsequent sessions); no specific date or class number mentioned."
+      },
+      {
+        "rawText": "reference materials from the Nelson website",
+        "reason": "No specific URL or link provided; platform and exact material unclear."
+      }
+    ]
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Investigate uniform and non-uniform linear motion、Understand uniform and non-uniform linear motion）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The slope of a linear velocity-time graph for uniform acceleration equals the acceleration value.；The area under a velocity-time graph from 0 to time t equals the instantaneous velocity at time t.；Instantaneous velocity is for a single time point; average velocity is for a full time interval.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Interpret the slope and area of a velocity-time graph to determine acceleration and displacement."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Select and apply the five kinematic equations only for constant acceleration problems."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Distinguish between instantaneous velocity from a graph point and average velocity from a graph interval."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Use the correct sign for free fall acceleration (-9.8 m/s²) based on the chosen coordinate system."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "SPH3U-B-OE02",
+      "name": "Investigate uniform and non-uniform linear motion",
+      "nameEn": "Investigate uniform and non-uniform linear motion",
+      "definition": "Students learn to solve kinematics problems using the five motion equations, selecting equations based on known parameters, and interpreting graphs (velocity-time) to extract acceleration and velocity.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "SPH3U-B-OE03",
+      "name": "Understand uniform and non-uniform linear motion",
+      "nameEn": "Understand uniform and non-uniform linear motion",
+      "definition": "Students demonstrate understanding of concepts such as instantaneous vs average velocity, the relationship between velocity-time graphs and acceleration-time graphs, and the conditions for free fall (constant acceleration of -9.8 m/s²).",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Interpret the slope and area of a velocity-time graph to determine acceleration and displacement."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Select and apply the five kinematic equations only for constant acceleration problems."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between instantaneous velocity from a graph point and average velocity from a graph interval."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Use the correct sign for free fall acceleration (-9.8 m/s²) based on the chosen coordinate system."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-motion-graph-slope",
+        "condition": "student selects slope of v-t graph as velocity instead of acceleration in Q1",
+        "systemAction": "assign reteach module err-motion-graph-slope",
+        "studentMessage": "The slope of a velocity-time graph gives acceleration, not velocity. Let's review how to read v-t graphs."
+      },
+      {
+        "errorId": "err-equation-applicability",
+        "condition": "student selects applying equations to non-constant acceleration scenario in Q2",
+        "systemAction": "assign reteach module err-equation-applicability",
+        "studentMessage": "The five equations only work when acceleration is constant. Check the problem conditions before using them."
+      },
+      {
+        "errorId": "err-instantaneous-vs-average",
+        "condition": "student chooses area under v-t graph as instantaneous velocity in Q3",
+        "systemAction": "assign reteach module err-instantaneous-vs-average",
+        "studentMessage": "The area under a v-t graph gives displacement, not instantaneous velocity. Instantaneous velocity is read from the y-axis at a single time."
+      },
+      {
+        "errorId": "err-free-fall-sign",
+        "condition": "student selects +9.8 m/s² without sign convention in Q4",
+        "systemAction": "assign reteach module err-free-fall-sign",
+        "studentMessage": "Free fall acceleration on Earth is -9.8 m/s² when upward is positive. Always consider your coordinate axis."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-s6-0714-q1",
+        "nodeId": "SPH3U-B-OE03",
+        "errorId": "err-motion-graph-slope",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Identify that the slope of a velocity-time graph equals acceleration.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Graph interpretation is part of understanding linear motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that the slope of a velocity-time graph gives acceleration, not velocity.",
+        "commonMisconception": "Students often think the slope of a v-t graph gives the velocity value.",
+        "remediationModule": "err-motion-graph-slope",
+        "retestItem": "err-motion-graph-slope",
+        "stem": "In a velocity-time graph for an object with uniform acceleration, what does the slope of the line represent?",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><polyline points='20,180 180,20' stroke='black' fill='none'/><text x='20' y='20' font-size='12'>v</text><text x='180' y='190' font-size='12'>t</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "The initial velocity of the object",
+            "correct": false,
+            "feedbackWrong": "The initial velocity is the y-intercept, not the slope."
+          },
+          {
+            "label": "B",
+            "text": "The acceleration of the object",
+            "correct": true,
+            "feedbackCorrect": "Correct. The slope of a v-t graph is change in velocity over time, which is acceleration."
+          },
+          {
+            "label": "C",
+            "text": "The displacement of the object",
+            "correct": false,
+            "feedbackWrong": "Displacement is the area under the v-t graph, not the slope."
+          },
+          {
+            "label": "D",
+            "text": "The average velocity over the time interval",
+            "correct": false,
+            "feedbackWrong": "Average velocity over an interval is total displacement divided by time, not the slope at a point."
+          }
+        ],
+        "nextActionIfWrong": "Enter err-motion-graph-slope reteach module."
+      },
+      {
+        "id": "diag-sph3u-s6-0714-q2",
+        "nodeId": "SPH3U-B-OE02",
+        "errorId": "err-equation-applicability",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Recognize that the five kinematic equations are only valid when acceleration is constant.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Selecting appropriate equations is part of problem-solving in kinematics.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student knows that the equations cannot be used when acceleration is not constant.",
+        "commonMisconception": "Students apply the five equations to any motion without checking if acceleration is constant.",
+        "remediationModule": "err-equation-applicability",
+        "retestItem": "err-equation-applicability",
+        "stem": "Under which condition can the five kinematic equations (e.g., v = u + at) be used to solve a problem?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Only when the acceleration is constant",
+            "correct": true,
+            "feedbackCorrect": "Correct. The equations are derived assuming constant acceleration."
+          },
+          {
+            "label": "B",
+            "text": "For any type of motion, as long as the initial velocity is zero",
+            "correct": false,
+            "feedbackWrong": "Even with zero initial velocity, the acceleration must be constant."
+          },
+          {
+            "label": "C",
+            "text": "Only when the velocity is constant",
+            "correct": false,
+            "feedbackWrong": "Constant velocity implies zero acceleration; the equations still work, but they are not limited to that case."
+          },
+          {
+            "label": "D",
+            "text": "For any motion where the displacement is known",
+            "correct": false,
+            "feedbackWrong": "Knowing displacement does not guarantee constant acceleration; the equations would not be valid if acceleration changes."
+          }
+        ],
+        "nextActionIfWrong": "Enter err-equation-applicability reteach module."
+      },
+      {
+        "id": "diag-sph3u-s6-0714-q3",
+        "nodeId": "SPH3U-B-OE03",
+        "errorId": "err-instantaneous-vs-average",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Distinguish that instantaneous velocity is read from the v-t graph at a point, while area under graph gives displacement.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Concept of instantaneous velocity is part of understanding motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that the area under a v-t graph gives displacement, not instantaneous velocity.",
+        "commonMisconception": "Students think area under v-t graph directly gives velocity, or confuse area and slope.",
+        "remediationModule": "err-instantaneous-vs-average",
+        "retestItem": "err-instantaneous-vs-average",
+        "stem": "On a velocity-time graph, what physical quantity does the area under the curve between two times represent?",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><polyline points='20,180 180,20' stroke='black' fill='none'/><polygon points='20,180 100,100 180,180' fill='lightgray'/><text x='20' y='20' font-size='12'>v</text><text x='180' y='190' font-size='12'>t</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "The instantaneous velocity at the final time",
+            "correct": false,
+            "feedbackWrong": "Instantaneous velocity is read directly from the y-axis at a single time, not from the area."
+          },
+          {
+            "label": "B",
+            "text": "The displacement during that time interval",
+            "correct": true,
+            "feedbackCorrect": "Correct. The area under a v-t graph gives the change in position, i.e., displacement."
+          },
+          {
+            "label": "C",
+            "text": "The acceleration during that time interval",
+            "correct": false,
+            "feedbackWrong": "Acceleration is given by the slope of the v-t graph, not the area."
+          },
+          {
+            "label": "D",
+            "text": "The average velocity during that time interval",
+            "correct": false,
+            "feedbackWrong": "Average velocity is displacement divided by time; the area represents displacement, not average velocity directly."
+          }
+        ],
+        "nextActionIfWrong": "Enter err-instantaneous-vs-average reteach module."
+      },
+      {
+        "id": "diag-sph3u-s6-0714-q4",
+        "nodeId": "SPH3U-B-OE03",
+        "errorId": "err-free-fall-sign",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Assign the correct negative sign to free fall acceleration when upward is positive.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding sign conventions in free fall is essential for motion concepts.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student correctly applies the sign convention for acceleration due to gravity.",
+        "commonMisconception": "Students think free fall acceleration is always +9.8 m/s² regardless of coordinate axes.",
+        "remediationModule": "err-free-fall-sign",
+        "retestItem": "err-free-fall-sign",
+        "stem": "If we choose the upward direction as positive, what is the acceleration of an object in free fall near the Earth's surface?",
+        "options": [
+          {
+            "label": "A",
+            "text": "9.8 m/s² upward",
+            "correct": false,
+            "feedbackWrong": "Gravity always pulls downward; if upward is positive, acceleration should be negative."
+          },
+          {
+            "label": "B",
+            "text": "-9.8 m/s² downward",
+            "correct": true,
+            "feedbackCorrect": "Correct. The acceleration due to gravity is 9.8 m/s² downward, so with upward positive, the sign is negative."
+          },
+          {
+            "label": "C",
+            "text": "0 m/s²",
+            "correct": false,
+            "feedbackWrong": "Free fall means only gravity acts, so acceleration is nonzero (g)."
+          },
+          {
+            "label": "D",
+            "text": "9.8 m/s² but direction depends on the object's motion",
+            "correct": false,
+            "feedbackWrong": "The acceleration due to gravity is constant in magnitude and direction regardless of motion; only the sign depends on the coordinate axis."
+          }
+        ],
+        "nextActionIfWrong": "Enter err-free-fall-sign reteach module."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-motion-graph-slope",
+      "condition": "student selects slope of v-t graph as velocity instead of acceleration in Q1",
+      "systemAction": "assign reteach module err-motion-graph-slope",
+      "studentMessage": "The slope of a velocity-time graph gives acceleration, not velocity. Let's review how to read v-t graphs."
+    },
+    {
+      "errorId": "err-equation-applicability",
+      "condition": "student selects applying equations to non-constant acceleration scenario in Q2",
+      "systemAction": "assign reteach module err-equation-applicability",
+      "studentMessage": "The five equations only work when acceleration is constant. Check the problem conditions before using them."
+    },
+    {
+      "errorId": "err-instantaneous-vs-average",
+      "condition": "student chooses area under v-t graph as instantaneous velocity in Q3",
+      "systemAction": "assign reteach module err-instantaneous-vs-average",
+      "studentMessage": "The area under a v-t graph gives displacement, not instantaneous velocity. Instantaneous velocity is read from the y-axis at a single time."
+    },
+    {
+      "errorId": "err-free-fall-sign",
+      "condition": "student selects +9.8 m/s² without sign convention in Q4",
+      "systemAction": "assign reteach module err-free-fall-sign",
+      "studentMessage": "Free fall acceleration on Earth is -9.8 m/s² when upward is positive. Always consider your coordinate axis."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-motion-graph-slope",
+      "trigger": "Student incorrectly identifies slope of v-t graph as velocity in diagnostic question.",
+      "studentMisunderstanding": "Confuses the slope of a velocity-time graph with velocity instead of acceleration.",
+      "miniLesson": {
+        "explain": "In a velocity-time graph, the slope (rise/run) represents the rate of change of velocity, which is acceleration. The value of velocity at a point is read directly from the y-axis. For a straight line with uniform acceleration, the slope is constant and equals the acceleration.",
+        "example": "Consider a sports car with initial velocity 20 m/s and constant acceleration 3.2 m/s² over 5 s. The v-t graph is a straight line from (0,20) to (5,36). The slope is (36-20)/(5-0)=16/5=3.2 m/s², which is the acceleration, not the velocity. The velocity at any time is the y-value.",
+        "memoryAnchor": "Think of a hill: slope tells you how steep it is (acceleration), not how fast you're going (velocity)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "On a velocity-time graph for uniform acceleration, what does the slope represent?",
+          "answer": "The acceleration."
+        },
+        {
+          "level": "L2",
+          "prompt": "Using the sports car data: initial velocity 20 m/s, acceleration 3.2 m/s², time 5 s, calculate the slope of the v-t graph and identify the physical quantity it represents.",
+          "answer": "Slope = acceleration = 3.2 m/s²."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the slope of a v-t graph is not the velocity. Use the sports car example.",
+          "answer": "In the sports car example, the slope is 3.2 m/s², which is the acceleration. The velocity at any instant is read from the y-axis, e.g., 20 m/s at t=0, and increases. The slope measures how fast velocity changes, not the velocity itself."
+        }
+      ]
+    },
+    {
+      "errorId": "err-equation-applicability",
+      "trigger": "Student selects applying equations to non-constant acceleration scenario in Q2",
+      "studentMisunderstanding": "Students think the five kinematic equations can be used for any motion, even when acceleration is not constant.",
+      "miniLesson": {
+        "explain": "The five kinematic equations (v = u + at, s = ut + ½at², v² = u² + 2as, etc.) are derived from the assumption that acceleration is constant. If acceleration changes during the motion, these equations no longer apply. For example, if a car accelerates and then brakes, the acceleration is not constant over the whole trip. In such cases, each segment with constant acceleration must be treated separately or different methods (e.g., calculus) are needed.",
+        "example": "In the dart impact problem, the dart decelerates from 380 m/s to rest in 0.05 s with constant acceleration -7.04×10⁴ m/s², so the equations work. But if the acceleration varied, we could not use them.",
+        "memoryAnchor": "Constant a, use the five; changing a, don't derive."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Can the equation v = u + at be used to find the final velocity of a rocket that burns fuel in stages, with different accelerations each stage?",
+          "answer": "No, because acceleration is not constant over the entire motion."
+        },
+        {
+          "level": "L2",
+          "prompt": "A car accelerates from rest at 3.2 m/s² for 5 s, then immediately brakes with -2 m/s² (not constant overall). Is it valid to use the five equations for the entire motion?",
+          "answer": "No, because the acceleration changes from 3.2 to -2 m/s². You need to split into two constant-acceleration segments."
+        },
+        {
+          "level": "L3",
+          "prompt": "A ball is thrown upward and falls back down. Can you use the five equations from the instant it leaves the hand until it returns to the same height? Explain.",
+          "answer": "Yes, because during free fall (ignoring air resistance) the acceleration is constant at -9.8 m/s² throughout. So the five equations apply to the entire motion."
+        }
+      ]
+    },
+    {
+      "errorId": "err-instantaneous-vs-average",
+      "trigger": "Student selects area under v-t graph as instantaneous velocity in Q3",
+      "studentMisunderstanding": "Confusing the area under a velocity-time graph with instantaneous velocity; thinking that the area gives velocity instead of displacement.",
+      "miniLesson": {
+        "explain": "Instantaneous velocity is the velocity at a single moment, read directly from the y-axis of a velocity-time graph. In contrast, the area under the velocity-time graph between two times gives the displacement (change in position) over that time interval. Average velocity is total displacement divided by total time. They are different quantities.",
+        "example": "Consider a sports car with initial velocity 20 m/s and acceleration 3.2 m/s² for 5 seconds. The instantaneous velocity at t=5 s is v = 20 + (3.2)(5) = 36 m/s. The displacement over 5 s is 140 m (from the area under the v-t graph, which is a trapezoid: average velocity 28 m/s times 5 s = 140 m). The average velocity is 140 m / 5 s = 28 m/s. Notice that instantaneous velocity at t=5 s (36 m/s) is not the same as the average velocity (28 m/s).",
+        "memoryAnchor": "Instantaneous = at an instant (a point on the graph); Average = over an interval (total displacement divided by total time)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the difference between instantaneous velocity and average velocity?",
+          "answer": "Instantaneous velocity is the velocity at a specific moment, while average velocity is the total displacement divided by the total time interval."
+        },
+        {
+          "level": "L2",
+          "prompt": "A car accelerates uniformly from 20 m/s with an acceleration of 3.2 m/s² for 5 seconds. Calculate the instantaneous velocity at t=5 s and the average velocity over the 5-second interval. Use the given numbers: initial velocity 20 m/s, acceleration 3.2 m/s², time 5 s, displacement 140 m.",
+          "answer": "Instantaneous velocity at t=5 s: v = u + at = 20 + (3.2)(5) = 36 m/s. Average velocity = displacement / time = 140 m / 5 s = 28 m/s."
+        },
+        {
+          "level": "L3",
+          "prompt": "On a velocity-time graph, where do you find the instantaneous velocity at a given time? Where do you find the displacement over a time interval?",
+          "answer": "Instantaneous velocity is read from the y-axis value at the specific time point. Displacement is found by calculating the area under the graph between the start and end times."
+        }
+      ]
+    },
+    {
+      "errorId": "err-free-fall-sign",
+      "trigger": "Student selects +9.8 m/s² without sign convention in free fall problem.",
+      "studentMisunderstanding": "Treating free fall acceleration as positive 9.8 m/s² without considering direction convention relative to chosen coordinate axis.",
+      "miniLesson": {
+        "explain": "Free fall acceleration on Earth is always 9.8 m/s² directed downward. The sign in kinematic equations depends on your chosen coordinate system. If upward is positive, acceleration is -9.8 m/s². If downward is positive, acceleration is +9.8 m/s². Always define your positive axis first and assign the sign accordingly.",
+        "example": "Drop a ball from rest. Define upward as positive. Using v = u + at: u = 0 m/s, a = -9.8 m/s², t = 1 s → v = -9.8 m/s (downward). The negative sign confirms direction.",
+        "memoryAnchor": "Up is positive? Gravity negative. Down is positive? Gravity positive. Axis first, sign follows."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If upward is chosen as the positive direction, what is the sign (positive or negative) of free fall acceleration?",
+          "answer": "Negative"
+        },
+        {
+          "level": "L2",
+          "prompt": "A ball is thrown upward. With upward positive, its acceleration is: (A) +9.8 m/s² (B) -9.8 m/s² (C) 0 m/s². Choose the correct option.",
+          "answer": "B) -9.8 m/s²"
+        },
+        {
+          "level": "L3",
+          "prompt": "A stone is dropped from a cliff. You define downward as positive. What is its acceleration in m/s²?",
+          "answer": "+9.8 m/s²"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-motion-graph-slope",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "On a velocity-time graph for a car moving with uniform acceleration, what physical quantity does the slope of the graph represent?",
+          "options": [
+            "Velocity",
+            "Acceleration",
+            "Displacement",
+            "Time"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "A velocity-time graph for a car shows a straight line from (0 s, 20 m/s) to (5 s, 36 m/s). Calculate the slope of this graph and state the physical quantity it represents.",
+          "rubric": "Correctly calculates slope as (36-20)/(5-0)=16/5=3.2 m/s^2 and states that it represents acceleration."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-equation-applicability",
+      "questions": [
+        {
+          "id": "retest-err-equation-applicability-1",
+          "type": "single_choice",
+          "stem": "A car accelerates from rest at a constant rate of 3.2 m/s² for 10 seconds, then travels at constant speed for 5 seconds. Which statement about using the five kinematic equations is correct?",
+          "options": [
+            "The five equations can be used for the entire 15-second trip because the car is always moving.",
+            "The five equations can be used only for the first 10 seconds of constant acceleration.",
+            "The five equations cannot be used at all because the speed changes.",
+            "The five equations apply only to the constant-speed portion."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-equation-applicability-2",
+          "type": "open_ended",
+          "stem": "Explain why the five kinematic equations (v = u + at, s = ut + ½at², etc.) cannot be applied to a motion where acceleration is not constant. Provide an example of a motion where the equations would not be valid.",
+          "rubric": "States that equations assume constant acceleration. Gives an example such as a car accelerating then braking, or a rocket with stage changes. (1 point for concept, 1 point for appropriate example)"
+        }
+      ],
+      "passRule": "Student must answer the multiple-choice question correctly and provide a response to the open-ended question that includes both the concept of constant acceleration and a valid example of non-constant acceleration motion."
+    },
+    {
+      "forErrorId": "err-instantaneous-vs-average",
+      "questions": [
+        {
+          "id": "q1_inst_vs_avg",
+          "type": "single_choice",
+          "stem": "To find the instantaneous velocity at a specific time from a velocity-time graph, you should:",
+          "options": [
+            "Read the y-value at that time.",
+            "Calculate the area under the graph up to that time.",
+            "Find the slope of the graph at that time.",
+            "Average the velocities at the start and end of the interval."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_inst_vs_avg_calc",
+          "type": "open_ended",
+          "stem": "A car starts from rest and accelerates uniformly at 3.2 m/s² for 5 seconds. Its displacement during this time is 40 m. (a) What is the instantaneous velocity at t = 5 s? (b) What is the average velocity over the 5-second interval? Show your work.",
+          "rubric": "a) Instantaneous velocity: v = u + at = 0 + (3.2)(5) = 16 m/s. b) Average velocity = total displacement / total time = 40 m / 5 s = 8 m/s. Award full marks for correct equations and answers with units."
+        }
+      ],
+      "passRule": "Both questions must be correct."
+    },
+    {
+      "forErrorId": "err-free-fall-sign",
+      "questions": [
+        {
+          "id": "q1-ff-sign",
+          "type": "single_choice",
+          "stem": "If upward is defined as positive, what is the acceleration of an object in free fall?",
+          "options": [
+            "+9.8 m/s²",
+            "-9.8 m/s²",
+            "0 m/s²",
+            "Depends on mass"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-ff-sign",
+          "type": "open_ended",
+          "stem": "A ball is thrown upward from the ground. You choose downward as the positive direction. Write the value of the ball's acceleration (including sign and units) during its entire flight.",
+          "rubric": "Must state +9.8 m/s². Full credit for correct sign and units. Accept '9.8 m/s² downward' but prefer signed value."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-14",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Hc3CdKQWroGEdyxoeCvcqtXTnqe?from=vc_group_doc_link#doxcnm5vKBrCj3sS7jqDUg8Smje",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-14 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "The slope of a linear velocity-time graph for uniform acceleration equals the acceleration value.；The area under a velocity-time graph from 0 to time t equals the instantaneous velocity at time t.；Instantaneous velocity is for a single time point; average velocity is for a full time interval.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Interpret the slope and area of a velocity-time graph to determine acceleration and displacement."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Select and apply the five kinematic equations only for constant acceleration problems."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between instantaneous velocity from a graph point and average velocity from a graph interval."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Use the correct sign for free fall acceleration (-9.8 m/s²) based on the chosen coordinate system."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Create PPT on tailgating stance",
+        "studentAction": "Use kinematic equations and Nelson website materials to form a stance on tailgating as dangerous driving, and prepare a structured PPT for presentation.",
+        "deadlineText": "subsequent sessions",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Learners need to use mastered kinematic equations and reference materials from the Nelson website... organize... into a structured PPT to present... in subsequent sessions.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "subsequent sessions",
+        "reason": "The deadline is vague (subsequent sessions); no specific date or class number mentioned."
+      },
+      {
+        "rawText": "reference materials from the Nelson website",
+        "reason": "No specific URL or link provided; platform and exact material unclear."
+      }
+    ],
+    "watchTags": [
+      "SPH3U-B-OE02",
+      "SPH3U-B-OE03"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-motion-graph-slope",
+        "condition": "student selects slope of v-t graph as velocity instead of acceleration in Q1",
+        "systemAction": "assign reteach module err-motion-graph-slope"
+      },
+      {
+        "errorId": "err-equation-applicability",
+        "condition": "student selects applying equations to non-constant acceleration scenario in Q2",
+        "systemAction": "assign reteach module err-equation-applicability"
+      },
+      {
+        "errorId": "err-instantaneous-vs-average",
+        "condition": "student chooses area under v-t graph as instantaneous velocity in Q3",
+        "systemAction": "assign reteach module err-instantaneous-vs-average"
+      },
+      {
+        "errorId": "err-free-fall-sign",
+        "condition": "student selects +9.8 m/s² without sign convention in Q4",
+        "systemAction": "assign reteach module err-free-fall-sign"
+      }
+    ],
+    "nextActions": [
+      "[err-motion-graph-slope] student selects slope of v-t graph as velocity instead of acceleration in Q1: The slope of a velocity-time graph gives acceleration, not velocity. Let's review how to read v-t graphs.",
+      "[err-equation-applicability] student selects applying equations to non-constant acceleration scenario in Q2: The five equations only work when acceleration is constant. Check the problem conditions before using them.",
+      "[err-instantaneous-vs-average] student chooses area under v-t graph as instantaneous velocity in Q3: The area under a v-t graph gives displacement, not instantaneous velocity. Instantaneous velocity is read from the y-axis at a single time.",
+      "[err-free-fall-sign] student selects +9.8 m/s² without sign convention in Q4: Free fall acceleration on Earth is -9.8 m/s² when upward is positive. Always consider your coordinate axis."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-s6-0714-q1",
+        "type": "choice",
+        "question": "In a velocity-time graph for an object with uniform acceleration, what does the slope of the line represent?",
+        "options": [
+          "The initial velocity of the object",
+          "The acceleration of the object",
+          "The displacement of the object",
+          "The average velocity over the time interval"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that the slope of a velocity-time graph gives acceleration, not velocity.",
+        "misconceptions": [
+          "The initial velocity is the y-intercept, not the slope.",
+          "✓ Correct. The slope of a v-t graph is change in velocity over time, which is acceleration.",
+          "Displacement is the area under the v-t graph, not the slope.",
+          "Average velocity over an interval is total displacement divided by time, not the slope at a point."
+        ],
+        "nodeId": "SPH3U-B-OE03",
+        "errorId": "err-motion-graph-slope",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Identify that the slope of a velocity-time graph equals acceleration.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Graph interpretation is part of understanding linear motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often think the slope of a v-t graph gives the velocity value.",
+        "remediationModule": "err-motion-graph-slope",
+        "retestItem": "err-motion-graph-slope"
+      },
+      {
+        "id": "diag-sph3u-s6-0714-q2",
+        "type": "choice",
+        "question": "Under which condition can the five kinematic equations (e.g., v = u + at) be used to solve a problem?",
+        "options": [
+          "Only when the acceleration is constant",
+          "For any type of motion, as long as the initial velocity is zero",
+          "Only when the velocity is constant",
+          "For any motion where the displacement is known"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows that the equations cannot be used when acceleration is not constant.",
+        "misconceptions": [
+          "✓ Correct. The equations are derived assuming constant acceleration.",
+          "Even with zero initial velocity, the acceleration must be constant.",
+          "Constant velocity implies zero acceleration; the equations still work, but they are not limited to that case.",
+          "Knowing displacement does not guarantee constant acceleration; the equations would not be valid if acceleration changes."
+        ],
+        "nodeId": "SPH3U-B-OE02",
+        "errorId": "err-equation-applicability",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Recognize that the five kinematic equations are only valid when acceleration is constant.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Selecting appropriate equations is part of problem-solving in kinematics.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students apply the five equations to any motion without checking if acceleration is constant.",
+        "remediationModule": "err-equation-applicability",
+        "retestItem": "err-equation-applicability"
+      },
+      {
+        "id": "diag-sph3u-s6-0714-q3",
+        "type": "choice",
+        "question": "On a velocity-time graph, what physical quantity does the area under the curve between two times represent?",
+        "options": [
+          "The instantaneous velocity at the final time",
+          "The displacement during that time interval",
+          "The acceleration during that time interval",
+          "The average velocity during that time interval"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that the area under a v-t graph gives displacement, not instantaneous velocity.",
+        "misconceptions": [
+          "Instantaneous velocity is read directly from the y-axis at a single time, not from the area.",
+          "✓ Correct. The area under a v-t graph gives the change in position, i.e., displacement.",
+          "Acceleration is given by the slope of the v-t graph, not the area.",
+          "Average velocity is displacement divided by time; the area represents displacement, not average velocity directly."
+        ],
+        "nodeId": "SPH3U-B-OE03",
+        "errorId": "err-instantaneous-vs-average",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Distinguish that instantaneous velocity is read from the v-t graph at a point, while area under graph gives displacement.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Concept of instantaneous velocity is part of understanding motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think area under v-t graph directly gives velocity, or confuse area and slope.",
+        "remediationModule": "err-instantaneous-vs-average",
+        "retestItem": "err-instantaneous-vs-average"
+      },
+      {
+        "id": "diag-sph3u-s6-0714-q4",
+        "type": "choice",
+        "question": "If we choose the upward direction as positive, what is the acceleration of an object in free fall near the Earth's surface?",
+        "options": [
+          "9.8 m/s² upward",
+          "-9.8 m/s² downward",
+          "0 m/s²",
+          "9.8 m/s² but direction depends on the object's motion"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student correctly applies the sign convention for acceleration due to gravity.",
+        "misconceptions": [
+          "Gravity always pulls downward; if upward is positive, acceleration should be negative.",
+          "✓ Correct. The acceleration due to gravity is 9.8 m/s² downward, so with upward positive, the sign is negative.",
+          "Free fall means only gravity acts, so acceleration is nonzero (g).",
+          "The acceleration due to gravity is constant in magnitude and direction regardless of motion; only the sign depends on the coordinate axis."
+        ],
+        "nodeId": "SPH3U-B-OE03",
+        "errorId": "err-free-fall-sign",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Assign the correct negative sign to free fall acceleration when upward is positive.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding sign conventions in free fall is essential for motion concepts.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students think free fall acceleration is always +9.8 m/s² regardless of coordinate axes.",
+        "remediationModule": "err-free-fall-sign",
+        "retestItem": "err-free-fall-sign"
+      }
+    ]
+  }
+}

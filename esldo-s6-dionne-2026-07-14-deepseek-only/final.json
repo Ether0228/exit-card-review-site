@@ -1,0 +1,1235 @@
+{
+  "sourceLesson": "ESLDO.S6.Dionne 2026-07-14",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/JbGJdZE6SohTeQxouaXcz6ZWnHt?from=vc_group_doc_link#doxcncTlBAgJ3L8UchGlPntW7Je",
+  "sourceTitle": "ESLDO.S6.Dionne 2026-07-14 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/JbGJdZE6SohTeQxouaXcz6ZWnHt?from=vc_group_doc_link#doxcncTlBAgJ3L8UchGlPntW7Je",
+    "title": "ESLDO.S6.Dionne 2026-07-14 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/esldo-s6-dionne-2026-07-14/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "ESLDO",
+  "lessonDate": "2026-07-14",
+  "teacher": "Dionne",
+  "section": "S6",
+  "subject": "esl",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-14",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session combines explicit instruction on descriptive essay fundamentals (definition, sensory details, figurative language, 5-paragraph structure) with in-class practice activities (sensory observation, sentence drafting) and assigned tasks, making it a mixed instructional and practice lesson.",
+    "academicContentSignals": [
+      "Definition and purpose of descriptive essays",
+      "Sensory detail framework (sight, sound, smell, taste, touch)",
+      "Figurative language: simile and metaphor",
+      "Objective vs. subjective writing",
+      "5-paragraph essay structure: introduction, body paragraphs, conclusion",
+      "Thesis statement and dominant impression",
+      "Revision workflow: content review and format review",
+      "Consistency of point of view and audience alignment",
+      "Model essay analysis (Alex’s First Impressions of His New School)",
+      "In-session practice: 5-sensory observation and descriptive sentence writing"
+    ],
+    "courseOverviewSignals": [
+      "Unit 1 Lesson 7: Descriptive essay fundamentals",
+      "Learning goals: define descriptive essay, use sensory details and figurative language, organize ideas into a structured descriptive essay",
+      "Course focus on academic writing skills"
+    ],
+    "opsDominanceRisk": "The notes contain several operational items (pre-session preparation, break, overdue assignment reminders, submission guidelines, progress report). However, the academic content is substantial and clearly the primary focus. Risk is moderate; diagnostic questions should prioritize learning content over administrative procedures.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Pre-session preparation: login, display name, webcam",
+        "studentAction": "Log in to the platform, update display name to English characters, and activate webcam before session start.",
+        "deadlineText": "Before session start (10:00)",
+        "deadlineISO": "2026-07-14T10:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All attendees confirm they have completed required pre-session steps including logging into the platform, updating display names to English characters, and activating their webcams prior to the official session start.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Overdue Assignment 1 submission",
+        "studentAction": "Submit Assignment 1 during the allocated work period to avoid late deductions.",
+        "deadlineText": "During the allocated work period (end of session)",
+        "deadlineISO": "2026-07-14T13:01:00+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "students who have not yet submitted Assignment 1",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students who have not yet submitted the prior Assignment 1 must finalize and submit the work during the allocated work period, as late submissions will incur automatic grade deductions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Lesson 7 Schoology Forum Worksheet",
+        "studentAction": "Complete the worksheet matching each paragraph of the model essay to its functional role and submit in the Schoology forum.",
+        "deadlineText": "End of session or as homework (not explicitly stated)",
+        "deadlineISO": null,
+        "platform": "Schoology forum",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students complete the worksheet that matches each paragraph of the model descriptive essay to its core functional role, and submit all responses directly in the designated Schoology forum interface.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Lesson 7 Homework Exercise",
+        "studentAction": "Complete the homework matching sentences from the model essay to paragraph categories using the provided word bank.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Students complete the supporting homework that matches individual sentences from the model essay to their corresponding paragraph category, using the provided official word bank for reference as needed.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Progress report alignment for outstanding submissions",
+        "studentAction": "Submit all outstanding assignments immediately as progress reports will be compiled shortly.",
+        "deadlineText": "Immediately / shortly",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students with outstanding submissions",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All outstanding submissions are required immediately, as official course progress reports will be compiled shortly to reflect current student performance and learning progress.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Mid-session break arrangement",
+        "studentAction": "Return promptly after the 10-minute break.",
+        "deadlineText": "Midpoint of session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A scheduled 10-minute mid-session break is confirmed for the midpoint of the instructional session, with all attendees instructed to return promptly.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "material_needed",
+        "title": "Grammarly link for revision",
+        "studentAction": "Use Grammarly (https://www.grammarly.com) for grammar checking during revision.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Web",
+        "link": "https://www.grammarly.com",
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "语法修正:Grammarly https://www.grammarly.com",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Schoology Forum Worksheet submission deadline",
+        "reason": "It is unclear whether the worksheet is due by the end of the session or as homework. The dedicated work period suggests it may be completed in class, but no explicit deadline is stated."
+      },
+      {
+        "rawText": "Homework Exercise deadline",
+        "reason": "No deadline is mentioned for the homework exercise (matching sentences to paragraph categories)."
+      },
+      {
+        "rawText": "Progress report compilation date",
+        "reason": "The exact date for progress report compilation is not specified; only 'shortly' is mentioned."
+      },
+      {
+        "rawText": "Exact platform for pre-session login",
+        "reason": "The notes mention 'logging into the platform' but do not specify whether it is Schoology, the video conferencing tool, or another system."
+      }
+    ]
+  },
+  "title": "ESLDO Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Descriptive Essay Definition、Five-Paragraph Structure、Sensory Details、Figurative Language: Simile and Metaphor）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 5 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Descriptive essay uses sensory details to paint a picture for the reader.；A descriptive essay typically has a five-paragraph structure: introduction, three body paragraphs, conclusion.；Sensory details engage the five senses: sight, sound, smell, taste, touch.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can explain the purpose, structure, and dominant impression of a descriptive essay."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can identify and use sensory details and figurative language."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can distinguish between simile and metaphor."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Students can describe and apply the stages of the writing process."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "desc-essay-definition",
+      "name": "Descriptive Essay Definition",
+      "nameEn": "Descriptive Essay Definition",
+      "definition": "A descriptive essay uses targeted, intentional language to paint a picture for readers, enabling them to experience the described subject through sensory details and figurative language.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "ESLDO-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Write in a variety of forms for different purposes and audiences."
+    },
+    {
+      "id": "five-paragraph-structure",
+      "name": "Five-Paragraph Structure",
+      "nameEn": "Five-Paragraph Structure",
+      "definition": "A descriptive essay typically follows a five-paragraph structure: an introductory paragraph with a hook and thesis, three body paragraphs each focusing on a supporting detail, and a concluding paragraph that restates the thesis and leaves a final impression.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "ESLDO-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Organize ideas coherently in writing."
+    },
+    {
+      "id": "sensory-details",
+      "name": "Sensory Details",
+      "nameEn": "Sensory Details",
+      "definition": "Sensory details are descriptions that engage the five senses: sight, sound, smell, taste, and touch. They help readers visualize and experience the subject.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "ESLDO-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Write in a variety of forms for different purposes and audiences."
+    },
+    {
+      "id": "figurative-language",
+      "name": "Figurative Language: Simile and Metaphor",
+      "nameEn": "Figurative Language: Simile and Metaphor",
+      "definition": "Simile compares two things using 'like' or 'as'; metaphor directly states one thing is another. Both enhance descriptive writing.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "ESLDO-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Use a variety of strategies to build vocabulary."
+    },
+    {
+      "id": "writing-process",
+      "name": "Writing Process",
+      "nameEn": "Writing Process",
+      "definition": "The writing process includes pre-writing (select subject, observe, draft thesis), drafting (organize body paragraphs with sensory details), revision (check alignment, details, structure), and editing (grammar, punctuation, spelling).",
+      "officialExpectationCode": "C4",
+      "officialNodeId": "ESLDO-C-OE04",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Use the stages of the writing process."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can explain the purpose, structure, and dominant impression of a descriptive essay."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can identify and use sensory details and figurative language."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can distinguish between simile and metaphor."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can describe and apply the stages of the writing process."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-simile-metaphor",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-simile-metaphor",
+        "studentMessage": "Let's practice telling the difference between simile and metaphor."
+      },
+      {
+        "errorId": "err-sensory-detail",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-sensory-detail",
+        "studentMessage": "Let's explore using all five senses in descriptions."
+      },
+      {
+        "errorId": "err-thesis",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-thesis",
+        "studentMessage": "Let's work on writing a clear thesis that states the dominant impression."
+      },
+      {
+        "errorId": "err-structure",
+        "condition": "student picks wrong option or gives incomplete response on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-structure",
+        "studentMessage": "Let's review the five-paragraph structure and the writing process."
+      },
+      {
+        "errorId": "err-dominant-impression",
+        "condition": "student gives incomplete or incorrect response on the open-ended question targeting this errorId",
+        "systemAction": "assign reteach module for err-dominant-impression",
+        "studentMessage": "Let's focus on creating a single, clear dominant impression in your descriptions."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-esl-l7-q1",
+        "nodeId": "figurative-language",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-simile-metaphor",
+        "stem": "Which of the following is a simile?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The school became a bridge to his future.",
+            "correct": false,
+            "feedbackWrong": "This is a metaphor because it directly compares the school to a bridge without using 'like' or 'as'."
+          },
+          {
+            "label": "B",
+            "text": "The sunlight poured like warm honey.",
+            "correct": true,
+            "feedbackCorrect": "Correct! 'Like' makes this a simile."
+          },
+          {
+            "label": "C",
+            "text": "The classroom was a quiet forest.",
+            "correct": false,
+            "feedbackWrong": "This is a metaphor. Similes use 'like' or 'as', which this does not."
+          },
+          {
+            "label": "D",
+            "text": "Her voice was music.",
+            "correct": false,
+            "feedbackWrong": "This is a metaphor because it does not use 'like' or 'as'."
+          }
+        ],
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can correctly identify a simile among multiple examples.",
+        "ossdExpectation": "Use a variety of strategies to build vocabulary.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "ESLDO-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Explicitly targets vocabulary-building for figurative language.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check ability to differentiate simile from metaphor.",
+        "commonMisconception": "Confusing simile with metaphor, e.g., thinking all comparisons without 'like' are similes.",
+        "remediationModule": "err-simile-metaphor",
+        "retestItem": "err-simile-metaphor"
+      },
+      {
+        "id": "diag-esl-l7-q2",
+        "nodeId": "sensory-details",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-sensory-detail",
+        "stem": "When describing a cafeteria, which sensory detail engages the sense of smell?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The floor was shiny and clean.",
+            "correct": false,
+            "feedbackWrong": "This appeals to sight, not smell."
+          },
+          {
+            "label": "B",
+            "text": "The aroma of fresh bread filled the air.",
+            "correct": true,
+            "feedbackCorrect": "Correct! 'Aroma' engages the sense of smell."
+          },
+          {
+            "label": "C",
+            "text": "The chairs were hard and cold.",
+            "correct": false,
+            "feedbackWrong": "This appeals to touch, not smell."
+          },
+          {
+            "label": "D",
+            "text": "The chatter of students echoed.",
+            "correct": false,
+            "feedbackWrong": "This appeals to sound, not smell."
+          }
+        ],
+        "learningGoal": "lg-2",
+        "successCriteria": "Student can match a sensory detail to the correct sense.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Sensory details are a key technique in descriptive writing (C1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check recognition that sensory details involve more than sight.",
+        "commonMisconception": "Assuming only sight matters in descriptions.",
+        "remediationModule": "err-sensory-detail",
+        "retestItem": "err-sensory-detail"
+      },
+      {
+        "id": "diag-esl-l7-q3",
+        "nodeId": "desc-essay-definition",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-thesis",
+        "stem": "Look at the diagram of a five-paragraph essay below. Which part should contain the thesis statement?",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='200'><rect x='10' y='10' width='280' height='40' fill='#f0f0f0' stroke='black'/><text x='150' y='35' text-anchor='middle' font-size='14'>Introduction</text><rect x='10' y='60' width='280' height='30' fill='#e0e0e0' stroke='black'/><text x='150' y='80' text-anchor='middle' font-size='12'>Body Paragraph 1</text><rect x='10' y='100' width='280' height='30' fill='#e0e0e0' stroke='black'/><text x='150' y='120' text-anchor='middle' font-size='12'>Body Paragraph 2</text><rect x='10' y='140' width='280' height='30' fill='#e0e0e0' stroke='black'/><text x='150' y='160' text-anchor='middle' font-size='12'>Body Paragraph 3</text><rect x='10' y='180' width='280' height='30' fill='#f0f0f0' stroke='black'/><text x='150' y='200' text-anchor='middle' font-size='14'>Conclusion</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "Introduction",
+            "correct": true,
+            "feedbackCorrect": "Correct! The thesis is the last sentence of the introduction."
+          },
+          {
+            "label": "B",
+            "text": "Body Paragraph 1",
+            "correct": false,
+            "feedbackWrong": "The thesis belongs in the introduction, not in a body paragraph."
+          },
+          {
+            "label": "C",
+            "text": "Conclusion",
+            "correct": false,
+            "feedbackWrong": "The thesis is restated in the conclusion, but it first appears in the introduction."
+          },
+          {
+            "label": "D",
+            "text": "Any of the above",
+            "correct": false,
+            "feedbackWrong": "Only the introduction contains the thesis in a standard five-paragraph essay."
+          }
+        ],
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can identify the placement of the thesis in a five-paragraph essay using a diagram.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Thesis placement is a key element of essay structure (C1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check ability to locate the thesis in the essay structure via a diagram.",
+        "commonMisconception": "Thinking the thesis can be anywhere or only in the conclusion.",
+        "remediationModule": "err-thesis",
+        "retestItem": "err-thesis"
+      },
+      {
+        "id": "diag-esl-l7-q4",
+        "nodeId": "five-paragraph-structure",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-structure",
+        "stem": "How many body paragraphs does a standard five-paragraph descriptive essay have?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Two",
+            "correct": false,
+            "feedbackWrong": "A five-paragraph essay has three body paragraphs."
+          },
+          {
+            "label": "B",
+            "text": "Three",
+            "correct": true,
+            "feedbackCorrect": "Correct! Introduction, three body paragraphs, and conclusion make five paragraphs."
+          },
+          {
+            "label": "C",
+            "text": "Four",
+            "correct": false,
+            "feedbackWrong": "That would make six paragraphs total."
+          },
+          {
+            "label": "D",
+            "text": "Five",
+            "correct": false,
+            "feedbackWrong": "Five paragraphs total includes introduction and conclusion, so body paragraphs are fewer."
+          }
+        ],
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can recall the basic structure of a five-paragraph essay.",
+        "ossdExpectation": "Organize ideas coherently in writing.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "ESLDO-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Five-paragraph structure is a key organizational form (C2).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "stemIntent": "Check knowledge of the number of body paragraphs in the five-paragraph structure.",
+        "commonMisconception": "Thinking a descriptive essay has no fixed structure or confusing the total paragraph count.",
+        "remediationModule": "err-structure",
+        "retestItem": "err-structure"
+      },
+      {
+        "id": "diag-esl-l7-q5",
+        "nodeId": "desc-essay-definition",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "errorId": "err-dominant-impression",
+        "stem": "Read this description: 'The old park bench was a throne for the weary. Its paint flaked like dry leaves.' Identify the dominant impression and explain whether the writer uses a simile or metaphor.",
+        "rubric": "Must identify dominant impression (e.g., comfort, decay, or rest) and correctly identify 'throne' as metaphor and 'flaked like dry leaves' as simile.",
+        "sampleStrongAnswer": "The dominant impression is that the bench offers a dignified rest despite its worn condition. The writer uses a metaphor: 'was a throne', and a simile: 'flaked like dry leaves'.",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can extract the dominant impression and identify figurative language types.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Analyzing descriptive techniques aligns with writing and reading expectations.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check ability to analyze a short description for dominant impression and figurative language.",
+        "commonMisconception": "Stating the topic instead of the impression, or misidentifying simile/metaphor.",
+        "remediationModule": "err-dominant-impression",
+        "retestItem": "err-dominant-impression"
+      },
+      {
+        "id": "diag-esl-l7-q6",
+        "nodeId": "writing-process",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-structure",
+        "stem": "Arrange the following writing stages in order: drafting, pre-writing, editing, revision. Then explain what a writer does during the pre-writing stage.",
+        "rubric": "Correct order: pre-writing, drafting, revision, editing. Pre-writing explanation must include selecting subject, observing, and drafting thesis.",
+        "sampleStrongAnswer": "The correct order is pre-writing, drafting, revision, editing. During pre-writing, a writer chooses a subject, gathers sensory details, and writes a thesis statement.",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student can sequence the writing process and describe pre-writing activities.",
+        "ossdExpectation": "Use the stages of the writing process.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "ESLDO-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses the writing process expectation (C4).",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to order writing stages and describe pre-writing.",
+        "commonMisconception": "Skipping pre-writing or thinking revision comes before drafting.",
+        "remediationModule": "err-structure",
+        "retestItem": "err-structure"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-simile-metaphor",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for err-simile-metaphor",
+      "studentMessage": "Let's practice telling the difference between simile and metaphor."
+    },
+    {
+      "errorId": "err-sensory-detail",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for err-sensory-detail",
+      "studentMessage": "Let's explore using all five senses in descriptions."
+    },
+    {
+      "errorId": "err-thesis",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for err-thesis",
+      "studentMessage": "Let's work on writing a clear thesis that states the dominant impression."
+    },
+    {
+      "errorId": "err-structure",
+      "condition": "student picks wrong option or gives incomplete response on any question targeting this errorId",
+      "systemAction": "assign reteach module for err-structure",
+      "studentMessage": "Let's review the five-paragraph structure and the writing process."
+    },
+    {
+      "errorId": "err-dominant-impression",
+      "condition": "student gives incomplete or incorrect response on the open-ended question targeting this errorId",
+      "systemAction": "assign reteach module for err-dominant-impression",
+      "studentMessage": "Let's focus on creating a single, clear dominant impression in your descriptions."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-simile-metaphor",
+      "trigger": "Student selects incorrect option on a figurative language question.",
+      "studentMisunderstanding": "Student confuses simile and metaphor, thinking they are the same or using 'like' incorrectly.",
+      "miniLesson": {
+        "explain": "Similes and metaphors are both comparisons, but similes use 'like' or 'as', while metaphors directly state that one thing is another.",
+        "example": "Simile: 'The sunlight pours like warm honey.' Metaphor: 'The school became a bridge to his future.'",
+        "memoryAnchor": "Remember: 'Simile' has an 's' for 'same' as 'like' or 'as'; 'Metaphor' is more direct, like saying 'this is that'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Is this a simile or metaphor? 'Her voice was a song.'",
+          "answer": "metaphor"
+        },
+        {
+          "level": "L2",
+          "prompt": "Complete the sentence with a simile or metaphor: 'The wind ______ (like/as) a gentle whisper.'",
+          "answer": "was like (simile)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Write one simile and one metaphor to describe a busy market.",
+          "answer": "Simile: The crowd moved like a rushing river. Metaphor: The market was a symphony of sounds."
+        }
+      ]
+    },
+    {
+      "errorId": "err-sensory-detail",
+      "trigger": "I only describe what things look like when I write.",
+      "studentMisunderstanding": "Thinking only sight matters or ignoring other senses",
+      "miniLesson": {
+        "explain": "A descriptive essay uses sensory details to paint a picture for the reader. Sensory details engage the five senses: sight, sound, smell, taste, and touch. Using only sight limits your description; including other senses makes it vivid and immersive.",
+        "example": "Instead of 'The kitchen was messy,' try: 'Dirty dishes piled in the sink (sight), the hum of the refrigerator (sound), and the sharp smell of vinegar (smell) filled the air.'",
+        "memoryAnchor": "Remember: 5 senses = 5 ways to describe. Use all five to make your writing come alive."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which sense does the detail 'the aroma of fresh bread' appeal to?",
+          "answer": "Smell"
+        },
+        {
+          "level": "L2",
+          "prompt": "Add a sound detail to this sentence: 'The park was quiet and green.'",
+          "answer": "The chirping of birds and the rustle of leaves filled the air."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write one sentence describing a school hallway using at least two senses.",
+          "answer": "Lockers clanged shut (sound) and the smell of floor wax lingered (smell) as students hurried to class."
+        }
+      ]
+    },
+    {
+      "errorId": "err-thesis",
+      "trigger": "Student says 'The thesis just tells what the essay is about.'",
+      "studentMisunderstanding": "Thinking the thesis is only the subject or topic, not the dominant impression or main claim.",
+      "miniLesson": {
+        "explain": "In a descriptive essay, the thesis statement does more than name the topic—it states the dominant impression, which is the overall feeling or mood you want the reader to experience. For example, instead of 'I will describe my school,' a strong thesis might be 'My school felt like a second home, full of warmth and energy.' The dominant impression is 'second home' with 'warmth and energy.'",
+        "example": "Model essay 'Alex's First Impressions of His New School' uses a thesis that gives a clear dominant impression: 'The school was a place of new beginnings, both exciting and intimidating.'",
+        "memoryAnchor": "Think of the thesis as the 'heartbeat' of the essay—it's not just the headline (topic) but the feeling that keeps the whole piece alive."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is a good thesis statement for a descriptive essay about a park? A) 'My park is a place.' B) 'The park was a peaceful retreat from the city noise.' Explain why.",
+          "answer": "B is correct because it gives a dominant impression (peaceful retreat), while A just states the topic."
+        },
+        {
+          "level": "L2",
+          "prompt": "Write a thesis statement for a descriptive essay about a busy market. Include one dominant impression.",
+          "answer": "The market was a chaotic symphony of colors, sounds, and smells."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student wrote this thesis: 'My grandmother's kitchen.' Explain what's wrong and rewrite it to state a dominant impression.",
+          "answer": "It's just a topic, not a statement of dominant impression. Corrected: 'My grandmother's kitchen was a warm haven filled with the aroma of home-cooked meals.'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-structure",
+      "trigger": "Student selects wrong number of body paragraphs or misorders writing process stages",
+      "studentMisunderstanding": "The student thinks a descriptive essay has no fixed structure or confuses the function of each paragraph and the steps of the writing process.",
+      "miniLesson": {
+        "explain": "A descriptive essay follows a clear five-paragraph structure: introduction, three body paragraphs, and conclusion. Each part has a specific job. The writing process has four stages: pre-writing (select subject, observe, draft thesis), drafting (organize body paragraphs with sensory details), revision (check alignment, details, structure), and editing (grammar, punctuation, spelling). Ignoring this structure leads to a disorganized essay.",
+        "example": "In 'Alex's First Impressions of His New School', the introduction presents the thesis, each body paragraph describes a different sense impression, and the conclusion summarizes the dominant impression. Pre-writing helped Alex observe details; drafting arranged them; revision ensured clarity; editing fixed errors.",
+        "memoryAnchor": "Remember the five fingers on your hand: thumb (introduction), three middle fingers (body paragraphs), pinky (conclusion). And for the writing process: 'PDR E' — Pre-write, Draft, Revise, Edit."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many body paragraphs does a standard five-paragraph descriptive essay have?",
+          "answer": "3"
+        },
+        {
+          "level": "L2",
+          "prompt": "Arrange these writing stages in order: drafting, pre-writing, revision, editing.",
+          "answer": "pre-writing, drafting, revision, editing"
+        },
+        {
+          "level": "L3",
+          "prompt": "During which stage of the writing process does a writer choose a subject, gather sensory details, and write a thesis statement?",
+          "answer": "pre-writing"
+        }
+      ]
+    },
+    {
+      "errorId": "err-dominant-impression",
+      "trigger": "student gives incomplete or incorrect response on the open-ended question targeting this errorId",
+      "studentMisunderstanding": "Not having a clear dominant impression or mixing multiple impressions",
+      "miniLesson": {
+        "explain": "A descriptive essay aims to create a single, clear dominant impression—the overall feeling or mood the writer wants the reader to experience. This impression should be consistent throughout the essay, guiding the choice of sensory details and figurative language. The thesis statement explicitly states this dominant impression.",
+        "example": "In the model essay 'Alex's First Impressions of His New School', the dominant impression is one of excitement and opportunity. Every sensory detail—the bright hallways, the hum of activity—supports this feeling.",
+        "memoryAnchor": "Think of a dominant impression as the 'mood' of a song: it sets the tone and everything else matches that feeling."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Read the description: 'The cafeteria buzzed with energy. Students laughed, trays clattered, and the smell of pizza filled the air.' What is the dominant impression?",
+          "answer": "The dominant impression is a lively, energetic atmosphere."
+        },
+        {
+          "level": "L2",
+          "prompt": "Write a thesis statement that states a clear dominant impression for a descriptive essay about a quiet library.",
+          "answer": "The library offers a sanctuary of silence and concentration, where every whisper and rustling page deepens the peaceful focus."
+        },
+        {
+          "level": "L3",
+          "prompt": "Revise this description to strengthen a single dominant impression of calm: 'The park was green. Kids were playing loudly. A dog barked. The bench was old.'",
+          "answer": "The park was a haven of calm. The soft rustle of leaves accompanied the gentle breeze, while the distant laughter of children blended into a soothing hum. The old bench stood quietly, inviting a moment of rest."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-simile-metaphor",
+      "questions": [
+        {
+          "id": "retest-simile-metaphor-1",
+          "type": "single_choice",
+          "stem": "Which of the following is a metaphor?",
+          "options": [
+            "Her eyes sparkled like diamonds.",
+            "His smile was a ray of sunshine.",
+            "The baby slept like a log.",
+            "He runs as fast as a cheetah."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-simile-metaphor-2",
+          "type": "open_ended",
+          "stem": "Write one simile and one metaphor to describe a quiet library.",
+          "rubric": "Student must provide one correct simile (using 'like' or 'as') and one correct metaphor (direct comparison without 'like' or 'as') both describing a quiet library. Example: Simile: 'The silence was like a soft blanket.' Metaphor: 'The library was a sanctuary of quiet.'"
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-sensory-detail",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which option uses sensory details that include more than just sight?",
+          "options": [
+            "A large, red apple on the table.",
+            "The salty smell of the ocean and the sound of seagulls.",
+            "A bright yellow sun in the sky.",
+            "The tall green trees in the forest."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Describe a busy cafeteria using at least two different senses. Do not rely only on sight.",
+          "rubric": "Student must include details that appeal to at least two senses, one of which is not sight. Example: 'The smell of pizza fills the air and I hear trays clattering.'"
+        }
+      ],
+      "passRule": "Correct answer on q1 AND open-ended response includes at least one non-visual sensory detail."
+    },
+    {
+      "forErrorId": "err-thesis",
+      "questions": [
+        {
+          "id": "q1_thesis_choice",
+          "type": "single_choice",
+          "stem": "Which of the following thesis statements clearly states a dominant impression for a descriptive essay about a beach?",
+          "options": [
+            "A) The beach is a place where people go.",
+            "B) The beach was a serene escape, with gentle waves and soft sand.",
+            "C) I like the beach.",
+            "D) The beach has sand and water."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_thesis_write",
+          "type": "open_ended",
+          "stem": "Write a thesis statement for a descriptive essay about a crowded subway station. Make sure it conveys a dominant impression (e.g., chaotic, claustrophobic, lively).",
+          "rubric": "Thesis must state a dominant impression (not just topic). Should include sensory or emotional language. Example: 'The subway station was a chaotic whirlwind of noise and motion.'"
+        }
+      ],
+      "passRule": "Answer Q1 correctly and provide a thesis with a clear dominant impression in Q2."
+    },
+    {
+      "forErrorId": "err-structure",
+      "questions": [
+        {
+          "id": "q1-structure-seq",
+          "type": "single_choice",
+          "stem": "What is the correct order of the writing process for a descriptive essay?",
+          "options": [
+            "Drafting, Editing, Pre-writing, Revising",
+            "Pre-writing, Drafting, Revising, Editing",
+            "Revising, Drafting, Pre-writing, Editing",
+            "Editing, Revising, Drafting, Pre-writing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-structure-purpose",
+          "type": "open_ended",
+          "stem": "In a five-paragraph descriptive essay, what is the purpose of the three body paragraphs?",
+          "rubric": "Student states that each body paragraph describes a different sensory detail or supports the thesis with specific sensory descriptions, and they should be distinct from introduction and conclusion."
+        }
+      ],
+      "passRule": "All questions correct"
+    },
+    {
+      "forErrorId": "err-dominant-impression",
+      "questions": [
+        {
+          "id": "dominant-q1",
+          "type": "single_choice",
+          "stem": "Which thesis statement best establishes a clear dominant impression for a descriptive essay about a rainy day?",
+          "options": [
+            "Rainy days are nice.",
+            "The rain turns the city into a shimmering, quiet refuge.",
+            "Rainy days can be good or bad.",
+            "I like the rain."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "dominant-q2",
+          "type": "open_ended",
+          "stem": "Write a thesis statement that creates a dominant impression of 'mystery' for a descriptive essay about an old, abandoned house.",
+          "rubric": "Thesis states a clear dominant impression of mystery, using specific language that suggests intrigue or secrecy."
+        }
+      ],
+      "passRule": "Student must select the correct answer in Q1 and provide a thesis statement in Q2 that clearly conveys a dominant impression of mystery."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-14",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/JbGJdZE6SohTeQxouaXcz6ZWnHt?from=vc_group_doc_link#doxcncTlBAgJ3L8UchGlPntW7Je",
+    "sourceTitle": "ESLDO.S6.Dionne 2026-07-14 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Descriptive essay uses sensory details to paint a picture for the reader.；A descriptive essay typically has a five-paragraph structure: introduction, three body paragraphs, conclusion.；Sensory details engage the five senses: sight, sound, smell, taste, touch.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can explain the purpose, structure, and dominant impression of a descriptive essay."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can identify and use sensory details and figurative language."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can distinguish between simile and metaphor."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can describe and apply the stages of the writing process."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Pre-session preparation: login, display name, webcam",
+        "studentAction": "Log in to the platform, update display name to English characters, and activate webcam before session start.",
+        "deadlineText": "Before session start (10:00)",
+        "deadlineISO": "2026-07-14T10:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All attendees confirm they have completed required pre-session steps including logging into the platform, updating display names to English characters, and activating their webcams prior to the official session start.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Overdue Assignment 1 submission",
+        "studentAction": "Submit Assignment 1 during the allocated work period to avoid late deductions.",
+        "deadlineText": "During the allocated work period (end of session)",
+        "deadlineISO": "2026-07-14T13:01:00+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "students who have not yet submitted Assignment 1",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students who have not yet submitted the prior Assignment 1 must finalize and submit the work during the allocated work period, as late submissions will incur automatic grade deductions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Lesson 7 Schoology Forum Worksheet",
+        "studentAction": "Complete the worksheet matching each paragraph of the model essay to its functional role and submit in the Schoology forum.",
+        "deadlineText": "End of session or as homework (not explicitly stated)",
+        "deadlineISO": null,
+        "platform": "Schoology forum",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students complete the worksheet that matches each paragraph of the model descriptive essay to its core functional role, and submit all responses directly in the designated Schoology forum interface.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Lesson 7 Homework Exercise",
+        "studentAction": "Complete the homework matching sentences from the model essay to paragraph categories using the provided word bank.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Students complete the supporting homework that matches individual sentences from the model essay to their corresponding paragraph category, using the provided official word bank for reference as needed.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Progress report alignment for outstanding submissions",
+        "studentAction": "Submit all outstanding assignments immediately as progress reports will be compiled shortly.",
+        "deadlineText": "Immediately / shortly",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students with outstanding submissions",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All outstanding submissions are required immediately, as official course progress reports will be compiled shortly to reflect current student performance and learning progress.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Mid-session break arrangement",
+        "studentAction": "Return promptly after the 10-minute break.",
+        "deadlineText": "Midpoint of session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A scheduled 10-minute mid-session break is confirmed for the midpoint of the instructional session, with all attendees instructed to return promptly.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "material_needed",
+        "title": "Grammarly link for revision",
+        "studentAction": "Use Grammarly (https://www.grammarly.com) for grammar checking during revision.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Web",
+        "link": "https://www.grammarly.com",
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "语法修正:Grammarly https://www.grammarly.com",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Schoology Forum Worksheet submission deadline",
+        "reason": "It is unclear whether the worksheet is due by the end of the session or as homework. The dedicated work period suggests it may be completed in class, but no explicit deadline is stated."
+      },
+      {
+        "rawText": "Homework Exercise deadline",
+        "reason": "No deadline is mentioned for the homework exercise (matching sentences to paragraph categories)."
+      },
+      {
+        "rawText": "Progress report compilation date",
+        "reason": "The exact date for progress report compilation is not specified; only 'shortly' is mentioned."
+      },
+      {
+        "rawText": "Exact platform for pre-session login",
+        "reason": "The notes mention 'logging into the platform' but do not specify whether it is Schoology, the video conferencing tool, or another system."
+      }
+    ],
+    "watchTags": [
+      "desc-essay-definition",
+      "five-paragraph-structure",
+      "sensory-details",
+      "figurative-language",
+      "writing-process"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-simile-metaphor",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-simile-metaphor"
+      },
+      {
+        "errorId": "err-sensory-detail",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-sensory-detail"
+      },
+      {
+        "errorId": "err-thesis",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-thesis"
+      },
+      {
+        "errorId": "err-structure",
+        "condition": "student picks wrong option or gives incomplete response on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-structure"
+      },
+      {
+        "errorId": "err-dominant-impression",
+        "condition": "student gives incomplete or incorrect response on the open-ended question targeting this errorId",
+        "systemAction": "assign reteach module for err-dominant-impression"
+      }
+    ],
+    "nextActions": [
+      "[err-simile-metaphor] student picks wrong option on any question targeting this errorId: Let's practice telling the difference between simile and metaphor.",
+      "[err-sensory-detail] student picks wrong option on any question targeting this errorId: Let's explore using all five senses in descriptions.",
+      "[err-thesis] student picks wrong option on any question targeting this errorId: Let's work on writing a clear thesis that states the dominant impression.",
+      "[err-structure] student picks wrong option or gives incomplete response on any question targeting this errorId: Let's review the five-paragraph structure and the writing process.",
+      "[err-dominant-impression] student gives incomplete or incorrect response on the open-ended question targeting this errorId: Let's focus on creating a single, clear dominant impression in your descriptions."
+    ],
+    "cards": [
+      {
+        "id": "diag-esl-l7-q1",
+        "type": "choice",
+        "question": "Which of the following is a simile?",
+        "options": [
+          "The school became a bridge to his future.",
+          "The sunlight poured like warm honey.",
+          "The classroom was a quiet forest.",
+          "Her voice was music."
+        ],
+        "correct": 1,
+        "diagnosis": "Check ability to differentiate simile from metaphor.",
+        "misconceptions": [
+          "This is a metaphor because it directly compares the school to a bridge without using 'like' or 'as'.",
+          "✓ Correct! 'Like' makes this a simile.",
+          "This is a metaphor. Similes use 'like' or 'as', which this does not.",
+          "This is a metaphor because it does not use 'like' or 'as'."
+        ],
+        "nodeId": "figurative-language",
+        "errorId": "err-simile-metaphor",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can correctly identify a simile among multiple examples.",
+        "ossdExpectation": "Use a variety of strategies to build vocabulary.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "ESLDO-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Explicitly targets vocabulary-building for figurative language.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Confusing simile with metaphor, e.g., thinking all comparisons without 'like' are similes.",
+        "remediationModule": "err-simile-metaphor",
+        "retestItem": "err-simile-metaphor"
+      },
+      {
+        "id": "diag-esl-l7-q2",
+        "type": "choice",
+        "question": "When describing a cafeteria, which sensory detail engages the sense of smell?",
+        "options": [
+          "The floor was shiny and clean.",
+          "The aroma of fresh bread filled the air.",
+          "The chairs were hard and cold.",
+          "The chatter of students echoed."
+        ],
+        "correct": 1,
+        "diagnosis": "Check recognition that sensory details involve more than sight.",
+        "misconceptions": [
+          "This appeals to sight, not smell.",
+          "✓ Correct! 'Aroma' engages the sense of smell.",
+          "This appeals to touch, not smell.",
+          "This appeals to sound, not smell."
+        ],
+        "nodeId": "sensory-details",
+        "errorId": "err-sensory-detail",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student can match a sensory detail to the correct sense.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Sensory details are a key technique in descriptive writing (C1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Assuming only sight matters in descriptions.",
+        "remediationModule": "err-sensory-detail",
+        "retestItem": "err-sensory-detail"
+      },
+      {
+        "id": "diag-esl-l7-q3",
+        "type": "choice",
+        "question": "Look at the diagram of a five-paragraph essay below. Which part should contain the thesis statement?",
+        "options": [
+          "Introduction",
+          "Body Paragraph 1",
+          "Conclusion",
+          "Any of the above"
+        ],
+        "correct": 0,
+        "diagnosis": "Check ability to locate the thesis in the essay structure via a diagram.",
+        "misconceptions": [
+          "✓ Correct! The thesis is the last sentence of the introduction.",
+          "The thesis belongs in the introduction, not in a body paragraph.",
+          "The thesis is restated in the conclusion, but it first appears in the introduction.",
+          "Only the introduction contains the thesis in a standard five-paragraph essay."
+        ],
+        "nodeId": "desc-essay-definition",
+        "errorId": "err-thesis",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can identify the placement of the thesis in a five-paragraph essay using a diagram.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Thesis placement is a key element of essay structure (C1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking the thesis can be anywhere or only in the conclusion.",
+        "remediationModule": "err-thesis",
+        "retestItem": "err-thesis"
+      },
+      {
+        "id": "diag-esl-l7-q4",
+        "type": "choice",
+        "question": "How many body paragraphs does a standard five-paragraph descriptive essay have?",
+        "options": [
+          "Two",
+          "Three",
+          "Four",
+          "Five"
+        ],
+        "correct": 1,
+        "diagnosis": "Check knowledge of the number of body paragraphs in the five-paragraph structure.",
+        "misconceptions": [
+          "A five-paragraph essay has three body paragraphs.",
+          "✓ Correct! Introduction, three body paragraphs, and conclusion make five paragraphs.",
+          "That would make six paragraphs total.",
+          "Five paragraphs total includes introduction and conclusion, so body paragraphs are fewer."
+        ],
+        "nodeId": "five-paragraph-structure",
+        "errorId": "err-structure",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can recall the basic structure of a five-paragraph essay.",
+        "ossdExpectation": "Organize ideas coherently in writing.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "ESLDO-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Five-paragraph structure is a key organizational form (C2).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "commonMisconception": "Thinking a descriptive essay has no fixed structure or confusing the total paragraph count.",
+        "remediationModule": "err-structure",
+        "retestItem": "err-structure"
+      },
+      {
+        "id": "diag-esl-l7-q5",
+        "type": "explain",
+        "question": "Read this description: 'The old park bench was a throne for the weary. Its paint flaked like dry leaves.' Identify the dominant impression and explain whether the writer uses a simile or metaphor.",
+        "correct": null,
+        "diagnosis": "Check ability to analyze a short description for dominant impression and figurative language.",
+        "nodeId": "desc-essay-definition",
+        "errorId": "err-dominant-impression",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can extract the dominant impression and identify figurative language types.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Analyzing descriptive techniques aligns with writing and reading expectations.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Stating the topic instead of the impression, or misidentifying simile/metaphor.",
+        "remediationModule": "err-dominant-impression",
+        "retestItem": "err-dominant-impression"
+      },
+      {
+        "id": "diag-esl-l7-q6",
+        "type": "explain",
+        "question": "Arrange the following writing stages in order: drafting, pre-writing, editing, revision. Then explain what a writer does during the pre-writing stage.",
+        "correct": null,
+        "diagnosis": "Check ability to order writing stages and describe pre-writing.",
+        "nodeId": "writing-process",
+        "errorId": "err-structure",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student can sequence the writing process and describe pre-writing activities.",
+        "ossdExpectation": "Use the stages of the writing process.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "ESLDO-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses the writing process expectation (C4).",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Skipping pre-writing or thinking revision comes before drafting.",
+        "remediationModule": "err-structure",
+        "retestItem": "err-structure"
+      }
+    ]
+  }
+}

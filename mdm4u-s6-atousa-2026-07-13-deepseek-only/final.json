@@ -1,0 +1,796 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-13",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/CEFzdKFGRos4W8xmUMbcfznXnIA?from=vc_group_doc_link#doxcneysSOt1OJuftERTDCpgnMb",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-13 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/CEFzdKFGRos4W8xmUMbcfznXnIA?from=vc_group_doc_link#doxcneysSOt1OJuftERTDCpgnMb",
+    "title": "MDM4U.S6.Atousa 2026-07-13 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/mdm4u-s6-atousa-2026-07-13/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-13",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-13",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson primarily teaches core definitions, formulas, and examples for independent event probability, with guided practice and problem walkthroughs.",
+    "academicContentSignals": [
+      "Definition of independent events: occurrence of one event has no impact on probability of another",
+      "Multiplicative counting principle for sequential events",
+      "Conditional probability property for independent events: P(B|A) = P(B)",
+      "Joint probability formula: P(A∩B) = P(A) × P(B) for independent events",
+      "Extended multi-event joint probability: product of individual probabilities",
+      "Complementary probability for 'at least one' outcomes: 1 - P(none)",
+      "Worked examples: die+coin, card+die, outfit combinations, game scoring",
+      "Practice problems: route counting, true/false guessing, multiple choice guessing, modified deck+die, 54-card deck with replacement"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "low - academic content clearly dominates; only minor operational items at session end",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit remaining Class Activity 4 problems",
+        "studentAction": "Complete and submit any unfinished problems from Class Activity 4 via the designated learning platform (only final answers required).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Remaining uncompleted problems in Class Activity 4 are to be submitted via the designated learning platform, with only final answers required.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "No pre-class preparation for next session",
+        "studentAction": "No additional pre-class preparation is needed; next session will continue with independent event probability practice.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "No additional pre-class preparation is assigned for the next scheduled session, which will continue with advanced independent event probability practice.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "designated learning platform",
+        "reason": "Platform name and submission link not specified in notes."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Independent Events Definition、Multiplicative Counting Principle for Independent Events、Conditional Probability Property for Independent Events、Joint Probability Formula for Independent Events）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 5 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Two events are independent if the occurrence or outcome of one has no effect on the probability of the other.；For a sequence of independent events, the total number of possible outcomes equals the product of the number of outcomes for each individual event (multiplicative counting principle).；If A and B are independent, then P(B|A) = P(B).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Define independent events and distinguish them from dependent events."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply the multiplicative counting principle to determine the total number of outcomes for a sequence of independent events."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Use the conditional probability property P(B|A) = P(B) for independent events."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Calculate the joint probability P(A and B) = P(A) × P(B) for independent events."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Use the complement to find the probability of at least one occurrence of an event."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "mdm4u-a-independent-events-definition",
+      "name": "Independent Events Definition",
+      "nameEn": "Independent Events Definition",
+      "definition": "Two events are independent if the occurrence of one does not affect the probability of the other.",
+      "officialExpectationCode": "A1.3",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems."
+    },
+    {
+      "id": "mdm4u-a-multiplicative-counting-principle",
+      "name": "Multiplicative Counting Principle for Independent Events",
+      "nameEn": "Multiplicative Counting Principle for Independent Events",
+      "definition": "The total number of possible outcomes for a sequence of independent events is the product of the number of outcomes for each individual event.",
+      "officialExpectationCode": "A1.3",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems."
+    },
+    {
+      "id": "mdm4u-a-conditional-probability-property",
+      "name": "Conditional Probability Property for Independent Events",
+      "nameEn": "Conditional Probability Property for Independent Events",
+      "definition": "For independent events A and B, the conditional probability of B given A is equal to the probability of B: P(B|A) = P(B).",
+      "officialExpectationCode": "A1.5",
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    },
+    {
+      "id": "mdm4u-a-joint-probability-formula",
+      "name": "Joint Probability Formula for Independent Events",
+      "nameEn": "Joint Probability Formula for Independent Events",
+      "definition": "The probability that two independent events both occur is the product of their individual probabilities: P(A and B) = P(A) × P(B). For multiple events, extend to product of all probabilities.",
+      "officialExpectationCode": "A1.3",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems."
+    },
+    {
+      "id": "mdm4u-a-complementary-probability",
+      "name": "Complementary Probability for 'At Least One'",
+      "nameEn": "Complementary Probability for 'At Least One'",
+      "definition": "The probability of at least one occurrence equals 1 minus the probability of zero occurrences.",
+      "officialExpectationCode": "A1.5",
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define independent events and distinguish them from dependent events."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the multiplicative counting principle to determine the total number of outcomes for a sequence of independent events."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use the conditional probability property P(B|A) = P(B) for independent events."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Calculate the joint probability P(A and B) = P(A) × P(B) for independent events."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Use the complement to find the probability of at least one occurrence of an event."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-independent-events-confusion",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q1).",
+        "systemAction": "Assign reteach module for err-independent-events-confusion.",
+        "studentMessage": "Let's review what makes events independent."
+      },
+      {
+        "errorId": "err-multiplicative-counting-addition",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q2).",
+        "systemAction": "Assign reteach module for err-multiplicative-counting-addition.",
+        "studentMessage": "Let's review the multiplicative counting principle."
+      },
+      {
+        "errorId": "err-conditional-probability-misapplication",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q3).",
+        "systemAction": "Assign reteach module for err-conditional-probability-misapplication.",
+        "studentMessage": "Let's review the conditional probability property for independent events."
+      },
+      {
+        "errorId": "err-complement-forgetting",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q4).",
+        "systemAction": "Assign reteach module for err-complement-forgetting.",
+        "studentMessage": "Let's review how to use the complement for 'at least one' problems."
+      },
+      {
+        "errorId": "err-joint-probability-without-independence",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q5).",
+        "systemAction": "Assign reteach module for err-joint-probability-without-independence.",
+        "studentMessage": "Let's review the joint probability formula for independent events."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-a-0713-q1",
+        "nodeId": "mdm4u-a-independent-events-definition",
+        "errorId": "err-independent-events-confusion",
+        "stem": "Which of the following pairs of events are independent?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies independent events from examples.",
+        "ossdExpectation": "determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding independent events is foundational for determining theoretical probabilities in discrete sample spaces.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can distinguish independent from dependent events.",
+        "commonMisconception": "Students may think that any two random events are independent, or that drawing without replacement is independent.",
+        "remediationModule": "err-independent-events-confusion",
+        "retestItem": "err-independent-events-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "Drawing a marble from a bag without replacement, then drawing a second marble.",
+            "correct": false,
+            "feedbackWrong": "Drawing without replacement creates dependence because the first outcome changes the composition."
+          },
+          {
+            "label": "B",
+            "text": "Rolling a six-sided die and flipping a fair coin.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The outcome of the die does not affect the coin flip, and vice versa."
+          },
+          {
+            "label": "C",
+            "text": "Choosing two students from a class without replacement, both being male.",
+            "correct": false,
+            "feedbackWrong": "Without replacement, the first choice affects the probabilities for the second."
+          },
+          {
+            "label": "D",
+            "text": "Drawing two cards from a standard deck without replacement.",
+            "correct": false,
+            "feedbackWrong": "Without replacement, the events are dependent."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-a-0713-q2",
+        "nodeId": "mdm4u-a-multiplicative-counting-principle",
+        "errorId": "err-multiplicative-counting-addition",
+        "stem": "You have 4 different pairs of pants, 6 different shirts, and 2 different pairs of shoes. How many different outfits can you create (assuming you choose one of each)?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student multiplies the number of choices for each independent event to find total outcomes.",
+        "ossdExpectation": "determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The multiplicative counting principle is used to determine the total number of outcomes in a sample space for a sequence of independent events.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student multiplies rather than adds when combining independent choices.",
+        "commonMisconception": "Students add the number of options instead of multiplying.",
+        "remediationModule": "err-multiplicative-counting-addition",
+        "retestItem": "err-multiplicative-counting-addition",
+        "options": [
+          {
+            "label": "A",
+            "text": "12",
+            "correct": false,
+            "feedbackWrong": "You added the numbers instead of multiplying. The total number of outfits is the product of the number of choices for each item."
+          },
+          {
+            "label": "B",
+            "text": "48",
+            "correct": true,
+            "feedbackCorrect": "Correct. 4 pants × 6 shirts × 2 shoes = 48 outfits."
+          },
+          {
+            "label": "C",
+            "text": "24",
+            "correct": false,
+            "feedbackWrong": "You multiplied pants and shirts but forgot to include shoes."
+          },
+          {
+            "label": "D",
+            "text": "14",
+            "correct": false,
+            "feedbackWrong": "You added the numbers (4+6+2) instead of multiplying."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-independent-events-confusion",
+      "condition": "Student selects an incorrect option on the question targeting this errorId (Q1).",
+      "systemAction": "Assign reteach module for err-independent-events-confusion.",
+      "studentMessage": "Let's review what makes events independent."
+    },
+    {
+      "errorId": "err-multiplicative-counting-addition",
+      "condition": "Student selects an incorrect option on the question targeting this errorId (Q2).",
+      "systemAction": "Assign reteach module for err-multiplicative-counting-addition.",
+      "studentMessage": "Let's review the multiplicative counting principle."
+    },
+    {
+      "errorId": "err-conditional-probability-misapplication",
+      "condition": "Student selects an incorrect option on the question targeting this errorId (Q3).",
+      "systemAction": "Assign reteach module for err-conditional-probability-misapplication.",
+      "studentMessage": "Let's review the conditional probability property for independent events."
+    },
+    {
+      "errorId": "err-complement-forgetting",
+      "condition": "Student selects an incorrect option on the question targeting this errorId (Q4).",
+      "systemAction": "Assign reteach module for err-complement-forgetting.",
+      "studentMessage": "Let's review how to use the complement for 'at least one' problems."
+    },
+    {
+      "errorId": "err-joint-probability-without-independence",
+      "condition": "Student selects an incorrect option on the question targeting this errorId (Q5).",
+      "systemAction": "Assign reteach module for err-joint-probability-without-independence.",
+      "studentMessage": "Let's review the joint probability formula for independent events."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-independent-events-confusion",
+      "trigger": "Student incorrectly identifies drawing without replacement as independent in diagnostic question Q1.",
+      "studentMisunderstanding": "Students often think that any two random events are independent, or that drawing without replacement is independent because it seems random.",
+      "miniLesson": {
+        "explain": "Two events are independent if the occurrence or outcome of one has no effect on the probability of the other. For example, rolling a 6-sided die and flipping a fair coin are independent because the die outcome does not affect the coin flip. In contrast, drawing two marbles from a bag without replacement is dependent because the first draw changes the composition of the bag, affecting the probability of the second draw.",
+        "example": "Rolling a 6-sided die and flipping a coin: P(die shows 3) = 1/6, P(coin heads) = 1/2, and P(die shows 3 and coin heads) = (1/6)×(1/2)=1/12. The coin flip is unaffected by the die roll. But drawing two cards without replacement from a deck: P(first card Ace) = 4/52, but P(second card Ace given first Ace) = 3/51, which is not equal to 4/52.",
+        "memoryAnchor": "Independent = 'no influence' – like rolling a die and flipping a coin: the die doesn't know about the coin."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Are the following events independent or dependent? Event A: Rolling a 6-sided die and getting a 4. Event B: Flipping a fair coin and getting heads.",
+          "answer": "Independent, because the outcome of the die does not affect the coin flip."
+        },
+        {
+          "level": "L2",
+          "prompt": "For independent events A and B, if P(B) = 1/2, what is P(B|A)?",
+          "answer": "P(B|A) = P(B) = 1/2."
+        },
+        {
+          "level": "L3",
+          "prompt": "Consider drawing two cards without replacement from a standard 52-card deck. Are the events 'first card is a heart' and 'second card is a heart' independent? Explain why or why not using probabilities.",
+          "answer": "They are dependent because P(second heart | first heart) = 12/51, but P(second heart) = 13/52 = 1/4; since 12/51 ≠ 1/4, the events are dependent."
+        }
+      ]
+    },
+    {
+      "errorId": "err-multiplicative-counting-addition",
+      "trigger": "Student adds numbers of outcomes instead of multiplying when counting total outcomes for a sequence of independent events.",
+      "studentMisunderstanding": "Students may add numbers of outcomes instead of multiplying when counting total outcomes for a sequence.",
+      "miniLesson": {
+        "explain": "When counting the total number of outcomes for a sequence of independent events, you multiply the number of outcomes for each event, not add them. Adding would only count the total number of choices if you were picking only one item from a single set. For example, if you have 4 pants and 6 shirts, the total outfits is 4 × 6 = 24, not 4 + 6 = 10.",
+        "example": "You have 4 pants, 6 shirts, and 2 pairs of shoes. The total number of different outfits is 4 × 6 × 2 = 48. If you added, you would get 4 + 6 + 2 = 12, which is incorrect because each combination of pants, shirt, and shoes is a distinct outfit.",
+        "memoryAnchor": "Think of a tree diagram: each branch splits into more branches. The total number of leaves (outcomes) is the product of the number of branches at each level. For each choice, you multiply."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "You roll a 6-sided die and flip a fair coin. How many possible outcomes are there?",
+          "answer": "12"
+        },
+        {
+          "level": "L2",
+          "prompt": "You have 3 different pairs of pants, 2 different shirts, and 4 different hats. How many different outfits can you make (choose one of each)?",
+          "answer": "24"
+        },
+        {
+          "level": "L3",
+          "prompt": "A combination lock has 40 numbers on the dial. You choose a 3-number sequence (numbers can repeat). How many different sequences are possible?",
+          "answer": "64000"
+        }
+      ]
+    },
+    {
+      "errorId": "err-conditional-probability-misapplication",
+      "trigger": "You answered a diagnostic question about conditional probability incorrectly.",
+      "studentMisunderstanding": "You may be confusing conditional probability P(B|A) with joint probability P(A and B). For independent events, the occurrence of A does not affect the probability of B, so P(B|A) = P(B), not P(A and B).",
+      "miniLesson": {
+        "explain": "For independent events A and B, the conditional probability of B given A equals the probability of B alone. This is because the outcome of A has no effect on B. The joint probability P(A and B) is found by multiplying P(A) × P(B), which is a different concept.",
+        "example": "Rolling a 6-sided die and flipping a coin are independent. The probability the coin shows heads given the die shows 4 is P(heads | die 4) = P(heads) = 1/2. Compare: P(heads and die 4) = (1/2) × (1/6) = 1/12, which is not the same as 1/2.",
+        "memoryAnchor": "Given A, B is just itself – if A doesn't affect B, then P(B|A) = P(B)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Two events are independent: roll a 6-sided die and flip a coin. What is P(coin shows heads | die shows 3)?",
+          "answer": "1/2"
+        },
+        {
+          "level": "L2",
+          "prompt": "You draw a card from a standard 52-card deck and then roll a 6-sided die. Are these events independent? What is P(die shows 5 | card is a heart)?",
+          "answer": "Yes, independent; 1/6"
+        },
+        {
+          "level": "L3",
+          "prompt": "Events A and B are independent with P(A)=1/4 and P(B)=1/2. Find P(B|A).",
+          "answer": "1/2"
+        }
+      ]
+    },
+    {
+      "errorId": "err-complement-forgetting",
+      "trigger": "When faced with a probability problem asking for 'at least one' success in repeated independent trials, the student attempts to sum individual probabilities rather than using the complement rule.",
+      "studentMisunderstanding": "The student does not recognize that computing the probability of the complement (no successes) and subtracting from 1 is often simpler and less error-prone than calculating the probabilities of 1, 2, ... successes and summing them.",
+      "miniLesson": {
+        "explain": "For repeated independent events (like multiple coin flips, free throws, or guesses on a test), the probability of at least one success can be found using: P(at least one success) = 1 - P(no successes). This is because 'no successes' is the opposite (complement) of 'at least one success'. Instead of adding many separate probabilities, we just calculate the single probability that no success occurs, which is often just the product of the probabilities of failure for each trial.",
+        "example": "A basketball player has an 85% chance of making a free throw. If she takes three free throws, what is the probability she makes at least one? P(at least one make) = 1 - P(all misses) = 1 - (0.15 × 0.15 × 0.15) = 1 - 0.003375 = 0.996625.",
+        "memoryAnchor": "At least one? Think of the opposite: NONE! Then subtract from 1."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "You flip a fair coin twice. What is the probability of getting at least one head?",
+          "answer": "3/4"
+        },
+        {
+          "level": "L2",
+          "prompt": "A player has an 85% chance of scoring in each game. What is the probability she scores at least once in three games?",
+          "answer": "0.996625"
+        },
+        {
+          "level": "L3",
+          "prompt": "You guess all answers on a 4-question true/false quiz. What is the probability you get at least one question correct?",
+          "answer": "15/16"
+        }
+      ]
+    },
+    {
+      "errorId": "err-joint-probability-without-independence",
+      "trigger": "You answered incorrectly on the diagnostic question about joint probability for independent events.",
+      "studentMisunderstanding": "Students may apply P(A and B) = P(A) × P(B) without verifying that the events are independent.",
+      "miniLesson": {
+        "explain": "The formula P(A and B) = P(A) × P(B) only works when events A and B are independent. Independence means the outcome of one event does not affect the probability of the other. Always check if events are independent before multiplying probabilities. For example, if you draw two cards without replacement, the events are dependent, so you cannot use multiplication directly. If events are independent, like rolling a die and flipping a coin, you multiply their individual probabilities.",
+        "example": "Find P(rolling a 3 on a six-sided die and flipping heads on a coin). Die and coin are independent. P(3) = 1/6, P(heads) = 1/2, so joint probability = 1/6 × 1/2 = 1/12.",
+        "memoryAnchor": "Remember: 'Independent events? Multiply away! Dependent? Find another way.' Always verify independence first."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "You roll a fair six-sided die and flip a fair coin. What is the probability of rolling an even number and flipping heads?",
+          "answer": "P(even) = 3/6 = 1/2, P(heads) = 1/2, so 1/2 × 1/2 = 1/4."
+        },
+        {
+          "level": "L2",
+          "prompt": "From a 54-card deck with 2 jokers and 4 aces, you draw a card, replace it, then draw another. What is the probability of drawing a joker first and an ace second?",
+          "answer": "P(joker) = 2/54, P(ace) = 4/54, so (2/54) × (4/54) = 8/2916 = 2/729."
+        },
+        {
+          "level": "L3",
+          "prompt": "You roll a fair six-sided die and draw one card from a modified deck of 40 cards (all cards are number 2-10, four suits). First, verify that the events are independent. Then, calculate the probability of rolling an even number and drawing an even-numbered card.",
+          "answer": "The events are independent because the die and the card draw are separate. P(even die) = 3/6 = 1/2, P(even card) = 20/40 = 1/2, so joint probability = 1/2 × 1/2 = 1/4."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-independent-events-confusion",
+      "questions": [
+        {
+          "id": "retest-indep-1",
+          "type": "single_choice",
+          "stem": "Which of the following pairs of events are independent?",
+          "options": [
+            "Drawing two cards from a deck without replacement",
+            "Rolling a six-sided die and flipping a coin",
+            "Selecting two marbles from a bag without replacement",
+            "Choosing two students from a class without replacement"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-indep-2",
+          "type": "open_ended",
+          "stem": "Explain why the events 'rolling a 4 on a die' and 'getting heads on a coin flip' are independent. Use the definition of independent events in your explanation.",
+          "rubric": "Student must state that the occurrence of one event does not affect the probability of the other, or equivalently, that P(heads | die=4) = P(heads) = 1/2, or that P(4 and heads) = P(4) × P(heads) = 1/6 × 1/2 = 1/12."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-multiplicative-counting-addition",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "You have 4 different pairs of shoes, 6 different pairs of socks, and 2 different belts. How many different combinations of one shoe, one sock, and one belt can you make?",
+          "options": [
+            "12",
+            "24",
+            "48",
+            "8"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "You roll a standard 6-sided die and a standard 6-sided die. How many possible outcomes are there for the pair of numbers?",
+          "rubric": "The correct answer is 36."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-conditional-probability-misapplication",
+      "questions": [
+        {
+          "id": "retest-condprob-1",
+          "type": "single_choice",
+          "stem": "Events A and B are independent. Which of the following statements is correct?",
+          "options": [
+            "P(B|A) = P(A)",
+            "P(B|A) = P(B)",
+            "P(B|A) = P(A and B)",
+            "P(B|A) = P(A) × P(B)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-condprob-2",
+          "type": "open_ended",
+          "stem": "A fair coin is flipped and a fair six-sided die is rolled. What is the probability that the coin shows heads given that the die shows an even number? Explain your reasoning.",
+          "rubric": "Correct answer: 1/2. Explanation must state that the coin flip and die roll are independent events, so the probability of heads is unaffected by the die outcome. Award full credit only if both the correct answer and a valid explanation are provided."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly: Q1 must select the correct option (index 1), and Q2 must provide the correct probability (1/2) with a clear explanation citing independence."
+    },
+    {
+      "forErrorId": "err-complement-forgetting",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A basketball player makes 85% of her free throws. If she takes two free throws, what is the probability she makes at least one?",
+          "options": [
+            "0.9775",
+            "0.85",
+            "0.7225",
+            "0.15"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "You roll a fair six-sided die three times. What is the probability you get at least one six? Express your answer as a simplified fraction.",
+          "rubric": "Answer: 91/216"
+        }
+      ],
+      "passRule": "both correct"
+    },
+    {
+      "forErrorId": "err-joint-probability-without-independence",
+      "questions": [
+        {
+          "id": "retest-err-joint-probability-q1",
+          "type": "single_choice",
+          "stem": "You draw two cards from a standard 52-card deck without replacement. Are the events 'first card is a heart' and 'second card is a heart' independent?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-joint-probability-q2",
+          "type": "open_ended",
+          "stem": "You roll a fair six-sided die and flip a fair coin. Calculate the probability of rolling a 3 and flipping heads. Show your reasoning.",
+          "rubric": "Correctly identifies that the events are independent. Computes P(die=3) = 1/6 and P(coin=heads) = 1/2. Multiplies to get 1/12."
+        }
+      ],
+      "passRule": "Both questions correct."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-13",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/CEFzdKFGRos4W8xmUMbcfznXnIA?from=vc_group_doc_link#doxcneysSOt1OJuftERTDCpgnMb",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-13 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Two events are independent if the occurrence or outcome of one has no effect on the probability of the other.；For a sequence of independent events, the total number of possible outcomes equals the product of the number of outcomes for each individual event (multiplicative counting principle).；If A and B are independent, then P(B|A) = P(B).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define independent events and distinguish them from dependent events."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the multiplicative counting principle to determine the total number of outcomes for a sequence of independent events."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use the conditional probability property P(B|A) = P(B) for independent events."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Calculate the joint probability P(A and B) = P(A) × P(B) for independent events."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Use the complement to find the probability of at least one occurrence of an event."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit remaining Class Activity 4 problems",
+        "studentAction": "Complete and submit any unfinished problems from Class Activity 4 via the designated learning platform (only final answers required).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Remaining uncompleted problems in Class Activity 4 are to be submitted via the designated learning platform, with only final answers required.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "No pre-class preparation for next session",
+        "studentAction": "No additional pre-class preparation is needed; next session will continue with independent event probability practice.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "No additional pre-class preparation is assigned for the next scheduled session, which will continue with advanced independent event probability practice.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "designated learning platform",
+        "reason": "Platform name and submission link not specified in notes."
+      }
+    ],
+    "watchTags": [
+      "mdm4u-a-independent-events-definition",
+      "mdm4u-a-multiplicative-counting-principle",
+      "mdm4u-a-conditional-probability-property",
+      "mdm4u-a-joint-probability-formula",
+      "mdm4u-a-complementary-probability"
+    ],
+    "totalQuestions": 2,
+    "completed": false,
+    "passScore": 2,
+    "diagnosisRules": [
+      {
+        "errorId": "err-independent-events-confusion",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q1).",
+        "systemAction": "Assign reteach module for err-independent-events-confusion."
+      },
+      {
+        "errorId": "err-multiplicative-counting-addition",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q2).",
+        "systemAction": "Assign reteach module for err-multiplicative-counting-addition."
+      },
+      {
+        "errorId": "err-conditional-probability-misapplication",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q3).",
+        "systemAction": "Assign reteach module for err-conditional-probability-misapplication."
+      },
+      {
+        "errorId": "err-complement-forgetting",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q4).",
+        "systemAction": "Assign reteach module for err-complement-forgetting."
+      },
+      {
+        "errorId": "err-joint-probability-without-independence",
+        "condition": "Student selects an incorrect option on the question targeting this errorId (Q5).",
+        "systemAction": "Assign reteach module for err-joint-probability-without-independence."
+      }
+    ],
+    "nextActions": [
+      "[err-independent-events-confusion] Student selects an incorrect option on the question targeting this errorId (Q1).: Let's review what makes events independent.",
+      "[err-multiplicative-counting-addition] Student selects an incorrect option on the question targeting this errorId (Q2).: Let's review the multiplicative counting principle.",
+      "[err-conditional-probability-misapplication] Student selects an incorrect option on the question targeting this errorId (Q3).: Let's review the conditional probability property for independent events.",
+      "[err-complement-forgetting] Student selects an incorrect option on the question targeting this errorId (Q4).: Let's review how to use the complement for 'at least one' problems.",
+      "[err-joint-probability-without-independence] Student selects an incorrect option on the question targeting this errorId (Q5).: Let's review the joint probability formula for independent events."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-a-0713-q1",
+        "type": "choice",
+        "question": "Which of the following pairs of events are independent?",
+        "options": [
+          "Drawing a marble from a bag without replacement, then drawing a second marble.",
+          "Rolling a six-sided die and flipping a fair coin.",
+          "Choosing two students from a class without replacement, both being male.",
+          "Drawing two cards from a standard deck without replacement."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can distinguish independent from dependent events.",
+        "misconceptions": [
+          "Drawing without replacement creates dependence because the first outcome changes the composition.",
+          "✓ Correct. The outcome of the die does not affect the coin flip, and vice versa.",
+          "Without replacement, the first choice affects the probabilities for the second.",
+          "Without replacement, the events are dependent."
+        ],
+        "nodeId": "mdm4u-a-independent-events-definition",
+        "errorId": "err-independent-events-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies independent events from examples.",
+        "ossdExpectation": "determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding independent events is foundational for determining theoretical probabilities in discrete sample spaces.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think that any two random events are independent, or that drawing without replacement is independent.",
+        "remediationModule": "err-independent-events-confusion",
+        "retestItem": "err-independent-events-confusion"
+      },
+      {
+        "id": "diag-mdm4u-a-0713-q2",
+        "type": "choice",
+        "question": "You have 4 different pairs of pants, 6 different shirts, and 2 different pairs of shoes. How many different outfits can you create (assuming you choose one of each)?",
+        "options": [
+          "12",
+          "48",
+          "24",
+          "14"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student multiplies rather than adds when combining independent choices.",
+        "misconceptions": [
+          "You added the numbers instead of multiplying. The total number of outfits is the product of the number of choices for each item.",
+          "✓ Correct. 4 pants × 6 shirts × 2 shoes = 48 outfits.",
+          "You multiplied pants and shirts but forgot to include shoes.",
+          "You added the numbers (4+6+2) instead of multiplying."
+        ],
+        "nodeId": "mdm4u-a-multiplicative-counting-principle",
+        "errorId": "err-multiplicative-counting-addition",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student multiplies the number of choices for each independent event to find total outcomes.",
+        "ossdExpectation": "determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The multiplicative counting principle is used to determine the total number of outcomes in a sample space for a sequence of independent events.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students add the number of options instead of multiplying.",
+        "remediationModule": "err-multiplicative-counting-addition",
+        "retestItem": "err-multiplicative-counting-addition"
+      }
+    ]
+  }
+}

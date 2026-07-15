@@ -1,0 +1,1153 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-14",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Aew7dr3C9ozklBxVlmRcSNFlnDg?from=vc_group_doc_link#doxcn5Kw8xGz8z9vzATYGaOiXsb",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-14 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Aew7dr3C9ozklBxVlmRcSNFlnDg?from=vc_group_doc_link#doxcn5Kw8xGz8z9vzATYGaOiXsb",
+    "title": "MHF4U.S6.Taylor 2026-07-14 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/mhf4u-s6-taylor-2026-07-14/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-14",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-14",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson primarily teaches new content: polynomial graphing rules, long division, synthetic division, and factorization, with some homework review and administrative announcements.",
+    "academicContentSignals": [
+      "Root multiplicity behavior: even multiplicity bounce, odd multiplicity cross",
+      "End behavior determined by degree and leading coefficient",
+      "Interval testing method optional",
+      "Polynomial long division: mandatory padding of missing degree terms with 0",
+      "6-step long division workflow",
+      "Long division result format: dividend = divisor * quotient + remainder",
+      "Synthetic division applicable only for linear divisors (x-k or ax-k)",
+      "Synthetic division steps: coefficients, drop, multiply-add",
+      "Quotient degree one less than dividend in synthetic division",
+      "Full factorization workflow: divide by known factor, factor quotient",
+      "Worked examples: division by linear divisors, synthetic division, factorization",
+      "Graphing from factorization using intercepts and end behavior"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low. Academic content is substantial and clearly the focus. Operations are supportive announcements and do not overshadow instruction.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Unaddressed homework solutions to be uploaded",
+        "studentAction": "Review handwritten solution notes on course website",
+        "deadlineText": "within a few days",
+        "deadlineISO": null,
+        "platform": "course website",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "All homework questions not covered during the live class will be compiled into handwritten solution notes and uploaded to the course website for student self-review within a few days.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Future class structure: first 30 minutes homework Q&A",
+        "studentAction": "Prepare homework questions for first 30 minutes of next class",
+        "deadlineText": "starting next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Starting from the next scheduled class session, the first 30 minutes of each class will be dedicated exclusively to homework Q&A, before proceeding to new core lesson content.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Unit quiz on quadratic content this Thursday",
+        "studentAction": "Prepare for unit quiz on quadratic content",
+        "deadlineText": "Thursday (2026-07-16)",
+        "deadlineISO": "2026-07-16",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "A unit quiz focused solely on quadratic content will be held on the coming Thursday, with no full unit test covering the entire polynomial curriculum scheduled for that date.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "follow_up_action",
+        "title": "Exit card feedback to be shared by end of day",
+        "studentAction": "Check for exit card feedback",
+        "deadlineText": "end of day 2026-07-14",
+        "deadlineISO": "2026-07-14T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Exit card submissions collected at the end of the prior class session were not reviewed before the start of this class, and feedback will be shared with all students by the end of the current day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Post-session homework and exit card",
+        "studentAction": "Complete lesson homework and submit exit card",
+        "deadlineText": "after session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students are required to complete the standard lesson homework and exit card submitted at the end of the session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "teacher_request",
+        "title": "Contact instructor via email with questions",
+        "studentAction": "Email instructor with follow-up questions",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "may contact the course instructor via email with any follow-up questions.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "course website link for solution notes",
+        "reason": "No specific URL provided for course website."
+      },
+      {
+        "rawText": "exact due time for post-session homework",
+        "reason": "Deadline not explicitly stated; only 'after the session concludes'."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Polynomial Features and Graphing、Polynomial Division and Factorization）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Roots with even multiplicity cause the graph to bounce off the x-axis; odd multiplicity causes crossing.；End behavior is determined by the degree (even/odd) and the leading coefficient (positive/negative).；Polynomial long division requires padding missing degree terms with coefficient 0.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can identify the effect of root multiplicity on graph behavior (bounce vs cross)."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can determine end behavior from degree and leading coefficient."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can perform polynomial long division correctly, including padding missing terms."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Students can identify the appropriate use of synthetic division (linear divisors)."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Students can determine the degree of the quotient from synthetic division and apply division to factorization."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-C-OE01",
+      "name": "Polynomial Features and Graphing",
+      "nameEn": "Polynomial Features and Graphing",
+      "definition": "Key features of polynomial functions include root multiplicity (even multiplicity causes bounce, odd multiplicity causes cross), end behavior determined by degree and leading coefficient, and the relationship between algebraic form and graphical shape.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    },
+    {
+      "id": "MHF4U-C-OE03",
+      "name": "Polynomial Division and Factorization",
+      "nameEn": "Polynomial Division and Factorization",
+      "definition": "Polynomial long division and synthetic division are used to factor polynomials. Synthetic division only works for linear divisors of the form x-k or ax-k. Full factorization involves dividing by a known factor and then factoring the resulting quotient.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify the effect of root multiplicity on graph behavior (bounce vs cross)."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can determine end behavior from degree and leading coefficient."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can perform polynomial long division correctly, including padding missing terms."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can identify the appropriate use of synthetic division (linear divisors)."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Students can determine the degree of the quotient from synthetic division and apply division to factorization."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-multiplicity-confusion",
+        "condition": "Student selects incorrect option on question 1 (indicating odd multiplicity causes bounce or even multiplicity causes cross).",
+        "systemAction": "Assign reteach module for err-multiplicity-confusion.",
+        "studentMessage": "Check your understanding: root multiplicity tells you whether the graph crosses or touches the x-axis."
+      },
+      {
+        "errorId": "err-end-behavior-degree-sign",
+        "condition": "Student selects incorrect option on question 2 (misidentifies end behavior direction).",
+        "systemAction": "Assign reteach module for err-end-behavior-degree-sign.",
+        "studentMessage": "Review how degree parity and leading coefficient sign combine to determine end behavior."
+      },
+      {
+        "errorId": "err-missing-terms-division",
+        "condition": "Student selects incorrect option on question 3 (fails to pad missing degree terms).",
+        "systemAction": "Assign reteach module for err-missing-terms-division.",
+        "studentMessage": "Remember to insert zero coefficients for any missing degree terms before starting long division."
+      },
+      {
+        "errorId": "err-synthetic-divisor-type",
+        "condition": "Student selects incorrect option on question 4 (thinks synthetic division works for non-linear divisors).",
+        "systemAction": "Assign reteach module for err-synthetic-divisor-type.",
+        "studentMessage": "Synthetic division is only valid for linear divisors of the form x - k or ax - k."
+      },
+      {
+        "errorId": "err-quotient-degree-misalignment",
+        "condition": "Student selects incorrect option on question 5 (misjudges degree of quotient).",
+        "systemAction": "Assign reteach module for err-quotient-degree-misalignment.",
+        "studentMessage": "When using synthetic division, the quotient's degree is always one less than the dividend's degree."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-u1-0714-q1",
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-multiplicity-confusion",
+        "stem": "A polynomial function has a root at x = 3 with multiplicity 4. At x = 3, the graph will:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that even multiplicity causes the graph to bounce (touch and turn) at the root.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses polynomial features including root multiplicity.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands the graphical consequence of root multiplicity (even multiplicity = bounce).",
+        "commonMisconception": "Student thinks odd multiplicity causes bounce or even multiplicity causes crossing.",
+        "remediationModule": "err-multiplicity-confusion",
+        "retestItem": "err-multiplicity-confusion",
+        "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\"><defs><marker id=\"arrowhead\" markerWidth=\"10\" markerHeight=\"7\" refX=\"0\" refY=\"3.5\" orient=\"auto\"><polygon points=\"0 0, 10 3.5, 0 7\" fill=\"black\" /></marker></defs><line x1=\"20\" y1=\"270\" x2=\"380\" y2=\"270\" stroke=\"black\" stroke-width=\"2\" marker-end=\"url(#arrowhead)\"/><line x1=\"20\" y1=\"270\" x2=\"20\" y2=\"30\" stroke=\"black\" stroke-width=\"2\" marker-end=\"url(#arrowhead)\"/><text x=\"375\" y=\"290\" font-size=\"14\" fill=\"black\">x</text><text x=\"10\" y=\"25\" font-size=\"14\" fill=\"black\">y</text><path d=\"M 40 50 Q 100 50 150 120 Q 180 160 200 180 Q 220 200 240 270 Q 255 270 270 240 Q 300 180 360 50\" fill=\"none\" stroke=\"blue\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"270\" r=\"4\" fill=\"red\" stroke=\"red\"/><text x=\"230\" y=\"260\" font-size=\"12\" fill=\"black\">(3,0)</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "cross the x-axis",
+            "correct": false,
+            "feedbackWrong": "Multiplicity 4 is even, so the graph bounces off the x-axis, not crosses."
+          },
+          {
+            "label": "B",
+            "text": "bounce off the x-axis",
+            "correct": true,
+            "feedbackCorrect": "Correct. Even multiplicity causes the graph to bounce (touch and turn) at the root."
+          },
+          {
+            "label": "C",
+            "text": "have a cusp",
+            "correct": false,
+            "feedbackWrong": "A cusp is not a typical feature of polynomial graphs at roots; bounce or cross are the expected behaviors."
+          },
+          {
+            "label": "D",
+            "text": "approach the x-axis asymptotically",
+            "correct": false,
+            "feedbackWrong": "Polynomials do not have horizontal asymptotes; the graph will either cross or bounce at the root."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-u1-0714-q2",
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-end-behavior-degree-sign",
+        "stem": "Which statement best describes the end behavior of f(x) = -3x^5 + 2x^3 - 4?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that as x → ∞, f(x) → -∞ and as x → -∞, f(x) → ∞ (odd degree, negative leading coefficient).",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can determine end behavior from degree (odd) and leading coefficient (negative).",
+        "commonMisconception": "Student mixes up the sign or parity, e.g., thinks both ends go to negative infinity or one goes up and one goes down with wrong direction.",
+        "remediationModule": "err-end-behavior-degree-sign",
+        "retestItem": "err-end-behavior-degree-sign",
+        "options": [
+          {
+            "label": "A",
+            "text": "as x → ∞, f(x) → ∞ ; as x → -∞, f(x) → -∞",
+            "correct": false,
+            "feedbackWrong": "This describes positive leading coefficient with odd degree. Our leading coefficient is negative, so the ends are reversed."
+          },
+          {
+            "label": "B",
+            "text": "as x → ∞, f(x) → -∞ ; as x → -∞, f(x) → ∞",
+            "correct": true,
+            "feedbackCorrect": "Correct. Odd degree with negative leading coefficient: left end up, right end down."
+          },
+          {
+            "label": "C",
+            "text": "as x → ∞, f(x) → -∞ ; as x → -∞, f(x) → -∞",
+            "correct": false,
+            "feedbackWrong": "Both ends down would require even degree with negative leading coefficient. Here degree is odd."
+          },
+          {
+            "label": "D",
+            "text": "as x → ∞, f(x) → ∞ ; as x → -∞, f(x) → ∞",
+            "correct": false,
+            "feedbackWrong": "Both ends up would require even degree with positive leading coefficient. Here degree is odd and leading coefficient is negative."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-u1-0714-q3",
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-missing-terms-division",
+        "stem": "When performing long division of (x^3 + 6x - 2) by (x + 1), what should be written as the dividend before starting?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student recognizes that the missing x^2 term must be included as 0x^2.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Long division of polynomials is an algebraic technique used to solve polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student knows to pad missing degree terms with zero coefficients in long division.",
+        "commonMisconception": "Student omits the missing x^2 term, leading to misalignment and incorrect quotient.",
+        "remediationModule": "err-missing-terms-division",
+        "retestItem": "err-missing-terms-division",
+        "options": [
+          {
+            "label": "A",
+            "text": "x^3 + 6x - 2",
+            "correct": false,
+            "feedbackWrong": "Leaving out the x^2 term will cause incorrect alignment. You must include 0x^2 for the missing degree."
+          },
+          {
+            "label": "B",
+            "text": "x^3 + 0x^2 + 6x - 2",
+            "correct": true,
+            "feedbackCorrect": "Correct. The x^2 term is missing, so we insert 0x^2 to maintain proper place values."
+          },
+          {
+            "label": "C",
+            "text": "x^3 + 0x^2 + 0x - 2",
+            "correct": false,
+            "feedbackWrong": "The x term is present (6x), so you should not replace it with 0x. Only missing degrees need zero coefficients."
+          },
+          {
+            "label": "D",
+            "text": "x^3 + 6x - 2 + 0x^2",
+            "correct": false,
+            "feedbackWrong": "Order matters; the terms should be written in descending degree order: x^3 + 0x^2 + 6x - 2."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-u1-0714-q4",
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-synthetic-divisor-type",
+        "stem": "Which of the following divisors can be used directly with synthetic division?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student identifies that only linear divisors (x - k or ax - k) are valid for synthetic division.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Synthetic division is an algebraic method used in polynomial factorization and solving equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows the necessary condition for synthetic division (linear divisor).",
+        "commonMisconception": "Student thinks synthetic division works for any divisor, even quadratic or higher degree.",
+        "remediationModule": "err-synthetic-divisor-type",
+        "retestItem": "err-synthetic-divisor-type",
+        "options": [
+          {
+            "label": "A",
+            "text": "x - 3",
+            "correct": false,
+            "feedbackWrong": "x - 3 is a valid linear divisor, but there is also another correct option. Please select all that apply."
+          },
+          {
+            "label": "B",
+            "text": "x^2 + 1",
+            "correct": false,
+            "feedbackWrong": "Synthetic division is not applicable to quadratic divisors. Use long division instead."
+          },
+          {
+            "label": "C",
+            "text": "2x + 3",
+            "correct": false,
+            "feedbackWrong": "2x + 3 is a linear divisor of the form ax - k, which can be used after adjusting the synthetic division setup, but there is also another correct option."
+          },
+          {
+            "label": "D",
+            "text": "Both A and C",
+            "correct": true,
+            "feedbackCorrect": "Correct. Both x - 3 and 2x + 3 are linear divisors suitable for synthetic division (with minor adjustment for ax - k)."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-u1-0714-q5",
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-quotient-degree-misalignment",
+        "stem": "After using synthetic division to divide a polynomial of degree 4 by (x - 2), the quotient will have degree:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student correctly states that quotient degree is one less than dividend degree (degree 3).",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding quotient degree is essential for correctly writing the result of synthetic division.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student knows that the quotient's degree is always one less than the dividend's degree when dividing by a linear polynomial.",
+        "commonMisconception": "Student thinks quotient has the same degree as dividend or miscalculates by more than 1.",
+        "remediationModule": "err-quotient-degree-misalignment",
+        "retestItem": "err-quotient-degree-misalignment",
+        "options": [
+          {
+            "label": "A",
+            "text": "4",
+            "correct": false,
+            "feedbackWrong": "The quotient degree is one less than the dividend degree because the divisor is linear."
+          },
+          {
+            "label": "B",
+            "text": "3",
+            "correct": true,
+            "feedbackCorrect": "Correct. Dividing a degree 4 polynomial by a linear divisor yields a degree 3 quotient."
+          },
+          {
+            "label": "C",
+            "text": "2",
+            "correct": false,
+            "feedbackWrong": "The degree decreases by exactly 1, not 2."
+          },
+          {
+            "label": "D",
+            "text": "5",
+            "correct": false,
+            "feedbackWrong": "Division reduces degree; the quotient cannot have a higher degree than the dividend."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-multiplicity-confusion",
+      "condition": "Student selects incorrect option on question 1 (indicating odd multiplicity causes bounce or even multiplicity causes cross).",
+      "systemAction": "Assign reteach module for err-multiplicity-confusion.",
+      "studentMessage": "Check your understanding: root multiplicity tells you whether the graph crosses or touches the x-axis."
+    },
+    {
+      "errorId": "err-end-behavior-degree-sign",
+      "condition": "Student selects incorrect option on question 2 (misidentifies end behavior direction).",
+      "systemAction": "Assign reteach module for err-end-behavior-degree-sign.",
+      "studentMessage": "Review how degree parity and leading coefficient sign combine to determine end behavior."
+    },
+    {
+      "errorId": "err-missing-terms-division",
+      "condition": "Student selects incorrect option on question 3 (fails to pad missing degree terms).",
+      "systemAction": "Assign reteach module for err-missing-terms-division.",
+      "studentMessage": "Remember to insert zero coefficients for any missing degree terms before starting long division."
+    },
+    {
+      "errorId": "err-synthetic-divisor-type",
+      "condition": "Student selects incorrect option on question 4 (thinks synthetic division works for non-linear divisors).",
+      "systemAction": "Assign reteach module for err-synthetic-divisor-type.",
+      "studentMessage": "Synthetic division is only valid for linear divisors of the form x - k or ax - k."
+    },
+    {
+      "errorId": "err-quotient-degree-misalignment",
+      "condition": "Student selects incorrect option on question 5 (misjudges degree of quotient).",
+      "systemAction": "Assign reteach module for err-quotient-degree-misalignment.",
+      "studentMessage": "When using synthetic division, the quotient's degree is always one less than the dividend's degree."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-multiplicity-confusion",
+      "trigger": "Student selects incorrect option on diag-mhf4u-u1-0714-q1, indicating confusion between bounce and cross for multiplicity.",
+      "studentMisunderstanding": "The student thinks odd multiplicity causes bounce or even multiplicity causes crossing, reversing the correct rule.",
+      "miniLesson": {
+        "explain": "Root multiplicity tells you how many times a factor appears. If the multiplicity is even, the graph touches and bounces off the x-axis at that root. If the multiplicity is odd, the graph crosses the x-axis. For example, for the factor (x - 2)^3, multiplicity 3 (odd) means the graph crosses at x=2. For (x + 1)^2, multiplicity 2 (even) means the graph bounces at x=-1.",
+        "example": "Consider f(x) = (x - 1)^2 (x + 2). Root at x=1 has multiplicity 2 (even) so the graph bounces. Root at x=-2 has multiplicity 1 (odd) so the graph crosses.",
+        "memoryAnchor": "Even multiplicity: like a ball bouncing off the floor. Odd multiplicity: like crossing a street."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What does the graph do at a root with multiplicity 5?",
+          "answer": "Crosses the x-axis because 5 is odd."
+        },
+        {
+          "level": "L2",
+          "prompt": "A polynomial has a root at x = 3 with multiplicity 2. Describe the behavior at x=3.",
+          "answer": "The graph bounces (touches and turns) at x=3 because multiplicity 2 is even."
+        },
+        {
+          "level": "L3",
+          "prompt": "If a polynomial graph bounces at x=2 and crosses at x=3, what can you conclude about the multiplicities?",
+          "answer": "Multiplicity at x=2 is even, at x=3 is odd."
+        }
+      ]
+    },
+    {
+      "errorId": "err-end-behavior-degree-sign",
+      "trigger": "Student incorrectly determines end behavior by mixing degree parity with sign of leading coefficient.",
+      "studentMisunderstanding": "Student may think both ends go the same direction regardless of degree, or misinterpret the effect of a negative leading coefficient on odd degree polynomials.",
+      "miniLesson": {
+        "explain": "End behavior describes what happens to f(x) as x → ∞ and x → -∞. It depends on two things: degree parity (even/odd) and leading coefficient sign (positive/negative). For even degree, both ends go the same direction: up if positive, down if negative. For odd degree, ends go opposite directions: with positive leading coefficient, left end goes down and right end goes up; with negative leading coefficient, left end goes up and right end goes down. Remember: 'Even same, odd opposite; positive right up, negative right down.'",
+        "example": "For f(x) = -3x^5 + 2x^3 - 4: degree = 5 (odd), leading coefficient = -3 (negative) → as x → ∞, f(x) → -∞; as x → -∞, f(x) → ∞ (left up, right down).",
+        "memoryAnchor": "Think of a negative odd polynomial as a 'sad smile' starting high on the left and falling to the right: left up, right down."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Determine the end behavior of f(x) = 2x^3 - x^2 + 5.",
+          "answer": "Degree = 3 (odd), leading coefficient = 2 (positive) → as x → ∞, f(x) → ∞; as x → -∞, f(x) → -∞."
+        },
+        {
+          "level": "L2",
+          "prompt": "Determine the end behavior of g(x) = -4x^4 + 3x - 1.",
+          "answer": "Degree = 4 (even), leading coefficient = -4 (negative) → as x → ∞, f(x) → -∞; as x → -∞, f(x) → -∞."
+        },
+        {
+          "level": "L3",
+          "prompt": "Determine the end behavior of h(x) = 5x^6 - 2x^3 + 7x.",
+          "answer": "Degree = 6 (even), leading coefficient = 5 (positive) → as x → ∞, f(x) → ∞; as x → -∞, f(x) → ∞."
+        }
+      ]
+    },
+    {
+      "errorId": "err-missing-terms-division",
+      "trigger": "Student forgets to pad missing degree terms with zero coefficients during polynomial long division.",
+      "studentMisunderstanding": "When performing long division, students often omit terms for degrees that are not present in the polynomial, leading to misalignment and incorrect quotients.",
+      "miniLesson": {
+        "explain": "In polynomial long division, you must include all terms from highest degree to constant term, even if the coefficient is zero. This ensures proper alignment of like terms.",
+        "example": "For (x³ + 6x - 2) ÷ (x + 1), rewrite as x³ + 0x² + 6x - 2. Then divide: quotient x² - x + 7, remainder -9.",
+        "memoryAnchor": "Pad with zeros for every missing degree – like inserting placeholder zeros in long division of numbers."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Divide (2x² + 5) by (x - 1). Remember to pad any missing term with 0 coefficient.",
+          "answer": "Rewrite as 2x² + 0x + 5. Long division yields quotient 2x + 2, remainder 7."
+        },
+        {
+          "level": "L2",
+          "prompt": "Divide (x³ + 6x - 2) by (x + 1). Be sure to include the missing x² term.",
+          "answer": "Rewrite as x³ + 0x² + 6x - 2. Long division gives quotient x² - x + 7, remainder -9."
+        },
+        {
+          "level": "L3",
+          "prompt": "Divide (x⁴ + 2x² + 3) by (x - 1). Insert zero coefficients for all missing degree terms.",
+          "answer": "Rewrite as x⁴ + 0x³ + 2x² + 0x + 3. Long division gives quotient x³ + x² + 3x + 3, remainder 6."
+        }
+      ]
+    },
+    {
+      "errorId": "err-synthetic-divisor-type",
+      "trigger": "Student attempted synthetic division with a non-linear divisor.",
+      "studentMisunderstanding": "Thinks synthetic division can be used for any divisor, including quadratic or higher-degree divisors.",
+      "miniLesson": {
+        "explain": "Synthetic division is a shortcut for polynomial long division, but it only works when dividing by a linear polynomial of the form x - k or ax - k. This is because the algorithm relies on the divisor having degree 1, allowing a simplified coefficient manipulation. For divisors of degree 2 or higher, you must use polynomial long division.",
+        "example": "Dividing 3x^4 - x^3 + 2x^2 - 4x - 17 by x + 4 (linear) works with synthetic division. But dividing by x^2 + 1 (quadratic) requires long division.",
+        "memoryAnchor": "Synthetic division is a 'one-degree' tool – only for linear divisors. If the divisor's degree is not 1, use long division."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following divisors can be used directly with synthetic division?\nA) x^2 - 5\nB) x - 3\nC) 2x + 1\nD) Both B and C",
+          "answer": "D"
+        },
+        {
+          "level": "L2",
+          "prompt": "You are dividing 6x^3 + 5x^2 - 16x - 15 by 2x + 3. Can you use synthetic division? Explain briefly.",
+          "answer": "Yes, because 2x + 3 is a linear divisor of the form ax - k. Use synthetic division with k = -3/2, then at the end divide the quotient coefficients by a=2."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student divides (x^4 - 16) by (x^2 + 4) using synthetic division and gets an incorrect result. Why is synthetic division invalid here?",
+          "answer": "Synthetic division is only valid for linear divisors. The divisor x^2 + 4 is quadratic (degree 2), so polynomial long division must be used instead."
+        }
+      ]
+    },
+    {
+      "errorId": "err-quotient-degree-misalignment",
+      "trigger": "Student misaligns degrees when writing quotient from synthetic division.",
+      "studentMisunderstanding": "Students often think the quotient has the same degree as the dividend or miscalculate the degree reduction by more than one.",
+      "miniLesson": {
+        "explain": "When dividing a polynomial by a linear divisor using synthetic division, the quotient's degree is always one less than the dividend's degree. For example, dividing a degree 4 polynomial yields a degree 3 quotient.",
+        "example": "Dividing 3x⁴ - x³ + 2x² - 4x - 17 by x + 4 gives quotient 3x³ - 13x² + 54x - 220 (degree 3). The dividend degree 4 becomes quotient degree 3.",
+        "memoryAnchor": "Synthetic Division: Degree drops by one. If dividend degree is n, quotient degree is n-1."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the degree of the quotient when a degree 5 polynomial is divided by x - 2 using synthetic division?",
+          "answer": "4"
+        },
+        {
+          "level": "L2",
+          "prompt": "Given dividend 2x⁴ + 3x³ - 5x² + 7x - 1 (degree 4) divided by x - 5, what is the degree of the quotient?",
+          "answer": "3"
+        },
+        {
+          "level": "L3",
+          "prompt": "A student says the quotient from dividing 6x³ + 5x² - 16x - 15 by 2x + 3 has degree 3. Is this correct? Explain.",
+          "answer": "No, the dividend degree is 3 and divisor is linear (degree 1), so quotient degree should be 2. The student mistakenly kept the same degree."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-multiplicity-confusion",
+      "questions": [
+        {
+          "id": "retest-multiplicity-1",
+          "type": "single_choice",
+          "stem": "A polynomial has a root at x = 2 with multiplicity 6. What does the graph do at x = 2?",
+          "options": [
+            "Bounces off the x-axis",
+            "Crosses the x-axis",
+            "Touches but does not cross, then continues",
+            "There is not enough information"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-multiplicity-2",
+          "type": "open_ended",
+          "stem": "Describe the difference in graph behavior at a root with odd multiplicity versus even multiplicity. Use the terms 'bounce' and 'cross' in your explanation.",
+          "rubric": "Correctly states: odd multiplicity → graph crosses; even multiplicity → graph bounces. (Accept equivalent wording.)"
+        }
+      ],
+      "passRule": "Answer the multiple-choice question correctly and provide a correct explanation in the open-ended question."
+    },
+    {
+      "forErrorId": "err-end-behavior-degree-sign",
+      "questions": [
+        {
+          "id": "retest-err-eb-1",
+          "type": "single_choice",
+          "stem": "Consider the polynomial f(x) = -2x^3 + 4x - 1. Which statement correctly describes its end behavior?",
+          "options": [
+            "As x → ∞, f(x) → ∞; as x → -∞, f(x) → -∞.",
+            "As x → ∞, f(x) → -∞; as x → -∞, f(x) → ∞.",
+            "As x → ∞, f(x) → ∞; as x → -∞, f(x) → ∞.",
+            "As x → ∞, f(x) → -∞; as x → -∞, f(x) → -∞."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-eb-2",
+          "type": "open_ended",
+          "stem": "Determine the end behavior of g(x) = 3x^4 - 5x^2 + 2. Write your answer in the form: as x→∞, g(x)→___ ; as x→-∞, g(x)→___.",
+          "rubric": "Correct answer: as x→∞, g(x)→∞; as x→-∞, g(x)→∞. Score 1 for both correct, 0 otherwise."
+        }
+      ],
+      "passRule": "Student must answer all questions correctly."
+    },
+    {
+      "forErrorId": "err-missing-terms-division",
+      "questions": [
+        {
+          "id": "retest-missing-terms-1",
+          "type": "single_choice",
+          "stem": "Which of the following is the correct way to rewrite \\(2x^3 + 5x - 4\\) before performing long division by \\(x - 2\\)?",
+          "options": [
+            "\\(2x^3 + 5x - 4\\)",
+            "\\(2x^3 + 0x^2 + 5x - 4\\)",
+            "\\(2x^3 + 0x + 5x - 4\\)",
+            "\\(2x^3 + 5x - 4 + 0\\)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-missing-terms-2",
+          "type": "open_ended",
+          "stem": "Perform the long division: \\((x^4 + 2x^2 + 3) \\div (x - 1)\\). Write your answer in the form quotient + remainder/divisor. Show all steps including padding.",
+          "rubric": "Must rewrite as x^4 + 0x^3 + 2x^2 + 0x + 3. Correct quotient: x^3 + x^2 + 3x + 3, remainder 6. Final answer: x^3 + x^2 + 3x + 3 + 6/(x-1)."
+        }
+      ],
+      "passRule": "Must answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-synthetic-divisor-type",
+      "questions": [
+        {
+          "id": "q1_synthdiv_detection",
+          "type": "single_choice",
+          "stem": "Which of the following divisors can be used directly with synthetic division?",
+          "options": [
+            "x^2 - 5",
+            "x - 3",
+            "2x + 1",
+            "Both B and C"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "q2_synthdiv_explain",
+          "type": "open_ended",
+          "stem": "A student divides x^4 - 16 by x^2 + 4 using synthetic division and gets an incorrect result. Explain why synthetic division is invalid here and what method should be used instead.",
+          "rubric": "Correct answer must state that synthetic division only works for linear divisors (degree 1), and x^2+4 is quadratic (degree 2), so polynomial long division must be used instead."
+        }
+      ],
+      "passRule": "Select D for the multiple choice question and provide a valid explanation for the open-ended question."
+    },
+    {
+      "forErrorId": "err-quotient-degree-misalignment",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "When dividing a degree 6 polynomial by x - 3 using synthetic division, what is the degree of the quotient?",
+          "options": [
+            "6",
+            "5",
+            "4",
+            "3"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A student divides 4x⁵ - 2x³ + 7x + 9 by x + 2 and writes the quotient as 4x⁵ - 8x⁴ + 14x³ - 28x² + 63x - 117. Identify the error and explain why it's wrong. Then write the correct quotient.",
+          "rubric": "The student mistakenly kept the degree 5 (same as dividend). The correct quotient degree should be 4. After performing synthetic division, the correct quotient is 4x⁴ - 8x³ + 14x² - 28x + 63 with remainder 0? Actually check: dividend degree 5, divisor linear, quotient degree 4. The student's quotient has degree 5, so error in degree reduction. Explanation: synthetic division always reduces degree by one when dividing by a linear divisor. Correct quotient: 4x⁴ - 8x³ + 14x² - 28x + 63."
+        }
+      ],
+      "passRule": "Answer Q1 correctly and provide a clear explanation in Q2 identifying the degree error."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-14",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Aew7dr3C9ozklBxVlmRcSNFlnDg?from=vc_group_doc_link#doxcn5Kw8xGz8z9vzATYGaOiXsb",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-14 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Roots with even multiplicity cause the graph to bounce off the x-axis; odd multiplicity causes crossing.；End behavior is determined by the degree (even/odd) and the leading coefficient (positive/negative).；Polynomial long division requires padding missing degree terms with coefficient 0.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify the effect of root multiplicity on graph behavior (bounce vs cross)."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can determine end behavior from degree and leading coefficient."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can perform polynomial long division correctly, including padding missing terms."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can identify the appropriate use of synthetic division (linear divisors)."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Students can determine the degree of the quotient from synthetic division and apply division to factorization."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Unaddressed homework solutions to be uploaded",
+        "studentAction": "Review handwritten solution notes on course website",
+        "deadlineText": "within a few days",
+        "deadlineISO": null,
+        "platform": "course website",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "All homework questions not covered during the live class will be compiled into handwritten solution notes and uploaded to the course website for student self-review within a few days.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Future class structure: first 30 minutes homework Q&A",
+        "studentAction": "Prepare homework questions for first 30 minutes of next class",
+        "deadlineText": "starting next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Starting from the next scheduled class session, the first 30 minutes of each class will be dedicated exclusively to homework Q&A, before proceeding to new core lesson content.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Unit quiz on quadratic content this Thursday",
+        "studentAction": "Prepare for unit quiz on quadratic content",
+        "deadlineText": "Thursday (2026-07-16)",
+        "deadlineISO": "2026-07-16",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "A unit quiz focused solely on quadratic content will be held on the coming Thursday, with no full unit test covering the entire polynomial curriculum scheduled for that date.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "follow_up_action",
+        "title": "Exit card feedback to be shared by end of day",
+        "studentAction": "Check for exit card feedback",
+        "deadlineText": "end of day 2026-07-14",
+        "deadlineISO": "2026-07-14T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Exit card submissions collected at the end of the prior class session were not reviewed before the start of this class, and feedback will be shared with all students by the end of the current day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Post-session homework and exit card",
+        "studentAction": "Complete lesson homework and submit exit card",
+        "deadlineText": "after session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students are required to complete the standard lesson homework and exit card submitted at the end of the session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "teacher_request",
+        "title": "Contact instructor via email with questions",
+        "studentAction": "Email instructor with follow-up questions",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "may contact the course instructor via email with any follow-up questions.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "course website link for solution notes",
+        "reason": "No specific URL provided for course website."
+      },
+      {
+        "rawText": "exact due time for post-session homework",
+        "reason": "Deadline not explicitly stated; only 'after the session concludes'."
+      }
+    ],
+    "watchTags": [
+      "MHF4U-C-OE01",
+      "MHF4U-C-OE03"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-multiplicity-confusion",
+        "condition": "Student selects incorrect option on question 1 (indicating odd multiplicity causes bounce or even multiplicity causes cross).",
+        "systemAction": "Assign reteach module for err-multiplicity-confusion."
+      },
+      {
+        "errorId": "err-end-behavior-degree-sign",
+        "condition": "Student selects incorrect option on question 2 (misidentifies end behavior direction).",
+        "systemAction": "Assign reteach module for err-end-behavior-degree-sign."
+      },
+      {
+        "errorId": "err-missing-terms-division",
+        "condition": "Student selects incorrect option on question 3 (fails to pad missing degree terms).",
+        "systemAction": "Assign reteach module for err-missing-terms-division."
+      },
+      {
+        "errorId": "err-synthetic-divisor-type",
+        "condition": "Student selects incorrect option on question 4 (thinks synthetic division works for non-linear divisors).",
+        "systemAction": "Assign reteach module for err-synthetic-divisor-type."
+      },
+      {
+        "errorId": "err-quotient-degree-misalignment",
+        "condition": "Student selects incorrect option on question 5 (misjudges degree of quotient).",
+        "systemAction": "Assign reteach module for err-quotient-degree-misalignment."
+      }
+    ],
+    "nextActions": [
+      "[err-multiplicity-confusion] Student selects incorrect option on question 1 (indicating odd multiplicity causes bounce or even multiplicity causes cross).: Check your understanding: root multiplicity tells you whether the graph crosses or touches the x-axis.",
+      "[err-end-behavior-degree-sign] Student selects incorrect option on question 2 (misidentifies end behavior direction).: Review how degree parity and leading coefficient sign combine to determine end behavior.",
+      "[err-missing-terms-division] Student selects incorrect option on question 3 (fails to pad missing degree terms).: Remember to insert zero coefficients for any missing degree terms before starting long division.",
+      "[err-synthetic-divisor-type] Student selects incorrect option on question 4 (thinks synthetic division works for non-linear divisors).: Synthetic division is only valid for linear divisors of the form x - k or ax - k.",
+      "[err-quotient-degree-misalignment] Student selects incorrect option on question 5 (misjudges degree of quotient).: When using synthetic division, the quotient's degree is always one less than the dividend's degree."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-u1-0714-q1",
+        "type": "choice",
+        "question": "A polynomial function has a root at x = 3 with multiplicity 4. At x = 3, the graph will:",
+        "options": [
+          "cross the x-axis",
+          "bounce off the x-axis",
+          "have a cusp",
+          "approach the x-axis asymptotically"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands the graphical consequence of root multiplicity (even multiplicity = bounce).",
+        "misconceptions": [
+          "Multiplicity 4 is even, so the graph bounces off the x-axis, not crosses.",
+          "✓ Correct. Even multiplicity causes the graph to bounce (touch and turn) at the root.",
+          "A cusp is not a typical feature of polynomial graphs at roots; bounce or cross are the expected behaviors.",
+          "Polynomials do not have horizontal asymptotes; the graph will either cross or bounce at the root."
+        ],
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-multiplicity-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that even multiplicity causes the graph to bounce (touch and turn) at the root.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses polynomial features including root multiplicity.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks odd multiplicity causes bounce or even multiplicity causes crossing.",
+        "remediationModule": "err-multiplicity-confusion",
+        "retestItem": "err-multiplicity-confusion"
+      },
+      {
+        "id": "diag-mhf4u-u1-0714-q2",
+        "type": "choice",
+        "question": "Which statement best describes the end behavior of f(x) = -3x^5 + 2x^3 - 4?",
+        "options": [
+          "as x → ∞, f(x) → ∞ ; as x → -∞, f(x) → -∞",
+          "as x → ∞, f(x) → -∞ ; as x → -∞, f(x) → ∞",
+          "as x → ∞, f(x) → -∞ ; as x → -∞, f(x) → -∞",
+          "as x → ∞, f(x) → ∞ ; as x → -∞, f(x) → ∞"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can determine end behavior from degree (odd) and leading coefficient (negative).",
+        "misconceptions": [
+          "This describes positive leading coefficient with odd degree. Our leading coefficient is negative, so the ends are reversed.",
+          "✓ Correct. Odd degree with negative leading coefficient: left end up, right end down.",
+          "Both ends down would require even degree with negative leading coefficient. Here degree is odd.",
+          "Both ends up would require even degree with positive leading coefficient. Here degree is odd and leading coefficient is negative."
+        ],
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-end-behavior-degree-sign",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that as x → ∞, f(x) → -∞ and as x → -∞, f(x) → ∞ (odd degree, negative leading coefficient).",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student mixes up the sign or parity, e.g., thinks both ends go to negative infinity or one goes up and one goes down with wrong direction.",
+        "remediationModule": "err-end-behavior-degree-sign",
+        "retestItem": "err-end-behavior-degree-sign"
+      },
+      {
+        "id": "diag-mhf4u-u1-0714-q3",
+        "type": "choice",
+        "question": "When performing long division of (x^3 + 6x - 2) by (x + 1), what should be written as the dividend before starting?",
+        "options": [
+          "x^3 + 6x - 2",
+          "x^3 + 0x^2 + 6x - 2",
+          "x^3 + 0x^2 + 0x - 2",
+          "x^3 + 6x - 2 + 0x^2"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows to pad missing degree terms with zero coefficients in long division.",
+        "misconceptions": [
+          "Leaving out the x^2 term will cause incorrect alignment. You must include 0x^2 for the missing degree.",
+          "✓ Correct. The x^2 term is missing, so we insert 0x^2 to maintain proper place values.",
+          "The x term is present (6x), so you should not replace it with 0x. Only missing degrees need zero coefficients.",
+          "Order matters; the terms should be written in descending degree order: x^3 + 0x^2 + 6x - 2."
+        ],
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-missing-terms-division",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student recognizes that the missing x^2 term must be included as 0x^2.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Long division of polynomials is an algebraic technique used to solve polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student omits the missing x^2 term, leading to misalignment and incorrect quotient.",
+        "remediationModule": "err-missing-terms-division",
+        "retestItem": "err-missing-terms-division"
+      },
+      {
+        "id": "diag-mhf4u-u1-0714-q4",
+        "type": "choice",
+        "question": "Which of the following divisors can be used directly with synthetic division?",
+        "options": [
+          "x - 3",
+          "x^2 + 1",
+          "2x + 3",
+          "Both A and C"
+        ],
+        "correct": 3,
+        "diagnosis": "Check if student knows the necessary condition for synthetic division (linear divisor).",
+        "misconceptions": [
+          "x - 3 is a valid linear divisor, but there is also another correct option. Please select all that apply.",
+          "Synthetic division is not applicable to quadratic divisors. Use long division instead.",
+          "2x + 3 is a linear divisor of the form ax - k, which can be used after adjusting the synthetic division setup, but there is also another correct option.",
+          "✓ Correct. Both x - 3 and 2x + 3 are linear divisors suitable for synthetic division (with minor adjustment for ax - k)."
+        ],
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-synthetic-divisor-type",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student identifies that only linear divisors (x - k or ax - k) are valid for synthetic division.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Synthetic division is an algebraic method used in polynomial factorization and solving equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks synthetic division works for any divisor, even quadratic or higher degree.",
+        "remediationModule": "err-synthetic-divisor-type",
+        "retestItem": "err-synthetic-divisor-type"
+      },
+      {
+        "id": "diag-mhf4u-u1-0714-q5",
+        "type": "choice",
+        "question": "After using synthetic division to divide a polynomial of degree 4 by (x - 2), the quotient will have degree:",
+        "options": [
+          "4",
+          "3",
+          "2",
+          "5"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows that the quotient's degree is always one less than the dividend's degree when dividing by a linear polynomial.",
+        "misconceptions": [
+          "The quotient degree is one less than the dividend degree because the divisor is linear.",
+          "✓ Correct. Dividing a degree 4 polynomial by a linear divisor yields a degree 3 quotient.",
+          "The degree decreases by exactly 1, not 2.",
+          "Division reduces degree; the quotient cannot have a higher degree than the dividend."
+        ],
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-quotient-degree-misalignment",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student correctly states that quotient degree is one less than dividend degree (degree 3).",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding quotient degree is essential for correctly writing the result of synthetic division.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student thinks quotient has the same degree as dividend or miscalculates by more than 1.",
+        "remediationModule": "err-quotient-degree-misalignment",
+        "retestItem": "err-quotient-degree-misalignment"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1204 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-15",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/GkKydGtRuoHZtGxFof4cqwzEnlh?from=vc_group_doc_link#doxcngGxiFgv2HmP5kZRIxFyG5d",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-15 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/GkKydGtRuoHZtGxFof4cqwzEnlh?from=vc_group_doc_link#doxcngGxiFgv2HmP5kZRIxFyG5d",
+    "title": "OLC4O.S6.Keth 2026-07-15 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/olc4o-s6-keth-2026-07-15-gkkydgtr/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-15",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-15",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson is a Chinese review lecture teaching efficient reading strategies with pre/during/post reading actions, followed by homework assignment on Harvey's speech text.",
+    "academicContentSignals": [
+      "efficient reading core concepts",
+      "criteria for efficient readers",
+      "classification of inner voice during reading",
+      "pre-reading preparation actions",
+      "during-reading execution actions",
+      "post-reading reflection actions"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations such as homework details and submission requirements are present but secondary to the academic instruction. The exit card should primarily test the reading strategies taught, not the operational details.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "课后作业 - Harvey演讲文本分析",
+        "studentAction": "完成演讲文本分析作业，包括核心问题解答和观点识别任务",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "指定平台及OneNote",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "本次课后作业明确要求... 作业文本范围：围绕 Harvey 的演讲文本《 Keep faith with nature 》完成指定任务",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Exit ticket补做",
+        "studentAction": "未完成本次课Exit ticket的学生需课后继续完成",
+        "deadlineText": "课后",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students who did not finish exit ticket",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "随堂小测要求：未完成本次课 Exit ticket 的学生，需在下课之后继续完成该随堂小测",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "platform_link",
+        "title": "提交平台",
+        "studentAction": "上传作业至指定平台并归档至OneNote对应课程文件夹",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "指定平台和OneNote",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "完成后的作业需上传至指定平台，同步归档至 OneNote 对应课程文件夹",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "作业仅提供思路提示",
+        "studentAction": "注意作业仅提供解题思路提示，不会直接给出答案",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "解题边界说明：本次作业仅提供解题思路提示，不会直接给出标准答案",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "作业内容范围",
+        "studentAction": "完成除听说类模块外的所有任务项",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "除指定的听说类模块无需完成外，其余所有任务项均需按要求完成",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "指定平台",
+        "reason": "Platform name not specified; '指定平台' is vague."
+      },
+      {
+        "rawText": "课后 (for homework deadline)",
+        "reason": "Homework due date not explicitly given; only '课后' for exit ticket but homework deadline unclear."
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Reading Strategies、Text Structure Understanding、Vocabulary Strategies、Reading Processes）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Efficient reading prioritizes deep comprehension over speed.；Three types of inner voice during reading: distracting, reciting, and interactive (dialogue).；Pre-reading strategies: preview text (headings, genre), activate prior knowledge, set reading goals.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Apply pre-reading strategies to enhance comprehension before reading a text."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Use during-reading strategies such as monitoring comprehension, visualizing, and handling unknown words."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Distinguish between factual statements and opinions in a text and summarize main ideas."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "OLC4O-A-OE03",
+      "name": "Reading Strategies",
+      "nameEn": "Reading Strategies",
+      "definition": "A set of techniques used before, during, and after reading to enhance comprehension, including previewing, activating prior knowledge, setting goals, monitoring understanding, making connections, visualizing, handling unknown words, adjusting predictions, evaluating, summarizing, and transferring insights.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    },
+    {
+      "id": "OLC4O-A-OE02",
+      "name": "Text Structure Understanding",
+      "nameEn": "Text Structure Understanding",
+      "definition": "Knowledge of organizational structures and features of different text types, such as information paragraphs, opinion pieces, narratives, etc., and using genre to guide reading approach.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "OLC4O-A-OE04",
+      "name": "Vocabulary Strategies",
+      "nameEn": "Vocabulary Strategies",
+      "definition": "Techniques for understanding unfamiliar words, such as using context clues, word roots/affixes, and avoiding stopping to look up every unknown word.",
+      "officialExpectationCode": "A4",
+      "officialNodeId": "OLC4O-A-OE04",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use a variety of strategies to understand unfamiliar and specialized words and expressions in informational, narrative, and graphic texts."
+    },
+    {
+      "id": "OLC4O-C-OE03",
+      "name": "Reading Processes",
+      "nameEn": "Reading Processes",
+      "definition": "Understanding the reading process itself, including the role of reading in learning, and metacognitive awareness of one's own reading strategies.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "OLC4O-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the reading and writing processes and of the role of reading and writing in learning."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply pre-reading strategies to enhance comprehension before reading a text."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Use during-reading strategies such as monitoring comprehension, visualizing, and handling unknown words."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between factual statements and opinions in a text and summarize main ideas."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "condition": "5-6 correct",
+        "systemAction": "mark passed; unlock homework",
+        "studentMessage": "You have a solid understanding of reading strategies. Proceed to the homework."
+      },
+      {
+        "condition": "3-4 correct",
+        "systemAction": "assign reteach modules for missed errorIds, then retest",
+        "studentMessage": "You have some gaps. Complete the targeted mini-lessons for the questions you missed, then retake the diagnostic."
+      },
+      {
+        "condition": "0-2 correct",
+        "systemAction": "start full reteach path covering all errorIds",
+        "studentMessage": "Let's build your reading strategy toolkit from the ground up. Start with the first reteach module."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-s6-0715-q1",
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-reading-speed-over-comprehension",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that efficient reading prioritizes comprehension over speed.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly tests understanding of reading strategies from OE A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student conflates reading speed with efficiency.",
+        "commonMisconception": "Students think faster reading is always better.",
+        "remediationModule": "err-reading-speed-over-comprehension",
+        "retestItem": "err-reading-speed-over-comprehension",
+        "stem": "Which statement best describes efficient reading?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reading quickly to finish on time.",
+            "correct": false,
+            "feedbackWrong": "Efficient reading emphasizes comprehension, not speed."
+          },
+          {
+            "label": "B",
+            "text": "Reading deeply to understand the author's message.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Efficient reading prioritizes deep comprehension."
+          },
+          {
+            "label": "C",
+            "text": "Reading without stopping even when confused.",
+            "correct": false,
+            "feedbackWrong": "Pausing to clarify understanding is part of efficient reading."
+          },
+          {
+            "label": "D",
+            "text": "Reading only the headings and summaries.",
+            "correct": false,
+            "feedbackWrong": "While previewing helps, efficient reading involves full engagement with the text."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q2",
+        "nodeId": "OLC4O-C-OE03",
+        "errorId": "err-inner-voice-misclassification",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies interactive voice as the most helpful.",
+        "ossdExpectation": "Demonstrate understanding of the reading and writing processes and of the role of reading and writing in learning.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "OLC4O-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Inner voice classification relates to reading process metacognition in OE C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student can distinguish effective inner voice from ineffective ones.",
+        "commonMisconception": "Students may think reciting voice is sufficient for comprehension.",
+        "remediationModule": "err-inner-voice-misclassification",
+        "retestItem": "err-inner-voice-misclassification",
+        "stem": "During reading, which type of inner voice is most helpful for understanding?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The distracting voice that thinks about unrelated things.",
+            "correct": false,
+            "feedbackWrong": "Distracting voice reduces comprehension."
+          },
+          {
+            "label": "B",
+            "text": "The reciting voice that repeats words without thinking.",
+            "correct": false,
+            "feedbackWrong": "Reciting voice is passive; it doesn't engage with meaning."
+          },
+          {
+            "label": "C",
+            "text": "The interactive voice that asks questions and connects ideas.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The interactive voice promotes deeper comprehension."
+          },
+          {
+            "label": "D",
+            "text": "The critical voice that disagrees with everything.",
+            "correct": false,
+            "feedbackWrong": "While some critique is useful, constant disagreement can hinder understanding."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q3",
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-pre-reading-skip",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can identify a pre-reading strategy.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Pre-reading is a key reading strategy under OE A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student recognizes previewing as a pre-reading strategy.",
+        "commonMisconception": "Students may think reading strategies are only during reading.",
+        "remediationModule": "err-pre-reading-skip",
+        "retestItem": "err-pre-reading-skip",
+        "stem": "Which action is part of pre-reading?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Underlining key sentences while reading.",
+            "correct": false,
+            "feedbackWrong": "That is a during-reading strategy."
+          },
+          {
+            "label": "B",
+            "text": "Previewing headings and pictures to get an idea of the topic.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Previewing is a key pre-reading strategy."
+          },
+          {
+            "label": "C",
+            "text": "Summarizing the main idea after finishing.",
+            "correct": false,
+            "feedbackWrong": "That is post-reading."
+          },
+          {
+            "label": "D",
+            "text": "Looking up all unknown words in a dictionary.",
+            "correct": false,
+            "feedbackWrong": "This happens during reading, but is not a pre-reading step."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q4",
+        "nodeId": "OLC4O-A-OE04",
+        "errorId": "err-vocabulary-stopping",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects using context clues as the best strategy.",
+        "ossdExpectation": "Use a variety of strategies to understand unfamiliar and specialized words and expressions in informational, narrative, and graphic texts.",
+        "officialExpectationCode": "A4",
+        "officialNodeId": "OLC4O-A-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly tests vocabulary strategy from OE A4.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can choose a strategy for handling unknown words.",
+        "commonMisconception": "Students think they must know every word immediately.",
+        "remediationModule": "err-vocabulary-stopping",
+        "retestItem": "err-vocabulary-stopping",
+        "stem": "While reading a text, you encounter an unfamiliar word. What should you do to maintain efficient reading?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Stop immediately and look it up in the dictionary.",
+            "correct": false,
+            "feedbackWrong": "Constantly stopping disrupts flow and comprehension."
+          },
+          {
+            "label": "B",
+            "text": "Ignore it completely and hope it doesn't matter.",
+            "correct": false,
+            "feedbackWrong": "Ignoring can cause misunderstanding."
+          },
+          {
+            "label": "C",
+            "text": "Use context clues to guess the meaning and continue reading.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Using context clues maintains reading flow and often works well."
+          },
+          {
+            "label": "D",
+            "text": "Highlight it and ask a friend later, but stop reading at that point.",
+            "correct": false,
+            "feedbackWrong": "Highlighting is fine, but stopping is not efficient."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q5",
+        "nodeId": "OLC4O-A-OE02",
+        "errorId": "err-fact-opinion-confusion",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies an opinion statement.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Distinguishing fact from opinion is a key feature of opinion pieces under OE A2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check ability to distinguish fact from opinion in a text.",
+        "commonMisconception": "Students may think all statements in a speech are factual.",
+        "remediationModule": "err-fact-opinion-confusion",
+        "retestItem": "err-fact-opinion-confusion",
+        "stem": "Which of the following statements from Harvey's speech is an opinion?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Scotty Lodge is located in Algonquin Park.",
+            "correct": false,
+            "feedbackWrong": "This is a factual statement about location."
+          },
+          {
+            "label": "B",
+            "text": "John Morris wrote a letter to the park authorities.",
+            "correct": false,
+            "feedbackWrong": "This is a verifiable fact."
+          },
+          {
+            "label": "C",
+            "text": "We must keep faith with nature to preserve our future.",
+            "correct": true,
+            "feedbackCorrect": "Correct. This expresses a belief or value, not a verifiable fact."
+          },
+          {
+            "label": "D",
+            "text": "The trip to Scotty Lodge took three days.",
+            "correct": false,
+            "feedbackWrong": "This is a factual detail."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q6",
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-summary-vs-detail",
+        "type": "single_choice",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects the sentence that captures the central argument.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Summarizing main idea is a key comprehension strategy under OE A3.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check if student can differentiate main idea from supporting details.",
+        "commonMisconception": "Students often recall specific details rather than synthesizing the main message.",
+        "remediationModule": "err-summary-vs-detail",
+        "retestItem": "err-summary-vs-detail",
+        "stem": "After reading Harvey's speech, which sentence best summarizes the main idea?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Harvey mentioned that John Morris wrote a letter.",
+            "correct": false,
+            "feedbackWrong": "This is a minor detail, not the main idea."
+          },
+          {
+            "label": "B",
+            "text": "Harvey argues that humans have a responsibility to protect nature for future generations.",
+            "correct": true,
+            "feedbackCorrect": "Correct. This captures the central argument of the speech."
+          },
+          {
+            "label": "C",
+            "text": "The trip to Scotty Lodge was long and tiring.",
+            "correct": false,
+            "feedbackWrong": "This is a specific detail, not the main message."
+          },
+          {
+            "label": "D",
+            "text": "The speech was given at a conference in 2023.",
+            "correct": false,
+            "feedbackWrong": "This is a factual detail, not the main idea."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "condition": "5-6 correct",
+      "systemAction": "mark passed; unlock homework",
+      "studentMessage": "You have a solid understanding of reading strategies. Proceed to the homework."
+    },
+    {
+      "condition": "3-4 correct",
+      "systemAction": "assign reteach modules for missed errorIds, then retest",
+      "studentMessage": "You have some gaps. Complete the targeted mini-lessons for the questions you missed, then retake the diagnostic."
+    },
+    {
+      "condition": "0-2 correct",
+      "systemAction": "start full reteach path covering all errorIds",
+      "studentMessage": "Let's build your reading strategy toolkit from the ground up. Start with the first reteach module."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-reading-speed-over-comprehension",
+      "trigger": "When a student reads a text quickly but cannot answer basic comprehension questions afterward.",
+      "studentMisunderstanding": "Student believes that efficient reading means finishing fast, ignoring that true efficiency requires deep comprehension.",
+      "miniLesson": {
+        "explain": "Efficient reading prioritizes deep comprehension over speed. Reading quickly without understanding is like running through a museum without looking at exhibits. True efficiency involves using pre-, during-, and post-reading strategies to grasp main ideas and details.",
+        "example": "Consider Harvey's speech 'Keep faith with nature'. Skimming in 2 minutes may reveal it's about nature, but you miss key points like the Scotty Lodge trip. An efficient reader spends time noting these details, ensuring they can answer questions accurately.",
+        "memoryAnchor": "Think of reading like eating a meal. Speed eating fills your stomach but doesn't provide enjoyment or nutrition. Savoring each paragraph leads to better comprehension. Efficient reading is about savoring the text, not rushing."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What does efficient reading prioritize? A) Speed B) Deep comprehension C) Finishing first D) Skipping difficult parts",
+          "answer": "B) Deep comprehension"
+        },
+        {
+          "level": "L2",
+          "prompt": "You have 10 minutes to read a short story for a quiz. You finish in 3 minutes. What should you do next to read efficiently?",
+          "answer": "Use the remaining time to re-read, annotate, or summarize to improve comprehension."
+        },
+        {
+          "level": "L3",
+          "prompt": "Your friend says, 'I'm an efficient reader because I can finish a chapter in 5 minutes.' Is this statement accurate? Why or why not?",
+          "answer": "Not accurate unless they also demonstrate good comprehension. Efficient reading balances speed with understanding; finishing quickly alone does not define efficiency."
+        }
+      ]
+    },
+    {
+      "errorId": "err-inner-voice-misclassification",
+      "trigger": "You answered the diagnostic question about inner voice incorrectly.",
+      "studentMisunderstanding": "You may think that any inner voice while reading is helpful, but only the interactive voice that asks questions and connects ideas truly deepens understanding. The reciting voice just repeats words without engaging meaning, and the distracting voice pulls you away from the text.",
+      "miniLesson": {
+        "explain": "Your inner voice can be one of three types during reading: distracting (thinking about unrelated things), reciting (passively repeating words), or interactive (asking questions, making connections, and evaluating). Only the interactive voice leads to deep comprehension. Efficient readers consciously switch to the interactive voice.",
+        "example": "When reading 'Harvey argues that we must keep faith with nature,' a reciting voice would just repeat the phrase, while an interactive voice would ask: 'Why does Harvey believe this? What evidence does he provide from the Scotty Lodge trip?'",
+        "memoryAnchor": "Remember the three voices as 'DRi': Distracting (ignore it), Reciting (not enough), interactive (the only one that works). Think of a DRILL that drills down to understanding—only the interactive voice drills deep."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Name the three types of inner voice during reading and identify which one is most helpful for comprehension.",
+          "answer": "The three types are distracting, reciting, and interactive. The interactive voice is most helpful."
+        },
+        {
+          "level": "L2",
+          "prompt": "While reading Harvey's speech, a student thinks: 'This reminds me of a documentary I saw about deforestation.' Which inner voice is this? Explain why it is effective.",
+          "answer": "This is the interactive voice because the student is connecting the text to personal experience, which deepens comprehension."
+        },
+        {
+          "level": "L3",
+          "prompt": "Reread the sentence: 'We must keep faith with nature to preserve our future.' Write an example of what an interactive inner voice would say in response.",
+          "answer": "Possible response: 'What does 'keep faith with nature' mean practically? How does preserving nature now affect future generations? Does the author provide evidence from the Scotty Lodge trip or John Morris's letter to support this claim?'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-pre-reading-skip",
+      "trigger": "Student incorrectly identified actions that are part of pre-reading, indicating they skip or undervalue pre-reading steps.",
+      "studentMisunderstanding": "Students believe reading strategies are only used during reading, and pre-reading activities like previewing or activating prior knowledge are unnecessary or a waste of time.",
+      "miniLesson": {
+        "explain": "Pre-reading is the set of actions you take before you start reading a text. It prepares your brain to understand and remember key information. Three essential pre-reading strategies are: 1) Preview the text by looking at headings, subheadings, pictures, and the genre to get a sense of what the text is about. 2) Activate prior knowledge by asking yourself what you already know about the topic. 3) Set reading goals by deciding what you want to learn from the text. Skipping these steps often leads to confusion and poor comprehension because you dive into the text without a mental roadmap.",
+        "example": "Before reading Harvey's speech 'Keep faith with nature', you could preview: look at the title, notice it mentions 'faith' and 'nature', guess it might be about environmental stewardship. Then activate prior knowledge: recall any news about environmental protection. Finally, set a goal: 'I want to understand why the speaker believes we must keep faith with nature.' This small investment saves time later by guiding your focus during reading.",
+        "memoryAnchor": "Think of pre-reading as 'warming up' before a race. Just as athletes stretch to perform better, pre-reading stretches your mind to help you read more effectively."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of these is a pre-reading strategy? A) Underlining key sentences B) Previewing headings C) Writing a summary D) Looking up every word",
+          "answer": "B) Previewing headings"
+        },
+        {
+          "level": "L2",
+          "prompt": "Imagine you are about to read Harvey's speech. You first look at the title and any subheadings, then ask yourself what you already know about nature conservation, and finally decide to focus on finding the reason for the speech. Which pre-reading step are you doing when you ask what you already know?",
+          "answer": "Activating prior knowledge"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why skipping pre-reading might cause a reader to misunderstand the main idea of Harvey's speech, using at least one specific pre-reading strategy in your explanation.",
+          "answer": "If a reader skips previewing, they might not notice the speech's focus on 'faith' and may miss the emotional appeal. Without activating prior knowledge, they might not connect to the environmental topic, making the argument less meaningful. Setting goals helps them track the main idea; without it, they could get lost in details like the Scotty Lodge trip and forget the central message of responsibility."
+        }
+      ]
+    },
+    {
+      "errorId": "err-vocabulary-stopping",
+      "trigger": "When you meet an unfamiliar word while reading, do you immediately stop to look it up?",
+      "studentMisunderstanding": "Stopping to look up every unknown word is necessary for understanding the text.",
+      "miniLesson": {
+        "explain": "Efficient reading does not require knowing every word. Instead, use context clues—the surrounding words and sentences—to guess the meaning. This keeps your reading flow and often gives you enough understanding to continue. If the word is critical, mark it and come back later, but don't let it stop your reading.",
+        "example": "In Harvey's speech, he says, 'The pristine waters of Scotty Lodge were a reminder of nature's beauty.' You may not know 'pristine,' but from 'waters' and 'beauty,' you can guess it means clean or pure. You don't need to stop for a dictionary.",
+        "memoryAnchor": "Don't stop, keep the flow; context is your friend."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the best strategy when you encounter an unfamiliar word while reading?",
+          "answer": "Use context clues to guess the meaning and continue reading."
+        },
+        {
+          "level": "L2",
+          "prompt": "Read this sentence: 'The hikers found the terrain arduous, with steep slopes and rocky paths.' What does 'arduous' likely mean?",
+          "answer": "Difficult or challenging."
+        },
+        {
+          "level": "L3",
+          "prompt": "After reading a paragraph with the word 'ambiguous', you have two options: look it up immediately or guess from context. Which is more efficient and why?",
+          "answer": "Guessing from context is more efficient because it maintains reading flow, and if the guess is wrong, you can adjust later without interrupting comprehension."
+        }
+      ]
+    },
+    {
+      "errorId": "err-fact-opinion-confusion",
+      "trigger": "When a student misidentifies an opinion as a fact in a text, indicating confusion between verifiable information and subjective beliefs.",
+      "studentMisunderstanding": "Students often think that all statements in a persuasive text are factual, or they confuse subjective language with objective facts, especially when the text expresses strong emotions.",
+      "miniLesson": {
+        "explain": "A fact is a statement that can be proven true or false through evidence, observation, or reliable sources. An opinion expresses a personal belief, feeling, or judgment that cannot be objectively verified. When reading, it's important to separate facts from opinions to evaluate the author's argument critically.",
+        "example": "From Harvey's speech: 'Scotty Lodge is located in Algonquin Park' is a fact (verifiable location). 'We must keep faith with nature to preserve our future' is an opinion (a belief about what we should do).",
+        "memoryAnchor": "Remember: Facts can be checked; opinions are someone's perspective."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Read the statement: 'Scotty Lodge is located in Algonquin Park.' Is this a fact or an opinion?",
+          "answer": "Fact"
+        },
+        {
+          "level": "L2",
+          "prompt": "Read the statement: 'The trip to Scotty Lodge took three days.' Is this a fact or an opinion?",
+          "answer": "Fact"
+        },
+        {
+          "level": "L3",
+          "prompt": "Now consider these two statements from Harvey's speech: (1) 'John Morris wrote a letter to the park authorities.' (2) 'We must keep faith with nature to preserve our future.' Which one is an opinion?",
+          "answer": "Statement (2) is an opinion."
+        }
+      ]
+    },
+    {
+      "errorId": "err-summary-vs-detail",
+      "trigger": "Student chooses a minor detail instead of the main idea when summarizing a text.",
+      "studentMisunderstanding": "Students often recall specific details rather than synthesizing the central argument. They may think listing factual details constitutes a summary.",
+      "miniLesson": {
+        "explain": "Summarizing means capturing the main idea or central argument of a text, not just listing every detail. A good summary is a brief statement that conveys the author's primary message. Details are used to support that message, but they are not the summary itself.",
+        "example": "In Harvey's speech 'Keep faith with nature,' the main idea is that humans have a responsibility to protect nature for future generations. A minor detail, such as 'the trip to Scotty Lodge took three days,' is not a summary of the speech—it's just one fact.",
+        "memoryAnchor": "Think of a summary as a headline in a newspaper: it tells you the big story, not the small details."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which sentence is the best summary of the following text? 'Harvey gave a speech about the importance of preserving wilderness areas. He mentioned the Scotty Lodge trip and John Morris's letter. He argued that we must keep faith with nature.'\nA. Harvey mentioned John Morris's letter.\nB. Harvey argued that we must keep faith with nature.\nC. The Scotty Lodge trip took three days.",
+          "answer": "B. Harvey argued that we must keep faith with nature."
+        },
+        {
+          "level": "L2",
+          "prompt": "Read this paragraph and write a one-sentence summary: 'In his speech, Harvey describes the wild beauty of Algonquin Park and the fragile ecosystem that depends on it. He shares the story of John Morris's letter, which started a movement to protect the park. Harvey urges his audience to take action to preserve these natural spaces for future generations.'",
+          "answer": "Harvey urges his audience to protect Algonquin Park's ecosystem for future generations."
+        },
+        {
+          "level": "L3",
+          "prompt": "After reading Harvey's speech, identify which of the following is the topic sentence and which is a supporting detail. Then write a one-sentence summary.\n- 'John Morris's letter inspired the community to protect Scotty Lodge.'\n- 'We must keep faith with nature to ensure our children inherit a healthy planet.'\n- 'The trip to Scotty Lodge required careful planning and supplies.'",
+          "answer": "Topic sentence: 'We must keep faith with nature to ensure our children inherit a healthy planet.' Supporting details: the other two sentences. Summary: Harvey argues for environmental stewardship to preserve nature for future generations."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-reading-speed-over-comprehension",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "A classmate claims they are an efficient reader because they can finish a 500-word article in 2 minutes. Which of the following is the most important missing component of efficient reading?",
+          "options": [
+            "The ability to summarize the article",
+            "The ability to read faster",
+            "The ability to ignore difficult words",
+            "The ability to finish before others"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "You are assigned a textbook chapter to prepare for a discussion. You have 20 minutes. Describe a specific strategy you would use to ensure you are reading efficiently (balancing speed and comprehension).",
+          "rubric": "Student must name a specific pre-, during-, or post-reading strategy (e.g., preview headings, set a goal, monitor understanding, summarize after each section) and explain how it supports comprehension without sacrificing speed. Full credit for a clear, applicable strategy with a brief justification."
+        }
+      ],
+      "passRule": "Answer Question 1 correctly (select option 0) AND provide a reasonable reading strategy in Question 2 (1-2 sentences showing understanding that comprehension is key)."
+    },
+    {
+      "forErrorId": "err-inner-voice-misclassification",
+      "questions": [
+        {
+          "id": "retest-inner-voice-1",
+          "type": "single_choice",
+          "stem": "While reading a passage, you think: 'This author’s argument is interesting, but I wonder if there’s counterevidence.' Which type of inner voice is this?",
+          "options": [
+            "Distracting",
+            "Reciting",
+            "Interactive",
+            "None of the above"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-inner-voice-2",
+          "type": "open_ended",
+          "stem": "Read this sentence from Harvey’s speech: 'We must keep faith with nature to preserve our future.' Write one example of what your interactive inner voice would say (ask a question, make a connection, or evaluate).",
+          "rubric": "Response should be a question, a personal connection, or an evaluative comment that engages with the text. It should not be a simple repetition or off-topic."
+        }
+      ],
+      "passRule": "Must answer single_choice correctly (index 2) and provide a valid interactive inner voice response for the open-ended question (as per rubric)."
+    },
+    {
+      "forErrorId": "err-pre-reading-skip",
+      "questions": [
+        {
+          "id": "pre-reading-skip-q1",
+          "type": "single_choice",
+          "stem": "Which of the following is an example of a pre-reading strategy?",
+          "options": [
+            "Underlining key sentences",
+            "Previewing the title and headings",
+            "Writing a summary after reading",
+            "Looking up every unknown word"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "pre-reading-skip-q2",
+          "type": "open_ended",
+          "stem": "Why is it important to use pre-reading strategies before starting to read a text? Explain using at least one specific strategy.",
+          "rubric": "Student mentions at least one pre-reading strategy (preview, activate prior knowledge, set goals) and explains how it helps comprehension (e.g., provides a mental roadmap, focuses reading, connects to prior knowledge)."
+        }
+      ],
+      "passRule": "Answer Q1 correctly (select B) and provide a reasonable explanation in Q2 that names a specific pre-reading strategy and describes its benefit for comprehension."
+    },
+    {
+      "forErrorId": "err-vocabulary-stopping",
+      "questions": [
+        {
+          "id": "retest-err-vocabulary-stopping-q1",
+          "type": "single_choice",
+          "stem": "While reading a science article, you encounter the word 'photosynthesis'. You don't know its meaning. What should you do?",
+          "options": [
+            "Stop reading and look it up immediately.",
+            "Skip the word entirely and ignore it.",
+            "Use context clues from the surrounding sentences to guess its meaning and continue reading.",
+            "Ask a friend."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-err-vocabulary-stopping-q2",
+          "type": "open_ended",
+          "stem": "Read the following sentence from a story: 'The old house had a musty smell, like damp wood and forgotten memories.' Based on context, what is the most likely meaning of 'musty'? Explain your reasoning.",
+          "rubric": "Student correctly identifies 'musty' as meaning stale, damp, or moldy. They should mention using context clues such as 'old house', 'damp wood', and 'forgotten memories' to infer the meaning."
+        }
+      ],
+      "passRule": "Both questions correct."
+    },
+    {
+      "forErrorId": "err-fact-opinion-confusion",
+      "questions": [
+        {
+          "id": "fact-opinion-q1",
+          "type": "single_choice",
+          "stem": "Which of the following statements from Harvey's speech is a fact?",
+          "options": [
+            "The Scotty Lodge trip was life-changing.",
+            "John Morris wrote a letter to the park authorities.",
+            "We must keep faith with nature to preserve our future.",
+            "The speech was inspiring."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "fact-opinion-q2",
+          "type": "open_ended",
+          "stem": "Read the statement: 'We must keep faith with nature to preserve our future.' Explain why this statement is an opinion, not a fact.",
+          "rubric": "The student should recognize that it expresses a belief or value judgment, cannot be proven true/false, and uses a modal verb like 'must' indicating obligation."
+        }
+      ],
+      "passRule": "Student must answer both questions correctly: select the second option (B) for Q1 and provide a valid explanation for Q2."
+    },
+    {
+      "forErrorId": "err-summary-vs-detail",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is the best summary of Harvey's main argument in his speech?",
+          "options": [
+            "The Scotty Lodge trip required careful planning.",
+            "Humans have a duty to protect nature for future generations.",
+            "John Morris wrote a letter about Algonquin Park."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Read the following excerpt from Harvey's speech and write a one-sentence summary that captures the main idea: 'The forests and rivers of this land are not just resources to be used; they are our heritage. We must pass them on to our children, not as empty, destroyed places, but as living, thriving ecosystems. Every action we take today echoes into tomorrow.'",
+          "rubric": "The summary should express the central idea of preserving nature for future generations. Accept any sentence that captures this main idea, not specific details like 'forests and rivers are resources' or 'every action echoes.'"
+        }
+      ],
+      "passRule": "Student must answer Question 1 correctly and provide a summary in Question 2 that focuses on the main idea rather than minor details."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-15",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/GkKydGtRuoHZtGxFof4cqwzEnlh?from=vc_group_doc_link#doxcngGxiFgv2HmP5kZRIxFyG5d",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-15 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Efficient reading prioritizes deep comprehension over speed.；Three types of inner voice during reading: distracting, reciting, and interactive (dialogue).；Pre-reading strategies: preview text (headings, genre), activate prior knowledge, set reading goals.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply pre-reading strategies to enhance comprehension before reading a text."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Use during-reading strategies such as monitoring comprehension, visualizing, and handling unknown words."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between factual statements and opinions in a text and summarize main ideas."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "课后作业 - Harvey演讲文本分析",
+        "studentAction": "完成演讲文本分析作业，包括核心问题解答和观点识别任务",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "指定平台及OneNote",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "本次课后作业明确要求... 作业文本范围：围绕 Harvey 的演讲文本《 Keep faith with nature 》完成指定任务",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Exit ticket补做",
+        "studentAction": "未完成本次课Exit ticket的学生需课后继续完成",
+        "deadlineText": "课后",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students who did not finish exit ticket",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "随堂小测要求：未完成本次课 Exit ticket 的学生，需在下课之后继续完成该随堂小测",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "platform_link",
+        "title": "提交平台",
+        "studentAction": "上传作业至指定平台并归档至OneNote对应课程文件夹",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "指定平台和OneNote",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "完成后的作业需上传至指定平台，同步归档至 OneNote 对应课程文件夹",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "作业仅提供思路提示",
+        "studentAction": "注意作业仅提供解题思路提示，不会直接给出答案",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "解题边界说明：本次作业仅提供解题思路提示，不会直接给出标准答案",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "作业内容范围",
+        "studentAction": "完成除听说类模块外的所有任务项",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "除指定的听说类模块无需完成外，其余所有任务项均需按要求完成",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "指定平台",
+        "reason": "Platform name not specified; '指定平台' is vague."
+      },
+      {
+        "rawText": "课后 (for homework deadline)",
+        "reason": "Homework due date not explicitly given; only '课后' for exit ticket but homework deadline unclear."
+      }
+    ],
+    "watchTags": [
+      "OLC4O-A-OE03",
+      "OLC4O-A-OE02",
+      "OLC4O-A-OE04",
+      "OLC4O-C-OE03"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "condition": "5-6 correct",
+        "systemAction": "mark passed; unlock homework"
+      },
+      {
+        "condition": "3-4 correct",
+        "systemAction": "assign reteach modules for missed errorIds, then retest"
+      },
+      {
+        "condition": "0-2 correct",
+        "systemAction": "start full reteach path covering all errorIds"
+      }
+    ],
+    "nextActions": [
+      "5-6 correct: You have a solid understanding of reading strategies. Proceed to the homework.",
+      "3-4 correct: You have some gaps. Complete the targeted mini-lessons for the questions you missed, then retake the diagnostic.",
+      "0-2 correct: Let's build your reading strategy toolkit from the ground up. Start with the first reteach module."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-s6-0715-q1",
+        "type": "choice",
+        "question": "Which statement best describes efficient reading?",
+        "options": [
+          "Reading quickly to finish on time.",
+          "Reading deeply to understand the author's message.",
+          "Reading without stopping even when confused.",
+          "Reading only the headings and summaries."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student conflates reading speed with efficiency.",
+        "misconceptions": [
+          "Efficient reading emphasizes comprehension, not speed.",
+          "✓ Correct. Efficient reading prioritizes deep comprehension.",
+          "Pausing to clarify understanding is part of efficient reading.",
+          "While previewing helps, efficient reading involves full engagement with the text."
+        ],
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-reading-speed-over-comprehension",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that efficient reading prioritizes comprehension over speed.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly tests understanding of reading strategies from OE A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Students think faster reading is always better.",
+        "remediationModule": "err-reading-speed-over-comprehension",
+        "retestItem": "err-reading-speed-over-comprehension"
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q2",
+        "type": "choice",
+        "question": "During reading, which type of inner voice is most helpful for understanding?",
+        "options": [
+          "The distracting voice that thinks about unrelated things.",
+          "The reciting voice that repeats words without thinking.",
+          "The interactive voice that asks questions and connects ideas.",
+          "The critical voice that disagrees with everything."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student can distinguish effective inner voice from ineffective ones.",
+        "misconceptions": [
+          "Distracting voice reduces comprehension.",
+          "Reciting voice is passive; it doesn't engage with meaning.",
+          "✓ Correct. The interactive voice promotes deeper comprehension.",
+          "While some critique is useful, constant disagreement can hinder understanding."
+        ],
+        "nodeId": "OLC4O-C-OE03",
+        "errorId": "err-inner-voice-misclassification",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies interactive voice as the most helpful.",
+        "ossdExpectation": "Demonstrate understanding of the reading and writing processes and of the role of reading and writing in learning.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "OLC4O-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Inner voice classification relates to reading process metacognition in OE C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Students may think reciting voice is sufficient for comprehension.",
+        "remediationModule": "err-inner-voice-misclassification",
+        "retestItem": "err-inner-voice-misclassification"
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q3",
+        "type": "choice",
+        "question": "Which action is part of pre-reading?",
+        "options": [
+          "Underlining key sentences while reading.",
+          "Previewing headings and pictures to get an idea of the topic.",
+          "Summarizing the main idea after finishing.",
+          "Looking up all unknown words in a dictionary."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student recognizes previewing as a pre-reading strategy.",
+        "misconceptions": [
+          "That is a during-reading strategy.",
+          "✓ Correct. Previewing is a key pre-reading strategy.",
+          "That is post-reading.",
+          "This happens during reading, but is not a pre-reading step."
+        ],
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-pre-reading-skip",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can identify a pre-reading strategy.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Pre-reading is a key reading strategy under OE A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Students may think reading strategies are only during reading.",
+        "remediationModule": "err-pre-reading-skip",
+        "retestItem": "err-pre-reading-skip"
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q4",
+        "type": "choice",
+        "question": "While reading a text, you encounter an unfamiliar word. What should you do to maintain efficient reading?",
+        "options": [
+          "Stop immediately and look it up in the dictionary.",
+          "Ignore it completely and hope it doesn't matter.",
+          "Use context clues to guess the meaning and continue reading.",
+          "Highlight it and ask a friend later, but stop reading at that point."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student can choose a strategy for handling unknown words.",
+        "misconceptions": [
+          "Constantly stopping disrupts flow and comprehension.",
+          "Ignoring can cause misunderstanding.",
+          "✓ Correct. Using context clues maintains reading flow and often works well.",
+          "Highlighting is fine, but stopping is not efficient."
+        ],
+        "nodeId": "OLC4O-A-OE04",
+        "errorId": "err-vocabulary-stopping",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects using context clues as the best strategy.",
+        "ossdExpectation": "Use a variety of strategies to understand unfamiliar and specialized words and expressions in informational, narrative, and graphic texts.",
+        "officialExpectationCode": "A4",
+        "officialNodeId": "OLC4O-A-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly tests vocabulary strategy from OE A4.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students think they must know every word immediately.",
+        "remediationModule": "err-vocabulary-stopping",
+        "retestItem": "err-vocabulary-stopping"
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q5",
+        "type": "choice",
+        "question": "Which of the following statements from Harvey's speech is an opinion?",
+        "options": [
+          "Scotty Lodge is located in Algonquin Park.",
+          "John Morris wrote a letter to the park authorities.",
+          "We must keep faith with nature to preserve our future.",
+          "The trip to Scotty Lodge took three days."
+        ],
+        "correct": 2,
+        "diagnosis": "Check ability to distinguish fact from opinion in a text.",
+        "misconceptions": [
+          "This is a factual statement about location.",
+          "This is a verifiable fact.",
+          "✓ Correct. This expresses a belief or value, not a verifiable fact.",
+          "This is a factual detail."
+        ],
+        "nodeId": "OLC4O-A-OE02",
+        "errorId": "err-fact-opinion-confusion",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies an opinion statement.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Distinguishing fact from opinion is a key feature of opinion pieces under OE A2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students may think all statements in a speech are factual.",
+        "remediationModule": "err-fact-opinion-confusion",
+        "retestItem": "err-fact-opinion-confusion"
+      },
+      {
+        "id": "diag-olc4o-s6-0715-q6",
+        "type": "choice",
+        "question": "After reading Harvey's speech, which sentence best summarizes the main idea?",
+        "options": [
+          "Harvey mentioned that John Morris wrote a letter.",
+          "Harvey argues that humans have a responsibility to protect nature for future generations.",
+          "The trip to Scotty Lodge was long and tiring.",
+          "The speech was given at a conference in 2023."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can differentiate main idea from supporting details.",
+        "misconceptions": [
+          "This is a minor detail, not the main idea.",
+          "✓ Correct. This captures the central argument of the speech.",
+          "This is a specific detail, not the main message.",
+          "This is a factual detail, not the main idea."
+        ],
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-summary-vs-detail",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects the sentence that captures the central argument.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Summarizing main idea is a key comprehension strategy under OE A3.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Students often recall specific details rather than synthesizing the main message.",
+        "remediationModule": "err-summary-vs-detail",
+        "retestItem": "err-summary-vs-detail"
+      }
+    ]
+  }
+}

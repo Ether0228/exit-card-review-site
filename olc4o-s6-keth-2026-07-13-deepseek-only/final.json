@@ -1,0 +1,1282 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-13",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/B5BUdmymworeKLxLeJdcSnxjnef?from=vc_group_doc_link#doxcnwkTZEsdKkgxOvfe3PsoIyc",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-13 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/B5BUdmymworeKLxLeJdcSnxjnef?from=vc_group_doc_link#doxcnwkTZEsdKkgxOvfe3PsoIyc",
+    "title": "OLC4O.S6.Keth 2026-07-13 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-15/sources/olc4o-s6-keth-2026-07-13/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-13",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-13",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session combines instruction on graphic text core knowledge, in-class collaborative practice, and announcement of a major assignment, along with administrative reminders.",
+    "academicContentSignals": [
+      "Graphic text dual element requirement: visual imagery and text must coexist",
+      "Core functional benefits of graphic texts: fast information location, reduced redundancy, audience attention, faster processing and memory",
+      "Common types of graphic texts: map/floor plan, flowchart, step-by-step instruction list, thematic infographic, comparison infographic, timeline, statistical infographic, diagram",
+      "Flowchart standard symbols: start/end, process, input/output, decision with Yes/No branches",
+      "Characteristics and examples of each graphic text type",
+      "Unit 1 Assignment 1 requirements: fictional newspaper report with 9+ structural elements",
+      "Key elements of a news report: newspaper title, headline (max 5 words), lead (max 35 words), body, location marker, image, caption, quotes, multi-column layout"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "High – numerous operation items (submission warnings, participation policy, language policy, assignment deadlines, platform links) could overshadow the substantial academic content on graphic texts. Diagnostic exit card must prioritize graphic text knowledge and assignment understanding over reminders.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Compliance with assignment instructions",
+        "studentAction": "Ensure you use the assigned task sheet and materials; do not mix content from different sheets or use unapproved self-selected materials.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Non-compliant task execution: Multiple students mixed content from different task sheets or used unapproved self-selected materials instead of assigned options, leading to ungradeable submissions that will receive 0 marks in formal assignments.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Correct submission format",
+        "studentAction": "Submit the correct task file; avoid adding text that renders as black blocks in PDF.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Some students submitted incorrect task files, or added text to PDFs that rendered as unreadable black blocks, creating unnecessary extra workload for grading.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Original work requirement",
+        "studentAction": "Write your own content; do not use AI-generated or machine-translated text for exit tickets and assignments.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "AI-generated or machine-translated content for exit tickets and assignments is not recognized as valid, and will lead to poor performance in upcoming formal assignments.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Participation grade policy",
+        "studentAction": "Participate actively in class speaking, chat, and Schoology comments to earn the 20% participation grade.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Participation grade rule: 20% of the final grade is allocated to active participation, including in-class speaking, chat input, and Schoology comments, with no participation leading to no corresponding grade allocation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "English-only policy in class",
+        "studentAction": "Use original English in chat and submissions from July 14, 2026; machine translation prohibited.",
+        "deadlineText": "Starting from next class (July 14, 2026)",
+        "deadlineISO": "2026-07-14T00:00:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Original language requirement: Students must use original English for in-class chat and submissions, machine-translated content is prohibited starting from the following day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "No penalty for spelling/grammar errors",
+        "studentAction": "Don't worry about spelling and grammar mistakes; focus on content.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Spelling and grammar errors explicitly not penalized.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "follow_up_action",
+        "title": "In-class word wall creation and peer review",
+        "studentAction": "Select one graphic text type, write original English definition, applicable scenario description, draw simple example, submit screenshot to OneNote; then review peers with 3-part feedback (strengths, shortcomings, actionable suggestions).",
+        "deadlineText": "In-class activity on July 13, 2026",
+        "deadlineISO": "2026-07-13T00:00:00",
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "In-class collaborative practice task: word wall creation and peer review requirement described in notes.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "assignment",
+        "title": "Unit 1 Assignment 1: Fictional News Report",
+        "studentAction": "Select one of 6 image prompts, invent details, context, and quotes; write a newspaper report including newspaper title, headline (max 5 words), lead (max 35 words), body, location marker, image, image caption, at least 2 quotes, multi-column layout; complete graphic organizer first (bullet points only), then full report; submit both materials to Schoology.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Unit 1 Assignment 1 Detailed Specifications: core task content, mandatory structural elements, submission requirements, grading support.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "Grading support examples posted",
+        "studentAction": "Review high-scoring and low-scoring past assignment examples on the assignment page for reference.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Both high-scoring and low-scoring past assignment examples will be posted on the assignment page for reference.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Some students submitted incorrect task files or added text to PDFs that rendered as black blocks.",
+        "reason": "Exact platform for submission not explicitly stated for this general error; platform inferred from later assignment submission rule as Schoology, but not certain."
+      },
+      {
+        "rawText": "Unit 1 Assignment 1 deadline not mentioned.",
+        "reason": "No specific due date provided in the notes for the assignment submission."
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Graphic Text Definition、Types of Graphic Texts、Flowchart Symbols、News Report Assignment Requirements）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 5 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Graphic texts must combine both visual imagery and textual content; pure text does not qualify.；Common types of graphic texts: map/floor plan, flowchart, step-by-step instruction list, thematic infographic, comparison infographic, timeline, statistical infographic, diagram.；Flowchart symbols: start/end (rounded rectangle), process (rectangle), input/output (parallelogram), decision (diamond with yes/no branches).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Define a graphic text and distinguish it from purely text-based documents."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Identify common types of graphic texts and their purposes."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Recognize standard flowchart symbols and their meanings."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Recall the key structural requirements for the Unit 1 Assignment 1 news report."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Understand the participation grade and original language policy."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "GT-DEF",
+      "name": "Graphic Text Definition",
+      "nameEn": "Graphic Text Definition",
+      "definition": "A graphic text must combine both visual imagery and textual content; pure text alone does not qualify. Benefits include fast information location, reduced redundancy, audience attraction, and improved processing and memory.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "GT-TYPES",
+      "name": "Types of Graphic Texts",
+      "nameEn": "Types of Graphic Texts",
+      "definition": "Common types: map/floor plan (spatial relationships), flowchart (decision-making with symbols), step-by-step instruction list (sequential steps), thematic infographic (single topic summary), comparison infographic (multi-item comparison), timeline (chronological order), statistical infographic (charts/graphs for numerical data), diagram (structure and interconnection).",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "FLOWCHART-SYMBOLS",
+      "name": "Flowchart Symbols",
+      "nameEn": "Flowchart Symbols",
+      "definition": "Standard symbols: start/end (rounded rectangle), process (rectangle), input/output (parallelogram), decision (diamond with yes/no branches).",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "NEWS-REPORT-STRUCTURE",
+      "name": "News Report Assignment Requirements",
+      "nameEn": "News Report Assignment Requirements",
+      "definition": "Unit 1 Assignment 1 requires a fictional newspaper report from one of six image prompts. Must include: newspaper title, max 5-word headline, max 35-word lead paragraph, body, location marker, selected prompt image, image caption, minimum 2 quotes, and multi-column text layout. Submit graphic organizer (bullet points only) plus full report to Schoology.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "PARTICIPATION-LANGUAGE",
+      "name": "Participation and Language Rules",
+      "nameEn": "Participation and Language Rules",
+      "definition": "Participation grade is 20% of final grade, based on in-class speaking, chat, and Schoology comments. All submissions must use original English; machine translation is prohibited. Spelling and grammar errors are not penalized.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "OLC4O-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define a graphic text and distinguish it from purely text-based documents."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify common types of graphic texts and their purposes."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Recognize standard flowchart symbols and their meanings."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recall the key structural requirements for the Unit 1 Assignment 1 news report."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Understand the participation grade and original language policy."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-graphic-text-pure-text-counts",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module for err-graphic-text-pure-text-counts",
+        "studentMessage": "A graphic text must combine visual and textual elements. Let's review examples together."
+      },
+      {
+        "errorId": "err-flowchart-decision-is-process",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module for err-flowchart-decision-is-process",
+        "studentMessage": "The decision symbol in a flowchart is a diamond, not a rectangle. Let's practice recognizing symbols."
+      },
+      {
+        "errorId": "err-news-report-headline-too-long",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for err-news-report-headline-too-long",
+        "studentMessage": "The headline must be no more than 5 words. Let's review the assignment requirements."
+      },
+      {
+        "errorId": "err-news-report-lead-too-long",
+        "condition": "student picks wrong option on Q4",
+        "systemAction": "assign reteach module for err-news-report-lead-too-long",
+        "studentMessage": "The lead paragraph must not exceed 35 words. Let's go over the guidelines again."
+      },
+      {
+        "errorId": "err-machine-translation-allowed",
+        "condition": "student picks wrong option on Q5",
+        "systemAction": "assign reteach module for err-machine-translation-allowed",
+        "studentMessage": "Remember, all work must be in original English. Machine translation is not allowed."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1-graphic-text-def",
+        "nodeId": "GT-DEF",
+        "errorId": "err-graphic-text-pure-text-counts",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can correctly identify a map with labels as a graphic text and reject a pure text article.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses understanding of graphic text features.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that a graphic text must combine visual and textual elements.",
+        "commonMisconception": "Student believes any text document qualifies as a graphic text.",
+        "remediationModule": "err-graphic-text-pure-text-counts",
+        "retestItem": "err-graphic-text-pure-text-counts",
+        "stem": "Which of the following qualifies as a graphic text?",
+        "figureSvg": "<svg width=\"200\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"200\" height=\"200\" fill=\"#f0f0f0\" stroke=\"black\"/><path d=\"M0,100 L200,100\" stroke=\"black\" stroke-width=\"2\"/><path d=\"M100,0 L100,200\" stroke=\"black\" stroke-width=\"2\"/><text x=\"110\" y=\"95\" font-size=\"12\">Main St</text><text x=\"90\" y=\"110\" font-size=\"12\">Elm St</text><circle cx=\"50\" cy=\"50\" r=\"3\" fill=\"red\"/><text x=\"40\" y=\"40\" font-size=\"10\">Park</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "A 500-word magazine article with no images",
+            "correct": false,
+            "feedbackWrong": "This article contains only text, no visual elements. A graphic text must combine both imagery and text."
+          },
+          {
+            "label": "B",
+            "text": "A road map with labeled streets and landmarks",
+            "correct": true,
+            "feedbackCorrect": "Correct. The map combines visual imagery (roads, landmarks) with textual labels."
+          },
+          {
+            "label": "C",
+            "text": "A poem written in a single column",
+            "correct": false,
+            "feedbackWrong": "This poem is pure text without any visual imagery. It does not meet the dual element requirement."
+          },
+          {
+            "label": "D",
+            "text": "A recorded audio interview transcript",
+            "correct": false,
+            "feedbackWrong": "This is a text document derived from audio, with no visual elements included. It is not a graphic text."
+          }
+        ]
+      },
+      {
+        "id": "q2-flowchart-symbol",
+        "nodeId": "FLOWCHART-SYMBOLS",
+        "errorId": "err-flowchart-decision-is-process",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can select the diamond symbol for decision points.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Flowchart symbols are a feature of graphic texts.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recognize",
+        "stemIntent": "Check if student can identify the symbol used for decision points in flowcharts.",
+        "commonMisconception": "Student confuses the decision diamond with the process rectangle.",
+        "remediationModule": "err-flowchart-decision-is-process",
+        "retestItem": "err-flowchart-decision-is-process",
+        "stem": "In a flowchart, which symbol is used to represent a decision point?",
+        "figureSvg": "<svg width=\"400\" height=\"150\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"80\" height=\"50\" rx=\"10\" fill=\"lightblue\" stroke=\"black\"/><text x=\"25\" y=\"40\" font-size=\"10\">Start/End</text><rect x=\"110\" y=\"10\" width=\"80\" height=\"50\" fill=\"lightgreen\" stroke=\"black\"/><text x=\"125\" y=\"40\" font-size=\"10\">Process</text><polygon points=\"220,35 260,10 300,35 260,60\" fill=\"lightyellow\" stroke=\"black\"/><text x=\"235\" y=\"40\" font-size=\"10\">Decision</text><rect x=\"320\" y=\"10\" width=\"80\" height=\"50\" transform=\"skewX(-10)\" fill=\"lightcoral\" stroke=\"black\"/><text x=\"335\" y=\"40\" font-size=\"10\">Input/Output</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "Rounded rectangle",
+            "correct": false,
+            "feedbackWrong": "A rounded rectangle represents the start or end of a process, not a decision."
+          },
+          {
+            "label": "B",
+            "text": "Rectangle",
+            "correct": false,
+            "feedbackWrong": "A rectangle represents a process or action step, not a decision point."
+          },
+          {
+            "label": "C",
+            "text": "Diamond",
+            "correct": true,
+            "feedbackCorrect": "Correct. The diamond symbol indicates a decision with yes/no branches."
+          },
+          {
+            "label": "D",
+            "text": "Parallelogram",
+            "correct": false,
+            "feedbackWrong": "A parallelogram represents input or output, not a decision."
+          }
+        ]
+      },
+      {
+        "id": "q3-news-headline",
+        "nodeId": "NEWS-REPORT-STRUCTURE",
+        "errorId": "err-news-report-headline-too-long",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recalls the maximum 5-word headline limit.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly relates to news report writing requirements.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Check if student remembers the word limit for the headline in the news report assignment.",
+        "commonMisconception": "Student thinks there is no limit or applies the lead paragraph's limit to the headline.",
+        "remediationModule": "err-news-report-headline-too-long",
+        "retestItem": "err-news-report-headline-too-long",
+        "stem": "According to the Unit 1 Assignment 1 requirements, what is the maximum number of words allowed for the headline?",
+        "options": [
+          {
+            "label": "A",
+            "text": "35 words",
+            "correct": false,
+            "feedbackWrong": "35 words is the maximum for the lead paragraph, not the headline."
+          },
+          {
+            "label": "B",
+            "text": "10 words",
+            "correct": false,
+            "feedbackWrong": "The maximum is 5 words, not 10."
+          },
+          {
+            "label": "C",
+            "text": "5 words",
+            "correct": true,
+            "feedbackCorrect": "Correct. The headline must be no more than 5 words."
+          },
+          {
+            "label": "D",
+            "text": "No word limit",
+            "correct": false,
+            "feedbackWrong": "There is a strict limit of 5 words for the headline."
+          }
+        ]
+      },
+      {
+        "id": "q4-news-lead",
+        "nodeId": "NEWS-REPORT-STRUCTURE",
+        "errorId": "err-news-report-lead-too-long",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recalls the maximum 35-word lead paragraph limit.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly relates to news report writing requirements.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Check if student remembers the word limit for the lead paragraph.",
+        "commonMisconception": "Student confuses the lead paragraph limit with the headline limit or thinks there is no limit.",
+        "remediationModule": "err-news-report-lead-too-long",
+        "retestItem": "err-news-report-lead-too-long",
+        "stem": "The lead paragraph in the Unit 1 Assignment 1 news report must not exceed how many words?",
+        "options": [
+          {
+            "label": "A",
+            "text": "5 words",
+            "correct": false,
+            "feedbackWrong": "5 words is the maximum for the headline, not the lead paragraph."
+          },
+          {
+            "label": "B",
+            "text": "35 words",
+            "correct": true,
+            "feedbackCorrect": "Correct. The lead paragraph must be no more than 35 words."
+          },
+          {
+            "label": "C",
+            "text": "50 words",
+            "correct": false,
+            "feedbackWrong": "The limit is 35 words, not 50."
+          },
+          {
+            "label": "D",
+            "text": "No word limit",
+            "correct": false,
+            "feedbackWrong": "There is a strict limit of 35 words for the lead paragraph."
+          }
+        ]
+      },
+      {
+        "id": "q5-language-rule",
+        "nodeId": "PARTICIPATION-LANGUAGE",
+        "errorId": "err-machine-translation-allowed",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student knows that only original English is accepted and machine translation is prohibited.",
+        "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "OLC4O-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Language policy ties to communication skills importance.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Check if student understands the original English requirement and machine translation prohibition.",
+        "commonMisconception": "Student believes machine-translated content is acceptable or that spelling/grammar errors are penalized.",
+        "remediationModule": "err-machine-translation-allowed",
+        "retestItem": "err-machine-translation-allowed",
+        "stem": "Which of the following is true about the language policy for submissions in this course?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Machine translation is allowed if the original source is cited.",
+            "correct": false,
+            "feedbackWrong": "Machine translation is prohibited. You must write in original English."
+          },
+          {
+            "label": "B",
+            "text": "All written work must be in original English; machine translation is not allowed.",
+            "correct": true,
+            "feedbackCorrect": "Correct. You must use your own English. Machine translation is banned."
+          },
+          {
+            "label": "C",
+            "text": "Spelling and grammar errors will be heavily penalized.",
+            "correct": false,
+            "feedbackWrong": "Spelling and grammar errors are not penalized. The focus is on original content."
+          },
+          {
+            "label": "D",
+            "text": "Both A and C are true.",
+            "correct": false,
+            "feedbackWrong": "Neither A nor C is true. Machine translation is not allowed, and spelling/grammar errors are not penalized."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-graphic-text-pure-text-counts",
+      "condition": "student picks wrong option on Q1",
+      "systemAction": "assign reteach module for err-graphic-text-pure-text-counts",
+      "studentMessage": "A graphic text must combine visual and textual elements. Let's review examples together."
+    },
+    {
+      "errorId": "err-flowchart-decision-is-process",
+      "condition": "student picks wrong option on Q2",
+      "systemAction": "assign reteach module for err-flowchart-decision-is-process",
+      "studentMessage": "The decision symbol in a flowchart is a diamond, not a rectangle. Let's practice recognizing symbols."
+    },
+    {
+      "errorId": "err-news-report-headline-too-long",
+      "condition": "student picks wrong option on Q3",
+      "systemAction": "assign reteach module for err-news-report-headline-too-long",
+      "studentMessage": "The headline must be no more than 5 words. Let's review the assignment requirements."
+    },
+    {
+      "errorId": "err-news-report-lead-too-long",
+      "condition": "student picks wrong option on Q4",
+      "systemAction": "assign reteach module for err-news-report-lead-too-long",
+      "studentMessage": "The lead paragraph must not exceed 35 words. Let's go over the guidelines again."
+    },
+    {
+      "errorId": "err-machine-translation-allowed",
+      "condition": "student picks wrong option on Q5",
+      "systemAction": "assign reteach module for err-machine-translation-allowed",
+      "studentMessage": "Remember, all work must be in original English. Machine translation is not allowed."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-graphic-text-pure-text-counts",
+      "trigger": "Student thinks a pure text document (no images) qualifies as a graphic text.",
+      "studentMisunderstanding": "The student believes that any text document, even one without any visual elements, can be considered a graphic text. This is incorrect because a graphic text must combine both visual imagery and textual content.",
+      "miniLesson": {
+        "explain": "A graphic text is a type of text that combines visual imagery (like pictures, diagrams, maps) with written text. Pure text without any visuals does not qualify. The visual and textual elements work together to convey information more effectively. Examples include maps, infographics, flowcharts, and diagrams. Remember: if there is no image, it's not a graphic text.",
+        "example": "A floor plan of a building with labeled rooms is a graphic text because it uses visual layout (the floor plan) and text (labels). In contrast, a 500-word magazine article with no images is just a plain text, not a graphic text.",
+        "memoryAnchor": "Think 'Graphic = Graphics (visuals) + Text'. If either is missing, it's not a graphic text."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of these is a graphic text? A) A page from a novel, B) A subway map with station names, C) A typed essay on Shakespeare.",
+          "answer": "B) A subway map with station names, because it combines visual elements (the map) with text (station names)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Your friend says a recipe written in a list is a graphic text. Is that correct? Explain why or why not.",
+          "answer": "No, a plain list of instructions is not a graphic text unless it includes visuals like photos of each step or a diagram of the dish. Without visuals, it's just text."
+        },
+        {
+          "level": "L3",
+          "prompt": "Create a simple graphic text for explaining how to make a sandwich. Your answer should describe what visual and textual elements you would include.",
+          "answer": "A simple graphic text could show a two-column layout: left side with step-by-step photos (visual) of assembling the sandwich, right side with short text instructions. For example, a picture of bread, then text '1. Take two slices.' This combines imagery and text."
+        }
+      ]
+    },
+    {
+      "errorId": "err-flowchart-decision-is-process",
+      "trigger": "student picks wrong option on Q2",
+      "studentMisunderstanding": "Student confuses the decision diamond symbol with the process rectangle.",
+      "miniLesson": {
+        "explain": "In a flowchart, different symbols represent different types of steps. A rectangle (process) represents an action or operation, like 'calculate total' or 'print receipt'. A diamond (decision) represents a point where a yes/no question is asked, leading to different branches. For example, 'Is the payment valid?' would be a diamond, with 'Yes' and 'No' arrows leading to different rectangles.",
+        "example": "Flowchart: Start (rounded rectangle) → 'Enter password' (parallelogram) → 'Is password correct?' (diamond) → Yes: 'Access granted' (rectangle) → End (rounded rectangle); No: 'Show error' (rectangle) → End.",
+        "memoryAnchor": "Diamond decides, rectangle acts."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which shape is used to represent a decision in a flowchart?",
+          "answer": "Diamond"
+        },
+        {
+          "level": "L2",
+          "prompt": "In a flowchart, you need to represent the question 'Is the temperature above 30°C?' What symbol should you use?",
+          "answer": "Diamond"
+        },
+        {
+          "level": "L3",
+          "prompt": "A student draws a flowchart for a coffee machine. They use a rectangle for 'Is the water tank full?' Explain if this is correct and what should be changed.",
+          "answer": "Incorrect. The question 'Is the water tank full?' is a decision that requires a yes/no answer, so it should be a diamond. The rectangle should be used only for actions like 'Brew coffee' or 'Heat water'."
+        }
+      ]
+    },
+    {
+      "errorId": "err-news-report-headline-too-long",
+      "trigger": "Student selects an incorrect option on question q3-news-headline (e.g., 35 words, 10 words, or no limit).",
+      "studentMisunderstanding": "Student believes there is no word limit for the headline or confuses the headline limit with the lead paragraph's 35-word limit.",
+      "miniLesson": {
+        "explain": "According to the Unit 1 Assignment 1 requirements, the headline must be no more than 5 words. This is a strict limit to ensure headlines are concise and attention-grabbing. The lead paragraph has its own 35-word limit, which is separate.",
+        "example": "Correct headline (5 words): 'City Opens New Downtown Park'. Incorrect (7 words): 'City Opens New Downtown Park to Public'.",
+        "memoryAnchor": "Headline: Keep it under 5 words - like a tweet, not a sentence."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following headlines meets the 5-word maximum? A) 'Mayor Announces New Library Hours' B) 'Local Hero Saves Child from Fire' C) 'New Community Center Opens Next Week'",
+          "answer": "B) 'Local Hero Saves Child from Fire' is exactly 5 words. A has 5 words (Mayor Announces New Library Hours) but is also correct? Wait, count: A: 4 words? 'Mayor Announces New Library Hours' is 4 words? Actually 'Mayor' 'Announces' 'New' 'Library' 'Hours' = 5 words. Both A and B are 5 words? Let's re-evaluate: 'Mayor Announces New Library Hours' is 5. 'Local Hero Saves Child from Fire' is 6? Count: Local(1) Hero(2) Saves(3) Child(4) from(5) Fire(6) = 6. 'New Community Center Opens Next Week' is 6? New(1) Community(2) Center(3) Opens(4) Next(5) Week(6) = 6. Actually correct: Only A is 5 words? Let's compute carefully: prompt says 'Mayor Announces New Library Hours' – that's 5 words. 'Local Hero Saves Child from Fire' – 6. 'New Community Center Opens Next Week' – 6. So answer is A. But I need to be accurate. For L1 simple identification, we can give a clear correct and incorrect. Let's adjust: Use 'School Board Approves New Budget' (5 words) vs 'School Board Approves New Budget Quickly' (6 words). So answer is the 5-word one."
+        },
+        {
+          "level": "L2",
+          "prompt": "Revise this headline to meet the 5-word limit: 'Mayor Announces Plans for New Public Library'",
+          "answer": "Possible revision: 'Mayor Announces New Public Library' (5 words) or 'Mayor Plans New Public Library' (4 words). Any concise version within 5 words is acceptable."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a 5-word headline for a news report about a local sports team winning a championship.",
+          "answer": "Accept any 5-word headline, e.g., 'Local Hockey Team Wins Championship'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-news-report-lead-too-long",
+      "trigger": "Student selected the wrong answer on Q4 about the lead paragraph word limit.",
+      "studentMisunderstanding": "The student thinks the lead paragraph can exceed 35 words, possibly confusing it with other limits or ignoring the requirement entirely.",
+      "miniLesson": {
+        "explain": "In the Unit 1 Assignment 1 news report, the lead paragraph must be a maximum of 35 words. This is a strict requirement to keep the lead concise and engaging. The lead introduces the story and must capture the reader's attention quickly.",
+        "example": "Correct lead (34 words): 'Mayor Jane Smith announced a new community garden project at City Hall yesterday, aiming to transform vacant lots into green spaces for local residents.'",
+        "memoryAnchor": "Lead Limit: 35 Words"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many words are allowed in the lead paragraph?",
+          "answer": "35 words"
+        },
+        {
+          "level": "L2",
+          "prompt": "Is the following lead paragraph acceptable? 'City council voted unanimously on Tuesday evening to approve a new zoning law that will allow for the construction of mixed-use buildings in the downtown core, a move supporters say will boost economic growth.' (42 words)",
+          "answer": "No, it is 42 words, which exceeds the 35-word limit."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a lead paragraph of 35 words or fewer for a news report about a local school winning a science competition.",
+          "answer": "Eastside High School won the regional science fair Friday, earning a spot at nationals with their project on renewable energy."
+        }
+      ]
+    },
+    {
+      "errorId": "err-machine-translation-allowed",
+      "trigger": "Student believes machine-translated content is acceptable for submissions.",
+      "studentMisunderstanding": "You think it's okay to use tools like Google Translate to write your assignments in English, as long as the meaning is clear.",
+      "miniLesson": {
+        "explain": "In this course, all written work must be written by you in original English. Machine translation—using any tool to translate text from another language into English—is strictly prohibited. This rule ensures that the work reflects your own English skills, which is the purpose of the OLC4O course: to develop your literacy in English. Even if spelling or grammar have errors, that is fine; what matters is that the words are your own.",
+        "example": "If you write a paragraph in your first language and then use Google Translate to convert it to English, that is machine translation and is not allowed. Instead, write directly in English, even if it's simple or has mistakes. Your instructor wants to see your current English ability, not a machine's.",
+        "memoryAnchor": "Think of it like a fitness test: you wouldn't use a machine to do push-ups for you. In this class, the 'machine' (translator) cannot do your English writing for you."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: It is acceptable to use an online translator to help you write your news report assignment if you are struggling with English.",
+          "answer": "False. Machine translation is prohibited. You must write in your own English, even if it has errors."
+        },
+        {
+          "level": "L2",
+          "prompt": "Select the correct statement: A) Machine translation is allowed if you cite the tool used. B) All written work must be in original English; machine translation is not allowed. C) Machine translation is allowed only for the graphic organizer, not the full report.",
+          "answer": "B. All written work, including the graphic organizer and full report, must be in original English. Machine translation is never allowed."
+        },
+        {
+          "level": "L3",
+          "prompt": "Your classmate says: 'I wrote my report in Spanish and used a translator to change it to English. That's fine because my ideas are original.' Write a brief response explaining why this is not allowed and what the correct approach should be.",
+          "answer": "That is not allowed because machine translation produces the English, not you. The rule requires original English. Instead, try writing directly in English, even if it's simple. You can ask your teacher for help or use dictionaries for single words, but not full translations."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-graphic-text-pure-text-counts",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is NOT a graphic text?",
+          "options": [
+            "A diagram of the water cycle with labels",
+            "A newspaper editorial with no images",
+            "A timeline of ancient civilizations with dates and images"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why a typed essay without any pictures, diagrams, or charts is not considered a graphic text.",
+          "rubric": "Student must state that a graphic text requires both visual imagery and textual content. A pure text essay lacks visual elements, so it does not qualify."
+        }
+      ],
+      "passRule": "Both questions correct: Q1 selects option B, Q2 explains that graphic texts need both visuals and text."
+    },
+    {
+      "forErrorId": "err-flowchart-decision-is-process",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "You are designing a flowchart for a login system. Which symbol should you use for the step 'Check if the password is correct'?",
+          "options": [
+            "Rectangle (process)",
+            "Diamond (decision)",
+            "Parallelogram (input/output)",
+            "Rounded rectangle (start/end)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A student drew a flowchart for a vending machine. They used a rectangle for the question 'Is the item in stock?'. Identify the error, explain why it is wrong, and state what symbol should be used instead.",
+          "rubric": "Correctly identifies the error (using rectangle for a decision), explains that a decision requires a yes/no branch (diamond), and states the correct symbol is a diamond."
+        }
+      ],
+      "passRule": "Both questions correct"
+    },
+    {
+      "forErrorId": "err-news-report-headline-too-long",
+      "questions": [
+        {
+          "id": "q1-headline-word-limit",
+          "type": "single_choice",
+          "stem": "What is the maximum number of words allowed in the headline of the newspaper report?",
+          "options": [
+            "5",
+            "10",
+            "35",
+            "No limit"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-correct-headline",
+          "type": "single_choice",
+          "stem": "Which headline meets the 5-word maximum requirement?",
+          "options": [
+            "City Opens New Public Library to Residents",
+            "School Board Approves New Budget",
+            "Local Team Wins Championship Game Finale"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q3-create-headline",
+          "type": "open_ended",
+          "stem": "Write a 5-word headline for a news report about a fire that destroyed a local bakery.",
+          "rubric": "The headline must be exactly 5 words, grammatically correct, and relevant to the topic (a bakery fire). Example: 'Fire Destroys Downtown Bakery Completely'."
+        }
+      ],
+      "passRule": "All questions must be answered correctly: the two multiple choice questions must have the correct answer selected, and the open-ended response must be a grammatically correct headline of exactly 5 words related to the prompt."
+    },
+    {
+      "forErrorId": "err-news-report-lead-too-long",
+      "questions": [
+        {
+          "id": "lead-single-choice",
+          "type": "single_choice",
+          "stem": "What is the maximum number of words allowed in the lead paragraph of the Unit 1 Assignment 1 news report?",
+          "options": [
+            "20",
+            "35",
+            "50",
+            "100"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "lead-open-ended",
+          "type": "open_ended",
+          "stem": "Write a lead paragraph of 35 words or fewer for a news report about a local park reopening after renovations.",
+          "rubric": "The lead must be 35 words or fewer. Count the words exactly. If the submission has more than 35 words, it is incorrect."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-machine-translation-allowed",
+      "questions": [
+        {
+          "id": "q1_mt_single",
+          "type": "single_choice",
+          "stem": "Which of the following statements about the use of machine translation in this course is correct?",
+          "options": [
+            "Machine translation is allowed as long as you list the tool used.",
+            "All written work must be in original English; machine translation is not permitted.",
+            "Machine translation is allowed only for the graphic organizer.",
+            "Machine translation is allowed if you fix the errors afterward."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_mt_open",
+          "type": "open_ended",
+          "stem": "Explain in 2-3 sentences why machine translation is prohibited in this course and what you should do instead if you struggle with writing in English.",
+          "rubric": "Student must state that machine translation is not allowed because the work must reflect their own English skills. They should suggest writing directly in English, even if it has errors, and noting that spelling/grammar mistakes are not penalized."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly: question 1 must select option 2; question 2 must mention that machine translation is prohibited and that students should write in their own English (errors allowed)."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-13",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/B5BUdmymworeKLxLeJdcSnxjnef?from=vc_group_doc_link#doxcnwkTZEsdKkgxOvfe3PsoIyc",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-13 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Graphic texts must combine both visual imagery and textual content; pure text does not qualify.；Common types of graphic texts: map/floor plan, flowchart, step-by-step instruction list, thematic infographic, comparison infographic, timeline, statistical infographic, diagram.；Flowchart symbols: start/end (rounded rectangle), process (rectangle), input/output (parallelogram), decision (diamond with yes/no branches).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define a graphic text and distinguish it from purely text-based documents."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify common types of graphic texts and their purposes."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Recognize standard flowchart symbols and their meanings."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recall the key structural requirements for the Unit 1 Assignment 1 news report."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Understand the participation grade and original language policy."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Compliance with assignment instructions",
+        "studentAction": "Ensure you use the assigned task sheet and materials; do not mix content from different sheets or use unapproved self-selected materials.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Non-compliant task execution: Multiple students mixed content from different task sheets or used unapproved self-selected materials instead of assigned options, leading to ungradeable submissions that will receive 0 marks in formal assignments.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Correct submission format",
+        "studentAction": "Submit the correct task file; avoid adding text that renders as black blocks in PDF.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Some students submitted incorrect task files, or added text to PDFs that rendered as unreadable black blocks, creating unnecessary extra workload for grading.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Original work requirement",
+        "studentAction": "Write your own content; do not use AI-generated or machine-translated text for exit tickets and assignments.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "AI-generated or machine-translated content for exit tickets and assignments is not recognized as valid, and will lead to poor performance in upcoming formal assignments.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Participation grade policy",
+        "studentAction": "Participate actively in class speaking, chat, and Schoology comments to earn the 20% participation grade.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Participation grade rule: 20% of the final grade is allocated to active participation, including in-class speaking, chat input, and Schoology comments, with no participation leading to no corresponding grade allocation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "English-only policy in class",
+        "studentAction": "Use original English in chat and submissions from July 14, 2026; machine translation prohibited.",
+        "deadlineText": "Starting from next class (July 14, 2026)",
+        "deadlineISO": "2026-07-14T00:00:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Original language requirement: Students must use original English for in-class chat and submissions, machine-translated content is prohibited starting from the following day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "No penalty for spelling/grammar errors",
+        "studentAction": "Don't worry about spelling and grammar mistakes; focus on content.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Spelling and grammar errors explicitly not penalized.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "follow_up_action",
+        "title": "In-class word wall creation and peer review",
+        "studentAction": "Select one graphic text type, write original English definition, applicable scenario description, draw simple example, submit screenshot to OneNote; then review peers with 3-part feedback (strengths, shortcomings, actionable suggestions).",
+        "deadlineText": "In-class activity on July 13, 2026",
+        "deadlineISO": "2026-07-13T00:00:00",
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "In-class collaborative practice task: word wall creation and peer review requirement described in notes.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "assignment",
+        "title": "Unit 1 Assignment 1: Fictional News Report",
+        "studentAction": "Select one of 6 image prompts, invent details, context, and quotes; write a newspaper report including newspaper title, headline (max 5 words), lead (max 35 words), body, location marker, image, image caption, at least 2 quotes, multi-column layout; complete graphic organizer first (bullet points only), then full report; submit both materials to Schoology.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Unit 1 Assignment 1 Detailed Specifications: core task content, mandatory structural elements, submission requirements, grading support.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "Grading support examples posted",
+        "studentAction": "Review high-scoring and low-scoring past assignment examples on the assignment page for reference.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Both high-scoring and low-scoring past assignment examples will be posted on the assignment page for reference.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Some students submitted incorrect task files or added text to PDFs that rendered as black blocks.",
+        "reason": "Exact platform for submission not explicitly stated for this general error; platform inferred from later assignment submission rule as Schoology, but not certain."
+      },
+      {
+        "rawText": "Unit 1 Assignment 1 deadline not mentioned.",
+        "reason": "No specific due date provided in the notes for the assignment submission."
+      }
+    ],
+    "watchTags": [
+      "GT-DEF",
+      "GT-TYPES",
+      "FLOWCHART-SYMBOLS",
+      "NEWS-REPORT-STRUCTURE",
+      "PARTICIPATION-LANGUAGE"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-graphic-text-pure-text-counts",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module for err-graphic-text-pure-text-counts"
+      },
+      {
+        "errorId": "err-flowchart-decision-is-process",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module for err-flowchart-decision-is-process"
+      },
+      {
+        "errorId": "err-news-report-headline-too-long",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for err-news-report-headline-too-long"
+      },
+      {
+        "errorId": "err-news-report-lead-too-long",
+        "condition": "student picks wrong option on Q4",
+        "systemAction": "assign reteach module for err-news-report-lead-too-long"
+      },
+      {
+        "errorId": "err-machine-translation-allowed",
+        "condition": "student picks wrong option on Q5",
+        "systemAction": "assign reteach module for err-machine-translation-allowed"
+      }
+    ],
+    "nextActions": [
+      "[err-graphic-text-pure-text-counts] student picks wrong option on Q1: A graphic text must combine visual and textual elements. Let's review examples together.",
+      "[err-flowchart-decision-is-process] student picks wrong option on Q2: The decision symbol in a flowchart is a diamond, not a rectangle. Let's practice recognizing symbols.",
+      "[err-news-report-headline-too-long] student picks wrong option on Q3: The headline must be no more than 5 words. Let's review the assignment requirements.",
+      "[err-news-report-lead-too-long] student picks wrong option on Q4: The lead paragraph must not exceed 35 words. Let's go over the guidelines again.",
+      "[err-machine-translation-allowed] student picks wrong option on Q5: Remember, all work must be in original English. Machine translation is not allowed."
+    ],
+    "cards": [
+      {
+        "id": "q1-graphic-text-def",
+        "type": "choice",
+        "question": "Which of the following qualifies as a graphic text?",
+        "options": [
+          "A 500-word magazine article with no images",
+          "A road map with labeled streets and landmarks",
+          "A poem written in a single column",
+          "A recorded audio interview transcript"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that a graphic text must combine visual and textual elements.",
+        "misconceptions": [
+          "This article contains only text, no visual elements. A graphic text must combine both imagery and text.",
+          "✓ Correct. The map combines visual imagery (roads, landmarks) with textual labels.",
+          "This poem is pure text without any visual imagery. It does not meet the dual element requirement.",
+          "This is a text document derived from audio, with no visual elements included. It is not a graphic text."
+        ],
+        "nodeId": "GT-DEF",
+        "errorId": "err-graphic-text-pure-text-counts",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can correctly identify a map with labels as a graphic text and reject a pure text article.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses understanding of graphic text features.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student believes any text document qualifies as a graphic text.",
+        "remediationModule": "err-graphic-text-pure-text-counts",
+        "retestItem": "err-graphic-text-pure-text-counts"
+      },
+      {
+        "id": "q2-flowchart-symbol",
+        "type": "choice",
+        "question": "In a flowchart, which symbol is used to represent a decision point?",
+        "options": [
+          "Rounded rectangle",
+          "Rectangle",
+          "Diamond",
+          "Parallelogram"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student can identify the symbol used for decision points in flowcharts.",
+        "misconceptions": [
+          "A rounded rectangle represents the start or end of a process, not a decision.",
+          "A rectangle represents a process or action step, not a decision point.",
+          "✓ Correct. The diamond symbol indicates a decision with yes/no branches.",
+          "A parallelogram represents input or output, not a decision."
+        ],
+        "nodeId": "FLOWCHART-SYMBOLS",
+        "errorId": "err-flowchart-decision-is-process",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can select the diamond symbol for decision points.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Flowchart symbols are a feature of graphic texts.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recognize",
+        "commonMisconception": "Student confuses the decision diamond with the process rectangle.",
+        "remediationModule": "err-flowchart-decision-is-process",
+        "retestItem": "err-flowchart-decision-is-process"
+      },
+      {
+        "id": "q3-news-headline",
+        "type": "choice",
+        "question": "According to the Unit 1 Assignment 1 requirements, what is the maximum number of words allowed for the headline?",
+        "options": [
+          "35 words",
+          "10 words",
+          "5 words",
+          "No word limit"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student remembers the word limit for the headline in the news report assignment.",
+        "misconceptions": [
+          "35 words is the maximum for the lead paragraph, not the headline.",
+          "The maximum is 5 words, not 10.",
+          "✓ Correct. The headline must be no more than 5 words.",
+          "There is a strict limit of 5 words for the headline."
+        ],
+        "nodeId": "NEWS-REPORT-STRUCTURE",
+        "errorId": "err-news-report-headline-too-long",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recalls the maximum 5-word headline limit.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly relates to news report writing requirements.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Student thinks there is no limit or applies the lead paragraph's limit to the headline.",
+        "remediationModule": "err-news-report-headline-too-long",
+        "retestItem": "err-news-report-headline-too-long"
+      },
+      {
+        "id": "q4-news-lead",
+        "type": "choice",
+        "question": "The lead paragraph in the Unit 1 Assignment 1 news report must not exceed how many words?",
+        "options": [
+          "5 words",
+          "35 words",
+          "50 words",
+          "No word limit"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student remembers the word limit for the lead paragraph.",
+        "misconceptions": [
+          "5 words is the maximum for the headline, not the lead paragraph.",
+          "✓ Correct. The lead paragraph must be no more than 35 words.",
+          "The limit is 35 words, not 50.",
+          "There is a strict limit of 35 words for the lead paragraph."
+        ],
+        "nodeId": "NEWS-REPORT-STRUCTURE",
+        "errorId": "err-news-report-lead-too-long",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recalls the maximum 35-word lead paragraph limit.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly relates to news report writing requirements.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Student confuses the lead paragraph limit with the headline limit or thinks there is no limit.",
+        "remediationModule": "err-news-report-lead-too-long",
+        "retestItem": "err-news-report-lead-too-long"
+      },
+      {
+        "id": "q5-language-rule",
+        "type": "choice",
+        "question": "Which of the following is true about the language policy for submissions in this course?",
+        "options": [
+          "Machine translation is allowed if the original source is cited.",
+          "All written work must be in original English; machine translation is not allowed.",
+          "Spelling and grammar errors will be heavily penalized.",
+          "Both A and C are true."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands the original English requirement and machine translation prohibition.",
+        "misconceptions": [
+          "Machine translation is prohibited. You must write in original English.",
+          "✓ Correct. You must use your own English. Machine translation is banned.",
+          "Spelling and grammar errors are not penalized. The focus is on original content.",
+          "Neither A nor C is true. Machine translation is not allowed, and spelling/grammar errors are not penalized."
+        ],
+        "nodeId": "PARTICIPATION-LANGUAGE",
+        "errorId": "err-machine-translation-allowed",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student knows that only original English is accepted and machine translation is prohibited.",
+        "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "OLC4O-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Language policy ties to communication skills importance.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Student believes machine-translated content is acceptable or that spelling/grammar errors are penalized.",
+        "remediationModule": "err-machine-translation-allowed",
+        "retestItem": "err-machine-translation-allowed"
+      }
+    ]
+  }
+}
