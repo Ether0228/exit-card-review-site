@@ -1,0 +1,807 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-16",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/TrKldrYqhoXqzXxHBmgci1zwneY?from=vc_group_doc_link#doxcnSqyynK3mt0eumHIoqVnlge",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-16 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/TrKldrYqhoXqzXxHBmgci1zwneY?from=vc_group_doc_link#doxcnSqyynK3mt0eumHIoqVnlge",
+    "title": "SPH3U.S6.Michael 2026-07-16 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-16/sources/sph3u-s6-michael-2026-07-16/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-16",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-16",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson focused on teaching projectile motion principles and worked sample problems; students learned core concepts and practiced calculations.",
+    "academicContentSignals": [
+      "Projectile motion analysis using 5 kinematic equations",
+      "Gravitational acceleration g = -9.8 m/s²",
+      "Motion axis separation: horizontal velocity constant, vertical velocity changes",
+      "Time to maximum height calculation",
+      "Horizontally launched projectile problem (bean bag)",
+      "Angled projectile velocity decomposition (soccer ball at 40°)",
+      "Worked examples: Example 3, Example 4, Example 5"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low; operations are minimal and do not overshadow learning content.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Cliff-launch golf ball problem to be completed next class",
+        "studentAction": "Be prepared to continue the cliff-launch problem at the start of next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Unfinished Content: The cliff-launch golf ball problem was not completed as the session reached its scheduled end. Next Session Opening: The remaining cliff-launch golf ball problem will be fully covered at the start of the next scheduled class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "New physics unit to be introduced next class",
+        "studentAction": "Be ready for a new unit introduction in the next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "New Unit Launch: A brand new physics unit will be officially introduced and taught during the class held on the following day.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（抛体运动原理、二维运动学方程应用）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Projectile motion analysis uses the five standard kinematic equations.；Gravitational acceleration is constant at 9.8 m/s² downward.；Motion is split into independent horizontal and vertical axes.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Apply kinematic equations to solve for time, displacement, and velocity in two-dimensional projectile motion."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Interpret the independence of horizontal and vertical components in projectile motion."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Decompose initial velocity into horizontal and vertical components for angled launches."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Recognize that vertical acceleration is constant at 9.8 m/s² throughout projectile motion, including at maximum height."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "proj-motion-principles",
+      "name": "抛体运动原理",
+      "nameEn": "Projectile Motion Principles",
+      "definition": "Projectile motion is analyzed by splitting into independent horizontal and vertical axes; horizontal velocity is constant, vertical acceleration is constant at 9.8 m/s² downward.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "SPH3U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions."
+    },
+    {
+      "id": "kinematic-eq-2d",
+      "name": "二维运动学方程应用",
+      "nameEn": "Application of Kinematic Equations in Two Dimensions",
+      "definition": "The five standard kinematic equations are applied separately to horizontal and vertical motion to solve for time, displacement, velocity, and acceleration.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply kinematic equations to solve for time, displacement, and velocity in two-dimensional projectile motion."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Interpret the independence of horizontal and vertical components in projectile motion."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Decompose initial velocity into horizontal and vertical components for angled launches."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recognize that vertical acceleration is constant at 9.8 m/s² throughout projectile motion, including at maximum height."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-proj-horizontal-accel",
+        "condition": "student picks option that implies horizontal acceleration exists",
+        "systemAction": "assign reteach module for err-proj-horizontal-accel",
+        "studentMessage": "Your answer shows a common misconception about horizontal motion. Let's review why horizontal velocity stays constant."
+      },
+      {
+        "errorId": "err-proj-vertical-accel-zero-at-top",
+        "condition": "student picks option that vertical acceleration is zero at maximum height",
+        "systemAction": "assign reteach module for err-proj-vertical-accel-zero-at-top",
+        "studentMessage": "It's easy to think acceleration stops at the top, but gravity is always acting. Let's clarify."
+      },
+      {
+        "errorId": "err-proj-component-swap",
+        "condition": "student picks option that swaps sine and cosine",
+        "systemAction": "assign reteach module for err-proj-component-swap",
+        "studentMessage": "Remember: horizontal component uses cosine, vertical uses sine. Let's practice."
+      },
+      {
+        "errorId": "err-proj-time-up-down",
+        "condition": "student fails to recognize that time up equals time down for symmetric launches",
+        "systemAction": "assign reteach module for err-proj-time-up-down",
+        "studentMessage": "For launches from and to the same height, the upward and downward times are equal. Let's see why."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-proj-q1",
+        "nodeId": "proj-motion-principles",
+        "errorId": "err-proj-horizontal-accel",
+        "stem": "A ball is thrown horizontally from a cliff. Which statement about its horizontal motion is correct? (Ignore air resistance.)",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that horizontal velocity is constant and no horizontal acceleration exists.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly addresses understanding projectile motion as two independent motions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding that horizontal acceleration is zero in projectile motion without air resistance.",
+        "commonMisconception": "Students may think horizontal velocity changes due to gravity or that horizontal acceleration is 9.8 m/s².",
+        "remediationModule": "err-proj-horizontal-accel",
+        "retestItem": "err-proj-horizontal-accel",
+        "options": [
+          {
+            "label": "A",
+            "text": "Horizontal acceleration is 0 m/s² and horizontal velocity is constant.",
+            "correct": true,
+            "feedbackWrong": "This is correct."
+          },
+          {
+            "label": "B",
+            "text": "Horizontal acceleration is 9.8 m/s² downward, so horizontal velocity increases.",
+            "correct": false,
+            "feedbackWrong": "Gravity only affects vertical motion, not horizontal. Horizontal acceleration is zero."
+          },
+          {
+            "label": "C",
+            "text": "Horizontal acceleration is 9.8 m/s² to the right, so horizontal velocity increases.",
+            "correct": false,
+            "feedbackWrong": "There is no horizontal force (ignoring air resistance), so horizontal acceleration is zero."
+          },
+          {
+            "label": "D",
+            "text": "Horizontal velocity decreases because the ball is slowing down.",
+            "correct": false,
+            "feedbackWrong": "Without air resistance, horizontal velocity remains constant. The ball slows vertically, not horizontally."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-proj-q2",
+        "nodeId": "proj-motion-principles",
+        "errorId": "err-proj-vertical-accel-zero-at-top",
+        "stem": "A soccer ball is kicked upward at an angle. At the highest point of its trajectory, what is the vertical acceleration? (Ignore air resistance.)",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student correctly states that vertical acceleration is 9.8 m/s² downward at all points.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Checks understanding of constant vertical acceleration in projectile motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Identify that vertical acceleration remains constant (9.8 m/s² downward) throughout projectile motion, even at maximum height.",
+        "commonMisconception": "Students often think vertical acceleration becomes zero at the top because velocity is zero momentarily.",
+        "remediationModule": "err-proj-vertical-accel-zero-at-top",
+        "retestItem": "err-proj-vertical-accel-zero-at-top",
+        "options": [
+          {
+            "label": "A",
+            "text": "0 m/s² because the ball is momentarily at rest.",
+            "correct": false,
+            "feedbackWrong": "Although vertical velocity is zero, acceleration due to gravity is constant at 9.8 m/s² downward."
+          },
+          {
+            "label": "B",
+            "text": "9.8 m/s² downward.",
+            "correct": true,
+            "feedbackWrong": "Correct! Gravity acts constantly."
+          },
+          {
+            "label": "C",
+            "text": "9.8 m/s² upward because the ball is about to go down.",
+            "correct": false,
+            "feedbackWrong": "Gravity always points downward. Acceleration doesn't change direction at the top."
+          },
+          {
+            "label": "D",
+            "text": "Depends on the initial launch angle.",
+            "correct": false,
+            "feedbackWrong": "Vertical acceleration is always 9.8 m/s² downward regardless of angle."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-proj-q3",
+        "nodeId": "kinematic-eq-2d",
+        "errorId": "err-proj-component-swap",
+        "stem": "A projectile is launched with speed 20 m/s at an angle of 30° above horizontal. What are the horizontal and vertical components of initial velocity? (Use sin30°=0.5, cos30°=0.87)",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly uses cosine for horizontal and sine for vertical.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires application of kinematic equations with vector components.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to decompose initial velocity into horizontal and vertical components using trigonometric functions.",
+        "commonMisconception": "Students often swap sine and cosine, using sine for horizontal and cosine for vertical.",
+        "remediationModule": "err-proj-component-swap",
+        "retestItem": "err-proj-component-swap",
+        "options": [
+          {
+            "label": "A",
+            "text": "Horizontal = 10 m/s, Vertical = 17.4 m/s",
+            "correct": false,
+            "feedbackWrong": "You swapped sine and cosine. Horizontal uses cosine (20 × 0.87 = 17.4 m/s) and vertical uses sine (20 × 0.5 = 10 m/s)."
+          },
+          {
+            "label": "B",
+            "text": "Horizontal = 17.4 m/s, Vertical = 10 m/s",
+            "correct": true,
+            "feedbackWrong": "Correct: v_x = v cosθ = 20×0.87 = 17.4 m/s, v_y = v sinθ = 20×0.5 = 10 m/s."
+          },
+          {
+            "label": "C",
+            "text": "Horizontal = 17.4 m/s, Vertical = 17.4 m/s",
+            "correct": false,
+            "feedbackWrong": "Components must add up vectorially; they can't both be 17.4 m/s with a 30° angle."
+          },
+          {
+            "label": "D",
+            "text": "Horizontal = 10 m/s, Vertical = 10 m/s",
+            "correct": false,
+            "feedbackWrong": "Check your trigonometric values for 30°."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-proj-q4",
+        "nodeId": "kinematic-eq-2d",
+        "errorId": "err-proj-time-up-down",
+        "stem": "A ball is launched from ground level at an angle and returns to the same height. The time to reach maximum height is 1.2 s. What is the total flight time? (Ignore air resistance.)",
+        "type": "open_ended",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that time up equals time down for symmetric launches, so total time = 2 × time to max height = 2.4 s.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires applying kinematic relationships to find total time.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding that for a symmetrical launch (landing at same height), total time is twice the time to maximum height.",
+        "commonMisconception": "Students may think total time equals time to max height, or they may try to recalculate from scratch instead of doubling.",
+        "remediationModule": "err-proj-time-up-down",
+        "retestItem": "err-proj-time-up-down",
+        "rubric": "Full credit: 2.4 s (or 2.4 seconds). Accept reasoning that upward and downward times are equal. Partial credit: 1.2 s (only upward time). No credit: other numbers.",
+        "sampleStrongAnswer": "The total flight time is 2.4 s because the time to go up equals the time to come down when starting and ending at the same height."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-proj-horizontal-accel",
+      "condition": "student picks option that implies horizontal acceleration exists",
+      "systemAction": "assign reteach module for err-proj-horizontal-accel",
+      "studentMessage": "Your answer shows a common misconception about horizontal motion. Let's review why horizontal velocity stays constant."
+    },
+    {
+      "errorId": "err-proj-vertical-accel-zero-at-top",
+      "condition": "student picks option that vertical acceleration is zero at maximum height",
+      "systemAction": "assign reteach module for err-proj-vertical-accel-zero-at-top",
+      "studentMessage": "It's easy to think acceleration stops at the top, but gravity is always acting. Let's clarify."
+    },
+    {
+      "errorId": "err-proj-component-swap",
+      "condition": "student picks option that swaps sine and cosine",
+      "systemAction": "assign reteach module for err-proj-component-swap",
+      "studentMessage": "Remember: horizontal component uses cosine, vertical uses sine. Let's practice."
+    },
+    {
+      "errorId": "err-proj-time-up-down",
+      "condition": "student fails to recognize that time up equals time down for symmetric launches",
+      "systemAction": "assign reteach module for err-proj-time-up-down",
+      "studentMessage": "For launches from and to the same height, the upward and downward times are equal. Let's see why."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-proj-horizontal-accel",
+      "trigger": "Student incorrectly assumes horizontal acceleration exists in projectile motion.",
+      "studentMisunderstanding": "In projectile motion without air resistance, there is no horizontal force, so horizontal acceleration is zero. Horizontal velocity remains constant throughout the flight.",
+      "miniLesson": {
+        "explain": "In projectile motion, horizontal and vertical motions are independent. Vertically, gravity causes constant downward acceleration of 9.8 m/s². Horizontally, there is no force (ignoring air resistance), so acceleration is zero. This means horizontal velocity never changes.",
+        "example": "Consider a bean bag thrown horizontally from a height. It lands after 1.43 s, and the horizontal displacement is 4.3 m. The horizontal speed is constant (4.3 m / 1.43 s = 3.0 m/s) throughout the flight. It does not speed up or slow down horizontally.",
+        "memoryAnchor": "Imagine a puck on an air hockey table – it slides at constant speed. In projectile motion, the horizontal motion is just like that: no acceleration horizontally."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the horizontal acceleration of a projectile in the absence of air resistance?",
+          "answer": "0 m/s²."
+        },
+        {
+          "level": "L2",
+          "prompt": "A projectile is launched horizontally. Its flight time is 1.43 s and it lands 4.3 m away. What is the horizontal acceleration during its flight?",
+          "answer": "0 m/s². (Horizontal acceleration is always zero in projectile motion without air resistance.)"
+        },
+        {
+          "level": "L3",
+          "prompt": "A soccer ball is kicked at an angle of 40° with an initial speed of 9.4 m/s. At the highest point of its trajectory, what is the horizontal acceleration?",
+          "answer": "0 m/s². (Horizontal acceleration is zero at all times, including at the top, because no horizontal force acts.)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-proj-vertical-accel-zero-at-top",
+      "trigger": "Student incorrectly states that vertical acceleration is zero at maximum height.",
+      "studentMisunderstanding": "Student thinks that because vertical velocity is momentarily zero at the apex, the acceleration must also be zero. In reality, acceleration due to gravity is constant at 9.8 m/s² downward throughout the flight.",
+      "miniLesson": {
+        "explain": "In projectile motion, the vertical acceleration is always 9.8 m/s² downward, regardless of the object's position. At the maximum height, the vertical velocity is zero, but the acceleration remains constant. This is because gravity is a continuous force. Even at the top, the ball is still being pulled downward, which is why it begins to descend.",
+        "example": "Consider a soccer ball kicked at 40° with speed 9.4 m/s. It reaches a maximum height of 2.12 m. At that instant, its vertical velocity is 0 m/s, but its vertical acceleration is still 9.8 m/s² downward. This constant acceleration causes the ball to then accelerate downward.",
+        "memoryAnchor": "Gravity never takes a break – it always pulls down at 9.8 m/s², even at the top."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: At the highest point of a projectile's flight, the vertical acceleration is 0 m/s².",
+          "answer": "False. The vertical acceleration is always 9.8 m/s² downward."
+        },
+        {
+          "level": "L2",
+          "prompt": "A ball is launched from ground at an angle. At its maximum height, what is the value of vertical acceleration?",
+          "answer": "9.8 m/s² downward."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why a projectile's vertical acceleration is constant even when its vertical velocity is zero. Use a specific example from class (e.g., a ball reaching max height in 0.37 s).",
+          "answer": "Gravity acts continuously. At the top, vertical velocity is zero but acceleration due to gravity is still 9.8 m/s² downward. For example, in class we saw a ball that reached its maximum height in 0.37 s; during that entire time, its vertical acceleration was constant at 9.8 m/s² down, which is why it eventually reversed direction."
+        }
+      ]
+    },
+    {
+      "errorId": "err-proj-component-swap",
+      "trigger": "Student selects incorrect option in diagnostic question diag-sph3u-proj-q3, using sine for horizontal component or cosine for vertical component.",
+      "studentMisunderstanding": "The student confuses the trigonometric functions for component decomposition, thinking that horizontal component is v sinθ and vertical is v cosθ.",
+      "miniLesson": {
+        "explain": "When launching a projectile at an angle θ above horizontal, the initial velocity v is split into horizontal and vertical components. The horizontal component is along the x-axis (adjacent to the angle) so it uses cosine: v_x = v cosθ. The vertical component is along the y-axis (opposite to the angle) so it uses sine: v_y = v sinθ. Remember: x = adjacent = cos, y = opposite = sin.",
+        "example": "A soccer ball is launched at 40° with speed 9.4 m/s. Using cos40° ≈ 0.766 and sin40° ≈ 0.643, we get v_x = 9.4 × 0.766 ≈ 7.2 m/s and v_y = 9.4 × 0.643 ≈ 6.0 m/s.",
+        "memoryAnchor": "Think 'x is cos, y is sin' — horizontal uses cosine, vertical uses sine."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A projectile is launched at an angle. Which trigonometric function do you use to find the horizontal component?",
+          "answer": "Cosine"
+        },
+        {
+          "level": "L2",
+          "prompt": "A soccer ball is kicked with speed 9.4 m/s at 40° above horizontal. Calculate the horizontal and vertical components of initial velocity.",
+          "answer": "Horizontal = 9.4 × cos40° ≈ 7.2 m/s, Vertical = 9.4 × sin40° ≈ 6.0 m/s"
+        },
+        {
+          "level": "L3",
+          "prompt": "A golf ball is launched from a cliff at 50° above horizontal. Its initial vertical component is 12.5 m/s. What is the launch speed? (Use sin50° ≈ 0.766)",
+          "answer": "Speed = 12.5 / sin50° ≈ 16.3 m/s"
+        }
+      ]
+    },
+    {
+      "errorId": "err-proj-time-up-down",
+      "trigger": "Student answers total flight time equals time to maximum height instead of doubling it.",
+      "studentMisunderstanding": "The student thinks that the time to reach maximum height is the total flight time, failing to account for the symmetric descent.",
+      "miniLesson": {
+        "explain": "For a projectile that launches from and lands at the same height (symmetric launch), the upward and downward parts of the flight are mirror images. Because vertical acceleration is constant (9.8 m/s² downward), the time to slow to zero at the top equals the time to accelerate back down to the launch speed. Therefore, total flight time = 2 × time to maximum height.",
+        "example": "In the soccer ball example from class (launched at 40° with speed 9.4 m/s), the total flight time was 1.3 s. Since it lands at the same height, the time to reach maximum height is exactly half: 0.65 s.",
+        "memoryAnchor": "What goes up must come down in the same time – symmetrical!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the relationship between the time to maximum height and total flight time for a symmetric projectile launch?",
+          "answer": "Total flight time = 2 × time to maximum height."
+        },
+        {
+          "level": "L2",
+          "prompt": "A ball is launched from ground level and lands at the same height. Its time to maximum height is 0.37 s. What is the total flight time?",
+          "answer": "0.74 s (since 2 × 0.37 = 0.74)."
+        },
+        {
+          "level": "L3",
+          "prompt": "In the soccer ball example, the total flight time was 1.3 s. Explain why the time to maximum height is half of that, and calculate it.",
+          "answer": "Because the launch and landing heights are equal, the upward and downward motions are symmetric. So time to max height = total flight time / 2 = 1.3 s / 2 = 0.65 s."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-proj-horizontal-accel",
+      "questions": [
+        {
+          "id": "retest-q1-h-accel",
+          "type": "single_choice",
+          "stem": "A projectile is launched horizontally from a cliff. Which of the following best describes its horizontal acceleration during the entire flight (ignoring air resistance)?",
+          "options": [
+            "0 m/s²",
+            "9.8 m/s² downward",
+            "9.8 m/s² forward",
+            "It increases then decreases"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-q2-h-accel",
+          "type": "open_ended",
+          "stem": "Explain why the horizontal acceleration of any projectile (ignoring air resistance) is always zero, even when the projectile is launched at an angle.",
+          "rubric": "Student must state that no horizontal force acts (gravity only acts vertically), so horizontal acceleration is zero. Also mention that horizontal velocity remains constant."
+        }
+      ],
+      "passRule": "All questions must be correct."
+    },
+    {
+      "forErrorId": "err-proj-vertical-accel-zero-at-top",
+      "questions": [
+        {
+          "id": "retest-err-proj-vertical-accel-zero-at-top-q1",
+          "type": "single_choice",
+          "stem": "A cannonball is fired at an angle. At the highest point of its path, which of the following is true about its vertical acceleration?",
+          "options": [
+            "It is 0 m/s².",
+            "It is 9.8 m/s² downward.",
+            "It is 9.8 m/s² upward.",
+            "It depends on the launch speed."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-proj-vertical-accel-zero-at-top-q2",
+          "type": "open_ended",
+          "stem": "A baseball is thrown upward and reaches its maximum height. Explain why the vertical acceleration at that point is not zero, even though its vertical velocity is momentarily zero.",
+          "rubric": "Student correctly states that acceleration due to gravity is always 9.8 m/s² downward, regardless of velocity. They explain that gravity is a constant force causing the ball to decelerate upward and accelerate downward, so at the top it is still experiencing 9.8 m/s² downward, which is why it begins to fall. Mention of continuous force or constant gravitational acceleration is expected."
+        }
+      ],
+      "passRule": "Must answer all questions correctly."
+    },
+    {
+      "forErrorId": "err-proj-component-swap",
+      "questions": [
+        {
+          "id": "retest-proj-comp-1",
+          "type": "single_choice",
+          "stem": "For a projectile launched at an angle θ above horizontal, which expression gives the horizontal component of the initial velocity?",
+          "options": [
+            "v sinθ",
+            "v cosθ",
+            "v tanθ",
+            "v / cosθ"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-proj-comp-2",
+          "type": "open_ended",
+          "stem": "A soccer ball is launched at 40° above horizontal with a speed of 9.4 m/s. Calculate the horizontal and vertical components of the initial velocity. Round each to one decimal place.",
+          "rubric": "Horizontal component = 9.4 × cos40° ≈ 7.2 m/s (accept 7.1-7.3). Vertical component = 9.4 × sin40° ≈ 6.0 m/s (accept 5.9-6.1). Both values must be correct with appropriate units (m/s) and correct trigonometric function use."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-proj-time-up-down",
+      "questions": [
+        {
+          "id": "time-up-down-q1",
+          "type": "single_choice",
+          "stem": "A projectile is launched from a cliff and lands on the ground below. The time to reach maximum height is 0.37 s. Which of the following is true about the total flight time?",
+          "options": [
+            "0.37 s",
+            "0.74 s",
+            "Less than 0.74 s",
+            "More than 0.74 s"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "time-up-down-q2",
+          "type": "open_ended",
+          "stem": "Explain why the total flight time for a projectile launched from ground level and landing at the same height is exactly twice the time to maximum height.",
+          "rubric": "Student explains that for same launch and landing height, the vertical motion is symmetric: time to go up equals time to go down because acceleration is constant. (1 point) States that total time is sum of up and down times, so total = 2 * time up. (1 point) Provides a correct explanation using kinematics or symmetry. (1 point) Max 3 points. Pass: at least 2 points."
+        }
+      ],
+      "passRule": "Question 1 correct and Question 2 achieves at least 2 out of 3 rubric points."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-16",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/TrKldrYqhoXqzXxHBmgci1zwneY?from=vc_group_doc_link#doxcnSqyynK3mt0eumHIoqVnlge",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-16 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Projectile motion analysis uses the five standard kinematic equations.；Gravitational acceleration is constant at 9.8 m/s² downward.；Motion is split into independent horizontal and vertical axes.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply kinematic equations to solve for time, displacement, and velocity in two-dimensional projectile motion."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Interpret the independence of horizontal and vertical components in projectile motion."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Decompose initial velocity into horizontal and vertical components for angled launches."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recognize that vertical acceleration is constant at 9.8 m/s² throughout projectile motion, including at maximum height."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Cliff-launch golf ball problem to be completed next class",
+        "studentAction": "Be prepared to continue the cliff-launch problem at the start of next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Unfinished Content: The cliff-launch golf ball problem was not completed as the session reached its scheduled end. Next Session Opening: The remaining cliff-launch golf ball problem will be fully covered at the start of the next scheduled class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "New physics unit to be introduced next class",
+        "studentAction": "Be ready for a new unit introduction in the next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "New Unit Launch: A brand new physics unit will be officially introduced and taught during the class held on the following day.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "proj-motion-principles",
+      "kinematic-eq-2d"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-proj-horizontal-accel",
+        "condition": "student picks option that implies horizontal acceleration exists",
+        "systemAction": "assign reteach module for err-proj-horizontal-accel"
+      },
+      {
+        "errorId": "err-proj-vertical-accel-zero-at-top",
+        "condition": "student picks option that vertical acceleration is zero at maximum height",
+        "systemAction": "assign reteach module for err-proj-vertical-accel-zero-at-top"
+      },
+      {
+        "errorId": "err-proj-component-swap",
+        "condition": "student picks option that swaps sine and cosine",
+        "systemAction": "assign reteach module for err-proj-component-swap"
+      },
+      {
+        "errorId": "err-proj-time-up-down",
+        "condition": "student fails to recognize that time up equals time down for symmetric launches",
+        "systemAction": "assign reteach module for err-proj-time-up-down"
+      }
+    ],
+    "nextActions": [
+      "[err-proj-horizontal-accel] student picks option that implies horizontal acceleration exists: Your answer shows a common misconception about horizontal motion. Let's review why horizontal velocity stays constant.",
+      "[err-proj-vertical-accel-zero-at-top] student picks option that vertical acceleration is zero at maximum height: It's easy to think acceleration stops at the top, but gravity is always acting. Let's clarify.",
+      "[err-proj-component-swap] student picks option that swaps sine and cosine: Remember: horizontal component uses cosine, vertical uses sine. Let's practice.",
+      "[err-proj-time-up-down] student fails to recognize that time up equals time down for symmetric launches: For launches from and to the same height, the upward and downward times are equal. Let's see why."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-proj-q1",
+        "type": "choice",
+        "question": "A ball is thrown horizontally from a cliff. Which statement about its horizontal motion is correct? (Ignore air resistance.)",
+        "options": [
+          "Horizontal acceleration is 0 m/s² and horizontal velocity is constant.",
+          "Horizontal acceleration is 9.8 m/s² downward, so horizontal velocity increases.",
+          "Horizontal acceleration is 9.8 m/s² to the right, so horizontal velocity increases.",
+          "Horizontal velocity decreases because the ball is slowing down."
+        ],
+        "correct": 0,
+        "diagnosis": "Check understanding that horizontal acceleration is zero in projectile motion without air resistance.",
+        "misconceptions": [
+          "✓ 正确",
+          "Gravity only affects vertical motion, not horizontal. Horizontal acceleration is zero.",
+          "There is no horizontal force (ignoring air resistance), so horizontal acceleration is zero.",
+          "Without air resistance, horizontal velocity remains constant. The ball slows vertically, not horizontally."
+        ],
+        "nodeId": "proj-motion-principles",
+        "errorId": "err-proj-horizontal-accel",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that horizontal velocity is constant and no horizontal acceleration exists.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly addresses understanding projectile motion as two independent motions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think horizontal velocity changes due to gravity or that horizontal acceleration is 9.8 m/s².",
+        "remediationModule": "err-proj-horizontal-accel",
+        "retestItem": "err-proj-horizontal-accel"
+      },
+      {
+        "id": "diag-sph3u-proj-q2",
+        "type": "choice",
+        "question": "A soccer ball is kicked upward at an angle. At the highest point of its trajectory, what is the vertical acceleration? (Ignore air resistance.)",
+        "options": [
+          "0 m/s² because the ball is momentarily at rest.",
+          "9.8 m/s² downward.",
+          "9.8 m/s² upward because the ball is about to go down.",
+          "Depends on the initial launch angle."
+        ],
+        "correct": 1,
+        "diagnosis": "Identify that vertical acceleration remains constant (9.8 m/s² downward) throughout projectile motion, even at maximum height.",
+        "misconceptions": [
+          "Although vertical velocity is zero, acceleration due to gravity is constant at 9.8 m/s² downward.",
+          "✓ 正确",
+          "Gravity always points downward. Acceleration doesn't change direction at the top.",
+          "Vertical acceleration is always 9.8 m/s² downward regardless of angle."
+        ],
+        "nodeId": "proj-motion-principles",
+        "errorId": "err-proj-vertical-accel-zero-at-top",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student correctly states that vertical acceleration is 9.8 m/s² downward at all points.",
+        "ossdExpectation": "Demonstrate an understanding of uniform and non-uniform linear motion, in one and two dimensions.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "SPH3U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Checks understanding of constant vertical acceleration in projectile motion.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often think vertical acceleration becomes zero at the top because velocity is zero momentarily.",
+        "remediationModule": "err-proj-vertical-accel-zero-at-top",
+        "retestItem": "err-proj-vertical-accel-zero-at-top"
+      },
+      {
+        "id": "diag-sph3u-proj-q3",
+        "type": "choice",
+        "question": "A projectile is launched with speed 20 m/s at an angle of 30° above horizontal. What are the horizontal and vertical components of initial velocity? (Use sin30°=0.5, cos30°=0.87)",
+        "options": [
+          "Horizontal = 10 m/s, Vertical = 17.4 m/s",
+          "Horizontal = 17.4 m/s, Vertical = 10 m/s",
+          "Horizontal = 17.4 m/s, Vertical = 17.4 m/s",
+          "Horizontal = 10 m/s, Vertical = 10 m/s"
+        ],
+        "correct": 1,
+        "diagnosis": "Check ability to decompose initial velocity into horizontal and vertical components using trigonometric functions.",
+        "misconceptions": [
+          "You swapped sine and cosine. Horizontal uses cosine (20 × 0.87 = 17.4 m/s) and vertical uses sine (20 × 0.5 = 10 m/s).",
+          "✓ 正确",
+          "Components must add up vectorially; they can't both be 17.4 m/s with a 30° angle.",
+          "Check your trigonometric values for 30°."
+        ],
+        "nodeId": "kinematic-eq-2d",
+        "errorId": "err-proj-component-swap",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly uses cosine for horizontal and sine for vertical.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires application of kinematic equations with vector components.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students often swap sine and cosine, using sine for horizontal and cosine for vertical.",
+        "remediationModule": "err-proj-component-swap",
+        "retestItem": "err-proj-component-swap"
+      },
+      {
+        "id": "diag-sph3u-proj-q4",
+        "type": "explain",
+        "question": "A ball is launched from ground level at an angle and returns to the same height. The time to reach maximum height is 1.2 s. What is the total flight time? (Ignore air resistance.)",
+        "correct": null,
+        "diagnosis": "Check understanding that for a symmetrical launch (landing at same height), total time is twice the time to maximum height.",
+        "nodeId": "kinematic-eq-2d",
+        "errorId": "err-proj-time-up-down",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that time up equals time down for symmetric launches, so total time = 2 × time to max height = 2.4 s.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires applying kinematic relationships to find total time.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think total time equals time to max height, or they may try to recalculate from scratch instead of doubling.",
+        "remediationModule": "err-proj-time-up-down",
+        "retestItem": "err-proj-time-up-down"
+      }
+    ]
+  }
+}

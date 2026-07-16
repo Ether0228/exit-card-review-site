@@ -1,0 +1,971 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-16",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/QgyKdCViYoAigwxZCmscQUjonFf?from=vc_group_doc_link#doxcn7zWJgT99jEQC1XlGWToRad",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-16 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/QgyKdCViYoAigwxZCmscQUjonFf?from=vc_group_doc_link#doxcn7zWJgT99jEQC1XlGWToRad",
+    "title": "OLC4O.S6.Keth 2026-07-16 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-16/sources/olc4o-s6-keth-2026-07-16-qgykdcvi/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-16",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-16",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson primarily teaches the skill of making inferences with examples and practice, while also covering course policies and assignment instructions. Academic content dominates but operations are present.",
+    "academicContentSignals": [
+      "Making inferences (阅读推断) definition: combining text evidence with background knowledge",
+      "Show not tell writing technique",
+      "Examples: image of woman with scars, Nicki Minaj text, childhood narrative",
+      "Inference bubbles as a reading strategy"
+    ],
+    "courseOverviewSignals": [
+      "课程总分合格线50分，无分项门槛",
+      "外教评分严格，作业禁止机翻，否则0分",
+      "0分作业可发邮件申请重新提交",
+      "作业材料由老师统一发送至班级群"
+    ],
+    "opsDominanceRisk": "The lesson contains substantial instructional content on making inferences, but also includes several operational reminders about grading, submission, and deadlines. The ops items are important but should not overshadow the academic diagnostic. Ensure the exit card focuses on inference skills, with only 0-2 lightweight readiness checks on key policies.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Reading: Who is Greta Thunberg inference bubbles",
+        "studentAction": "阅读文本，制作5-10个思想推断气泡，完成附带问题，提交至Schoology",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "课后作业具体安排：阅读指定的《Who is Greta Thunberg》主题英文文本... 制作5-10个思想推断气泡... 完成文本配套习题... 提交至Schoology",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "评分标准与翻译禁止政策",
+        "studentAction": "避免使用机器翻译或直接中文直译英文，确保自主完成作业",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "外教的评分标准极为严格... 外教可精准识别直接机翻的内容痕迹... 直接打0分",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "0分作业补救流程",
+        "studentAction": "若作业被判定为机翻得0分，主动向外教发送正式邮件说明情况，申请重新提交",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "已被判定为机翻得0分的作业，可主动向对应外教发送正式邮件，说明情况并申请重新提交",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "阶段作业U1A2预告",
+        "studentAction": "提前准备，待材料发布后及时完成",
+        "deadlineText": "即将发布",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "阶段作业U1A2即将正式发布，全体学员可提前做好相关准备",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "platform_link",
+        "title": "作业材料获取渠道",
+        "studentAction": "关注班级群，等待老师发送材料",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "班级群 (可能是微信或飞书)",
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "材料获取渠道：作业所需文本...将由授课老师统一发送至班级群",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "外教评分极为严格，往年存在常规挂科情况",
+        "reason": "无法确定具体挂科率或是否针对本班，为一般性警告"
+      },
+      {
+        "rawText": "作业截止时间未明确，仅说'本次课程结束后即可启动'",
+        "reason": "未说明具体截止日期，需确认"
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Making Inferences、Understanding Assessment and Personal Responsibility）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Making inferences combines textual clues (explicit information) with background knowledge to understand implied meaning.；Inferences are used in reading to uncover hidden meanings, in writing to 'show not tell', and in daily life to interpret situations.；A picture of a woman with scars and flowers suggests resilience and wisdom; the scars show survival, the flowers show appreciation of life.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Understand that making inferences combines textual clues with background knowledge to understand implied meaning."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply inference strategy to textual and visual examples to uncover hidden meanings."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Distinguish inference from prediction and random guessing."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Recognize personal responsibility regarding course assessment rules, including the prohibition of machine translation."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "OLC4O-A-OE03-inference",
+      "name": "Making Inferences",
+      "nameEn": "Making Inferences",
+      "definition": "The ability to understand implied meaning by combining explicit textual clues with background knowledge. This is a key reading strategy for deeper comprehension.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    },
+    {
+      "id": "OLC4O-C-OE02-assessment-responsibility",
+      "name": "Understanding Assessment and Personal Responsibility",
+      "nameEn": "Understanding Assessment and Personal Responsibility",
+      "definition": "Knowledge of course assessment rules, grading criteria, and the student's role in managing assignments to meet expectations. Includes understanding penalties for prohibited practices like machine translation.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "OLC4O-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of their own roles and responsibilities in the learning process."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Understand that making inferences combines textual clues with background knowledge to understand implied meaning."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply inference strategy to textual and visual examples to uncover hidden meanings."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish inference from prediction and random guessing."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recognize personal responsibility regarding course assessment rules, including the prohibition of machine translation."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-inference-guessing",
+        "condition": "Student picks option that defines inference as random guessing (Q1 wrong).",
+        "systemAction": "Assign reteach module err-inference-guessing: explain inference as evidence-based.",
+        "studentMessage": "Inference is not just guessing. Review how clues and knowledge work together."
+      },
+      {
+        "errorId": "err-inference-only-text",
+        "condition": "Student picks option that ignores background knowledge (Q2 wrong).",
+        "systemAction": "Assign reteach module err-inference-only-text: emphasize necessary background knowledge.",
+        "studentMessage": "Don't forget: background knowledge is essential for making inferences."
+      },
+      {
+        "errorId": "err-inference-prediction",
+        "condition": "Student confuses inference with prediction (Q3 wrong).",
+        "systemAction": "Assign reteach module err-inference-prediction: distinguish inference (current evidence) from prediction (future).",
+        "studentMessage": "Inference is about understanding what is implied now, not guessing what happens next."
+      },
+      {
+        "errorId": "err-translation-acceptable",
+        "condition": "Student believes machine translation is acceptable (Q4 wrong).",
+        "systemAction": "Assign reteach module err-translation-acceptable: restate policy that translation leads to zero.",
+        "studentMessage": "Machine translation is not allowed. Always write in your own words to avoid a score of 0."
+      },
+      {
+        "errorId": "pass",
+        "condition": "All 4 questions correct.",
+        "systemAction": "Mark lesson as mastered; no reteach needed.",
+        "studentMessage": "Great job! You understand inferences and course expectations."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-s6-0716-q1",
+        "nodeId": "OLC4O-A-OE03-inference",
+        "errorId": "err-inference-guessing",
+        "stem": "Which statement best defines making inferences in reading?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that inference combines explicit clues with background knowledge, rather than being random guessing or pure opinion.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses understanding of inference as a reading strategy under OE A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that inference is an evidence-based process, not guesswork.",
+        "commonMisconception": "Students think inference is just random guessing without textual or knowledge support.",
+        "remediationModule": "err-inference-guessing",
+        "retestItem": "err-inference-guessing",
+        "options": [
+          {
+            "label": "A",
+            "text": "Guessing what the author might be thinking without any evidence.",
+            "correct": false,
+            "feedbackWrong": "Inference must be based on clues from the text and your own knowledge, not random guessing."
+          },
+          {
+            "label": "B",
+            "text": "Using only the most obvious information stated directly in the text.",
+            "correct": false,
+            "feedbackWrong": "Inference goes beyond explicit information to find implied meanings."
+          },
+          {
+            "label": "C",
+            "text": "Combining textual clues with your own background knowledge to understand what is implied.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Inference is the process of using clues from the text and your own experience to figure out what is not directly stated."
+          },
+          {
+            "label": "D",
+            "text": "Stating only your personal opinion without referring to the text.",
+            "correct": false,
+            "feedbackWrong": "Inference requires textual evidence, not just personal feeling."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q2",
+        "nodeId": "OLC4O-A-OE03-inference",
+        "errorId": "err-inference-only-text",
+        "stem": "When making an inference, why is background knowledge necessary?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that background knowledge fills gaps not covered by textual clues.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question reinforces the role of background knowledge in OE A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that inference requires both text and prior knowledge.",
+        "commonMisconception": "Students think only the text matters and ignore their own experience or world knowledge.",
+        "remediationModule": "err-inference-only-text",
+        "retestItem": "err-inference-only-text",
+        "options": [
+          {
+            "label": "A",
+            "text": "It is not necessary; the text alone is enough for inference.",
+            "correct": false,
+            "feedbackWrong": "Text alone often doesn't provide enough context; background knowledge helps fill in implied meanings."
+          },
+          {
+            "label": "B",
+            "text": "It helps connect the textual clues to things you already know to understand implied meanings.",
+            "correct": true,
+            "feedbackCorrect": "Exactly! Background knowledge works with text clues to uncover deeper meaning."
+          },
+          {
+            "label": "C",
+            "text": "Background knowledge replaces the need to read the text carefully.",
+            "correct": false,
+            "feedbackWrong": "No, you must still use textual clues; background knowledge supports but doesn't replace the text."
+          },
+          {
+            "label": "D",
+            "text": "It is only needed when the text is difficult, not in simple texts.",
+            "correct": false,
+            "feedbackWrong": "Background knowledge is always relevant; even simple texts may have implied meanings."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q3",
+        "nodeId": "OLC4O-A-OE03-inference",
+        "errorId": "err-inference-prediction",
+        "stem": "How does an inference differ from a prediction?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can distinguish between inference (drawing conclusions from evidence) and prediction (guessing future events).",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analyzing the difference between two reading strategies under OE A3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student can differentiate inference from prediction, a common confusion.",
+        "commonMisconception": "Students often think inference and prediction are the same, or use the terms interchangeably.",
+        "remediationModule": "err-inference-prediction",
+        "retestItem": "err-inference-prediction",
+        "options": [
+          {
+            "label": "A",
+            "text": "Inference is about what happens next; prediction is about hidden meaning.",
+            "correct": false,
+            "feedbackWrong": "That's the opposite. Inference is about hidden meaning, prediction is about future events."
+          },
+          {
+            "label": "B",
+            "text": "Inference draws conclusions from current evidence; prediction forecasts what might happen later.",
+            "correct": true,
+            "feedbackCorrect": "Great! Inference is about understanding what is implied now; prediction is about guessing what will happen next."
+          },
+          {
+            "label": "C",
+            "text": "They are the same thing; both involve educated guessing.",
+            "correct": false,
+            "feedbackWrong": "They are related but different. Inference focuses on present implied meaning; prediction looks forward."
+          },
+          {
+            "label": "D",
+            "text": "Inference is only for fictional texts; prediction is for non-fiction.",
+            "correct": false,
+            "feedbackWrong": "Both can be used in any type of text. The difference is not about genre."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q4",
+        "nodeId": "OLC4O-C-OE02-assessment-responsibility",
+        "errorId": "err-translation-acceptable",
+        "stem": "What is the consequence of submitting an assignment that uses machine translation or direct Chinese-to-English translation?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student knows that such assignments receive a score of 0.",
+        "ossdExpectation": "Demonstrate understanding of their own roles and responsibilities in the learning process.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "OLC4O-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses knowledge of course policy under OE C2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands the strict policy against machine translation.",
+        "commonMisconception": "Students may think machine translation is acceptable or only lightly penalized.",
+        "remediationModule": "err-translation-acceptable",
+        "retestItem": "err-translation-acceptable",
+        "options": [
+          {
+            "label": "A",
+            "text": "It is acceptable as long as you correct some parts.",
+            "correct": false,
+            "feedbackWrong": "No, using machine translation results in a score of 0, even with corrections."
+          },
+          {
+            "label": "B",
+            "text": "The teacher will ask you to resubmit with a small penalty.",
+            "correct": false,
+            "feedbackWrong": "The teacher may allow resubmission, but only if the original score was 0; there is no penalty other than having to redo the work."
+          },
+          {
+            "label": "C",
+            "text": "You will receive a score of 0 for that assignment.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Any direct machine translation or Chinese-to-English literal translation results in a score of 0."
+          },
+          {
+            "label": "D",
+            "text": "You receive a warning but no grade penalty.",
+            "correct": false,
+            "feedbackWrong": "No, the policy is strict: the score is 0, not a warning."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-inference-guessing",
+      "condition": "Student picks option that defines inference as random guessing (Q1 wrong).",
+      "systemAction": "Assign reteach module err-inference-guessing: explain inference as evidence-based.",
+      "studentMessage": "Inference is not just guessing. Review how clues and knowledge work together."
+    },
+    {
+      "errorId": "err-inference-only-text",
+      "condition": "Student picks option that ignores background knowledge (Q2 wrong).",
+      "systemAction": "Assign reteach module err-inference-only-text: emphasize necessary background knowledge.",
+      "studentMessage": "Don't forget: background knowledge is essential for making inferences."
+    },
+    {
+      "errorId": "err-inference-prediction",
+      "condition": "Student confuses inference with prediction (Q3 wrong).",
+      "systemAction": "Assign reteach module err-inference-prediction: distinguish inference (current evidence) from prediction (future).",
+      "studentMessage": "Inference is about understanding what is implied now, not guessing what happens next."
+    },
+    {
+      "errorId": "err-translation-acceptable",
+      "condition": "Student believes machine translation is acceptable (Q4 wrong).",
+      "systemAction": "Assign reteach module err-translation-acceptable: restate policy that translation leads to zero.",
+      "studentMessage": "Machine translation is not allowed. Always write in your own words to avoid a score of 0."
+    },
+    {
+      "errorId": "pass",
+      "condition": "All 4 questions correct.",
+      "systemAction": "Mark lesson as mastered; no reteach needed.",
+      "studentMessage": "Great job! You understand inferences and course expectations."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-inference-guessing",
+      "trigger": "Student chooses 'Guessing what the author might be thinking without any evidence' in diagnostic question 1.",
+      "studentMisunderstanding": "Students think inference is just random guessing without using textual clues or background knowledge.",
+      "miniLesson": {
+        "explain": "Making inferences combines textual clues (explicit information) with background knowledge to understand implied meaning. It is not random guessing; it is evidence-based reasoning. For example, if you see a woman with scars and flowers, the scars are a clue that she has survived hardship, and the flowers suggest she appreciates life. You use your knowledge of what scars and flowers typically mean to infer she is resilient and finds beauty despite pain.",
+        "example": "Picture of a woman with scars and flowers: scars indicate survival, flowers indicate appreciation of life, not hiding scars shows strength.",
+        "memoryAnchor": "Think of a detective: you gather clues from the scene (text) and use your experience (background knowledge) to solve the mystery. You don't guess; you deduce."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Look at the picture of a woman with scars and flowers. What inference can you make about her character?",
+          "answer": "She is resilient and appreciates life; the scars show survival, the flowers show she finds beauty."
+        },
+        {
+          "level": "L2",
+          "prompt": "From the childhood narrative: 'One cold evening in autumn, I ran away from the second house on the corner.' What can you infer about the narrator's home life?",
+          "answer": "The narrator likely had a difficult or unhappy home life, as indicated by running away; the setting suggests a northern location."
+        },
+        {
+          "level": "L3",
+          "prompt": "In the Nicki Minaj text, she uses specific vocabulary and collaborations with other artists. What does this imply about her status in the music industry?",
+          "answer": "It implies she is a leader and respected, as she can collaborate across genres and uses sophisticated language to assert her position."
+        }
+      ]
+    },
+    {
+      "errorId": "err-inference-only-text",
+      "trigger": "Student chooses option that ignores background knowledge in diagnostic question 2.",
+      "studentMisunderstanding": "Students may neglect background knowledge and rely only on explicit text clues.",
+      "miniLesson": {
+        "explain": "Making inferences is a two-step process: you start with explicit clues in the text (words, images, details) and then add your own background knowledge to understand what is implied. If you only use the text, you miss the deeper meaning because many implications depend on what you already know about the world.",
+        "example": "Look at the woman with scars and flowers. The text tells you she has scars and flowers, but to infer resilience and wisdom, you need background knowledge that scars often result from surviving hardship, and flowers can symbolize appreciation of life. Without that knowledge, you only see a woman with marks and plants.",
+        "memoryAnchor": "Text + Knowledge = Inference. Never leave your brain behind—use what you know to decode what isn't said."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Read: 'One cold evening in autumn, she ran away from the second house from the corner.' Which background knowledge helps infer a northern location?",
+          "answer": "Knowing that autumn evenings are cold in northern regions (like Canada) helps infer that the setting is likely in a northern climate."
+        },
+        {
+          "level": "L2",
+          "prompt": "Nicki Minaj's text uses 'cross-genre collaborations' and specific vocabulary. Without background knowledge of hip-hop, what might you miss?",
+          "answer": "Without knowledge of hip-hop culture, you might not know that cross-genre collaborations imply high status and respect. You would only see a list of features, not the inference of her leadership."
+        },
+        {
+          "level": "L3",
+          "prompt": "Your homework asks for 5–10 thought bubbles on 'Who is Greta Thunberg?' For one bubble, combine a textual clue (e.g., 'she started a school strike') with background knowledge to infer something about her character.",
+          "answer": "Text clue: 'she started a school strike.' Background knowledge: striking is a form of protest usually done by adults. Inference: Greta is determined and willing to break norms to fight for climate action."
+        }
+      ]
+    },
+    {
+      "errorId": "err-inference-prediction",
+      "trigger": "Student confuses inference with prediction on diagnosis question (Q3).",
+      "studentMisunderstanding": "Students think inference and prediction are the same, or they swap their meanings: they believe inference is about future events and prediction is about hidden meanings.",
+      "miniLesson": {
+        "explain": "Inference draws conclusions from current textual clues and background knowledge to understand implied meaning. Prediction, on the other hand, is an educated guess about what will happen next in the text. The key difference is time: inference is about what is implied now; prediction is about what might happen later. Both use evidence, but inference focuses on present implicit meaning, while prediction looks forward.",
+        "example": "Consider the childhood narrative: 'One cold evening in autumn, I ran away from the second house from the corner.' An inference from this clue is that the narrator lives in a northern climate (because of the cold evening) and might have a difficult family situation (because they ran away). A prediction would be that the narrator will encounter a neighbor or get lost next. So inference explains what is not directly stated about the current situation; prediction guesses what comes next.",
+        "memoryAnchor": "Remember: INFERENCE = 'reading between the lines' (now), PREDICTION = 'crystal ball' (future)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Read this sentence: 'She clenched her fists and glared at the broken vase.' Is the following statement an inference or a prediction? 'She is angry.' Answer with either 'inference' or 'prediction'.",
+          "answer": "inference"
+        },
+        {
+          "level": "L2",
+          "prompt": "Write one inference and one prediction based on this sentence: 'The boy looked at the dark clouds gathering overhead and sighed.' Use the format: Inference: [your inference]; Prediction: [your prediction].",
+          "answer": "Inference: The boy is disappointed or worried because the clouds suggest rain will ruin his plans. Prediction: It will rain soon."
+        },
+        {
+          "level": "L3",
+          "prompt": "Using the childhood narrative example from class: 'One cold evening in autumn, I ran away from the second house from the corner. I didn't look back until I reached the park.' Identify one inference about the narrator's emotional state at the beginning and one prediction about what might happen next. Write your answers as 'Inference: [inference]' and 'Prediction: [prediction]'.",
+          "answer": "Inference: The narrator feels scared or desperate to leave. Prediction: The narrator will stop at the park to rest or think."
+        }
+      ]
+    },
+    {
+      "errorId": "err-translation-acceptable",
+      "trigger": "Student believes that using machine translation or direct translation is acceptable for assignments.",
+      "studentMisunderstanding": "Students may think that using machine translation tools or directly translating from Chinese to English is acceptable. They need to understand that such practices result in a score of 0 and that they must write in their own words.",
+      "miniLesson": {
+        "explain": "Using machine translation or direct Chinese-to-English translation is prohibited. Any assignment submitted with such translations will receive a score of 0. This policy is in place to ensure you develop your own English writing skills. If you receive a 0 for this reason, you may email the teacher to request a resubmission.",
+        "example": "For example, if you copy a sentence from a Chinese article and use Google Translate to convert it to English and submit it, that assignment will receive a 0.",
+        "memoryAnchor": "Think of it like a traffic light: green means use your own words, red means machine translation leads to a 0."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What happens if you submit an assignment that uses machine translation?",
+          "answer": "You get a score of 0."
+        },
+        {
+          "level": "L2",
+          "prompt": "Your friend says it's okay to use Google Translate to help with homework. Explain why this is not allowed.",
+          "answer": "Using machine translation results in a 0 because the teacher wants to see our own English writing. We can email the teacher to resubmit if we get a 0 for that reason."
+        },
+        {
+          "level": "L3",
+          "prompt": "Describe the correct process if you accidentally submit a machine-translated assignment. What should you do?",
+          "answer": "You should email the teacher to explain and request resubmission. Then rewrite the assignment in your own words and submit again. Remember that the original will be scored 0."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-inference-guessing",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "What is the main difference between making an inference and random guessing?",
+          "options": [
+            "Inference is based only on personal feelings.",
+            "Inference combines clues from the text with your own knowledge.",
+            "Inference is just predicting what happens next.",
+            "Inference requires no evidence."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Consider the following scenario: You see a picture of a woman with visible scars on her face, and she is gently holding a bouquet of flowers. Make two inferences about this woman. For each inference, state the textual clue (what you see) and the background knowledge you used.",
+          "rubric": "Student provides two distinct inferences. Each inference includes: (a) a specific textual clue, (b) relevant background knowledge, (c) a logical conclusion. Example: Inference 1: She is a survivor. Clue: scars. Knowledge: scars often result from injuries or surgeries. Inference 2: She appreciates life/brings beauty. Clue: flowers. Knowledge: flowers are often associated with beauty and appreciation. Full credit for two well-supported inferences; partial credit for one."
+        }
+      ],
+      "passRule": "Question 1 must be answered correctly AND Question 2 must receive full credit (2 out of 2 inferences correctly supported)."
+    },
+    {
+      "forErrorId": "err-inference-only-text",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Read the following sentence: 'The old man sat on the park bench, his calloused hands resting on a worn cane, a distant look in his eyes.' Which inference BEST combines text clues with background knowledge?",
+          "options": [
+            "The man is sitting on a park bench (text only).",
+            "The man is old and has calloused hands, so he likely worked hard physically for many years, and his distant look suggests he is reminiscing (combines text and background).",
+            "The man is probably waiting for someone (background only, no text support for waiting).",
+            "The man is wearing a hat (not mentioned in text)."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain how your background knowledge helps you infer the meaning in the sentence from question 1. What specific knowledge did you use?",
+          "rubric": "Student must identify specific background knowledge: e.g., calloused hands are common in manual labor, old age often brings reflection, a distant look often means thinking about the past. They must show that they added knowledge to the text clues, not just restated the text."
+        }
+      ],
+      "passRule": "Student must answer q1 correctly (option index 1) and provide a satisfactory answer for q2 that demonstrates use of background knowledge beyond text paraphrasing."
+    },
+    {
+      "forErrorId": "err-inference-prediction",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is an inference, not a prediction?",
+          "options": [
+            "The character will win the race because she is fast.",
+            "The character is nervous because she keeps biting her lip.",
+            "The story will end happily after the conflict is resolved.",
+            "The setting will be revealed to be a dream."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Read: 'The old man stared at the empty chair across from him, then sighed and turned away.' Write one inference about the man's feelings and one prediction about what might happen next. Clearly label which is inference and which is prediction.",
+          "rubric": "Student must provide one inference (a plausible conclusion about current implied meaning based on clues) and one prediction (a plausible future event). Both must be labeled correctly. Partial credit if labeling is correct but content is weak; full credit for clear, reasonable responses that differentiate the two."
+        }
+      ],
+      "passRule": "Student must answer Q1 correctly and provide a valid inference and prediction with correct labels in Q2 (at least 2/3 marks)."
+    },
+    {
+      "forErrorId": "err-translation-acceptable",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "What is the penalty for submitting an assignment that uses machine translation or direct Chinese-to-English translation?",
+          "options": [
+            "A score of 0",
+            "A deduction of 10%",
+            "A warning but no penalty",
+            "A chance to resubmit without penalty"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "If you receive a score of 0 because of machine translation, what should you do to remedy the situation?",
+          "rubric": "The student should state that they can email the teacher to request a resubmission, then rewrite the assignment in their own words and resubmit. Accept any reasonable paraphrase of this process."
+        }
+      ],
+      "passRule": "Answer both questions correctly. For the open-ended question, the answer must mention emailing the teacher and rewriting in own words."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-16",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/QgyKdCViYoAigwxZCmscQUjonFf?from=vc_group_doc_link#doxcn7zWJgT99jEQC1XlGWToRad",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-16 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Making inferences combines textual clues (explicit information) with background knowledge to understand implied meaning.；Inferences are used in reading to uncover hidden meanings, in writing to 'show not tell', and in daily life to interpret situations.；A picture of a woman with scars and flowers suggests resilience and wisdom; the scars show survival, the flowers show appreciation of life.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Understand that making inferences combines textual clues with background knowledge to understand implied meaning."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply inference strategy to textual and visual examples to uncover hidden meanings."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish inference from prediction and random guessing."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recognize personal responsibility regarding course assessment rules, including the prohibition of machine translation."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Reading: Who is Greta Thunberg inference bubbles",
+        "studentAction": "阅读文本，制作5-10个思想推断气泡，完成附带问题，提交至Schoology",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "课后作业具体安排：阅读指定的《Who is Greta Thunberg》主题英文文本... 制作5-10个思想推断气泡... 完成文本配套习题... 提交至Schoology",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "评分标准与翻译禁止政策",
+        "studentAction": "避免使用机器翻译或直接中文直译英文，确保自主完成作业",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "外教的评分标准极为严格... 外教可精准识别直接机翻的内容痕迹... 直接打0分",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "0分作业补救流程",
+        "studentAction": "若作业被判定为机翻得0分，主动向外教发送正式邮件说明情况，申请重新提交",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "已被判定为机翻得0分的作业，可主动向对应外教发送正式邮件，说明情况并申请重新提交",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "阶段作业U1A2预告",
+        "studentAction": "提前准备，待材料发布后及时完成",
+        "deadlineText": "即将发布",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "阶段作业U1A2即将正式发布，全体学员可提前做好相关准备",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "platform_link",
+        "title": "作业材料获取渠道",
+        "studentAction": "关注班级群，等待老师发送材料",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "班级群 (可能是微信或飞书)",
+        "link": null,
+        "appliesTo": "全体学生",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "材料获取渠道：作业所需文本...将由授课老师统一发送至班级群",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "外教评分极为严格，往年存在常规挂科情况",
+        "reason": "无法确定具体挂科率或是否针对本班，为一般性警告"
+      },
+      {
+        "rawText": "作业截止时间未明确，仅说'本次课程结束后即可启动'",
+        "reason": "未说明具体截止日期，需确认"
+      }
+    ],
+    "watchTags": [
+      "OLC4O-A-OE03-inference",
+      "OLC4O-C-OE02-assessment-responsibility"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-inference-guessing",
+        "condition": "Student picks option that defines inference as random guessing (Q1 wrong).",
+        "systemAction": "Assign reteach module err-inference-guessing: explain inference as evidence-based."
+      },
+      {
+        "errorId": "err-inference-only-text",
+        "condition": "Student picks option that ignores background knowledge (Q2 wrong).",
+        "systemAction": "Assign reteach module err-inference-only-text: emphasize necessary background knowledge."
+      },
+      {
+        "errorId": "err-inference-prediction",
+        "condition": "Student confuses inference with prediction (Q3 wrong).",
+        "systemAction": "Assign reteach module err-inference-prediction: distinguish inference (current evidence) from prediction (future)."
+      },
+      {
+        "errorId": "err-translation-acceptable",
+        "condition": "Student believes machine translation is acceptable (Q4 wrong).",
+        "systemAction": "Assign reteach module err-translation-acceptable: restate policy that translation leads to zero."
+      },
+      {
+        "errorId": "pass",
+        "condition": "All 4 questions correct.",
+        "systemAction": "Mark lesson as mastered; no reteach needed."
+      }
+    ],
+    "nextActions": [
+      "[err-inference-guessing] Student picks option that defines inference as random guessing (Q1 wrong).: Inference is not just guessing. Review how clues and knowledge work together.",
+      "[err-inference-only-text] Student picks option that ignores background knowledge (Q2 wrong).: Don't forget: background knowledge is essential for making inferences.",
+      "[err-inference-prediction] Student confuses inference with prediction (Q3 wrong).: Inference is about understanding what is implied now, not guessing what happens next.",
+      "[err-translation-acceptable] Student believes machine translation is acceptable (Q4 wrong).: Machine translation is not allowed. Always write in your own words to avoid a score of 0.",
+      "[pass] All 4 questions correct.: Great job! You understand inferences and course expectations."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-s6-0716-q1",
+        "type": "choice",
+        "question": "Which statement best defines making inferences in reading?",
+        "options": [
+          "Guessing what the author might be thinking without any evidence.",
+          "Using only the most obvious information stated directly in the text.",
+          "Combining textual clues with your own background knowledge to understand what is implied.",
+          "Stating only your personal opinion without referring to the text."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student understands that inference is an evidence-based process, not guesswork.",
+        "misconceptions": [
+          "Inference must be based on clues from the text and your own knowledge, not random guessing.",
+          "Inference goes beyond explicit information to find implied meanings.",
+          "✓ Correct! Inference is the process of using clues from the text and your own experience to figure out what is not directly stated.",
+          "Inference requires textual evidence, not just personal feeling."
+        ],
+        "nodeId": "OLC4O-A-OE03-inference",
+        "errorId": "err-inference-guessing",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that inference combines explicit clues with background knowledge, rather than being random guessing or pure opinion.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses understanding of inference as a reading strategy under OE A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think inference is just random guessing without textual or knowledge support.",
+        "remediationModule": "err-inference-guessing",
+        "retestItem": "err-inference-guessing"
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q2",
+        "type": "choice",
+        "question": "When making an inference, why is background knowledge necessary?",
+        "options": [
+          "It is not necessary; the text alone is enough for inference.",
+          "It helps connect the textual clues to things you already know to understand implied meanings.",
+          "Background knowledge replaces the need to read the text carefully.",
+          "It is only needed when the text is difficult, not in simple texts."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that inference requires both text and prior knowledge.",
+        "misconceptions": [
+          "Text alone often doesn't provide enough context; background knowledge helps fill in implied meanings.",
+          "✓ Exactly! Background knowledge works with text clues to uncover deeper meaning.",
+          "No, you must still use textual clues; background knowledge supports but doesn't replace the text.",
+          "Background knowledge is always relevant; even simple texts may have implied meanings."
+        ],
+        "nodeId": "OLC4O-A-OE03-inference",
+        "errorId": "err-inference-only-text",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that background knowledge fills gaps not covered by textual clues.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question reinforces the role of background knowledge in OE A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think only the text matters and ignore their own experience or world knowledge.",
+        "remediationModule": "err-inference-only-text",
+        "retestItem": "err-inference-only-text"
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q3",
+        "type": "choice",
+        "question": "How does an inference differ from a prediction?",
+        "options": [
+          "Inference is about what happens next; prediction is about hidden meaning.",
+          "Inference draws conclusions from current evidence; prediction forecasts what might happen later.",
+          "They are the same thing; both involve educated guessing.",
+          "Inference is only for fictional texts; prediction is for non-fiction."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can differentiate inference from prediction, a common confusion.",
+        "misconceptions": [
+          "That's the opposite. Inference is about hidden meaning, prediction is about future events.",
+          "✓ Great! Inference is about understanding what is implied now; prediction is about guessing what will happen next.",
+          "They are related but different. Inference focuses on present implied meaning; prediction looks forward.",
+          "Both can be used in any type of text. The difference is not about genre."
+        ],
+        "nodeId": "OLC4O-A-OE03-inference",
+        "errorId": "err-inference-prediction",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can distinguish between inference (drawing conclusions from evidence) and prediction (guessing future events).",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analyzing the difference between two reading strategies under OE A3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students often think inference and prediction are the same, or use the terms interchangeably.",
+        "remediationModule": "err-inference-prediction",
+        "retestItem": "err-inference-prediction"
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q4",
+        "type": "choice",
+        "question": "What is the consequence of submitting an assignment that uses machine translation or direct Chinese-to-English translation?",
+        "options": [
+          "It is acceptable as long as you correct some parts.",
+          "The teacher will ask you to resubmit with a small penalty.",
+          "You will receive a score of 0 for that assignment.",
+          "You receive a warning but no grade penalty."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student understands the strict policy against machine translation.",
+        "misconceptions": [
+          "No, using machine translation results in a score of 0, even with corrections.",
+          "The teacher may allow resubmission, but only if the original score was 0; there is no penalty other than having to redo the work.",
+          "✓ Correct. Any direct machine translation or Chinese-to-English literal translation results in a score of 0.",
+          "No, the policy is strict: the score is 0, not a warning."
+        ],
+        "nodeId": "OLC4O-C-OE02-assessment-responsibility",
+        "errorId": "err-translation-acceptable",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student knows that such assignments receive a score of 0.",
+        "ossdExpectation": "Demonstrate understanding of their own roles and responsibilities in the learning process.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "OLC4O-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses knowledge of course policy under OE C2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think machine translation is acceptable or only lightly penalized.",
+        "remediationModule": "err-translation-acceptable",
+        "retestItem": "err-translation-acceptable"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1290 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-16",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/BV0ZdvbIVo0kVfx3t9Ucze50nqc?from=vc_group_doc_link#doxcnDKzUpUTcGIcp2Xz7AMuP9g",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-16 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/BV0ZdvbIVo0kVfx3t9Ucze50nqc?from=vc_group_doc_link#doxcnDKzUpUTcGIcp2Xz7AMuP9g",
+    "title": "MHF4U.S6.Taylor 2026-07-16 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-16/sources/mhf4u-s6-taylor-2026-07-16/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-16",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-16",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes new instruction on sum/difference of cubes factoring, review of factoring techniques (synthetic division, rational root theorem, quartic substitution), homework walkthrough, and detailed quiz briefing for upcoming Unit 1 Quiz.",
+    "academicContentSignals": [
+      "synthetic division of polynomials",
+      "rational root theorem for high-degree polynomials",
+      "long division of polynomials",
+      "quartic substitution factoring (quadratic in disguise)",
+      "factoring linear and quadratic polynomials (GCF, trinomial factoring, decomposition, difference of squares)",
+      "sum of cubes formula a³+b³=(a+b)(a²-ab+b²)",
+      "difference of cubes formula a³-b³=(a-b)(a²+ab+b²)",
+      "iterative factoring using difference of cubes (x⁹-512)",
+      "factoring 5th-degree polynomial using rational root theorem and long division"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "The lesson contains many operational items (quiz rules, homework, submission requirements, camera policy) that could overshadow the academic content in diagnostic generation. Care should be taken to ensure the exit card primarily tests factoring methods (synthetic division, sum/difference of cubes, rational root theorem, quartic substitution) and includes at most one or two lightweight readiness checks on quiz logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Unfinished Homework Solutions Sent",
+        "studentAction": "Check for solutions to questions 10-12",
+        "deadlineText": "by end of day 2026-07-16",
+        "deadlineISO": "2026-07-16T23:59:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Taylor Cavers confirms full solutions will be sent to all students before the end of the day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Quiz Date",
+        "studentAction": "Attend next class for quiz; keep camera on",
+        "deadlineText": "next class (date not specified)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "quiz will occupy the entire length of the next class session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Permitted Materials for Quiz",
+        "studentAction": "Bring only standard non-graphing calculator; no notes, internet, or digital writing tools",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Only standard non-graphing calculators are permitted; all notes, internet access and digital writing tools are explicitly banned.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "attendance_camera",
+        "title": "Camera On During Quiz",
+        "studentAction": "Keep camera on for full quiz duration",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students must keep their camera on for the full duration of the quiz",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Quiz Submission Format",
+        "studentAction": "Handwrite answers on light-colored paper; do not submit digitally",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All responses must be handwritten on any type of light-colored paper... no digital submissions allowed.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "exam_requirement",
+        "title": "Quiz Scoring: Show Full Work",
+        "studentAction": "Include full step-by-step work and 'therefore' statements for application questions",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Full step-by-step work must be shown... marks will be deducted for missing work or absent 'therefore' statements.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "assignment",
+        "title": "Homework: Lesson 7 Practice Exercises",
+        "studentAction": "Complete assigned practice exercises for Unit 1 Lesson 7",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Complete the assigned practice exercises for Unit 1 Lesson 7",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "assignment",
+        "title": "Class Exit Card Submission",
+        "studentAction": "Submit the required class exit card",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Submit the required class exit card",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-009",
+        "category": "assignment",
+        "title": "Discussion Question on Course Platform",
+        "studentAction": "Complete and post discussion question on course platform",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": "course platform (unspecified)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "complete the posted discussion question on the course platform before the next class session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-010",
+        "category": "follow_up_action",
+        "title": "Questions About Course Content or Quiz",
+        "studentAction": "Send email to Taylor Cavers for questions",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students with any questions... can send an email to Taylor Cavers",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-011",
+        "category": "class_policy",
+        "title": "Factoring Method Policy: Simple Trinomials",
+        "studentAction": "Do not use decomposition for simple trinomials with leading coefficient 1; use straightforward factoring",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Taylor Cavers explicitly notes that students must not use decomposition for simple trinomials with a leading coefficient of 1, as improper usage signals low mastery or potential AI reliance.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Platform for sending solutions to questions 10-12 is not specified",
+        "reason": "The note says 'full solutions will be sent to all students before the end of the day' but does not specify whether via email, course platform, or other means."
+      },
+      {
+        "rawText": "Platform for discussion question is unspecified",
+        "reason": "The note says 'complete the posted discussion question on the course platform' but does not name the platform."
+      },
+      {
+        "rawText": "Details of the required class exit card are vague",
+        "reason": "The note says 'Submit the required class exit card' but does not describe what the exit card is or how to access it."
+      },
+      {
+        "rawText": "Next class date for quiz is not given",
+        "reason": "The quiz is scheduled for the next class session, but the specific date is not provided."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Sum and Difference of Cubes、Synthetic Division、Factoring Polynomials (Review and Advanced)）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Sum of cubes formula: a³ + b³ = (a + b)(a² - ab + b²).；Difference of cubes formula: a³ - b³ = (a - b)(a² + ab + b²).；Synthetic division is a shortcut for dividing a polynomial by a linear factor of the form (x - c).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Factor sums and differences of cubes, synthetic division, and apply advanced factoring strategies to polynomial expressions."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Identify and correct common errors in polynomial factoring, including sign mistakes, missing coefficients, incomplete factoring, and misuse of methods."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "node-factoring-sum-diff-cubes",
+      "name": "Sum and Difference of Cubes",
+      "nameEn": "Sum and Difference of Cubes",
+      "definition": "Formulas for factoring expressions of the form a³ + b³ and a³ - b³: a³ + b³ = (a+b)(a² - ab + b²); a³ - b³ = (a-b)(a² + ab + b²).",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    },
+    {
+      "id": "node-synthetic-division",
+      "name": "Synthetic Division",
+      "nameEn": "Synthetic Division",
+      "definition": "A shorthand method of polynomial division for dividing by a linear factor (x - c), using only the coefficients.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    },
+    {
+      "id": "node-factoring-techniques",
+      "name": "Factoring Polynomials (Review and Advanced)",
+      "nameEn": "Factoring Polynomials",
+      "definition": "Methods to factor polynomials including GCF, trinomial factoring, difference of squares, quartic substitution, rational root theorem, and iterative factoring.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Factor sums and differences of cubes, synthetic division, and apply advanced factoring strategies to polynomial expressions."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify and correct common errors in polynomial factoring, including sign mistakes, missing coefficients, incomplete factoring, and misuse of methods."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-sum-cubes-sign",
+        "condition": "Student picks wrong option on Q1 (err-sum-cubes-sign target)",
+        "systemAction": "Assign reteach module for err-sum-cubes-sign",
+        "studentMessage": "The sign in the sum-of-cubes trinomial can be tricky. Let's practice identifying the correct pattern."
+      },
+      {
+        "errorId": "err-synthetic-division-coefficients",
+        "condition": "Student picks wrong option on Q2 (err-synthetic-division-coefficients target)",
+        "systemAction": "Assign reteach module for err-synthetic-division-coefficients",
+        "studentMessage": "Setting up synthetic division correctly is key. Let's review how to handle missing terms."
+      },
+      {
+        "errorId": "err-factoring-incomplete",
+        "condition": "Student picks wrong option on Q3 (err-factoring-incomplete target)",
+        "systemAction": "Assign reteach module for err-factoring-incomplete",
+        "studentMessage": "Factoring sometimes requires more than one step. Let's check when to keep going."
+      },
+      {
+        "errorId": "err-quartic-substitution-neglect",
+        "condition": "Student picks wrong option on Q4 (err-quartic-substitution-neglect target)",
+        "systemAction": "Assign reteach module for err-quartic-substitution-neglect",
+        "studentMessage": "Recognizing a quadratic in disguise can save time. Let's practice spotting the substitution."
+      },
+      {
+        "errorId": "err-simple-trinomial-decomposition",
+        "condition": "Student picks wrong option on Q5 (err-simple-trinomial-decomposition target)",
+        "systemAction": "Assign reteach module for err-simple-trinomial-decomposition",
+        "studentMessage": "Simple trinomials have a straightforward factoring method. Let's avoid overcomplicating."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-s6-0716-q1",
+        "nodeId": "node-factoring-sum-diff-cubes",
+        "errorId": "err-sum-cubes-sign",
+        "stem": "Factor 27x³ + 125 completely. Which of the following is the correct factorization?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the sum-of-cubes formula with proper signs.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Sum of cubes is a polynomial factoring technique used to solve polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows the correct signs in the sum-of-cubes formula: (a+b)(a² - ab + b²).",
+        "commonMisconception": "Student may think the middle term is +ab (for sum) or misplace signs.",
+        "remediationModule": "err-sum-cubes-sign",
+        "retestItem": "err-sum-cubes-sign",
+        "options": [
+          {
+            "label": "A",
+            "text": "(3x + 5)(9x² - 15x + 25)",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "(3x + 5)(9x² + 15x + 25)",
+            "correct": false,
+            "feedbackWrong": "Sum of cubes formula has a minus sign in the middle term: (a+b)(a² - ab + b²). You chose +ab."
+          },
+          {
+            "label": "C",
+            "text": "(3x - 5)(9x² + 15x + 25)",
+            "correct": false,
+            "feedbackWrong": "This looks like difference of cubes, but the original expression is a sum. Also check the sign of the binomial."
+          },
+          {
+            "label": "D",
+            "text": "(3x + 5)(9x² - 30x + 25)",
+            "correct": false,
+            "feedbackWrong": "The constant term 25 is correct, but the middle term should be -ab = -15x, not -30x."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0716-q2",
+        "nodeId": "node-synthetic-division",
+        "errorId": "err-synthetic-division-coefficients",
+        "stem": "To divide x³ + 2x² - 5x - 6 by (x - 2) using synthetic division, what is the correct row of coefficients to use?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly lists coefficients including zeros for missing terms.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Synthetic division is a technique for dividing polynomials, used in solving polynomial equations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student includes all coefficients, especially zeros for missing terms.",
+        "commonMisconception": "Student may omit zero coefficients, e.g., for x² term if missing, or for x¹ term if the polynomial is not in standard form.",
+        "remediationModule": "err-synthetic-division-coefficients",
+        "retestItem": "err-synthetic-division-coefficients",
+        "options": [
+          {
+            "label": "A",
+            "text": "1, 2, -5, -6",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "1, 2, -5, -6, 0",
+            "correct": false,
+            "feedbackWrong": "The polynomial is degree 3, so there should be exactly 4 coefficients. No extra zero needed. However, if a term were missing (e.g., no x² term), you would add a zero."
+          },
+          {
+            "label": "C",
+            "text": "1, 2, -5",
+            "correct": false,
+            "feedbackWrong": "You omitted the constant term -6. All coefficients from highest degree to constant must be included."
+          },
+          {
+            "label": "D",
+            "text": "2, -5, -6",
+            "correct": false,
+            "feedbackWrong": "You omitted the leading coefficient of the x³ term, which is 1."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0716-q3",
+        "nodeId": "node-factoring-techniques",
+        "errorId": "err-factoring-incomplete",
+        "stem": "Factor x⁹ - 512 completely. How many times must the difference of cubes formula be applied?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that x⁹ - 512 requires iterative application (first step: (x³)³ - 8³, then factor further).",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Factoring high-degree polynomials often requires multiple steps, which is part of solving polynomial equations.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student realizes that factoring may not be complete after one application; they need to check if further factoring is possible.",
+        "commonMisconception": "Student may apply difference of cubes once and stop, not realizing that the resulting factor (x⁶ + 8x³ + 64) is not further factorable over integers, but the second factor (x³ - 8) can be factored again.",
+        "remediationModule": "err-factoring-incomplete",
+        "retestItem": "err-factoring-incomplete",
+        "options": [
+          {
+            "label": "A",
+            "text": "0",
+            "correct": false,
+            "feedbackWrong": "The expression is a difference of cubes, so it can be factored at least once."
+          },
+          {
+            "label": "B",
+            "text": "1",
+            "correct": false,
+            "feedbackWrong": "After factoring x⁹ - 512 = (x³ - 8)(x⁶ + 8x³ + 64), the factor x³ - 8 is itself a difference of cubes and can be factored further."
+          },
+          {
+            "label": "C",
+            "text": "2",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "D",
+            "text": "3",
+            "correct": false,
+            "feedbackWrong": "Two applications are enough: x⁹ - 512 = (x - 2)(x² + 2x + 4)(x⁶ + 8x³ + 64). The trinomial factors do not factor further over integers."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0716-q4",
+        "nodeId": "node-factoring-techniques",
+        "errorId": "err-quartic-substitution-neglect",
+        "stem": "Which substitution would you use to factor x⁴ + 4x² - 5?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that letting y = x² transforms the quartic into a quadratic in y.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Substitution is a technique for factoring higher-degree polynomials that resemble quadratics.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can identify a quadratic in disguise and choose an appropriate substitution.",
+        "commonMisconception": "Student may not recognize that the exponent pattern allows for substitution, or may try to use synthetic division unnecessarily.",
+        "remediationModule": "err-quartic-substitution-neglect",
+        "retestItem": "err-quartic-substitution-neglect",
+        "options": [
+          {
+            "label": "A",
+            "text": "y = x²",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "y = x",
+            "correct": false,
+            "feedbackWrong": "Substituting y = x gives a fourth-degree polynomial, not a quadratic. The key is that the exponents are 4 and 2, so let y = x²."
+          },
+          {
+            "label": "C",
+            "text": "y = x³",
+            "correct": false,
+            "feedbackWrong": "This would not simplify the expression to a quadratic in y. The pattern x⁴ and x² suggests y = x²."
+          },
+          {
+            "label": "D",
+            "text": "y = x + 1",
+            "correct": false,
+            "feedbackWrong": "There is no obvious substitution of the form x + c that simplifies the factoring."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0716-q5",
+        "nodeId": "node-factoring-techniques",
+        "errorId": "err-simple-trinomial-decomposition",
+        "stem": "Which method is most efficient for factoring x² + 7x + 12?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies the correct method for a simple trinomial: find two numbers that multiply to 12 and add to 7.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Choosing the correct factoring method is essential for solving polynomial equations efficiently.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check if student knows that simple trinomials (leading coefficient 1) should be factored by finding two numbers whose product is c and sum is b, not by decomposition.",
+        "commonMisconception": "Student may incorrectly use decomposition (splitting the middle term) even when the leading coefficient is 1, indicating a lack of fluency or over-reliance on a memorized procedure.",
+        "remediationModule": "err-simple-trinomial-decomposition",
+        "retestItem": "err-simple-trinomial-decomposition",
+        "options": [
+          {
+            "label": "A",
+            "text": "Decomposition (split the middle term)",
+            "correct": false,
+            "feedbackWrong": "Decomposition is for trinomials with leading coefficient not 1. For x² + bx + c, simply find two numbers that multiply to c and add to b."
+          },
+          {
+            "label": "B",
+            "text": "Find two numbers that multiply to 12 and add to 7",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "Synthetic division by a root",
+            "correct": false,
+            "feedbackWrong": "Synthetic division is for dividing by a linear factor, not for factoring a simple quadratic directly."
+          },
+          {
+            "label": "D",
+            "text": "Difference of squares",
+            "correct": false,
+            "feedbackWrong": "This is not a difference of squares; it's a sum of terms."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-sum-cubes-sign",
+      "condition": "Student picks wrong option on Q1 (err-sum-cubes-sign target)",
+      "systemAction": "Assign reteach module for err-sum-cubes-sign",
+      "studentMessage": "The sign in the sum-of-cubes trinomial can be tricky. Let's practice identifying the correct pattern."
+    },
+    {
+      "errorId": "err-synthetic-division-coefficients",
+      "condition": "Student picks wrong option on Q2 (err-synthetic-division-coefficients target)",
+      "systemAction": "Assign reteach module for err-synthetic-division-coefficients",
+      "studentMessage": "Setting up synthetic division correctly is key. Let's review how to handle missing terms."
+    },
+    {
+      "errorId": "err-factoring-incomplete",
+      "condition": "Student picks wrong option on Q3 (err-factoring-incomplete target)",
+      "systemAction": "Assign reteach module for err-factoring-incomplete",
+      "studentMessage": "Factoring sometimes requires more than one step. Let's check when to keep going."
+    },
+    {
+      "errorId": "err-quartic-substitution-neglect",
+      "condition": "Student picks wrong option on Q4 (err-quartic-substitution-neglect target)",
+      "systemAction": "Assign reteach module for err-quartic-substitution-neglect",
+      "studentMessage": "Recognizing a quadratic in disguise can save time. Let's practice spotting the substitution."
+    },
+    {
+      "errorId": "err-simple-trinomial-decomposition",
+      "condition": "Student picks wrong option on Q5 (err-simple-trinomial-decomposition target)",
+      "systemAction": "Assign reteach module for err-simple-trinomial-decomposition",
+      "studentMessage": "Simple trinomials have a straightforward factoring method. Let's avoid overcomplicating."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-sum-cubes-sign",
+      "trigger": "Student selects an incorrect factorization for a sum of cubes problem, mixing up the sign of the middle term.",
+      "studentMisunderstanding": "The student confuses the sign of the middle term in the sum of cubes formula. For a³ + b³, the correct trinomial is a² - ab + b² (minus ab), but the student may think it is a² + ab + b² (plus ab).",
+      "miniLesson": {
+        "explain": "The sum of cubes formula is a³ + b³ = (a + b)(a² - ab + b²). Notice the middle term is -ab (minus a times b). This is opposite to what you might expect from expanding (a+b)(a²+ab+b²) which would give a³+2a²b+2ab²+b³, not a³+b³. The correct factorization comes from the identity a³+b³ = (a+b)(a² - ab + b²). Remember: 'Same sign, opposite sign, always plus' - the binomial has the same sign as the sum, the trinomial has the opposite sign for the middle term, and the last term is always positive.",
+        "example": "Factor 27x³ + 125. Here a=3x, b=5. Apply formula: (3x+5)((3x)² - (3x)(5) + 5²) = (3x+5)(9x² - 15x + 25).",
+        "memoryAnchor": "Remember 'SOAP' for sum of cubes: Same sign for binomial, Opposite sign for middle term, Always Positive last term."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Factor x³ + 8.",
+          "answer": "(x+2)(x² - 2x + 4)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Factor 64x³ + 27.",
+          "answer": "(4x+3)(16x² - 12x + 9)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Factor 125x³ + 1.",
+          "answer": "(5x+1)(25x² - 5x + 1)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-synthetic-division-coefficients",
+      "trigger": "When performing synthetic division, I need to include coefficients for every term, even if the term is missing. I will write a 0 for each missing term.",
+      "studentMisunderstanding": "Students often omit zero coefficients for missing terms when setting up synthetic division, leading to incorrect results.",
+      "miniLesson": {
+        "explain": "Synthetic division requires a row of coefficients from the highest degree term down to the constant. If a term is missing (e.g., no x² term), you must include a 0 as its coefficient to maintain the correct order. Forgetting a zero shifts all subsequent values and produces a wrong quotient.",
+        "example": "Divide x³ - 2x + 1 by (x - 3). Write the polynomial in standard form: x³ + 0x² - 2x + 1. So the coefficients are 1, 0, -2, 1. With c = 3, synthetic division: bring down 1; multiply 1*3=3, add to 0 gives 3; multiply 3*3=9, add to -2 gives 7; multiply 7*3=21, add to 1 gives 22. The quotient is x² + 3x + 7 with remainder 22.",
+        "memoryAnchor": "Think of 'ghost terms': every power from highest to constant has a coefficient. If a term is missing, picture a ghost with coefficient 0. Write that 0 to keep the place."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What are the coefficients for x³ + 2x² - 5x - 6 when dividing by (x - 2)?",
+          "answer": "1, 2, -5, -6"
+        },
+        {
+          "level": "L2",
+          "prompt": "What coefficients should you use for dividing x³ - 3x + 1 by (x + 1)?",
+          "answer": "1, 0, -3, 1"
+        },
+        {
+          "level": "L3",
+          "prompt": "What coefficients for dividing x⁴ + 5 by (x - 1)?",
+          "answer": "1, 0, 0, 0, 5"
+        }
+      ]
+    },
+    {
+      "errorId": "err-factoring-incomplete",
+      "trigger": "Student selected an incorrect answer on diagnostic Q3 for 'err-factoring-incomplete'.",
+      "studentMisunderstanding": "Students may stop after one application of difference of cubes without checking if the binomial factor itself is a difference of cubes that can be factored further.",
+      "miniLesson": {
+        "explain": "Some polynomial expressions, like x⁹ - 512, require applying the difference of cubes formula more than once. After factoring as (x³ - 8)(x⁶ + 8x³ + 64), the factor x³ - 8 is itself a difference of cubes (since 8 = 2³). Always check if any factor can be factored further using the same or other methods.",
+        "example": "Factor x⁹ - 512.\nStep 1: Rewrite as (x³)³ - 8³ and apply difference of cubes: (x³ - 8)(x⁶ + 8x³ + 64).\nStep 2: Factor x³ - 8 = (x - 2)(x² + 2x + 4).\nFinal: (x - 2)(x² + 2x + 4)(x⁶ + 8x³ + 64).",
+        "memoryAnchor": "Keep cubing until you can't cube anymore! After each difference of cubes, check if the binomial factor is also a difference of cubes."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Factor 27x³ - 8 completely.",
+          "answer": "(3x - 2)(9x² + 6x + 4)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Factor x⁹ - 1 completely.",
+          "answer": "(x - 1)(x² + x + 1)(x⁶ + x³ + 1)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Factor x²⁷ - 1 completely.",
+          "answer": "(x - 1)(x² + x + 1)(x⁶ + x³ + 1)(x¹⁸ + x⁹ + 1)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-quartic-substitution-neglect",
+      "trigger": "When factoring a quartic polynomial of the form x⁴ + bx² + c, the student does not use substitution or attempts other methods like synthetic division.",
+      "studentMisunderstanding": "Students may not realize that a quartic expression can be rewritten as a quadratic by substituting y = x², making it easier to factor.",
+      "miniLesson": {
+        "explain": "Many quartic expressions can be written as quadratics in disguise. For example, x⁴ + 4x² - 5 looks like a quartic, but notice the exponents: 4 and 2. This matches the pattern of a quadratic if we let y = x². Then x⁴ becomes y². So we get y² + 4y - 5, which factors into (y + 5)(y - 1). Substituting back gives (x² + 5)(x² - 1). Finally, factor the difference of squares: (x² + 5)(x - 1)(x + 1).",
+        "example": "Factor x⁴ + 4x² - 5. Step 1: Let y = x². Then x⁴ = y². Step 2: Factor y² + 4y - 5 = (y + 5)(y - 1). Step 3: Replace y with x²: (x² + 5)(x² - 1). Step 4: Factor x² - 1 as (x - 1)(x + 1). Final answer: (x² + 5)(x - 1)(x + 1).",
+        "memoryAnchor": "Think of it as 'square the x²' to get x⁴; substitute y = x² to turn the quartic into a friendly quadratic. Remember: exponents 4 and 2 are a clue."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Factor x⁴ + 5x² + 6.",
+          "answer": "(x² + 2)(x² + 3)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Factor x⁴ - 13x² + 36.",
+          "answer": "(x - 2)(x + 2)(x - 3)(x + 3)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Factor 2x⁴ - 7x² - 15.",
+          "answer": "(2x² + 3)(x² - 5)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-simple-trinomial-decomposition",
+      "trigger": "Student incorrectly uses decomposition (splitting the middle term) to factor a simple trinomial with leading coefficient 1.",
+      "studentMisunderstanding": "The student believes that decomposition is always required for factoring trinomials, not realizing that when the leading coefficient is 1, the factoring is straightforward by finding two numbers that multiply to the constant term and add to the linear coefficient.",
+      "miniLesson": {
+        "explain": "When factoring a simple trinomial of the form x² + bx + c, you do NOT need to use decomposition. Decomposition is for trinomials with a leading coefficient other than 1. For simple trinomials, the factoring is straightforward: find two numbers that multiply to c and add to b. Then the factors are (x + p)(x + q) where p and q are those numbers.",
+        "example": "Factor x² + 7x + 12. Find two numbers that multiply to 12 and add to 7: 3 and 4. So x² + 7x + 12 = (x + 3)(x + 4).",
+        "memoryAnchor": "For x² + bx + c, always ask: 'What two numbers multiply to c and add to b?' No splitting needed!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Factor x² + 5x + 6.",
+          "answer": "(x + 2)(x + 3)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Factor x² - 5x + 6.",
+          "answer": "(x - 2)(x - 3)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Factor x² + 2x - 15.",
+          "answer": "(x + 5)(x - 3)"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-sum-cubes-sign",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "Which of the following is the correct factorization of $27x^3 + 64$?",
+          "options": [
+            "$(3x+4)(9x^2+12x+16)$",
+            "$(3x+4)(9x^2-12x+16)$",
+            "$(3x+4)(9x^2+12x-16)$",
+            "$(3x+4)(9x^2-12x-16)$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Factor $8x^3 + 27$ completely.",
+          "rubric": "Correctly identifies a = 2x, b = 3. Applies sum of cubes formula: (2x+3)((2x)^2 - (2x)(3) + 3^2) = (2x+3)(4x^2 - 6x + 9). Final answer: (2x+3)(4x^2 - 6x + 9)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-synthetic-division-coefficients",
+      "questions": [
+        {
+          "id": "err-synthetic-division-coefficients-q1",
+          "type": "single_choice",
+          "stem": "Which of the following is the correct set of coefficients to use when dividing x³ - 4x + 5 by (x - 2) using synthetic division?",
+          "options": [
+            "1, -4, 5",
+            "1, 0, -4, 5",
+            "1, -4, 0, 5",
+            "0, 1, -4, 5"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "err-synthetic-division-coefficients-q2",
+          "type": "open_ended",
+          "stem": "Divide x⁴ + 3x² - 2x + 7 by (x - 1) using synthetic division. Provide the quotient and remainder. Include your coefficient row and all steps.",
+          "rubric": "Coefficient row must include 0 for the missing x³ term: [1, 0, 3, -2, 7]. Synthetic division steps: bring down 1; multiply 1*1=1, add to 0 → 1; multiply 1*1=1, add to 3 → 4; multiply 4*1=4, add to -2 → 2; multiply 2*1=2, add to 7 → 9. Quotient: x³ + x² + 4x + 2, remainder 9."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. For the open-ended question, the coefficient row must include zeros for missing terms and the final quotient and remainder must be correct."
+    },
+    {
+      "forErrorId": "err-factoring-incomplete",
+      "questions": [
+        {
+          "id": "retest-factoring-incomplete-q1",
+          "type": "single_choice",
+          "stem": "Consider the expression x⁹ - 1. After applying the difference of cubes once, you get (x³ - 1)(x⁶ + x³ + 1). Which of the following is the most appropriate next step?",
+          "options": [
+            "Stop, as the expression is fully factored.",
+            "Factor x³ - 1 further using difference of cubes.",
+            "Factor x⁶ + x³ + 1 further using difference of cubes.",
+            "Rewrite the original expression as (x³ - 1)(x⁶ + x³ + 1) and check for a common factor."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-factoring-incomplete-q2",
+          "type": "open_ended",
+          "stem": "Factor x⁹ - 512 completely. Show all steps.",
+          "rubric": "Step 1: Recognize as (x³)³ - 8³ and apply difference of cubes: (x³ - 8)(x⁶ + 8x³ + 64). Step 2: Factor x³ - 8 = (x - 2)(x² + 2x + 4). Final answer: (x - 2)(x² + 2x + 4)(x⁶ + 8x³ + 64). Must show both applications of difference of cubes."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-quartic-substitution-neglect",
+      "questions": [
+        {
+          "id": "q1-reteach-substitution",
+          "type": "single_choice",
+          "stem": "What is the first step to factor the expression \\(x^4 - 10x^2 + 9\\)?",
+          "options": [
+            "Substitute \\(y = x^2\\) to get \\(y^2 - 10y + 9\\).",
+            "Use synthetic division by \\(x-1\\).",
+            "Factor out an \\(x^2\\).",
+            "Apply the difference of cubes formula."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-reteach-factor",
+          "type": "open_ended",
+          "stem": "Factor completely: \\(x^4 + 2x^2 - 8\\). Show all steps.",
+          "rubric": "1pt: Let y = x^2, rewrite as y^2 + 2y - 8. 1pt: Factor quadratic: (y+4)(y-2). 1pt: Back-substitute: (x^2+4)(x^2-2). 1pt: Note x^2+4 not factorable over reals, x^2-2 = (x-√2)(x+√2) if using radicals; accept (x^2-2) as final. Total 4 points; award 3/4 for minor error."
+        }
+      ],
+      "passRule": "All questions correct (multiple choice correct answer and open-ended score >= 3/4)."
+    },
+    {
+      "forErrorId": "err-simple-trinomial-decomposition",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which approach is correct for factoring \\(x^2 + 9x + 20\\)?",
+          "options": [
+            "Decomposition: split the middle term into two parts.",
+            "Find two numbers that multiply to 20 and add to 9.",
+            "Use the quadratic formula first.",
+            "Factor out the GCF: \\(x(x + 9) + 20\\)."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Factor \\(x^2 - 7x + 12\\) completely.",
+          "rubric": "Correct factored form: (x - 3)(x - 4). Accept equivalent order. Do not accept (x + 3)(x + 4) or (x - 12)(x + 1) etc."
+        }
+      ],
+      "passRule": "Both questions correct."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-16",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/BV0ZdvbIVo0kVfx3t9Ucze50nqc?from=vc_group_doc_link#doxcnDKzUpUTcGIcp2Xz7AMuP9g",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-16 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Sum of cubes formula: a³ + b³ = (a + b)(a² - ab + b²).；Difference of cubes formula: a³ - b³ = (a - b)(a² + ab + b²).；Synthetic division is a shortcut for dividing a polynomial by a linear factor of the form (x - c).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Factor sums and differences of cubes, synthetic division, and apply advanced factoring strategies to polynomial expressions."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify and correct common errors in polynomial factoring, including sign mistakes, missing coefficients, incomplete factoring, and misuse of methods."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Unfinished Homework Solutions Sent",
+        "studentAction": "Check for solutions to questions 10-12",
+        "deadlineText": "by end of day 2026-07-16",
+        "deadlineISO": "2026-07-16T23:59:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Taylor Cavers confirms full solutions will be sent to all students before the end of the day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Quiz Date",
+        "studentAction": "Attend next class for quiz; keep camera on",
+        "deadlineText": "next class (date not specified)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "quiz will occupy the entire length of the next class session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Permitted Materials for Quiz",
+        "studentAction": "Bring only standard non-graphing calculator; no notes, internet, or digital writing tools",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Only standard non-graphing calculators are permitted; all notes, internet access and digital writing tools are explicitly banned.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "attendance_camera",
+        "title": "Camera On During Quiz",
+        "studentAction": "Keep camera on for full quiz duration",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students must keep their camera on for the full duration of the quiz",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Quiz Submission Format",
+        "studentAction": "Handwrite answers on light-colored paper; do not submit digitally",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All responses must be handwritten on any type of light-colored paper... no digital submissions allowed.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "exam_requirement",
+        "title": "Quiz Scoring: Show Full Work",
+        "studentAction": "Include full step-by-step work and 'therefore' statements for application questions",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Full step-by-step work must be shown... marks will be deducted for missing work or absent 'therefore' statements.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "assignment",
+        "title": "Homework: Lesson 7 Practice Exercises",
+        "studentAction": "Complete assigned practice exercises for Unit 1 Lesson 7",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Complete the assigned practice exercises for Unit 1 Lesson 7",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "assignment",
+        "title": "Class Exit Card Submission",
+        "studentAction": "Submit the required class exit card",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Submit the required class exit card",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-009",
+        "category": "assignment",
+        "title": "Discussion Question on Course Platform",
+        "studentAction": "Complete and post discussion question on course platform",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": "course platform (unspecified)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "complete the posted discussion question on the course platform before the next class session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-010",
+        "category": "follow_up_action",
+        "title": "Questions About Course Content or Quiz",
+        "studentAction": "Send email to Taylor Cavers for questions",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students with any questions... can send an email to Taylor Cavers",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-011",
+        "category": "class_policy",
+        "title": "Factoring Method Policy: Simple Trinomials",
+        "studentAction": "Do not use decomposition for simple trinomials with leading coefficient 1; use straightforward factoring",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Taylor Cavers explicitly notes that students must not use decomposition for simple trinomials with a leading coefficient of 1, as improper usage signals low mastery or potential AI reliance.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Platform for sending solutions to questions 10-12 is not specified",
+        "reason": "The note says 'full solutions will be sent to all students before the end of the day' but does not specify whether via email, course platform, or other means."
+      },
+      {
+        "rawText": "Platform for discussion question is unspecified",
+        "reason": "The note says 'complete the posted discussion question on the course platform' but does not name the platform."
+      },
+      {
+        "rawText": "Details of the required class exit card are vague",
+        "reason": "The note says 'Submit the required class exit card' but does not describe what the exit card is or how to access it."
+      },
+      {
+        "rawText": "Next class date for quiz is not given",
+        "reason": "The quiz is scheduled for the next class session, but the specific date is not provided."
+      }
+    ],
+    "watchTags": [
+      "node-factoring-sum-diff-cubes",
+      "node-synthetic-division",
+      "node-factoring-techniques"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-sum-cubes-sign",
+        "condition": "Student picks wrong option on Q1 (err-sum-cubes-sign target)",
+        "systemAction": "Assign reteach module for err-sum-cubes-sign"
+      },
+      {
+        "errorId": "err-synthetic-division-coefficients",
+        "condition": "Student picks wrong option on Q2 (err-synthetic-division-coefficients target)",
+        "systemAction": "Assign reteach module for err-synthetic-division-coefficients"
+      },
+      {
+        "errorId": "err-factoring-incomplete",
+        "condition": "Student picks wrong option on Q3 (err-factoring-incomplete target)",
+        "systemAction": "Assign reteach module for err-factoring-incomplete"
+      },
+      {
+        "errorId": "err-quartic-substitution-neglect",
+        "condition": "Student picks wrong option on Q4 (err-quartic-substitution-neglect target)",
+        "systemAction": "Assign reteach module for err-quartic-substitution-neglect"
+      },
+      {
+        "errorId": "err-simple-trinomial-decomposition",
+        "condition": "Student picks wrong option on Q5 (err-simple-trinomial-decomposition target)",
+        "systemAction": "Assign reteach module for err-simple-trinomial-decomposition"
+      }
+    ],
+    "nextActions": [
+      "[err-sum-cubes-sign] Student picks wrong option on Q1 (err-sum-cubes-sign target): The sign in the sum-of-cubes trinomial can be tricky. Let's practice identifying the correct pattern.",
+      "[err-synthetic-division-coefficients] Student picks wrong option on Q2 (err-synthetic-division-coefficients target): Setting up synthetic division correctly is key. Let's review how to handle missing terms.",
+      "[err-factoring-incomplete] Student picks wrong option on Q3 (err-factoring-incomplete target): Factoring sometimes requires more than one step. Let's check when to keep going.",
+      "[err-quartic-substitution-neglect] Student picks wrong option on Q4 (err-quartic-substitution-neglect target): Recognizing a quadratic in disguise can save time. Let's practice spotting the substitution.",
+      "[err-simple-trinomial-decomposition] Student picks wrong option on Q5 (err-simple-trinomial-decomposition target): Simple trinomials have a straightforward factoring method. Let's avoid overcomplicating."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-s6-0716-q1",
+        "type": "choice",
+        "question": "Factor 27x³ + 125 completely. Which of the following is the correct factorization?",
+        "options": [
+          "(3x + 5)(9x² - 15x + 25)",
+          "(3x + 5)(9x² + 15x + 25)",
+          "(3x - 5)(9x² + 15x + 25)",
+          "(3x + 5)(9x² - 30x + 25)"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows the correct signs in the sum-of-cubes formula: (a+b)(a² - ab + b²).",
+        "misconceptions": [
+          "✓ 正确",
+          "Sum of cubes formula has a minus sign in the middle term: (a+b)(a² - ab + b²). You chose +ab.",
+          "This looks like difference of cubes, but the original expression is a sum. Also check the sign of the binomial.",
+          "The constant term 25 is correct, but the middle term should be -ab = -15x, not -30x."
+        ],
+        "nodeId": "node-factoring-sum-diff-cubes",
+        "errorId": "err-sum-cubes-sign",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the sum-of-cubes formula with proper signs.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Sum of cubes is a polynomial factoring technique used to solve polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may think the middle term is +ab (for sum) or misplace signs.",
+        "remediationModule": "err-sum-cubes-sign",
+        "retestItem": "err-sum-cubes-sign"
+      },
+      {
+        "id": "diag-mhf4u-s6-0716-q2",
+        "type": "choice",
+        "question": "To divide x³ + 2x² - 5x - 6 by (x - 2) using synthetic division, what is the correct row of coefficients to use?",
+        "options": [
+          "1, 2, -5, -6",
+          "1, 2, -5, -6, 0",
+          "1, 2, -5",
+          "2, -5, -6"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student includes all coefficients, especially zeros for missing terms.",
+        "misconceptions": [
+          "✓ 正确",
+          "The polynomial is degree 3, so there should be exactly 4 coefficients. No extra zero needed. However, if a term were missing (e.g., no x² term), you would add a zero.",
+          "You omitted the constant term -6. All coefficients from highest degree to constant must be included.",
+          "You omitted the leading coefficient of the x³ term, which is 1."
+        ],
+        "nodeId": "node-synthetic-division",
+        "errorId": "err-synthetic-division-coefficients",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly lists coefficients including zeros for missing terms.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Synthetic division is a technique for dividing polynomials, used in solving polynomial equations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may omit zero coefficients, e.g., for x² term if missing, or for x¹ term if the polynomial is not in standard form.",
+        "remediationModule": "err-synthetic-division-coefficients",
+        "retestItem": "err-synthetic-division-coefficients"
+      },
+      {
+        "id": "diag-mhf4u-s6-0716-q3",
+        "type": "choice",
+        "question": "Factor x⁹ - 512 completely. How many times must the difference of cubes formula be applied?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student realizes that factoring may not be complete after one application; they need to check if further factoring is possible.",
+        "misconceptions": [
+          "The expression is a difference of cubes, so it can be factored at least once.",
+          "After factoring x⁹ - 512 = (x³ - 8)(x⁶ + 8x³ + 64), the factor x³ - 8 is itself a difference of cubes and can be factored further.",
+          "✓ 正确",
+          "Two applications are enough: x⁹ - 512 = (x - 2)(x² + 2x + 4)(x⁶ + 8x³ + 64). The trinomial factors do not factor further over integers."
+        ],
+        "nodeId": "node-factoring-techniques",
+        "errorId": "err-factoring-incomplete",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that x⁹ - 512 requires iterative application (first step: (x³)³ - 8³, then factor further).",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Factoring high-degree polynomials often requires multiple steps, which is part of solving polynomial equations.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student may apply difference of cubes once and stop, not realizing that the resulting factor (x⁶ + 8x³ + 64) is not further factorable over integers, but the second factor (x³ - 8) can be factored again.",
+        "remediationModule": "err-factoring-incomplete",
+        "retestItem": "err-factoring-incomplete"
+      },
+      {
+        "id": "diag-mhf4u-s6-0716-q4",
+        "type": "choice",
+        "question": "Which substitution would you use to factor x⁴ + 4x² - 5?",
+        "options": [
+          "y = x²",
+          "y = x",
+          "y = x³",
+          "y = x + 1"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can identify a quadratic in disguise and choose an appropriate substitution.",
+        "misconceptions": [
+          "✓ 正确",
+          "Substituting y = x gives a fourth-degree polynomial, not a quadratic. The key is that the exponents are 4 and 2, so let y = x².",
+          "This would not simplify the expression to a quadratic in y. The pattern x⁴ and x² suggests y = x².",
+          "There is no obvious substitution of the form x + c that simplifies the factoring."
+        ],
+        "nodeId": "node-factoring-techniques",
+        "errorId": "err-quartic-substitution-neglect",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that letting y = x² transforms the quartic into a quadratic in y.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Substitution is a technique for factoring higher-degree polynomials that resemble quadratics.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may not recognize that the exponent pattern allows for substitution, or may try to use synthetic division unnecessarily.",
+        "remediationModule": "err-quartic-substitution-neglect",
+        "retestItem": "err-quartic-substitution-neglect"
+      },
+      {
+        "id": "diag-mhf4u-s6-0716-q5",
+        "type": "choice",
+        "question": "Which method is most efficient for factoring x² + 7x + 12?",
+        "options": [
+          "Decomposition (split the middle term)",
+          "Find two numbers that multiply to 12 and add to 7",
+          "Synthetic division by a root",
+          "Difference of squares"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows that simple trinomials (leading coefficient 1) should be factored by finding two numbers whose product is c and sum is b, not by decomposition.",
+        "misconceptions": [
+          "Decomposition is for trinomials with leading coefficient not 1. For x² + bx + c, simply find two numbers that multiply to c and add to b.",
+          "✓ 正确",
+          "Synthetic division is for dividing by a linear factor, not for factoring a simple quadratic directly.",
+          "This is not a difference of squares; it's a sum of terms."
+        ],
+        "nodeId": "node-factoring-techniques",
+        "errorId": "err-simple-trinomial-decomposition",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies the correct method for a simple trinomial: find two numbers that multiply to 12 and add to 7.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Choosing the correct factoring method is essential for solving polynomial equations efficiently.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Student may incorrectly use decomposition (splitting the middle term) even when the leading coefficient is 1, indicating a lack of fluency or over-reliance on a memorized procedure.",
+        "remediationModule": "err-simple-trinomial-decomposition",
+        "retestItem": "err-simple-trinomial-decomposition"
+      }
+    ]
+  }
+}

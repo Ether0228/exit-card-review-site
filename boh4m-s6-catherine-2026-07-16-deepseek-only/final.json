@@ -1,0 +1,899 @@
+{
+  "sourceLesson": "BOH4M.S6.Catherine 2026-07-16",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/IK5sdmVuYoCpwnx0u71cEZMknZf?from=vc_group_doc_link#doxcne3XOqIZepGcULxRrvS3kaf",
+  "sourceTitle": "BOH4M.S6.Catherine 2026-07-16 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/IK5sdmVuYoCpwnx0u71cEZMknZf?from=vc_group_doc_link#doxcne3XOqIZepGcULxRrvS3kaf",
+    "title": "BOH4M.S6.Catherine 2026-07-16 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-16/sources/boh4m-s6-catherine-2026-07-16/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "BOH4M",
+  "lessonDate": "2026-07-16",
+  "teacher": "Catherine",
+  "section": "S6",
+  "subject": "business",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-07-16",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The session includes direct instruction on classical and operant conditioning theories, followed by an in-class consolidation quiz and task arrangements, making it a mix of instruction and practice.",
+    "academicContentSignals": [
+      "Classical conditioning: Ivan Pavlov's discovery, neutral stimulus paired with unconditioned stimulus produces conditioned response, involuntary reflexes, extinction rule.",
+      "Operant conditioning: voluntary behavior shaped by consequences (reinforcement and punishment), positive reinforcement, negative reinforcement, punishment, extinction.",
+      "Comparison between classical and operant conditioning (passive vs active learner, involuntary vs voluntary response)."
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations include attendance marking policy, in-class quiz submission, break timing, homework (no submission), group CSR project, and next session time. These are present but do not overshadow the substantial academic content on learning theories. Care should be taken to ensure diagnostic questions focus on the content, not the logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Attendance marking criteria",
+        "studentAction": "Do not exit the virtual session without notice; respond when called during roll call to avoid being marked absent.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all enrolled students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Any student who exits the virtual session without advance notice, or does not provide a response when called during official roll call, will be officially recorded as absent.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Lesson 3 consolidation quiz",
+        "studentAction": "Complete the 15-minute multiple-choice quiz and type 'finish' in the chat box when done.",
+        "deadlineText": "during class (immediate)",
+        "deadlineISO": "2026-07-16T09:05:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students complete a 15 minute multiple-choice consolidation quiz for Unit 2 Lesson 3, and type the word 'finish' in the session chat box once they complete the task.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Unit 2 Lesson 3 homework",
+        "studentAction": "Complete the homework for personal review; no submission required.",
+        "deadlineText": "no formal deadline",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The assigned homework is designed for personal review only, no formal submission to the instructor is required, and students may complete it at their own pace.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Scheduled break after quiz",
+        "studentAction": "Take a 15-minute break after the quiz window closes.",
+        "deadlineText": "after quiz ends",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "After the 15 minute quiz window closes, all students are granted a 15 minute scheduled break before proceeding to the next set of required task items.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Group CSR project",
+        "studentAction": "Coordinate with group members to continue the collective CSR project if homework is finished early.",
+        "deadlineText": "ongoing",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students who finish homework early",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students who finish the assigned homework ahead of schedule may coordinate directly with their group members to continue progress on the collective CSR project.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next session time and content",
+        "studentAction": "Attend the next session at the same time tomorrow for new content and continued CSR group work.",
+        "deadlineText": "2026-07-17 same time",
+        "deadlineISO": "2026-07-17T07:50:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The next official session will be held at the same scheduled time the following day, covering new course content and continuing group work on the CSR assignment.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "BOH4M Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Classical Conditioning、Operant Conditioning）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Classical conditioning was first discovered by Ivan Pavlov in his 1904 Nobel Prize research on canine digestion.；Classical conditioning involves pairing a neutral stimulus with an unconditioned stimulus to produce a conditioned response.；Classical conditioning responses are involuntary reflexes; the learner is passive.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify the key features of classical conditioning, including its involuntary nature and extinction mechanism."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Identify the key features of operant conditioning, including the role of reinforcement and punishment, and distinguish it from classical conditioning."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "BOH4M-C-OE03-classical",
+      "name": "Classical Conditioning",
+      "nameEn": "Classical Conditioning",
+      "definition": "A learning process where a neutral stimulus becomes able to trigger an involuntary response after repeated pairing with an unconditioned stimulus. The learner is passive and the response is a reflex.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    },
+    {
+      "id": "BOH4M-C-OE03-operant",
+      "name": "Operant Conditioning",
+      "nameEn": "Operant Conditioning",
+      "definition": "A learning process where behavior is shaped by consequences: reinforcement increases behavior frequency, punishment decreases it. The learner is active and the behavior is voluntary.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the key features of classical conditioning, including its involuntary nature and extinction mechanism."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify the key features of operant conditioning, including the role of reinforcement and punishment, and distinguish it from classical conditioning."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-classical-conditioning-voluntary",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module for err-classical-conditioning-voluntary",
+        "studentMessage": "It looks like you might have confused the type of response in classical conditioning. Let's review the reflexive nature of this learning process."
+      },
+      {
+        "errorId": "err-operant-conditioning-passive",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module for err-operant-conditioning-passive",
+        "studentMessage": "It seems you might think the learner is passive in operant conditioning. Let's revisit how the learner actively shapes behavior."
+      },
+      {
+        "errorId": "err-negative-reinforcement-punishment",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for err-negative-reinforcement-punishment",
+        "studentMessage": "You may have mixed up negative reinforcement and punishment. Let's clarify the difference with a quick review."
+      },
+      {
+        "errorId": "err-classical-extinction-mechanism",
+        "condition": "student answers Q4 inadequately",
+        "systemAction": "assign reteach module for err-classical-extinction-mechanism",
+        "studentMessage": "Your explanation of extinction in classical conditioning needs refinement. Let's work through it together."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-boh4m-cc-q1",
+        "nodeId": "BOH4M-C-OE03-classical",
+        "errorId": "err-classical-conditioning-voluntary",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that classical conditioning produces involuntary responses.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Node BOH4M-C-OE03 matches the expectation code and the specific knowledge node for classical conditioning.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "To check if the student understands that classical conditioning produces involuntary reflexive responses, not voluntary actions.",
+        "commonMisconception": "Students may think classical conditioning creates voluntary behaviors similar to operant conditioning.",
+        "remediationModule": "err-classical-conditioning-voluntary",
+        "retestItem": "err-classical-conditioning-voluntary",
+        "stem": "In classical conditioning, the conditioned response is best described as:",
+        "options": [
+          {
+            "label": "A",
+            "text": "A voluntary action chosen by the learner",
+            "correct": false,
+            "feedbackWrong": "Classical conditioning involves involuntary reflexes, not voluntary actions. That description better fits operant conditioning."
+          },
+          {
+            "label": "B",
+            "text": "An involuntary reflex triggered by a previously neutral stimulus",
+            "correct": true,
+            "feedbackCorrect": "Correct! Classical conditioning produces automatic, involuntary responses."
+          },
+          {
+            "label": "C",
+            "text": "A conscious decision based on expected consequences",
+            "correct": false,
+            "feedbackWrong": "This describes operant conditioning where behavior is shaped by consequences. In classical conditioning, the learner is passive."
+          },
+          {
+            "label": "D",
+            "text": "A random response unrelated to any stimulus",
+            "correct": false,
+            "feedbackWrong": "The response is specifically to the conditioned stimulus, not random. It is learned through pairing."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-cc-q2",
+        "nodeId": "BOH4M-C-OE03-operant",
+        "errorId": "err-operant-conditioning-passive",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that operant conditioning involves an active learner.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Node BOH4M-C-OE03 covers both classical and operant conditioning as motivational theories.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "To check if the student understands that in operant conditioning the learner is active and behavior is voluntary.",
+        "commonMisconception": "Students may think operant conditioning makes the learner passive like classical conditioning.",
+        "remediationModule": "err-operant-conditioning-passive",
+        "retestItem": "err-operant-conditioning-passive",
+        "stem": "In operant conditioning, the learner is typically:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Passive, responding automatically to stimuli",
+            "correct": false,
+            "feedbackWrong": "That describes classical conditioning. In operant conditioning, the learner actively produces behavior."
+          },
+          {
+            "label": "B",
+            "text": "Active, voluntarily performing actions that lead to consequences",
+            "correct": true,
+            "feedbackCorrect": "Correct! Operant conditioning involves active, voluntary behavior shaped by reinforcement or punishment."
+          },
+          {
+            "label": "C",
+            "text": "Unconscious, unaware of the learning process",
+            "correct": false,
+            "feedbackWrong": "While learners may not always be fully aware, operant conditioning is based on conscious behavior. The learner is active, not unconscious."
+          },
+          {
+            "label": "D",
+            "text": "Neither active nor passive; it depends on the situation",
+            "correct": false,
+            "feedbackWrong": "Operant conditioning is fundamentally active because the learner's voluntary behavior is central."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-cc-q3",
+        "nodeId": "BOH4M-C-OE03-operant",
+        "errorId": "err-negative-reinforcement-punishment",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student can distinguish negative reinforcement from punishment in a scenario.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Operant conditioning is part of motivational theories under C3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "stemIntent": "To assess the ability to differentiate negative reinforcement (increases behavior by removing unpleasant stimulus) from punishment (decreases behavior by adding unpleasant stimulus).",
+        "commonMisconception": "Students often think negative reinforcement is the same as punishment because both involve unpleasant stimuli.",
+        "remediationModule": "err-negative-reinforcement-punishment",
+        "retestItem": "err-negative-reinforcement-punishment",
+        "stem": "Which scenario best illustrates negative reinforcement?",
+        "options": [
+          {
+            "label": "A",
+            "text": "A student is given detention for talking in class, so the talking decreases.",
+            "correct": false,
+            "feedbackWrong": "This is punishment (adding an unpleasant consequence to decrease behavior). Negative reinforcement removes something unpleasant to increase behavior."
+          },
+          {
+            "label": "B",
+            "text": "A student studies hard to avoid a parent's nagging, so studying increases.",
+            "correct": true,
+            "feedbackCorrect": "Correct! The student studies (behavior) to remove nagging (unpleasant stimulus), increasing the behavior."
+          },
+          {
+            "label": "C",
+            "text": "A student receives a bonus for excellent grades, so grades improve further.",
+            "correct": false,
+            "feedbackWrong": "This is positive reinforcement (adding a reward to increase behavior). Negative reinforcement removes something unpleasant."
+          },
+          {
+            "label": "D",
+            "text": "A student is scolded for interrupting, so interrupting decreases.",
+            "correct": false,
+            "feedbackWrong": "This is punishment (adding an unpleasant consequence to decrease behavior). Negative reinforcement increases behavior by removal."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-cc-q4",
+        "nodeId": "BOH4M-C-OE03-classical",
+        "errorId": "err-classical-extinction-mechanism",
+        "type": "open_ended",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can explain that extinction in classical conditioning occurs when the conditioned stimulus is repeatedly presented without the unconditioned stimulus, breaking the association.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Classical conditioning is a key theory under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "justify",
+        "stemIntent": "To check if the student understands the mechanism of extinction in classical conditioning—that it results from breaking the pairing, not forgetting.",
+        "commonMisconception": "Students may think extinction means the conditioned stimulus is forgotten or the response just fades randomly, rather than understanding the specific breakdown of the CS-US association.",
+        "remediationModule": "err-classical-extinction-mechanism",
+        "retestItem": "err-classical-extinction-mechanism",
+        "stem": "Explain what happens during extinction in classical conditioning. Why does the conditioned response eventually disappear?",
+        "rubric": "Full credit: Mention that the conditioned stimulus (CS) is presented repeatedly without the unconditioned stimulus (US), so the learned association weakens and the conditioned response (CR) fades. Key terms: CS, US, association, pairing.",
+        "sampleStrongAnswer": "In classical conditioning, extinction occurs when the conditioned stimulus (e.g., bell) is repeatedly presented without the unconditioned stimulus (e.g., food). The learned association between CS and US breaks down, so the conditioned response (salivation) gradually weakens and eventually disappears."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-classical-conditioning-voluntary",
+      "condition": "student picks wrong option on Q1",
+      "systemAction": "assign reteach module for err-classical-conditioning-voluntary",
+      "studentMessage": "It looks like you might have confused the type of response in classical conditioning. Let's review the reflexive nature of this learning process."
+    },
+    {
+      "errorId": "err-operant-conditioning-passive",
+      "condition": "student picks wrong option on Q2",
+      "systemAction": "assign reteach module for err-operant-conditioning-passive",
+      "studentMessage": "It seems you might think the learner is passive in operant conditioning. Let's revisit how the learner actively shapes behavior."
+    },
+    {
+      "errorId": "err-negative-reinforcement-punishment",
+      "condition": "student picks wrong option on Q3",
+      "systemAction": "assign reteach module for err-negative-reinforcement-punishment",
+      "studentMessage": "You may have mixed up negative reinforcement and punishment. Let's clarify the difference with a quick review."
+    },
+    {
+      "errorId": "err-classical-extinction-mechanism",
+      "condition": "student answers Q4 inadequately",
+      "systemAction": "assign reteach module for err-classical-extinction-mechanism",
+      "studentMessage": "Your explanation of extinction in classical conditioning needs refinement. Let's work through it together."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-classical-conditioning-voluntary",
+      "trigger": "Student selects option A or C in Q1 of diagnostic.",
+      "studentMisunderstanding": "The student believes classical conditioning produces voluntary actions rather than involuntary reflexes.",
+      "miniLesson": {
+        "explain": "Classical conditioning is a learning process where a neutral stimulus (e.g., a bell) is repeatedly paired with an unconditioned stimulus (e.g., food) that naturally triggers an involuntary reflex (e.g., salivation). After pairing, the neutral stimulus becomes a conditioned stimulus that alone triggers the same involuntary response, called a conditioned response. The learner is passive; the response is automatic and not under conscious control. This is different from operant conditioning, where the learner actively chooses voluntary behaviors to get rewards or avoid punishments.",
+        "example": "Consider Pavlov's dog experiment. The dog did not choose to salivate when it heard the bell; it was an automatic reflex learned through association. Similarly, when a student automatically perks up or feels alert upon hearing the school bell, that is a conditioned involuntary response, not a voluntary decision.",
+        "memoryAnchor": "Think: 'Classical = reflex (like a knee-jerk); the learner is a passenger. Operant = choice; the learner is the driver.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In classical conditioning, the response is best described as: (A) voluntary, (B) involuntary.",
+          "answer": "involuntary"
+        },
+        {
+          "level": "L2",
+          "prompt": "A student automatically feels alert whenever the school bell rings. Is this an example of classical or operant conditioning? Explain why in one sentence.",
+          "answer": "This is classical conditioning because the alertness is an involuntary reflexive response triggered by the bell, not a voluntary action chosen based on consequences."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write one sentence comparing how the learner's role differs between classical and operant conditioning regarding the nature of the response.",
+          "answer": "In classical conditioning, the learner is passive and the response is involuntary (a reflex), whereas in operant conditioning, the learner is active and the behavior is voluntary (chosen based on consequences)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-operant-conditioning-passive",
+      "trigger": "Student selects option A, C, or D on diagnostic question Q2 (operant conditioning role of learner).",
+      "studentMisunderstanding": "The student believes that in operant conditioning the learner is passive, responding automatically to stimuli, similar to classical conditioning.",
+      "miniLesson": {
+        "explain": "Operant conditioning is a learning process where the learner is active and behavior is voluntary. The learner's actions are shaped by consequences: reinforcement increases behavior, punishment decreases it. Unlike classical conditioning, which involves involuntary reflexes, operant conditioning requires the learner to actively engage in behaviors to receive outcomes.",
+        "example": "A rat pressing a lever to receive a food reward (positive reinforcement) is an example of operant conditioning where the rat actively performs the behavior to get a desired consequence.",
+        "memoryAnchor": "Think of a vending machine: you actively choose a snack and insert coins (behavior) to get the snack (consequence). You are not passive—you take action to get a reward."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In operant conditioning, is the learner passive or active?",
+          "answer": "Active"
+        },
+        {
+          "level": "L2",
+          "prompt": "A student studies hard to avoid a parent's nagging, so studying increases. Why is this operant conditioning and not classical conditioning?",
+          "answer": "The student is actively choosing to study (voluntary behavior) to remove an unpleasant condition (nagging), which is negative reinforcement. Classical conditioning involves involuntary reflexes, not voluntary actions."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain how the role of the learner differs between classical and operant conditioning, using specific examples from the lesson.",
+          "answer": "In classical conditioning, the learner is passive; for example, Pavlov's dog involuntarily salivated when the bell rang because of pairing with food. In operant conditioning, the learner is active; for example, a rat presses a lever to receive food. The dog's response is reflexive, while the rat's behavior is voluntary and shaped by consequences."
+        }
+      ]
+    },
+    {
+      "errorId": "err-negative-reinforcement-punishment",
+      "trigger": "Student selected an incorrect option on diagnostic question 3 (err-negative-reinforcement-punishment).",
+      "studentMisunderstanding": "Student confuses negative reinforcement (removing an unpleasant stimulus to increase a behavior) with punishment (adding an unpleasant stimulus to decrease a behavior).",
+      "miniLesson": {
+        "explain": "Negative reinforcement removes an unpleasant condition after a behavior to increase its frequency. Punishment adds an unpleasant consequence after a behavior to decrease its frequency. Both involve unpleasant stimuli, but negative reinforcement strengthens behavior while punishment weakens it.",
+        "example": "A rat pressing a lever to remove an electric shock is negative reinforcement (behavior increases). Giving a student detention for talking is punishment (behavior decreases).",
+        "memoryAnchor": "Negative reinforcement = 'subtract' to increase; Punishment = 'add' to decrease."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Is the following an example of negative reinforcement or punishment? A worker works overtime to avoid a pay cut.",
+          "answer": "Negative reinforcement (removing a pay cut to increase overtime)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A teacher stops scolding a student after the student completes homework. Which operant conditioning concept is this? Explain.",
+          "answer": "Negative reinforcement. The scolding (unpleasant) is removed after homework (behavior), so homework is likely to increase."
+        },
+        {
+          "level": "L3",
+          "prompt": "Compare and contrast negative reinforcement and punishment. Provide an example of each from a workplace setting.",
+          "answer": "Negative reinforcement removes an unpleasant condition to increase a desired behavior (e.g., an employee works hard to avoid micromanagement). Punishment adds an unpleasant condition to decrease an undesired behavior (e.g., an employee is written up for being late). Both involve consequences, but negative reinforcement increases behavior, punishment decreases it."
+        }
+      ]
+    },
+    {
+      "errorId": "err-classical-extinction-mechanism",
+      "trigger": "\"Extinction in classical conditioning just means the animal forgets the conditioned stimulus over time.\"",
+      "studentMisunderstanding": "The student believes that extinction in classical conditioning is due to forgetting or memory decay, rather than understanding that the conditioned response disappears because the conditioned stimulus is no longer paired with the unconditioned stimulus, breaking the learned association.",
+      "miniLesson": {
+        "explain": "Extinction in classical conditioning does not occur because the animal forgets the conditioned stimulus. Instead, it happens when the conditioned stimulus (CS) is repeatedly presented without the unconditioned stimulus (US). The learned association between CS and US weakens and eventually the conditioned response (CR) stops. For example, Pavlov's dogs learned that a bell (CS) predicts food (US), causing salivation (CR). If the bell rings many times without food, the dogs stop salivating—not because they forget the bell, but because the bell no longer signals food.",
+        "example": "Pavlov's dog: after conditioning, the bell (CS) triggered salivation (CR). To produce extinction, Pavlov rang the bell repeatedly without giving food. Initially the dog salivated, but after several trials the salivation decreased and eventually stopped. The bell still sounded familiar, but its predictive value was lost.",
+        "memoryAnchor": "Think of it like a broken promise: the bell 'promised' food, but after too many broken promises (no food), the dog stops reacting."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In classical conditioning, what must happen for the conditioned response to weaken and disappear?",
+          "answer": "The conditioned stimulus must be presented repeatedly without the unconditioned stimulus."
+        },
+        {
+          "level": "L2",
+          "prompt": "A dog has been conditioned to salivate to a metronome sound paired with food. To induce extinction, a trainer plays the metronome many times but never gives food. At first the dog salivates, but eventually it stops. Why does the salivation stop? Choose the best explanation: (a) The dog forgets what the metronome sounds like. (b) The metronome is no longer paired with food, so the association breaks. (c) The dog becomes bored. (d) The food is no longer rewarding.",
+          "answer": "(b) The metronome is no longer paired with food, so the association breaks."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain the difference between extinction in classical conditioning and simply forgetting the conditioned stimulus. Use Pavlov's experiment as an example.",
+          "answer": "Extinction in classical conditioning is not forgetting—it is the breakdown of the learned association between the conditioned stimulus (CS) and unconditioned stimulus (US). In Pavlov's experiment, the dog does not forget what a bell sounds like; rather, after the bell is repeatedly presented without food, the dog learns that the bell no longer predicts food, so the conditioned response fades. Forgetting would mean the dog cannot recall the bell at all, which is not the case. Extinction is a specific process of unlearning the CS-US link."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-classical-conditioning-voluntary",
+      "questions": [
+        {
+          "id": "retest-ccv-q1",
+          "type": "single_choice",
+          "stem": "After repeatedly hearing a specific tone just before receiving a puff of air to the eye, a person begins to blink automatically whenever they hear that tone. Which statement best describes this response?",
+          "options": [
+            "It is a voluntary behavior because the person decides to blink.",
+            "It is an involuntary reflex because blinking is automatically triggered by the tone.",
+            "It is a voluntary behavior because the tone is a learned signal.",
+            "It is an involuntary reflex because the puff of air is unavoidable."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-ccv-q2",
+          "type": "open_ended",
+          "stem": "Imagine you work at a factory where a loud alarm sounds every time a machine overheats. Workers have learned to automatically flinch when they hear the alarm, even before the machine actually overheats. Explain why this is an example of classical conditioning and why the flinching response is involuntary, not voluntary.",
+          "rubric": "Student must clearly state that the alarm (neutral stimulus) was paired with the overheating (unconditioned stimulus) causing flinching (unconditioned response), so now the alarm alone triggers flinching (conditioned response). Must emphasize that flinching is an automatic reflex, not a conscious choice, making it involuntary. Accept any wording that captures these key ideas."
+        }
+      ],
+      "passRule": "Q1 correct (option 2) AND Q2 explanation correctly identifies the involuntary reflex nature and the pairing process."
+    },
+    {
+      "forErrorId": "err-operant-conditioning-passive",
+      "questions": [
+        {
+          "id": "retest-err-operant-conditioning-passive-q1",
+          "type": "single_choice",
+          "stem": "In which of the following scenarios is the learner active and the behavior voluntary?",
+          "options": [
+            "A dog salivates when a bell rings because it has been paired with food.",
+            "A student raises their hand in class to get the teacher's attention.",
+            "A person flinches when they hear a loud noise.",
+            "A baby startles at a sudden movement."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-operant-conditioning-passive-q2",
+          "type": "open_ended",
+          "stem": "Explain the difference in the role of the learner between classical and operant conditioning. Include one example of each from everyday life.",
+          "rubric": "Student must state that in classical conditioning the learner is passive (involuntary reflexes) and in operant conditioning the learner is active (voluntary behavior). They should provide appropriate examples, e.g., Pavlov's dog for classical, and a student studying for a reward for operant."
+        }
+      ],
+      "passRule": "Answer both questions correctly. For the open-ended question, the response must clearly distinguish passive role in classical conditioning from active role in operant conditioning and provide valid examples."
+    },
+    {
+      "forErrorId": "err-negative-reinforcement-punishment",
+      "questions": [
+        {
+          "id": "retest-err-negative-reinforcement-punishment-q1",
+          "type": "single_choice",
+          "stem": "A manager stops assigning extra paperwork to an employee once the employee meets their sales target. Which operant conditioning concept does this illustrate?",
+          "options": [
+            "Negative reinforcement",
+            "Punishment",
+            "Positive reinforcement",
+            "Extinction"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-err-negative-reinforcement-punishment-q2",
+          "type": "open_ended",
+          "stem": "Provide one original example of negative reinforcement and one of punishment from a workplace or school setting. For each, explain why it fits the definition.",
+          "rubric": "Student correctly defines negative reinforcement (removing an unpleasant stimulus to increase a behavior) and punishment (adding an unpleasant stimulus to decrease a behavior). Examples must align with definitions and be distinct from lesson examples."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-classical-extinction-mechanism",
+      "questions": [
+        {
+          "id": "r1",
+          "type": "single_choice",
+          "stem": "In classical conditioning, why does the conditioned response eventually disappear during extinction?",
+          "options": [
+            "The animal forgets the conditioned stimulus.",
+            "The conditioned stimulus is no longer paired with the unconditioned stimulus.",
+            "The unconditioned stimulus becomes weaker.",
+            "The animal becomes habituated to the stimulus."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "r2",
+          "type": "open_ended",
+          "stem": "Using Pavlov's classic experiment, explain what happens during extinction and why it is not simply forgetting.",
+          "rubric": "Student must state that extinction occurs when the conditioned stimulus (bell) is presented without the unconditioned stimulus (food) repeatedly, causing the learned association to break, and that the dog does not forget the bell but stops responding because the bell no longer predicts food."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. The single-choice question must select the correct option (index 1). The open-ended response must clearly indicate that extinction results from the conditioned stimulus no longer being paired with the unconditioned stimulus, not from forgetting."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-07-16",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/IK5sdmVuYoCpwnx0u71cEZMknZf?from=vc_group_doc_link#doxcne3XOqIZepGcULxRrvS3kaf",
+    "sourceTitle": "BOH4M.S6.Catherine 2026-07-16 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Classical conditioning was first discovered by Ivan Pavlov in his 1904 Nobel Prize research on canine digestion.；Classical conditioning involves pairing a neutral stimulus with an unconditioned stimulus to produce a conditioned response.；Classical conditioning responses are involuntary reflexes; the learner is passive.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the key features of classical conditioning, including its involuntary nature and extinction mechanism."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify the key features of operant conditioning, including the role of reinforcement and punishment, and distinguish it from classical conditioning."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Attendance marking criteria",
+        "studentAction": "Do not exit the virtual session without notice; respond when called during roll call to avoid being marked absent.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all enrolled students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Any student who exits the virtual session without advance notice, or does not provide a response when called during official roll call, will be officially recorded as absent.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Lesson 3 consolidation quiz",
+        "studentAction": "Complete the 15-minute multiple-choice quiz and type 'finish' in the chat box when done.",
+        "deadlineText": "during class (immediate)",
+        "deadlineISO": "2026-07-16T09:05:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students complete a 15 minute multiple-choice consolidation quiz for Unit 2 Lesson 3, and type the word 'finish' in the session chat box once they complete the task.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Unit 2 Lesson 3 homework",
+        "studentAction": "Complete the homework for personal review; no submission required.",
+        "deadlineText": "no formal deadline",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The assigned homework is designed for personal review only, no formal submission to the instructor is required, and students may complete it at their own pace.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Scheduled break after quiz",
+        "studentAction": "Take a 15-minute break after the quiz window closes.",
+        "deadlineText": "after quiz ends",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "After the 15 minute quiz window closes, all students are granted a 15 minute scheduled break before proceeding to the next set of required task items.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Group CSR project",
+        "studentAction": "Coordinate with group members to continue the collective CSR project if homework is finished early.",
+        "deadlineText": "ongoing",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students who finish homework early",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students who finish the assigned homework ahead of schedule may coordinate directly with their group members to continue progress on the collective CSR project.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next session time and content",
+        "studentAction": "Attend the next session at the same time tomorrow for new content and continued CSR group work.",
+        "deadlineText": "2026-07-17 same time",
+        "deadlineISO": "2026-07-17T07:50:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The next official session will be held at the same scheduled time the following day, covering new course content and continuing group work on the CSR assignment.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "BOH4M-C-OE03-classical",
+      "BOH4M-C-OE03-operant"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-classical-conditioning-voluntary",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module for err-classical-conditioning-voluntary"
+      },
+      {
+        "errorId": "err-operant-conditioning-passive",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module for err-operant-conditioning-passive"
+      },
+      {
+        "errorId": "err-negative-reinforcement-punishment",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for err-negative-reinforcement-punishment"
+      },
+      {
+        "errorId": "err-classical-extinction-mechanism",
+        "condition": "student answers Q4 inadequately",
+        "systemAction": "assign reteach module for err-classical-extinction-mechanism"
+      }
+    ],
+    "nextActions": [
+      "[err-classical-conditioning-voluntary] student picks wrong option on Q1: It looks like you might have confused the type of response in classical conditioning. Let's review the reflexive nature of this learning process.",
+      "[err-operant-conditioning-passive] student picks wrong option on Q2: It seems you might think the learner is passive in operant conditioning. Let's revisit how the learner actively shapes behavior.",
+      "[err-negative-reinforcement-punishment] student picks wrong option on Q3: You may have mixed up negative reinforcement and punishment. Let's clarify the difference with a quick review.",
+      "[err-classical-extinction-mechanism] student answers Q4 inadequately: Your explanation of extinction in classical conditioning needs refinement. Let's work through it together."
+    ],
+    "cards": [
+      {
+        "id": "diag-boh4m-cc-q1",
+        "type": "choice",
+        "question": "In classical conditioning, the conditioned response is best described as:",
+        "options": [
+          "A voluntary action chosen by the learner",
+          "An involuntary reflex triggered by a previously neutral stimulus",
+          "A conscious decision based on expected consequences",
+          "A random response unrelated to any stimulus"
+        ],
+        "correct": 1,
+        "diagnosis": "To check if the student understands that classical conditioning produces involuntary reflexive responses, not voluntary actions.",
+        "misconceptions": [
+          "Classical conditioning involves involuntary reflexes, not voluntary actions. That description better fits operant conditioning.",
+          "✓ Correct! Classical conditioning produces automatic, involuntary responses.",
+          "This describes operant conditioning where behavior is shaped by consequences. In classical conditioning, the learner is passive.",
+          "The response is specifically to the conditioned stimulus, not random. It is learned through pairing."
+        ],
+        "nodeId": "BOH4M-C-OE03-classical",
+        "errorId": "err-classical-conditioning-voluntary",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that classical conditioning produces involuntary responses.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Node BOH4M-C-OE03 matches the expectation code and the specific knowledge node for classical conditioning.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think classical conditioning creates voluntary behaviors similar to operant conditioning.",
+        "remediationModule": "err-classical-conditioning-voluntary",
+        "retestItem": "err-classical-conditioning-voluntary"
+      },
+      {
+        "id": "diag-boh4m-cc-q2",
+        "type": "choice",
+        "question": "In operant conditioning, the learner is typically:",
+        "options": [
+          "Passive, responding automatically to stimuli",
+          "Active, voluntarily performing actions that lead to consequences",
+          "Unconscious, unaware of the learning process",
+          "Neither active nor passive; it depends on the situation"
+        ],
+        "correct": 1,
+        "diagnosis": "To check if the student understands that in operant conditioning the learner is active and behavior is voluntary.",
+        "misconceptions": [
+          "That describes classical conditioning. In operant conditioning, the learner actively produces behavior.",
+          "✓ Correct! Operant conditioning involves active, voluntary behavior shaped by reinforcement or punishment.",
+          "While learners may not always be fully aware, operant conditioning is based on conscious behavior. The learner is active, not unconscious.",
+          "Operant conditioning is fundamentally active because the learner's voluntary behavior is central."
+        ],
+        "nodeId": "BOH4M-C-OE03-operant",
+        "errorId": "err-operant-conditioning-passive",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that operant conditioning involves an active learner.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Node BOH4M-C-OE03 covers both classical and operant conditioning as motivational theories.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think operant conditioning makes the learner passive like classical conditioning.",
+        "remediationModule": "err-operant-conditioning-passive",
+        "retestItem": "err-operant-conditioning-passive"
+      },
+      {
+        "id": "diag-boh4m-cc-q3",
+        "type": "choice",
+        "question": "Which scenario best illustrates negative reinforcement?",
+        "options": [
+          "A student is given detention for talking in class, so the talking decreases.",
+          "A student studies hard to avoid a parent's nagging, so studying increases.",
+          "A student receives a bonus for excellent grades, so grades improve further.",
+          "A student is scolded for interrupting, so interrupting decreases."
+        ],
+        "correct": 1,
+        "diagnosis": "To assess the ability to differentiate negative reinforcement (increases behavior by removing unpleasant stimulus) from punishment (decreases behavior by adding unpleasant stimulus).",
+        "misconceptions": [
+          "This is punishment (adding an unpleasant consequence to decrease behavior). Negative reinforcement removes something unpleasant to increase behavior.",
+          "✓ Correct! The student studies (behavior) to remove nagging (unpleasant stimulus), increasing the behavior.",
+          "This is positive reinforcement (adding a reward to increase behavior). Negative reinforcement removes something unpleasant.",
+          "This is punishment (adding an unpleasant consequence to decrease behavior). Negative reinforcement increases behavior by removal."
+        ],
+        "nodeId": "BOH4M-C-OE03-operant",
+        "errorId": "err-negative-reinforcement-punishment",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student can distinguish negative reinforcement from punishment in a scenario.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Operant conditioning is part of motivational theories under C3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students often think negative reinforcement is the same as punishment because both involve unpleasant stimuli.",
+        "remediationModule": "err-negative-reinforcement-punishment",
+        "retestItem": "err-negative-reinforcement-punishment"
+      },
+      {
+        "id": "diag-boh4m-cc-q4",
+        "type": "explain",
+        "question": "Explain what happens during extinction in classical conditioning. Why does the conditioned response eventually disappear?",
+        "correct": null,
+        "diagnosis": "To check if the student understands the mechanism of extinction in classical conditioning—that it results from breaking the pairing, not forgetting.",
+        "nodeId": "BOH4M-C-OE03-classical",
+        "errorId": "err-classical-extinction-mechanism",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can explain that extinction in classical conditioning occurs when the conditioned stimulus is repeatedly presented without the unconditioned stimulus, breaking the association.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Classical conditioning is a key theory under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "justify",
+        "commonMisconception": "Students may think extinction means the conditioned stimulus is forgotten or the response just fades randomly, rather than understanding the specific breakdown of the CS-US association.",
+        "remediationModule": "err-classical-extinction-mechanism",
+        "retestItem": "err-classical-extinction-mechanism"
+      }
+    ]
+  }
+}

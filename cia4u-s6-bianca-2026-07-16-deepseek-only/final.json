@@ -1,0 +1,1342 @@
+{
+  "sourceLesson": "CIA4U.S6.Bianca 2026-07-16",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/GniBd9aPfocWABxrznPcPs0FnYb?from=vc_group_doc_link#doxcnQFdymyQoX93WpLesAoxPOg",
+  "sourceTitle": "CIA4U.S6.Bianca 2026-07-16 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/GniBd9aPfocWABxrznPcPs0FnYb?from=vc_group_doc_link#doxcnQFdymyQoX93WpLesAoxPOg",
+    "title": "CIA4U.S6.Bianca 2026-07-16 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-16/sources/cia4u-s6-bianca-2026-07-16/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "CIA4U",
+  "lessonDate": "2026-07-16",
+  "teacher": "Bianca",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-16",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The session includes both instruction on Unit 2 business forms (classification, comparison, group discussion) and multiple operational items (camera rule, test reschedule, assignment deadline).",
+    "academicContentSignals": [
+      "Business entity classifications: sole proprietorship, partnership, cooperative society, joint stock company",
+      "Core features of each business form (e.g., single ownership, 2+ members, unlimited liability vs. limited liability)",
+      "Advantages and limitations comparison across forms (e.g., decision speed vs. risk, resource pooling vs. unclear share transfer)",
+      "Factors for choosing business structure: development stage, capital demand, risk control preference",
+      "Three instructional videos covering setup costs, risk boundaries, U.S. business entity classification",
+      "Group discussion: selecting a suitable business form for a hypothetical startup with reasoning",
+      "Group discussion: analyzing why different businesses choose different structures",
+      "Homework: 4 short-answer questions on business form enumeration, partnership advantage description, and cross-form comparative analysis"
+    ],
+    "courseOverviewSignals": [
+      "Unit 2 theme: Firms, Markets, and Economic Stakeholders",
+      "Session learning goals: master classification, core features, advantages and limitations of common business forms"
+    ],
+    "opsDominanceRisk": "Operations (camera rule, test reschedule, assignment deadline) are numerous but academic content is substantial. The generated diagnostic must primarily test business form knowledge; limit operational items to 0–2 readiness checks to avoid overshadowing learning mastery.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Keep camera on during class",
+        "studentAction": "Keep camera activated for the full session to avoid attendance penalty.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Mandatory camera requirement: All participants who confirmed their presence during roll call must keep their cameras activated for the full session to avoid attendance penalties.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Test rescheduled to Sunday",
+        "studentAction": "Prepare for Unit 1 test on Sunday (July 19, 2026).",
+        "deadlineText": "Sunday (July 19, 2026) – corresponds to Monday for local participants",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The Unit 1 test, previously announced to be held on either the current or next day, is rescheduled to Sunday (corresponding to Monday for local participants).",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "review_focus",
+        "title": "Unit 1 Test Review in next class",
+        "studentAction": "Attend next class for a targeted review covering key examination scope.",
+        "deadlineText": "Next class (July 17, 2026)",
+        "deadlineISO": "2026-07-17",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "A targeted review covering all key examination scope will be integrated into the next day’s regular class session for participants’ preparation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "deadline",
+        "title": "Submit Unit 1 Assignment 2 by end of class",
+        "studentAction": "Submit Unit 1 Assignment 2 before the session ends (13:14). If unable, contact instructor beforehand for extension.",
+        "deadlineText": "End of current class session (13:14, July 16, 2026)",
+        "deadlineISO": "2026-07-16T13:14:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The previously assigned Unit 1 Assignment 2 must be submitted by the end of the current class session without additional extensions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "teacher_request",
+        "title": "Request extension for Assignment 2 if needed",
+        "studentAction": "Inform the instructor in advance to submit a formal delayed submission request if you cannot meet the deadline.",
+        "deadlineText": "Before end of class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "participants unable to meet deadline",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Participants who cannot meet the deadline must inform the instructor in advance to submit a formal delayed submission request.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Unit 2 Homework (4 short-answer questions)",
+        "studentAction": "Complete the homework from the shared link.",
+        "deadlineText": "Before next class (assumed, not explicitly stated)",
+        "deadlineISO": null,
+        "platform": "shared link (no specific platform given)",
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "The homework will be distributed to all participants via shared link, and no separate submission reminder will be sent before the next class.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Next class: Unit 1 review + Unit 2 continuation",
+        "studentAction": "Attend next class for Unit 1 test review and continuation of Unit 2 content.",
+        "deadlineText": "Next class (July 17, 2026)",
+        "deadlineISO": "2026-07-17",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The next class will integrate the Unit 1 test review into regular teaching, and continue to cover the subsequent content of Unit 2.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "follow_up_action",
+        "title": "Teacher follow-up on missing Assignment 2 submissions",
+        "studentAction": "Ensure you have submitted; teacher will check after session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "participants who have not submitted",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The instructor will track the submission status of Unit 1 Assignment 2, and follow up with participants who have not submitted the assignment after the session.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Exact time of Unit 1 test on Sunday not specified.",
+        "reason": "Only 'Sunday' given, no time of day. Also 'local participants' unclear."
+      },
+      {
+        "rawText": "Homework link not specified; only 'shared link' mentioned.",
+        "reason": "No URL or platform identifier provided."
+      }
+    ]
+  },
+  "title": "CIA4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Sole Proprietorship、Partnership、Cooperative Society、Joint Stock Company）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 5 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Sole proprietorship is owned and operated by a single individual; easy to set up and gives full control but carries unlimited personal liability.；Partnership is co-founded by 2+ members; for banking businesses the cap is 10 members, for other sectors it is 20; requires a formal agreement.；Cooperative society is a voluntary mutual-aid organization; operates on one-member-one-vote rule; common types include consumer and housing cooperatives.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can distinguish key features, advantages, and limitations of sole proprietorship, partnership, cooperative society, and joint stock company."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can apply criteria (development stage, capital demand, risk control) to select an appropriate business form for a given scenario."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "CIA4U-C-OE01_sole-proprietorship",
+      "name": "Sole Proprietorship",
+      "nameEn": "Sole Proprietorship",
+      "definition": "A business fully owned, operated and controlled by a single individual. Features easy setup and full decision control, but bears unlimited personal liability.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "CIA4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm."
+    },
+    {
+      "id": "CIA4U-C-OE01_partnership",
+      "name": "Partnership",
+      "nameEn": "Partnership",
+      "definition": "A profit-oriented business co-founded by two or more members, with a 10-member cap for banking businesses and 20 for other sectors. Requires a formal agreement covering core operational terms.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "CIA4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm."
+    },
+    {
+      "id": "CIA4U-C-OE01_cooperative-society",
+      "name": "Cooperative Society",
+      "nameEn": "Cooperative Society",
+      "definition": "A voluntary mutual-aid organization for shared economic interests, adopting a one-member-one-vote rule. Common types include consumer and housing cooperatives.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "CIA4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm."
+    },
+    {
+      "id": "CIA4U-C-OE01_joint-stock-company",
+      "name": "Joint Stock Company",
+      "nameEn": "Joint Stock Company",
+      "definition": "A legally established independent legal entity, divided into private limited (max 50 shareholders) and public limited companies with freely transferable shares.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "CIA4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm."
+    },
+    {
+      "id": "CIA4U-C-OE01_business-form-comparison",
+      "name": "Business Form Comparison",
+      "nameEn": "Business Form Comparison",
+      "definition": "Cross-form comparative analysis of advantages and limitations: sole proprietorships offer fast decisions, partnerships pool resources, companies provide asset protection; limitations include continuity risk, unclear share transfer, and complex compliance.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "CIA4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can distinguish key features, advantages, and limitations of sole proprietorship, partnership, cooperative society, and joint stock company."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can apply criteria (development stage, capital demand, risk control) to select an appropriate business form for a given scenario."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-sole-proprietor-liability",
+        "condition": "student picks option that suggests limited liability for sole proprietorship",
+        "systemAction": "assign reteach module err-sole-proprietor-liability",
+        "studentMessage": "Sole proprietors carry unlimited personal liability. Let's review that."
+      },
+      {
+        "errorId": "err-partnership-max-members",
+        "condition": "student picks wrong member cap for partnership",
+        "systemAction": "assign reteach module err-partnership-max-members",
+        "studentMessage": "Partnership member caps depend on industry. Let's review the numbers."
+      },
+      {
+        "errorId": "err-cooperative-voting",
+        "condition": "student picks one-share-one-vote instead of one-member-one-vote",
+        "systemAction": "assign reteach module err-cooperative-voting",
+        "studentMessage": "Cooperatives use one-member-one-vote. Let's review."
+      },
+      {
+        "errorId": "err-private-company-shareholder-limit",
+        "condition": "student selects incorrect shareholder limit for private limited company",
+        "systemAction": "assign reteach module err-private-company-shareholder-limit",
+        "studentMessage": "Private limited companies have a maximum of 50 shareholders. Let's review."
+      },
+      {
+        "errorId": "err-business-form-one-size-fits-all",
+        "condition": "student indicates one universal best form regardless of context",
+        "systemAction": "assign reteach module err-business-form-one-size-fits-all",
+        "studentMessage": "Choosing a business form depends on stage, capital, and risk. Let's explore."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q-sole-liability",
+        "nodeId": "CIA4U-C-OE01_sole-proprietorship",
+        "errorId": "err-sole-proprietor-liability",
+        "stem": "A sole proprietor's business fails and owes $50,000 to creditors. Which statement about the owner's personal assets is correct?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies unlimited personal liability for sole proprietors",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly covers sole proprietorship as a market structure",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student knows sole proprietors have unlimited liability",
+        "commonMisconception": "Student thinks sole proprietors have limited liability like corporations",
+        "remediationModule": "err-sole-proprietor-liability",
+        "retestItem": "err-sole-proprietor-liability",
+        "options": [
+          {
+            "label": "A",
+            "text": "The owner's personal assets are protected; only business assets can be used.",
+            "correct": false,
+            "feedbackWrong": "That's limited liability, which applies to corporations, not sole proprietorships. Sole proprietors are personally liable for all debts."
+          },
+          {
+            "label": "B",
+            "text": "The owner's personal assets are at risk; creditors can claim them to cover the debt.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Sole proprietorship carries unlimited personal liability."
+          },
+          {
+            "label": "C",
+            "text": "The owner is only liable up to the amount invested in the business.",
+            "correct": false,
+            "feedbackWrong": "That describes limited liability. Sole proprietors face unlimited liability regardless of investment."
+          },
+          {
+            "label": "D",
+            "text": "The owner can declare bankruptcy to protect personal assets from business debts.",
+            "correct": false,
+            "feedbackWrong": "Bankruptcy may affect both business and personal assets. It does not guarantee protection of personal assets from all creditors."
+          }
+        ]
+      },
+      {
+        "id": "q-partnership-members",
+        "nodeId": "CIA4U-C-OE01_partnership",
+        "errorId": "err-partnership-max-members",
+        "stem": "A group of 12 accountants wants to form a partnership. According to the lesson, what is the maximum number of members allowed for a non-banking partnership?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recalls the 20-member cap for non-banking partnerships",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Partnership rules fall under C1",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "stemIntent": "Check if student knows the member cap for non-banking partnerships",
+        "commonMisconception": "Student may think the cap is 10 (banking) or different number",
+        "remediationModule": "err-partnership-max-members",
+        "retestItem": "err-partnership-max-members",
+        "options": [
+          {
+            "label": "A",
+            "text": "10 members",
+            "correct": false,
+            "feedbackWrong": "10 is the cap for banking partnerships. For other sectors, the limit is 20 members."
+          },
+          {
+            "label": "B",
+            "text": "20 members",
+            "correct": true,
+            "feedbackCorrect": "Correct. Non-banking partnerships allow up to 20 members."
+          },
+          {
+            "label": "C",
+            "text": "50 members",
+            "correct": false,
+            "feedbackWrong": "50 is the shareholder limit for a private limited company, not a partnership."
+          },
+          {
+            "label": "D",
+            "text": "No limit on members",
+            "correct": false,
+            "feedbackWrong": "Partnerships have a maximum member limit depending on the industry."
+          }
+        ]
+      },
+      {
+        "id": "q-cooperative-voting",
+        "nodeId": "CIA4U-C-OE01_cooperative-society",
+        "errorId": "err-cooperative-voting",
+        "stem": "In a consumer cooperative, how are voting rights typically distributed?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies one-member-one-vote as the cooperative voting rule",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Cooperatives are a business form covered under C1",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student knows cooperative voting principle",
+        "commonMisconception": "Student may think voting is based on shares owned (like in a joint stock company)",
+        "remediationModule": "err-cooperative-voting",
+        "retestItem": "err-cooperative-voting",
+        "options": [
+          {
+            "label": "A",
+            "text": "One vote per share held",
+            "correct": false,
+            "feedbackWrong": "That's typical for joint stock companies, not cooperatives. Cooperatives use one-member-one-vote."
+          },
+          {
+            "label": "B",
+            "text": "One vote per member, regardless of number of shares",
+            "correct": true,
+            "feedbackCorrect": "Correct. Cooperatives follow the one-member-one-vote principle."
+          },
+          {
+            "label": "C",
+            "text": "Votes are proportional to the amount of goods purchased",
+            "correct": false,
+            "feedbackWrong": "Cooperative voting is not based on purchases; each member has equal voting power."
+          },
+          {
+            "label": "D",
+            "text": "Only founding members can vote",
+            "correct": false,
+            "feedbackWrong": "All members of a cooperative have voting rights, not just founders."
+          }
+        ]
+      },
+      {
+        "id": "q-private-company-shareholders",
+        "nodeId": "CIA4U-C-OE01_joint-stock-company",
+        "errorId": "err-private-company-shareholder-limit",
+        "stem": "A private limited company is being formed. What is the maximum number of shareholders allowed?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly states 50 shareholders as the limit for a private limited company",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Joint stock company is a business form under C1",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "stemIntent": "Check if student knows the shareholder limit for private limited companies",
+        "commonMisconception": "Student may think there is no limit or a different number",
+        "remediationModule": "err-private-company-shareholder-limit",
+        "retestItem": "err-private-company-shareholder-limit",
+        "options": [
+          {
+            "label": "A",
+            "text": "10 shareholders",
+            "correct": false,
+            "feedbackWrong": "10 is the cap for banking partnerships, not private limited companies."
+          },
+          {
+            "label": "B",
+            "text": "20 shareholders",
+            "correct": false,
+            "feedbackWrong": "20 is the cap for non-banking partnerships, not private limited companies."
+          },
+          {
+            "label": "C",
+            "text": "50 shareholders",
+            "correct": true,
+            "feedbackCorrect": "Correct. A private limited company can have up to 50 shareholders."
+          },
+          {
+            "label": "D",
+            "text": "Unlimited shareholders",
+            "correct": false,
+            "feedbackWrong": "Unlimited shareholders is a feature of public limited companies, not private limited."
+          }
+        ]
+      },
+      {
+        "id": "q-business-form-selection",
+        "nodeId": "CIA4U-C-OE01_business-form-comparison",
+        "errorId": "err-business-form-one-size-fits-all",
+        "stem": "Two friends want to start a small tech company. One wants full control and simple setup; the other wants to share risk and bring complementary skills. They are unsure about personal liability. Which business form best balances these needs?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects partnership as the most appropriate form given the description",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applying knowledge of business forms to a scenario aligns with C1",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can match business form features to a scenario, avoiding one-size-fits-all thinking",
+        "commonMisconception": "Student might default to sole proprietorship or joint stock company without considering context",
+        "remediationModule": "err-business-form-one-size-fits-all",
+        "retestItem": "err-business-form-one-size-fits-all",
+        "options": [
+          {
+            "label": "A",
+            "text": "Sole proprietorship",
+            "correct": false,
+            "feedbackWrong": "Sole proprietorship gives full control but does not allow sharing risk or skills with a partner. It also has unlimited personal liability."
+          },
+          {
+            "label": "B",
+            "text": "Partnership",
+            "correct": true,
+            "feedbackCorrect": "Correct. Partnership allows pooling skills and risk, relatively simple setup, but partners must accept unlimited liability."
+          },
+          {
+            "label": "C",
+            "text": "Cooperative society",
+            "correct": false,
+            "feedbackWrong": "Cooperatives are mutual-aid organizations not typically suited for a small for-profit tech startup with two founders."
+          },
+          {
+            "label": "D",
+            "text": "Private limited company",
+            "correct": false,
+            "feedbackWrong": "A private limited company offers limited liability but involves more complex compliance and less control than a partnership."
+          }
+        ]
+      },
+      {
+        "id": "q-advantage-limitation-match",
+        "nodeId": "CIA4U-C-OE01_business-form-comparison",
+        "errorId": "err-business-form-one-size-fits-all",
+        "stem": "Match each statement to the correct business form: 'Fast independent decision-making' and 'Unlimited personal liability' are both characteristics of which form?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies sole proprietorship as having both fast decisions and unlimited liability",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Comparative analysis of business forms falls under C1",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student can accurately associate advantages and limitations with specific forms",
+        "commonMisconception": "Student might attribute fast decisions to partnership or limited liability to sole proprietorship",
+        "remediationModule": "err-sole-proprietor-liability",
+        "retestItem": "err-sole-proprietor-liability",
+        "options": [
+          {
+            "label": "A",
+            "text": "Sole proprietorship",
+            "correct": true,
+            "feedbackCorrect": "Correct. Sole proprietors enjoy fast independent decisions but carry unlimited personal liability."
+          },
+          {
+            "label": "B",
+            "text": "Partnership",
+            "correct": false,
+            "feedbackWrong": "Partnerships involve shared decision-making, not fully independent. Unlimited liability applies but decisions are not solely independent."
+          },
+          {
+            "label": "C",
+            "text": "Cooperative society",
+            "correct": false,
+            "feedbackWrong": "Cooperatives use democratic decision-making (one-member-one-vote), not independent. Liability is typically limited."
+          },
+          {
+            "label": "D",
+            "text": "Joint stock company",
+            "correct": false,
+            "feedbackWrong": "Joint stock companies have limited liability but decision-making is not fast and independent; it's governed by a board."
+          }
+        ]
+      },
+      {
+        "id": "q-open-selection-factors",
+        "nodeId": "CIA4U-C-OE01_business-form-comparison",
+        "errorId": "err-business-form-one-size-fits-all",
+        "stem": "Explain why there is no single 'best' business form for all entrepreneurs. In your answer, mention at least two factors from the lesson that influence the choice.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student states that choice depends on development stage, capital demand, or risk control preference, and explains how these affect suitability",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Evaluating trade-offs in business form selection aligns with C1",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Assess whether student understands that business form selection is context-dependent",
+        "commonMisconception": "Student may claim a single form is always best",
+        "remediationModule": "err-business-form-one-size-fits-all",
+        "retestItem": "err-business-form-one-size-fits-all",
+        "rubric": "Full credit (2 points): mentions at least two of the three factors (development stage, capital demand, risk control) and explains how each points to a different form. Partial credit (1 point): mentions one factor or gives a general statement without specific linking. No credit: states there is a single best form or irrelevant answer.",
+        "sampleStrongAnswer": "There is no one-size-fits-all business form because the best choice depends on the entrepreneur's stage of development, capital needs, and risk tolerance. For example, a startup with low capital needs and desire for full control might choose a sole proprietorship, while a venture requiring significant investment and limited liability might form a private limited company."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-sole-proprietor-liability",
+      "condition": "student picks option that suggests limited liability for sole proprietorship",
+      "systemAction": "assign reteach module err-sole-proprietor-liability",
+      "studentMessage": "Sole proprietors carry unlimited personal liability. Let's review that."
+    },
+    {
+      "errorId": "err-partnership-max-members",
+      "condition": "student picks wrong member cap for partnership",
+      "systemAction": "assign reteach module err-partnership-max-members",
+      "studentMessage": "Partnership member caps depend on industry. Let's review the numbers."
+    },
+    {
+      "errorId": "err-cooperative-voting",
+      "condition": "student picks one-share-one-vote instead of one-member-one-vote",
+      "systemAction": "assign reteach module err-cooperative-voting",
+      "studentMessage": "Cooperatives use one-member-one-vote. Let's review."
+    },
+    {
+      "errorId": "err-private-company-shareholder-limit",
+      "condition": "student selects incorrect shareholder limit for private limited company",
+      "systemAction": "assign reteach module err-private-company-shareholder-limit",
+      "studentMessage": "Private limited companies have a maximum of 50 shareholders. Let's review."
+    },
+    {
+      "errorId": "err-business-form-one-size-fits-all",
+      "condition": "student indicates one universal best form regardless of context",
+      "systemAction": "assign reteach module err-business-form-one-size-fits-all",
+      "studentMessage": "Choosing a business form depends on stage, capital, and risk. Let's explore."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-sole-proprietor-liability",
+      "trigger": "In the diagnostic question about sole proprietor liability, you selected an answer indicating limited liability.",
+      "studentMisunderstanding": "You may think that sole proprietors have limited liability, but in fact they carry unlimited personal liability. This means that if the business cannot pay its debts, creditors can go after your personal assets like your house or savings.",
+      "miniLesson": {
+        "explain": "A sole proprietorship is a business owned by one person. While it is easy to set up and gives you full control, it also comes with unlimited personal liability. That means you are personally responsible for all debts and obligations of the business. Unlike a corporation which protects your personal assets, a sole proprietorship offers no such separation. If the business fails and owes money, creditors can legally claim your personal property to satisfy the debt.",
+        "example": "Imagine you run a small bakery as a sole proprietor. You take out a $10,000 loan to buy new equipment. If the bakery goes out of business and you can't repay the loan, the bank can sue you personally and potentially take your personal car or even your house to recover the money.",
+        "memoryAnchor": "Think of 'sole' as 'soul' – your personal soul (assets) is fully on the line. There is no shield between you and the business debts."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: In a sole proprietorship, the owner's personal assets are protected from business debts.",
+          "answer": "False. Sole proprietors have unlimited personal liability, so personal assets are at risk."
+        },
+        {
+          "level": "L2",
+          "prompt": "Jane operates a sole proprietorship consulting firm. The firm incurs $25,000 in debt and cannot pay. Can the creditors go after Jane's personal savings? Explain why or why not.",
+          "answer": "Yes, creditors can go after Jane's personal savings because sole proprietorship has unlimited personal liability. The business and the owner are legally the same, so personal assets are not protected."
+        },
+        {
+          "level": "L3",
+          "prompt": "Alex is considering starting a business. He wants full control and simple setup, but he is worried about risking his personal savings. Compare the liability of a sole proprietorship versus a private limited company. Which would you recommend for Alex and why?",
+          "answer": "A sole proprietorship offers full control and simple setup but carries unlimited personal liability, putting Alex's personal savings at risk. A private limited company provides limited liability, protecting personal assets, but involves more complex compliance and less control. If Alex prioritizes asset protection, a private limited company is better despite the extra complexity. If he is willing to accept the risk for simplicity, a sole proprietorship might suit, but he should be aware of the unlimited liability."
+        }
+      ]
+    },
+    {
+      "errorId": "err-partnership-max-members",
+      "trigger": "Student selects incorrect maximum number of members for a partnership.",
+      "studentMisunderstanding": "Student may not recall that partnerships have specific member caps depending on the industry: 10 for banking, 20 for other sectors.",
+      "miniLesson": {
+        "explain": "A partnership is co-founded by two or more members. The maximum number of members depends on the industry: for banking businesses, the cap is 10 members; for all other sectors, the cap is 20 members. This limit is set by law and must be included in a formal partnership agreement.",
+        "example": "If a group of 12 accountants wants to form a partnership, they can do so because accounting is a non-banking sector, allowing up to 20 members. However, a group of 12 bankers cannot form a partnership because banking partnerships are limited to 10 members.",
+        "memoryAnchor": "Banking: 10 (like 10 fingers). Other: 20 (like double 10)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the maximum number of members allowed in a banking partnership?",
+          "answer": "10"
+        },
+        {
+          "level": "L2",
+          "prompt": "A group of 18 engineers wants to form a partnership. Is this allowed? Why or why not?",
+          "answer": "Yes, because engineering is a non-banking sector, so the maximum is 20 members, and 18 is under that limit."
+        },
+        {
+          "level": "L3",
+          "prompt": "Why do you think the law sets different partnership member caps for banking and other sectors? Explain how this relates to risk and regulation.",
+          "answer": "Banking involves higher financial risk and requires stricter oversight to protect depositors, so the cap is lower (10). Other sectors have less systemic risk, so a higher cap (20) allows more collaboration. This reflects the need for tighter control in banking."
+        }
+      ]
+    },
+    {
+      "errorId": "err-cooperative-voting",
+      "trigger": "Student selects 'one vote per share' instead of 'one vote per member' on a question about cooperative voting.",
+      "studentMisunderstanding": "Students often confuse cooperative voting with corporate voting, assuming that voting power is proportional to shares owned (one-share-one-vote) rather than the cooperative principle of one-member-one-vote.",
+      "miniLesson": {
+        "explain": "In a cooperative society, every member has equal voting rights regardless of how many shares they own or how much business they do with the cooperative. This is called the one-member-one-vote rule. It ensures democratic control: each member gets exactly one vote in decisions like electing the board or approving major changes. This differs from joint stock companies where voting is typically tied to the number of shares held.",
+        "example": "Imagine a consumer cooperative grocery store with 200 members. Member A shops there every week and holds 10 shares. Member B just joined and holds 1 share. When voting on whether to expand the store, both Member A and Member B get one vote each. Their voting power is equal, not based on shares or purchases.",
+        "memoryAnchor": "One member, one vote — like each person in a club gets one say, no matter how much they put in."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a cooperative housing society, who gets to vote on new maintenance rules? Choose the correct option:\nA) Only residents who own the most shares\nB) Each resident member gets one vote\nC) Voting is based on the size of each apartment\nD) Only the founding members can vote",
+          "answer": "B) Each resident member gets one vote"
+        },
+        {
+          "level": "L2",
+          "prompt": "Explain why a cooperative's voting system is considered more democratic than that of a joint stock company. Use the terms 'one-member-one-vote' and 'one-share-one-vote' in your answer.",
+          "answer": "Cooperatives use one-member-one-vote, giving each member equal say regardless of investment, promoting equality and democratic control. Joint stock companies typically use one-share-one-vote, where wealthier shareholders have more influence, which can be less democratic."
+        },
+        {
+          "level": "L3",
+          "prompt": "A new cooperative is being formed by 50 farmers. Ten of them contribute 50% of the capital, while the other 40 contribute the rest. Some of the large contributors want voting power proportional to their capital contribution. Using the cooperative principle, argue why this request should be denied and explain how the one-member-one-vote rule benefits the cooperative's mission.",
+          "answer": "The request should be denied because cooperatives operate on one-member-one-vote, not one-share-one-vote. This rule ensures that all members have equal control, preventing domination by wealthy members. It aligns with the cooperative's mutual-aid purpose, fostering trust and collective decision-making. Even if capital contributions differ, each member's voice is equally important to maintain the democratic and voluntary nature of the organization."
+        }
+      ]
+    },
+    {
+      "errorId": "err-private-company-shareholder-limit",
+      "trigger": "Student selects an incorrect maximum number of shareholders for a private limited company (e.g., 10, 20, or unlimited instead of 50).",
+      "studentMisunderstanding": "Students may think private limited companies have no shareholder limit or a different number than 50.",
+      "miniLesson": {
+        "explain": "In Canada, private limited companies are a type of joint stock company that restricts ownership to a maximum of 50 shareholders. This limit distinguishes them from public limited companies, which have freely transferable shares and no shareholder cap. The 50-shareholder limit helps maintain the private nature of the company, preventing widespread public trading of shares.",
+        "example": "Consider a group of 60 investors wanting to form a company. They cannot use a private limited company because that would exceed the 50-shareholder maximum. Instead, they would need to form a public limited company if they want to have more than 50 shareholders and sell shares to the public.",
+        "memoryAnchor": "Remember: Private = 50 (think 'Private Party' limited to 50 guests). The number 50 is halfway between the partnership caps (10 and 20) and the unlimited nature of a public company."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the maximum number of shareholders allowed in a private limited company?",
+          "answer": "50"
+        },
+        {
+          "level": "L2",
+          "prompt": "A group of 70 investors wants to form a company that limits shareholder liability but does not want to go public. Can they form a private limited company? Explain why or why not.",
+          "answer": "No, they cannot form a private limited company because the maximum number of shareholders is 50. With 70 investors, they would exceed this limit. They could consider forming a public limited company, which has no shareholder cap, or restructure to have 50 or fewer shareholders."
+        },
+        {
+          "level": "L3",
+          "prompt": "Compare the shareholder limit of a private limited company (50) with the member caps of partnerships (10 for banking, 20 for non-banking). Why might a business choose a private limited company over a partnership if it expects to have more than 20 owners but fewer than 50?",
+          "answer": "A business expecting 30 to 50 owners would choose a private limited company because partnerships cap at 20 (non-banking) or 10 (banking). The private limited company allows up to 50 shareholders, offers limited liability (protecting personal assets), and has a separate legal identity. However, it involves more complex compliance. The choice reflects trade-offs between liability protection, number of owners, and regulatory burden."
+        }
+      ]
+    },
+    {
+      "errorId": "err-business-form-one-size-fits-all",
+      "trigger": "Student expresses or implies that one business form (e.g., corporation) is always superior regardless of context.",
+      "studentMisunderstanding": "Students may believe there is a universally optimal business form, ignoring that choice depends on development stage, capital demand, and risk control preference.",
+      "miniLesson": {
+        "explain": "There is no single 'best' business form for all entrepreneurs. The optimal choice depends on three core factors: development stage (startup vs. mature), capital demand (low vs. high), and risk control preference (full control vs. limited liability). For example, a sole proprietorship suits a low-capital startup seeking full control but carries unlimited personal liability; a private limited company protects personal assets but requires complex compliance. Each form has trade-offs: fast decisions vs. resource pooling, simplicity vs. liability protection, stability vs. flexibility.",
+        "example": "In a Group 1 discussion, students evaluated a hypothetical tech startup. The founder wanted quick decisions and minimal paperwork, but also needed to pool skills with a partner. They chose a partnership to balance control and shared resources, understanding the unlimited liability trade-off. A corporation would have been overkill at the startup stage due to compliance costs.",
+        "memoryAnchor": "Choosing a business form is like selecting a tool for a specific job: you wouldn't use a sledgehammer for a thumbtack or a screwdriver for a nail. Match the form to your stage, capital, and risk tolerance."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "List the three core factors that influence the selection of a business form, according to the lesson.",
+          "answer": "Development stage, capital demand, and risk control preference."
+        },
+        {
+          "level": "L2",
+          "prompt": "A group of friends wants to start a restaurant. They have moderate capital, want to share decision-making, and are concerned about personal liability. Which two business forms are most appropriate, and why?",
+          "answer": "Partnership or private limited company. Partnership allows shared control and pooling of resources but has unlimited liability; private limited company limits personal liability but involves more compliance. The choice depends on their risk tolerance and willingness to handle paperwork."
+        },
+        {
+          "level": "L3",
+          "prompt": "Evaluate this claim: 'Every new business should incorporate as a private limited company to protect personal assets.' Use the three selection factors to argue for or against.",
+          "answer": "The claim is too absolute. While limited liability protects personal assets, incorporation involves higher setup costs and compliance. For a low-capital startup (e.g., freelancer), a sole proprietorship may be better. For a high-risk venture needing investor confidence, a company form is suitable. Thus, the choice depends on stage (startup vs. growth), capital needs (small vs. large), and risk tolerance (willingness to accept liability)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-sole-proprietor-liability",
+      "questions": [
+        {
+          "id": "sole-liability-retest-1",
+          "type": "single_choice",
+          "stem": "Which statement correctly describes the liability of a sole proprietor?",
+          "options": [
+            "The owner's personal assets are protected from business debts.",
+            "The owner is personally responsible for all business debts, which may include losing personal assets.",
+            "The owner's liability is limited to the amount invested in the business.",
+            "The owner shares liability with the business partners."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "sole-liability-retest-2",
+          "type": "open_ended",
+          "stem": "Explain why a sole proprietor might consider switching to a private limited company if they are concerned about protecting their personal assets. Refer to the concept of liability in your answer.",
+          "rubric": "Student must state that sole proprietorship has unlimited personal liability (personal assets at risk), while a private limited company offers limited liability (only business assets at risk). They should recommend switching for asset protection, acknowledging trade-offs in complexity/control. Partial credit for mentioning one side."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For single choice, correct option must be selected. For open-ended, answer must demonstrate understanding of unlimited vs limited liability and application to the scenario."
+    },
+    {
+      "forErrorId": "err-partnership-max-members",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A group of 9 bankers wants to form a partnership. Another group of 19 architects wants to form a partnership. Which statement is correct?",
+          "options": [
+            "Both groups can legally form partnerships.",
+            "Only the bankers can form a partnership.",
+            "Only the architects can form a partnership.",
+            "Neither group can form a partnership because they exceed the limits."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why the law sets a lower maximum number of members for banking partnerships compared to partnerships in other sectors. In your answer, refer to the concept of risk and regulation.",
+          "rubric": "Student correctly identifies that banking involves higher financial risk and stricter regulation, leading to a lower cap (10) to ensure oversight, while non-banking sectors have a higher cap (20) due to lower systemic risk."
+        }
+      ],
+      "passRule": "Answer question 1 correctly and provide a satisfactory explanation for question 2."
+    },
+    {
+      "forErrorId": "err-cooperative-voting",
+      "questions": [
+        {
+          "id": "coop-vote-sc",
+          "type": "single_choice",
+          "stem": "In a consumer cooperative with 300 members, how is voting power distributed when deciding on a new store location?",
+          "options": [
+            "Each member gets one vote regardless of shares held",
+            "Votes are proportional to the number of shares each member owns",
+            "Only members who have been in the cooperative for more than one year can vote",
+            "Voting power is based on how much each member purchases"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "coop-vote-oe",
+          "type": "open_ended",
+          "stem": "Explain why the voting system in a cooperative society is considered more democratic than that in a joint stock company. Use the terms 'one-member-one-vote' and 'one-share-one-vote' in your explanation.",
+          "rubric": "Full credit: Clearly contrasts one-member-one-vote (cooperative) with one-share-one-vote (company), explaining that cooperative gives equal voice to all members regardless of investment, while company voting favors larger shareholders, making cooperative more democratic. Partial credit: Mentions key terms but lacks clear comparison or reasoning."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, refer to the rubric for correctness."
+    },
+    {
+      "forErrorId": "err-private-company-shareholder-limit",
+      "questions": [
+        {
+          "id": "q1_private_limit",
+          "type": "single_choice",
+          "stem": "What is the maximum number of shareholders a private limited company in Canada can have?",
+          "options": [
+            "10",
+            "20",
+            "50",
+            "Unlimited"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2_private_scenario",
+          "type": "open_ended",
+          "stem": "A group of 55 investors wants to start a business that limits personal liability. They prefer not to have shares traded publicly. Can they form a private limited company? If not, what are two possible alternatives? Explain.",
+          "rubric": "Correctly states that 55 exceeds the 50-shareholder limit for a private limited company, so they cannot form one. Suggests two alternatives: (1) Form a public limited company (no shareholder limit but shares trade publicly) or (2) Restructure to have 50 or fewer shareholders (e.g., some investors become silent partners or form multiple entities). Partial credit for one valid alternative."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-business-form-one-size-fits-all",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is NOT one of the three core factors that influence business form selection?",
+          "options": [
+            "Development stage",
+            "Capital demand",
+            "Risk control preference",
+            "Market share"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why there is no universally best business form. Use the three core factors (development stage, capital demand, risk control preference) and provide a specific example to illustrate your reasoning.",
+          "rubric": "To pass, answer must: (1) state that the choice depends on the three factors, (2) briefly describe how each factor influences the decision, (3) give an example such as a sole proprietorship for a low-capital startup seeking full control vs. a private limited company for a high-risk venture needing liability protection. A complete, accurate explanation with a relevant example is required."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For q1, the correct answer is 'Market share'. For q2, the response must demonstrate understanding of the three factors and provide a specific business form example that aligns with those factors."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-16",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/GniBd9aPfocWABxrznPcPs0FnYb?from=vc_group_doc_link#doxcnQFdymyQoX93WpLesAoxPOg",
+    "sourceTitle": "CIA4U.S6.Bianca 2026-07-16 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Sole proprietorship is owned and operated by a single individual; easy to set up and gives full control but carries unlimited personal liability.；Partnership is co-founded by 2+ members; for banking businesses the cap is 10 members, for other sectors it is 20; requires a formal agreement.；Cooperative society is a voluntary mutual-aid organization; operates on one-member-one-vote rule; common types include consumer and housing cooperatives.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can distinguish key features, advantages, and limitations of sole proprietorship, partnership, cooperative society, and joint stock company."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can apply criteria (development stage, capital demand, risk control) to select an appropriate business form for a given scenario."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Keep camera on during class",
+        "studentAction": "Keep camera activated for the full session to avoid attendance penalty.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Mandatory camera requirement: All participants who confirmed their presence during roll call must keep their cameras activated for the full session to avoid attendance penalties.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Test rescheduled to Sunday",
+        "studentAction": "Prepare for Unit 1 test on Sunday (July 19, 2026).",
+        "deadlineText": "Sunday (July 19, 2026) – corresponds to Monday for local participants",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The Unit 1 test, previously announced to be held on either the current or next day, is rescheduled to Sunday (corresponding to Monday for local participants).",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "review_focus",
+        "title": "Unit 1 Test Review in next class",
+        "studentAction": "Attend next class for a targeted review covering key examination scope.",
+        "deadlineText": "Next class (July 17, 2026)",
+        "deadlineISO": "2026-07-17",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "A targeted review covering all key examination scope will be integrated into the next day’s regular class session for participants’ preparation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "deadline",
+        "title": "Submit Unit 1 Assignment 2 by end of class",
+        "studentAction": "Submit Unit 1 Assignment 2 before the session ends (13:14). If unable, contact instructor beforehand for extension.",
+        "deadlineText": "End of current class session (13:14, July 16, 2026)",
+        "deadlineISO": "2026-07-16T13:14:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The previously assigned Unit 1 Assignment 2 must be submitted by the end of the current class session without additional extensions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "teacher_request",
+        "title": "Request extension for Assignment 2 if needed",
+        "studentAction": "Inform the instructor in advance to submit a formal delayed submission request if you cannot meet the deadline.",
+        "deadlineText": "Before end of class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "participants unable to meet deadline",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Participants who cannot meet the deadline must inform the instructor in advance to submit a formal delayed submission request.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Unit 2 Homework (4 short-answer questions)",
+        "studentAction": "Complete the homework from the shared link.",
+        "deadlineText": "Before next class (assumed, not explicitly stated)",
+        "deadlineISO": null,
+        "platform": "shared link (no specific platform given)",
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "The homework will be distributed to all participants via shared link, and no separate submission reminder will be sent before the next class.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Next class: Unit 1 review + Unit 2 continuation",
+        "studentAction": "Attend next class for Unit 1 test review and continuation of Unit 2 content.",
+        "deadlineText": "Next class (July 17, 2026)",
+        "deadlineISO": "2026-07-17",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participants",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The next class will integrate the Unit 1 test review into regular teaching, and continue to cover the subsequent content of Unit 2.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "follow_up_action",
+        "title": "Teacher follow-up on missing Assignment 2 submissions",
+        "studentAction": "Ensure you have submitted; teacher will check after session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "participants who have not submitted",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The instructor will track the submission status of Unit 1 Assignment 2, and follow up with participants who have not submitted the assignment after the session.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Exact time of Unit 1 test on Sunday not specified.",
+        "reason": "Only 'Sunday' given, no time of day. Also 'local participants' unclear."
+      },
+      {
+        "rawText": "Homework link not specified; only 'shared link' mentioned.",
+        "reason": "No URL or platform identifier provided."
+      }
+    ],
+    "watchTags": [
+      "CIA4U-C-OE01_sole-proprietorship",
+      "CIA4U-C-OE01_partnership",
+      "CIA4U-C-OE01_cooperative-society",
+      "CIA4U-C-OE01_joint-stock-company",
+      "CIA4U-C-OE01_business-form-comparison"
+    ],
+    "totalQuestions": 7,
+    "completed": false,
+    "passScore": 7,
+    "diagnosisRules": [
+      {
+        "errorId": "err-sole-proprietor-liability",
+        "condition": "student picks option that suggests limited liability for sole proprietorship",
+        "systemAction": "assign reteach module err-sole-proprietor-liability"
+      },
+      {
+        "errorId": "err-partnership-max-members",
+        "condition": "student picks wrong member cap for partnership",
+        "systemAction": "assign reteach module err-partnership-max-members"
+      },
+      {
+        "errorId": "err-cooperative-voting",
+        "condition": "student picks one-share-one-vote instead of one-member-one-vote",
+        "systemAction": "assign reteach module err-cooperative-voting"
+      },
+      {
+        "errorId": "err-private-company-shareholder-limit",
+        "condition": "student selects incorrect shareholder limit for private limited company",
+        "systemAction": "assign reteach module err-private-company-shareholder-limit"
+      },
+      {
+        "errorId": "err-business-form-one-size-fits-all",
+        "condition": "student indicates one universal best form regardless of context",
+        "systemAction": "assign reteach module err-business-form-one-size-fits-all"
+      }
+    ],
+    "nextActions": [
+      "[err-sole-proprietor-liability] student picks option that suggests limited liability for sole proprietorship: Sole proprietors carry unlimited personal liability. Let's review that.",
+      "[err-partnership-max-members] student picks wrong member cap for partnership: Partnership member caps depend on industry. Let's review the numbers.",
+      "[err-cooperative-voting] student picks one-share-one-vote instead of one-member-one-vote: Cooperatives use one-member-one-vote. Let's review.",
+      "[err-private-company-shareholder-limit] student selects incorrect shareholder limit for private limited company: Private limited companies have a maximum of 50 shareholders. Let's review.",
+      "[err-business-form-one-size-fits-all] student indicates one universal best form regardless of context: Choosing a business form depends on stage, capital, and risk. Let's explore."
+    ],
+    "cards": [
+      {
+        "id": "q-sole-liability",
+        "type": "choice",
+        "question": "A sole proprietor's business fails and owes $50,000 to creditors. Which statement about the owner's personal assets is correct?",
+        "options": [
+          "The owner's personal assets are protected; only business assets can be used.",
+          "The owner's personal assets are at risk; creditors can claim them to cover the debt.",
+          "The owner is only liable up to the amount invested in the business.",
+          "The owner can declare bankruptcy to protect personal assets from business debts."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows sole proprietors have unlimited liability",
+        "misconceptions": [
+          "That's limited liability, which applies to corporations, not sole proprietorships. Sole proprietors are personally liable for all debts.",
+          "✓ Correct. Sole proprietorship carries unlimited personal liability.",
+          "That describes limited liability. Sole proprietors face unlimited liability regardless of investment.",
+          "Bankruptcy may affect both business and personal assets. It does not guarantee protection of personal assets from all creditors."
+        ],
+        "nodeId": "CIA4U-C-OE01_sole-proprietorship",
+        "errorId": "err-sole-proprietor-liability",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies unlimited personal liability for sole proprietors",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly covers sole proprietorship as a market structure",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Student thinks sole proprietors have limited liability like corporations",
+        "remediationModule": "err-sole-proprietor-liability",
+        "retestItem": "err-sole-proprietor-liability"
+      },
+      {
+        "id": "q-partnership-members",
+        "type": "choice",
+        "question": "A group of 12 accountants wants to form a partnership. According to the lesson, what is the maximum number of members allowed for a non-banking partnership?",
+        "options": [
+          "10 members",
+          "20 members",
+          "50 members",
+          "No limit on members"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows the member cap for non-banking partnerships",
+        "misconceptions": [
+          "10 is the cap for banking partnerships. For other sectors, the limit is 20 members.",
+          "✓ Correct. Non-banking partnerships allow up to 20 members.",
+          "50 is the shareholder limit for a private limited company, not a partnership.",
+          "Partnerships have a maximum member limit depending on the industry."
+        ],
+        "nodeId": "CIA4U-C-OE01_partnership",
+        "errorId": "err-partnership-max-members",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recalls the 20-member cap for non-banking partnerships",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Partnership rules fall under C1",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "commonMisconception": "Student may think the cap is 10 (banking) or different number",
+        "remediationModule": "err-partnership-max-members",
+        "retestItem": "err-partnership-max-members"
+      },
+      {
+        "id": "q-cooperative-voting",
+        "type": "choice",
+        "question": "In a consumer cooperative, how are voting rights typically distributed?",
+        "options": [
+          "One vote per share held",
+          "One vote per member, regardless of number of shares",
+          "Votes are proportional to the amount of goods purchased",
+          "Only founding members can vote"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows cooperative voting principle",
+        "misconceptions": [
+          "That's typical for joint stock companies, not cooperatives. Cooperatives use one-member-one-vote.",
+          "✓ Correct. Cooperatives follow the one-member-one-vote principle.",
+          "Cooperative voting is not based on purchases; each member has equal voting power.",
+          "All members of a cooperative have voting rights, not just founders."
+        ],
+        "nodeId": "CIA4U-C-OE01_cooperative-society",
+        "errorId": "err-cooperative-voting",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies one-member-one-vote as the cooperative voting rule",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Cooperatives are a business form covered under C1",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Student may think voting is based on shares owned (like in a joint stock company)",
+        "remediationModule": "err-cooperative-voting",
+        "retestItem": "err-cooperative-voting"
+      },
+      {
+        "id": "q-private-company-shareholders",
+        "type": "choice",
+        "question": "A private limited company is being formed. What is the maximum number of shareholders allowed?",
+        "options": [
+          "10 shareholders",
+          "20 shareholders",
+          "50 shareholders",
+          "Unlimited shareholders"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student knows the shareholder limit for private limited companies",
+        "misconceptions": [
+          "10 is the cap for banking partnerships, not private limited companies.",
+          "20 is the cap for non-banking partnerships, not private limited companies.",
+          "✓ Correct. A private limited company can have up to 50 shareholders.",
+          "Unlimited shareholders is a feature of public limited companies, not private limited."
+        ],
+        "nodeId": "CIA4U-C-OE01_joint-stock-company",
+        "errorId": "err-private-company-shareholder-limit",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly states 50 shareholders as the limit for a private limited company",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Joint stock company is a business form under C1",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "commonMisconception": "Student may think there is no limit or a different number",
+        "remediationModule": "err-private-company-shareholder-limit",
+        "retestItem": "err-private-company-shareholder-limit"
+      },
+      {
+        "id": "q-business-form-selection",
+        "type": "choice",
+        "question": "Two friends want to start a small tech company. One wants full control and simple setup; the other wants to share risk and bring complementary skills. They are unsure about personal liability. Which business form best balances these needs?",
+        "options": [
+          "Sole proprietorship",
+          "Partnership",
+          "Cooperative society",
+          "Private limited company"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can match business form features to a scenario, avoiding one-size-fits-all thinking",
+        "misconceptions": [
+          "Sole proprietorship gives full control but does not allow sharing risk or skills with a partner. It also has unlimited personal liability.",
+          "✓ Correct. Partnership allows pooling skills and risk, relatively simple setup, but partners must accept unlimited liability.",
+          "Cooperatives are mutual-aid organizations not typically suited for a small for-profit tech startup with two founders.",
+          "A private limited company offers limited liability but involves more complex compliance and less control than a partnership."
+        ],
+        "nodeId": "CIA4U-C-OE01_business-form-comparison",
+        "errorId": "err-business-form-one-size-fits-all",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects partnership as the most appropriate form given the description",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applying knowledge of business forms to a scenario aligns with C1",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student might default to sole proprietorship or joint stock company without considering context",
+        "remediationModule": "err-business-form-one-size-fits-all",
+        "retestItem": "err-business-form-one-size-fits-all"
+      },
+      {
+        "id": "q-advantage-limitation-match",
+        "type": "choice",
+        "question": "Match each statement to the correct business form: 'Fast independent decision-making' and 'Unlimited personal liability' are both characteristics of which form?",
+        "options": [
+          "Sole proprietorship",
+          "Partnership",
+          "Cooperative society",
+          "Joint stock company"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can accurately associate advantages and limitations with specific forms",
+        "misconceptions": [
+          "✓ Correct. Sole proprietors enjoy fast independent decisions but carry unlimited personal liability.",
+          "Partnerships involve shared decision-making, not fully independent. Unlimited liability applies but decisions are not solely independent.",
+          "Cooperatives use democratic decision-making (one-member-one-vote), not independent. Liability is typically limited.",
+          "Joint stock companies have limited liability but decision-making is not fast and independent; it's governed by a board."
+        ],
+        "nodeId": "CIA4U-C-OE01_business-form-comparison",
+        "errorId": "err-business-form-one-size-fits-all",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies sole proprietorship as having both fast decisions and unlimited liability",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Comparative analysis of business forms falls under C1",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Student might attribute fast decisions to partnership or limited liability to sole proprietorship",
+        "remediationModule": "err-sole-proprietor-liability",
+        "retestItem": "err-sole-proprietor-liability"
+      },
+      {
+        "id": "q-open-selection-factors",
+        "type": "explain",
+        "question": "Explain why there is no single 'best' business form for all entrepreneurs. In your answer, mention at least two factors from the lesson that influence the choice.",
+        "correct": null,
+        "diagnosis": "Assess whether student understands that business form selection is context-dependent",
+        "nodeId": "CIA4U-C-OE01_business-form-comparison",
+        "errorId": "err-business-form-one-size-fits-all",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student states that choice depends on development stage, capital demand, or risk control preference, and explains how these affect suitability",
+        "ossdExpectation": "Demonstrate an understanding of markets and theories of the firm.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "CIA4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Evaluating trade-offs in business form selection aligns with C1",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Student may claim a single form is always best",
+        "remediationModule": "err-business-form-one-size-fits-all",
+        "retestItem": "err-business-form-one-size-fits-all"
+      }
+    ]
+  }
+}

@@ -1,0 +1,938 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-16",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/RcHtddbppoG4NDxa0GUcEqBPn2p?from=vc_group_doc_link#doxcnWVbYwGjwUgcwfJBYFgRp3d",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-16 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/RcHtddbppoG4NDxa0GUcEqBPn2p?from=vc_group_doc_link#doxcnWVbYwGjwUgcwfJBYFgRp3d",
+    "title": "OLC4O.S6.Keth 2026-07-16 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-16/sources/olc4o-s6-keth-2026-07-16-rchtddbp/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-16",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-16",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes both formal instruction on inferential reading (core academic content) and administrative enforcement of submission compliance and plagiarism prevention.",
+    "academicContentSignals": [
+      "Inference formula: explicit clues + schema (lived experience/background knowledge) = logical inferential conclusion",
+      "Senior/university reading skill: moving beyond literal text to reading between lines, identifying author intent, evaluating critically",
+      "Multi-example walkthroughs: scarred person with flower, Nicki Minaj profile, childhood runaway narrative",
+      "Writing application: using descriptive/figurative language to show rather than tell, letting readers infer"
+    ],
+    "courseOverviewSignals": [
+      "Preview of Unit 1 final topic tomorrow: making predictions in reading and writing",
+      "Mention of English expression and future goal alignment (from core task description)",
+      "Reference to prior class instruction on news report structure"
+    ],
+    "opsDominanceRisk": "Low to medium. There are multiple operational items (submission rules, plagiarism module, assignment details) but the academic core is clearly taught and should be the primary focus of diagnostic. However, care must be taken not to let ops items overshadow inference instruction in generation.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Handwritten 3-question task submission compliance",
+        "studentAction": "Submit the first handwritten 3-question task if not already done; ensure it follows instructions to avoid automatic zero.",
+        "deadlineText": "Not specified (implied urgent; half class not submitted)",
+        "deadlineISO": null,
+        "platform": "Not specified",
+        "link": null,
+        "appliesTo": "All students (half not submitted)",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Initial core task status: half the class has not submitted it, and over half of entries failed instructions, triggering emergency rules.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Automatic zero policy for non-compliant submissions",
+        "studentAction": "Understand that unsubmitted pre-work, off-topic submissions, or AI-generated/machine-translated work will receive automatic zero with no review.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Automatic zero policy: Any unsubmitted required pre-work, off-topic submissions, or work confirmed to be machine-translated or AI-generated will receive an automatic zero with no further review.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Mandatory plagiarism module on Schoology",
+        "studentAction": "Complete the full Schoology plagiarism prevention program (modules 1 + accompanying short quizzes) as a core course credit requirement.",
+        "deadlineText": "Not specified, but part of pre-requisite compliance checks",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students (even if completed in prior classes)",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Mandatory plagiarism module: All students must complete the full Schoology plagiarism prevention program (modules 1 + accompanying short quizzes) as a core course credit requirement, even if completed in prior classes.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Contact teacher for task/plagiarism questions",
+        "studentAction": "Contact Keth or Ms Lavina directly if unsure about task rules, plagiarism boundaries, or assignment expectations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Any student with questions",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students with questions about task rules, plagiarism boundaries, or assignment expectations must directly contact Keth or Ms Lavina instead of guessing to avoid non-compliant submissions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "3-image inference worksheet",
+        "studentAction": "Access the Lesson 8 Schoology folder, complete the 3-image inference task, and post a screenshot of best entry to Lesson 8 OneNote.",
+        "deadlineText": "Due within 2-3 days from lesson date",
+        "deadlineISO": "2026-07-18",
+        "platform": "Schoology and OneNote",
+        "link": "Lesson 8 folder on Schoology (specific link not provided)",
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "3-image inference worksheet: Students access the Lesson 8 Schoology folder to complete a 3-image inference task... then post a screenshot of their best entry to the Lesson 8 OneNote.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Greta Thunberg annotation and questions",
+        "studentAction": "Annotate the provided Greta Thunberg article: underline key clues, add 5-10 schema-based inference comments via PDF editor, and answer accompanying short answer questions. Submit on Schoology.",
+        "deadlineText": "Due within 2-3 days from lesson date",
+        "deadlineISO": "2026-07-18",
+        "platform": "Schoology",
+        "link": "Not provided",
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Greta Thunberg profile annotation: Students annotate the provided Greta Thunberg article... with completed annotated articles submitted directly to the Schoology platform.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "review_focus",
+        "title": "Tomorrow's session preview",
+        "studentAction": "Attend tomorrow's session on making predictions in reading and writing, with interactive group practice.",
+        "deadlineText": "Tomorrow (2026-07-17)",
+        "deadlineISO": "2026-07-17",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Tomorrow’s session will cover the final topic for Unit 1, making predictions in reading and writing, with interactive group practice activities to reinforce the skill.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Due within 2-3 days",
+        "reason": "Exact deadline not specified; inferred from vague timeframe."
+      },
+      {
+        "rawText": "Lesson 8 Schoology folder (specific link not provided)",
+        "reason": "No direct URL given for the folder or OneNote page."
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（推断公式、从字面到推断的阅读转变、推断在写作中的应用）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Inference = explicit clues from text/visuals + personal lived experience/background knowledge (schema) = unstated logical conclusion.；Senior/university level work requires moving beyond literal recall to reading between the lines, identifying author intent, and critical evaluation.；Inferential logic improves writing by using descriptive/figurative language to 'show' rather than 'tell', letting readers form own conclusions.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Define the inference formula (explicit clues + schema = logical conclusion) and distinguish it from literal reading."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply inferential reading to interpret texts by identifying clues and connecting prior knowledge."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Use inference in writing by employing descriptive language to 'show' rather than 'tell'."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "inference-formula",
+      "name": "推断公式",
+      "nameEn": "Inference Formula",
+      "definition": "Inference = explicit, verifiable clues from text or visual content + personal lived experience and background knowledge (schema) = unstated logical conclusion.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    },
+    {
+      "id": "inferential-reading-shift",
+      "name": "从字面到推断的阅读转变",
+      "nameEn": "Shift from Literal to Inferential Reading",
+      "definition": "Senior and university level work requires moving beyond memorizing surface-level literal text to reading between the lines, identifying author intent, and evaluating information critically.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    },
+    {
+      "id": "inference-in-writing",
+      "name": "推断在写作中的应用",
+      "nameEn": "Inference in Writing",
+      "definition": "Inferential logic improves writing quality by using descriptive, figurative language to 'show' rather than 'tell', letting readers form their own conclusions instead of relying on flat, direct statements.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define the inference formula (explicit clues + schema = logical conclusion) and distinguish it from literal reading."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply inferential reading to interpret texts by identifying clues and connecting prior knowledge."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use inference in writing by employing descriptive language to 'show' rather than 'tell'."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-inference-only-text-clues",
+        "condition": "student picks option that ignores schema on Q1",
+        "systemAction": "assign reteach module for err-inference-only-text-clues",
+        "studentMessage": "Inference needs both text clues and your own background knowledge. Let's review the formula together."
+      },
+      {
+        "errorId": "err-inference-equals-guessing",
+        "condition": "student picks option that treats inference as wild guess on Q2",
+        "systemAction": "assign reteach module for err-inference-equals-guessing",
+        "studentMessage": "Inference is a logical step from clues, not random guessing. Let's practice supporting ideas with evidence."
+      },
+      {
+        "errorId": "err-literal-reading-sufficient",
+        "condition": "student does not adequately explain need for inferential reading on Q3",
+        "systemAction": "assign reteach module for err-literal-reading-sufficient",
+        "studentMessage": "In senior courses, you need to read between the lines. Let's work on moving beyond surface meaning."
+      },
+      {
+        "errorId": "err-inference-writing-tell-only",
+        "condition": "student's rewrite on Q4 lacks figurative/descriptive language",
+        "systemAction": "assign reteach module for err-inference-writing-tell-only",
+        "studentMessage": "Good writing shows, not tells. Let's practice using descriptive details so readers infer meaning."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-s6-0716-q1",
+        "nodeId": "inference-formula",
+        "errorId": "err-inference-only-text-clues",
+        "stem": "What does the inference formula require?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the option that includes both text clues and schema.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses inferential reading strategy from A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows that inference combines explicit clues and personal schema.",
+        "commonMisconception": "Students think only text clues are needed.",
+        "remediationModule": "err-inference-only-text-clues",
+        "retestItem": "err-inference-only-text-clues",
+        "options": [
+          {
+            "label": "A",
+            "text": "Only explicit clues from the text",
+            "correct": false,
+            "feedbackWrong": "Inference also needs your background knowledge (schema), not just text clues."
+          },
+          {
+            "label": "B",
+            "text": "Only personal experience",
+            "correct": false,
+            "feedbackWrong": "Inference must be based on clues from the text as well."
+          },
+          {
+            "label": "C",
+            "text": "Explicit clues + schema = logical conclusion",
+            "correct": true,
+            "feedbackCorrect": "Correct! Inference = text clues + your own knowledge."
+          },
+          {
+            "label": "D",
+            "text": "Any guess that comes to mind",
+            "correct": false,
+            "feedbackWrong": "Inference is a logical conclusion, not a random guess."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q2",
+        "nodeId": "inference-formula",
+        "errorId": "err-inference-equals-guessing",
+        "stem": "A reader sees a photo of a person with a scar holding a flower. Which inference is most logically supported?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student chooses the inference that logically connects the visible clues (scar, flower) with plausible schema.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies inferential strategy to a graphic text (photo).",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can distinguish a supportable inference from an unsupported guess.",
+        "commonMisconception": "Students think any idea is acceptable without evidence.",
+        "remediationModule": "err-inference-equals-guessing",
+        "retestItem": "err-inference-equals-guessing",
+        "options": [
+          {
+            "label": "A",
+            "text": "The person is sad because of the scar.",
+            "correct": false,
+            "feedbackWrong": "We don't see any expression; the scar alone doesn't tell us their emotion."
+          },
+          {
+            "label": "B",
+            "text": "The person has experienced something that left a lasting mark and chooses to hold something delicate, suggesting a contrast between hardship and gentleness.",
+            "correct": true,
+            "feedbackCorrect": "Correct! This inference uses the visible scar and the flower, combined with common schema about symbols."
+          },
+          {
+            "label": "C",
+            "text": "The person is a soldier.",
+            "correct": false,
+            "feedbackWrong": "That's a guess; nothing in the photo indicates a military context."
+          },
+          {
+            "label": "D",
+            "text": "The flower is a gift from someone.",
+            "correct": false,
+            "feedbackWrong": "We only see the person holding a flower; we can't infer its origin."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q3",
+        "nodeId": "inferential-reading-shift",
+        "errorId": "err-literal-reading-sufficient",
+        "stem": "Explain in one or two sentences why university-level reading requires going beyond literal meaning. Use the lesson's examples to support your answer.",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that literal reading only captures surface facts, while advanced texts require inference for author's intent, bias, or deeper themes.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses the need for inferential reading in complex texts.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student understands that literal reading is insufficient for advanced comprehension.",
+        "commonMisconception": "Students think memorizing facts is enough for senior courses.",
+        "remediationModule": "err-literal-reading-sufficient",
+        "retestItem": "err-literal-reading-sufficient",
+        "rubric": "Full credit: mentions need for reading between lines/inference and references an example (e.g., Nicki Minaj profile, childhood narrative) to show deeper meaning. Partial: general statement without example. No credit: claims literal is enough.",
+        "sampleStrongAnswer": "Literal reading only tells you what is directly stated, but university texts require you to infer the author's purpose or bias. For example, in the Nicki Minaj profile, the literal facts don't reveal her attitude—you need to infer from tone and word choice."
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q4",
+        "nodeId": "inference-in-writing",
+        "errorId": "err-inference-writing-tell-only",
+        "stem": "Rewrite this sentence to 'show' rather than 'tell': 'She was very nervous.' Use descriptive details that let the reader infer her nervousness.",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student writes a sentence using sensory details (e.g., shaky hands, stuttering, sweating) instead of stating the emotion directly.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies inferential technique to writing form from B2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "construct",
+        "stemIntent": "Check if student can apply 'show not tell' to create inferential writing.",
+        "commonMisconception": "Students write direct statements (e.g., 'She was very nervous') instead of using descriptive clues.",
+        "remediationModule": "err-inference-writing-tell-only",
+        "retestItem": "err-inference-writing-tell-only",
+        "rubric": "Full credit: sentence with at least two descriptive clues (e.g., 'Her palms were sweaty and she avoided eye contact'). Partial: one clue or still partly tells. No credit: repeats 'she was nervous' or is unrelated.",
+        "sampleStrongAnswer": "Her palms were sweaty, her breath came in short gasps, and she twisted a strand of hair around her finger."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-inference-only-text-clues",
+      "condition": "student picks option that ignores schema on Q1",
+      "systemAction": "assign reteach module for err-inference-only-text-clues",
+      "studentMessage": "Inference needs both text clues and your own background knowledge. Let's review the formula together."
+    },
+    {
+      "errorId": "err-inference-equals-guessing",
+      "condition": "student picks option that treats inference as wild guess on Q2",
+      "systemAction": "assign reteach module for err-inference-equals-guessing",
+      "studentMessage": "Inference is a logical step from clues, not random guessing. Let's practice supporting ideas with evidence."
+    },
+    {
+      "errorId": "err-literal-reading-sufficient",
+      "condition": "student does not adequately explain need for inferential reading on Q3",
+      "systemAction": "assign reteach module for err-literal-reading-sufficient",
+      "studentMessage": "In senior courses, you need to read between the lines. Let's work on moving beyond surface meaning."
+    },
+    {
+      "errorId": "err-inference-writing-tell-only",
+      "condition": "student's rewrite on Q4 lacks figurative/descriptive language",
+      "systemAction": "assign reteach module for err-inference-writing-tell-only",
+      "studentMessage": "Good writing shows, not tells. Let's practice using descriptive details so readers infer meaning."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-inference-only-text-clues",
+      "trigger": "Student selects option that omits schema on the diagnostic question about the inference formula.",
+      "studentMisunderstanding": "Students believe that inference requires only explicit clues from the text and that personal background knowledge (schema) is unnecessary.",
+      "miniLesson": {
+        "explain": "Inference is not just finding clues in the text. It requires combining those clues with your own background knowledge (schema) to reach a logical conclusion. The formula is: Explicit Clues + Schema = Inference. Without schema, you cannot fully understand deeper meanings.",
+        "example": "Consider a photo of a person with a scar holding a flower. The scar is a clue; the flower is a clue. But to infer that the person has experienced hardship yet retains gentleness, you use schema about scars (past injury) and flowers (delicate, beauty). Without schema, you only see a mark and a plant.",
+        "memoryAnchor": "Remember: Inference = Text Clues + Your Brain (schema). Like solving a puzzle: you need both the pieces and your knowledge of what the picture should look like."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Read: 'The room was dark and dusty, with books piled on every surface.' What can you infer about the person who lives there? Identify the text clues and your schema.",
+          "answer": "Text clues: dark, dusty, many books. Schema: dusty means not cleaned, dark may mean seldom used, books suggest a reader. Inference: The person is likely a reader who neglects housekeeping, possibly elderly or absent-minded."
+        },
+        {
+          "level": "L2",
+          "prompt": "Using the Nicki Minaj profile from class, list three explicit clues and state what schema you use to infer something about her character.",
+          "answer": "Clues: (1) She mentions her father's abuse, (2) she describes her ambition, (3) she uses bold language. Schema: Experience of hardship, drive for success, confidence. Inference: She is resilient and uses her past as motivation."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a short paragraph (3-4 sentences) describing a scene where a character is angry, without using the word 'angry'. Use clues (actions, dialogue, setting) and explain what schema you expect the reader to use.",
+          "answer": "His fists clenched, his jaw tight, and he slammed the door. 'I can't believe you did that,' he hissed. Readers use schema: clenched fists and slamming doors indicate anger, and hissing suggests suppressed rage. The inference is strong anger."
+        }
+      ]
+    },
+    {
+      "errorId": "err-inference-equals-guessing",
+      "trigger": "Student selects an option that treats inference as a wild guess on the diagnostic question (e.g., chooses 'Any guess that comes to mind' or an unsupported inference like 'The person is a soldier' for the scar and flower image).",
+      "studentMisunderstanding": "Students believe inference is any idea that pops into their head, without needing support from explicit clues in the text or visual.",
+      "miniLesson": {
+        "explain": "Inference is not guessing randomly. It is a logical conclusion based on explicit, verifiable clues from the text or image combined with your own background knowledge (schema). For example, from a photo of a person with a scar holding a flower, you can infer a contrast between hardship and gentleness (scar = past pain, flower = fragile beauty). You cannot infer he is a soldier because no military clues appear. Always ask: 'What specific clues support my idea?'",
+        "example": "Lesson example: The scarred person holding a flower. A wild guess: 'He is sad.' But that is not supported. A logical inference: 'He has experienced something painful (scar) but still appreciates beauty (flower).' This uses the visible clues plus common schema about symbols.",
+        "memoryAnchor": "Think of inference as a detective: you need evidence (clues) and your know-how (schema) to solve the case. No evidence = no inference, just a guess."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Read: 'The room was dark, but a small lamp on the desk cast a warm glow on an open book.' Which inference is supported by the clues? A) The person is reading. B) The lamp is broken. C) The room is haunted.",
+          "answer": "A) The person is reading (clues: open book, lamp providing light for reading)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Look at the image of a child sitting alone on a park bench at sunset, holding a torn teddy bear. Write one supported inference and label the clues you used.",
+          "answer": "Inference: The child might be sad or lonely. Clues: sitting alone (social isolation), torn teddy bear (possible attachment/comfort object, signs of wear), sunset (time of day often associated with end of day or reflection)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Read this excerpt from Nicki Minaj's profile: 'I grew up in a small house with five siblings. My father was often absent. I would escape into my music.' Write an inference about her motivation for success, citing at least two explicit clues and your schema.",
+          "answer": "Inference: Her difficult childhood (crowded home, absent father) motivated her to pursue music as an escape and achieve success. Clues: 'small house with five siblings' (crowded, lacked privacy/space), 'father was often absent' (lack of parental support), 'escape into my music' (music was a refuge). Schema: People often channel hardship into ambition and creativity."
+        }
+      ]
+    },
+    {
+      "errorId": "err-literal-reading-sufficient",
+      "trigger": "student does not adequately explain need for inferential reading on Q3",
+      "studentMisunderstanding": "Students believe surface-level literal reading is enough for advanced courses.",
+      "miniLesson": {
+        "explain": "University-level reading requires going beyond the literal meaning of the text. You must read between the lines to infer the author's intent, bias, or deeper themes. The inference formula is: explicit clues from the text + your background knowledge (schema) = a logical conclusion.",
+        "example": "In the Nicki Minaj profile, literal facts (e.g., her Trinidadian background, her lyrics) don't directly reveal her attitude. You must infer her confidence or criticism from her tone and word choices. For the childhood runaway narrative, the events themselves (leaving home) don't tell you the author's feelings; you infer fear, hope, or regret from descriptive details.",
+        "memoryAnchor": "Don't be a 'literal lizard'—be an 'inferential eagle' that soars above the surface to see the whole landscape."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Why is literal reading alone insufficient for understanding a university-level article about climate change?",
+          "answer": "Because literal reading only gives you facts; you need inference to understand the author's perspective, bias, and intended impact."
+        },
+        {
+          "level": "L2",
+          "prompt": "Read this sentence from a memoir: 'The door groaned as I pushed it open, and a musty smell of old books and dust welcomed me.' What can you infer about the place? Use clues from the text.",
+          "answer": "The place is old and possibly abandoned (groaning door, musty smell, dust) and contains books (old books), so it might be a forgotten library or study."
+        },
+        {
+          "level": "L3",
+          "prompt": "A character in a story says, 'I guess some doors are better left closed.' Based on the earlier description of a dangerous encounter, what might the character mean? Write your inference and list the clues you used.",
+          "answer": "The character likely means that exploring further could lead to danger, so it's safer to stop. Clues: 'doors' metaphorically refer to opportunities or paths; the earlier danger suggests negative consequences."
+        }
+      ]
+    },
+    {
+      "errorId": "err-inference-writing-tell-only",
+      "trigger": "Student's rewrite on Q4 lacks figurative/descriptive language, relying on direct statements",
+      "studentMisunderstanding": "Students do not apply inference in writing, relying on direct statements instead of 'showing' through descriptive details.",
+      "miniLesson": {
+        "explain": "Good writing uses inferential logic by 'showing' rather than 'telling'. Instead of directly stating an emotion or idea, use descriptive details (sensory images, actions, figurative language) that let the reader infer the meaning. For example, instead of 'She was sad,' you could write 'A single tear traced a path down her cheek.' The reader infers sadness without being told.",
+        "example": "From the lesson: In the childhood runaway narrative, the author didn't say 'I was scared.' Instead, they described 'the pounding of my heart, the quick glances over my shoulder, the way the shadows seemed to reach for me.' These details allow readers to infer the fear.",
+        "memoryAnchor": "Remember: 'Show, don't tell' – be a director, not a narrator. Let readers see the clues and make the inference themselves."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Rewrite this sentence to 'show' rather than 'tell': 'The room was messy.' Use at least two descriptive details about what you see.",
+          "answer": "Clothes were strewn across the floor, and empty pizza boxes towered on the desk."
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite this sentence to 'show' rather than 'tell': 'He was angry.' Use sensory details (sight, sound, or movement) to let the reader infer his anger.",
+          "answer": "His jaw tightened, and his fists clenched at his sides as he glared without speaking."
+        },
+        {
+          "level": "L3",
+          "prompt": "Rewrite this sentence to 'show' rather than 'tell' using figurative language (simile, metaphor, or personification): 'The storm was powerful.'",
+          "answer": "The wind howled like a wounded beast, and rain lashed the windows as if the sky itself were furious."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-inference-only-text-clues",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which statement best describes how to make an inference when reading?",
+          "options": [
+            "Look only for explicit clues in the text.",
+            "Combine explicit clues with personal background knowledge (schema).",
+            "Use only personal experience and guess.",
+            "Copy the author's exact words."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Read: 'She tiptoed past the sleeping dog, holding her breath.' Identify one explicit clue from the text and one piece of schema you use, then state the inference you can make about her feelings.",
+          "rubric": "Student must name at least one explicit clue (e.g., 'tiptoed', 'holding her breath'), one relevant schema (e.g., 'people hold breath when scared or trying not to wake something'), and a logical inference (e.g., 'she is afraid of waking the dog' or 'she is anxious'). Accept reasonable variations."
+        }
+      ],
+      "passRule": "Q1 must be correct (option 2). Q2 must identify a clue, schema, and inference as per rubric."
+    },
+    {
+      "forErrorId": "err-inference-equals-guessing",
+      "questions": [
+        {
+          "id": "retest_q1",
+          "type": "single_choice",
+          "stem": "Read the following: 'The old man sat on the park bench every day, feeding the pigeons. His hands were wrinkled, and he often smiled at children passing by. One day, a little girl dropped her ice cream cone and cried. The old man bought her a new one.' Which inference is BEST supported by the text?",
+          "options": [
+            "The old man is kind and enjoys helping others.",
+            "The old man is lonely because he has no family.",
+            "The old man used to work as a clown.",
+            "The old man is secretly a millionaire."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest_q2",
+          "type": "open_ended",
+          "stem": "Look at the image described: A person with a visible scar on their cheek is holding a single white flower in their hand. Their expression is calm but their eyes look tired. Write one logical inference about this person’s situation or feelings. Then list at least two explicit clues from the description that support your inference, and explain how your background knowledge (schema) helps you connect the clues to the inference.",
+          "rubric": "The answer must include: (1) A clear inference statement that is not a wild guess. (2) At least two explicit clues from the description (e.g., scar, flower, calm expression, tired eyes). (3) Explanation of how schema (e.g., scar suggests past hardship, flower suggests appreciation of beauty, tired eyes suggest weariness) connects clues to inference. The inference should be logical and supported, e.g., 'The person has experienced pain but still finds beauty in life.'"
+        }
+      ],
+      "passRule": "Q1 correct AND Q2 rubric met (inference supported by at least two clues and schema explanation)."
+    },
+    {
+      "forErrorId": "err-literal-reading-sufficient",
+      "questions": [
+        {
+          "id": "retest-literal-1",
+          "type": "single_choice",
+          "stem": "Which statement best describes the reading requirement for senior/university-level texts?",
+          "options": [
+            "Literal reading is sufficient because all answers are directly stated in the text.",
+            "Inferential reading is needed to understand deeper meanings, author intent, and implications.",
+            "Both literal and inferential reading are equally important, but literal is the foundation.",
+            "Inferential reading is only useful for fiction; non-fiction requires only literal reading."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-literal-2",
+          "type": "open_ended",
+          "stem": "Why is literal reading alone insufficient for understanding a university-level article or narrative? Provide a specific example from the lesson (e.g., the Nicki Minaj profile, the childhood runaway narrative) or from your own experience to support your answer.",
+          "rubric": "Key points: (1) Literal reading only captures explicit facts, not the author's attitudes, biases, or themes. (2) Inference uses text clues plus background knowledge to draw logical conclusions. (3) Example shows that without inference, the deeper meaning is missed. Student must include at least two of these points."
+        }
+      ],
+      "passRule": "The student must select the correct answer in Q1 (index 1) and provide a response in Q2 that includes at least two of the key points from the rubric."
+    },
+    {
+      "forErrorId": "err-inference-writing-tell-only",
+      "questions": [
+        {
+          "id": "q1_show_tell_recognition",
+          "type": "single_choice",
+          "stem": "Which of the following sentences is an example of 'showing' rather than 'telling'?",
+          "options": [
+            "She was nervous.",
+            "Her hands trembled as she fidgeted with the hem of her shirt.",
+            "She felt anxious before the presentation."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_rewrite_show",
+          "type": "open_ended",
+          "stem": "Rewrite the sentence 'The cafeteria was crowded' using descriptive details that show, not tell. Do not use the word 'crowded'.",
+          "rubric": "Response must include at least two specific sensory details (e.g., sounds of chatter, smell of food, sight of packed tables) that imply crowding without direct statement."
+        }
+      ],
+      "passRule": "Student must answer Q1 correctly (option B) and Q2 must include at least two distinct sensory details that imply crowding without using the word 'crowded'."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-16",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/RcHtddbppoG4NDxa0GUcEqBPn2p?from=vc_group_doc_link#doxcnWVbYwGjwUgcwfJBYFgRp3d",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-16 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Inference = explicit clues from text/visuals + personal lived experience/background knowledge (schema) = unstated logical conclusion.；Senior/university level work requires moving beyond literal recall to reading between the lines, identifying author intent, and critical evaluation.；Inferential logic improves writing by using descriptive/figurative language to 'show' rather than 'tell', letting readers form own conclusions.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define the inference formula (explicit clues + schema = logical conclusion) and distinguish it from literal reading."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply inferential reading to interpret texts by identifying clues and connecting prior knowledge."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use inference in writing by employing descriptive language to 'show' rather than 'tell'."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Handwritten 3-question task submission compliance",
+        "studentAction": "Submit the first handwritten 3-question task if not already done; ensure it follows instructions to avoid automatic zero.",
+        "deadlineText": "Not specified (implied urgent; half class not submitted)",
+        "deadlineISO": null,
+        "platform": "Not specified",
+        "link": null,
+        "appliesTo": "All students (half not submitted)",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Initial core task status: half the class has not submitted it, and over half of entries failed instructions, triggering emergency rules.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Automatic zero policy for non-compliant submissions",
+        "studentAction": "Understand that unsubmitted pre-work, off-topic submissions, or AI-generated/machine-translated work will receive automatic zero with no review.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Automatic zero policy: Any unsubmitted required pre-work, off-topic submissions, or work confirmed to be machine-translated or AI-generated will receive an automatic zero with no further review.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Mandatory plagiarism module on Schoology",
+        "studentAction": "Complete the full Schoology plagiarism prevention program (modules 1 + accompanying short quizzes) as a core course credit requirement.",
+        "deadlineText": "Not specified, but part of pre-requisite compliance checks",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students (even if completed in prior classes)",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Mandatory plagiarism module: All students must complete the full Schoology plagiarism prevention program (modules 1 + accompanying short quizzes) as a core course credit requirement, even if completed in prior classes.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Contact teacher for task/plagiarism questions",
+        "studentAction": "Contact Keth or Ms Lavina directly if unsure about task rules, plagiarism boundaries, or assignment expectations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Any student with questions",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students with questions about task rules, plagiarism boundaries, or assignment expectations must directly contact Keth or Ms Lavina instead of guessing to avoid non-compliant submissions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "3-image inference worksheet",
+        "studentAction": "Access the Lesson 8 Schoology folder, complete the 3-image inference task, and post a screenshot of best entry to Lesson 8 OneNote.",
+        "deadlineText": "Due within 2-3 days from lesson date",
+        "deadlineISO": "2026-07-18",
+        "platform": "Schoology and OneNote",
+        "link": "Lesson 8 folder on Schoology (specific link not provided)",
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "3-image inference worksheet: Students access the Lesson 8 Schoology folder to complete a 3-image inference task... then post a screenshot of their best entry to the Lesson 8 OneNote.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Greta Thunberg annotation and questions",
+        "studentAction": "Annotate the provided Greta Thunberg article: underline key clues, add 5-10 schema-based inference comments via PDF editor, and answer accompanying short answer questions. Submit on Schoology.",
+        "deadlineText": "Due within 2-3 days from lesson date",
+        "deadlineISO": "2026-07-18",
+        "platform": "Schoology",
+        "link": "Not provided",
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Greta Thunberg profile annotation: Students annotate the provided Greta Thunberg article... with completed annotated articles submitted directly to the Schoology platform.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "review_focus",
+        "title": "Tomorrow's session preview",
+        "studentAction": "Attend tomorrow's session on making predictions in reading and writing, with interactive group practice.",
+        "deadlineText": "Tomorrow (2026-07-17)",
+        "deadlineISO": "2026-07-17",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Tomorrow’s session will cover the final topic for Unit 1, making predictions in reading and writing, with interactive group practice activities to reinforce the skill.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Due within 2-3 days",
+        "reason": "Exact deadline not specified; inferred from vague timeframe."
+      },
+      {
+        "rawText": "Lesson 8 Schoology folder (specific link not provided)",
+        "reason": "No direct URL given for the folder or OneNote page."
+      }
+    ],
+    "watchTags": [
+      "inference-formula",
+      "inferential-reading-shift",
+      "inference-in-writing"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-inference-only-text-clues",
+        "condition": "student picks option that ignores schema on Q1",
+        "systemAction": "assign reteach module for err-inference-only-text-clues"
+      },
+      {
+        "errorId": "err-inference-equals-guessing",
+        "condition": "student picks option that treats inference as wild guess on Q2",
+        "systemAction": "assign reteach module for err-inference-equals-guessing"
+      },
+      {
+        "errorId": "err-literal-reading-sufficient",
+        "condition": "student does not adequately explain need for inferential reading on Q3",
+        "systemAction": "assign reteach module for err-literal-reading-sufficient"
+      },
+      {
+        "errorId": "err-inference-writing-tell-only",
+        "condition": "student's rewrite on Q4 lacks figurative/descriptive language",
+        "systemAction": "assign reteach module for err-inference-writing-tell-only"
+      }
+    ],
+    "nextActions": [
+      "[err-inference-only-text-clues] student picks option that ignores schema on Q1: Inference needs both text clues and your own background knowledge. Let's review the formula together.",
+      "[err-inference-equals-guessing] student picks option that treats inference as wild guess on Q2: Inference is a logical step from clues, not random guessing. Let's practice supporting ideas with evidence.",
+      "[err-literal-reading-sufficient] student does not adequately explain need for inferential reading on Q3: In senior courses, you need to read between the lines. Let's work on moving beyond surface meaning.",
+      "[err-inference-writing-tell-only] student's rewrite on Q4 lacks figurative/descriptive language: Good writing shows, not tells. Let's practice using descriptive details so readers infer meaning."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-s6-0716-q1",
+        "type": "choice",
+        "question": "What does the inference formula require?",
+        "options": [
+          "Only explicit clues from the text",
+          "Only personal experience",
+          "Explicit clues + schema = logical conclusion",
+          "Any guess that comes to mind"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student knows that inference combines explicit clues and personal schema.",
+        "misconceptions": [
+          "Inference also needs your background knowledge (schema), not just text clues.",
+          "Inference must be based on clues from the text as well.",
+          "✓ Correct! Inference = text clues + your own knowledge.",
+          "Inference is a logical conclusion, not a random guess."
+        ],
+        "nodeId": "inference-formula",
+        "errorId": "err-inference-only-text-clues",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the option that includes both text clues and schema.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses inferential reading strategy from A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think only text clues are needed.",
+        "remediationModule": "err-inference-only-text-clues",
+        "retestItem": "err-inference-only-text-clues"
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q2",
+        "type": "choice",
+        "question": "A reader sees a photo of a person with a scar holding a flower. Which inference is most logically supported?",
+        "options": [
+          "The person is sad because of the scar.",
+          "The person has experienced something that left a lasting mark and chooses to hold something delicate, suggesting a contrast between hardship and gentleness.",
+          "The person is a soldier.",
+          "The flower is a gift from someone."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can distinguish a supportable inference from an unsupported guess.",
+        "misconceptions": [
+          "We don't see any expression; the scar alone doesn't tell us their emotion.",
+          "✓ Correct! This inference uses the visible scar and the flower, combined with common schema about symbols.",
+          "That's a guess; nothing in the photo indicates a military context.",
+          "We only see the person holding a flower; we can't infer its origin."
+        ],
+        "nodeId": "inference-formula",
+        "errorId": "err-inference-equals-guessing",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student chooses the inference that logically connects the visible clues (scar, flower) with plausible schema.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies inferential strategy to a graphic text (photo).",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students think any idea is acceptable without evidence.",
+        "remediationModule": "err-inference-equals-guessing",
+        "retestItem": "err-inference-equals-guessing"
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q3",
+        "type": "explain",
+        "question": "Explain in one or two sentences why university-level reading requires going beyond literal meaning. Use the lesson's examples to support your answer.",
+        "correct": null,
+        "diagnosis": "Check if student understands that literal reading is insufficient for advanced comprehension.",
+        "nodeId": "inferential-reading-shift",
+        "errorId": "err-literal-reading-sufficient",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that literal reading only captures surface facts, while advanced texts require inference for author's intent, bias, or deeper themes.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses the need for inferential reading in complex texts.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students think memorizing facts is enough for senior courses.",
+        "remediationModule": "err-literal-reading-sufficient",
+        "retestItem": "err-literal-reading-sufficient"
+      },
+      {
+        "id": "diag-olc4o-s6-0716-q4",
+        "type": "explain",
+        "question": "Rewrite this sentence to 'show' rather than 'tell': 'She was very nervous.' Use descriptive details that let the reader infer her nervousness.",
+        "correct": null,
+        "diagnosis": "Check if student can apply 'show not tell' to create inferential writing.",
+        "nodeId": "inference-in-writing",
+        "errorId": "err-inference-writing-tell-only",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student writes a sentence using sensory details (e.g., shaky hands, stuttering, sweating) instead of stating the emotion directly.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies inferential technique to writing form from B2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "construct",
+        "commonMisconception": "Students write direct statements (e.g., 'She was very nervous') instead of using descriptive clues.",
+        "remediationModule": "err-inference-writing-tell-only",
+        "retestItem": "err-inference-writing-tell-only"
+      }
+    ]
+  }
+}

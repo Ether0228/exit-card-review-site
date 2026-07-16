@@ -1,0 +1,1085 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-16",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/UE0wdJvDjo3ZmJxPcgvcXd1Hnje?from=vc_group_doc_link#doxcnz6f1D1mCR4po9BTpEUYPWe",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-16 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/UE0wdJvDjo3ZmJxPcgvcXd1Hnje?from=vc_group_doc_link#doxcnz6f1D1mCR4po9BTpEUYPWe",
+    "title": "MDM4U.S6.Atousa 2026-07-16 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-16/sources/mdm4u-s6-atousa-2026-07-16/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-16",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-16",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session includes both administrative quiz arrangements and a significant review/practice walkthrough of combinatorics problems, making it a mixed lesson.",
+    "academicContentSignals": [
+      "Solving Question 36: unconstrained selection using C(14,5) = 2002",
+      "Solving Question 36: constrained selection (2 female, 3 male) using C(7,2)*C(7,3) = 735",
+      "Solving Question 26: permutations of 9 people (9! = 362880), fixed first position (8! = 40320), adjacent probability (2/9)",
+      "Solving Question 27: combination lock permutations P(60,3) and probabilities",
+      "Solving Question 28: hockey team ranking using P(12,3) = 1320",
+      "Coding tip: use math.comb() and for-loop for factorials",
+      "Calculation method flexibility: calculators or Python accepted"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Medium. The quiz arrangement and deadline details could overshadow the academic content if too many operational items are generated as diagnostic questions. The academic content is substantial, so the exit card should focus on combinatorics skills.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "platform_link",
+        "title": "Unit 1 Quiz Published and Shared",
+        "studentAction": "Access the Unit 1 quiz via the LMS Unit 1 module or the file link shared in the meeting chat.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "LMS (Feishu)",
+        "link": null,
+        "appliesTo": "All attending students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Instructor Atousa published the corrected, clearly marked version on the course LMS, and shared question files directly in the meeting chat box.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "Unit 1 Quiz Submission Deadline",
+        "studentAction": "Submit incomplete quiz answers to the LMS by the coming Sunday.",
+        "deadlineText": "Sunday, July 19, 2026 (end of day)",
+        "deadlineISO": "2026-07-19",
+        "platform": "LMS",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Final submission deadline is set for the coming Sunday.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Unit 1 Quiz Grading Scope",
+        "studentAction": "Note that the quiz score will only count toward the class activity score module and will not affect the final course grade.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All scores generated from the Unit 1 quiz are only added to the dedicated class activity score module, and will not be included in any weighted part of the final course grade calculation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Practice Question Grading Weight",
+        "studentAction": "Complete in-class practice questions for 5 points each.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who answered questions (e.g., Emma)",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Each completed in-class practice question carries a weight of 5 points, student Emma received a full 15 points for correctly answering all 3 subparts.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Accepted Calculation Methods",
+        "studentAction": "Use either a handheld calculator or custom Python code for combinatorics calculations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students may use either physical handheld calculators or custom Python code to solve combinatorics problems, both methods are fully accepted.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Exact file link shared in chat not recorded in the minutes.",
+        "reason": "The notes mention a file link was shared but no URL is provided for the quiz questions."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Permutation Formula、Combination Formula、Basic Probability for Discrete Sample Spaces）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The total number of ways to choose r items from n distinct items without regard to order is the combination C(n, r) = n! / (r! (n-r)!).；The total number of ways to arrange r items from n distinct items in a specific order is the permutation P(n, r) = n! / (n-r)!.；For an event A with equally likely outcomes, probability P(A) = (number of favorable outcomes) / (total number of possible outcomes).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Apply the permutation formula P(n, r) to count ordered arrangements and the combination formula C(n, r) to count unordered selections."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Calculate probabilities by identifying favorable outcomes and total outcomes in a discrete sample space, using permutations and combinations as needed."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Solve probability problems involving adjacency constraints by treating constrained items as a single block and permuting internally."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "knode-MDM4U-permutation-formula",
+      "name": "Permutation Formula",
+      "nameEn": "Permutation Formula",
+      "definition": "P(n, r) = n! / (n - r)! gives the number of ways to arrange r distinct items from a set of n distinct items in a specific order.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MDM4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event."
+    },
+    {
+      "id": "knode-MDM4U-combination-formula",
+      "name": "Combination Formula",
+      "nameEn": "Combination Formula",
+      "definition": "C(n, r) = n! / (r! (n - r)!) gives the number of ways to select r items from a set of n distinct items without regard to order.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MDM4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event."
+    },
+    {
+      "id": "knode-MDM4U-basic-probability",
+      "name": "Basic Probability for Discrete Sample Spaces",
+      "nameEn": "Basic Probability for Discrete Sample Spaces",
+      "definition": "For a discrete sample space with equally likely outcomes, the probability of an event A is P(A) = (number of outcomes in A) / (total number of outcomes in sample space).",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply the permutation formula P(n, r) to count ordered arrangements and the combination formula C(n, r) to count unordered selections."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate probabilities by identifying favorable outcomes and total outcomes in a discrete sample space, using permutations and combinations as needed."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Solve probability problems involving adjacency constraints by treating constrained items as a single block and permuting internally."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-comb-vs-perm",
+        "condition": "Student selects an option that uses combination when order matters, or permutation when order does not matter.",
+        "systemAction": "Assign reteach module for err-comb-vs-perm",
+        "studentMessage": "You confused when to use permutations vs combinations. Let's review the key difference: order matters for permutations, but not for combinations."
+      },
+      {
+        "errorId": "err-factorial-zero",
+        "condition": "Student selects an option that treats 0! as 0 instead of 1.",
+        "systemAction": "Assign reteach module for err-factorial-zero",
+        "studentMessage": "You made a mistake with 0!. Remember: 0! = 1 by definition, which makes combinatorial formulas work correctly."
+      },
+      {
+        "errorId": "err-multiply-when-add",
+        "condition": "Student adds probabilities when independent events require multiplication.",
+        "systemAction": "Assign reteach module for err-multiply-when-add",
+        "studentMessage": "You added probabilities when you should have multiplied. For independent events, P(A and B) = P(A) * P(B)."
+      },
+      {
+        "errorId": "err-adjacent-group",
+        "condition": "Student does not treat adjacent items as a block or forgets to permute within the block.",
+        "systemAction": "Assign reteach module for err-adjacent-group",
+        "studentMessage": "The adjacency constraint requires treating the group as one entity, then multiplying by the arrangements inside the group."
+      },
+      {
+        "errorId": "err-sample-space-miscount",
+        "condition": "Student miscalculates total outcomes by using wrong counting method (e.g., using combination when order matters).",
+        "systemAction": "Assign reteach module for err-sample-space-miscount",
+        "studentMessage": "The total number of outcomes in the sample space must be counted correctly based on whether order matters. Let's practice identifying the sample space."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-u1-0716-q1",
+        "nodeId": "knode-MDM4U-permutation-formula",
+        "errorId": "err-comb-vs-perm",
+        "stem": "A school club has 12 members. They need to select a president, vice-president, and treasurer (each a different person). Which counting method should be used to find the number of ways to fill these three positions?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that order matters for distinct positions, so permutation is appropriate.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly applies permutations as required by expectation A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check whether student distinguishes permutation (order matters) from combination (order does not matter).",
+        "commonMisconception": "Student may think selection of three people from 12 is a combination, forgetting that positions make the order significant.",
+        "remediationModule": "err-comb-vs-perm",
+        "retestItem": "err-comb-vs-perm",
+        "options": [
+          {
+            "label": "A",
+            "text": "Combination C(12,3) because we are choosing 3 people.",
+            "correct": false,
+            "feedbackWrong": "Selection without regard to order would be C(12,3), but here the roles (president, VP, treasurer) are different, so order matters."
+          },
+          {
+            "label": "B",
+            "text": "Permutation P(12,3) because each position is distinct.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Since the positions are different, the arrangement matters, so we use P(12,3)."
+          },
+          {
+            "label": "C",
+            "text": "Permutation P(12,3) but order doesn't matter.",
+            "correct": false,
+            "feedbackWrong": "Permutations always consider order. If order did not matter, we would use combination."
+          },
+          {
+            "label": "D",
+            "text": "Combination C(12,3) multiplied by 3! because positions can be swapped.",
+            "correct": false,
+            "feedbackWrong": "This is a common trick: C(12,3)*3! = P(12,3). But the direct method is P(12,3); using combination and then multiplying by 3! is an equivalent approach but not the simplest identification."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u1-0716-q2",
+        "nodeId": "knode-MDM4U-combination-formula",
+        "errorId": "err-factorial-zero",
+        "stem": "Evaluate C(5,0). What is its value?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recalls that C(n,0) = 1 because 0! = 1.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Combination formula understanding is part of expectation A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student correctly handles 0! in the combination formula.",
+        "commonMisconception": "Student may think C(5,0)=0 or that it is undefined because selecting 0 items seems like nothing.",
+        "remediationModule": "err-factorial-zero",
+        "retestItem": "err-factorial-zero",
+        "options": [
+          {
+            "label": "A",
+            "text": "0",
+            "correct": false,
+            "feedbackWrong": "C(5,0) counts the number of ways to choose 0 items from 5. There is exactly one way: choose nothing. So it is 1, not 0."
+          },
+          {
+            "label": "B",
+            "text": "1",
+            "correct": true,
+            "feedbackCorrect": "Correct. C(5,0)=1 because there is exactly one way to select nothing."
+          },
+          {
+            "label": "C",
+            "text": "5",
+            "correct": false,
+            "feedbackWrong": "C(5,1)=5, but C(5,0) is not the same. Recall the formula: C(5,0)=5!/(0!5!) = 120/(1*120)=1."
+          },
+          {
+            "label": "D",
+            "text": "Undefined because you cannot choose 0 items",
+            "correct": false,
+            "feedbackWrong": "Choosing 0 items is a valid selection; it corresponds to the empty set. Mathematically, it is defined and gives 1."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u1-0716-q3",
+        "nodeId": "knode-MDM4U-basic-probability",
+        "errorId": "err-multiply-when-add",
+        "stem": "Two fair dice are rolled. Event A: first die shows a 6. Event B: second die shows a 5. What is the probability that both events occur?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student calculates P(A and B) = (1/6)*(1/6)=1/36, using multiplication for independent events.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly applies probability of combined independent events from expectation A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check whether student multiplies probabilities for independent events instead of adding.",
+        "commonMisconception": "Student may add probabilities (1/6+1/6=2/6) because they confuse 'and' with 'or'.",
+        "remediationModule": "err-multiply-when-add",
+        "retestItem": "err-multiply-when-add",
+        "options": [
+          {
+            "label": "A",
+            "text": "1/6 + 1/6 = 1/3",
+            "correct": false,
+            "feedbackWrong": "You added the probabilities. For independent events, P(A and B) = P(A)*P(B), not P(A)+P(B)."
+          },
+          {
+            "label": "B",
+            "text": "1/6 * 1/6 = 1/36",
+            "correct": true,
+            "feedbackCorrect": "Correct. Since the dice rolls are independent, multiply the probabilities."
+          },
+          {
+            "label": "C",
+            "text": "2/12 = 1/6",
+            "correct": false,
+            "feedbackWrong": "This is not the correct computation. You might have added the numerators and denominators incorrectly."
+          },
+          {
+            "label": "D",
+            "text": "1/6 (because one of the dice must show the required number)",
+            "correct": false,
+            "feedbackWrong": "The probability of both events is less than the probability of either alone. Multiplication gives a smaller probability."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u1-0716-q4",
+        "nodeId": "knode-MDM4U-permutation-formula",
+        "errorId": "err-adjacent-group",
+        "stem": "A family of 5 people (parents and 3 children) are to sit in a row of 5 chairs. What is the probability that the two parents sit next to each other?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student calculates probability by treating parents as a block, leading to 4! * 2! favorable arrangements out of 5! total, giving 2/5.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies permutations with constraint, meeting expectation A2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student uses the block method to count arrangements where two specific individuals are adjacent.",
+        "commonMisconception": "Student may not treat the two parents as a block, or may forget to account for internal arrangements of the block (2!).",
+        "remediationModule": "err-adjacent-group",
+        "retestItem": "err-adjacent-group",
+        "options": [
+          {
+            "label": "A",
+            "text": "4! / 5! = 1/5",
+            "correct": false,
+            "feedbackWrong": "You forgot to account for the internal arrangement of the two parents within the block, which adds a factor of 2!."
+          },
+          {
+            "label": "B",
+            "text": "4! * 2! / 5! = 2/5",
+            "correct": true,
+            "feedbackCorrect": "Correct. Treat the two parents as a single entity, giving 4! arrangements for the block and the others, multiplied by 2! for the parents' arrangement, divided by total arrangements 5!."
+          },
+          {
+            "label": "C",
+            "text": "2! * 3! / 5! = 1/10",
+            "correct": false,
+            "feedbackWrong": "This uses only the parents' arrangement and children's arrangement, but ignores the number of positions the block can occupy."
+          },
+          {
+            "label": "D",
+            "text": "5! / (5! - 2!) = 1/2",
+            "correct": false,
+            "feedbackWrong": "This is not a correct application of probability. Remember to count favorable arrangements using permutations with constraints."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u1-0716-q5",
+        "nodeId": "knode-MDM4U-permutation-formula",
+        "errorId": "err-sample-space-miscount",
+        "stem": "A 4-digit PIN is formed using the digits 0-9 without repetition. What is the total number of possible PINs?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that order matters and digits cannot repeat, so total outcomes = P(10,4) = 5040.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Counting ordered selections without replacement uses permutations, per expectation A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student correctly identifies that total sample space uses permutation (order matters, no repetition).",
+        "commonMisconception": "Student might use combination (C(10,4)) because they forget order matters in a PIN, or use 10^4 (with repetition).",
+        "remediationModule": "err-sample-space-miscount",
+        "retestItem": "err-sample-space-miscount",
+        "options": [
+          {
+            "label": "A",
+            "text": "C(10,4) = 210",
+            "correct": false,
+            "feedbackWrong": "Combination counts selections without regard to order, but PIN order matters. For example, 1234 and 4321 are different PINs."
+          },
+          {
+            "label": "B",
+            "text": "10^4 = 10000",
+            "correct": false,
+            "feedbackWrong": "10^4 would be correct if digits could repeat, but the problem says without repetition."
+          },
+          {
+            "label": "C",
+            "text": "P(10,4) = 5040",
+            "correct": true,
+            "feedbackCorrect": "Correct. Order matters and digits cannot repeat, so we use permutation: 10*9*8*7 = 5040."
+          },
+          {
+            "label": "D",
+            "text": "10*9*8*7 = 5040, but since repetition is not allowed, you should divide by 4! to get C(10,4) = 210.",
+            "correct": false,
+            "feedbackWrong": "This reasoning is incorrect. The correct count uses permutations because order matters: P(10,4) = 10*9*8*7 = 5040. Dividing by 4! would give combinations, which ignore order."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-comb-vs-perm",
+      "condition": "Student selects an option that uses combination when order matters, or permutation when order does not matter.",
+      "systemAction": "Assign reteach module for err-comb-vs-perm",
+      "studentMessage": "You confused when to use permutations vs combinations. Let's review the key difference: order matters for permutations, but not for combinations."
+    },
+    {
+      "errorId": "err-factorial-zero",
+      "condition": "Student selects an option that treats 0! as 0 instead of 1.",
+      "systemAction": "Assign reteach module for err-factorial-zero",
+      "studentMessage": "You made a mistake with 0!. Remember: 0! = 1 by definition, which makes combinatorial formulas work correctly."
+    },
+    {
+      "errorId": "err-multiply-when-add",
+      "condition": "Student adds probabilities when independent events require multiplication.",
+      "systemAction": "Assign reteach module for err-multiply-when-add",
+      "studentMessage": "You added probabilities when you should have multiplied. For independent events, P(A and B) = P(A) * P(B)."
+    },
+    {
+      "errorId": "err-adjacent-group",
+      "condition": "Student does not treat adjacent items as a block or forgets to permute within the block.",
+      "systemAction": "Assign reteach module for err-adjacent-group",
+      "studentMessage": "The adjacency constraint requires treating the group as one entity, then multiplying by the arrangements inside the group."
+    },
+    {
+      "errorId": "err-sample-space-miscount",
+      "condition": "Student miscalculates total outcomes by using wrong counting method (e.g., using combination when order matters).",
+      "systemAction": "Assign reteach module for err-sample-space-miscount",
+      "studentMessage": "The total number of outcomes in the sample space must be counted correctly based on whether order matters. Let's practice identifying the sample space."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-comb-vs-perm",
+      "trigger": "Student selects an option that uses combination when order matters, or permutation when order does not matter.",
+      "studentMisunderstanding": "The student fails to recognize whether order is important in a counting problem. They may think that selecting items always means combination, or that ordering always applies.",
+      "miniLesson": {
+        "explain": "When counting, decide if order matters. For ordered arrangements (like positions, codes, rankings), use permutations P(n,r) = n!/(n-r)!. For unordered selections (like committees, hands of cards), use combinations C(n,r) = n!/(r!(n-r)!).",
+        "example": "Selecting a committee of 5 from 14 people: order doesn't matter → C(14,5)=2002. Ranking the top 3 from 12 forwards: order matters → P(12,3)=1320.",
+        "memoryAnchor": "Permutation: Positions matter (order counts). Combination: Committee choice (order doesn't count). Think 'P for Positions, C for Committee'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A hockey team has 12 forwards. The coach wants to rank the top 3 players as 1st, 2nd, 3rd. Should you use permutation or combination? Compute the number of ways.",
+          "answer": "Permutation, because order of ranking matters. P(12,3)=12*11*10=1320."
+        },
+        {
+          "level": "L2",
+          "prompt": "A club has 14 members. They want to choose a committee of 5. Should you use permutation or combination? Compute the number of ways.",
+          "answer": "Combination, because order does not matter in a committee. C(14,5)=2002."
+        },
+        {
+          "level": "L3",
+          "prompt": "A club has 7 couples (7 women, 7 men). They need to select exactly 2 women and 3 men for a project. How many ways can this be done? (Order within the group does not matter.)",
+          "answer": "Combination: C(7,2)*C(7,3)=21*35=735."
+        }
+      ]
+    },
+    {
+      "errorId": "err-factorial-zero",
+      "trigger": "Student incorrectly evaluates C(n,0) as 0 or chooses an option suggesting 0! = 0.",
+      "studentMisunderstanding": "Student believes that 0! = 0, often because they think the factorial of zero is zero since there are no numbers to multiply, or they misinterpret the definition.",
+      "miniLesson": {
+        "explain": "Factorial n! is defined as the product of all positive integers from 1 to n, and by convention 0! = 1. This is necessary for formulas like C(n,r) = n!/(r!(n-r)!) to work correctly for r=0 and r=n. For example, choosing 0 items from a set should have exactly 1 way (the empty selection), so C(n,0)=1 requires 0!=1.",
+        "example": "Evaluate C(5,0): Using the formula, C(5,0) = 5!/(0!5!) = 120/(1×120) = 1. This matches the intuitive idea that there is exactly one way to choose nothing.",
+        "memoryAnchor": "There is exactly one way to choose nothing, so 0! = 1."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is C(7,0)?",
+          "answer": "1"
+        },
+        {
+          "level": "L2",
+          "prompt": "Evaluate C(14,0) using the combination formula.",
+          "answer": "1"
+        },
+        {
+          "level": "L3",
+          "prompt": "In the club selection example with 14 people, how many ways are there to choose 0 members? Calculate C(14,0).",
+          "answer": "1"
+        }
+      ]
+    },
+    {
+      "errorId": "err-multiply-when-add",
+      "trigger": "You added probabilities when you should have multiplied for independent events. For example, if the probability of event A is p and event B is q, and they are independent, you used p+q instead of p*q.",
+      "studentMisunderstanding": "You might confuse the rules for 'or' (addition for mutually exclusive events) with 'and' (multiplication for independent events). When both events must happen, their joint probability is the product of their individual probabilities if they do not affect each other.",
+      "miniLesson": {
+        "explain": "When two events A and B are independent, the probability that both occur is P(A and B) = P(A) * P(B). Independence means the outcome of one event does not change the probability of the other. Addition, P(A) + P(B), is used only when events are mutually exclusive and we want the probability that either occurs.",
+        "example": "Suppose the probability of winning a prize in a single raffle draw is 2/9. If you enter two independent draws, the probability of winning both times is (2/9) * (2/9) = 4/81.",
+        "memoryAnchor": "For independent events: multiply probabilities for 'and'. Add for mutually exclusive 'or'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "The probability of winning a prize in one raffle draw is 2/9. If you enter two independent draws, what is the probability you win both times?",
+          "answer": "4/81"
+        },
+        {
+          "level": "L2",
+          "prompt": "A spinner has 7 equal sections: 2 are red, 3 are blue, and the rest are yellow. You spin twice, independently. What is the probability that the first spin lands on red and the second spin lands on blue?",
+          "answer": "6/49"
+        },
+        {
+          "level": "L3",
+          "prompt": "The probability of heavy snow on a winter day in a certain city is 2/9. Assuming days are independent, what is the probability that it snows on the first two days of a three-day weekend, but not on the third day?",
+          "answer": "28/729"
+        }
+      ]
+    },
+    {
+      "errorId": "err-adjacent-group",
+      "trigger": "Student fails to treat adjacent items as a block or forgets to account for internal permutations of the block.",
+      "studentMisunderstanding": "When items must be together in an arrangement, students often count them as separate items without considering that they act as a single unit, or they forget that the items within the block can be rearranged among themselves.",
+      "miniLesson": {
+        "explain": "To solve problems where certain items must be adjacent, treat the group as a single 'block'. Count the number of ways to arrange this block along with the other items, then multiply by the number of ways to arrange the items inside the block.",
+        "example": "In a photo line of 9 people, if Jill and David must sit together, treat them as one block. Then we have 8 entities (the block + 7 other people) which can be arranged in 8! ways. Inside the block, Jill and David can switch positions: 2! ways. So favorable arrangements = 8! × 2! = 40320 × 2 = 80640. Total arrangements without restrictions: 9! = 362880. Probability = (8! × 2!)/9! = 2/9.",
+        "memoryAnchor": "Think of the adjacent group as a 'sticky' block that moves together. The number of arrangements = (number of blocks + other items)! × (arrangements inside each block)!."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a line of 9 people, what is the total number of possible arrangements (without any restrictions)?",
+          "answer": "362880"
+        },
+        {
+          "level": "L2",
+          "prompt": "If Jill and David must sit together, how many ways can you arrange the block (Jill+David) and the other 7 people?",
+          "answer": "40320"
+        },
+        {
+          "level": "L3",
+          "prompt": "Using your answers, what is the probability that Jill and David sit together? (Express as a simplified fraction.)",
+          "answer": "2/9"
+        }
+      ]
+    },
+    {
+      "errorId": "err-sample-space-miscount",
+      "trigger": "When determining the total number of outcomes in a sample space, the student applies the wrong counting method (e.g., uses combination when order matters, or uses permutation when order does not matter).",
+      "studentMisunderstanding": "The student misunderstands whether the order of outcomes matters in the context of the problem. They may default to using permutations for all ordered scenarios or combinations for all unordered scenarios without considering the specific condition of the problem.",
+      "miniLesson": {
+        "explain": "The sample space consists of all possible outcomes of an experiment. To count outcomes correctly, you must decide whether order matters. If order matters, use permutations P(n,r). If order does not matter, use combinations C(n,r). Always ask: 'Does rearranging the selected items create a different outcome?' If yes, order matters.",
+        "example": "Consider a combination lock with numbers 0-59 (60 numbers) and a 3-digit code without repeating digits. The code 12-5-7 is different from 5-12-7, so order matters. Total codes = P(60,3) = 60×59×58 = 205,320. Using combination would give C(60,3) = 34,220, which is incorrect because it treats different orders as the same code.",
+        "memoryAnchor": "Lock Analogy: A combination lock requires order – 'Order matters, use Permutation.' If you were just picking a group of numbers to put in a bag, order wouldn't matter – use Combination."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A hockey team has 12 forwards. In how many ways can the top 3 be ranked (1st, 2nd, 3rd)?",
+          "answer": "P(12,3) = 12×11×10 = 1320."
+        },
+        {
+          "level": "L2",
+          "prompt": "A combination lock has 60 numbers (0-59). A 3-digit code requires 3 non-repeating numbers in a specific order. How many possible codes are there?",
+          "answer": "P(60,3) = 60×59×58 = 205,320."
+        },
+        {
+          "level": "L3",
+          "prompt": "A club has 7 couples (14 people). In how many ways can a committee of exactly 2 females and 3 males be chosen? (Order within the committee does not matter.)",
+          "answer": "C(7,2) × C(7,3) = 21 × 35 = 735."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-comb-vs-perm",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "open_ended",
+          "stem": "In a competition with 15 contestants, three medals (gold, silver, bronze) are awarded. How many different ways can the medals be awarded? Is this a permutation or combination? Explain your reasoning and compute the answer.",
+          "rubric": "Student must identify that order matters because medals are distinct (gold, silver, bronze), so it is a permutation. Correct computation: P(15,3) = 15 × 14 × 13 = 2730. Full marks for correct identification and correct computation. Partial credit for correct method but minor arithmetic error, or correct identification but incomplete computation."
+        }
+      ],
+      "passRule": "Answer correctly identifies permutation and computes 2730."
+    },
+    {
+      "forErrorId": "err-factorial-zero",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "What is the value of 0! ?",
+          "options": [
+            "0",
+            "1",
+            "Undefined",
+            "It depends on the context"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A club has 14 members. How many ways can they select 0 members for a committee? Show your calculation using the combination formula.",
+          "rubric": "C(14,0) = 14!/(0!14!) = 1/(1) = 1. Accept any clear demonstration that 0! = 1 and result is 1."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly: Q1 selects option 1 (value 1) and Q2 gives answer 1 with correct reasoning involving 0! = 1."
+    },
+    {
+      "forErrorId": "err-multiply-when-add",
+      "questions": [
+        {
+          "id": "retest-mult-add-q1",
+          "type": "single_choice",
+          "stem": "A bag contains 3 red marbles and 5 blue marbles. You draw one marble, replace it, then draw another. What is the probability that both marbles are red?",
+          "options": [
+            "3/8 + 3/8 = 3/4",
+            "3/8 * 3/8 = 9/64",
+            "3/8 + 5/8 = 1",
+            "(3/8)*(5/8)=15/64"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-mult-add-q2",
+          "type": "open_ended",
+          "stem": "A fair coin is flipped and a fair six-sided die is rolled. What is the probability that the coin shows heads and the die shows an even number?",
+          "rubric": "1/4 or 0.25. Accept equivalent fraction or decimal."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass."
+    },
+    {
+      "forErrorId": "err-adjacent-group",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Seven friends (Alice, Bob, Carol, Dave, Eve, Frank, Grace) line up for a photo. If Alice, Bob, and Carol must stand together (in any order among themselves), how many different arrangements are possible?",
+          "options": [
+            "7! × 3!",
+            "5! × 3!",
+            "7! / 3!",
+            "6! × 3!",
+            "7!"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "In a line of 8 people, what is the probability that two specific people (say, Tom and Jerry) stand next to each other? Express your answer as a simplified fraction.",
+          "rubric": "1/4"
+        }
+      ],
+      "passRule": "Both questions correct"
+    },
+    {
+      "forErrorId": "err-sample-space-miscount",
+      "questions": [
+        {
+          "id": "q1-sample-space",
+          "type": "single_choice",
+          "stem": "A coach needs to select 3 players from 10 to run the first, second, and third legs of a relay race. How many different relay teams can be formed? Which counting method should you use?",
+          "options": [
+            "Combination: C(10,3)",
+            "Permutation: P(10,3)",
+            "Exponential: 10^3",
+            "Factorial: 10!"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-sample-space",
+          "type": "open_ended",
+          "stem": "A lottery game requires players to pick 5 numbers from 1 to 50. The order of the numbers does not matter. How many different sets of numbers are possible? Write your answer using the appropriate counting formula and compute the number.",
+          "rubric": "Uses combination: C(50,5) = 2,118,760. Accept equivalent expressions like 50 choose 5. Must correctly compute or state the correct value."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the student must correctly identify combination and compute or state the result correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-16",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/UE0wdJvDjo3ZmJxPcgvcXd1Hnje?from=vc_group_doc_link#doxcnz6f1D1mCR4po9BTpEUYPWe",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-16 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "The total number of ways to choose r items from n distinct items without regard to order is the combination C(n, r) = n! / (r! (n-r)!).；The total number of ways to arrange r items from n distinct items in a specific order is the permutation P(n, r) = n! / (n-r)!.；For an event A with equally likely outcomes, probability P(A) = (number of favorable outcomes) / (total number of possible outcomes).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply the permutation formula P(n, r) to count ordered arrangements and the combination formula C(n, r) to count unordered selections."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate probabilities by identifying favorable outcomes and total outcomes in a discrete sample space, using permutations and combinations as needed."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Solve probability problems involving adjacency constraints by treating constrained items as a single block and permuting internally."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "platform_link",
+        "title": "Unit 1 Quiz Published and Shared",
+        "studentAction": "Access the Unit 1 quiz via the LMS Unit 1 module or the file link shared in the meeting chat.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "LMS (Feishu)",
+        "link": null,
+        "appliesTo": "All attending students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Instructor Atousa published the corrected, clearly marked version on the course LMS, and shared question files directly in the meeting chat box.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "Unit 1 Quiz Submission Deadline",
+        "studentAction": "Submit incomplete quiz answers to the LMS by the coming Sunday.",
+        "deadlineText": "Sunday, July 19, 2026 (end of day)",
+        "deadlineISO": "2026-07-19",
+        "platform": "LMS",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Final submission deadline is set for the coming Sunday.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Unit 1 Quiz Grading Scope",
+        "studentAction": "Note that the quiz score will only count toward the class activity score module and will not affect the final course grade.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All scores generated from the Unit 1 quiz are only added to the dedicated class activity score module, and will not be included in any weighted part of the final course grade calculation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Practice Question Grading Weight",
+        "studentAction": "Complete in-class practice questions for 5 points each.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who answered questions (e.g., Emma)",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Each completed in-class practice question carries a weight of 5 points, student Emma received a full 15 points for correctly answering all 3 subparts.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Accepted Calculation Methods",
+        "studentAction": "Use either a handheld calculator or custom Python code for combinatorics calculations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students may use either physical handheld calculators or custom Python code to solve combinatorics problems, both methods are fully accepted.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Exact file link shared in chat not recorded in the minutes.",
+        "reason": "The notes mention a file link was shared but no URL is provided for the quiz questions."
+      }
+    ],
+    "watchTags": [
+      "knode-MDM4U-permutation-formula",
+      "knode-MDM4U-combination-formula",
+      "knode-MDM4U-basic-probability"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-comb-vs-perm",
+        "condition": "Student selects an option that uses combination when order matters, or permutation when order does not matter.",
+        "systemAction": "Assign reteach module for err-comb-vs-perm"
+      },
+      {
+        "errorId": "err-factorial-zero",
+        "condition": "Student selects an option that treats 0! as 0 instead of 1.",
+        "systemAction": "Assign reteach module for err-factorial-zero"
+      },
+      {
+        "errorId": "err-multiply-when-add",
+        "condition": "Student adds probabilities when independent events require multiplication.",
+        "systemAction": "Assign reteach module for err-multiply-when-add"
+      },
+      {
+        "errorId": "err-adjacent-group",
+        "condition": "Student does not treat adjacent items as a block or forgets to permute within the block.",
+        "systemAction": "Assign reteach module for err-adjacent-group"
+      },
+      {
+        "errorId": "err-sample-space-miscount",
+        "condition": "Student miscalculates total outcomes by using wrong counting method (e.g., using combination when order matters).",
+        "systemAction": "Assign reteach module for err-sample-space-miscount"
+      }
+    ],
+    "nextActions": [
+      "[err-comb-vs-perm] Student selects an option that uses combination when order matters, or permutation when order does not matter.: You confused when to use permutations vs combinations. Let's review the key difference: order matters for permutations, but not for combinations.",
+      "[err-factorial-zero] Student selects an option that treats 0! as 0 instead of 1.: You made a mistake with 0!. Remember: 0! = 1 by definition, which makes combinatorial formulas work correctly.",
+      "[err-multiply-when-add] Student adds probabilities when independent events require multiplication.: You added probabilities when you should have multiplied. For independent events, P(A and B) = P(A) * P(B).",
+      "[err-adjacent-group] Student does not treat adjacent items as a block or forgets to permute within the block.: The adjacency constraint requires treating the group as one entity, then multiplying by the arrangements inside the group.",
+      "[err-sample-space-miscount] Student miscalculates total outcomes by using wrong counting method (e.g., using combination when order matters).: The total number of outcomes in the sample space must be counted correctly based on whether order matters. Let's practice identifying the sample space."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-u1-0716-q1",
+        "type": "choice",
+        "question": "A school club has 12 members. They need to select a president, vice-president, and treasurer (each a different person). Which counting method should be used to find the number of ways to fill these three positions?",
+        "options": [
+          "Combination C(12,3) because we are choosing 3 people.",
+          "Permutation P(12,3) because each position is distinct.",
+          "Permutation P(12,3) but order doesn't matter.",
+          "Combination C(12,3) multiplied by 3! because positions can be swapped."
+        ],
+        "correct": 1,
+        "diagnosis": "Check whether student distinguishes permutation (order matters) from combination (order does not matter).",
+        "misconceptions": [
+          "Selection without regard to order would be C(12,3), but here the roles (president, VP, treasurer) are different, so order matters.",
+          "✓ Correct. Since the positions are different, the arrangement matters, so we use P(12,3).",
+          "Permutations always consider order. If order did not matter, we would use combination.",
+          "This is a common trick: C(12,3)*3! = P(12,3). But the direct method is P(12,3); using combination and then multiplying by 3! is an equivalent approach but not the simplest identification."
+        ],
+        "nodeId": "knode-MDM4U-permutation-formula",
+        "errorId": "err-comb-vs-perm",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that order matters for distinct positions, so permutation is appropriate.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly applies permutations as required by expectation A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may think selection of three people from 12 is a combination, forgetting that positions make the order significant.",
+        "remediationModule": "err-comb-vs-perm",
+        "retestItem": "err-comb-vs-perm"
+      },
+      {
+        "id": "diag-mdm4u-u1-0716-q2",
+        "type": "choice",
+        "question": "Evaluate C(5,0). What is its value?",
+        "options": [
+          "0",
+          "1",
+          "5",
+          "Undefined because you cannot choose 0 items"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student correctly handles 0! in the combination formula.",
+        "misconceptions": [
+          "C(5,0) counts the number of ways to choose 0 items from 5. There is exactly one way: choose nothing. So it is 1, not 0.",
+          "✓ Correct. C(5,0)=1 because there is exactly one way to select nothing.",
+          "C(5,1)=5, but C(5,0) is not the same. Recall the formula: C(5,0)=5!/(0!5!) = 120/(1*120)=1.",
+          "Choosing 0 items is a valid selection; it corresponds to the empty set. Mathematically, it is defined and gives 1."
+        ],
+        "nodeId": "knode-MDM4U-combination-formula",
+        "errorId": "err-factorial-zero",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recalls that C(n,0) = 1 because 0! = 1.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Combination formula understanding is part of expectation A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may think C(5,0)=0 or that it is undefined because selecting 0 items seems like nothing.",
+        "remediationModule": "err-factorial-zero",
+        "retestItem": "err-factorial-zero"
+      },
+      {
+        "id": "diag-mdm4u-u1-0716-q3",
+        "type": "choice",
+        "question": "Two fair dice are rolled. Event A: first die shows a 6. Event B: second die shows a 5. What is the probability that both events occur?",
+        "options": [
+          "1/6 + 1/6 = 1/3",
+          "1/6 * 1/6 = 1/36",
+          "2/12 = 1/6",
+          "1/6 (because one of the dice must show the required number)"
+        ],
+        "correct": 1,
+        "diagnosis": "Check whether student multiplies probabilities for independent events instead of adding.",
+        "misconceptions": [
+          "You added the probabilities. For independent events, P(A and B) = P(A)*P(B), not P(A)+P(B).",
+          "✓ Correct. Since the dice rolls are independent, multiply the probabilities.",
+          "This is not the correct computation. You might have added the numerators and denominators incorrectly.",
+          "The probability of both events is less than the probability of either alone. Multiplication gives a smaller probability."
+        ],
+        "nodeId": "knode-MDM4U-basic-probability",
+        "errorId": "err-multiply-when-add",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student calculates P(A and B) = (1/6)*(1/6)=1/36, using multiplication for independent events.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly applies probability of combined independent events from expectation A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may add probabilities (1/6+1/6=2/6) because they confuse 'and' with 'or'.",
+        "remediationModule": "err-multiply-when-add",
+        "retestItem": "err-multiply-when-add"
+      },
+      {
+        "id": "diag-mdm4u-u1-0716-q4",
+        "type": "choice",
+        "question": "A family of 5 people (parents and 3 children) are to sit in a row of 5 chairs. What is the probability that the two parents sit next to each other?",
+        "options": [
+          "4! / 5! = 1/5",
+          "4! * 2! / 5! = 2/5",
+          "2! * 3! / 5! = 1/10",
+          "5! / (5! - 2!) = 1/2"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student uses the block method to count arrangements where two specific individuals are adjacent.",
+        "misconceptions": [
+          "You forgot to account for the internal arrangement of the two parents within the block, which adds a factor of 2!.",
+          "✓ Correct. Treat the two parents as a single entity, giving 4! arrangements for the block and the others, multiplied by 2! for the parents' arrangement, divided by total arrangements 5!.",
+          "This uses only the parents' arrangement and children's arrangement, but ignores the number of positions the block can occupy.",
+          "This is not a correct application of probability. Remember to count favorable arrangements using permutations with constraints."
+        ],
+        "nodeId": "knode-MDM4U-permutation-formula",
+        "errorId": "err-adjacent-group",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student calculates probability by treating parents as a block, leading to 4! * 2! favorable arrangements out of 5! total, giving 2/5.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies permutations with constraint, meeting expectation A2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student may not treat the two parents as a block, or may forget to account for internal arrangements of the block (2!).",
+        "remediationModule": "err-adjacent-group",
+        "retestItem": "err-adjacent-group"
+      },
+      {
+        "id": "diag-mdm4u-u1-0716-q5",
+        "type": "choice",
+        "question": "A 4-digit PIN is formed using the digits 0-9 without repetition. What is the total number of possible PINs?",
+        "options": [
+          "C(10,4) = 210",
+          "10^4 = 10000",
+          "P(10,4) = 5040",
+          "10*9*8*7 = 5040, but since repetition is not allowed, you should divide by 4! to get C(10,4) = 210."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student correctly identifies that total sample space uses permutation (order matters, no repetition).",
+        "misconceptions": [
+          "Combination counts selections without regard to order, but PIN order matters. For example, 1234 and 4321 are different PINs.",
+          "10^4 would be correct if digits could repeat, but the problem says without repetition.",
+          "✓ Correct. Order matters and digits cannot repeat, so we use permutation: 10*9*8*7 = 5040.",
+          "This reasoning is incorrect. The correct count uses permutations because order matters: P(10,4) = 10*9*8*7 = 5040. Dividing by 4! would give combinations, which ignore order."
+        ],
+        "nodeId": "knode-MDM4U-permutation-formula",
+        "errorId": "err-sample-space-miscount",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that order matters and digits cannot repeat, so total outcomes = P(10,4) = 5040.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Counting ordered selections without replacement uses permutations, per expectation A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student might use combination (C(10,4)) because they forget order matters in a PIN, or use 10^4 (with repetition).",
+        "remediationModule": "err-sample-space-miscount",
+        "retestItem": "err-sample-space-miscount"
+      }
+    ]
+  }
+}

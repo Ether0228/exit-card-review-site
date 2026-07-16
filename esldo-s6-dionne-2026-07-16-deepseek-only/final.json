@@ -1,0 +1,1027 @@
+{
+  "sourceLesson": "ESLDO.S6.Dionne 2026-07-16",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/MNe7d9KCeoacJ0xw22Rclj6vnFg?from=vc_group_doc_link#doxcn5cp2vDz0ICkWDMhVfCefRf",
+  "sourceTitle": "ESLDO.S6.Dionne 2026-07-16 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/MNe7d9KCeoacJ0xw22Rclj6vnFg?from=vc_group_doc_link#doxcn5cp2vDz0ICkWDMhVfCefRf",
+    "title": "ESLDO.S6.Dionne 2026-07-16 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-16/sources/esldo-s6-dionne-2026-07-16/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "ESLDO",
+  "lessonDate": "2026-07-16",
+  "teacher": "Dionne",
+  "section": "S6",
+  "subject": "esl",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-16",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson is a formal instructional session for Unit 1 Lesson 9, systematically teaching persuasive writing theory, structure, and appeals, with in-class practice and assigned tasks.",
+    "academicContentSignals": [
+      "Persuasive writing definition and differentiation from expository writing",
+      "Tone requirements: confident, respectful, convincing",
+      "Standard persuasive paragraph structure: topic sentence, 3 RDF-EE pairs, concluding sentence",
+      "Three persuasive appeals: ethos, pathos, logos",
+      "Language optimization: replace vague terms with specific benefits",
+      "In-class exercise on mandatory school uniforms with RDF-EE matching and appeal identification"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Moderate – operations include attendance rules, report card notice, submission deadline, and homework assignments, but they do not overshadow the core instructional content. Diagnostic should focus on persuasive writing skills.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Attendance confirmation within first 5 minutes",
+        "studentAction": "Confirm attendance and preparation status within the first 5 minutes of class to avoid reducing teaching time.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All students shall confirm their attendance and preparation status within the first 5 minutes after class starts",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "First round of report cards to be distributed soon",
+        "studentAction": "Review report card for class participation, task completion, and skill performance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The first round of student learning report cards will be distributed soon",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "deadline",
+        "title": "Submit all unfinished Unit 1 tasks before Unit 2 starts next week",
+        "studentAction": "Submit all unfinished learning tasks and assignments for Unit 1.",
+        "deadlineText": "Before the official launch of Unit 2 next week",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All unfinished learning tasks and assignments for Unit 1 must be submitted before the official launch of Unit 2 next week",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Forum discussion post on school uniforms and reply to a classmate",
+        "studentAction": "Complete forum post on whether school uniforms should be mandatory, and write a respectful reply to at least one classmate's post.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Forum (platform unspecified)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Complete the forum post on the topic of 'whether school uniforms should be mandatory' within the reserved work time, and write a respectful reply to at least one classmate’s published post.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Persuasive writing worksheet and vocabulary word search",
+        "studentAction": "Complete the persuasive writing worksheet on commercial advertising in schools and the vocabulary word search exercise as after-class homework.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "After finishing the forum task, complete the assigned persuasive writing worksheet on commercial advertising in schools and the vocabulary word search exercise as after-class homework.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next class will explain final Unit 1 persuasive essay assignment",
+        "studentAction": "Be prepared for detailed explanation of the final essay assignment and targeted writing guidance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The next class will focus on detailed explanation of the final Unit 1 persuasive essay assignment, and carry out targeted writing guidance for the essay topic.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Use in-class work time to complete tasks",
+        "studentAction": "Make full use of the reserved in-class work time to complete assigned tasks, and avoid leaving all learning content to be finished after class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students shall make full use of the reserved in-class work time to complete assigned tasks, and avoid leaving all learning content to be finished after class.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "ESLDO Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Persuasive Writing Definition、Persuasive Paragraph Structure、Three Persuasive Appeals）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Persuasive writing aims to convince readers to agree with the author's opinion or take action, unlike expository writing which only informs.；Persuasive writing uses strong language, emotional guidance, and clear stances.；Common scenarios include advertisements, news commentaries, speeches, product reviews, blogs, and academic essays.",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "ESLDO-WRITING-PERSUASIVE-DEFINITION",
+      "name": "Persuasive Writing Definition",
+      "nameEn": "Persuasive Writing Definition",
+      "definition": "Persuasive writing aims to convince readers to agree with the author's opinion or take action, using strong language, emotional guidance, and clear stances.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "ESLDO-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Write in a variety of forms for different purposes and audiences."
+    },
+    {
+      "id": "ESLDO-WRITING-PERSUASIVE-STRUCTURE",
+      "name": "Persuasive Paragraph Structure",
+      "nameEn": "Persuasive Paragraph Structure",
+      "definition": "A standard persuasive paragraph includes a topic sentence, three pairs of RDF (Reason/Detail/Fact) and EE (Explanation/Example), and a concluding sentence that restates the viewpoint.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "ESLDO-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Organize ideas coherently in writing."
+    },
+    {
+      "id": "ESLDO-WRITING-PERSUASIVE-APPEALS",
+      "name": "Three Persuasive Appeals",
+      "nameEn": "Three Persuasive Appeals",
+      "definition": "Ethos appeals to trustworthiness, pathos appeals to emotion, logos appeals to logic and evidence.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "ESLDO-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Write in a variety of forms for different purposes and audiences."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "4-5 correct",
+      "targetedRemediation": "2-3 correct",
+      "reteach": "0-1 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-esldo-persuasive-q1",
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-DEFINITION",
+        "errorId": "err-persuasive-vs-expository",
+        "stem": "Which of the following best describes the main purpose of persuasive writing?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that persuasive writing aims to convince rather than just inform.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly relates to writing for different purposes; persuasive writing is a specific form.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student distinguishes persuasive from expository writing.",
+        "commonMisconception": "Student thinks persuasive writing only provides information.",
+        "remediationModule": "err-persuasive-vs-expository",
+        "retestItem": "err-persuasive-vs-expository",
+        "options": [
+          {
+            "label": "A",
+            "text": "To inform readers by presenting facts and explanations without opinion.",
+            "correct": false,
+            "feedbackWrong": "That describes expository writing, not persuasive. Persuasive writing aims to convince."
+          },
+          {
+            "label": "B",
+            "text": "To entertain readers with creative stories and vivid descriptions.",
+            "correct": false,
+            "feedbackWrong": "Entertaining is not the primary goal of persuasive writing; it is to convince."
+          },
+          {
+            "label": "C",
+            "text": "To convince readers to agree with the author's opinion or take action.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Persuasive writing is meant to persuade or convince."
+          },
+          {
+            "label": "D",
+            "text": "To describe a process step by step so readers can follow instructions.",
+            "correct": false,
+            "feedbackWrong": "That is instructional writing, not persuasive."
+          }
+        ]
+      },
+      {
+        "id": "diag-esldo-persuasive-q2",
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-DEFINITION",
+        "errorId": "err-tone-inappropriate",
+        "stem": "Which of the following sentences has the most appropriate tone for persuasive writing?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects a sentence that is confident, respectful, and convincing.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tone is part of writing form and audience awareness.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check if student can identify appropriate persuasive tone.",
+        "commonMisconception": "Student may think aggressive or too casual language is appropriate.",
+        "remediationModule": "err-tone-inappropriate",
+        "retestItem": "err-tone-inappropriate",
+        "options": [
+          {
+            "label": "A",
+            "text": "You dumb people don't get it, but uniforms are a good idea, okay?",
+            "correct": false,
+            "feedbackWrong": "This tone is disrespectful and aggressive, not appropriate for persuasive writing."
+          },
+          {
+            "label": "B",
+            "text": "Wearing a uniform, like, totally saves time in the morning, I guess.",
+            "correct": false,
+            "feedbackWrong": "This tone is too casual and unsure. Persuasive writing should be confident and convincing."
+          },
+          {
+            "label": "C",
+            "text": "School uniforms should be mandatory because they reduce peer pressure and save time for students.",
+            "correct": true,
+            "feedbackCorrect": "Correct. This sentence is confident, respectful, and makes a clear argument."
+          },
+          {
+            "label": "D",
+            "text": "I think uniforms might be okay, but I'm not really sure.",
+            "correct": false,
+            "feedbackWrong": "This tone is uncertain and not convincing."
+          }
+        ]
+      },
+      {
+        "id": "diag-esldo-persuasive-q3",
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-APPEALS",
+        "errorId": "err-appeal-misidentification",
+        "stem": "A student writes: 'According to Principal Smith, wearing uniforms leads to better focus in class.' Which persuasive appeal is being used?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies this as an appeal to ethos (credibility/authority).",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Appeals are strategies used in persuasive writing for audience effect.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can distinguish ethos, pathos, logos.",
+        "commonMisconception": "Student may confuse authority (ethos) with logic (logos) or emotion (pathos).",
+        "remediationModule": "err-appeal-misidentification",
+        "retestItem": "err-appeal-misidentification",
+        "options": [
+          {
+            "label": "A",
+            "text": "Ethos – an appeal to trustworthiness and authority.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Quoting an authority figure builds credibility, which is ethos."
+          },
+          {
+            "label": "B",
+            "text": "Pathos – an appeal to emotion.",
+            "correct": false,
+            "feedbackWrong": "Pathos appeals to emotions like fear, happiness, or sympathy. This quote is not emotional; it uses an authority."
+          },
+          {
+            "label": "C",
+            "text": "Logos – an appeal to logic and evidence.",
+            "correct": false,
+            "feedbackWrong": "Logos uses facts, statistics, or logical reasoning. While the principal's statement could be logical, the appeal here is to the authority of the person, not the logic itself."
+          },
+          {
+            "label": "D",
+            "text": "Kairos – an appeal to timing.",
+            "correct": false,
+            "feedbackWrong": "Kairos is not one of the three primary appeals taught in this lesson (ethos, pathos, logos)."
+          }
+        ]
+      },
+      {
+        "id": "diag-esldo-persuasive-q4",
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-STRUCTURE",
+        "errorId": "err-rdf-ee-mismatch",
+        "stem": "Read the following persuasive paragraph and match the RDF (Reason/Detail/Fact) with the correct EE (Explanation/Example). 'School uniforms should be mandatory. First, they save time in the morning. [RDF] This means students can sleep a little longer and arrive at school more refreshed.' [EE] Which pair below correctly matches the RDF and EE?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student selects the correct matching pair that shows understanding of RDF-EE relationship.",
+        "ossdExpectation": "Organize ideas coherently in writing.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "ESLDO-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "RDF-EE matching is a coherence strategy within paragraphs.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can connect a reason to its explanation.",
+        "commonMisconception": "Student may confuse RDF with a different part or mismatch the explanation.",
+        "remediationModule": "err-rdf-ee-mismatch",
+        "retestItem": "err-rdf-ee-mismatch",
+        "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"100\"><rect x=\"10\" y=\"20\" width=\"80\" height=\"60\" fill=\"lightblue\" stroke=\"black\"/><text x=\"50\" y=\"50\" text-anchor=\"middle\" font-size=\"12\">RDF</text><rect x=\"110\" y=\"20\" width=\"80\" height=\"60\" fill=\"lightgreen\" stroke=\"black\"/><text x=\"150\" y=\"50\" text-anchor=\"middle\" font-size=\"12\">EE</text><line x1=\"90\" y1=\"50\" x2=\"110\" y2=\"50\" stroke=\"black\" stroke-dasharray=\"4\"/></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "RDF: 'School uniforms should be mandatory.' EE: 'First, they save time in the morning.'",
+            "correct": false,
+            "feedbackWrong": "The RDF in this mismatch is actually the topic sentence, and the EE is the RDF. The EE should explain the RDF, not repeat it."
+          },
+          {
+            "label": "B",
+            "text": "RDF: 'They save time in the morning.' EE: 'Students can sleep longer and arrive more refreshed.'",
+            "correct": true,
+            "feedbackCorrect": "Correct. The RDF states the reason, and the EE explains how that reason works."
+          },
+          {
+            "label": "C",
+            "text": "RDF: 'Students can sleep longer.' EE: 'School uniforms should be mandatory.'",
+            "correct": false,
+            "feedbackWrong": "The RDF should be the main point, and the EE should give explanation. Here the EE is the topic sentence."
+          },
+          {
+            "label": "D",
+            "text": "RDF: 'Arrive at school more refreshed.' EE: 'First, they save time.'",
+            "correct": false,
+            "feedbackWrong": "The RDF should be first, and the EE should follow logically. This reverses the order but also the roles."
+          }
+        ]
+      },
+      {
+        "id": "diag-esldo-persuasive-q5",
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-APPEALS",
+        "errorId": "err-appeal-misidentification",
+        "stem": "Read the statement: 'Imagine how much happier students would be if they didn't have to worry about fashion every morning.' Which type of appeal is this?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies pathos (emotional appeal).",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Appeals are persuasive strategies; this question tests identification of emotional appeal.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student can distinguish emotional appeal from logical or credibility appeals.",
+        "commonMisconception": "Student may think any persuasive language is logos or miss the emotional focus.",
+        "remediationModule": "err-appeal-misidentification",
+        "retestItem": "err-appeal-misidentification",
+        "options": [
+          {
+            "label": "A",
+            "text": "Ethos – it builds credibility through authority.",
+            "correct": false,
+            "feedbackWrong": "This statement does not mention any authority; it appeals to the reader's feelings."
+          },
+          {
+            "label": "B",
+            "text": "Pathos – it appeals to the reader's emotions by imagining happiness.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Pathos aims to evoke an emotional response."
+          },
+          {
+            "label": "C",
+            "text": "Logos – it uses logical reasoning about fashion.",
+            "correct": false,
+            "feedbackWrong": "Logos uses facts and logic; this is an emotional imagination, not a logical argument."
+          },
+          {
+            "label": "D",
+            "text": "None – it is not a persuasive appeal.",
+            "correct": false,
+            "feedbackWrong": "This is a clear example of pathos, which is a persuasive appeal."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-persuasive-vs-expository",
+      "condition": "student answers incorrectly on any question with errorId err-persuasive-vs-expository",
+      "systemAction": "assign reteach module err-persuasive-vs-expository, then retest err-persuasive-vs-expository",
+      "studentMessage": "关于 Confusion between persuasive and expository writing: assuming both only inform. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-tone-inappropriate",
+      "condition": "student answers incorrectly on any question with errorId err-tone-inappropriate",
+      "systemAction": "assign reteach module err-tone-inappropriate, then retest err-tone-inappropriate",
+      "studentMessage": "关于 Using overly casual or aggressive tone instead of confident, respectful, and convincing. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-appeal-misidentification",
+      "condition": "student answers incorrectly on any question with errorId err-appeal-misidentification",
+      "systemAction": "assign reteach module err-appeal-misidentification, then retest err-appeal-misidentification",
+      "studentMessage": "关于 Misidentifying ethos, pathos, or logos in examples. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-rdf-ee-mismatch",
+      "condition": "student answers incorrectly on any question with errorId err-rdf-ee-mismatch",
+      "systemAction": "assign reteach module err-rdf-ee-mismatch, then retest err-rdf-ee-mismatch",
+      "studentMessage": "关于 Failing to match RDF with a corresponding explanation or example. 的理解还需要加强。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-persuasive-vs-expository",
+      "trigger": "The student selected 'To inform readers by presenting facts and explanations without opinion' as the purpose of persuasive writing, indicating confusion between persuasive and expository writing.",
+      "studentMisunderstanding": "The student confuses persuasive writing with expository writing, believing that persuasive writing only provides information without attempting to convince the reader.",
+      "miniLesson": {
+        "explain": "Persuasive writing aims to convince readers to agree with the author's opinion or take action. It uses strong language, emotional guidance, and clear stances. Expository writing, on the other hand, only informs or explains without trying to persuade.",
+        "example": "Compare these two sentences:\n- Expository: 'Learning English provides access to global opportunities.' (just informs)\n- Persuasive: 'You should learn English because it will open doors to a better future!' (tries to convince)",
+        "memoryAnchor": "Remember: Persuade = Push an opinion; Expository = Explain without emotion."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Is the following sentence persuasive or expository? 'School uniforms save time and reduce peer pressure.'",
+          "answer": "Persuasive"
+        },
+        {
+          "level": "L2",
+          "prompt": "Read the two sentences and choose which one is persuasive:\nA) 'Many countries require school uniforms.'\nB) 'School uniforms should be mandatory because they create a focused learning environment.'",
+          "answer": "B"
+        },
+        {
+          "level": "L3",
+          "prompt": "Rewrite this expository sentence to make it persuasive: 'Exercise is good for health.'",
+          "answer": "You should exercise regularly because it dramatically improves your health and energy levels!"
+        }
+      ]
+    },
+    {
+      "errorId": "err-tone-inappropriate",
+      "trigger": "I think uniforms are good because they save time, like, totally.",
+      "studentMisunderstanding": "The student believes that using casual or uncertain language (e.g., 'like, totally', 'I guess') is acceptable in persuasive writing. They may also think that an aggressive or disrespectful tone shows strong conviction.",
+      "miniLesson": {
+        "explain": "Persuasive writing must use a tone that is confident (shows certainty), respectful (does not insult or belittle), and convincing (uses strong, specific language). Avoid casual words like 'like' or 'maybe', and avoid aggressive language that attacks the reader. Instead, state your opinion directly and support it with reasons.",
+        "example": "Weak tone: 'Uniforms are, like, okay I guess.' → Confident tone: 'School uniforms are beneficial because they reduce distractions.'",
+        "memoryAnchor": "Remember: Confident + Respectful + Convincing = CRC. Avoid casual or rude language."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Rewrite this sentence with a confident, respectful tone: 'I think uniforms might be good, but I'm not sure.'",
+          "answer": "School uniforms are good because they create a focused learning environment."
+        },
+        {
+          "level": "L2",
+          "prompt": "Which sentence has the best tone for persuasive writing? A) 'You're stupid if you don't like uniforms.' B) 'Uniforms are, like, so boring.' C) 'Mandatory uniforms help students focus on their studies.'",
+          "answer": "C"
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a persuasive sentence about school uniforms that uses a confident, respectful, and convincing tone. Include a reason and an appeal.",
+          "answer": "School uniforms should be mandatory because they reduce peer pressure, allowing students to focus on learning rather than fashion."
+        }
+      ]
+    },
+    {
+      "errorId": "err-appeal-misidentification",
+      "trigger": "The student incorrectly identifies persuasive appeals in examples, such as confusing ethos with logos or pathos.",
+      "studentMisunderstanding": "The student may think all persuasive appeals are based on emotion or logic, or may not recognize the specific characteristics of each appeal (ethos: credibility/authority, pathos: emotion, logos: logic/evidence).",
+      "miniLesson": {
+        "explain": "Persuasive writing uses three main appeals: Ethos appeals to trustworthiness and authority (e.g., quoting an expert). Pathos appeals to emotion (e.g., making the reader feel happy or scared). Logos appeals to logic and evidence (e.g., using facts, statistics, or reasoning).",
+        "example": "From the lesson: 'According to Principal Smith, wearing uniforms leads to better focus in class.' is an example of ethos because it uses an authority figure. 'Imagine how much happier students would be if they didn't have to worry about fashion every morning.' is pathos because it evokes emotion. And 'Uniforms save time, as shown by a survey where 80% of students got ready faster.' would be logos.",
+        "memoryAnchor": "Remember: Ethos = Expert (authority), Pathos = Passion (emotion), Logos = Logic (evidence)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Identify the appeal used in this sentence: 'Studies show that uniforms increase punctuality by 20%.'",
+          "answer": "Logos"
+        },
+        {
+          "level": "L2",
+          "prompt": "A student writes: 'Wearing uniforms makes students feel proud of their school.' Which appeal is this?",
+          "answer": "Pathos"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the sentence 'As the school principal, I support uniforms because they improve discipline.' is an example of ethos.",
+          "answer": "It uses the authority of the principal to build trust and credibility."
+        }
+      ]
+    },
+    {
+      "errorId": "err-rdf-ee-mismatch",
+      "trigger": "Student fails to correctly pair a Reason/Detail/Fact (RDF) with its corresponding Explanation/Example (EE) in a persuasive paragraph.",
+      "studentMisunderstanding": "The student may think that any piece of information can follow a reason, or may confuse the order of RDF and EE. They might not see that EE must directly explain or illustrate the RDF.",
+      "miniLesson": {
+        "explain": "In persuasive writing, each reason (RDF) needs a specific explanation (EE) that tells why that reason is convincing. The EE must directly connect to the RDF, often by giving details, examples, or further reasoning.",
+        "example": "RDF: 'School uniforms save time in the morning.' EE: 'This means students can sleep a little longer and arrive at school more refreshed.' Notice how the EE explains the benefit of saving time.",
+        "memoryAnchor": "Think of RDF as a claim and EE as the 'because' – the EE should answer 'So what?' or 'Why does this matter?'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "RDF: 'Uniforms reduce bullying.' Which EE matches?\nA: 'Bullying is bad.'\nB: 'When everyone dresses alike, students are less likely to be teased for their clothes.'",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "Read the paragraph: 'School uniforms should be mandatory. First, they save time. This allows students to focus on learning instead of choosing outfits. Second, they reduce peer pressure. Students feel more equal.' Identify the RDF-EE pair that is incorrectly matched. Correct it.",
+          "answer": "The second pair is incorrect because 'Students feel more equal' is actually part of the EE for reducing peer pressure. The correct EE for 'reduce peer pressure' could be: 'Without fashion competition, students can concentrate on their studies.'"
+        },
+        {
+          "level": "L3",
+          "prompt": "Write one RDF and a matching EE for a persuasive paragraph arguing that school uniforms improve discipline.",
+          "answer": "RDF: 'Uniforms create a professional atmosphere.' EE: 'When students dress appropriately, they are more likely to behave responsibly, just like in a workplace.'"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-persuasive-vs-expository",
+      "questions": [
+        {
+          "id": "persuasive-vs-expo-mc",
+          "type": "single_choice",
+          "stem": "What is the main purpose of persuasive writing?",
+          "options": [
+            "To inform readers by presenting facts and explanations without opinion",
+            "To entertain readers with a story",
+            "To convince readers to agree with the author's opinion or take action",
+            "To describe a scene or event in detail"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "persuasive-rewrite",
+          "type": "open_ended",
+          "stem": "Rewrite the following expository sentence to make it persuasive: 'Learning English is useful for communication.'",
+          "rubric": "The response should use convincing language (e.g., 'You must learn English to unlock global opportunities!') and express a call to action or strong opinion, not just state a fact."
+        }
+      ],
+      "passRule": "All questions correct"
+    },
+    {
+      "forErrorId": "err-tone-inappropriate",
+      "questions": [
+        {
+          "id": "q1-tone-identify",
+          "type": "single_choice",
+          "stem": "Which sentence uses the most appropriate persuasive tone?",
+          "options": [
+            "Uniforms are, like, totally unnecessary.",
+            "You'd have to be an idiot to oppose uniforms.",
+            "Mandatory uniforms promote equality and reduce distractions.",
+            "I guess uniforms might be okay, but I'm not sure."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2-tone-rewrite",
+          "type": "open_ended",
+          "stem": "Rewrite the following sentence to have a confident, respectful, and convincing tone:\n\n\"School uniforms are, like, a good idea, I think.\"",
+          "rubric": "The rewritten sentence must: (1) use confident language (no hedging like 'I think' or 'maybe'), (2) be respectful (no insults or rudeness), (3) include a specific benefit or reason. Example: 'School uniforms are beneficial because they create a focused learning environment.'"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For Q1, the correct option must be selected. For Q2, the response must meet all three criteria in the rubric (confident, respectful, convincing with a reason)."
+    },
+    {
+      "forErrorId": "err-appeal-misidentification",
+      "questions": [
+        {
+          "id": "retest-appeal-1",
+          "type": "single_choice",
+          "stem": "Which persuasive appeal is used in this sentence from a blog: 'Just imagine the relief of waking up without worrying what to wear every morning.'",
+          "options": [
+            "Ethos",
+            "Pathos",
+            "Logos",
+            "None of the above"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-appeal-2",
+          "type": "single_choice",
+          "stem": "A school administrator says, 'As a principal for 15 years, I have seen uniforms reduce bullying incidents.' This statement primarily uses which appeal?",
+          "options": [
+            "Ethos",
+            "Pathos",
+            "Logos",
+            "All of the above"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-appeal-3",
+          "type": "open_ended",
+          "stem": "Explain why the claim 'A survey of 1,000 students found that 70% prefer uniforms' is an example of logos. In your answer, describe what logos means.",
+          "rubric": "Student correctly defines logos as an appeal to logic/evidence, and explains that the statement uses statistical data from a survey to support the argument."
+        }
+      ],
+      "passRule": "Answer both multiple-choice questions correctly and provide an explanation that demonstrates understanding of logos for the open-ended question."
+    },
+    {
+      "forErrorId": "err-rdf-ee-mismatch",
+      "questions": [
+        {
+          "id": "retest-rdf-ee-mc",
+          "type": "single_choice",
+          "stem": "Which Explanation/Example (EE) best matches the Reason/Detail/Fact (RDF): 'Learning a second language improves brain function.'?",
+          "options": [
+            "Learning a second language is fun.",
+            "Studies show bilingual people have better problem-solving skills and memory.",
+            "Many people in the world speak two languages."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-rdf-ee-open",
+          "type": "open_ended",
+          "stem": "Write an Explanation/Example (EE) that directly supports the Reason/Detail/Fact (RDF): 'Bilingual students often score higher on standardized tests.'",
+          "rubric": "The EE must explain why or how bilingualism leads to higher test scores, providing a specific example or logical connection."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the EE must clearly connect to the RDF and provide a plausible explanation."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-16",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/MNe7d9KCeoacJ0xw22Rclj6vnFg?from=vc_group_doc_link#doxcn5cp2vDz0ICkWDMhVfCefRf",
+    "sourceTitle": "ESLDO.S6.Dionne 2026-07-16 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Persuasive writing aims to convince readers to agree with the author's opinion or take action, unlike expository writing which only informs.；Persuasive writing uses strong language, emotional guidance, and clear stances.；Common scenarios include advertisements, news commentaries, speeches, product reviews, blogs, and academic essays.",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Attendance confirmation within first 5 minutes",
+        "studentAction": "Confirm attendance and preparation status within the first 5 minutes of class to avoid reducing teaching time.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All students shall confirm their attendance and preparation status within the first 5 minutes after class starts",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "First round of report cards to be distributed soon",
+        "studentAction": "Review report card for class participation, task completion, and skill performance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The first round of student learning report cards will be distributed soon",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "deadline",
+        "title": "Submit all unfinished Unit 1 tasks before Unit 2 starts next week",
+        "studentAction": "Submit all unfinished learning tasks and assignments for Unit 1.",
+        "deadlineText": "Before the official launch of Unit 2 next week",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All unfinished learning tasks and assignments for Unit 1 must be submitted before the official launch of Unit 2 next week",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Forum discussion post on school uniforms and reply to a classmate",
+        "studentAction": "Complete forum post on whether school uniforms should be mandatory, and write a respectful reply to at least one classmate's post.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Forum (platform unspecified)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Complete the forum post on the topic of 'whether school uniforms should be mandatory' within the reserved work time, and write a respectful reply to at least one classmate’s published post.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Persuasive writing worksheet and vocabulary word search",
+        "studentAction": "Complete the persuasive writing worksheet on commercial advertising in schools and the vocabulary word search exercise as after-class homework.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "After finishing the forum task, complete the assigned persuasive writing worksheet on commercial advertising in schools and the vocabulary word search exercise as after-class homework.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next class will explain final Unit 1 persuasive essay assignment",
+        "studentAction": "Be prepared for detailed explanation of the final essay assignment and targeted writing guidance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The next class will focus on detailed explanation of the final Unit 1 persuasive essay assignment, and carry out targeted writing guidance for the essay topic.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Use in-class work time to complete tasks",
+        "studentAction": "Make full use of the reserved in-class work time to complete assigned tasks, and avoid leaving all learning content to be finished after class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students shall make full use of the reserved in-class work time to complete assigned tasks, and avoid leaving all learning content to be finished after class.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "ESLDO-WRITING-PERSUASIVE-DEFINITION",
+      "ESLDO-WRITING-PERSUASIVE-STRUCTURE",
+      "ESLDO-WRITING-PERSUASIVE-APPEALS"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-persuasive-vs-expository",
+        "condition": "student answers incorrectly on any question with errorId err-persuasive-vs-expository",
+        "systemAction": "assign reteach module err-persuasive-vs-expository, then retest err-persuasive-vs-expository"
+      },
+      {
+        "errorId": "err-tone-inappropriate",
+        "condition": "student answers incorrectly on any question with errorId err-tone-inappropriate",
+        "systemAction": "assign reteach module err-tone-inappropriate, then retest err-tone-inappropriate"
+      },
+      {
+        "errorId": "err-appeal-misidentification",
+        "condition": "student answers incorrectly on any question with errorId err-appeal-misidentification",
+        "systemAction": "assign reteach module err-appeal-misidentification, then retest err-appeal-misidentification"
+      },
+      {
+        "errorId": "err-rdf-ee-mismatch",
+        "condition": "student answers incorrectly on any question with errorId err-rdf-ee-mismatch",
+        "systemAction": "assign reteach module err-rdf-ee-mismatch, then retest err-rdf-ee-mismatch"
+      }
+    ],
+    "nextActions": [
+      "[err-persuasive-vs-expository] student answers incorrectly on any question with errorId err-persuasive-vs-expository: 关于 Confusion between persuasive and expository writing: assuming both only inform. 的理解还需要加强。",
+      "[err-tone-inappropriate] student answers incorrectly on any question with errorId err-tone-inappropriate: 关于 Using overly casual or aggressive tone instead of confident, respectful, and convincing. 的理解还需要加强。",
+      "[err-appeal-misidentification] student answers incorrectly on any question with errorId err-appeal-misidentification: 关于 Misidentifying ethos, pathos, or logos in examples. 的理解还需要加强。",
+      "[err-rdf-ee-mismatch] student answers incorrectly on any question with errorId err-rdf-ee-mismatch: 关于 Failing to match RDF with a corresponding explanation or example. 的理解还需要加强。"
+    ],
+    "cards": [
+      {
+        "id": "diag-esldo-persuasive-q1",
+        "type": "choice",
+        "question": "Which of the following best describes the main purpose of persuasive writing?",
+        "options": [
+          "To inform readers by presenting facts and explanations without opinion.",
+          "To entertain readers with creative stories and vivid descriptions.",
+          "To convince readers to agree with the author's opinion or take action.",
+          "To describe a process step by step so readers can follow instructions."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student distinguishes persuasive from expository writing.",
+        "misconceptions": [
+          "That describes expository writing, not persuasive. Persuasive writing aims to convince.",
+          "Entertaining is not the primary goal of persuasive writing; it is to convince.",
+          "✓ Correct. Persuasive writing is meant to persuade or convince.",
+          "That is instructional writing, not persuasive."
+        ],
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-DEFINITION",
+        "errorId": "err-persuasive-vs-expository",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that persuasive writing aims to convince rather than just inform.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly relates to writing for different purposes; persuasive writing is a specific form.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks persuasive writing only provides information.",
+        "remediationModule": "err-persuasive-vs-expository",
+        "retestItem": "err-persuasive-vs-expository"
+      },
+      {
+        "id": "diag-esldo-persuasive-q2",
+        "type": "choice",
+        "question": "Which of the following sentences has the most appropriate tone for persuasive writing?",
+        "options": [
+          "You dumb people don't get it, but uniforms are a good idea, okay?",
+          "Wearing a uniform, like, totally saves time in the morning, I guess.",
+          "School uniforms should be mandatory because they reduce peer pressure and save time for students.",
+          "I think uniforms might be okay, but I'm not really sure."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student can identify appropriate persuasive tone.",
+        "misconceptions": [
+          "This tone is disrespectful and aggressive, not appropriate for persuasive writing.",
+          "This tone is too casual and unsure. Persuasive writing should be confident and convincing.",
+          "✓ Correct. This sentence is confident, respectful, and makes a clear argument.",
+          "This tone is uncertain and not convincing."
+        ],
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-DEFINITION",
+        "errorId": "err-tone-inappropriate",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects a sentence that is confident, respectful, and convincing.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tone is part of writing form and audience awareness.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Student may think aggressive or too casual language is appropriate.",
+        "remediationModule": "err-tone-inappropriate",
+        "retestItem": "err-tone-inappropriate"
+      },
+      {
+        "id": "diag-esldo-persuasive-q3",
+        "type": "choice",
+        "question": "A student writes: 'According to Principal Smith, wearing uniforms leads to better focus in class.' Which persuasive appeal is being used?",
+        "options": [
+          "Ethos – an appeal to trustworthiness and authority.",
+          "Pathos – an appeal to emotion.",
+          "Logos – an appeal to logic and evidence.",
+          "Kairos – an appeal to timing."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can distinguish ethos, pathos, logos.",
+        "misconceptions": [
+          "✓ Correct. Quoting an authority figure builds credibility, which is ethos.",
+          "Pathos appeals to emotions like fear, happiness, or sympathy. This quote is not emotional; it uses an authority.",
+          "Logos uses facts, statistics, or logical reasoning. While the principal's statement could be logical, the appeal here is to the authority of the person, not the logic itself.",
+          "Kairos is not one of the three primary appeals taught in this lesson (ethos, pathos, logos)."
+        ],
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-APPEALS",
+        "errorId": "err-appeal-misidentification",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies this as an appeal to ethos (credibility/authority).",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Appeals are strategies used in persuasive writing for audience effect.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may confuse authority (ethos) with logic (logos) or emotion (pathos).",
+        "remediationModule": "err-appeal-misidentification",
+        "retestItem": "err-appeal-misidentification"
+      },
+      {
+        "id": "diag-esldo-persuasive-q4",
+        "type": "choice",
+        "question": "Read the following persuasive paragraph and match the RDF (Reason/Detail/Fact) with the correct EE (Explanation/Example). 'School uniforms should be mandatory. First, they save time in the morning. [RDF] This means students can sleep a little longer and arrive at school more refreshed.' [EE] Which pair below correctly matches the RDF and EE?",
+        "options": [
+          "RDF: 'School uniforms should be mandatory.' EE: 'First, they save time in the morning.'",
+          "RDF: 'They save time in the morning.' EE: 'Students can sleep longer and arrive more refreshed.'",
+          "RDF: 'Students can sleep longer.' EE: 'School uniforms should be mandatory.'",
+          "RDF: 'Arrive at school more refreshed.' EE: 'First, they save time.'"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can connect a reason to its explanation.",
+        "misconceptions": [
+          "The RDF in this mismatch is actually the topic sentence, and the EE is the RDF. The EE should explain the RDF, not repeat it.",
+          "✓ Correct. The RDF states the reason, and the EE explains how that reason works.",
+          "The RDF should be the main point, and the EE should give explanation. Here the EE is the topic sentence.",
+          "The RDF should be first, and the EE should follow logically. This reverses the order but also the roles."
+        ],
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-STRUCTURE",
+        "errorId": "err-rdf-ee-mismatch",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student selects the correct matching pair that shows understanding of RDF-EE relationship.",
+        "ossdExpectation": "Organize ideas coherently in writing.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "ESLDO-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "RDF-EE matching is a coherence strategy within paragraphs.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may confuse RDF with a different part or mismatch the explanation.",
+        "remediationModule": "err-rdf-ee-mismatch",
+        "retestItem": "err-rdf-ee-mismatch"
+      },
+      {
+        "id": "diag-esldo-persuasive-q5",
+        "type": "choice",
+        "question": "Read the statement: 'Imagine how much happier students would be if they didn't have to worry about fashion every morning.' Which type of appeal is this?",
+        "options": [
+          "Ethos – it builds credibility through authority.",
+          "Pathos – it appeals to the reader's emotions by imagining happiness.",
+          "Logos – it uses logical reasoning about fashion.",
+          "None – it is not a persuasive appeal."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can distinguish emotional appeal from logical or credibility appeals.",
+        "misconceptions": [
+          "This statement does not mention any authority; it appeals to the reader's feelings.",
+          "✓ Correct. Pathos aims to evoke an emotional response.",
+          "Logos uses facts and logic; this is an emotional imagination, not a logical argument.",
+          "This is a clear example of pathos, which is a persuasive appeal."
+        ],
+        "nodeId": "ESLDO-WRITING-PERSUASIVE-APPEALS",
+        "errorId": "err-appeal-misidentification",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies pathos (emotional appeal).",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Appeals are persuasive strategies; this question tests identification of emotional appeal.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student may think any persuasive language is logos or miss the emotional focus.",
+        "remediationModule": "err-appeal-misidentification",
+        "retestItem": "err-appeal-misidentification"
+      }
+    ]
+  }
+}
