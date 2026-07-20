@@ -1,0 +1,1355 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-20",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/SpYrdeRc6ofZbpxgn7JcMBpInoh?from=vc_group_doc_link#doxcnAGzR1vVfWkqe5ViCL49l4d",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-20 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/SpYrdeRc6ofZbpxgn7JcMBpInoh?from=vc_group_doc_link#doxcnAGzR1vVfWkqe5ViCL49l4d",
+    "title": "MDM4U.S6.Atousa 2026-07-20 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-20/sources/mdm4u-s6-atousa-2026-07-20/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-20",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-20",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Structured instructional session covering discrete probability distribution fundamentals, two-dice sum case analysis, Python simulation demonstration, expected value calculation.",
+    "academicContentSignals": [
+      "Discrete vs continuous random variable definitions and differentiation",
+      "Valid probability distribution representation formats and validity checks (non-negative probabilities, sum to 1)",
+      "Two-dice sum theoretical probability calculation (sample space, outcome combinations, histogram)",
+      "Python simulation steps: random generation, frequency counting, experimental probability",
+      "Expected value definition, calculation (sum of outcome×probability), and single die (3.5) and two-dice sum (7) benchmarks",
+      "Law of large numbers: small run variability vs large run convergence to theoretical values"
+    ],
+    "courseOverviewSignals": [
+      "Course structure adjusted to 4 units to align with Ontario curriculum",
+      "Unit naming adjustment: Unit 4 renamed to Unit 2",
+      "Pre-recorded video lectures available for all units",
+      "AI tools permitted for simulation script development"
+    ],
+    "opsDominanceRisk": "Moderate. Several operational items (class activity, simulation assignment, unit restructuring) exist, but academic content is rich. Ensure diagnostic card primarily tests probability concepts, not logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete 5-question discrete probability distribution class activity",
+        "studentAction": "Complete the 5-question class activity on discrete probability distribution validity rules and probability calculations.",
+        "deadlineText": "Before next class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students are required to complete the 5-question discrete probability distribution class activity",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Run two-dice Python simulation and perform comparative analysis",
+        "studentAction": "Run the two-dice simulation script locally, compare experimental results from 10, 100, and 1000 runs against theoretical probabilities and expected value.",
+        "deadlineText": "Next class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Next class session will guide students to independently run simulation scripts and complete hands-on comparative analysis",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Pre-recorded video lectures available for all units",
+        "studentAction": "Access pre-recorded video lectures for reference on all units.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "unspecified internal platform",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Pre-recorded video lectures for all units are available for student reference",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Mid-session break scheduled",
+        "studentAction": "Take a 10-minute break; complete practice exercises and rest.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A 10-minute mid-session break was scheduled during the session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Course structure adjustment to 4 units",
+        "studentAction": "Be aware that the course now has 4 units; Unit 4 renamed to Unit 2; non-relevant content unpublished.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The course will be adjusted to 4 total units to align with Ontario provincial curriculum requirements",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "AI tool usage permitted for simulation scripts",
+        "studentAction": "Use general AI platforms to generate, debug, and adjust simulation scripts, but ensure understanding of core logic.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students can use general AI platforms to generate, debug and adjust simulation scripts",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Simulation and comparative analysis tasks have higher grading weight",
+        "studentAction": "Recognize that simulation tasks carry higher grading weight than standard class activities.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Simulation and comparative analysis tasks carry a higher grading weight than standard class activities",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Next class session focus: guide students to independently run simulation scripts",
+        "reason": "No specific date for 'next class session'; deadline ambiguous."
+      },
+      {
+        "rawText": "Pre-recorded video lectures for all units are available",
+        "reason": "No platform or link provided for accessing these lectures."
+      },
+      {
+        "rawText": "Students to run two-dice Python simulation script on local devices",
+        "reason": "Unclear if script is provided or must be generated; no source link."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Counting and Probability: Solve problems involving probability of events for discrete sample spaces、Probability Distributions: Understand discrete probability distributions）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "A discrete random variable assigns a unique, fixed integer value to every possible outcome; it cannot take fractional values between these integer outcomes.；A continuous random variable can take any numerical value within a range, including decimals and fractions.；A probability distribution for a discrete sample space can be represented by a table, formula, or discrete point plot; not a continuous line graph.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Classify random variables as discrete or continuous based on whether outcomes are countable or measurable."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Verify that a discrete probability distribution sums to 1 and each probability is between 0 and 1."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Determine probabilities for two-dice sum outcomes using the correct sample space of 36 equally likely outcomes."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Explain the law of large numbers: experimental probability approaches theoretical probability as trials increase."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Calculate expected value for a discrete distribution and interpret it as a long-run average, not a guaranteed outcome."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MDM4U-A-OE01",
+      "name": "Counting and Probability: Solve problems involving probability of events for discrete sample spaces",
+      "nameEn": "Counting and Probability",
+      "definition": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces."
+    },
+    {
+      "id": "MDM4U-B-OE01",
+      "name": "Probability Distributions: Understand discrete probability distributions",
+      "nameEn": "Probability Distributions",
+      "definition": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "MDM4U-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Classify random variables as discrete or continuous based on whether outcomes are countable or measurable."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Verify that a discrete probability distribution sums to 1 and each probability is between 0 and 1."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Determine probabilities for two-dice sum outcomes using the correct sample space of 36 equally likely outcomes."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Explain the law of large numbers: experimental probability approaches theoretical probability as trials increase."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Calculate expected value for a discrete distribution and interpret it as a long-run average, not a guaranteed outcome."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-continuous-vs-discrete",
+        "condition": "Student selects option indicating confusion between discrete and continuous (e.g., thinking die roll can be 3.5)",
+        "systemAction": "Assign reteach module for err-continuous-vs-discrete",
+        "studentMessage": "Let's clarify the difference between discrete and continuous random variables."
+      },
+      {
+        "errorId": "err-prob-dist-sum-not-1",
+        "condition": "Student selects an option where total probability is not 1 or says sum can be >1",
+        "systemAction": "Assign reteach module for err-prob-dist-sum-not-1",
+        "studentMessage": "Remember: in any probability distribution, the sum of all probabilities must equal exactly 1."
+      },
+      {
+        "errorId": "err-two-dice-sample-space",
+        "condition": "Student selects incorrect count of outcomes or wrong probability for a sum",
+        "systemAction": "Assign reteach module for err-two-dice-sample-space",
+        "studentMessage": "Check your sample space: two dice have 36 equally likely outcomes."
+      },
+      {
+        "errorId": "err-law-of-large-numbers-speed",
+        "condition": "Student expects experimental probability to match theoretical after very few trials",
+        "systemAction": "Assign reteach module for err-law-of-large-numbers-speed",
+        "studentMessage": "The law of large numbers requires many trials for convergence."
+      },
+      {
+        "errorId": "err-expected-value-guarantee",
+        "condition": "Student thinks expected value is the most common or a guaranteed outcome",
+        "systemAction": "Assign reteach module for err-expected-value-guarantee",
+        "studentMessage": "Expected value is a long-run average, not a specific result in any single trial."
+      },
+      {
+        "errorId": "err-simulation-code-misunderstanding",
+        "condition": "Student thinks they must write simulation code from scratch or misunderstands AI-generated code",
+        "systemAction": "Assign reteach module for err-simulation-code-misunderstanding",
+        "studentMessage": "Simulation code can be AI-generated; you need to focus on interpreting the results."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-0720-q1",
+        "nodeId": "MDM4U-A-OE01",
+        "errorId": "err-continuous-vs-discrete",
+        "stem": "Which of the following is an example of a discrete random variable?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies a discrete random variable (countable integer outcomes).",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "OE A1 covers discrete sample spaces; SE A1.2 specifically distinguishes discrete vs continuous.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can differentiate between countable (discrete) and measurable (continuous) outcomes.",
+        "commonMisconception": "Thinking discrete means 'any integer' without the requirement of countability or that continuous variables cannot take integer values.",
+        "remediationModule": "err-continuous-vs-discrete",
+        "retestItem": "err-continuous-vs-discrete",
+        "options": [
+          {
+            "label": "A",
+            "text": "The height of a randomly selected student",
+            "correct": false,
+            "feedbackWrong": "Height is measured on a continuous scale; it is a continuous random variable."
+          },
+          {
+            "label": "B",
+            "text": "The number of heads when flipping a coin 5 times",
+            "correct": true,
+            "feedbackCorrect": "Correct! The number of heads is a countable integer from 0 to 5, making it a discrete random variable."
+          },
+          {
+            "label": "C",
+            "text": "The time taken to run a 100m race",
+            "correct": false,
+            "feedbackWrong": "Time is measured on a continuous scale; it is a continuous random variable."
+          },
+          {
+            "label": "D",
+            "text": "The temperature in Toronto on a given day",
+            "correct": false,
+            "feedbackWrong": "Temperature is measured on a continuous scale; it is a continuous random variable."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0720-q2",
+        "nodeId": "MDM4U-B-OE01",
+        "errorId": "err-prob-dist-sum-not-1",
+        "stem": "In a discrete probability distribution, the sum of the probabilities of all possible outcomes must be:",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that total probability equals 1.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "B1 explicitly covers discrete probability distributions and their properties.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "stemIntent": "Check if student knows the fundamental property of probability distributions summing to 1.",
+        "commonMisconception": "Thinking probabilities can add to less than 1 or more than 1, or confusing with other properties.",
+        "remediationModule": "err-prob-dist-sum-not-1",
+        "retestItem": "err-prob-dist-sum-not-1",
+        "options": [
+          {
+            "label": "A",
+            "text": "Between 0 and 1 (but not necessarily 1)",
+            "correct": false,
+            "feedbackWrong": "While each probability is between 0 and 1, their total must sum to exactly 1."
+          },
+          {
+            "label": "B",
+            "text": "Exactly 1",
+            "correct": true,
+            "feedbackCorrect": "Correct! The sum of all probabilities in a probability distribution must equal 1."
+          },
+          {
+            "label": "C",
+            "text": "Equal to the number of outcomes",
+            "correct": false,
+            "feedbackWrong": "The sum of probabilities is always 1, regardless of the number of outcomes."
+          },
+          {
+            "label": "D",
+            "text": "Less than 1 if the distribution is discrete",
+            "correct": false,
+            "feedbackWrong": "The total probability is always 1, whether the distribution is discrete or continuous."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0720-q3",
+        "nodeId": "MDM4U-A-OE01",
+        "errorId": "err-two-dice-sample-space",
+        "stem": "When rolling two fair six-sided dice and recording the sum, how many distinct outcomes (ordered pairs) are in the sample space?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies 36 outcomes.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "A1 covers sample spaces and probabilities, directly applicable to summing two dice.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "stemIntent": "Check if student correctly counts the sample space for two dice.",
+        "commonMisconception": "Thinking the sample space has 21 outcomes because order doesn't matter, or thinking sums are equally likely.",
+        "remediationModule": "err-two-dice-sample-space",
+        "retestItem": "err-two-dice-sample-space",
+        "options": [
+          {
+            "label": "A",
+            "text": "11",
+            "correct": false,
+            "feedbackWrong": "11 is the number of possible sums (2 to 12), not the number of ordered outcomes."
+          },
+          {
+            "label": "B",
+            "text": "21",
+            "correct": false,
+            "feedbackWrong": "21 would be the number of unordered outcomes if dice were identical; but dice are distinct, giving 36 ordered pairs."
+          },
+          {
+            "label": "C",
+            "text": "36",
+            "correct": true,
+            "feedbackCorrect": "Correct! 6 faces on first die x 6 faces on second die = 36 equally likely ordered pairs."
+          },
+          {
+            "label": "D",
+            "text": "72",
+            "correct": false,
+            "feedbackWrong": "Double counting; there are only 36 distinct pairs."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0720-q4",
+        "nodeId": "MDM4U-A-OE01",
+        "errorId": "err-law-of-large-numbers-speed",
+        "stem": "A student rolls two dice 10 times and finds that the sum of 7 occurs 4 times, giving an experimental probability of 0.4. The theoretical probability is about 0.167. Which statement below best describes what should happen if the student increases the number of rolls to 1000?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recognizes that experimental probability gets closer to theoretical with many trials.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "SE A1.4 specifically addresses the law of large numbers.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check understanding of the law of large numbers: experimental probability converges to theoretical as sample size grows.",
+        "commonMisconception": "Thinking that after a small number of trials the experimental probability will already be very close to theoretical, or that it never converges.",
+        "remediationModule": "err-law-of-large-numbers-speed",
+        "retestItem": "err-law-of-large-numbers-speed",
+        "options": [
+          {
+            "label": "A",
+            "text": "The experimental probability will stay at 0.4 because the initial pattern is set.",
+            "correct": false,
+            "feedbackWrong": "Experimental probability fluctuates initially but stabilizes close to theoretical value with many trials."
+          },
+          {
+            "label": "B",
+            "text": "The experimental probability will become exactly 0.167 after exactly 1000 rolls.",
+            "correct": false,
+            "feedbackWrong": "Experimental probability approaches theoretical but rarely matches exactly, even with many trials."
+          },
+          {
+            "label": "C",
+            "text": "The experimental probability will likely be closer to 0.167 than it was at 10 rolls.",
+            "correct": true,
+            "feedbackCorrect": "Correct! According to the law of large numbers, the experimental probability tends to get closer to the theoretical probability as the number of trials increases."
+          },
+          {
+            "label": "D",
+            "text": "The experimental probability will be exactly half of the theoretical probability.",
+            "correct": false,
+            "feedbackWrong": "No guarantee; the law of large numbers says it approaches, not a specific fraction."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0720-q5",
+        "nodeId": "MDM4U-B-OE01",
+        "errorId": "err-expected-value-guarantee",
+        "stem": "The expected value of the sum when rolling two dice is 7. Which interpretation is most accurate?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student correctly interprets expected value as long-run average, not a guarantee.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "B1 explicitly includes determining expected values.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that expected value is a long-run average, not a possible outcome.",
+        "commonMisconception": "Thinking that the expected value must be a possible outcome (e.g., you can roll a 7, but expected value is 7; but for a single die, 3.5 is not a face).",
+        "remediationModule": "err-expected-value-guarantee",
+        "retestItem": "err-expected-value-guarantee",
+        "options": [
+          {
+            "label": "A",
+            "text": "If you roll the dice once, you are guaranteed to get a 7.",
+            "correct": false,
+            "feedbackWrong": "Expected value is not a guarantee for a single trial; it is an average over many trials."
+          },
+          {
+            "label": "B",
+            "text": "Over many rolls, the average sum will be close to 7.",
+            "correct": true,
+            "feedbackCorrect": "Correct! The expected value is the long-run average. If you roll the dice thousands of times, the mean sum will be approximately 7."
+          },
+          {
+            "label": "C",
+            "text": "The most common sum when rolling two dice is 7, so expected value equals mode.",
+            "correct": false,
+            "feedbackWrong": "While 7 is the most probable sum, expected value is defined as the weighted average, not the mode."
+          },
+          {
+            "label": "D",
+            "text": "The expected value is 7 because it is the middle number between 2 and 12.",
+            "correct": false,
+            "feedbackWrong": "Expected value is not simply the midpoint; it is calculated from probabilities."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-0720-q6",
+        "nodeId": "MDM4U-A-OE01",
+        "errorId": "err-simulation-code-misunderstanding",
+        "stem": "In class, you will use simulation to compare experimental and theoretical probabilities for the two-dice sum. Which of the following best describes the role of AI-generated code in that simulation?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recognizes that AI can generate simulation code, and the focus is on interpreting results, not writing code from scratch.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Simulation is a problem-solving strategy within A1.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student understands that they can use provided code rather than writing from scratch.",
+        "commonMisconception": "Thinking that they must write code themselves or that AI-generated code is irrelevant.",
+        "remediationModule": "err-simulation-code-misunderstanding",
+        "retestItem": "err-simulation-code-misunderstanding",
+        "options": [
+          {
+            "label": "A",
+            "text": "You must write the simulation code yourself from scratch.",
+            "correct": false,
+            "feedbackWrong": "The lesson provides pre-recorded videos and AI-generated code to help; writing from scratch is not required."
+          },
+          {
+            "label": "B",
+            "text": "AI-generated code is provided; you focus on running it and interpreting the results.",
+            "correct": true,
+            "feedbackCorrect": "Correct! The simulation code will be provided (AI-generated). You need to understand how it works and interpret the output."
+          },
+          {
+            "label": "C",
+            "text": "AI-generated code is not reliable for simulation, so you should avoid it.",
+            "correct": false,
+            "feedbackWrong": "AI-generated code can be reliable and is used as a learning tool in this lesson."
+          },
+          {
+            "label": "D",
+            "text": "The simulation code will be given, but you don't need to understand its logic.",
+            "correct": false,
+            "feedbackWrong": "Understanding the logic helps interpret results; you should try to understand the code."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-continuous-vs-discrete",
+      "condition": "Student selects option indicating confusion between discrete and continuous (e.g., thinking die roll can be 3.5)",
+      "systemAction": "Assign reteach module for err-continuous-vs-discrete",
+      "studentMessage": "Let's clarify the difference between discrete and continuous random variables."
+    },
+    {
+      "errorId": "err-prob-dist-sum-not-1",
+      "condition": "Student selects an option where total probability is not 1 or says sum can be >1",
+      "systemAction": "Assign reteach module for err-prob-dist-sum-not-1",
+      "studentMessage": "Remember: in any probability distribution, the sum of all probabilities must equal exactly 1."
+    },
+    {
+      "errorId": "err-two-dice-sample-space",
+      "condition": "Student selects incorrect count of outcomes or wrong probability for a sum",
+      "systemAction": "Assign reteach module for err-two-dice-sample-space",
+      "studentMessage": "Check your sample space: two dice have 36 equally likely outcomes."
+    },
+    {
+      "errorId": "err-law-of-large-numbers-speed",
+      "condition": "Student expects experimental probability to match theoretical after very few trials",
+      "systemAction": "Assign reteach module for err-law-of-large-numbers-speed",
+      "studentMessage": "The law of large numbers requires many trials for convergence."
+    },
+    {
+      "errorId": "err-expected-value-guarantee",
+      "condition": "Student thinks expected value is the most common or a guaranteed outcome",
+      "systemAction": "Assign reteach module for err-expected-value-guarantee",
+      "studentMessage": "Expected value is a long-run average, not a specific result in any single trial."
+    },
+    {
+      "errorId": "err-simulation-code-misunderstanding",
+      "condition": "Student thinks they must write simulation code from scratch or misunderstands AI-generated code",
+      "systemAction": "Assign reteach module for err-simulation-code-misunderstanding",
+      "studentMessage": "Simulation code can be AI-generated; you need to focus on interpreting the results."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-prob-dist-sum-not-1",
+      "trigger": "The sum of probabilities in a discrete probability distribution must equal exactly 1. If it is less than or greater than 1, the distribution is invalid.",
+      "studentMisunderstanding": "Students may think that probabilities can sum to a value other than 1, such as treating them as percentages that don't need to add to 100%, or confusing with other properties.",
+      "miniLesson": {
+        "explain": "In any valid discrete probability distribution, the total probability of all possible outcomes must sum to 1 (or 100%). This is a fundamental rule because one of the outcomes must occur. For example, when rolling two dice, the probabilities for sums 2 through 12 are: P(2)=1/36, P(3)=2/36, ..., P(7)=6/36, ..., P(12)=1/36. If you add all these fractions, you get exactly 1. This verifies the distribution is complete and consistent.",
+        "example": "Consider the probability distribution for the sum of two dice. The possible sums are 2 to 12 with probabilities: 1/36, 2/36, 3/36, 4/36, 5/36, 6/36, 5/36, 4/36, 3/36, 2/36, 1/36. Sum = (1+2+3+4+5+6+5+4+3+2+1)/36 = 36/36 = 1. If the sum were less than 1, it would mean some outcomes are missing; if greater, the probabilities would be too large.",
+        "memoryAnchor": "Remember: probabilities are like slices of a whole pizza – all slices together must make exactly one whole pizza, not more or less."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a discrete probability distribution, the sum of the probabilities of all outcomes must equal ____.",
+          "answer": "1"
+        },
+        {
+          "level": "L2",
+          "prompt": "A student proposes a distribution for the sum of two dice: P(2)=1/36, P(3)=2/36, P(4)=3/36, P(5)=4/36, P(6)=5/36, P(7)=6/36, P(8)=5/36, P(9)=4/36, P(10)=3/36, P(11)=2/36, but forgets P(12). What must P(12) be to make the distribution valid?",
+          "answer": "P(12) = 1/36. The sum of the given probabilities is 35/36, so the missing probability is 1/36 to sum to 1."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student writes the following distribution for the sum of two dice: P(2)=1/36, P(3)=2/36, P(4)=3/36, P(5)=4/36, P(6)=5/36, P(7)=6/36, P(8)=5/36, P(9)=4/36, P(10)=3/36, P(11)=2/36, P(12)=0/36. Is this a valid distribution? If not, what is wrong?",
+          "answer": "No, because the sum is (1+2+3+4+5+6+5+4+3+2+0)/36 = 35/36, which is less than 1. P(12) must be 1/36, not 0, to sum to 1."
+        }
+      ]
+    },
+    {
+      "errorId": "err-expected-value-guarantee",
+      "trigger": "Student selects an option indicating expected value is a guaranteed outcome or must be a possible outcome.",
+      "studentMisunderstanding": "Student believes the expected value must be a possible outcome of an experiment or guarantees a result in any single trial.",
+      "miniLesson": {
+        "explain": "Expected value is the long-run average of a random variable. It is calculated by summing each outcome multiplied by its probability. It does not have to be a possible outcome (e.g., 3.5 for a die) and does not guarantee what will happen in one trial. Over many trials, the average tends to be close to the expected value.",
+        "example": "Rolling a single die: expected value = 3.5, but you never actually roll 3.5. Rolling two dice: expected value = 7, but many rolls will not be exactly 7. After 1000 rolls, the average sum might be 6.98 or 7.05, not exactly 7.",
+        "memoryAnchor": "Expected value is a guide for the long-term average, not a promise for any single roll. Think of it as the 'center of mass' of the probability distribution."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A fair six-sided die has faces 1,2,3,4,5,6. The expected value of a single roll is 3.5. Which of the following statements is TRUE? A) If you roll the die once, you will get 3.5. B) Over many rolls, the average will be close to 3.5. C) The most common outcome is 3.5. D) The sum of all outcomes is 3.5.",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "The expected value of the sum of two dice is 7. After rolling two dice 1000 times, the average sum is 6.95. Is this surprising? Explain why or why not.",
+          "answer": "No, it is not surprising. The expected value is a long-run average; with 1000 trials, the experimental average is typically within 0.2 of 7. A value of 6.95 is within this range."
+        },
+        {
+          "level": "L3",
+          "prompt": "A game pays $10 for rolling a sum of 7, $5 for a sum of 6 or 8, and nothing for other sums. The expected value of the game is about $1.67 (calculated). Your friend plays the game once and wins $10. Your friend says the expected value is wrong because they got more. Explain why your friend's reasoning is flawed.",
+          "answer": "The expected value is a long-run average over many plays. In a single play, you can get any outcome, including $10. The expected value does not predict a single play; it predicts the average outcome over many plays. If your friend played many times, the average winnings would be close to $1.67."
+        }
+      ]
+    },
+    {
+      "errorId": "err-continuous-vs-discrete",
+      "trigger": "Student selects a continuous example (e.g., height, time, temperature) when asked to identify a discrete random variable, or thinks a die roll can yield 3.5.",
+      "studentMisunderstanding": "Student confuses discrete random variables (countable outcomes) with continuous (measurable range) – e.g., thinks a die roll can yield 3.5.",
+      "miniLesson": {
+        "explain": "Discrete random variables have countable outcomes, typically integers. For example, the number of heads when flipping a coin 5 times can only be 0,1,2,3,4,5. Continuous random variables can take any value in a range, including decimals and fractions. Height, time, and temperature are continuous because they are measured, not counted.",
+        "example": "Rolling a die: the outcome is 1,2,3,4,5,6 – discrete. The height of a student can be 150.3 cm – continuous.",
+        "memoryAnchor": "Discrete = Countable (like counting coins), Continuous = Measurable (like measuring water)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Classify the following random variable as discrete or continuous: The number of goals scored in a soccer match.",
+          "answer": "Discrete – goals are countable integers (0,1,2,...)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Explain why the sum when rolling two dice is a discrete random variable, not continuous.",
+          "answer": "The sum can only be an integer between 2 and 12; it cannot take values like 3.5 or 7.2. Since outcomes are countable and distinct, it is discrete."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student argues that the time to run a 100m race is discrete because it is measured in seconds (e.g., 9.58 s). Is this reasoning correct? Explain using the definition of discrete vs continuous.",
+          "answer": "No. Even though we often record time in seconds, time can take any real value (e.g., 9.583 s). It is measured on a continuous scale, not counted in whole units. Therefore, it is a continuous random variable."
+        }
+      ]
+    },
+    {
+      "errorId": "err-two-dice-sample-space",
+      "trigger": "Student selects incorrect count of outcomes or wrong probability for a sum (e.g., 21 outcomes instead of 36) in diagnostic question 3.",
+      "studentMisunderstanding": "Student thinks the sample space for two dice has 21 outcomes (because they treat the dice as indistinguishable or ignore order) or believes sums like 2 and 7 are equally likely. They fail to recognize that each die is distinct, yielding 36 ordered pairs, and that sums have different probabilities based on the number of combinations.",
+      "miniLesson": {
+        "explain": "When rolling two six-sided dice, each die is separate. The first die can show 1–6, and the second can also show 1–6. That gives 6 × 6 = 36 equally likely ordered pairs (e.g., (1,1), (1,2), ..., (6,6)). The sum of the dice is not equally likely: for example, sum 2 occurs only in (1,1), while sum 7 occurs in six pairs: (1,6), (2,5), (3,4), (4,3), (5,2), (6,1). Always use ordered pairs to count correctly.",
+        "example": "List all pairs for sum 3: (1,2) and (2,1) → 2 out of 36, probability = 2/36 = 1/18. Never just count sums without considering the two dice separately.",
+        "memoryAnchor": "Remember: '36 ways, not 21' – two distinct dice = 6×6 = 36 ordered outcomes. If you forget, picture a 6×6 grid: each cell is one outcome."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many ordered outcomes are there when rolling two dice? (Use the multiplication principle.)",
+          "answer": "6 × 6 = 36 outcomes."
+        },
+        {
+          "level": "L2",
+          "prompt": "What is the probability of rolling a sum of 5? Count the number of ordered pairs that sum to 5.",
+          "answer": "Pairs summing to 5: (1,4), (2,3), (3,2), (4,1) → 4 outcomes. Probability = 4/36 = 1/9."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the probability of sum 7 (6/36) is higher than sum 2 (1/36) using the sample space of 36 outcomes.",
+          "answer": "Sum 7 has six ordered pairs: (1,6),(2,5),(3,4),(4,3),(5,2),(6,1). Sum 2 has only one: (1,1). Since each pair is equally likely, 7 is six times more probable than 2."
+        }
+      ]
+    },
+    {
+      "errorId": "err-law-of-large-numbers-speed",
+      "trigger": "Student expects experimental probability to match theoretical after very few trials.",
+      "studentMisunderstanding": "The student believes that experimental probability converges quickly to theoretical probability, even with a small number of trials. They may expect exact match after only 10 or 20 rolls.",
+      "miniLesson": {
+        "explain": "The law of large numbers states that as the number of trials increases, the experimental probability tends to get closer to the theoretical probability. However, with very few trials, variability is high and the experimental probability can be far off. It takes many trials (often in the hundreds or thousands) for the experimental probability to stabilize near the theoretical value.",
+        "example": "In the two-dice sum simulation, after 10 rolls you might get a sum of 7 five times (experimental probability 0.5), while theoretical is about 0.167. After 1000 rolls, the experimental probability typically falls within 0.2 of the theoretical value. For sum 7, that would be between about 0.147 and 0.187.",
+        "memoryAnchor": "Think of it like flipping a coin: after 5 flips you could get 4 heads (80%), but after 1000 flips, you'll be close to 50%."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If you roll two dice 10 times and get sum 7 four times (40%), what does the law of large numbers predict as you increase to 1000 rolls?",
+          "answer": "The experimental probability will likely move closer to the theoretical probability of about 16.7%."
+        },
+        {
+          "level": "L2",
+          "prompt": "In a simulation of 1000 rolls, the experimental probability for sum 7 is 0.18. The theoretical probability is about 0.167. Is this a typical result? Explain.",
+          "answer": "Yes, it is typical. The deviation is 0.013, which is well within the typical range of 0.2 for 1000 trials."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student claims that after 20 rolls, the experimental probability for sum 7 is exactly 0.167. Is this likely? Why?",
+          "answer": "It is very unlikely. With only 20 rolls, the experimental probability can vary widely. Exact match at small numbers is rare due to high variability. The law of large numbers requires many trials to converge."
+        }
+      ]
+    },
+    {
+      "errorId": "err-simulation-code-misunderstanding",
+      "trigger": "When asked about simulation tasks, the student expresses anxiety about having to write code from scratch or does not engage with pre-written simulation code.",
+      "studentMisunderstanding": "The student believes they must write simulation code entirely from scratch, or they distrust AI-generated code and think they must avoid it, failing to recognize that the focus is on interpreting results.",
+      "miniLesson": {
+        "explain": "In this course, simulations are used to explore probability distributions. The simulation code is often provided (e.g., AI-generated or in the lesson). Your main task is to run the code, interpret the output (experimental probabilities, histograms), and compare with theoretical values. You do not need to write the code from scratch; understanding the logic helps you interpret results.",
+        "example": "For the two-dice sum simulation, you are given Python code that randomly generates 1000 rolls, calculates sums, and plots a histogram. You run it and see that with many trials, experimental probabilities approach theoretical (e.g., sum 7 frequency ~ 1/6). The code is provided; you focus on analyzing the output.",
+        "memoryAnchor": "Think of a simulation like a virtual experiment. The code is the 'lab equipment' – you don't build it from scratch; you use it to collect data and draw conclusions."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: In this class, you are expected to write every line of simulation code yourself.",
+          "answer": "False. Simulation code is often provided or AI-generated; you need to understand and interpret it, not write from scratch."
+        },
+        {
+          "level": "L2",
+          "prompt": "You are given an AI-generated Python script that simulates rolling two dice 1000 times. The script outputs a list of sums. How would you compute the experimental probability of getting a sum of 7 from that output, and what do you expect the result to be approximately?",
+          "answer": "Count the number of times 7 appears in the output list and divide by 1000. The result should be close to 1/6 (about 0.167), but may vary slightly (e.g., around 0.16-0.17). You use the provided code's output, not write the code."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate says they don't want to use the provided AI-generated code because they think it might be wrong. They want to write their own from scratch but run out of time. How would you explain to them the purpose of the provided code and why it's acceptable?",
+          "answer": "The provided AI-generated code is designed to correctly simulate dice rolls. It saves time, allowing us to focus on analyzing results. The lesson goal is to interpret simulation outcomes, not to learn programming. Trust that the code works—check small parts if unsure. Using it efficiently helps us complete the analysis within class time."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-prob-dist-sum-not-1",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A student creates a probability distribution for a spinner with three outcomes: red, blue, green. The probabilities are P(red)=0.3, P(blue)=0.4, P(green)=0.2. Which statement best describes this distribution?",
+          "options": [
+            "It is valid because all probabilities are between 0 and 1.",
+            "It is invalid because the sum is 0.9, not 1.",
+            "It is invalid because probabilities are not fractions.",
+            "It is valid because it covers all outcomes."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Consider the probability distribution for the sum of two dice: P(2)=1/36, P(3)=2/36, P(4)=3/36, P(5)=4/36, P(6)=5/36, P(7)=6/36, P(8)=5/36, P(9)=4/36, P(10)=3/36, P(11)=2/36, P(12)=1/36. A student mistakenly writes P(12)=0. What must be changed to make this a valid distribution? Explain.",
+          "rubric": "The student must state that P(12) should be 1/36 instead of 0 because the sum of probabilities must equal 1. Accept clear explanation that the sum is currently 35/36 and needs to be 36/36."
+        }
+      ],
+      "passRule": "Both questions correct"
+    },
+    {
+      "forErrorId": "err-expected-value-guarantee",
+      "questions": [
+        {
+          "id": "q1_single",
+          "type": "single_choice",
+          "stem": "A fair six-sided die has expected value 3.5. Which statement is correct?",
+          "options": [
+            "If you roll the die once, you are guaranteed to get 3.5.",
+            "The expected value is the most likely outcome on any single roll.",
+            "Over many rolls, the average will be close to 3.5, even though you never roll a 3.5.",
+            "3.5 is impossible because dice show whole numbers, so expected value is meaningless."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2_open",
+          "type": "open_ended",
+          "stem": "Consider a game where you roll two dice and win $10 if the sum is 7, $5 if sum is 6 or 8, and $0 otherwise. The expected value is $1.67. Your friend plays once and wins $10. Explain why this does not contradict the expected value.",
+          "rubric": "Student must state that expected value is a long-term average over many trials, not a prediction for a single game. A single outcome can vary, but over many games the average winnings will be close to $1.67."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the response must include the idea that expected value is a long-term average and does not guarantee a specific outcome in one trial."
+    },
+    {
+      "forErrorId": "err-continuous-vs-discrete",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is a continuous random variable?",
+          "options": [
+            "Number of goals scored in a hockey game",
+            "Sum of two dice rolls",
+            "Time taken to complete a marathon",
+            "Number of heads in 10 coin flips"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why the height of students in a class is a continuous random variable, using the concepts of 'countable' and 'measurable'.",
+          "rubric": "Student must state that height is measured on a continuous scale (can take any value within a range, including decimals) and is not countable as a set of distinct integer outcomes."
+        }
+      ],
+      "passRule": "all correct"
+    },
+    {
+      "forErrorId": "err-two-dice-sample-space",
+      "questions": [
+        {
+          "id": "retest-two-dice-1",
+          "type": "single_choice",
+          "stem": "A student claims there are 21 equally likely outcomes when rolling two dice because they consider (1,2) and (2,1) as the same. What is the correct number of equally likely outcomes?",
+          "options": [
+            "21",
+            "36",
+            "12",
+            "6"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-two-dice-2",
+          "type": "open_ended",
+          "stem": "List all ordered pairs that give a sum of 4 when rolling two dice. Then state the probability as a fraction.",
+          "rubric": "Lists (1,3), (2,2), (3,1) → 3 outcomes. Probability = 3/36 = 1/12."
+        },
+        {
+          "id": "retest-two-dice-3",
+          "type": "single_choice",
+          "stem": "Which sum has the highest probability when rolling two dice?",
+          "options": [
+            "2",
+            "7",
+            "12",
+            "All sums are equally likely"
+          ],
+          "correct": 1
+        }
+      ],
+      "passRule": "Must answer at least 2 of 3 questions correctly."
+    },
+    {
+      "forErrorId": "err-law-of-large-numbers-speed",
+      "questions": [
+        {
+          "id": "q1-law-large-numbers",
+          "type": "single_choice",
+          "stem": "Which statement best describes the law of large numbers in the context of rolling two dice?",
+          "options": [
+            "Experimental probability matches theoretical probability exactly after a few trials.",
+            "Experimental probability gets closer to theoretical probability as the number of trials increases, but may never match exactly.",
+            "Experimental probability is always exactly the same as theoretical probability regardless of the number of trials.",
+            "Experimental probability converges to the theoretical probability only with many trials, and more trials generally give a better approximation."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "q2-law-large-numbers",
+          "type": "open_ended",
+          "stem": "After only 10 rolls of two dice, the experimental probability of rolling a sum of 7 is 30% (3 out of 10), even though the theoretical probability is about 16.7%. Explain why this discrepancy is not surprising, and describe what the law of large numbers predicts for the experimental probability if the experiment is repeated 1000 times.",
+          "rubric": "Full credit (2 points): Student explains that with few trials, variability is high, so large deviations from theoretical probability are common. They state that the law of large numbers predicts that as the number of trials increases, the experimental probability will tend to get closer to the theoretical probability, so after 1000 rolls it should be close to 16.7% (within a few percent). Partial credit (1 point): Student mentions either the high variability with few trials or the convergence with many trials, but not both. No credit (0 points): Student thinks 10 rolls should give 16.7% or does not mention convergence or variability."
+        }
+      ],
+      "passRule": "Answer Q1 correctly and score at least 1 out of 2 on Q2 rubric."
+    },
+    {
+      "forErrorId": "err-simulation-code-misunderstanding",
+      "questions": [
+        {
+          "id": "sim_code_q1",
+          "type": "single_choice",
+          "stem": "A student is given an AI-generated Python script that simulates 1000 rolls of two dice and plots a histogram. They are asked to compare experimental and theoretical probabilities. Which statement best describes their task?",
+          "options": [
+            "They must rewrite the entire simulation code from scratch to verify it's correct.",
+            "They should run the code, examine the histogram and output, compare with theoretical probabilities, and provide conclusions.",
+            "They should ignore the provided code and manually calculate probabilities using combinatorics.",
+            "They should modify the code to change the number of dice to 3 before analyzing."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "sim_code_q2",
+          "type": "open_ended",
+          "stem": "You are given an AI-generated simulation of 5000 rolls of two dice. The output shows that the sum 7 occurred 822 times. Calculate the experimental probability of sum 7 from this simulation. What does the law of large numbers suggest about this value compared to the theoretical probability? Should you be concerned if the value is not exactly 1/6? Explain in 2-3 sentences.",
+          "rubric": "Student calculates 822/5000 = 0.1644 (or 0.1644, 0.164, 0.16) [1 point]. They state that experimental probability should be close to theoretical (1/6 ≈ 0.1667) and that variation is expected; law of large numbers says it will get closer with more trials, so not concerned [1 point]. Full credit: both parts correct."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass: MCQ selects correct option (B) and open-ended response correctly calculates experimental probability and explains law of large numbers concept."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-20",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/SpYrdeRc6ofZbpxgn7JcMBpInoh?from=vc_group_doc_link#doxcnAGzR1vVfWkqe5ViCL49l4d",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-20 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "A discrete random variable assigns a unique, fixed integer value to every possible outcome; it cannot take fractional values between these integer outcomes.；A continuous random variable can take any numerical value within a range, including decimals and fractions.；A probability distribution for a discrete sample space can be represented by a table, formula, or discrete point plot; not a continuous line graph.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Classify random variables as discrete or continuous based on whether outcomes are countable or measurable."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Verify that a discrete probability distribution sums to 1 and each probability is between 0 and 1."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Determine probabilities for two-dice sum outcomes using the correct sample space of 36 equally likely outcomes."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Explain the law of large numbers: experimental probability approaches theoretical probability as trials increase."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Calculate expected value for a discrete distribution and interpret it as a long-run average, not a guaranteed outcome."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete 5-question discrete probability distribution class activity",
+        "studentAction": "Complete the 5-question class activity on discrete probability distribution validity rules and probability calculations.",
+        "deadlineText": "Before next class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students are required to complete the 5-question discrete probability distribution class activity",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Run two-dice Python simulation and perform comparative analysis",
+        "studentAction": "Run the two-dice simulation script locally, compare experimental results from 10, 100, and 1000 runs against theoretical probabilities and expected value.",
+        "deadlineText": "Next class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Next class session will guide students to independently run simulation scripts and complete hands-on comparative analysis",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Pre-recorded video lectures available for all units",
+        "studentAction": "Access pre-recorded video lectures for reference on all units.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "unspecified internal platform",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Pre-recorded video lectures for all units are available for student reference",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Mid-session break scheduled",
+        "studentAction": "Take a 10-minute break; complete practice exercises and rest.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A 10-minute mid-session break was scheduled during the session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Course structure adjustment to 4 units",
+        "studentAction": "Be aware that the course now has 4 units; Unit 4 renamed to Unit 2; non-relevant content unpublished.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The course will be adjusted to 4 total units to align with Ontario provincial curriculum requirements",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "AI tool usage permitted for simulation scripts",
+        "studentAction": "Use general AI platforms to generate, debug, and adjust simulation scripts, but ensure understanding of core logic.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students can use general AI platforms to generate, debug and adjust simulation scripts",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Simulation and comparative analysis tasks have higher grading weight",
+        "studentAction": "Recognize that simulation tasks carry higher grading weight than standard class activities.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Simulation and comparative analysis tasks carry a higher grading weight than standard class activities",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Next class session focus: guide students to independently run simulation scripts",
+        "reason": "No specific date for 'next class session'; deadline ambiguous."
+      },
+      {
+        "rawText": "Pre-recorded video lectures for all units are available",
+        "reason": "No platform or link provided for accessing these lectures."
+      },
+      {
+        "rawText": "Students to run two-dice Python simulation script on local devices",
+        "reason": "Unclear if script is provided or must be generated; no source link."
+      }
+    ],
+    "watchTags": [
+      "MDM4U-A-OE01",
+      "MDM4U-B-OE01"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-continuous-vs-discrete",
+        "condition": "Student selects option indicating confusion between discrete and continuous (e.g., thinking die roll can be 3.5)",
+        "systemAction": "Assign reteach module for err-continuous-vs-discrete"
+      },
+      {
+        "errorId": "err-prob-dist-sum-not-1",
+        "condition": "Student selects an option where total probability is not 1 or says sum can be >1",
+        "systemAction": "Assign reteach module for err-prob-dist-sum-not-1"
+      },
+      {
+        "errorId": "err-two-dice-sample-space",
+        "condition": "Student selects incorrect count of outcomes or wrong probability for a sum",
+        "systemAction": "Assign reteach module for err-two-dice-sample-space"
+      },
+      {
+        "errorId": "err-law-of-large-numbers-speed",
+        "condition": "Student expects experimental probability to match theoretical after very few trials",
+        "systemAction": "Assign reteach module for err-law-of-large-numbers-speed"
+      },
+      {
+        "errorId": "err-expected-value-guarantee",
+        "condition": "Student thinks expected value is the most common or a guaranteed outcome",
+        "systemAction": "Assign reteach module for err-expected-value-guarantee"
+      },
+      {
+        "errorId": "err-simulation-code-misunderstanding",
+        "condition": "Student thinks they must write simulation code from scratch or misunderstands AI-generated code",
+        "systemAction": "Assign reteach module for err-simulation-code-misunderstanding"
+      }
+    ],
+    "nextActions": [
+      "[err-continuous-vs-discrete] Student selects option indicating confusion between discrete and continuous (e.g., thinking die roll can be 3.5): Let's clarify the difference between discrete and continuous random variables.",
+      "[err-prob-dist-sum-not-1] Student selects an option where total probability is not 1 or says sum can be >1: Remember: in any probability distribution, the sum of all probabilities must equal exactly 1.",
+      "[err-two-dice-sample-space] Student selects incorrect count of outcomes or wrong probability for a sum: Check your sample space: two dice have 36 equally likely outcomes.",
+      "[err-law-of-large-numbers-speed] Student expects experimental probability to match theoretical after very few trials: The law of large numbers requires many trials for convergence.",
+      "[err-expected-value-guarantee] Student thinks expected value is the most common or a guaranteed outcome: Expected value is a long-run average, not a specific result in any single trial.",
+      "[err-simulation-code-misunderstanding] Student thinks they must write simulation code from scratch or misunderstands AI-generated code: Simulation code can be AI-generated; you need to focus on interpreting the results."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-0720-q1",
+        "type": "choice",
+        "question": "Which of the following is an example of a discrete random variable?",
+        "options": [
+          "The height of a randomly selected student",
+          "The number of heads when flipping a coin 5 times",
+          "The time taken to run a 100m race",
+          "The temperature in Toronto on a given day"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can differentiate between countable (discrete) and measurable (continuous) outcomes.",
+        "misconceptions": [
+          "Height is measured on a continuous scale; it is a continuous random variable.",
+          "✓ Correct! The number of heads is a countable integer from 0 to 5, making it a discrete random variable.",
+          "Time is measured on a continuous scale; it is a continuous random variable.",
+          "Temperature is measured on a continuous scale; it is a continuous random variable."
+        ],
+        "nodeId": "MDM4U-A-OE01",
+        "errorId": "err-continuous-vs-discrete",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies a discrete random variable (countable integer outcomes).",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "OE A1 covers discrete sample spaces; SE A1.2 specifically distinguishes discrete vs continuous.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking discrete means 'any integer' without the requirement of countability or that continuous variables cannot take integer values.",
+        "remediationModule": "err-continuous-vs-discrete",
+        "retestItem": "err-continuous-vs-discrete"
+      },
+      {
+        "id": "diag-mdm4u-0720-q2",
+        "type": "choice",
+        "question": "In a discrete probability distribution, the sum of the probabilities of all possible outcomes must be:",
+        "options": [
+          "Between 0 and 1 (but not necessarily 1)",
+          "Exactly 1",
+          "Equal to the number of outcomes",
+          "Less than 1 if the distribution is discrete"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows the fundamental property of probability distributions summing to 1.",
+        "misconceptions": [
+          "While each probability is between 0 and 1, their total must sum to exactly 1.",
+          "✓ Correct! The sum of all probabilities in a probability distribution must equal 1.",
+          "The sum of probabilities is always 1, regardless of the number of outcomes.",
+          "The total probability is always 1, whether the distribution is discrete or continuous."
+        ],
+        "nodeId": "MDM4U-B-OE01",
+        "errorId": "err-prob-dist-sum-not-1",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that total probability equals 1.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "B1 explicitly covers discrete probability distributions and their properties.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "commonMisconception": "Thinking probabilities can add to less than 1 or more than 1, or confusing with other properties.",
+        "remediationModule": "err-prob-dist-sum-not-1",
+        "retestItem": "err-prob-dist-sum-not-1"
+      },
+      {
+        "id": "diag-mdm4u-0720-q3",
+        "type": "choice",
+        "question": "When rolling two fair six-sided dice and recording the sum, how many distinct outcomes (ordered pairs) are in the sample space?",
+        "options": [
+          "11",
+          "21",
+          "36",
+          "72"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student correctly counts the sample space for two dice.",
+        "misconceptions": [
+          "11 is the number of possible sums (2 to 12), not the number of ordered outcomes.",
+          "21 would be the number of unordered outcomes if dice were identical; but dice are distinct, giving 36 ordered pairs.",
+          "✓ Correct! 6 faces on first die x 6 faces on second die = 36 equally likely ordered pairs.",
+          "Double counting; there are only 36 distinct pairs."
+        ],
+        "nodeId": "MDM4U-A-OE01",
+        "errorId": "err-two-dice-sample-space",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies 36 outcomes.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "A1 covers sample spaces and probabilities, directly applicable to summing two dice.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "commonMisconception": "Thinking the sample space has 21 outcomes because order doesn't matter, or thinking sums are equally likely.",
+        "remediationModule": "err-two-dice-sample-space",
+        "retestItem": "err-two-dice-sample-space"
+      },
+      {
+        "id": "diag-mdm4u-0720-q4",
+        "type": "choice",
+        "question": "A student rolls two dice 10 times and finds that the sum of 7 occurs 4 times, giving an experimental probability of 0.4. The theoretical probability is about 0.167. Which statement below best describes what should happen if the student increases the number of rolls to 1000?",
+        "options": [
+          "The experimental probability will stay at 0.4 because the initial pattern is set.",
+          "The experimental probability will become exactly 0.167 after exactly 1000 rolls.",
+          "The experimental probability will likely be closer to 0.167 than it was at 10 rolls.",
+          "The experimental probability will be exactly half of the theoretical probability."
+        ],
+        "correct": 2,
+        "diagnosis": "Check understanding of the law of large numbers: experimental probability converges to theoretical as sample size grows.",
+        "misconceptions": [
+          "Experimental probability fluctuates initially but stabilizes close to theoretical value with many trials.",
+          "Experimental probability approaches theoretical but rarely matches exactly, even with many trials.",
+          "✓ Correct! According to the law of large numbers, the experimental probability tends to get closer to the theoretical probability as the number of trials increases.",
+          "No guarantee; the law of large numbers says it approaches, not a specific fraction."
+        ],
+        "nodeId": "MDM4U-A-OE01",
+        "errorId": "err-law-of-large-numbers-speed",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recognizes that experimental probability gets closer to theoretical with many trials.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "SE A1.4 specifically addresses the law of large numbers.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Thinking that after a small number of trials the experimental probability will already be very close to theoretical, or that it never converges.",
+        "remediationModule": "err-law-of-large-numbers-speed",
+        "retestItem": "err-law-of-large-numbers-speed"
+      },
+      {
+        "id": "diag-mdm4u-0720-q5",
+        "type": "choice",
+        "question": "The expected value of the sum when rolling two dice is 7. Which interpretation is most accurate?",
+        "options": [
+          "If you roll the dice once, you are guaranteed to get a 7.",
+          "Over many rolls, the average sum will be close to 7.",
+          "The most common sum when rolling two dice is 7, so expected value equals mode.",
+          "The expected value is 7 because it is the middle number between 2 and 12."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that expected value is a long-run average, not a possible outcome.",
+        "misconceptions": [
+          "Expected value is not a guarantee for a single trial; it is an average over many trials.",
+          "✓ Correct! The expected value is the long-run average. If you roll the dice thousands of times, the mean sum will be approximately 7.",
+          "While 7 is the most probable sum, expected value is defined as the weighted average, not the mode.",
+          "Expected value is not simply the midpoint; it is calculated from probabilities."
+        ],
+        "nodeId": "MDM4U-B-OE01",
+        "errorId": "err-expected-value-guarantee",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student correctly interprets expected value as long-run average, not a guarantee.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "B1 explicitly includes determining expected values.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking that the expected value must be a possible outcome (e.g., you can roll a 7, but expected value is 7; but for a single die, 3.5 is not a face).",
+        "remediationModule": "err-expected-value-guarantee",
+        "retestItem": "err-expected-value-guarantee"
+      },
+      {
+        "id": "diag-mdm4u-0720-q6",
+        "type": "choice",
+        "question": "In class, you will use simulation to compare experimental and theoretical probabilities for the two-dice sum. Which of the following best describes the role of AI-generated code in that simulation?",
+        "options": [
+          "You must write the simulation code yourself from scratch.",
+          "AI-generated code is provided; you focus on running it and interpreting the results.",
+          "AI-generated code is not reliable for simulation, so you should avoid it.",
+          "The simulation code will be given, but you don't need to understand its logic."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that they can use provided code rather than writing from scratch.",
+        "misconceptions": [
+          "The lesson provides pre-recorded videos and AI-generated code to help; writing from scratch is not required.",
+          "✓ Correct! The simulation code will be provided (AI-generated). You need to understand how it works and interpret the output.",
+          "AI-generated code can be reliable and is used as a learning tool in this lesson.",
+          "Understanding the logic helps interpret results; you should try to understand the code."
+        ],
+        "nodeId": "MDM4U-A-OE01",
+        "errorId": "err-simulation-code-misunderstanding",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recognizes that AI can generate simulation code, and the focus is on interpreting results, not writing code from scratch.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Simulation is a problem-solving strategy within A1.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Thinking that they must write code themselves or that AI-generated code is irrelevant.",
+        "remediationModule": "err-simulation-code-misunderstanding",
+        "retestItem": "err-simulation-code-misunderstanding"
+      }
+    ]
+  }
+}
