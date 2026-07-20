@@ -1,0 +1,1439 @@
+{
+  "sourceLesson": "CIA4U.S6.Bianca 2026-07-17",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/GMefd2ncVoRt4ex0E2scjcyenIf?from=vc_group_doc_link#doxcnBharLldLnFEYsEYNSK854d",
+  "sourceTitle": "CIA4U.S6.Bianca 2026-07-17 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/GMefd2ncVoRt4ex0E2scjcyenIf?from=vc_group_doc_link#doxcnBharLldLnFEYsEYNSK854d",
+    "title": "CIA4U.S6.Bianca 2026-07-17 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-20/sources/cia4u-s6-bianca-2026-07-17/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "CIA4U",
+  "lessonDate": "2026-07-17",
+  "teacher": "Bianca",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-17",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson combines instruction on market structure core content, in-class group discussion, and test logistics for Unit 1, with clear academic learning objectives.",
+    "academicContentSignals": [
+      "Market structure types: perfect competition, monopolistic competition, oligopoly, monopoly",
+      "Features: entry barriers, product type, pricing control, common examples (agriculture, stock market, shoe retail, restaurants, banking, supermarkets, oil, water, power, transit)",
+      "Competitive market cycle: new product innovation → short-term abnormal profits → new entrants → increased supply → long-term normal profits",
+      "Monopoly tradeoffs: R&D incentives and economies of scale vs consumer exploitation, limited choice, inefficiency",
+      "Group discussion conclusions: perfect competition benefits consumers with low prices and choice; more firms drive lower prices and higher quality",
+      "Unit 1 test review content: foundational concepts (economy, recession, inflation, government intervention, limited resources, stakeholders), political economy frameworks (social democratic, free market, national unity, centralized), unemployment types (cyclical, structural, frictional, seasonal)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Medium - many operational items (test date, homework, camera rules, attendance policy) could overshadow academic content; diagnostic questions must prioritize market structure concepts.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Test on Sunday",
+        "studentAction": "Attend the 2-hour test with camera on; test not graded if camera off.",
+        "deadlineText": "Sunday (July 18 Canada time)",
+        "deadlineISO": "2026-07-18T00:00:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Test timeline: Scheduled for Sunday (student local time, corresponding to July 18 Canada time), with a 2-hour in-class duration, mandatory continuous camera access required",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_requirement",
+        "title": "Camera Must Be On During Test",
+        "studentAction": "Keep camera on for entire test; otherwise test not graded.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "students with cameras off will not have their tests graded",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Homework: Market Structure Definitions and Comparison",
+        "studentAction": "Define perfect competition, monopoly, oligopoly; compare advantages/disadvantages of two selected market structures.",
+        "deadlineText": "unspecified (likely before next class)",
+        "deadlineISO": null,
+        "platform": "designated course platform",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Complete assigned exercises: Define perfect competition, monopoly, and oligopoly, then compare and contrast the unique advantages and disadvantages of any two selected market structures.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Camera Must Be On During Class",
+        "studentAction": "Keep camera on for full class duration; otherwise removed from meeting and marked absent.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students are required to keep cameras on for the full duration of class sessions, or they will be removed from the meeting and marked absent.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Group Discussion Participation Required for Attendance",
+        "studentAction": "Participate in group discussions; check-in without contribution leads to absence mark.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Group discussion participation counts toward official attendance, so students who check in at the start of class but do not contribute to discussions will be marked absent.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "follow_up_action",
+        "title": "Contact Instructor for Test Questions",
+        "studentAction": "Email instructor over weekend regarding test content or preparation.",
+        "deadlineText": "over weekend",
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Students may contact the instructor via email over the weekend if they have any questions related to test content or preparation requirements.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "material_needed",
+        "title": "Supplementary Educational Videos on Market Structure",
+        "studentAction": "Review 3 curated videos to reinforce understanding.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "unknown",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "low",
+        "sourceEvidence": "Supplementary learning resources: 3 curated educational videos are shared",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-008",
+        "category": "review_focus",
+        "title": "Unit 1 Test Review Topics",
+        "studentAction": "Review foundational concepts (economy, recession, inflation, etc.), political economy models, and unemployment types.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Required Review Content: Foundational concept mastery... Political economy frameworks... Unemployment classification",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "designated course platform",
+        "reason": "Platform name not specified"
+      },
+      {
+        "rawText": "Sunday (student local time, corresponding to July 18 Canada time)",
+        "reason": "Date ambiguity: student local time may differ from Canada time; exact date for test unclear"
+      },
+      {
+        "rawText": "3 curated educational videos are shared",
+        "reason": "No direct link or platform provided for videos"
+      }
+    ]
+  },
+  "title": "CIA4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Market Structure、Perfect Competition、Monopolistic Competition、Oligopoly）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 8 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Market structure classification framework includes perfect competition, monopolistic competition, oligopoly, and monopoly.；Perfect competition: free entry and exit, homogeneous products, many buyers and sellers, no pricing control. Examples: agricultural goods, stock markets, shoe retail.；Monopolistic (imperfect) competition: slightly differentiated products, low entry barriers, partial pricing control. Examples: local restaurants, plumbers, legal services.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify and distinguish the four main market structures based on their defining characteristics: number of firms, entry barriers, product differentiation, and pricing control."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Explain the competitive market cycle and how innovation leads to short-term abnormal profits that normalize as new firms enter."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Evaluate the tradeoffs of monopoly markets, including potential benefits and drawbacks for consumers and society."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "market-structure-overview",
+      "name": "Market Structure",
+      "nameEn": "Market Structure",
+      "definition": "The classification of markets based on characteristics such as number of firms, entry barriers, product differentiation, and pricing control.",
+      "officialExpectationCode": "CC1.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders."
+    },
+    {
+      "id": "perfect-competition",
+      "name": "Perfect Competition",
+      "nameEn": "Perfect Competition",
+      "definition": "A market structure with free entry and exit, homogeneous products, many independent buyers and sellers, and no individual pricing control.",
+      "officialExpectationCode": "CC1.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders."
+    },
+    {
+      "id": "monopolistic-competition",
+      "name": "Monopolistic Competition",
+      "nameEn": "Monopolistic Competition",
+      "definition": "A market structure with slightly differentiated products, low entry barriers, and partial pricing control for individual firms.",
+      "officialExpectationCode": "CC1.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders."
+    },
+    {
+      "id": "oligopoly",
+      "name": "Oligopoly",
+      "nameEn": "Oligopoly",
+      "definition": "A market structure dominated by a small number of large firms with high entry barriers, often measured by concentration ratios.",
+      "officialExpectationCode": "CC1.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders."
+    },
+    {
+      "id": "monopoly",
+      "name": "Monopoly",
+      "nameEn": "Monopoly",
+      "definition": "A market structure with a single dominant firm, near-total pricing control, and extremely high entry barriers; natural monopolies arise in industries with high fixed costs.",
+      "officialExpectationCode": "CC1.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders."
+    },
+    {
+      "id": "competitive-market-cycle",
+      "name": "Competitive Market Cycle",
+      "nameEn": "Competitive Market Cycle",
+      "definition": "The process where product innovations generate short-term abnormal profits, attracting new entrants, increasing supply, and driving prices down to normal profit levels.",
+      "officialExpectationCode": "CC1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Analyse how new technology has affected markets and consumers."
+    },
+    {
+      "id": "monopoly-tradeoffs",
+      "name": "Monopoly Tradeoffs",
+      "nameEn": "Monopoly Tradeoffs",
+      "definition": "The balance between benefits (R&D incentives, economies of scale) and drawbacks (consumer exploitation, limited choice, potential inefficiency) of monopoly markets.",
+      "officialExpectationCode": "CC1.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders."
+    },
+    {
+      "id": "concentration-ratio",
+      "name": "Concentration Ratio",
+      "nameEn": "Concentration Ratio",
+      "definition": "A measure of the market share held by the largest firms in an industry, used to identify oligopoly.",
+      "officialExpectationCode": "CC1.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and distinguish the four main market structures based on their defining characteristics: number of firms, entry barriers, product differentiation, and pricing control."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain the competitive market cycle and how innovation leads to short-term abnormal profits that normalize as new firms enter."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Evaluate the tradeoffs of monopoly markets, including potential benefits and drawbacks for consumers and society."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-perfect-competition-product-differentiation",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-perfect-competition-product-differentiation",
+        "studentMessage": "完美竞争市场中所有产品必须是同质的，不能通过差异化来获取市场力量。让我们重新回顾这个特征。"
+      },
+      {
+        "errorId": "err-monopolistic-competition-monopoly",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-monopolistic-competition-monopoly",
+        "studentMessage": "垄断竞争和垄断是不同的。垄断竞争有许多企业且进入门槛低，而垄断只有一个企业且门槛极高。"
+      },
+      {
+        "errorId": "err-oligopoly-entry-barriers",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-oligopoly-entry-barriers",
+        "studentMessage": "寡头垄断市场有很高的进入壁垒（如规模经济、品牌忠诚度），新企业很难进入。"
+      },
+      {
+        "errorId": "err-monopoly-efficiency",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-monopoly-efficiency",
+        "studentMessage": "虽然垄断可能有规模经济，但缺乏竞争可能导致低效率（如高价格、低产量），并不总是高效的。"
+      },
+      {
+        "errorId": "err-competitive-cycle-profit",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-competitive-cycle-profit",
+        "studentMessage": "在竞争市场中，创新带来的超额利润是短期的，因为新企业的进入会增加供给，最终将价格拉回正常利润水平。"
+      }
+    ],
+    "questions": [
+      {
+        "id": "cia4u-mkt-q1",
+        "nodeId": "perfect-competition",
+        "errorId": "err-perfect-competition-product-differentiation",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that products are homogeneous in perfect competition and avoids claiming firms can differentiate.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No exact OE node for market structure details; aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of product homogeneity in perfect competition.",
+        "commonMisconception": "Students may think perfect competition allows product differentiation to gain market power.",
+        "remediationModule": "err-perfect-competition-product-differentiation",
+        "retestItem": "err-perfect-competition-product-differentiation",
+        "stem": "Which of the following is a key characteristic of a perfectly competitive market?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Firms produce homogeneous (identical) products.",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "Firms differentiate their products to attract customers.",
+            "correct": false,
+            "feedbackWrong": "Perfect competition requires homogeneous products; differentiation is a feature of monopolistic competition."
+          },
+          {
+            "label": "C",
+            "text": "There are high barriers to entry.",
+            "correct": false,
+            "feedbackWrong": "Perfect competition has free entry and exit, not high barriers."
+          },
+          {
+            "label": "D",
+            "text": "Only one firm controls the market.",
+            "correct": false,
+            "feedbackWrong": "That describes a monopoly, not perfect competition."
+          }
+        ]
+      },
+      {
+        "id": "cia4u-mkt-q2",
+        "nodeId": "monopolistic-competition",
+        "errorId": "err-monopolistic-competition-monopoly",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student distinguishes monopolistic competition from monopoly based on number of firms and entry barriers.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check student can differentiate monopolistic competition from monopoly by recognizing the number of firms and entry barriers.",
+        "commonMisconception": "Students think monopolistic competition is similar to monopoly because firms have some price control.",
+        "remediationModule": "err-monopolistic-competition-monopoly",
+        "retestItem": "err-monopolistic-competition-monopoly",
+        "stem": "A student argues that monopolistic competition is essentially the same as a monopoly because both give firms some control over price. Which response best corrects this misunderstanding?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Monopolistic competition has many competing firms with low entry barriers, while a monopoly has only one firm with extremely high entry barriers.",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "Both have many firms, but monopolistic competition has differentiated products.",
+            "correct": false,
+            "feedbackWrong": "Monopoly does not have many firms; it has one dominant firm."
+          },
+          {
+            "label": "C",
+            "text": "Monopolistic competition has high entry barriers, just like a monopoly.",
+            "correct": false,
+            "feedbackWrong": "Monopolistic competition has low entry barriers; high barriers are a feature of oligopoly and monopoly."
+          },
+          {
+            "label": "D",
+            "text": "In monopolistic competition, firms are price takers; in monopoly, they are price makers.",
+            "correct": false,
+            "feedbackWrong": "In monopolistic competition, firms are price makers (partial control) due to differentiation, not price takers."
+          }
+        ]
+      },
+      {
+        "id": "cia4u-mkt-q3",
+        "nodeId": "oligopoly",
+        "errorId": "err-oligopoly-entry-barriers",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that oligopoly has high entry barriers.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check recall of entry barriers in oligopoly.",
+        "commonMisconception": "Students may think oligopoly has low entry barriers because there are multiple firms.",
+        "remediationModule": "err-oligopoly-entry-barriers",
+        "retestItem": "err-oligopoly-entry-barriers",
+        "stem": "In an oligopoly market, new firms typically face:",
+        "options": [
+          {
+            "label": "A",
+            "text": "Very low entry barriers, as in perfect competition.",
+            "correct": false,
+            "feedbackWrong": "Oligopoly has high entry barriers (e.g., economies of scale, brand loyalty, patents)."
+          },
+          {
+            "label": "B",
+            "text": "High entry barriers, making it difficult for new firms to enter.",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "No entry barriers at all.",
+            "correct": false,
+            "feedbackWrong": "Oligopoly has significant entry barriers."
+          },
+          {
+            "label": "D",
+            "text": "Low entry barriers, as in monopolistic competition.",
+            "correct": false,
+            "feedbackWrong": "Monopolistic competition has low barriers; oligopoly has high barriers."
+          }
+        ]
+      },
+      {
+        "id": "cia4u-mkt-q4",
+        "nodeId": "monopoly-tradeoffs",
+        "errorId": "err-monopoly-efficiency",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies a potential drawback of monopoly related to efficiency.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check understanding of monopoly inefficiency as a tradeoff.",
+        "commonMisconception": "Students assume monopoly is always efficient because of economies of scale.",
+        "remediationModule": "err-monopoly-efficiency",
+        "retestItem": "err-monopoly-efficiency",
+        "stem": "Which of the following is a potential drawback of a monopoly market structure?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Lack of competition can lead to higher prices and less output than in a competitive market.",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "Firms have strong incentives to innovate because of high profits.",
+            "correct": false,
+            "feedbackWrong": "This is a potential benefit (R&D incentives), not a drawback."
+          },
+          {
+            "label": "C",
+            "text": "Consumers have a wide variety of product choices.",
+            "correct": false,
+            "feedbackWrong": "Monopoly typically limits product choice."
+          },
+          {
+            "label": "D",
+            "text": "Monopolies always produce at the lowest possible cost.",
+            "correct": false,
+            "feedbackWrong": "Monopolies may not minimize costs due to lack of competitive pressure."
+          }
+        ]
+      },
+      {
+        "id": "cia4u-mkt-q5",
+        "nodeId": "competitive-market-cycle",
+        "errorId": "err-competitive-cycle-profit",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student explains that abnormal profits attract new entrants, driving down prices and profits to normal levels.",
+        "ossdExpectation": "Analyse how new technology has affected markets and consumers.",
+        "officialExpectationCode": "CC1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.3 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check understanding of the competitive market cycle and profit normalization.",
+        "commonMisconception": "Students think abnormal profits persist indefinitely; they overlook the role of new entrants.",
+        "remediationModule": "err-competitive-cycle-profit",
+        "retestItem": "err-competitive-cycle-profit",
+        "stem": "A firm introduces a highly innovative product in a competitive market. Initially, it earns large abnormal profits. According to the competitive market cycle, what is likely to happen to these profits over time?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The profits will remain abnormally high because the innovation protects the firm from competition.",
+            "correct": false,
+            "feedbackWrong": "In a competitive market, the innovation creates short-term abnormal profits, but new entrants will eventually increase supply and erode these profits."
+          },
+          {
+            "label": "B",
+            "text": "The profits will be driven down to normal as new firms enter the market, increasing supply and lowering prices.",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "The profits will increase because demand for the product will keep rising.",
+            "correct": false,
+            "feedbackWrong": "Without barriers, increased supply from new entrants will reduce prices, not increase profits."
+          },
+          {
+            "label": "D",
+            "text": "The profits will become zero immediately because competitors copy the innovation.",
+            "correct": false,
+            "feedbackWrong": "Profits decrease gradually as new firms enter, not immediately."
+          }
+        ]
+      },
+      {
+        "id": "cia4u-mkt-q6",
+        "nodeId": "monopoly",
+        "errorId": "err-monopoly-efficiency",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student provides one clear advantage and one clear disadvantage of monopoly from a consumer perspective.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "justify",
+        "stemIntent": "Check deep understanding of monopoly tradeoffs by requiring evaluation from consumer perspective.",
+        "commonMisconception": "Students may only list benefits (e.g., economies of scale) without acknowledging drawbacks like higher prices or limited choice.",
+        "remediationModule": "err-monopoly-efficiency",
+        "retestItem": "err-monopoly-efficiency",
+        "stem": "From the perspective of consumers, explain one advantage and one disadvantage of a monopoly market structure.",
+        "rubric": "A strong response includes: (Advantage) Monopolies can achieve economies of scale, potentially lowering costs and prices for consumers; or they may invest heavily in R&D, leading to new products. (Disadvantage) Without competition, monopolies may charge higher prices, reduce output, provide poor service, or limit consumer choice. Both points must be clearly stated.",
+        "sampleStrongAnswer": "An advantage is that a natural monopoly, like a local water utility, can provide essential services at lower cost due to economies of scale. A disadvantage is that monopolies often charge higher prices and offer less choice than competitive markets, harming consumers."
+      },
+      {
+        "id": "cia4u-mkt-q7",
+        "nodeId": "monopolistic-competition",
+        "errorId": "err-monopolistic-competition-monopoly",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly classifies a real-world example (local restaurant) as monopolistic competition.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to apply market structure classification to a common example, reinforcing differentiation and low barriers.",
+        "commonMisconception": "Students may confuse local restaurants with monopoly or perfect competition.",
+        "remediationModule": "err-monopolistic-competition-monopoly",
+        "retestItem": "err-monopolistic-competition-monopoly",
+        "stem": "A local restaurant offers a unique menu and atmosphere, but many other restaurants are nearby and it is easy for new ones to open. Which market structure best describes this restaurant's market?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Perfect competition",
+            "correct": false,
+            "feedbackWrong": "Restaurants offer differentiated products (menu, atmosphere), so they are not perfectly competitive."
+          },
+          {
+            "label": "B",
+            "text": "Monopolistic competition",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "Oligopoly",
+            "correct": false,
+            "feedbackWrong": "Oligopoly is dominated by a few large firms; local restaurants are many and small."
+          },
+          {
+            "label": "D",
+            "text": "Monopoly",
+            "correct": false,
+            "feedbackWrong": "There are many other restaurants, so it is not a monopoly."
+          }
+        ]
+      },
+      {
+        "id": "cia4u-mkt-q8",
+        "nodeId": "competitive-market-cycle",
+        "errorId": "err-competitive-cycle-profit",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student explains the sequence: innovation → abnormal profits → new entrants → increased supply → normal profits.",
+        "ossdExpectation": "Analyse how new technology has affected markets and consumers.",
+        "officialExpectationCode": "CC1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.3 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check deeper understanding of the competitive market cycle and ability to articulate the process.",
+        "commonMisconception": "Students may think abnormal profits are permanent or that the firm can maintain them without barriers.",
+        "remediationModule": "err-competitive-cycle-profit",
+        "retestItem": "err-competitive-cycle-profit",
+        "stem": "Explain how the competitive market cycle ensures that abnormal profits from an innovation are only temporary. Include the role of new entrants and price changes in your answer.",
+        "rubric": "Full credit requires: (1) Innovation creates short-term abnormal profits due to first-mover advantage. (2) High profits attract new firms to enter the market. (3) Entry increases market supply, which drives down the market price. (4) As price falls, profits decrease back to normal (zero economic profit) in the long run.",
+        "sampleStrongAnswer": "When a firm introduces an innovation, it initially earns abnormal profits because it has a temporary monopoly. These high profits signal other entrepreneurs to enter the market. As new firms enter, the total supply of the product increases, which pushes the price down. Eventually, the price falls to the point where firms only earn normal profits (zero economic profit). Thus, abnormal profits are eroded by competition."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-perfect-competition-product-differentiation",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for errorId: err-perfect-competition-product-differentiation",
+      "studentMessage": "完美竞争市场中所有产品必须是同质的，不能通过差异化来获取市场力量。让我们重新回顾这个特征。"
+    },
+    {
+      "errorId": "err-monopolistic-competition-monopoly",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for errorId: err-monopolistic-competition-monopoly",
+      "studentMessage": "垄断竞争和垄断是不同的。垄断竞争有许多企业且进入门槛低，而垄断只有一个企业且门槛极高。"
+    },
+    {
+      "errorId": "err-oligopoly-entry-barriers",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for errorId: err-oligopoly-entry-barriers",
+      "studentMessage": "寡头垄断市场有很高的进入壁垒（如规模经济、品牌忠诚度），新企业很难进入。"
+    },
+    {
+      "errorId": "err-monopoly-efficiency",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for errorId: err-monopoly-efficiency",
+      "studentMessage": "虽然垄断可能有规模经济，但缺乏竞争可能导致低效率（如高价格、低产量），并不总是高效的。"
+    },
+    {
+      "errorId": "err-competitive-cycle-profit",
+      "condition": "student picks wrong option on any question targeting this errorId",
+      "systemAction": "assign reteach module for errorId: err-competitive-cycle-profit",
+      "studentMessage": "在竞争市场中，创新带来的超额利润是短期的，因为新企业的进入会增加供给，最终将价格拉回正常利润水平。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-monopolistic-competition-monopoly",
+      "trigger": "Student selects an answer that incorrectly claims monopolistic competition is the same as monopoly because both have price control.",
+      "studentMisunderstanding": "Students often confuse monopolistic competition with monopoly, believing that because firms in monopolistic competition have some pricing power, the market structure is similar to a monopoly. They overlook key differences: monopolistic competition has many firms with low entry barriers, while monopoly has a single firm with extremely high entry barriers.",
+      "miniLesson": {
+        "explain": "Monopolistic competition and monopoly are distinct market structures. In monopolistic competition, there are many firms offering slightly differentiated products, with low barriers to entry and partial pricing control. In contrast, a monopoly is dominated by a single firm with near-total pricing control and extremely high entry barriers. For example, local restaurants operate in monopolistic competition—many restaurants, each with a unique menu, and new ones can open easily. A local water utility is a natural monopoly—only one provider due to high infrastructure costs.",
+        "example": "Compare a local restaurant (monopolistic competition) with a local water utility (monopoly). The restaurant has many competitors and can enter freely; the water utility is the sole provider with high barriers to entry.",
+        "memoryAnchor": "Think 'Many restaurants, one water company' to remember: many firms = monopolistic competition; one firm = monopoly."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which market structure has many firms with low entry barriers and differentiated products?",
+          "answer": "Monopolistic competition."
+        },
+        {
+          "level": "L2",
+          "prompt": "Explain why a local restaurant is an example of monopolistic competition, not a monopoly.",
+          "answer": "A local restaurant operates in monopolistic competition because there are many other restaurants nearby (many firms), it is easy for new restaurants to open (low entry barriers), and each restaurant offers a slightly different menu and atmosphere (product differentiation). It is not a monopoly because there is not a single provider."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student claims that 'monopolistic competition' and 'monopoly' are essentially the same because both allow firms to set prices. Use characteristics from the market structure framework to correct this misunderstanding.",
+          "answer": "The student is incorrect because the two structures differ fundamentally. Monopolistic competition has many firms, low entry barriers, and only partial pricing control due to product differentiation. Monopoly has a single firm, extremely high entry barriers, and near-total pricing control. For example, the restaurant industry (monopolistic competition) is highly competitive with many players, while a local water utility (monopoly) faces no competition. The name 'monopolistic' refers to the differentiated product giving some market power, not a monopoly structure."
+        }
+      ]
+    },
+    {
+      "errorId": "err-perfect-competition-product-differentiation",
+      "trigger": "混淆完美竞争与产品差异化",
+      "studentMisunderstanding": "学生错误地认为在完美竞争市场中，企业可以通过产品差异化来获得市场力量，而实际上完美竞争要求所有产品都是同质的。",
+      "miniLesson": {
+        "explain": "完美竞争市场要求所有产品是同质的（identical），即消费者无法区分不同企业的产品。任何形式的产品差异化都会使市场变成垄断竞争或寡头垄断，而不是完美竞争。例如：在农产品市场上，所有小麦都是相同的，农民无法通过品牌或包装来获取更高价格。",
+        "example": "以农产品（如玉米、大豆）为例：无论哪个农民种植的玉米，在消费者眼中都是完全相同的，因此价格由市场供求决定，单个农民无法提价。",
+        "memoryAnchor": "记住：完美竞争 = 商品（commodity），所有产品一模一样，就像超市里的散装大米，没有品牌区别。"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "以下哪个是完美竞争市场的例子？ A) 本地餐馆 B) 农产品市场 C) 银行业 D) 自来水公司",
+          "answer": "B) 农产品市场（如粮食、棉花）符合完美竞争特征：产品同质、买卖双方众多、无进入壁垒。"
+        },
+        {
+          "level": "L2",
+          "prompt": "一位学生认为完美竞争企业可以通过广告宣传产品独特功能来增加销量。这种说法正确吗？请解释。",
+          "answer": "不正确。完美竞争的产品是同质的，没有独特功能可言。消费者不会因为广告而支付更高价格，因此广告是无效的；企业只能是价格接受者。"
+        },
+        {
+          "level": "L3",
+          "prompt": "比较产品差异化在完美竞争和垄断竞争中的不同作用，并各举一例说明。",
+          "answer": "在完美竞争中，无差异化导致企业无定价权（价格接受者），如农产品市场。在垄断竞争中，差异化赋予企业部分定价权，如本地餐馆因独特菜单和氛围可略高定价。"
+        }
+      ]
+    },
+    {
+      "errorId": "err-oligopoly-entry-barriers",
+      "trigger": "寡头垄断市场有很高的进入壁垒（如规模经济、品牌忠诚度），新企业很难进入。",
+      "studentMisunderstanding": "Students think new firms can easily enter an oligopoly market.",
+      "miniLesson": {
+        "explain": "寡头垄断市场由少数几家大企业主导，存在很高的进入壁垒。这些壁垒包括规模经济（大企业成本更低）、品牌忠诚度（消费者信任已有品牌）、巨额资本需求、专利或技术壁垒等。新企业很难进入并与现有巨头竞争。",
+        "example": "银行业、超市行业和全球石油行业都是寡头垄断的例子。比如银行业，新银行需要大量资本、监管批准和客户信任，这些都使得进入非常困难。",
+        "memoryAnchor": "‘少数巨头，进入困难’：寡头市场只有几个大玩家，因为新企业很难挤进去。"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "寡头垄断市场的进入壁垒是（高 / 低）？",
+          "answer": "高"
+        },
+        {
+          "level": "L2",
+          "prompt": "举一个寡头垄断市场的例子（来自课堂内容），并说明为什么新企业很难进入该市场。",
+          "answer": "例子：银行业。新银行需要大量资金、政府批准和客户信任，这些高进入壁垒使得市场被少数大银行主导。"
+        },
+        {
+          "level": "L3",
+          "prompt": "解释为什么规模经济是寡头垄断市场的一个重要进入壁垒。",
+          "answer": "现有的大企业通过大规模生产降低了平均成本，新企业由于产量小，单位成本高，无法在价格上竞争，从而难以进入市场。"
+        }
+      ]
+    },
+    {
+      "errorId": "err-monopoly-efficiency",
+      "trigger": "Student selected incorrect option on a question assessing monopoly efficiency, indicating a belief that monopoly is always efficient.",
+      "studentMisunderstanding": "Assuming monopoly is always efficient due to economies of scale; students may ignore potential inefficiency from lack of competition.",
+      "miniLesson": {
+        "explain": "While monopolies can benefit from economies of scale and have incentives for R&D, they also face potential inefficiencies because there is no competitive pressure. Without competitors, a monopoly may charge higher prices, produce less output, and reduce product choice for consumers. In contrast, competitive markets drive efficiency through rivalry. Natural monopolies, like local water utilities, may be efficient due to scale, but even they must be regulated to protect consumers.",
+        "example": "Consider a natural monopoly like a local water utility. It can provide water at low cost due to economies of scale. However, without regulation, it could raise prices and reduce service quality because consumers have no alternative. This shows the tradeoff: scale benefit vs. inefficiency from lack of competition.",
+        "memoryAnchor": "Monopoly: Scale's great, but without competition, prices inflate."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is one potential drawback of a monopoly market structure?",
+          "answer": "Higher prices and lower output compared to a competitive market."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student says: 'Monopolies are always good because they achieve economies of scale.' Use the concept of monopoly tradeoffs to respond.",
+          "answer": "While economies of scale are a benefit, monopolies can also lead to higher prices and less innovation due to lack of competition, so they are not always good for consumers."
+        },
+        {
+          "level": "L3",
+          "prompt": "Evaluate whether the benefits of a natural monopoly (e.g., local water utility) outweigh its drawbacks. Provide one argument for and one against.",
+          "answer": "Benefits: economies of scale can lower average costs, and single provider avoids duplication. Drawbacks: without regulation, the monopoly may charge high prices and provide poor service. The outcome depends on effective regulation to balance efficiency and consumer protection."
+        }
+      ]
+    },
+    {
+      "errorId": "err-competitive-cycle-profit",
+      "trigger": "Student selects an option that suggests abnormal profits can persist indefinitely in a competitive market, or fails to recognize that new entrants drive down prices and profits.",
+      "studentMisunderstanding": "Students incorrectly believe that innovation creates permanent abnormal profits because they overlook how easy entry in competitive markets allows new firms to increase supply, reducing prices and eroding profits back to normal levels.",
+      "miniLesson": {
+        "explain": "In competitive markets (perfect competition or monopolistic competition), a firm that innovates may earn short-term abnormal profits because it has a temporary edge. However, these high profits attract new competitors who enter the market, increasing the total supply. With more supply, the market price falls, reducing each firm's profit margin. Eventually, profits return to normal (zero economic profit) as the market reaches long-run equilibrium. This cycle ensures that abnormal profits are only temporary in the absence of barriers to entry.",
+        "example": "A coffee shop introduces a new brewing method that becomes very popular, earning high profits. Seeing this success, other coffee shops quickly adopt similar methods or open new stores. The increased supply of specialty coffee drives down the price, and eventually the original shop's profits fall back to normal.",
+        "memoryAnchor": "Short-term gains attract new players / Long-run normal profits for all."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What happens to short-term abnormal profits in a competitive market when new firms enter?",
+          "answer": "New firms enter, increasing supply, which lowers the price and reduces profits back to normal."
+        },
+        {
+          "level": "L2",
+          "prompt": "A tech company develops a new app with no patent protection and earns large profits. Explain the sequence of events that will likely occur in the competitive market for similar apps.",
+          "answer": "The large profits attract new app developers to enter the market. As more apps become available, the supply of similar apps increases, pushing down the price. The original company's profits decline from abnormal to normal as competition intensifies."
+        },
+        {
+          "level": "L3",
+          "prompt": "Evaluate the statement: 'In a perfectly competitive market, a firm can sustain long-term abnormal profits by continuously innovating.' Do you agree? Use the competitive market cycle to justify your answer.",
+          "answer": "Disagree. Even with continuous innovation, each innovation only provides temporary abnormal profits because competitors quickly imitate or innovate themselves. The cycle repeats: innovation → abnormal profits → entry → price drop → normal profits. Thus, long-term abnormal profits cannot be sustained; firms only earn normal profits in the long run."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-monopolistic-competition-monopoly",
+      "questions": [
+        {
+          "id": "q1-monopolistic-vs-monopoly",
+          "type": "single_choice",
+          "stem": "A city has over 50 independent coffee shops, each with a unique blend and atmosphere. New coffee shops can open with minimal regulatory hurdles, and existing shops have some ability to set their own prices. Which market structure best describes this scenario?",
+          "options": [
+            "Perfect competition",
+            "Monopolistic competition",
+            "Oligopoly",
+            "Monopoly"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-explain-difference",
+          "type": "open_ended",
+          "stem": "Explain the key difference between monopolistic competition and monopoly. Provide one example of each that was not used in the lesson (i.e., not restaurants or water utilities).",
+          "rubric": "Student must state: monopolistic competition has many firms, low entry barriers, and partial pricing control (product differentiation); monopoly has one firm, high entry barriers, and near-total pricing control. Example: monopolistic competition: hair salons, clothing boutiques; monopoly: local cable company, patented drug. Accept any reasonable examples."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For open-ended, rubric criteria must be met."
+    },
+    {
+      "forErrorId": "err-perfect-competition-product-differentiation",
+      "questions": [
+        {
+          "id": "retest-unique-001",
+          "type": "single_choice",
+          "stem": "Which of the following is a key feature of perfect competition that directly relates to product differentiation?",
+          "options": [
+            "Firms use branding to set prices above marginal cost.",
+            "All firms sell identical (homogeneous) products.",
+            "Each firm produces a slightly different version of the product.",
+            "Firms can earn long-run abnormal profits through innovation."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-unique-002",
+          "type": "open_ended",
+          "stem": "Explain why product differentiation is incompatible with perfect competition. In your answer, refer to the concepts of pricing control and entry barriers.",
+          "rubric": "Student must state that perfect competition requires homogeneous products (no differentiation). They should explain that differentiation gives firms some pricing power and can create brand loyalty which acts as an entry barrier, contradicting the perfect competition conditions of zero pricing control and free entry. Accept any clear reasoning that links differentiation to pricing power and/or barriers."
+        }
+      ],
+      "passRule": "For the single-choice question, select the correct answer (index 1). For the open-ended question, the response must clearly explain that product differentiation would give firms pricing power or create entry barriers, violating perfect competition assumptions. Partial credit: if they only state that products must be identical but do not link to pricing or barriers, consider it incomplete. Both questions must be answered correctly to pass."
+    },
+    {
+      "forErrorId": "err-oligopoly-entry-barriers",
+      "questions": [
+        {
+          "id": "retest-oligopoly-entry-barriers-q1",
+          "type": "single_choice",
+          "stem": "Which of the following is a key characteristic of oligopoly markets?",
+          "options": [
+            "Free entry and exit",
+            "Many small firms",
+            "High barriers to entry",
+            "Homogeneous products only"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-oligopoly-entry-barriers-q2",
+          "type": "open_ended",
+          "stem": "Explain why new firms find it difficult to enter an oligopoly market. Provide one specific barrier and an example from the lesson (e.g., banking, supermarkets, or global oil industry).",
+          "rubric": "Student must identify a specific entry barrier (e.g., economies of scale, brand loyalty, high capital requirements, patents, regulations) and provide a relevant example. Accept any correct barrier and example mentioned in the lesson."
+        }
+      ],
+      "passRule": "Student must answer the single-choice question correctly (option C) and provide a satisfactory open-ended response that includes a valid entry barrier and an example from the lesson."
+    },
+    {
+      "forErrorId": "err-monopoly-efficiency",
+      "questions": [
+        {
+          "id": "retest-mono-eff-single",
+          "type": "single_choice",
+          "stem": "Which statement best describes the efficiency of a monopoly market structure?",
+          "options": [
+            "Monopolies are always efficient because they achieve economies of scale.",
+            "Monopolies may be inefficient because lack of competition can lead to higher prices and lower output, though economies of scale can sometimes reduce costs.",
+            "Monopolies are never efficient because they always produce less than a competitive market.",
+            "Monopolies are efficient only if they are unregulated."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-mono-eff-open",
+          "type": "open_ended",
+          "stem": "A classmate argues: 'Monopolies are always efficient because they can produce at a lower average cost due to economies of scale.' Explain one reason why a monopoly might still be inefficient, and provide a real-world example to support your explanation.",
+          "rubric": "Student correctly identifies a source of inefficiency (e.g., higher prices, reduced output, lack of innovation, consumer exploitation) and provides a relevant example (e.g., local water utility charging high rates, pharmaceutical monopoly limiting access, etc.). The explanation must connect the lack of competition to the inefficiency, not simply restate economies of scale."
+        }
+      ],
+      "passRule": "Must select correct answer (index 1) on the single_choice question AND provide a response on the open-ended question that identifies a valid inefficiency with a supporting example as per rubric."
+    },
+    {
+      "forErrorId": "err-competitive-cycle-profit",
+      "questions": [
+        {
+          "id": "retest-competitive-cycle-q1",
+          "type": "single_choice",
+          "stem": "A small electronics firm introduces a new wearable device that becomes highly popular, earning large short-term profits. In a market with low entry barriers, what is the most likely long-term outcome?",
+          "options": [
+            "The firm will maintain high profits because the device is innovative.",
+            "Competitors will enter with similar devices, increasing supply and driving down prices, reducing profits to normal.",
+            "The firm will quickly become a regulated monopoly due to its innovation.",
+            "Profits will remain unchanged because consumers are brand loyal."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-competitive-cycle-q2",
+          "type": "open_ended",
+          "stem": "Explain how the competitive market cycle ensures that abnormal profits are temporary in a market with free entry and exit. Provide one real-world example not mentioned in class (e.g., not coffee shops or smartphones).",
+          "rubric": "Student must describe: (1) innovation leads to short-term abnormal profits, (2) attracts new entrants, (3) increases supply, (4) lowers price/erodes profits back to normal. Example should be plausible and different from lesson examples (e.g., food trucks with a new cuisine, fitness apps, etc.)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For open-ended, response must address at least three of the four key steps and provide a valid example."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-17",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/GMefd2ncVoRt4ex0E2scjcyenIf?from=vc_group_doc_link#doxcnBharLldLnFEYsEYNSK854d",
+    "sourceTitle": "CIA4U.S6.Bianca 2026-07-17 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Market structure classification framework includes perfect competition, monopolistic competition, oligopoly, and monopoly.；Perfect competition: free entry and exit, homogeneous products, many buyers and sellers, no pricing control. Examples: agricultural goods, stock markets, shoe retail.；Monopolistic (imperfect) competition: slightly differentiated products, low entry barriers, partial pricing control. Examples: local restaurants, plumbers, legal services.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and distinguish the four main market structures based on their defining characteristics: number of firms, entry barriers, product differentiation, and pricing control."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain the competitive market cycle and how innovation leads to short-term abnormal profits that normalize as new firms enter."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Evaluate the tradeoffs of monopoly markets, including potential benefits and drawbacks for consumers and society."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Test on Sunday",
+        "studentAction": "Attend the 2-hour test with camera on; test not graded if camera off.",
+        "deadlineText": "Sunday (July 18 Canada time)",
+        "deadlineISO": "2026-07-18T00:00:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Test timeline: Scheduled for Sunday (student local time, corresponding to July 18 Canada time), with a 2-hour in-class duration, mandatory continuous camera access required",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_requirement",
+        "title": "Camera Must Be On During Test",
+        "studentAction": "Keep camera on for entire test; otherwise test not graded.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "students with cameras off will not have their tests graded",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Homework: Market Structure Definitions and Comparison",
+        "studentAction": "Define perfect competition, monopoly, oligopoly; compare advantages/disadvantages of two selected market structures.",
+        "deadlineText": "unspecified (likely before next class)",
+        "deadlineISO": null,
+        "platform": "designated course platform",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Complete assigned exercises: Define perfect competition, monopoly, and oligopoly, then compare and contrast the unique advantages and disadvantages of any two selected market structures.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Camera Must Be On During Class",
+        "studentAction": "Keep camera on for full class duration; otherwise removed from meeting and marked absent.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students are required to keep cameras on for the full duration of class sessions, or they will be removed from the meeting and marked absent.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Group Discussion Participation Required for Attendance",
+        "studentAction": "Participate in group discussions; check-in without contribution leads to absence mark.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Group discussion participation counts toward official attendance, so students who check in at the start of class but do not contribute to discussions will be marked absent.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "follow_up_action",
+        "title": "Contact Instructor for Test Questions",
+        "studentAction": "Email instructor over weekend regarding test content or preparation.",
+        "deadlineText": "over weekend",
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Students may contact the instructor via email over the weekend if they have any questions related to test content or preparation requirements.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "material_needed",
+        "title": "Supplementary Educational Videos on Market Structure",
+        "studentAction": "Review 3 curated videos to reinforce understanding.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "unknown",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "low",
+        "sourceEvidence": "Supplementary learning resources: 3 curated educational videos are shared",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-008",
+        "category": "review_focus",
+        "title": "Unit 1 Test Review Topics",
+        "studentAction": "Review foundational concepts (economy, recession, inflation, etc.), political economy models, and unemployment types.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Required Review Content: Foundational concept mastery... Political economy frameworks... Unemployment classification",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "designated course platform",
+        "reason": "Platform name not specified"
+      },
+      {
+        "rawText": "Sunday (student local time, corresponding to July 18 Canada time)",
+        "reason": "Date ambiguity: student local time may differ from Canada time; exact date for test unclear"
+      },
+      {
+        "rawText": "3 curated educational videos are shared",
+        "reason": "No direct link or platform provided for videos"
+      }
+    ],
+    "watchTags": [
+      "market-structure-overview",
+      "perfect-competition",
+      "monopolistic-competition",
+      "oligopoly",
+      "monopoly",
+      "competitive-market-cycle",
+      "monopoly-tradeoffs",
+      "concentration-ratio"
+    ],
+    "totalQuestions": 8,
+    "completed": false,
+    "passScore": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-perfect-competition-product-differentiation",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-perfect-competition-product-differentiation"
+      },
+      {
+        "errorId": "err-monopolistic-competition-monopoly",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-monopolistic-competition-monopoly"
+      },
+      {
+        "errorId": "err-oligopoly-entry-barriers",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-oligopoly-entry-barriers"
+      },
+      {
+        "errorId": "err-monopoly-efficiency",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-monopoly-efficiency"
+      },
+      {
+        "errorId": "err-competitive-cycle-profit",
+        "condition": "student picks wrong option on any question targeting this errorId",
+        "systemAction": "assign reteach module for errorId: err-competitive-cycle-profit"
+      }
+    ],
+    "nextActions": [
+      "[err-perfect-competition-product-differentiation] student picks wrong option on any question targeting this errorId: 完美竞争市场中所有产品必须是同质的，不能通过差异化来获取市场力量。让我们重新回顾这个特征。",
+      "[err-monopolistic-competition-monopoly] student picks wrong option on any question targeting this errorId: 垄断竞争和垄断是不同的。垄断竞争有许多企业且进入门槛低，而垄断只有一个企业且门槛极高。",
+      "[err-oligopoly-entry-barriers] student picks wrong option on any question targeting this errorId: 寡头垄断市场有很高的进入壁垒（如规模经济、品牌忠诚度），新企业很难进入。",
+      "[err-monopoly-efficiency] student picks wrong option on any question targeting this errorId: 虽然垄断可能有规模经济，但缺乏竞争可能导致低效率（如高价格、低产量），并不总是高效的。",
+      "[err-competitive-cycle-profit] student picks wrong option on any question targeting this errorId: 在竞争市场中，创新带来的超额利润是短期的，因为新企业的进入会增加供给，最终将价格拉回正常利润水平。"
+    ],
+    "cards": [
+      {
+        "id": "cia4u-mkt-q1",
+        "type": "choice",
+        "question": "Which of the following is a key characteristic of a perfectly competitive market?",
+        "options": [
+          "Firms produce homogeneous (identical) products.",
+          "Firms differentiate their products to attract customers.",
+          "There are high barriers to entry.",
+          "Only one firm controls the market."
+        ],
+        "correct": 0,
+        "diagnosis": "Check understanding of product homogeneity in perfect competition.",
+        "misconceptions": [
+          "✓ 正确",
+          "Perfect competition requires homogeneous products; differentiation is a feature of monopolistic competition.",
+          "Perfect competition has free entry and exit, not high barriers.",
+          "That describes a monopoly, not perfect competition."
+        ],
+        "nodeId": "perfect-competition",
+        "errorId": "err-perfect-competition-product-differentiation",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that products are homogeneous in perfect competition and avoids claiming firms can differentiate.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No exact OE node for market structure details; aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think perfect competition allows product differentiation to gain market power.",
+        "remediationModule": "err-perfect-competition-product-differentiation",
+        "retestItem": "err-perfect-competition-product-differentiation"
+      },
+      {
+        "id": "cia4u-mkt-q2",
+        "type": "choice",
+        "question": "A student argues that monopolistic competition is essentially the same as a monopoly because both give firms some control over price. Which response best corrects this misunderstanding?",
+        "options": [
+          "Monopolistic competition has many competing firms with low entry barriers, while a monopoly has only one firm with extremely high entry barriers.",
+          "Both have many firms, but monopolistic competition has differentiated products.",
+          "Monopolistic competition has high entry barriers, just like a monopoly.",
+          "In monopolistic competition, firms are price takers; in monopoly, they are price makers."
+        ],
+        "correct": 0,
+        "diagnosis": "Check student can differentiate monopolistic competition from monopoly by recognizing the number of firms and entry barriers.",
+        "misconceptions": [
+          "✓ 正确",
+          "Monopoly does not have many firms; it has one dominant firm.",
+          "Monopolistic competition has low entry barriers; high barriers are a feature of oligopoly and monopoly.",
+          "In monopolistic competition, firms are price makers (partial control) due to differentiation, not price takers."
+        ],
+        "nodeId": "monopolistic-competition",
+        "errorId": "err-monopolistic-competition-monopoly",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student distinguishes monopolistic competition from monopoly based on number of firms and entry barriers.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students think monopolistic competition is similar to monopoly because firms have some price control.",
+        "remediationModule": "err-monopolistic-competition-monopoly",
+        "retestItem": "err-monopolistic-competition-monopoly"
+      },
+      {
+        "id": "cia4u-mkt-q3",
+        "type": "choice",
+        "question": "In an oligopoly market, new firms typically face:",
+        "options": [
+          "Very low entry barriers, as in perfect competition.",
+          "High entry barriers, making it difficult for new firms to enter.",
+          "No entry barriers at all.",
+          "Low entry barriers, as in monopolistic competition."
+        ],
+        "correct": 1,
+        "diagnosis": "Check recall of entry barriers in oligopoly.",
+        "misconceptions": [
+          "Oligopoly has high entry barriers (e.g., economies of scale, brand loyalty, patents).",
+          "✓ 正确",
+          "Oligopoly has significant entry barriers.",
+          "Monopolistic competition has low barriers; oligopoly has high barriers."
+        ],
+        "nodeId": "oligopoly",
+        "errorId": "err-oligopoly-entry-barriers",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that oligopoly has high entry barriers.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think oligopoly has low entry barriers because there are multiple firms.",
+        "remediationModule": "err-oligopoly-entry-barriers",
+        "retestItem": "err-oligopoly-entry-barriers"
+      },
+      {
+        "id": "cia4u-mkt-q4",
+        "type": "choice",
+        "question": "Which of the following is a potential drawback of a monopoly market structure?",
+        "options": [
+          "Lack of competition can lead to higher prices and less output than in a competitive market.",
+          "Firms have strong incentives to innovate because of high profits.",
+          "Consumers have a wide variety of product choices.",
+          "Monopolies always produce at the lowest possible cost."
+        ],
+        "correct": 0,
+        "diagnosis": "Check understanding of monopoly inefficiency as a tradeoff.",
+        "misconceptions": [
+          "✓ 正确",
+          "This is a potential benefit (R&D incentives), not a drawback.",
+          "Monopoly typically limits product choice.",
+          "Monopolies may not minimize costs due to lack of competitive pressure."
+        ],
+        "nodeId": "monopoly-tradeoffs",
+        "errorId": "err-monopoly-efficiency",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies a potential drawback of monopoly related to efficiency.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Students assume monopoly is always efficient because of economies of scale.",
+        "remediationModule": "err-monopoly-efficiency",
+        "retestItem": "err-monopoly-efficiency"
+      },
+      {
+        "id": "cia4u-mkt-q5",
+        "type": "choice",
+        "question": "A firm introduces a highly innovative product in a competitive market. Initially, it earns large abnormal profits. According to the competitive market cycle, what is likely to happen to these profits over time?",
+        "options": [
+          "The profits will remain abnormally high because the innovation protects the firm from competition.",
+          "The profits will be driven down to normal as new firms enter the market, increasing supply and lowering prices.",
+          "The profits will increase because demand for the product will keep rising.",
+          "The profits will become zero immediately because competitors copy the innovation."
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of the competitive market cycle and profit normalization.",
+        "misconceptions": [
+          "In a competitive market, the innovation creates short-term abnormal profits, but new entrants will eventually increase supply and erode these profits.",
+          "✓ 正确",
+          "Without barriers, increased supply from new entrants will reduce prices, not increase profits.",
+          "Profits decrease gradually as new firms enter, not immediately."
+        ],
+        "nodeId": "competitive-market-cycle",
+        "errorId": "err-competitive-cycle-profit",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student explains that abnormal profits attract new entrants, driving down prices and profits to normal levels.",
+        "ossdExpectation": "Analyse how new technology has affected markets and consumers.",
+        "officialExpectationCode": "CC1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.3 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students think abnormal profits persist indefinitely; they overlook the role of new entrants.",
+        "remediationModule": "err-competitive-cycle-profit",
+        "retestItem": "err-competitive-cycle-profit"
+      },
+      {
+        "id": "cia4u-mkt-q6",
+        "type": "explain",
+        "question": "From the perspective of consumers, explain one advantage and one disadvantage of a monopoly market structure.",
+        "correct": null,
+        "diagnosis": "Check deep understanding of monopoly tradeoffs by requiring evaluation from consumer perspective.",
+        "nodeId": "monopoly",
+        "errorId": "err-monopoly-efficiency",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student provides one clear advantage and one clear disadvantage of monopoly from a consumer perspective.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "justify",
+        "commonMisconception": "Students may only list benefits (e.g., economies of scale) without acknowledging drawbacks like higher prices or limited choice.",
+        "remediationModule": "err-monopoly-efficiency",
+        "retestItem": "err-monopoly-efficiency"
+      },
+      {
+        "id": "cia4u-mkt-q7",
+        "type": "choice",
+        "question": "A local restaurant offers a unique menu and atmosphere, but many other restaurants are nearby and it is easy for new ones to open. Which market structure best describes this restaurant's market?",
+        "options": [
+          "Perfect competition",
+          "Monopolistic competition",
+          "Oligopoly",
+          "Monopoly"
+        ],
+        "correct": 1,
+        "diagnosis": "Check ability to apply market structure classification to a common example, reinforcing differentiation and low barriers.",
+        "misconceptions": [
+          "Restaurants offer differentiated products (menu, atmosphere), so they are not perfectly competitive.",
+          "✓ 正确",
+          "Oligopoly is dominated by a few large firms; local restaurants are many and small.",
+          "There are many other restaurants, so it is not a monopoly."
+        ],
+        "nodeId": "monopolistic-competition",
+        "errorId": "err-monopolistic-competition-monopoly",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly classifies a real-world example (local restaurant) as monopolistic competition.",
+        "ossdExpectation": "Describe various types of market structures and assess their advantages and disadvantages for different stakeholders.",
+        "officialExpectationCode": "CC1.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.2 as per fact bank node.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may confuse local restaurants with monopoly or perfect competition.",
+        "remediationModule": "err-monopolistic-competition-monopoly",
+        "retestItem": "err-monopolistic-competition-monopoly"
+      },
+      {
+        "id": "cia4u-mkt-q8",
+        "type": "explain",
+        "question": "Explain how the competitive market cycle ensures that abnormal profits from an innovation are only temporary. Include the role of new entrants and price changes in your answer.",
+        "correct": null,
+        "diagnosis": "Check deeper understanding of the competitive market cycle and ability to articulate the process.",
+        "nodeId": "competitive-market-cycle",
+        "errorId": "err-competitive-cycle-profit",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student explains the sequence: innovation → abnormal profits → new entrants → increased supply → normal profits.",
+        "ossdExpectation": "Analyse how new technology has affected markets and consumers.",
+        "officialExpectationCode": "CC1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Aligned to SE CC1.3 as per fact bank node.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students may think abnormal profits are permanent or that the firm can maintain them without barriers.",
+        "remediationModule": "err-competitive-cycle-profit",
+        "retestItem": "err-competitive-cycle-profit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,781 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-17",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/EN5GdmdPAohFLmxIrwPcU212nVe?from=vc_group_doc_link#doxcnkQQITVy8uYvsAeukTEC6Gc",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-17 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/EN5GdmdPAohFLmxIrwPcU212nVe?from=vc_group_doc_link#doxcnkQQITVy8uYvsAeukTEC6Gc",
+    "title": "OLC4O.S6.Keth 2026-07-17 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-20/sources/olc4o-s6-keth-2026-07-17-en5gdmdp/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-17",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-17",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson primarily taught the prediction reading skill including its three influencing factors and phased approach, with additional operational information about an upcoming exam and assignments.",
+    "academicContentSignals": [
+      "Prediction reading skill definition",
+      "Three factors influencing prediction: cultural background, past experience, text clues",
+      "Phased prediction method: before reading, during reading, after reading",
+      "Exam scope: Unit 1 topics including news reports, charts, informational texts, reading skills"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations include exam rules and assignment deadlines but are clearly secondary to the academic instruction on prediction. The diagnostic exit card should focus on prediction skill mastery, not on camera rules or submission platforms. One lightweight ops check (e.g., exam requirement) could be included but not more.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_requirement",
+        "title": "Camera requirement for exam",
+        "studentAction": "Keep camera on during the exam",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "考试全程必须开启摄像头，未按要求执行将直接被判定为作弊",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "review_focus",
+        "title": "Exam scope: Unit 1 topics",
+        "studentAction": "Review all learned topics from Unit 1",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "考察范围：覆盖第一单元全部已学知识点",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "No translator or AI for assignments",
+        "studentAction": "Complete assignments independently without translator or AI",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "禁止直接使用翻译器或 AI 生成内容",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Complete prediction worksheets and watch video",
+        "studentAction": "Complete Making Predictions Worksheet and Anticipation Guide; watch 'Let Them Nothing Else' and fill in prediction phases",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "需完成《Making Predictions Worksheet》《Anticipation Guide》两份练习材料；需观看指定短篇影片《Let Them Nothing Else》；图片标注提交至Schoology",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Graphic creation assignment (7% of grade)",
+        "studentAction": "Create a graphic text (compare chart, map, flow chart, etc., no timeline) with reflection of at least 500 words, submit to OneNote",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "本次图文创作大作业为计分作业，占课程总分的7%",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "Attendance recording",
+        "studentAction": "Attend classes and inform in advance if absent",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "每周官方反馈将同步记录所有学员出勤情况",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Exam date not mentioned in notes",
+        "reason": "Only exam scope mentioned, no date"
+      },
+      {
+        "rawText": "Deadline for prediction worksheets not specified",
+        "reason": "Only instruction to complete, no deadline"
+      },
+      {
+        "rawText": "Deadline for graphic assignment not specified",
+        "reason": "Only that it is a graded assignment, no due date"
+      },
+      {
+        "rawText": "Link to video 'Let Them Nothing Else' not provided",
+        "reason": "Not mentioned in notes"
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（预测阅读策略）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "预测是一种阅读策略，在阅读前、阅读中和阅读后使用，以预判文本内容。；预测的三大影响要素：文化背景、过往经验、文本线索。；文化背景包括社群的规则、传统和信仰体系，影响预测方向。",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can identify that a prediction must be based on textual clues, prior experience, or cultural background, not on random guessing."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can explain the difference between making a prediction and writing a summary."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can analyze how cultural background influences the plausibility of a prediction."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "OLC4O-reading-prediction",
+      "name": "预测阅读策略",
+      "nameEn": "Prediction Reading Strategy",
+      "definition": "预测是指在阅读前、阅读中和阅读后，利用文化背景、过往经验和文本线索预判文本内容走向的阅读技巧。",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify that a prediction must be based on textual clues, prior experience, or cultural background, not on random guessing."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can explain the difference between making a prediction and writing a summary."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can analyze how cultural background influences the plausibility of a prediction."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-prediction-guessing-without-evidence",
+        "condition": "Student picks option A, C, or D on Q1 (the single-choice question targeting this errorId).",
+        "systemAction": "Assign reteach module for err-prediction-guessing-without-evidence.",
+        "studentMessage": "You seem to think predicting is just guessing. Let's review how to use text clues, experience, and culture to make strong predictions."
+      },
+      {
+        "errorId": "err-prediction-confusing-with-summary",
+        "condition": "Student's open-ended response on Q2 does not clearly distinguish prediction (future, based on clues) from summary (past, main points).",
+        "systemAction": "Assign reteach module for err-prediction-confusing-with-summary.",
+        "studentMessage": "It looks like you might be mixing up predicting and summarizing. Let's practice telling them apart."
+      },
+      {
+        "errorId": "err-prediction-ignoring-cultural-background",
+        "condition": "Student picks option B, C, or D on Q3 (the single-choice question targeting this errorId).",
+        "systemAction": "Assign reteach module for err-prediction-ignoring-cultural-background.",
+        "studentMessage": "You may have overlooked how culture affects predictions. Let's work on considering cultural background when you predict."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-prediction-q1",
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-prediction-guessing-without-evidence",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the option that identifies the prediction as based on a text clue, distinguishing it from a guess without evidence.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses use of prediction as a reading strategy to understand text, aligning with A3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if the student recognizes that a valid prediction is grounded in textual evidence, not arbitrary guessing.",
+        "commonMisconception": "Student equates prediction with random guessing, ignoring the need for textual clues, prior experience, or cultural background.",
+        "remediationModule": "err-prediction-guessing-without-evidence",
+        "retestItem": "err-prediction-guessing-without-evidence",
+        "stem": "After reading the first paragraph of a story, a student predicts: \"The main character will probably fail the test because he didn't study.\" Which statement best describes this prediction?",
+        "options": [
+          {
+            "label": "A",
+            "text": "It is a guess without any textual evidence.",
+            "correct": false,
+            "feedbackWrong": "The prediction actually uses a text clue: \"he didn't study.\" A strong prediction is based on evidence, not a random guess."
+          },
+          {
+            "label": "B",
+            "text": "It is based on the text clue that the character did not study.",
+            "correct": true,
+            "feedbackCorrect": "Correct! The student used the detail \"didn't study\" as evidence to predict failure. This is a prediction grounded in the text."
+          },
+          {
+            "label": "C",
+            "text": "It is a summary of what has already happened.",
+            "correct": false,
+            "feedbackWrong": "A summary recaps what already happened; this statement predicts a future event (failing the test), so it is not a summary."
+          },
+          {
+            "label": "D",
+            "text": "It is an emotional reaction to the character's behavior.",
+            "correct": false,
+            "feedbackWrong": "The prediction is based on logic (not studying leads to failing), not an emotional reaction. The student used evidence, not emotion."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-prediction-q2",
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-prediction-confusing-with-summary",
+        "type": "open_ended",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student's response clearly defines prediction as looking ahead using clues, and summary as looking back at main points already read.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the purpose of prediction as a reading strategy is part of A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if the student can articulate the fundamental difference between prediction (future-oriented) and summary (past-oriented).",
+        "commonMisconception": "Student confuses predicting with summarizing, treating a prediction as a recap of what was already read.",
+        "remediationModule": "err-prediction-confusing-with-summary",
+        "retestItem": "err-prediction-confusing-with-summary",
+        "stem": "In your own words, explain the difference between making a prediction and writing a summary of a text.",
+        "rubric": "A strong answer must mention that a prediction is about what will happen next, based on clues from the text, background knowledge, or experience, while a summary is a brief restatement of key points that have already occurred in the text.",
+        "sampleStrongAnswer": "A prediction involves using clues from the text, cultural background, or prior experience to guess what will happen later in the story. A summary, on the other hand, condenses the main events or ideas that have already been presented in the text, without guessing about the future."
+      },
+      {
+        "id": "diag-olc4o-prediction-q3",
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-prediction-ignoring-cultural-background",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects the option that identifies the flaw as ignoring the cultural meaning of bowing in the story's context.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analyzing how cultural background affects the plausibility of a prediction, a key aspect of using reading strategies (A3).",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if the student recognizes that cultural background is a factor that should inform predictions, and that ignoring it can lead to inaccurate predictions.",
+        "commonMisconception": "Student fails to consider cultural background as a source of evidence for prediction, relying solely on personal experience or assumptions.",
+        "remediationModule": "err-prediction-ignoring-cultural-background",
+        "retestItem": "err-prediction-ignoring-cultural-background",
+        "stem": "A story is set in a culture where bowing deeply is a sign of respect toward elders. A character bows deeply to an elder. A student from a different culture predicts: \"The character must be apologizing for a mistake.\" What is the main problem with this prediction?",
+        "options": [
+          {
+            "label": "A",
+            "text": "It overlooks the cultural meaning of bowing — in this context, bowing indicates respect, not apology.",
+            "correct": true,
+            "feedbackCorrect": "Correct! The prediction ignores the cultural background. In the story's culture, bowing is a sign of respect, so the prediction is flawed."
+          },
+          {
+            "label": "B",
+            "text": "It relies only on personal experience without using any text clues.",
+            "correct": false,
+            "feedbackWrong": "The student did use a text clue (the bowing action), but the mistake is that they misinterpreted it because they applied their own cultural lens instead of the story's cultural context."
+          },
+          {
+            "label": "C",
+            "text": "It confuses prediction with summary.",
+            "correct": false,
+            "feedbackWrong": "The statement is a prediction about the character's intent, not a summary of what already happened. The confusion here is about cultural interpretation, not about prediction versus summary."
+          },
+          {
+            "label": "D",
+            "text": "It is a random guess with no evidence.",
+            "correct": false,
+            "feedbackWrong": "The student used the action of bowing as evidence, so it is not a random guess. The issue is that the evidence was misinterpreted due to cultural ignorance."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-prediction-guessing-without-evidence",
+      "condition": "Student picks option A, C, or D on Q1 (the single-choice question targeting this errorId).",
+      "systemAction": "Assign reteach module for err-prediction-guessing-without-evidence.",
+      "studentMessage": "You seem to think predicting is just guessing. Let's review how to use text clues, experience, and culture to make strong predictions."
+    },
+    {
+      "errorId": "err-prediction-confusing-with-summary",
+      "condition": "Student's open-ended response on Q2 does not clearly distinguish prediction (future, based on clues) from summary (past, main points).",
+      "systemAction": "Assign reteach module for err-prediction-confusing-with-summary.",
+      "studentMessage": "It looks like you might be mixing up predicting and summarizing. Let's practice telling them apart."
+    },
+    {
+      "errorId": "err-prediction-ignoring-cultural-background",
+      "condition": "Student picks option B, C, or D on Q3 (the single-choice question targeting this errorId).",
+      "systemAction": "Assign reteach module for err-prediction-ignoring-cultural-background.",
+      "studentMessage": "You may have overlooked how culture affects predictions. Let's work on considering cultural background when you predict."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-prediction-guessing-without-evidence",
+      "trigger": "Student selected option A, C, or D on diagnostic question Q1, indicating confusion between prediction based on evidence and random guessing.",
+      "studentMisunderstanding": "学生可能将预测等同于随意猜测，忽略了使用文化背景、经验或文本线索作为依据。",
+      "miniLesson": {
+        "explain": "预测是一种阅读策略，在阅读前、阅读中和阅读后使用，以预判文本内容。预测必须基于证据，包括文化背景、过往经验和文本线索。随意猜测没有依据，不是有效的预测。",
+        "example": "例如，读到‘他没有学习’，预测‘他可能会不及格’是基于文本线索的合理预测。而仅凭感觉说‘他会不及格’就是猜测。",
+        "memoryAnchor": "预测像侦探破案：用线索（文本、经验、文化），别瞎猜！"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "读句子：‘天空很暗，风很大。’哪个是合理的预测？A) ‘因为乌云和强风，可能会下雨。’ B) ‘因为我觉得，可能会下雨。’ 选出正确答案并说明理由。",
+          "answer": "正确答案：A。理由：A使用了文本线索（暗天、大风），而B是随意猜测。"
+        },
+        {
+          "level": "L2",
+          "prompt": "读文字：‘玛丽每晚都为考试学习，并复习了所有笔记。’ 请做出一个关于她考试成绩的预测，并指出你使用的证据。",
+          "answer": "预测：玛丽会考得好。证据：她每晚学习并复习了笔记。"
+        },
+        {
+          "level": "L3",
+          "prompt": "一个学生预测：‘这个角色会迟到，因为我昨天迟到了。’ 这个预测有效吗？为什么？请重写一个基于证据的预测。",
+          "answer": "无效，因为它基于无关的个人经验，而非文本线索。重写：‘角色会迟到，因为文本提到他错过了公交车。’（需从文本中提取线索）。"
+        }
+      ]
+    },
+    {
+      "errorId": "err-prediction-confusing-with-summary",
+      "trigger": "Student confuses predicting with summarizing, treating a prediction as a recap of what was already read.",
+      "studentMisunderstanding": "学生可能混淆预测与总结，认为预测是复述已读内容，而实际上预测要求预判未来内容，并使用文本线索、文化背景或过往经验作为依据。",
+      "miniLesson": {
+        "explain": "预测与总结不同：预测是使用文本线索、文化背景或过往经验来预判将要发生什么，焦点在未来；总结是回顾已读内容，提炼主要事件或观点，焦点在过去。",
+        "example": "读一个故事开头：'小明早上起晚了，匆忙出门却忘了带书包。'  预测：'小明到学校后可能会被老师批评。'（基于'忘了带书包'这一线索预判未来）  总结：'小明起晚了，匆忙出门忘了带书包。'（复述已发生事件）",
+        "memoryAnchor": "预测像天气预报（预判未来），总结像新闻回顾（复述过去）。"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "阅读以下句子：'外面乌云密布，风很大。' 请写一个预测和一个总结。",
+          "answer": "预测：可能会下雨。总结：外面乌云密布，风很大。"
+        },
+        {
+          "level": "L2",
+          "prompt": "阅读一段文本：'她打开信封，看到录取通知书，激动得眼泪都快掉下来了。她立刻拿起手机给妈妈打电话。' 请写一个关于接下来会发生什么的预测，并写一个关于已发生事件的总结。",
+          "answer": "预测：她会在电话里告诉妈妈这个好消息。总结：她打开录取通知书，非常激动，然后给妈妈打电话。"
+        },
+        {
+          "level": "L3",
+          "prompt": "阅读文本：'老张是一名出租车司机，每天工作到很晚。一天晚上，他接了一位年轻女士，女士看起来很着急，说要去医院。路上，老张从后视镜看到她偷偷擦眼泪。' 基于文本线索，写一个合理的预测，并对比写一个总结，说明为什么它们不同。",
+          "answer": "预测：女士可能是去医院看望生病或受伤的亲人，因为她在擦眼泪并急着去医院。总结：老张是一名夜班出租车司机，接了一位着急去医院的女士，她偷偷擦眼泪。不同之处：预测关于未来可能的原因或事件，总结只复述了已描述的细节。"
+        }
+      ]
+    },
+    {
+      "errorId": "err-prediction-ignoring-cultural-background",
+      "trigger": "A student predicts a character's action based solely on their own cultural norms, ignoring the cultural context of the story.",
+      "studentMisunderstanding": "The student thinks personal experience is enough for prediction, failing to consider that cultural background can change the meaning of actions and events.",
+      "miniLesson": {
+        "explain": "When making predictions, you must consider the cultural background of the story, including rules, traditions, and beliefs. These shape how characters act and what events mean. Ignoring cultural context can lead to inaccurate predictions. Always ask: 'What does this action mean in the story's culture?'",
+        "example": "In a story where bowing is a sign of respect, predicting that a bowing character is apologizing is wrong if you only rely on your own culture. The cultural meaning of bowing changes the prediction.",
+        "memoryAnchor": "Remember the 'Culture Check' before you predict: think about the rules, traditions, and beliefs of the story's world."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A story is set in a community where gift-giving is a common way to show gratitude. A character gives a gift to a friend. Based on cultural background, what would be a reasonable prediction? Choose the best answer: The character is saying goodbye; The character is showing gratitude; The character is asking for a favor; The character is angry.",
+          "answer": "The character is showing gratitude."
+        },
+        {
+          "level": "L2",
+          "prompt": "Read this sentence from a story: 'In this village, everyone claps when someone succeeds.' A student predicts: 'The villagers are angry at the success.' What cultural background mistake did the student make? Write one sentence explaining.",
+          "answer": "The student ignored the cultural norm that clapping means celebration, not anger, in this village."
+        },
+        {
+          "level": "L3",
+          "prompt": "You are reading a story set in a culture where maintaining silence during meals is a sign of politeness. Describe how your prediction of a character's behavior during dinner would change if you ignored this cultural background. Provide a prediction that considers the cultural background.",
+          "answer": "If I ignored the cultural background, I might predict the character will talk during dinner. But considering the culture, a better prediction is that the character will remain silent to show politeness."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-prediction-guessing-without-evidence",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "下列哪个选项是基于证据的预测？",
+          "options": [
+            "因为我觉得天气不好，可能会下雨。",
+            "天空乌云密布，风很大，所以可能会下雨。",
+            "我猜明天会下雨。",
+            "昨天下了雨，所以今天也会下雨。"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "阅读以下句子：'小明认真准备了考试，复习了所有章节。' 请做出一个关于小明考试成绩的预测，并说明你使用了哪些证据。",
+          "rubric": "预测合理（如：小明会考得好），且明确指出使用了'认真准备'、'复习所有章节'等文本线索作为证据。"
+        }
+      ],
+      "passRule": "正确回答选择题且开放题预测合理并引用证据。"
+    },
+    {
+      "forErrorId": "err-prediction-confusing-with-summary",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "阅读这句话：'玛丽看了看手表，加快了脚步。' 以下哪个是预测，哪个是总结？",
+          "options": [
+            "A. 预测：玛丽可能迟到了。总结：玛丽看了看手表，加快了脚步。",
+            "B. 总结：玛丽可能迟到了。预测：玛丽看了看手表，加快了脚步。",
+            "C. 两者都是预测。",
+            "D. 两者都是总结。"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "阅读这段文字：'教室里的灯突然灭了，同学们先是一愣，然后开始窃窃私语。' 请写出一个预测（接下来可能发生什么）和一个总结（已发生什么）。然后用一句话解释预测和总结的主要区别。",
+          "rubric": "预测合理（基于线索如灯灭、窃窃私语，例如：老师会来处理或同学们会拿出手机照明等）。总结准确复述已发生事件（灯灭、同学反应）。区别解释正确：预测指向未来，总结指向过去。"
+        }
+      ],
+      "passRule": "两道题均正确（选择题选A；开放题预测合理、总结准确、区别正确）"
+    },
+    {
+      "forErrorId": "err-prediction-ignoring-cultural-background",
+      "questions": [
+        {
+          "id": "retest-pred-culture-1",
+          "type": "single_choice",
+          "stem": "A story is set in a culture where nodding the head means 'no'. A character nods when asked if they want more food. Which prediction is most reasonable?",
+          "options": [
+            "The character is agreeing to more food.",
+            "The character is declining more food.",
+            "The character doesn't understand the question.",
+            "The character is angry."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-pred-culture-2",
+          "type": "open_ended",
+          "stem": "Read this sentence: 'In this village, people avoid direct eye contact as a sign of respect.' A student predicts that a character who looks directly at an elder is being dishonest. Explain the cultural background mistake in this prediction. (1-2 sentences)",
+          "rubric": "Student identifies that in this village, direct eye contact is a sign of disrespect, not dishonesty, so the prediction is wrong. Must mention that cultural norms affect meaning."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For question 2, rubric criteria: explicitly states that the student ignored the cultural norm of respect through avoiding eye contact."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-17",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/EN5GdmdPAohFLmxIrwPcU212nVe?from=vc_group_doc_link#doxcnkQQITVy8uYvsAeukTEC6Gc",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-17 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "预测是一种阅读策略，在阅读前、阅读中和阅读后使用，以预判文本内容。；预测的三大影响要素：文化背景、过往经验、文本线索。；文化背景包括社群的规则、传统和信仰体系，影响预测方向。",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify that a prediction must be based on textual clues, prior experience, or cultural background, not on random guessing."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can explain the difference between making a prediction and writing a summary."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can analyze how cultural background influences the plausibility of a prediction."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_requirement",
+        "title": "Camera requirement for exam",
+        "studentAction": "Keep camera on during the exam",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "考试全程必须开启摄像头，未按要求执行将直接被判定为作弊",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "review_focus",
+        "title": "Exam scope: Unit 1 topics",
+        "studentAction": "Review all learned topics from Unit 1",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "考察范围：覆盖第一单元全部已学知识点",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "No translator or AI for assignments",
+        "studentAction": "Complete assignments independently without translator or AI",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "禁止直接使用翻译器或 AI 生成内容",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Complete prediction worksheets and watch video",
+        "studentAction": "Complete Making Predictions Worksheet and Anticipation Guide; watch 'Let Them Nothing Else' and fill in prediction phases",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "需完成《Making Predictions Worksheet》《Anticipation Guide》两份练习材料；需观看指定短篇影片《Let Them Nothing Else》；图片标注提交至Schoology",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Graphic creation assignment (7% of grade)",
+        "studentAction": "Create a graphic text (compare chart, map, flow chart, etc., no timeline) with reflection of at least 500 words, submit to OneNote",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "本次图文创作大作业为计分作业，占课程总分的7%",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "Attendance recording",
+        "studentAction": "Attend classes and inform in advance if absent",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "每周官方反馈将同步记录所有学员出勤情况",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Exam date not mentioned in notes",
+        "reason": "Only exam scope mentioned, no date"
+      },
+      {
+        "rawText": "Deadline for prediction worksheets not specified",
+        "reason": "Only instruction to complete, no deadline"
+      },
+      {
+        "rawText": "Deadline for graphic assignment not specified",
+        "reason": "Only that it is a graded assignment, no due date"
+      },
+      {
+        "rawText": "Link to video 'Let Them Nothing Else' not provided",
+        "reason": "Not mentioned in notes"
+      }
+    ],
+    "watchTags": [
+      "OLC4O-reading-prediction"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "errorId": "err-prediction-guessing-without-evidence",
+        "condition": "Student picks option A, C, or D on Q1 (the single-choice question targeting this errorId).",
+        "systemAction": "Assign reteach module for err-prediction-guessing-without-evidence."
+      },
+      {
+        "errorId": "err-prediction-confusing-with-summary",
+        "condition": "Student's open-ended response on Q2 does not clearly distinguish prediction (future, based on clues) from summary (past, main points).",
+        "systemAction": "Assign reteach module for err-prediction-confusing-with-summary."
+      },
+      {
+        "errorId": "err-prediction-ignoring-cultural-background",
+        "condition": "Student picks option B, C, or D on Q3 (the single-choice question targeting this errorId).",
+        "systemAction": "Assign reteach module for err-prediction-ignoring-cultural-background."
+      }
+    ],
+    "nextActions": [
+      "[err-prediction-guessing-without-evidence] Student picks option A, C, or D on Q1 (the single-choice question targeting this errorId).: You seem to think predicting is just guessing. Let's review how to use text clues, experience, and culture to make strong predictions.",
+      "[err-prediction-confusing-with-summary] Student's open-ended response on Q2 does not clearly distinguish prediction (future, based on clues) from summary (past, main points).: It looks like you might be mixing up predicting and summarizing. Let's practice telling them apart.",
+      "[err-prediction-ignoring-cultural-background] Student picks option B, C, or D on Q3 (the single-choice question targeting this errorId).: You may have overlooked how culture affects predictions. Let's work on considering cultural background when you predict."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-prediction-q1",
+        "type": "choice",
+        "question": "After reading the first paragraph of a story, a student predicts: \"The main character will probably fail the test because he didn't study.\" Which statement best describes this prediction?",
+        "options": [
+          "It is a guess without any textual evidence.",
+          "It is based on the text clue that the character did not study.",
+          "It is a summary of what has already happened.",
+          "It is an emotional reaction to the character's behavior."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if the student recognizes that a valid prediction is grounded in textual evidence, not arbitrary guessing.",
+        "misconceptions": [
+          "The prediction actually uses a text clue: \"he didn't study.\" A strong prediction is based on evidence, not a random guess.",
+          "✓ Correct! The student used the detail \"didn't study\" as evidence to predict failure. This is a prediction grounded in the text.",
+          "A summary recaps what already happened; this statement predicts a future event (failing the test), so it is not a summary.",
+          "The prediction is based on logic (not studying leads to failing), not an emotional reaction. The student used evidence, not emotion."
+        ],
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-prediction-guessing-without-evidence",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the option that identifies the prediction as based on a text clue, distinguishing it from a guess without evidence.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses use of prediction as a reading strategy to understand text, aligning with A3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student equates prediction with random guessing, ignoring the need for textual clues, prior experience, or cultural background.",
+        "remediationModule": "err-prediction-guessing-without-evidence",
+        "retestItem": "err-prediction-guessing-without-evidence"
+      },
+      {
+        "id": "diag-olc4o-prediction-q2",
+        "type": "explain",
+        "question": "In your own words, explain the difference between making a prediction and writing a summary of a text.",
+        "correct": null,
+        "diagnosis": "Check if the student can articulate the fundamental difference between prediction (future-oriented) and summary (past-oriented).",
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-prediction-confusing-with-summary",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student's response clearly defines prediction as looking ahead using clues, and summary as looking back at main points already read.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the purpose of prediction as a reading strategy is part of A3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Student confuses predicting with summarizing, treating a prediction as a recap of what was already read.",
+        "remediationModule": "err-prediction-confusing-with-summary",
+        "retestItem": "err-prediction-confusing-with-summary"
+      },
+      {
+        "id": "diag-olc4o-prediction-q3",
+        "type": "choice",
+        "question": "A story is set in a culture where bowing deeply is a sign of respect toward elders. A character bows deeply to an elder. A student from a different culture predicts: \"The character must be apologizing for a mistake.\" What is the main problem with this prediction?",
+        "options": [
+          "It overlooks the cultural meaning of bowing — in this context, bowing indicates respect, not apology.",
+          "It relies only on personal experience without using any text clues.",
+          "It confuses prediction with summary.",
+          "It is a random guess with no evidence."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if the student recognizes that cultural background is a factor that should inform predictions, and that ignoring it can lead to inaccurate predictions.",
+        "misconceptions": [
+          "✓ Correct! The prediction ignores the cultural background. In the story's culture, bowing is a sign of respect, so the prediction is flawed.",
+          "The student did use a text clue (the bowing action), but the mistake is that they misinterpreted it because they applied their own cultural lens instead of the story's cultural context.",
+          "The statement is a prediction about the character's intent, not a summary of what already happened. The confusion here is about cultural interpretation, not about prediction versus summary.",
+          "The student used the action of bowing as evidence, so it is not a random guess. The issue is that the evidence was misinterpreted due to cultural ignorance."
+        ],
+        "nodeId": "OLC4O-A-OE03",
+        "errorId": "err-prediction-ignoring-cultural-background",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects the option that identifies the flaw as ignoring the cultural meaning of bowing in the story's context.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analyzing how cultural background affects the plausibility of a prediction, a key aspect of using reading strategies (A3).",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student fails to consider cultural background as a source of evidence for prediction, relying solely on personal experience or assumptions.",
+        "remediationModule": "err-prediction-ignoring-cultural-background",
+        "retestItem": "err-prediction-ignoring-cultural-background"
+      }
+    ]
+  }
+}

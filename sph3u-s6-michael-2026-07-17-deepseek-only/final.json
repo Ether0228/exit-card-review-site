@@ -1,0 +1,980 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-17",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/BR1jd4EreopIuuxo8ncceaT7nig?from=vc_group_doc_link#doxcn6e20JgCSrdMPFYzwTIm2xb",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-17 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/BR1jd4EreopIuuxo8ncceaT7nig?from=vc_group_doc_link#doxcn6e20JgCSrdMPFYzwTIm2xb",
+    "title": "SPH3U.S6.Michael 2026-07-17 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-20/sources/sph3u-s6-michael-2026-07-17/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-17",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-17",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes Unit 1 projectile motion review with calculation example, Unit 1 lab assignment requirements, and introduction to Unit 2 dynamics (force concepts, types, net force rules, free body diagrams). Both instructional and operational (assignment) components present.",
+    "academicContentSignals": [
+      "Projectile motion: independent constant horizontal velocity and gravity-driven vertical velocity, parabolic trajectory",
+      "Selection of kinematic equations with acceleration=g",
+      "Calculated example: golfer from 30m cliff, 25m/s at 50°, flight time 5.11s, range 82.2m, final vy=30.9m/s",
+      "Unit 2 dynamics: forces cause motion changes; force as push/pull, Newton, vector",
+      "Four common forces: gravity (non-contact), friction (contact), tension (contact), normal force (contact)",
+      "Net force rule: balanced (net=0) no motion change; unbalanced (net≠0) acceleration",
+      "Free body diagram: object as dot/box, all force vectors marked"
+    ],
+    "courseOverviewSignals": [
+      "Unit 1 kinematics describes motion; Unit 2 dynamics studies forces causing motion changes"
+    ],
+    "opsDominanceRisk": "Operations (lab submission guidelines) are present but not dominant; academic content is substantial. Risk is low if exit card focuses on the physics concepts rather than lab procedures.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 1 Projectile Motion Lab Submission",
+        "studentAction": "Complete and submit lab report using provided template; include pre- and post-experiment thinking, answer all test questions. Use virtual cannon simulator for inquiry-based tests with qualitative and quantitative analysis.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "course main page (Unit 1 materials, Lab 1 folder)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The simulator link and instructional video are stored in the Lab 1 folder under Unit 1 materials on the course main page. Students shall use the pre-provided lab report template, include pre- and post-experiment thinking, and answer all required test questions.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Projectile Motion Concepts、Projectile Motion Lab、Dynamics: Forces and Net Force、Free Body Diagrams）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Projectile motion has independent constant horizontal velocity and gravity-driven changing vertical velocity, forming a parabolic trajectory.；Select appropriate kinematic equations with acceleration g for projectile motion problems.；Force is a push or pull measured in Newtons (kg·m/s²), a vector with magnitude and direction.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Analyze projectile motion as independent horizontal and vertical motions under gravity."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply kinematic equations with g to solve projectile motion problems."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Define force as a vector with SI unit Newton and describe common force types."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Distinguish between balanced and unbalanced forces and their effect on motion."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Construct free body diagrams to represent forces on an object."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "KIN-01",
+      "name": "Projectile Motion Concepts",
+      "nameEn": "Projectile Motion Concepts",
+      "definition": "Projectile motion is a form of motion where an object moves in a parabolic path under the influence of gravity, with constant horizontal velocity and uniformly accelerated vertical motion.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "KIN-02",
+      "name": "Projectile Motion Lab",
+      "nameEn": "Projectile Motion Lab",
+      "definition": "Students conduct inquiry-based tests using a virtual cannon simulator to analyze projectile motion with and without air resistance, adjusting parameters like height, angle, speed, mass, diameter, and drag coefficient.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "SPH3U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate scientific investigation skills related to inquiry and research in initiating and planning, performing and recording, analysing and interpreting, and communicating."
+    },
+    {
+      "id": "DYN-01",
+      "name": "Dynamics: Forces and Net Force",
+      "nameEn": "Dynamics: Forces and Net Force",
+      "definition": "Force is a push or pull vector measured in Newtons (kg·m/s²). Balanced forces (net force = 0) result in no change in motion; unbalanced forces (net force ≠ 0) cause acceleration.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "SPH3U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "DYN-02",
+      "name": "Free Body Diagrams",
+      "nameEn": "Free Body Diagrams",
+      "definition": "A free body diagram is a representation of an object as a dot or box with all force vectors acting on it, used to analyze net force and motion.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "SPH3U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Analyze projectile motion as independent horizontal and vertical motions under gravity."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply kinematic equations with g to solve projectile motion problems."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Define force as a vector with SI unit Newton and describe common force types."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Distinguish between balanced and unbalanced forces and their effect on motion."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Construct free body diagrams to represent forces on an object."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-projectile-vertical-constant",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Vertical velocity in projectile motion is not constant; gravity causes acceleration."
+      },
+      {
+        "errorId": "err-projectile-horizontal-accelerates",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Horizontal velocity remains constant in the absence of air resistance."
+      },
+      {
+        "errorId": "err-force-unit-confusion",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "The SI unit of force is the Newton, which is kg·m/s²."
+      },
+      {
+        "errorId": "err-net-force-zero-no-motion",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Zero net force means constant velocity (including rest), not necessarily no motion."
+      },
+      {
+        "errorId": "err-free-body-omit-forces",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Free body diagrams must include all forces acting on the object."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-s6-0717-q1",
+        "nodeId": "KIN-01",
+        "errorId": "err-projectile-vertical-constant",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Analyze projectile motion as independent horizontal and vertical motions under gravity.",
+        "successCriteria": "Student recognizes that vertical velocity changes at constant acceleration due to gravity.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Projectile motion is a form of two-dimensional motion studied under kinematics.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding that vertical velocity is not constant in projectile motion.",
+        "commonMisconception": "Students think vertical velocity remains constant because horizontal velocity is constant.",
+        "remediationModule": "err-projectile-vertical-constant",
+        "retestItem": "retest-vertical-constant",
+        "stem": "In projectile motion without air resistance, the vertical component of velocity:",
+        "options": [
+          {
+            "label": "A",
+            "text": "is constant because gravity is not acting vertically",
+            "correct": false,
+            "feedbackWrong": "Gravity acts vertically, causing acceleration at 9.8 m/s² downward."
+          },
+          {
+            "label": "B",
+            "text": "accelerates downward at 9.8 m/s²",
+            "correct": true,
+            "feedbackCorrect": "Correct. Gravity causes constant downward acceleration, so vertical velocity changes."
+          },
+          {
+            "label": "C",
+            "text": "is always zero",
+            "correct": false,
+            "feedbackWrong": "Vertical velocity is zero only at the peak of the trajectory; it changes throughout the flight."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0717-q2",
+        "nodeId": "KIN-01",
+        "errorId": "err-projectile-horizontal-accelerates",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Analyze projectile motion as independent horizontal and vertical motions under gravity.",
+        "successCriteria": "Student recognizes that horizontal velocity remains constant without air resistance.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Projectile motion involves independent horizontal and vertical components.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding that horizontal velocity is constant in the absence of air resistance.",
+        "commonMisconception": "Students think horizontal velocity changes due to gravity or other forces.",
+        "remediationModule": "err-projectile-horizontal-accelerates",
+        "retestItem": "retest-horizontal-accelerates",
+        "stem": "In projectile motion without air resistance, the horizontal component of velocity:",
+        "options": [
+          {
+            "label": "A",
+            "text": "increases due to gravity",
+            "correct": false,
+            "feedbackWrong": "Gravity acts only vertically; horizontal acceleration is zero."
+          },
+          {
+            "label": "B",
+            "text": "remains constant",
+            "correct": true,
+            "feedbackCorrect": "Correct. No horizontal force means constant horizontal velocity."
+          },
+          {
+            "label": "C",
+            "text": "decreases over time",
+            "correct": false,
+            "feedbackWrong": "Without air resistance, horizontal speed does not decrease."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0717-q3",
+        "nodeId": "DYN-01",
+        "errorId": "err-force-unit-confusion",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Define force as a vector with SI unit Newton and describe common force types.",
+        "successCriteria": "Student can identify the SI unit of force.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Force units are fundamental to dynamics investigations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check student knows that force is measured in Newtons, equivalent to kg·m/s².",
+        "commonMisconception": "Students confuse Newton with other units like kg·m or N·m.",
+        "remediationModule": "err-force-unit-confusion",
+        "retestItem": "retest-force-unit",
+        "stem": "Which of the following is the correct SI unit for force?",
+        "options": [
+          {
+            "label": "A",
+            "text": "kg·m/s",
+            "correct": false,
+            "feedbackWrong": "kg·m/s is the unit of momentum, not force. Force is kg·m/s² (Newton)."
+          },
+          {
+            "label": "B",
+            "text": "kg·m/s²",
+            "correct": true,
+            "feedbackCorrect": "Correct. One Newton is equal to kg·m/s²."
+          },
+          {
+            "label": "C",
+            "text": "kg·m",
+            "correct": false,
+            "feedbackWrong": "kg·m is not a valid derived SI unit for force."
+          },
+          {
+            "label": "D",
+            "text": "N·m",
+            "correct": false,
+            "feedbackWrong": "N·m is the unit of torque or work, not force."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0717-q4",
+        "nodeId": "DYN-01",
+        "errorId": "err-net-force-zero-no-motion",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Distinguish between balanced and unbalanced forces and their effect on motion.",
+        "successCriteria": "Student understands that zero net force can result in either rest or constant velocity.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding net force and its effects is central to dynamics.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check student understands Newton's first law: zero net force implies constant velocity.",
+        "commonMisconception": "Students think zero net force always means the object is stationary.",
+        "remediationModule": "err-net-force-zero-no-motion",
+        "retestItem": "retest-net-force-zero",
+        "stem": "If the net force on an object is zero, the object:",
+        "options": [
+          {
+            "label": "A",
+            "text": "must be accelerating",
+            "correct": false,
+            "feedbackWrong": "Acceleration requires a non-zero net force. Zero net force means no acceleration."
+          },
+          {
+            "label": "B",
+            "text": "may be at rest or moving at constant velocity",
+            "correct": true,
+            "feedbackCorrect": "Correct. According to Newton's first law, zero net force means constant velocity (including zero velocity)."
+          },
+          {
+            "label": "C",
+            "text": "must be at rest",
+            "correct": false,
+            "feedbackWrong": "Zero net force can also result in constant velocity motion, not just rest."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0717-q5",
+        "nodeId": "DYN-02",
+        "errorId": "err-free-body-omit-forces",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Construct free body diagrams to represent forces on an object.",
+        "successCriteria": "Student can identify which forces to include in a free body diagram for a common scenario.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Free body diagrams are essential for analyzing forces in one dimension.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check student can correctly identify forces in a simple static situation.",
+        "commonMisconception": "Students omit the normal force or include fictional forces like 'force of motion'.",
+        "remediationModule": "err-free-body-omit-forces",
+        "retestItem": "retest-free-body",
+        "stem": "In a free body diagram of a book resting on a horizontal table, which forces should be included?",
+        "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\" width=\"100\" height=\"100\"><rect x=\"30\" y=\"30\" width=\"40\" height=\"40\" fill=\"none\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"10\" x2=\"50\" y2=\"28\" stroke=\"black\" stroke-width=\"2\" marker-end=\"url(#arrowhead)\"/><line x1=\"50\" y1=\"72\" x2=\"50\" y2=\"90\" stroke=\"black\" stroke-width=\"2\" marker-end=\"url(#arrowhead)\"/><defs><marker id=\"arrowhead\" markerWidth=\"10\" markerHeight=\"7\" refX=\"10\" refY=\"3.5\" orient=\"auto\"><polygon points=\"0 0, 10 3.5, 0 7\" fill=\"black\"/></marker></defs><text x=\"55\" y=\"25\" font-size=\"6\" fill=\"black\">F_N</text><text x=\"55\" y=\"90\" font-size=\"6\" fill=\"black\">F_g</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "Only the force of gravity",
+            "correct": false,
+            "feedbackWrong": "The normal force from the table must also be included; it balances gravity."
+          },
+          {
+            "label": "B",
+            "text": "Gravity and the normal force",
+            "correct": true,
+            "feedbackCorrect": "Correct. The gravitational force (down) and normal force (up) are the only vertical forces acting on a book at rest on a horizontal surface."
+          },
+          {
+            "label": "C",
+            "text": "Gravity, normal force, and friction",
+            "correct": false,
+            "feedbackWrong": "Friction only appears if there is a horizontal force trying to move the book. In this static case with no other forces, friction is zero and not typically drawn."
+          },
+          {
+            "label": "D",
+            "text": "Gravity, normal force, and an applied force",
+            "correct": false,
+            "feedbackWrong": "No applied force is mentioned for a book simply resting on a table."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-projectile-vertical-constant",
+      "condition": "student picks a wrong option on question targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Vertical velocity in projectile motion is not constant; gravity causes acceleration."
+    },
+    {
+      "errorId": "err-projectile-horizontal-accelerates",
+      "condition": "student picks a wrong option on question targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Horizontal velocity remains constant in the absence of air resistance."
+    },
+    {
+      "errorId": "err-force-unit-confusion",
+      "condition": "student picks a wrong option on question targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "The SI unit of force is the Newton, which is kg·m/s²."
+    },
+    {
+      "errorId": "err-net-force-zero-no-motion",
+      "condition": "student picks a wrong option on question targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Zero net force means constant velocity (including rest), not necessarily no motion."
+    },
+    {
+      "errorId": "err-free-body-omit-forces",
+      "condition": "student picks a wrong option on question targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Free body diagrams must include all forces acting on the object."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-projectile-vertical-constant",
+      "trigger": "In projectile motion, vertical velocity is not constant; it changes at 9.8 m/s² downward due to gravity.",
+      "studentMisunderstanding": "Students incorrectly assume that vertical velocity remains constant because horizontal velocity is constant, forgetting that gravity acts vertically.",
+      "miniLesson": {
+        "explain": "In projectile motion without air resistance, the horizontal velocity is constant, but the vertical velocity changes because gravity pulls the object downward with constant acceleration g = 9.8 m/s². This means the vertical velocity decreases on the way up, is zero at the peak, and increases downward on the way down. The motion is independent: horizontal motion is uniform, vertical motion is uniformly accelerated.",
+        "example": "Consider a golfer hitting a ball from a 30 m cliff with an initial speed of 25 m/s at 50° above horizontal. The initial vertical velocity component is 25 sin 50° ≈ 19.2 m/s upward. The ball reaches a maximum height, then falls. The flight time is 5.11 s, and the final vertical velocity is 30.9 m/s downward, showing that vertical velocity changed from 19.2 m/s upward to 30.9 m/s downward—not constant.",
+        "memoryAnchor": "Remember: Gravity is always pulling down at 9.8 m/s², so vertical velocity cannot stay constant. Picture a ball thrown upward: it slows, stops, then speeds up downward."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In projectile motion, what is the acceleration of the vertical component?",
+          "answer": "9.8 m/s² downward"
+        },
+        {
+          "level": "L2",
+          "prompt": "A projectile is launched vertically upward with an initial speed of 25 m/s. What is its vertical velocity after 2 seconds? (Use g = 9.8 m/s²)",
+          "answer": "v = u + at = 25 m/s + (-9.8 m/s²)(2 s) = 5.4 m/s upward (5.4 m/s upward)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Using the golfer example (30 m cliff, 25 m/s at 50°), calculate the vertical velocity at t = 3 s (g = 9.8 m/s²). The initial vertical component is 25 sin 50° ≈ 19.2 m/s upward.",
+          "answer": "v = 19.2 m/s + (-9.8 m/s²)(3 s) = 19.2 - 29.4 = -10.2 m/s (10.2 m/s downward)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-projectile-horizontal-accelerates",
+      "trigger": "Student selects option indicating horizontal velocity changes in projectile motion without air resistance.",
+      "studentMisunderstanding": "Students may think the horizontal component of velocity changes due to gravity or other forces, not understanding that in the absence of air resistance, the horizontal velocity remains constant because no horizontal force acts on the projectile.",
+      "miniLesson": {
+        "explain": "In projectile motion without air resistance, the only force acting on the projectile is gravity, which acts vertically downward. There is no horizontal force, so the horizontal component of velocity remains constant throughout the flight. This is a key concept: horizontal motion is uniform (constant velocity) while vertical motion is uniformly accelerated (due to gravity).",
+        "example": "Consider a golfer hitting a ball from a 30 m cliff with an initial speed of 25 m/s at 50° above the horizontal. The horizontal component of velocity is 25 m/s * cos(50°) ≈ 16.1 m/s. During the entire 5.11 s flight, the horizontal velocity remains 16.1 m/s, resulting in a horizontal range of 82.2 m (calculated as 16.1 m/s * 5.11 s). The ball does not speed up or slow down horizontally.",
+        "memoryAnchor": "Think of a ball rolling on a frictionless horizontal floor: it keeps moving at constant speed. In projectile motion, the same happens horizontally because no horizontal force acts. Remember: 'No horizontal force → constant horizontal velocity.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: In projectile motion without air resistance, the horizontal velocity of the object remains constant. Explain briefly.",
+          "answer": "True. There is no horizontal force acting on the projectile, so the horizontal component of velocity does not change."
+        },
+        {
+          "level": "L2",
+          "prompt": "A cannonball is fired with an initial speed of 25 m/s at an angle of 50° above the horizontal. What is the horizontal component of its velocity? How far does it travel horizontally if the flight time is 5.11 s? (Use the provided numbers.)",
+          "answer": "Horizontal component = 25 m/s * cos(50°) ≈ 16.1 m/s. Horizontal range = 16.1 m/s * 5.11 s ≈ 82.2 m."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why, in the absence of air resistance, the horizontal range of a projectile launched from a height is simply the product of the initial horizontal velocity and the time of flight. Use the example of a ball launched horizontally from a 30 m cliff with an initial horizontal speed of 20 m/s (flight time 2.47 s).",
+          "answer": "Since there is no horizontal acceleration, the horizontal velocity remains constant at its initial value. Thus, the horizontal distance traveled is horizontal velocity multiplied by time. For the ball: horizontal range = 20 m/s * 2.47 s = 49.4 m. This works because the horizontal motion is independent of the vertical motion."
+        }
+      ]
+    },
+    {
+      "errorId": "err-force-unit-confusion",
+      "trigger": "Student confuses SI unit of force with other units.",
+      "studentMisunderstanding": "They may think the Newton is equivalent to kg·m/s or other units, or forget it is kg·m/s².",
+      "miniLesson": {
+        "explain": "Force is measured in Newtons (N), where 1 N = 1 kg·m/s². This comes from Newton's second law: F=ma. So force is mass times acceleration, hence kg times m/s².",
+        "example": "A 2 kg object accelerating at 5 m/s² experiences a net force of 10 N (=2 kg * 5 m/s²).",
+        "memoryAnchor": "Remember: Newton = kg × m/s². Think of 'Newton' as the name for the combination of mass (kg) and acceleration (m/s²)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the SI unit of force?",
+          "answer": "Newton (N), which is equivalent to kg·m/s²."
+        },
+        {
+          "level": "L2",
+          "prompt": "A 3 kg object has a net force of 12 N. What is its acceleration in m/s²?",
+          "answer": "4 m/s². Because a = F/m = 12 N / 3 kg = 4 m/s²."
+        },
+        {
+          "level": "L3",
+          "prompt": "An object accelerates at 2 m/s² under a net force of 8 N. What is its mass?",
+          "answer": "4 kg. Because m = F/a = 8 N / 2 m/s² = 4 kg."
+        }
+      ]
+    },
+    {
+      "errorId": "err-net-force-zero-no-motion",
+      "trigger": "Student incorrectly answers that zero net force implies the object must be at rest, failing to recognize constant velocity as another possibility.",
+      "studentMisunderstanding": "Students think that net force equals zero always means the object is stationary, but Newton's first law states that zero net force results in constant velocity (which can include rest).",
+      "miniLesson": {
+        "explain": "When the net force on an object is zero, there is no acceleration. According to Newton's first law of motion, an object will maintain its state of motion: if it is at rest, it stays at rest; if it is moving, it continues moving with constant velocity. This is because one or more forces cancel out, resulting in no change in velocity.",
+        "example": "Consider a car cruising on a straight highway at constant speed. The forward force from the engine balances the backward friction and air resistance, so net force is zero. The car moves at constant velocity. Similarly, a book at rest on a table has gravity pulling down balanced by the normal force pushing up; net force is zero, so it remains at rest.",
+        "memoryAnchor": "Remember: Zero net force means 'no change' in motion. Imagine a tug-of-war where both sides pull equally: the rope doesn't accelerate; it stays still or moves steadily if already moving."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: If the net force on an object is zero, the object must be at rest.",
+          "answer": "False. Zero net force can also mean the object is moving at constant velocity."
+        },
+        {
+          "level": "L2",
+          "prompt": "A hockey puck slides on frictionless ice with constant velocity. What is the net force on the puck?",
+          "answer": "Zero net force, because there is no acceleration (constant velocity)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why a skydiver falling at terminal velocity has zero net force, even though they are moving downward.",
+          "answer": "At terminal velocity, the upward drag force equals the downward weight, so net force is zero. The skydiver continues falling at constant speed because balanced forces cause no acceleration."
+        }
+      ]
+    },
+    {
+      "errorId": "err-free-body-omit-forces",
+      "trigger": "Student incorrectly omits normal force when drawing a free body diagram for a stationary object on a surface.",
+      "studentMisunderstanding": "Students often think only gravity acts on a stationary object, forgetting that the surface exerts a normal force upward.",
+      "miniLesson": {
+        "explain": "A free body diagram must include all forces acting on the object. For an object on a surface, there are at least two forces: gravity pulling down and the normal force pushing up from the surface. If there is motion or other interactions, include friction, tension, etc. Always ask: what is touching the object? and what non-contact forces (like gravity) are acting?",
+        "example": "Book on a table: gravity (down) and normal force (up). If the book is sliding, add friction opposing motion.",
+        "memoryAnchor": "Normal force is the table's push-back: it's always there when an object is on a surface, balancing gravity."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A book is at rest on a horizontal table. List all the forces that should appear in its free body diagram.",
+          "answer": "Gravity (down) and normal force (up)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A crate is being pushed across a rough floor at constant speed. Identify all forces in the free body diagram.",
+          "answer": "Gravity (down), normal force (up), applied push (horizontal in direction of motion), friction (horizontal opposite motion)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A sign hangs from a rope attached to a ceiling. Draw the free body diagram for the sign.",
+          "answer": "Gravity (down) and tension (up from the rope)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-projectile-vertical-constant",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In projectile motion without air resistance, which statement is true about the vertical component of velocity?",
+          "options": [
+            "It remains constant throughout the motion.",
+            "It changes at a constant rate of 9.8 m/s² downward.",
+            "It changes, but the rate of change is not constant.",
+            "It is always zero."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A ball is thrown straight upward with an initial speed of 25 m/s. Calculate its vertical velocity after 2.0 seconds. (Assume g = 9.8 m/s² and no air resistance.) Show your work and include direction.",
+          "rubric": "Uses v = u + at (or equivalent). Substitutes u = 25 m/s, a = -9.8 m/s², t = 2.0 s. Correct calculation: 25 + (-9.8)(2.0) = 25 - 19.6 = 5.4 m/s. States direction: 'upward' or 'positive'. Accept rounded answers: 5.4 m/s, 5.40 m/s. Partial credit (50%) for correct equation but calculation error."
+        }
+      ],
+      "passRule": "All correct"
+    },
+    {
+      "forErrorId": "err-projectile-horizontal-accelerates",
+      "questions": [
+        {
+          "id": "retest-horiz-1",
+          "type": "single_choice",
+          "stem": "A projectile is launched without air resistance. After launch, which of the following causes the horizontal component of its velocity to change?",
+          "options": [
+            "Gravity",
+            "Air resistance",
+            "Both gravity and air resistance",
+            "Neither"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "retest-horiz-2",
+          "type": "open_ended",
+          "stem": "A golfer hits a ball from a 30 m cliff with initial speed 25 m/s at 50° above horizontal. The flight time is 5.11 s and the horizontal range is 82.2 m. Calculate the horizontal component of the initial velocity. Then explain why the horizontal velocity remains constant during the flight, and use that to verify the range. (You may use the values: cos50° ≈ 0.643, sin50° ≈ 0.766)",
+          "rubric": "Computes v_x = 25 m/s * cos50° ≈ 16.1 m/s. States that horizontal velocity remains constant because no horizontal force acts (gravity is vertical). Verifies range = v_x * t = 16.1 m/s * 5.11 s ≈ 82.2 m. Must mention 'no horizontal force' or equivalent."
+        }
+      ],
+      "passRule": "Q1 correct (option 3). Q2: correct v_x calculation (16.1 m/s) AND explanation including constant velocity due to no horizontal force."
+    },
+    {
+      "forErrorId": "err-force-unit-confusion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is the SI unit of force?",
+          "options": [
+            "kg·m/s² (Newton)",
+            "kg·m/s",
+            "kg·m²/s²",
+            "kg·m/s³"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A net force of 15 N acts on a 5 kg object. Using the relationship F = ma, express the force in base SI units (kg, m, s). Show your work.",
+          "rubric": "Correct answer: 15 kg·m/s². Student must show that 1 N = 1 kg·m/s², so 15 N = 15 kg·m/s². Accept any equivalent expression (e.g., 15 kg m/s^2)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For q2, accept any expression showing 15 kg·m/s² or clear derivation."
+    },
+    {
+      "forErrorId": "err-net-force-zero-no-motion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is true for an object with zero net force?",
+          "options": [
+            "The object must be at rest.",
+            "The object's acceleration is zero.",
+            "The object's velocity must be zero.",
+            "The object must be slowing down."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why a car can be moving at constant velocity even though the net force on it is zero.",
+          "rubric": "Student should state that the forces are balanced (engine force equals friction and air resistance), so net force is zero, and according to Newton's first law, an object maintains its state of motion, so it continues at constant velocity."
+        }
+      ],
+      "passRule": "Answer q1 correctly and provide a correct explanation in q2 (mentioning balanced forces and Newton's first law)."
+    },
+    {
+      "forErrorId": "err-free-body-omit-forces",
+      "questions": [
+        {
+          "id": "q1-omit-forces",
+          "type": "single_choice",
+          "stem": "Which free body diagram correctly represents a book at rest on a horizontal table?",
+          "options": [
+            "Only a downward arrow labeled 'gravity'",
+            "Only an upward arrow labeled 'normal'",
+            "A downward arrow 'gravity' and a smaller upward arrow 'normal'",
+            "A downward arrow 'gravity' and an upward arrow 'normal' of equal length"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "q2-omit-forces",
+          "type": "open_ended",
+          "stem": "Describe the free body diagram for a crate being pushed across a rough floor at constant speed. List all forces and their directions.",
+          "rubric": "1 pt: gravity downward; 1 pt: normal upward; 1 pt: push in direction of motion; 1 pt: friction opposite push. Total 4 points."
+        }
+      ],
+      "passRule": "Single choice correct and open-ended response earns at least 3 out of 4 points on rubric."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-17",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/BR1jd4EreopIuuxo8ncceaT7nig?from=vc_group_doc_link#doxcn6e20JgCSrdMPFYzwTIm2xb",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-17 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Projectile motion has independent constant horizontal velocity and gravity-driven changing vertical velocity, forming a parabolic trajectory.；Select appropriate kinematic equations with acceleration g for projectile motion problems.；Force is a push or pull measured in Newtons (kg·m/s²), a vector with magnitude and direction.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Analyze projectile motion as independent horizontal and vertical motions under gravity."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply kinematic equations with g to solve projectile motion problems."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Define force as a vector with SI unit Newton and describe common force types."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Distinguish between balanced and unbalanced forces and their effect on motion."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Construct free body diagrams to represent forces on an object."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 1 Projectile Motion Lab Submission",
+        "studentAction": "Complete and submit lab report using provided template; include pre- and post-experiment thinking, answer all test questions. Use virtual cannon simulator for inquiry-based tests with qualitative and quantitative analysis.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "course main page (Unit 1 materials, Lab 1 folder)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The simulator link and instructional video are stored in the Lab 1 folder under Unit 1 materials on the course main page. Students shall use the pre-provided lab report template, include pre- and post-experiment thinking, and answer all required test questions.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "KIN-01",
+      "KIN-02",
+      "DYN-01",
+      "DYN-02"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-projectile-vertical-constant",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-projectile-horizontal-accelerates",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-force-unit-confusion",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-net-force-zero-no-motion",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-free-body-omit-forces",
+        "condition": "student picks a wrong option on question targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      }
+    ],
+    "nextActions": [
+      "[err-projectile-vertical-constant] student picks a wrong option on question targeting this errorId: Vertical velocity in projectile motion is not constant; gravity causes acceleration.",
+      "[err-projectile-horizontal-accelerates] student picks a wrong option on question targeting this errorId: Horizontal velocity remains constant in the absence of air resistance.",
+      "[err-force-unit-confusion] student picks a wrong option on question targeting this errorId: The SI unit of force is the Newton, which is kg·m/s².",
+      "[err-net-force-zero-no-motion] student picks a wrong option on question targeting this errorId: Zero net force means constant velocity (including rest), not necessarily no motion.",
+      "[err-free-body-omit-forces] student picks a wrong option on question targeting this errorId: Free body diagrams must include all forces acting on the object."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-s6-0717-q1",
+        "type": "choice",
+        "question": "In projectile motion without air resistance, the vertical component of velocity:",
+        "options": [
+          "is constant because gravity is not acting vertically",
+          "accelerates downward at 9.8 m/s²",
+          "is always zero"
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding that vertical velocity is not constant in projectile motion.",
+        "misconceptions": [
+          "Gravity acts vertically, causing acceleration at 9.8 m/s² downward.",
+          "✓ Correct. Gravity causes constant downward acceleration, so vertical velocity changes.",
+          "Vertical velocity is zero only at the peak of the trajectory; it changes throughout the flight."
+        ],
+        "nodeId": "KIN-01",
+        "errorId": "err-projectile-vertical-constant",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Analyze projectile motion as independent horizontal and vertical motions under gravity.",
+        "successCriteria": "Student recognizes that vertical velocity changes at constant acceleration due to gravity.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Projectile motion is a form of two-dimensional motion studied under kinematics.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think vertical velocity remains constant because horizontal velocity is constant.",
+        "remediationModule": "err-projectile-vertical-constant",
+        "retestItem": "retest-vertical-constant"
+      },
+      {
+        "id": "diag-sph3u-s6-0717-q2",
+        "type": "choice",
+        "question": "In projectile motion without air resistance, the horizontal component of velocity:",
+        "options": [
+          "increases due to gravity",
+          "remains constant",
+          "decreases over time"
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding that horizontal velocity is constant in the absence of air resistance.",
+        "misconceptions": [
+          "Gravity acts only vertically; horizontal acceleration is zero.",
+          "✓ Correct. No horizontal force means constant horizontal velocity.",
+          "Without air resistance, horizontal speed does not decrease."
+        ],
+        "nodeId": "KIN-01",
+        "errorId": "err-projectile-horizontal-accelerates",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Analyze projectile motion as independent horizontal and vertical motions under gravity.",
+        "successCriteria": "Student recognizes that horizontal velocity remains constant without air resistance.",
+        "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "SPH3U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Projectile motion involves independent horizontal and vertical components.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think horizontal velocity changes due to gravity or other forces.",
+        "remediationModule": "err-projectile-horizontal-accelerates",
+        "retestItem": "retest-horizontal-accelerates"
+      },
+      {
+        "id": "diag-sph3u-s6-0717-q3",
+        "type": "choice",
+        "question": "Which of the following is the correct SI unit for force?",
+        "options": [
+          "kg·m/s",
+          "kg·m/s²",
+          "kg·m",
+          "N·m"
+        ],
+        "correct": 1,
+        "diagnosis": "Check student knows that force is measured in Newtons, equivalent to kg·m/s².",
+        "misconceptions": [
+          "kg·m/s is the unit of momentum, not force. Force is kg·m/s² (Newton).",
+          "✓ Correct. One Newton is equal to kg·m/s².",
+          "kg·m is not a valid derived SI unit for force.",
+          "N·m is the unit of torque or work, not force."
+        ],
+        "nodeId": "DYN-01",
+        "errorId": "err-force-unit-confusion",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Define force as a vector with SI unit Newton and describe common force types.",
+        "successCriteria": "Student can identify the SI unit of force.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Force units are fundamental to dynamics investigations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students confuse Newton with other units like kg·m or N·m.",
+        "remediationModule": "err-force-unit-confusion",
+        "retestItem": "retest-force-unit"
+      },
+      {
+        "id": "diag-sph3u-s6-0717-q4",
+        "type": "choice",
+        "question": "If the net force on an object is zero, the object:",
+        "options": [
+          "must be accelerating",
+          "may be at rest or moving at constant velocity",
+          "must be at rest"
+        ],
+        "correct": 1,
+        "diagnosis": "Check student understands Newton's first law: zero net force implies constant velocity.",
+        "misconceptions": [
+          "Acceleration requires a non-zero net force. Zero net force means no acceleration.",
+          "✓ Correct. According to Newton's first law, zero net force means constant velocity (including zero velocity).",
+          "Zero net force can also result in constant velocity motion, not just rest."
+        ],
+        "nodeId": "DYN-01",
+        "errorId": "err-net-force-zero-no-motion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Distinguish between balanced and unbalanced forces and their effect on motion.",
+        "successCriteria": "Student understands that zero net force can result in either rest or constant velocity.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding net force and its effects is central to dynamics.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think zero net force always means the object is stationary.",
+        "remediationModule": "err-net-force-zero-no-motion",
+        "retestItem": "retest-net-force-zero"
+      },
+      {
+        "id": "diag-sph3u-s6-0717-q5",
+        "type": "choice",
+        "question": "In a free body diagram of a book resting on a horizontal table, which forces should be included?",
+        "options": [
+          "Only the force of gravity",
+          "Gravity and the normal force",
+          "Gravity, normal force, and friction",
+          "Gravity, normal force, and an applied force"
+        ],
+        "correct": 1,
+        "diagnosis": "Check student can correctly identify forces in a simple static situation.",
+        "misconceptions": [
+          "The normal force from the table must also be included; it balances gravity.",
+          "✓ Correct. The gravitational force (down) and normal force (up) are the only vertical forces acting on a book at rest on a horizontal surface.",
+          "Friction only appears if there is a horizontal force trying to move the book. In this static case with no other forces, friction is zero and not typically drawn.",
+          "No applied force is mentioned for a book simply resting on a table."
+        ],
+        "nodeId": "DYN-02",
+        "errorId": "err-free-body-omit-forces",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Construct free body diagrams to represent forces on an object.",
+        "successCriteria": "Student can identify which forces to include in a free body diagram for a common scenario.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Free body diagrams are essential for analyzing forces in one dimension.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students omit the normal force or include fictional forces like 'force of motion'.",
+        "remediationModule": "err-free-body-omit-forces",
+        "retestItem": "retest-free-body"
+      }
+    ]
+  }
+}

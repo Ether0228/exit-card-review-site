@@ -1,0 +1,692 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-20",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/YurMd24ovoL6MixRpsucjvypnJh?from=vc_group_doc_link#doxcnbolNYZTkpFQjhOsYPYo5Jh",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-20 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/YurMd24ovoL6MixRpsucjvypnJh?from=vc_group_doc_link#doxcnbolNYZTkpFQjhOsYPYo5Jh",
+    "title": "MHF4U.S6.Taylor 2026-07-20 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-20/sources/mhf4u-s6-taylor-2026-07-20/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-20",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-20",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session is a core instructional lesson where the teacher explicitly teaches polynomial transformations and equation solving with guided practice and worked examples.",
+    "academicContentSignals": [
+      "Higher-order polynomial transformation rules using form a(k(x-d))^n + c",
+      "Parameter definitions: a, k, d, c and their effects",
+      "Operation sequence: stretches/reflections before translations",
+      "k value factoring rule",
+      "Coordinate conversion formula: (x, y) -> (x/k + d, a*y + c)",
+      "Plotting standards: label axes, arrows, mark functions",
+      "Integral Zero Theorem and Rational Zero Theorem for finding roots",
+      "Solution validation by substitution",
+      "Step-by-step solving of cubic and quartic equations",
+      "Worked examples: f(x)=8(0.5x+1)^3-3; f(x)=-1.5(x+3)^4+4; 4x^3-12x^2-x+3=0; orca application problem"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low to moderate. Operations include homework, exit card, upcoming topic, and assignment reminder, but academic content is rich and central. Ensure exit-card and readiness-check items focus on the polynomial transformation and equation-solving skills taught, not on logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete cubic and quartic transformation exercises",
+        "studentAction": "Complete assigned cubic and quartic function transformation practice exercises",
+        "deadlineText": "Current session homework (no explicit date given)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Current Session Homework: Complete assigned cubic and quartic function transformation exercises",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Submit exit card for current session",
+        "studentAction": "Submit the required exit card for this instructional session",
+        "deadlineText": "Likely due by end of class or before next class (not explicitly stated)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "submit the required exit card for the current instructional session",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "Next class will cover reciprocal and rational functions",
+        "studentAction": "Prepare to learn reciprocal and rational functions in the next class",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The next scheduled class will cover the originally planned reciprocal and rational function content",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Continue Unit 1 assignment; check-in conference this week",
+        "studentAction": "Continue working on accessible sections of the Unit 1 assignment and attend scheduled check-in conference later this week",
+        "deadlineText": "Check-in conference later this week (no specific day/time given)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Continue working on accessible sections of the Unit 1 assignment, with the scheduled check-in conference held later in the current week",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "scheduled check-in conference held later in the current week",
+        "reason": "No specific day or time for the conference; relative reference only."
+      },
+      {
+        "rawText": "Current session homework (no explicit date mentioned)",
+        "reason": "Deadline not stated; likely due next class but not confirmed."
+      },
+      {
+        "rawText": "submit the required exit card for the current instructional session",
+        "reason": "Deadline not specified; could be end of class or before next class."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Polynomial Transformations、Polynomial Root Finding）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Higher-order polynomial transformations follow the same rules as quadratic functions: a(k(x-d))^n + c.；Parameter a controls vertical stretch/compression and x-axis reflection; k controls horizontal stretch/compression and y-axis reflection; d and c control horizontal and vertical translation.；When plotting, apply stretch/compression/reflection (a, k) first, then translations (d, c).",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "poly-transformations",
+      "name": "Polynomial Transformations",
+      "nameEn": "Polynomial Transformations",
+      "definition": "Higher-order polynomial transformations follow the form a(k(x-d))^n + c, where a controls vertical stretch/compression and reflection, k controls horizontal stretch/compression and reflection, d controls horizontal shift, and c controls vertical shift. Apply stretch/compression/reflection before translations.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    },
+    {
+      "id": "polynomial-root-finding",
+      "name": "Polynomial Root Finding",
+      "nameEn": "Polynomial Root Finding",
+      "definition": "Use Integral Zero Theorem (for leading coefficient 1) and Rational Zero Theorem (for integer coefficients) to find candidate roots. Verify by substitution. Use polynomial long division and factorization to solve equations.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "3-4 correct",
+      "targetedRemediation": "2 correct",
+      "reteach": "0-1 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-mhf4u-u1-0720-q1",
+        "nodeId": "poly-transformations",
+        "errorId": "err-poly-trans-order",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies that stretches/compressions/reflections must be applied before translations when plotting a transformed polynomial.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The expectation C1 includes describing key features of polynomial functions; transformations are a key feature.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of the correct order of transformations (stretch/compress/reflect first, then translate).",
+        "commonMisconception": "Students often apply horizontal and vertical translations before considering stretches/reflections, which changes the graph incorrectly.",
+        "remediationModule": "err-poly-trans-order",
+        "retestItem": "err-poly-trans-order",
+        "figureSvg": "<svg width='400' height='300'><line x1='50' y1='150' x2='350' y2='150' stroke='black'/><line x1='200' y1='50' x2='200' y2='250' stroke='black'/><path d='M 50 250 Q 100 100 150 70 Q 200 50 250 70 Q 300 100 350 250' fill='none' stroke='blue'/></svg>",
+        "stem": "The graph of f(x) = -1.5*(x+3)^4 + 4 is shown above. To sketch this graph, which transformation should you apply first?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Vertical stretch by factor 1.5 and reflection in the x-axis (a = -1.5)",
+            "correct": true,
+            "feedbackWrong": "",
+            "feedbackCorrect": "Correct. Apply the stretch/compression/reflection (a and k) before the translations (d and c)."
+          },
+          {
+            "label": "B",
+            "text": "Horizontal shift left by 3 units (d = -3)",
+            "correct": false,
+            "feedbackWrong": "Not quite. Translations (d and c) come after stretches/compressions/reflections to avoid distorting the graph."
+          },
+          {
+            "label": "C",
+            "text": "Vertical shift up by 4 units (c = 4)",
+            "correct": false,
+            "feedbackWrong": "That's a vertical translation, which should be applied last, not first."
+          },
+          {
+            "label": "D",
+            "text": "Horizontal stretch by factor 1 (k=1 does nothing special)",
+            "correct": false,
+            "feedbackWrong": "While k=1 means no horizontal stretch, the question is about the order. The correct first step is to handle a and k."
+          }
+        ],
+        "nextActionIfWrong": "进入 err-poly-trans-order 重新理解模块。"
+      },
+      {
+        "id": "diag-mhf4u-u1-0720-q2",
+        "nodeId": "poly-transformations",
+        "errorId": "err-poly-k-factor",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Rewrites the transformation expression in the form a(k(x-d))^n + c by factoring k when it is not 1.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the transformation form a(k(x-d))^n + c is part of describing key features of polynomial functions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to factor k out of the internal x term when k ≠ 1 in the expression (k(x-d)).",
+        "commonMisconception": "When given (0.5x+1)^3, students may think d=1 and k=0.5 incorrectly, instead of rewriting as (0.5(x+2))^3.",
+        "remediationModule": "err-poly-k-factor",
+        "retestItem": "err-poly-k-factor",
+        "stem": "Write f(x) = 8*(0.5x+1)^3 - 3 in the standard transformation form a(k(x-d))^n + c.",
+        "options": [
+          {
+            "label": "A",
+            "text": "f(x) = 8*(0.5(x+2))^3 - 3, a=8, k=0.5, d=-2, c=-3",
+            "correct": true,
+            "feedbackWrong": "",
+            "feedbackCorrect": "Correct. Factor 0.5 from (0.5x+1) to get 0.5(x+2), so k=0.5, d=-2."
+          },
+          {
+            "label": "B",
+            "text": "f(x) = 8*(0.5x+1)^3 - 3, a=8, k=1, d=-1, c=-3",
+            "correct": false,
+            "feedbackWrong": "This does not factor k out. When k ≠ 1, you must rewrite (0.5x+1) as 0.5(x+2) to identify d correctly."
+          },
+          {
+            "label": "C",
+            "text": "f(x) = 8*(0.5(x+1))^3 - 3, a=8, k=0.5, d=-1, c=-3",
+            "correct": false,
+            "feedbackWrong": "Almost, but (0.5x+1) factored gives 0.5(x+2), not 0.5(x+1). Check by redistributing: 0.5(x+1)=0.5x+0.5, not 0.5x+1."
+          },
+          {
+            "label": "D",
+            "text": "f(x) = 8*(0.5(x-2))^3 - 3, a=8, k=0.5, d=2, c=-3",
+            "correct": false,
+            "feedbackWrong": "The sign of d is wrong. (0.5x+1) = 0.5(x+2) means d = -2 (since x - (-2) = x+2)."
+          }
+        ],
+        "nextActionIfWrong": "进入 err-poly-k-factor 重新理解模块。"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-poly-trans-order",
+      "condition": "student answers incorrectly on any question with errorId err-poly-trans-order",
+      "systemAction": "assign reteach module err-poly-trans-order, then retest err-poly-trans-order",
+      "studentMessage": "关于 Applying translations before stretches/compressions/reflections when plotting transformed polynomials. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-poly-k-factor",
+      "condition": "student answers incorrectly on any question with errorId err-poly-k-factor",
+      "systemAction": "assign reteach module err-poly-k-factor, then retest err-poly-k-factor",
+      "studentMessage": "关于 Failing to factor k out of the internal x term when k ≠ 1, leading to incorrect transformation parameters. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-poly-verify-root",
+      "condition": "student answers incorrectly on any question with errorId err-poly-verify-root",
+      "systemAction": "assign reteach module err-poly-verify-root, then retest err-poly-verify-root",
+      "studentMessage": "关于 Assuming a candidate root from Integral/Rational Zero Theorem is valid without substituting back to confirm f(root)=0. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-poly-rational-zero",
+      "condition": "student answers incorrectly on any question with errorId err-poly-rational-zero",
+      "systemAction": "assign reteach module err-poly-rational-zero, then retest err-poly-rational-zero",
+      "studentMessage": "关于 Misapplying Rational Zero Theorem by not correctly identifying divisors of constant term and leading coefficient. 的理解还需要加强。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-poly-trans-order",
+      "trigger": "Student incorrectly applies translations before stretches/compressions/reflections when graphing transformed polynomials.",
+      "studentMisunderstanding": "Students think the order of transformations can be applied arbitrarily, but actual order matters because translations shift the graph after stretches/compressions, changing the effect.",
+      "miniLesson": {
+        "explain": "When graphing a polynomial in the form a(k(x-d))^n + c, apply stretches/compressions/reflections (a and k) first, then translations (d and c). This order ensures the graph is correctly scaled before shifting.",
+        "example": "Consider f(x) = 8*(0.5x+1)^3 - 3. Factor: (0.5x+1) = 0.5(x+2), so f(x)=8*(0.5(x+2))^3 -3. Apply a=8 (vertical stretch) and k=0.5 (horizontal stretch by 2) first, then shift left 2 (d=-2) and down 3 (c=-3).",
+        "memoryAnchor": "Remember: 'Stretch then Slide' – always apply stretches/compressions/reflections before translations."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For f(x) = 3*(x-2)^4 + 1, which transformation should you apply first when graphing? (Choose one: vertical stretch by 3, horizontal shift right 2, vertical shift up 1)",
+          "answer": "Vertical stretch by factor 3 (a=3) first, then horizontal shift right 2, then vertical shift up 1."
+        },
+        {
+          "level": "L2",
+          "prompt": "List the correct order of transformations to graph f(x) = -2*(x+1)^3 + 3 from the parent function y=x^3.",
+          "answer": "1. Reflect over x-axis (negative a). 2. Vertical stretch by factor 2. 3. Horizontal shift left 1 unit. 4. Vertical shift up 3 units."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given point (1,1) on y=x^3, use the coordinate conversion formula (x/k+d, a*y+c) to find its image on f(x) = 8*(0.5x+1)^3 - 3. Show steps.",
+          "answer": "First factor: f(x)=8*(0.5(x+2))^3-3, so a=8, k=0.5, d=-2, c=-3. New x = 1/0.5 + (-2) = 2 - 2 = 0. New y = 8*1 + (-3) = 8 - 3 = 5. Image is (0,5)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-k-factor",
+      "trigger": "When asked to rewrite a polynomial transformation such as 8*(0.5x+1)^3 - 3 into the standard form a(k(x-d))^n + c, the student fails to factor the coefficient of x from inside the parentheses, leading to incorrect identification of k and d.",
+      "studentMisunderstanding": "The student incorrectly assumes that the coefficient inside the parentheses directly gives k and the constant term gives d, without factoring out the coefficient of x. For example, they might set k=1 and d=-1 for (0.5x+1) instead of correctly factoring to get k=0.5 and d=-2.",
+      "miniLesson": {
+        "explain": "When a polynomial transformation is given as a*(kx + b)^n + c, you must rewrite it as a*(k(x - d))^n + c by factoring k out of the expression kx + b. This gives the correct horizontal stretch/compression factor k and the horizontal shift d. Remember: kx + b = k(x + b/k). So d = -b/k. Always check that k is factored out completely before reading off d.",
+        "example": "Take f(x) = 8*(0.5x+1)^3 - 3. Factor 0.5 from the parentheses: 0.5x+1 = 0.5(x+2). So the function becomes f(x) = 8*(0.5(x+2))^3 - 3. Thus a=8, k=0.5, d=-2, c=-3. If you didn't factor, you might think k=1 and d=-1, which would be wrong.",
+        "memoryAnchor": "Remember: Factor the x-coefficient first—like pulling out the multiplier from the parentheses to reveal the true shift."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Rewrite f(x)=4*(2x+8)^3-3 in the form a(k(x-d))^n+c.",
+          "answer": "a=4, k=2, d=-4, c=-3"
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite f(x)=8*(0.5x+1)^3-3 in standard transformation form.",
+          "answer": "a=8, k=0.5, d=-2, c=-3"
+        },
+        {
+          "level": "L3",
+          "prompt": "Rewrite f(x)=-1.5*(2x+1)^4+2 in the form a(k(x-d))^n+c.",
+          "answer": "a=-1.5, k=2, d=-0.5, c=2"
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-verify-root",
+      "trigger": "When using the Integral Zero Theorem or Rational Zero Theorem to find roots, you assume a candidate is valid without substituting back into the original polynomial.",
+      "studentMisunderstanding": "Students think that if a candidate root satisfies the conditions of the Integral Zero Theorem (divides the constant term) or Rational Zero Theorem (divisor of constant term over divisor of leading coefficient), then it is automatically a root. They skip the verification step of substituting back to check f(root)=0.",
+      "miniLesson": {
+        "explain": "The Integral Zero Theorem and Rational Zero Theorem only give a list of possible roots. To confirm whether a candidate is an actual root, you must substitute it into the original polynomial and verify that the result is zero. Only those values that satisfy f(x)=0 are true roots.",
+        "example": "For 4x^3 - 12x^2 - x + 3 = 0, possible rational roots include ±1, ±3, ±1/2, ±3/2, ±1/4, ±3/4. Testing x=3: 4(27)-12(9)-3+3 = 108-108-3+3=0, so x=3 is a root. Testing x=1: 4-12-1+3=-6, not zero, so 1 is not a root despite being a divisor of the constant term.",
+        "memoryAnchor": "Remember: Candidate ≠ Confirmed! Always substitute to verify. 'Plug it in, see if it's zero, then it's a hero.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Given f(x)=4x^3-12x^2-x+3, test whether x=1 is a root by substituting into f(x).",
+          "answer": "f(1)=4(1)^3-12(1)^2-1+3=4-12-1+3=-6, not zero. So x=1 is not a root."
+        },
+        {
+          "level": "L2",
+          "prompt": "For f(x)=x^3-2x^2+x-2, list possible integer roots using the Integral Zero Theorem, then test x=2.",
+          "answer": "Possible integer roots: ±1, ±2. f(2)=8-8+2-2=0, so x=2 is a root."
+        },
+        {
+          "level": "L3",
+          "prompt": "For f(x)=4x^3-12x^2-x+3, list possible rational roots using the Rational Zero Theorem, then test x=1/2.",
+          "answer": "Possible rational roots: ±1, ±3, ±1/2, ±3/2, ±1/4, ±3/4. f(1/2)=4*(1/8)-12*(1/4)-1/2+3=0.5-3-0.5+3=0, so x=1/2 is a root."
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-rational-zero",
+      "trigger": "A student incorrectly lists candidate roots using the Rational Zero Theorem, e.g., listing ±1, ±3 for the polynomial 4x^3 - 12x^2 - x + 3, ignoring divisors of the leading coefficient.",
+      "studentMisunderstanding": "The student may only consider divisors of the constant term and forget that the denominator must be a divisor of the leading coefficient, or may include fractions not in lowest terms.",
+      "miniLesson": {
+        "explain": "The Rational Zero Theorem says that any rational root of a polynomial with integer coefficients is of the form p/q, where p is a factor of the constant term and q is a factor of the leading coefficient. Both p and q must be considered, and the fraction must be in lowest terms.",
+        "example": "For 4x^3 - 12x^2 - x + 3 = 0, constant term = 3, leading coefficient = 4. Factors of 3: ±1, ±3. Factors of 4: ±1, ±2, ±4. Possible p/q: ±1/1, ±3/1, ±1/2, ±3/2, ±1/4, ±3/4. After testing, the actual roots are x=3, x=1/2, x=-1/2.",
+        "memoryAnchor": "Rational zeros: p over q, where p divides constant, q divides lead. Don't forget q!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "List all possible rational zeros for f(x)=x^3 - 2x^2 - 5x + 6.",
+          "answer": "Constant term 6 factors: ±1,±2,±3,±6. Leading coefficient 1 so q=1. Possible: ±1,±2,±3,±6."
+        },
+        {
+          "level": "L2",
+          "prompt": "List all possible rational zeros for f(x)=2x^3 - 3x^2 - 8x + 12.",
+          "answer": "Constant term 12 factors: ±1,±2,±3,±4,±6,±12. Leading coefficient 2 factors: ±1,±2. Possible p/q: ±1,±2,±3,±4,±6,±12,±1/2,±3/2."
+        },
+        {
+          "level": "L3",
+          "prompt": "Use the Rational Zero Theorem to find all rational roots of 4x^3 - 12x^2 - x + 3 = 0.",
+          "answer": "Roots: 3, 1/2, -1/2."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-poly-trans-order",
+      "questions": [
+        {
+          "id": "retest-poly-trans-order-q1",
+          "type": "single_choice",
+          "stem": "When graphing f(x) = -3*(x-2)^4 + 4 from the parent function y=x^4, which transformation should be applied first?",
+          "options": [
+            "Reflection in the x-axis",
+            "Vertical stretch by a factor of 3",
+            "Horizontal translation right 2 units",
+            "Vertical translation up 4 units"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-poly-trans-order-q2",
+          "type": "open_ended",
+          "stem": "List the correct order of transformations to graph f(x)=2*(x+3)^3-3 from y=x^3. Write each step as a short description.",
+          "rubric": "Step 1: Vertical stretch by factor 2. Step 2: Horizontal shift left 3 units. Step 3: Vertical shift down 3 units. (Order must be stretches/reflections before translations; accepting equivalent phrasing)"
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-poly-k-factor",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Given f(x) = 8*(0.5x+1)^3 - 3, after rewriting in the form a(k(x-d))^n + c, what are the correct values of k and d?",
+          "options": [
+            "k = 1, d = -1",
+            "k = 0.5, d = -2",
+            "k = 0.5, d = 2",
+            "k = 2, d = -0.5"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Rewrite f(x) = -1.5*(2x+1)^4 + 2 in the form a(k(x-d))^n + c. Enter your answer as a=?, k=?, d=?, c=?",
+          "rubric": "a=-1.5, k=2, d=-0.5, c=2"
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-poly-verify-root",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Consider the polynomial f(x)=x^3-3x+2. A student claims that x=2 is a root because 2 is a divisor of the constant term 2. Is x=2 a root of f(x)?",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "For the polynomial f(x)=2x^3-3x^2-3x+2, use the Rational Zero Theorem to list all possible rational roots. Then test x=1/2 by substitution to determine if it is a root. Show your work.",
+          "rubric": "Possible rational roots: ±1, ±2, ±1/2. Substitution: f(1/2)=2*(1/8)-3*(1/4)-3*(1/2)+2 = 0.25 - 0.75 - 1.5 + 2 = 0, so x=1/2 is a root. Accept correct listing and correct substitution leading to zero."
+        }
+      ],
+      "passRule": "2/2"
+    },
+    {
+      "forErrorId": "err-poly-rational-zero",
+      "questions": [
+        {
+          "id": "retest-poly-rational-zero-q1",
+          "type": "single_choice",
+          "stem": "Which of the following lists all possible rational zeros of f(x)=2x^3 - 3x^2 - 12x + 8?",
+          "options": [
+            "±1, ±2, ±4, ±8",
+            "±1, ±2, ±4, ±8, ±1/2, ±3/2, ±1/4, ±3/4",
+            "±1, ±2, ±4, ±8, ±1/2, ±2/2, ±4/2, ±8/2",
+            "±1, ±2, ±4, ±8, ±1/2"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "retest-poly-rational-zero-q2",
+          "type": "open_ended",
+          "stem": "List all possible rational zeros of f(x)=4x^3 + 4x^2 - x - 1.",
+          "rubric": "Correct answer: ±1, ±1/2, ±1/4. Accept list with commas or spaces, include ± signs or separate positive and negative. Must include all distinct fractions in lowest terms."
+        }
+      ],
+      "passRule": "Pass if both questions answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-20",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/YurMd24ovoL6MixRpsucjvypnJh?from=vc_group_doc_link#doxcnbolNYZTkpFQjhOsYPYo5Jh",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-20 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Higher-order polynomial transformations follow the same rules as quadratic functions: a(k(x-d))^n + c.；Parameter a controls vertical stretch/compression and x-axis reflection; k controls horizontal stretch/compression and y-axis reflection; d and c control horizontal and vertical translation.；When plotting, apply stretch/compression/reflection (a, k) first, then translations (d, c).",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete cubic and quartic transformation exercises",
+        "studentAction": "Complete assigned cubic and quartic function transformation practice exercises",
+        "deadlineText": "Current session homework (no explicit date given)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Current Session Homework: Complete assigned cubic and quartic function transformation exercises",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Submit exit card for current session",
+        "studentAction": "Submit the required exit card for this instructional session",
+        "deadlineText": "Likely due by end of class or before next class (not explicitly stated)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "submit the required exit card for the current instructional session",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "Next class will cover reciprocal and rational functions",
+        "studentAction": "Prepare to learn reciprocal and rational functions in the next class",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The next scheduled class will cover the originally planned reciprocal and rational function content",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Continue Unit 1 assignment; check-in conference this week",
+        "studentAction": "Continue working on accessible sections of the Unit 1 assignment and attend scheduled check-in conference later this week",
+        "deadlineText": "Check-in conference later this week (no specific day/time given)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Continue working on accessible sections of the Unit 1 assignment, with the scheduled check-in conference held later in the current week",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "scheduled check-in conference held later in the current week",
+        "reason": "No specific day or time for the conference; relative reference only."
+      },
+      {
+        "rawText": "Current session homework (no explicit date mentioned)",
+        "reason": "Deadline not stated; likely due next class but not confirmed."
+      },
+      {
+        "rawText": "submit the required exit card for the current instructional session",
+        "reason": "Deadline not specified; could be end of class or before next class."
+      }
+    ],
+    "watchTags": [
+      "poly-transformations",
+      "polynomial-root-finding"
+    ],
+    "totalQuestions": 2,
+    "completed": false,
+    "passScore": 2,
+    "diagnosisRules": [
+      {
+        "errorId": "err-poly-trans-order",
+        "condition": "student answers incorrectly on any question with errorId err-poly-trans-order",
+        "systemAction": "assign reteach module err-poly-trans-order, then retest err-poly-trans-order"
+      },
+      {
+        "errorId": "err-poly-k-factor",
+        "condition": "student answers incorrectly on any question with errorId err-poly-k-factor",
+        "systemAction": "assign reteach module err-poly-k-factor, then retest err-poly-k-factor"
+      },
+      {
+        "errorId": "err-poly-verify-root",
+        "condition": "student answers incorrectly on any question with errorId err-poly-verify-root",
+        "systemAction": "assign reteach module err-poly-verify-root, then retest err-poly-verify-root"
+      },
+      {
+        "errorId": "err-poly-rational-zero",
+        "condition": "student answers incorrectly on any question with errorId err-poly-rational-zero",
+        "systemAction": "assign reteach module err-poly-rational-zero, then retest err-poly-rational-zero"
+      }
+    ],
+    "nextActions": [
+      "[err-poly-trans-order] student answers incorrectly on any question with errorId err-poly-trans-order: 关于 Applying translations before stretches/compressions/reflections when plotting transformed polynomials. 的理解还需要加强。",
+      "[err-poly-k-factor] student answers incorrectly on any question with errorId err-poly-k-factor: 关于 Failing to factor k out of the internal x term when k ≠ 1, leading to incorrect transformation parameters. 的理解还需要加强。",
+      "[err-poly-verify-root] student answers incorrectly on any question with errorId err-poly-verify-root: 关于 Assuming a candidate root from Integral/Rational Zero Theorem is valid without substituting back to confirm f(root)=0. 的理解还需要加强。",
+      "[err-poly-rational-zero] student answers incorrectly on any question with errorId err-poly-rational-zero: 关于 Misapplying Rational Zero Theorem by not correctly identifying divisors of constant term and leading coefficient. 的理解还需要加强。"
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-u1-0720-q1",
+        "type": "choice",
+        "question": "The graph of f(x) = -1.5*(x+3)^4 + 4 is shown above. To sketch this graph, which transformation should you apply first?",
+        "options": [
+          "Vertical stretch by factor 1.5 and reflection in the x-axis (a = -1.5)",
+          "Horizontal shift left by 3 units (d = -3)",
+          "Vertical shift up by 4 units (c = 4)",
+          "Horizontal stretch by factor 1 (k=1 does nothing special)"
+        ],
+        "correct": 0,
+        "diagnosis": "Check understanding of the correct order of transformations (stretch/compress/reflect first, then translate).",
+        "misconceptions": [
+          "✓ Correct. Apply the stretch/compression/reflection (a and k) before the translations (d and c).",
+          "Not quite. Translations (d and c) come after stretches/compressions/reflections to avoid distorting the graph.",
+          "That's a vertical translation, which should be applied last, not first.",
+          "While k=1 means no horizontal stretch, the question is about the order. The correct first step is to handle a and k."
+        ],
+        "nodeId": "poly-transformations",
+        "errorId": "err-poly-trans-order",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies that stretches/compressions/reflections must be applied before translations when plotting a transformed polynomial.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The expectation C1 includes describing key features of polynomial functions; transformations are a key feature.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often apply horizontal and vertical translations before considering stretches/reflections, which changes the graph incorrectly.",
+        "remediationModule": "err-poly-trans-order",
+        "retestItem": "err-poly-trans-order"
+      },
+      {
+        "id": "diag-mhf4u-u1-0720-q2",
+        "type": "choice",
+        "question": "Write f(x) = 8*(0.5x+1)^3 - 3 in the standard transformation form a(k(x-d))^n + c.",
+        "options": [
+          "f(x) = 8*(0.5(x+2))^3 - 3, a=8, k=0.5, d=-2, c=-3",
+          "f(x) = 8*(0.5x+1)^3 - 3, a=8, k=1, d=-1, c=-3",
+          "f(x) = 8*(0.5(x+1))^3 - 3, a=8, k=0.5, d=-1, c=-3",
+          "f(x) = 8*(0.5(x-2))^3 - 3, a=8, k=0.5, d=2, c=-3"
+        ],
+        "correct": 0,
+        "diagnosis": "Check ability to factor k out of the internal x term when k ≠ 1 in the expression (k(x-d)).",
+        "misconceptions": [
+          "✓ Correct. Factor 0.5 from (0.5x+1) to get 0.5(x+2), so k=0.5, d=-2.",
+          "This does not factor k out. When k ≠ 1, you must rewrite (0.5x+1) as 0.5(x+2) to identify d correctly.",
+          "Almost, but (0.5x+1) factored gives 0.5(x+2), not 0.5(x+1). Check by redistributing: 0.5(x+1)=0.5x+0.5, not 0.5x+1.",
+          "The sign of d is wrong. (0.5x+1) = 0.5(x+2) means d = -2 (since x - (-2) = x+2)."
+        ],
+        "nodeId": "poly-transformations",
+        "errorId": "err-poly-k-factor",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Rewrites the transformation expression in the form a(k(x-d))^n + c by factoring k when it is not 1.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the transformation form a(k(x-d))^n + c is part of describing key features of polynomial functions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "When given (0.5x+1)^3, students may think d=1 and k=0.5 incorrectly, instead of rewriting as (0.5(x+2))^3.",
+        "remediationModule": "err-poly-k-factor",
+        "retestItem": "err-poly-k-factor"
+      }
+    ]
+  }
+}

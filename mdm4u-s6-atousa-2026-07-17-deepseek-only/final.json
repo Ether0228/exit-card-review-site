@@ -1,0 +1,895 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-17",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/FAqfdM9PXoxZKbxGZ1ecLJqInwf?from=vc_group_doc_link#doxcnXJy5quAF00DFu8FihPBU1d",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-17 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/FAqfdM9PXoxZKbxGZ1ecLJqInwf?from=vc_group_doc_link#doxcnXJy5quAF00DFu8FihPBU1d",
+    "title": "MDM4U.S6.Atousa 2026-07-17 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-20/sources/mdm4u-s6-atousa-2026-07-17/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-17",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "review_session",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-17",
+    "lessonType": "review_session",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson is primarily a Unit 1 test review walkthrough with step-by-step practice on probability concepts, but also includes assignment specifications and test arrangements, making it a review session with mixed admin content.",
+    "academicContentSignals": [
+      "Basic probability calculations with dice, cards, letters, lottery balls",
+      "Three-set Venn diagram application for survey data",
+      "Mutually exclusive events and formula P(A∪B)=P(A)+P(B)-P(A∩B)",
+      "Two-way table probability with base set identification",
+      "Conditional probability concepts",
+      "Theoretical probability, set-based probability, independent events, permutation and combination (reviewed as Unit 1 topics)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations (assignment details, test date range, review session logistics) are present but academic content dominates; risk is low if exit card focuses on probability concepts taught.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 1 Assignment Submission",
+        "studentAction": "Complete Unit 1 assignment covering all core topics (theoretical probability, set-based probability, conditional probability, independent events, permutation and combination). Choose between in-class live presentation or pre-recorded video submission. Optionally integrate Python probability simulation for bonus marks.",
+        "deadlineText": "Within one week from lesson date (2026-07-17 to approx. 2026-07-24)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students are given a full one-week window to complete the assignment",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Test Date Range",
+        "studentAction": "Prepare for Unit 1 test; test date will be announced once all students master in-class activities, expected between Monday and Wednesday.",
+        "deadlineText": "Between Monday Jul 20 and Wednesday Jul 22, 2026",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Test date is currently expected to fall between the coming Monday and Wednesday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "review_focus",
+        "title": "Pre-test Review Session",
+        "studentAction": "Attend the dedicated test review session with collective Q&A and group problem solving before the test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "A dedicated test review session with collective Q&A and group problem solving will be held prior to the test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_requirement",
+        "title": "Open-book Test Format",
+        "studentAction": "Ensure access to reference materials during the online test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The test is delivered in online format, with permitted reference materials accessible to students",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "follow_up_action",
+        "title": "Complete Unresolved Class Activity Questions",
+        "studentAction": "Only complete class activity questions that were not resolved during the live session; no redundant work on already covered content.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students only need to complete class activity questions that were not resolved during live sessions",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Optional Bonus: Python Probability Simulation",
+        "studentAction": "Optionally integrate Python-based probability simulation using matplotlib, pandas, and numpy to connect with real-world AI applications for bonus marks.",
+        "deadlineText": "Same as Unit 1 Assignment deadline",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students may optionally integrate Python-based probability simulation... eligible submissions receive extra bonus marks",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Theoretical Probability、Three-Set Venn Diagram Probability、Mutually Exclusive Events）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Theoretical probability = number of favorable outcomes / total number of outcomes, for discrete sample spaces where all outcomes equally likely.；Three-set Venn diagram: probability of single set, union, intersection, complement can be calculated using area counts.；Mutually exclusive events: P(A∪B)=P(A)+P(B)-P(A∩B). If P(A∩B)=0, events are mutually exclusive.",
+  "learningGoals": [
+    {
+      "id": "lg-theoretical",
+      "statement": "Students can calculate theoretical probability for discrete sample spaces with equally likely outcomes."
+    },
+    {
+      "id": "lg-venn",
+      "statement": "Students can calculate probabilities using three-set Venn diagrams, including unions, intersections, and complements."
+    },
+    {
+      "id": "lg-mutually-exclusive",
+      "statement": "Students can verify whether events are mutually exclusive using the formula P(A∪B)=P(A)+P(B)-P(A∩B)."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "theoretical-probability",
+      "name": "Theoretical Probability",
+      "nameEn": "Theoretical Probability",
+      "definition": "The ratio of the number of favorable outcomes to the total number of equally likely outcomes in a discrete sample space.",
+      "officialExpectationCode": "SE A1.3",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems."
+    },
+    {
+      "id": "three-set-venn-probability",
+      "name": "Three-Set Venn Diagram Probability",
+      "nameEn": "Three-Set Venn Diagram Probability",
+      "definition": "Using a Venn diagram with three overlapping sets to calculate probabilities of single sets, unions, intersections, and complements based on region counts.",
+      "officialExpectationCode": "SE A1.5",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies."
+    },
+    {
+      "id": "mutually-exclusive-events",
+      "name": "Mutually Exclusive Events",
+      "nameEn": "Mutually Exclusive Events",
+      "definition": "Events are mutually exclusive if they cannot occur simultaneously; verified by P(A∩B)=0. The formula P(A∪B)=P(A)+P(B)-P(A∩B) is used.",
+      "officialExpectationCode": "SE A1.5",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-theoretical",
+        "statement": "Students can calculate theoretical probability for discrete sample spaces with equally likely outcomes."
+      },
+      {
+        "id": "lg-venn",
+        "statement": "Students can calculate probabilities using three-set Venn diagrams, including unions, intersections, and complements."
+      },
+      {
+        "id": "lg-mutually-exclusive",
+        "statement": "Students can verify whether events are mutually exclusive using the formula P(A∪B)=P(A)+P(B)-P(A∩B)."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-theoretical-probability",
+        "condition": "Student answers incorrectly on any question with this errorId.",
+        "systemAction": "Assign reteach module for err-theoretical-probability.",
+        "studentMessage": "You need more practice on calculating theoretical probability. Review the ratio of favorable to total outcomes."
+      },
+      {
+        "errorId": "err-three-set-venn-probability",
+        "condition": "Student answers incorrectly on question targeting this errorId.",
+        "systemAction": "Assign reteach module for err-three-set-venn-probability.",
+        "studentMessage": "You need more practice interpreting Venn diagrams for probability. Focus on identifying counts in each region."
+      },
+      {
+        "errorId": "err-mutually-exclusive-events",
+        "condition": "Student answers incorrectly on question targeting this errorId.",
+        "systemAction": "Assign reteach module for err-mutually-exclusive-events.",
+        "studentMessage": "You need more practice on mutually exclusive events. Remember to check if the intersection is zero."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-s6-q1",
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "stem": "If you roll a standard 6‑sided die, what is the theoretical probability of rolling a number greater than 4?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-theoretical",
+        "successCriteria": "Student correctly identifies 2 favorable outcomes (5 and 6) and calculates 2/6 = 1/3.",
+        "ossdExpectation": "Determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses theoretical probability calculation as per SE A1.3 and aligns with OE A1 node.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can apply the definition of theoretical probability to a simple dice scenario.",
+        "commonMisconception": "Student may incorrectly count favorable outcomes (e.g., only one number greater than 4) or include 4 itself.",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability",
+        "options": [
+          {
+            "label": "A",
+            "text": "1/6",
+            "correct": false,
+            "feedbackWrong": "1/6 would be the probability of rolling a single specific number, not numbers greater than 4."
+          },
+          {
+            "label": "B",
+            "text": "1/3",
+            "correct": true,
+            "feedbackCorrect": "Correct. The numbers greater than 4 are 5 and 6 (2 favorable outcomes out of 6 total), so the probability is 2/6 = 1/3."
+          },
+          {
+            "label": "C",
+            "text": "1/2",
+            "correct": false,
+            "feedbackWrong": "1/2 would be correct if 3 out of 6 outcomes were favorable, but here only 2 are favorable."
+          },
+          {
+            "label": "D",
+            "text": "2/3",
+            "correct": false,
+            "feedbackWrong": "2/3 would require 4 favorable outcomes out of 6, but only 2 are favorable."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-q2",
+        "nodeId": "three-set-venn-probability",
+        "errorId": "err-three-set-venn-probability",
+        "stem": "The Venn diagram below shows the number of students in three after-school clubs: Sports, Music, and Art. If a student is selected at random, what is the probability that they are in exactly one club?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-venn",
+        "successCriteria": "Student identifies counts of regions in exactly one set and sums them to correct total count.",
+        "ossdExpectation": "Recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question uses a Venn diagram to calculate probability of an event (exactly one club), aligning with SE A1.5.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Assess ability to read a three-set Venn diagram and calculate the probability of a compound event (exactly one set).",
+        "commonMisconception": "Student may misinterpret counts (e.g., sum all nonzero regions without distinguishing exact one) or forget to include 'none' region in total.",
+        "remediationModule": "err-three-set-venn-probability",
+        "retestItem": "err-three-set-venn-probability",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><circle cx='120' cy='120' r='60' fill='none' stroke='black' stroke-width='2'/><text x='100' y='110' font-size='14' text-anchor='middle'>13</text><circle cx='180' cy='120' r='60' fill='none' stroke='black' stroke-width='2'/><text x='200' y='110' font-size='14' text-anchor='middle'>3</text><circle cx='150' cy='170' r='60' fill='none' stroke='black' stroke-width='2'/><text x='140' y='220' font-size='14' text-anchor='middle'>4</text><text x='140' y='135' font-size='12' text-anchor='middle'>6</text><text x='170' y='155' font-size='12' text-anchor='middle'>4</text><text x='110' y='165' font-size='12' text-anchor='middle'>2</text><text x='145' y='155' font-size='12' text-anchor='middle'>1</text><text x='220' y='90' font-size='10'>Sports</text><text x='250' y='120' font-size='10'>Music</text><text x='200' y='260' font-size='10'>Art</text><rect x='0' y='0' width='300' height='300' fill='none' stroke='none'/><text x='280' y='280' font-size='10'>none: 5</text></svg>",
+        "figureAlt": "Venn diagram with three overlapping circles labeled Sports (left), Music (right), Art (bottom). Counts: only Sports 13, only Music 3, only Art 4, Sports&Music 6, Sports&Art 4, Music&Art 2, all three 1, outside 5.",
+        "figureCaption": "Venn diagram of after-school club participation.",
+        "options": [
+          {
+            "label": "A",
+            "text": "20/38",
+            "correct": true,
+            "feedbackCorrect": "Correct. Exactly one club includes only Sports (13), only Music (3), only Art (4); total 20 out of 38 students."
+          },
+          {
+            "label": "B",
+            "text": "13/38",
+            "correct": false,
+            "feedbackWrong": "13/38 accounts only for students in only Sports, ignoring those in only Music and only Art."
+          },
+          {
+            "label": "C",
+            "text": "17/38",
+            "correct": false,
+            "feedbackWrong": "17/38 might come from adding only Sports and only Art but forgetting only Music."
+          },
+          {
+            "label": "D",
+            "text": "7/38",
+            "correct": false,
+            "feedbackWrong": "7/38 corresponds to the sum of students in exactly two clubs, not exactly one."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-q3",
+        "nodeId": "mutually-exclusive-events",
+        "errorId": "err-mutually-exclusive-events",
+        "stem": "From a standard 52-card deck, let event A be drawing a heart and event B be drawing a king. Are events A and B mutually exclusive?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-mutually-exclusive",
+        "successCriteria": "Student recognizes that P(A∩B) ≠ 0 (king of hearts) and therefore events are not mutually exclusive.",
+        "ossdExpectation": "Recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analyzing whether two events are mutually exclusive, directly matching SE A1.5.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student can determine mutual exclusivity by considering whether the events can occur together.",
+        "commonMisconception": "Student thinks that because something is a heart and also a king are different categories, they cannot happen together; or that drawing a king always excludes hearts.",
+        "remediationModule": "err-mutually-exclusive-events",
+        "retestItem": "err-mutually-exclusive-events",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes, because P(A∩B)=0",
+            "correct": false,
+            "feedbackWrong": "Actually, the king of hearts belongs to both events, so P(A∩B) = 1/52, not 0."
+          },
+          {
+            "label": "B",
+            "text": "No, because P(A∩B)=1/52",
+            "correct": true,
+            "feedbackCorrect": "Correct. The king of hearts is both a heart and a king, so the intersection is non-empty; events are not mutually exclusive."
+          },
+          {
+            "label": "C",
+            "text": "Yes, because they are different suits",
+            "correct": false,
+            "feedbackWrong": "Different suits do not guarantee mutual exclusivity; a card can be both a heart and a king."
+          },
+          {
+            "label": "D",
+            "text": "No, because P(A∪B)=P(A)+P(B)-P(A∩B) is not zero",
+            "correct": false,
+            "feedbackWrong": "The formula itself is always true; mutual exclusivity is determined by whether P(A∩B)=0, not by the union sum being zero."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-q4",
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "stem": "Two-way table of elementary students' goals:\n\n|            | Popular | Sports | Good Grades |\n|------------|---------|--------|-------------|\n| Female     | 30      | 30     | 40          |\n| Male       | 20      | 10     | 20          |\n\nWhat is the probability that a student who is female chose Sports?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-theoretical",
+        "successCriteria": "Student correctly identifies the base (all females) and calculates 30/100.",
+        "ossdExpectation": "Determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Conditional probability here requires theoretical probability from a subset of the sample space, aligning with SE A1.3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can compute a conditional probability by correctly restricting the sample space to the condition (female).",
+        "commonMisconception": "Student uses total sample space as denominator (150) or uses the intersection of female and sports over total sports (30/40).",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability",
+        "options": [
+          {
+            "label": "A",
+            "text": "30/100",
+            "correct": true,
+            "feedbackCorrect": "Correct. There are 100 females total, and 30 of them chose Sports."
+          },
+          {
+            "label": "B",
+            "text": "30/150",
+            "correct": false,
+            "feedbackWrong": "30/150 would be the probability that a random student is female and chose Sports, not the conditional probability given female."
+          },
+          {
+            "label": "C",
+            "text": "30/40",
+            "correct": false,
+            "feedbackWrong": "30/40 uses total number of students who chose Sports (40) as denominator; that would be P(female | Sports)."
+          },
+          {
+            "label": "D",
+            "text": "10/50",
+            "correct": false,
+            "feedbackWrong": "10/50 is the probability that a male student chose Sports, not female."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-theoretical-probability",
+      "condition": "Student answers incorrectly on any question with this errorId.",
+      "systemAction": "Assign reteach module for err-theoretical-probability.",
+      "studentMessage": "You need more practice on calculating theoretical probability. Review the ratio of favorable to total outcomes."
+    },
+    {
+      "errorId": "err-three-set-venn-probability",
+      "condition": "Student answers incorrectly on question targeting this errorId.",
+      "systemAction": "Assign reteach module for err-three-set-venn-probability.",
+      "studentMessage": "You need more practice interpreting Venn diagrams for probability. Focus on identifying counts in each region."
+    },
+    {
+      "errorId": "err-mutually-exclusive-events",
+      "condition": "Student answers incorrectly on question targeting this errorId.",
+      "systemAction": "Assign reteach module for err-mutually-exclusive-events.",
+      "studentMessage": "You need more practice on mutually exclusive events. Remember to check if the intersection is zero."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-theoretical-probability",
+      "trigger": "Student incorrectly calculates theoretical probability in discrete sample space scenarios.",
+      "studentMisunderstanding": "Student fails to correctly identify the number of favorable outcomes and total outcomes in a discrete sample space with equally likely outcomes.",
+      "miniLesson": {
+        "explain": "Theoretical probability is the ratio of the number of favorable outcomes to the total number of equally likely outcomes in a discrete sample space. The formula is: P(event) = (number of favorable outcomes) / (total number of outcomes). Always ensure all outcomes are equally likely and count them correctly.",
+        "example": "Roll a standard 6-sided die: probability of rolling a 4 is 1/6 because there is 1 favorable outcome (rolling a 4) out of 6 total possible outcomes.",
+        "memoryAnchor": "Favorable over Total – that's the theoretical total!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the probability of drawing a heart from a standard 52-card deck?",
+          "answer": "13/52 = 1/4"
+        },
+        {
+          "level": "L2",
+          "prompt": "What is the probability of rolling an even number on a 6-sided die?",
+          "answer": "3/6 = 1/2"
+        },
+        {
+          "level": "L3",
+          "prompt": "What is the probability of rolling a number less than 3 on a 6-sided die?",
+          "answer": "2/6 = 1/3"
+        }
+      ]
+    },
+    {
+      "errorId": "err-three-set-venn-probability",
+      "trigger": "The student struggles to correctly identify regions in a three-set Venn diagram and compute probabilities such as P(exactly one set), P(union), P(intersection), or P(complement).",
+      "studentMisunderstanding": "Students often misinterpret the Venn diagram regions, for example counting students in 'only one set' as including those in intersections, or forgetting to include the 'none' region in the total sample space.",
+      "miniLesson": {
+        "explain": "A three-set Venn diagram divides the sample space into 8 regions: three individual sets (A only, B only, C only), three pairwise intersections (A∩B only, A∩C only, B∩C only), one triple intersection (A∩B∩C), and the complement (none of them). To find the probability of an event, sum the counts in all regions that satisfy the event, then divide by the total number of subjects (including those in none).",
+        "example": "Consider a survey of after-school club participation: Sports (S), Music (M), Art (A). Counts: S only 13, M only 3, A only 4, S∩M only 6, S∩A only 4, M∩A only 2, all three 1, none 5. Total = 38. To find the probability a student is in exactly one club, sum the counts for S only (13), M only (3), A only (4) to get 20. So P = 20/38 = 10/19.",
+        "memoryAnchor": "Think of a Venn diagram as a pizza with 8 slices. Each slice is a unique combination of toppings. To get probability, count the slices you want and divide by the whole pizza (including the 'none' slice)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the after-school club survey (Sports, Music, Art) with total 38 students, the counts are: S only 13, M only 3, A only 4, S∩M only 6, S∩A only 4, M∩A only 2, all three 1, none 5. What is the probability that a randomly selected student is in only Sports?",
+          "answer": "13/38"
+        },
+        {
+          "level": "L2",
+          "prompt": "Using the same Venn diagram, what is the probability that a student is in exactly two clubs?",
+          "answer": "(6+4+2)/38 = 12/38 = 6/19"
+        },
+        {
+          "level": "L3",
+          "prompt": "Using the same Venn diagram, what is the probability that a student is in at least two clubs?",
+          "answer": "(6+4+2+1)/38 = 13/38"
+        }
+      ]
+    },
+    {
+      "errorId": "err-mutually-exclusive-events",
+      "trigger": "Student incorrectly determines mutual exclusivity for events that share a common outcome, e.g., a card being both a heart and a king.",
+      "studentMisunderstanding": "Students often think that events from different categories (e.g., suit vs rank) are automatically mutually exclusive because they are 'different' types, ignoring that a single outcome can belong to both events if it satisfies both conditions. They fail to check the intersection probability.",
+      "miniLesson": {
+        "explain": "Two events are mutually exclusive if they cannot happen at the same time. This means their intersection is empty: P(A∩B)=0. To check, ask: Can both events occur in a single trial? If yes, they are not mutually exclusive.",
+        "example": "Drawing a heart and drawing a king from a deck: There is one card that is both (king of hearts), so P(A∩B)=1/52. Since this is not zero, the events are not mutually exclusive.",
+        "memoryAnchor": "Think of a Venn diagram: if the circles overlap even a tiny bit, they are NOT mutually exclusive. Only when they are completely separate (no overlap) are they mutually exclusive."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "From a standard 52-card deck, are events 'drawing a red card' and 'drawing a club' mutually exclusive?",
+          "answer": "Yes, because a club is always black, so no overlap. P(A∩B)=0."
+        },
+        {
+          "level": "L2",
+          "prompt": "From a standard 52-card deck, let A = drawing a face card (Jack, Queen, King) and B = drawing a heart. Are they mutually exclusive?",
+          "answer": "No, because there are three face cards that are hearts: Jack of Hearts, Queen of Hearts, King of Hearts. So P(A∩B)=3/52."
+        },
+        {
+          "level": "L3",
+          "prompt": "Roll a 6-sided die. Let A = rolling an even number, B = rolling a number greater than 4. Are A and B mutually exclusive?",
+          "answer": "No, because 6 is both even and greater than 4, so they are not mutually exclusive. P(A∩B)=1/6."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-theoretical-probability",
+      "questions": [
+        {
+          "id": "retest-prob-1",
+          "type": "single_choice",
+          "stem": "A standard 6-sided die is rolled. What is the probability of rolling a prime number?",
+          "options": [
+            "3/6",
+            "2/6",
+            "1/6",
+            "4/6"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-prob-2",
+          "type": "open_ended",
+          "stem": "Explain the steps to calculate the probability of drawing a red card (heart or diamond) from a standard 52-card deck. Show your calculation.",
+          "rubric": "Student correctly identifies favorable outcomes as 26 red cards, total outcomes as 52, and calculates probability as 26/52 = 1/2. Explanation is clear and shows each step."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-three-set-venn-probability",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In a survey of 52 students about clubs Drama (D), Music (M), Sports (S), the counts are: D only:6, M only:3, S only:4, D∩M only:13, D∩S only:6, M∩S only:4, D∩M∩S:3, none:13. What is the probability that a randomly selected student is in exactly one club?",
+          "options": [
+            "13/52",
+            "1/4",
+            "1/2",
+            "3/13"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Using the same survey, what is the probability that a student is in at least two clubs? Express as a fraction in simplest form.",
+          "rubric": "1/2"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, accept equivalent fractions like 26/52."
+    },
+    {
+      "forErrorId": "err-mutually-exclusive-events",
+      "questions": [
+        {
+          "id": "retest-mutually-exclusive-1",
+          "type": "single_choice",
+          "stem": "A card is drawn from a standard 52-card deck. Let event A be 'drawing a face card' and event B be 'drawing a heart'. Are these events mutually exclusive?",
+          "options": [
+            "Yes, because they are different categories",
+            "No, because there are cards that are both face cards and hearts",
+            "Yes, because P(A) = 12/52 and P(B) = 13/52",
+            "No, because P(A ∪ B) = P(A) + P(B) - P(A ∩ B)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-mutually-exclusive-2",
+          "type": "open_ended",
+          "stem": "A standard 6-sided die is rolled once. Let event C be 'rolling a number less than 3' and event D be 'rolling an odd number'. Determine whether events C and D are mutually exclusive. Show your reasoning.",
+          "rubric": "Student must compute P(C∩D): outcomes that are less than 3 and odd are {1}, so P=1/6 ≠ 0, thus not mutually exclusive. Equivalent correct reasoning accepted."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. For the open-ended question, the answer must show correct reasoning that the events are not mutually exclusive because the intersection is non-empty."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-17",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/FAqfdM9PXoxZKbxGZ1ecLJqInwf?from=vc_group_doc_link#doxcnXJy5quAF00DFu8FihPBU1d",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-17 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "review_session",
+    "objective": "Theoretical probability = number of favorable outcomes / total number of outcomes, for discrete sample spaces where all outcomes equally likely.；Three-set Venn diagram: probability of single set, union, intersection, complement can be calculated using area counts.；Mutually exclusive events: P(A∪B)=P(A)+P(B)-P(A∩B). If P(A∩B)=0, events are mutually exclusive.",
+    "learningGoals": [
+      {
+        "id": "lg-theoretical",
+        "statement": "Students can calculate theoretical probability for discrete sample spaces with equally likely outcomes."
+      },
+      {
+        "id": "lg-venn",
+        "statement": "Students can calculate probabilities using three-set Venn diagrams, including unions, intersections, and complements."
+      },
+      {
+        "id": "lg-mutually-exclusive",
+        "statement": "Students can verify whether events are mutually exclusive using the formula P(A∪B)=P(A)+P(B)-P(A∩B)."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 1 Assignment Submission",
+        "studentAction": "Complete Unit 1 assignment covering all core topics (theoretical probability, set-based probability, conditional probability, independent events, permutation and combination). Choose between in-class live presentation or pre-recorded video submission. Optionally integrate Python probability simulation for bonus marks.",
+        "deadlineText": "Within one week from lesson date (2026-07-17 to approx. 2026-07-24)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students are given a full one-week window to complete the assignment",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 Test Date Range",
+        "studentAction": "Prepare for Unit 1 test; test date will be announced once all students master in-class activities, expected between Monday and Wednesday.",
+        "deadlineText": "Between Monday Jul 20 and Wednesday Jul 22, 2026",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Test date is currently expected to fall between the coming Monday and Wednesday",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "review_focus",
+        "title": "Pre-test Review Session",
+        "studentAction": "Attend the dedicated test review session with collective Q&A and group problem solving before the test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "A dedicated test review session with collective Q&A and group problem solving will be held prior to the test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_requirement",
+        "title": "Open-book Test Format",
+        "studentAction": "Ensure access to reference materials during the online test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The test is delivered in online format, with permitted reference materials accessible to students",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "follow_up_action",
+        "title": "Complete Unresolved Class Activity Questions",
+        "studentAction": "Only complete class activity questions that were not resolved during the live session; no redundant work on already covered content.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students only need to complete class activity questions that were not resolved during live sessions",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Optional Bonus: Python Probability Simulation",
+        "studentAction": "Optionally integrate Python-based probability simulation using matplotlib, pandas, and numpy to connect with real-world AI applications for bonus marks.",
+        "deadlineText": "Same as Unit 1 Assignment deadline",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students may optionally integrate Python-based probability simulation... eligible submissions receive extra bonus marks",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "theoretical-probability",
+      "three-set-venn-probability",
+      "mutually-exclusive-events"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-theoretical-probability",
+        "condition": "Student answers incorrectly on any question with this errorId.",
+        "systemAction": "Assign reteach module for err-theoretical-probability."
+      },
+      {
+        "errorId": "err-three-set-venn-probability",
+        "condition": "Student answers incorrectly on question targeting this errorId.",
+        "systemAction": "Assign reteach module for err-three-set-venn-probability."
+      },
+      {
+        "errorId": "err-mutually-exclusive-events",
+        "condition": "Student answers incorrectly on question targeting this errorId.",
+        "systemAction": "Assign reteach module for err-mutually-exclusive-events."
+      }
+    ],
+    "nextActions": [
+      "[err-theoretical-probability] Student answers incorrectly on any question with this errorId.: You need more practice on calculating theoretical probability. Review the ratio of favorable to total outcomes.",
+      "[err-three-set-venn-probability] Student answers incorrectly on question targeting this errorId.: You need more practice interpreting Venn diagrams for probability. Focus on identifying counts in each region.",
+      "[err-mutually-exclusive-events] Student answers incorrectly on question targeting this errorId.: You need more practice on mutually exclusive events. Remember to check if the intersection is zero."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-s6-q1",
+        "type": "choice",
+        "question": "If you roll a standard 6‑sided die, what is the theoretical probability of rolling a number greater than 4?",
+        "options": [
+          "1/6",
+          "1/3",
+          "1/2",
+          "2/3"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can apply the definition of theoretical probability to a simple dice scenario.",
+        "misconceptions": [
+          "1/6 would be the probability of rolling a single specific number, not numbers greater than 4.",
+          "✓ Correct. The numbers greater than 4 are 5 and 6 (2 favorable outcomes out of 6 total), so the probability is 2/6 = 1/3.",
+          "1/2 would be correct if 3 out of 6 outcomes were favorable, but here only 2 are favorable.",
+          "2/3 would require 4 favorable outcomes out of 6, but only 2 are favorable."
+        ],
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-theoretical",
+        "successCriteria": "Student correctly identifies 2 favorable outcomes (5 and 6) and calculates 2/6 = 1/3.",
+        "ossdExpectation": "Determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses theoretical probability calculation as per SE A1.3 and aligns with OE A1 node.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may incorrectly count favorable outcomes (e.g., only one number greater than 4) or include 4 itself.",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability"
+      },
+      {
+        "id": "diag-mdm4u-s6-q2",
+        "type": "choice",
+        "question": "The Venn diagram below shows the number of students in three after-school clubs: Sports, Music, and Art. If a student is selected at random, what is the probability that they are in exactly one club?",
+        "options": [
+          "20/38",
+          "13/38",
+          "17/38",
+          "7/38"
+        ],
+        "correct": 0,
+        "diagnosis": "Assess ability to read a three-set Venn diagram and calculate the probability of a compound event (exactly one set).",
+        "misconceptions": [
+          "✓ Correct. Exactly one club includes only Sports (13), only Music (3), only Art (4); total 20 out of 38 students.",
+          "13/38 accounts only for students in only Sports, ignoring those in only Music and only Art.",
+          "17/38 might come from adding only Sports and only Art but forgetting only Music.",
+          "7/38 corresponds to the sum of students in exactly two clubs, not exactly one."
+        ],
+        "nodeId": "three-set-venn-probability",
+        "errorId": "err-three-set-venn-probability",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-venn",
+        "successCriteria": "Student identifies counts of regions in exactly one set and sums them to correct total count.",
+        "ossdExpectation": "Recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question uses a Venn diagram to calculate probability of an event (exactly one club), aligning with SE A1.5.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may misinterpret counts (e.g., sum all nonzero regions without distinguishing exact one) or forget to include 'none' region in total.",
+        "remediationModule": "err-three-set-venn-probability",
+        "retestItem": "err-three-set-venn-probability"
+      },
+      {
+        "id": "diag-mdm4u-s6-q3",
+        "type": "choice",
+        "question": "From a standard 52-card deck, let event A be drawing a heart and event B be drawing a king. Are events A and B mutually exclusive?",
+        "options": [
+          "Yes, because P(A∩B)=0",
+          "No, because P(A∩B)=1/52",
+          "Yes, because they are different suits",
+          "No, because P(A∪B)=P(A)+P(B)-P(A∩B) is not zero"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can determine mutual exclusivity by considering whether the events can occur together.",
+        "misconceptions": [
+          "Actually, the king of hearts belongs to both events, so P(A∩B) = 1/52, not 0.",
+          "✓ Correct. The king of hearts is both a heart and a king, so the intersection is non-empty; events are not mutually exclusive.",
+          "Different suits do not guarantee mutual exclusivity; a card can be both a heart and a king.",
+          "The formula itself is always true; mutual exclusivity is determined by whether P(A∩B)=0, not by the union sum being zero."
+        ],
+        "nodeId": "mutually-exclusive-events",
+        "errorId": "err-mutually-exclusive-events",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-mutually-exclusive",
+        "successCriteria": "Student recognizes that P(A∩B) ≠ 0 (king of hearts) and therefore events are not mutually exclusive.",
+        "ossdExpectation": "Recognize and describe an event as a set of outcomes and as a subset of a sample space, determine the complement of an event, determine whether two or more events are mutually exclusive or non-mutually exclusive (e.g., the events of getting an even number or getting an odd number of heads from tossing a coin 5 times are mutually exclusive), and solve related probability problems [e.g., calculate P(~A), P(A and B), P(A or B)] using a variety of strategies.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analyzing whether two events are mutually exclusive, directly matching SE A1.5.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student thinks that because something is a heart and also a king are different categories, they cannot happen together; or that drawing a king always excludes hearts.",
+        "remediationModule": "err-mutually-exclusive-events",
+        "retestItem": "err-mutually-exclusive-events"
+      },
+      {
+        "id": "diag-mdm4u-s6-q4",
+        "type": "choice",
+        "question": "Two-way table of elementary students' goals:\n\n|            | Popular | Sports | Good Grades |\n|------------|---------|--------|-------------|\n| Female     | 30      | 30     | 40          |\n| Male       | 20      | 10     | 20          |\n\nWhat is the probability that a student who is female chose Sports?",
+        "options": [
+          "30/100",
+          "30/150",
+          "30/40",
+          "10/50"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can compute a conditional probability by correctly restricting the sample space to the condition (female).",
+        "misconceptions": [
+          "✓ Correct. There are 100 females total, and 30 of them chose Sports.",
+          "30/150 would be the probability that a random student is female and chose Sports, not the conditional probability given female.",
+          "30/40 uses total number of students who chose Sports (40) as denominator; that would be P(female | Sports).",
+          "10/50 is the probability that a male student chose Sports, not female."
+        ],
+        "nodeId": "theoretical-probability",
+        "errorId": "err-theoretical-probability",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-theoretical",
+        "successCriteria": "Student correctly identifies the base (all females) and calculates 30/100.",
+        "ossdExpectation": "Determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Conditional probability here requires theoretical probability from a subset of the sample space, aligning with SE A1.3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student uses total sample space as denominator (150) or uses the intersection of female and sports over total sports (30/40).",
+        "remediationModule": "err-theoretical-probability",
+        "retestItem": "err-theoretical-probability"
+      }
+    ]
+  }
+}

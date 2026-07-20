@@ -1,0 +1,570 @@
+{
+  "sourceLesson": "CIA4U.S6.Bianca 2026-07-20",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HziGd8hhqoXCG7xZEbBciUmYnfb?from=vc_group_doc_link#doxcn7ljChVkm3alsusOtzhS5fc",
+  "sourceTitle": "CIA4U.S6.Bianca 2026-07-20 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/HziGd8hhqoXCG7xZEbBciUmYnfb?from=vc_group_doc_link#doxcn7ljChVkm3alsusOtzhS5fc",
+    "title": "CIA4U.S6.Bianca 2026-07-20 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-20/sources/cia4u-s6-bianca-2026-07-20/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "CIA4U",
+  "lessonDate": "2026-07-20",
+  "teacher": "Bianca",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-20",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The session includes a pre-test briefing and the Unit 1 test, but also contains academic content signals such as case study details, policy comparison, and essay format. Thus it is a mix of exam logistics and academic content.",
+    "academicContentSignals": [
+      "Case study: 'The Economic Crisis in Rivermark'",
+      "Policy approaches cross-comparison",
+      "Resource allocation analysis",
+      "Identification of 2+ unemployment types",
+      "Evidence from case and in-class content",
+      "Essay format: ~700 words, 3 pages double-spaced"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "High - the session is dominated by test logistics (submission, camera, communication rules). Academic content is limited to test requirements, which risks overshadowing learning diagnostics. However, since the diagnostic exit card is generated, care must be taken to test the academic content rather than logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Submit Unit 1 test essay within 10 minutes of announcement",
+        "studentAction": "Submit completed test paper via the provided link within 10 minutes of the teacher's announcement.",
+        "deadlineText": "Within 10 minutes of announcement during session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "all attendees must submit completed test papers within 10 minutes of the announcement",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "attendance_camera",
+        "title": "Keep camera on during entire test",
+        "studentAction": "Keep camera on and remain visible to the host for the full test duration.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Attendees must keep their cameras on and remain visible to the host for the full duration of the test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Use private messages for test questions",
+        "studentAction": "Send private messages to the host for any test-related questions; do not use microphone.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu (implied)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Attendees shall send private messages to the host for any test-related questions, and avoid using microphones",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "teacher_request",
+        "title": "Email host for technical submission issues",
+        "studentAction": "If technical glitches occur during submission, contact the host via email for support.",
+        "deadlineText": "During submission window",
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "students encountering technical issues",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "If attendees encounter technical glitches during the submission process, they can contact the host via email for support",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Next class resumes tomorrow (July 21)",
+        "studentAction": "Attend regular course session on the day following the test.",
+        "deadlineText": "2026-07-21 (next class day)",
+        "deadlineISO": "2026-07-21T09:50:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The host confirms that regular course sessions will resume as scheduled on the day immediately following the test",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "The test link has been pre-released",
+        "reason": "No specific link or platform provided in the notes."
+      }
+    ]
+  },
+  "title": "CIA4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Unit 1 Test: Case Study Analysis）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The Unit 1 test requires writing a structured analytical essay based on the one-page case study 'The Economic Crisis in Rivermark'.；The essay must be approximately 700 words (3 full pages, double-spaced).；The essay must include cross-comparison of at least 2 policy approaches, resource allocation analysis, identification of 2+ unemployment types, and evidence from the case and in-class content.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify the key analytical requirements of the Unit 1 test essay, including cross-comparison of policy approaches, resource allocation analysis, and unemployment type identification."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "unit1-test-case-analysis",
+      "name": "Unit 1 Test: Case Study Analysis",
+      "nameEn": "Unit 1 Test: Case Study Analysis",
+      "definition": "The test requires students to analyse the case study 'The Economic Crisis in Rivermark' using the economic inquiry process, including cross-comparing policy approaches, analyzing resource allocation, and identifying unemployment types.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "CIA4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the key analytical requirements of the Unit 1 test essay, including cross-comparison of policy approaches, resource allocation analysis, and unemployment type identification."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-unit1-test-requirements-misunderstanding",
+        "condition": "student picks wrong option on any question targeting this errorId or provides incomplete open response",
+        "systemAction": "assign reteach module for err-unit1-test-requirements-misunderstanding",
+        "studentMessage": "It looks like the test requirements aren't fully clear yet. Let's review what the essay needs to include so you feel ready."
+      }
+    ],
+    "questions": [
+      {
+        "id": "cia4u-diag-q1",
+        "nodeId": "unit1-test-case-analysis",
+        "errorId": "err-unit1-test-requirements-misunderstanding",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that the essay must cross-compare at least two policy approaches.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The test requires applying the economic inquiry process to a case study, matching OE A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if students understand the requirement to compare multiple policy approaches.",
+        "commonMisconception": "Students may think only one policy approach is needed or that description alone suffices.",
+        "remediationModule": "err-unit1-test-requirements-misunderstanding",
+        "retestItem": "err-unit1-test-requirements-misunderstanding",
+        "stem": "According to the Unit 1 test briefing, the essay on 'The Economic Crisis in Rivermark' must include:",
+        "options": [
+          {
+            "label": "A",
+            "text": "A summary of the case study without any policy comparison.",
+            "correct": false,
+            "feedbackWrong": "The test specifically requires cross-comparison of at least two policy approaches, not just a summary."
+          },
+          {
+            "label": "B",
+            "text": "Cross-comparison of at least two different policy approaches.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The essay must compare at least two policy approaches to address the crisis."
+          },
+          {
+            "label": "C",
+            "text": "A detailed description of one policy and its effects.",
+            "correct": false,
+            "feedbackWrong": "The requirement is to cross-compare multiple approaches, not just describe one."
+          },
+          {
+            "label": "D",
+            "text": "Only an analysis of resource allocation.",
+            "correct": false,
+            "feedbackWrong": "Resource allocation analysis is required, but it must be combined with other elements like policy comparison."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-unit1-test-requirements-misunderstanding."
+      },
+      {
+        "id": "cia4u-diag-q2",
+        "nodeId": "unit1-test-case-analysis",
+        "errorId": "err-unit1-test-requirements-misunderstanding",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that the essay must identify at least two types of unemployment.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Identifying unemployment types applies economic concepts to a case, aligning with OE A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if students recall the requirement to identify multiple unemployment types.",
+        "commonMisconception": "Students may think identifying one unemployment type is enough, or they may forget this requirement entirely.",
+        "remediationModule": "err-unit1-test-requirements-misunderstanding",
+        "retestItem": "err-unit1-test-requirements-misunderstanding",
+        "stem": "In the Unit 1 test essay, how many types of unemployment must you identify and analyse?",
+        "options": [
+          {
+            "label": "A",
+            "text": "At least one type.",
+            "correct": false,
+            "feedbackWrong": "The requirement is to identify at least two types of unemployment."
+          },
+          {
+            "label": "B",
+            "text": "At least two types.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The essay must identify and analyse two or more types of unemployment."
+          },
+          {
+            "label": "C",
+            "text": "Exactly three types.",
+            "correct": false,
+            "feedbackWrong": "The requirement is at least two, not exactly three. You can include more if relevant."
+          },
+          {
+            "label": "D",
+            "text": "Unemployment types are not required; only resource allocation matters.",
+            "correct": false,
+            "feedbackWrong": "Identifying unemployment types is a mandatory component of the essay."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-unit1-test-requirements-misunderstanding."
+      },
+      {
+        "id": "cia4u-diag-q3",
+        "nodeId": "unit1-test-case-analysis",
+        "errorId": "err-unit1-test-requirements-misunderstanding",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student describes the essay structure, including cross-comparison, resource allocation analysis, unemployment types, and use of case evidence.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applying the inquiry process to structure an essay demonstrates understanding of OE A1.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "construct",
+        "stemIntent": "Assess if students can articulate how to meet the essay requirements in their own words.",
+        "commonMisconception": "Students may think the essay is just a summary or can omit key analytical components.",
+        "remediationModule": "err-unit1-test-requirements-misunderstanding",
+        "retestItem": "err-unit1-test-requirements-misunderstanding",
+        "stem": "Describe how you would structure the essay on 'The Economic Crisis in Rivermark' to include all required elements: cross-comparison of policy approaches, resource allocation analysis, identification of unemployment types, and use of evidence from the case and in-class content. (2-4 sentences)",
+        "rubric": "Full credit: mentions at least two policy approaches compared, resource allocation analysis, two or more unemployment types, and use of case/class evidence.",
+        "sampleStrongAnswer": "I would start by briefly outlining the crisis and its context. Then I would compare two policy approaches (e.g., market-based vs. government intervention), analysing how each allocates scarce resources. Next, I would identify at least two types of unemployment (e.g., structural and cyclical) evident in the case, linking them to the policy effects. Throughout, I would cite specific details from the Rivermark case and concepts from class.",
+        "nextActionIfWrong": "Enter reteach module for err-unit1-test-requirements-misunderstanding."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-unit1-test-requirements-misunderstanding",
+      "condition": "student picks wrong option on any question targeting this errorId or provides incomplete open response",
+      "systemAction": "assign reteach module for err-unit1-test-requirements-misunderstanding",
+      "studentMessage": "It looks like the test requirements aren't fully clear yet. Let's review what the essay needs to include so you feel ready."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-unit1-test-requirements-misunderstanding",
+      "trigger": "Student selects incorrect responses on diagnostic questions about test requirements or provides incomplete open response.",
+      "studentMisunderstanding": "Students may think the essay only requires describing one policy or summarizing the case, and may omit cross-comparison, resource allocation analysis, or identification of multiple unemployment types.",
+      "miniLesson": {
+        "explain": "The Unit 1 test essay on 'The Economic Crisis in Rivermark' must be a structured analytical essay. You must cross-compare at least two different policy approaches, analyze how resources are allocated under each, identify two or more types of unemployment present in the case, and support your analysis with evidence from the case study and our in-class discussions. The essay should be about 700 words (3 double-spaced pages).",
+        "example": "For example, you could compare a market-based policy (like deregulation) with a government intervention policy (like stimulus spending). Explain how each allocates scarce resources (e.g., tax incentives vs. direct spending) and identify unemployment types such as structural (due to industry decline) and cyclical (due to recession). Use details from the Rivermark case, like job losses in manufacturing and the housing bubble.",
+        "memoryAnchor": "Remember the acronym 'CRAVE': Cross-compare two policies, Resource allocation analysis, At least two Unemployment types, Evidence from case and class."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "List the four mandatory components that must be included in the Unit 1 test essay on 'The Economic Crisis in Rivermark'.",
+          "answer": "Cross-comparison of at least two policy approaches, resource allocation analysis, identification of two or more unemployment types, and evidence from the case study and in-class content."
+        },
+        {
+          "level": "L2",
+          "prompt": "Describe how you would integrate the cross-comparison of two policy approaches with the identification of unemployment types in your essay. Use the Rivermark case as an example.",
+          "answer": "I would compare a fiscal policy approach (e.g., government stimulus) with a monetary policy approach (e.g., low interest rates). I would analyze how each allocates resources: fiscal provides direct aid to affected sectors, while monetary encourages investment. Then I would identify cyclical unemployment from the recession and structural unemployment from the decline of Rivermark's manufacturing, linking each to the policy chosen."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a short paragraph (3-4 sentences) that demonstrates how to use evidence from the Rivermark case to support the identification of two unemployment types and a policy comparison.",
+          "answer": "In Rivermark, the closure of the steel plant led to structural unemployment as workers lacked skills for growing industries, while the overall economic downturn caused cyclical unemployment. A market-based policy of retraining vouchers reallocates resources to education, whereas a government jobs program directly creates employment. Using case data on plant closures and unemployment rates, we see that retraining addressed structural issues but was slower to reduce cyclical joblessness."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-unit1-test-requirements-misunderstanding",
+      "questions": [
+        {
+          "id": "retest-q1-err-unit1-test-requirements-misunderstanding",
+          "type": "single_choice",
+          "stem": "A student writes the following essay plan for the Unit 1 test on 'The Economic Crisis in Rivermark':\n- Introduction: context of Rivermark\n- Body 1: Compare two policy approaches (deregulation and stimulus) and analyze resource allocation (tax incentives vs direct spending)\n- Body 2: Identify one unemployment type (cyclical) and cite case data\n- Conclusion\nWhat mandatory requirement is missing from this plan?",
+          "options": [
+            "Identification of at least two unemployment types",
+            "Cross-comparison of at least two policy approaches",
+            "Resource allocation analysis",
+            "Evidence from case and in-class content"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-q2-err-unit1-test-requirements-misunderstanding",
+          "type": "open_ended",
+          "stem": "Imagine you are analyzing a different case study about a city facing a housing crisis. Briefly outline how you would structure an essay to include all four mandatory components from the Unit 1 test. Your outline should mention specific elements for each component.",
+          "rubric": "Student must explicitly mention: cross-comparison of at least two policy approaches (e.g., rent control vs. housing vouchers), resource allocation analysis (e.g., government funding vs. market pricing), identification of at least two unemployment types (e.g., structural due to construction decline, cyclical from recession), and evidence from case and class. Provide a brief outline showing integration."
+        }
+      ],
+      "passRule": "Answer both questions correctly: Q1 selects correct missing component; Q2 includes all four mandatory components in outline."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-20",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HziGd8hhqoXCG7xZEbBciUmYnfb?from=vc_group_doc_link#doxcn7ljChVkm3alsusOtzhS5fc",
+    "sourceTitle": "CIA4U.S6.Bianca 2026-07-20 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "The Unit 1 test requires writing a structured analytical essay based on the one-page case study 'The Economic Crisis in Rivermark'.；The essay must be approximately 700 words (3 full pages, double-spaced).；The essay must include cross-comparison of at least 2 policy approaches, resource allocation analysis, identification of 2+ unemployment types, and evidence from the case and in-class content.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the key analytical requirements of the Unit 1 test essay, including cross-comparison of policy approaches, resource allocation analysis, and unemployment type identification."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Submit Unit 1 test essay within 10 minutes of announcement",
+        "studentAction": "Submit completed test paper via the provided link within 10 minutes of the teacher's announcement.",
+        "deadlineText": "Within 10 minutes of announcement during session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "all attendees must submit completed test papers within 10 minutes of the announcement",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "attendance_camera",
+        "title": "Keep camera on during entire test",
+        "studentAction": "Keep camera on and remain visible to the host for the full test duration.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Attendees must keep their cameras on and remain visible to the host for the full duration of the test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Use private messages for test questions",
+        "studentAction": "Send private messages to the host for any test-related questions; do not use microphone.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu (implied)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Attendees shall send private messages to the host for any test-related questions, and avoid using microphones",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "teacher_request",
+        "title": "Email host for technical submission issues",
+        "studentAction": "If technical glitches occur during submission, contact the host via email for support.",
+        "deadlineText": "During submission window",
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "students encountering technical issues",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "If attendees encounter technical glitches during the submission process, they can contact the host via email for support",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Next class resumes tomorrow (July 21)",
+        "studentAction": "Attend regular course session on the day following the test.",
+        "deadlineText": "2026-07-21 (next class day)",
+        "deadlineISO": "2026-07-21T09:50:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The host confirms that regular course sessions will resume as scheduled on the day immediately following the test",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "The test link has been pre-released",
+        "reason": "No specific link or platform provided in the notes."
+      }
+    ],
+    "watchTags": [
+      "unit1-test-case-analysis"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "errorId": "err-unit1-test-requirements-misunderstanding",
+        "condition": "student picks wrong option on any question targeting this errorId or provides incomplete open response",
+        "systemAction": "assign reteach module for err-unit1-test-requirements-misunderstanding"
+      }
+    ],
+    "nextActions": [
+      "[err-unit1-test-requirements-misunderstanding] student picks wrong option on any question targeting this errorId or provides incomplete open response: It looks like the test requirements aren't fully clear yet. Let's review what the essay needs to include so you feel ready."
+    ],
+    "cards": [
+      {
+        "id": "cia4u-diag-q1",
+        "type": "choice",
+        "question": "According to the Unit 1 test briefing, the essay on 'The Economic Crisis in Rivermark' must include:",
+        "options": [
+          "A summary of the case study without any policy comparison.",
+          "Cross-comparison of at least two different policy approaches.",
+          "A detailed description of one policy and its effects.",
+          "Only an analysis of resource allocation."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if students understand the requirement to compare multiple policy approaches.",
+        "misconceptions": [
+          "The test specifically requires cross-comparison of at least two policy approaches, not just a summary.",
+          "✓ Correct. The essay must compare at least two policy approaches to address the crisis.",
+          "The requirement is to cross-compare multiple approaches, not just describe one.",
+          "Resource allocation analysis is required, but it must be combined with other elements like policy comparison."
+        ],
+        "nodeId": "unit1-test-case-analysis",
+        "errorId": "err-unit1-test-requirements-misunderstanding",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that the essay must cross-compare at least two policy approaches.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The test requires applying the economic inquiry process to a case study, matching OE A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think only one policy approach is needed or that description alone suffices.",
+        "remediationModule": "err-unit1-test-requirements-misunderstanding",
+        "retestItem": "err-unit1-test-requirements-misunderstanding"
+      },
+      {
+        "id": "cia4u-diag-q2",
+        "type": "choice",
+        "question": "In the Unit 1 test essay, how many types of unemployment must you identify and analyse?",
+        "options": [
+          "At least one type.",
+          "At least two types.",
+          "Exactly three types.",
+          "Unemployment types are not required; only resource allocation matters."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if students recall the requirement to identify multiple unemployment types.",
+        "misconceptions": [
+          "The requirement is to identify at least two types of unemployment.",
+          "✓ Correct. The essay must identify and analyse two or more types of unemployment.",
+          "The requirement is at least two, not exactly three. You can include more if relevant.",
+          "Identifying unemployment types is a mandatory component of the essay."
+        ],
+        "nodeId": "unit1-test-case-analysis",
+        "errorId": "err-unit1-test-requirements-misunderstanding",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that the essay must identify at least two types of unemployment.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Identifying unemployment types applies economic concepts to a case, aligning with OE A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think identifying one unemployment type is enough, or they may forget this requirement entirely.",
+        "remediationModule": "err-unit1-test-requirements-misunderstanding",
+        "retestItem": "err-unit1-test-requirements-misunderstanding"
+      },
+      {
+        "id": "cia4u-diag-q3",
+        "type": "explain",
+        "question": "Describe how you would structure the essay on 'The Economic Crisis in Rivermark' to include all required elements: cross-comparison of policy approaches, resource allocation analysis, identification of unemployment types, and use of evidence from the case and in-class content. (2-4 sentences)",
+        "correct": null,
+        "diagnosis": "Assess if students can articulate how to meet the essay requirements in their own words.",
+        "nodeId": "unit1-test-case-analysis",
+        "errorId": "err-unit1-test-requirements-misunderstanding",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student describes the essay structure, including cross-comparison, resource allocation analysis, unemployment types, and use of case evidence.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applying the inquiry process to structure an essay demonstrates understanding of OE A1.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "construct",
+        "commonMisconception": "Students may think the essay is just a summary or can omit key analytical components.",
+        "remediationModule": "err-unit1-test-requirements-misunderstanding",
+        "retestItem": "err-unit1-test-requirements-misunderstanding"
+      }
+    ]
+  }
+}

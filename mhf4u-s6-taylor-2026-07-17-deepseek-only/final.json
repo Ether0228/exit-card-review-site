@@ -1,0 +1,1038 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-17",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ZT4rdtTS6oFtTlxoGGxcll08n8c?from=vc_group_doc_link#doxcnXsnY5Cn7wAxNrTBgu3VS0d",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-17 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/ZT4rdtTS6oFtTlxoGGxcll08n8c?from=vc_group_doc_link#doxcnXsnY5Cn7wAxNrTBgu3VS0d",
+    "title": "MHF4U.S6.Taylor 2026-07-17 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-20/sources/mhf4u-s6-taylor-2026-07-17/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-17",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-17",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The lesson is a pre-quiz briefing that includes both operational logistics (quiz rules, deadlines, platform access) and a review of key academic content (function properties, polynomial characteristics, graph analysis). Therefore, it is a mixed lesson with both administrative and academic components.",
+    "academicContentSignals": [
+      "function degree and leading coefficient identification",
+      "domain/range notation",
+      "polynomial parity judgment",
+      "end behavior and turning point calculation",
+      "finite difference based polynomial degree calculation",
+      "polynomial equation derivation from graphs/zeros/y-intercepts",
+      "explanation of root orders effect on x-axis performance",
+      "hand-drawing of function graphs with intercepts and end behavior"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "medium - Although the lesson covers operational logistics, significant academic content is also reviewed. Care must be taken to ensure the diagnostic exit card primarily tests the academic content rather than being overshadowed by operational readiness checks.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "material_needed",
+        "title": "Access Unit 1 Quiz file",
+        "studentAction": "Navigate to the Evaluations folder under the Unit 1 directory on the course platform to find the clickable quiz entry. Confirm the exact platform (likely D2L or equivalent).",
+        "deadlineText": "End of class on 2026-07-17",
+        "deadlineISO": "2026-07-17T09:57:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The test file is stored in the Evaluations folder under the Unit 1 directory, and students can access it via the corresponding clickable entry.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "Quiz submission deadline",
+        "studentAction": "Submit the quiz by the end of the current class (approximately 09:57). Extensions are only available if you notify via the group chat before the deadline.",
+        "deadlineText": "End of class on 2026-07-17",
+        "deadlineISO": "2026-07-17T09:57:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The default submission deadline is the end of the current class, and extensions are only available for students who notify via group chat.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Allowed calculator type",
+        "studentAction": "Only standard non-graphing calculators are permitted during the quiz. Graphing calculators are not allowed.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Allowed tools: Only standard non-graphing calculators are permitted for use during the entire quiz period.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_requirement",
+        "title": "Handwriting and paper requirements",
+        "studentAction": "Handwrite all answers on any type of paper except dark-colored paper. Do not write on the provided test sheet.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Answer carrier: All answers must be handwritten on any type of paper except dark-colored paper, and no writing on the provided test sheet is allowed.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_requirement",
+        "title": "Show all problem-solving steps",
+        "studentAction": "Present all problem-solving processes fully, even for simple operations like trinomial factoring. Missing steps will lead to mark deductions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Step display: All problem-solving processes must be fully presented, even for simple operations such as trinomial factoring, and missing steps will lead to mark deductions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "exam_requirement",
+        "title": "Forbidden items",
+        "studentAction": "Do not use any external resources or technological tools. Reference materials are only allowed with instructor approval.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Forbidden items: No external resources or other technological tools are allowed, and no reference materials can be used without instructor approval.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "teacher_request",
+        "title": "Request equation list if needed",
+        "studentAction": "If you need an equation list during the quiz, ask the instructor. The instructor will provide it on demand.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Emergency support: Students can request required equation lists from the instructor at any time during the quiz, and the instructor will provide them on demand.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "class_policy",
+        "title": "Extension notification via group chat",
+        "studentAction": "If you need an extension, notify the instructor via the group chat before the deadline. Extensions are only available for those who notify.",
+        "deadlineText": "Before end of class on 2026-07-17",
+        "deadlineISO": "2026-07-17T09:57:00+08:00",
+        "platform": "group chat (likely Feishu/WeChat)",
+        "link": null,
+        "appliesTo": "Students needing extension",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Extensions are only available for students who notify via group chat.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "The test file is stored in the Evaluations folder under the Unit 1 directory",
+        "reason": "Exact course platform (e.g., D2L, Canvas) and direct URL to the quiz file are not specified."
+      },
+      {
+        "rawText": "Extensions are only available for students who notify via group chat",
+        "reason": "Specific group chat platform (e.g., Feishu, WeChat) is not explicitly stated."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Polynomial Functions Features、Polynomial Equations and Problems）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The Unit 1 Quiz has four sections: Knowledge and Understanding (18 marks), Thinking Inquiry (12), Communication (10), Application (10), total 50 marks.；All answers must be handwritten on light-colored paper; full steps must be shown.；Only standard non-graphing calculators are allowed; no external resources.",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-C-OE01",
+      "name": "Polynomial Functions Features",
+      "nameEn": "Identify and describe key features of polynomial functions",
+      "definition": "Function degree and leading coefficient identification, domain/range notation, polynomial parity judgment, end behavior and turning point calculation.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    },
+    {
+      "id": "MHF4U-C-OE03",
+      "name": "Polynomial Equations and Problems",
+      "nameEn": "Solve problems involving polynomial and simple rational equations",
+      "definition": "Finite difference based polynomial degree calculation, and polynomial equation derivation from given graphs, zeros and y-intercepts.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "4-5 correct",
+      "targetedRemediation": "2-3 correct",
+      "reteach": "0-1 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-mhf4u-0717-q1",
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-polynomial-degree-leading-coefficient",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies degree and leading coefficient sign.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses identifying polynomial degree and leading coefficient.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can correctly identify degree and leading coefficient from a polynomial expression.",
+        "commonMisconception": "Student thinks leading coefficient sign is determined by the sign of the first term without considering negative sign, or confuses degree with the highest exponent.",
+        "remediationModule": "err-polynomial-degree-leading-coefficient",
+        "retestItem": "err-polynomial-degree-leading-coefficient",
+        "stem": "Given the polynomial f(x) = -2x^3 + 5x^2 - x + 4, the degree is ___ and the leading coefficient is ___.",
+        "options": [
+          {
+            "label": "A",
+            "text": "degree 3, positive",
+            "correct": false,
+            "feedbackWrong": "The degree is correct, but the leading coefficient is negative because the coefficient of x^3 is -2."
+          },
+          {
+            "label": "B",
+            "text": "degree 3, negative",
+            "correct": true,
+            "feedbackCorrect": "Correct. The degree is 3 and the leading coefficient is -2, which is negative."
+          },
+          {
+            "label": "C",
+            "text": "degree 4, positive",
+            "correct": false,
+            "feedbackWrong": "The highest exponent is 3, not 4. Also, the leading coefficient is negative."
+          },
+          {
+            "label": "D",
+            "text": "degree 4, negative",
+            "correct": false,
+            "feedbackWrong": "The degree is 3, not 4. The leading coefficient is negative, so that part is correct, but the degree is wrong."
+          }
+        ],
+        "nextActionIfWrong": "Remediation: Review how to identify degree and leading coefficient sign."
+      },
+      {
+        "id": "diag-mhf4u-0717-q2",
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-root-order-behavior",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies the behavior of the graph at a root of multiplicity 2.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Root behavior is a key feature of polynomial graphs.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check student understanding of how root multiplicity affects x-axis behavior.",
+        "commonMisconception": "Thinks that all roots cause crossing, or that multiplicity 2 causes crossing with flattening.",
+        "remediationModule": "err-root-order-behavior",
+        "retestItem": "err-root-order-behavior",
+        "stem": "A polynomial has a factor (x-3)^2. What happens to the graph at x=3?",
+        "figureSvg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"50\" y1=\"180\" x2=\"250\" y2=\"180\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"180\" x2=\"50\" y2=\"20\" stroke=\"black\" stroke-width=\"2\"/><text x=\"250\" y=\"195\" text-anchor=\"end\">x</text><text x=\"40\" y=\"20\" text-anchor=\"end\">y</text><line x1=\"50\" y1=\"180\" x2=\"50\" y2=\"185\" stroke=\"black\"/><text x=\"50\" y=\"200\" text-anchor=\"middle\">0</text><line x1=\"150\" y1=\"180\" x2=\"150\" y2=\"185\" stroke=\"black\"/><text x=\"150\" y=\"200\" text-anchor=\"middle\">3</text><line x1=\"250\" y1=\"180\" x2=\"250\" y2=\"185\" stroke=\"black\"/><text x=\"250\" y=\"200\" text-anchor=\"middle\">6</text><path d=\"M 50 20 Q 150 180 250 20\" fill=\"none\" stroke=\"blue\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"180\" r=\"3\" fill=\"red\"/></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "The graph crosses the x-axis.",
+            "correct": false,
+            "feedbackWrong": "For a root of even multiplicity, the graph touches the x-axis and turns, not crosses."
+          },
+          {
+            "label": "B",
+            "text": "The graph touches and turns at the x-axis.",
+            "correct": true,
+            "feedbackCorrect": "Correct. For a root of multiplicity 2, the graph touches the x-axis and goes back in the same direction."
+          },
+          {
+            "label": "C",
+            "text": "The graph crosses with a point of inflection.",
+            "correct": false,
+            "feedbackWrong": "A point of inflection occurs for roots of odd multiplicity greater than 1, not for even multiplicity."
+          },
+          {
+            "label": "D",
+            "text": "The graph has a hole at x=3.",
+            "correct": false,
+            "feedbackWrong": "Holes are associated with rational functions, not polynomial functions."
+          }
+        ],
+        "nextActionIfWrong": "Remediation: Review how root orders 1, 2, and 3 affect x-axis behavior."
+      },
+      {
+        "id": "diag-mhf4u-0717-q3",
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-end-behavior-direction",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly determines end behavior based on degree and leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can determine end behavior from the leading term.",
+        "commonMisconception": "Confuses end behavior for even vs odd degree, or incorrectly applies sign.",
+        "remediationModule": "err-end-behavior-direction",
+        "retestItem": "err-end-behavior-direction",
+        "stem": "For the polynomial f(x) = 3x^4 - 2x^3 + x - 5, as x → +∞, f(x) → ?",
+        "options": [
+          {
+            "label": "A",
+            "text": "+∞",
+            "correct": true,
+            "feedbackCorrect": "Correct. The leading term 3x^4 has even degree and positive coefficient, so both ends go to +∞."
+          },
+          {
+            "label": "B",
+            "text": "-∞",
+            "correct": false,
+            "feedbackWrong": "Since the leading coefficient is positive and the degree is even, the function increases as x→+∞."
+          },
+          {
+            "label": "C",
+            "text": "0",
+            "correct": false,
+            "feedbackWrong": "End behavior is determined by the leading term, not constant. For a degree 4 polynomial, the function does not approach 0."
+          },
+          {
+            "label": "D",
+            "text": "It depends on the specific value of x.",
+            "correct": false,
+            "feedbackWrong": "End behavior describes long-run trends, not local values."
+          }
+        ],
+        "nextActionIfWrong": "Remediation: Review how to determine end behavior from degree and leading coefficient."
+      },
+      {
+        "id": "diag-mhf4u-0717-q4",
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-finite-differences-degree",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Correctly uses finite differences to determine polynomial degree.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Finite differences are used to determine polynomial degree, a problem-solving technique for polynomial equations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can apply the finite difference method to find polynomial degree.",
+        "commonMisconception": "Students think the number of differences directly equals the degree, or confuse with other methods.",
+        "remediationModule": "err-finite-differences-degree",
+        "retestItem": "err-finite-differences-degree",
+        "stem": "A table of values for a polynomial function shows that the third differences are constant. What is the degree of the polynomial?",
+        "options": [
+          {
+            "label": "A",
+            "text": "1",
+            "correct": false,
+            "feedbackWrong": "If third differences are constant, the degree is 3, not 1. First differences constant would be degree 1."
+          },
+          {
+            "label": "B",
+            "text": "2",
+            "correct": false,
+            "feedbackWrong": "If second differences were constant, degree would be 2. Here third differences are constant."
+          },
+          {
+            "label": "C",
+            "text": "3",
+            "correct": true,
+            "feedbackCorrect": "Correct. Constant third differences indicate a polynomial of degree 3."
+          },
+          {
+            "label": "D",
+            "text": "4",
+            "correct": false,
+            "feedbackWrong": "Constant fourth differences would indicate degree 4. Here third differences are constant."
+          }
+        ],
+        "nextActionIfWrong": "Remediation: Review the relationship between finite differences and polynomial degree."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-polynomial-degree-leading-coefficient",
+      "condition": "student answers incorrectly on any question with errorId err-polynomial-degree-leading-coefficient",
+      "systemAction": "assign reteach module err-polynomial-degree-leading-coefficient, then retest err-polynomial-degree-leading-coefficient",
+      "studentMessage": "关于 Confusion between degree and leading coefficient, especially when identifying from a polynomial expression. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-root-order-behavior",
+      "condition": "student answers incorrectly on any question with errorId err-root-order-behavior",
+      "systemAction": "assign reteach module err-root-order-behavior, then retest err-root-order-behavior",
+      "studentMessage": "关于 Misunderstanding how root multiplicity (order 1, 2, 3) affects the graph's crossing or touching the x-axis. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-end-behavior-direction",
+      "condition": "student answers incorrectly on any question with errorId err-end-behavior-direction",
+      "systemAction": "assign reteach module err-end-behavior-direction, then retest err-end-behavior-direction",
+      "studentMessage": "关于 Incorrectly determining the end behavior of a polynomial based on degree and leading coefficient sign. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-finite-differences-degree",
+      "condition": "student answers incorrectly on any question with errorId err-finite-differences-degree",
+      "systemAction": "assign reteach module err-finite-differences-degree, then retest err-finite-differences-degree",
+      "studentMessage": "关于 Errors in using finite differences to determine the degree of a polynomial from a table of values. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-polynomial-equation-from-graph",
+      "condition": "student answers incorrectly on any question with errorId err-polynomial-equation-from-graph",
+      "systemAction": "assign reteach module err-polynomial-equation-from-graph, then retest err-polynomial-equation-from-graph",
+      "studentMessage": "关于 Difficulty constructing a polynomial equation given graph features like zeros and y-intercept. 的理解还需要加强。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-polynomial-degree-leading-coefficient",
+      "trigger": "Student identifies the degree or leading coefficient incorrectly from a polynomial expression.",
+      "studentMisunderstanding": "Confuses degree (highest exponent) with leading coefficient (coefficient of that term) or misinterprets the sign of the leading coefficient.",
+      "miniLesson": {
+        "explain": "The degree of a polynomial is the highest exponent of the variable. The leading coefficient is the number in front of that term, including its sign. For example, in f(x) = -2x^3 + 5x^2 - x + 4, the term with the highest exponent is -2x^3, so the degree is 3 and the leading coefficient is -2 (negative).",
+        "example": "Find the degree and leading coefficient of f(x) = 4x^5 - 3x^2 + 7. The highest exponent is 5, so degree = 5. The coefficient of x^5 is 4, so leading coefficient = 4 (positive).",
+        "memoryAnchor": "Degree = highest power; Leading coefficient = number attached to that power (watch the sign!)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the degree and leading coefficient of f(x) = 3x^4 + 2x^3 - x + 5?",
+          "answer": "Degree: 4, Leading coefficient: 3 (positive)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Consider f(x) = -5x^2 + x^3 - 2. First, rewrite it in standard form (descending powers). Then state the degree and leading coefficient.",
+          "answer": "Standard form: x^3 - 5x^2 - 2. Degree: 3, Leading coefficient: 1 (positive)"
+        },
+        {
+          "level": "L3",
+          "prompt": "A polynomial has degree 3 and leading coefficient -2. Write a possible polynomial of the form ax^3 + bx^2 + cx + d, using numbers from this set: {3, 4, 1, 2}. Ensure the leading term is correct.",
+          "answer": "Possible answer: f(x) = -2x^3 + 3x^2 + 4x + 1 (any polynomial with -2x^3 and other terms from the set is acceptable)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-root-order-behavior",
+      "trigger": "Incorrect answer to diagnostic question about root multiplicity: for a factor (x-3)^2, student thought graph crosses x-axis.",
+      "studentMisunderstanding": "Student thinks that every root causes the graph to cross the x-axis, or that multiplicity 2 still results in crossing; they do not recognize that even multiplicities cause the graph to touch and turn.",
+      "miniLesson": {
+        "explain": "The order (multiplicity) of a root determines how the graph behaves near the x-axis at that point. For a root of order 1 (odd), the graph crosses the x-axis. For a root of order 2 (even), the graph touches the x-axis and turns back (does not cross). For a root of order 3 (odd >1), the graph crosses with a point of inflection (flattening at the crossing).",
+        "example": "Consider f(x) = (x-1)^1, g(x) = (x-1)^2, h(x) = (x-1)^3. At x=1, f crosses straight through, g touches and turns, h crosses with a flattening (inflection).",
+        "memoryAnchor": "Odd crosses, even touches. Odd greater than 1? Crosses with a squish (inflection)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the behavior at x=4 for the polynomial factor (x-4)^2?",
+          "answer": "Touches the x-axis and turns (does not cross)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A polynomial has roots at x=2 (multiplicity 3) and x=-1 (multiplicity 1). How does the graph behave at each root?",
+          "answer": "At x=2, crosses with inflection (flattening). At x=-1, crosses straight through."
+        },
+        {
+          "level": "L3",
+          "prompt": "Sketch a polynomial of degree 4 with zeros at x=0 (order 2) and x=3 (order 2). Describe the end behavior if the leading coefficient is positive.",
+          "answer": "Graph touches at both zeros and turns. Since degree 4 (even) with positive leading coefficient, both ends go up. Sketch: starts high, comes down to touch at x=0, rises and then touches at x=3, then goes up."
+        }
+      ]
+    },
+    {
+      "errorId": "err-end-behavior-direction",
+      "trigger": "The student incorrectly determines the end behavior direction of a polynomial function.",
+      "studentMisunderstanding": "The student confuses the effect of degree parity (even vs odd) and leading coefficient sign on the end behavior, often mixing up which ends go up or down.",
+      "miniLesson": {
+        "explain": "The end behavior of a polynomial is determined solely by its leading term (the term with the highest exponent). For a polynomial with degree n and leading coefficient a: If n is even, both ends go the same direction: both up if a > 0, both down if a < 0. If n is odd, ends go opposite directions: left down & right up if a > 0, left up & right down if a < 0.",
+        "example": "For f(x) = -2x^3 + 5x^2 - x + 4: degree n=3 (odd), leading coefficient a=-2 (negative). So as x→-∞, f(x)→+∞ (left up); as x→+∞, f(x)→-∞ (right down).",
+        "memoryAnchor": "Think of a smiley face: even degree with positive coefficient = both ends up (happy); negative = both ends down (sad). Odd degree with positive coefficient = right up (like a rising line); negative = right down (like a falling line)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Determine the end behavior of f(x) = 4x^2 - 3x + 7. As x→+∞, f(x)→? and as x→-∞, f(x)→?",
+          "answer": "Degree 2 (even), leading coefficient positive. So as x→±∞, f(x)→+∞. Answer: +∞, +∞."
+        },
+        {
+          "level": "L2",
+          "prompt": "Given f(x) = -x^5 + 2x^3 - 1, describe the end behavior.",
+          "answer": "Degree 5 (odd), leading coefficient negative. Left: as x→-∞, f(x)→+∞; Right: as x→+∞, f(x)→-∞."
+        },
+        {
+          "level": "L3",
+          "prompt": "A polynomial has leading term -3x^4. What is the end behavior?",
+          "answer": "Degree 4 (even), leading coefficient negative. Both ends go to -∞. As x→±∞, f(x)→-∞."
+        }
+      ]
+    },
+    {
+      "errorId": "err-finite-differences-degree",
+      "trigger": "Student incorrectly identifies polynomial degree from finite differences, often equating the number of difference levels to the degree directly.",
+      "studentMisunderstanding": "Students think that if the first differences are constant, the degree is 1; if second differences are constant, the degree is 2, etc. They may also confuse degree with the number of differences computed.",
+      "miniLesson": {
+        "explain": "Finite differences help find the degree of a polynomial from a table of equally spaced x-values. Compute successive differences (Δy, Δ²y, Δ³y, ...). The smallest order where differences are constant equals the degree. For example, constant first differences → degree 1; constant second differences → degree 2; constant third differences → degree 3.",
+        "example": "Given x: 0,1,2,3,4 and y: 1,2,5,10,17. First differences: 1,3,5,7 (not constant). Second differences: 2,2,2 (constant). So polynomial degree is 2.",
+        "memoryAnchor": "Think: 'Difference order = degree' – the level where differences become constant tells you the degree."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A table shows first differences: 3, 3, 3, 3. What is the degree of the polynomial?",
+          "answer": "Degree 1 (first differences constant = degree 1)"
+        },
+        {
+          "level": "L2",
+          "prompt": "For a polynomial, second differences are constant: -4, -4, -4. What is the degree? If we computed third differences, what would you expect?",
+          "answer": "Degree 2. Third differences would be 0 (constant 0)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given x: -2,-1,0,1,2 and y: 16,3,0,1,12. Compute finite differences and determine the degree. Show steps.",
+          "answer": "First differences: -13, -3, 1, 11. Second differences: 10, 4, 10. Third differences: -6, 6. Not constant until fourth differences? Let's compute further: fourth differences: 12. Actually, check: second differences not constant, third not constant, fourth is constant? Wait, better to compute systematically: Actually this polynomial is degree 3? Let's calculate: y values: 16,3,0,1,12. Δ1: -13,-3,1,11. Δ2: 10,4,10. Δ3: -6,6. Δ4: 12. So third differences not constant, fourth differences constant? But only one value? Actually with 5 points, we get up to 4th differences, but we need at least 4 differences to be sure. Since Δ4 is constant (12), degree is 4. However, the polynomial might be degree 4 indeed. The answer is degree 4. (Note: In practice, constant 4th differences indicate degree 4.)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-polynomial-equation-from-graph",
+      "trigger": "Student cannot derive the polynomial equation given zeros and y-intercept from a graph.",
+      "studentMisunderstanding": "The student knows that zeros correspond to factors, but does not know how to determine the leading coefficient from the y-intercept, or forgets to account for multiplicity.",
+      "miniLesson": {
+        "explain": "To write the equation of a polynomial from its graph, identify the x-intercepts (zeros) and their multiplicities. Write factors in the form (x - r)^m where r is the zero and m is the multiplicity. Then use the y-intercept (0, y) to solve for the leading coefficient a. The equation is f(x) = a(x - r1)^m1 (x - r2)^m2 ... .",
+        "example": "Graph shows zeros at x = -1 (touching, multiplicity 2) and x = 2 (crossing, multiplicity 1), and y-intercept at (0, 4). Factors: (x+1)^2 and (x-2). So f(x) = a(x+1)^2(x-2). Plug y-intercept: 4 = a(1)^2(-2) => -2a = 4 => a = -2. Equation: f(x) = -2(x+1)^2(x-2).",
+        "memoryAnchor": "Zeros give factors; Y-intercept gives the 'a'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A polynomial graph has zeros at x = 0 (order 1) and x = 3 (order 1), and y-intercept at (0, 0). What is the missing step? The student writes f(x) = x(x-3). Is this correct?",
+          "answer": "No, the y-intercept (0,0) is already a zero, so the leading coefficient cannot be determined from it. The equation f(x) = a x (x-3) has y-intercept 0 for any a. Given only these zeros, the equation is f(x) = a x (x-3) with a unspecified. Additional information is needed to find a."
+        },
+        {
+          "level": "L2",
+          "prompt": "A polynomial graph has zeros at x = -2 (touching, multiplicity 2) and x = 1 (crossing, multiplicity 1), y-intercept at (0, -8). Write the equation of the polynomial in factored form.",
+          "answer": "f(x) = -2(x+2)^2 (x-1). Because: factors (x+2)^2 and (x-1). Using y-intercept: f(0) = a(2)^2(-1) = -4a = -8 => a = 2. Equation: f(x) = 2(x+2)^2(x-1)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A cubic polynomial has zeros at x = -3 (order 1), x = 1 (order 1), x = 4 (order 1). The graph passes through (2, -10). Write the equation in expanded form. (Hint: Find leading coefficient a first.)",
+          "answer": "f(x) = (x+3)(x-1)(x-4). First write f(x)=a(x+3)(x-1)(x-4). Plug (2,-10): -10 = a(5)(1)(-2) => -10 = -10a => a=1. So f(x) = (x+3)(x-1)(x-4) = x^3 -2x^2 -11x +12."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-polynomial-degree-leading-coefficient",
+      "questions": [
+        {
+          "id": "polynomial-degree-leading-coefficient-q1",
+          "type": "single_choice",
+          "stem": "Consider the polynomial f(x) = 4x^3 - 2x^5 + x^2 - 7. What is the leading coefficient?",
+          "options": [
+            "-2",
+            "4",
+            "3",
+            "5",
+            "-7"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "polynomial-degree-leading-coefficient-q2",
+          "type": "open_ended",
+          "stem": "Write the polynomial g(x) = 3 - 6x^2 + x^4 - 9x in standard form. Then state its degree and leading coefficient.",
+          "rubric": "Standard form: x^4 - 6x^2 - 9x + 3 (or similar, descending powers). Degree: 4. Leading coefficient: 1. Accept if both degree and leading coefficient are correct, and polynomial is in standard form."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-root-order-behavior",
+      "questions": [
+        {
+          "id": "root-order-behavior-mc",
+          "type": "single_choice",
+          "stem": "Consider the polynomial factor (x+1)^1. At x = -1, the graph of the polynomial:",
+          "options": [
+            "crosses the x-axis straight through",
+            "touches the x-axis and turns back",
+            "crosses the x-axis with inflection (flattening)",
+            "does not intersect the x-axis"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "root-order-behavior-sketch",
+          "type": "open_ended",
+          "stem": "A polynomial f(x) has degree 5, leading coefficient positive, and zeros at x = -2 (multiplicity 2), x = 1 (multiplicity 1), and x = 4 (multiplicity 2). Describe the behavior of the graph at each zero, and sketch a possible graph. Be sure to label intercepts and indicate end behavior.",
+          "rubric": "Student should state: At x = -2 (mult. 2): graph touches and turns; at x = 1 (mult. 1): crosses straight through; at x = 4 (mult. 2): touches and turns. End behavior: since degree 5 (odd) and leading coefficient positive, left end goes down, right end goes up. Sketch should show these behaviors and label intercepts at (-2,0), (1,0), (4,0)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the description of behavior at each zero must be accurate and the sketch must reflect those behaviors and correct end behavior."
+    },
+    {
+      "forErrorId": "err-end-behavior-direction",
+      "questions": [
+        {
+          "id": "retest-err-end-behavior-1",
+          "type": "single_choice",
+          "stem": "Which of the following correctly describes the end behavior of a polynomial with an odd degree and a negative leading coefficient?",
+          "options": [
+            "As x → -∞, f(x) → -∞; as x → +∞, f(x) → +∞",
+            "As x → -∞, f(x) → +∞; as x → +∞, f(x) → -∞",
+            "As x → -∞, f(x) → +∞; as x → +∞, f(x) → +∞",
+            "As x → -∞, f(x) → -∞; as x → +∞, f(x) → -∞"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-end-behavior-2",
+          "type": "open_ended",
+          "stem": "For the polynomial f(x) = -2x^6 + 3x^4 - 5x + 1, describe the end behavior (what happens as x → -∞ and as x → +∞).",
+          "rubric": "Full marks: correctly identifies degree 6 (even) and leading coefficient -2 (negative), resulting in both ends approaching -∞: as x → -∞, f(x) → -∞ and as x → +∞, f(x) → -∞. Partial credit for correctly identifying parity and sign but making a minor error in final direction."
+        }
+      ],
+      "passRule": "Must answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-finite-differences-degree",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "The second differences of a polynomial function are constant. What is the degree of the polynomial?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Given the table of values for a polynomial function with equally spaced x-values:\n\nx: 0, 1, 2, 3, 4\ny: -3, -1, 5, 15, 29\n\nCompute finite differences and determine the degree of the polynomial. Show your steps.",
+          "rubric": "First differences: 2, 6, 10, 14. Second differences: 4, 4, 4 (constant). Therefore, degree is 2."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-polynomial-equation-from-graph",
+      "questions": [
+        {
+          "id": "transfer-q1",
+          "type": "single_choice",
+          "stem": "A polynomial graph has x-intercepts at x = -2 (touching, multiplicity 2) and x = 4 (crossing, multiplicity 1). The y-intercept is (0, -32). Which of the following is the correct factored equation?",
+          "options": [
+            "f(x) = -2(x+2)^2(x-4)",
+            "f(x) = 2(x+2)^2(x-4)",
+            "f(x) = -2(x+2)(x-4)^2",
+            "f(x) = -2(x-2)^2(x+4)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "transfer-q2",
+          "type": "open_ended",
+          "stem": "A polynomial graph has zeros at x = -1 (order 1), x = 0 (order 1), and x = 3 (order 2). The graph passes through (1, -8). Determine the equation of the polynomial in factored form. Show all steps.",
+          "rubric": "Full marks: correctly writes factors (x+1), x, (x-3)^2, uses the given point (1,-8) to find a = -2, final answer f(x) = -2(x+1)x(x-3)^2 or equivalent expanded form. Part marks: for correct factors but incorrect a (e.g., forgetting to account for x=0 zero), or correct a but missing multiplicity."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-17",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ZT4rdtTS6oFtTlxoGGxcll08n8c?from=vc_group_doc_link#doxcnXsnY5Cn7wAxNrTBgu3VS0d",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-17 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "The Unit 1 Quiz has four sections: Knowledge and Understanding (18 marks), Thinking Inquiry (12), Communication (10), Application (10), total 50 marks.；All answers must be handwritten on light-colored paper; full steps must be shown.；Only standard non-graphing calculators are allowed; no external resources.",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "material_needed",
+        "title": "Access Unit 1 Quiz file",
+        "studentAction": "Navigate to the Evaluations folder under the Unit 1 directory on the course platform to find the clickable quiz entry. Confirm the exact platform (likely D2L or equivalent).",
+        "deadlineText": "End of class on 2026-07-17",
+        "deadlineISO": "2026-07-17T09:57:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The test file is stored in the Evaluations folder under the Unit 1 directory, and students can access it via the corresponding clickable entry.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "Quiz submission deadline",
+        "studentAction": "Submit the quiz by the end of the current class (approximately 09:57). Extensions are only available if you notify via the group chat before the deadline.",
+        "deadlineText": "End of class on 2026-07-17",
+        "deadlineISO": "2026-07-17T09:57:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The default submission deadline is the end of the current class, and extensions are only available for students who notify via group chat.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Allowed calculator type",
+        "studentAction": "Only standard non-graphing calculators are permitted during the quiz. Graphing calculators are not allowed.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Allowed tools: Only standard non-graphing calculators are permitted for use during the entire quiz period.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_requirement",
+        "title": "Handwriting and paper requirements",
+        "studentAction": "Handwrite all answers on any type of paper except dark-colored paper. Do not write on the provided test sheet.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Answer carrier: All answers must be handwritten on any type of paper except dark-colored paper, and no writing on the provided test sheet is allowed.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_requirement",
+        "title": "Show all problem-solving steps",
+        "studentAction": "Present all problem-solving processes fully, even for simple operations like trinomial factoring. Missing steps will lead to mark deductions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Step display: All problem-solving processes must be fully presented, even for simple operations such as trinomial factoring, and missing steps will lead to mark deductions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "exam_requirement",
+        "title": "Forbidden items",
+        "studentAction": "Do not use any external resources or technological tools. Reference materials are only allowed with instructor approval.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Forbidden items: No external resources or other technological tools are allowed, and no reference materials can be used without instructor approval.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "teacher_request",
+        "title": "Request equation list if needed",
+        "studentAction": "If you need an equation list during the quiz, ask the instructor. The instructor will provide it on demand.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Emergency support: Students can request required equation lists from the instructor at any time during the quiz, and the instructor will provide them on demand.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "class_policy",
+        "title": "Extension notification via group chat",
+        "studentAction": "If you need an extension, notify the instructor via the group chat before the deadline. Extensions are only available for those who notify.",
+        "deadlineText": "Before end of class on 2026-07-17",
+        "deadlineISO": "2026-07-17T09:57:00+08:00",
+        "platform": "group chat (likely Feishu/WeChat)",
+        "link": null,
+        "appliesTo": "Students needing extension",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Extensions are only available for students who notify via group chat.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "The test file is stored in the Evaluations folder under the Unit 1 directory",
+        "reason": "Exact course platform (e.g., D2L, Canvas) and direct URL to the quiz file are not specified."
+      },
+      {
+        "rawText": "Extensions are only available for students who notify via group chat",
+        "reason": "Specific group chat platform (e.g., Feishu, WeChat) is not explicitly stated."
+      }
+    ],
+    "watchTags": [
+      "MHF4U-C-OE01",
+      "MHF4U-C-OE03"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-polynomial-degree-leading-coefficient",
+        "condition": "student answers incorrectly on any question with errorId err-polynomial-degree-leading-coefficient",
+        "systemAction": "assign reteach module err-polynomial-degree-leading-coefficient, then retest err-polynomial-degree-leading-coefficient"
+      },
+      {
+        "errorId": "err-root-order-behavior",
+        "condition": "student answers incorrectly on any question with errorId err-root-order-behavior",
+        "systemAction": "assign reteach module err-root-order-behavior, then retest err-root-order-behavior"
+      },
+      {
+        "errorId": "err-end-behavior-direction",
+        "condition": "student answers incorrectly on any question with errorId err-end-behavior-direction",
+        "systemAction": "assign reteach module err-end-behavior-direction, then retest err-end-behavior-direction"
+      },
+      {
+        "errorId": "err-finite-differences-degree",
+        "condition": "student answers incorrectly on any question with errorId err-finite-differences-degree",
+        "systemAction": "assign reteach module err-finite-differences-degree, then retest err-finite-differences-degree"
+      },
+      {
+        "errorId": "err-polynomial-equation-from-graph",
+        "condition": "student answers incorrectly on any question with errorId err-polynomial-equation-from-graph",
+        "systemAction": "assign reteach module err-polynomial-equation-from-graph, then retest err-polynomial-equation-from-graph"
+      }
+    ],
+    "nextActions": [
+      "[err-polynomial-degree-leading-coefficient] student answers incorrectly on any question with errorId err-polynomial-degree-leading-coefficient: 关于 Confusion between degree and leading coefficient, especially when identifying from a polynomial expression. 的理解还需要加强。",
+      "[err-root-order-behavior] student answers incorrectly on any question with errorId err-root-order-behavior: 关于 Misunderstanding how root multiplicity (order 1, 2, 3) affects the graph's crossing or touching the x-axis. 的理解还需要加强。",
+      "[err-end-behavior-direction] student answers incorrectly on any question with errorId err-end-behavior-direction: 关于 Incorrectly determining the end behavior of a polynomial based on degree and leading coefficient sign. 的理解还需要加强。",
+      "[err-finite-differences-degree] student answers incorrectly on any question with errorId err-finite-differences-degree: 关于 Errors in using finite differences to determine the degree of a polynomial from a table of values. 的理解还需要加强。",
+      "[err-polynomial-equation-from-graph] student answers incorrectly on any question with errorId err-polynomial-equation-from-graph: 关于 Difficulty constructing a polynomial equation given graph features like zeros and y-intercept. 的理解还需要加强。"
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-0717-q1",
+        "type": "choice",
+        "question": "Given the polynomial f(x) = -2x^3 + 5x^2 - x + 4, the degree is ___ and the leading coefficient is ___.",
+        "options": [
+          "degree 3, positive",
+          "degree 3, negative",
+          "degree 4, positive",
+          "degree 4, negative"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can correctly identify degree and leading coefficient from a polynomial expression.",
+        "misconceptions": [
+          "The degree is correct, but the leading coefficient is negative because the coefficient of x^3 is -2.",
+          "✓ Correct. The degree is 3 and the leading coefficient is -2, which is negative.",
+          "The highest exponent is 3, not 4. Also, the leading coefficient is negative.",
+          "The degree is 3, not 4. The leading coefficient is negative, so that part is correct, but the degree is wrong."
+        ],
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-polynomial-degree-leading-coefficient",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies degree and leading coefficient sign.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses identifying polynomial degree and leading coefficient.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks leading coefficient sign is determined by the sign of the first term without considering negative sign, or confuses degree with the highest exponent.",
+        "remediationModule": "err-polynomial-degree-leading-coefficient",
+        "retestItem": "err-polynomial-degree-leading-coefficient"
+      },
+      {
+        "id": "diag-mhf4u-0717-q2",
+        "type": "choice",
+        "question": "A polynomial has a factor (x-3)^2. What happens to the graph at x=3?",
+        "options": [
+          "The graph crosses the x-axis.",
+          "The graph touches and turns at the x-axis.",
+          "The graph crosses with a point of inflection.",
+          "The graph has a hole at x=3."
+        ],
+        "correct": 1,
+        "diagnosis": "Check student understanding of how root multiplicity affects x-axis behavior.",
+        "misconceptions": [
+          "For a root of even multiplicity, the graph touches the x-axis and turns, not crosses.",
+          "✓ Correct. For a root of multiplicity 2, the graph touches the x-axis and goes back in the same direction.",
+          "A point of inflection occurs for roots of odd multiplicity greater than 1, not for even multiplicity.",
+          "Holes are associated with rational functions, not polynomial functions."
+        ],
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-root-order-behavior",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies the behavior of the graph at a root of multiplicity 2.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Root behavior is a key feature of polynomial graphs.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinks that all roots cause crossing, or that multiplicity 2 causes crossing with flattening.",
+        "remediationModule": "err-root-order-behavior",
+        "retestItem": "err-root-order-behavior"
+      },
+      {
+        "id": "diag-mhf4u-0717-q3",
+        "type": "choice",
+        "question": "For the polynomial f(x) = 3x^4 - 2x^3 + x - 5, as x → +∞, f(x) → ?",
+        "options": [
+          "+∞",
+          "-∞",
+          "0",
+          "It depends on the specific value of x."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can determine end behavior from the leading term.",
+        "misconceptions": [
+          "✓ Correct. The leading term 3x^4 has even degree and positive coefficient, so both ends go to +∞.",
+          "Since the leading coefficient is positive and the degree is even, the function increases as x→+∞.",
+          "End behavior is determined by the leading term, not constant. For a degree 4 polynomial, the function does not approach 0.",
+          "End behavior describes long-run trends, not local values."
+        ],
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-end-behavior-direction",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly determines end behavior based on degree and leading coefficient.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "End behavior is a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Confuses end behavior for even vs odd degree, or incorrectly applies sign.",
+        "remediationModule": "err-end-behavior-direction",
+        "retestItem": "err-end-behavior-direction"
+      },
+      {
+        "id": "diag-mhf4u-0717-q4",
+        "type": "choice",
+        "question": "A table of values for a polynomial function shows that the third differences are constant. What is the degree of the polynomial?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student can apply the finite difference method to find polynomial degree.",
+        "misconceptions": [
+          "If third differences are constant, the degree is 3, not 1. First differences constant would be degree 1.",
+          "If second differences were constant, degree would be 2. Here third differences are constant.",
+          "✓ Correct. Constant third differences indicate a polynomial of degree 3.",
+          "Constant fourth differences would indicate degree 4. Here third differences are constant."
+        ],
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-finite-differences-degree",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Correctly uses finite differences to determine polynomial degree.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Finite differences are used to determine polynomial degree, a problem-solving technique for polynomial equations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students think the number of differences directly equals the degree, or confuse with other methods.",
+        "remediationModule": "err-finite-differences-degree",
+        "retestItem": "err-finite-differences-degree"
+      }
+    ]
+  }
+}
