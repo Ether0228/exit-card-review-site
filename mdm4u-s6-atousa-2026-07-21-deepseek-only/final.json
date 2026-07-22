@@ -1,0 +1,1161 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-21",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Ieu5dqOH5oypt9xnYZHcKPkmnrf?from=vc_group_doc_link#doxcnTNsETfi93cRQW3jGIW0yHe",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-21 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Ieu5dqOH5oypt9xnYZHcKPkmnrf?from=vc_group_doc_link#doxcnTNsETfi93cRQW3jGIW0yHe",
+    "title": "MDM4U.S6.Atousa 2026-07-21 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-22/sources/mdm4u-s6-atousa-2026-07-21/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-21",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-21",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session covers core concepts of expected value, probability distribution validity, and coding simulation tasks, with in-class Q&A and practice. Academic content dominates over administration.",
+    "academicContentSignals": [
+      "Expected value definition and calculation formula (sum of outcome * probability)",
+      "Non-sample space feature of expected value (e.g., die expected value 3.5 is valid)",
+      "Double dice verification (expected sum = 7)",
+      "Game fairness assessment using expected value",
+      "Lottery return rule (negative expected net return)",
+      "Coding simulation for single dice game (even/odd scoring)",
+      "Canoe length probability distribution and chart generation",
+      "Raffle expected value calculation (1500 tickets, 4 prizes)",
+      "Probability distribution validity rules (probabilities 0-1, sum = 1)",
+      "Spinner probability (8-section, prime number probability = 0.5)",
+      "Frequency distribution conversion (fish-catching example)",
+      "Class Activity 1 expected value results (10.75, 2.9, 4.5)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low to medium. There are several assignment tasks and submission rules, but the academic content is substantial and should dominate the diagnostic card. Ensure that operational reminders are limited to 0-2 readiness checks and do not overshadow mastery diagnostics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Single Dice Game Simulation",
+        "studentAction": "Write code to simulate the single dice game where even numbers gain face value points and odd numbers lose face value points; calculate expected value. Submit code file, running output screenshot, and a descriptive sentence.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Task core: Write code to simulate the single dice game...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Canoe Length Probability Chart",
+        "studentAction": "Build a probability distribution for 25 camp canoes of lengths 4.6 m, 5 m, 6.4 m; calculate expected length; generate bar or pie chart using matplotlib. Install matplotlib if needed (pip install matplotlib).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Build a probability distribution for 25 camp canoes...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Raffle Expected Value Calculation",
+        "studentAction": "Create a probability distribution for possible winning amounts from 1500 raffle tickets at $2 each with prizes $500, $215, $115, $70; calculate expected net gain.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "1500 raffle tickets are sold at $2 each, with 4 prizes...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Class Activity 1 Remaining Questions Submission",
+        "studentAction": "Submit answers for the remaining 2 uncompleted questions if unable to finish all 6 during class.",
+        "deadlineText": "next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who did not finish all questions in class",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Students only need to submit answers for the remaining 2 uncompleted questions...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Graph Submission Policy",
+        "studentAction": "Submit only computer-generated charts (using matplotlib) for all subsequent assignments; hand-drawn graphs will no longer be accepted.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Computer-generated charts are required for all subsequent assignments, hand-drawn graphs will no longer be accepted...",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Break Stretching and Hydration",
+        "studentAction": "Stand up, stretch, and drink water during the 10-minute break.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "All students are required to do light stretching and drink water during the 10-minute break...",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Next Session Arrangement",
+        "studentAction": "No additional pre-class preparation needed; remaining parts of Class Activity 1 will be covered at start of next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The remaining uncompleted parts of Class Activity 1 will be covered at the start of the next class, with no additional pre-class preparation required.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Expected Value of a Discrete Probability Distribution、Validity Conditions for a Probability Distribution、Coding Simulation for Expected Value）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Expected value of a probability distribution is the sum of each outcome multiplied by its probability, representing long-term average.；Expected value does not need to match any outcome in the sample space (e.g., single die expected value is 3.5, which is not a possible outcome).；Valid probability distributions have all probabilities between 0 and 1 inclusive, and sum exactly to 1.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can compute the expected value of a discrete probability distribution using the formula E(X)=∑x·P(x)."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can explain that the expected value may not be a possible outcome and that a valid distribution requires 0≤P≤1 and sum=1."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can apply expected value to assess fairness of games and calculate net expected gain/loss."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Students can use coding simulation to approximate expected value."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MDM4U-EV-01",
+      "name": "Expected Value of a Discrete Probability Distribution",
+      "nameEn": "Expected Value of a Discrete Probability Distribution",
+      "definition": "The expected value E(X) of a discrete random variable is the sum of each possible outcome multiplied by its probability: E(X)=∑x·P(x). It represents the long-term average over many trials.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "MDM4U-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications."
+    },
+    {
+      "id": "MDM4U-PD-01",
+      "name": "Validity Conditions for a Probability Distribution",
+      "nameEn": "Validity Conditions for a Probability Distribution",
+      "definition": "A valid probability distribution requires: (1) each probability P(x) is between 0 and 1 inclusive, (2) the sum of all probabilities equals 1.",
+      "officialExpectationCode": "A1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "determine the theoretical probability, Pi (i.e., a value from 0 to 1), of each outcome of a discrete sample space (e.g., in situations in which all outcomes are equally likely), recognize that the sum of the probabilities of the outcomes is 1 (i.e., for n outcomes, P1 + P2 + P3 + … + Pn = 1), recognize that the probabilities Pi form the probability distribution associated with the sample space, and solve related problems."
+    },
+    {
+      "id": "MDM4U-SIM-01",
+      "name": "Coding Simulation for Expected Value",
+      "nameEn": "Coding Simulation for Expected Value",
+      "definition": "Using programming (e.g., Python) to simulate many trials of a random experiment and estimate the expected value, verifying theoretical calculations. Includes tasks like simulating a dice game, generating probability charts, and computing expected net gain.",
+      "officialExpectationCode": "B1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "gather data related to the study of the problem (e.g., by using a survey; by using the Internet; by using a simulation) and organize the data"
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can compute the expected value of a discrete probability distribution using the formula E(X)=∑x·P(x)."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can explain that the expected value may not be a possible outcome and that a valid distribution requires 0≤P≤1 and sum=1."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can apply expected value to assess fairness of games and calculate net expected gain/loss."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can use coding simulation to approximate expected value."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-expected-value-possible-outcome",
+        "condition": "Student answers incorrectly on question diag-mdm4u-0701-q1 or diag-mdm4u-0701-q5.",
+        "systemAction": "assign reteach module for err-expected-value-possible-outcome",
+        "studentMessage": "Expected value is a long-term average, not necessarily a possible outcome. Let's review."
+      },
+      {
+        "errorId": "err-probability-sum-not-one",
+        "condition": "Student answers incorrectly on question diag-mdm4u-0701-q2.",
+        "systemAction": "assign reteach module for err-probability-sum-not-one",
+        "studentMessage": "A valid probability distribution must have probabilities that sum to exactly 1. Let's check that."
+      },
+      {
+        "errorId": "err-net-expected-gain-no-cost",
+        "condition": "Student answers incorrectly on question diag-mdm4u-0701-q3.",
+        "systemAction": "assign reteach module for err-net-expected-gain-no-cost",
+        "studentMessage": "When calculating net expected gain, remember to subtract the cost of playing. Let's practice."
+      },
+      {
+        "errorId": "err-dice-game-sign-confusion",
+        "condition": "Student answers incorrectly on question diag-mdm4u-0701-q4.",
+        "systemAction": "assign reteach module for err-dice-game-sign-confusion",
+        "studentMessage": "A negative expected value means the player loses money on average. Let's go over it."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-0701-q1",
+        "nodeId": "MDM4U-EV-01",
+        "errorId": "err-expected-value-possible-outcome",
+        "stem": "When rolling a fair six-sided die, the expected value of the outcome is 3.5. Which of the following statements is true?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student recognizes expected value is a long-term average, not a single outcome.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Targets understanding expected value as long-term average.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check whether student understands that expected value need not be a possible outcome.",
+        "commonMisconception": "Student thinks expected value must be a possible outcome value.",
+        "remediationModule": "err-expected-value-possible-outcome",
+        "retestItem": "err-expected-value-possible-outcome",
+        "options": [
+          {
+            "label": "A",
+            "text": "3.5 is the most likely outcome.",
+            "correct": false,
+            "feedbackWrong": "3.5 is not a possible outcome, so it cannot be the most likely. The expected value is an average, not a specific outcome."
+          },
+          {
+            "label": "B",
+            "text": "3.5 is impossible because the die only shows whole numbers.",
+            "correct": false,
+            "feedbackWrong": "That is true, but it is still the expected value. The expected value does not have to be a possible outcome."
+          },
+          {
+            "label": "C",
+            "text": "3.5 represents the average result over many rolls.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The expected value is the long-run average."
+          },
+          {
+            "label": "D",
+            "text": "The expected value must be a whole number for a die.",
+            "correct": false,
+            "feedbackWrong": "No, expected value can be any number. For a fair die, it is 3.5."
+          }
+        ],
+        "nextActionIfWrong": "remediation module for err-expected-value-possible-outcome"
+      },
+      {
+        "id": "diag-mdm4u-0701-q2",
+        "nodeId": "MDM4U-PD-01",
+        "errorId": "err-probability-sum-not-one",
+        "stem": "A student proposes the following probability distribution for the number of heads when tossing two coins: P(0)=0.25, P(1)=0.50, P(2)=0.30. Which condition for a valid probability distribution is violated?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that probabilities must sum to exactly 1.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Targets probability distribution validity condition.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student recognizes the sum-to-one condition.",
+        "commonMisconception": "Student may think any set of numbers between 0 and 1 is valid even if not summing to 1.",
+        "remediationModule": "err-probability-sum-not-one",
+        "retestItem": "err-probability-sum-not-one",
+        "options": [
+          {
+            "label": "A",
+            "text": "Probabilities must be between 0 and 1.",
+            "correct": false,
+            "feedbackWrong": "These probabilities are between 0 and 1, so that condition is satisfied."
+          },
+          {
+            "label": "B",
+            "text": "The sum of probabilities must equal 1.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The sum is 0.25+0.50+0.30=1.05, which violates the condition."
+          },
+          {
+            "label": "C",
+            "text": "All outcomes must be equally likely.",
+            "correct": false,
+            "feedbackWrong": "That is not a requirement for a valid probability distribution."
+          },
+          {
+            "label": "D",
+            "text": "Outcomes must be numeric.",
+            "correct": false,
+            "feedbackWrong": "Outcomes can be categorical; numeric is not required."
+          }
+        ],
+        "nextActionIfWrong": "remediation module for err-probability-sum-not-one"
+      },
+      {
+        "id": "diag-mdm4u-0701-q3",
+        "nodeId": "MDM4U-EV-01",
+        "errorId": "err-net-expected-gain-no-cost",
+        "stem": "In a church lottery with 2 million tickets at $2 each, prizes are: one $1,000,000, two $25,000, and five $1,000. If you buy one ticket, what is your expected net gain?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly calculates expected net gain by subtracting cost.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Apply expected value to real-world context.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student remembers to subtract ticket cost when calculating net expected gain.",
+        "commonMisconception": "Student may only calculate expected raw winnings and forget cost.",
+        "remediationModule": "err-net-expected-gain-no-cost",
+        "retestItem": "err-net-expected-gain-no-cost",
+        "options": [
+          {
+            "label": "A",
+            "text": "$0.51 (positive, so it's a winning game)",
+            "correct": false,
+            "feedbackWrong": "That is the raw expected winning, not net gain. You need to subtract the $2 ticket cost."
+          },
+          {
+            "label": "B",
+            "text": "-$1.48 (expected loss)",
+            "correct": true,
+            "feedbackCorrect": "Correct. Raw expected winning is about $0.51, minus $2 cost gives an expected loss of about $1.48."
+          },
+          {
+            "label": "C",
+            "text": "$1.00 (based on prize total divided by tickets)",
+            "correct": false,
+            "feedbackWrong": "That is incorrect. You need to use the probability distribution to find expected value."
+          },
+          {
+            "label": "D",
+            "text": "$1,055,000 (total prize pool)",
+            "correct": false,
+            "feedbackWrong": "That is the total prize money, not the expected gain from a single ticket."
+          }
+        ],
+        "nextActionIfWrong": "remediation module for err-net-expected-gain-no-cost"
+      },
+      {
+        "id": "diag-mdm4u-0701-q4",
+        "nodeId": "MDM4U-EV-01",
+        "errorId": "err-dice-game-sign-confusion",
+        "stem": "In a dice game, if the roll is even you gain twice the face value, and if odd you lose triple the face value. The expected value is -0.5. This means:",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student interprets negative expected value as unfavorable to player.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interpret expected value in context.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check student's ability to interpret sign of expected value.",
+        "commonMisconception": "Student may think negative expected value still means possible profit or that expected value equals per-play outcome.",
+        "remediationModule": "err-dice-game-sign-confusion",
+        "retestItem": "err-dice-game-sign-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "The game is fair because the expected value is close to zero.",
+            "correct": false,
+            "feedbackWrong": "An expected value of -0.5 is not close enough to zero; the player loses money on average."
+          },
+          {
+            "label": "B",
+            "text": "The player will lose money on average over many plays.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The negative expected value means the average loss per play is $0.50."
+          },
+          {
+            "label": "C",
+            "text": "The player will win money on average.",
+            "correct": false,
+            "feedbackWrong": "A negative expected value means average loss, not gain."
+          },
+          {
+            "label": "D",
+            "text": "The game always results in a loss of $0.50 per play.",
+            "correct": false,
+            "feedbackWrong": "Expected value is an average over many plays; individual outcomes vary."
+          }
+        ],
+        "nextActionIfWrong": "remediation module for err-dice-game-sign-confusion"
+      },
+      {
+        "id": "diag-mdm4u-0701-q5",
+        "nodeId": "MDM4U-EV-01",
+        "errorId": "err-expected-value-possible-outcome",
+        "stem": "Consider a spinner with 8 equal sections numbered 1 to 8. Calculate the expected value of a single spin. Then explain why the expected value may not be a possible outcome.",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly calculates expected value and explains that it is an average, not necessarily a possible value.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Evaluate ability to compute expected value and explain property.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "justify",
+        "stemIntent": "Evaluate ability to compute expected value and explain property.",
+        "commonMisconception": "Student may calculate incorrectly or think expected value must be an outcome.",
+        "remediationModule": "err-expected-value-possible-outcome",
+        "retestItem": "err-expected-value-possible-outcome",
+        "rubric": "Calculation: E(X)= (1+2+...+8)/8 = 36/8 = 4.5. Explanation: The expected value is the long-term average, which can be a non-integer even though individual outcomes are integers.",
+        "sampleStrongAnswer": "E(X) = (1+2+3+4+5+6+7+8)/8 = 36/8 = 4.5. The expected value 4.5 is not a possible outcome because spins only yield whole numbers; it represents the average result over many spins.",
+        "nextActionIfWrong": "remediation module for err-expected-value-possible-outcome"
+      }
+    ],
+    "retestCards": [
+      {
+        "forErrorId": "err-expected-value-possible-outcome",
+        "questions": [
+          {
+            "id": "retest-ev-possible-q1",
+            "type": "single_choice",
+            "stem": "The expected value of rolling a fair four-sided die (faces 1,2,3,4) is:",
+            "options": [
+              "2.5",
+              "3",
+              "2",
+              "It depends on the number of rolls"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "retest-ev-possible-q2",
+            "type": "open_ended",
+            "stem": "Explain in one sentence why the expected value of a die roll may be a non-integer.",
+            "rubric": "Must state that expected value is the long-run average, not a per-roll outcome."
+          }
+        ],
+        "passRule": "2/2 correct or teacher approves open response"
+      },
+      {
+        "forErrorId": "err-probability-sum-not-one",
+        "questions": [
+          {
+            "id": "retest-prob-sum-q1",
+            "type": "single_choice",
+            "stem": "Which of the following sets of probabilities could be a valid probability distribution?",
+            "options": [
+              "{0.5, 0.5}",
+              "{0.2, 0.3, 0.4}",
+              "{0.1, 0.2, 0.8}",
+              "{0.6, 0.3, 0.2}"
+            ],
+            "correct": 0
+          },
+          {
+            "id": "retest-prob-sum-q2",
+            "type": "open_ended",
+            "stem": "State the two conditions for a valid probability distribution.",
+            "rubric": "Must include: each probability between 0 and 1 inclusive, and sum of probabilities equals 1."
+          }
+        ],
+        "passRule": "2/2 correct or teacher approves open response"
+      },
+      {
+        "forErrorId": "err-net-expected-gain-no-cost",
+        "questions": [
+          {
+            "id": "retest-net-gain-q1",
+            "type": "single_choice",
+            "stem": "A raffle sells 100 tickets at $5 each. There is one prize of $200. What is the expected net gain for a buyer?",
+            "options": [
+              "$2.00 gain",
+              "-$3.00 loss",
+              "$200 gain",
+              "$0.00"
+            ],
+            "correct": 1
+          },
+          {
+            "id": "retest-net-gain-q2",
+            "type": "open_ended",
+            "stem": "Explain why the expected net gain is calculated as (expected winnings) minus (cost).",
+            "rubric": "Must refer to cost as the amount paid for the ticket, which reduces overall gain."
+          }
+        ],
+        "passRule": "2/2 correct or teacher approves open response"
+      },
+      {
+        "forErrorId": "err-dice-game-sign-confusion",
+        "questions": [
+          {
+            "id": "retest-sign-q1",
+            "type": "single_choice",
+            "stem": "If a game has an expected value of -2.50, the game is:",
+            "options": [
+              "Fair",
+              "Favorable to the player",
+              "Unfavorable to the player",
+              "Impossible to determine"
+            ],
+            "correct": 2
+          },
+          {
+            "id": "retest-sign-q2",
+            "type": "open_ended",
+            "stem": "In one sentence, what does a negative expected value mean for the player?",
+            "rubric": "Must state that the player loses money on average over many plays."
+          }
+        ],
+        "passRule": "2/2 correct or teacher approves open response"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-expected-value-possible-outcome",
+      "condition": "Student answers incorrectly on question diag-mdm4u-0701-q1 or diag-mdm4u-0701-q5.",
+      "systemAction": "assign reteach module for err-expected-value-possible-outcome",
+      "studentMessage": "Expected value is a long-term average, not necessarily a possible outcome. Let's review."
+    },
+    {
+      "errorId": "err-probability-sum-not-one",
+      "condition": "Student answers incorrectly on question diag-mdm4u-0701-q2.",
+      "systemAction": "assign reteach module for err-probability-sum-not-one",
+      "studentMessage": "A valid probability distribution must have probabilities that sum to exactly 1. Let's check that."
+    },
+    {
+      "errorId": "err-net-expected-gain-no-cost",
+      "condition": "Student answers incorrectly on question diag-mdm4u-0701-q3.",
+      "systemAction": "assign reteach module for err-net-expected-gain-no-cost",
+      "studentMessage": "When calculating net expected gain, remember to subtract the cost of playing. Let's practice."
+    },
+    {
+      "errorId": "err-dice-game-sign-confusion",
+      "condition": "Student answers incorrectly on question diag-mdm4u-0701-q4.",
+      "systemAction": "assign reteach module for err-dice-game-sign-confusion",
+      "studentMessage": "A negative expected value means the player loses money on average. Let's go over it."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-expected-value-possible-outcome",
+      "trigger": "Student mistakenly believes expected value must be one of the outcomes in the sample space.",
+      "studentMisunderstanding": "Expected value is the long-term average, not necessarily a possible outcome. For example, rolling a fair die gives expected value 3.5, but no single roll shows 3.5.",
+      "miniLesson": {
+        "explain": "Expected value is the sum of each outcome multiplied by its probability. It represents the average result over many trials. It does not have to match any possible outcome. For instance, a fair six-sided die has outcomes 1,2,3,4,5,6 each with probability 1/6. E(X)= (1+2+3+4+5+6)/6 = 3.5. No single roll gives 3.5, but over many rolls the average will be close to 3.5.",
+        "example": "Consider a spinner with 8 equal sections numbered 1 to 8. Each outcome has probability 1/8. The expected value is (1+2+...+8)/8 = 36/8 = 4.5. Spinning only yields whole numbers, but 4.5 is the long-run average.",
+        "memoryAnchor": "E(X) is the average, not a value you can actually roll."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the expected value of a single roll of a fair six-sided die? Is 3.5 a possible outcome?",
+          "answer": "The expected value is 3.5. No, 3.5 is not a possible outcome because the die only shows whole numbers."
+        },
+        {
+          "level": "L2",
+          "prompt": "A spinner has 8 equal sections labeled 1 to 8. Calculate the expected value of a single spin. Is the expected value a possible outcome? Explain.",
+          "answer": "E(X) = (1+2+3+4+5+6+7+8)/8 = 36/8 = 4.5. The expected value is 4.5, which is not a possible outcome because spins only give whole numbers. It represents the average over many spins."
+        },
+        {
+          "level": "L3",
+          "prompt": "For the sum of two fair dice, the expected value is 7. Is 7 a possible outcome? Explain why this does not violate the definition of expected value.",
+          "answer": "Yes, 7 is a possible outcome (e.g., 3+4). But the key point is that expected value does not have to be a possible outcome; it can be, but in many cases it is not. The expected value is the average sum over many rolls."
+        }
+      ]
+    },
+    {
+      "errorId": "err-probability-sum-not-one",
+      "trigger": "Student answered incorrectly on question diag-mdm4u-0701-q2 about the sum of probabilities in a valid distribution.",
+      "studentMisunderstanding": "Misunderstanding that the sum of probabilities in a valid distribution must equal exactly 1.",
+      "miniLesson": {
+        "explain": "A valid probability distribution must have two properties: (1) each probability is between 0 and 1 inclusive, and (2) the sum of all probabilities equals exactly 1. This represents that one of the outcomes must occur with 100% certainty across all possibilities.",
+        "example": "For a fair coin, P(Heads)=0.5, P(Tails)=0.5, and 0.5+0.5=1. If someone incorrectly said P(Heads)=0.5, P(Tails)=0.4, the sum would be 0.9, which violates the rule because the outcomes don't cover all possibilities.",
+        "memoryAnchor": "Think of a pie chart: the whole pie is 1 (100%). Each probability is a slice, and all slices together must fill the entire pie."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Does the set {0.25, 0.50, 0.25} form a valid probability distribution? Explain why or why not.",
+          "answer": "Yes, because each probability is between 0 and 1 and the sum is 0.25+0.50+0.25=1."
+        },
+        {
+          "level": "L2",
+          "prompt": "A spinner has 3 sections: red, green, blue. P(red)=0.2, P(green)=0.5, P(blue)=? What must P(blue) be for a valid distribution?",
+          "answer": "P(blue) must be 0.3 because 0.2+0.5+0.3=1."
+        },
+        {
+          "level": "L3",
+          "prompt": "A proposed distribution for the number of fish caught in 6 hours is: P(0)=0.10, P(1)=0.30, P(2)=0.40, P(3)=0.15, P(4)=0.05. Is this a valid probability distribution? If not, identify the issue.",
+          "answer": "Yes, it is valid. The sum is 0.10+0.30+0.40+0.15+0.05=1, and all probabilities are between 0 and 1."
+        }
+      ]
+    },
+    {
+      "errorId": "err-net-expected-gain-no-cost",
+      "trigger": "When asked to compute expected net gain in a game or lottery, the student calculates only the expected winnings and does not subtract the cost of playing.",
+      "studentMisunderstanding": "The student believes that the expected value of the prize money is the net gain, ignoring the cost incurred to participate (e.g., ticket price, entry fee).",
+      "miniLesson": {
+        "explain": "Net expected gain is the long-term average profit per play. It is calculated as: Net Gain = Expected Winnings – Cost of Playing. The cost is a fixed amount you pay each time, so it must be subtracted. For example, if a lottery has expected winnings of $0.51 and a ticket costs $2, the net gain is $0.51 – $2 = -$1.48, meaning you lose $1.48 on average per ticket.",
+        "example": "Church lottery: 2 million tickets at $2 each, prizes: one $1M, two $25k, five $1k. The expected winnings are $0.51 (from sum of (prize × probability)). The cost is $2. So expected net gain = $0.51 – $2 = -$1.48.",
+        "memoryAnchor": "Remember: Net Gain = Winnings – Cost. Always subtract what you pay!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A game costs $1 to play. The expected winnings are $0.50. What is the expected net gain?",
+          "answer": "-$0.50"
+        },
+        {
+          "level": "L2",
+          "prompt": "In a church lottery with 2 million tickets at $2 each, prizes: one $1M, two $25k, five $1k. Expected winnings are $0.51. Calculate expected net gain.",
+          "answer": "-$1.48"
+        },
+        {
+          "level": "L3",
+          "prompt": "A spinner has 8 equal sections numbered 1-8. You win the number you land on. It costs $5 to spin. What is the expected net gain? (Hint: first find expected value of the spinner.)",
+          "answer": "-$0.50"
+        }
+      ]
+    },
+    {
+      "errorId": "err-dice-game-sign-confusion",
+      "trigger": "Student answered question diag-mdm4u-0701-q4 incorrectly, indicating confusion about the meaning of a negative expected value.",
+      "studentMisunderstanding": "The student misunderstands that a negative expected value means the game is unfavorable for the player; they may think it still indicates possible profit or that the game is fair.",
+      "miniLesson": {
+        "explain": "The sign of the expected value tells you whether a game is favorable (positive) or unfavorable (negative) for the player over many plays. A negative expected value means the player loses money on average. For example, in a dice game where even rolls gain twice the face value and odd rolls lose triple the face value, the expected value is -0.5, meaning the player loses 50 cents per game on average.",
+        "example": "In the dice game, outcomes: roll 1 (odd): lose 3, roll 2 (even): gain 4, roll 3 (odd): lose 9, roll 4 (even): gain 8, roll 5 (odd): lose 15, roll 6 (even): gain 12. Each probability 1/6. Expected value = (1/6)[(-3)+4+(-9)+8+(-15)+12] = (1/6)(-3) = -0.5. This negative result means the player will lose money over time.",
+        "memoryAnchor": "Remember: Negative EV = Player's Loss. The sign matters: + means you gain, - means you lose."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If a game has an expected value of -1.48, does the player win or lose on average?",
+          "answer": "Lose on average. A negative expected value means the player loses money."
+        },
+        {
+          "level": "L2",
+          "prompt": "A church lottery: 2 million tickets at $2 each, prizes $1M, $25k×2, $1k×5. The expected net return is -$1.48. Is this a good game for the player? Why?",
+          "answer": "No, it is unfavorable because the expected net gain is negative (-$1.48), meaning the player loses $1.48 on average per ticket."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain in your own words why a negative expected value cannot be interpreted as a 'fair' game. Use the dice game example (EV = -0.5) to support your explanation.",
+          "answer": "A fair game has an expected value of 0. With EV = -0.5, the player is expected to lose 50 cents per game over many plays, so it is unfair. For instance, after 100 games the average loss is $50. This shows the game is unfavorable."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-expected-value-possible-outcome",
+      "questions": [
+        {
+          "id": "q1_expected_value_not_outcome",
+          "type": "single_choice",
+          "stem": "A fair six-sided die has an expected value of 3.5. Which of the following statements is correct?",
+          "options": [
+            "The expected value 3.5 is impossible because a die cannot show 3.5.",
+            "The expected value 3.5 is the most likely outcome.",
+            "The expected value 3.5 is the long-term average of many rolls and does not need to be a possible outcome.",
+            "The expected value is incorrect because it must be one of the possible outcomes."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2_calculate_and_explain",
+          "type": "open_ended",
+          "stem": "A random variable X takes values 1, 2, 3 with probabilities 0.2, 0.3, 0.5 respectively. Calculate the expected value E(X). Is E(X) a possible outcome? Explain your reasoning.",
+          "rubric": "Student must correctly calculate E(X) = 1×0.2 + 2×0.3 + 3×0.5 = 2.3. Student must state that 2.3 is not a possible outcome because the outcomes are only 1, 2, or 3. Student must explain that expected value represents the long-term average and does not have to equal any of the actual outcomes."
+        }
+      ],
+      "passRule": "Must answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-probability-sum-not-one",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "A student claims that the following probabilities represent a valid probability distribution for a spinner with three colors: P(red)=0.3, P(blue)=0.4, P(green)=0.2. Is this distribution valid?",
+          "options": [
+            "Yes, because all probabilities are between 0 and 1.",
+            "No, because the probabilities sum to 0.9, not 1.",
+            "Yes, because it covers all possible outcomes.",
+            "No, because one of the probabilities is less than 0."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Consider a probability distribution for the number of goals in a soccer match: P(0)=0.1, P(1)=0.3, P(2)=0.4, P(3)=0.1. What must P(4) be for this to be a valid distribution? Show your calculation.",
+          "rubric": "P(4) must be 0.1 because 0.1+0.3+0.4+0.1 = 0.9, and 1 - 0.9 = 0.1. Accept any correct explanation."
+        }
+      ],
+      "passRule": "all correct"
+    },
+    {
+      "forErrorId": "err-net-expected-gain-no-cost",
+      "questions": [
+        {
+          "id": "retest-net-gain-single",
+          "type": "single_choice",
+          "stem": "A charity raffle sells 500 tickets for $10 each. The expected value of the prize money per ticket is $7.50. What is the expected net gain for a ticket buyer?",
+          "options": [
+            "$7.50",
+            "-$2.50",
+            "$2.50",
+            "-$7.50"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-net-gain-open",
+          "type": "open_ended",
+          "stem": "A game costs $2 to play. You spin a spinner with 4 equal sections labeled $4, $1, $0, $0. If you land on a section, you win that amount. Calculate the expected net gain. Show your steps.",
+          "rubric": "Expected winnings = (4×1/4)+(1×1/4)+(0×1/4)+(0×1/4)=1.25. Net gain = 1.25 - 2 = -0.75. Accept -0.75 or -$0.75."
+        }
+      ],
+      "passRule": "Both questions must be correct."
+    },
+    {
+      "forErrorId": "err-dice-game-sign-confusion",
+      "questions": [
+        {
+          "id": "retest-dice-sign-1",
+          "type": "single_choice",
+          "stem": "A game has an expected value of -2.5. Which statement is correct?",
+          "options": [
+            "The player wins on average.",
+            "The player loses on average.",
+            "The game is fair.",
+            "The expected value is impossible."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-dice-sign-2",
+          "type": "open_ended",
+          "stem": "In a dice game where even numbers give a gain of 2 times the face value and odd numbers give a loss of 3 times the face value, the expected value is -0.5. Explain what this means for a player over many rounds.",
+          "rubric": "Must state that the player loses money on average (expected loss of $0.50 per game) or that negative expected value indicates the game is unfavorable."
+        }
+      ],
+      "passRule": "Answer question 1 correctly (option b) AND provide a complete explanation in question 2 mentioning 'loses on average' or 'negative expected value means loss'."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-21",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Ieu5dqOH5oypt9xnYZHcKPkmnrf?from=vc_group_doc_link#doxcnTNsETfi93cRQW3jGIW0yHe",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-21 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Expected value of a probability distribution is the sum of each outcome multiplied by its probability, representing long-term average.；Expected value does not need to match any outcome in the sample space (e.g., single die expected value is 3.5, which is not a possible outcome).；Valid probability distributions have all probabilities between 0 and 1 inclusive, and sum exactly to 1.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can compute the expected value of a discrete probability distribution using the formula E(X)=∑x·P(x)."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can explain that the expected value may not be a possible outcome and that a valid distribution requires 0≤P≤1 and sum=1."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can apply expected value to assess fairness of games and calculate net expected gain/loss."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can use coding simulation to approximate expected value."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Single Dice Game Simulation",
+        "studentAction": "Write code to simulate the single dice game where even numbers gain face value points and odd numbers lose face value points; calculate expected value. Submit code file, running output screenshot, and a descriptive sentence.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Task core: Write code to simulate the single dice game...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Canoe Length Probability Chart",
+        "studentAction": "Build a probability distribution for 25 camp canoes of lengths 4.6 m, 5 m, 6.4 m; calculate expected length; generate bar or pie chart using matplotlib. Install matplotlib if needed (pip install matplotlib).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Build a probability distribution for 25 camp canoes...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Raffle Expected Value Calculation",
+        "studentAction": "Create a probability distribution for possible winning amounts from 1500 raffle tickets at $2 each with prizes $500, $215, $115, $70; calculate expected net gain.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "1500 raffle tickets are sold at $2 each, with 4 prizes...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Class Activity 1 Remaining Questions Submission",
+        "studentAction": "Submit answers for the remaining 2 uncompleted questions if unable to finish all 6 during class.",
+        "deadlineText": "next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who did not finish all questions in class",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Students only need to submit answers for the remaining 2 uncompleted questions...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Graph Submission Policy",
+        "studentAction": "Submit only computer-generated charts (using matplotlib) for all subsequent assignments; hand-drawn graphs will no longer be accepted.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Computer-generated charts are required for all subsequent assignments, hand-drawn graphs will no longer be accepted...",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Break Stretching and Hydration",
+        "studentAction": "Stand up, stretch, and drink water during the 10-minute break.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "All students are required to do light stretching and drink water during the 10-minute break...",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Next Session Arrangement",
+        "studentAction": "No additional pre-class preparation needed; remaining parts of Class Activity 1 will be covered at start of next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The remaining uncompleted parts of Class Activity 1 will be covered at the start of the next class, with no additional pre-class preparation required.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "MDM4U-EV-01",
+      "MDM4U-PD-01",
+      "MDM4U-SIM-01"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-expected-value-possible-outcome",
+        "condition": "Student answers incorrectly on question diag-mdm4u-0701-q1 or diag-mdm4u-0701-q5.",
+        "systemAction": "assign reteach module for err-expected-value-possible-outcome"
+      },
+      {
+        "errorId": "err-probability-sum-not-one",
+        "condition": "Student answers incorrectly on question diag-mdm4u-0701-q2.",
+        "systemAction": "assign reteach module for err-probability-sum-not-one"
+      },
+      {
+        "errorId": "err-net-expected-gain-no-cost",
+        "condition": "Student answers incorrectly on question diag-mdm4u-0701-q3.",
+        "systemAction": "assign reteach module for err-net-expected-gain-no-cost"
+      },
+      {
+        "errorId": "err-dice-game-sign-confusion",
+        "condition": "Student answers incorrectly on question diag-mdm4u-0701-q4.",
+        "systemAction": "assign reteach module for err-dice-game-sign-confusion"
+      }
+    ],
+    "nextActions": [
+      "[err-expected-value-possible-outcome] Student answers incorrectly on question diag-mdm4u-0701-q1 or diag-mdm4u-0701-q5.: Expected value is a long-term average, not necessarily a possible outcome. Let's review.",
+      "[err-probability-sum-not-one] Student answers incorrectly on question diag-mdm4u-0701-q2.: A valid probability distribution must have probabilities that sum to exactly 1. Let's check that.",
+      "[err-net-expected-gain-no-cost] Student answers incorrectly on question diag-mdm4u-0701-q3.: When calculating net expected gain, remember to subtract the cost of playing. Let's practice.",
+      "[err-dice-game-sign-confusion] Student answers incorrectly on question diag-mdm4u-0701-q4.: A negative expected value means the player loses money on average. Let's go over it."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-0701-q1",
+        "type": "choice",
+        "question": "When rolling a fair six-sided die, the expected value of the outcome is 3.5. Which of the following statements is true?",
+        "options": [
+          "3.5 is the most likely outcome.",
+          "3.5 is impossible because the die only shows whole numbers.",
+          "3.5 represents the average result over many rolls.",
+          "The expected value must be a whole number for a die."
+        ],
+        "correct": 2,
+        "diagnosis": "Check whether student understands that expected value need not be a possible outcome.",
+        "misconceptions": [
+          "3.5 is not a possible outcome, so it cannot be the most likely. The expected value is an average, not a specific outcome.",
+          "That is true, but it is still the expected value. The expected value does not have to be a possible outcome.",
+          "✓ Correct. The expected value is the long-run average.",
+          "No, expected value can be any number. For a fair die, it is 3.5."
+        ],
+        "nodeId": "MDM4U-EV-01",
+        "errorId": "err-expected-value-possible-outcome",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student recognizes expected value is a long-term average, not a single outcome.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Targets understanding expected value as long-term average.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks expected value must be a possible outcome value.",
+        "remediationModule": "err-expected-value-possible-outcome",
+        "retestItem": "err-expected-value-possible-outcome"
+      },
+      {
+        "id": "diag-mdm4u-0701-q2",
+        "type": "choice",
+        "question": "A student proposes the following probability distribution for the number of heads when tossing two coins: P(0)=0.25, P(1)=0.50, P(2)=0.30. Which condition for a valid probability distribution is violated?",
+        "options": [
+          "Probabilities must be between 0 and 1.",
+          "The sum of probabilities must equal 1.",
+          "All outcomes must be equally likely.",
+          "Outcomes must be numeric."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student recognizes the sum-to-one condition.",
+        "misconceptions": [
+          "These probabilities are between 0 and 1, so that condition is satisfied.",
+          "✓ Correct. The sum is 0.25+0.50+0.30=1.05, which violates the condition.",
+          "That is not a requirement for a valid probability distribution.",
+          "Outcomes can be categorical; numeric is not required."
+        ],
+        "nodeId": "MDM4U-PD-01",
+        "errorId": "err-probability-sum-not-one",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that probabilities must sum to exactly 1.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Targets probability distribution validity condition.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student may think any set of numbers between 0 and 1 is valid even if not summing to 1.",
+        "remediationModule": "err-probability-sum-not-one",
+        "retestItem": "err-probability-sum-not-one"
+      },
+      {
+        "id": "diag-mdm4u-0701-q3",
+        "type": "choice",
+        "question": "In a church lottery with 2 million tickets at $2 each, prizes are: one $1,000,000, two $25,000, and five $1,000. If you buy one ticket, what is your expected net gain?",
+        "options": [
+          "$0.51 (positive, so it's a winning game)",
+          "-$1.48 (expected loss)",
+          "$1.00 (based on prize total divided by tickets)",
+          "$1,055,000 (total prize pool)"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student remembers to subtract ticket cost when calculating net expected gain.",
+        "misconceptions": [
+          "That is the raw expected winning, not net gain. You need to subtract the $2 ticket cost.",
+          "✓ Correct. Raw expected winning is about $0.51, minus $2 cost gives an expected loss of about $1.48.",
+          "That is incorrect. You need to use the probability distribution to find expected value.",
+          "That is the total prize money, not the expected gain from a single ticket."
+        ],
+        "nodeId": "MDM4U-EV-01",
+        "errorId": "err-net-expected-gain-no-cost",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly calculates expected net gain by subtracting cost.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Apply expected value to real-world context.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may only calculate expected raw winnings and forget cost.",
+        "remediationModule": "err-net-expected-gain-no-cost",
+        "retestItem": "err-net-expected-gain-no-cost"
+      },
+      {
+        "id": "diag-mdm4u-0701-q4",
+        "type": "choice",
+        "question": "In a dice game, if the roll is even you gain twice the face value, and if odd you lose triple the face value. The expected value is -0.5. This means:",
+        "options": [
+          "The game is fair because the expected value is close to zero.",
+          "The player will lose money on average over many plays.",
+          "The player will win money on average.",
+          "The game always results in a loss of $0.50 per play."
+        ],
+        "correct": 1,
+        "diagnosis": "Check student's ability to interpret sign of expected value.",
+        "misconceptions": [
+          "An expected value of -0.5 is not close enough to zero; the player loses money on average.",
+          "✓ Correct. The negative expected value means the average loss per play is $0.50.",
+          "A negative expected value means average loss, not gain.",
+          "Expected value is an average over many plays; individual outcomes vary."
+        ],
+        "nodeId": "MDM4U-EV-01",
+        "errorId": "err-dice-game-sign-confusion",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student interprets negative expected value as unfavorable to player.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interpret expected value in context.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student may think negative expected value still means possible profit or that expected value equals per-play outcome.",
+        "remediationModule": "err-dice-game-sign-confusion",
+        "retestItem": "err-dice-game-sign-confusion"
+      },
+      {
+        "id": "diag-mdm4u-0701-q5",
+        "type": "explain",
+        "question": "Consider a spinner with 8 equal sections numbered 1 to 8. Calculate the expected value of a single spin. Then explain why the expected value may not be a possible outcome.",
+        "correct": null,
+        "diagnosis": "Evaluate ability to compute expected value and explain property.",
+        "nodeId": "MDM4U-EV-01",
+        "errorId": "err-expected-value-possible-outcome",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly calculates expected value and explains that it is an average, not necessarily a possible value.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Evaluate ability to compute expected value and explain property.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "justify",
+        "commonMisconception": "Student may calculate incorrectly or think expected value must be an outcome.",
+        "remediationModule": "err-expected-value-possible-outcome",
+        "retestItem": "err-expected-value-possible-outcome"
+      }
+    ]
+  }
+}

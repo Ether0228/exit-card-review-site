@@ -1,0 +1,1384 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-21",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Lo7Od3eANo3AMaxwKQac04Ukned?from=vc_group_doc_link#doxcnUrYP6x2aRvKfuehduvuAzb",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-21 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Lo7Od3eANo3AMaxwKQac04Ukned?from=vc_group_doc_link#doxcnUrYP6x2aRvKfuehduvuAzb",
+    "title": "MHF4U.S6.Taylor 2026-07-21 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-22/sources/mhf4u-s6-taylor-2026-07-21/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-21",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-21",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson combines homework review, new instruction on polynomial equation solving and inequalities, and in-class practice.",
+    "academicContentSignals": [
+      "Transformation analysis of quartic and cubic functions (horizontal/vertical shifts, stretch coefficient)",
+      "Polynomial equation solving via factoring and synthetic division (Orca motion problem)",
+      "Non-factorable polynomial properties (odd-degree always has x-intercept, even-degree may have none)",
+      "Linear inequality rule (flip sign when multiplying/dividing by negative)",
+      "Quadratic inequality reference framework (cases for positive/negative leading coefficient)",
+      "General polynomial inequality workflow (preprocessing, interval testing, solution compilation)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations include homework answer sheet compilation, in-class practice tasks, and post-class homework distribution. Academic content is substantial and central. Ops items are secondary and should not dominate diagnostic card generation.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Homework answer sheet compilation",
+        "studentAction": "Check for compiled answer sheet with solutions for all covered homework items",
+        "deadlineText": "By end of class day 2026-07-21",
+        "deadlineISO": "2026-07-21T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Taylor confirms he will compile all covered and unaddressed homework items ... into a single reference answer sheet by the end of the class day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "In-class practice: solving polynomial equations (Unit 1 Lesson 9 Part 1)",
+        "studentAction": "Complete 10 minutes of focused practice on Unit 1 Lesson 9 Part 1",
+        "deadlineText": "During class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students will complete 10 minutes of focused work on Unit 1 Lesson 9 Part 1 before the session concludes.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "In-class practice: solve x³ - 2x + 3 = 0",
+        "studentAction": "Solve the non-factorable cubic equation using alternative methods",
+        "deadlineText": "During class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students are assigned to solve x³ - 2x + 3 = 0, and are notified that non-integer roots can be identified via alternative methods.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Post-class homework: polynomial inequality practice",
+        "studentAction": "Complete polynomial inequality practice homework distributed after in-class practice",
+        "deadlineText": "After class (likely due next session)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Polynomial inequality practice homework will be distributed to students immediately after the in-class practice period ends.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Next class: finish Unit 1 content",
+        "studentAction": "No additional pre-work required for attendance",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The remaining content of Unit 1 will be fully covered and finalized in the subsequent class session, with no additional pre-work required for attendance.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Polynomial inequality practice homework will be distributed to students immediately after the in-class practice period ends.",
+        "reason": "Due date not specified; likely due next class but not explicit."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Polynomial Equation Solving、Polynomial Inequality Solving、Polynomial End Behavior and x-intercepts）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 7 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "To solve polynomial equations, set functions equal, rearrange, factor using synthetic division, and screen roots within domain.；Odd-degree polynomials always have at least one real root (x-intercept) due to opposite end behavior.；Non-factorable even-degree polynomials with positive leading coefficient lie entirely above x-axis; negative leading coefficient lie entirely below x-axis.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Solve polynomial equations algebraically by rearranging, factoring, and using synthetic division, and screen solutions within a given domain."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Solve polynomial inequalities using the standard workflow: rearrange, factor, plot zeros, test intervals, and compile solution sets."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Identify properties of polynomial functions: odd-degree always has at least one real root; even-degree non-factorable polynomials may lie entirely above or below the x-axis."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "poly-eq-solving",
+      "name": "Polynomial Equation Solving",
+      "nameEn": "Polynomial Equation Solving",
+      "definition": "Solving polynomial equations in one variable algebraically, including rearranging, factoring (using synthetic division), and screening solutions within a given domain.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    },
+    {
+      "id": "poly-ineq-solving",
+      "name": "Polynomial Inequality Solving",
+      "nameEn": "Polynomial Inequality Solving",
+      "definition": "Solving polynomial inequalities by rearranging to one side, factoring, plotting zeros on a number line, testing intervals, and compiling solutions.",
+      "officialExpectationCode": "C4",
+      "officialNodeId": "MHF4U-C-OE04",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities."
+    },
+    {
+      "id": "poly-end-behavior",
+      "name": "Polynomial End Behavior and x-intercepts",
+      "nameEn": "Polynomial End Behavior and x-intercepts",
+      "definition": "Odd-degree polynomials always have at least one real root due to opposite end behavior. Even-degree non-factorable polynomials with positive leading coefficient lie above x-axis; negative leading coefficient lie below x-axis.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    }
+  ],
+  "diagnosticCard": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-21",
+    "methodology": "TeachAny",
+    "title": "MHF4U Exit Card: Polynomial Equations and Inequalities",
+    "problemAnchor": "When solving polynomial equations and inequalities, do you always include all roots? How do you handle quadratic inequalities like x² > a, and what about odd-degree polynomials — do they always cross the x-axis?",
+    "abt": {
+      "and": "You have learned how to solve polynomial equations using synthetic division and factor theo rem, and how to solve polynomial inequalities by interval testing.",
+      "but": "Common mistakes arise when screening roots against a domain, applying synthetic division steps, factoring completely, remembering to flip the inequality sign, applying quadratic inequality patterns correctly, testing all intervals, and understanding when a polynomial must have a real root.",
+      "therefore": "This exit card is designed to diagnose your understanding of these key sub-skills so we can address any gaps."
+    },
+    "objective": "Students can solve polynomial equations by factoring and synthetic division, screen solutions within a domain, solve polynomial inequalities using interval testing, and identify key features of polynomial functions related to end behavior and x-intercepts.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Solve polynomial equations algebraically by rearranging, factoring, and using synthetic division, and screen solutions within a given domain."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Solve polynomial inequalities using the standard workflow: rearrange, factor, plot zeros, test intervals, and compile solution sets."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Identify properties of polynomial functions: odd-degree always has at least one real root; even-degree non-factorable polynomials may lie entirely above or below the x-axis."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-poly-eq-root-screening",
+        "condition": "Student selects a root that is outside the given domain (e.g., t=9 when domain is 0≤t≤8).",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "Make sure to check if each candidate root satisfies the problem's domain or time window."
+      },
+      {
+        "errorId": "err-poly-eq-synthetic-division",
+        "condition": "Student incorrectly arranges coefficients or processes the synthetic division steps.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "Review the steps for synthetic division: bring down, multiply, add — in that order."
+      },
+      {
+        "errorId": "err-poly-eq-factoring",
+        "condition": "Student stops factoring after synthetic division and overlooks the quadratic factor that may still factor further.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "After synthetic division, always try to factor the resulting quadratic (or higher-degree) factor."
+      },
+      {
+        "errorId": "err-poly-ineq-flip-sign",
+        "condition": "Student does not reverse the inequality sign when multiplying or dividing by a negative number.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "Remember: when you multiply/divide both sides of an inequality by a negative, the inequality sign flips."
+      },
+      {
+        "errorId": "err-poly-ineq-quadratic-pattern",
+        "condition": "Student misapplies the pattern for x² > a or x² < a (e.g., only writes x > √a for x² > a).",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "For x² > a (a>0), the solution is two intervals: x < -√a or x > √a. For x² < a, it's -√a < x < √a."
+      },
+      {
+        "errorId": "err-poly-ineq-interval-testing",
+        "condition": "Student fails to test all intervals created by the zeros on the number line.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "After plotting zeros, pick a test point in each interval and evaluate the inequality to see which intervals satisfy it."
+      },
+      {
+        "errorId": "err-poly-nonfactorable-misconception",
+        "condition": "Student thinks that all polynomials have at least one real root (for even-degree) or that non-factorable means no x-intercepts.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "Odd-degree polynomials always cross the x-axis, but even-degree polynomials may sit entirely above or below depending on the leading coefficient."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-s6-0721-q1",
+        "nodeId": "poly-eq-solving",
+        "errorId": "err-poly-eq-root-screening",
+        "stem": "A depth function is set equal and the solutions are t = 1.5, 4, and 9. The observation occurs within a 0 to 8 second window. Which root(s) should be included?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that only roots within the domain are valid.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Statement aligns with C3 solving polynomial equations, including domain considerations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student screens roots against a given domain.",
+        "commonMisconception": "Student includes all roots without checking the domain restrictions.",
+        "remediationModule": "err-poly-eq-root-screening",
+        "retestItem": "err-poly-eq-root-screening",
+        "options": [
+          {
+            "label": "A",
+            "text": "All three roots are included: t=1.5, 4, and 9",
+            "correct": false,
+            "feedbackWrong": "t=9 is outside the 0 to 8 second window, so it should be excluded."
+          },
+          {
+            "label": "B",
+            "text": "Only t=4",
+            "correct": false,
+            "feedbackWrong": "t=1.5 is also within the window and should be included."
+          },
+          {
+            "label": "C",
+            "text": "t=1.5 and t=4",
+            "correct": true,
+            "feedbackCorrect": "Correct. Both 1.5 and 4 fall within the interval [0,8], while 9 does not."
+          },
+          {
+            "label": "D",
+            "text": "t=1.5 and t=9",
+            "correct": false,
+            "feedbackWrong": "t=9 is outside the domain and t=4 should be included instead."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-poly-eq-root-screening."
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q2",
+        "nodeId": "poly-eq-solving",
+        "errorId": "err-poly-eq-synthetic-division",
+        "stem": "When using synthetic division to divide x³ - 6x² + 11x - 6 by (x-2), which of the following is the correct first step?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the coefficients and the divisor value.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Synthetic division is a standard algebraic technique for solving polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student knows how to set up synthetic division correctly.",
+        "commonMisconception": "Student incorrectly identifies the divisor (uses -2 instead of 2) or misorders coefficients.",
+        "remediationModule": "err-poly-eq-synthetic-division",
+        "retestItem": "err-poly-eq-synthetic-division",
+        "options": [
+          {
+            "label": "A",
+            "text": "Use divisor 2 and coefficients 1, -6, 11, -6",
+            "correct": true,
+            "feedbackCorrect": "Correct. (x-2) gives divisor 2, and coefficients are 1, -6, 11, -6."
+          },
+          {
+            "label": "B",
+            "text": "Use divisor -2 and coefficients 1, -6, 11, -6",
+            "correct": false,
+            "feedbackWrong": "For (x-2), the divisor is the root (2), not the constant term with opposite sign."
+          },
+          {
+            "label": "C",
+            "text": "Use divisor 2 and coefficients 1, 6, 11, 6",
+            "correct": false,
+            "feedbackWrong": "The coefficients should be 1, -6, 11, -6. The signs matter."
+          },
+          {
+            "label": "D",
+            "text": "Use divisor -2 and coefficients -1, 6, -11, 6",
+            "correct": false,
+            "feedbackWrong": "Both divisor and coefficients are incorrect. For (x-2), divisor is 2, and coefficients are as given in the polynomial."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-poly-eq-synthetic-division."
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q3",
+        "nodeId": "poly-eq-solving",
+        "errorId": "err-poly-eq-factoring",
+        "stem": "After synthetic division, the original polynomial x³ - 6x² + 11x - 6 becomes (x-2)(x² - 4x + 3). What should you do next?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that the quadratic factor may factor further.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Factoring completely is a crucial step in solving polynomial equations algebraically.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student understands that factoring is not complete until all factors are irreducible.",
+        "commonMisconception": "Student assumes that after synthetic division, the polynomial is fully factored.",
+        "remediationModule": "err-poly-eq-factoring",
+        "retestItem": "err-poly-eq-factoring",
+        "options": [
+          {
+            "label": "A",
+            "text": "Stop, the polynomial is fully factored.",
+            "correct": false,
+            "feedbackWrong": "The quadratic factor x² - 4x + 3 can be factored further into (x-1)(x-3)."
+          },
+          {
+            "label": "B",
+            "text": "Factor the quadratic: (x-1)(x-3).",
+            "correct": true,
+            "feedbackCorrect": "Correct. x² - 4x + 3 factors as (x-1)(x-3), giving complete factorization (x-1)(x-2)(x-3)."
+          },
+          {
+            "label": "C",
+            "text": "Rewrite the whole thing as (x-2) times the original quadratic.",
+            "correct": false,
+            "feedbackWrong": "That is just restating; you need to factor the quadratic further."
+          },
+          {
+            "label": "D",
+            "text": "Apply the quadratic formula but do not simplify.",
+            "correct": false,
+            "feedbackWrong": "Factoring is simpler here. The quadratic factor can be factored without the quadratic formula."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-poly-eq-factoring."
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q4",
+        "nodeId": "poly-ineq-solving",
+        "errorId": "err-poly-ineq-flip-sign",
+        "stem": "Solve: -3x + 5 > 11. What is the solution?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly flips the inequality sign when dividing by a negative.",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The sign-flip rule is fundamental to solving linear inequalities, which extends to polynomial inequalities.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student remembers to reverse the inequality when multiplying/dividing by a negative number.",
+        "commonMisconception": "Student treats inequality as an equation and does not flip the sign.",
+        "remediationModule": "err-poly-ineq-flip-sign",
+        "retestItem": "err-poly-ineq-flip-sign",
+        "options": [
+          {
+            "label": "A",
+            "text": "x > -2",
+            "correct": false,
+            "feedbackWrong": "Check the sign: when you divide by -3, the inequality should flip from > to <."
+          },
+          {
+            "label": "B",
+            "text": "x < -2",
+            "correct": true,
+            "feedbackCorrect": "Correct. -3x + 5 > 11 → -3x > 6 → dividing by -3 flips to x < -2."
+          },
+          {
+            "label": "C",
+            "text": "x > 2",
+            "correct": false,
+            "feedbackWrong": "You likely forgot to flip the sign. -3x > 6 lead to x < -2, not x > 2."
+          },
+          {
+            "label": "D",
+            "text": "x < 2",
+            "correct": false,
+            "feedbackWrong": "Check the arithmetic: -3x > 6, not -3x > -6."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-poly-ineq-flip-sign."
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q5",
+        "nodeId": "poly-ineq-solving",
+        "errorId": "err-poly-ineq-quadratic-pattern",
+        "stem": "Which of the following correctly represents the solution set for x² > 4?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly applies the pattern for x² > a (a>0).",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Quadratic inequalities are a core part of polynomial inequality solving.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student knows that x² > a yields two separate intervals.",
+        "commonMisconception": "Student thinks x² > 4 means x > 2 only.",
+        "remediationModule": "err-poly-ineq-quadratic-pattern",
+        "retestItem": "err-poly-ineq-quadratic-pattern",
+        "options": [
+          {
+            "label": "A",
+            "text": "x > 2 or x < -2",
+            "correct": true,
+            "feedbackCorrect": "Correct. For x² > 4, the solution is x < -2 or x > 2."
+          },
+          {
+            "label": "B",
+            "text": "x > 2",
+            "correct": false,
+            "feedbackWrong": "You missed the x < -2 part. For x² > 4, both x > 2 and x < -2 satisfy the inequality."
+          },
+          {
+            "label": "C",
+            "text": "-2 < x < 2",
+            "correct": false,
+            "feedbackWrong": "That is the solution for x² < 4, not x² > 4."
+          },
+          {
+            "label": "D",
+            "text": "x > 4 or x < -4",
+            "correct": false,
+            "feedbackWrong": "You are using 4 instead of its square root. The boundary should be ±√4 = ±2."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-poly-ineq-quadratic-pattern."
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q6",
+        "nodeId": "poly-ineq-solving",
+        "errorId": "err-poly-ineq-interval-testing",
+        "stem": "The zeros of a polynomial inequality are -2, 1, 3, and 5. Describe the steps you would take to determine the solution set.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student outlines the interval testing method: plot zeros on number line, pick test points in each interval, determine sign, and compile intervals where inequality holds.",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interval testing is the standard method for solving polynomial inequalities.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Assess whether student can articulate the complete interval testing process.",
+        "commonMisconception": "Student skips testing all intervals or only tests one interval.",
+        "remediationModule": "err-poly-ineq-interval-testing",
+        "retestItem": "err-poly-ineq-interval-testing",
+        "rubric": "Full credit: mentions placing zeros on a number line, selecting a test point from each interval, evaluating the inequality at each test point, and then writing the solution as the union of intervals where inequality is true.",
+        "sampleStrongAnswer": "Plot the zeros -2, 1, 3, 5 on a number line. This creates five intervals: (-∞, -2), (-2,1), (1,3), (3,5), (5,∞). Choose a test point in each interval (e.g., -3, 0, 2, 4, 6) and plug into the factored inequality. Determine the sign of the result. Then the solution is the set of intervals where the inequality is satisfied (e.g., for x≥? type, include intervals where test gives positive). Finally, combine those intervals (e.g., x < -2 or 1 < x < 3 or x > 5).",
+        "nextActionIfWrong": "Enter reteach module for err-poly-ineq-interval-testing."
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q7",
+        "nodeId": "poly-end-behavior",
+        "errorId": "err-poly-nonfactorable-misconception",
+        "stem": "Consider a non-factorable polynomial of odd degree with positive leading coefficient. Which statement is always true?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student recognizes that odd-degree polynomials always have at least one real root.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding end behavior and x-intercepts is a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Check if student knows the property that odd-degree polynomials have opposite end behavior and thus cross the x-axis at least once.",
+        "commonMisconception": "Student thinks all polynomials cross the x-axis, even even-degree ones.",
+        "remediationModule": "err-poly-nonfactorable-misconception",
+        "retestItem": "err-poly-nonfactorable-misconception",
+        "options": [
+          {
+            "label": "A",
+            "text": "It has no real roots because it is non-factorable.",
+            "correct": false,
+            "feedbackWrong": "Non-factorable does not mean no real roots. Odd-degree polynomials always have at least one real root due to opposite end behavior."
+          },
+          {
+            "label": "B",
+            "text": "It has at least one real root.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Odd-degree polynomials always have at least one real root because the ends go in opposite directions, crossing the x-axis."
+          },
+          {
+            "label": "C",
+            "text": "It has exactly three real roots.",
+            "correct": false,
+            "feedbackWrong": "The number of real roots can vary; only guarantee is at least one."
+          },
+          {
+            "label": "D",
+            "text": "It lies entirely above the x-axis.",
+            "correct": false,
+            "feedbackWrong": "That property is for even-degree polynomials with positive leading coefficient. Odd-degree never stays entirely above or below."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-poly-nonfactorable-misconception."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-poly-eq-root-screening",
+      "condition": "Student selects a root that is outside the given domain (e.g., t=9 when domain is 0≤t≤8).",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "Make sure to check if each candidate root satisfies the problem's domain or time window."
+    },
+    {
+      "errorId": "err-poly-eq-synthetic-division",
+      "condition": "Student incorrectly arranges coefficients or processes the synthetic division steps.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "Review the steps for synthetic division: bring down, multiply, add — in that order."
+    },
+    {
+      "errorId": "err-poly-eq-factoring",
+      "condition": "Student stops factoring after synthetic division and overlooks the quadratic factor that may still factor further.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "After synthetic division, always try to factor the resulting quadratic (or higher-degree) factor."
+    },
+    {
+      "errorId": "err-poly-ineq-flip-sign",
+      "condition": "Student does not reverse the inequality sign when multiplying or dividing by a negative number.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "Remember: when you multiply/divide both sides of an inequality by a negative, the inequality sign flips."
+    },
+    {
+      "errorId": "err-poly-ineq-quadratic-pattern",
+      "condition": "Student misapplies the pattern for x² > a or x² < a (e.g., only writes x > √a for x² > a).",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "For x² > a (a>0), the solution is two intervals: x < -√a or x > √a. For x² < a, it's -√a < x < √a."
+    },
+    {
+      "errorId": "err-poly-ineq-interval-testing",
+      "condition": "Student fails to test all intervals created by the zeros on the number line.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "After plotting zeros, pick a test point in each interval and evaluate the inequality to see which intervals satisfy it."
+    },
+    {
+      "errorId": "err-poly-nonfactorable-misconception",
+      "condition": "Student thinks that all polynomials have at least one real root (for even-degree) or that non-factorable means no x-intercepts.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "Odd-degree polynomials always cross the x-axis, but even-degree polynomials may sit entirely above or below depending on the leading coefficient."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-poly-eq-root-screening",
+      "trigger": "Student includes a root outside the given domain (e.g., t=9 when domain is 0≤t≤8).",
+      "studentMisunderstanding": "The student assumes that all algebraic solutions of the polynomial equation are valid, without verifying whether they satisfy the context or domain restrictions. This often leads to including extraneous roots.",
+      "miniLesson": {
+        "explain": "When solving polynomial equations in a real-world context, you must check that each candidate root falls within the specified domain (e.g., time interval, length, etc.). Only roots within the domain are meaningful. For example, in the Orca motion problem, the depth functions were set equal, yielding t=1.5, t=4, and t=9. Since the observation window is 0 to 8 seconds, only t=1.5 and t=4 are valid; t=9 is discarded.",
+        "example": "Orca problem: solve h1(t)=h2(t) → (t-4)(t-9) factor gives roots 4 and 9; but domain is [0,8], so discard 9. Also synthetic division gave t=1.5 as a root, which is within domain.",
+        "memoryAnchor": "ROOT CHECK: Real-world roots must be Real in the situation! Always ask: 'Does this root make sense in the problem's domain?'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A polynomial equation gives roots t = -2, 1, 5. The motion occurs from t=0 to t=8 seconds. Which roots are valid?",
+          "answer": "t = 1 and t = 5 (discard t=-2 because negative time is not in domain)."
+        },
+        {
+          "level": "L2",
+          "prompt": "The equation 2x^3 - 5x^2 - 4x + 3 = 0 is solved and the roots are x = -2, 1, 3. The problem context restricts x to positive values only (x > 0). Which roots are valid?",
+          "answer": "x = 1 and x = 3 (discard x = -2 because it is negative)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A company's profit function yields the equation P(t) = (t-2)(t-5)(t-9) and t represents months from start with 0 ≤ t ≤ 8. Find the valid roots of P(t)=0.",
+          "answer": "t = 2 and t = 5 are valid; t = 9 is outside domain."
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-eq-synthetic-division",
+      "trigger": "Student incorrectly arranges coefficients or processes the synthetic division steps.",
+      "studentMisunderstanding": "The student may be confusing the divisor sign, misordering coefficients, or not carrying down correctly when performing synthetic division.",
+      "miniLesson": {
+        "explain": "Synthetic division is a shortcut for dividing a polynomial by (x - c). Steps: (1) Write the root c (the value that makes the divisor zero). (2) Write the coefficients of the polynomial in descending order of degree, including zeros for missing terms. (3) Bring down the first coefficient. (4) Multiply that coefficient by c, add the result to the next coefficient, and write the sum below. (5) Repeat: multiply this sum by c, add to the next coefficient, and so on. (6) The last number is the remainder; the other numbers are coefficients of the quotient (one degree less than the original).",
+        "example": "Divide x³ - 2x² + 3x - 2 by (x - 1). Root = 1. Coefficients: 1, -2, 3, -2. Bring down 1. Multiply 1×1 = 1, add to -2 → -1. Multiply 1×(-1) = -1, add to 3 → 2. Multiply 1×2 = 2, add to -2 → 0. Quotient: x² - x + 2, remainder 0.",
+        "memoryAnchor": "Bring Down, Multiply, Add – just like a conveyor belt!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Set up synthetic division for dividing x² + 3x - 4 by (x + 2). What is the root and what are the coefficients?",
+          "answer": "Root = -2, coefficients: 1, 3, -4"
+        },
+        {
+          "level": "L2",
+          "prompt": "Use synthetic division to divide x³ - 2x² + 3x - 2 by (x - 1). What is the quotient and remainder?",
+          "answer": "Quotient: x² - x + 2, remainder: 0"
+        },
+        {
+          "level": "L3",
+          "prompt": "Perform synthetic division for x³ - 2x² + 3x - 2 divided by (x - 2). Provide the quotient and remainder.",
+          "answer": "Quotient: x² + 3, remainder: 4"
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-eq-factoring",
+      "trigger": "Student stops factoring after synthetic division and does not attempt to factor the resulting quadratic (or higher-degree) factor.",
+      "studentMisunderstanding": "Student believes that once synthetic division is performed, the polynomial is fully factored, overlooking that the quotient polynomial may still be factorable.",
+      "miniLesson": {
+        "explain": "When solving polynomial equations, after using synthetic division to factor out one root, you obtain a reduced polynomial (often quadratic). You must check if this reduced polynomial can be factored further. For example, if synthetic division yields (x-2)(x² - 4x + 3), the quadratic x² - 4x + 3 can be factored as (x-1)(x-3) to give the complete factorization (x-1)(x-2)(x-3).",
+        "example": "Solve x³ - 6x² + 11x - 6 = 0. Using synthetic division with root 2 gives (x-2)(x² - 4x + 3). Now factor x² - 4x + 3: find two numbers that multiply to 3 and add to -4: -1 and -3. So it factors as (x-1)(x-3). Thus the polynomial fully factors as (x-1)(x-2)(x-3), and the solutions are x=1,2,3.",
+        "memoryAnchor": "Factoring isn't a one-step process. After synthetic division, always ask: 'Can I factor this quotient further?' If it's a quadratic, try to factor it using decomposition or the difference of squares."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "After synthetic division, you have (x-2)(x² - 3x + 2). Factor the quadratic completely.",
+          "answer": "(x-1)(x-2)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Factor completely: (x+2)(x² - 5x + 4).",
+          "answer": "(x+2)(x-1)(x-4)"
+        },
+        {
+          "level": "L3",
+          "prompt": "After synthetic division with root 1 on x³ - 4x² + 5x - 2, you get (x-1)(x² - 3x + 2). Factor the quadratic completely and find all solutions.",
+          "answer": "x² - 3x + 2 = (x-1)(x-2). So fully factored: (x-1)²(x-2). Solutions: x=1 and x=2."
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-ineq-flip-sign",
+      "trigger": "Student does not reverse the inequality sign when multiplying or dividing by a negative number.",
+      "studentMisunderstanding": "Student treats inequality as an equation and does not flip the sign when multiplying or dividing by a negative.",
+      "miniLesson": {
+        "explain": "When multiplying or dividing both sides of an inequality by a negative number, the inequality sign must be flipped. This is because multiplying by a negative reverses the order on the number line. For example, -3x > 6 becomes x < -2 after dividing by -3 and flipping the sign.",
+        "example": "Solve -2x > 4:\nDivide both sides by -2 and flip the '>' to '<':\nx < -2",
+        "memoryAnchor": "Flip the sign when dividing by a negative."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Solve: -2x > 4",
+          "answer": "x < -2"
+        },
+        {
+          "level": "L2",
+          "prompt": "Solve: -2x + 5 > 9",
+          "answer": "x < -2"
+        },
+        {
+          "level": "L3",
+          "prompt": "Solve: 3x + 1 > 5x + 5",
+          "answer": "x < -2"
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-ineq-quadratic-pattern",
+      "trigger": "Student incorrectly solves quadratic inequalities by ignoring the negative root or misunderstanding the pattern for x² > a or x² < a.",
+      "studentMisunderstanding": "Students think x² > a means x > √a only, forgetting the negative branch x < -√a. Similarly, for x² < a, they may write x < √a instead of the double inequality -√a < x < √a.",
+      "miniLesson": {
+        "explain": "For quadratic inequalities, the solution set depends on the direction of the inequality and the sign of a. For x² > a where a > 0, the graph of y = x² is above the horizontal line y = a for x < -√a and x > √a, so the solution is x < -√a or x > √a. For x² < a, the graph is below the line, so -√a < x < √a. If a < 0, then x² > a is always true (since x² ≥ 0 > a) and x² < a has no solution. Always consider both positive and negative roots.",
+        "example": "Solve x² > 4. Take square root: √4 = 2. Since inequality is >, solution is x < -2 or x > 2. Solve x² < 4: solution is -2 < x < 2.",
+        "memoryAnchor": "Think of the quadratic graph or use the 'or' vs 'and' rule: for >, it's OR (two separate intervals); for <, it's AND (one interval). Also, remember that squaring removes sign, so you must include both ±√a."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Solve the inequality: x² > 4",
+          "answer": "x < -2 or x > 2"
+        },
+        {
+          "level": "L2",
+          "prompt": "Solve the inequality: x² < 9",
+          "answer": "-3 < x < 3"
+        },
+        {
+          "level": "L3",
+          "prompt": "Solve the inequality: x² > -4",
+          "answer": "All real numbers"
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-ineq-interval-testing",
+      "trigger": "Student only tests one interval or picks a sample point that is not within the interval.",
+      "studentMisunderstanding": "Students think testing one interval is enough or forget that each interval must be tested separately.",
+      "miniLesson": {
+        "explain": "When solving a polynomial inequality, after factoring and finding zeros, plot them on a number line. This splits the number line into intervals. You must test a sample point from each interval to determine the sign of the expression in that interval.",
+        "example": "For zeros at -2, 1, 3, 5, the intervals are: (-∞, -2), (-2, 1), (1, 3), (3, 5), (5, ∞). Choose test points like -3, 0, 2, 4, 6 and evaluate the inequality to see which intervals satisfy it.",
+        "memoryAnchor": "Number line is like a map: each interval is a territory; you must send a scout (test point) into every territory to know the sign."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A polynomial inequality has zeros at x = -2 and x = 1. How many intervals are there? List them.",
+          "answer": "Three intervals: (-∞, -2), (-2, 1), (1, ∞)."
+        },
+        {
+          "level": "L2",
+          "prompt": "For the inequality (x+2)(x-1)(x-3) ≥ 0, identify a test point from each interval.",
+          "answer": "Test points: x = -3 (for (-∞,-2)), x = 0 (for (-2,1)), x = 2 (for (1,3)), x = 4 (for (3,∞))."
+        },
+        {
+          "level": "L3",
+          "prompt": "Solve the inequality (x+2)(x-1)(x-3)(x-5) < 0 by testing all intervals. Determine the solution set.",
+          "answer": "Solution: x ∈ (-2,1) ∪ (3,5)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-poly-nonfactorable-misconception",
+      "trigger": "Student thinks that all polynomials have at least one real root (for even-degree) or that non-factorable means no x-intercepts.",
+      "studentMisunderstanding": "Student believes that all polynomials must cross the x-axis, or that non-factorable polynomials have no real roots.",
+      "miniLesson": {
+        "explain": "Odd-degree polynomials always have at least one real root because their ends go in opposite directions, forcing a crossing of the x-axis. Even-degree polynomials, if non-factorable, may lie entirely above the x-axis (positive leading coefficient) or entirely below (negative leading coefficient), meaning they have no real roots.",
+        "example": "Consider x³ - 2x + 3. This odd-degree polynomial is non-factorable but must have at least one real root. In contrast, x² + 1 is even-degree and non-factorable; it never crosses the x-axis because it lies entirely above.",
+        "memoryAnchor": "Odd degrees go opposite ways, so one crossing they'll always make. Even degrees, if they're prime, above or below for all time."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: Every polynomial function has at least one real root.",
+          "answer": "False. Only odd-degree polynomials are guaranteed at least one real root. Even-degree polynomials may have none."
+        },
+        {
+          "level": "L2",
+          "prompt": "Consider the polynomial f(x)=x³ - 2x + 3. How many real roots must it have? Explain.",
+          "answer": "At least one real root. Because f(x) is an odd-degree polynomial (degree 3), its ends go in opposite directions, so it must cross the x-axis at least once."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate says: 'Since a polynomial is non-factorable, it has no real roots.' Is this statement always true? Give an example to support your answer.",
+          "answer": "No. Odd-degree non-factorable polynomials (e.g., x³ - 2x + 3) always have at least one real root. Even-degree non-factorable polynomials with a positive leading coefficient (e.g., x² + 1) lie entirely above the x-axis and have no real roots. So the statement is only true for even-degree ones."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-poly-eq-root-screening",
+      "questions": [
+        {
+          "id": "retest-root-screen-1",
+          "type": "single_choice",
+          "stem": "A polynomial equation modeling the depth of a whale (in meters) over time t (in minutes) yields the roots t = -2, 3, and 7. The observation period is from t = 0 to t = 6. Which of the following sets includes all valid roots?",
+          "options": [
+            "t = -2 and 3 only",
+            "t = 3 and 7 only",
+            "t = -2 and 7 only",
+            "t = 3 only"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "retest-root-screen-2",
+          "type": "open_ended",
+          "stem": "Explain why t = -2 and t = 7 are not valid in the context above.",
+          "rubric": "Student must state that t = -2 is outside the domain (negative time) and t = 7 exceeds the observation window (0 ≤ t ≤ 6); both are not physically meaningful."
+        }
+      ],
+      "passRule": "correct on both questions"
+    },
+    {
+      "forErrorId": "err-poly-eq-synthetic-division",
+      "questions": [
+        {
+          "id": "retest-synth-1",
+          "type": "single_choice",
+          "stem": "What are the correct root and coefficient set to set up synthetic division for (2x³ - 3x² + 4x + 1) ÷ (x + 2)?",
+          "options": [
+            "root = 2, coefficients: 2, -3, 4, 1",
+            "root = -2, coefficients: 2, -3, 4, 1",
+            "root = 2, coefficients: 2, -3, 4",
+            "root = -2, coefficients: 2, -3, 4, 1, 0"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-synth-2",
+          "type": "open_ended",
+          "stem": "Perform synthetic division for (x³ - 2x² + 3x - 2) ÷ (x - 2). Write the quotient and remainder.",
+          "rubric": "Quotient: x² + 0x + 3 = x² + 3, remainder: 4. Full credit for correct quotient polynomial and remainder. Partial credit for minor arithmetic errors."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the synthetic division problem, the quotient and remainder must be correct."
+    },
+    {
+      "forErrorId": "err-poly-eq-factoring",
+      "questions": [
+        {
+          "id": "retest-poly-eq-factoring-q1",
+          "type": "single_choice",
+          "stem": "After synthetic division, you obtain (x-3)(x² - 3x + 2). Which of the following is the complete factorization of the original polynomial?",
+          "options": [
+            "(x-3)(x-1)(x-2)",
+            "(x-3)(x²-3x+2)",
+            "(x-3)(x-1)(x-1)",
+            "(x-3)(x-2)(x-2)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-poly-eq-factoring-q2",
+          "type": "open_ended",
+          "stem": "Solve the equation x³ - 5x² + 8x - 4 = 0 by fully factoring. Provide the complete factorization and all solutions.",
+          "rubric": "Correct factorization: (x-1)(x-2)² (or (x-1)(x-2)(x-2)). Solutions: x=1, x=2."
+        }
+      ],
+      "passRule": "Student must correctly answer both questions to demonstrate understanding that synthetic division produces a reduced polynomial which may need further factoring."
+    },
+    {
+      "forErrorId": "err-poly-ineq-flip-sign",
+      "questions": [
+        {
+          "id": "retest-flip-1",
+          "type": "single_choice",
+          "stem": "When solving an inequality, which of the following operations requires reversing the inequality sign?",
+          "options": [
+            "Adding 5 to both sides",
+            "Subtracting 3 from both sides",
+            "Multiplying both sides by -1",
+            "Dividing both sides by 2"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-flip-2",
+          "type": "open_ended",
+          "stem": "Solve the inequality: -2x + 5 > 9. Show your steps and write the final answer.",
+          "rubric": "Correct answer: x < -2. Steps: subtract 5 from both sides gives -2x > 4, then divide both sides by -2 and flip the sign to get x < -2. Full credit for correct answer with sign flip. Partial credit if answer correct but no steps shown."
+        }
+      ],
+      "passRule": "All questions correct"
+    },
+    {
+      "forErrorId": "err-poly-ineq-quadratic-pattern",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is the correct solution set for the inequality \\(x^2 > 9\\)?",
+          "options": [
+            "\\(x > 3\\) or \\(x < -3\\)",
+            "\\(x > 3\\)",
+            "\\(x < -3\\)",
+            "\\(-3 < x < 3\\)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Solve the inequality \\(x^2 < 1\\). Write your answer in interval notation or as a compound inequality.",
+          "rubric": "Answer must be the interval \\((-1, 1)\\) or \\(-1 < x < 1\\). Accept either form. No partial credit."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-poly-ineq-interval-testing",
+      "questions": [
+        {
+          "id": "retest-q1-poly-ineq-interval-testing",
+          "type": "single_choice",
+          "stem": "A polynomial inequality has zeros at x = -2, 1, 3, and 5. How many intervals must be tested to find the solution set?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-q2-poly-ineq-interval-testing",
+          "type": "open_ended",
+          "stem": "Solve the inequality \\((x+2)(x-1)(x-3)(x-5) > 0\\). Provide the solution set in interval notation.",
+          "rubric": "Correct answer is \\((-\\infty, -2) \\cup (1, 3) \\cup (5, \\infty)\\). Must include all three intervals in any order using union. Partial credit if some intervals correct but not all."
+        }
+      ],
+      "passRule": "Both questions answered correctly."
+    },
+    {
+      "forErrorId": "err-poly-nonfactorable-misconception",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following statements is true?",
+          "options": [
+            "Every polynomial function has at least one real root.",
+            "Only odd-degree polynomials are guaranteed to have at least one real root.",
+            "Non-factorable polynomials never have real roots.",
+            "Even-degree polynomials always have two real roots."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Consider the polynomial g(x) = x^4 + 2x^2 + 3. Does this polynomial have any real x-intercepts? Explain your reasoning, referencing the degree and leading coefficient.",
+          "rubric": "Student must state that g(x) is even degree (4) with positive leading coefficient, so its end behavior is up on both sides, and since it is non-factorable (or always positive for all real x), it lies entirely above the x-axis, thus no real x-intercepts."
+        }
+      ],
+      "passRule": "q1 correct AND q2 answer correctly identifies no real intercepts with reasoning about even degree and sign of leading coefficient."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-21",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Lo7Od3eANo3AMaxwKQac04Ukned?from=vc_group_doc_link#doxcnUrYP6x2aRvKfuehduvuAzb",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-21 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "To solve polynomial equations, set functions equal, rearrange, factor using synthetic division, and screen roots within domain.；Odd-degree polynomials always have at least one real root (x-intercept) due to opposite end behavior.；Non-factorable even-degree polynomials with positive leading coefficient lie entirely above x-axis; negative leading coefficient lie entirely below x-axis.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Solve polynomial equations algebraically by rearranging, factoring, and using synthetic division, and screen solutions within a given domain."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Solve polynomial inequalities using the standard workflow: rearrange, factor, plot zeros, test intervals, and compile solution sets."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Identify properties of polynomial functions: odd-degree always has at least one real root; even-degree non-factorable polynomials may lie entirely above or below the x-axis."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Homework answer sheet compilation",
+        "studentAction": "Check for compiled answer sheet with solutions for all covered homework items",
+        "deadlineText": "By end of class day 2026-07-21",
+        "deadlineISO": "2026-07-21T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Taylor confirms he will compile all covered and unaddressed homework items ... into a single reference answer sheet by the end of the class day.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "In-class practice: solving polynomial equations (Unit 1 Lesson 9 Part 1)",
+        "studentAction": "Complete 10 minutes of focused practice on Unit 1 Lesson 9 Part 1",
+        "deadlineText": "During class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students will complete 10 minutes of focused work on Unit 1 Lesson 9 Part 1 before the session concludes.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "In-class practice: solve x³ - 2x + 3 = 0",
+        "studentAction": "Solve the non-factorable cubic equation using alternative methods",
+        "deadlineText": "During class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students are assigned to solve x³ - 2x + 3 = 0, and are notified that non-integer roots can be identified via alternative methods.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Post-class homework: polynomial inequality practice",
+        "studentAction": "Complete polynomial inequality practice homework distributed after in-class practice",
+        "deadlineText": "After class (likely due next session)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Polynomial inequality practice homework will be distributed to students immediately after the in-class practice period ends.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Next class: finish Unit 1 content",
+        "studentAction": "No additional pre-work required for attendance",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The remaining content of Unit 1 will be fully covered and finalized in the subsequent class session, with no additional pre-work required for attendance.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Polynomial inequality practice homework will be distributed to students immediately after the in-class practice period ends.",
+        "reason": "Due date not specified; likely due next class but not explicit."
+      }
+    ],
+    "watchTags": [
+      "poly-eq-solving",
+      "poly-ineq-solving",
+      "poly-end-behavior"
+    ],
+    "totalQuestions": 7,
+    "completed": false,
+    "passScore": 7,
+    "diagnosisRules": [
+      {
+        "errorId": "err-poly-eq-root-screening",
+        "condition": "Student selects a root that is outside the given domain (e.g., t=9 when domain is 0≤t≤8).",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-poly-eq-synthetic-division",
+        "condition": "Student incorrectly arranges coefficients or processes the synthetic division steps.",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-poly-eq-factoring",
+        "condition": "Student stops factoring after synthetic division and overlooks the quadratic factor that may still factor further.",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-poly-ineq-flip-sign",
+        "condition": "Student does not reverse the inequality sign when multiplying or dividing by a negative number.",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-poly-ineq-quadratic-pattern",
+        "condition": "Student misapplies the pattern for x² > a or x² < a (e.g., only writes x > √a for x² > a).",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-poly-ineq-interval-testing",
+        "condition": "Student fails to test all intervals created by the zeros on the number line.",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-poly-nonfactorable-misconception",
+        "condition": "Student thinks that all polynomials have at least one real root (for even-degree) or that non-factorable means no x-intercepts.",
+        "systemAction": "Assign reteach module for this errorId."
+      }
+    ],
+    "nextActions": [
+      "[err-poly-eq-root-screening] Student selects a root that is outside the given domain (e.g., t=9 when domain is 0≤t≤8).: Make sure to check if each candidate root satisfies the problem's domain or time window.",
+      "[err-poly-eq-synthetic-division] Student incorrectly arranges coefficients or processes the synthetic division steps.: Review the steps for synthetic division: bring down, multiply, add — in that order.",
+      "[err-poly-eq-factoring] Student stops factoring after synthetic division and overlooks the quadratic factor that may still factor further.: After synthetic division, always try to factor the resulting quadratic (or higher-degree) factor.",
+      "[err-poly-ineq-flip-sign] Student does not reverse the inequality sign when multiplying or dividing by a negative number.: Remember: when you multiply/divide both sides of an inequality by a negative, the inequality sign flips.",
+      "[err-poly-ineq-quadratic-pattern] Student misapplies the pattern for x² > a or x² < a (e.g., only writes x > √a for x² > a).: For x² > a (a>0), the solution is two intervals: x < -√a or x > √a. For x² < a, it's -√a < x < √a.",
+      "[err-poly-ineq-interval-testing] Student fails to test all intervals created by the zeros on the number line.: After plotting zeros, pick a test point in each interval and evaluate the inequality to see which intervals satisfy it.",
+      "[err-poly-nonfactorable-misconception] Student thinks that all polynomials have at least one real root (for even-degree) or that non-factorable means no x-intercepts.: Odd-degree polynomials always cross the x-axis, but even-degree polynomials may sit entirely above or below depending on the leading coefficient."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-s6-0721-q1",
+        "type": "choice",
+        "question": "A depth function is set equal and the solutions are t = 1.5, 4, and 9. The observation occurs within a 0 to 8 second window. Which root(s) should be included?",
+        "options": [
+          "All three roots are included: t=1.5, 4, and 9",
+          "Only t=4",
+          "t=1.5 and t=4",
+          "t=1.5 and t=9"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student screens roots against a given domain.",
+        "misconceptions": [
+          "t=9 is outside the 0 to 8 second window, so it should be excluded.",
+          "t=1.5 is also within the window and should be included.",
+          "✓ Correct. Both 1.5 and 4 fall within the interval [0,8], while 9 does not.",
+          "t=9 is outside the domain and t=4 should be included instead."
+        ],
+        "nodeId": "poly-eq-solving",
+        "errorId": "err-poly-eq-root-screening",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that only roots within the domain are valid.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Statement aligns with C3 solving polynomial equations, including domain considerations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student includes all roots without checking the domain restrictions.",
+        "remediationModule": "err-poly-eq-root-screening",
+        "retestItem": "err-poly-eq-root-screening"
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q2",
+        "type": "choice",
+        "question": "When using synthetic division to divide x³ - 6x² + 11x - 6 by (x-2), which of the following is the correct first step?",
+        "options": [
+          "Use divisor 2 and coefficients 1, -6, 11, -6",
+          "Use divisor -2 and coefficients 1, -6, 11, -6",
+          "Use divisor 2 and coefficients 1, 6, 11, 6",
+          "Use divisor -2 and coefficients -1, 6, -11, 6"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows how to set up synthetic division correctly.",
+        "misconceptions": [
+          "✓ Correct. (x-2) gives divisor 2, and coefficients are 1, -6, 11, -6.",
+          "For (x-2), the divisor is the root (2), not the constant term with opposite sign.",
+          "The coefficients should be 1, -6, 11, -6. The signs matter.",
+          "Both divisor and coefficients are incorrect. For (x-2), divisor is 2, and coefficients are as given in the polynomial."
+        ],
+        "nodeId": "poly-eq-solving",
+        "errorId": "err-poly-eq-synthetic-division",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the coefficients and the divisor value.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Synthetic division is a standard algebraic technique for solving polynomial equations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student incorrectly identifies the divisor (uses -2 instead of 2) or misorders coefficients.",
+        "remediationModule": "err-poly-eq-synthetic-division",
+        "retestItem": "err-poly-eq-synthetic-division"
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q3",
+        "type": "choice",
+        "question": "After synthetic division, the original polynomial x³ - 6x² + 11x - 6 becomes (x-2)(x² - 4x + 3). What should you do next?",
+        "options": [
+          "Stop, the polynomial is fully factored.",
+          "Factor the quadratic: (x-1)(x-3).",
+          "Rewrite the whole thing as (x-2) times the original quadratic.",
+          "Apply the quadratic formula but do not simplify."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that factoring is not complete until all factors are irreducible.",
+        "misconceptions": [
+          "The quadratic factor x² - 4x + 3 can be factored further into (x-1)(x-3).",
+          "✓ Correct. x² - 4x + 3 factors as (x-1)(x-3), giving complete factorization (x-1)(x-2)(x-3).",
+          "That is just restating; you need to factor the quadratic further.",
+          "Factoring is simpler here. The quadratic factor can be factored without the quadratic formula."
+        ],
+        "nodeId": "poly-eq-solving",
+        "errorId": "err-poly-eq-factoring",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that the quadratic factor may factor further.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Factoring completely is a crucial step in solving polynomial equations algebraically.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Student assumes that after synthetic division, the polynomial is fully factored.",
+        "remediationModule": "err-poly-eq-factoring",
+        "retestItem": "err-poly-eq-factoring"
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q4",
+        "type": "choice",
+        "question": "Solve: -3x + 5 > 11. What is the solution?",
+        "options": [
+          "x > -2",
+          "x < -2",
+          "x > 2",
+          "x < 2"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student remembers to reverse the inequality when multiplying/dividing by a negative number.",
+        "misconceptions": [
+          "Check the sign: when you divide by -3, the inequality should flip from > to <.",
+          "✓ Correct. -3x + 5 > 11 → -3x > 6 → dividing by -3 flips to x < -2.",
+          "You likely forgot to flip the sign. -3x > 6 lead to x < -2, not x > 2.",
+          "Check the arithmetic: -3x > 6, not -3x > -6."
+        ],
+        "nodeId": "poly-ineq-solving",
+        "errorId": "err-poly-ineq-flip-sign",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly flips the inequality sign when dividing by a negative.",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The sign-flip rule is fundamental to solving linear inequalities, which extends to polynomial inequalities.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student treats inequality as an equation and does not flip the sign.",
+        "remediationModule": "err-poly-ineq-flip-sign",
+        "retestItem": "err-poly-ineq-flip-sign"
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q5",
+        "type": "choice",
+        "question": "Which of the following correctly represents the solution set for x² > 4?",
+        "options": [
+          "x > 2 or x < -2",
+          "x > 2",
+          "-2 < x < 2",
+          "x > 4 or x < -4"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows that x² > a yields two separate intervals.",
+        "misconceptions": [
+          "✓ Correct. For x² > 4, the solution is x < -2 or x > 2.",
+          "You missed the x < -2 part. For x² > 4, both x > 2 and x < -2 satisfy the inequality.",
+          "That is the solution for x² < 4, not x² > 4.",
+          "You are using 4 instead of its square root. The boundary should be ±√4 = ±2."
+        ],
+        "nodeId": "poly-ineq-solving",
+        "errorId": "err-poly-ineq-quadratic-pattern",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly applies the pattern for x² > a (a>0).",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Quadratic inequalities are a core part of polynomial inequality solving.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Student thinks x² > 4 means x > 2 only.",
+        "remediationModule": "err-poly-ineq-quadratic-pattern",
+        "retestItem": "err-poly-ineq-quadratic-pattern"
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q6",
+        "type": "explain",
+        "question": "The zeros of a polynomial inequality are -2, 1, 3, and 5. Describe the steps you would take to determine the solution set.",
+        "correct": null,
+        "diagnosis": "Assess whether student can articulate the complete interval testing process.",
+        "nodeId": "poly-ineq-solving",
+        "errorId": "err-poly-ineq-interval-testing",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student outlines the interval testing method: plot zeros on number line, pick test points in each interval, determine sign, and compile intervals where inequality holds.",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interval testing is the standard method for solving polynomial inequalities.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Student skips testing all intervals or only tests one interval.",
+        "remediationModule": "err-poly-ineq-interval-testing",
+        "retestItem": "err-poly-ineq-interval-testing"
+      },
+      {
+        "id": "diag-mhf4u-s6-0721-q7",
+        "type": "choice",
+        "question": "Consider a non-factorable polynomial of odd degree with positive leading coefficient. Which statement is always true?",
+        "options": [
+          "It has no real roots because it is non-factorable.",
+          "It has at least one real root.",
+          "It has exactly three real roots.",
+          "It lies entirely above the x-axis."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows the property that odd-degree polynomials have opposite end behavior and thus cross the x-axis at least once.",
+        "misconceptions": [
+          "Non-factorable does not mean no real roots. Odd-degree polynomials always have at least one real root due to opposite end behavior.",
+          "✓ Correct. Odd-degree polynomials always have at least one real root because the ends go in opposite directions, crossing the x-axis.",
+          "The number of real roots can vary; only guarantee is at least one.",
+          "That property is for even-degree polynomials with positive leading coefficient. Odd-degree never stays entirely above or below."
+        ],
+        "nodeId": "poly-end-behavior",
+        "errorId": "err-poly-nonfactorable-misconception",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student recognizes that odd-degree polynomials always have at least one real root.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding end behavior and x-intercepts is a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Student thinks all polynomials cross the x-axis, even even-degree ones.",
+        "remediationModule": "err-poly-nonfactorable-misconception",
+        "retestItem": "err-poly-nonfactorable-misconception"
+      }
+    ]
+  }
+}

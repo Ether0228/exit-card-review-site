@@ -1,0 +1,1180 @@
+{
+  "sourceLesson": "ESLDO.S6.Dionne 2026-07-21",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ExQUdoH1LoPwxIxmYFtcckD1nNe?from=vc_group_doc_link#doxcndaEEZw9drSprT2NZkJGjTc",
+  "sourceTitle": "ESLDO.S6.Dionne 2026-07-21 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/ExQUdoH1LoPwxIxmYFtcckD1nNe?from=vc_group_doc_link#doxcndaEEZw9drSprT2NZkJGjTc",
+    "title": "ESLDO.S6.Dionne 2026-07-21 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-22/sources/esldo-s6-dionne-2026-07-21/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "ESLDO",
+  "lessonDate": "2026-07-21",
+  "teacher": "Dionne",
+  "section": "S6",
+  "subject": "esl",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-21",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "This lesson includes direct instruction on Greek mythology content (vocabulary, characters, plot, themes) followed by a work period for practice and collaborative tasks. It is primarily instructional with a practice component.",
+    "academicContentSignals": [
+      "Greek mythology core characters: Gaia, Uranus, Titans, Cyclops, Hecatoncheires, Chronos",
+      "Vocabulary: Chaos, Power, Immortal, Give birth, Banish, Sickle, Justice, Theme, Prediction",
+      "Uranus myth plot: origin from Chaos, Gaia and Uranus union, birth of monsters, Uranus imprisoning children, Gaia's plan, Chronos leading rebellion, overthrow, birth of Furies and Aphrodite, Chronos as new ruler",
+      "Theme options: fear leading to harm, responsible use of power, obligation to oppose injustice, family conflict escalation; majority selected option 3",
+      "Making connections: personal and world connections with sentence starters"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "The lesson contains both academic content and numerous operational announcements (camera policy, deadlines, AI rules, etc.). In generating the exit card, ops items should be limited to at most 2 lightweight readiness checks to avoid overshadowing the core myth-learning diagnostics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Camera and microphone requirement",
+        "studentAction": "Keep camera on and microphone accessible for in-class Q&A participation",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "requires all attendees to keep cameras turned on and microphones accessible for in-class Q&A participation",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Discussion forum responses",
+        "studentAction": "Post answers to the two discussion forum questions and comment on at least one peer's post",
+        "deadlineText": "By end of work period",
+        "deadlineISO": null,
+        "platform": "Discussion forum (likely Schoology)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The two core discussion forum questions directly correspond to Question 3 and Question 5 of the upcoming unit homework, so completing forum responses in class reduces subsequent workload",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Unit 2 Lesson 2 Homework Worksheet",
+        "studentAction": "Complete the homework worksheet: select 5 new vocabulary, summarize plot, identify theme, write personal and world connections. Submit on Schoology.",
+        "deadlineText": "Before the start of the next scheduled class",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "submit the full completed document to the Schoology platform before the start of the next scheduled class",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "AI use policy",
+        "studentAction": "Use AI as a tutor, not a writer; permitted to simplify paragraphs, translate, summarize; prohibited to generate full homework responses",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Permitted AI Use Cases: simplify, translate, summarize; Prohibited: generate full homework responses",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Late submission policy",
+        "studentAction": "Notify instructor in advance if unable to submit on time due to serious unforeseen barrier; do not submit late without prior notice",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students facing serious, unforeseen barriers that prevent on-time submission must notify the instructor in advance; unsolicited delayed submissions will not be accepted",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "review_focus",
+        "title": "Preparatory review for next class",
+        "studentAction": "Review all core vocabulary, plot points, and theme takeaways from today's lesson to prepare for subsequent content",
+        "deadlineText": "Before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Review all core vocabulary terms, plot points and theme takeaways from today's lesson to prepare for the upcoming content",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "class_policy",
+        "title": "Report card work skill metrics",
+        "studentAction": "Be aware that organization, responsibility, and initiative are formally recorded on report cards and assessed during class activities",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Organization Assessment: ... Responsibility Assessment: ... Initiative Assessment: ... all metrics are counted in official report card scores",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "ESLDO Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Uranus Myth Narrative、Key Vocabulary Definitions、Character Roles and Identities、Theme Identification and Selection）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 6 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Greek myth begins with Chaos, from which Gaia, Tartarus, and Eros emerge.；Gaia creates Uranus (sky); they marry and produce Hecatoncheires (100-armed giants), Cyclopes (one-eyed builders), and Titans.；Uranus fears his children's power and imprisons Hecatoncheires and Cyclopes in Tartarus.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can retell and understand the Uranus myth narrative, including key events and consequences."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can define and use key vocabulary from the lesson in context."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can identify characters and their roles in the myth."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Students can identify and select appropriate themes from the myth."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Students can make real-world connections (personal and global) using structured sentence starters."
+    },
+    {
+      "id": "lg-6",
+      "statement": "Students understand the homework requirements for submission."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "myth-uranus-narrative",
+      "name": "Uranus Myth Narrative",
+      "nameEn": "Uranus Myth Narrative",
+      "definition": "The story of Uranus's rule, his imprisonment of children, and Chronos's rebellion that led to a new cosmic order.",
+      "officialExpectationCode": "B1.1",
+      "officialNodeId": "ESLDO-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes."
+    },
+    {
+      "id": "vocabulary-definitions",
+      "name": "Key Vocabulary Definitions",
+      "nameEn": "Key Vocabulary Definitions",
+      "definition": "Definitions of nine target vocabulary words: Chaos, Power, Immortal, Give birth, Banish, Sickle, Justice, Theme, Prediction.",
+      "officialExpectationCode": "B3.1",
+      "officialNodeId": "ESLDO-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Use a variety of strategies to build vocabulary."
+    },
+    {
+      "id": "character-roles",
+      "name": "Character Roles and Identities",
+      "nameEn": "Character Roles and Identities",
+      "definition": "Identifying primordial beings (Gaia, Uranus), Titans, Cyclopes, Hecatoncheires, Tartarus, Furies, and their mythological roles.",
+      "officialExpectationCode": "B1.2",
+      "officialNodeId": "ESLDO-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes."
+    },
+    {
+      "id": "theme-identification",
+      "name": "Theme Identification and Selection",
+      "nameEn": "Theme Identification and Selection",
+      "definition": "Identifying core themes from the Uranus myth, including fear leading to harmful choices, power must be fair, responsibility to oppose injustice, and family conflict escalation.",
+      "officialExpectationCode": "B1.5",
+      "officialNodeId": "ESLDO-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes."
+    },
+    {
+      "id": "real-world-connections",
+      "name": "Real-World Connections",
+      "nameEn": "Real-World Connections",
+      "definition": "Applying myth themes to personal experiences and global events using structured sentence starters.",
+      "officialExpectationCode": "D2.3",
+      "officialNodeId": "ESLDO-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the rights and responsibilities of Canadian citizenship, and of the contributions of diverse groups to Canadian society."
+    },
+    {
+      "id": "homework-requirements",
+      "name": "Homework Structure and Submission",
+      "nameEn": "Homework Structure and Submission",
+      "definition": "Homework requires selecting 5 vocabulary, summarizing plot using who/what/when/where/why/how, identifying theme, writing personal and world connections, and submitting in complete sentences on Schoology before next class.",
+      "officialExpectationCode": "C1.1",
+      "officialNodeId": "ESLDO-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Write in a variety of forms for different purposes and audiences."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can retell and understand the Uranus myth narrative, including key events and consequences."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can define and use key vocabulary from the lesson in context."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can identify characters and their roles in the myth."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can identify and select appropriate themes from the myth."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Students can make real-world connections (personal and global) using structured sentence starters."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Students understand the homework requirements for submission."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-myth-uranus-imprisons-all-children",
+        "condition": "Student selects a choice that implies Uranus imprisoned all his children (including Titans).",
+        "systemAction": "Assign reteach module for err-myth-uranus-imprisons-all-children.",
+        "studentMessage": "It looks like you thought Uranus imprisoned all his children. Let's review who he actually imprisoned."
+      },
+      {
+        "errorId": "err-vocab-banish-definition",
+        "condition": "Student chooses a definition that confuses banish with imprison or kill.",
+        "systemAction": "Assign reteach module for err-vocab-banish-definition.",
+        "studentMessage": "The word 'banish' has a specific meaning. Let's go over it again."
+      },
+      {
+        "errorId": "err-character-gaia-creation",
+        "condition": "Student selects that Gaia was the first being or that she created everything.",
+        "systemAction": "Assign reteach module for err-character-gaia-creation.",
+        "studentMessage": "Gaia didn't create everything. Check the origin story again."
+      },
+      {
+        "errorId": "err-theme-misidentification",
+        "condition": "Student selects a theme not supported by the myth (e.g., love).",
+        "systemAction": "Assign reteach module for err-theme-misidentification.",
+        "studentMessage": "That theme doesn't fit the myth well. Let's look at the options again."
+      },
+      {
+        "errorId": "err-connection-format",
+        "condition": "Student writes a connection without a complete sentence or sentence starter.",
+        "systemAction": "Assign reteach module for err-connection-format.",
+        "studentMessage": "Your connection needs to use a sentence starter and be a complete sentence. Let's practice."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "nodeId": "myth-uranus-narrative",
+        "errorId": "err-myth-uranus-imprisons-all-children",
+        "stem": "In the Uranus myth, which children did Uranus imprison in Tartarus?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that Uranus imprisoned only the Hecatoncheires and Cyclopes, not the Titans.",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly from the myth narrative knowledge node (B1.1 is for text types; B1.2 is for understanding adapted texts).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check whether student knows which specific children were imprisoned, addressing the common error that all were imprisoned.",
+        "commonMisconception": "Student thinks Uranus imprisoned all his children (including Titans).",
+        "remediationModule": "err-myth-uranus-imprisons-all-children",
+        "retestItem": "err-myth-uranus-imprisons-all-children",
+        "options": [
+          {
+            "label": "A",
+            "text": "All his children, including the Titans",
+            "correct": false,
+            "feedbackWrong": "Uranus did not imprison the Titans. He only imprisoned the Hecatoncheires and Cyclopes."
+          },
+          {
+            "label": "B",
+            "text": "Only the Hecatoncheires and Cyclopes",
+            "correct": true,
+            "feedbackCorrect": "Correct! Uranus was afraid of the Hecatoncheires and Cyclopes, so he locked them in Tartarus."
+          },
+          {
+            "label": "C",
+            "text": "Only the Titans",
+            "correct": false,
+            "feedbackWrong": "The Titans were not imprisoned. In fact, they later rebelled against Uranus."
+          },
+          {
+            "label": "D",
+            "text": "Only the Hecatoncheires",
+            "correct": false,
+            "feedbackWrong": "He also imprisoned the Cyclopes. Both groups were sent to Tartarus."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "nodeId": "vocabulary-definitions",
+        "errorId": "err-vocab-banish-definition",
+        "stem": "Which of the following best defines the word 'banish'?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly selects that banish means to permanently expel someone from a place.",
+        "ossdExpectation": "Use a variety of strategies to build vocabulary.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "ESLDO-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Targets vocabulary building – SE B3.1 is for using strategies to build vocabulary.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of the word 'banish', which was explicitly taught with the definition 'expel permanently'.",
+        "commonMisconception": "Student confuses 'banish' with 'imprison' (lock up) or 'kill' (cause death).",
+        "remediationModule": "err-vocab-banish-definition",
+        "retestItem": "err-vocab-banish-definition",
+        "options": [
+          {
+            "label": "A",
+            "text": "To lock someone in a prison",
+            "correct": false,
+            "feedbackWrong": "That is 'imprison'. Banish means to force someone to leave a place permanently."
+          },
+          {
+            "label": "B",
+            "text": "To force someone to leave a place permanently",
+            "correct": true,
+            "feedbackCorrect": "Correct! Banish means to officially send someone away as a punishment."
+          },
+          {
+            "label": "C",
+            "text": "To kill someone for a crime",
+            "correct": false,
+            "feedbackWrong": "That is 'execute' or 'put to death'. Banish does not mean kill."
+          },
+          {
+            "label": "D",
+            "text": "To scare someone into hiding",
+            "correct": false,
+            "feedbackWrong": "That is not the definition. Banish is an official action, not just scaring."
+          }
+        ]
+      },
+      {
+        "id": "q3",
+        "nodeId": "character-roles",
+        "errorId": "err-character-gaia-creation",
+        "stem": "According to the myth, who was the very first being to exist?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies that Chaos was the first being, not Gaia.",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests understanding of character roles and origin sequence from the myth.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows that Chaos preceded Gaia, not the other way around.",
+        "commonMisconception": "Student thinks Gaia was the first being because she is Mother Earth and created Uranus.",
+        "remediationModule": "err-character-gaia-creation",
+        "retestItem": "err-character-gaia-creation",
+        "options": [
+          {
+            "label": "A",
+            "text": "Gaia",
+            "correct": false,
+            "feedbackWrong": "Gaia was not first. Chaos existed before Gaia emerged."
+          },
+          {
+            "label": "B",
+            "text": "Chaos",
+            "correct": true,
+            "feedbackCorrect": "Correct! The myth begins with Chaos, then Gaia, Tartarus, and Eros appeared."
+          },
+          {
+            "label": "C",
+            "text": "Uranus",
+            "correct": false,
+            "feedbackWrong": "Uranus was created by Gaia later. The first being was Chaos."
+          },
+          {
+            "label": "D",
+            "text": "Chronos",
+            "correct": false,
+            "feedbackWrong": "Chronos is a Titan born later. The very first being was Chaos."
+          }
+        ]
+      },
+      {
+        "id": "q4",
+        "nodeId": "theme-identification",
+        "errorId": "err-theme-misidentification",
+        "stem": "Which of the following is a theme supported by the Uranus myth?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student selects a theme that is explicitly present in the myth (fear leading to harmful choices, power must be fair, responsibility to oppose injustice, or family conflicts escalate).",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "SE B1.5 specifically mentions identifying literary elements and themes.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student can select a theme that fits the myth narrative, avoiding themes like love or betrayal that are not central.",
+        "commonMisconception": "Student chooses a theme not supported by the myth (e.g., love triumphs over all).",
+        "remediationModule": "err-theme-misidentification",
+        "retestItem": "err-theme-misidentification",
+        "options": [
+          {
+            "label": "A",
+            "text": "Love can overcome any obstacle",
+            "correct": false,
+            "feedbackWrong": "Love is not a main theme in this myth. The story focuses on power, fear, and rebellion."
+          },
+          {
+            "label": "B",
+            "text": "Fear can lead people to make harmful choices",
+            "correct": true,
+            "feedbackCorrect": "Correct! Uranus feared his children and imprisoned them, which led to his downfall."
+          },
+          {
+            "label": "C",
+            "text": "Betrayal is always punished",
+            "correct": false,
+            "feedbackWrong": "Although betrayal occurs (Chronos betrays Uranus), the myth does not clearly show it being punished. Instead, Chronos becomes ruler."
+          },
+          {
+            "label": "D",
+            "text": "Hard work always brings success",
+            "correct": false,
+            "feedbackWrong": "This theme is not present. The myth is about power struggles and consequences of fear."
+          }
+        ]
+      },
+      {
+        "id": "q5",
+        "nodeId": "real-world-connections",
+        "errorId": "err-connection-format",
+        "stem": "Write one sentence connecting the Uranus myth to a personal experience or a world event. Use a sentence starter from the lesson (e.g., 'This story reminds me of...' or 'This connects to...').",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student writes a complete sentence that starts with an appropriate sentence starter and makes a valid connection to the myth.",
+        "ossdExpectation": "Demonstrate an understanding of the rights and responsibilities of Canadian citizenship, and of the contributions of diverse groups to Canadian society.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "ESLDO-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "D2.3 is about awareness of diversity, but the lesson's real-world connections align with applying themes to society. Alternative: C1.1 for writing short texts. Using D2.3 as it connects to societal awareness.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "construct",
+        "stemIntent": "Check if students can use a prescribed sentence starter and write a complete sentence connecting the myth to real life, addressing the common error of writing incomplete or starter-free sentences.",
+        "commonMisconception": "Student writes a fragment or omits the sentence starter, or writes a connection that is unclear or irrelevant.",
+        "remediationModule": "err-connection-format",
+        "retestItem": "err-connection-format",
+        "rubric": [
+          "Full credit (2 points): Complete sentence with a correct sentence starter and a clear, relevant connection to the myth.",
+          "Partial credit (1 point): Sentence is complete and uses a starter, but connection is weak or unclear.",
+          "No credit (0 points): No sentence starter, incomplete sentence, or no connection to the myth."
+        ],
+        "sampleStrongAnswer": "This story reminds me of a time when I was afraid of losing a friend and made a bad decision. OR This connects to a news story about a leader who made unfair choices because of fear."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-myth-uranus-imprisons-all-children",
+      "condition": "Student selects a choice that implies Uranus imprisoned all his children (including Titans).",
+      "systemAction": "Assign reteach module for err-myth-uranus-imprisons-all-children.",
+      "studentMessage": "It looks like you thought Uranus imprisoned all his children. Let's review who he actually imprisoned."
+    },
+    {
+      "errorId": "err-vocab-banish-definition",
+      "condition": "Student chooses a definition that confuses banish with imprison or kill.",
+      "systemAction": "Assign reteach module for err-vocab-banish-definition.",
+      "studentMessage": "The word 'banish' has a specific meaning. Let's go over it again."
+    },
+    {
+      "errorId": "err-character-gaia-creation",
+      "condition": "Student selects that Gaia was the first being or that she created everything.",
+      "systemAction": "Assign reteach module for err-character-gaia-creation.",
+      "studentMessage": "Gaia didn't create everything. Check the origin story again."
+    },
+    {
+      "errorId": "err-theme-misidentification",
+      "condition": "Student selects a theme not supported by the myth (e.g., love).",
+      "systemAction": "Assign reteach module for err-theme-misidentification.",
+      "studentMessage": "That theme doesn't fit the myth well. Let's look at the options again."
+    },
+    {
+      "errorId": "err-connection-format",
+      "condition": "Student writes a connection without a complete sentence or sentence starter.",
+      "systemAction": "Assign reteach module for err-connection-format.",
+      "studentMessage": "Your connection needs to use a sentence starter and be a complete sentence. Let's practice."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-myth-uranus-imprisons-all-children",
+      "trigger": "Student selects an answer indicating that Uranus imprisoned all his children, including the Titans.",
+      "studentMisunderstanding": "Student thinks Uranus imprisoned all his children, but he only imprisoned the Hecatoncheires and Cyclopes. The Titans were left free and later rebelled.",
+      "miniLesson": {
+        "explain": "In the myth, Uranus was afraid of his children's power. He imprisoned only the Hecatoncheires (100-armed giants) and the Cyclopes (one-eyed builders) in Tartarus. The Titans, including Chronos, were not imprisoned. They remained free and later, led by Chronos, rebelled against Uranus.",
+        "example": "Uranus imprisoned the Hecatoncheires and Cyclopes in Tartarus because he feared they would overthrow him. The Titans were not imprisoned. In fact, Chronos, a Titan, used a sickle made by Gaia to defeat Uranus.",
+        "memoryAnchor": "Remember: Uranus only locked up the 'monsters' (Hecatoncheires and Cyclopes), not the 'gods' (Titans)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Who did Uranus imprison? Choose the correct group: A) All his children, B) Only the Hecatoncheires and Cyclopes, C) Only the Titans, D) Only the Cyclopes.",
+          "answer": "B) Only the Hecatoncheires and Cyclopes"
+        },
+        {
+          "level": "L2",
+          "prompt": "Explain why Uranus did not imprison the Titans.",
+          "answer": "Uranus did not imprison the Titans because he only feared the power of the Hecatoncheires and Cyclopes. The Titans were his other children and were not seen as immediate threats. Later, the Titans, led by Chronos, rebelled against Uranus."
+        },
+        {
+          "level": "L3",
+          "prompt": "Why is it important to know that Uranus did not imprison all his children? How does this affect the story's outcome?",
+          "answer": "It is important because it shows that Uranus's fear was selective. If he had imprisoned all his children, the Titans would not have been free to rebel. Their rebellion led to Uranus's defeat and the establishment of a new order under Chronos. This detail supports the theme that people have a responsibility to oppose injustice."
+        }
+      ]
+    },
+    {
+      "errorId": "err-vocab-banish-definition",
+      "trigger": "Student selects a definition that confuses banish with imprison or kill.",
+      "studentMisunderstanding": "Student thinks 'banish' means to imprison or kill, but it means to permanently expel someone from a place.",
+      "miniLesson": {
+        "explain": "The word 'banish' means to force someone to leave a place permanently, often as a punishment. It is different from 'imprison' (lock up) or 'kill' (cause death). In the Uranus myth, Uranus imprisoned his children in Tartarus; he did not banish them. Banishment would have meant sending them away forever, not locking them in a prison.",
+        "example": "If the king banishes a criminal, the criminal must leave the kingdom and cannot return. In contrast, if the king imprisons the criminal, the criminal is kept in a jail.",
+        "memoryAnchor": "Think of 'banish' as 'ban' + 'ish' — you put a ban on someone, forcing them to leave permanently."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What does the word 'banish' mean?",
+          "answer": "To permanently expel someone from a place."
+        },
+        {
+          "level": "L2",
+          "prompt": "Use the word 'banish' in a sentence about the Uranus myth. (Hint: Think about what Uranus did to his children and how banish is different.)",
+          "answer": "Uranus imprisoned his children, but if he had banished them, they would have been sent away permanently."
+        },
+        {
+          "level": "L3",
+          "prompt": "Read the following sentence: 'Chronos banished Uranus after defeating him.' Based on the myth, is this statement true or false? Explain your answer using the definition of banish.",
+          "answer": "False. The myth does not say that Chronos banished Uranus. It says Chronos defeated Uranus and became ruler. Banish means to permanently expel, so if Chronos banished Uranus, he would have sent him away forever. The myth does not mention that."
+        }
+      ]
+    },
+    {
+      "errorId": "err-character-gaia-creation",
+      "trigger": "Selects Gaia as the first being or says she created everything.",
+      "studentMisunderstanding": "The student believes Gaia was the first being or that she created everything, but the myth begins with Chaos. Gaia emerged from Chaos and later created Uranus, but she did not create Chaos, Tartarus, or Eros.",
+      "miniLesson": {
+        "explain": "In the Greek myth, the first being was not Gaia but Chaos. From Chaos came Gaia (Earth), Tartarus (the underworld), and Eros (love). Later, Gaia created Uranus (the sky), but she did not create everything. She was not the origin of the universe.",
+        "example": "The myth says: 'First there was Chaos. Then Gaia, the Earth, appeared.' So Gaia is not the very first being. She created Uranus, but Chaos, Tartarus, and Eros already existed before her creations.",
+        "memoryAnchor": "Remember: Chaos first, then Gaia. Gaia is a creator, but not the first."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Who was the very first being in the Greek myth? A) Gaia B) Chaos C) Uranus",
+          "answer": "B) Chaos"
+        },
+        {
+          "level": "L2",
+          "prompt": "Explain why Gaia is not the first being in the myth.",
+          "answer": "The myth begins with Chaos. Gaia emerged from Chaos, so she is not the first being. She came after Chaos."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate says, 'Gaia created the whole world, so she is the most powerful being from the start.' How would you correct them using details from the myth?",
+          "answer": "I would say that Gaia did not create everything. According to the myth, Chaos existed first, then Gaia appeared. She then created Uranus, but Chaos, Tartarus, and Eros already existed. So Gaia was not the first being, and she did not create the entire world from nothing."
+        }
+      ]
+    },
+    {
+      "errorId": "err-theme-misidentification",
+      "trigger": "Student selects a theme not supported by the Uranus myth (e.g., love, betrayal, hard work).",
+      "studentMisunderstanding": "Student may think any general positive or negative statement can be a theme, without checking if it is directly supported by the events of the myth.",
+      "miniLesson": {
+        "explain": "A theme is a core lesson or message that the story teaches. In the Uranus myth, the main themes are about fear leading to harmful choices, power needing to be fair, responsibility to oppose injustice, and family conflicts escalating. To identify a theme, ask: 'What does this story show about life or human nature?' Then check if the story's events actually support that message.",
+        "example": "For the Uranus myth, the theme 'Fear can lead people to make harmful choices' is supported because Uranus feared his children and imprisoned them, which led to his downfall. The theme 'Love can overcome any obstacle' is not supported because love is not a major factor in the story.",
+        "memoryAnchor": "Remember: Theme = Story's lesson. Ask 'What does the story teach?' and check the events."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which theme is supported by the Uranus myth? A) Love conquers all  B) Fear leads to harmful choices  C) Hard work pays off",
+          "answer": "B) Fear leads to harmful choices"
+        },
+        {
+          "level": "L2",
+          "prompt": "Read this statement: 'The theme of the Uranus myth is that people have a responsibility to stand up against unfair systems.' Is this a valid theme for the myth? Explain why or why not using evidence from the story.",
+          "answer": "Yes, it is valid. Chronos stood up against Uranus's unfair imprisonment of his children. This shows a responsibility to oppose injustice."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a short paragraph (3-4 sentences) explaining one theme from the Uranus myth and how two different events in the story support that theme. Use specific characters and actions.",
+          "answer": "One theme is 'Fear leads to harmful choices.' Uranus feared his powerful children, so he imprisoned the Hecatoncheires and Cyclopes in Tartarus. This fear-driven action caused Gaia to plot against him, leading to his overthrow by Chronos. Thus, Uranus's harmful choice backfired due to his fear."
+        }
+      ]
+    },
+    {
+      "errorId": "err-connection-format",
+      "trigger": "Student writes a connection without a prescribed sentence starter or uses an incomplete sentence.",
+      "studentMisunderstanding": "The student thinks they can write a connection as a short phrase or note, not realizing it must start with a sentence starter and be a complete sentence to clearly express the idea.",
+      "miniLesson": {
+        "explain": "When making a personal or world connection to the myth, you must use a sentence starter from the lesson and write a complete sentence. A complete sentence has a subject and a verb and expresses a full thought. The starter helps the reader understand the type of connection. Without a starter or with a fragment, your connection is unclear.",
+        "example": "Bad: 'Reminds me of when I made a bad choice.' (incomplete, no starter) Good: 'This story reminds me of a time when I made a bad choice because I was afraid.' (starter + complete sentence)",
+        "memoryAnchor": "Starter + Full Sentence = Clear Connection"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Complete the sentence using the starter 'This story reminds me of...': This story reminds me of ________________________________.",
+          "answer": "This story reminds me of a time when I felt scared of losing something important."
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite the following connection to include a sentence starter and make it a complete sentence: 'Connects to a leader making unfair choices.' Use 'This story connects to...'",
+          "answer": "This story connects to a news story about a leader making unfair decisions."
+        },
+        {
+          "level": "L3",
+          "prompt": "Think about a personal experience where fear led to a bad choice. Write one complete sentence connecting it to the Uranus myth. Start with 'This story reminds me of...'",
+          "answer": "This story reminds me of a time when I was afraid of losing a friend and made a decision I regret."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-myth-uranus-imprisons-all-children",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In the Greek myth, which children did Uranus imprison in Tartarus?",
+          "options": [
+            "All of his children",
+            "Only the Hecatoncheires and Cyclopes",
+            "Only the Titans",
+            "Only the Cyclopes"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why Uranus did not imprison the Titans, and how that decision led to his downfall.",
+          "rubric": "Student must state: (1) Uranus only imprisoned the Hecatoncheires and Cyclopes because he feared their power; (2) the Titans remained free; (3) this allowed Chronos to lead the rebellion against Uranus, leading to his defeat."
+        }
+      ],
+      "passRule": "Answer q1 correctly (option B) AND q2 response must include at least two of the three rubric points."
+    },
+    {
+      "forErrorId": "err-vocab-banish-definition",
+      "questions": [
+        {
+          "id": "q1_banish_transfer",
+          "type": "single_choice",
+          "stem": "In the story of Romulus and Remus, King Amulius ordered the twins to be banished from the kingdom. What does 'banished' mean in this context?",
+          "options": [
+            "Locked up in a dungeon",
+            "Killed immediately",
+            "Forced to leave permanently",
+            "Sent to work as slaves"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2_banish_explain",
+          "type": "open_ended",
+          "stem": "Explain the difference between 'banish' and 'imprison' using an example from the Uranus myth or your own life. Use complete sentences.",
+          "rubric": "Student correctly defines banish as permanent expulsion and imprison as confinement; provides a clear example showing the difference. (Example: 'Uranus imprisoned his children in Tartarus; if he had banished them, they would have been sent away forever.')"
+        }
+      ],
+      "passRule": "q1_banish_transfer correct AND q2_banish_explain meets rubric"
+    },
+    {
+      "forErrorId": "err-character-gaia-creation",
+      "questions": [
+        {
+          "id": "gaia-retest-1",
+          "type": "single_choice",
+          "stem": "According to the Greek creation myth, which being appeared first?",
+          "options": [
+            "Gaia",
+            "Chaos",
+            "Uranus",
+            "Cronus"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "gaia-retest-2",
+          "type": "open_ended",
+          "stem": "Describe the role of Gaia in the creation myth. Was she the first being? What did she create? Use details from the story.",
+          "rubric": "Student states that Chaos came first, Gaia emerged from Chaos. Student mentions that Gaia created Uranus (or gave birth to Uranus) but did not create everything; Chaos, Tartarus, and Eros existed before her creations."
+        }
+      ],
+      "passRule": "Student must select the correct answer in the single-choice question and provide a complete response in the open-ended question that identifies Chaos as the first being and Gaia as creator of Uranus, acknowledging that other beings existed before Gaia's creations."
+    },
+    {
+      "forErrorId": "err-theme-misidentification",
+      "questions": [
+        {
+          "id": "q1_theme_choice",
+          "type": "single_choice",
+          "stem": "Which of the following themes is best supported by the events in the Uranus myth?",
+          "options": [
+            "Teamwork leads to success",
+            "Power must be fair to last",
+            "Love can solve any conflict",
+            "Hard work always brings rewards"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_theme_explanation",
+          "type": "open_ended",
+          "stem": "Explain why the theme 'Love can solve any conflict' is NOT a valid theme for the Uranus myth. Refer to specific events or characters from the story.",
+          "rubric": "Must state that the myth does not show love resolving conflicts. Acceptable: mentions that Uranus's fear and imprisonment led to rebellion, not love; or that Gaia's plan was revenge, not love; or that no character resolves conflict through love. Must reference at least one specific event or character."
+        }
+      ],
+      "passRule": "Must answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-connection-format",
+      "questions": [
+        {
+          "id": "retest-connection-q1",
+          "type": "single_choice",
+          "stem": "Which of the following is a correctly formatted connection to the Uranus myth?",
+          "options": [
+            "Connects to a news story about leaders.",
+            "This story connects to a news story about a leader making unfair decisions.",
+            "Reminds me of when I was scared."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-connection-q2",
+          "type": "open_ended",
+          "stem": "Write a personal connection to the Uranus myth using the sentence starter 'This story reminds me of...'. Your answer must be a complete sentence.",
+          "rubric": "The response must use the exact sentence starter 'This story reminds me of' followed by a complete sentence that expresses a personal experience related to a theme from the myth (e.g., fear, power, injustice). The sentence must have a subject and verb and express a full idea. Fragment or missing starter results in incorrect."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-21",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ExQUdoH1LoPwxIxmYFtcckD1nNe?from=vc_group_doc_link#doxcndaEEZw9drSprT2NZkJGjTc",
+    "sourceTitle": "ESLDO.S6.Dionne 2026-07-21 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Greek myth begins with Chaos, from which Gaia, Tartarus, and Eros emerge.；Gaia creates Uranus (sky); they marry and produce Hecatoncheires (100-armed giants), Cyclopes (one-eyed builders), and Titans.；Uranus fears his children's power and imprisons Hecatoncheires and Cyclopes in Tartarus.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can retell and understand the Uranus myth narrative, including key events and consequences."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can define and use key vocabulary from the lesson in context."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can identify characters and their roles in the myth."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can identify and select appropriate themes from the myth."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Students can make real-world connections (personal and global) using structured sentence starters."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Students understand the homework requirements for submission."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Camera and microphone requirement",
+        "studentAction": "Keep camera on and microphone accessible for in-class Q&A participation",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "requires all attendees to keep cameras turned on and microphones accessible for in-class Q&A participation",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Discussion forum responses",
+        "studentAction": "Post answers to the two discussion forum questions and comment on at least one peer's post",
+        "deadlineText": "By end of work period",
+        "deadlineISO": null,
+        "platform": "Discussion forum (likely Schoology)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The two core discussion forum questions directly correspond to Question 3 and Question 5 of the upcoming unit homework, so completing forum responses in class reduces subsequent workload",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Unit 2 Lesson 2 Homework Worksheet",
+        "studentAction": "Complete the homework worksheet: select 5 new vocabulary, summarize plot, identify theme, write personal and world connections. Submit on Schoology.",
+        "deadlineText": "Before the start of the next scheduled class",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "submit the full completed document to the Schoology platform before the start of the next scheduled class",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "AI use policy",
+        "studentAction": "Use AI as a tutor, not a writer; permitted to simplify paragraphs, translate, summarize; prohibited to generate full homework responses",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Permitted AI Use Cases: simplify, translate, summarize; Prohibited: generate full homework responses",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Late submission policy",
+        "studentAction": "Notify instructor in advance if unable to submit on time due to serious unforeseen barrier; do not submit late without prior notice",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students facing serious, unforeseen barriers that prevent on-time submission must notify the instructor in advance; unsolicited delayed submissions will not be accepted",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "review_focus",
+        "title": "Preparatory review for next class",
+        "studentAction": "Review all core vocabulary, plot points, and theme takeaways from today's lesson to prepare for subsequent content",
+        "deadlineText": "Before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Review all core vocabulary terms, plot points and theme takeaways from today's lesson to prepare for the upcoming content",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "class_policy",
+        "title": "Report card work skill metrics",
+        "studentAction": "Be aware that organization, responsibility, and initiative are formally recorded on report cards and assessed during class activities",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Organization Assessment: ... Responsibility Assessment: ... Initiative Assessment: ... all metrics are counted in official report card scores",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "myth-uranus-narrative",
+      "vocabulary-definitions",
+      "character-roles",
+      "theme-identification",
+      "real-world-connections",
+      "homework-requirements"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-myth-uranus-imprisons-all-children",
+        "condition": "Student selects a choice that implies Uranus imprisoned all his children (including Titans).",
+        "systemAction": "Assign reteach module for err-myth-uranus-imprisons-all-children."
+      },
+      {
+        "errorId": "err-vocab-banish-definition",
+        "condition": "Student chooses a definition that confuses banish with imprison or kill.",
+        "systemAction": "Assign reteach module for err-vocab-banish-definition."
+      },
+      {
+        "errorId": "err-character-gaia-creation",
+        "condition": "Student selects that Gaia was the first being or that she created everything.",
+        "systemAction": "Assign reteach module for err-character-gaia-creation."
+      },
+      {
+        "errorId": "err-theme-misidentification",
+        "condition": "Student selects a theme not supported by the myth (e.g., love).",
+        "systemAction": "Assign reteach module for err-theme-misidentification."
+      },
+      {
+        "errorId": "err-connection-format",
+        "condition": "Student writes a connection without a complete sentence or sentence starter.",
+        "systemAction": "Assign reteach module for err-connection-format."
+      }
+    ],
+    "nextActions": [
+      "[err-myth-uranus-imprisons-all-children] Student selects a choice that implies Uranus imprisoned all his children (including Titans).: It looks like you thought Uranus imprisoned all his children. Let's review who he actually imprisoned.",
+      "[err-vocab-banish-definition] Student chooses a definition that confuses banish with imprison or kill.: The word 'banish' has a specific meaning. Let's go over it again.",
+      "[err-character-gaia-creation] Student selects that Gaia was the first being or that she created everything.: Gaia didn't create everything. Check the origin story again.",
+      "[err-theme-misidentification] Student selects a theme not supported by the myth (e.g., love).: That theme doesn't fit the myth well. Let's look at the options again.",
+      "[err-connection-format] Student writes a connection without a complete sentence or sentence starter.: Your connection needs to use a sentence starter and be a complete sentence. Let's practice."
+    ],
+    "cards": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "question": "In the Uranus myth, which children did Uranus imprison in Tartarus?",
+        "options": [
+          "All his children, including the Titans",
+          "Only the Hecatoncheires and Cyclopes",
+          "Only the Titans",
+          "Only the Hecatoncheires"
+        ],
+        "correct": 1,
+        "diagnosis": "Check whether student knows which specific children were imprisoned, addressing the common error that all were imprisoned.",
+        "misconceptions": [
+          "Uranus did not imprison the Titans. He only imprisoned the Hecatoncheires and Cyclopes.",
+          "✓ Correct! Uranus was afraid of the Hecatoncheires and Cyclopes, so he locked them in Tartarus.",
+          "The Titans were not imprisoned. In fact, they later rebelled against Uranus.",
+          "He also imprisoned the Cyclopes. Both groups were sent to Tartarus."
+        ],
+        "nodeId": "myth-uranus-narrative",
+        "errorId": "err-myth-uranus-imprisons-all-children",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that Uranus imprisoned only the Hecatoncheires and Cyclopes, not the Titans.",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly from the myth narrative knowledge node (B1.1 is for text types; B1.2 is for understanding adapted texts).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks Uranus imprisoned all his children (including Titans).",
+        "remediationModule": "err-myth-uranus-imprisons-all-children",
+        "retestItem": "err-myth-uranus-imprisons-all-children"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "question": "Which of the following best defines the word 'banish'?",
+        "options": [
+          "To lock someone in a prison",
+          "To force someone to leave a place permanently",
+          "To kill someone for a crime",
+          "To scare someone into hiding"
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of the word 'banish', which was explicitly taught with the definition 'expel permanently'.",
+        "misconceptions": [
+          "That is 'imprison'. Banish means to force someone to leave a place permanently.",
+          "✓ Correct! Banish means to officially send someone away as a punishment.",
+          "That is 'execute' or 'put to death'. Banish does not mean kill.",
+          "That is not the definition. Banish is an official action, not just scaring."
+        ],
+        "nodeId": "vocabulary-definitions",
+        "errorId": "err-vocab-banish-definition",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly selects that banish means to permanently expel someone from a place.",
+        "ossdExpectation": "Use a variety of strategies to build vocabulary.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "ESLDO-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Targets vocabulary building – SE B3.1 is for using strategies to build vocabulary.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student confuses 'banish' with 'imprison' (lock up) or 'kill' (cause death).",
+        "remediationModule": "err-vocab-banish-definition",
+        "retestItem": "err-vocab-banish-definition"
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "question": "According to the myth, who was the very first being to exist?",
+        "options": [
+          "Gaia",
+          "Chaos",
+          "Uranus",
+          "Chronos"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows that Chaos preceded Gaia, not the other way around.",
+        "misconceptions": [
+          "Gaia was not first. Chaos existed before Gaia emerged.",
+          "✓ Correct! The myth begins with Chaos, then Gaia, Tartarus, and Eros appeared.",
+          "Uranus was created by Gaia later. The first being was Chaos.",
+          "Chronos is a Titan born later. The very first being was Chaos."
+        ],
+        "nodeId": "character-roles",
+        "errorId": "err-character-gaia-creation",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies that Chaos was the first being, not Gaia.",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests understanding of character roles and origin sequence from the myth.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks Gaia was the first being because she is Mother Earth and created Uranus.",
+        "remediationModule": "err-character-gaia-creation",
+        "retestItem": "err-character-gaia-creation"
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "question": "Which of the following is a theme supported by the Uranus myth?",
+        "options": [
+          "Love can overcome any obstacle",
+          "Fear can lead people to make harmful choices",
+          "Betrayal is always punished",
+          "Hard work always brings success"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can select a theme that fits the myth narrative, avoiding themes like love or betrayal that are not central.",
+        "misconceptions": [
+          "Love is not a main theme in this myth. The story focuses on power, fear, and rebellion.",
+          "✓ Correct! Uranus feared his children and imprisoned them, which led to his downfall.",
+          "Although betrayal occurs (Chronos betrays Uranus), the myth does not clearly show it being punished. Instead, Chronos becomes ruler.",
+          "This theme is not present. The myth is about power struggles and consequences of fear."
+        ],
+        "nodeId": "theme-identification",
+        "errorId": "err-theme-misidentification",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student selects a theme that is explicitly present in the myth (fear leading to harmful choices, power must be fair, responsibility to oppose injustice, or family conflicts escalate).",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "SE B1.5 specifically mentions identifying literary elements and themes.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student chooses a theme not supported by the myth (e.g., love triumphs over all).",
+        "remediationModule": "err-theme-misidentification",
+        "retestItem": "err-theme-misidentification"
+      },
+      {
+        "id": "q5",
+        "type": "explain",
+        "question": "Write one sentence connecting the Uranus myth to a personal experience or a world event. Use a sentence starter from the lesson (e.g., 'This story reminds me of...' or 'This connects to...').",
+        "correct": null,
+        "diagnosis": "Check if students can use a prescribed sentence starter and write a complete sentence connecting the myth to real life, addressing the common error of writing incomplete or starter-free sentences.",
+        "nodeId": "real-world-connections",
+        "errorId": "err-connection-format",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student writes a complete sentence that starts with an appropriate sentence starter and makes a valid connection to the myth.",
+        "ossdExpectation": "Demonstrate an understanding of the rights and responsibilities of Canadian citizenship, and of the contributions of diverse groups to Canadian society.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "ESLDO-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "D2.3 is about awareness of diversity, but the lesson's real-world connections align with applying themes to society. Alternative: C1.1 for writing short texts. Using D2.3 as it connects to societal awareness.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "construct",
+        "commonMisconception": "Student writes a fragment or omits the sentence starter, or writes a connection that is unclear or irrelevant.",
+        "remediationModule": "err-connection-format",
+        "retestItem": "err-connection-format"
+      }
+    ]
+  }
+}

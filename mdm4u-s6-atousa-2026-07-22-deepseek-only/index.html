@@ -1,0 +1,155 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>MDM4U Exit Card Learning Package — Review</title><style>body{font-family:system-ui,-apple-system,sans-serif;margin:0;background:#f6f7f9;color:#17202a}header{background:#fff;border-bottom:1px solid #d9dee7;padding:24px}main{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:16px}section,article{background:#fff;border:1px solid #d9dee7;border-radius:8px;padding:16px}pre{white-space:pre-wrap;background:#111827;color:#d1d5db;padding:12px;border-radius:8px;overflow:auto}.ok{color:#047857}.warn{color:#b54708}.muted{color:#667085}.question-figure{margin:12px 0;padding:12px;border:1px solid #e5e7eb;border-radius:8px;background:#fbfcfe}.question-figure svg{display:block;max-width:100%;height:auto;margin:auto}.question-figure figcaption{margin-top:8px;color:#667085;font-size:13px;text-align:center}@media(max-width:900px){main{grid-template-columns:1fr}}</style></head><body><div class="teacher-review-banner" style="position:sticky;top:0;z-index:9999;background:#172033;color:#fff;padding:10px 16px;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap">
+  <div style="font-weight:700">Teacher review copy · 退场卡审核页面</div>
+  <div style="display:flex;gap:10px;flex-wrap:wrap">
+    <a href="../" style="color:#fff;text-decoration:underline">Back to index</a>
+    
+    <a href="https://xcnyxq1qiokk.feishu.cn/wiki/P3uUwL5Hoi59i7k9xX7cXoNcntd?table=tblZvgvl0bBF71G9&amp;view=vewXPI9hBP" style="color:#fff;text-decoration:underline" target="_blank" rel="noopener">Open Lark Base</a>
+  </div>
+</div><header><h1>MDM4U Exit Card Learning Package</h1><p><b>Source:</b> <a href="https://ccnmm1dl3xlx.feishu.cn/docx/VhAbddZdNoIgFhxXLZJc0q5GnQh?from=vc_group_doc_link#doxcn1FkD8QnsjIArCAxuMlP71d" target="_blank" rel="noopener">MDM4U.S6.Atousa 2026-07-22 智能纪要</a> <span class="muted">feishu_ai_minutes_link</span></p><p><b>Lesson Type:</b> instruction | <b>Ops Items:</b> 1</p><p><b>ABT:</b> 你已经完成了本节课的学习。 <b>BUT</b> 但是这 1 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。 <b>THEREFORE</b> 系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。</p><p>Questions: 5 | Error IDs: 5 | Learning Goals: 5</p><p class="ok">Final issues: 0</p></header><main><section><h2>课程运营信息</h2><article>
+<h3>Mid-session break</h3>
+<p><b>Category:</b> announcement | <b>Importance:</b> low | <b>Confidence:</b> high</p>
+<p><b>Student action:</b> Take a 10-minute break</p>
+<p><b>Deadline:</b> — </p>
+<p><b>Platform/link:</b> — </p>
+<p><b>Evidence:</b> A 10-minute mid-session break is scheduled</p>
+
+</article><h2>诊断规则</h2><ul><li><b>err-hypergeometric-confuse-binomial</b>: Student selects an option that suggests they are treating draws as independent/with replacement on a question that targets this errorId. → Assign reteach module for hypergeometric vs binomial distinction.</li><li><b>err-hypergeometric-wrong-success-count</b>: Student incorrectly identifies the number of successes A or failures B in a question targeting this errorId. → Assign reteach module for identifying parameters A and B.</li><li><b>err-hypergeometric-x-outside-range</b>: Student chooses an x value that is not possible (e.g., x &gt; A or x &gt; r) in a question targeting this errorId. → Assign reteach module for feasible range of x.</li><li><b>err-hypergeometric-combination-formula</b>: Student uses an incorrect formula (e.g., permutation or wrong combination) in a question targeting this errorId. → Assign reteach module for combination formula (C(n,k)).</li><li><b>err-hypergeometric-expected-value-formula</b>: Student computes expected value using np (binomial) or incorrectly calculates expected value for hypergeometric in a question targeting this errorId. → Assign reteach module for expected value of hypergeometric distribution.</li></ul><h2>诊断卡</h2><article>
+<h3>Q1. A bag contains 5 red and 7 blue marbles. You draw 3 marbles without replacement and count the number of red marbles. Which distribution should you use?</h3>
+
+<p><b>errorId:</b> err-hypergeometric-confuse-binomial | <b>Bloom:</b> understand | <b>Scaffold:</b> L1</p>
+<p><b>Achievement:</b> Knowledge and Understanding | <b>Action:</b> interpret | <b>OSSD:</b> Demonstrate an understanding of discrete probability distributions, represent th</p>
+<p><b>Official:</b> B1 | <b>Node:</b> MDM4U-B-OE01 | <b>Source:</b> https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf</p>
+<p><b>Learning Goal:</b> lg-1</p>
+<p><b>Misconception:</b> Confusing hypergeometric with binomial when trials are dependent.</p>
+<p><b>Remediation →</b> err-hypergeometric-confuse-binomial | <b>Retest →</b> err-hypergeometric-confuse-binomial</p>
+<ol><li> A. Binomial<br><small>This scenario involves draws without replacement, so hypergeometric is correct; binomial applies when draws are independent with replacement.</small></li><li>✓ B. Hypergeometric<br><small>Correct. Because we draw without replacement, the trials are dependent, and the hypergeometric distribution is appropriate.</small></li><li> C. Uniform<br><small>Uniform distribution would imply all outcomes equally likely, which does not hold here due to sampling without replacement.</small></li><li> D. Poisson<br><small>Poisson distribution is used for count of events in a fixed interval, not for sampling without replacement.</small></li></ol>
+
+
+</article><article>
+<h3>Q2. In a group of 12 people, 8 are adults and 4 are children. You randomly select 5 people without replacement. Let X be the number of adults selected. What are A and B in the hypergeometric formula?</h3>
+
+<p><b>errorId:</b> err-hypergeometric-wrong-success-count | <b>Bloom:</b> apply | <b>Scaffold:</b> L1</p>
+<p><b>Achievement:</b> Knowledge and Understanding | <b>Action:</b> apply | <b>OSSD:</b> Demonstrate an understanding of discrete probability distributions, represent th</p>
+<p><b>Official:</b> B1 | <b>Node:</b> MDM4U-B-OE01 | <b>Source:</b> https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf</p>
+<p><b>Learning Goal:</b> lg-2</p>
+<p><b>Misconception:</b> Swapping success and failure counts or using total population as A.</p>
+<p><b>Remediation →</b> err-hypergeometric-wrong-success-count | <b>Retest →</b> err-hypergeometric-wrong-success-count</p>
+<ol><li>✓ A. A=8, B=4<br><small>Correct. Adults are success, so A=8, B=4.</small></li><li> B. A=4, B=8<br><small>You swapped the success and failure counts. Adults are success, so A=8, B=4.</small></li><li> C. A=8, B=7<br><small>B should be the number of failures (children), which is 4, not 7.</small></li><li> D. A=12, B=0<br><small>A is the number of successes (adults), not total population. There are failures too.</small></li></ol>
+
+
+</article><article>
+<h3>Q3. A box has 6 red marbles and 4 blue marbles. You draw 3 marbles without replacement. Let X = number of red marbles. Which of the following values of x is NOT possible?</h3>
+
+<p><b>errorId:</b> err-hypergeometric-x-outside-range | <b>Bloom:</b> analyze | <b>Scaffold:</b> L1</p>
+<p><b>Achievement:</b> Thinking | <b>Action:</b> analyze | <b>OSSD:</b> Demonstrate an understanding of discrete probability distributions, represent th</p>
+<p><b>Official:</b> B1 | <b>Node:</b> MDM4U-B-OE01 | <b>Source:</b> https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf</p>
+<p><b>Learning Goal:</b> lg-5</p>
+<p><b>Misconception:</b> Assuming any x from 0 to r is always possible without considering the number of successes available.</p>
+<p><b>Remediation →</b> err-hypergeometric-x-outside-range | <b>Retest →</b> err-hypergeometric-x-outside-range</p>
+<ol><li> A. 0<br><small>0 is possible if no red marbles are drawn.</small></li><li> B. 3<br><small>3 is possible if all three drawn are red (since there are 6 red marbles).</small></li><li>✓ C. 4<br><small>Correct. You can only draw up to 3 marbles, so x cannot be 4.</small></li><li> D. 2<br><small>2 is possible if two red and one blue are drawn.</small></li></ol>
+
+
+</article><article>
+<h3>Q4. In a hypergeometric distribution with A=5, B=7, r=4, what is the correct expression for P(X=2)?</h3>
+
+<p><b>errorId:</b> err-hypergeometric-combination-formula | <b>Bloom:</b> apply | <b>Scaffold:</b> L2</p>
+<p><b>Achievement:</b> Knowledge and Understanding | <b>Action:</b> apply | <b>OSSD:</b> Demonstrate an understanding of discrete probability distributions, represent th</p>
+<p><b>Official:</b> B1 | <b>Node:</b> MDM4U-B-OE01 | <b>Source:</b> https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf</p>
+<p><b>Learning Goal:</b> lg-3</p>
+<p><b>Misconception:</b> Using permutations instead of combinations, or using incorrect denominators.</p>
+<p><b>Remediation →</b> err-hypergeometric-combination-formula | <b>Retest →</b> err-hypergeometric-combination-formula</p>
+<ol><li>✓ A. C(5,2) * C(7,2) / C(12,4)<br><small>Correct. This matches the hypergeometric formula.</small></li><li> B. P(5,2) * P(7,2) / P(12,4)<br><small>You used permutations (P) instead of combinations (C). In hypergeometric, order does not matter, so use combinations.</small></li><li> C. C(5,2) * C(7,2) / C(12,2)<br><small>The denominator should be total combinations of drawing 4 from 12, not 2.</small></li><li> D. C(5,2) + C(7,2) / C(12,4)<br><small>The numerator should be product of combinations, not sum.</small></li></ol>
+
+
+</article><article>
+<h3>Q5. For a hypergeometric distribution with A=8, B=4, r=5, what is the expected value E(X)?</h3>
+
+<p><b>errorId:</b> err-hypergeometric-expected-value-formula | <b>Bloom:</b> apply | <b>Scaffold:</b> L2</p>
+<p><b>Achievement:</b> Application | <b>Action:</b> apply | <b>OSSD:</b> Demonstrate an understanding of discrete probability distributions, represent th</p>
+<p><b>Official:</b> B1 | <b>Node:</b> MDM4U-B-OE01 | <b>Source:</b> https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf</p>
+<p><b>Learning Goal:</b> lg-4</p>
+<p><b>Misconception:</b> Using np (binomial) formula without adjustment for dependence, or using wrong proportion.</p>
+<p><b>Remediation →</b> err-hypergeometric-expected-value-formula | <b>Retest →</b> err-hypergeometric-expected-value-formula</p>
+<ol><li>✓ A. 5 * (8/12) = 3.33<br><small>Correct. E(X) = r * (A/(A+B)) = 5 * (8/12) ≈ 3.33.</small></li><li> B. 5 * (8/12) * (1 - 8/12) = 1.11<br><small>That is the variance or a binomial-like formula. For hypergeometric expected value, use r * (A/(A+B)).</small></li><li> C. 8/12 = 0.67<br><small>That is just the proportion, not the expected value. Remember to multiply by r.</small></li><li> D. (5 * 4)/12 = 1.67<br><small>You used the wrong numbers. Expected value uses total successes (8) and total draws (5), not failures (4).</small></li></ol>
+
+
+</article></section><section><h2>补救模块</h2><article><h3>err-hypergeometric-confuse-binomial</h3><p>The student confuses hypergeometric and binomial distributions, treating dependent draws (without replacement) as independent (with replacement), which changes the probability structure.</p><p><b>Explain:</b> Hypergeometric distribution applies when selections are made without replacement, making trials dependent. Binomial applies when selections are with replacement or trials are independent. For hypergeometric, the probability of success changes after each draw because the population size decreases. For binomial, the probability stays constant.</p><p><b>Example:</b> Selecting 3 people from a group of 8 men and 10 women to form a committee. The number of women selected follows a hypergeometric distribution because once a person is chosen, they are not replaced. If we were to select with replacement, it would be binomial.</p></article><article><h3>err-hypergeometric-wrong-success-count</h3><p>Students often confuse which category is considered 'success' and which is 'failure', or they mistakenly use the total population size as the success count. This leads to incorrect probability calculations.</p><p><b>Explain:</b> In hypergeometric problems, 'success' means the outcome you are counting. For example, if we want the number of adults in a selection, adults are successes. The parameter A is the total number of successes in the population, and B is the total number of failures (the rest). Always identify A as the count of the category you are interested in.</p><p><b>Example:</b> In a group of 12 people, 8 are adults and 4 are children. You randomly select 5 without replacement. Let X = number of adults. Here, adults are successes, so A=8, B=4, total N=12. The formula uses A and B.</p></article><article><h3>err-hypergeometric-x-outside-range</h3><p>The student thinks any value from 0 to the number of draws is possible, ignoring the constraint that successes cannot exceed those present in the population.</p><p><b>Explain:</b> In hypergeometric distribution, the number of successes x cannot exceed the smaller of A (total successes) and r (number of draws). Also, x cannot be less than max(0, r - B). For example, with 10 women and 8 men choosing a 3-person committee, x (women) can only be 0, 1, 2, or 3, not 4 or more.</p><p><b>Example:</b> Select 5 candies from a box of 19 (8 yellow, 4 green, 4 purple, 3 red). Success = red (A=3). Draws r=5. Possible x: 0 to 3 (since min(3,5)=3). x=4 is impossible.</p></article><article><h3>err-hypergeometric-combination-formula</h3><p>Students often confuse combinations (C(n,k)) with permutations (P(n,k)) when setting up the hypergeometric probability formula. They may also incorrectly use addition instead of multiplication in the numerator, or use the wrong denominator.</p><p><b>Explain:</b> In hypergeometric probability, we count the number of ways to choose successes and failures without regard to order. The combination formula C(n,k) = n!/(k!(n-k)!) counts the number of ways to choose k items from n distinct items when order does not matter. In the hypergeometric formula P(X=x) = [C(A,x) * C(B, r-x)] / C(A+B, r), we multiply the combinations for successes and failures because we need both to occur. The denominator is the total number of ways to choose r items from the entire population. Remember: order does not matter, so use combinations, not permutations.</p><p><b>Example:</b> For A=5 successes, B=7 failures, r=4 draws, P(X=2) = [C(5,2)*C(7,2)] / C(12,4). Compute C(5,2)=10, C(7,2)=21, C(12,4)=495, so P = (10*21)/495 = 210/495 ≈ 0.4242.</p></article><article><h3>err-hypergeometric-expected-value-formula</h3><p>Student expects E(X) = np (binomial) but does not apply hypergeometric expected value calculation which is E(X) = r * (A/(A+B)).</p><p><b>Explain:</b> In a hypergeometric distribution, the expected value is found by multiplying the number of draws (r) by the proportion of successes in the population (A/(A+B)). This is because each draw without replacement is not independent, but the expected number still scales linearly with the proportion. Unlike binomial where E(X)=np, hypergeometric does not assume independence, so the formula is E(X)=r*(A/(A+B)).</p><p><b>Example:</b> Selecting 3 people from 8 men and 10 women, with 'women' as success: A=10, B=8, A+B=18, r=3. So E(X)=3*(10/18)=3*0.5556=1.67.</p></article><h2>Report</h2><pre>{
+  &quot;generatedAt&quot;: &quot;2026-07-22T08:02:34.004Z&quot;,
+  &quot;deepseekOnly&quot;: true,
+  &quot;sourceFormat&quot;: &quot;feishu_ai_minutes_link&quot;,
+  &quot;sourceUrl&quot;: &quot;https://ccnmm1dl3xlx.feishu.cn/docx/VhAbddZdNoIgFhxXLZJc0q5GnQh?from=vc_group_doc_link#doxcn1FkD8QnsjIArCAxuMlP71d&quot;,
+  &quot;sourceTitle&quot;: &quot;MDM4U.S6.Atousa 2026-07-22 智能纪要&quot;,
+  &quot;officialBankStatus&quot;: {
+    &quot;ossd&quot;: &quot;loaded&quot;,
+    &quot;knowledgeNodes&quot;: &quot;loaded&quot;,
+    &quot;courseCode&quot;: &quot;MDM4U&quot;
+  },
+  &quot;finalIssues&quot;: [],
+  &quot;stepReports&quot;: [
+    {
+      &quot;step&quot;: &quot;courseOpsExtract&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;factBank&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;diagnosticCard&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;reteach:err-hypergeometric-confuse-binomial&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;retest:err-hypergeometric-confuse-binomial&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;reteach:err-hypergeometric-wrong-success-count&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;retest:err-hypergeometric-wrong-success-count&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;reteach:err-hypergeometric-x-outside-range&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;retest:err-hypergeometric-x-outside-range&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;reteach:err-hypergeometric-combination-formula&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;retest:err-hypergeometric-combination-formula&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;reteach:err-hypergeometric-expected-value-formula&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    },
+    {
+      &quot;step&quot;: &quot;retest:err-hypergeometric-expected-value-formula&quot;,
+      &quot;issues&quot;: [],
+      &quot;repairedBy&quot;: null
+    }
+  ]
+}</pre></section></main></body></html>

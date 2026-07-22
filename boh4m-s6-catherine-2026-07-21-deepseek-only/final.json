@@ -1,0 +1,994 @@
+{
+  "sourceLesson": "BOH4M.S6.Catherine 2026-07-21",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/NMirdAYIsolvf0xtEn0cS3K8nuh?from=vc_group_doc_link#doxcnwDbMGeFPpSwpeEuOlhJkac",
+  "sourceTitle": "BOH4M.S6.Catherine 2026-07-21 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/NMirdAYIsolvf0xtEn0cS3K8nuh?from=vc_group_doc_link#doxcnwDbMGeFPpSwpeEuOlhJkac",
+    "title": "BOH4M.S6.Catherine 2026-07-21 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-22/sources/boh4m-s6-catherine-2026-07-21/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "BOH4M",
+  "lessonDate": "2026-07-21",
+  "teacher": "Catherine",
+  "section": "S6",
+  "subject": "business",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-07-21",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes direct instruction on three leadership styles (autocratic, laissez-faire, democratic) and also provides assignment instructions and administrative announcements.",
+    "academicContentSignals": [
+      "Three core leadership styles: autocratic, laissez-faire, democratic",
+      "Characteristics of autocratic leadership: leader holds full decision-making, issues direct orders, rejects input, prevents collaboration",
+      "Applicable scenarios for autocratic: time limited, inexperienced team, unfamiliar members",
+      "Ineffective scenarios for autocratic: need collaboration, competent team, flexible expectations",
+      "Pros and cons of autocratic: fast decisions but low creativity/motivation",
+      "Characteristics of laissez-faire: hands-off, minimal instructions, support only on request",
+      "Applicable scenarios for laissez-faire: highly motivated, skilled, familiar teams",
+      "Ineffective scenarios for laissez-faire: low collaboration, limited skills, need guidance",
+      "Pros and cons of laissez-faire: empowers team but may cause role ambiguity",
+      "Characteristics of democratic: prioritize equality, collect input, value every voice",
+      "Applicable scenarios for democratic: sufficient time, clear common goals, willing contributors",
+      "Ineffective scenarios for democratic: unmotivated team, lacking competence, high conflict",
+      "Pros and cons of democratic: improves acceptance but slow decision-making",
+      "Case study assignment on North Star launch decision requiring analysis of leadership approach, evaluation, and recommendation",
+      "Reference table with 7 leadership styles: 3 taught + 4 extended (transactional, transformational, servant, situational)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Several operational items (assignment deadline, group policy, grade notice, in-class time arrangement) may overshadow learning content. Ensure diagnostic exit card primarily tests understanding of leadership styles rather than assignment logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "deadline",
+        "title": "Unit 2 Lesson 7 Case Study Assignment Due",
+        "studentAction": "Submit the case study on North Star launch decision of a Canadian enterprise in Markham, Ontario before next class begins.",
+        "deadlineText": "before start of next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "due before the start of the next class",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Group Composition Reporting Rule",
+        "studentAction": "Report your group composition (individual, pair, or group of up to 3) to the teacher. Unreported composition defaults to individual work. Uncooperative work will lower participation scores.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "unreported group composition defaults to individual work, and uncooperative work lowers participation scores",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Check Released Test Scores",
+        "studentAction": "Check your inbox for released test scores and monitor the message box for follow-up grade-related notifications.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email/inbox",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "check their inboxes for released test scores promptly, and pay attention to follow-up grade-related notifications in the message box",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Leadership Styles Quick Reference Table",
+        "studentAction": "Refer to the provided reference table covering 3 taught and 4 extended leadership styles (transactional, transformational, servant, situational) for the case study.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu doc (assumed)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Pre-provided references cover 3 taught leadership styles plus 4 extended styles",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Flexible In-Class Time Arrangement",
+        "studentAction": "Use the 45-minute period to arrange work flexibly.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "low",
+        "sourceEvidence": "45 to arrange their work flexibly",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "45 to arrange their work flexibly",
+        "reason": "Meaning of '45' is unclear – could refer to 45 minutes or something else. No clear context."
+      },
+      {
+        "rawText": "message box for follow-up grade-related notifications",
+        "reason": "Platform/location of 'message box' is not specified."
+      }
+    ]
+  },
+  "title": "BOH4M Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Autocratic Leadership、Laissez-Faire Leadership、Democratic Leadership）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "There are 17 leadership styles in academic research, but 3 core practical styles are covered: Autocratic, Laissez-Faire, Democratic.；Autocratic leadership: leader holds full decision-making authority, issues direct orders, rejects team input, prevents internal collaboration. Effective when time is limited, team members lack experience or are unfamiliar with each other. Ineffective when team needs collaboration, members are competent, or team expects flexibility. Pros: fast decisions, clear guidance. Cons: suppresses creativity, lowers motivation.；Laissez-Faire leadership: leader is hands-off, provides minimal active instructions, only supports when asked. Effective only for highly motivated, skilled, well-familiarized teams that have worked together on multiple projects. Ineffective when team lacks collaboration awareness, skills, or needs guidance. Pros: empowers team, stimulates innovation. Cons: role ambiguity, high stress.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Distinguish among autocratic, laissez-faire, and democratic leadership styles based on characteristics, applicability, and pros/cons."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Evaluate leadership styles in a given scenario and recommend an appropriate style with justification."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "BOH4M-B-OE03-Autocratic",
+      "name": "Autocratic Leadership",
+      "nameEn": "Autocratic Leadership",
+      "definition": "A leadership style where the leader holds full decision-making authority, issues direct mandatory orders, rejects team input, and prevents internal collaboration. Effective when time is limited, team members lack experience or are unfamiliar with each other. Ineffective when team needs collaboration or members are competent.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "BOH4M-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations."
+    },
+    {
+      "id": "BOH4M-B-OE03-LaissezFaire",
+      "name": "Laissez-Faire Leadership",
+      "nameEn": "Laissez-Faire Leadership",
+      "definition": "A hands-off, laid-back leadership style where the leader provides almost no active instructions and only offers support when explicitly requested. Applicable only to highly motivated, skilled, well-familiarized teams. Ineffective when team lacks collaboration or skills.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "BOH4M-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations."
+    },
+    {
+      "id": "BOH4M-B-OE03-Democratic",
+      "name": "Democratic Leadership",
+      "nameEn": "Democratic Leadership",
+      "definition": "A leadership style where the leader prioritizes equality and collaboration, collects full team input before making final decisions, and values every member's voice equally. Effective when sufficient discussion time, clear common goals, and willing members. Ineffective when team is unmotivated or lacks competence.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "BOH4M-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish among autocratic, laissez-faire, and democratic leadership styles based on characteristics, applicability, and pros/cons."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Evaluate leadership styles in a given scenario and recommend an appropriate style with justification."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-autocratic-always-ineffective",
+        "condition": "student picks wrong option on Q1 or Q5 that suggests autocratic is never effective",
+        "systemAction": "assign reteach module for err-autocratic-always-ineffective",
+        "studentMessage": "You might think autocratic leadership is always bad—let's review when it actually works."
+      },
+      {
+        "errorId": "err-laissez-faire-no-leadership",
+        "condition": "student picks wrong option on Q2 or Q5 that equates laissez-faire with no leadership",
+        "systemAction": "assign reteach module for err-laissez-faire-no-leadership",
+        "studentMessage": "Laissez-faire is a deliberate style, not an absence of leadership. Let's check the conditions."
+      },
+      {
+        "errorId": "err-democratic-always-effective",
+        "condition": "student picks wrong option on Q3 or Q5 that assumes democratic is always best",
+        "systemAction": "assign reteach module for err-democratic-always-effective",
+        "studentMessage": "Democratic leadership has limits too—let's see when it may fail."
+      },
+      {
+        "errorId": "err-confuse-autocratic-democratic",
+        "condition": "student picks wrong option on Q4 or Q5 that mixes up autocratic and democratic features",
+        "systemAction": "assign reteach module for err-confuse-autocratic-democratic",
+        "studentMessage": "It's easy to mix up the roles of the leader. Let's clarify the differences."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-boh4m-u2-0721-q1",
+        "nodeId": "BOH4M-B-OE03-Autocratic",
+        "errorId": "err-autocratic-always-ineffective",
+        "stem": "A project manager faces a tight deadline to launch a new product, and the team members have never worked together before and lack experience in the industry. Which leadership style is most effective in this situation?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies autocratic leadership as effective when time is limited and team is inexperienced.",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for autocratic leadership.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Checks if student knows when autocratic leadership is appropriate.",
+        "commonMisconception": "Student thinks autocratic is always ineffective due to its negative connotations.",
+        "remediationModule": "err-autocratic-always-ineffective",
+        "retestItem": "err-autocratic-always-ineffective",
+        "options": [
+          {
+            "label": "A",
+            "text": "Democratic leadership, because it values everyone's input.",
+            "correct": false,
+            "feedbackWrong": "Democratic leadership requires discussion time, which the team doesn't have under a tight deadline, and inexperienced members may not contribute effectively."
+          },
+          {
+            "label": "B",
+            "text": "Autocratic leadership, because quick decisions and clear guidance are needed.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Autocratic leadership is effective when time is short and the team lacks experience."
+          },
+          {
+            "label": "C",
+            "text": "Laissez-faire leadership, because the team can learn on their own.",
+            "correct": false,
+            "feedbackWrong": "Laissez-faire requires a highly skilled and self-motivated team; an inexperienced team would struggle without direction."
+          },
+          {
+            "label": "D",
+            "text": "None, because no leadership style works with inexperienced teams.",
+            "correct": false,
+            "feedbackWrong": "Autocratic leadership is specifically designed for such situations; it provides structure and speed."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-u2-0721-q2",
+        "nodeId": "BOH4M-B-OE03-LaissezFaire",
+        "errorId": "err-laissez-faire-no-leadership",
+        "stem": "A senior engineering team, all experts who have collaborated on multiple projects, expresses frustration with their manager's constant check-ins and detailed instructions. Which leadership style would best empower this team?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies laissez-faire as suitable for highly skilled and autonomous teams.",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for laissez-faire leadership.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Checks if student recognizes laissez-faire as a deliberate style for autonomous teams.",
+        "commonMisconception": "Student equates laissez-faire with absence of leadership or thinks it is never effective.",
+        "remediationModule": "err-laissez-faire-no-leadership",
+        "retestItem": "err-laissez-faire-no-leadership",
+        "options": [
+          {
+            "label": "A",
+            "text": "Autocratic leadership, because the manager should maintain control.",
+            "correct": false,
+            "feedbackWrong": "Autocratic would increase frustration; the team needs autonomy, not more instructions."
+          },
+          {
+            "label": "B",
+            "text": "Democratic leadership, because everyone should vote on decisions.",
+            "correct": false,
+            "feedbackWrong": "Democratic could work but may slow down decision-making. The team already collaborates, so a hands-off approach is more empowering."
+          },
+          {
+            "label": "C",
+            "text": "Laissez-faire leadership, because the team is highly skilled and self-motivated.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Laissez-faire is effective for experienced, autonomous teams that need minimal oversight."
+          },
+          {
+            "label": "D",
+            "text": "No leadership, because the team can manage themselves without a leader.",
+            "correct": false,
+            "feedbackWrong": "Laissez-faire still has a leader who provides support when needed; it is not an absence of leadership."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-u2-0721-q3",
+        "nodeId": "BOH4M-B-OE03-Democratic",
+        "errorId": "err-democratic-always-effective",
+        "stem": "Which of the following situations is LEAST suitable for democratic leadership?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies a situation where democratic leadership fails (unmotivated team, conflict, lack of time).",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for democratic leadership.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Checks if student understands the limitations of democratic leadership.",
+        "commonMisconception": "Student assumes democratic leadership is always the best or most fair choice.",
+        "remediationModule": "err-democratic-always-effective",
+        "retestItem": "err-democratic-always-effective",
+        "options": [
+          {
+            "label": "A",
+            "text": "A team with clear common goals and enough time to discuss.",
+            "correct": false,
+            "feedbackWrong": "This is an ideal situation for democratic leadership; it works well here."
+          },
+          {
+            "label": "B",
+            "text": "A team that is unmotivated and lacks competence in the task.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Democratic leadership is ineffective when the team is unmotivated or lacks competence; they may not contribute meaningfully."
+          },
+          {
+            "label": "C",
+            "text": "A team that values equality and every member's voice.",
+            "correct": false,
+            "feedbackWrong": "Such a team would thrive under democratic leadership."
+          },
+          {
+            "label": "D",
+            "text": "A team with moderate conflict but willing to collaborate.",
+            "correct": false,
+            "feedbackWrong": "If members are willing to collaborate, democratic can help resolve conflict through inclusion."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-u2-0721-q4",
+        "nodeId": "BOH4M-B-OE03-Autocratic",
+        "errorId": "err-confuse-autocratic-democratic",
+        "stem": "In autocratic leadership, the leader's role in decision-making is to:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly states that autocratic leader makes decisions alone without team input.",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for autocratic leadership.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks basic definition of autocratic leadership.",
+        "commonMisconception": "Student confuses autocratic with democratic, e.g., thinking autocratic still includes team input.",
+        "remediationModule": "err-confuse-autocratic-democratic",
+        "retestItem": "err-confuse-autocratic-democratic",
+        "options": [
+          {
+            "label": "A",
+            "text": "Collect full team input before making final decisions.",
+            "correct": false,
+            "feedbackWrong": "That describes democratic leadership, not autocratic."
+          },
+          {
+            "label": "B",
+            "text": "Hold full decision-making authority and issue direct orders without team input.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Autocratic leaders decide alone and give orders."
+          },
+          {
+            "label": "C",
+            "text": "Provide minimal guidance and let the team decide independently.",
+            "correct": false,
+            "feedbackWrong": "That describes laissez-faire leadership."
+          },
+          {
+            "label": "D",
+            "text": "Share decision-making with a trusted subset of the team.",
+            "correct": false,
+            "feedbackWrong": "Autocratic does not share decision-making; all authority rests with the leader."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-u2-0721-q5",
+        "nodeId": "BOH4M-B-OE03-Democratic",
+        "errorId": "err-democratic-always-effective",
+        "stem": "A company is facing a high-conflict situation where team members have opposing views and little trust. The team needs a quick decision to avoid project delay. Using your knowledge of leadership styles, explain why democratic leadership may NOT be the best choice in this scenario, and recommend a more suitable style with reasoning.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that democratic requires discussion time and willing participation; high conflict delays decisions; may recommend autocratic for speed or directive approach.",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for democratic and leadership style selection.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Assesses ability to critically evaluate when democratic fails and propose alternative.",
+        "commonMisconception": "Student insists democratic always works or does not recognize conflict/time constraints.",
+        "remediationModule": "err-democratic-always-effective",
+        "retestItem": "err-democratic-always-effective",
+        "rubric": "Full credit: mentions that democratic requires discussion time and willingness to participate; high conflict may prevent effective input; recommends autocratic for quick, clear decisions (or a directive approach). Must include reasoning and reference to at least one specific barrier.",
+        "sampleStrongAnswer": "Democratic leadership requires discussion and collaboration, but in this high-conflict, low-trust team, members may not share openly and decisions would be slow. Since time is critical, autocratic leadership would be more effective because the leader can make a quick, authoritative decision without prolonged debate, providing clear direction."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-autocratic-always-ineffective",
+      "condition": "student picks wrong option on Q1 or Q5 that suggests autocratic is never effective",
+      "systemAction": "assign reteach module for err-autocratic-always-ineffective",
+      "studentMessage": "You might think autocratic leadership is always bad—let's review when it actually works."
+    },
+    {
+      "errorId": "err-laissez-faire-no-leadership",
+      "condition": "student picks wrong option on Q2 or Q5 that equates laissez-faire with no leadership",
+      "systemAction": "assign reteach module for err-laissez-faire-no-leadership",
+      "studentMessage": "Laissez-faire is a deliberate style, not an absence of leadership. Let's check the conditions."
+    },
+    {
+      "errorId": "err-democratic-always-effective",
+      "condition": "student picks wrong option on Q3 or Q5 that assumes democratic is always best",
+      "systemAction": "assign reteach module for err-democratic-always-effective",
+      "studentMessage": "Democratic leadership has limits too—let's see when it may fail."
+    },
+    {
+      "errorId": "err-confuse-autocratic-democratic",
+      "condition": "student picks wrong option on Q4 or Q5 that mixes up autocratic and democratic features",
+      "systemAction": "assign reteach module for err-confuse-autocratic-democratic",
+      "studentMessage": "It's easy to mix up the roles of the leader. Let's clarify the differences."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-autocratic-always-ineffective",
+      "trigger": "student picks wrong option on Q1 or Q5 that suggests autocratic is never effective",
+      "studentMisunderstanding": "Student believes autocratic leadership is always ineffective, ignoring its necessity under time constraints or with inexperienced teams.",
+      "miniLesson": {
+        "explain": "Autocratic leadership is not always ineffective. It works best when time is limited, team members lack experience, or the team is unfamiliar with each other. In such situations, the leader makes quick decisions and provides clear guidance, which is more efficient than seeking input from inexperienced or unacquainted team members. The key is to match the style to the situation.",
+        "example": "In the North Star launch decision case study (a Canadian enterprise in Markham, Ontario), the leader needed to make a fast decision to meet a tight deadline with a new, inexperienced team. Autocratic leadership was effective because it provided immediate direction and avoided time-consuming group discussions.",
+        "memoryAnchor": "Think of a medical emergency: the doctor (leader) gives orders without consulting the patient – fast decisions save lives. Similarly, autocratic leadership is a tool for speed and clarity when the team can't contribute effectively."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Define autocratic leadership and list two conditions under which it is effective.",
+          "answer": "Autocratic leadership is a style where the leader holds full decision-making authority, issues direct orders, and rejects team input. It is effective when time is limited and when team members lack experience or are unfamiliar with each other."
+        },
+        {
+          "level": "L2",
+          "prompt": "A new project team of recent graduates has never worked together and faces a tight deadline. Which leadership style should the manager use? Explain why.",
+          "answer": "The manager should use autocratic leadership. The team lacks experience and collaboration history, and the deadline requires quick decisions. Autocratic leadership provides clear, direct guidance without needing team input, saving time and reducing confusion."
+        },
+        {
+          "level": "L3",
+          "prompt": "Evaluate the following statement: 'Autocratic leadership is always a bad choice because it suppresses creativity.' Use your knowledge of when autocratic is effective to argue for or against.",
+          "answer": "The statement is false because it ignores situations where autocratic leadership is beneficial. While it does suppress creativity, that trade-off is acceptable when speed and clear direction are critical, such as in emergencies or with inexperienced teams. For example, in the North Star launch case, autocratic leadership enabled a fast decision that a democratic process would have delayed. Therefore, autocratic is not 'always' bad; it is a valid choice when the team cannot effectively participate."
+        }
+      ]
+    },
+    {
+      "errorId": "err-laissez-faire-no-leadership",
+      "trigger": "Student equates laissez-faire with no leadership or thinks it is never effective.",
+      "studentMisunderstanding": "You think laissez-faire means the leader does nothing, so it is not real leadership. But laissez-faire is a deliberate style that works when the team is highly skilled and self-motivated.",
+      "miniLesson": {
+        "explain": "Laissez-faire is a hands-off leadership style where the leader gives minimal instructions and only steps in when the team asks for help. It is NOT the absence of leadership – the leader still sets goals, provides resources, and remains accountable. This style works best with a team that is highly motivated, expert, and familiar with working together. For example, a senior engineering team that has collaborated on many projects thrives with laissez-faire because they need autonomy, not constant oversight. The leader's role is to support, not direct. When overused or used with unprepared teams, it causes role ambiguity and stress.",
+        "example": "Scenario: A team of experienced software developers who have worked together for years. Their manager rarely checks in and only provides guidance when the team asks. The team feels empowered and produces innovative solutions. This is laissez-faire leadership in action – it works because the team is highly skilled and self-driven.",
+        "memoryAnchor": "Think of 'Laissez-Faire' as 'Let them fly' – the leader gives the team wings (autonomy) but stays ready to catch them if needed. It's not 'no leader' but 'leader as a safety net'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: Laissez-faire leadership means the leader does no work and is not really a leader. Explain your answer.",
+          "answer": "False. Laissez-faire is a deliberate leadership style where the leader provides minimal direction and only supports when asked. The leader still sets overall goals and remains accountable. It is a real leadership approach that works best with highly skilled, autonomous teams."
+        },
+        {
+          "level": "L2",
+          "prompt": "Why might laissez-faire leadership be ineffective for a team of new employees who have never worked together? Use characteristics from the definition.",
+          "answer": "Laissez-faire is ineffective for inexperienced teams because they lack the skills and collaboration awareness needed to work without guidance. They need clear instructions and support, which laissez-faire does not provide. The leader's minimal involvement would lead to role ambiguity, stress, and poor performance."
+        },
+        {
+          "level": "L3",
+          "prompt": "A manager says, 'I use laissez-faire because I trust my team to make all decisions without me.' Based on what you learned, evaluate this statement. When is it correct, and when might it be a misunderstanding of laissez-faire?",
+          "answer": "The statement is correct only if the team is highly motivated, skilled, and well-familiarized with each other and the tasks. In such cases, laissez-faire empowers innovation. However, it is a misunderstanding if the manager thinks laissez-faire means completely abandoning responsibility. The leader must still provide support when asked, set boundaries, and ensure resources are available. Over-relying on laissez-faire without team readiness can cause chaos."
+        }
+      ]
+    },
+    {
+      "errorId": "err-democratic-always-effective",
+      "trigger": "Student believes democratic leadership is always the best choice, ignoring its failure when teams are unmotivated, lack competence, or face high conflict.",
+      "studentMisunderstanding": "Democratic leadership is often seen as fair and inclusive, so students assume it works in every situation. However, it requires sufficient discussion time, clear common goals, and willing participants. When the team is unmotivated, lacks expertise, or is in high conflict, democratic leadership can lead to slow decisions, indecision, or poor outcomes. Recognizing these limitations is key to choosing the right style.",
+      "miniLesson": {
+        "explain": "Democratic leadership prioritizes equality and collaboration: the leader collects full team input before making final decisions. This style is effective only when there is enough time for discussion, the team shares clear common goals, and members are willing to contribute. It fails when the team is unmotivated (members won't engage), lacks competence (can't provide useful input), or faces high conflict (disagreements stall decisions). Pros include higher acceptance of decisions and preparing members for promotion. Cons are long decision cycles and the need for coordination.",
+        "example": "Imagine a project team that is deeply divided and unfocused. Using democratic leadership, the leader calls a meeting to gather everyone's opinion. Instead of constructive discussion, members argue, and no consensus emerges. The decision is delayed, and the project falls behind. An autocratic leader would have made a swift decision to keep things moving.",
+        "memoryAnchor": "Think of democratic leadership like a group road trip: it's great when everyone wants the same destination and has time to discuss stops. But if passengers are arguing or have no sense of direction, a single driver (autocratic) is faster and safer."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "List two conditions under which democratic leadership is effective, and two conditions under which it is ineffective.",
+          "answer": "Effective: when there is sufficient discussion time and the team shares clear common goals. Ineffective: when the team is unmotivated or members lack competence."
+        },
+        {
+          "level": "L2",
+          "prompt": "A manager wants to use democratic leadership for a team that has never worked together and is under a tight deadline. Explain why this may not work.",
+          "answer": "Democratic leadership requires discussion time and willing participation. With a tight deadline, there isn't enough time for full input. Additionally, a new team may lack shared goals or experience, making discussion inefficient. An autocratic style would be more effective."
+        },
+        {
+          "level": "L3",
+          "prompt": "Evaluate: A team of experienced, motivated engineers with a history of collaboration is facing a low-conflict decision with plenty of time. Would democratic leadership be effective? Why or why not? Compare with another style.",
+          "answer": "Yes, democratic leadership would be very effective here because the team has sufficient time, clear common goals, and is willing to contribute. It builds acceptance and prepares members for promotion. An autocratic style would be unnecessary and could demotivate the team, while laissez-faire might be too hands-off even for this skilled group. Democratic balances autonomy with structure."
+        }
+      ]
+    },
+    {
+      "errorId": "err-confuse-autocratic-democratic",
+      "trigger": "Student selects an option that mixes up autocratic and democratic leadership characteristics.",
+      "studentMisunderstanding": "Student confuses the roles of the leader in autocratic and democratic leadership, for example, thinking that an autocratic leader still collects team input or that a democratic leader decides alone.",
+      "miniLesson": {
+        "explain": "Autocratic and democratic leadership differ in how decisions are made. In autocratic leadership, the leader holds full decision-making authority, issues direct orders, and rejects team input. In democratic leadership, the leader prioritizes equality and collaboration, collects full team input before making final decisions, and values every member's voice equally. The key difference: autocratic = leader decides alone; democratic = leader gathers input then decides.",
+        "example": "Consider a manager facing a tight deadline: an autocratic leader would quickly assign tasks without discussion, while a democratic leader would call a meeting to gather ideas first—even if time is short.",
+        "memoryAnchor": "Remember: 'Auto' means self/alone (leader decides alone). 'Demo' means people (leader listens to people then decides)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which leadership style does this describe? 'The leader holds full decision-making authority and issues direct orders without team input.' Answer with either 'autocratic' or 'democratic'.",
+          "answer": "autocratic"
+        },
+        {
+          "level": "L2",
+          "prompt": "A team has a clear common goal and enough time to discuss. The leader wants every member to contribute ideas before making the final decision. Which leadership style is being used?",
+          "answer": "Democratic"
+        },
+        {
+          "level": "L3",
+          "prompt": "A student says: 'Autocratic leadership is the same as democratic leadership because both involve the leader making the final decision.' Explain why this statement is incorrect, using specific characteristics of each style.",
+          "answer": "The statement is incorrect. In autocratic leadership, the leader makes the decision alone without any team input, and team members are expected to follow orders. In democratic leadership, the leader collects full team input and considers everyone's voice before making the final decision. The processes and leader roles are fundamentally different."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-autocratic-always-ineffective",
+      "questions": [
+        {
+          "id": "retest_q1",
+          "type": "single_choice",
+          "stem": "In which situation is autocratic leadership most effective?",
+          "options": [
+            "When team members are highly skilled and want to contribute ideas",
+            "When time is limited and team members are inexperienced",
+            "When the team has strong collaboration norms",
+            "When the team is motivated and well-acquainted"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest_q2",
+          "type": "open_ended",
+          "stem": "Describe a specific scenario where autocratic leadership would be appropriate and explain why it is effective in that scenario.",
+          "rubric": "Student must mention a situation with time constraints or inexperienced/unfamiliar team, and explain that autocratic leadership provides quick decision-making and clear direction, avoiding delays from group input."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. Open-ended answer must include at least one condition (time constraint or team inexperience) and reasoning for autocratic effectiveness."
+    },
+    {
+      "forErrorId": "err-laissez-faire-no-leadership",
+      "questions": [
+        {
+          "id": "q1_laissez_faire_scenario",
+          "type": "single_choice",
+          "stem": "Which of the following scenarios describes an appropriate use of laissez-faire leadership?",
+          "options": [
+            "A team of new interns working on a complex project with no prior guidance",
+            "A group of experienced engineers who have collaborated for years and value autonomy",
+            "A cross-functional team with conflicting goals and low motivation",
+            "A crisis situation requiring immediate decisions with no time for discussion"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_laissez_faire_definition",
+          "type": "open_ended",
+          "stem": "Explain why laissez-faire is considered a deliberate leadership style rather than an absence of leadership. In your answer, describe the conditions under which it is effective and the leader's ongoing responsibilities.",
+          "rubric": "Student must state that laissez-faire is a purposeful approach where the leader provides minimal direction but remains accountable, and that it is effective when the team is highly skilled, motivated, and experienced. The leader still sets goals, provides resources, and offers support when needed. If student says it is simply 'no leadership' or fails to mention team conditions, answer is incomplete."
+        }
+      ],
+      "passRule": "Must select correct option (index 1) for question 1, and for question 2 must clearly distinguish laissez-faire from absence of leadership, mentioning at least two of the following: team autonomy, high skill level, leader support on request, or accountability."
+    },
+    {
+      "forErrorId": "err-democratic-always-effective",
+      "questions": [
+        {
+          "id": "q1_demo_limit",
+          "type": "single_choice",
+          "stem": "In which situation is democratic leadership likely to be ineffective?",
+          "options": [
+            "Team has clear common goals",
+            "Team members are highly competent",
+            "Team is unmotivated and lacks commitment",
+            "There is sufficient time for discussion"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2_demo_scenario",
+          "type": "open_ended",
+          "stem": "Describe a scenario where democratic leadership would not be the best choice and explain which leadership style would be more appropriate.",
+          "rubric": "Student must identify a specific condition under which democratic leadership is ineffective (e.g., team unmotivated, lack of time, high conflict) and propose an alternative style (autocratic or laissez-faire) with reasoning."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended, the response must identify at least one specific condition where democratic leadership fails and propose a suitable alternative style."
+    },
+    {
+      "forErrorId": "err-confuse-autocratic-democratic",
+      "questions": [
+        {
+          "id": "retest-autocratic-democratic-scenario",
+          "type": "single_choice",
+          "stem": "A team leader faces a crisis and must make a quick decision. She tells the team exactly what to do without asking for their opinions. Which leadership style is she using?",
+          "options": [
+            "Autocratic",
+            "Democratic",
+            "Laissez-Faire"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-autocratic-democratic-explain",
+          "type": "open_ended",
+          "stem": "In your own words, explain the key difference between autocratic and democratic leadership. Provide a brief example for each style to illustrate the difference.",
+          "rubric": "Student clearly states that in autocratic leadership the leader makes decisions alone without team input, while in democratic leadership the leader gathers team input before deciding. Examples should reflect this: e.g., autocratic = boss gives orders; democratic = team discusses then leader decides."
+        }
+      ],
+      "passRule": "Score 2/2 correct: single-choice must be correct, and open-ended must demonstrate understanding of the distinction (rubric)."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-07-21",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/NMirdAYIsolvf0xtEn0cS3K8nuh?from=vc_group_doc_link#doxcnwDbMGeFPpSwpeEuOlhJkac",
+    "sourceTitle": "BOH4M.S6.Catherine 2026-07-21 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "There are 17 leadership styles in academic research, but 3 core practical styles are covered: Autocratic, Laissez-Faire, Democratic.；Autocratic leadership: leader holds full decision-making authority, issues direct orders, rejects team input, prevents internal collaboration. Effective when time is limited, team members lack experience or are unfamiliar with each other. Ineffective when team needs collaboration, members are competent, or team expects flexibility. Pros: fast decisions, clear guidance. Cons: suppresses creativity, lowers motivation.；Laissez-Faire leadership: leader is hands-off, provides minimal active instructions, only supports when asked. Effective only for highly motivated, skilled, well-familiarized teams that have worked together on multiple projects. Ineffective when team lacks collaboration awareness, skills, or needs guidance. Pros: empowers team, stimulates innovation. Cons: role ambiguity, high stress.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish among autocratic, laissez-faire, and democratic leadership styles based on characteristics, applicability, and pros/cons."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Evaluate leadership styles in a given scenario and recommend an appropriate style with justification."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "deadline",
+        "title": "Unit 2 Lesson 7 Case Study Assignment Due",
+        "studentAction": "Submit the case study on North Star launch decision of a Canadian enterprise in Markham, Ontario before next class begins.",
+        "deadlineText": "before start of next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "due before the start of the next class",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Group Composition Reporting Rule",
+        "studentAction": "Report your group composition (individual, pair, or group of up to 3) to the teacher. Unreported composition defaults to individual work. Uncooperative work will lower participation scores.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "unreported group composition defaults to individual work, and uncooperative work lowers participation scores",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Check Released Test Scores",
+        "studentAction": "Check your inbox for released test scores and monitor the message box for follow-up grade-related notifications.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email/inbox",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "check their inboxes for released test scores promptly, and pay attention to follow-up grade-related notifications in the message box",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Leadership Styles Quick Reference Table",
+        "studentAction": "Refer to the provided reference table covering 3 taught and 4 extended leadership styles (transactional, transformational, servant, situational) for the case study.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu doc (assumed)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Pre-provided references cover 3 taught leadership styles plus 4 extended styles",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Flexible In-Class Time Arrangement",
+        "studentAction": "Use the 45-minute period to arrange work flexibly.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "low",
+        "sourceEvidence": "45 to arrange their work flexibly",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "45 to arrange their work flexibly",
+        "reason": "Meaning of '45' is unclear – could refer to 45 minutes or something else. No clear context."
+      },
+      {
+        "rawText": "message box for follow-up grade-related notifications",
+        "reason": "Platform/location of 'message box' is not specified."
+      }
+    ],
+    "watchTags": [
+      "BOH4M-B-OE03-Autocratic",
+      "BOH4M-B-OE03-LaissezFaire",
+      "BOH4M-B-OE03-Democratic"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-autocratic-always-ineffective",
+        "condition": "student picks wrong option on Q1 or Q5 that suggests autocratic is never effective",
+        "systemAction": "assign reteach module for err-autocratic-always-ineffective"
+      },
+      {
+        "errorId": "err-laissez-faire-no-leadership",
+        "condition": "student picks wrong option on Q2 or Q5 that equates laissez-faire with no leadership",
+        "systemAction": "assign reteach module for err-laissez-faire-no-leadership"
+      },
+      {
+        "errorId": "err-democratic-always-effective",
+        "condition": "student picks wrong option on Q3 or Q5 that assumes democratic is always best",
+        "systemAction": "assign reteach module for err-democratic-always-effective"
+      },
+      {
+        "errorId": "err-confuse-autocratic-democratic",
+        "condition": "student picks wrong option on Q4 or Q5 that mixes up autocratic and democratic features",
+        "systemAction": "assign reteach module for err-confuse-autocratic-democratic"
+      }
+    ],
+    "nextActions": [
+      "[err-autocratic-always-ineffective] student picks wrong option on Q1 or Q5 that suggests autocratic is never effective: You might think autocratic leadership is always bad—let's review when it actually works.",
+      "[err-laissez-faire-no-leadership] student picks wrong option on Q2 or Q5 that equates laissez-faire with no leadership: Laissez-faire is a deliberate style, not an absence of leadership. Let's check the conditions.",
+      "[err-democratic-always-effective] student picks wrong option on Q3 or Q5 that assumes democratic is always best: Democratic leadership has limits too—let's see when it may fail.",
+      "[err-confuse-autocratic-democratic] student picks wrong option on Q4 or Q5 that mixes up autocratic and democratic features: It's easy to mix up the roles of the leader. Let's clarify the differences."
+    ],
+    "cards": [
+      {
+        "id": "diag-boh4m-u2-0721-q1",
+        "type": "choice",
+        "question": "A project manager faces a tight deadline to launch a new product, and the team members have never worked together before and lack experience in the industry. Which leadership style is most effective in this situation?",
+        "options": [
+          "Democratic leadership, because it values everyone's input.",
+          "Autocratic leadership, because quick decisions and clear guidance are needed.",
+          "Laissez-faire leadership, because the team can learn on their own.",
+          "None, because no leadership style works with inexperienced teams."
+        ],
+        "correct": 1,
+        "diagnosis": "Checks if student knows when autocratic leadership is appropriate.",
+        "misconceptions": [
+          "Democratic leadership requires discussion time, which the team doesn't have under a tight deadline, and inexperienced members may not contribute effectively.",
+          "✓ Correct! Autocratic leadership is effective when time is short and the team lacks experience.",
+          "Laissez-faire requires a highly skilled and self-motivated team; an inexperienced team would struggle without direction.",
+          "Autocratic leadership is specifically designed for such situations; it provides structure and speed."
+        ],
+        "nodeId": "BOH4M-B-OE03-Autocratic",
+        "errorId": "err-autocratic-always-ineffective",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies autocratic leadership as effective when time is limited and team is inexperienced.",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for autocratic leadership.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student thinks autocratic is always ineffective due to its negative connotations.",
+        "remediationModule": "err-autocratic-always-ineffective",
+        "retestItem": "err-autocratic-always-ineffective"
+      },
+      {
+        "id": "diag-boh4m-u2-0721-q2",
+        "type": "choice",
+        "question": "A senior engineering team, all experts who have collaborated on multiple projects, expresses frustration with their manager's constant check-ins and detailed instructions. Which leadership style would best empower this team?",
+        "options": [
+          "Autocratic leadership, because the manager should maintain control.",
+          "Democratic leadership, because everyone should vote on decisions.",
+          "Laissez-faire leadership, because the team is highly skilled and self-motivated.",
+          "No leadership, because the team can manage themselves without a leader."
+        ],
+        "correct": 2,
+        "diagnosis": "Checks if student recognizes laissez-faire as a deliberate style for autonomous teams.",
+        "misconceptions": [
+          "Autocratic would increase frustration; the team needs autonomy, not more instructions.",
+          "Democratic could work but may slow down decision-making. The team already collaborates, so a hands-off approach is more empowering.",
+          "✓ Correct! Laissez-faire is effective for experienced, autonomous teams that need minimal oversight.",
+          "Laissez-faire still has a leader who provides support when needed; it is not an absence of leadership."
+        ],
+        "nodeId": "BOH4M-B-OE03-LaissezFaire",
+        "errorId": "err-laissez-faire-no-leadership",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies laissez-faire as suitable for highly skilled and autonomous teams.",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for laissez-faire leadership.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student equates laissez-faire with absence of leadership or thinks it is never effective.",
+        "remediationModule": "err-laissez-faire-no-leadership",
+        "retestItem": "err-laissez-faire-no-leadership"
+      },
+      {
+        "id": "diag-boh4m-u2-0721-q3",
+        "type": "choice",
+        "question": "Which of the following situations is LEAST suitable for democratic leadership?",
+        "options": [
+          "A team with clear common goals and enough time to discuss.",
+          "A team that is unmotivated and lacks competence in the task.",
+          "A team that values equality and every member's voice.",
+          "A team with moderate conflict but willing to collaborate."
+        ],
+        "correct": 1,
+        "diagnosis": "Checks if student understands the limitations of democratic leadership.",
+        "misconceptions": [
+          "This is an ideal situation for democratic leadership; it works well here.",
+          "✓ Correct! Democratic leadership is ineffective when the team is unmotivated or lacks competence; they may not contribute meaningfully.",
+          "Such a team would thrive under democratic leadership.",
+          "If members are willing to collaborate, democratic can help resolve conflict through inclusion."
+        ],
+        "nodeId": "BOH4M-B-OE03-Democratic",
+        "errorId": "err-democratic-always-effective",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies a situation where democratic leadership fails (unmotivated team, conflict, lack of time).",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for democratic leadership.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student assumes democratic leadership is always the best or most fair choice.",
+        "remediationModule": "err-democratic-always-effective",
+        "retestItem": "err-democratic-always-effective"
+      },
+      {
+        "id": "diag-boh4m-u2-0721-q4",
+        "type": "choice",
+        "question": "In autocratic leadership, the leader's role in decision-making is to:",
+        "options": [
+          "Collect full team input before making final decisions.",
+          "Hold full decision-making authority and issue direct orders without team input.",
+          "Provide minimal guidance and let the team decide independently.",
+          "Share decision-making with a trusted subset of the team."
+        ],
+        "correct": 1,
+        "diagnosis": "Checks basic definition of autocratic leadership.",
+        "misconceptions": [
+          "That describes democratic leadership, not autocratic.",
+          "✓ Correct! Autocratic leaders decide alone and give orders.",
+          "That describes laissez-faire leadership.",
+          "Autocratic does not share decision-making; all authority rests with the leader."
+        ],
+        "nodeId": "BOH4M-B-OE03-Autocratic",
+        "errorId": "err-confuse-autocratic-democratic",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly states that autocratic leader makes decisions alone without team input.",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for autocratic leadership.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student confuses autocratic with democratic, e.g., thinking autocratic still includes team input.",
+        "remediationModule": "err-confuse-autocratic-democratic",
+        "retestItem": "err-confuse-autocratic-democratic"
+      },
+      {
+        "id": "diag-boh4m-u2-0721-q5",
+        "type": "explain",
+        "question": "A company is facing a high-conflict situation where team members have opposing views and little trust. The team needs a quick decision to avoid project delay. Using your knowledge of leadership styles, explain why democratic leadership may NOT be the best choice in this scenario, and recommend a more suitable style with reasoning.",
+        "correct": null,
+        "diagnosis": "Assesses ability to critically evaluate when democratic fails and propose alternative.",
+        "nodeId": "BOH4M-B-OE03-Democratic",
+        "errorId": "err-democratic-always-effective",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that democratic requires discussion time and willing participation; high conflict delays decisions; may recommend autocratic for speed or directive approach.",
+        "ossdExpectation": "Demonstrate an understanding of proper leadership techniques in a variety of situations.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "BOH4M-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches OE B3 and the knowledge node for democratic and leadership style selection.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Student insists democratic always works or does not recognize conflict/time constraints.",
+        "remediationModule": "err-democratic-always-effective",
+        "retestItem": "err-democratic-always-effective"
+      }
+    ]
+  }
+}

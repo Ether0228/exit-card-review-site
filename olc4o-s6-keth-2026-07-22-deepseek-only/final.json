@@ -1,0 +1,1064 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-22",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/JuUYdSYNboO20PxhYwKcQocJng0?from=vc_group_doc_link#doxcn923GWag0HkGnqNf8o2MW0g",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-22 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/JuUYdSYNboO20PxhYwKcQocJng0?from=vc_group_doc_link#doxcn923GWag0HkGnqNf8o2MW0g",
+    "title": "OLC4O.S6.Keth 2026-07-22 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-22/sources/olc4o-s6-keth-2026-07-22/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-22",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-22",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes both instruction (pre-writing strategies, advice letter structure) and administrative/assignment logistics (portfolio submission, compliance rules, task deployment).",
+    "academicContentSignals": [
+      "Pre-writing strategies: free writing and looping, visualizing, listing, clustering, cubing, outlining",
+      "Advice letter structure: 3 paragraphs (introduction with stance, evidence, actionable recommendations)",
+      "Blank page inertia concept and pre-writing as solution",
+      "Examples of high-quality and problematic submissions (news reports, graphic text)"
+    ],
+    "courseOverviewSignals": [
+      "Course focuses on structured writing skills, pre-writing techniques, and portfolio-based assessment",
+      "Emphasis on original writing and avoiding AI/plagiarism"
+    ],
+    "opsDominanceRisk": "High risk of operations overshadowing academic content due to multiple submission reminders, penalty rules, and task logistics. Diagnostic exit card must prioritize pre-writing strategies and letter structure, not compliance rules.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Unit 1 Portfolio Checklist",
+        "studentAction": "Complete and submit Unit 1 portfolio checklist to designated Schoology space",
+        "deadlineText": "End of class on Jul 22",
+        "deadlineISO": "2026-07-22T10:42:00+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students must submit the completed Unit 1 portfolio checklist to the designated Schoology space",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Unit 2 Portfolio Checklist Release",
+        "studentAction": "Expect Unit 2 portfolio checklist to be released tomorrow for future use",
+        "deadlineText": "Jul 23, 2026",
+        "deadlineISO": "2026-07-23T00:00:00+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Keth Kinsey will officially release the full Unit 2 portfolio checklist to all students on the day immediately following the conclusion of this class session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Homework Definition and Role",
+        "studentAction": "Understand that homework is daily in-class practice, not graded; consistent completion ensures portfolio conference eligibility",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Homework refers to daily in-class practice tasks, not graded formal assessments; consistent completion ensures eligibility for the final portfolio conferences",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Submission Compliance Penalties",
+        "studentAction": "Follow assignment requirements exactly; read feedback; avoid AI/plagiarism; one resubmission only for first-time AI offense",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Submissions that do not follow stated assignment requirements... will receive an automatic zero score with no resubmission eligibility",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Complete Unit 2 Lesson 11 Pre-Writing Task",
+        "studentAction": "Choose one or both prompts, complete 2 pre-writing strategies, upload screenshots to designated OneNote space",
+        "deadlineText": "Before next class (implied)",
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students must complete 2 distinct pre-writing strategies for the selected prompt(s), then upload screenshots or photos of the outputs to their designated OneNote space",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Write and Submit Advice Letter",
+        "studentAction": "Write a 3-paragraph advice letter following the fixed structure and submit to designated platform",
+        "deadlineText": "Before next class (implied)",
+        "deadlineISO": null,
+        "platform": "Schoology (inferred)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The 3-paragraph advice letter must follow a fixed structure: clear stance and core advice in paragraph 1, supporting evidence in paragraph 2, and actionable recommendations in paragraph 3",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "assignment",
+        "title": "Peer Review on Discussion Board",
+        "studentAction": "Review at least 2 peer submissions on the discussion board and provide specific, actionable feedback",
+        "deadlineText": "Before next class (implied)",
+        "deadlineISO": null,
+        "platform": "Discussion board (Schoology inferred)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students must review at least 2 peer submissions on the discussion board, and provide specific, actionable feedback rather than generic comments such as 'good job'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-008",
+        "category": "platform_link",
+        "title": "Unit 2 Lesson 11 Materials on Schoology",
+        "studentAction": "Access course materials on Schoology for reference while completing tasks",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All Unit 2 Lesson 11 course materials, including the supporting PPT, are now published on Schoology for student reference during task completion",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "follow_up_action",
+        "title": "Support Access via Chat",
+        "studentAction": "Send questions to instructor via class chat or Feishu at any time during work period",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students may send questions to the instructor via class chat or Feishu at any time during the work period for direct, targeted support",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Purpose of Pre-Writing、Six Pre-Writing Strategies、Advice Letter Structure、Writing Process Overview）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Pre-writing overcomes blank page inertia and improves drafting efficiency by providing a structured blueprint.；Six core pre-writing strategies: Free Writing and Looping, Visualizing, Listing, Clustering, Cubing, Outlining.；Free Writing and Looping: write continuously for 3-5 minutes without pausing for spelling/grammar, then select a core segment for further writing.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Understand the purpose and benefits of pre-writing in the writing process."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Distinguish among the six pre-writing strategies and select appropriate strategies for different writing tasks."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Apply the three-paragraph advice letter structure with clear stance, evidence, and recommendations."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "KN-PREWRITING-PURPOSE",
+      "name": "Purpose of Pre-Writing",
+      "nameEn": "Purpose of Pre-Writing",
+      "definition": "Pre-writing is a structured strategy to overcome writer's block and improve drafting efficiency by creating a clear blueprint for writing, applicable to all types of writing tasks.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "OLC4O-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks."
+    },
+    {
+      "id": "KN-PREWRITING-STRATEGIES",
+      "name": "Six Pre-Writing Strategies",
+      "nameEn": "Six Pre-Writing Strategies",
+      "definition": "Six distinct pre-writing strategies: Free Writing and Looping, Visualizing, Listing (Inventorying), Clustering (Mind Mapping), Cubing (Multidimensional Analysis), and Outlining. Each has a specific method and is suited for different writing tasks.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "OLC4O-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks."
+    },
+    {
+      "id": "KN-ADVICE-LETTER-STRUCTURE",
+      "name": "Advice Letter Structure",
+      "nameEn": "Advice Letter Structure",
+      "definition": "A three-paragraph advice letter structure: Paragraph 1 states clear stance and core advice, Paragraph 2 provides supporting evidence (personal experience or logical comparison), Paragraph 3 gives actionable recommendations and an encouraging conclusion.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "KN-WRITING-PROCESS",
+      "name": "Writing Process Overview",
+      "nameEn": "Writing Process Overview",
+      "definition": "The writing process includes pre-writing (generating ideas), drafting, revising, and editing. Consistent application of the process leads to original, on-task submissions and eligibility for portfolio conferences.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "OLC4O-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the reading and writing processes and of the role of reading and writing in learning."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Understand the purpose and benefits of pre-writing in the writing process."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Distinguish among the six pre-writing strategies and select appropriate strategies for different writing tasks."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply the three-paragraph advice letter structure with clear stance, evidence, and recommendations."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-prewriting-is-optional",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module err-prewriting-is-optional",
+        "studentMessage": "Pre-writing is not optional — it helps you overcome writer's block and organize ideas. Let's review why."
+      },
+      {
+        "errorId": "err-confusing-listing-outlining",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module err-confusing-listing-outlining",
+        "studentMessage": "Listing and Outlining are different: Listing generates ideas freely, Outlining organizes them hierarchically. Let's practice."
+      },
+      {
+        "errorId": "err-cubing-only-description",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module err-cubing-only-description",
+        "studentMessage": "Cubing uses six perspectives — description is just one. You need all five others too."
+      },
+      {
+        "errorId": "err-advice-letter-paragraphs",
+        "condition": "student picks wrong option on Q4",
+        "systemAction": "assign reteach module err-advice-letter-paragraphs",
+        "studentMessage": "Each paragraph in an advice letter has a specific job: paragraph 1 gives your stance, paragraph 2 provides evidence, paragraph 3 gives recommendations."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-s6-0722-q1",
+        "nodeId": "KN-PREWRITING-PURPOSE",
+        "errorId": "err-prewriting-is-optional",
+        "stem": "Which of the following best explains the main purpose of pre-writing in the writing process?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes pre-writing as essential for overcoming writer's block and creating a structured plan.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Pre-writing is the first stage of the writing process, directly related to generating and organizing ideas.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands pre-writing as a deliberate strategy rather than an optional step.",
+        "commonMisconception": "Students may think pre-writing is unnecessary for experienced writers or can be skipped.",
+        "remediationModule": "err-prewriting-is-optional",
+        "retestItem": "err-prewriting-is-optional",
+        "options": [
+          {
+            "label": "A",
+            "text": "It is an optional step that can be skipped if you are a good writer.",
+            "correct": false,
+            "feedbackWrong": "Pre-writing is not optional — even experienced writers use it to organize thoughts and avoid writer's block."
+          },
+          {
+            "label": "B",
+            "text": "It helps overcome writer's block and creates a structured plan for drafting.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Pre-writing provides a blueprint that makes drafting more efficient."
+          },
+          {
+            "label": "C",
+            "text": "It is only useful for beginners, not experienced writers.",
+            "correct": false,
+            "feedbackWrong": "Pre-writing benefits writers at all levels by ensuring ideas are organized before drafting."
+          },
+          {
+            "label": "D",
+            "text": "It replaces the need for revising and editing.",
+            "correct": false,
+            "feedbackWrong": "Pre-writing is a planning stage; revising and editing are separate later steps in the process."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0722-q2",
+        "nodeId": "KN-PREWRITING-STRATEGIES",
+        "errorId": "err-confusing-listing-outlining",
+        "stem": "What is the key difference between Listing and Outlining as pre-writing strategies?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that Listing is unstructured idea generation and Outlining is hierarchical organization.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Both Listing and Outlining are pre-writing strategies for generating and organizing ideas, falling under B1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student can distinguish between two often-confused strategies.",
+        "commonMisconception": "Students think Listing and Outlining are the same or that Listing is just a rough outline.",
+        "remediationModule": "err-confusing-listing-outlining",
+        "retestItem": "err-confusing-listing-outlining",
+        "options": [
+          {
+            "label": "A",
+            "text": "Listing generates random ideas without structure, while Outlining organizes ideas hierarchically.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Listing is a free-association brainstorm; Outlining imposes a logical structure."
+          },
+          {
+            "label": "B",
+            "text": "Listing is used for narrative writing, Outlining for academic essays.",
+            "correct": false,
+            "feedbackWrong": "Both strategies can be used for any type of writing; the choice depends on the writer's goal."
+          },
+          {
+            "label": "C",
+            "text": "Listing is a group activity, Outlining is individual.",
+            "correct": false,
+            "feedbackWrong": "Both can be done individually or in groups. The difference is in the level of structure."
+          },
+          {
+            "label": "D",
+            "text": "They are the same, just different names.",
+            "correct": false,
+            "feedbackWrong": "They are distinct strategies: Listing is unstructured, Outlining is structured."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0722-q3",
+        "nodeId": "KN-PREWRITING-STRATEGIES",
+        "errorId": "err-cubing-only-description",
+        "stem": "A student uses Cubing to explore a topic but only writes a paragraph describing it. Which perspective(s) of Cubing is the student missing?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that Cubing requires six perspectives, not just description.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Cubing is a pre-writing strategy that helps generate ideas, fitting within the writing process expectation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student understands that Cubing involves six specific perspectives beyond just description.",
+        "commonMisconception": "Students think Cubing is just describing the topic from different angles, ignoring the other five perspectives.",
+        "remediationModule": "err-cubing-only-description",
+        "retestItem": "err-cubing-only-description",
+        "options": [
+          {
+            "label": "A",
+            "text": "Description only; all six perspectives are needed.",
+            "correct": false,
+            "feedbackWrong": "Description is one of the six, but the student is missing the other five: association, comparison, analysis, application, and argumentation."
+          },
+          {
+            "label": "B",
+            "text": "The other five perspectives: association, comparison, analysis, application, and argumentation.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Cubing examines a topic from six sides — description plus five others."
+          },
+          {
+            "label": "C",
+            "text": "Only analysis and application.",
+            "correct": false,
+            "feedbackWrong": "Cubing includes six perspectives, not just two. All five others are missing."
+          },
+          {
+            "label": "D",
+            "text": "None; description is enough for Cubing.",
+            "correct": false,
+            "feedbackWrong": "Cubing requires exploring the topic from all six perspectives to be effective."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0722-q4",
+        "nodeId": "KN-ADVICE-LETTER-STRUCTURE",
+        "errorId": "err-advice-letter-paragraphs",
+        "stem": "Refer to the diagram of a three-paragraph advice letter below. When writing an advice letter, what should Paragraph 2 contain according to the lesson?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can identify the function of each paragraph in an advice letter.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Advice letter is an opinion piece; its structure aligns with B2's expectation of applying writing forms.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recalls the prescribed three-paragraph structure for advice letters.",
+        "commonMisconception": "Students may think paragraph 2 should restate the problem or give recommendations, confusing the functions.",
+        "remediationModule": "err-advice-letter-paragraphs",
+        "retestItem": "err-advice-letter-paragraphs",
+        "figureSvg": "<svg width=\"400\" height=\"220\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrow\" markerWidth=\"10\" markerHeight=\"10\" refX=\"5\" refY=\"5\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"black\"/></marker></defs><rect x=\"50\" y=\"10\" width=\"300\" height=\"40\" fill=\"#f9f9f9\" stroke=\"#333\" rx=\"4\"/><text x=\"200\" y=\"35\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000\">Paragraph 1: Stance and core advice</text><line x1=\"200\" y1=\"50\" x2=\"200\" y2=\"70\" stroke=\"#333\" marker-end=\"url(#arrow)\"/><rect x=\"50\" y=\"80\" width=\"300\" height=\"40\" fill=\"#f9f9f9\" stroke=\"#333\" rx=\"4\"/><text x=\"200\" y=\"105\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000\">Paragraph 2: Supporting evidence</text><line x1=\"200\" y1=\"120\" x2=\"200\" y2=\"140\" stroke=\"#333\" marker-end=\"url(#arrow)\"/><rect x=\"50\" y=\"150\" width=\"300\" height=\"40\" fill=\"#f9f9f9\" stroke=\"#333\" rx=\"4\"/><text x=\"200\" y=\"175\" font-family=\"Arial, sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#000\">Paragraph 3: Recommendations</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "A clear stance and core advice.",
+            "correct": false,
+            "feedbackWrong": "That is the function of Paragraph 1, not Paragraph 2."
+          },
+          {
+            "label": "B",
+            "text": "Supporting evidence such as personal experience or logical comparison.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Paragraph 2 provides supporting evidence for the advice given in Paragraph 1."
+          },
+          {
+            "label": "C",
+            "text": "Actionable recommendations and an encouraging conclusion.",
+            "correct": false,
+            "feedbackWrong": "That is the function of Paragraph 3, not Paragraph 2."
+          },
+          {
+            "label": "D",
+            "text": "A restatement of the problem.",
+            "correct": false,
+            "feedbackWrong": "The advice letter does not include a restatement of the problem; it directly gives advice and support."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-prewriting-is-optional",
+      "condition": "student picks wrong option on Q1",
+      "systemAction": "assign reteach module err-prewriting-is-optional",
+      "studentMessage": "Pre-writing is not optional — it helps you overcome writer's block and organize ideas. Let's review why."
+    },
+    {
+      "errorId": "err-confusing-listing-outlining",
+      "condition": "student picks wrong option on Q2",
+      "systemAction": "assign reteach module err-confusing-listing-outlining",
+      "studentMessage": "Listing and Outlining are different: Listing generates ideas freely, Outlining organizes them hierarchically. Let's practice."
+    },
+    {
+      "errorId": "err-cubing-only-description",
+      "condition": "student picks wrong option on Q3",
+      "systemAction": "assign reteach module err-cubing-only-description",
+      "studentMessage": "Cubing uses six perspectives — description is just one. You need all five others too."
+    },
+    {
+      "errorId": "err-advice-letter-paragraphs",
+      "condition": "student picks wrong option on Q4",
+      "systemAction": "assign reteach module err-advice-letter-paragraphs",
+      "studentMessage": "Each paragraph in an advice letter has a specific job: paragraph 1 gives your stance, paragraph 2 provides evidence, paragraph 3 gives recommendations."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-prewriting-is-optional",
+      "trigger": "Student picks wrong option on Q1 indicating pre-writing is optional.",
+      "studentMisunderstanding": "Student believes pre-writing is unnecessary and can skip straight to drafting, underestimating its role in overcoming writer's block and organizing ideas.",
+      "miniLesson": {
+        "explain": "Pre-writing is not optional; it is a crucial first step in the writing process. It overcomes 'blank page inertia' and improves drafting efficiency by providing a structured blueprint (fact bank). Without it, you risk writer's block and disorganized drafts.",
+        "example": "Consider a student who skips pre-writing and starts drafting a news report. They struggle to organize facts and get stuck after the first paragraph. With pre-writing (e.g., outlining), they could have created a clear structure and written more smoothly.",
+        "memoryAnchor": "Plan before you pen: pre-writing is your blueprint for success."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which statement best describes the role of pre-writing in the writing process?",
+          "answer": "It provides a structured blueprint that overcomes writer's block and improves drafting efficiency."
+        },
+        {
+          "level": "L2",
+          "prompt": "Your friend says they never do pre-writing because it's a waste of time. What would you tell them based on the lesson?",
+          "answer": "Pre-writing is essential because it overcomes blank page inertia and creates a structured plan, making drafting faster and more organized."
+        },
+        {
+          "level": "L3",
+          "prompt": "Evaluate this claim: 'Pre-writing is only for beginners; expert writers can skip it.' Use evidence from the lesson.",
+          "answer": "False. The lesson states that pre-writing provides a structured blueprint for all writers, regardless of skill level, and it improves drafting efficiency."
+        }
+      ]
+    },
+    {
+      "errorId": "err-confusing-listing-outlining",
+      "trigger": "Student confuses Listing with Outlining during pre-writing tasks.",
+      "studentMisunderstanding": "Student believes Listing and Outlining are the same or that Listing is a rough version of Outlining, not understanding that Listing is an unstructured idea generation strategy and Outlining is a structured organization strategy.",
+      "miniLesson": {
+        "explain": "Listing (also called Inventorying) is a pre-writing strategy where you rapidly list all ideas related to a topic without filtering or organizing. Then you group similar terms into categories. Outlining, on the other hand, takes pre-generated ideas and arranges them into a logical hierarchical structure with a thesis, supporting points, and evidence. Listing helps generate raw material; Outlining helps structure that material for drafting.",
+        "example": "If you are writing about climate change, Listing might produce: greenhouse gases, rising temperatures, melting ice, polar bears, policy, electric cars. Then you group them (e.g., causes, effects, solutions). Outlining would then organize these groups into a hierarchy: I. Introduction (thesis), II. Causes (greenhouse gases), III. Effects (rising temperatures, melting ice, polar bears), IV. Solutions (policy, electric cars), V. Conclusion.",
+        "memoryAnchor": "Think of Listing as a brainstorm of puzzle pieces; Outlining is placing those pieces in the correct positions to form the picture."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which strategy is used to generate ideas without structure? (a) Listing (b) Outlining",
+          "answer": "Listing"
+        },
+        {
+          "level": "L2",
+          "prompt": "A student writes a list of topic-related words like 'sun, beach, vacation, relaxation, summer.' Then they create categories: 'Activities: swimming, surfing'; 'Benefits: relaxation, fun'. Which pre-writing strategy did they use? Explain.",
+          "answer": "They used Listing. First they rapidly jotted down ideas without filtering, then grouped similar terms into labeled categories. Outlining would have started with a thesis and organized the points hierarchically."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a short description of how you would use Listing and then Outlining for a paragraph on 'The importance of exercise'. Include at least 3 items in your list and show a simple outline.",
+          "answer": "Listing: exercise, health, strength, energy, mental clarity, discipline. Group into categories: Physical benefits: health, strength, energy; Mental benefits: mental clarity, discipline. Outlining: I. Thesis: Exercise is crucial for overall well-being. A. Physical benefits: 1. Improves cardiovascular health, 2. Builds strength, 3. Boosts energy. B. Mental benefits: 1. Enhances mental clarity, 2. Develops discipline. C. Conclusion."
+        }
+      ]
+    },
+    {
+      "errorId": "err-cubing-only-description",
+      "trigger": "Student selects an incorrect option on the diagnostic question about Cubing perspectives (Q3), indicating they think description alone is sufficient.",
+      "studentMisunderstanding": "The student believes Cubing requires only describing the topic, ignoring the other five perspectives (association, comparison, analysis, application, argumentation), leading to shallow content.",
+      "miniLesson": {
+        "explain": "Cubing is a pre-writing strategy where you examine a topic from six different perspectives: description, association, comparison, analysis, application, and argumentation. Each perspective adds depth and ensures a comprehensive exploration. Using only description limits your ideas and results in superficial writing. To fully benefit from cubing, you must address all six perspectives.",
+        "example": "For the topic 'school uniforms':\n- Description: Uniforms are standardized clothing worn by students.\n- Association: Uniforms are often linked to discipline and equality.\n- Comparison: Uniforms vs. casual dress codes.\n- Analysis: Components include shirts, pants, colors, logos.\n- Application: How uniforms are used in schools to reduce distractions.\n- Argumentation: Argue that uniforms promote unity or suppress individuality.",
+        "memoryAnchor": "Remember the six perspectives with 'DAC Triple A': Description, Association, Comparison, Analysis, Application, Argumentation."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A student used cubing but only wrote a description: 'Exercise is physical activity to stay healthy.' Which perspectives are they missing?",
+          "answer": "They are missing Association, Comparison, Analysis, Application, and Argumentation."
+        },
+        {
+          "level": "L2",
+          "prompt": "Using the topic 'social media', generate one question for each of the five missing perspectives to explore it more deeply.",
+          "answer": "Association: What positive or negative things do you associate with social media? Comparison: How is social media different from face-to-face communication? Analysis: What are the key features of social media platforms? Application: How can social media be used for education? Argumentation: Should social media be regulated to protect privacy?"
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a cubing outline for the topic 'online learning' covering all six perspectives.",
+          "answer": "Description: Online learning is education delivered via the internet. Association: flexibility, isolation, digital tools. Comparison: online vs. traditional classroom. Analysis: components like video lectures, forums, quizzes. Application: used in universities and professional development. Argumentation: argue that online learning increases access but may lack social interaction."
+        }
+      ]
+    },
+    {
+      "errorId": "err-advice-letter-paragraphs",
+      "trigger": "Student writes advice letter as a single block or fails to follow the 3-paragraph structure (lack of clear stance, missing evidence, or no actionable recommendations).",
+      "studentMisunderstanding": "Student believes an advice letter can be written as one continuous paragraph or does not understand the distinct function of each of the three paragraphs.",
+      "miniLesson": {
+        "explain": "An advice letter must follow a clear three-paragraph structure. Paragraph 1 states your clear stance and core advice. Paragraph 2 provides supporting evidence, such as personal experience or logical comparison. Paragraph 3 gives actionable recommendations and an encouraging conclusion. Each paragraph has a specific job; mixing them together confuses the reader and weakens your message.",
+        "example": "Dear friend, I strongly advise you to join the school debate club. (Para 1: stance and core advice) I joined last year and improved my public speaking and critical thinking skills significantly. (Para 2: supporting evidence) I recommend you attend the next meeting on Thursday and sign up for the beginner workshop. (Para 3: actionable recommendations) Good luck!",
+        "memoryAnchor": "Think of the three paragraphs as: 1) What I think, 2) Why I think it, 3) What you should do."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Identify which paragraph each sentence belongs to in an advice letter: 'First, I believe you should focus on time management.' (option: Para 1 / Para 2 / Para 3)",
+          "answer": "Para 1"
+        },
+        {
+          "level": "L2",
+          "prompt": "Given a topic: 'Your friend is stressed about exams.' Write one sentence for each paragraph of an advice letter. Start with 'I advise you to...'",
+          "answer": "Para 1: I advise you to create a study schedule. Para 2: I used a schedule last term and reduced my stress by half. Para 3: You should break your study time into 25-minute blocks with 5-minute breaks."
+        },
+        {
+          "level": "L3",
+          "prompt": "Rewrite this disorganized advice letter into three paragraphs with clear functions: 'Hi, I think you should exercise more because it helps health. Exercise releases endorphins and makes you feel good. I recommend jogging three times a week. Also, eat healthy. That's my advice.'",
+          "answer": "Para 1: I strongly advise you to incorporate regular exercise and a healthy diet into your routine. Para 2: Exercise releases endorphins, which boost mood and reduce stress, and a healthy diet provides essential nutrients for energy. Para 3: I recommend jogging three times a week and adding more fruits and vegetables to your meals. Start small and build up."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-prewriting-is-optional",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "A classmate says, 'Pre-writing is optional; I can just start drafting and it saves time.' Which response best explains why pre-writing is actually essential?",
+          "options": [
+            "Pre-writing is only helpful if you are stuck; otherwise, you can skip it.",
+            "Pre-writing provides a structured blueprint that overcomes writer's block and improves drafting efficiency.",
+            "Pre-writing is mainly for organizing research, not for creative writing.",
+            "Pre-writing is a graded assignment, so you must do it to get marks."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Imagine you are helping a friend who has started writing a news report but is stuck after the first paragraph. Based on what you learned about pre-writing, explain two reasons why doing pre-writing before drafting could have helped your friend.",
+          "rubric": "Score 3: Clearly mentions two reasons from the lesson (e.g., overcomes 'blank page inertia' by providing a starting point; creates an organized blueprint for the report such as key facts and sequence). Score 2: Mentions one reason with good detail or two reasons but vaguely. Score 1: Mentions one reason briefly. Score 0: Incorrect or irrelevant response."
+        }
+      ],
+      "passRule": "Must answer Q1 correctly and score at least 3 on Q2."
+    },
+    {
+      "forErrorId": "err-confusing-listing-outlining",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which pre-writing strategy involves rapidly jotting down all ideas without filtering, then grouping them into categories?",
+          "options": [
+            "Outlining",
+            "Listing",
+            "Clustering",
+            "Free Writing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain the difference between Listing and Outlining. Then describe a scenario where you would use Listing first, followed by Outlining, and provide a brief example (include at least 3 items in your list and show a simple outline structure).",
+          "rubric": "Student correctly distinguishes Listing as unstructured idea generation and Outlining as hierarchical organization. The scenario shows logical sequence: first generate ideas via Listing, then organize those ideas into an outline. Example includes a list of at least 3 items and a simple outline with thesis and supporting points."
+        }
+      ],
+      "passRule": "Answer question 1 correctly and provide a satisfactory explanation in question 2 as per rubric."
+    },
+    {
+      "forErrorId": "err-cubing-only-description",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following correctly lists all six perspectives of the Cubing pre-writing strategy?",
+          "options": [
+            "Description, Association, Comparison, Analysis, Application, Argumentation",
+            "Description, Association, Comparison, Analysis, Application, Explanation",
+            "Description, Definition, Comparison, Analysis, Application, Argumentation",
+            "Description, Association, Contrast, Analysis, Application, Argumentation"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Using the topic 'recycling', generate one question for each of the six cubing perspectives to fully explore the topic. Write your answer as a numbered list.",
+          "rubric": "Student must provide one question for each perspective: Description (e.g., 'What is recycling?'), Association (e.g., 'What ideas or feelings are linked to recycling?'), Comparison (e.g., 'How is recycling different from composting?'), Analysis (e.g., 'What are the steps in the recycling process?'), Application (e.g., 'How can recycling be applied in daily life?'), Argumentation (e.g., 'Should recycling be mandatory?'). Accept any reasonable questions that clearly target the correct perspective."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass. For q1, correct option 0. For q2, all six perspectives must be addressed with appropriate questions."
+    },
+    {
+      "forErrorId": "err-advice-letter-paragraphs",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following best describes the function of the second paragraph in an advice letter?",
+          "options": [
+            "State the main advice and stance",
+            "Provide supporting evidence (e.g., personal experience or logical comparison)",
+            "List actionable recommendations and encouragement",
+            "Restate the advice in different words"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Write a short advice letter (three paragraphs) to a friend who is struggling with time management. Follow the advice letter structure: Paragraph 1: clear stance and core advice; Paragraph 2: supporting evidence; Paragraph 3: actionable recommendations.",
+          "rubric": "The response must include: (1) a clear stance/core advice in the first paragraph; (2) supporting evidence (personal experience or logical comparison) in the second paragraph; (3) actionable recommendations and an encouraging conclusion in the third paragraph. Each paragraph must be distinct and serve its function."
+        }
+      ],
+      "passRule": "The student must select the correct answer for the single-choice question AND the open-ended response must include all three paragraphs with their correct functions (stance/advice, evidence, recommendations). If either is missing, the retest is not passed."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-22",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/JuUYdSYNboO20PxhYwKcQocJng0?from=vc_group_doc_link#doxcn923GWag0HkGnqNf8o2MW0g",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-22 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Pre-writing overcomes blank page inertia and improves drafting efficiency by providing a structured blueprint.；Six core pre-writing strategies: Free Writing and Looping, Visualizing, Listing, Clustering, Cubing, Outlining.；Free Writing and Looping: write continuously for 3-5 minutes without pausing for spelling/grammar, then select a core segment for further writing.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Understand the purpose and benefits of pre-writing in the writing process."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Distinguish among the six pre-writing strategies and select appropriate strategies for different writing tasks."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply the three-paragraph advice letter structure with clear stance, evidence, and recommendations."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Unit 1 Portfolio Checklist",
+        "studentAction": "Complete and submit Unit 1 portfolio checklist to designated Schoology space",
+        "deadlineText": "End of class on Jul 22",
+        "deadlineISO": "2026-07-22T10:42:00+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students must submit the completed Unit 1 portfolio checklist to the designated Schoology space",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Unit 2 Portfolio Checklist Release",
+        "studentAction": "Expect Unit 2 portfolio checklist to be released tomorrow for future use",
+        "deadlineText": "Jul 23, 2026",
+        "deadlineISO": "2026-07-23T00:00:00+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Keth Kinsey will officially release the full Unit 2 portfolio checklist to all students on the day immediately following the conclusion of this class session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Homework Definition and Role",
+        "studentAction": "Understand that homework is daily in-class practice, not graded; consistent completion ensures portfolio conference eligibility",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Homework refers to daily in-class practice tasks, not graded formal assessments; consistent completion ensures eligibility for the final portfolio conferences",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Submission Compliance Penalties",
+        "studentAction": "Follow assignment requirements exactly; read feedback; avoid AI/plagiarism; one resubmission only for first-time AI offense",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Submissions that do not follow stated assignment requirements... will receive an automatic zero score with no resubmission eligibility",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Complete Unit 2 Lesson 11 Pre-Writing Task",
+        "studentAction": "Choose one or both prompts, complete 2 pre-writing strategies, upload screenshots to designated OneNote space",
+        "deadlineText": "Before next class (implied)",
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students must complete 2 distinct pre-writing strategies for the selected prompt(s), then upload screenshots or photos of the outputs to their designated OneNote space",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Write and Submit Advice Letter",
+        "studentAction": "Write a 3-paragraph advice letter following the fixed structure and submit to designated platform",
+        "deadlineText": "Before next class (implied)",
+        "deadlineISO": null,
+        "platform": "Schoology (inferred)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The 3-paragraph advice letter must follow a fixed structure: clear stance and core advice in paragraph 1, supporting evidence in paragraph 2, and actionable recommendations in paragraph 3",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-007",
+        "category": "assignment",
+        "title": "Peer Review on Discussion Board",
+        "studentAction": "Review at least 2 peer submissions on the discussion board and provide specific, actionable feedback",
+        "deadlineText": "Before next class (implied)",
+        "deadlineISO": null,
+        "platform": "Discussion board (Schoology inferred)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students must review at least 2 peer submissions on the discussion board, and provide specific, actionable feedback rather than generic comments such as 'good job'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-008",
+        "category": "platform_link",
+        "title": "Unit 2 Lesson 11 Materials on Schoology",
+        "studentAction": "Access course materials on Schoology for reference while completing tasks",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All Unit 2 Lesson 11 course materials, including the supporting PPT, are now published on Schoology for student reference during task completion",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "follow_up_action",
+        "title": "Support Access via Chat",
+        "studentAction": "Send questions to instructor via class chat or Feishu at any time during work period",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students may send questions to the instructor via class chat or Feishu at any time during the work period for direct, targeted support",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "KN-PREWRITING-PURPOSE",
+      "KN-PREWRITING-STRATEGIES",
+      "KN-ADVICE-LETTER-STRUCTURE",
+      "KN-WRITING-PROCESS"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-prewriting-is-optional",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module err-prewriting-is-optional"
+      },
+      {
+        "errorId": "err-confusing-listing-outlining",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module err-confusing-listing-outlining"
+      },
+      {
+        "errorId": "err-cubing-only-description",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module err-cubing-only-description"
+      },
+      {
+        "errorId": "err-advice-letter-paragraphs",
+        "condition": "student picks wrong option on Q4",
+        "systemAction": "assign reteach module err-advice-letter-paragraphs"
+      }
+    ],
+    "nextActions": [
+      "[err-prewriting-is-optional] student picks wrong option on Q1: Pre-writing is not optional — it helps you overcome writer's block and organize ideas. Let's review why.",
+      "[err-confusing-listing-outlining] student picks wrong option on Q2: Listing and Outlining are different: Listing generates ideas freely, Outlining organizes them hierarchically. Let's practice.",
+      "[err-cubing-only-description] student picks wrong option on Q3: Cubing uses six perspectives — description is just one. You need all five others too.",
+      "[err-advice-letter-paragraphs] student picks wrong option on Q4: Each paragraph in an advice letter has a specific job: paragraph 1 gives your stance, paragraph 2 provides evidence, paragraph 3 gives recommendations."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-s6-0722-q1",
+        "type": "choice",
+        "question": "Which of the following best explains the main purpose of pre-writing in the writing process?",
+        "options": [
+          "It is an optional step that can be skipped if you are a good writer.",
+          "It helps overcome writer's block and creates a structured plan for drafting.",
+          "It is only useful for beginners, not experienced writers.",
+          "It replaces the need for revising and editing."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands pre-writing as a deliberate strategy rather than an optional step.",
+        "misconceptions": [
+          "Pre-writing is not optional — even experienced writers use it to organize thoughts and avoid writer's block.",
+          "✓ Correct. Pre-writing provides a blueprint that makes drafting more efficient.",
+          "Pre-writing benefits writers at all levels by ensuring ideas are organized before drafting.",
+          "Pre-writing is a planning stage; revising and editing are separate later steps in the process."
+        ],
+        "nodeId": "KN-PREWRITING-PURPOSE",
+        "errorId": "err-prewriting-is-optional",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes pre-writing as essential for overcoming writer's block and creating a structured plan.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Pre-writing is the first stage of the writing process, directly related to generating and organizing ideas.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think pre-writing is unnecessary for experienced writers or can be skipped.",
+        "remediationModule": "err-prewriting-is-optional",
+        "retestItem": "err-prewriting-is-optional"
+      },
+      {
+        "id": "diag-olc4o-s6-0722-q2",
+        "type": "choice",
+        "question": "What is the key difference between Listing and Outlining as pre-writing strategies?",
+        "options": [
+          "Listing generates random ideas without structure, while Outlining organizes ideas hierarchically.",
+          "Listing is used for narrative writing, Outlining for academic essays.",
+          "Listing is a group activity, Outlining is individual.",
+          "They are the same, just different names."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can distinguish between two often-confused strategies.",
+        "misconceptions": [
+          "✓ Correct. Listing is a free-association brainstorm; Outlining imposes a logical structure.",
+          "Both strategies can be used for any type of writing; the choice depends on the writer's goal.",
+          "Both can be done individually or in groups. The difference is in the level of structure.",
+          "They are distinct strategies: Listing is unstructured, Outlining is structured."
+        ],
+        "nodeId": "KN-PREWRITING-STRATEGIES",
+        "errorId": "err-confusing-listing-outlining",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that Listing is unstructured idea generation and Outlining is hierarchical organization.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Both Listing and Outlining are pre-writing strategies for generating and organizing ideas, falling under B1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students think Listing and Outlining are the same or that Listing is just a rough outline.",
+        "remediationModule": "err-confusing-listing-outlining",
+        "retestItem": "err-confusing-listing-outlining"
+      },
+      {
+        "id": "diag-olc4o-s6-0722-q3",
+        "type": "choice",
+        "question": "A student uses Cubing to explore a topic but only writes a paragraph describing it. Which perspective(s) of Cubing is the student missing?",
+        "options": [
+          "Description only; all six perspectives are needed.",
+          "The other five perspectives: association, comparison, analysis, application, and argumentation.",
+          "Only analysis and application.",
+          "None; description is enough for Cubing."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that Cubing involves six specific perspectives beyond just description.",
+        "misconceptions": [
+          "Description is one of the six, but the student is missing the other five: association, comparison, analysis, application, and argumentation.",
+          "✓ Correct. Cubing examines a topic from six sides — description plus five others.",
+          "Cubing includes six perspectives, not just two. All five others are missing.",
+          "Cubing requires exploring the topic from all six perspectives to be effective."
+        ],
+        "nodeId": "KN-PREWRITING-STRATEGIES",
+        "errorId": "err-cubing-only-description",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that Cubing requires six perspectives, not just description.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Cubing is a pre-writing strategy that helps generate ideas, fitting within the writing process expectation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students think Cubing is just describing the topic from different angles, ignoring the other five perspectives.",
+        "remediationModule": "err-cubing-only-description",
+        "retestItem": "err-cubing-only-description"
+      },
+      {
+        "id": "diag-olc4o-s6-0722-q4",
+        "type": "choice",
+        "question": "Refer to the diagram of a three-paragraph advice letter below. When writing an advice letter, what should Paragraph 2 contain according to the lesson?",
+        "options": [
+          "A clear stance and core advice.",
+          "Supporting evidence such as personal experience or logical comparison.",
+          "Actionable recommendations and an encouraging conclusion.",
+          "A restatement of the problem."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student recalls the prescribed three-paragraph structure for advice letters.",
+        "misconceptions": [
+          "That is the function of Paragraph 1, not Paragraph 2.",
+          "✓ Correct. Paragraph 2 provides supporting evidence for the advice given in Paragraph 1.",
+          "That is the function of Paragraph 3, not Paragraph 2.",
+          "The advice letter does not include a restatement of the problem; it directly gives advice and support."
+        ],
+        "nodeId": "KN-ADVICE-LETTER-STRUCTURE",
+        "errorId": "err-advice-letter-paragraphs",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can identify the function of each paragraph in an advice letter.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Advice letter is an opinion piece; its structure aligns with B2's expectation of applying writing forms.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think paragraph 2 should restate the problem or give recommendations, confusing the functions.",
+        "remediationModule": "err-advice-letter-paragraphs",
+        "retestItem": "err-advice-letter-paragraphs"
+      }
+    ]
+  }
+}
