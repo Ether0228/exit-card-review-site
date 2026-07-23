@@ -1,0 +1,822 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-23",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/LAHNdlxYkoQkFXxkKStcPfrYnLf?from=vc_group_doc_link#doxcnAv81QoQx59UWwNNyoZ8Rah",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-23 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/LAHNdlxYkoQkFXxkKStcPfrYnLf?from=vc_group_doc_link#doxcnAv81QoQx59UWwNNyoZ8Rah",
+    "title": "MHF4U.S6.Taylor 2026-07-23 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-23/sources/mhf4u-s6-taylor-2026-07-23/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-23",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-23",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Teacher presented new academic content: Type 2 and Type 3 rational function properties, parameter calculations, and rational equation solving methods, with in-class practice walkthroughs.",
+    "academicContentSignals": [
+      "Type 2 reciprocal quadratic functions: standard form f(x)=k/(ax²+bx+c), fixed horizontal asymptote y=0, no x-intercepts, vertical asymptotes from denominator zeros, special case when denominator has no real roots",
+      "Parameter mapping: y-intercept = k/c, vertex (h,k) of quadratic becomes (h,1/k) for reciprocal, negative k causes vertical reflection",
+      "Type 3 linear-over-linear rational functions: standard form f(x)=(ax+b)/(cx+d), fast formulas for VA (x=-d/c), HA (y=a/c), x-int (-b/a), y-int (b/d)",
+      "Invalid rational function condition: ad-bc=0 leads to simplified linear function with a hole (e.g., f(x)=(-3x+6)/(-2x+4) simplifies to y=1.5 with hole at x=2)",
+      "Rational equation solving: LCD method (universal) and cross-multiplication (only for a/b=c/d), mandatory check for extraneous solutions"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low: academic content dominates; operations are limited to homework assignment and scheduling announcements.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Lesson 10 Homework and Additional Rational Equation Practice",
+        "studentAction": "Complete Lesson 10 homework and additional rational equation practice questions assigned after class.",
+        "deadlineText": "No specific deadline given; likely due before next class.",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Assign Lesson 10 homework and additional targeted rational equation practice questions after the current session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Update Class Announcements with Adjusted Assessment Timeline",
+        "studentAction": "Check official class announcements for updated Unit 1 assessment timeline and review materials.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu or class LMS",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Update official class announcements with the adjusted assessment timeline, and post multi-source Unit 1 review materials if in-class review time runs out.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "Upcoming Lesson: Complete Rational Inequalities and Unit 1 Review",
+        "studentAction": "Prepare for next class which will cover remaining rational inequality content and a full Unit 1 review session.",
+        "deadlineText": "Tomorrow (2026-07-24)",
+        "deadlineISO": "2026-07-24",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Complete remaining rational inequality content tomorrow, deliver a full Unit 1 review session to ensure sufficient student preparation for the assessment.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "No specific due date was mentioned for the homework; deadline is inferred as before next class.",
+        "reason": "Explicit deadline not present in notes."
+      },
+      {
+        "rawText": "The platform for class announcements is not explicitly named (likely Feishu).",
+        "reason": "Platform not stated in notes."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Type 2 Reciprocal Quadratic Functions、Type 3 Linear-over-Linear Rational Functions、Solving Rational Equations (LCD and Cross-Multiplication)）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Type 2 reciprocal quadratic functions: f(x) = k/(ax²+bx+c), horizontal asymptote y=0, no x-intercepts, vertical asymptotes from denominator zeros (if any).；For Type 2, y-intercept = k/c; vertex of reciprocal function is (h, 1/k) where (h,k) is original quadratic vertex; negative k causes vertical reflection.；Type 3 linear-over-linear rational functions: f(x) = (ax+b)/(cx+d); vertical asymptote x = -d/c, horizontal asymptote y = a/c, x-intercept x = -b/a, y-intercept y = b/d.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify and describe key features of Type 2 reciprocal quadratic functions, including horizontal asymptote, vertical asymptotes (if any), y-intercept, and vertex."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Identify and describe key features of Type 3 linear-over-linear rational functions, including vertical and horizontal asymptotes, intercepts, and the validity condition (ad-bc ≠ 0)."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Solve rational equations using the LCD or cross-multiplication method and check for extraneous solutions."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-C-OE02-Type2",
+      "name": "Type 2 Reciprocal Quadratic Functions",
+      "nameEn": "Type 2 Reciprocal Quadratic Functions",
+      "definition": "A rational function of the form f(x)=k/(ax²+bx+c). Key properties: horizontal asymptote y=0, no x-intercepts, vertical asymptotes where denominator equals zero (if denominator quadratic has real roots). If denominator has no real roots, there are no vertical asymptotes. Y-intercept = k/c. Vertex of reciprocal function is (h, 1/k) where (h,k) is vertex of original quadratic. Negative k causes vertical reflection across x-axis.",
+      "officialExpectationCode": "OE C2",
+      "officialNodeId": "MHF4U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically."
+    },
+    {
+      "id": "MHF4U-C-OE02-Type3",
+      "name": "Type 3 Linear-over-Linear Rational Functions",
+      "nameEn": "Type 3 Linear-over-Linear Rational Functions",
+      "definition": "A rational function of the form f(x)=(ax+b)/(cx+d). Quick parameter formulas: vertical asymptote x=-d/c, horizontal asymptote y=a/c, x-intercept x=-b/a, y-intercept y=b/d. Validity condition: ad-bc ≠ 0; if ad-bc=0, the function reduces to a line with a hole (not a valid hyperbolic rational function).",
+      "officialExpectationCode": "OE C2",
+      "officialNodeId": "MHF4U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically."
+    },
+    {
+      "id": "MHF4U-C-OE03-SolveRational",
+      "name": "Solving Rational Equations (LCD and Cross-Multiplication)",
+      "nameEn": "Solving Rational Equations (LCD and Cross-Multiplication)",
+      "definition": "Two methods: (1) LCD method—factor all denominators, multiply both sides by the lowest common denominator to eliminate fractions, then solve the resulting equation; (2) cross-multiplication—only applicable to equations of the form a/b = c/d. After solving, all candidate solutions must be checked for undefined denominators; extraneous solutions are discarded.",
+      "officialExpectationCode": "OE C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and describe key features of Type 2 reciprocal quadratic functions, including horizontal asymptote, vertical asymptotes (if any), y-intercept, and vertex."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify and describe key features of Type 3 linear-over-linear rational functions, including vertical and horizontal asymptotes, intercepts, and the validity condition (ad-bc ≠ 0)."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Solve rational equations using the LCD or cross-multiplication method and check for extraneous solutions."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-type2-no-va-misconception",
+        "condition": "student picks wrong option on questions targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Let's revisit when a reciprocal quadratic has no vertical asymptotes."
+      },
+      {
+        "errorId": "err-type3-parameter-mapping",
+        "condition": "student picks wrong option on questions targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Let's revisit the parameter mapping for linear-over-linear rational functions."
+      },
+      {
+        "errorId": "err-extraneous-solution-neglect",
+        "condition": "student picks wrong option on questions targeting this errorId",
+        "systemAction": "assign reteach module for this errorId",
+        "studentMessage": "Remember to always check for extraneous solutions after solving rational equations."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-s6-0723-q1",
+        "nodeId": "MHF4U-C-OE02-Type2",
+        "errorId": "err-type2-no-va-misconception",
+        "stem": "Which of the following reciprocal quadratic functions has no vertical asymptotes?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that a denominator with no real roots yields no vertical asymptotes.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets key features of rational functions, specifically reciprocal quadratic functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes the condition for vertical asymptotes in Type 2 functions (denominator quadratic must have real roots).",
+        "commonMisconception": "Student assumes every reciprocal quadratic has vertical asymptotes, ignoring the case where the denominator has no real zeros.",
+        "remediationModule": "err-type2-no-va-misconception",
+        "retestItem": "err-type2-no-va-misconception",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='-5 -3 10 6' width='200' height='120'><line x1='-5' y1='0' x2='5' y2='0' stroke='black'/><line x1='0' y1='-3' x2='0' y2='3' stroke='black'/><path d='M-5,0.08 Q-2,0.4 0,0.5 Q2,0.4 5,0.08' fill='none' stroke='blue' stroke-width='2'/></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "f(x)=2/(x^2-4)",
+            "correct": false,
+            "feedbackWrong": "x^2-4 has zeros at x=2 and x=-2, so vertical asymptotes exist at those points."
+          },
+          {
+            "label": "B",
+            "text": "f(x)=2/(x^2+4)",
+            "correct": true,
+            "feedbackCorrect": "Correct. x^2+4 is always positive and has no real zeros, so no vertical asymptotes."
+          },
+          {
+            "label": "C",
+            "text": "f(x)=2/((x-1)(x+4))",
+            "correct": false,
+            "feedbackWrong": "The denominator has zeros at x=1 and x=-4, so vertical asymptotes exist."
+          },
+          {
+            "label": "D",
+            "text": "f(x)=-1/(x^2+6x+8)",
+            "correct": false,
+            "feedbackWrong": "x^2+6x+8 factors to (x+4)(x+2), so vertical asymptotes at x=-4 and x=-2."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0723-q2",
+        "nodeId": "MHF4U-C-OE02-Type3",
+        "errorId": "err-type3-parameter-mapping",
+        "stem": "For f(x)=(4x+10)/(3x-2), what is the horizontal asymptote?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly uses the formula HA: y = a/c for linear-over-linear rational functions.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets key features of rational functions, specifically linear-over-linear functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can correctly identify the horizontal asymptote from the parameters a and c.",
+        "commonMisconception": "Student may swap a and c (giving y=3/4) or use the denominator constant (giving y=2/3).",
+        "remediationModule": "err-type3-parameter-mapping",
+        "retestItem": "err-type3-parameter-mapping",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='-5 -5 10 10' width='200' height='200'><line x1='-5' y1='0' x2='5' y2='0' stroke='black'/><line x1='0' y1='-5' x2='0' y2='5' stroke='black'/><path d='M-5,3.2 Q-2,2.5 0,2.2 Q2,2 5,1.8' fill='none' stroke='blue' stroke-width='2'/><line x1='-5' y1='1.33' x2='5' y2='1.33' stroke='red' stroke-dasharray='5,5' stroke-width='2'/></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "y = 4/3",
+            "correct": true,
+            "feedbackCorrect": "Correct. a=4, c=3, so HA is y=4/3."
+          },
+          {
+            "label": "B",
+            "text": "y = 3/4",
+            "correct": false,
+            "feedbackWrong": "That swaps the leading coefficients. The horizontal asymptote is y = a/c = 4/3, not 3/4."
+          },
+          {
+            "label": "C",
+            "text": "y = 2/3",
+            "correct": false,
+            "feedbackWrong": "That uses the constant term of denominator. The HA uses the coefficients of x: numerator a over denominator c."
+          },
+          {
+            "label": "D",
+            "text": "y = -2/3",
+            "correct": false,
+            "feedbackWrong": "The sign is incorrect; the HA is determined by a/c = 4/3."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0723-q3",
+        "nodeId": "MHF4U-C-OE03-SolveRational",
+        "errorId": "err-extraneous-solution-neglect",
+        "stem": "After solving the rational equation x/(x-2) + 1/(x-4) = 2/(x^2-6x+8), you obtain x=4 and x=-1. Which solution, if any, must be rejected?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student recognizes that x=4 makes a denominator zero and is extraneous.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets solving rational equations and checking for extraneous solutions.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check if student checks each candidate solution against the original equation's domain.",
+        "commonMisconception": "Student may forget to check for extraneous solutions, or incorrectly reject the valid solution.",
+        "remediationModule": "err-extraneous-solution-neglect",
+        "retestItem": "err-extraneous-solution-neglect",
+        "options": [
+          {
+            "label": "A",
+            "text": "x=4",
+            "correct": true,
+            "feedbackCorrect": "Correct. x=4 makes denominators x-4 and x^2-6x+8 zero, so it must be rejected."
+          },
+          {
+            "label": "B",
+            "text": "x=-1",
+            "correct": false,
+            "feedbackWrong": "x=-1 does not make any denominator zero, so it is valid."
+          },
+          {
+            "label": "C",
+            "text": "Neither is extraneous",
+            "correct": false,
+            "feedbackWrong": "x=4 is extraneous because it makes denominators zero. Always check candidates."
+          },
+          {
+            "label": "D",
+            "text": "Both are extraneous",
+            "correct": false,
+            "feedbackWrong": "x=-1 is valid. Only x=4 is extraneous."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0723-q4",
+        "nodeId": "MHF4U-C-OE02-Type3",
+        "errorId": "err-type3-parameter-mapping",
+        "stem": "Which of the following linear-over-linear rational functions is NOT a valid hyperbolic function (i.e., reduces to a line with a hole)?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that the function with ad-bc=0 is invalid and has a hole.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets key features of linear-over-linear rational functions, including the validity condition.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check if student can apply the ad-bc ≠ 0 condition to identify invalid rational functions.",
+        "commonMisconception": "Student may think all linear-over-linear expressions are valid rational functions, not checking the determinant condition.",
+        "remediationModule": "err-type3-parameter-mapping",
+        "retestItem": "err-type3-parameter-mapping",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='-5 -5 10 10' width='200' height='200'><line x1='-5' y1='0' x2='5' y2='0' stroke='black'/><line x1='0' y1='-5' x2='0' y2='5' stroke='black'/><line x1='-5' y1='1.5' x2='2' y2='1.5' stroke='blue' stroke-width='2'/><circle cx='2' cy='1.5' r='0.2' fill='white' stroke='blue' stroke-width='2'/><line x1='2' y1='1.5' x2='5' y2='1.5' stroke='blue' stroke-width='2'/></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "f(x)=(-3x+6)/(-2x+4)",
+            "correct": true,
+            "feedbackCorrect": "Correct. Since (-3)(4) - (6)(-2) = -12+12=0, this simplifies to y=1.5 with a hole at x=2."
+          },
+          {
+            "label": "B",
+            "text": "f(x)=(2x+1)/(x-1)",
+            "correct": false,
+            "feedbackWrong": "This is valid (ad-bc= (2)(-1)-(1)(1)=-2-1=-3 ≠ 0). It has a vertical asymptote at x=1."
+          },
+          {
+            "label": "C",
+            "text": "f(x)=(4x+10)/(3x-2)",
+            "correct": false,
+            "feedbackWrong": "This is valid (ad-bc= (4)(-2)-(10)(3)=-8-30=-38 ≠ 0). It has a vertical asymptote at x=2/3."
+          },
+          {
+            "label": "D",
+            "text": "f(x)=(-x+3)/(2x+1)",
+            "correct": false,
+            "feedbackWrong": "This is valid (ad-bc= (-1)(1)-(3)(2)=-1-6=-7 ≠ 0). It has a vertical asymptote at x=-1/2."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-type2-no-va-misconception",
+      "condition": "student picks wrong option on questions targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Let's revisit when a reciprocal quadratic has no vertical asymptotes."
+    },
+    {
+      "errorId": "err-type3-parameter-mapping",
+      "condition": "student picks wrong option on questions targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Let's revisit the parameter mapping for linear-over-linear rational functions."
+    },
+    {
+      "errorId": "err-extraneous-solution-neglect",
+      "condition": "student picks wrong option on questions targeting this errorId",
+      "systemAction": "assign reteach module for this errorId",
+      "studentMessage": "Remember to always check for extraneous solutions after solving rational equations."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-type2-no-va-misconception",
+      "trigger": "Student incorrectly assumes that all reciprocal quadratic functions have vertical asymptotes.",
+      "studentMisunderstanding": "The student thinks that every reciprocal quadratic function must have vertical asymptotes, ignoring the possibility that the denominator quadratic may have no real roots (discriminant negative).",
+      "miniLesson": {
+        "explain": "A reciprocal quadratic function f(x)=k/(ax²+bx+c) has vertical asymptotes only where the denominator equals zero. If the denominator quadratic has no real roots (discriminant < 0), then there are no vertical asymptotes. The graph is a smooth curve approaching y=0 on both sides.",
+        "example": "Consider f(x)=2/(x²+4). The denominator x²+4 is always positive (minimum 4), so it never equals zero. Thus, no vertical asymptotes. The y-intercept is 2/4=0.5, and the vertex of the reciprocal function is at (0, 1/2).",
+        "memoryAnchor": "No real roots = no vertical asymptotes. Think of a parabola that never touches the x-axis; its reciprocal is like a smooth hill without steep drops."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which reciprocal quadratic function has no vertical asymptotes? A) f(x)=2/(x²-4) B) f(x)=2/(x²+4) C) f(x)=2/((x-1)(x+4)) D) f(x)=1/(x²+6x+8)",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "For f(x)=3/(x²+1), determine if there are vertical asymptotes and find the y-intercept.",
+          "answer": "No vertical asymptotes; y-intercept = 3"
+        },
+        {
+          "level": "L3",
+          "prompt": "Create a reciprocal quadratic function with no vertical asymptotes and a y-intercept of 1. Choose appropriate values.",
+          "answer": "f(x)=2/(x²+2) (denominator has no real roots; y-intercept = 2/2=1)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-type3-parameter-mapping",
+      "trigger": "Student incorrectly identifies horizontal or vertical asymptote for a linear-over-linear rational function, or fails to recognize the validity condition ad-bc ≠ 0.",
+      "studentMisunderstanding": "Students often confuse the parameters a and c when finding the horizontal asymptote, or incorrectly apply the sign for the vertical asymptote. They may also forget to check if the function is truly rational (ad-bc ≠ 0) or a line with a hole.",
+      "miniLesson": {
+        "explain": "For a Type 3 linear-over-linear rational function f(x) = (ax+b)/(cx+d), you can quickly find key features directly from the parameters: Horizontal asymptote (HA): y = a/c (the ratio of the leading coefficients). Vertical asymptote (VA): x = -d/c (set denominator to zero). X-intercept: set numerator=0 → x = -b/a. Y-intercept: set x=0 → y = b/d. IMPORTANT: The function is only a valid hyperbolic rational function if ad - bc ≠ 0. If ad - bc = 0, the function simplifies to a constant with a hole (not a true rational function with two asymptotes).",
+        "example": "Example: f(x) = (4x+10)/(3x-2). Here a=4, b=10, c=3, d=-2. HA: y = 4/3. VA: x = -(-2)/3 = 2/3. X-intercept: x = -10/4 = -2.5. Y-intercept: y = 10/(-2) = -5. Check validity: ad-bc = 4*(-2) - 10*3 = -8 - 30 = -38 ≠ 0, so it's a valid hyperbolic function. Invalid example: f(x) = (-3x+6)/(-2x+4). a=-3, b=6, c=-2, d=4. ad-bc = (-3)*4 - 6*(-2) = -12 + 12 = 0, so this simplifies to y=1.5 with a hole at x=2.",
+        "memoryAnchor": "Remember: HA = a/c (top coefficient over bottom coefficient), VA = -d/c (negative denominator's constant over its coefficient). Think 'VA: negative d over c'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For f(x) = (2x+1)/(x-1), what is the horizontal asymptote?",
+          "answer": "y = 2"
+        },
+        {
+          "level": "L2",
+          "prompt": "For f(x) = (4x+10)/(3x-2), what is the vertical asymptote?",
+          "answer": "x = 2/3"
+        },
+        {
+          "level": "L3",
+          "prompt": "Is f(x) = (-3x+6)/(-2x+4) a valid hyperbolic rational function? If not, what is it?",
+          "answer": "No, it simplifies to y=1.5 with a hole at x=2 because ad-bc=0."
+        }
+      ]
+    },
+    {
+      "errorId": "err-extraneous-solution-neglect",
+      "trigger": "When solving x/(x-2) + 1/(x-4) = 2/(x²-6x+8), you found x=4 and x=-1. Did you check both in the original equation?",
+      "studentMisunderstanding": "Students may think that algebraic manipulation always yields valid solutions, forgetting that rational equations have domain restrictions.",
+      "miniLesson": {
+        "explain": "After solving a rational equation, you must check each candidate by substituting back into the original equation. If any denominator becomes zero, that candidate is extraneous and must be discarded.",
+        "example": "Solve x/(x-2) + 1/(x-4) = 2/(x²-6x+8). Factor denominator: (x-2)(x-4). Multiply by LCD: x(x-4) + (x-2) = 2 → x²-4x+x-2=2 → x²-3x-4=0 → (x-4)(x+1)=0 → x=4 or x=-1. Check x=4: denominators x-4=0, x²-6x+8=0 → undefined. So x=4 is extraneous. x=-1: denominators nonzero → valid.",
+        "memoryAnchor": "Plug it back: if it breaks a denominator, it's a ghost (extraneous)!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Solve 1/(x-1) = 2/(x²-1). List the candidate solution(s) and identify any extraneous.",
+          "answer": "Candidate: x=1. It is extraneous because it makes denominators zero. No valid solution."
+        },
+        {
+          "level": "L2",
+          "prompt": "Solve x/(x-3) + 1/(x-5) = 2/(x²-8x+15). List all solutions and identify any extraneous.",
+          "answer": "Valid solution: x=-1; extraneous: x=5."
+        },
+        {
+          "level": "L3",
+          "prompt": "Solve x/(x-2) + 1/(x-4) = 2/(x²-6x+8). List all solutions and identify any extraneous.",
+          "answer": "Valid solution: x=-1; extraneous: x=4."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-type2-no-va-misconception",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following reciprocal quadratic functions has NO vertical asymptotes?",
+          "options": [
+            "f(x)=4/(x^2-1)",
+            "f(x)=4/(x^2+1)",
+            "f(x)=4/(x^2-4x+4)",
+            "f(x)=4/(x^2+6x+8)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Consider the function f(x)=2/(x^2+4). Explain why this function has no vertical asymptotes, and find its y-intercept.",
+          "rubric": "Correct explanation: Denominator x^2+4 is always positive (discriminant <0), so never zero, thus no vertical asymptotes. Y-intercept = 2/4 = 0.5"
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-type3-parameter-mapping",
+      "questions": [
+        {
+          "id": "q1-type3-ha",
+          "type": "single_choice",
+          "stem": "For the rational function f(x) = (2x-1)/(x+2), which of the following is the horizontal asymptote?",
+          "options": [
+            "y = 2",
+            "y = 1/2",
+            "y = -2",
+            "y = 1"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-type3-features",
+          "type": "open_ended",
+          "stem": "For the function f(x) = (2x-1)/(x+2), find the vertical asymptote, x-intercept, and y-intercept. Also, determine whether it is a valid hyperbolic rational function (i.e., ad-bc ≠ 0). Enter your answers as: VA: x = ? , x-int: ? , y-int: ? , valid or invalid.",
+          "rubric": "VA: x = -2, x-int: x = 0.5, y-int: y = -0.5, valid"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For question 2, all three features and the validity status must be correct."
+    },
+    {
+      "forErrorId": "err-extraneous-solution-neglect",
+      "questions": [
+        {
+          "id": "retest-extraneous-q1",
+          "type": "single_choice",
+          "stem": "Which step is essential after solving a rational equation algebraically?",
+          "options": [
+            "Multiply both sides by the LCD again",
+            "Check each candidate by substitution into the original equation",
+            "Graph both sides of the equation",
+            "Take the reciprocal of both sides"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-extraneous-q2",
+          "type": "open_ended",
+          "stem": "Solve the rational equation: 1/(x-2) + 1/(x-4) = -2/(x²-6x+8). Show your work and state the solution(s) or if there is no solution. Identify any extraneous solutions.",
+          "rubric": "After multiplying by LCD (x-2)(x-4), get (x-4)+(x-2) = -2 => 2x-6 = -2 => 2x=4 => x=2. Check x=2 in original: denominators x-2=0 and x-4=-2? Actually x-4=-2 not zero, but x-2=0 makes equation undefined. So x=2 is extraneous. Therefore no valid solution. Full credit for correctly solving and identifying extraneous."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-23",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/LAHNdlxYkoQkFXxkKStcPfrYnLf?from=vc_group_doc_link#doxcnAv81QoQx59UWwNNyoZ8Rah",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-23 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Type 2 reciprocal quadratic functions: f(x) = k/(ax²+bx+c), horizontal asymptote y=0, no x-intercepts, vertical asymptotes from denominator zeros (if any).；For Type 2, y-intercept = k/c; vertex of reciprocal function is (h, 1/k) where (h,k) is original quadratic vertex; negative k causes vertical reflection.；Type 3 linear-over-linear rational functions: f(x) = (ax+b)/(cx+d); vertical asymptote x = -d/c, horizontal asymptote y = a/c, x-intercept x = -b/a, y-intercept y = b/d.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and describe key features of Type 2 reciprocal quadratic functions, including horizontal asymptote, vertical asymptotes (if any), y-intercept, and vertex."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify and describe key features of Type 3 linear-over-linear rational functions, including vertical and horizontal asymptotes, intercepts, and the validity condition (ad-bc ≠ 0)."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Solve rational equations using the LCD or cross-multiplication method and check for extraneous solutions."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Lesson 10 Homework and Additional Rational Equation Practice",
+        "studentAction": "Complete Lesson 10 homework and additional rational equation practice questions assigned after class.",
+        "deadlineText": "No specific deadline given; likely due before next class.",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Assign Lesson 10 homework and additional targeted rational equation practice questions after the current session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Update Class Announcements with Adjusted Assessment Timeline",
+        "studentAction": "Check official class announcements for updated Unit 1 assessment timeline and review materials.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu or class LMS",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Update official class announcements with the adjusted assessment timeline, and post multi-source Unit 1 review materials if in-class review time runs out.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "Upcoming Lesson: Complete Rational Inequalities and Unit 1 Review",
+        "studentAction": "Prepare for next class which will cover remaining rational inequality content and a full Unit 1 review session.",
+        "deadlineText": "Tomorrow (2026-07-24)",
+        "deadlineISO": "2026-07-24",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Complete remaining rational inequality content tomorrow, deliver a full Unit 1 review session to ensure sufficient student preparation for the assessment.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "No specific due date was mentioned for the homework; deadline is inferred as before next class.",
+        "reason": "Explicit deadline not present in notes."
+      },
+      {
+        "rawText": "The platform for class announcements is not explicitly named (likely Feishu).",
+        "reason": "Platform not stated in notes."
+      }
+    ],
+    "watchTags": [
+      "MHF4U-C-OE02-Type2",
+      "MHF4U-C-OE02-Type3",
+      "MHF4U-C-OE03-SolveRational"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-type2-no-va-misconception",
+        "condition": "student picks wrong option on questions targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-type3-parameter-mapping",
+        "condition": "student picks wrong option on questions targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      },
+      {
+        "errorId": "err-extraneous-solution-neglect",
+        "condition": "student picks wrong option on questions targeting this errorId",
+        "systemAction": "assign reteach module for this errorId"
+      }
+    ],
+    "nextActions": [
+      "[err-type2-no-va-misconception] student picks wrong option on questions targeting this errorId: Let's revisit when a reciprocal quadratic has no vertical asymptotes.",
+      "[err-type3-parameter-mapping] student picks wrong option on questions targeting this errorId: Let's revisit the parameter mapping for linear-over-linear rational functions.",
+      "[err-extraneous-solution-neglect] student picks wrong option on questions targeting this errorId: Remember to always check for extraneous solutions after solving rational equations."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-s6-0723-q1",
+        "type": "choice",
+        "question": "Which of the following reciprocal quadratic functions has no vertical asymptotes?",
+        "options": [
+          "f(x)=2/(x^2-4)",
+          "f(x)=2/(x^2+4)",
+          "f(x)=2/((x-1)(x+4))",
+          "f(x)=-1/(x^2+6x+8)"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student recognizes the condition for vertical asymptotes in Type 2 functions (denominator quadratic must have real roots).",
+        "misconceptions": [
+          "x^2-4 has zeros at x=2 and x=-2, so vertical asymptotes exist at those points.",
+          "✓ Correct. x^2+4 is always positive and has no real zeros, so no vertical asymptotes.",
+          "The denominator has zeros at x=1 and x=-4, so vertical asymptotes exist.",
+          "x^2+6x+8 factors to (x+4)(x+2), so vertical asymptotes at x=-4 and x=-2."
+        ],
+        "nodeId": "MHF4U-C-OE02-Type2",
+        "errorId": "err-type2-no-va-misconception",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that a denominator with no real roots yields no vertical asymptotes.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets key features of rational functions, specifically reciprocal quadratic functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student assumes every reciprocal quadratic has vertical asymptotes, ignoring the case where the denominator has no real zeros.",
+        "remediationModule": "err-type2-no-va-misconception",
+        "retestItem": "err-type2-no-va-misconception"
+      },
+      {
+        "id": "diag-mhf4u-s6-0723-q2",
+        "type": "choice",
+        "question": "For f(x)=(4x+10)/(3x-2), what is the horizontal asymptote?",
+        "options": [
+          "y = 4/3",
+          "y = 3/4",
+          "y = 2/3",
+          "y = -2/3"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can correctly identify the horizontal asymptote from the parameters a and c.",
+        "misconceptions": [
+          "✓ Correct. a=4, c=3, so HA is y=4/3.",
+          "That swaps the leading coefficients. The horizontal asymptote is y = a/c = 4/3, not 3/4.",
+          "That uses the constant term of denominator. The HA uses the coefficients of x: numerator a over denominator c.",
+          "The sign is incorrect; the HA is determined by a/c = 4/3."
+        ],
+        "nodeId": "MHF4U-C-OE02-Type3",
+        "errorId": "err-type3-parameter-mapping",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly uses the formula HA: y = a/c for linear-over-linear rational functions.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets key features of rational functions, specifically linear-over-linear functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may swap a and c (giving y=3/4) or use the denominator constant (giving y=2/3).",
+        "remediationModule": "err-type3-parameter-mapping",
+        "retestItem": "err-type3-parameter-mapping"
+      },
+      {
+        "id": "diag-mhf4u-s6-0723-q3",
+        "type": "choice",
+        "question": "After solving the rational equation x/(x-2) + 1/(x-4) = 2/(x^2-6x+8), you obtain x=4 and x=-1. Which solution, if any, must be rejected?",
+        "options": [
+          "x=4",
+          "x=-1",
+          "Neither is extraneous",
+          "Both are extraneous"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student checks each candidate solution against the original equation's domain.",
+        "misconceptions": [
+          "✓ Correct. x=4 makes denominators x-4 and x^2-6x+8 zero, so it must be rejected.",
+          "x=-1 does not make any denominator zero, so it is valid.",
+          "x=4 is extraneous because it makes denominators zero. Always check candidates.",
+          "x=-1 is valid. Only x=4 is extraneous."
+        ],
+        "nodeId": "MHF4U-C-OE03-SolveRational",
+        "errorId": "err-extraneous-solution-neglect",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student recognizes that x=4 makes a denominator zero and is extraneous.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets solving rational equations and checking for extraneous solutions.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Student may forget to check for extraneous solutions, or incorrectly reject the valid solution.",
+        "remediationModule": "err-extraneous-solution-neglect",
+        "retestItem": "err-extraneous-solution-neglect"
+      },
+      {
+        "id": "diag-mhf4u-s6-0723-q4",
+        "type": "choice",
+        "question": "Which of the following linear-over-linear rational functions is NOT a valid hyperbolic function (i.e., reduces to a line with a hole)?",
+        "options": [
+          "f(x)=(-3x+6)/(-2x+4)",
+          "f(x)=(2x+1)/(x-1)",
+          "f(x)=(4x+10)/(3x-2)",
+          "f(x)=(-x+3)/(2x+1)"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can apply the ad-bc ≠ 0 condition to identify invalid rational functions.",
+        "misconceptions": [
+          "✓ Correct. Since (-3)(4) - (6)(-2) = -12+12=0, this simplifies to y=1.5 with a hole at x=2.",
+          "This is valid (ad-bc= (2)(-1)-(1)(1)=-2-1=-3 ≠ 0). It has a vertical asymptote at x=1.",
+          "This is valid (ad-bc= (4)(-2)-(10)(3)=-8-30=-38 ≠ 0). It has a vertical asymptote at x=2/3.",
+          "This is valid (ad-bc= (-1)(1)-(3)(2)=-1-6=-7 ≠ 0). It has a vertical asymptote at x=-1/2."
+        ],
+        "nodeId": "MHF4U-C-OE02-Type3",
+        "errorId": "err-type3-parameter-mapping",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that the function with ad-bc=0 is invalid and has a hole.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets key features of linear-over-linear rational functions, including the validity condition.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Student may think all linear-over-linear expressions are valid rational functions, not checking the determinant condition.",
+        "remediationModule": "err-type3-parameter-mapping",
+        "retestItem": "err-type3-parameter-mapping"
+      }
+    ]
+  }
+}

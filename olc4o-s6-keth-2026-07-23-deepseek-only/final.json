@@ -1,0 +1,919 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-23",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Qhtmd16FwoysjKxGuKKcqz7gnQt?from=vc_group_doc_link#doxcnMHswtm93iEXNbJegwR7nhd",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-23 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Qhtmd16FwoysjKxGuKKcqz7gnQt?from=vc_group_doc_link#doxcnMHswtm93iEXNbJegwR7nhd",
+    "title": "OLC4O.S6.Keth 2026-07-23 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-23/sources/olc4o-s6-keth-2026-07-23/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-23",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-23",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes instruction on non-fiction narrative structures (5 core structures, signal words, benefits) and in-class application tasks, combined with assignment review and course policy reminders.",
+    "academicContentSignals": [
+      "Non-fiction narrative structure: Description (signal words: specifically, for example, features)",
+      "Non-fiction narrative structure: Problem and Solution (signal words: problem, dilemma, solve, solution)",
+      "Non-fiction narrative structure: Compare and Contrast (signal words: both, however, on the other hand, unlike)",
+      "Non-fiction narrative structure: Cause and Effect (signal words: because, as a result, therefore, due to)",
+      "Non-fiction narrative structure: Sequence (signal words: first, next, finally, prior to)",
+      "Benefits of mastering text structure for readers and writers",
+      "In-class application: completing graphic organizers and analyzing Roberta Bondar text"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations (submission gaps, deadlines, policies, integrity reminders) dominate the meeting notes and could overshadow the non-fiction structure teaching content in diagnostic card generation if not carefully limited.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Assignment 2 Resubmission Opportunity for Unqualified Submissions",
+        "studentAction": "Resubmit if your flowchart was unqualified (hand-drawn, no personalized branches)",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who submitted unqualified flowchart",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Unqualified Flowchart Submission: ... eligible for voluntary resubmission",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Academic Integrity Requirement – No AI or Machine Translation",
+        "studentAction": "Ensure all submitted work is 100% independently self-completed without AI or translation tools",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All submitted work must be 100% independently self-completed without AI, machine translation or automatic grammar correction tools",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Portfolio Conference Eligibility – Missing Assignments < 2",
+        "studentAction": "Check number of missing core assignments; ensure fewer than 2 to qualify for portfolio conference worth 20% of final grade",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Portfolio conferences (worth 20% of total final course grade) are only open to students with fewer than 2 missing core assignments",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "No Proactive Submission Reminders from Instructor",
+        "studentAction": "Track your own submission deadlines; instructor will only send one centralized pre-unit-test reminder",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The instructor will no longer proactively push individual submission reminders to students, only provide one centralized pre-unit-test reminder",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "deadline",
+        "title": "Final Cutoff for Late Submissions and Resubmissions",
+        "studentAction": "Submit all late work and resubmissions before the final 2 weeks of August; no support after that",
+        "deadlineText": "Final 2 weeks of August",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students with overdue assignments",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "No late submission, resubmission or one-on-one special support will be provided in the final 2 weeks of August",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Description text structure、Problem and Solution text structure、Compare and Contrast text structure、Cause and Effect text structure）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "There are five core non-fiction text structures: Description, Problem and Solution, Compare and Contrast, Cause and Effect, and Sequence.；Description uses specific details and characteristics to create vivid mental imagery; signal words include 'specifically', 'for example', 'features'.；Problem and Solution explains a dilemma and its resolution; signal words include 'problem', 'dilemma', 'solve', 'solution'.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify the five core non-fiction text structures: Description, Problem and Solution, Compare and Contrast, Cause and Effect, and Sequence."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Recognize signal words associated with each text structure."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Differentiate between Description and Compare and Contrast structures in given texts."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "text-structure-description",
+      "name": "Description text structure",
+      "nameEn": "Description text structure",
+      "definition": "Uses specific detailed features and observable characteristics to create vivid mental imagery for readers; signal words include 'specifically', 'for example', 'features'.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "text-structure-problem-solution",
+      "name": "Problem and Solution text structure",
+      "nameEn": "Problem and Solution text structure",
+      "definition": "Explains a clearly defined practical dilemma and corresponding actionable resolution plans; signal words include 'problem', 'dilemma', 'solve', 'solution'.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "text-structure-compare-contrast",
+      "name": "Compare and Contrast text structure",
+      "nameEn": "Compare and Contrast text structure",
+      "definition": "Illustrates key similarities and meaningful differences between two or more distinct subjects; signal words include 'both', 'however', 'on the other hand', 'unlike'.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "text-structure-cause-effect",
+      "name": "Cause and Effect text structure",
+      "nameEn": "Cause and Effect text structure",
+      "definition": "Clarifies the direct causal relationship between triggering events and resulting measurable outcomes; signal words include 'because', 'as a result', 'therefore', 'due to'.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "text-structure-sequence",
+      "name": "Sequence text structure",
+      "nameEn": "Sequence text structure",
+      "definition": "Arranges content in strict chronological order or step-by-step operational order; signal words include 'first', 'next', 'finally', 'prior to'.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the five core non-fiction text structures: Description, Problem and Solution, Compare and Contrast, Cause and Effect, and Sequence."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Recognize signal words associated with each text structure."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Differentiate between Description and Compare and Contrast structures in given texts."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-confuse-compare-description",
+        "condition": "Student selects the Description option or other incorrect option on Q3 (targeting Compare and Contrast vs Description).",
+        "systemAction": "Assign reteach module for err-confuse-compare-description.",
+        "studentMessage": "You confused Description with Compare and Contrast. Review the key differences: Description focuses on one subject, while Compare and Contrast involves two or more subjects and their similarities/differences."
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1-description",
+        "nodeId": "text-structure-description",
+        "errorId": "err-confuse-compare-description",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly selects the signal word that indicates Description structure.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly addresses understanding of text structure features, which is part of OE A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can identify a signal word for Description text structure.",
+        "commonMisconception": "Students may think signal words like 'first' or 'because' belong to Description.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description",
+        "stem": "Which signal word is most commonly associated with the Description text structure?",
+        "options": [
+          {
+            "label": "A",
+            "text": "first",
+            "correct": false,
+            "feedbackWrong": "'first' is a signal word for Sequence, not Description."
+          },
+          {
+            "label": "B",
+            "text": "specifically",
+            "correct": true,
+            "feedbackCorrect": "Correct. 'Specifically' is a signal word that points to detailed description."
+          },
+          {
+            "label": "C",
+            "text": "because",
+            "correct": false,
+            "feedbackWrong": "'because' is a signal word for Cause and Effect, not Description."
+          },
+          {
+            "label": "D",
+            "text": "however",
+            "correct": false,
+            "feedbackWrong": "'however' is a signal word for Compare and Contrast, not Description."
+          }
+        ]
+      },
+      {
+        "id": "q2-problem-solution",
+        "nodeId": "text-structure-problem-solution",
+        "errorId": "err-confuse-compare-description",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the Problem and Solution structure from a short text.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires understanding of a specific text structure (Problem and Solution), aligned with A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can recognize Problem and Solution structure from a short passage.",
+        "commonMisconception": "Students may confuse Problem and Solution with Cause and Effect because both involve a situation and outcome.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description",
+        "stem": "Read the following passage:\n'The school playground equipment is old and unsafe, so the parent council raised funds to install new, modern equipment.'\nWhich text structure does this passage use?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Description",
+            "correct": false,
+            "feedbackWrong": "This passage does not focus on describing features; it presents a problem and a solution."
+          },
+          {
+            "label": "B",
+            "text": "Problem and Solution",
+            "correct": true,
+            "feedbackCorrect": "Correct. The passage first states a problem (old, unsafe equipment) and then a solution (fundraising for new equipment)."
+          },
+          {
+            "label": "C",
+            "text": "Compare and Contrast",
+            "correct": false,
+            "feedbackWrong": "The passage does not compare two subjects; it presents a single issue and its resolution."
+          },
+          {
+            "label": "D",
+            "text": "Sequence",
+            "correct": false,
+            "feedbackWrong": "The passage is not in chronological order; it presents a cause (problem) and effect (solution)."
+          }
+        ]
+      },
+      {
+        "id": "q3-compare-description",
+        "nodeId": "text-structure-compare-contrast",
+        "errorId": "err-confuse-compare-description",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student distinguishes between Description and Compare and Contrast by selecting the text that uses Compare and Contrast.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analyzing and differentiating between two text structures, directly supporting A2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "differentiate",
+        "stemIntent": "Test ability to distinguish Compare and Contrast from Description.",
+        "commonMisconception": "Students may think describing multiple features of one subject is Compare and Contrast, rather than comparing two distinct subjects.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description",
+        "stem": "Which of the following texts uses Compare and Contrast structure?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The golden retriever has a thick, water-repellent coat, a friendly face, and a strong, muscular build. This breed is known for its intelligence and patience.",
+            "correct": false,
+            "feedbackWrong": "This text describes only one dog breed (golden retriever) in detail; it is a Description, not Compare and Contrast."
+          },
+          {
+            "label": "B",
+            "text": "Golden retrievers are known for their friendly temperament, while German shepherds are more protective and alert. Both breeds are highly intelligent and loyal.",
+            "correct": true,
+            "feedbackCorrect": "Correct. This text compares two breeds (golden retriever and German shepherd) highlighting similarities and differences."
+          },
+          {
+            "label": "C",
+            "text": "First, preheat the oven to 350°F. Next, mix the dry ingredients in one bowl and the wet ingredients in another. Finally, combine them and bake for 30 minutes.",
+            "correct": false,
+            "feedbackWrong": "This text uses Sequence structure with steps in order."
+          },
+          {
+            "label": "D",
+            "text": "Because the garden received too much rain, the tomatoes developed a fungal disease and had to be removed.",
+            "correct": false,
+            "feedbackWrong": "This text uses Cause and Effect structure, showing a cause (too much rain) and an effect (fungal disease)."
+          }
+        ]
+      },
+      {
+        "id": "q4-cause-effect",
+        "nodeId": "text-structure-cause-effect",
+        "errorId": "err-confuse-compare-description",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies the signal word that indicates Cause and Effect in a sentence.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question checks recognition of signal words for Cause and Effect, part of understanding organizational structure.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "stemIntent": "Check if student can identify a Cause and Effect signal word.",
+        "commonMisconception": "Students may think 'for example' signals Cause and Effect.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='100'><rect width='200' height='100' fill='lightgray'/><text x='10' y='50' font-size='12'>Figure placeholder</text></svg>",
+        "stem": "Which signal word in the following sentence points to a Cause and Effect relationship?\n'The plants grew quickly because the soil was rich in nutrients.'",
+        "options": [
+          {
+            "label": "A",
+            "text": "quickly",
+            "correct": false,
+            "feedbackWrong": "'quickly' describes how the plants grew, not the cause-effect relationship."
+          },
+          {
+            "label": "B",
+            "text": "because",
+            "correct": true,
+            "feedbackCorrect": "Correct. 'Because' introduces the cause (rich soil) that leads to the effect (plants grew quickly)."
+          },
+          {
+            "label": "C",
+            "text": "rich",
+            "correct": false,
+            "feedbackWrong": "'rich' is a descriptive word, not a signal word for cause and effect."
+          },
+          {
+            "label": "D",
+            "text": "nutrients",
+            "correct": false,
+            "feedbackWrong": "'nutrients' is part of the cause description, not a signal word."
+          }
+        ]
+      },
+      {
+        "id": "q5-sequence",
+        "nodeId": "text-structure-sequence",
+        "errorId": "err-confuse-compare-description",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly arranges steps in chronological order to demonstrate understanding of Sequence.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires applying knowledge of Sequence structure to order steps, supporting A2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "organize",
+        "stemIntent": "Check if student can apply knowledge of Sequence structure by ordering steps.",
+        "commonMisconception": "Students may place steps out of chronological order, confusing Sequence with other structures.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description",
+        "stem": "The steps for baking cookies are listed below, but they are in the wrong order. Which order shows the correct Sequence?\n1. Bake in the oven for 10 minutes.\n2. Mix the dough.\n3. Preheat the oven.\n4. Let the cookies cool.",
+        "options": [
+          {
+            "label": "A",
+            "text": "3, 2, 1, 4",
+            "correct": true,
+            "feedbackCorrect": "Correct. First preheat, then mix dough, then bake, then cool."
+          },
+          {
+            "label": "B",
+            "text": "2, 3, 1, 4",
+            "correct": false,
+            "feedbackWrong": "You must preheat the oven before mixing the dough? Actually, preheating should come early. The correct order is preheat, then mix, then bake, then cool."
+          },
+          {
+            "label": "C",
+            "text": "1, 2, 3, 4",
+            "correct": false,
+            "feedbackWrong": "Baking comes after mixing and preheating, not before."
+          },
+          {
+            "label": "D",
+            "text": "4, 3, 2, 1",
+            "correct": false,
+            "feedbackWrong": "Cooling is the last step, not the first."
+          }
+        ]
+      },
+      {
+        "id": "q6-application",
+        "nodeId": "text-structure-compare-contrast",
+        "errorId": "err-confuse-compare-description",
+        "type": "single_choice",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student evaluates which structure is best suited for a given writing purpose, particularly distinguishing Description from Compare and Contrast.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires evaluating the appropriate text structure for a purpose, which involves understanding features of structures (A2).",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check if student can choose the most suitable text structure for a given purpose, especially distinguishing Description from Compare and Contrast.",
+        "commonMisconception": "Students may choose Description when a Compare and Contrast structure is more appropriate, or vice versa.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='200' height='100'><rect width='200' height='100' fill='lightgray'/><text x='10' y='50' font-size='12'>Figure placeholder</text></svg>",
+        "stem": "You are writing a paragraph to help a friend decide between buying a mountain bike or a road bike. Which text structure would be most effective?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Description – describe each bike in detail separately.",
+            "correct": false,
+            "feedbackWrong": "Description would only list features of each bike without directly comparing them, making it harder to decide."
+          },
+          {
+            "label": "B",
+            "text": "Compare and Contrast – highlight similarities and differences between the two bikes.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Compare and Contrast directly addresses the decision by showing what is alike and different."
+          },
+          {
+            "label": "C",
+            "text": "Cause and Effect – explain why one bike causes better performance.",
+            "correct": false,
+            "feedbackWrong": "Cause and Effect focuses on one bike's impact, not a balanced comparison."
+          },
+          {
+            "label": "D",
+            "text": "Sequence – list the steps to buy a bike.",
+            "correct": false,
+            "feedbackWrong": "Sequence would provide steps, not help compare two options."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-confuse-compare-description",
+      "condition": "Student selects the Description option or other incorrect option on Q3 (targeting Compare and Contrast vs Description).",
+      "systemAction": "Assign reteach module for err-confuse-compare-description.",
+      "studentMessage": "You confused Description with Compare and Contrast. Review the key differences: Description focuses on one subject, while Compare and Contrast involves two or more subjects and their similarities/differences."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-confuse-compare-description",
+      "trigger": "Student incorrectly identifies a Compare and Contrast text as Description or chooses a Description text when asked for Compare and Contrast.",
+      "studentMisunderstanding": "Students may think that describing multiple features of a single subject is the same as comparing two subjects. They focus on details without recognizing the need for multiple subjects and explicit comparison.",
+      "miniLesson": {
+        "explain": "Description and Compare and Contrast are two different text structures. Description provides detailed information about one subject to create a vivid picture. Compare and Contrast examines two or more subjects to show their similarities and differences. The key difference: Description is about one subject; Compare and Contrast involves multiple subjects and uses words like 'both', 'however', 'unlike'.",
+        "example": "For example, a Description passage: 'The golden retriever has a thick, water-repellent coat, a friendly face, and a strong, muscular build.' This describes only one breed. A Compare and Contrast passage: 'Golden retrievers are friendly, while German shepherds are protective. Both are intelligent.' This compares two breeds.",
+        "memoryAnchor": "Think of Description as a single spotlight on one thing. Compare and Contrast is like a seesaw: you need two sides to see how they are alike and different."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which structure uses signal words like 'specifically' and 'for example'? (A) Description (B) Compare and Contrast",
+          "answer": "Description"
+        },
+        {
+          "level": "L2",
+          "prompt": "Read the two texts. Which one uses Compare and Contrast? Text A: 'The desert is hot and dry with sand dunes and cacti.' Text B: 'Unlike the desert, the rainforest is humid and lush with dense vegetation.'",
+          "answer": "Text B"
+        },
+        {
+          "level": "L3",
+          "prompt": "You need to write a paragraph to help someone decide which smartphone to buy. Should you use Description or Compare and Contrast? Explain why.",
+          "answer": "Compare and Contrast, because it allows you to highlight similarities and differences between the two phones, making it easier for the reader to decide. Description would only describe each phone separately without direct comparison."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-confuse-compare-description",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "Read the following short passage: 'The Rocky Mountains are tall and snowy, with rugged peaks and pine forests. In contrast, the coastal beaches are flat, sandy, and warm, with gentle waves. Both offer stunning views, but they provide very different experiences.' Which nonfiction text structure is primarily used here?",
+          "options": [
+            "Description",
+            "Problem and Solution",
+            "Compare and Contrast",
+            "Cause and Effect"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "In your own words, explain the key difference between the Description text structure and the Compare and Contrast text structure. Provide a specific example for each.",
+          "rubric": "Student must state that Description focuses on details of one subject, while Compare and Contrast examines similarities and differences between two or more subjects. Example for Description: describing a single animal's features. Example for Compare and Contrast: comparing two different animals."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-23",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Qhtmd16FwoysjKxGuKKcqz7gnQt?from=vc_group_doc_link#doxcnMHswtm93iEXNbJegwR7nhd",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-23 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "There are five core non-fiction text structures: Description, Problem and Solution, Compare and Contrast, Cause and Effect, and Sequence.；Description uses specific details and characteristics to create vivid mental imagery; signal words include 'specifically', 'for example', 'features'.；Problem and Solution explains a dilemma and its resolution; signal words include 'problem', 'dilemma', 'solve', 'solution'.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the five core non-fiction text structures: Description, Problem and Solution, Compare and Contrast, Cause and Effect, and Sequence."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Recognize signal words associated with each text structure."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Differentiate between Description and Compare and Contrast structures in given texts."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Assignment 2 Resubmission Opportunity for Unqualified Submissions",
+        "studentAction": "Resubmit if your flowchart was unqualified (hand-drawn, no personalized branches)",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who submitted unqualified flowchart",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Unqualified Flowchart Submission: ... eligible for voluntary resubmission",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Academic Integrity Requirement – No AI or Machine Translation",
+        "studentAction": "Ensure all submitted work is 100% independently self-completed without AI or translation tools",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All submitted work must be 100% independently self-completed without AI, machine translation or automatic grammar correction tools",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Portfolio Conference Eligibility – Missing Assignments < 2",
+        "studentAction": "Check number of missing core assignments; ensure fewer than 2 to qualify for portfolio conference worth 20% of final grade",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Portfolio conferences (worth 20% of total final course grade) are only open to students with fewer than 2 missing core assignments",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "No Proactive Submission Reminders from Instructor",
+        "studentAction": "Track your own submission deadlines; instructor will only send one centralized pre-unit-test reminder",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The instructor will no longer proactively push individual submission reminders to students, only provide one centralized pre-unit-test reminder",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "deadline",
+        "title": "Final Cutoff for Late Submissions and Resubmissions",
+        "studentAction": "Submit all late work and resubmissions before the final 2 weeks of August; no support after that",
+        "deadlineText": "Final 2 weeks of August",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students with overdue assignments",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "No late submission, resubmission or one-on-one special support will be provided in the final 2 weeks of August",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "text-structure-description",
+      "text-structure-problem-solution",
+      "text-structure-compare-contrast",
+      "text-structure-cause-effect",
+      "text-structure-sequence"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-confuse-compare-description",
+        "condition": "Student selects the Description option or other incorrect option on Q3 (targeting Compare and Contrast vs Description).",
+        "systemAction": "Assign reteach module for err-confuse-compare-description."
+      }
+    ],
+    "nextActions": [
+      "[err-confuse-compare-description] Student selects the Description option or other incorrect option on Q3 (targeting Compare and Contrast vs Description).: You confused Description with Compare and Contrast. Review the key differences: Description focuses on one subject, while Compare and Contrast involves two or more subjects and their similarities/differences."
+    ],
+    "cards": [
+      {
+        "id": "q1-description",
+        "type": "choice",
+        "question": "Which signal word is most commonly associated with the Description text structure?",
+        "options": [
+          "first",
+          "specifically",
+          "because",
+          "however"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can identify a signal word for Description text structure.",
+        "misconceptions": [
+          "'first' is a signal word for Sequence, not Description.",
+          "✓ Correct. 'Specifically' is a signal word that points to detailed description.",
+          "'because' is a signal word for Cause and Effect, not Description.",
+          "'however' is a signal word for Compare and Contrast, not Description."
+        ],
+        "nodeId": "text-structure-description",
+        "errorId": "err-confuse-compare-description",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly selects the signal word that indicates Description structure.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly addresses understanding of text structure features, which is part of OE A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think signal words like 'first' or 'because' belong to Description.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description"
+      },
+      {
+        "id": "q2-problem-solution",
+        "type": "choice",
+        "question": "Read the following passage:\n'The school playground equipment is old and unsafe, so the parent council raised funds to install new, modern equipment.'\nWhich text structure does this passage use?",
+        "options": [
+          "Description",
+          "Problem and Solution",
+          "Compare and Contrast",
+          "Sequence"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can recognize Problem and Solution structure from a short passage.",
+        "misconceptions": [
+          "This passage does not focus on describing features; it presents a problem and a solution.",
+          "✓ Correct. The passage first states a problem (old, unsafe equipment) and then a solution (fundraising for new equipment).",
+          "The passage does not compare two subjects; it presents a single issue and its resolution.",
+          "The passage is not in chronological order; it presents a cause (problem) and effect (solution)."
+        ],
+        "nodeId": "text-structure-problem-solution",
+        "errorId": "err-confuse-compare-description",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the Problem and Solution structure from a short text.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires understanding of a specific text structure (Problem and Solution), aligned with A2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may confuse Problem and Solution with Cause and Effect because both involve a situation and outcome.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description"
+      },
+      {
+        "id": "q3-compare-description",
+        "type": "choice",
+        "question": "Which of the following texts uses Compare and Contrast structure?",
+        "options": [
+          "The golden retriever has a thick, water-repellent coat, a friendly face, and a strong, muscular build. This breed is known for its intelligence and patience.",
+          "Golden retrievers are known for their friendly temperament, while German shepherds are more protective and alert. Both breeds are highly intelligent and loyal.",
+          "First, preheat the oven to 350°F. Next, mix the dry ingredients in one bowl and the wet ingredients in another. Finally, combine them and bake for 30 minutes.",
+          "Because the garden received too much rain, the tomatoes developed a fungal disease and had to be removed."
+        ],
+        "correct": 1,
+        "diagnosis": "Test ability to distinguish Compare and Contrast from Description.",
+        "misconceptions": [
+          "This text describes only one dog breed (golden retriever) in detail; it is a Description, not Compare and Contrast.",
+          "✓ Correct. This text compares two breeds (golden retriever and German shepherd) highlighting similarities and differences.",
+          "This text uses Sequence structure with steps in order.",
+          "This text uses Cause and Effect structure, showing a cause (too much rain) and an effect (fungal disease)."
+        ],
+        "nodeId": "text-structure-compare-contrast",
+        "errorId": "err-confuse-compare-description",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student distinguishes between Description and Compare and Contrast by selecting the text that uses Compare and Contrast.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires analyzing and differentiating between two text structures, directly supporting A2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "differentiate",
+        "commonMisconception": "Students may think describing multiple features of one subject is Compare and Contrast, rather than comparing two distinct subjects.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description"
+      },
+      {
+        "id": "q4-cause-effect",
+        "type": "choice",
+        "question": "Which signal word in the following sentence points to a Cause and Effect relationship?\n'The plants grew quickly because the soil was rich in nutrients.'",
+        "options": [
+          "quickly",
+          "because",
+          "rich",
+          "nutrients"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can identify a Cause and Effect signal word.",
+        "misconceptions": [
+          "'quickly' describes how the plants grew, not the cause-effect relationship.",
+          "✓ Correct. 'Because' introduces the cause (rich soil) that leads to the effect (plants grew quickly).",
+          "'rich' is a descriptive word, not a signal word for cause and effect.",
+          "'nutrients' is part of the cause description, not a signal word."
+        ],
+        "nodeId": "text-structure-cause-effect",
+        "errorId": "err-confuse-compare-description",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies the signal word that indicates Cause and Effect in a sentence.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question checks recognition of signal words for Cause and Effect, part of understanding organizational structure.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "commonMisconception": "Students may think 'for example' signals Cause and Effect.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description"
+      },
+      {
+        "id": "q5-sequence",
+        "type": "choice",
+        "question": "The steps for baking cookies are listed below, but they are in the wrong order. Which order shows the correct Sequence?\n1. Bake in the oven for 10 minutes.\n2. Mix the dough.\n3. Preheat the oven.\n4. Let the cookies cool.",
+        "options": [
+          "3, 2, 1, 4",
+          "2, 3, 1, 4",
+          "1, 2, 3, 4",
+          "4, 3, 2, 1"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can apply knowledge of Sequence structure by ordering steps.",
+        "misconceptions": [
+          "✓ Correct. First preheat, then mix dough, then bake, then cool.",
+          "You must preheat the oven before mixing the dough? Actually, preheating should come early. The correct order is preheat, then mix, then bake, then cool.",
+          "Baking comes after mixing and preheating, not before.",
+          "Cooling is the last step, not the first."
+        ],
+        "nodeId": "text-structure-sequence",
+        "errorId": "err-confuse-compare-description",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly arranges steps in chronological order to demonstrate understanding of Sequence.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires applying knowledge of Sequence structure to order steps, supporting A2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "organize",
+        "commonMisconception": "Students may place steps out of chronological order, confusing Sequence with other structures.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description"
+      },
+      {
+        "id": "q6-application",
+        "type": "choice",
+        "question": "You are writing a paragraph to help a friend decide between buying a mountain bike or a road bike. Which text structure would be most effective?",
+        "options": [
+          "Description – describe each bike in detail separately.",
+          "Compare and Contrast – highlight similarities and differences between the two bikes.",
+          "Cause and Effect – explain why one bike causes better performance.",
+          "Sequence – list the steps to buy a bike."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can choose the most suitable text structure for a given purpose, especially distinguishing Description from Compare and Contrast.",
+        "misconceptions": [
+          "Description would only list features of each bike without directly comparing them, making it harder to decide.",
+          "✓ Correct. Compare and Contrast directly addresses the decision by showing what is alike and different.",
+          "Cause and Effect focuses on one bike's impact, not a balanced comparison.",
+          "Sequence would provide steps, not help compare two options."
+        ],
+        "nodeId": "text-structure-compare-contrast",
+        "errorId": "err-confuse-compare-description",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student evaluates which structure is best suited for a given writing purpose, particularly distinguishing Description from Compare and Contrast.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires evaluating the appropriate text structure for a purpose, which involves understanding features of structures (A2).",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Students may choose Description when a Compare and Contrast structure is more appropriate, or vice versa.",
+        "remediationModule": "err-confuse-compare-description",
+        "retestItem": "err-confuse-compare-description"
+      }
+    ]
+  }
+}

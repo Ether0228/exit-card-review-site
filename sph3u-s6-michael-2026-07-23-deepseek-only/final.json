@@ -1,0 +1,802 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-23",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/H3bTdGXTWoEuAexDxwScKb0Endh?from=vc_group_doc_link#doxcnOyXJNWi4xr0xRjPJvDTrtb",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-23 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/H3bTdGXTWoEuAexDxwScKb0Endh?from=vc_group_doc_link#doxcnOyXJNWi4xr0xRjPJvDTrtb",
+    "title": "SPH3U.S6.Michael 2026-07-23 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-23/sources/sph3u-s6-michael-2026-07-23/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-23",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-23",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson covered academic content: connected mass system force calculation, Newton's Third Law principles and application examples.",
+    "academicContentSignals": [
+      "connected mass system force calculation",
+      "force balance logic",
+      "tension in connecting rope",
+      "system acceleration 3.26 m/s² downward",
+      "rope tension 1.57 N",
+      "Newton's Third Law: action-reaction pairs equal in magnitude opposite in direction",
+      "application examples: swimmer pushing wall, pedestrian pushing floor, rocket launch",
+      "two interacting skaters case: 70 N eastward action, 70 N westward reaction, both recoil"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low: only one operational item (next class time) and clear academic content dominates.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Next class scheduled for 2026-07-24",
+        "studentAction": "Attend the next physics class on 2026-07-24 at the same time (09:59-11:59 GMT+8).",
+        "deadlineText": "2026-07-24",
+        "deadlineISO": "2026-07-24T09:59:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students in SPH3U.S6",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the next session will be held as scheduled on the following day",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Newton's Third Law、Connected Mass System Force Analysis）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Tension in a connecting rope is identical for both objects in a connected system.；In a connected system, components are rigidly connected and share the same acceleration.；For a hanging object moving downward, gravitational force must be greater than rope tension.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Apply Newton's Third Law to identify action-reaction force pairs acting on different objects."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Analyze connected mass systems to determine uniform acceleration and tension."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Calculate net force, acceleration, and tension in a connected system."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "newtons-third-law",
+      "name": "Newton's Third Law",
+      "nameEn": "Newton's Third Law",
+      "definition": "For every action force, there is an equal and opposite reaction force acting on a different object.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "SPH3U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Analyse and propose improvements to technologies that apply concepts related to dynamics and Newton's laws, and assess their social and environmental impact."
+    },
+    {
+      "id": "connected-mass-system",
+      "name": "Connected Mass System Force Analysis",
+      "nameEn": "Connected Mass System Force Analysis",
+      "definition": "In a system of two objects connected by a rope, the tension is the same for both objects, and the system accelerates uniformly. The net force on the system equals the total mass times acceleration.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "SPH3U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply Newton's Third Law to identify action-reaction force pairs acting on different objects."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Analyze connected mass systems to determine uniform acceleration and tension."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Calculate net force, acceleration, and tension in a connected system."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-action-reaction-cancel",
+        "condition": "student picks option that says action and reaction forces cancel because they are equal and opposite (Question 1).",
+        "systemAction": "assign reteach module for err-action-reaction-cancel",
+        "studentMessage": "Remember: action and reaction forces act on different objects, so they don't cancel. We'll review that."
+      },
+      {
+        "errorId": "err-tension-different",
+        "condition": "student picks option implying tension differs at ends of a rope (Question 2).",
+        "systemAction": "assign reteach module for err-tension-different",
+        "studentMessage": "In a connected system with a massless rope, tension is the same for both objects. Let's practice."
+      },
+      {
+        "errorId": "err-connected-acceleration-mismatch",
+        "condition": "student picks option suggesting different accelerations for connected objects (Question 3).",
+        "systemAction": "assign reteach module for err-connected-acceleration-mismatch",
+        "studentMessage": "Objects connected by a rigid link share the same acceleration. We'll work on that."
+      },
+      {
+        "errorId": "err-direction-net-force-hanging",
+        "condition": "student picks option with upward net force for a hanging object accelerating downward (Question 4).",
+        "systemAction": "assign reteach module for err-direction-net-force-hanging",
+        "studentMessage": "If an object accelerates downward, the net force must also be downward. Let's revisit."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-s6-0723-q1",
+        "nodeId": "newtons-third-law",
+        "errorId": "err-action-reaction-cancel",
+        "stem": "Two skaters push on each other. Skater A exerts a force of 70 N east on Skater B. According to Newton's Third Law, what is the force exerted by Skater B on Skater A?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the reaction force as 70 N west.",
+        "ossdExpectation": "Analyse and propose improvements to technologies that apply concepts related to dynamics and Newton's laws, and assess their social and environmental impact.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "SPH3U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses Newton's Third Law, which is core to dynamics and Newton's laws.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can identify action-reaction pairs and understand they are equal and opposite on different objects.",
+        "commonMisconception": "Students think the forces cancel each other because they are equal and opposite, ignoring they act on different bodies.",
+        "remediationModule": "err-action-reaction-cancel",
+        "retestItem": "err-action-reaction-cancel",
+        "options": [
+          {
+            "label": "A",
+            "text": "0 N, because the forces cancel",
+            "correct": false,
+            "feedbackWrong": "Action and reaction forces act on different objects, so they don't cancel. Skater B exerts a force back on Skater A."
+          },
+          {
+            "label": "B",
+            "text": "70 N west",
+            "correct": true,
+            "feedbackCorrect": "Correct. Newton's Third Law states the reaction force is equal in magnitude and opposite in direction, acting on the other object."
+          },
+          {
+            "label": "C",
+            "text": "70 N east",
+            "correct": false,
+            "feedbackWrong": "The reaction force is opposite in direction to the action force. Skater B pushes west, not east."
+          },
+          {
+            "label": "D",
+            "text": "More than 70 N east because Skater B is larger",
+            "correct": false,
+            "feedbackWrong": "The forces are always equal in magnitude regardless of mass or size. Newton's Third Law is universal."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0723-q2",
+        "nodeId": "connected-mass-system",
+        "errorId": "err-tension-different",
+        "stem": "A cart (mass 0.50 kg) is connected by a rope over a pulley to a hanging mass (mass 0.20 kg). The system accelerates. Which statement best describes the tension in the rope?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that tension is uniform throughout the rope (assuming massless rope and frictionless pulley).",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Connected mass system tension problem directly matches the investigation of net force and acceleration.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student knows tension is identical on both ends of a rope in a connected system.",
+        "commonMisconception": "Students assume tension is greater on the heavier side or varies along the rope.",
+        "remediationModule": "err-tension-different",
+        "retestItem": "err-tension-different",
+        "options": [
+          {
+            "label": "A",
+            "text": "Tension is greater on the cart side because it has more mass.",
+            "correct": false,
+            "feedbackWrong": "In a massless rope over a frictionless pulley, tension is the same throughout. The system's acceleration arises from the net force on the total mass."
+          },
+          {
+            "label": "B",
+            "text": "Tension is greater on the hanging mass side because it is accelerating downward.",
+            "correct": false,
+            "feedbackWrong": "Tension is a contact force that is transmitted equally along the rope. Both ends experience the same tension magnitude."
+          },
+          {
+            "label": "C",
+            "text": "Tension is the same on both sides of the rope.",
+            "correct": true,
+            "feedbackCorrect": "Correct. For an ideal rope (massless and inextensible) over a frictionless pulley, the tension is uniform."
+          },
+          {
+            "label": "D",
+            "text": "Tension cannot be determined without knowing the acceleration.",
+            "correct": false,
+            "feedbackWrong": "Although we need the acceleration to calculate the tension value, the property of uniformity always holds for an ideal rope."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0723-q3",
+        "nodeId": "connected-mass-system",
+        "errorId": "err-connected-acceleration-mismatch",
+        "stem": "In the cart-hanging mass system from the lesson, the acceleration of the cart is 3.26 m/s². What is the acceleration of the hanging mass?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student recognizes that both objects in a connected system have the same magnitude of acceleration.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly related to solving for acceleration in a connected system.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands the rigid connection forces equal acceleration magnitude.",
+        "commonMisconception": "Students think the hanging mass accelerates differently (faster or slower) than the cart.",
+        "remediationModule": "err-connected-acceleration-mismatch",
+        "retestItem": "err-connected-acceleration-mismatch",
+        "options": [
+          {
+            "label": "A",
+            "text": "0 m/s² because it is hanging",
+            "correct": false,
+            "feedbackWrong": "The hanging mass is not in equilibrium; it accelerates downward. Since the rope is taut, it must accelerate at the same rate as the cart."
+          },
+          {
+            "label": "B",
+            "text": "3.26 m/s² downward",
+            "correct": true,
+            "feedbackCorrect": "Correct. Both objects are connected by a rigid rope, so they have the same magnitude and direction of acceleration (hanging mass downward, cart horizontal)."
+          },
+          {
+            "label": "C",
+            "text": "Greater than 3.26 m/s² because it is falling",
+            "correct": false,
+            "feedbackWrong": "The rope constrains the motion; the acceleration is determined by the net force on the total system, and both parts accelerate together."
+          },
+          {
+            "label": "D",
+            "text": "Less than 3.26 m/s² because it is heavier",
+            "correct": false,
+            "feedbackWrong": "Mass does not affect the acceleration ratio in a connected system; both objects have the same acceleration magnitude."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0723-q4",
+        "nodeId": "newtons-third-law",
+        "errorId": "err-direction-net-force-hanging",
+        "stem": "A 0.20 kg mass hangs from a rope and accelerates downward at 3.26 m/s². What is the direction of the net force acting on the hanging mass?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student deduces that net force is in the direction of acceleration (downward) for the hanging mass.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires application of Newton's second law to determine net force direction from acceleration.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student correctly relates net force direction to acceleration direction (downward).",
+        "commonMisconception": "Students think net force is upward because tension pulls up, or that net force is zero because the object is moving downward.",
+        "remediationModule": "err-direction-net-force-hanging",
+        "retestItem": "err-direction-net-force-hanging",
+        "options": [
+          {
+            "label": "A",
+            "text": "Upward, because tension pulls up",
+            "correct": false,
+            "feedbackWrong": "Although tension acts upward, the net force is the vector sum of weight (down) and tension (up). Since the mass accelerates downward, the net force must be downward."
+          },
+          {
+            "label": "B",
+            "text": "Downward, because it is accelerating downward",
+            "correct": true,
+            "feedbackCorrect": "Correct. According to Newton's second law, the net force is in the direction of acceleration. The hanging mass accelerates downward, so net force is downward."
+          },
+          {
+            "label": "C",
+            "text": "Zero, because the object is moving at constant speed",
+            "correct": false,
+            "feedbackWrong": "The problem states acceleration is 3.26 m/s², not constant speed. A net force is required to accelerate."
+          },
+          {
+            "label": "D",
+            "text": "Depends on the tension value",
+            "correct": false,
+            "feedbackWrong": "The direction of net force is determined by the direction of acceleration. Once we know acceleration is downward, net force must be downward regardless of the tension magnitude."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-action-reaction-cancel",
+      "condition": "student picks option that says action and reaction forces cancel because they are equal and opposite (Question 1).",
+      "systemAction": "assign reteach module for err-action-reaction-cancel",
+      "studentMessage": "Remember: action and reaction forces act on different objects, so they don't cancel. We'll review that."
+    },
+    {
+      "errorId": "err-tension-different",
+      "condition": "student picks option implying tension differs at ends of a rope (Question 2).",
+      "systemAction": "assign reteach module for err-tension-different",
+      "studentMessage": "In a connected system with a massless rope, tension is the same for both objects. Let's practice."
+    },
+    {
+      "errorId": "err-connected-acceleration-mismatch",
+      "condition": "student picks option suggesting different accelerations for connected objects (Question 3).",
+      "systemAction": "assign reteach module for err-connected-acceleration-mismatch",
+      "studentMessage": "Objects connected by a rigid link share the same acceleration. We'll work on that."
+    },
+    {
+      "errorId": "err-direction-net-force-hanging",
+      "condition": "student picks option with upward net force for a hanging object accelerating downward (Question 4).",
+      "systemAction": "assign reteach module for err-direction-net-force-hanging",
+      "studentMessage": "If an object accelerates downward, the net force must also be downward. Let's revisit."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-action-reaction-cancel",
+      "trigger": "student selected option A in question 1 (diagnostic) indicating forces cancel",
+      "studentMisunderstanding": "Students think action and reaction forces cancel because they are equal and opposite, ignoring that they act on different objects.",
+      "miniLesson": {
+        "explain": "According to Newton's Third Law, for every action force there is an equal and opposite reaction force. However, these forces act on different objects, so they do not cancel each other. Cancellation requires forces to act on the same object. For example, when two skaters push on each other, Skater A exerts 70 N east on Skater B, and Skater B exerts 70 N west on Skater A. These forces are on different skaters, so they don't cancel. Each skater experiences a net force from the other, causing them to move apart.",
+        "example": "In the lesson, a cart and hanging mass system with acceleration 3.26 m/s² and tension 1.57 N demonstrates that forces are not canceled; the hanging mass accelerates downward because the net force is downward.",
+        "memoryAnchor": "Remember: Action and reaction forces are like a handshake – your hand pushes on theirs, their hand pushes on yours. They don't cancel because they're on different hands!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Two skaters, A and B, are at rest on ice. Skater A pushes Skater B with a force of 70 N to the east. According to Newton's Third Law, what is the force that Skater B exerts on Skater A? Do these forces cancel? Why or why not?",
+          "answer": "Skater B exerts 70 N west on Skater A. The forces do not cancel because they act on different objects: one on Skater B, the other on Skater A."
+        },
+        {
+          "level": "L2",
+          "prompt": "A 0.20 kg hanging mass and a 0.50 kg cart are connected by a rope. The system accelerates downward at 3.26 m/s². Identify the action-reaction pair between the hanging mass and the rope. Explain why these forces do not cancel.",
+          "answer": "The action-reaction pair: the rope pulls up on the mass (tension force) and the mass pulls down on the rope. Both forces have magnitude 1.57 N but act on different objects (rope vs. mass), so they do not cancel."
+        },
+        {
+          "level": "L3",
+          "prompt": "A rocket launches by expelling gas downward. The gas exerts an upward force on the rocket (thrust). According to Newton's Third Law, what is the reaction force? Explain why the rocket accelerates upward even though the forces are equal and opposite.",
+          "answer": "The reaction force is the rocket pushing down on the gas. The thrust on the rocket is an upward force, while the force on the gas is downward. They act on different objects, so they don't cancel. The rocket accelerates upward because the net force on the rocket is upward (thrust exceeds weight)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-tension-different",
+      "trigger": "student picks option implying tension differs at ends of a rope (Question 2)",
+      "studentMisunderstanding": "Students assume tension is different on each end of a rope in a connected system.",
+      "miniLesson": {
+        "explain": "In a connected system with a massless, inextensible rope over a frictionless pulley, the tension is the same throughout the rope. Both objects experience the same magnitude of tension because the rope transmits force equally. This is a key property for solving problems with connected masses.",
+        "example": "In the lesson's cart (0.50 kg) and hanging mass (0.20 kg) system, the calculated tension is 1.57 N. This tension acts on the cart to the right and on the hanging mass upward, but both are 1.57 N.",
+        "memoryAnchor": "Tension is like a handshake - both ends feel the same force."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a connected system with a cart and hanging mass, is the tension on the cart side greater, less, or the same as on the hanging mass side?",
+          "answer": "The same."
+        },
+        {
+          "level": "L2",
+          "prompt": "If the tension in the rope is 1.57 N, what is the tension on the hanging mass side?",
+          "answer": "1.57 N."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the tension is the same on both ends of a rope in an ideal connected system, using the values from the lesson if needed.",
+          "answer": "Because the rope is massless and inextensible, and both objects are connected; the tension is transmitted equally. In the lesson, the tension was calculated as 1.57 N for both the cart and hanging mass."
+        }
+      ]
+    },
+    {
+      "errorId": "err-connected-acceleration-mismatch",
+      "trigger": "Student selects an option indicating that the hanging mass accelerates differently from the cart in a connected system.",
+      "studentMisunderstanding": "Students think objects in a connected system may have different accelerations, forgetting that a rigid connection forces them to accelerate together.",
+      "miniLesson": {
+        "explain": "In a connected system, objects are linked by a taut, inextensible rope. This forces them to move as one unit: the magnitude of acceleration is the same for all parts. For example, in the cart-hanging mass system from the lesson, both the cart and the hanging mass share the same acceleration magnitude (3.26 m/s²). The direction may differ (the cart moves horizontally, the hanging mass moves vertically), but the rate of change of speed is identical.",
+        "example": "Consider a cart (0.50 kg) connected by a rope over a pulley to a hanging mass (0.20 kg). The system accelerates; the lesson calculated the acceleration as 3.26 m/s². This single value applies to both objects: the cart accelerates horizontally at 3.26 m/s², and the hanging mass accelerates downward at 3.26 m/s².",
+        "memoryAnchor": "Think of train cars coupled together: they all start and stop at the same rate. Connected objects move in sync."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A 0.50 kg cart and a 0.20 kg hanging mass are connected by a rope. If the system's acceleration is 3.26 m/s², what is the acceleration of the cart?",
+          "answer": "3.26 m/s²"
+        },
+        {
+          "level": "L2",
+          "prompt": "A 2.0 kg block on a table is connected by a rope to a 1.0 kg hanging mass. The system accelerates at 2.0 m/s². What is the acceleration of the hanging mass?",
+          "answer": "2.0 m/s²"
+        },
+        {
+          "level": "L3",
+          "prompt": "Two objects, masses 3.0 kg and 2.0 kg, are connected by a rope and accelerate. Which statement is correct? A) The heavier mass accelerates faster. B) The lighter mass accelerates faster. C) Both have the same acceleration. Explain why.",
+          "answer": "C: Both have the same acceleration because they are rigidly connected by a rope. The acceleration is determined by the net force on the entire system divided by the total mass."
+        }
+      ]
+    },
+    {
+      "errorId": "err-direction-net-force-hanging",
+      "trigger": "Student picks option with upward net force for a hanging object accelerating downward (Question 4).",
+      "studentMisunderstanding": "Students think the net force on the hanging object is upward because tension acts upward, or that net force is zero because the object is moving downward. They forget that net force is determined by the direction of acceleration, not by individual forces.",
+      "miniLesson": {
+        "explain": "Newton's Second Law states that the net force on an object is equal to its mass times its acceleration, and the net force always points in the same direction as the acceleration. For a hanging mass accelerating downward, the net force must be downward, even though tension pulls upward. The net force is the vector sum of all forces. Since acceleration is downward, the downward gravitational force (weight) must be greater than the upward tension. The net force is the difference (weight minus tension) and points downward.",
+        "example": "In the cart and hanging mass system from the lesson, the hanging mass accelerates downward at 3.26 m/s². The net force on the hanging mass is the product of its mass and acceleration, and must be downward. The downward weight is larger than the upward tension, causing the net downward force.",
+        "memoryAnchor": "Remember: Net force is the arrow of acceleration—if it speeds up downward, net force points down."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A hanging object accelerates downward. In which direction is the net force acting on it?",
+          "answer": "Downward."
+        },
+        {
+          "level": "L2",
+          "prompt": "In a connected system, a hanging mass accelerates downward at 3.26 m/s². Compare the magnitudes of the weight and tension forces acting on the hanging mass.",
+          "answer": "Weight is larger than tension."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given that the net force on a hanging mass is downward, what must be true about the relationship between the weight and tension forces?",
+          "answer": "Weight must be greater than tension."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-action-reaction-cancel",
+      "questions": [
+        {
+          "id": "retest-action-reaction-q1",
+          "type": "single_choice",
+          "stem": "Two skaters, A and B, are on ice. Skater A pushes Skater B with a force of 70 N to the east. Which statement correctly describes the forces?",
+          "options": [
+            "The two forces are equal and opposite, so they cancel and neither skater moves.",
+            "Skater B exerts a 70 N force west on Skater A; the forces act on different objects and do not cancel.",
+            "Skater B exerts a 70 N force east on Skater A; the forces add to 140 N east.",
+            "The forces are equal and opposite, but they cancel only if the skaters have equal mass."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-action-reaction-q2",
+          "type": "open_ended",
+          "stem": "Explain why action and reaction forces, as described by Newton's Third Law, do not cancel each other out. Use the example of a 0.20 kg hanging mass accelerating downward while connected to a cart.",
+          "rubric": "Student must state that action and reaction forces act on different objects, so they cannot cancel. In the example, the tension in the rope pulls up on the mass (action) while the mass pulls down on the rope (reaction). These forces are on different objects (mass vs. rope), so they do not cancel. The net force on the mass is downward because tension is less than weight."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-tension-different",
+      "questions": [
+        {
+          "id": "errtensiondiff_1",
+          "type": "single_choice",
+          "stem": "Two objects are connected by a massless, inextensible rope over a frictionless pulley. Which of the following is true about the tension in the rope?",
+          "options": [
+            "The tension is greater on the side of the heavier object.",
+            "The tension is greater on the side of the lighter object.",
+            "The tension is the same on both sides of the rope.",
+            "The tension depends on the acceleration of the system."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "errtensiondiff_2",
+          "type": "open_ended",
+          "stem": "A student claims that in a connected system like the cart and hanging mass from class, the tension on the cart must be different from the tension on the hanging mass because they have different masses. Explain why this reasoning is incorrect. In your answer, refer to the properties of the rope and Newton's laws.",
+          "rubric": "The student must state that the rope is massless and inextensible, so tension is transmitted equally throughout. They should also mention that the tension is the same on both objects because the rope applies equal force on each end, following Newton's Third Law? Actually, it's not Third Law directly; it's about the rope's tension being uniform. The correct explanation: The rope is light (massless) and does not stretch, so the force at one end is instantly transmitted to the other end without change. Both objects experience the same magnitude of tension. (Full marks: clear reference to rope properties and equal tension; partial: mentions equal acceleration but not directly tension)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the response must clearly state that tension is the same on both ends and explain why (e.g., massless, inextensible rope)."
+    },
+    {
+      "forErrorId": "err-connected-acceleration-mismatch",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In a connected system like the cart and hanging mass from the lesson, the rope is unstretchable and the pulley is frictionless. What can you say about the magnitudes of acceleration of the two objects?",
+          "options": [
+            "The cart accelerates faster because it has more mass.",
+            "The hanging mass accelerates faster because gravity pulls it directly.",
+            "Both objects have the same magnitude of acceleration.",
+            "The accelerations are unrelated because they move in different directions."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Consider a 2.0 kg block on a frictionless table connected by a rope over a pulley to a 1.0 kg hanging mass. The system accelerates. Explain why the block and the hanging mass have accelerations of the same magnitude, even though they move in different directions.",
+          "rubric": "Student must state that the rope is inextensible, so both objects move the same distance in the same time, resulting in equal speed and equal magnitude of acceleration. The direction differs due to the pulley, but the magnitude is the same because they are rigidly connected. Expected key phrases: 'inextensible rope', 'same displacement/time', 'same acceleration magnitude'."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For Q1, correct option is index 2. For Q2, answer must include the concept that the rope forces the same magnitude of acceleration due to inextensibility."
+    },
+    {
+      "forErrorId": "err-direction-net-force-hanging",
+      "questions": [
+        {
+          "id": "retest-err-direction-net-force-hanging-1",
+          "type": "single_choice",
+          "stem": "A hanging mass is accelerating downward. In which direction does the net force act on the mass?",
+          "options": [
+            "Upward",
+            "Downward",
+            "Zero (no net force)",
+            "Cannot determine without mass value"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-direction-net-force-hanging-2",
+          "type": "open_ended",
+          "stem": "A hanging mass in a connected system accelerates downward. Using Newton's second law, explain why the net force must be downward and how the magnitudes of weight and tension compare.",
+          "rubric": "Correct answer must state that net force direction equals acceleration direction (downward), so weight (down) > tension (up). Accept reference to F_net = ma and vector sum."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-23",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/H3bTdGXTWoEuAexDxwScKb0Endh?from=vc_group_doc_link#doxcnOyXJNWi4xr0xRjPJvDTrtb",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-23 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Tension in a connecting rope is identical for both objects in a connected system.；In a connected system, components are rigidly connected and share the same acceleration.；For a hanging object moving downward, gravitational force must be greater than rope tension.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply Newton's Third Law to identify action-reaction force pairs acting on different objects."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Analyze connected mass systems to determine uniform acceleration and tension."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Calculate net force, acceleration, and tension in a connected system."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Next class scheduled for 2026-07-24",
+        "studentAction": "Attend the next physics class on 2026-07-24 at the same time (09:59-11:59 GMT+8).",
+        "deadlineText": "2026-07-24",
+        "deadlineISO": "2026-07-24T09:59:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students in SPH3U.S6",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the next session will be held as scheduled on the following day",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "newtons-third-law",
+      "connected-mass-system"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-action-reaction-cancel",
+        "condition": "student picks option that says action and reaction forces cancel because they are equal and opposite (Question 1).",
+        "systemAction": "assign reteach module for err-action-reaction-cancel"
+      },
+      {
+        "errorId": "err-tension-different",
+        "condition": "student picks option implying tension differs at ends of a rope (Question 2).",
+        "systemAction": "assign reteach module for err-tension-different"
+      },
+      {
+        "errorId": "err-connected-acceleration-mismatch",
+        "condition": "student picks option suggesting different accelerations for connected objects (Question 3).",
+        "systemAction": "assign reteach module for err-connected-acceleration-mismatch"
+      },
+      {
+        "errorId": "err-direction-net-force-hanging",
+        "condition": "student picks option with upward net force for a hanging object accelerating downward (Question 4).",
+        "systemAction": "assign reteach module for err-direction-net-force-hanging"
+      }
+    ],
+    "nextActions": [
+      "[err-action-reaction-cancel] student picks option that says action and reaction forces cancel because they are equal and opposite (Question 1).: Remember: action and reaction forces act on different objects, so they don't cancel. We'll review that.",
+      "[err-tension-different] student picks option implying tension differs at ends of a rope (Question 2).: In a connected system with a massless rope, tension is the same for both objects. Let's practice.",
+      "[err-connected-acceleration-mismatch] student picks option suggesting different accelerations for connected objects (Question 3).: Objects connected by a rigid link share the same acceleration. We'll work on that.",
+      "[err-direction-net-force-hanging] student picks option with upward net force for a hanging object accelerating downward (Question 4).: If an object accelerates downward, the net force must also be downward. Let's revisit."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-s6-0723-q1",
+        "type": "choice",
+        "question": "Two skaters push on each other. Skater A exerts a force of 70 N east on Skater B. According to Newton's Third Law, what is the force exerted by Skater B on Skater A?",
+        "options": [
+          "0 N, because the forces cancel",
+          "70 N west",
+          "70 N east",
+          "More than 70 N east because Skater B is larger"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can identify action-reaction pairs and understand they are equal and opposite on different objects.",
+        "misconceptions": [
+          "Action and reaction forces act on different objects, so they don't cancel. Skater B exerts a force back on Skater A.",
+          "✓ Correct. Newton's Third Law states the reaction force is equal in magnitude and opposite in direction, acting on the other object.",
+          "The reaction force is opposite in direction to the action force. Skater B pushes west, not east.",
+          "The forces are always equal in magnitude regardless of mass or size. Newton's Third Law is universal."
+        ],
+        "nodeId": "newtons-third-law",
+        "errorId": "err-action-reaction-cancel",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies the reaction force as 70 N west.",
+        "ossdExpectation": "Analyse and propose improvements to technologies that apply concepts related to dynamics and Newton's laws, and assess their social and environmental impact.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "SPH3U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses Newton's Third Law, which is core to dynamics and Newton's laws.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think the forces cancel each other because they are equal and opposite, ignoring they act on different bodies.",
+        "remediationModule": "err-action-reaction-cancel",
+        "retestItem": "err-action-reaction-cancel"
+      },
+      {
+        "id": "diag-sph3u-s6-0723-q2",
+        "type": "choice",
+        "question": "A cart (mass 0.50 kg) is connected by a rope over a pulley to a hanging mass (mass 0.20 kg). The system accelerates. Which statement best describes the tension in the rope?",
+        "options": [
+          "Tension is greater on the cart side because it has more mass.",
+          "Tension is greater on the hanging mass side because it is accelerating downward.",
+          "Tension is the same on both sides of the rope.",
+          "Tension cannot be determined without knowing the acceleration."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student knows tension is identical on both ends of a rope in a connected system.",
+        "misconceptions": [
+          "In a massless rope over a frictionless pulley, tension is the same throughout. The system's acceleration arises from the net force on the total mass.",
+          "Tension is a contact force that is transmitted equally along the rope. Both ends experience the same tension magnitude.",
+          "✓ Correct. For an ideal rope (massless and inextensible) over a frictionless pulley, the tension is uniform.",
+          "Although we need the acceleration to calculate the tension value, the property of uniformity always holds for an ideal rope."
+        ],
+        "nodeId": "connected-mass-system",
+        "errorId": "err-tension-different",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that tension is uniform throughout the rope (assuming massless rope and frictionless pulley).",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Connected mass system tension problem directly matches the investigation of net force and acceleration.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students assume tension is greater on the heavier side or varies along the rope.",
+        "remediationModule": "err-tension-different",
+        "retestItem": "err-tension-different"
+      },
+      {
+        "id": "diag-sph3u-s6-0723-q3",
+        "type": "choice",
+        "question": "In the cart-hanging mass system from the lesson, the acceleration of the cart is 3.26 m/s². What is the acceleration of the hanging mass?",
+        "options": [
+          "0 m/s² because it is hanging",
+          "3.26 m/s² downward",
+          "Greater than 3.26 m/s² because it is falling",
+          "Less than 3.26 m/s² because it is heavier"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands the rigid connection forces equal acceleration magnitude.",
+        "misconceptions": [
+          "The hanging mass is not in equilibrium; it accelerates downward. Since the rope is taut, it must accelerate at the same rate as the cart.",
+          "✓ Correct. Both objects are connected by a rigid rope, so they have the same magnitude and direction of acceleration (hanging mass downward, cart horizontal).",
+          "The rope constrains the motion; the acceleration is determined by the net force on the total system, and both parts accelerate together.",
+          "Mass does not affect the acceleration ratio in a connected system; both objects have the same acceleration magnitude."
+        ],
+        "nodeId": "connected-mass-system",
+        "errorId": "err-connected-acceleration-mismatch",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student recognizes that both objects in a connected system have the same magnitude of acceleration.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly related to solving for acceleration in a connected system.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think the hanging mass accelerates differently (faster or slower) than the cart.",
+        "remediationModule": "err-connected-acceleration-mismatch",
+        "retestItem": "err-connected-acceleration-mismatch"
+      },
+      {
+        "id": "diag-sph3u-s6-0723-q4",
+        "type": "choice",
+        "question": "A 0.20 kg mass hangs from a rope and accelerates downward at 3.26 m/s². What is the direction of the net force acting on the hanging mass?",
+        "options": [
+          "Upward, because tension pulls up",
+          "Downward, because it is accelerating downward",
+          "Zero, because the object is moving at constant speed",
+          "Depends on the tension value"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student correctly relates net force direction to acceleration direction (downward).",
+        "misconceptions": [
+          "Although tension acts upward, the net force is the vector sum of weight (down) and tension (up). Since the mass accelerates downward, the net force must be downward.",
+          "✓ Correct. According to Newton's second law, the net force is in the direction of acceleration. The hanging mass accelerates downward, so net force is downward.",
+          "The problem states acceleration is 3.26 m/s², not constant speed. A net force is required to accelerate.",
+          "The direction of net force is determined by the direction of acceleration. Once we know acceleration is downward, net force must be downward regardless of the tension magnitude."
+        ],
+        "nodeId": "newtons-third-law",
+        "errorId": "err-direction-net-force-hanging",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student deduces that net force is in the direction of acceleration (downward) for the hanging mass.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires application of Newton's second law to determine net force direction from acceleration.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students think net force is upward because tension pulls up, or that net force is zero because the object is moving downward.",
+        "remediationModule": "err-direction-net-force-hanging",
+        "retestItem": "err-direction-net-force-hanging"
+      }
+    ]
+  }
+}

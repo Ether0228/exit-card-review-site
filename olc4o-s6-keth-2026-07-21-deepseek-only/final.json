@@ -1,0 +1,1170 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-21",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/YfzxdjnHvoRcPEx9DqZciVcmnIf?from=vc_group_doc_link#doxcnFugpx9L4iA6lyvixyiVa8d",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-21 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/YfzxdjnHvoRcPEx9DqZciVcmnIf?from=vc_group_doc_link#doxcnFugpx9L4iA6lyvixyiVa8d",
+    "title": "OLC4O.S6.Keth 2026-07-21 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-23/sources/olc4o-s6-keth-2026-07-21/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-21",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-21",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes both unit feedback/academic integrity warnings (admin/assignment) and new instruction on Unit 2 rhetorical situation framework (academic content).",
+    "academicContentSignals": [
+      "Rhetorical triangle framework: text, author, audience, context, purpose",
+      "Audience analysis: no universal audience; consider demographics, prior knowledge, attitudes, mixed audiences",
+      "Purpose identification: exigence, distinguishing informative vs persuasive, mixed purposes",
+      "Context analysis: time, environment, legal rules, cultural background, medium",
+      "Information relevance: balance known vs needed information",
+      "Unit 2 theme: Knowing the Community",
+      "Writing as social action, not grammar memorization"
+    ],
+    "courseOverviewSignals": [
+      "Unit 2 theme 'Knowing the Community' and its focus on practical communication skills for academic and professional scenarios",
+      "Rhetorical triangle as core framework for analyzing communication"
+    ],
+    "opsDominanceRisk": "High risk that operations (resubmission deadlines, plagiarism warnings, assignment submission, peer review) could overshadow rhetorical instruction; ensure diagnostic exit card primarily tests academic content (rhetorical triangle, audience, purpose, context) with at most 1-2 lightweight readiness checks on logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Resubmit pending Unit 1 assignments with revisions",
+        "studentAction": "Revise pending assignments per feedback (headline/lead rules, dateline all caps, add image captions, expand lead, select newsworthy topics) and resubmit.",
+        "deadlineText": "Before the 4-hour remaining deadline (from class end)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students with pending Unit 1 assignments",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "\"All students can revise their pending assignments per the above guidance and resubmit before the 4-hour remaining deadline\"",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Complete Unit 2 Lesson 10 analysis matrix for 2 non-fiction texts",
+        "studentAction": "Select 2 non-fiction English texts not used in course (no fiction), fill analysis matrix with text evidence for audience, purpose, context, and evaluate effectiveness. Take clear screenshot and post to OneNote.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "\"After completing the full analysis matrix including text titles and source links, take a clear screenshot of the completed document and post it to the designated OneNote workspace.\"",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Peer review 2 classmates' analysis matrices",
+        "studentAction": "Visit at least 2 other classmates' submitted work and leave specific, actionable feedback on their analysis.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "\"All students must visit at least 2 other classmates' submitted work and leave specific, actionable feedback on their analysis to fully meet all assignment requirements.\"",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Plagiarism public naming policy change",
+        "studentAction": "Be aware that future confirmed plagiarism cases will be publicly named in class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "\"all future confirmed plagiarism cases will be publicly named in class\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "follow_up_action",
+        "title": "Schedule one-on-one appeal for plagiarism determination",
+        "studentAction": "If disagree with plagiarism finding, schedule a one-on-one verbal conference with instructor to present justifications.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students flagged for plagiarism",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "\"Students who disagree with the instructor's plagiarism determination can schedule a one-on-one verbal conference to present their justifications\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "follow_up_action",
+        "title": "DM instructor for text selection guidance",
+        "studentAction": "Send a direct message to instructor if need help selecting eligible non-fiction texts.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students needing selection support",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"Students who need guidance on eligible text selection can send a direct message to the instructor for personalized suggestions\"",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Resubmit before the 4-hour remaining deadline",
+        "reason": "Deadline is relative to class end; exact time not specified. Needs human confirmation of deadline time."
+      },
+      {
+        "rawText": "Post completed matrix screenshot to designated OneNote workspace",
+        "reason": "Specific OneNote workspace link or path not provided in notes."
+      },
+      {
+        "rawText": "Due date for new Unit 2 analysis matrix assignment",
+        "reason": "No deadline mentioned for the new assignment (matrix, screenshot, peer review)."
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（修辞三角框架、受众分析、目的分析、语境分析）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 5 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The rhetorical triangle framework consists of text, author, audience, context, and purpose.；Headlines must use active present-tense verbs and stay under 5 words.；Leads must cover all W5H details within 35 words.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Analyze a non-fiction text using the rhetorical triangle (text, author, audience, context, purpose)."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply audience analysis principles by describing specific demographics, knowledge, and attitudes, rejecting a vague 'general public'."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Distinguish between informational, persuasive, and mixed purposes, identifying the exigence."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Examine contextual factors including time, environment, culture, legal rules, and delivery medium."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Write an effective headline using an active present-tense verb and staying under 5 words."
+    },
+    {
+      "id": "lg-6",
+      "statement": "Determine relevance by balancing what the audience already knows with what they need to know."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "rhetorical-triangle",
+      "name": "修辞三角框架",
+      "nameEn": "Rhetorical Triangle Framework",
+      "definition": "A model for analyzing communication that includes text (the message), author (creator), audience (recipient), context (surrounding environment), and purpose (central goal).",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "audience-analysis",
+      "name": "受众分析",
+      "nameEn": "Audience Analysis",
+      "definition": "Identifying the specific demographic, knowledge level, and attitudes of the intended readers, recognizing that there is no universal 'general public' and that mixed audiences may have different needs.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    },
+    {
+      "id": "purpose-analysis",
+      "name": "目的分析",
+      "nameEn": "Purpose Analysis",
+      "definition": "Clarifying the exigence (core motivation) of a text and distinguishing between informational, persuasive, or mixed purposes.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    },
+    {
+      "id": "context-analysis",
+      "name": "语境分析",
+      "nameEn": "Context Analysis",
+      "definition": "Examining the time, environment, legal rules, cultural background, and delivery medium that influence the creation and interpretation of a text.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "relevance-in-communication",
+      "name": "信息相关性",
+      "nameEn": "Relevance in Communication",
+      "definition": "The principle that effective communication balances what the audience already knows with what they need to know, avoiding redundant details and omitting critical gaps.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "OLC4O-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Analyze a non-fiction text using the rhetorical triangle (text, author, audience, context, purpose)."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply audience analysis principles by describing specific demographics, knowledge, and attitudes, rejecting a vague 'general public'."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between informational, persuasive, and mixed purposes, identifying the exigence."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Examine contextual factors including time, environment, culture, legal rules, and delivery medium."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Write an effective headline using an active present-tense verb and staying under 5 words."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Determine relevance by balancing what the audience already knows with what they need to know."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-audience-general-public",
+        "condition": "Student picks wrong option on Q1 or Q6, or open-ended answer on Q6 lacks specificity.",
+        "systemAction": "Assign reteach module for err-audience-general-public.",
+        "studentMessage": "You need to break down the audience more. There's no such thing as 'general public' — specify demographics, knowledge, and attitudes."
+      },
+      {
+        "errorId": "err-purpose-only-informational",
+        "condition": "Student picks wrong option on Q2.",
+        "systemAction": "Assign reteach module for err-purpose-only-informational.",
+        "studentMessage": "Many texts have mixed or persuasive purposes. Look for the exigence and what the author wants the audience to do."
+      },
+      {
+        "errorId": "err-context-only-time",
+        "condition": "Student picks wrong option on Q3.",
+        "systemAction": "Assign reteach module for err-context-only-time.",
+        "studentMessage": "Context includes culture, law, medium, and environment—not just the date."
+      },
+      {
+        "errorId": "err-relevance-all-info",
+        "condition": "Student picks wrong option on Q4 or fails Q7 rubric.",
+        "systemAction": "Assign reteach module for err-relevance-all-info.",
+        "studentMessage": "Effective communication leaves out what the audience already knows and adds only what they need."
+      },
+      {
+        "errorId": "err-headline-missing-verb",
+        "condition": "Student's open-ended headline on Q5 lacks an active present-tense verb or exceeds 5 words.",
+        "systemAction": "Assign reteach module for err-headline-missing-verb.",
+        "studentMessage": "Headlines need a strong active verb. Keep it short and immediate."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-s6-0721-q1",
+        "nodeId": "audience-analysis",
+        "errorId": "err-audience-general-public",
+        "stem": "A company is launching a new smartphone. The marketing team describes the audience as “the general public.” The diagram below illustrates different ways to think about the audience. According to the lesson, what is the main problem with this description?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that 'general public' is too vague and must be broken down by demographics, knowledge, attitudes.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Audience analysis is a reading strategy for understanding text meaning.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes that audience must be specified beyond a vague label.",
+        "commonMisconception": "Students think 'general public' is acceptable and covers everyone.",
+        "remediationModule": "err-audience-general-public",
+        "retestItem": "err-audience-general-public",
+        "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 200\"><ellipse cx=\"100\" cy=\"100\" rx=\"60\" ry=\"40\" fill=\"#ccc\" opacity=\"0.5\" stroke=\"black\" stroke-dasharray=\"5,5\"/><text x=\"100\" y=\"105\" text-anchor=\"middle\" font-size=\"12\" fill=\"black\">General Public</text><circle cx=\"250\" cy=\"60\" r=\"20\" fill=\"#aaf\"/><text x=\"250\" y=\"65\" text-anchor=\"middle\" font-size=\"10\">Tech</text><circle cx=\"300\" cy=\"120\" r=\"20\" fill=\"#afa\"/><text x=\"300\" y=\"125\" text-anchor=\"middle\" font-size=\"10\">Budget</text><circle cx=\"200\" cy=\"140\" r=\"20\" fill=\"#faa\"/><text x=\"200\" y=\"145\" text-anchor=\"middle\" font-size=\"10\">Pro</text><line x1=\"250\" y1=\"80\" x2=\"250\" y2=\"160\" stroke=\"black\" marker-end=\"url(#arrow)\"/><line x1=\"300\" y1=\"100\" x2=\"280\" y2=\"160\" stroke=\"black\" marker-end=\"url(#arrow)\"/><line x1=\"200\" y1=\"120\" x2=\"220\" y2=\"160\" stroke=\"black\" marker-end=\"url(#arrow)\"/><defs><marker id=\"arrow\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M 0 0 L 10 5 L 0 10 z\" fill=\"black\"/></marker></defs><rect x=\"230\" y=\"160\" width=\"40\" height=\"30\" rx=\"5\" fill=\"#ddd\" stroke=\"black\"/><text x=\"250\" y=\"180\" text-anchor=\"middle\" font-size=\"8\">Phone</text></svg>",
+        "figureAlt": "Diagram showing a blurry 'General Public' label on the left versus distinct audience segments (Tech, Budget, Pro) on the right, connected to a smartphone icon. This illustrates that effective communication targets specific groups, not a vague general public.",
+        "options": [
+          {
+            "label": "A",
+            "text": "It is correct because everyone is a potential customer.",
+            "correct": false,
+            "feedbackWrong": "Not everyone uses smartphones the same way. Age, tech knowledge, and budget matter. You must segment the audience."
+          },
+          {
+            "label": "B",
+            "text": "It is fine because 'general public' is a standard term in marketing.",
+            "correct": false,
+            "feedbackWrong": "Standard doesn't mean effective. The lesson said no universal 'general public' exists; writers must analyze specific groups."
+          },
+          {
+            "label": "C",
+            "text": "It is too vague; the team should specify demographics, knowledge level, and attitudes.",
+            "correct": true,
+            "feedbackCorrect": "Exactly. Effective communication targets a specific audience, not everyone."
+          },
+          {
+            "label": "D",
+            "text": "It is wrong because only experts should be targeted.",
+            "correct": false,
+            "feedbackWrong": "That's too narrow. The problem is vagueness, not exclusivity."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0721-q2",
+        "nodeId": "purpose-analysis",
+        "errorId": "err-purpose-only-informational",
+        "stem": "A newspaper article titled “New Park Opens in Downtown” includes quotes from the mayor encouraging citizens to visit. What is the likely purpose?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies a mixed purpose: informing about the opening and persuading people to visit.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Purpose analysis is a reading strategy for understanding text meaning.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes that a text can have both informational and persuasive elements.",
+        "commonMisconception": "Students assume all news is purely informational and ignore persuasive elements.",
+        "remediationModule": "err-purpose-only-informational",
+        "retestItem": "err-purpose-only-informational",
+        "options": [
+          {
+            "label": "A",
+            "text": "Only informational — it reports a fact.",
+            "correct": false,
+            "feedbackWrong": "But the mayor's quote pushes action. That's persuasive. The text has a mixed purpose."
+          },
+          {
+            "label": "B",
+            "text": "Only persuasive — the mayor wants people to come.",
+            "correct": false,
+            "feedbackWrong": "It also provides factual information about the park opening. So it's not purely persuasive."
+          },
+          {
+            "label": "C",
+            "text": "Mixed — it informs about the opening and persuades people to visit.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Many texts blend both aims."
+          },
+          {
+            "label": "D",
+            "text": "Neither — it is just a generic announcement.",
+            "correct": false,
+            "feedbackWrong": "Every announcement has a purpose. This one combines information with encouragement."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0721-q3",
+        "nodeId": "context-analysis",
+        "errorId": "err-context-only-time",
+        "stem": "When analyzing a speech given by a CEO during a company crisis, which of the following is an essential contextual factor?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student selects an answer that includes cultural, legal, or medium factors beyond just time.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding context helps analyze text structure and features.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes multiple dimensions of context.",
+        "commonMisconception": "Students think only the date or time of publication matters.",
+        "remediationModule": "err-context-only-time",
+        "retestItem": "err-context-only-time",
+        "options": [
+          {
+            "label": "A",
+            "text": "Only the date when the speech was delivered.",
+            "correct": false,
+            "feedbackWrong": "Time is part of context, but culture, legal rules, and the delivery medium also matter."
+          },
+          {
+            "label": "B",
+            "text": "The speaker’s personal hobbies.",
+            "correct": false,
+            "feedbackWrong": "Personal hobbies are not usually contextual factors. Focus on time, environment, culture, law, medium."
+          },
+          {
+            "label": "C",
+            "text": "The company’s reputation and the regulatory environment at the time.",
+            "correct": true,
+            "feedbackCorrect": "Yes. Context includes cultural and legal factors, not just time."
+          },
+          {
+            "label": "D",
+            "text": "The audience's favorite color.",
+            "correct": false,
+            "feedbackWrong": "That's irrelevant. Context covers time, environment, law, culture, and medium."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0721-q4",
+        "nodeId": "relevance-in-communication",
+        "errorId": "err-relevance-all-info",
+        "stem": "A student is writing a one-page summary of a novel for classmates who have already read it. Which approach best applies the principle of relevance?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-6",
+        "successCriteria": "Student chooses an answer that balances known vs. needed info.",
+        "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "OLC4O-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Relevance is key to effective communication in daily life.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can apply relevance principle to a realistic scenario.",
+        "commonMisconception": "Students include all details, assuming more is better.",
+        "remediationModule": "err-relevance-all-info",
+        "retestItem": "err-relevance-all-info",
+        "options": [
+          {
+            "label": "A",
+            "text": "Include a full plot summary because every detail is important.",
+            "correct": false,
+            "feedbackWrong": "Classmates already know the plot. You only need to highlight analysis or fresh insights."
+          },
+          {
+            "label": "B",
+            "text": "Focus only on key themes and character development, assuming readers know the plot.",
+            "correct": true,
+            "feedbackCorrect": "Exactly. Avoid redundancy; give what they need."
+          },
+          {
+            "label": "C",
+            "text": "Rewrite the novel from scratch to ensure completeness.",
+            "correct": false,
+            "feedbackWrong": "That is excessive and ignores the audience's prior knowledge."
+          },
+          {
+            "label": "D",
+            "text": "Ask each classmate what they want to know before writing.",
+            "correct": false,
+            "feedbackWrong": "While considerate, it's not the best application of relevance. The principle is to balance known and needed info."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0721-q5",
+        "nodeId": "rhetorical-triangle",
+        "errorId": "err-headline-missing-verb",
+        "stem": "The following headline is weak: “City Library Fundraising Event.” Revise it so that it includes an active present-tense verb and stays under 5 words.",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student provides a headline that uses an active present-tense verb, is 5 words or fewer, and conveys urgency or action.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Headline writing tests understanding of text features.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can apply headline rules: active verb, under 5 words.",
+        "commonMisconception": "Students omit the verb or use passive voice.",
+        "remediationModule": "err-headline-missing-verb",
+        "retestItem": "err-headline-missing-verb",
+        "rubric": "Must: (1) contain an active present-tense verb, (2) be 5 words or fewer, (3) clearly relate to the event.",
+        "sampleStrongAnswer": "Library Fundraiser Kicks Off"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-audience-general-public",
+      "condition": "Student picks wrong option on Q1 or Q6, or open-ended answer on Q6 lacks specificity.",
+      "systemAction": "Assign reteach module for err-audience-general-public.",
+      "studentMessage": "You need to break down the audience more. There's no such thing as 'general public' — specify demographics, knowledge, and attitudes."
+    },
+    {
+      "errorId": "err-purpose-only-informational",
+      "condition": "Student picks wrong option on Q2.",
+      "systemAction": "Assign reteach module for err-purpose-only-informational.",
+      "studentMessage": "Many texts have mixed or persuasive purposes. Look for the exigence and what the author wants the audience to do."
+    },
+    {
+      "errorId": "err-context-only-time",
+      "condition": "Student picks wrong option on Q3.",
+      "systemAction": "Assign reteach module for err-context-only-time.",
+      "studentMessage": "Context includes culture, law, medium, and environment—not just the date."
+    },
+    {
+      "errorId": "err-relevance-all-info",
+      "condition": "Student picks wrong option on Q4 or fails Q7 rubric.",
+      "systemAction": "Assign reteach module for err-relevance-all-info.",
+      "studentMessage": "Effective communication leaves out what the audience already knows and adds only what they need."
+    },
+    {
+      "errorId": "err-headline-missing-verb",
+      "condition": "Student's open-ended headline on Q5 lacks an active present-tense verb or exceeds 5 words.",
+      "systemAction": "Assign reteach module for err-headline-missing-verb.",
+      "studentMessage": "Headlines need a strong active verb. Keep it short and immediate."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-audience-general-public",
+      "trigger": "Student describes the audience as 'the general public' without further detail.",
+      "studentMisunderstanding": "Students believe that 'general public' is a valid and specific enough description for an audience.",
+      "miniLesson": {
+        "explain": "In effective communication, there is no single 'general public' audience. All audiences are composed of specific groups with unique demographics, knowledge levels, and attitudes. A vague label like 'general public' prevents you from tailoring your message appropriately. Instead, you must identify specific characteristics such as age range, education level, prior knowledge about the topic, and attitudes (supportive, neutral, hostile). This is essential for meeting official expectation A3: understanding meaning through reading strategies.",
+        "example": "Consider a local election flyer. If the author says 'to the general public,' the message may fail. But if they specify 'to residents aged 18-35 who may not have voted before, with limited knowledge of local issues and a skeptical attitude,' they can craft a persuasive message that addresses those factors. A real lesson example was the CEO who sent a delay notice as a calendar invite because the audience (employees) needed urgent attention—that targeted specific knowledge and attitudes.",
+        "memoryAnchor": "No 'general public' – be specific! Demographics, Knowledge, Attitudes (DKA)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: 'The general public' is an acceptable audience description for most writing tasks.",
+          "answer": "False. The lesson states that no universal 'general public' exists; writers must analyze specific demographics, knowledge, and attitudes."
+        },
+        {
+          "level": "L2",
+          "prompt": "You are writing an article about a new smartphone. Your teacher criticizes you for describing the audience as 'the general public.' How should you revise this description? Provide three specific audience characteristics you would include.",
+          "answer": "Instead of 'general public,' I should specify demographics (e.g., adults aged 25-45 with disposable income), knowledge level (e.g., moderate tech familiarity but not experts), and attitudes (e.g., interested in reliability and battery life). This follows the audience analysis principle."
+        },
+        {
+          "level": "L3",
+          "prompt": "A community organization is planning a campaign to promote recycling. They initially target 'the general public.' Using the audience analysis framework, propose a revised audience description and explain how that change would affect the campaign's message and medium. (Use at least one number from the lesson.)",
+          "answer": "Revised description: We target homeowners aged 30-65 in suburban neighborhoods who already recycle occasionally but lack knowledge about proper sorting; their attitude is supportive but lazy. This changes the message from general awareness to simple, actionable steps (e.g., '3 easy sorting rules') and the medium from TV ads to neighborhood flyers or social media. The lesson number 5 (headline words) reminds us to keep messages concise. Also, the relevance principle (balancing known/needed info) helps us avoid telling them why recycling is good (they already support it) and focus on how to do it."
+        }
+      ]
+    },
+    {
+      "errorId": "err-purpose-only-informational",
+      "trigger": "Student picks wrong option on diag-olc4o-s6-0721-q2 (purpose analysis)",
+      "studentMisunderstanding": "Students believe all texts have a single, purely informational purpose, ignoring persuasive or mixed purposes.",
+      "miniLesson": {
+        "explain": "Purpose is not always just to inform. Many texts blend informational and persuasive elements. The exigence (core motivation) can drive mixed purposes. For example, a smartphone ad includes objective specs (informational) and persuasive copy to encourage purchase. Always ask: 'What does the author want the audience to know, feel, or do?'",
+        "example": "A newspaper article about a new park includes quotes from the mayor encouraging citizens to visit. This is a mixed purpose: it informs about the opening and persuades people to go.",
+        "memoryAnchor": "Think 'PIE': Persuade, Inform, Entertain — but texts can have multiple slices. Purpose is a spectrum, not a single flavor."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Identify the purpose of the following text: A nutrition label on a cereal box listing ingredients and daily values.",
+          "answer": "Informational only."
+        },
+        {
+          "level": "L2",
+          "prompt": "Identify the purpose of this text: A blog post titled '10 Reasons to Switch to Solar Energy' that explains how solar panels work and urges readers to install them.",
+          "answer": "Mixed purpose: informational (explaining how solar panels work) and persuasive (urging readers to install them)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A company's annual report includes financial data, CEO's message, and a call for shareholders to vote on a new policy. Explain the mixed purpose and identify the exigence.",
+          "answer": "The mixed purpose combines informational (financial data) and persuasive (CEO's message to encourage voting). The exigence is the need for shareholder approval on the new policy."
+        }
+      ]
+    },
+    {
+      "errorId": "err-context-only-time",
+      "trigger": "Student selects only time as the essential contextual factor in the diagnostic question about a CEO crisis speech.",
+      "studentMisunderstanding": "Students think context equals only the date or time of publication, ignoring cultural, legal, environmental, and medium factors.",
+      "miniLesson": {
+        "explain": "Context is the full setting in which a text is created or received. It includes not just time (date, era) but also environment (physical or virtual space), legal rules (regulations, laws), cultural background (norms, values), and the delivery medium (print, video, live speech). For example, a CEO’s speech during a crisis is shaped by the legal regulations of the industry, the company's reputation, the culture of the workplace, and whether it's a live address or a recorded message.",
+        "example": "A company’s urgent delay notice sent as a calendar invite (rather than an email) uses the medium to force attention. This shows how context (delivery medium) influences message reception.",
+        "memoryAnchor": "Remember the 5 ingredients of context: Time, Environment, Law, Culture, Medium. When analyzing context, check all five, not just time."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is NOT part of context? (A) Time of publication (B) Cultural norms (C) The author’s favorite color (D) Legal regulations",
+          "answer": "C"
+        },
+        {
+          "level": "L2",
+          "prompt": "A politician gives a speech about climate change at a university campus in 2024. List at least three contextual factors besides the time.",
+          "answer": "Environment: university campus; Cultural background: audience of students and faculty; Delivery medium: live speech or video; Legal rules: local environmental laws or free speech regulations."
+        },
+        {
+          "level": "L3",
+          "prompt": "A company's product recall announcement is issued as a press release on its website in 2023. Explain how the context (time, environment, legal rules, culture, medium) influences the message. Use specific details.",
+          "answer": "Time: 2023 – likely under current consumer protection laws. Environment: online press release accessible globally. Legal rules: must comply with product safety regulations. Culture: company may emphasize transparency to maintain trust. Medium: text-based press release allows precise wording but lacks tone of voice; affects how urgency is communicated."
+        }
+      ]
+    },
+    {
+      "errorId": "err-relevance-all-info",
+      "trigger": "The student selected the option that includes all details without considering audience knowledge.",
+      "studentMisunderstanding": "Students include excessive detail without distinguishing between known and needed information.",
+      "miniLesson": {
+        "explain": "Relevant information balances what the audience already knows with what they need to know. For example, when writing a summary for classmates who have already read a novel, focus on key themes and character development instead of retelling the entire plot. The rhetorical triangle framework helps you consider audience and context to decide what is relevant.",
+        "example": "A CEO sent an urgent delay notice as a calendar invite to force attention. This action considered the audience's need for immediate information and avoided irrelevant details.",
+        "memoryAnchor": "Think of a puzzle: do not give pieces the audience already has. Only provide the missing pieces they need."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A student is writing a one-page summary of a novel for classmates who have already read it. Which approach best applies the principle of relevance?",
+          "answer": "Focus only on key themes and character development, assuming readers know the plot."
+        },
+        {
+          "level": "L2",
+          "prompt": "You are writing an email update about a project to your team, who already knows the project details. What should you include? (Select the best option: a list of all completed tasks, a summary of key milestones achieved, or a copy of the entire project plan).",
+          "answer": "A summary of key milestones achieved."
+        },
+        {
+          "level": "L3",
+          "prompt": "Imagine you are a journalist reporting on a local event for readers who already follow the story closely. Write a lead (under 35 words) that covers the W5H but focuses on the most recent development rather than background information.",
+          "answer": "Mayor signs park funding bill today, securing $2M for downtown renovation."
+        }
+      ]
+    },
+    {
+      "errorId": "err-headline-missing-verb",
+      "trigger": "Student writes headline without active present-tense verb or exceeds 5 words.",
+      "studentMisunderstanding": "Students think headlines can be noun phrases without verbs; they fail to include an active present-tense verb to convey urgency and action.",
+      "miniLesson": {
+        "explain": "Headlines must include an active present-tense verb to show immediate action and engage readers. A headline without a verb is a fragment that lacks impact. Keeping it under 5 words forces concise, powerful writing.",
+        "example": "Weak: 'Airport Emergency Closure' (no verb) → Strong: 'Police Grab Criminal at Gate' (active verb 'Grab' in present tense).",
+        "memoryAnchor": "Verb = Action = Attention. Every headline needs a verb to bring it to life."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following headlines contains an active present-tense verb? A) 'New Park Opening' B) 'Park Opens Today' C) 'Grand Opening Event'",
+          "answer": "B) 'Park Opens Today' — 'Opens' is an active present-tense verb."
+        },
+        {
+          "level": "L2",
+          "prompt": "Revise this headline to include an active present-tense verb and stay under 5 words: 'City Library Fundraising Event'.",
+          "answer": "Library Fundraiser Kicks Off (or 'Library Rally Raises Funds') — must have verb, ≤5 words."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a headline for a story about a local school winning a science competition. Use an active present-tense verb and keep it under 5 words.",
+          "answer": "Students Win Science Contest (or 'School Tops Science Fair') — verb included, under 5 words."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-audience-general-public",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following audience descriptions is most appropriate for a campaign about workplace safety for factory workers?",
+          "options": [
+            "The general public",
+            "Factory shift supervisors aged 30-55 with high awareness of safety rules but moderate compliance",
+            "All adults in the country",
+            "People who work indoors"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "You are writing a flyer to promote a community recycling program. The draft describes the audience as 'the general public.' Revise this description to include specific demographics, knowledge level, and attitudes, and explain how your revised description would influence the flyer's message.",
+          "rubric": "Student must: (1) Replace 'general public' with at least two specific audience characteristics (e.g., age range, location, knowledge of recycling, attitudes). (2) Explain how at least one of these characteristics affects the message (e.g., if audience knows basic recycling, focus on sorting details). Award full credit if both criteria are met."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For q2, the answer must demonstrate specific audience characteristics (demographics, knowledge, or attitudes) and a reasoned link to message design."
+    },
+    {
+      "forErrorId": "err-purpose-only-informational",
+      "questions": [
+        {
+          "id": "retest-purpose-q1",
+          "type": "single_choice",
+          "stem": "Which of the following texts best exemplifies a mixed purpose (both informational and persuasive)?",
+          "options": [
+            "A textbook chapter on the water cycle.",
+            "A political campaign flyer listing the candidate's achievements and asking for votes.",
+            "A weather forecast stating temperatures and precipitation chances.",
+            "A dictionary definition of the word 'democracy'."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-purpose-q2",
+          "type": "open_ended",
+          "stem": "Explain why the purpose of a product review that includes both technical specifications and a strong recommendation to buy is considered mixed. Then identify the likely exigence (core motivation) for this text.",
+          "rubric": "Must explicitly state that the text has informational elements (specs) and persuasive elements (recommendation). Must identify exigence such as helping consumers make a purchase decision or driving sales."
+        }
+      ],
+      "passRule": "Student must answer both questions correctly. For the single-choice, select option 2. For the open-ended, the response must clearly identify both informational and persuasive purposes and a plausible exigence."
+    },
+    {
+      "forErrorId": "err-context-only-time",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "When analyzing the context of a text, which of the following is NOT considered a contextual factor?",
+          "options": [
+            "Time of publication",
+            "Cultural norms",
+            "The author's personal opinion",
+            "Legal regulations",
+            "Delivery medium"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A company issues a product recall announcement on its website in 2023. Identify and explain at least four contextual factors (from the five: time, environment, legal rules, cultural background, medium) that influence the message. Provide specific details for each factor.",
+          "rubric": "Student must mention at least four factors from the set {time, environment, legal rules, cultural background, medium}. For each factor, a specific detail relevant to the scenario must be given. Examples: Time (2023, current consumer protection laws), Environment (online platform, global reach), Legal rules (compliance with product safety regulations), Cultural background (expectation of transparency to maintain trust), Medium (text-based press release allows precise wording but no tone)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass."
+    },
+    {
+      "forErrorId": "err-relevance-all-info",
+      "questions": [
+        {
+          "id": "rel-sc-1",
+          "type": "single_choice",
+          "stem": "A student is writing a one-page summary of a novel for classmates who have already read it. Which approach best applies the principle of relevance?",
+          "options": [
+            "Include a detailed plot summary to ensure no one forgets",
+            "Focus only on key themes and character development, assuming readers know the plot",
+            "List every character and their role in the story",
+            "Summarize the entire book chapter by chapter"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "rel-oe-2",
+          "type": "open_ended",
+          "stem": "Read the following email excerpt. Identify one piece of information that is likely irrelevant for the intended audience and explain why.\n\n'Hello team, as you know, our project deadline is next Friday. The budget has been approved and we have $10,000 remaining. We need to finalize the design by Wednesday. Also, I had a bagel for breakfast this morning.'",
+          "rubric": "Correct: Identifies 'I had a bagel for breakfast' as irrelevant because it does not relate to the project update and the team does not need to know personal details. Explanation should reference audience knowledge/needs."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-headline-missing-verb",
+      "questions": [
+        {
+          "id": "retest-headline-verb-q1",
+          "type": "single_choice",
+          "stem": "Which of the following headlines contains an active present-tense verb and is under 5 words?",
+          "options": [
+            "Emergency Road Closure",
+            "Road Closed by Flood",
+            "Flood Forces Road Closure",
+            "Road Closure Event"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-headline-verb-q2",
+          "type": "open_ended",
+          "stem": "Revise the following headline to include an active present-tense verb and keep it under 5 words: 'City Library Fundraising Event'.",
+          "rubric": "The revision must contain an active present-tense verb (e.g., 'kick', 'raise', 'start') and be no more than 5 words. Accept any reasonable answer that meets these criteria, such as 'Library Fundraiser Kicks Off' or 'Library Rally Raises Funds'."
+        }
+      ],
+      "passRule": "Student must answer Q1 correctly (select option 2) and provide a revision in Q2 that includes an active present-tense verb and is 5 words or fewer."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-21",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/YfzxdjnHvoRcPEx9DqZciVcmnIf?from=vc_group_doc_link#doxcnFugpx9L4iA6lyvixyiVa8d",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-21 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "The rhetorical triangle framework consists of text, author, audience, context, and purpose.；Headlines must use active present-tense verbs and stay under 5 words.；Leads must cover all W5H details within 35 words.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Analyze a non-fiction text using the rhetorical triangle (text, author, audience, context, purpose)."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply audience analysis principles by describing specific demographics, knowledge, and attitudes, rejecting a vague 'general public'."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between informational, persuasive, and mixed purposes, identifying the exigence."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Examine contextual factors including time, environment, culture, legal rules, and delivery medium."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Write an effective headline using an active present-tense verb and staying under 5 words."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Determine relevance by balancing what the audience already knows with what they need to know."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Resubmit pending Unit 1 assignments with revisions",
+        "studentAction": "Revise pending assignments per feedback (headline/lead rules, dateline all caps, add image captions, expand lead, select newsworthy topics) and resubmit.",
+        "deadlineText": "Before the 4-hour remaining deadline (from class end)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students with pending Unit 1 assignments",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "\"All students can revise their pending assignments per the above guidance and resubmit before the 4-hour remaining deadline\"",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Complete Unit 2 Lesson 10 analysis matrix for 2 non-fiction texts",
+        "studentAction": "Select 2 non-fiction English texts not used in course (no fiction), fill analysis matrix with text evidence for audience, purpose, context, and evaluate effectiveness. Take clear screenshot and post to OneNote.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "\"After completing the full analysis matrix including text titles and source links, take a clear screenshot of the completed document and post it to the designated OneNote workspace.\"",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Peer review 2 classmates' analysis matrices",
+        "studentAction": "Visit at least 2 other classmates' submitted work and leave specific, actionable feedback on their analysis.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "\"All students must visit at least 2 other classmates' submitted work and leave specific, actionable feedback on their analysis to fully meet all assignment requirements.\"",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Plagiarism public naming policy change",
+        "studentAction": "Be aware that future confirmed plagiarism cases will be publicly named in class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "\"all future confirmed plagiarism cases will be publicly named in class\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "follow_up_action",
+        "title": "Schedule one-on-one appeal for plagiarism determination",
+        "studentAction": "If disagree with plagiarism finding, schedule a one-on-one verbal conference with instructor to present justifications.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students flagged for plagiarism",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "\"Students who disagree with the instructor's plagiarism determination can schedule a one-on-one verbal conference to present their justifications\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "follow_up_action",
+        "title": "DM instructor for text selection guidance",
+        "studentAction": "Send a direct message to instructor if need help selecting eligible non-fiction texts.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students needing selection support",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"Students who need guidance on eligible text selection can send a direct message to the instructor for personalized suggestions\"",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Resubmit before the 4-hour remaining deadline",
+        "reason": "Deadline is relative to class end; exact time not specified. Needs human confirmation of deadline time."
+      },
+      {
+        "rawText": "Post completed matrix screenshot to designated OneNote workspace",
+        "reason": "Specific OneNote workspace link or path not provided in notes."
+      },
+      {
+        "rawText": "Due date for new Unit 2 analysis matrix assignment",
+        "reason": "No deadline mentioned for the new assignment (matrix, screenshot, peer review)."
+      }
+    ],
+    "watchTags": [
+      "rhetorical-triangle",
+      "audience-analysis",
+      "purpose-analysis",
+      "context-analysis",
+      "relevance-in-communication"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-audience-general-public",
+        "condition": "Student picks wrong option on Q1 or Q6, or open-ended answer on Q6 lacks specificity.",
+        "systemAction": "Assign reteach module for err-audience-general-public."
+      },
+      {
+        "errorId": "err-purpose-only-informational",
+        "condition": "Student picks wrong option on Q2.",
+        "systemAction": "Assign reteach module for err-purpose-only-informational."
+      },
+      {
+        "errorId": "err-context-only-time",
+        "condition": "Student picks wrong option on Q3.",
+        "systemAction": "Assign reteach module for err-context-only-time."
+      },
+      {
+        "errorId": "err-relevance-all-info",
+        "condition": "Student picks wrong option on Q4 or fails Q7 rubric.",
+        "systemAction": "Assign reteach module for err-relevance-all-info."
+      },
+      {
+        "errorId": "err-headline-missing-verb",
+        "condition": "Student's open-ended headline on Q5 lacks an active present-tense verb or exceeds 5 words.",
+        "systemAction": "Assign reteach module for err-headline-missing-verb."
+      }
+    ],
+    "nextActions": [
+      "[err-audience-general-public] Student picks wrong option on Q1 or Q6, or open-ended answer on Q6 lacks specificity.: You need to break down the audience more. There's no such thing as 'general public' — specify demographics, knowledge, and attitudes.",
+      "[err-purpose-only-informational] Student picks wrong option on Q2.: Many texts have mixed or persuasive purposes. Look for the exigence and what the author wants the audience to do.",
+      "[err-context-only-time] Student picks wrong option on Q3.: Context includes culture, law, medium, and environment—not just the date.",
+      "[err-relevance-all-info] Student picks wrong option on Q4 or fails Q7 rubric.: Effective communication leaves out what the audience already knows and adds only what they need.",
+      "[err-headline-missing-verb] Student's open-ended headline on Q5 lacks an active present-tense verb or exceeds 5 words.: Headlines need a strong active verb. Keep it short and immediate."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-s6-0721-q1",
+        "type": "choice",
+        "question": "A company is launching a new smartphone. The marketing team describes the audience as “the general public.” The diagram below illustrates different ways to think about the audience. According to the lesson, what is the main problem with this description?",
+        "options": [
+          "It is correct because everyone is a potential customer.",
+          "It is fine because 'general public' is a standard term in marketing.",
+          "It is too vague; the team should specify demographics, knowledge level, and attitudes.",
+          "It is wrong because only experts should be targeted."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student recognizes that audience must be specified beyond a vague label.",
+        "misconceptions": [
+          "Not everyone uses smartphones the same way. Age, tech knowledge, and budget matter. You must segment the audience.",
+          "Standard doesn't mean effective. The lesson said no universal 'general public' exists; writers must analyze specific groups.",
+          "✓ Exactly. Effective communication targets a specific audience, not everyone.",
+          "That's too narrow. The problem is vagueness, not exclusivity."
+        ],
+        "nodeId": "audience-analysis",
+        "errorId": "err-audience-general-public",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that 'general public' is too vague and must be broken down by demographics, knowledge, attitudes.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Audience analysis is a reading strategy for understanding text meaning.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think 'general public' is acceptable and covers everyone.",
+        "remediationModule": "err-audience-general-public",
+        "retestItem": "err-audience-general-public"
+      },
+      {
+        "id": "diag-olc4o-s6-0721-q2",
+        "type": "choice",
+        "question": "A newspaper article titled “New Park Opens in Downtown” includes quotes from the mayor encouraging citizens to visit. What is the likely purpose?",
+        "options": [
+          "Only informational — it reports a fact.",
+          "Only persuasive — the mayor wants people to come.",
+          "Mixed — it informs about the opening and persuades people to visit.",
+          "Neither — it is just a generic announcement."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student recognizes that a text can have both informational and persuasive elements.",
+        "misconceptions": [
+          "But the mayor's quote pushes action. That's persuasive. The text has a mixed purpose.",
+          "It also provides factual information about the park opening. So it's not purely persuasive.",
+          "✓ Correct. Many texts blend both aims.",
+          "Every announcement has a purpose. This one combines information with encouragement."
+        ],
+        "nodeId": "purpose-analysis",
+        "errorId": "err-purpose-only-informational",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies a mixed purpose: informing about the opening and persuading people to visit.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Purpose analysis is a reading strategy for understanding text meaning.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students assume all news is purely informational and ignore persuasive elements.",
+        "remediationModule": "err-purpose-only-informational",
+        "retestItem": "err-purpose-only-informational"
+      },
+      {
+        "id": "diag-olc4o-s6-0721-q3",
+        "type": "choice",
+        "question": "When analyzing a speech given by a CEO during a company crisis, which of the following is an essential contextual factor?",
+        "options": [
+          "Only the date when the speech was delivered.",
+          "The speaker’s personal hobbies.",
+          "The company’s reputation and the regulatory environment at the time.",
+          "The audience's favorite color."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student recognizes multiple dimensions of context.",
+        "misconceptions": [
+          "Time is part of context, but culture, legal rules, and the delivery medium also matter.",
+          "Personal hobbies are not usually contextual factors. Focus on time, environment, culture, law, medium.",
+          "✓ Yes. Context includes cultural and legal factors, not just time.",
+          "That's irrelevant. Context covers time, environment, law, culture, and medium."
+        ],
+        "nodeId": "context-analysis",
+        "errorId": "err-context-only-time",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student selects an answer that includes cultural, legal, or medium factors beyond just time.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding context helps analyze text structure and features.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students think only the date or time of publication matters.",
+        "remediationModule": "err-context-only-time",
+        "retestItem": "err-context-only-time"
+      },
+      {
+        "id": "diag-olc4o-s6-0721-q4",
+        "type": "choice",
+        "question": "A student is writing a one-page summary of a novel for classmates who have already read it. Which approach best applies the principle of relevance?",
+        "options": [
+          "Include a full plot summary because every detail is important.",
+          "Focus only on key themes and character development, assuming readers know the plot.",
+          "Rewrite the novel from scratch to ensure completeness.",
+          "Ask each classmate what they want to know before writing."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can apply relevance principle to a realistic scenario.",
+        "misconceptions": [
+          "Classmates already know the plot. You only need to highlight analysis or fresh insights.",
+          "✓ Exactly. Avoid redundancy; give what they need.",
+          "That is excessive and ignores the audience's prior knowledge.",
+          "While considerate, it's not the best application of relevance. The principle is to balance known and needed info."
+        ],
+        "nodeId": "relevance-in-communication",
+        "errorId": "err-relevance-all-info",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-6",
+        "successCriteria": "Student chooses an answer that balances known vs. needed info.",
+        "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "OLC4O-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Relevance is key to effective communication in daily life.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students include all details, assuming more is better.",
+        "remediationModule": "err-relevance-all-info",
+        "retestItem": "err-relevance-all-info"
+      },
+      {
+        "id": "diag-olc4o-s6-0721-q5",
+        "type": "explain",
+        "question": "The following headline is weak: “City Library Fundraising Event.” Revise it so that it includes an active present-tense verb and stays under 5 words.",
+        "correct": null,
+        "diagnosis": "Check if student can apply headline rules: active verb, under 5 words.",
+        "nodeId": "rhetorical-triangle",
+        "errorId": "err-headline-missing-verb",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student provides a headline that uses an active present-tense verb, is 5 words or fewer, and conveys urgency or action.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Headline writing tests understanding of text features.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students omit the verb or use passive voice.",
+        "remediationModule": "err-headline-missing-verb",
+        "retestItem": "err-headline-missing-verb"
+      }
+    ]
+  }
+}

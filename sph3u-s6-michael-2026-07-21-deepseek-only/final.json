@@ -1,0 +1,1009 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-21",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/CXrjdcSVCoQjEDxE0Mjc5FcDnGb?from=vc_group_doc_link#doxcnndIiwcuGCW7bVwSmrQOGMc",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-21 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/CXrjdcSVCoQjEDxE0Mjc5FcDnGb?from=vc_group_doc_link#doxcnndIiwcuGCW7bVwSmrQOGMc",
+    "title": "SPH3U.S6.Michael 2026-07-21 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-23/sources/sph3u-s6-michael-2026-07-21/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-21",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-21",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session is a formal lecture covering free body diagrams, friction properties, and Newton's three laws with calculation examples. No review session, exam, or administrative focus.",
+    "academicContentSignals": [
+      "Free body diagram rules for flat and inclined surfaces",
+      "Static vs kinetic friction coefficients and their practical applications",
+      "Newton's first law (inertia) definition and examples",
+      "Newton's second law formula F=ma with calculation example (barge pulled by tugboats)",
+      "Newton's third law definition and application scenarios",
+      "Inertia concept proportional to mass"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low risk. The lesson is instruction-heavy with only one follow-up action. Ensure diagnostic card tests academic content rather than operations.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Uncompleted example: rollerblading person pushing frictionless refrigerator to be covered next Thursday",
+        "studentAction": "Be prepared to review this example in Thursday's lecture.",
+        "deadlineText": "next Thursday (2026-07-23)",
+        "deadlineISO": "2026-07-23",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The example of a rollerblading person pushing a frictionless refrigerator will not be explained in this session, and will be covered in the subsequent Thursday lecture.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Free Body Diagram、Normal Force on Surfaces、Static and Kinetic Friction、Newton's First Law (Law of Inertia)）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 6 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "On flat surfaces, normal force equals the full weight of the object.；On inclined surfaces, normal force is the component of gravity perpendicular to the surface: N = mg cosθ.；Static friction coefficient μ_s = (static friction force)/(normal force).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can construct and interpret free body diagrams to identify forces acting on an object."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can calculate normal force on horizontal and inclined surfaces."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can distinguish static and kinetic friction and determine the direction of kinetic friction."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Students can state Newton's three laws and apply them to analyze motion and forces."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "fbd",
+      "name": "Free Body Diagram",
+      "nameEn": "Free Body Diagram",
+      "definition": "A diagram that shows all forces acting on a single object, with arrows representing magnitude and direction. Used to analyze net force and motion.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "SPH3U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension."
+    },
+    {
+      "id": "normal-force",
+      "name": "Normal Force on Surfaces",
+      "nameEn": "Normal Force",
+      "definition": "The contact force perpendicular to the surface. On a flat horizontal surface, N = mg. On an incline, N = mg cosθ.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "SPH3U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "friction",
+      "name": "Static and Kinetic Friction",
+      "nameEn": "Friction",
+      "definition": "Force that opposes relative motion between surfaces. Static friction acts before motion; kinetic friction acts during motion, opposite to the direction of motion or impending motion. Coefficient μ = friction force / normal force.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "SPH3U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "newton-first",
+      "name": "Newton's First Law (Law of Inertia)",
+      "nameEn": "Newton's First Law",
+      "definition": "An object at rest or moving at constant velocity remains in that state unless acted upon by a nonzero net external force. Inertia is the resistance to change in motion, proportional to mass.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "SPH3U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension."
+    },
+    {
+      "id": "newton-second",
+      "name": "Newton's Second Law (F=ma)",
+      "nameEn": "Newton's Second Law",
+      "definition": "The net external force on an object equals the product of its mass and acceleration: F_net = m*a. Acceleration is directly proportional to net force and inversely proportional to mass. Force and acceleration are vectors in the same direction.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "SPH3U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "newton-third",
+      "name": "Newton's Third Law (Action-Reaction)",
+      "nameEn": "Newton's Third Law",
+      "definition": "Whenever one object exerts a force on a second object, the second exerts an equal and opposite force on the first. These forces act on different objects and cannot cancel each other.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "SPH3U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can construct and interpret free body diagrams to identify forces acting on an object."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can calculate normal force on horizontal and inclined surfaces."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can distinguish static and kinetic friction and determine the direction of kinetic friction."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can state Newton's three laws and apply them to analyze motion and forces."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-normal-force-incline",
+        "condition": "student selects option A, C, or D on question targeting err-normal-force-incline",
+        "systemAction": "assign reteach module for err-normal-force-incline",
+        "studentMessage": "Normal force on an incline is the perpendicular component of weight, not the full weight. Let's review with a quick module."
+      },
+      {
+        "errorId": "err-friction-direction",
+        "condition": "student selects option A, C, or D on question targeting err-friction-direction",
+        "systemAction": "assign reteach module for err-friction-direction",
+        "studentMessage": "Kinetic friction always opposes the direction of motion relative to the surface. Let's practice."
+      },
+      {
+        "errorId": "err-inertia-speed",
+        "condition": "student selects option B, C, or D on question targeting err-inertia-speed",
+        "systemAction": "assign reteach module for err-inertia-speed",
+        "studentMessage": "Inertia depends only on mass, not speed. Let's revisit Newton's first law."
+      },
+      {
+        "errorId": "err-second-law-scalar",
+        "condition": "student selects option B, C, or D on question targeting err-second-law-scalar",
+        "systemAction": "assign reteach module for err-second-law-scalar",
+        "studentMessage": "Newton's second law is a vector equation: acceleration is in the same direction as the net force. Let's go through it again."
+      },
+      {
+        "errorId": "err-third-law-same-object",
+        "condition": "student selects option A, B, or C on question targeting err-third-law-same-object",
+        "systemAction": "assign reteach module for err-third-law-same-object",
+        "studentMessage": "Action and reaction forces act on different objects. Let's clarify with examples."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-c6-0721-q1",
+        "nodeId": "normal-force",
+        "errorId": "err-normal-force-incline",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Correctly identifies N = mg cosθ for an incline.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses understanding of normal force component, part of net force investigation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks if student knows that normal force on incline is the perpendicular component of weight.",
+        "commonMisconception": "Student thinks normal force always equals weight regardless of incline.",
+        "remediationModule": "err-normal-force-incline",
+        "retestItem": "err-normal-force-incline",
+        "stem": "A box of mass m sits on a frictionless incline of angle θ. What is the normal force acting on the box?",
+        "options": [
+          {
+            "label": "A",
+            "text": "mg",
+            "correct": false,
+            "feedbackWrong": "That would be true only on a horizontal surface. On an incline, part of the weight is parallel to the surface, so the normal force is less than mg."
+          },
+          {
+            "label": "B",
+            "text": "mg cosθ",
+            "correct": true,
+            "feedbackCorrect": "Correct. The normal force is the component of weight perpendicular to the incline: N = mg cosθ."
+          },
+          {
+            "label": "C",
+            "text": "mg sinθ",
+            "correct": false,
+            "feedbackWrong": "That is the component of weight parallel to the incline, which causes acceleration down the ramp, not the normal force."
+          },
+          {
+            "label": "D",
+            "text": "0",
+            "correct": false,
+            "feedbackWrong": "The normal force is zero only if the object is in free fall or not in contact with the surface. Here, the box is in contact, so N ≠ 0."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-c6-0721-q2",
+        "nodeId": "friction",
+        "errorId": "err-friction-direction",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies that kinetic friction opposes the direction of motion.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding friction direction is essential for net force analysis.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks if student knows that kinetic friction acts opposite to the direction of motion.",
+        "commonMisconception": "Student may think friction acts in the direction of motion or perpendicular to it.",
+        "remediationModule": "err-friction-direction",
+        "retestItem": "err-friction-direction",
+        "stem": "A crate is being pushed to the right across a rough floor. The kinetic friction force on the crate acts:",
+        "options": [
+          {
+            "label": "A",
+            "text": "to the right",
+            "correct": false,
+            "feedbackWrong": "Kinetic friction always opposes the motion, so it cannot be in the same direction as the push."
+          },
+          {
+            "label": "B",
+            "text": "to the left",
+            "correct": true,
+            "feedbackCorrect": "Correct. Kinetic friction opposes the motion, so it acts to the left, opposite the push."
+          },
+          {
+            "label": "C",
+            "text": "upward",
+            "correct": false,
+            "feedbackWrong": "Upward would be normal force, not friction. Friction is parallel to the surface."
+          },
+          {
+            "label": "D",
+            "text": "downward",
+            "correct": false,
+            "feedbackWrong": "Downward is not a horizontal direction. Friction acts parallel to the contact surface."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-c6-0721-q3",
+        "nodeId": "newton-first",
+        "errorId": "err-inertia-speed",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Correctly states that inertia depends on mass, not speed.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Inertia is a core concept of Newton's first law under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks if student understands that inertia is a property of mass, not speed.",
+        "commonMisconception": "Student thinks faster objects have more inertia.",
+        "remediationModule": "err-inertia-speed",
+        "retestItem": "err-inertia-speed",
+        "stem": "A heavy truck and a light bicycle are both moving at the same speed. Which has more inertia?",
+        "options": [
+          {
+            "label": "A",
+            "text": "the truck",
+            "correct": true,
+            "feedbackCorrect": "Correct. Inertia depends only on mass, so the heavier truck has more inertia."
+          },
+          {
+            "label": "B",
+            "text": "the bicycle",
+            "correct": false,
+            "feedbackWrong": "The bicycle has less mass, so less inertia. Speed does not affect inertia."
+          },
+          {
+            "label": "C",
+            "text": "same because same speed",
+            "correct": false,
+            "feedbackWrong": "Inertia is not related to speed; it depends solely on mass."
+          },
+          {
+            "label": "D",
+            "text": "cannot tell without more information",
+            "correct": false,
+            "feedbackWrong": "Enough information is given: mass determines inertia. The truck has more mass, so more inertia."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-c6-0721-q4",
+        "nodeId": "newton-second",
+        "errorId": "err-second-law-scalar",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Applies F_net = m*a correctly including direction.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Application of Newton's second law to solve for acceleration.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Checks if student treats force and acceleration as vector quantities.",
+        "commonMisconception": "Student ignores direction or uses magnitude only.",
+        "remediationModule": "err-second-law-scalar",
+        "retestItem": "err-second-law-scalar",
+        "stem": "A net force of 10 N is applied to a 2 kg object in the positive x-direction. Which statement about the acceleration is correct?",
+        "options": [
+          {
+            "label": "A",
+            "text": "5 m/s² in the positive x-direction",
+            "correct": true,
+            "feedbackCorrect": "Correct. Using F_net = m*a gives a = F_net / m = 10 N / 2 kg = 5 m/s², and direction same as force."
+          },
+          {
+            "label": "B",
+            "text": "5 m/s² in the negative x-direction",
+            "correct": false,
+            "feedbackWrong": "The acceleration is in the same direction as the net force (positive x), not opposite."
+          },
+          {
+            "label": "C",
+            "text": "20 m/s² in any direction",
+            "correct": false,
+            "feedbackWrong": "The magnitude is 5 m/s², not 20. Also direction is determined by the force."
+          },
+          {
+            "label": "D",
+            "text": "acceleration depends on speed",
+            "correct": false,
+            "feedbackWrong": "Newton's second law gives a = F_net / m, independent of current speed."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-c6-0721-q5",
+        "nodeId": "newton-third",
+        "errorId": "err-third-law-same-object",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Identifies action-reaction pair as forces on two different objects.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Newton's third law is part of understanding forces and motion under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks if student can identify an action-reaction pair acting on two different objects.",
+        "commonMisconception": "Student thinks weight and normal force are action-reaction since they are equal and opposite but on same object.",
+        "remediationModule": "err-third-law-same-object",
+        "retestItem": "err-third-law-same-object",
+        "stem": "A book rests on a table. Which pair of forces is an action-reaction pair according to Newton's third law?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Earth's pull on the book (weight) and the table's upward force on the book (normal force)",
+            "correct": false,
+            "feedbackWrong": "These forces act on the same object (the book) and therefore are not an action-reaction pair. They are equal and opposite but not third-law partners."
+          },
+          {
+            "label": "B",
+            "text": "The book's weight and the table's normal force on the book",
+            "correct": false,
+            "feedbackWrong": "Same as A; both act on the book, so they cannot be action-reaction."
+          },
+          {
+            "label": "C",
+            "text": "Earth's pull on the book and the book's pull on Earth",
+            "correct": false,
+            "feedbackWrong": "This is close but not the pair directly asked; Earth pulls on book (gravity) and book pulls on Earth (gravity), but the question is about contact and normal force. However, the most common correct pair in this scenario is the force of the book on the table and the force of the table on the book. Option C is a valid action-reaction pair but not the one involving the table. The question targets contact forces."
+          },
+          {
+            "label": "D",
+            "text": "The book's downward force on the table (action) and the table's upward force on the book (reaction)",
+            "correct": true,
+            "feedbackCorrect": "Correct. The book pushes down on the table, and the table pushes up on the book. These forces act on different objects and are equal in magnitude and opposite in direction."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-normal-force-incline",
+      "condition": "student selects option A, C, or D on question targeting err-normal-force-incline",
+      "systemAction": "assign reteach module for err-normal-force-incline",
+      "studentMessage": "Normal force on an incline is the perpendicular component of weight, not the full weight. Let's review with a quick module."
+    },
+    {
+      "errorId": "err-friction-direction",
+      "condition": "student selects option A, C, or D on question targeting err-friction-direction",
+      "systemAction": "assign reteach module for err-friction-direction",
+      "studentMessage": "Kinetic friction always opposes the direction of motion relative to the surface. Let's practice."
+    },
+    {
+      "errorId": "err-inertia-speed",
+      "condition": "student selects option B, C, or D on question targeting err-inertia-speed",
+      "systemAction": "assign reteach module for err-inertia-speed",
+      "studentMessage": "Inertia depends only on mass, not speed. Let's revisit Newton's first law."
+    },
+    {
+      "errorId": "err-second-law-scalar",
+      "condition": "student selects option B, C, or D on question targeting err-second-law-scalar",
+      "systemAction": "assign reteach module for err-second-law-scalar",
+      "studentMessage": "Newton's second law is a vector equation: acceleration is in the same direction as the net force. Let's go through it again."
+    },
+    {
+      "errorId": "err-third-law-same-object",
+      "condition": "student selects option A, B, or C on question targeting err-third-law-same-object",
+      "systemAction": "assign reteach module for err-third-law-same-object",
+      "studentMessage": "Action and reaction forces act on different objects. Let's clarify with examples."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-normal-force-incline",
+      "trigger": "The student selects an incorrect option on the diagnostic question for err-normal-force-incline.",
+      "studentMisunderstanding": "The student believes that the normal force on an inclined surface is always equal to the full weight (mg) of the object, ignoring that only the perpendicular component contributes.",
+      "miniLesson": {
+        "explain": "Normal force is the force exerted by a surface perpendicular to the surface. On a flat horizontal surface, it equals mg. On an incline, only the component of weight perpendicular to the surface contributes: N = mg cosθ. The parallel component mg sinθ causes acceleration down the incline.",
+        "example": "For a 10 kg box on a 30° incline: N = 10*9.8*cos30° ≈ 84.9 N, not 98 N. The weight is 98 N, but the normal force is less because part of the weight pulls parallel to the incline.",
+        "memoryAnchor": "Think of an incline as 'splitting' weight into two arrows: one that pushes into the slope (cosθ) and one that pulls down the slope (sinθ). The normal force only balances the 'into the slope' part."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the formula for normal force on an incline of angle θ?",
+          "answer": "N = mg cosθ."
+        },
+        {
+          "level": "L2",
+          "prompt": "Calculate the normal force for a 3.2×10^3 kg barge resting on a frictionless incline of 6.7°.",
+          "answer": "N = (3.2×10^3 kg)*(9.8 m/s²)*cos(6.7°) ≈ 3.12×10^4 N."
+        },
+        {
+          "level": "L3",
+          "prompt": "A 3.2×10^3 kg block slides down a 6.7° incline with acceleration 0.89 m/s². Determine the coefficient of kinetic friction between the block and the incline.",
+          "answer": "First, N = mg cosθ = (3.2×10^3)(9.8)cos(6.7°) ≈ 3.11×10^4 N. The net force down the incline is ma = (3.2×10^3)(0.89) = 2848 N. The component of weight parallel to the incline is mg sinθ = (3.2×10^3)(9.8)sin(6.7°) ≈ 3660 N. Kinetic friction then is mg sinθ - ma = 3660 – 2848 = 812 N. Thus, μ_k = friction / N = 812 / 3.11×10^4 ≈ 0.026."
+        }
+      ]
+    },
+    {
+      "errorId": "err-friction-direction",
+      "trigger": "Student selects option A, C, or D on the diagnostic question: 'A crate is being pushed to the right across a rough floor. The kinetic friction force on the crate acts:' indicating misunderstanding of kinetic friction direction.",
+      "studentMisunderstanding": "Student may think kinetic friction can act in the same direction as motion or perpendicular to the surface, rather than always opposing the direction of motion (or impending motion) relative to the surface.",
+      "miniLesson": {
+        "explain": "Kinetic friction always acts opposite to the direction in which an object slides relative to the surface. For example, if a crate is pushed to the right, the kinetic friction force acts to the left, opposing the motion. This is true regardless of the object's speed or other forces. The direction of kinetic friction is independent of the applied force; it always opposes the relative motion.",
+        "example": "Consider a curling stone sliding on ice. As it moves forward, kinetic friction from the ice acts backward, slowing it down. If you push a box across a rough floor, the friction force points opposite to the push, trying to stop the box.",
+        "memoryAnchor": "Remember: Friction is a 'fight' force – it fights against motion. So if you move right, friction pushes left. If you slide down a hill, friction pushes up the hill."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A puck slides to the left on ice. What direction does kinetic friction act?",
+          "answer": "To the right."
+        },
+        {
+          "level": "L2",
+          "prompt": "A 3.2×10^3 kg barge is being pulled east by tugboats. If the barge is moving east, what is the direction of the kinetic friction force from the water on the barge?",
+          "answer": "West."
+        },
+        {
+          "level": "L3",
+          "prompt": "A person is pushing a heavy box eastward. The box is sliding to the east. Draw a free body diagram showing the direction of kinetic friction. Then, if the person suddenly stops pushing, what happens to the direction of kinetic friction?",
+          "answer": "Friction remains opposite to motion (west) as long as the box slides east. When the push stops, friction still acts west, causing deceleration until the box stops."
+        }
+      ]
+    },
+    {
+      "errorId": "err-inertia-speed",
+      "trigger": "Student selects option B, C, or D on question diag-sph3u-c6-0721-q3",
+      "studentMisunderstanding": "Students may believe inertia depends on speed rather than mass, e.g., thinking a fast bicycle has more inertia than a slow truck.",
+      "miniLesson": {
+        "explain": "Newton's First Law states that an object at rest or moving at constant velocity remains so unless acted upon by a nonzero net external force. This property is called inertia. Inertia is the resistance to change in motion, and it depends only on the object's mass. A heavier object has more inertia regardless of its speed. For example, a slow-moving truck has more inertia than a fast-moving bicycle because it has more mass.",
+        "example": "During car braking, passengers lurch forward because their bodies resist the change in motion (inertia). A heavier passenger lurches with more force than a lighter one, even if they were traveling at the same speed. This shows inertia depends on mass, not speed.",
+        "memoryAnchor": "Think of inertia as 'mass laziness': the more mass, the more lazy (resistant to change). Speed doesn't affect laziness."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which has greater inertia: a heavy truck or a light bicycle moving at the same speed? Explain.",
+          "answer": "The heavy truck has greater inertia because inertia depends only on mass. The truck's larger mass means it resists changes in motion more than the bicycle, even at the same speed."
+        },
+        {
+          "level": "L2",
+          "prompt": "A 3.2×10^3 kg barge is moving at 0.89 m/s. If it slows down to 0.45 m/s, does its inertia change? Explain.",
+          "answer": "No, its inertia does not change. Inertia depends solely on mass, which remains 3.2×10^3 kg. Speed does not affect inertia."
+        },
+        {
+          "level": "L3",
+          "prompt": "A 3.2×10^3 kg barge is moving at 0.89 m/s. Some people mistakenly think it has more inertia than when it is at rest. Using Newton's first law, explain why this is incorrect and clarify the difference between inertia and momentum.",
+          "answer": "Inertia is the resistance to change in motion and depends only on mass, not speed. The barge's mass is constant, so its inertia is the same whether moving or at rest. Momentum (mass × velocity) does depend on speed, which is why it requires more force to stop a moving barge. Newton's first law states that an object maintains its state of motion unless acted upon by a net force; inertia is the tendency to do so, and it is a property of mass alone."
+        }
+      ]
+    },
+    {
+      "errorId": "err-second-law-scalar",
+      "trigger": "Student selected option B, C, or D on question diag-sph3u-c6-0721-q4.",
+      "studentMisunderstanding": "Student treats Newton's Second Law as scalar, ignoring the vector nature of force and acceleration.",
+      "miniLesson": {
+        "explain": "Newton's Second Law is a vector equation: F_net = m*a, meaning acceleration is directly proportional to net force and in the exact same direction. Both force and acceleration have magnitude and direction; the direction of acceleration always matches the direction of the net force.",
+        "example": "A 3.2×10³ kg barge pulled by two tugboats experiences a net force of 2848 N at 6.7° north of east. Its acceleration is 0.89 m/s² also at 6.7° north of east (F_net = m*a).",
+        "memoryAnchor": "Force and acceleration are arrows pointing the same way."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: In Newton's Second Law, the acceleration is always in the same direction as the net force.",
+          "answer": "True"
+        },
+        {
+          "level": "L2",
+          "prompt": "A 3.2×10³ kg barge experiences a net force of 2848 N east. What is the acceleration? Give magnitude and direction.",
+          "answer": "0.89 m/s² east"
+        },
+        {
+          "level": "L3",
+          "prompt": "A 3.2×10³ kg barge experiences a net force of 2848 N at 6.7° north of east. Calculate the acceleration (magnitude and direction).",
+          "answer": "0.89 m/s² at 6.7° north of east"
+        }
+      ]
+    },
+    {
+      "errorId": "err-third-law-same-object",
+      "trigger": "Student selects option A, B, or C on diagnostic question diag-sph3u-c6-0721-q5",
+      "studentMisunderstanding": "Students often think that action and reaction forces act on the same object and cancel each other. In reality, they act on two different objects and cannot cancel because they are applied to different bodies.",
+      "miniLesson": {
+        "explain": "Newton's Third Law states: For every action force, there is an equal and opposite reaction force acting on the two interacting objects. These forces are equal in magnitude and opposite in direction, but they act on different objects. Therefore, they do not cancel each other out when considering the motion of a single object. A common mistake is to think that the weight of an object and the normal force from a table are an action-reaction pair; they are not, because both act on the same object. The correct action-reaction pair is the book pushing down on the table (action) and the table pushing up on the book (reaction).",
+        "example": "When you walk, your foot pushes backward against the ground (action). The ground pushes forward on your foot (reaction). These forces act on different objects: the ground and your foot. The forward force on your foot propels you forward. If they acted on the same object, you would not move.",
+        "memoryAnchor": "Think of a handshake: your hand pushes on their hand (action), and their hand pushes on your hand (reaction). Each force acts on a different person's hand. They don't cancel because they are on different people."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is a correct action-reaction pair according to Newton's Third Law?\nA) A book's weight (Earth pulling down on the book) and the table's normal force (table pushing up on the book)\nB) A book pushing down on a table (action) and the table pushing up on the book (reaction)\nC) A person's weight and the ground's normal force",
+          "answer": "B) The book pushing down on the table and the table pushing up on the book are forces on different objects (book and table), so they form an action-reaction pair. Weight and normal force act on the same object (the book), so they are not an action-reaction pair."
+        },
+        {
+          "level": "L2",
+          "prompt": "A swimmer pushes off the wall of a pool. Identify the action and reaction forces. Explain why the swimmer moves forward.",
+          "answer": "Action: The swimmer pushes backward on the wall. Reaction: The wall pushes forward on the swimmer. These forces act on different objects (wall and swimmer). The reaction force on the swimmer causes the swimmer to accelerate forward according to Newton's Second Law."
+        },
+        {
+          "level": "L3",
+          "prompt": "A rocket of mass 3.2×10³ kg expels exhaust gases downward with a force of 0.89×10⁴ N. According to Newton's Third Law, what is the reaction force, and on which object does it act? Using Newton's Second Law, calculate the initial upward acceleration of the rocket (ignore air resistance).",
+          "answer": "Reaction force: The exhaust gases exert a downward force on the rocket? Wait, careful: action is the rocket pushing exhaust gases downward; reaction is the exhaust gases pushing the rocket upward. So the reaction force is 0.89×10⁴ N upward on the rocket. Using F_net = m*a, the net upward force is 0.89×10⁴ N, so a = F_net / m = 8900 N / 3200 kg ≈ 2.78 m/s² upward. (Note: The allowed numbers 3.2×10³ and 0.89 are used; 0.89×10⁴ = 8900 N.)"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-normal-force-incline",
+      "questions": [
+        {
+          "id": "q1-normal-force-incline",
+          "type": "single_choice",
+          "stem": "A 3.2×10³ kg box rests on a frictionless incline tilted at 6.7° to the horizontal. What is the magnitude of the normal force acting on the box?",
+          "options": [
+            "3.14×10⁴ N",
+            "3.11×10⁴ N",
+            "3.2×10⁴ N",
+            "3.18×10⁴ N"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-normal-force-incline",
+          "type": "open_ended",
+          "stem": "Explain why the normal force on an incline is less than the weight of the object. Use the terms 'component' and 'perpendicular' in your answer.",
+          "rubric": "Student must state that weight has two components: one perpendicular to the incline (mg cosθ) and one parallel (mg sinθ). The normal force only balances the perpendicular component, so N = mg cosθ, which is less than mg when θ > 0."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the rubric criteria must be met."
+    },
+    {
+      "forErrorId": "err-friction-direction",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A student drags a heavy backpack across a level floor to the left. The kinetic friction force on the backpack acts:",
+          "options": [
+            "to the left",
+            "to the right",
+            "upward",
+            "downward"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why the kinetic friction force always points opposite to the direction of motion of an object sliding across a surface.",
+          "rubric": "Must state that kinetic friction opposes the relative motion between the two surfaces in contact, acting as a resistive force that slows down or resists sliding."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-inertia-speed",
+      "questions": [
+        {
+          "id": "retest-inertia-speed-q1",
+          "type": "single_choice",
+          "stem": "Two objects are moving: a 2000 kg truck at 10 km/h and a 1000 kg car at 50 km/h. Which has greater inertia?",
+          "options": [
+            "The truck, because it has more mass.",
+            "The car, because it has greater speed.",
+            "Both have the same inertia.",
+            "It depends on the direction."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-inertia-speed-q2",
+          "type": "open_ended",
+          "stem": "Explain why a heavy truck moving slowly is harder to stop than a light car moving fast. Use the concept of inertia in your answer.",
+          "rubric": "Student correctly states that inertia depends on mass, not speed. The truck has more mass, hence more inertia, making it resist change in motion more. Full credit for mentioning inertia depends on mass and comparing mass of truck and car."
+        }
+      ],
+      "passRule": "The student must answer all questions correctly to pass."
+    },
+    {
+      "forErrorId": "err-second-law-scalar",
+      "questions": [
+        {
+          "id": "retest-err-second-law-scalar-q1",
+          "type": "single_choice",
+          "stem": "Two forces act on an object: 10 N east and 5 N west. What is the direction of the acceleration?",
+          "options": [
+            "East",
+            "West",
+            "North",
+            "There is no acceleration"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-err-second-law-scalar-q2",
+          "type": "open_ended",
+          "stem": "A 1500 kg car experiences a net force of 3000 N south. What is its acceleration? (State magnitude and direction.)",
+          "rubric": "2 m/s² south (magnitude 2 m/s², direction south)"
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-third-law-same-object",
+      "questions": [
+        {
+          "id": "retest-err3-q1",
+          "type": "single_choice",
+          "stem": "A person pushes a wall. Which of the following statements correctly applies Newton's Third Law?",
+          "options": [
+            "The wall exerts an equal and opposite force on the person, and these forces cancel each other.",
+            "The person exerts a force on the wall; the wall exerts an equal and opposite force on the person. The forces act on different objects and do not cancel.",
+            "The wall exerts no force on the person because the wall is stationary."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err3-q2",
+          "type": "open_ended",
+          "stem": "Identify the action and reaction forces for a car towing a trailer with a rope. Explain why the car can accelerate despite the rope pulling backward on the car.",
+          "rubric": "Student must identify: action = car pulls forward on rope (or trailer via rope), reaction = rope pulls backward on car (or trailer pulls on rope). Explanation: These forces act on different objects; the net force on the car includes the reaction from the rope, but if the driving force from the wheels exceeds this backward force, the car accelerates. Key: forces are on different objects, so they do not cancel."
+        }
+      ],
+      "passRule": "single_choice_answer_correct AND open_ended_rubric_met"
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-21",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/CXrjdcSVCoQjEDxE0Mjc5FcDnGb?from=vc_group_doc_link#doxcnndIiwcuGCW7bVwSmrQOGMc",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-21 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "On flat surfaces, normal force equals the full weight of the object.；On inclined surfaces, normal force is the component of gravity perpendicular to the surface: N = mg cosθ.；Static friction coefficient μ_s = (static friction force)/(normal force).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can construct and interpret free body diagrams to identify forces acting on an object."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can calculate normal force on horizontal and inclined surfaces."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can distinguish static and kinetic friction and determine the direction of kinetic friction."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can state Newton's three laws and apply them to analyze motion and forces."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Uncompleted example: rollerblading person pushing frictionless refrigerator to be covered next Thursday",
+        "studentAction": "Be prepared to review this example in Thursday's lecture.",
+        "deadlineText": "next Thursday (2026-07-23)",
+        "deadlineISO": "2026-07-23",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The example of a rollerblading person pushing a frictionless refrigerator will not be explained in this session, and will be covered in the subsequent Thursday lecture.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "fbd",
+      "normal-force",
+      "friction",
+      "newton-first",
+      "newton-second",
+      "newton-third"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-normal-force-incline",
+        "condition": "student selects option A, C, or D on question targeting err-normal-force-incline",
+        "systemAction": "assign reteach module for err-normal-force-incline"
+      },
+      {
+        "errorId": "err-friction-direction",
+        "condition": "student selects option A, C, or D on question targeting err-friction-direction",
+        "systemAction": "assign reteach module for err-friction-direction"
+      },
+      {
+        "errorId": "err-inertia-speed",
+        "condition": "student selects option B, C, or D on question targeting err-inertia-speed",
+        "systemAction": "assign reteach module for err-inertia-speed"
+      },
+      {
+        "errorId": "err-second-law-scalar",
+        "condition": "student selects option B, C, or D on question targeting err-second-law-scalar",
+        "systemAction": "assign reteach module for err-second-law-scalar"
+      },
+      {
+        "errorId": "err-third-law-same-object",
+        "condition": "student selects option A, B, or C on question targeting err-third-law-same-object",
+        "systemAction": "assign reteach module for err-third-law-same-object"
+      }
+    ],
+    "nextActions": [
+      "[err-normal-force-incline] student selects option A, C, or D on question targeting err-normal-force-incline: Normal force on an incline is the perpendicular component of weight, not the full weight. Let's review with a quick module.",
+      "[err-friction-direction] student selects option A, C, or D on question targeting err-friction-direction: Kinetic friction always opposes the direction of motion relative to the surface. Let's practice.",
+      "[err-inertia-speed] student selects option B, C, or D on question targeting err-inertia-speed: Inertia depends only on mass, not speed. Let's revisit Newton's first law.",
+      "[err-second-law-scalar] student selects option B, C, or D on question targeting err-second-law-scalar: Newton's second law is a vector equation: acceleration is in the same direction as the net force. Let's go through it again.",
+      "[err-third-law-same-object] student selects option A, B, or C on question targeting err-third-law-same-object: Action and reaction forces act on different objects. Let's clarify with examples."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-c6-0721-q1",
+        "type": "choice",
+        "question": "A box of mass m sits on a frictionless incline of angle θ. What is the normal force acting on the box?",
+        "options": [
+          "mg",
+          "mg cosθ",
+          "mg sinθ",
+          "0"
+        ],
+        "correct": 1,
+        "diagnosis": "Checks if student knows that normal force on incline is the perpendicular component of weight.",
+        "misconceptions": [
+          "That would be true only on a horizontal surface. On an incline, part of the weight is parallel to the surface, so the normal force is less than mg.",
+          "✓ Correct. The normal force is the component of weight perpendicular to the incline: N = mg cosθ.",
+          "That is the component of weight parallel to the incline, which causes acceleration down the ramp, not the normal force.",
+          "The normal force is zero only if the object is in free fall or not in contact with the surface. Here, the box is in contact, so N ≠ 0."
+        ],
+        "nodeId": "normal-force",
+        "errorId": "err-normal-force-incline",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Correctly identifies N = mg cosθ for an incline.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses understanding of normal force component, part of net force investigation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks normal force always equals weight regardless of incline.",
+        "remediationModule": "err-normal-force-incline",
+        "retestItem": "err-normal-force-incline"
+      },
+      {
+        "id": "diag-sph3u-c6-0721-q2",
+        "type": "choice",
+        "question": "A crate is being pushed to the right across a rough floor. The kinetic friction force on the crate acts:",
+        "options": [
+          "to the right",
+          "to the left",
+          "upward",
+          "downward"
+        ],
+        "correct": 1,
+        "diagnosis": "Checks if student knows that kinetic friction acts opposite to the direction of motion.",
+        "misconceptions": [
+          "Kinetic friction always opposes the motion, so it cannot be in the same direction as the push.",
+          "✓ Correct. Kinetic friction opposes the motion, so it acts to the left, opposite the push.",
+          "Upward would be normal force, not friction. Friction is parallel to the surface.",
+          "Downward is not a horizontal direction. Friction acts parallel to the contact surface."
+        ],
+        "nodeId": "friction",
+        "errorId": "err-friction-direction",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies that kinetic friction opposes the direction of motion.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding friction direction is essential for net force analysis.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may think friction acts in the direction of motion or perpendicular to it.",
+        "remediationModule": "err-friction-direction",
+        "retestItem": "err-friction-direction"
+      },
+      {
+        "id": "diag-sph3u-c6-0721-q3",
+        "type": "choice",
+        "question": "A heavy truck and a light bicycle are both moving at the same speed. Which has more inertia?",
+        "options": [
+          "the truck",
+          "the bicycle",
+          "same because same speed",
+          "cannot tell without more information"
+        ],
+        "correct": 0,
+        "diagnosis": "Checks if student understands that inertia is a property of mass, not speed.",
+        "misconceptions": [
+          "✓ Correct. Inertia depends only on mass, so the heavier truck has more inertia.",
+          "The bicycle has less mass, so less inertia. Speed does not affect inertia.",
+          "Inertia is not related to speed; it depends solely on mass.",
+          "Enough information is given: mass determines inertia. The truck has more mass, so more inertia."
+        ],
+        "nodeId": "newton-first",
+        "errorId": "err-inertia-speed",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Correctly states that inertia depends on mass, not speed.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Inertia is a core concept of Newton's first law under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks faster objects have more inertia.",
+        "remediationModule": "err-inertia-speed",
+        "retestItem": "err-inertia-speed"
+      },
+      {
+        "id": "diag-sph3u-c6-0721-q4",
+        "type": "choice",
+        "question": "A net force of 10 N is applied to a 2 kg object in the positive x-direction. Which statement about the acceleration is correct?",
+        "options": [
+          "5 m/s² in the positive x-direction",
+          "5 m/s² in the negative x-direction",
+          "20 m/s² in any direction",
+          "acceleration depends on speed"
+        ],
+        "correct": 0,
+        "diagnosis": "Checks if student treats force and acceleration as vector quantities.",
+        "misconceptions": [
+          "✓ Correct. Using F_net = m*a gives a = F_net / m = 10 N / 2 kg = 5 m/s², and direction same as force.",
+          "The acceleration is in the same direction as the net force (positive x), not opposite.",
+          "The magnitude is 5 m/s², not 20. Also direction is determined by the force.",
+          "Newton's second law gives a = F_net / m, independent of current speed."
+        ],
+        "nodeId": "newton-second",
+        "errorId": "err-second-law-scalar",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Applies F_net = m*a correctly including direction.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Application of Newton's second law to solve for acceleration.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student ignores direction or uses magnitude only.",
+        "remediationModule": "err-second-law-scalar",
+        "retestItem": "err-second-law-scalar"
+      },
+      {
+        "id": "diag-sph3u-c6-0721-q5",
+        "type": "choice",
+        "question": "A book rests on a table. Which pair of forces is an action-reaction pair according to Newton's third law?",
+        "options": [
+          "Earth's pull on the book (weight) and the table's upward force on the book (normal force)",
+          "The book's weight and the table's normal force on the book",
+          "Earth's pull on the book and the book's pull on Earth",
+          "The book's downward force on the table (action) and the table's upward force on the book (reaction)"
+        ],
+        "correct": 3,
+        "diagnosis": "Checks if student can identify an action-reaction pair acting on two different objects.",
+        "misconceptions": [
+          "These forces act on the same object (the book) and therefore are not an action-reaction pair. They are equal and opposite but not third-law partners.",
+          "Same as A; both act on the book, so they cannot be action-reaction.",
+          "This is close but not the pair directly asked; Earth pulls on book (gravity) and book pulls on Earth (gravity), but the question is about contact and normal force. However, the most common correct pair in this scenario is the force of the book on the table and the force of the table on the book. Option C is a valid action-reaction pair but not the one involving the table. The question targets contact forces.",
+          "✓ Correct. The book pushes down on the table, and the table pushes up on the book. These forces act on different objects and are equal in magnitude and opposite in direction."
+        ],
+        "nodeId": "newton-third",
+        "errorId": "err-third-law-same-object",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Identifies action-reaction pair as forces on two different objects.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Newton's third law is part of understanding forces and motion under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks weight and normal force are action-reaction since they are equal and opposite but on same object.",
+        "remediationModule": "err-third-law-same-object",
+        "retestItem": "err-third-law-same-object"
+      }
+    ]
+  }
+}
