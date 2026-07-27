@@ -1,0 +1,656 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-27",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/EkzkdndZBoc5wwxzUcjc3UBxndf?from=vc_group_doc_link#doxcnqndUcrJjJOsWJA8ERREGbc",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-27 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/EkzkdndZBoc5wwxzUcjc3UBxndf?from=vc_group_doc_link#doxcnqndUcrJjJOsWJA8ERREGbc",
+    "title": "MDM4U.S6.Atousa 2026-07-27 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-27/sources/mdm4u-s6-atousa-2026-07-27/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-27",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-27",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson consisted of binomial distribution exercise walkthrough with concept review, introduction of geometric probability, and teacher demonstration of AI tools. Academic instruction was the primary mode, with practice elements.",
+    "academicContentSignals": [
+      "Binomial distribution parameter definition (n, p, k)",
+      "Expected value formula n*p",
+      "Cumulative probability shortcut for at least X successes",
+      "Example calculations for flyer response, car purchase, baseball batting average",
+      "Calculation tools: binomial PDF/CDF on calculator, Python function",
+      "Geometric probability definition and real-world applications"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Moderate - operational items include homework submission reminder and upcoming assignment preview, but academic content is rich. Diagnostic should focus on binomial distribution concepts and geometric probability intro, not on operational logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Class Activity 3 remaining questions",
+        "studentAction": "Submit completed Class Activity 3 remaining questions before next class.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The instructor reminded students to submit completed Class Activity 3 remaining questions before the next class.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Upcoming assignment on job market research",
+        "studentAction": "Be aware that a future assignment will require research on job market changes 5-10 years in advance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "The instructor mentioned that a future assignment will require students to research job market changes.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Submit Class Activity 3 remaining questions before next class.",
+        "reason": "The exact date of next class is not specified; it may be the following day or later, but no calendar date given."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Binomial Distribution、Geometric Distribution (Introduction)）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Binomial distribution parameters: number of trials (n), probability of success (p), target number of successes (k). Failure probability = 1 - p.；Expected value (mean) of a binomial distribution is E(X) = n × p.；Cumulative probability for 'at least X successes' can be calculated as 1 - P(≤ X-1) to avoid summing many individual probabilities.",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "binomial-distribution",
+      "name": "Binomial Distribution",
+      "nameEn": "Binomial Distribution",
+      "definition": "A discrete probability distribution that models the number of successes in a fixed number of independent Bernoulli trials with constant probability of success.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "MDM4U-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications."
+    },
+    {
+      "id": "geometric-distribution-intro",
+      "name": "Geometric Distribution (Introduction)",
+      "nameEn": "Geometric Distribution (Introduction)",
+      "definition": "A discrete probability distribution that models the number of trials needed to achieve the first success in a sequence of independent Bernoulli trials.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "MDM4U-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "4 correct",
+      "targetedRemediation": "2-3 correct",
+      "reteach": "0-1 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-mdm4u-s6-0727-q1",
+        "nodeId": "binomial-distribution",
+        "errorId": "err-binomial-geometric-confusion",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the scenario that models a geometric distribution (trials until first success).",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question assesses understanding of which discrete distribution applies (binomial vs geometric), directly related to expectation B1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "classify",
+        "stemIntent": "To check if the student can distinguish between binomial (fixed number of trials, count successes) and geometric (trials until first success) contexts.",
+        "commonMisconception": "The student thinks any scenario with 'success/failure' is binomial, ignoring that geometric counts trials to first success.",
+        "remediationModule": "err-binomial-geometric-confusion",
+        "retestItem": "err-binomial-geometric-confusion",
+        "stem": "In which of the following scenarios would you use a geometric probability distribution instead of a binomial?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Number of defective items in a batch of 20",
+            "correct": false,
+            "feedbackWrong": "This is a fixed number of trials (20), counting successes (defects) – that's binomial."
+          },
+          {
+            "label": "B",
+            "text": "Number of rolls until rolling a 6 with a fair die",
+            "correct": true,
+            "feedbackCorrect": "Correct. This counts the number of trials needed to get the first success, which is geometric."
+          },
+          {
+            "label": "C",
+            "text": "Number of heads in 10 coin flips",
+            "correct": false,
+            "feedbackWrong": "Fixed number of trials (10), counting successes – that's binomial."
+          },
+          {
+            "label": "D",
+            "text": "Number of red cards in a 5-card hand",
+            "correct": false,
+            "feedbackWrong": "This is a fixed sample size without replacement (hypergeometric, not binomial or geometric). The lesson only covered binomial and geometric for independent trials."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-0727-q2",
+        "nodeId": "binomial-distribution",
+        "errorId": "err-cumulative-skip-misuse",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student explains that P(at least 3) = 1 - P(X≤2) using the complement rule.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Using complement to simplify cumulative probability is part of solving binomial problems (B1).",
+        "achievementCategory": "Application",
+        "cognitiveAction": "justify",
+        "stemIntent": "To assess whether the student can apply the complement shortcut correctly for 'at least' probabilities.",
+        "commonMisconception": "Student might use complement incorrectly (e.g., 1 - P(X≤3) for at least 3) or not recognize the shortcut.",
+        "remediationModule": "err-cumulative-skip-misuse",
+        "retestItem": "err-cumulative-skip-misuse",
+        "stem": "For a binomial distribution with n=20, p=0.15, explain how you would calculate the probability of at least 3 responses in fewer steps using the complement rule.",
+        "rubric": "Full credit: Student states that P(at least 3) = 1 - P(≤2) because the complement of 'at least 3' is '2 or fewer'. Partial: mentions complement but with wrong bound.",
+        "sampleStrongAnswer": "P(at least 3) = 1 - P(X≤2) because the complement of 'at least 3 successes' is '2 or fewer successes', and P(X≤2) is a single cumulative probability."
+      },
+      {
+        "id": "diag-mdm4u-s6-0727-q3",
+        "nodeId": "binomial-distribution",
+        "errorId": "err-expected-value-calculation",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects the correct expected value using E(X) = np.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Expected value calculation is a core skill for binomial distributions (B1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "To check if the student knows the formula E(X)=n×p and can compute it.",
+        "commonMisconception": "Student might use a different formula (e.g., sum of probabilities) or misapply n and p.",
+        "remediationModule": "err-expected-value-calculation",
+        "retestItem": "err-expected-value-calculation",
+        "stem": "In a binomial distribution with n=5 and p=0.7, the expected number of successes is:",
+        "options": [
+          {
+            "label": "A",
+            "text": "3.5",
+            "correct": true,
+            "feedbackCorrect": "Correct. E(X) = n × p = 5 × 0.7 = 3.5."
+          },
+          {
+            "label": "B",
+            "text": "3",
+            "correct": false,
+            "feedbackWrong": "That would be the probability if you summed wrongly. Use n × p directly."
+          },
+          {
+            "label": "C",
+            "text": "35",
+            "correct": false,
+            "feedbackWrong": "You multiplied by 10 instead of using the correct formula. It's n × p = 5 × 0.7 = 3.5."
+          },
+          {
+            "label": "D",
+            "text": "0.7",
+            "correct": false,
+            "feedbackWrong": "0.7 is just p, not the expected value. Multiply by n to get the mean."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-binomial-geometric-confusion",
+      "condition": "student answers incorrectly on any question with errorId err-binomial-geometric-confusion",
+      "systemAction": "assign reteach module err-binomial-geometric-confusion, then retest err-binomial-geometric-confusion",
+      "studentMessage": "关于 Student confuses binomial (total successes in fixed trials) with geometric (trial of first success). 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-cumulative-skip-misuse",
+      "condition": "student answers incorrectly on any question with errorId err-cumulative-skip-misuse",
+      "systemAction": "assign reteach module err-cumulative-skip-misuse, then retest err-cumulative-skip-misuse",
+      "studentMessage": "关于 Student incorrectly uses complement for less-than problems or forgets to subtract from 1. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-expected-value-calculation",
+      "condition": "student answers incorrectly on any question with errorId err-expected-value-calculation",
+      "systemAction": "assign reteach module err-expected-value-calculation, then retest err-expected-value-calculation",
+      "studentMessage": "关于 Student tries to sum probabilities instead of using E(X)=n×p for binomial expectation. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-at-least-vs-more-than",
+      "condition": "student answers incorrectly on any question with errorId err-at-least-vs-more-than",
+      "systemAction": "assign reteach module err-at-least-vs-more-than, then retest err-at-least-vs-more-than",
+      "studentMessage": "关于 Student misreads 'at least X' as 'more than X' or vice versa, leading to incorrect cumulative bound. 的理解还需要加强。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-binomial-geometric-confusion",
+      "trigger": "Student selects a binomial scenario (e.g., number of heads in 10 flips) when asked for geometric.",
+      "studentMisunderstanding": "Student thinks any scenario with success/failure is binomial, ignoring that geometric counts trials to first success.",
+      "miniLesson": {
+        "explain": "Binomial distribution counts the number of successes in a fixed number of trials (e.g., number of heads in 10 flips). Geometric distribution counts the number of trials needed to achieve the first success (e.g., number of rolls until a 6 appears). Key difference: binomial has a fixed number of trials; geometric continues until the first success.",
+        "example": "Rolling a fair die: 'Number of heads in 10 flips' is binomial (fixed 10 trials, count successes). 'Number of rolls until rolling a 6' is geometric (trials stop at first success).",
+        "memoryAnchor": "If it says 'until first success', it's geometric."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is a geometric probability scenario?\nA: Number of defective items in a batch of 20\nB: Number of rolls until a 6 appears",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "A baseball player has a hit rate of 0.28. Which distribution would you use to model the number of at-bats until his first hit? Explain briefly.",
+          "answer": "Geometric, because it counts the number of trials (at-bats) until the first success (hit)."
+        },
+        {
+          "level": "L3",
+          "prompt": "In a geometric distribution with success probability p=0.15, what is the probability that the first success occurs on the 1st trial?",
+          "answer": "0.15"
+        }
+      ]
+    },
+    {
+      "errorId": "err-cumulative-skip-misuse",
+      "trigger": "Student incorrectly uses complement for less-than problems or forgets to subtract from 1.",
+      "studentMisunderstanding": "The student thinks the complement rule applies the same way for all cumulative expressions, not realizing that 'at least' requires subtracting from 1 while 'less than' uses the cumulative directly.",
+      "miniLesson": {
+        "explain": "When calculating cumulative probabilities in binomial distributions, you can use the complement rule to avoid summing many terms. For 'at least X successes', P(at least X) = 1 - P(≤ X-1). For 'less than X', you directly use P(≤ X-1) without complement. For 'more than X', use 1 - P(≤ X). A common mistake is using complement for less-than problems or forgetting to subtract from 1.",
+        "example": "In the advertising flyer example (n=20, p=0.15), P(at least 3 responses) = 1 - P(≤2) = 0.595. In the baseball example (n=10, p=0.28), P(less than 6 hits) = P(≤5) = 0.98, and P(more than 4) = 1 - P(≤4) = 0.12.",
+        "memoryAnchor": "For 'at least', flip and subtract: 1 minus cumulative up to one less. For 'less than', keep cumulative as is."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the complement expression for 'at least 3' in a binomial distribution?",
+          "answer": "1 - P(X ≤ 2)"
+        },
+        {
+          "level": "L2",
+          "prompt": "For n=20, p=0.15, calculate P(at least 3) using the complement rule.",
+          "answer": "0.595"
+        },
+        {
+          "level": "L3",
+          "prompt": "For n=10, p=0.28, how would you calculate P(less than 6) and P(more than 4)? Write the expressions and give the probabilities.",
+          "answer": "P(less than 6) = P(X≤5) = 0.98; P(more than 4) = 1 - P(X≤4) = 0.12"
+        }
+      ]
+    },
+    {
+      "errorId": "err-expected-value-calculation",
+      "trigger": "When asked for expected value of binomial distribution, student attempts to sum probabilities or uses wrong formula.",
+      "studentMisunderstanding": "Student does not recognize or apply the formula E(X) = n × p, instead tries to compute expected value by summing all possible values times their probabilities, which is inefficient and error-prone.",
+      "miniLesson": {
+        "explain": "For a binomial distribution, the expected value (mean) is simply the number of trials multiplied by the probability of success: E(X) = n × p. You do not need to sum anything because the formula is derived from properties of independent trials.",
+        "example": "In a car purchase study with n = 5 couples and p = 0.7 (husband influence), E(X) = 5 × 0.7 = 3.5. So on average, we expect 3.5 couples (out of 5) where the husband influences the purchase.",
+        "memoryAnchor": "Remember: Expected value = number of trials × probability of success. No summing needed."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A binomial distribution has n=10 and p=0.28. Compute the expected number of successes.",
+          "answer": "2.8"
+        },
+        {
+          "level": "L2",
+          "prompt": "For an advertising flyer campaign with n=20 and response probability p=0.15, what is the expected number of responses?",
+          "answer": "3"
+        },
+        {
+          "level": "L3",
+          "prompt": "In a study of car purchases, 5 couples were surveyed with p=0.7 that the husband influences the purchase. What is the expected number of couples where the husband influences the purchase?",
+          "answer": "3.5"
+        }
+      ]
+    },
+    {
+      "errorId": "err-at-least-vs-more-than",
+      "trigger": "Student often confuses 'at least X' with 'more than X' when interpreting binomial probability questions, leading to incorrect cumulative bounds.",
+      "studentMisunderstanding": "The student thinks 'at least X' excludes X itself (like 'more than X') or thinks 'more than X' includes X (like 'at least X'). This changes the cumulative probability boundary.",
+      "miniLesson": {
+        "explain": "In binomial probability, 'at least X successes' means X or more (X, X+1, ..., n). 'More than X successes' means strictly greater than X (X+1, X+2, ..., n). The difference is whether X is included. For cumulative calculations, 'at least X' uses complement: P(at least X) = 1 - P(≤ X-1). 'More than X' uses complement: P(more than X) = 1 - P(≤ X).",
+        "example": "In the advertising flyer problem (n=20, p=0.15), P(at least 3) = 0.595, which includes exactly 3. P(more than 3) would be 1 - P(≤3). Using P(exactly 3)=0.243, P(more than 3) = P(at least 3) - P(exactly 3) = 0.595 - 0.243 = 0.352.",
+        "memoryAnchor": "Think: 'at least' = ≥ (includes the number), 'more than' = > (does not include the number). On a number line, 'at least 3' shades 3 and beyond; 'more than 3' shades after 3."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which inequality correctly represents 'at least 2 successes'?\nA) X > 2\nB) X ≥ 2\nC) X < 2",
+          "answer": "B) X ≥ 2"
+        },
+        {
+          "level": "L2",
+          "prompt": "In the baseball scenario (n=10, p=0.28), translate 'more than 4 hits' into a mathematical inequality and write the complement expression for its probability.",
+          "answer": "Inequality: X > 4. Complement expression: 1 - P(X ≤ 4)."
+        },
+        {
+          "level": "L3",
+          "prompt": "For the advertising flyer problem (n=20, p=0.15), you are given P(at least 3) = 0.595 and P(exactly 3) = 0.243. Calculate P(more than 3) using the relationship between 'at least' and 'more than'.",
+          "answer": "P(more than 3) = P(at least 3) - P(exactly 3) = 0.595 - 0.243 = 0.352"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-binomial-geometric-confusion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is a geometric probability scenario?",
+          "options": [
+            "Number of heads in 10 coin flips",
+            "Number of rolls of a die until first 6 appears"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A basketball player has a free-throw success rate of 0.72. You want to find the probability that her first made free throw occurs on her 4th attempt. What probability distribution should be used? Explain your reasoning in one sentence.",
+          "rubric": "Geometric distribution, because it models the number of trials (attempts) until the first success (made free throw)."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-cumulative-skip-misuse",
+      "questions": [
+        {
+          "id": "complement-expression",
+          "type": "single_choice",
+          "stem": "Which of the following is the correct complement rule expression for P(at least 8 successes) in a binomial distribution?",
+          "options": [
+            "P(X ≤ 7)",
+            "1 - P(X ≤ 7)",
+            "1 - P(X ≥ 8)",
+            "P(X < 8)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "more-than-five-hits",
+          "type": "open_ended",
+          "stem": "For a binomial distribution with n=10, p=0.28, calculate P(more than 5 hits). Write the expression you used and the probability.",
+          "rubric": "Expression: 1 - P(X ≤ 5) or 1 - P(X ≤ 5 hits). Probability: 0.02 (since P(X ≤ 5) = 0.98). Accept equivalent expressions."
+        }
+      ],
+      "passRule": "all_correct"
+    },
+    {
+      "forErrorId": "err-expected-value-calculation",
+      "questions": [
+        {
+          "id": "retest-ev-sc",
+          "type": "single_choice",
+          "stem": "For a binomial distribution with 10 trials and probability of success 0.28, what is the expected number of successes?",
+          "options": [
+            "0.28",
+            "2.8",
+            "3.5",
+            "10"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-ev-oe",
+          "type": "open_ended",
+          "stem": "A binomial experiment with 20 trials has a success probability of 0.15. Calculate the expected number of successes.",
+          "rubric": "The correct answer is 3. Accept 3.0 or 3."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-at-least-vs-more-than",
+      "questions": [
+        {
+          "id": "err-at-least-vs-more-than-retest-q1",
+          "type": "single_choice",
+          "stem": "Which inequality correctly represents 'more than 3 successes'?",
+          "options": [
+            "X ≥ 3",
+            "X > 3",
+            "X ≤ 3",
+            "X < 3"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "err-at-least-vs-more-than-retest-q2",
+          "type": "open_ended",
+          "stem": "In a binomial experiment with n=20 and p=0.15, the probability of at least 3 successes is 0.595, and the probability of exactly 3 successes is 0.243. Calculate the probability of more than 3 successes.",
+          "rubric": "0.352 or equivalent (0.595 - 0.243) with correct subtraction."
+        }
+      ],
+      "passRule": "Answer all questions correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-27",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/EkzkdndZBoc5wwxzUcjc3UBxndf?from=vc_group_doc_link#doxcnqndUcrJjJOsWJA8ERREGbc",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-27 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Binomial distribution parameters: number of trials (n), probability of success (p), target number of successes (k). Failure probability = 1 - p.；Expected value (mean) of a binomial distribution is E(X) = n × p.；Cumulative probability for 'at least X successes' can be calculated as 1 - P(≤ X-1) to avoid summing many individual probabilities.",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Class Activity 3 remaining questions",
+        "studentAction": "Submit completed Class Activity 3 remaining questions before next class.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The instructor reminded students to submit completed Class Activity 3 remaining questions before the next class.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Upcoming assignment on job market research",
+        "studentAction": "Be aware that a future assignment will require research on job market changes 5-10 years in advance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "The instructor mentioned that a future assignment will require students to research job market changes.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Submit Class Activity 3 remaining questions before next class.",
+        "reason": "The exact date of next class is not specified; it may be the following day or later, but no calendar date given."
+      }
+    ],
+    "watchTags": [
+      "binomial-distribution",
+      "geometric-distribution-intro"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "errorId": "err-binomial-geometric-confusion",
+        "condition": "student answers incorrectly on any question with errorId err-binomial-geometric-confusion",
+        "systemAction": "assign reteach module err-binomial-geometric-confusion, then retest err-binomial-geometric-confusion"
+      },
+      {
+        "errorId": "err-cumulative-skip-misuse",
+        "condition": "student answers incorrectly on any question with errorId err-cumulative-skip-misuse",
+        "systemAction": "assign reteach module err-cumulative-skip-misuse, then retest err-cumulative-skip-misuse"
+      },
+      {
+        "errorId": "err-expected-value-calculation",
+        "condition": "student answers incorrectly on any question with errorId err-expected-value-calculation",
+        "systemAction": "assign reteach module err-expected-value-calculation, then retest err-expected-value-calculation"
+      },
+      {
+        "errorId": "err-at-least-vs-more-than",
+        "condition": "student answers incorrectly on any question with errorId err-at-least-vs-more-than",
+        "systemAction": "assign reteach module err-at-least-vs-more-than, then retest err-at-least-vs-more-than"
+      }
+    ],
+    "nextActions": [
+      "[err-binomial-geometric-confusion] student answers incorrectly on any question with errorId err-binomial-geometric-confusion: 关于 Student confuses binomial (total successes in fixed trials) with geometric (trial of first success). 的理解还需要加强。",
+      "[err-cumulative-skip-misuse] student answers incorrectly on any question with errorId err-cumulative-skip-misuse: 关于 Student incorrectly uses complement for less-than problems or forgets to subtract from 1. 的理解还需要加强。",
+      "[err-expected-value-calculation] student answers incorrectly on any question with errorId err-expected-value-calculation: 关于 Student tries to sum probabilities instead of using E(X)=n×p for binomial expectation. 的理解还需要加强。",
+      "[err-at-least-vs-more-than] student answers incorrectly on any question with errorId err-at-least-vs-more-than: 关于 Student misreads 'at least X' as 'more than X' or vice versa, leading to incorrect cumulative bound. 的理解还需要加强。"
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-s6-0727-q1",
+        "type": "choice",
+        "question": "In which of the following scenarios would you use a geometric probability distribution instead of a binomial?",
+        "options": [
+          "Number of defective items in a batch of 20",
+          "Number of rolls until rolling a 6 with a fair die",
+          "Number of heads in 10 coin flips",
+          "Number of red cards in a 5-card hand"
+        ],
+        "correct": 1,
+        "diagnosis": "To check if the student can distinguish between binomial (fixed number of trials, count successes) and geometric (trials until first success) contexts.",
+        "misconceptions": [
+          "This is a fixed number of trials (20), counting successes (defects) – that's binomial.",
+          "✓ Correct. This counts the number of trials needed to get the first success, which is geometric.",
+          "Fixed number of trials (10), counting successes – that's binomial.",
+          "This is a fixed sample size without replacement (hypergeometric, not binomial or geometric). The lesson only covered binomial and geometric for independent trials."
+        ],
+        "nodeId": "binomial-distribution",
+        "errorId": "err-binomial-geometric-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the scenario that models a geometric distribution (trials until first success).",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question assesses understanding of which discrete distribution applies (binomial vs geometric), directly related to expectation B1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "classify",
+        "commonMisconception": "The student thinks any scenario with 'success/failure' is binomial, ignoring that geometric counts trials to first success.",
+        "remediationModule": "err-binomial-geometric-confusion",
+        "retestItem": "err-binomial-geometric-confusion"
+      },
+      {
+        "id": "diag-mdm4u-s6-0727-q2",
+        "type": "explain",
+        "question": "For a binomial distribution with n=20, p=0.15, explain how you would calculate the probability of at least 3 responses in fewer steps using the complement rule.",
+        "correct": null,
+        "diagnosis": "To assess whether the student can apply the complement shortcut correctly for 'at least' probabilities.",
+        "nodeId": "binomial-distribution",
+        "errorId": "err-cumulative-skip-misuse",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student explains that P(at least 3) = 1 - P(X≤2) using the complement rule.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Using complement to simplify cumulative probability is part of solving binomial problems (B1).",
+        "achievementCategory": "Application",
+        "cognitiveAction": "justify",
+        "commonMisconception": "Student might use complement incorrectly (e.g., 1 - P(X≤3) for at least 3) or not recognize the shortcut.",
+        "remediationModule": "err-cumulative-skip-misuse",
+        "retestItem": "err-cumulative-skip-misuse"
+      },
+      {
+        "id": "diag-mdm4u-s6-0727-q3",
+        "type": "choice",
+        "question": "In a binomial distribution with n=5 and p=0.7, the expected number of successes is:",
+        "options": [
+          "3.5",
+          "3",
+          "35",
+          "0.7"
+        ],
+        "correct": 0,
+        "diagnosis": "To check if the student knows the formula E(X)=n×p and can compute it.",
+        "misconceptions": [
+          "✓ Correct. E(X) = n × p = 5 × 0.7 = 3.5.",
+          "That would be the probability if you summed wrongly. Use n × p directly.",
+          "You multiplied by 10 instead of using the correct formula. It's n × p = 5 × 0.7 = 3.5.",
+          "0.7 is just p, not the expected value. Multiply by n to get the mean."
+        ],
+        "nodeId": "binomial-distribution",
+        "errorId": "err-expected-value-calculation",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects the correct expected value using E(X) = np.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Expected value calculation is a core skill for binomial distributions (B1).",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student might use a different formula (e.g., sum of probabilities) or misapply n and p.",
+        "remediationModule": "err-expected-value-calculation",
+        "retestItem": "err-expected-value-calculation"
+      }
+    ]
+  }
+}

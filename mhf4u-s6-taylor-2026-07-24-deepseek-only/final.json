@@ -1,0 +1,931 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-24",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ZCIwdTPL3obygXxu6UccSO5LnCh?from=vc_group_doc_link#doxcnvrptyitNvoG88e0z4QRlxg",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-24 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/ZCIwdTPL3obygXxu6UccSO5LnCh?from=vc_group_doc_link#doxcnvrptyitNvoG88e0z4QRlxg",
+    "title": "MHF4U.S6.Taylor 2026-07-24 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-27/sources/mhf4u-s6-taylor-2026-07-24/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-24",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-24",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes explicit instruction and guided practice on rational equation solving and rational inequality methodology, followed by administrative announcements for Unit 1 pre-test.",
+    "academicContentSignals": [
+      "Rational equation solving using cross-multiplication or lowest common denominator",
+      "Domain restrictions: exclude values that make denominator zero",
+      "Work rate word problem setup: define variables, combined rates, common denominator elimination",
+      "Rational inequality 3-step solving algorithm: rearrange to P(x)/Q(x) [comparator] 0, factor numerator and denominator, interval testing on number line",
+      "Endpoint inclusion rules: include zeros for ≤/≥, exclude for </>",
+      "Sample inequality solutions: (x²-5x-14)/(x²+2x-15)≤0 → (-5,-2]∪(3,7]; (x+3)/(x-1)<5 → (-∞,1)∪(2,∞); 240/(t+8)>20t/(t+1) → (-2,6)",
+      "Key error prevention: never multiply/divide by unknown sign denominator"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Academic content is substantial; operations are limited to deadlines and materials. Low risk of ops overshadowing if diagnostics focus on taught skills.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Conference submission deadline",
+        "studentAction": "Complete and upload all required conference submissions before Monday's in-class session",
+        "deadlineText": "Before start of Monday in-class session (2026-07-27)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All required conference submissions must be completed and uploaded before the start of Monday's in-class session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Unit 1 assignment package deadline",
+        "studentAction": "Submit full Unit 1 assignment package before Tuesday's in-class session",
+        "deadlineText": "Before start of Tuesday in-class session (2026-07-28)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The full Unit 1 assignment package is due for submission before the start of the in-class session on Tuesday.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 competency test",
+        "studentAction": "Take the official graded Unit 1 test during Tuesday's in-class session",
+        "deadlineText": "Tuesday in-class session (2026-07-28)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The official graded Unit 1 competency test will be administered entirely during the in-class session on Tuesday.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Rational inequality lecture notes to be posted",
+        "studentAction": "Check course page for rational inequality notes after session",
+        "deadlineText": "Post-session (2026-07-24)",
+        "deadlineISO": null,
+        "platform": "course page",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Rational inequality related notes will be added to the course page post-session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "review_focus",
+        "title": "Remaining Unit 1 review after Monday conference",
+        "studentAction": "Attend Monday's conference; remaining review will be covered after",
+        "deadlineText": "After Monday conference (2026-07-27)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Any unaddressed Unit 1 review requests... will be covered after Monday's scheduled conference sessions.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "The specific content or nature of the 'conference submission' is not described.",
+        "reason": "Notes mention conference submission but do not specify what is to be submitted."
+      },
+      {
+        "rawText": "Exact class start times on Monday and Tuesday are not specified, so deadline times are ambiguous.",
+        "reason": "Deadline references rely on inferred class start times."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Solve rational equations、Solve rational inequalities）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Rational equations can be solved by cross-multiplication or using a lowest common denominator.；Domain restrictions: exclude values that make any denominator zero.；Work rate word problems: combined rate equals sum of individual rates; use common denominator to eliminate fractions.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Solve rational equations algebraically, including checking and excluding domain restrictions."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Solve rational inequalities using the three-step algorithm (rearrange, factor, test intervals) and correctly determine endpoint inclusion."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Apply rational equation solving to real-world contexts such as work rate problems."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-C-OE03",
+      "name": "Solve rational equations",
+      "nameEn": "Solve rational equations",
+      "definition": "Solving problems involving polynomial and simple rational equations graphically and algebraically, including real-world applications.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "MHF4U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically."
+    },
+    {
+      "id": "MHF4U-C-OE04",
+      "name": "Solve rational inequalities",
+      "nameEn": "Solve rational inequalities",
+      "definition": "Demonstrate an understanding of solving polynomial and simple rational inequalities, including the three-step method and endpoint rules.",
+      "officialExpectationCode": "C4",
+      "officialNodeId": "MHF4U-C-OE04",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Solve rational equations algebraically, including checking and excluding domain restrictions."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Solve rational inequalities using the three-step algorithm (rearrange, factor, test intervals) and correctly determine endpoint inclusion."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply rational equation solving to real-world contexts such as work rate problems."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-rational-eq-domain",
+        "condition": "Student selects an option that includes a value making denominator zero as a valid solution.",
+        "systemAction": "Assign reteach module for err-rational-eq-domain.",
+        "studentMessage": "You missed an important step: check if your solution makes any denominator zero. Let's review domain restrictions."
+      },
+      {
+        "errorId": "err-rational-ineq-multiply",
+        "condition": "Student selects an option that multiplies both sides of a rational inequality by a denominator without considering sign.",
+        "systemAction": "Assign reteach module for err-rational-ineq-multiply.",
+        "studentMessage": "Multiplying by a denominator with unknown sign can flip the inequality. We'll practice the correct method."
+      },
+      {
+        "errorId": "err-rational-ineq-endpoint",
+        "condition": "Student selects incorrect endpoint inclusion for strict vs non-strict inequality.",
+        "systemAction": "Assign reteach module for err-rational-ineq-endpoint.",
+        "studentMessage": "Endpoints from the denominator are always excluded; endpoints from numerator depend on the inequality symbol. Let's clarify."
+      },
+      {
+        "errorId": "err-rational-ineq-factor",
+        "condition": "Student selects incorrect critical points due to factoring error.",
+        "systemAction": "Assign reteach module for err-rational-ineq-factor.",
+        "studentMessage": "Factoring correctly is key to finding critical points. Let's practice factoring techniques."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-c-0701-q1",
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-rational-eq-domain",
+        "stem": "Solve: (x+1)/(x-2) = 3. What is the solution set?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly excludes x=2 from the solution because it makes denominator zero.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses solving rational equations with domain restrictions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student remembers to exclude values that make any denominator zero.",
+        "commonMisconception": "Solving without considering domain; extending solution to include x=2.",
+        "remediationModule": "err-rational-eq-domain",
+        "retestItem": "err-rational-eq-domain",
+        "options": [
+          {
+            "label": "A",
+            "text": "x = 3.5",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "x = 3.5, x = 2",
+            "correct": false,
+            "feedbackWrong": "x=2 makes the denominator zero, so it must be excluded from the solution set."
+          },
+          {
+            "label": "C",
+            "text": "x = 2",
+            "correct": false,
+            "feedbackWrong": "x=2 is not a solution; it makes the denominator zero and is not allowed."
+          },
+          {
+            "label": "D",
+            "text": "No solution",
+            "correct": false,
+            "feedbackWrong": "The equation does have a solution, but you must exclude x=2 from the domain."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-rational-eq-domain."
+      },
+      {
+        "id": "diag-mhf4u-c-0701-q2",
+        "nodeId": "MHF4U-C-OE04",
+        "errorId": "err-rational-ineq-multiply",
+        "stem": "A student solves (x+3)/(x-1) < 5 by multiplying both sides by (x-1) to get x+3 < 5x-5. What error did they make?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that multiplying by an expression with unknown sign can reverse the inequality.",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses a common error in solving rational inequalities.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student knows that multiplying by a denominator with unknown sign is not allowed; instead, bring all terms to one side.",
+        "commonMisconception": "Treating rational inequalities like equations by multiplying through without considering sign.",
+        "remediationModule": "err-rational-ineq-multiply",
+        "retestItem": "err-rational-ineq-multiply",
+        "options": [
+          {
+            "label": "A",
+            "text": "They forgot to check for extraneous solutions.",
+            "correct": false,
+            "feedbackWrong": "That's not the main issue. The error is multiplying by (x-1) without considering its sign."
+          },
+          {
+            "label": "B",
+            "text": "They multiplied by (x-1) without considering its sign; the inequality direction may change.",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "C",
+            "text": "They should have subtracted 5 first, but they did not.",
+            "correct": false,
+            "feedbackWrong": "The correct first step is to bring all terms to one side, but the critical mistake is the multiplication."
+          },
+          {
+            "label": "D",
+            "text": "They should have cross-multiplied only when both sides are positive.",
+            "correct": false,
+            "feedbackWrong": "Cross-multiplying also requires sign consideration; the proper method is to rearrange to P(x)/Q(x) [comparator] 0."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-rational-ineq-multiply."
+      },
+      {
+        "id": "diag-mhf4u-c-0701-q3",
+        "nodeId": "MHF4U-C-OE04",
+        "errorId": "err-rational-ineq-endpoint",
+        "stem": "The solution to (x²-5x-14)/(x²+2x-15) ≤ 0 is (-5, -2] ∪ (3, 7]. Which endpoints are included in the solution?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that -2 and 7 are included (from numerator zeros, non-strict), -5 and 3 are excluded (denominator zeros).",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses endpoint inclusion rule for rational inequalities.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows that zeros from numerator are included for ≤ or ≥, zeros from denominator are always excluded.",
+        "commonMisconception": "Including denominator zeros or excluding numerator zeros incorrectly.",
+        "remediationModule": "err-rational-ineq-endpoint",
+        "retestItem": "err-rational-ineq-endpoint",
+        "options": [
+          {
+            "label": "A",
+            "text": "-5 and 3 are included because they make the denominator zero.",
+            "correct": false,
+            "feedbackWrong": "Values that make the denominator zero are never included; they cause division by zero."
+          },
+          {
+            "label": "B",
+            "text": "-2 and 7 are included because they come from the numerator and the inequality is ≤.",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "C",
+            "text": "All four endpoints are included because the inequality is non-strict.",
+            "correct": false,
+            "feedbackWrong": "Even for non-strict inequalities, denominator zeros are still excluded."
+          },
+          {
+            "label": "D",
+            "text": "No endpoints are included because rational inequalities always have open intervals.",
+            "correct": false,
+            "feedbackWrong": "Numerator zeros can be included if the inequality symbol allows it."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-rational-ineq-endpoint."
+      },
+      {
+        "id": "diag-mhf4u-c-0701-q4",
+        "nodeId": "MHF4U-C-OE04",
+        "errorId": "err-rational-ineq-factor",
+        "stem": "To solve (x²-5x-14)/(x²+2x-15) ≤ 0, what are the critical points (values where numerator or denominator equals zero)?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly factors numerator and denominator to find critical points: -2, 7 (numerator) and -5, 3 (denominator).",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses factoring step in rational inequality solving.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can factor quadratic expressions to identify critical points.",
+        "commonMisconception": "Factoring errors or missing factors lead to wrong critical points.",
+        "remediationModule": "err-rational-ineq-factor",
+        "retestItem": "err-rational-ineq-factor",
+        "options": [
+          {
+            "label": "A",
+            "text": "-2, 7, -5, 3",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "2, -7, 5, -3",
+            "correct": false,
+            "feedbackWrong": "Check your factoring: x²-5x-14 factors to (x-7)(x+2), and x²+2x-15 factors to (x+5)(x-3)."
+          },
+          {
+            "label": "C",
+            "text": "-2, 7",
+            "correct": false,
+            "feedbackWrong": "You missed the denominator factors. Critical points come from both numerator and denominator."
+          },
+          {
+            "label": "D",
+            "text": "-5, 3",
+            "correct": false,
+            "feedbackWrong": "You only considered denominator zeros; numerator zeros are also critical points."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module for err-rational-ineq-factor."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-rational-eq-domain",
+      "condition": "Student selects an option that includes a value making denominator zero as a valid solution.",
+      "systemAction": "Assign reteach module for err-rational-eq-domain.",
+      "studentMessage": "You missed an important step: check if your solution makes any denominator zero. Let's review domain restrictions."
+    },
+    {
+      "errorId": "err-rational-ineq-multiply",
+      "condition": "Student selects an option that multiplies both sides of a rational inequality by a denominator without considering sign.",
+      "systemAction": "Assign reteach module for err-rational-ineq-multiply.",
+      "studentMessage": "Multiplying by a denominator with unknown sign can flip the inequality. We'll practice the correct method."
+    },
+    {
+      "errorId": "err-rational-ineq-endpoint",
+      "condition": "Student selects incorrect endpoint inclusion for strict vs non-strict inequality.",
+      "systemAction": "Assign reteach module for err-rational-ineq-endpoint.",
+      "studentMessage": "Endpoints from the denominator are always excluded; endpoints from numerator depend on the inequality symbol. Let's clarify."
+    },
+    {
+      "errorId": "err-rational-ineq-factor",
+      "condition": "Student selects incorrect critical points due to factoring error.",
+      "systemAction": "Assign reteach module for err-rational-ineq-factor.",
+      "studentMessage": "Factoring correctly is key to finding critical points. Let's practice factoring techniques."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-rational-eq-domain",
+      "trigger": "Student selects a solution that makes a denominator zero as part of the solution set.",
+      "studentMisunderstanding": "The student fails to recognize that values causing any denominator to be zero are not allowed in the domain of a rational equation. They may solve algebraically correctly but forget to exclude extraneous roots that make the denominator zero.",
+      "miniLesson": {
+        "explain": "When solving rational equations, always identify the values that make any denominator zero. These values are excluded from the domain. After solving, check that each solution is not equal to any excluded value. If it is, it is extraneous and must be discarded.",
+        "example": "Solve (5x+1)/(x-2)=0. Multiply both sides by (x-2): 5x+1=0 => x=-1/5. The denominator zero when x=2, so x=2 is excluded. Since -1/5 is not 2, the solution is valid. Solution set: {-1/5}.",
+        "memoryAnchor": "Domain Danger: Before solving, note what makes denominators zero. After solving, verify your answers aren't in the danger zone."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Solve (x+1)/(x-1)=2. What is the solution? Remember domain restrictions.",
+          "answer": "x=3 (x=1 is excluded because it makes the denominator zero)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Solve (5x+1)/(x-2)=0. What is the solution? Check domain.",
+          "answer": "x=-1/5 (x=2 is excluded)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Stuart and Lucy paint a house. Stuart takes s minutes, Lucy takes s-13 minutes. Together they take 40 minutes. Equation: 1/s+1/(s-13)=1/40. Solve for s. Consider that times must be positive.",
+          "answer": "s=91 minutes (s>13 ensures domain; only s=91 satisfies equation and domain)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-rational-ineq-multiply",
+      "trigger": "When solving the inequality (x+3)/(x-1) < 5, a student multiplies both sides by (x-1) to get x+3 < 5x-5, ignoring the sign of (x-1).",
+      "studentMisunderstanding": "Students often treat rational inequalities like equations and multiply by the denominator without considering that the sign of the denominator can change the inequality direction.",
+      "miniLesson": {
+        "explain": "When solving rational inequalities, you cannot multiply both sides by a denominator that contains a variable because its sign is unknown. Multiplying by a negative value reverses the inequality. The correct method is to bring all terms to one side, combine into a single fraction, and compare to zero.",
+        "example": "Solve (x+3)/(x-1) < 5. Wrong: Multiply by (x-1) to get x+3 < 5x-5 => 8 < 4x => x > 2, which misses the case when (x-1) is negative. Correct: Subtract 5: (x+3)/(x-1) - 5 < 0 => (x+3 -5(x-1))/(x-1) < 0 => (-4x+8)/(x-1) < 0 => -4(x-2)/(x-1) < 0. Divide by -4 (reverses inequality): (x-2)/(x-1) > 0. Critical points: x=1, x=2. Test intervals: (-∞,1): both negative => positive, true; (1,2): numerator negative, denominator positive => negative, false; (2,∞): both positive => positive, true. Solution: (-∞,1) ∪ (2,∞).",
+        "memoryAnchor": "Remember: In rational inequalities, never multiply by a variable denominator. Instead, bring all terms to one side and create a single fraction compared to zero."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A student solves (x+1)/(x-2) < 3 by multiplying both sides by (x-2) to get x+1 < 3x-6. What is the first mistake? Answer in one sentence.",
+          "answer": "The student multiplied by an expression with unknown sign without considering that it could reverse the inequality."
+        },
+        {
+          "level": "L2",
+          "prompt": "Solve (x+3)/(x-1) < 5 using the correct method (bring all terms to one side).",
+          "answer": "(x+3)/(x-1) - 5 < 0 => (-4x+8)/(x-1) < 0 => -4(x-2)/(x-1) < 0 => divide by -4: (x-2)/(x-1) > 0. Critical points: x=1, x=2. Test intervals: (-∞,1): both factors negative => positive; (1,2): numerator negative, denominator positive => negative; (2,∞): both positive => positive. Solution: (-∞,1) ∪ (2,∞)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Solve 240/(t+8) > 20t/(t+1) by moving all terms to one side. Show the simplified inequality and the solution set.",
+          "answer": "240/(t+8) - 20t/(t+1) > 0 => [240(t+1) - 20t(t+8)] / [(t+8)(t+1)] > 0 => simplify numerator: -20(t-6)(t+2). Inequality: -20(t-6)(t+2) / [(t+8)(t+1)] > 0 => multiply by -1: 20(t-6)(t+2) / [(t+8)(t+1)] < 0. Critical points: t=-8, t=-2, t=-1, t=6. Using sign analysis, the solution is (-2,6)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-rational-ineq-endpoint",
+      "trigger": "Student selects incorrect endpoint inclusion for strict vs non-strict inequality.",
+      "studentMisunderstanding": "The student mistakenly includes or excludes endpoints when solving rational inequalities. They may include values that make denominator zero (always excluded) or exclude numerator zeros when the inequality is non-strict.",
+      "miniLesson": {
+        "explain": "When solving rational inequalities, critical points come from numerator zeros (where expression equals zero) and denominator zeros (where expression is undefined). Denominator zeros are always excluded from solution sets because division by zero is undefined. Numerator zeros are included only if the inequality is non-strict (≤ or ≥); they are excluded for strict inequalities (< or >). Example: For ≤ or ≥, include numerator zeros; for < or >, exclude them.",
+        "example": "Solve (x²-5x-14)/(x²+2x-15) ≤ 0. Factor: numerator (x-7)(x+2), denominator (x+5)(x-3). Critical points: numerator zeros -2 and 7, denominator zeros -5 and 3. Because inequality is ≤, include -2 and 7 (numerator zeros) but exclude -5 and 3 (denominator zeros). Test intervals yield solution (-5,-2] ∪ (3,7].",
+        "memoryAnchor": "Think: 'Denominator? No entry! Numerator? Only if non-strict.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For the inequality (x+3)/(x-1) < 5, which endpoints from the denominator should be included?",
+          "answer": "None; denominator zeros (x=1) are always excluded, regardless of inequality."
+        },
+        {
+          "level": "L2",
+          "prompt": "The solution to (x²-5x-14)/(x²+2x-15) ≤ 0 is (-5,-2] ∪ (3,7]. Explain why -2 and 7 are included but -5 and 3 are not.",
+          "answer": "-2 and 7 are numerator zeros, and since the inequality is ≤ (non-strict), they are included. -5 and 3 are denominator zeros; they make the expression undefined, so they are always excluded."
+        },
+        {
+          "level": "L3",
+          "prompt": "Solve the inequality 240/(t+8) > 20t/(t+1). Write your answer in interval notation, specifying which endpoints are included.",
+          "answer": "The simplified inequality is 20(t-6)(t+2) < 0, with critical points from numerator zeros: t=6 (excluded because inequality is strict <) and t=-2 (excluded), and denominator zeros: t=-8 (excluded), t=-1 (excluded). Test intervals: (-∞,-8) negative? No; (-8,-2) negative? Yes; (-2,-1) positive? No; (-1,6) positive? No; (6,∞) positive? No. Wait, check sign: product (t-6)(t+2) < 0 between -2 and 6, but exclude denominator zeros -8 and -1. So solution: (-8,-2) ∪ (-1,6). Endpoints: none included because inequality is strict and denominator zeros are always excluded."
+        }
+      ]
+    },
+    {
+      "errorId": "err-rational-ineq-factor",
+      "trigger": "Student selects incorrect critical points due to factoring error in a rational inequality.",
+      "studentMisunderstanding": "The student fails to correctly factor the numerator and denominator of a rational expression, leading to missing or incorrect critical points for interval testing.",
+      "miniLesson": {
+        "explain": "To solve a rational inequality, first rearrange it to the form P(x)/Q(x) [comparator] 0. Then factor both the numerator and denominator completely. The critical points are the values of x that make either factor zero. These points divide the number line into intervals for testing. Remember: values that make the denominator zero are always excluded from the solution, but they are still critical points for sign analysis.",
+        "example": "Solve (x²-5x-14)/(x²+2x-15) ≤ 0. First factor: numerator = (x-7)(x+2), denominator = (x+5)(x-3). Critical points: from numerator zeros: x=7, x=-2; from denominator zeros: x=-5, x=3. So critical points are -5, -2, 3, 7.",
+        "memoryAnchor": "Factor to find zeros; both numerator and denominator zeros are critical points."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find the critical points for the inequality (x+2)/(x-3) > 0. List all values that make the numerator or denominator zero.",
+          "answer": "-2, 3"
+        },
+        {
+          "level": "L2",
+          "prompt": "Factor the numerator and denominator of (x²-5x-14)/(x²+2x-15) ≤ 0 and list all critical points.",
+          "answer": "-5, -2, 3, 7"
+        },
+        {
+          "level": "L3",
+          "prompt": "Find the critical points for the inequality (x²-4x-12)/(x²-4x+3) ≤ 0. Factor completely and list all critical points.",
+          "answer": "-2, 1, 3, 6"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-rational-eq-domain",
+      "questions": [
+        {
+          "id": "retest-err-domain-q1",
+          "type": "single_choice",
+          "stem": "Which of the following is the correct solution set for the equation \\(\\frac{x+1}{x-2}=3\\)?",
+          "options": [
+            "\\(\\{\\frac{7}{2}\\}\\)",
+            "\\(\\{2, \\frac{7}{2}\\}\\)",
+            "\\(\\{2\\}\\)",
+            "No solution"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-err-domain-q2",
+          "type": "open_ended",
+          "stem": "Solve the equation \\(\\frac{x}{x-2} = \\frac{2}{x-2} - 1\\). What is the solution set?",
+          "rubric": "The student correctly determines that x=2 is extraneous because it makes the denominator zero, and states that there is no solution (or the solution set is empty). Accept 'no solution', 'empty set', or '{}'."
+        }
+      ],
+      "passRule": "All questions correct"
+    },
+    {
+      "forErrorId": "err-rational-ineq-multiply",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A student solves the inequality (x+3)/(x-1) < 5 by multiplying both sides by (x-1) to obtain x+3 < 5x-5. What is the first mistake?",
+          "options": [
+            "They should have added 5 first.",
+            "They multiplied by an expression with unknown sign without considering sign change.",
+            "They forgot to check domain restrictions.",
+            "They should have factored the denominator."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Solve the inequality (x+1)/(x-3) < 2 using the correct method. Show all steps including sign analysis.",
+          "rubric": "1) Subtract 2 from both sides to form single fraction: (x+1)/(x-3) - 2 < 0. 2) Combine: (x+1 - 2(x-3))/(x-3) < 0 => (-x+7)/(x-3) < 0. 3) Multiply by -1 (reverse inequality): (x-7)/(x-3) > 0. 4) Identify critical points: x=3, x=7. 5) Test intervals: (-∞,3): both negative => positive, true; (3,7): (x-7) negative, (x-3) positive => negative, false; (7,∞): both positive => positive, true. 6) Solution: (-∞,3) ∪ (7,∞)."
+        }
+      ],
+      "passRule": "score >= 2"
+    },
+    {
+      "forErrorId": "err-rational-ineq-endpoint",
+      "questions": [
+        {
+          "id": "retest-endpoint-1",
+          "type": "open_ended",
+          "stem": "Solve the rational inequality (x-3)/(x+5) < 0. Write your solution in interval notation. Then, for each critical point, state whether it is included or excluded and explain why, referencing the type of inequality and the role of numerator/denominator zeros.",
+          "rubric": "Critical points: x = 3 (numerator zero) and x = -5 (denominator zero). Since the inequality is strict (<), numerator zeros are excluded. Denominator zeros are always excluded. Therefore both 3 and -5 are excluded. The solution interval is (-5, 3)."
+        }
+      ],
+      "passRule": "Student correctly identifies that -5 and 3 are both excluded, with proper reasoning: denominator zeros always excluded, numerator zeros excluded for strict inequalities."
+    },
+    {
+      "forErrorId": "err-rational-ineq-factor",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "For the rational inequality \\(\\frac{x(x+2)}{(x-3)(x+5)} \\leq 0\\), which set contains all critical points?",
+          "options": [
+            "\\{-5, -2, 0, 3\\}",
+            "\\{-5, -2, 3\\}",
+            "\\{-2, 0, 3\\}",
+            "\\{-5, -2, 0\\}"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Factor the numerator and denominator completely for \\(\\frac{x^2+2x}{x^2+2x-15} \\leq 0\\), then list all critical points (values that make numerator or denominator zero).",
+          "rubric": "Numerator: x(x+2); Denominator: (x-3)(x+5); Critical points: -5, -2, 0, 3. (Must list all four and show factoring. Award full marks if factoring is correct and all critical points are listed.)"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-24",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ZCIwdTPL3obygXxu6UccSO5LnCh?from=vc_group_doc_link#doxcnvrptyitNvoG88e0z4QRlxg",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-24 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Rational equations can be solved by cross-multiplication or using a lowest common denominator.；Domain restrictions: exclude values that make any denominator zero.；Work rate word problems: combined rate equals sum of individual rates; use common denominator to eliminate fractions.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Solve rational equations algebraically, including checking and excluding domain restrictions."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Solve rational inequalities using the three-step algorithm (rearrange, factor, test intervals) and correctly determine endpoint inclusion."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply rational equation solving to real-world contexts such as work rate problems."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Conference submission deadline",
+        "studentAction": "Complete and upload all required conference submissions before Monday's in-class session",
+        "deadlineText": "Before start of Monday in-class session (2026-07-27)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All required conference submissions must be completed and uploaded before the start of Monday's in-class session.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Unit 1 assignment package deadline",
+        "studentAction": "Submit full Unit 1 assignment package before Tuesday's in-class session",
+        "deadlineText": "Before start of Tuesday in-class session (2026-07-28)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The full Unit 1 assignment package is due for submission before the start of the in-class session on Tuesday.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Unit 1 competency test",
+        "studentAction": "Take the official graded Unit 1 test during Tuesday's in-class session",
+        "deadlineText": "Tuesday in-class session (2026-07-28)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The official graded Unit 1 competency test will be administered entirely during the in-class session on Tuesday.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Rational inequality lecture notes to be posted",
+        "studentAction": "Check course page for rational inequality notes after session",
+        "deadlineText": "Post-session (2026-07-24)",
+        "deadlineISO": null,
+        "platform": "course page",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Rational inequality related notes will be added to the course page post-session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "review_focus",
+        "title": "Remaining Unit 1 review after Monday conference",
+        "studentAction": "Attend Monday's conference; remaining review will be covered after",
+        "deadlineText": "After Monday conference (2026-07-27)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "Any unaddressed Unit 1 review requests... will be covered after Monday's scheduled conference sessions.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "The specific content or nature of the 'conference submission' is not described.",
+        "reason": "Notes mention conference submission but do not specify what is to be submitted."
+      },
+      {
+        "rawText": "Exact class start times on Monday and Tuesday are not specified, so deadline times are ambiguous.",
+        "reason": "Deadline references rely on inferred class start times."
+      }
+    ],
+    "watchTags": [
+      "MHF4U-C-OE03",
+      "MHF4U-C-OE04"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-rational-eq-domain",
+        "condition": "Student selects an option that includes a value making denominator zero as a valid solution.",
+        "systemAction": "Assign reteach module for err-rational-eq-domain."
+      },
+      {
+        "errorId": "err-rational-ineq-multiply",
+        "condition": "Student selects an option that multiplies both sides of a rational inequality by a denominator without considering sign.",
+        "systemAction": "Assign reteach module for err-rational-ineq-multiply."
+      },
+      {
+        "errorId": "err-rational-ineq-endpoint",
+        "condition": "Student selects incorrect endpoint inclusion for strict vs non-strict inequality.",
+        "systemAction": "Assign reteach module for err-rational-ineq-endpoint."
+      },
+      {
+        "errorId": "err-rational-ineq-factor",
+        "condition": "Student selects incorrect critical points due to factoring error.",
+        "systemAction": "Assign reteach module for err-rational-ineq-factor."
+      }
+    ],
+    "nextActions": [
+      "[err-rational-eq-domain] Student selects an option that includes a value making denominator zero as a valid solution.: You missed an important step: check if your solution makes any denominator zero. Let's review domain restrictions.",
+      "[err-rational-ineq-multiply] Student selects an option that multiplies both sides of a rational inequality by a denominator without considering sign.: Multiplying by a denominator with unknown sign can flip the inequality. We'll practice the correct method.",
+      "[err-rational-ineq-endpoint] Student selects incorrect endpoint inclusion for strict vs non-strict inequality.: Endpoints from the denominator are always excluded; endpoints from numerator depend on the inequality symbol. Let's clarify.",
+      "[err-rational-ineq-factor] Student selects incorrect critical points due to factoring error.: Factoring correctly is key to finding critical points. Let's practice factoring techniques."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-c-0701-q1",
+        "type": "choice",
+        "question": "Solve: (x+1)/(x-2) = 3. What is the solution set?",
+        "options": [
+          "x = 3.5",
+          "x = 3.5, x = 2",
+          "x = 2",
+          "No solution"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student remembers to exclude values that make any denominator zero.",
+        "misconceptions": [
+          "✓ 正确",
+          "x=2 makes the denominator zero, so it must be excluded from the solution set.",
+          "x=2 is not a solution; it makes the denominator zero and is not allowed.",
+          "The equation does have a solution, but you must exclude x=2 from the domain."
+        ],
+        "nodeId": "MHF4U-C-OE03",
+        "errorId": "err-rational-eq-domain",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly excludes x=2 from the solution because it makes denominator zero.",
+        "ossdExpectation": "Solve problems involving polynomial and simple rational equations graphically and algebraically.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "MHF4U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses solving rational equations with domain restrictions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Solving without considering domain; extending solution to include x=2.",
+        "remediationModule": "err-rational-eq-domain",
+        "retestItem": "err-rational-eq-domain"
+      },
+      {
+        "id": "diag-mhf4u-c-0701-q2",
+        "type": "choice",
+        "question": "A student solves (x+3)/(x-1) < 5 by multiplying both sides by (x-1) to get x+3 < 5x-5. What error did they make?",
+        "options": [
+          "They forgot to check for extraneous solutions.",
+          "They multiplied by (x-1) without considering its sign; the inequality direction may change.",
+          "They should have subtracted 5 first, but they did not.",
+          "They should have cross-multiplied only when both sides are positive."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows that multiplying by a denominator with unknown sign is not allowed; instead, bring all terms to one side.",
+        "misconceptions": [
+          "That's not the main issue. The error is multiplying by (x-1) without considering its sign.",
+          "✓ 正确",
+          "The correct first step is to bring all terms to one side, but the critical mistake is the multiplication.",
+          "Cross-multiplying also requires sign consideration; the proper method is to rearrange to P(x)/Q(x) [comparator] 0."
+        ],
+        "nodeId": "MHF4U-C-OE04",
+        "errorId": "err-rational-ineq-multiply",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that multiplying by an expression with unknown sign can reverse the inequality.",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses a common error in solving rational inequalities.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Treating rational inequalities like equations by multiplying through without considering sign.",
+        "remediationModule": "err-rational-ineq-multiply",
+        "retestItem": "err-rational-ineq-multiply"
+      },
+      {
+        "id": "diag-mhf4u-c-0701-q3",
+        "type": "choice",
+        "question": "The solution to (x²-5x-14)/(x²+2x-15) ≤ 0 is (-5, -2] ∪ (3, 7]. Which endpoints are included in the solution?",
+        "options": [
+          "-5 and 3 are included because they make the denominator zero.",
+          "-2 and 7 are included because they come from the numerator and the inequality is ≤.",
+          "All four endpoints are included because the inequality is non-strict.",
+          "No endpoints are included because rational inequalities always have open intervals."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows that zeros from numerator are included for ≤ or ≥, zeros from denominator are always excluded.",
+        "misconceptions": [
+          "Values that make the denominator zero are never included; they cause division by zero.",
+          "✓ 正确",
+          "Even for non-strict inequalities, denominator zeros are still excluded.",
+          "Numerator zeros can be included if the inequality symbol allows it."
+        ],
+        "nodeId": "MHF4U-C-OE04",
+        "errorId": "err-rational-ineq-endpoint",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies that -2 and 7 are included (from numerator zeros, non-strict), -5 and 3 are excluded (denominator zeros).",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses endpoint inclusion rule for rational inequalities.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Including denominator zeros or excluding numerator zeros incorrectly.",
+        "remediationModule": "err-rational-ineq-endpoint",
+        "retestItem": "err-rational-ineq-endpoint"
+      },
+      {
+        "id": "diag-mhf4u-c-0701-q4",
+        "type": "choice",
+        "question": "To solve (x²-5x-14)/(x²+2x-15) ≤ 0, what are the critical points (values where numerator or denominator equals zero)?",
+        "options": [
+          "-2, 7, -5, 3",
+          "2, -7, 5, -3",
+          "-2, 7",
+          "-5, 3"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can factor quadratic expressions to identify critical points.",
+        "misconceptions": [
+          "✓ 正确",
+          "Check your factoring: x²-5x-14 factors to (x-7)(x+2), and x²+2x-15 factors to (x+5)(x-3).",
+          "You missed the denominator factors. Critical points come from both numerator and denominator.",
+          "You only considered denominator zeros; numerator zeros are also critical points."
+        ],
+        "nodeId": "MHF4U-C-OE04",
+        "errorId": "err-rational-ineq-factor",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly factors numerator and denominator to find critical points: -2, 7 (numerator) and -5, 3 (denominator).",
+        "ossdExpectation": "Demonstrate an understanding of solving polynomial and simple rational inequalities.",
+        "officialExpectationCode": "C4",
+        "officialNodeId": "MHF4U-C-OE04",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses factoring step in rational inequality solving.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Factoring errors or missing factors lead to wrong critical points.",
+        "remediationModule": "err-rational-ineq-factor",
+        "retestItem": "err-rational-ineq-factor"
+      }
+    ]
+  }
+}

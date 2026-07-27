@@ -1,0 +1,959 @@
+{
+  "sourceLesson": "ESLDO.S6.Dionne 2026-07-27",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/PO98dEx2OoxwFjxvspjc0FTAnCc?from=vc_group_doc_link#doxcnXkAVKlw9VNrVGquUj08OWg",
+  "sourceTitle": "ESLDO.S6.Dionne 2026-07-27 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/PO98dEx2OoxwFjxvspjc0FTAnCc?from=vc_group_doc_link#doxcnXkAVKlw9VNrVGquUj08OWg",
+    "title": "ESLDO.S6.Dionne 2026-07-27 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-27/sources/esldo-s6-dionne-2026-07-27/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "ESLDO",
+  "lessonDate": "2026-07-27",
+  "teacher": "Dionne",
+  "section": "S6",
+  "subject": "esl",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-27",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Mixed instruction and practice session with core lesson on Eros and Psyche myth (character/vocab, plot walkthrough, theme analysis) plus in-class work period for worksheet and discussion forum tasks. Includes administrative reminders (late submission policy, AI usage, next class).",
+    "academicContentSignals": [
+      "Key characters: Eros/Cupid, Psyche, Aphrodite/Venus, Zeus/Jupiter",
+      "Key vocabulary: jealousy, trust, curiosity, doubt, consequence, immortal, prophecy",
+      "Plot walkthrough: Aphrodite's jealousy, Eros' secret marriage, Psyche's forbidden glance, three tasks (sorting seeds, golden wool, cliff-top river water), forbidden beauty box, Zeus granting immortality",
+      "Themes: trust in relationships, consequences of curiosity, forgiveness, love overcoming obstacles, divine intervention",
+      "Personal and world connections task",
+      "Greek-Roman name mappings"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "The notes contain several administrative reminders (late submission policy, AI usage, next class) that could overshadow core academic content if too many ops items are generated. However, academic content is substantial; risk is mitigated by focusing the exit card on myth comprehension and vocabulary.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Late submission penalty for Unit 2 Assignment 1",
+        "studentAction": "Submit Unit 2 Assignment 1 by the morning deadline to avoid daily mark deductions. If unable to meet deadline, notify teacher with valid serious reason before deadline.",
+        "deadlineText": "Morning of Jul 27, 2026 (already passed)",
+        "deadlineISO": "2026-07-27T10:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "students who have not yet submitted",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Deduction Standard: Unit 2 Assignment 1 submissions after the meeting morning deadline will have marks deducted per day",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Complete official lesson worksheet",
+        "studentAction": "Complete the worksheet including: list 5 new vocabulary words with definitions, write a structured plot summary, select a core theme with supporting explanation.",
+        "deadlineText": "Before next class on Jul 28, 2026",
+        "deadlineISO": "2026-07-28T10:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students must complete the official lesson worksheet, including listing 5 new vocabulary words...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Discussion forum post and verbal share",
+        "studentAction": "Post your selected theme and personal/world connections in the class discussion forum, then open your microphone to verbally share your views with the class.",
+        "deadlineText": "Before next class on Jul 28, 2026",
+        "deadlineISO": "2026-07-28T10:00:00+08:00",
+        "platform": "discussion forum (presumably Schoology)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students must post their selected theme and corresponding personal and world connections in the class discussion forum, then open their microphone to verbally share",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "AI usage policy for assignments",
+        "studentAction": "Use AI only for explaining paragraphs, translating vocabulary, generating summaries, and providing example sentences. Do not use AI to directly write assignment content or complete tasks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "AI can be used to explain complex paragraphs... Prohibited: directly write assignment content",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "review_focus",
+        "title": "Greek-Roman name mappings",
+        "studentAction": "Note that course materials may use Greek or Roman names; use the mappings: Eros=Cupid, Aphrodite=Venus, Zeus=Jupiter.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Course materials across different platforms may use Greek or Roman names... confirmed cross-reference mappings",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next class on Jul 28, 2026",
+        "studentAction": "Attend next class on Jul 28, 2026; no additional pre-work required beyond current lesson tasks.",
+        "deadlineText": "2026-07-28T10:00:00+08:00",
+        "deadlineISO": "2026-07-28T10:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Next regular course session will be held the following day, with no additional pre-work required beyond full completion of the current lesson's assigned tasks.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Deadline for worksheet and discussion forum post: 'before next class' is ambiguous; exact time not specified.",
+        "reason": "Deadline for ops-002 and ops-003 is inferred as before next class, but no specific time given."
+      },
+      {
+        "rawText": "Platform for discussion forum not explicitly stated; assumed to be Schoology based on earlier references.",
+        "reason": "The notes mention 'class discussion forum' but do not name the platform."
+      }
+    ]
+  },
+  "title": "ESLDO Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Eros and Psyche Characters、Eros and Psyche Plot、Themes in Eros and Psyche）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Eros (Cupid) is the Greek god of love and desire.；Psyche is a mortal woman of exceptional beauty.；Aphrodite (Venus) is the goddess of love and beauty, and she is jealous of Psyche.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify and distinguish the Greek and Roman names of key characters from the Eros and Psyche myth."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Recall the correct sequence of events and the three tasks Aphrodite assigned to Psyche."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Recognize multiple themes in the myth (trust, curiosity, forgiveness) beyond only love."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "kn-esldo-eros-psyche-characters",
+      "name": "Eros and Psyche Characters",
+      "nameEn": "Eros and Psyche Characters",
+      "definition": "Key characters in the myth: Eros (Cupid), Psyche, Aphrodite (Venus), and Zeus (Jupiter), their roles and relationships.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "ESLDO-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes."
+    },
+    {
+      "id": "kn-esldo-eros-psyche-plot",
+      "name": "Eros and Psyche Plot",
+      "nameEn": "Eros and Psyche Plot",
+      "definition": "The sequence of events in the myth, including Aphrodite's jealousy, Eros' secret marriage, Psyche's tasks, and the resolution.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "ESLDO-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Demonstrate the ability to understand, interpret, and evaluate spoken English for a variety of purposes."
+    },
+    {
+      "id": "kn-esldo-eros-psyche-themes",
+      "name": "Themes in Eros and Psyche",
+      "nameEn": "Themes in Eros and Psyche",
+      "definition": "Core themes: trust, curiosity, forgiveness, love overcoming obstacles, and divine intervention.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "ESLDO-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+      "ossdExpectation": "Write in a variety of forms for different purposes and audiences."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and distinguish the Greek and Roman names of key characters from the Eros and Psyche myth."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Recall the correct sequence of events and the three tasks Aphrodite assigned to Psyche."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Recognize multiple themes in the myth (trust, curiosity, forgiveness) beyond only love."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-eros-psyche-name-confusion",
+        "condition": "student picks wrong option on a question targeting name confusion",
+        "systemAction": "assign reteach module: err-eros-psyche-name-confusion",
+        "studentMessage": "Let's review the Greek and Roman names of the gods so you feel more confident."
+      },
+      {
+        "errorId": "err-eros-psyche-task-order",
+        "condition": "student picks wrong option on a question targeting task order",
+        "systemAction": "assign reteach module: err-eros-psyche-task-order",
+        "studentMessage": "The three tasks have a specific order. Let's go through them again."
+      },
+      {
+        "errorId": "err-eros-psyche-theme-overgeneralization",
+        "condition": "student picks wrong option on a question targeting theme overgeneralization",
+        "systemAction": "assign reteach module: err-eros-psyche-theme-overgeneralization",
+        "studentMessage": "Good myths often have several themes. Let's explore more than just love."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-esldo-u1-0703-q1",
+        "nodeId": "kn-esldo-eros-psyche-characters",
+        "errorId": "err-eros-psyche-name-confusion",
+        "stem": "In the myth of Eros and Psyche, which god is also known by the Roman name Cupid?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies Eros as the god also called Cupid.",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Character identification aligns with reading comprehension of the myth.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows the Greek-Roman name pair Eros/Cupid.",
+        "commonMisconception": "Students may think Cupid is a separate god or that Eros is the Roman name.",
+        "remediationModule": "err-eros-psyche-name-confusion",
+        "retestItem": "err-eros-psyche-name-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "Eros",
+            "correct": true,
+            "feedbackWrong": "That's not correct. Try again: the Roman name Cupid refers to the Greek god Eros."
+          },
+          {
+            "label": "B",
+            "text": "Aphrodite",
+            "correct": false,
+            "feedbackWrong": "Aphrodite is the Greek name; her Roman name is Venus."
+          },
+          {
+            "label": "C",
+            "text": "Zeus",
+            "correct": false,
+            "feedbackWrong": "Zeus is the king of the Greek gods; his Roman name is Jupiter."
+          },
+          {
+            "label": "D",
+            "text": "Psyche",
+            "correct": false,
+            "feedbackWrong": "Psyche is a mortal woman, not a god. She has no Roman name."
+          }
+        ]
+      },
+      {
+        "id": "diag-esldo-u1-0703-q2",
+        "nodeId": "kn-esldo-eros-psyche-plot",
+        "errorId": "err-eros-psyche-task-order",
+        "stem": "What was the first task that Aphrodite ordered Psyche to do?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly states sorting seeds as the first task.",
+        "ossdExpectation": "Demonstrate the ability to understand, interpret, and evaluate spoken English for a variety of purposes.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "ESLDO-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Plot recall aligns with listening comprehension of the story.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student remembers the sequence of Psyche's three tasks.",
+        "commonMisconception": "Students may think collecting golden wool came first or forget the seed-sorting task entirely.",
+        "remediationModule": "err-eros-psyche-task-order",
+        "retestItem": "err-eros-psyche-task-order",
+        "options": [
+          {
+            "label": "A",
+            "text": "Sort a huge pile of mixed seeds",
+            "correct": true,
+            "feedbackWrong": "That's not the first task. The first task was to sort a huge pile of mixed seeds."
+          },
+          {
+            "label": "B",
+            "text": "Collect golden wool from wild sheep",
+            "correct": false,
+            "feedbackWrong": "That was the second task, not the first."
+          },
+          {
+            "label": "C",
+            "text": "Fetch water from a steep cliff-top river",
+            "correct": false,
+            "feedbackWrong": "That was the third task, not the first."
+          },
+          {
+            "label": "D",
+            "text": "Open a forbidden beauty box",
+            "correct": false,
+            "feedbackWrong": "Opening the beauty box was not one of Aphrodite's tasks; it happened later."
+          }
+        ]
+      },
+      {
+        "id": "diag-esldo-u1-0703-q3",
+        "nodeId": "kn-esldo-eros-psyche-themes",
+        "errorId": "err-eros-psyche-theme-overgeneralization",
+        "stem": "Which of the following is a theme in the myth of Eros and Psyche, besides love?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects trust, curiosity, or forgiveness as an additional theme.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Theme identification relates to writing about the story's meaning.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student recognizes that the myth has multiple themes beyond love.",
+        "commonMisconception": "Students may think the only theme is love, ignoring trust, curiosity, and forgiveness.",
+        "remediationModule": "err-eros-psyche-theme-overgeneralization",
+        "retestItem": "err-eros-psyche-theme-overgeneralization",
+        "options": [
+          {
+            "label": "A",
+            "text": "Trust is important in relationships",
+            "correct": true,
+            "feedbackWrong": "That's not correct. Trust is indeed a theme: Psyche broke Eros's trust by looking at him."
+          },
+          {
+            "label": "B",
+            "text": "Curiosity always leads to good results",
+            "correct": false,
+            "feedbackWrong": "Actually, curiosity had negative consequences for Psyche, so the myth warns against unchecked curiosity."
+          },
+          {
+            "label": "C",
+            "text": "Jealousy is a positive emotion",
+            "correct": false,
+            "feedbackWrong": "Jealousy is portrayed negatively; it caused many problems."
+          },
+          {
+            "label": "D",
+            "text": "Laziness is rewarded",
+            "correct": false,
+            "feedbackWrong": "Psyche worked hard in her tasks, so laziness is not a theme."
+          }
+        ]
+      },
+      {
+        "id": "diag-esldo-u1-0703-q4",
+        "nodeId": "kn-esldo-eros-psyche-characters",
+        "errorId": "err-eros-psyche-name-confusion",
+        "stem": "Who is the Roman equivalent of Aphrodite?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies Venus as the Roman name for Aphrodite.",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Character identification aligns with reading comprehension of the myth.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows the Greek-Roman name pair Aphrodite/Venus.",
+        "commonMisconception": "Students may think Aphrodite is Roman or confuse her with another god.",
+        "remediationModule": "err-eros-psyche-name-confusion",
+        "retestItem": "err-eros-psyche-name-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "Venus",
+            "correct": true,
+            "feedbackWrong": "That's correct! Aphrodite's Roman name is Venus."
+          },
+          {
+            "label": "B",
+            "text": "Jupiter",
+            "correct": false,
+            "feedbackWrong": "Jupiter is the Roman name for Zeus, not Aphrodite."
+          },
+          {
+            "label": "C",
+            "text": "Cupid",
+            "correct": false,
+            "feedbackWrong": "Cupid is the Roman name for Eros, not Aphrodite."
+          },
+          {
+            "label": "D",
+            "text": "Minerva",
+            "correct": false,
+            "feedbackWrong": "Minerva is the Roman name for Athena, not Aphrodite."
+          }
+        ]
+      },
+      {
+        "id": "diag-esldo-u1-0703-q5",
+        "nodeId": "kn-esldo-eros-psyche-plot",
+        "errorId": "err-eros-psyche-task-order",
+        "stem": "After sorting the seeds, what was Psyche's second task?",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student writes that Psyche had to collect golden wool from dangerous wild sheep.",
+        "ossdExpectation": "Demonstrate the ability to understand, interpret, and evaluate spoken English for a variety of purposes.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "ESLDO-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Plot recall aligns with listening comprehension of the story.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can recall the second task using own words.",
+        "commonMisconception": "Student may skip the golden wool task or describe the third task instead.",
+        "remediationModule": "err-eros-psyche-task-order",
+        "retestItem": "err-eros-psyche-task-order",
+        "rubric": "Full credit for mentioning 'collect golden wool from wild sheep' or similar.",
+        "sampleStrongAnswer": "Psyche had to collect golden wool from a dangerous flock of wild sheep."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-eros-psyche-name-confusion",
+      "condition": "student picks wrong option on a question targeting name confusion",
+      "systemAction": "assign reteach module: err-eros-psyche-name-confusion",
+      "studentMessage": "Let's review the Greek and Roman names of the gods so you feel more confident."
+    },
+    {
+      "errorId": "err-eros-psyche-task-order",
+      "condition": "student picks wrong option on a question targeting task order",
+      "systemAction": "assign reteach module: err-eros-psyche-task-order",
+      "studentMessage": "The three tasks have a specific order. Let's go through them again."
+    },
+    {
+      "errorId": "err-eros-psyche-theme-overgeneralization",
+      "condition": "student picks wrong option on a question targeting theme overgeneralization",
+      "systemAction": "assign reteach module: err-eros-psyche-theme-overgeneralization",
+      "studentMessage": "Good myths often have several themes. Let's explore more than just love."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-eros-psyche-name-confusion",
+      "trigger": "Student incorrectly identifies Greek and Roman name pairs (e.g., confuses Eros and Cupid) on a diagnostic question.",
+      "studentMisunderstanding": "The student does not distinguish between Greek and Roman names for the same mythological figures, thinking they are separate or unfamiliar with the cross-references.",
+      "miniLesson": {
+        "explain": "In the myth of Eros and Psyche, the characters have both Greek and Roman names. For example, Eros is the Greek name for the god of love, and his Roman name is Cupid. Similarly, Aphrodite is the Greek goddess of love and beauty, and her Roman name is Venus. Zeus, the king of the gods, is called Jupiter in Roman. These are the same gods, just called different names in different cultures. It is important to remember both names so you can understand stories from both traditions.",
+        "example": "When reading the myth, you may see 'Cupid' used instead of 'Eros'. They refer to the same character. Likewise, 'Venus' is the Roman name for 'Aphrodite'. Knowing these pairs helps avoid confusion.",
+        "memoryAnchor": "Think of a pair of shoes: each god has one Greek and one Roman name. For example, Eros-Cupid, Aphrodite-Venus, Zeus-Jupiter."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the Roman name for Eros?",
+          "answer": "Cupid"
+        },
+        {
+          "level": "L2",
+          "prompt": "In the story, both Aphrodite and Venus appear. What does this mean?",
+          "answer": "Aphrodite is the Greek name and Venus is the Roman name for the same goddess."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why it is important to know both Greek and Roman names when studying myths like Eros and Psyche. Give one example.",
+          "answer": "It is important because different versions of the myth use different names. For example, some books call the love god 'Cupid' instead of Eros. Knowing both names helps you understand that they are the same character."
+        }
+      ]
+    },
+    {
+      "errorId": "err-eros-psyche-task-order",
+      "trigger": "Student incorrectly orders Psyche's three tasks or forgets one of them.",
+      "studentMisunderstanding": "Students may believe the tasks can be completed in any order, or they may skip one task entirely, not realizing the sequence is fixed.",
+      "miniLesson": {
+        "explain": "Psyche was given three tasks by Aphrodite, and they must be done in a specific order. The first task was to sort a huge pile of mixed seeds. The second was to collect golden wool from dangerous wild sheep. The third was to fetch water from a steep cliff-top river. Remembering the order helps you follow the story.",
+        "example": "In the myth, after Psyche sorted the seeds, she faced the challenge of collecting golden wool, and finally she had to fetch water from a cliff.",
+        "memoryAnchor": "Think of the sequence as 'Seeds, Sheep, Stream' – the first letters S-S-S help you remember the order."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What was Psyche's first task? Choose the correct option: A) Collect golden wool, B) Sort seeds, C) Fetch water.",
+          "answer": "Sort seeds"
+        },
+        {
+          "level": "L2",
+          "prompt": "List Psyche's three tasks in the correct order.",
+          "answer": "1. Sort seeds, 2. Collect golden wool, 3. Fetch water from a cliff."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the order of tasks matters in the story. What might happen if Psyche did them out of order?",
+          "answer": "The tasks are set by Aphrodite and likely become progressively harder. Doing them out of order might not make sense in the story because each task prepares Psyche for the next. For example, sorting seeds shows her patience, then she faces dangerous sheep, and finally a perilous water fetch. Also, the myth presents them in that order."
+        }
+      ]
+    },
+    {
+      "errorId": "err-eros-psyche-theme-overgeneralization",
+      "trigger": "Diagnostic question: selecting a theme that is not love, such as trust, curiosity, or forgiveness.",
+      "studentMisunderstanding": "Students believe the only theme in the myth is love, ignoring trust, curiosity, and forgiveness as equally valid themes.",
+      "miniLesson": {
+        "explain": "Myths often have multiple themes, not just one. In the myth of Eros and Psyche, love is a major theme, but trust, curiosity, and forgiveness are also important. Trust is shown when Psyche breaks her promise to Eros by looking at him. Curiosity leads to negative consequences when she opens the forbidden beauty box. Forgiveness is shown when Eros rescues Psyche and they reunite.",
+        "example": "Psyche's curiosity caused her to open the box, leading to a deep sleep. This shows that unchecked curiosity can have negative consequences, a theme beyond love.",
+        "memoryAnchor": "Think 'Love is not the only lesson - Look for Trust, Curiosity, Forgiveness' (LTCF)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Name two themes from the myth of Eros and Psyche besides love.",
+          "answer": "Trust and curiosity (or forgiveness)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Psyche secretly looks at Eros while he sleeps. Which theme does this action best illustrate?",
+          "answer": "Trust (or curiosity). It shows breaking trust or acting on curiosity."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the myth includes multiple themes (trust, curiosity, forgiveness) instead of just love. How do they work together?",
+          "answer": "The myth is more realistic and teaches several life lessons. Trust shows the importance of keeping promises; curiosity warns against acting without thinking; forgiveness shows that love can overcome mistakes. Together, they make the story meaningful for different readers."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-eros-psyche-name-confusion",
+      "questions": [
+        {
+          "id": "q1-name-mapping",
+          "type": "single_choice",
+          "stem": "In the myth of Eros and Psyche, the character known as Eros is also called by a different name in Roman mythology. What is that name?",
+          "options": [
+            "Cupid",
+            "Venus",
+            "Jupiter",
+            "Psyche"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-explain-aphrodite-venus",
+          "type": "open_ended",
+          "stem": "Explain why both the name 'Aphrodite' and 'Venus' refer to the same goddess in the story of Eros and Psyche.",
+          "rubric": "The student must state that Aphrodite is the Greek name and Venus is the Roman name for the goddess of love and beauty, and they are the same character from different cultural traditions."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-eros-psyche-task-order",
+      "questions": [
+        {
+          "id": "q1-order-choice",
+          "type": "single_choice",
+          "stem": "What is the correct order of Psyche's three tasks, from first to last?",
+          "options": [
+            "Sort seeds, collect golden wool, fetch water from a cliff",
+            "Collect golden wool, sort seeds, fetch water from a cliff",
+            "Fetch water from a cliff, sort seeds, collect golden wool",
+            "Sort seeds, fetch water from a cliff, collect golden wool"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-order-list",
+          "type": "open_ended",
+          "stem": "List Psyche's three tasks in the correct order as they appear in the myth.",
+          "rubric": "Must list all three tasks in this exact order: 1. Sort seeds, 2. Collect golden wool, 3. Fetch water from a cliff. Accept paraphrases as long as the meaning and order are correct."
+        }
+      ],
+      "passRule": "Must answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-eros-psyche-theme-overgeneralization",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is a theme in the myth of Eros and Psyche?",
+          "options": [
+            "Love",
+            "Trust",
+            "Curiosity",
+            "All of the above"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain how the theme of trust is shown in the myth of Eros and Psyche. Provide a specific example from the story.",
+          "rubric": "Student must mention that Psyche broke trust by looking at Eros while he slept (or another trust-related example, e.g., Eros hiding his identity) and explain how this illustrates the theme that trust is important in relationships."
+        }
+      ],
+      "passRule": "Correctly answer both questions: select 'All of the above' for Q1, and provide a valid explanation of trust with a specific example for Q2."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "ESLDO.S6.Dionne 2026-07-27",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/PO98dEx2OoxwFjxvspjc0FTAnCc?from=vc_group_doc_link#doxcnXkAVKlw9VNrVGquUj08OWg",
+    "sourceTitle": "ESLDO.S6.Dionne 2026-07-27 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Eros (Cupid) is the Greek god of love and desire.；Psyche is a mortal woman of exceptional beauty.；Aphrodite (Venus) is the goddess of love and beauty, and she is jealous of Psyche.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and distinguish the Greek and Roman names of key characters from the Eros and Psyche myth."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Recall the correct sequence of events and the three tasks Aphrodite assigned to Psyche."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Recognize multiple themes in the myth (trust, curiosity, forgiveness) beyond only love."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Late submission penalty for Unit 2 Assignment 1",
+        "studentAction": "Submit Unit 2 Assignment 1 by the morning deadline to avoid daily mark deductions. If unable to meet deadline, notify teacher with valid serious reason before deadline.",
+        "deadlineText": "Morning of Jul 27, 2026 (already passed)",
+        "deadlineISO": "2026-07-27T10:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "students who have not yet submitted",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Deduction Standard: Unit 2 Assignment 1 submissions after the meeting morning deadline will have marks deducted per day",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Complete official lesson worksheet",
+        "studentAction": "Complete the worksheet including: list 5 new vocabulary words with definitions, write a structured plot summary, select a core theme with supporting explanation.",
+        "deadlineText": "Before next class on Jul 28, 2026",
+        "deadlineISO": "2026-07-28T10:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students must complete the official lesson worksheet, including listing 5 new vocabulary words...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Discussion forum post and verbal share",
+        "studentAction": "Post your selected theme and personal/world connections in the class discussion forum, then open your microphone to verbally share your views with the class.",
+        "deadlineText": "Before next class on Jul 28, 2026",
+        "deadlineISO": "2026-07-28T10:00:00+08:00",
+        "platform": "discussion forum (presumably Schoology)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students must post their selected theme and corresponding personal and world connections in the class discussion forum, then open their microphone to verbally share",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "AI usage policy for assignments",
+        "studentAction": "Use AI only for explaining paragraphs, translating vocabulary, generating summaries, and providing example sentences. Do not use AI to directly write assignment content or complete tasks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "AI can be used to explain complex paragraphs... Prohibited: directly write assignment content",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "review_focus",
+        "title": "Greek-Roman name mappings",
+        "studentAction": "Note that course materials may use Greek or Roman names; use the mappings: Eros=Cupid, Aphrodite=Venus, Zeus=Jupiter.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Course materials across different platforms may use Greek or Roman names... confirmed cross-reference mappings",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next class on Jul 28, 2026",
+        "studentAction": "Attend next class on Jul 28, 2026; no additional pre-work required beyond current lesson tasks.",
+        "deadlineText": "2026-07-28T10:00:00+08:00",
+        "deadlineISO": "2026-07-28T10:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Next regular course session will be held the following day, with no additional pre-work required beyond full completion of the current lesson's assigned tasks.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Deadline for worksheet and discussion forum post: 'before next class' is ambiguous; exact time not specified.",
+        "reason": "Deadline for ops-002 and ops-003 is inferred as before next class, but no specific time given."
+      },
+      {
+        "rawText": "Platform for discussion forum not explicitly stated; assumed to be Schoology based on earlier references.",
+        "reason": "The notes mention 'class discussion forum' but do not name the platform."
+      }
+    ],
+    "watchTags": [
+      "kn-esldo-eros-psyche-characters",
+      "kn-esldo-eros-psyche-plot",
+      "kn-esldo-eros-psyche-themes"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-eros-psyche-name-confusion",
+        "condition": "student picks wrong option on a question targeting name confusion",
+        "systemAction": "assign reteach module: err-eros-psyche-name-confusion"
+      },
+      {
+        "errorId": "err-eros-psyche-task-order",
+        "condition": "student picks wrong option on a question targeting task order",
+        "systemAction": "assign reteach module: err-eros-psyche-task-order"
+      },
+      {
+        "errorId": "err-eros-psyche-theme-overgeneralization",
+        "condition": "student picks wrong option on a question targeting theme overgeneralization",
+        "systemAction": "assign reteach module: err-eros-psyche-theme-overgeneralization"
+      }
+    ],
+    "nextActions": [
+      "[err-eros-psyche-name-confusion] student picks wrong option on a question targeting name confusion: Let's review the Greek and Roman names of the gods so you feel more confident.",
+      "[err-eros-psyche-task-order] student picks wrong option on a question targeting task order: The three tasks have a specific order. Let's go through them again.",
+      "[err-eros-psyche-theme-overgeneralization] student picks wrong option on a question targeting theme overgeneralization: Good myths often have several themes. Let's explore more than just love."
+    ],
+    "cards": [
+      {
+        "id": "diag-esldo-u1-0703-q1",
+        "type": "choice",
+        "question": "In the myth of Eros and Psyche, which god is also known by the Roman name Cupid?",
+        "options": [
+          "Eros",
+          "Aphrodite",
+          "Zeus",
+          "Psyche"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows the Greek-Roman name pair Eros/Cupid.",
+        "misconceptions": [
+          "✓ 正确",
+          "Aphrodite is the Greek name; her Roman name is Venus.",
+          "Zeus is the king of the Greek gods; his Roman name is Jupiter.",
+          "Psyche is a mortal woman, not a god. She has no Roman name."
+        ],
+        "nodeId": "kn-esldo-eros-psyche-characters",
+        "errorId": "err-eros-psyche-name-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies Eros as the god also called Cupid.",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Character identification aligns with reading comprehension of the myth.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think Cupid is a separate god or that Eros is the Roman name.",
+        "remediationModule": "err-eros-psyche-name-confusion",
+        "retestItem": "err-eros-psyche-name-confusion"
+      },
+      {
+        "id": "diag-esldo-u1-0703-q2",
+        "type": "choice",
+        "question": "What was the first task that Aphrodite ordered Psyche to do?",
+        "options": [
+          "Sort a huge pile of mixed seeds",
+          "Collect golden wool from wild sheep",
+          "Fetch water from a steep cliff-top river",
+          "Open a forbidden beauty box"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student remembers the sequence of Psyche's three tasks.",
+        "misconceptions": [
+          "✓ 正确",
+          "That was the second task, not the first.",
+          "That was the third task, not the first.",
+          "Opening the beauty box was not one of Aphrodite's tasks; it happened later."
+        ],
+        "nodeId": "kn-esldo-eros-psyche-plot",
+        "errorId": "err-eros-psyche-task-order",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly states sorting seeds as the first task.",
+        "ossdExpectation": "Demonstrate the ability to understand, interpret, and evaluate spoken English for a variety of purposes.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "ESLDO-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Plot recall aligns with listening comprehension of the story.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think collecting golden wool came first or forget the seed-sorting task entirely.",
+        "remediationModule": "err-eros-psyche-task-order",
+        "retestItem": "err-eros-psyche-task-order"
+      },
+      {
+        "id": "diag-esldo-u1-0703-q3",
+        "type": "choice",
+        "question": "Which of the following is a theme in the myth of Eros and Psyche, besides love?",
+        "options": [
+          "Trust is important in relationships",
+          "Curiosity always leads to good results",
+          "Jealousy is a positive emotion",
+          "Laziness is rewarded"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student recognizes that the myth has multiple themes beyond love.",
+        "misconceptions": [
+          "✓ 正确",
+          "Actually, curiosity had negative consequences for Psyche, so the myth warns against unchecked curiosity.",
+          "Jealousy is portrayed negatively; it caused many problems.",
+          "Psyche worked hard in her tasks, so laziness is not a theme."
+        ],
+        "nodeId": "kn-esldo-eros-psyche-themes",
+        "errorId": "err-eros-psyche-theme-overgeneralization",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects trust, curiosity, or forgiveness as an additional theme.",
+        "ossdExpectation": "Write in a variety of forms for different purposes and audiences.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "ESLDO-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Theme identification relates to writing about the story's meaning.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students may think the only theme is love, ignoring trust, curiosity, and forgiveness.",
+        "remediationModule": "err-eros-psyche-theme-overgeneralization",
+        "retestItem": "err-eros-psyche-theme-overgeneralization"
+      },
+      {
+        "id": "diag-esldo-u1-0703-q4",
+        "type": "choice",
+        "question": "Who is the Roman equivalent of Aphrodite?",
+        "options": [
+          "Venus",
+          "Jupiter",
+          "Cupid",
+          "Minerva"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows the Greek-Roman name pair Aphrodite/Venus.",
+        "misconceptions": [
+          "✓ 正确",
+          "Jupiter is the Roman name for Zeus, not Aphrodite.",
+          "Cupid is the Roman name for Eros, not Aphrodite.",
+          "Minerva is the Roman name for Athena, not Aphrodite."
+        ],
+        "nodeId": "kn-esldo-eros-psyche-characters",
+        "errorId": "err-eros-psyche-name-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies Venus as the Roman name for Aphrodite.",
+        "ossdExpectation": "Read and demonstrate understanding of a variety of texts for different purposes.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "ESLDO-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Character identification aligns with reading comprehension of the myth.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think Aphrodite is Roman or confuse her with another god.",
+        "remediationModule": "err-eros-psyche-name-confusion",
+        "retestItem": "err-eros-psyche-name-confusion"
+      },
+      {
+        "id": "diag-esldo-u1-0703-q5",
+        "type": "explain",
+        "question": "After sorting the seeds, what was Psyche's second task?",
+        "correct": null,
+        "diagnosis": "Check if student can recall the second task using own words.",
+        "nodeId": "kn-esldo-eros-psyche-plot",
+        "errorId": "err-eros-psyche-task-order",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student writes that Psyche had to collect golden wool from dangerous wild sheep.",
+        "ossdExpectation": "Demonstrate the ability to understand, interpret, and evaluate spoken English for a variety of purposes.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "ESLDO-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/esl912currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Plot recall aligns with listening comprehension of the story.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student may skip the golden wool task or describe the third task instead.",
+        "remediationModule": "err-eros-psyche-task-order",
+        "retestItem": "err-eros-psyche-task-order"
+      }
+    ]
+  }
+}

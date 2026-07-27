@@ -1,0 +1,1341 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-07-27",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/XSoydTn3QoLNOjxCcW0caJPFnNg?from=vc_group_doc_link#doxcn7zpo8sOX4UW5y9wawmPO0c",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-07-27 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/XSoydTn3QoLNOjxCcW0caJPFnNg?from=vc_group_doc_link#doxcn7zpo8sOX4UW5y9wawmPO0c",
+    "title": "MHF4U.S6.Taylor 2026-07-27 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-27/sources/mhf4u-s6-taylor-2026-07-27/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-07-27",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-27",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson is a student presentation conference where students demonstrated understanding of Unit 1 concepts (quadratic and reciprocal rational functions) through 9 presentations, followed by instructor Q&A and supplementary explanations. It includes both instructional elements (teacher clarifying concepts) and practice elements (student presentations). Operations are present but secondary.",
+    "academicContentSignals": [
+      "quadratic function conversion between standard and factored form via decomposition or completing the square",
+      "core features: x-intercepts, y-intercept, axis of symmetry, vertex, domain, range, end behavior",
+      "reciprocal rational function derivation from quadratic",
+      "domain and vertical asymptote calculation by excluding zeros of denominator",
+      "intercept and horizontal asymptote confirmation (no x-intercept, y=0 horizontal asymptote)",
+      "segmented end behavior analysis across intervals separated by vertical asymptotes",
+      "cross-function correlation: zeros of quadratic correspond to vertical asymptotes of reciprocal",
+      "quadratic end behavior determines reciprocal horizontal asymptote",
+      "consistent sign and opposite extrema between quadratic and reciprocal",
+      "intersection points at y=1 or -1",
+      "instructor Q&A covering polynomial turning points, domain, asymptote definition, reciprocal transformation feasibility",
+      "supplementary concept: reciprocal cannot produce 1/0, eliminating x-intercepts"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "This lesson is a student presentation conference with significant operations (sequence, rules, deadlines) but also substantial academic content from 9 student presentations and instructor Q&A. The operations should be extracted but must not overshadow the core learning content when generating diagnostics. Focus diagnostic on the mathematical concepts covered (quadratic and reciprocal rational functions) rather than on logistical reminders.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Presentation sequence published",
+        "studentAction": "Check your presentation position",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology/Feishu",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The formal presentation sequence has been simultaneously published in the meeting group chat, official Schoology course platform and Feishu workspace",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Late presentation start rule",
+        "studentAction": "Initiate presentation within 3-4 minutes when called, or be moved to end of queue",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students who fail to initiate their presentation within 3 to 4 minutes after being called by the instructor will be directly moved to the end of the entire presentation queue",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Screen sharing during presentation",
+        "studentAction": "Share screen with prepared slides and confirm visibility for all participants",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "share their screen with the prepared presentation slides, and start formal content delivery after confirming visibility for all participants",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Post-presentation targeted Q&A",
+        "studentAction": "Answer 1-2 targeted core concept questions verbally or via group chat",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "After each student finishes their full presentation, the instructor will ask 1 to 2 targeted core concept questions",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "material_needed",
+        "title": "Targeted review package",
+        "studentAction": "Access and study the review package covering core concepts from conference and exit card feedback",
+        "deadlineText": "Before upcoming test",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The instructor will upload a targeted review package covering all core concepts that students explicitly requested to review during the conference and pre-submitted anonymous exit card feedback",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Optional practice quiz",
+        "studentAction": "Complete the non-mandatory multiple-choice practice quiz for self-check of Unit 1 understanding",
+        "deadlineText": "Before test",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A non-mandatory multiple-choice practice quiz will be assigned as temporary homework, allowing students to self-check their understanding of Unit 1 content before the official test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Unfinished presentation completed after main session",
+        "studentAction": "No action needed",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "the one student who had not completed",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The only student who had not completed the presentation during the regular conference session finished their supplementary presentation after the main meeting adjourned",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "platform_link",
+        "title": "Unit 1 Conference slides",
+        "studentAction": "Access the presentation slides shared during the meeting",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu",
+        "link": "https://www.feishu.cn/file/G97AbmljuoYDTlx02r2c4hiBnyF",
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "会中共享的文档：Unit 1 Conference .pptx with link",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Polynomial Functions、Rational Functions）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Quadratic functions can be expressed in standard form (ax^2+bx+c) and factored form (a(x-r1)(x-r2)).；Key features of quadratic functions include x-intercepts (zeros), y-intercept, axis of symmetry, vertex, domain, range, and end behavior.；The reciprocal of a quadratic function, f(x)=1/(ax^2+bx+c), has vertical asymptotes at the zeros of the original quadratic.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Convert between standard and factored forms of a quadratic function."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Determine key features (zeros, vertex, axis of symmetry) of a quadratic function."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Derive the reciprocal rational function from a quadratic and identify its key features (vertical asymptotes, horizontal asymptote, intercepts, behavior)."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Relate the graph of a quadratic to its reciprocal using sign intervals and extremum correspondence."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-C-OE01",
+      "name": "Polynomial Functions",
+      "nameEn": "Polynomial Functions",
+      "definition": "Identify and describe key features of polynomial functions, including quadratics, and make connections between numeric, graphical, and algebraic representations.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "MHF4U-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions."
+    },
+    {
+      "id": "MHF4U-C-OE02",
+      "name": "Rational Functions",
+      "nameEn": "Rational Functions",
+      "definition": "Identify and describe key features of rational functions, including reciprocal quadratics, and represent them graphically.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "MHF4U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Convert between standard and factored forms of a quadratic function."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Determine key features (zeros, vertex, axis of symmetry) of a quadratic function."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Derive the reciprocal rational function from a quadratic and identify its key features (vertical asymptotes, horizontal asymptote, intercepts, behavior)."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Relate the graph of a quadratic to its reciprocal using sign intervals and extremum correspondence."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-quadratic-form-conversion",
+        "condition": "student picks wrong option on Q1 (targets err-quadratic-form-conversion)",
+        "systemAction": "assign reteach module for err-quadratic-form-conversion",
+        "studentMessage": "You need more practice converting between quadratic forms."
+      },
+      {
+        "errorId": "err-reciprocal-zeros-to-asymptotes",
+        "condition": "student picks wrong option on Q2 (targets err-reciprocal-zeros-to-asymptotes)",
+        "systemAction": "assign reteach module for err-reciprocal-zeros-to-asymptotes",
+        "studentMessage": "Remember: zeros of the quadratic become vertical asymptotes of the reciprocal."
+      },
+      {
+        "errorId": "err-reciprocal-x-intercept",
+        "condition": "student picks wrong option on Q3 (targets err-reciprocal-x-intercept)",
+        "systemAction": "assign reteach module for err-reciprocal-x-intercept",
+        "studentMessage": "The reciprocal of a quadratic has no x-intercepts because 1/(quadratic) can never be zero."
+      },
+      {
+        "errorId": "err-horizontal-asymptote",
+        "condition": "student picks wrong option on Q4 (targets err-horizontal-asymptote)",
+        "systemAction": "assign reteach module for err-horizontal-asymptote",
+        "studentMessage": "The horizontal asymptote of a reciprocal quadratic is always y=0."
+      },
+      {
+        "errorId": "err-sign-consistency",
+        "condition": "student picks wrong option on Q5 (targets err-sign-consistency)",
+        "systemAction": "assign reteach module for err-sign-consistency",
+        "studentMessage": "The original quadratic and its reciprocal have the same sign in any interval."
+      },
+      {
+        "errorId": "err-extrema-correspondence",
+        "condition": "student picks wrong option on Q6 (targets err-extrema-correspondence)",
+        "systemAction": "assign reteach module for err-extrema-correspondence",
+        "studentMessage": "A local maximum in the quadratic corresponds to a local minimum in the reciprocal, and vice versa."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-0727-q1",
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-quadratic-form-conversion",
+        "stem": "Which of the following is the factored form of the quadratic function f(x)=x²-5x+6?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly converts from standard to factored form.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly tests conversion between forms, a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Assess ability to factor a quadratic from standard to factored form.",
+        "commonMisconception": "Sign errors in factors (e.g., using +2 and +3 instead of -2 and -3).",
+        "remediationModule": "err-quadratic-form-conversion",
+        "retestItem": "err-quadratic-form-conversion",
+        "options": [
+          {
+            "label": "A",
+            "text": "f(x)=(x-2)(x-3)",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "f(x)=(x+2)(x+3)",
+            "correct": false,
+            "feedbackWrong": "Check the signs: the constant term is +6, so the factors should multiply to +6 and sum to -5, meaning both factors are negative."
+          },
+          {
+            "label": "C",
+            "text": "f(x)=(x-1)(x+6)",
+            "correct": false,
+            "feedbackWrong": "This expands to x²+5x-6, not x²-5x+6."
+          },
+          {
+            "label": "D",
+            "text": "f(x)=(x-6)(x+1)",
+            "correct": false,
+            "feedbackWrong": "This expands to x²-5x-6, not x²-5x+6."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-0727-q2",
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-reciprocal-zeros-to-asymptotes",
+        "stem": "For the quadratic function f(x)=x²-4, the reciprocal function g(x)=1/(x²-4) has vertical asymptotes at:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies vertical asymptotes from zeros of the original quadratic.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly tests understanding of vertical asymptotes in reciprocal rational functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check understanding that zeros of the quadratic become vertical asymptotes of the reciprocal.",
+        "commonMisconception": "Thinking the reciprocal has zeros at the same x-values as the original quadratic.",
+        "remediationModule": "err-reciprocal-zeros-to-asymptotes",
+        "retestItem": "err-reciprocal-zeros-to-asymptotes",
+        "options": [
+          {
+            "label": "A",
+            "text": "x=2 and x=-2",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "x=0 and x=4",
+            "correct": false,
+            "feedbackWrong": "The zeros of x²-4 are at x=2 and x=-2, not at 0 and 4."
+          },
+          {
+            "label": "C",
+            "text": "x=4 only",
+            "correct": false,
+            "feedbackWrong": "x²-4 has two zeros, not one."
+          },
+          {
+            "label": "D",
+            "text": "no vertical asymptotes",
+            "correct": false,
+            "feedbackWrong": "Since the denominator has zeros, vertical asymptotes exist at those x-values."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-0727-q3",
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-reciprocal-x-intercept",
+        "stem": "The reciprocal function g(x)=1/(x²-4) has x-intercepts at:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Knows that reciprocal of a quadratic has no x-intercepts.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests understanding that reciprocal functions have no x-intercepts.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Check that 1/(quadratic) cannot equal zero.",
+        "commonMisconception": "Assuming it has x-intercepts, e.g., at zeros of the original.",
+        "remediationModule": "err-reciprocal-x-intercept",
+        "retestItem": "err-reciprocal-x-intercept",
+        "options": [
+          {
+            "label": "A",
+            "text": "x=2 and x=-2",
+            "correct": false,
+            "feedbackWrong": "Those are the vertical asymptotes, not x-intercepts. The reciprocal never equals zero."
+          },
+          {
+            "label": "B",
+            "text": "x=0",
+            "correct": false,
+            "feedbackWrong": "Substituting x=0 gives g(0)=1/(-4)=-0.25, not zero."
+          },
+          {
+            "label": "C",
+            "text": "no x-intercepts",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "D",
+            "text": "x=4 and x=-4",
+            "correct": false,
+            "feedbackWrong": "These are not relevant; the function is undefined at x=±2."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-0727-q4",
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-horizontal-asymptote",
+        "stem": "The horizontal asymptote of g(x)=1/(x²-4) is:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Identifies horizontal asymptote at y=0.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests key feature of horizontal asymptote for reciprocal functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Test knowledge that reciprocal quadratic has horizontal asymptote at y=0.",
+        "commonMisconception": "Thinking the horizontal asymptote is y=1 or determined by numerator degree.",
+        "remediationModule": "err-horizontal-asymptote",
+        "retestItem": "err-horizontal-asymptote",
+        "options": [
+          {
+            "label": "A",
+            "text": "y=0",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "y=1",
+            "correct": false,
+            "feedbackWrong": "The horizontal asymptote is found by comparing degrees; here numerator degree 0 < denominator degree 2, so HA is y=0."
+          },
+          {
+            "label": "C",
+            "text": "y=2",
+            "correct": false,
+            "feedbackWrong": "No; the reciprocal approaches 0 as x→±∞."
+          },
+          {
+            "label": "D",
+            "text": "no horizontal asymptote",
+            "correct": false,
+            "feedbackWrong": "Rational functions with denominator degree greater than numerator have HA at y=0."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-0727-q5",
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-sign-consistency",
+        "stem": "Over the interval where f(x)=x²-4 is negative, g(x)=1/(x²-4) is:",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Relates sign of reciprocal to sign of original.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests understanding of sign consistency between quadratic and its reciprocal.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check that reciprocal preserves sign of the original.",
+        "commonMisconception": "Thinking signs can differ (e.g., reciprocal becoming positive when original is negative).",
+        "remediationModule": "err-sign-consistency",
+        "retestItem": "err-sign-consistency",
+        "options": [
+          {
+            "label": "A",
+            "text": "positive",
+            "correct": false,
+            "feedbackWrong": "If f(x) is negative, then 1/(negative) is also negative, not positive."
+          },
+          {
+            "label": "B",
+            "text": "negative",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "C",
+            "text": "zero",
+            "correct": false,
+            "feedbackWrong": "The reciprocal cannot be zero; it approaches zero at infinities but isn't zero."
+          },
+          {
+            "label": "D",
+            "text": "undefined",
+            "correct": false,
+            "feedbackWrong": "It is defined as long as f(x) is not zero; negative intervals exclude zeros."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-0727-q6",
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-extrema-correspondence",
+        "stem": "The quadratic f(x)=x²-4x+3 has a minimum value at x=2. The reciprocal function g(x)=1/(x²-4x+3) has at x=2:",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Correctly identifies that reciprocal has opposite type of extremum.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests understanding of extremum correspondence between quadratic and reciprocal.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check knowledge that local maximum/minimum in quadratic gives local minimum/maximum in reciprocal.",
+        "commonMisconception": "Thinking both have same type of extremum (e.g., both minima).",
+        "remediationModule": "err-extrema-correspondence",
+        "retestItem": "err-extrema-correspondence",
+        "options": [
+          {
+            "label": "A",
+            "text": "a maximum",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "a minimum",
+            "correct": false,
+            "feedbackWrong": "The reciprocal has the opposite type of extremum: a minimum in the quadratic becomes a maximum in the reciprocal."
+          },
+          {
+            "label": "C",
+            "text": "a vertical asymptote",
+            "correct": false,
+            "feedbackWrong": "At x=2, f(2)=-1, not zero, so no vertical asymptote."
+          },
+          {
+            "label": "D",
+            "text": "a hole",
+            "correct": false,
+            "feedbackWrong": "A hole occurs if the factor cancels; here the denominator is not zero at x=2."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-quadratic-form-conversion",
+      "condition": "student picks wrong option on Q1 (targets err-quadratic-form-conversion)",
+      "systemAction": "assign reteach module for err-quadratic-form-conversion",
+      "studentMessage": "You need more practice converting between quadratic forms."
+    },
+    {
+      "errorId": "err-reciprocal-zeros-to-asymptotes",
+      "condition": "student picks wrong option on Q2 (targets err-reciprocal-zeros-to-asymptotes)",
+      "systemAction": "assign reteach module for err-reciprocal-zeros-to-asymptotes",
+      "studentMessage": "Remember: zeros of the quadratic become vertical asymptotes of the reciprocal."
+    },
+    {
+      "errorId": "err-reciprocal-x-intercept",
+      "condition": "student picks wrong option on Q3 (targets err-reciprocal-x-intercept)",
+      "systemAction": "assign reteach module for err-reciprocal-x-intercept",
+      "studentMessage": "The reciprocal of a quadratic has no x-intercepts because 1/(quadratic) can never be zero."
+    },
+    {
+      "errorId": "err-horizontal-asymptote",
+      "condition": "student picks wrong option on Q4 (targets err-horizontal-asymptote)",
+      "systemAction": "assign reteach module for err-horizontal-asymptote",
+      "studentMessage": "The horizontal asymptote of a reciprocal quadratic is always y=0."
+    },
+    {
+      "errorId": "err-sign-consistency",
+      "condition": "student picks wrong option on Q5 (targets err-sign-consistency)",
+      "systemAction": "assign reteach module for err-sign-consistency",
+      "studentMessage": "The original quadratic and its reciprocal have the same sign in any interval."
+    },
+    {
+      "errorId": "err-extrema-correspondence",
+      "condition": "student picks wrong option on Q6 (targets err-extrema-correspondence)",
+      "systemAction": "assign reteach module for err-extrema-correspondence",
+      "studentMessage": "A local maximum in the quadratic corresponds to a local minimum in the reciprocal, and vice versa."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-quadratic-form-conversion",
+      "trigger": "Student incorrectly converts a quadratic function between standard and factored forms.",
+      "studentMisunderstanding": "Confusing the conversion between standard and factored forms of a quadratic function.",
+      "miniLesson": {
+        "explain": "To convert a quadratic from standard form (ax^2+bx+c) to factored form (a(x-r1)(x-r2)), find two numbers that multiply to c and add to b when a=1. Write as (x + p)(x + q) with correct signs. For a≠1, find two numbers that multiply to ac and add to b, then factor by grouping.",
+        "example": "Convert f(x)=x²-5x+6 to factored form. Find numbers that multiply to 6 and add to -5: -2 and -3. Thus f(x)=(x-2)(x-3).",
+        "memoryAnchor": "Factor pair: multiply to c, add to b."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Convert f(x)=x²+7x+12 to factored form.",
+          "answer": "(x+3)(x+4)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Convert g(x)=(x+4)(x-2) to standard form.",
+          "answer": "x²+2x-8"
+        },
+        {
+          "level": "L3",
+          "prompt": "Convert h(x)=2x²+7x+3 to factored form.",
+          "answer": "(2x+1)(x+3)"
+        }
+      ]
+    },
+    {
+      "errorId": "err-reciprocal-zeros-to-asymptotes",
+      "trigger": "Student thinks the reciprocal function has zeros at the same x-values as the original quadratic.",
+      "studentMisunderstanding": "The student believes that the zeros of the quadratic become zeros of its reciprocal, rather than vertical asymptotes.",
+      "miniLesson": {
+        "explain": "When you take the reciprocal of a quadratic function, the zeros (x-intercepts) of the quadratic cause the reciprocal to become undefined because division by zero is not allowed. Instead of having a value at those points, the reciprocal function has vertical asymptotes, which are lines that the graph approaches but never touches. The reciprocal function never has x-intercepts because a fraction can only be zero if its numerator is zero, and here the numerator is 1.",
+        "example": "Consider f(x)=x^2-4. Its zeros are x=2 and x=-2. The reciprocal g(x)=1/(x^2-4) has vertical asymptotes at x=2 and x=-2. Graphically, as x approaches 2 from the left, g(x) goes to negative infinity; from the right, to positive infinity. The reciprocal has no x-intercepts because 1 over something cannot be zero.",
+        "memoryAnchor": "Zeros in the original become asymptotes in the reciprocal — they are 'no-go' vertical lines for the graph."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Identify the vertical asymptotes of g(x)=1/(x^2-9).",
+          "answer": "x=3 and x=-3"
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the vertical asymptotes of g(x)=1/(x^2+2x-8).",
+          "answer": "Factor denominator: (x+4)(x-2), zeros at x=-4 and x=2, so asymptotes at x=-4 and x=2."
+        },
+        {
+          "level": "L3",
+          "prompt": "The quadratic f(x)=x^2-6x+9 has a double root at x=3. Describe the behavior of its reciprocal g(x)=1/(x^2-6x+9) near x=3.",
+          "answer": "g(x) has a vertical asymptote at x=3. Since the factor is squared, both sides approach positive infinity (from left and right) because the quadratic is always non-negative and zero only at x=3."
+        }
+      ]
+    },
+    {
+      "errorId": "err-reciprocal-x-intercept",
+      "trigger": "Student incorrectly believes the reciprocal of a quadratic has x-intercepts.",
+      "studentMisunderstanding": "Students think that the reciprocal function g(x)=1/(ax^2+bx+c) has x-intercepts, similar to the original quadratic. They may incorrectly set the reciprocal equal to zero and solve, not realizing that a fraction equals zero only when the numerator is zero.",
+      "miniLesson": {
+        "explain": "The reciprocal of a quadratic function, g(x)=1/f(x), has no x-intercepts because the numerator is constant (1). For a rational function to have an x-intercept, the numerator must be zero. Since 1 is never zero, the graph never crosses the x-axis. Vertical asymptotes occur where the denominator is zero, which are the x-intercepts of the original quadratic.",
+        "example": "Consider f(x)=x^2-4. Its reciprocal is g(x)=1/(x^2-4). The x-intercepts of f are at x=2 and x=-2. For g, setting numerator=1 to zero gives no solution, so no x-intercepts. At x=2 and x=-2, g has vertical asymptotes.",
+        "memoryAnchor": "Remember: x-intercept means numerator zero. Reciprocal has numerator 1, so no x-intercepts. Zeros of original become asymptotes."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: The function g(x)=1/(x^2-9) has x-intercepts.",
+          "answer": "False. The numerator is 1, so g(x) can never be zero. It has no x-intercepts."
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the x-intercepts of g(x)=1/(x^2+2x+1), if any.",
+          "answer": "There are no x-intercepts because the numerator is 1. The denominator (x+1)^2 is zero at x=-1, but that is a vertical asymptote, not an x-intercept. So answer: no x-intercepts."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student claims that the reciprocal function g(x)=1/(x^2-5x+6) has x-intercepts at x=2 and x=3. Explain the error.",
+          "answer": "The student confused x-intercepts with vertical asymptotes. The original quadratic f(x)=x^2-5x+6 has zeros at x=2 and x=3. For g, these are vertical asymptotes because the denominator is zero. The reciprocal function has no x-intercepts because 1/(something) can never equal zero."
+        }
+      ]
+    },
+    {
+      "errorId": "err-horizontal-asymptote",
+      "trigger": "The student believes the horizontal asymptote of a reciprocal quadratic is something other than y=0.",
+      "studentMisunderstanding": "Believing the horizontal asymptote of a reciprocal quadratic is something other than y=0.",
+      "miniLesson": {
+        "explain": "For a reciprocal quadratic function f(x)=1/(ax²+bx+c), the degree of the numerator (0) is less than the degree of the denominator (2). When the degree of the denominator is greater than the numerator, the horizontal asymptote is always y=0. As x → ±∞, the denominator grows without bound, so the fraction approaches 0.",
+        "example": "Consider g(x)=1/(x²-4). As x → ±∞, x²-4 → ∞, so g(x) → 0. The graph approaches the line y=0 but never crosses it.",
+        "memoryAnchor": "Think of a fraction where the bottom is huge: the value becomes tiny, always approaching zero."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the horizontal asymptote of g(x)=1/(x²-9)?",
+          "answer": "y=0"
+        },
+        {
+          "level": "L2",
+          "prompt": "Consider f(x)=x²-4. Its reciprocal is g(x)=1/(x²-4). As x→±∞, what does g(x) approach?",
+          "answer": "0"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why any reciprocal quadratic function has a horizontal asymptote at y=0.",
+          "answer": "Because the degree of the numerator (0) is less than the degree of the denominator (2). As x→±∞, the denominator grows without bound, making the fraction approach 0."
+        }
+      ]
+    },
+    {
+      "errorId": "err-sign-consistency",
+      "trigger": "Student incorrectly selects an option indicating the reciprocal function can have a different sign than the original quadratic on the same interval.",
+      "studentMisunderstanding": "Thinking the original quadratic and its reciprocal can have different signs (positive/negative) in the same interval.",
+      "miniLesson": {
+        "explain": "The original quadratic function and its reciprocal function always have the same sign in any interval where the quadratic is not zero. This is because the reciprocal of a positive number is positive, and the reciprocal of a negative number is negative.",
+        "example": "Consider a quadratic function that is positive on an interval. Its reciprocal, 1 divided by a positive number, is also positive. Similarly, if the quadratic is negative, the reciprocal is negative.",
+        "memoryAnchor": "Same sign, same team: the original and its reciprocal share the sign."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If f(x) is positive on an interval, what is the sign of 1/f(x) on that interval?",
+          "answer": "Positive"
+        },
+        {
+          "level": "L2",
+          "prompt": "If f(x) is negative on an interval, what is the sign of 1/f(x) on that interval?",
+          "answer": "Negative"
+        },
+        {
+          "level": "L3",
+          "prompt": "A quadratic function f(x) has intervals where it is positive and intervals where it is negative. How can you determine the sign of its reciprocal on those intervals?",
+          "answer": "The reciprocal has the same sign as the quadratic on each interval where the quadratic is nonzero."
+        }
+      ]
+    },
+    {
+      "errorId": "err-extrema-correspondence",
+      "trigger": "When asked about the relationship between a quadratic's extremum and its reciprocal's extremum, the student incorrectly thinks both have the same type (e.g., both minima or both maxima).",
+      "studentMisunderstanding": "Confusing the correspondence between local maxima/minima of the quadratic and the reciprocal (e.g., thinking both are maxima).",
+      "miniLesson": {
+        "explain": "The local maximum or minimum (vertex) of a quadratic function corresponds to the opposite type of extremum in its reciprocal function. If the quadratic has a local minimum at a point, the reciprocal has a local maximum at that same x-coordinate, and vice versa. This happens because the reciprocal function 'flips' the shape: a valley becomes a peak and a peak becomes a valley.",
+        "example": "Consider f(x)=x²-4x+3. This quadratic opens upward, so its vertex at x=2 is a minimum. The reciprocal g(x)=1/(x²-4x+3) will have a maximum at x=2. Indeed, g(2)=1/(-1)=-1, and nearby values are less than -1 (more negative) so it is a local maximum.",
+        "memoryAnchor": "Think of flipping a smiley face (minimum) upside down: it becomes a frowny face (maximum). Extremum types swap between a function and its reciprocal."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If a quadratic has a local maximum at x=3, what type of extremum does its reciprocal have at x=3?",
+          "answer": "Local minimum"
+        },
+        {
+          "level": "L2",
+          "prompt": "For f(x)=-x²+2x+3, the vertex is at (1,4) and it is a maximum. Determine the nature of the extremum of g(x)=1/(-x²+2x+3) at x=1 and find its value.",
+          "answer": "g has a local minimum at x=1 with value g(1)=1/4=0.25"
+        },
+        {
+          "level": "L3",
+          "prompt": "A quadratic has zeros at x=1 and x=5 and a minimum at x=3. Sketch a rough graph of its reciprocal, labeling the type and location of the reciprocal's extremum.",
+          "answer": "The reciprocal has a vertical asymptote at x=1 and x=5, and a local maximum at x=3 (since the quadratic minimum corresponds to a reciprocal maximum). The reciprocal's graph is positive between asymptotes (if quadratic negative there, reciprocal positive? Actually need to check sign: quadratic minimum value is negative if it opens up and zeros at 1 and 5, so at x=3 f(3)=negative; reciprocal is negative there, but maximum means most negative? Wait careful: if quadratic has minimum negative, reciprocal has maximum (most positive? Let's clarify: For f(x)=a(x-1)(x-5) with a>0, at x=3 f(3)=a(2)(-2)=-4a <0, so reciprocal is negative. The reciprocal's maximum means it is the highest value, but still negative. So the maximum is at x=3, value negative. The correct answer: The reciprocal has a local maximum at x=3."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-quadratic-form-conversion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is the factored form of \\(x^2 - 8x + 12\\)?",
+          "options": [
+            "\\((x-6)(x-2)\\)",
+            "\\((x+6)(x+2)\\)",
+            "\\((x-4)(x-3)\\)",
+            "\\((x+4)(x+3)\\)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Convert \\(f(x) = x^2 + 2x - 15\\) to factored form.",
+          "rubric": "Correct answer: \\((x+5)(x-3)\\) or equivalent with signs swapped."
+        },
+        {
+          "id": "q3",
+          "type": "open_ended",
+          "stem": "Convert \\(g(x) = (2x+3)(x-4)\\) to standard form.",
+          "rubric": "Correct answer: \\(2x^2 - 5x - 12\\)."
+        }
+      ],
+      "passRule": "Answer all questions correctly."
+    },
+    {
+      "forErrorId": "err-reciprocal-zeros-to-asymptotes",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "Which statement is true about the reciprocal of a quadratic function?",
+          "options": [
+            "The reciprocal has zeros at the same x-values as the quadratic.",
+            "The reciprocal has vertical asymptotes at the zeros of the quadratic.",
+            "The reciprocal has x-intercepts where the quadratic has vertical asymptotes.",
+            "The reciprocal has no vertical asymptotes."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Given the quadratic f(x)=x^2-4x+3, find the vertical asymptotes of its reciprocal g(x)=1/f(x).",
+          "rubric": "Factor f(x) to (x-1)(x-3). Zeros at x=1 and x=3. Vertical asymptotes at x=1 and x=3. Full credit (2 points) for both asymptotes correctly stated. Partial credit (1 point) if correct factoring but missing one asymptote. No credit otherwise."
+        }
+      ],
+      "passRule": "Student must select correct answer for question 1 and receive full rubric score (2 points) for question 2."
+    },
+    {
+      "forErrorId": "err-reciprocal-x-intercept",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "Does the function g(x) = 1/(x^2 - 4) have any x-intercepts?",
+          "options": [
+            "Yes, at x = 2 and x = -2",
+            "No, because the numerator is 1, which can never be zero",
+            "Yes, at x = 0",
+            "No, because the denominator is always positive"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Consider f(x) = x^2 - 5x + 6. Determine the x-intercepts of its reciprocal function g(x) = 1/(x^2 - 5x + 6). Explain your reasoning clearly.",
+          "rubric": "Student must state that g(x) has no x-intercepts because a fraction equals zero only when the numerator is zero, and here the numerator is 1 (never zero). They should note that the zeros of f (x=2 and x=3) are vertical asymptotes of g, not x-intercepts."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-horizontal-asymptote",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "What is the horizontal asymptote of the reciprocal quadratic function g(x)=1/(x^2-4)?",
+          "options": [
+            "y=0",
+            "y=1",
+            "y=x",
+            "No horizontal asymptote"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why any reciprocal quadratic function f(x)=1/(ax^2+bx+c) has a horizontal asymptote at y=0.",
+          "rubric": "Student must state that the degree of the numerator is 0 and the degree of the denominator is 2, so the denominator grows much faster as x→∞, making the fraction approach 0. Accept any correct reasoning involving degrees or limit behavior."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-sign-consistency",
+      "questions": [
+        {
+          "id": "err-sign-q1",
+          "type": "single_choice",
+          "stem": "A quadratic function f(x) is positive on the interval (a, b). What is the sign of its reciprocal function g(x)=1/f(x) on the same interval?",
+          "options": [
+            "Positive",
+            "Negative",
+            "Cannot be determined"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "err-sign-q2",
+          "type": "open_ended",
+          "stem": "Explain why the original quadratic function and its reciprocal function must have the same sign on any interval where the quadratic is nonzero.",
+          "rubric": "The reciprocal of a positive number is positive, and the reciprocal of a negative number is negative. Therefore, if f(x) is positive, 1/f(x) is positive; if f(x) is negative, 1/f(x) is negative. They share the same sign."
+        }
+      ],
+      "passRule": "Both questions answered correctly. Single choice must select 'Positive'. Open-ended must mention that reciprocal preserves sign (positive to positive, negative to negative)."
+    },
+    {
+      "forErrorId": "err-extrema-correspondence",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Given the quadratic function f(x) = -2(x-4)^2 + 6, which has a maximum at x=4. What type of extremum does its reciprocal function g(x) = 1/f(x) have at x=4?",
+          "options": [
+            "Local maximum",
+            "Local minimum",
+            "No extremum",
+            "Cannot be determined"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why the type of extremum (maximum/minimum) of a quadratic function and its reciprocal are opposite at the same x-coordinate. Use the example f(x)=x^2-6x+8 in your explanation.",
+          "rubric": "Student identifies that the reciprocal 'flips' the shape: a minimum in the quadratic becomes a maximum in the reciprocal and vice versa, because the reciprocal function's graph is the reflection of the original's reciprocal values (e.g., near a minimum, the function values are small positive or negative, so reciprocal is large positive or negative respectively, creating a peak if the quadratic minimum is positive or a trough if negative? Actually careful: if quadratic has a minimum positive, reciprocal has a maximum positive? Wait: For f(x)=x^2-6x+8 = (x-3)^2 -1, vertex at (3,-1) is a minimum (value -1). Reciprocal g(x)=1/((x-3)^2-1). At x=3, g(3)=-1. For x near 3, (x-3)^2 is small positive, so denominator is -1+small, so g is negative and slightly less than -1? Let's compute: x=3.1, denominator 0.01-1=-0.99, g≈-1.01; x=2.9, similar. So g is more negative than -1 near 3, so at x=3, g is a local maximum because it is the highest (least negative) value near 3. So indeed minimum of f corresponds to maximum of g. Explanation should mention that as the quadratic increases from its vertex, its reciprocal decreases, and vice versa, leading to opposite extremum types."
+        }
+      ],
+      "passRule": "All questions correct"
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-07-27",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/XSoydTn3QoLNOjxCcW0caJPFnNg?from=vc_group_doc_link#doxcn7zpo8sOX4UW5y9wawmPO0c",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-07-27 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Quadratic functions can be expressed in standard form (ax^2+bx+c) and factored form (a(x-r1)(x-r2)).；Key features of quadratic functions include x-intercepts (zeros), y-intercept, axis of symmetry, vertex, domain, range, and end behavior.；The reciprocal of a quadratic function, f(x)=1/(ax^2+bx+c), has vertical asymptotes at the zeros of the original quadratic.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Convert between standard and factored forms of a quadratic function."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Determine key features (zeros, vertex, axis of symmetry) of a quadratic function."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Derive the reciprocal rational function from a quadratic and identify its key features (vertical asymptotes, horizontal asymptote, intercepts, behavior)."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Relate the graph of a quadratic to its reciprocal using sign intervals and extremum correspondence."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Presentation sequence published",
+        "studentAction": "Check your presentation position",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology/Feishu",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The formal presentation sequence has been simultaneously published in the meeting group chat, official Schoology course platform and Feishu workspace",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Late presentation start rule",
+        "studentAction": "Initiate presentation within 3-4 minutes when called, or be moved to end of queue",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students who fail to initiate their presentation within 3 to 4 minutes after being called by the instructor will be directly moved to the end of the entire presentation queue",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Screen sharing during presentation",
+        "studentAction": "Share screen with prepared slides and confirm visibility for all participants",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "share their screen with the prepared presentation slides, and start formal content delivery after confirming visibility for all participants",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Post-presentation targeted Q&A",
+        "studentAction": "Answer 1-2 targeted core concept questions verbally or via group chat",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "After each student finishes their full presentation, the instructor will ask 1 to 2 targeted core concept questions",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "material_needed",
+        "title": "Targeted review package",
+        "studentAction": "Access and study the review package covering core concepts from conference and exit card feedback",
+        "deadlineText": "Before upcoming test",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The instructor will upload a targeted review package covering all core concepts that students explicitly requested to review during the conference and pre-submitted anonymous exit card feedback",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Optional practice quiz",
+        "studentAction": "Complete the non-mandatory multiple-choice practice quiz for self-check of Unit 1 understanding",
+        "deadlineText": "Before test",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A non-mandatory multiple-choice practice quiz will be assigned as temporary homework, allowing students to self-check their understanding of Unit 1 content before the official test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Unfinished presentation completed after main session",
+        "studentAction": "No action needed",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "the one student who had not completed",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The only student who had not completed the presentation during the regular conference session finished their supplementary presentation after the main meeting adjourned",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "platform_link",
+        "title": "Unit 1 Conference slides",
+        "studentAction": "Access the presentation slides shared during the meeting",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu",
+        "link": "https://www.feishu.cn/file/G97AbmljuoYDTlx02r2c4hiBnyF",
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "会中共享的文档：Unit 1 Conference .pptx with link",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "MHF4U-C-OE01",
+      "MHF4U-C-OE02"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-quadratic-form-conversion",
+        "condition": "student picks wrong option on Q1 (targets err-quadratic-form-conversion)",
+        "systemAction": "assign reteach module for err-quadratic-form-conversion"
+      },
+      {
+        "errorId": "err-reciprocal-zeros-to-asymptotes",
+        "condition": "student picks wrong option on Q2 (targets err-reciprocal-zeros-to-asymptotes)",
+        "systemAction": "assign reteach module for err-reciprocal-zeros-to-asymptotes"
+      },
+      {
+        "errorId": "err-reciprocal-x-intercept",
+        "condition": "student picks wrong option on Q3 (targets err-reciprocal-x-intercept)",
+        "systemAction": "assign reteach module for err-reciprocal-x-intercept"
+      },
+      {
+        "errorId": "err-horizontal-asymptote",
+        "condition": "student picks wrong option on Q4 (targets err-horizontal-asymptote)",
+        "systemAction": "assign reteach module for err-horizontal-asymptote"
+      },
+      {
+        "errorId": "err-sign-consistency",
+        "condition": "student picks wrong option on Q5 (targets err-sign-consistency)",
+        "systemAction": "assign reteach module for err-sign-consistency"
+      },
+      {
+        "errorId": "err-extrema-correspondence",
+        "condition": "student picks wrong option on Q6 (targets err-extrema-correspondence)",
+        "systemAction": "assign reteach module for err-extrema-correspondence"
+      }
+    ],
+    "nextActions": [
+      "[err-quadratic-form-conversion] student picks wrong option on Q1 (targets err-quadratic-form-conversion): You need more practice converting between quadratic forms.",
+      "[err-reciprocal-zeros-to-asymptotes] student picks wrong option on Q2 (targets err-reciprocal-zeros-to-asymptotes): Remember: zeros of the quadratic become vertical asymptotes of the reciprocal.",
+      "[err-reciprocal-x-intercept] student picks wrong option on Q3 (targets err-reciprocal-x-intercept): The reciprocal of a quadratic has no x-intercepts because 1/(quadratic) can never be zero.",
+      "[err-horizontal-asymptote] student picks wrong option on Q4 (targets err-horizontal-asymptote): The horizontal asymptote of a reciprocal quadratic is always y=0.",
+      "[err-sign-consistency] student picks wrong option on Q5 (targets err-sign-consistency): The original quadratic and its reciprocal have the same sign in any interval.",
+      "[err-extrema-correspondence] student picks wrong option on Q6 (targets err-extrema-correspondence): A local maximum in the quadratic corresponds to a local minimum in the reciprocal, and vice versa."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-0727-q1",
+        "type": "choice",
+        "question": "Which of the following is the factored form of the quadratic function f(x)=x²-5x+6?",
+        "options": [
+          "f(x)=(x-2)(x-3)",
+          "f(x)=(x+2)(x+3)",
+          "f(x)=(x-1)(x+6)",
+          "f(x)=(x-6)(x+1)"
+        ],
+        "correct": 0,
+        "diagnosis": "Assess ability to factor a quadratic from standard to factored form.",
+        "misconceptions": [
+          "✓ 正确",
+          "Check the signs: the constant term is +6, so the factors should multiply to +6 and sum to -5, meaning both factors are negative.",
+          "This expands to x²+5x-6, not x²-5x+6.",
+          "This expands to x²-5x-6, not x²-5x+6."
+        ],
+        "nodeId": "MHF4U-C-OE01",
+        "errorId": "err-quadratic-form-conversion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly converts from standard to factored form.",
+        "ossdExpectation": "Identify and describe some key features of polynomial functions, and make connections between the numeric, graphical, and algebraic representations of polynomial functions.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "MHF4U-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly tests conversion between forms, a key feature of polynomial functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Sign errors in factors (e.g., using +2 and +3 instead of -2 and -3).",
+        "remediationModule": "err-quadratic-form-conversion",
+        "retestItem": "err-quadratic-form-conversion"
+      },
+      {
+        "id": "diag-mhf4u-0727-q2",
+        "type": "choice",
+        "question": "For the quadratic function f(x)=x²-4, the reciprocal function g(x)=1/(x²-4) has vertical asymptotes at:",
+        "options": [
+          "x=2 and x=-2",
+          "x=0 and x=4",
+          "x=4 only",
+          "no vertical asymptotes"
+        ],
+        "correct": 0,
+        "diagnosis": "Check understanding that zeros of the quadratic become vertical asymptotes of the reciprocal.",
+        "misconceptions": [
+          "✓ 正确",
+          "The zeros of x²-4 are at x=2 and x=-2, not at 0 and 4.",
+          "x²-4 has two zeros, not one.",
+          "Since the denominator has zeros, vertical asymptotes exist at those x-values."
+        ],
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-reciprocal-zeros-to-asymptotes",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies vertical asymptotes from zeros of the original quadratic.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly tests understanding of vertical asymptotes in reciprocal rational functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Thinking the reciprocal has zeros at the same x-values as the original quadratic.",
+        "remediationModule": "err-reciprocal-zeros-to-asymptotes",
+        "retestItem": "err-reciprocal-zeros-to-asymptotes"
+      },
+      {
+        "id": "diag-mhf4u-0727-q3",
+        "type": "choice",
+        "question": "The reciprocal function g(x)=1/(x²-4) has x-intercepts at:",
+        "options": [
+          "x=2 and x=-2",
+          "x=0",
+          "no x-intercepts",
+          "x=4 and x=-4"
+        ],
+        "correct": 2,
+        "diagnosis": "Check that 1/(quadratic) cannot equal zero.",
+        "misconceptions": [
+          "Those are the vertical asymptotes, not x-intercepts. The reciprocal never equals zero.",
+          "Substituting x=0 gives g(0)=1/(-4)=-0.25, not zero.",
+          "✓ 正确",
+          "These are not relevant; the function is undefined at x=±2."
+        ],
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-reciprocal-x-intercept",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Knows that reciprocal of a quadratic has no x-intercepts.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests understanding that reciprocal functions have no x-intercepts.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Assuming it has x-intercepts, e.g., at zeros of the original.",
+        "remediationModule": "err-reciprocal-x-intercept",
+        "retestItem": "err-reciprocal-x-intercept"
+      },
+      {
+        "id": "diag-mhf4u-0727-q4",
+        "type": "choice",
+        "question": "The horizontal asymptote of g(x)=1/(x²-4) is:",
+        "options": [
+          "y=0",
+          "y=1",
+          "y=2",
+          "no horizontal asymptote"
+        ],
+        "correct": 0,
+        "diagnosis": "Test knowledge that reciprocal quadratic has horizontal asymptote at y=0.",
+        "misconceptions": [
+          "✓ 正确",
+          "The horizontal asymptote is found by comparing degrees; here numerator degree 0 < denominator degree 2, so HA is y=0.",
+          "No; the reciprocal approaches 0 as x→±∞.",
+          "Rational functions with denominator degree greater than numerator have HA at y=0."
+        ],
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-horizontal-asymptote",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Identifies horizontal asymptote at y=0.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests key feature of horizontal asymptote for reciprocal functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Thinking the horizontal asymptote is y=1 or determined by numerator degree.",
+        "remediationModule": "err-horizontal-asymptote",
+        "retestItem": "err-horizontal-asymptote"
+      },
+      {
+        "id": "diag-mhf4u-0727-q5",
+        "type": "choice",
+        "question": "Over the interval where f(x)=x²-4 is negative, g(x)=1/(x²-4) is:",
+        "options": [
+          "positive",
+          "negative",
+          "zero",
+          "undefined"
+        ],
+        "correct": 1,
+        "diagnosis": "Check that reciprocal preserves sign of the original.",
+        "misconceptions": [
+          "If f(x) is negative, then 1/(negative) is also negative, not positive.",
+          "✓ 正确",
+          "The reciprocal cannot be zero; it approaches zero at infinities but isn't zero.",
+          "It is defined as long as f(x) is not zero; negative intervals exclude zeros."
+        ],
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-sign-consistency",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Relates sign of reciprocal to sign of original.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests understanding of sign consistency between quadratic and its reciprocal.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Thinking signs can differ (e.g., reciprocal becoming positive when original is negative).",
+        "remediationModule": "err-sign-consistency",
+        "retestItem": "err-sign-consistency"
+      },
+      {
+        "id": "diag-mhf4u-0727-q6",
+        "type": "choice",
+        "question": "The quadratic f(x)=x²-4x+3 has a minimum value at x=2. The reciprocal function g(x)=1/(x²-4x+3) has at x=2:",
+        "options": [
+          "a maximum",
+          "a minimum",
+          "a vertical asymptote",
+          "a hole"
+        ],
+        "correct": 0,
+        "diagnosis": "Check knowledge that local maximum/minimum in quadratic gives local minimum/maximum in reciprocal.",
+        "misconceptions": [
+          "✓ 正确",
+          "The reciprocal has the opposite type of extremum: a minimum in the quadratic becomes a maximum in the reciprocal.",
+          "At x=2, f(2)=-1, not zero, so no vertical asymptote.",
+          "A hole occurs if the factor cancels; here the denominator is not zero at x=2."
+        ],
+        "nodeId": "MHF4U-C-OE02",
+        "errorId": "err-extrema-correspondence",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Correctly identifies that reciprocal has opposite type of extremum.",
+        "ossdExpectation": "Identify and describe some key features of the graphs of rational functions, and represent rational functions graphically.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "MHF4U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Tests understanding of extremum correspondence between quadratic and reciprocal.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Thinking both have same type of extremum (e.g., both minima).",
+        "remediationModule": "err-extrema-correspondence",
+        "retestItem": "err-extrema-correspondence"
+      }
+    ]
+  }
+}

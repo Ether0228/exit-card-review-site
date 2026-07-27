@@ -1,0 +1,1225 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-24",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/A16PdybDGoV7UKxfxSGcraufnlf?from=vc_group_doc_link#doxcnEPaUcewNV6m9ATYox6cytg",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-24 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/A16PdybDGoV7UKxfxSGcraufnlf?from=vc_group_doc_link#doxcnEPaUcewNV6m9ATYox6cytg",
+    "title": "MDM4U.S6.Atousa 2026-07-24 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-27/sources/mdm4u-s6-atousa-2026-07-24/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-24",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-24",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes a thorough introduction to binomial distribution (preconditions, formulas, examples) along with a review of hypergeometric distribution exercises, constituting new instructional content with practice.",
+    "academicContentSignals": [
+      "Hypergeometric distribution review: jury selection (equal male-female probability, at least 3 females, expected number)",
+      "Hypergeometric distribution review: dance door prize scenario (probability distribution, expected value)",
+      "Binomial distribution preconditions: two mutually exclusive outcomes, fixed success probability per trial, independent trials",
+      "Binomial probability formula: P(X=k) = C(n,k) * p^k * (1-p)^(n-k)",
+      "Binomial expectation formula: E = n * p",
+      "Example: probability of exactly 2 sixes in 4 dice rolls (p=1/6, n=4, k=2, result 25/216)",
+      "Example: probability of exactly 3 O-type blood children out of 5 (p=0.25, result ~0.087) and probability of fewer than 2 (<0.63)",
+      "Example: probability of exactly 3 goals in 4 hockey shots (p=0.70, result ~1.6%, below 5% rare event threshold)",
+      "Example: expected hits in 3 free throws (p=0.60, E=1.8)",
+      "Visual summary of binomial distribution: conditions, formulas, usage notes"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations are present (break, submission, assignment) but academic content dominates. Ensure diagnostic exit card focuses on hypergeometric review and binomial new material, with at most one lightweight readiness check on operations.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Mid-session break at 8:25",
+        "studentAction": "Take a 10-minute break; resume promptly.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A 10-minute scheduled break is arranged after the initial hypergeometric exercise review and pre-break binomial introduction...break scheduled to start at approximately 8:25 local time",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Submit in-class activity screenshots",
+        "studentAction": "Upload screenshots of your in-class activity calculation results to Eschology immediately after class. Attach full calculation sheets.",
+        "deadlineText": "Immediately after class on July 24, 2026",
+        "deadlineISO": "2026-07-24T09:57:00+08:00",
+        "platform": "Eschology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Attendees are required to upload screenshots of their in-class activity calculation results to the designated learning platform immediately after the class concludes...submission platform...is Eschology",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Complete Class Activity 3 (weekend assignment)",
+        "studentAction": "Complete all questions in Class Activity 3: 5 calculation questions and 2 application scenario questions on binomial distribution.",
+        "deadlineText": "Weekend after July 24, 2026",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The only required weekend assignment is the full completion of Class Activity 3, which exclusively covers binomial distribution related calculation and application questions...includes 5 calculation questions and 2 application scenario questions",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Immediately after the class concludes",
+        "reason": "Exact submission deadline (specific time) is not explicitly stated; inferred from class end time 09:57."
+      },
+      {
+        "rawText": "Weekend assignment deadline",
+        "reason": "No specific day or time given for the weekend assignment; only 'weekend' is mentioned."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Hypergeometric Distribution、Binomial Distribution、Binomial Conditions）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Hypergeometric distribution models draws without replacement; expectation formula E = n * K / N.；Binomial distribution requires: (i) two mutually exclusive outcomes per trial, (ii) constant success probability p per trial, (iii) independent trials.；Binomial probability of exactly k successes: P(X=k) = C(n,k) * p^k * (1-p)^(n-k).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Calculate the expected value of a hypergeometric distribution using the formula E = n * K / N."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Identify the three conditions required for a binomial distribution."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Compute binomial probabilities using the formula P(X=k) = C(n,k) * p^k * (1-p)^(n-k)."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Calculate the expected value of a binomial distribution using E = n * p."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Use complementary probability strategies to find cumulative probabilities (e.g., P(at least k) = 1 - P(less than k))."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "hypergeometric-distribution",
+      "name": "Hypergeometric Distribution",
+      "nameEn": "Hypergeometric Distribution",
+      "definition": "A discrete probability distribution for the number of successes in a sample drawn without replacement from a finite population, with expectation E = n * K / N.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "MDM4U-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications."
+    },
+    {
+      "id": "binomial-distribution",
+      "name": "Binomial Distribution",
+      "nameEn": "Binomial Distribution",
+      "definition": "A discrete probability distribution for the number of successes in a fixed number of independent Bernoulli trials with constant success probability p. Formula: P(X=k) = C(n,k) * p^k * (1-p)^(n-k); E = n * p.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "MDM4U-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications."
+    },
+    {
+      "id": "binomial-conditions",
+      "name": "Binomial Conditions",
+      "nameEn": "Binomial Conditions",
+      "definition": "Three necessary conditions: two outcomes only, constant success probability per trial, independent trials.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MDM4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Calculate the expected value of a hypergeometric distribution using the formula E = n * K / N."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify the three conditions required for a binomial distribution."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Compute binomial probabilities using the formula P(X=k) = C(n,k) * p^k * (1-p)^(n-k)."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Calculate the expected value of a binomial distribution using E = n * p."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Use complementary probability strategies to find cumulative probabilities (e.g., P(at least k) = 1 - P(less than k))."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-hypergeometric-mean-formula",
+        "condition": "student picks wrong option on Q1 (targets this errorId)",
+        "systemAction": "assign reteach module for hypergeometric expectation formula",
+        "studentMessage": "The expected value of a hypergeometric distribution is E = n * K / N, not n * p."
+      },
+      {
+        "errorId": "err-binomial-condition-outcomes",
+        "condition": "student picks wrong option on Q2 (targets this errorId)",
+        "systemAction": "assign reteach module for binomial conditions – two outcomes",
+        "studentMessage": "Binomial distribution requires exactly two mutually exclusive outcomes per trial."
+      },
+      {
+        "errorId": "err-binomial-condition-independence",
+        "condition": "student picks wrong option on Q3 (targets this errorId)",
+        "systemAction": "assign reteach module for binomial conditions – independence",
+        "studentMessage": "Trials must be independent, so drawing without replacement is not binomial."
+      },
+      {
+        "errorId": "err-binomial-prob-combination",
+        "condition": "student picks wrong option on Q4 (targets this errorId)",
+        "systemAction": "assign reteach module for binomial probability formula",
+        "studentMessage": "Remember to include the combination term C(n,k) in the binomial formula."
+      },
+      {
+        "errorId": "err-binomial-expected-value",
+        "condition": "student picks wrong option on Q5 (targets this errorId)",
+        "systemAction": "assign reteach module for binomial expected value",
+        "studentMessage": "Expected value for binomial is E = n * p, not np(1-p)."
+      },
+      {
+        "errorId": "err-complement-misapplication",
+        "condition": "student picks wrong option on Q6 (targets this errorId)",
+        "systemAction": "assign reteach module for complement strategy",
+        "studentMessage": "For 'fewer than 2', complement is 'at least 2', not 'at least 1'."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-u2-0724-q1",
+        "nodeId": "hypergeometric-distribution",
+        "errorId": "err-hypergeometric-mean-formula",
+        "stem": "A jury of 12 people is selected from 14 men and 11 women. What is the expected number of women on the jury?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly applies E = n * K / N.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Hypergeometric expectation is a discrete probability distribution expected value problem.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to compute hypergeometric expected value.",
+        "commonMisconception": "Student uses binomial expectation formula E = n * p instead of hypergeometric formula.",
+        "remediationModule": "err-hypergeometric-mean-formula",
+        "retestItem": "err-hypergeometric-mean-formula",
+        "options": [
+          {
+            "label": "A",
+            "text": "5.28",
+            "correct": true,
+            "feedbackWrong": "Incorrect; the correct formula is E = n * K / N = 12 * 11 / 25 = 5.28."
+          },
+          {
+            "label": "B",
+            "text": "5.00",
+            "correct": false,
+            "feedbackWrong": "You may have used 12 * 11 / 26 or another ratio. Use E = n * K / N with N=25, K=11, n=12."
+          },
+          {
+            "label": "C",
+            "text": "6.00",
+            "correct": false,
+            "feedbackWrong": "That would be if men and women were equal; but they aren't. Use E = n * K / N."
+          },
+          {
+            "label": "D",
+            "text": "5.5",
+            "correct": false,
+            "feedbackWrong": "This might come from averaging the two group sizes. Use E = n * K / N."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q2",
+        "nodeId": "binomial-conditions",
+        "errorId": "err-binomial-condition-outcomes",
+        "stem": "A survey asks respondents to choose their favorite color among red, blue, green, and yellow. Can this be modeled with a binomial distribution for the number of people who choose blue?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student recognizes that binomial requires exactly two outcomes per trial.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Binomial conditions are fundamental to solving probability problems for discrete sample spaces.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows binomial requires exactly two outcomes.",
+        "commonMisconception": "Student thinks binomial can handle multiple categories as long as one is 'success'.",
+        "remediationModule": "err-binomial-condition-outcomes",
+        "retestItem": "err-binomial-condition-outcomes",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes, because we only care about choosing blue or not.",
+            "correct": false,
+            "feedbackWrong": "But each trial has four possible outcomes, not two. The binomial model requires exactly two outcomes per trial."
+          },
+          {
+            "label": "B",
+            "text": "No, because there are more than two possible outcomes per trial.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Each person has four options; binomial requires exactly two outcomes per trial."
+          },
+          {
+            "label": "C",
+            "text": "Yes, because outcomes are independent.",
+            "correct": false,
+            "feedbackWrong": "Independence is necessary but not sufficient; the number of outcomes must be two."
+          },
+          {
+            "label": "D",
+            "text": "No, because the probability of choosing blue changes per person.",
+            "correct": false,
+            "feedbackWrong": "Probability may be constant if we assume simple random sampling, but still the number of outcomes is the issue."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q3",
+        "nodeId": "binomial-conditions",
+        "errorId": "err-binomial-condition-independence",
+        "stem": "A bag contains 5 red and 5 blue marbles. You draw 3 marbles without replacement and count the number of reds. Is this a binomial experiment?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that draws without replacement violate independence.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding independence is key to identifying binomial experiments.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes that without replacement violates independence.",
+        "commonMisconception": "Student thinks draws without replacement are still independent if the sample is small relative to population.",
+        "remediationModule": "err-binomial-condition-independence",
+        "retestItem": "err-binomial-condition-independence",
+        "options": [
+          {
+            "label": "A",
+            "text": "Yes, because we are counting successes (red).",
+            "correct": false,
+            "feedbackWrong": "But the probability of success changes with each draw since we do not replace the marble; trials are not independent."
+          },
+          {
+            "label": "B",
+            "text": "No, because the draws are not independent.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Without replacement, the probability of red changes; thus trials are not independent and it is not binomial."
+          },
+          {
+            "label": "C",
+            "text": "Yes, because the number of trials is fixed and there are two outcomes.",
+            "correct": false,
+            "feedbackWrong": "Having two outcomes and fixed trials is necessary, but independence is also required and is violated here."
+          },
+          {
+            "label": "D",
+            "text": "No, because there are not exactly two outcomes.",
+            "correct": false,
+            "feedbackWrong": "There are two outcomes (red or not red), so the issue is not the number of outcomes but independence."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q4",
+        "nodeId": "binomial-distribution",
+        "errorId": "err-binomial-prob-combination",
+        "stem": "If you roll a fair die 4 times, what is the probability of getting exactly 2 sixes?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly applies P(X=k)=C(4,2)*(1/6)^2*(5/6)^2.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Binomial probability calculation is a key application of discrete distributions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student includes the combination term and uses correct powers.",
+        "commonMisconception": "Student omits the combination term C(n,k) and only uses p^k*(1-p)^(n-k).",
+        "remediationModule": "err-binomial-prob-combination",
+        "retestItem": "err-binomial-prob-combination",
+        "options": [
+          {
+            "label": "A",
+            "text": "25/216 ≈ 0.1157",
+            "correct": true,
+            "feedbackCorrect": "Correct! P = C(4,2)*(1/6)^2*(5/6)^2 = 6*(1/36)*(25/36) = 150/1296 = 25/216."
+          },
+          {
+            "label": "B",
+            "text": "125/1296 ≈ 0.0965",
+            "correct": false,
+            "feedbackWrong": "This would be if you used (5/6)^4, which is probability of no sixes in four rolls, not exactly two sixes."
+          },
+          {
+            "label": "C",
+            "text": "1/36 ≈ 0.0278",
+            "correct": false,
+            "feedbackWrong": "You may have forgotten the combination factor and only used (1/6)^2*(5/6)^2, which gives (1/36)*(25/36)=25/1296≈0.0193, not 1/36."
+          },
+          {
+            "label": "D",
+            "text": "1/216 ≈ 0.00463",
+            "correct": false,
+            "feedbackWrong": "That's (1/6)^3, which is probability of three sixes in three rolls, not this scenario."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q5",
+        "nodeId": "binomial-distribution",
+        "errorId": "err-binomial-expected-value",
+        "stem": "A basketball player makes 60% of free throws. If she takes 3 free throws in a game, how many is she expected to make?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student uses E = n * p = 3 * 0.6 = 1.8.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Binomial expected value is a core calculation for discrete distributions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student correctly computes binomial expected value.",
+        "commonMisconception": "Student uses E = np(1-p) or n^2 p.",
+        "remediationModule": "err-binomial-expected-value",
+        "retestItem": "err-binomial-expected-value",
+        "options": [
+          {
+            "label": "A",
+            "text": "1.8",
+            "correct": true,
+            "feedbackCorrect": "Correct! E = n * p = 3 * 0.6 = 1.8."
+          },
+          {
+            "label": "B",
+            "text": "1.2",
+            "correct": false,
+            "feedbackWrong": "That would be n * (1-p) = 3 * 0.4. The expected number of makes is n * p."
+          },
+          {
+            "label": "C",
+            "text": "0.72",
+            "correct": false,
+            "feedbackWrong": "That's np(1-p) = 3*0.6*0.4 = 0.72, which is the variance, not the expected value."
+          },
+          {
+            "label": "D",
+            "text": "1.0",
+            "correct": false,
+            "feedbackWrong": "You might have rounded or used p alone. Use E = n * p = 1.8."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q6",
+        "nodeId": "binomial-distribution",
+        "errorId": "err-complement-misapplication",
+        "stem": "In a family with 5 children where the probability of type O blood is 0.25, what does \"P(fewer than 2 children with type O)\" represent?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student interprets 'fewer than 2' as P(X=0) + P(X=1).",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding events and complements is part of working with discrete distributions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows 'fewer than 2' means 0 or 1, not complement of something else.",
+        "commonMisconception": "Student thinks 'fewer than 2' is complement of 'at least 2' and uses 1 - P(2) incorrectly.",
+        "remediationModule": "err-complement-misapplication",
+        "retestItem": "err-complement-misapplication",
+        "options": [
+          {
+            "label": "A",
+            "text": "P(X = 0) + P(X = 1)",
+            "correct": true,
+            "feedbackCorrect": "Correct. Fewer than 2 means 0 or 1 children with type O."
+          },
+          {
+            "label": "B",
+            "text": "1 - P(X = 2)",
+            "correct": false,
+            "feedbackWrong": "That would be the complement of exactly 2, which includes 0,1,3,4,5. Fewer than 2 only includes 0 and 1."
+          },
+          {
+            "label": "C",
+            "text": "1 - P(X < 2)",
+            "correct": false,
+            "feedbackWrong": "That would be P(X ≥ 2). You need to directly sum P(0)+P(1)."
+          },
+          {
+            "label": "D",
+            "text": "P(X ≤ 2)",
+            "correct": false,
+            "feedbackWrong": "X ≤ 2 includes X=2 as well. Fewer than 2 excludes 2."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-hypergeometric-mean-formula",
+      "condition": "student picks wrong option on Q1 (targets this errorId)",
+      "systemAction": "assign reteach module for hypergeometric expectation formula",
+      "studentMessage": "The expected value of a hypergeometric distribution is E = n * K / N, not n * p."
+    },
+    {
+      "errorId": "err-binomial-condition-outcomes",
+      "condition": "student picks wrong option on Q2 (targets this errorId)",
+      "systemAction": "assign reteach module for binomial conditions – two outcomes",
+      "studentMessage": "Binomial distribution requires exactly two mutually exclusive outcomes per trial."
+    },
+    {
+      "errorId": "err-binomial-condition-independence",
+      "condition": "student picks wrong option on Q3 (targets this errorId)",
+      "systemAction": "assign reteach module for binomial conditions – independence",
+      "studentMessage": "Trials must be independent, so drawing without replacement is not binomial."
+    },
+    {
+      "errorId": "err-binomial-prob-combination",
+      "condition": "student picks wrong option on Q4 (targets this errorId)",
+      "systemAction": "assign reteach module for binomial probability formula",
+      "studentMessage": "Remember to include the combination term C(n,k) in the binomial formula."
+    },
+    {
+      "errorId": "err-binomial-expected-value",
+      "condition": "student picks wrong option on Q5 (targets this errorId)",
+      "systemAction": "assign reteach module for binomial expected value",
+      "studentMessage": "Expected value for binomial is E = n * p, not np(1-p)."
+    },
+    {
+      "errorId": "err-complement-misapplication",
+      "condition": "student picks wrong option on Q6 (targets this errorId)",
+      "systemAction": "assign reteach module for complement strategy",
+      "studentMessage": "For 'fewer than 2', complement is 'at least 2', not 'at least 1'."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-hypergeometric-mean-formula",
+      "trigger": "When asked to find the expected number of women in a jury of 12 from 14 men and 11 women, the student selects an incorrect answer that is not 5.28.",
+      "studentMisunderstanding": "The student may have used the binomial expectation formula E = n * p instead of the hypergeometric formula E = n * K / N, or may have incorrectly applied the hypergeometric formula by using the wrong values for K, N, or n.",
+      "miniLesson": {
+        "explain": "The hypergeometric distribution models draws without replacement. Its expected value (mean) is given by E = n * K / N, where n is the sample size, K is the number of successes in the population, and N is the population size. This is different from the binomial expectation E = n * p, which requires a constant success probability p. For hypergeometric, the probability of success changes with each draw, but the expectation formula still holds.",
+        "example": "In the jury example, we have N = 25 total people, K = 11 women (success), and we select n = 12 jurors. So E = 12 * 11 / 25 = 132 / 25 = 5.28. This means we expect about 5.28 women on the jury.",
+        "memoryAnchor": "Think: 'n times K over N' - like 'n times the proportion of successes in the population'. Remember, it's not n times p, because p changes; the formula uses the overall proportion K/N."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A dance door prize has 12 gifts: 4 are $10 certificates, 6 are $5, and 2 are $1. You randomly select 5 gifts. What is the expected number of $10 certificates you will get? (Use E = n * K / N)",
+          "answer": "1.67"
+        },
+        {
+          "level": "L2",
+          "prompt": "In the jury selection problem (14 men, 11 women, select 12), identify which distribution applies and find the expected number of women.",
+          "answer": "Hypergeometric; E = 12*11/25 = 5.28"
+        },
+        {
+          "level": "L3",
+          "prompt": "For the jury selection, compute the expected number of women. Additionally, calculate the probability of exactly 6 women on the jury.",
+          "answer": "Expected women = 5.28, P(exactly 6 women) = C(14,6)*C(11,6)/C(25,12) ≈ 0.26"
+        }
+      ]
+    },
+    {
+      "errorId": "err-binomial-condition-outcomes",
+      "trigger": "Student incorrectly selects that a survey with four color options can be modeled by binomial distribution.",
+      "studentMisunderstanding": "The student thinks that a binomial distribution can be used when a trial has more than two possible outcomes, as long as one outcome is designated as 'success'.",
+      "miniLesson": {
+        "explain": "The binomial distribution requires exactly two mutually exclusive outcomes for each trial. This is often called a 'success' and 'failure'. If a trial has three or more possible outcomes (like choosing a color from red, blue, green, yellow), the binomial model does not apply, because the probability of 'not success' includes multiple distinct outcomes that may not have the same probability. The conditions for binomial are: (1) fixed number of independent trials, (2) each trial has exactly two outcomes, (3) the probability of success is constant for each trial.",
+        "example": "Rolling a die: there are 6 outcomes. Even if we only care about getting a six, each roll still has six possible results. So rolling a die is not binomial unless we collapse to 'six' vs 'not six', which is valid only if each roll is independent and probability remains 1/6. Actually, collapsing to two outcomes is fine because we are only modeling the count of sixes. But if we try to model 'getting a 1,2,3,4,5,6' separately, it's not binomial. For binomial, we must define success and failure such that each trial results in exactly one of those two categories.",
+        "memoryAnchor": "Remember: Binomial = Two Outcomes. Think of a coin flip: heads or tails. If the experiment has more than two possibilities, it's not binomial."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A multiple-choice question has four options. Can we model the number of correct answers with a binomial distribution if each question is independent?",
+          "answer": "Yes, because each trial (question) has exactly two outcomes: correct or incorrect. Even though there are four options, we are only counting correct vs incorrect."
+        },
+        {
+          "level": "L2",
+          "prompt": "A survey asks people to rate a product as 'poor', 'average', or 'excellent'. Is this a binomial experiment for counting 'excellent' ratings?",
+          "answer": "No, because each trial has three possible outcomes, not two. However, if we combine 'poor' and 'average' into a single 'not excellent' category, then it becomes binomial with two outcomes: excellent or not excellent."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why rolling a die 4 times and counting the number of sixes is binomial, even though the die has 6 sides.",
+          "answer": "Although the die has 6 sides, each roll has exactly two outcomes of interest: get a six (success) or not get a six (failure). The probability of success is constant (1/6), and the rolls are independent. Thus the number of sixes follows a binomial distribution."
+        }
+      ]
+    },
+    {
+      "errorId": "err-binomial-condition-independence",
+      "trigger": "student picks wrong option on Q3",
+      "studentMisunderstanding": "Students may overlook independence assumption, e.g., applying binomial to draws without replacement.",
+      "miniLesson": {
+        "explain": "The binomial distribution requires that each trial be independent of the others. Independence means the outcome of one trial does not affect the probability of success in subsequent trials. For example, rolling a die multiple times is independent because each roll is separate; drawing marbles without replacement is not independent because the composition changes.",
+        "example": "Roll a fair die 4 times and count the number of sixes: each roll is independent, so binomial applies. But drawing 3 marbles from a bag without replacement changes probabilities with each draw, so it's not binomial.",
+        "memoryAnchor": "Remember: With Replacement = Independent (binomial) ; Without Replacement = Not independent (hypergeometric)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: The experiment 'toss a coin 10 times and count the number of heads' satisfies the independence condition.",
+          "answer": "True. Each coin toss is independent."
+        },
+        {
+          "level": "L2",
+          "prompt": "A box contains 5 red and 5 blue marbles. You draw 3 marbles without replacement and count the number of reds. Does this experiment satisfy the independence condition for a binomial distribution? Explain.",
+          "answer": "No, because the draws are without replacement; the probability of drawing a red changes after each draw. The condition of independent trials is not met."
+        },
+        {
+          "level": "L3",
+          "prompt": "In the jury selection example, a student incorrectly uses binomial to model the number of women on a 12-person jury selected from 14 men and 11 women. Explain why the independence condition is violated. Then, given that the correct probability of exactly 6 women is approximately 0.26, state whether the binomial probability would be the same or different, and why.",
+          "answer": "Independence is violated because the selection is without replacement. The probability of selecting a woman changes after each selection. The binomial probability would be different because it assumes a constant success probability p=11/25, but the hypergeometric distribution accounts for the changing probabilities. The correct hypergeometric probability is 0.26."
+        }
+      ]
+    },
+    {
+      "errorId": "err-binomial-prob-combination",
+      "trigger": "This error occurs when a student calculates binomial probability as p^k * (1-p)^(n-k) without multiplying by the combination term C(n,k).",
+      "studentMisunderstanding": "The student believes that the probability of exactly k successes is simply the product of the probabilities, overlooking the fact that there are multiple ways to arrange the successes among the trials.",
+      "miniLesson": {
+        "explain": "The binomial formula includes the combination term C(n,k) because we must account for all possible sequences of k successes and n-k failures. For example, with 4 rolls, getting 2 sixes can happen in C(4,2)=6 different orders (e.g., SSFF, SFSF, SFFS, FSSF, FSFS, FFSS). Each order has the same probability p^2*(1-p)^2, so we multiply by 6.",
+        "example": "For rolling a fair die 4 times, P(exactly 2 sixes) = C(4,2)*(1/6)^2*(5/6)^2 = 6*(1/36)*(25/36) = 150/1296 = 25/216 ≈ 0.1157. If you forgot the combination term, you would get only (1/36)*(25/36)=25/1296≈0.0193, which is too small.",
+        "memoryAnchor": "Remember: C is for Count the ways! Always include C(n,k) to count the arrangements of successes."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the binomial probability formula, for n=4 trials and k=2 successes, what is the value of C(4,2)?",
+          "answer": "6"
+        },
+        {
+          "level": "L2",
+          "prompt": "Calculate the probability of getting exactly 2 sixes when rolling a fair die 4 times. Express your answer as a fraction.",
+          "answer": "25/216"
+        },
+        {
+          "level": "L3",
+          "prompt": "In a family with 5 children, the probability of type O blood is 0.25. Find the probability that exactly 3 children have type O. Round to three decimal places.",
+          "answer": "0.087"
+        }
+      ]
+    },
+    {
+      "errorId": "err-binomial-expected-value",
+      "trigger": "When asked for expected number of successes, student answers with variance (np(1-p)) or other incorrect formula.",
+      "studentMisunderstanding": "Student confuses expected value with variance or uses incorrect formula such as np(1-p) or n*p*(1-p).",
+      "miniLesson": {
+        "explain": "The expected value (mean) of a binomial distribution is simply the number of trials multiplied by the probability of success on each trial: E = n * p. Do not multiply by (1-p); that is the variance formula.",
+        "example": "A basketball player has a 60% free throw success rate. In 3 attempts, expected makes = 3 * 0.6 = 1.8.",
+        "memoryAnchor": "Think of expected value as 'average' over many repetitions: if you repeat the experiment many times, the average number of successes approaches n times the success rate."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If you flip a fair coin 10 times, what is the expected number of heads?",
+          "answer": "5"
+        },
+        {
+          "level": "L2",
+          "prompt": "A basketball player makes 60% of free throws. If she takes 3 free throws in a game, how many is she expected to make?",
+          "answer": "1.8"
+        },
+        {
+          "level": "L3",
+          "prompt": "A multiple-choice quiz has 20 questions each with 4 choices. If you guess randomly, what is the expected number of correct answers?",
+          "answer": "5"
+        }
+      ]
+    },
+    {
+      "errorId": "err-complement-misapplication",
+      "trigger": "Student misinterprets phrases like 'fewer than 2' as complement of exactly 2, rather than 'at least 2'.",
+      "studentMisunderstanding": "Student assumes P(fewer than 2) = 1 - P(exactly 2), forgetting that the complement of 'fewer than 2' is 'at least 2', not 'exactly 2'.",
+      "miniLesson": {
+        "explain": "In probability, phrases like 'fewer than k' mean all values 0 to k-1. The complement of 'fewer than k' is 'k or more'. So P(fewer than k) = 1 - P(k or more). Always identify the event clearly before using the complement formula.",
+        "example": "For the blood type problem (n=5, p=0.25), 'fewer than 2' means X=0 or X=1. P(fewer than 2) = P(X=0)+P(X=1) ≈ 0.2373 + 0.3955 = 0.6328 ≈ 0.63. The complement of 'fewer than 2' is 'at least 2' (X≥2), so P(fewer than 2) = 1 - P(at least 2).",
+        "memoryAnchor": "Remember: 'fewer than k' → 0 to k-1. Complement → 'k or more'."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a family of 5 children (p=0.25 for O-type), what is the expression for P(fewer than 2)?",
+          "answer": "P(fewer than 2) = P(X=0) + P(X=1), which is approximately 0.63."
+        },
+        {
+          "level": "L2",
+          "prompt": "What is the complement of 'fewer than 2' in the blood type example? Write P(fewer than 2) as a complement.",
+          "answer": "The complement is 'at least 2' (X≥2). So P(fewer than 2) = 1 - P(at least 2)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Suppose P(at least 2) = 0.3672 for the blood type problem. Use complement to find P(fewer than 2).",
+          "answer": "P(fewer than 2) = 1 - 0.3672 = 0.6328 ≈ 0.63."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-hypergeometric-mean-formula",
+      "questions": [
+        {
+          "id": "q1-hyper-mean",
+          "type": "single_choice",
+          "stem": "A box contains 20 candies: 8 chocolate and 12 fruit. You randomly select 6 candies without replacement. Which formula should you use to find the expected number of chocolate candies?",
+          "options": [
+            "E = n * p where p = 8/20",
+            "E = n * K / N where N=20, K=8, n=6",
+            "E = n * p where p = number of successes in sample",
+            "E = n * K / N where N=20, K=12, n=6"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-hyper-mean-calc",
+          "type": "open_ended",
+          "stem": "In the same candy scenario (20 candies: 8 chocolate, 12 fruit; select 6 without replacement), calculate the expected number of chocolate candies. Show your answer as a decimal rounded to two decimal places.",
+          "rubric": "E = 6 * 8 / 20 = 48/20 = 2.40"
+        }
+      ],
+      "passRule": "all_correct"
+    },
+    {
+      "forErrorId": "err-binomial-condition-outcomes",
+      "questions": [
+        {
+          "id": "binomial-condition-outcomes-q1",
+          "type": "single_choice",
+          "stem": "Which of the following scenarios can be modeled using a binomial distribution?",
+          "options": [
+            "A. Rolling a die and recording the number shown (1 to 6).",
+            "B. Randomly selecting a student's grade (A, B, C, D, F).",
+            "C. Flipping a coin and counting the number of heads.",
+            "D. Drawing a card from a deck and recording its suit (hearts, diamonds, clubs, spades)."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "binomial-condition-outcomes-q2",
+          "type": "open_ended",
+          "stem": "Explain why a binomial distribution cannot be used to model the number of times a spinner lands on red when the spinner has three equally sized sections: red, blue, and green.",
+          "rubric": "Student mentions that the binomial distribution requires each trial to have exactly two outcomes (success/failure). In this case, there are three possible outcomes per trial, so it does not satisfy the condition."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-binomial-condition-independence",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following scenarios satisfies the independence condition required for a binomial distribution?",
+          "options": [
+            "Drawing 3 cards from a deck without replacement, counting hearts.",
+            "Rolling a die 5 times, counting the number of times you get a 6.",
+            "Selecting 4 marbles from a bag without replacement, counting red ones.",
+            "Choosing 2 people from a group without replacement, counting females."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Consider a jar containing 6 red marbles and 4 blue marbles. You draw 3 marbles without replacement and want to find the probability of getting exactly 2 red marbles. Explain why the binomial distribution is not appropriate here. Then, write the correct expression for this probability using the hypergeometric distribution.",
+          "rubric": "Student must state that because draws are without replacement, trials are not independent and the probability of success changes. Correct hypergeometric probability: C(6,2)*C(4,1)/C(10,3). Partial credit for identifying independence issue but incomplete expression."
+        }
+      ],
+      "passRule": "Score 100%"
+    },
+    {
+      "forErrorId": "err-binomial-prob-combination",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In the binomial probability formula, why is the combination term C(n,k) included?",
+          "options": [
+            "It accounts for the number of different sequences of k successes and n−k failures.",
+            "It adjusts the probability because the trials are dependent.",
+            "It is not needed if the trials are independent.",
+            "It reduces the probability to account for failures."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "In a family with 5 children, the probability of a child having type O blood is 0.25. Calculate the probability that exactly 3 children have type O blood. Show your work including the combination term.",
+          "rubric": "Student must use binomial formula: P(X=3) = C(5,3) * (0.25)^3 * (0.75)^2. Correct answer is approximately 0.087. Full credit for correct setup and calculation including combination factor."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-binomial-expected-value",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A basketball player has a 70% free throw success rate. In 5 attempts, what is the expected number of successful shots?",
+          "options": [
+            "3.5",
+            "1.05",
+            "5",
+            "0.21"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A fair coin is flipped 8 times. Calculate the expected number of tails. Show your reasoning.",
+          "rubric": "E = n * p = 8 * 0.5 = 4"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-complement-misapplication",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "In a binomial experiment with n=5 and p=0.25, which expression correctly represents P(fewer than 2)?",
+          "options": [
+            "1 - P(X=2)",
+            "P(X=0) + P(X=1)",
+            "1 - P(X≥1)",
+            "P(X=1) + P(X=2)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "For the same binomial experiment (n=5, p=0.25), suppose P(at least 2) = 0.3672. Use the complement rule to find P(fewer than 2). Show your calculation.",
+          "rubric": "Correct answer: 0.6328 (or approximately 0.63). Must show: P(fewer than 2) = 1 - P(at least 2) = 1 - 0.3672 = 0.6328."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-24",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/A16PdybDGoV7UKxfxSGcraufnlf?from=vc_group_doc_link#doxcnEPaUcewNV6m9ATYox6cytg",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-24 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Hypergeometric distribution models draws without replacement; expectation formula E = n * K / N.；Binomial distribution requires: (i) two mutually exclusive outcomes per trial, (ii) constant success probability p per trial, (iii) independent trials.；Binomial probability of exactly k successes: P(X=k) = C(n,k) * p^k * (1-p)^(n-k).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Calculate the expected value of a hypergeometric distribution using the formula E = n * K / N."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify the three conditions required for a binomial distribution."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Compute binomial probabilities using the formula P(X=k) = C(n,k) * p^k * (1-p)^(n-k)."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Calculate the expected value of a binomial distribution using E = n * p."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Use complementary probability strategies to find cumulative probabilities (e.g., P(at least k) = 1 - P(less than k))."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "class_policy",
+        "title": "Mid-session break at 8:25",
+        "studentAction": "Take a 10-minute break; resume promptly.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A 10-minute scheduled break is arranged after the initial hypergeometric exercise review and pre-break binomial introduction...break scheduled to start at approximately 8:25 local time",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Submit in-class activity screenshots",
+        "studentAction": "Upload screenshots of your in-class activity calculation results to Eschology immediately after class. Attach full calculation sheets.",
+        "deadlineText": "Immediately after class on July 24, 2026",
+        "deadlineISO": "2026-07-24T09:57:00+08:00",
+        "platform": "Eschology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Attendees are required to upload screenshots of their in-class activity calculation results to the designated learning platform immediately after the class concludes...submission platform...is Eschology",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Complete Class Activity 3 (weekend assignment)",
+        "studentAction": "Complete all questions in Class Activity 3: 5 calculation questions and 2 application scenario questions on binomial distribution.",
+        "deadlineText": "Weekend after July 24, 2026",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The only required weekend assignment is the full completion of Class Activity 3, which exclusively covers binomial distribution related calculation and application questions...includes 5 calculation questions and 2 application scenario questions",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Immediately after the class concludes",
+        "reason": "Exact submission deadline (specific time) is not explicitly stated; inferred from class end time 09:57."
+      },
+      {
+        "rawText": "Weekend assignment deadline",
+        "reason": "No specific day or time given for the weekend assignment; only 'weekend' is mentioned."
+      }
+    ],
+    "watchTags": [
+      "hypergeometric-distribution",
+      "binomial-distribution",
+      "binomial-conditions"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-hypergeometric-mean-formula",
+        "condition": "student picks wrong option on Q1 (targets this errorId)",
+        "systemAction": "assign reteach module for hypergeometric expectation formula"
+      },
+      {
+        "errorId": "err-binomial-condition-outcomes",
+        "condition": "student picks wrong option on Q2 (targets this errorId)",
+        "systemAction": "assign reteach module for binomial conditions – two outcomes"
+      },
+      {
+        "errorId": "err-binomial-condition-independence",
+        "condition": "student picks wrong option on Q3 (targets this errorId)",
+        "systemAction": "assign reteach module for binomial conditions – independence"
+      },
+      {
+        "errorId": "err-binomial-prob-combination",
+        "condition": "student picks wrong option on Q4 (targets this errorId)",
+        "systemAction": "assign reteach module for binomial probability formula"
+      },
+      {
+        "errorId": "err-binomial-expected-value",
+        "condition": "student picks wrong option on Q5 (targets this errorId)",
+        "systemAction": "assign reteach module for binomial expected value"
+      },
+      {
+        "errorId": "err-complement-misapplication",
+        "condition": "student picks wrong option on Q6 (targets this errorId)",
+        "systemAction": "assign reteach module for complement strategy"
+      }
+    ],
+    "nextActions": [
+      "[err-hypergeometric-mean-formula] student picks wrong option on Q1 (targets this errorId): The expected value of a hypergeometric distribution is E = n * K / N, not n * p.",
+      "[err-binomial-condition-outcomes] student picks wrong option on Q2 (targets this errorId): Binomial distribution requires exactly two mutually exclusive outcomes per trial.",
+      "[err-binomial-condition-independence] student picks wrong option on Q3 (targets this errorId): Trials must be independent, so drawing without replacement is not binomial.",
+      "[err-binomial-prob-combination] student picks wrong option on Q4 (targets this errorId): Remember to include the combination term C(n,k) in the binomial formula.",
+      "[err-binomial-expected-value] student picks wrong option on Q5 (targets this errorId): Expected value for binomial is E = n * p, not np(1-p).",
+      "[err-complement-misapplication] student picks wrong option on Q6 (targets this errorId): For 'fewer than 2', complement is 'at least 2', not 'at least 1'."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-u2-0724-q1",
+        "type": "choice",
+        "question": "A jury of 12 people is selected from 14 men and 11 women. What is the expected number of women on the jury?",
+        "options": [
+          "5.28",
+          "5.00",
+          "6.00",
+          "5.5"
+        ],
+        "correct": 0,
+        "diagnosis": "Check ability to compute hypergeometric expected value.",
+        "misconceptions": [
+          "✓ 正确",
+          "You may have used 12 * 11 / 26 or another ratio. Use E = n * K / N with N=25, K=11, n=12.",
+          "That would be if men and women were equal; but they aren't. Use E = n * K / N.",
+          "This might come from averaging the two group sizes. Use E = n * K / N."
+        ],
+        "nodeId": "hypergeometric-distribution",
+        "errorId": "err-hypergeometric-mean-formula",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly applies E = n * K / N.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Hypergeometric expectation is a discrete probability distribution expected value problem.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student uses binomial expectation formula E = n * p instead of hypergeometric formula.",
+        "remediationModule": "err-hypergeometric-mean-formula",
+        "retestItem": "err-hypergeometric-mean-formula"
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q2",
+        "type": "choice",
+        "question": "A survey asks respondents to choose their favorite color among red, blue, green, and yellow. Can this be modeled with a binomial distribution for the number of people who choose blue?",
+        "options": [
+          "Yes, because we only care about choosing blue or not.",
+          "No, because there are more than two possible outcomes per trial.",
+          "Yes, because outcomes are independent.",
+          "No, because the probability of choosing blue changes per person."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows binomial requires exactly two outcomes.",
+        "misconceptions": [
+          "But each trial has four possible outcomes, not two. The binomial model requires exactly two outcomes per trial.",
+          "✓ Correct. Each person has four options; binomial requires exactly two outcomes per trial.",
+          "Independence is necessary but not sufficient; the number of outcomes must be two.",
+          "Probability may be constant if we assume simple random sampling, but still the number of outcomes is the issue."
+        ],
+        "nodeId": "binomial-conditions",
+        "errorId": "err-binomial-condition-outcomes",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student recognizes that binomial requires exactly two outcomes per trial.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Binomial conditions are fundamental to solving probability problems for discrete sample spaces.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks binomial can handle multiple categories as long as one is 'success'.",
+        "remediationModule": "err-binomial-condition-outcomes",
+        "retestItem": "err-binomial-condition-outcomes"
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q3",
+        "type": "choice",
+        "question": "A bag contains 5 red and 5 blue marbles. You draw 3 marbles without replacement and count the number of reds. Is this a binomial experiment?",
+        "options": [
+          "Yes, because we are counting successes (red).",
+          "No, because the draws are not independent.",
+          "Yes, because the number of trials is fixed and there are two outcomes.",
+          "No, because there are not exactly two outcomes."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student recognizes that without replacement violates independence.",
+        "misconceptions": [
+          "But the probability of success changes with each draw since we do not replace the marble; trials are not independent.",
+          "✓ Correct. Without replacement, the probability of red changes; thus trials are not independent and it is not binomial.",
+          "Having two outcomes and fixed trials is necessary, but independence is also required and is violated here.",
+          "There are two outcomes (red or not red), so the issue is not the number of outcomes but independence."
+        ],
+        "nodeId": "binomial-conditions",
+        "errorId": "err-binomial-condition-independence",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that draws without replacement violate independence.",
+        "ossdExpectation": "Solve problems involving the probability of an event or a combination of events for discrete sample spaces.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MDM4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding independence is key to identifying binomial experiments.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks draws without replacement are still independent if the sample is small relative to population.",
+        "remediationModule": "err-binomial-condition-independence",
+        "retestItem": "err-binomial-condition-independence"
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q4",
+        "type": "choice",
+        "question": "If you roll a fair die 4 times, what is the probability of getting exactly 2 sixes?",
+        "options": [
+          "25/216 ≈ 0.1157",
+          "125/1296 ≈ 0.0965",
+          "1/36 ≈ 0.0278",
+          "1/216 ≈ 0.00463"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student includes the combination term and uses correct powers.",
+        "misconceptions": [
+          "✓ Correct! P = C(4,2)*(1/6)^2*(5/6)^2 = 6*(1/36)*(25/36) = 150/1296 = 25/216.",
+          "This would be if you used (5/6)^4, which is probability of no sixes in four rolls, not exactly two sixes.",
+          "You may have forgotten the combination factor and only used (1/6)^2*(5/6)^2, which gives (1/36)*(25/36)=25/1296≈0.0193, not 1/36.",
+          "That's (1/6)^3, which is probability of three sixes in three rolls, not this scenario."
+        ],
+        "nodeId": "binomial-distribution",
+        "errorId": "err-binomial-prob-combination",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly applies P(X=k)=C(4,2)*(1/6)^2*(5/6)^2.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Binomial probability calculation is a key application of discrete distributions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student omits the combination term C(n,k) and only uses p^k*(1-p)^(n-k).",
+        "remediationModule": "err-binomial-prob-combination",
+        "retestItem": "err-binomial-prob-combination"
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q5",
+        "type": "choice",
+        "question": "A basketball player makes 60% of free throws. If she takes 3 free throws in a game, how many is she expected to make?",
+        "options": [
+          "1.8",
+          "1.2",
+          "0.72",
+          "1.0"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student correctly computes binomial expected value.",
+        "misconceptions": [
+          "✓ Correct! E = n * p = 3 * 0.6 = 1.8.",
+          "That would be n * (1-p) = 3 * 0.4. The expected number of makes is n * p.",
+          "That's np(1-p) = 3*0.6*0.4 = 0.72, which is the variance, not the expected value.",
+          "You might have rounded or used p alone. Use E = n * p = 1.8."
+        ],
+        "nodeId": "binomial-distribution",
+        "errorId": "err-binomial-expected-value",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student uses E = n * p = 3 * 0.6 = 1.8.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Binomial expected value is a core calculation for discrete distributions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student uses E = np(1-p) or n^2 p.",
+        "remediationModule": "err-binomial-expected-value",
+        "retestItem": "err-binomial-expected-value"
+      },
+      {
+        "id": "diag-mdm4u-u2-0724-q6",
+        "type": "choice",
+        "question": "In a family with 5 children where the probability of type O blood is 0.25, what does \"P(fewer than 2 children with type O)\" represent?",
+        "options": [
+          "P(X = 0) + P(X = 1)",
+          "1 - P(X = 2)",
+          "1 - P(X < 2)",
+          "P(X ≤ 2)"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows 'fewer than 2' means 0 or 1, not complement of something else.",
+        "misconceptions": [
+          "✓ Correct. Fewer than 2 means 0 or 1 children with type O.",
+          "That would be the complement of exactly 2, which includes 0,1,3,4,5. Fewer than 2 only includes 0 and 1.",
+          "That would be P(X ≥ 2). You need to directly sum P(0)+P(1).",
+          "X ≤ 2 includes X=2 as well. Fewer than 2 excludes 2."
+        ],
+        "nodeId": "binomial-distribution",
+        "errorId": "err-complement-misapplication",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student interprets 'fewer than 2' as P(X=0) + P(X=1).",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding events and complements is part of working with discrete distributions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks 'fewer than 2' is complement of 'at least 2' and uses 1 - P(2) incorrectly.",
+        "remediationModule": "err-complement-misapplication",
+        "retestItem": "err-complement-misapplication"
+      }
+    ]
+  }
+}

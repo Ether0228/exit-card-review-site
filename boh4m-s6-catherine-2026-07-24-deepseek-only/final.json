@@ -1,0 +1,757 @@
+{
+  "sourceLesson": "BOH4M.S6.Catherine 2026-07-24",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Xw84dXd2qov1L7x23i7cmYnUnih?from=vc_group_doc_link#doxcnGvajnLhXlUySoQJh2xsGxe",
+  "sourceTitle": "BOH4M.S6.Catherine 2026-07-24 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Xw84dXd2qov1L7x23i7cmYnUnih?from=vc_group_doc_link#doxcnGvajnLhXlUySoQJh2xsGxe",
+    "title": "BOH4M.S6.Catherine 2026-07-24 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-27/sources/boh4m-s6-catherine-2026-07-24/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "BOH4M",
+  "lessonDate": "2026-07-24",
+  "teacher": "Catherine",
+  "section": "S6",
+  "subject": "business",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-07-24",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes instruction on new academic content (Tuckman's model, team success drivers) and in-class practice exercises, making it a mix of instruction and practice.",
+    "academicContentSignals": [
+      "workplace personality assessment application",
+      "team type classification",
+      "team management and teamwork-based problem solving skills",
+      "shared team norms",
+      "cohesion and diversity",
+      "social loafer risk",
+      "Tuckman's 5-stage team development model (forming, storming, norming, performing, adjourning)",
+      "team regression due to resource cuts or personnel changes",
+      "matching exercise covering core lesson points",
+      "analysis of team success/failure scenarios",
+      "traits of successful teams",
+      "causes of failed teams",
+      "retail manager role simulation to propose team improvement strategies"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Academic content is substantial but there are multiple assignment deadlines and reminders. Care must be taken to ensure the diagnostic exit card focuses on Tuckman's model and team dynamics rather than on operational tasks like submission deadlines.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Case Study Pre-task",
+        "studentAction": "Read the assigned leadership case, write 4-5 sentences for each of 4 questions, and reply to at least one peer's answer.",
+        "deadlineText": "Before next Monday's class (2026-07-27)",
+        "deadlineISO": "2026-07-27T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Deadline Reminder: complete before next Monday’s class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Unit 2 Major Assignment Release Adjusted",
+        "studentAction": "Wait for assignment release on Saturday; detailed explanation on Monday.",
+        "deadlineText": "Assignment release: next day (2026-07-25); explanation: next Monday (2026-07-27)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Major Assignment Update: adjusted to be released the next day, and will be explained in detail next Monday.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "deadline",
+        "title": "Submit Overdue/Revised Assignments",
+        "studentAction": "Submit any overdue or revised assignments during the weekend.",
+        "deadlineText": "Weekend (2026-07-25 to 2026-07-26)",
+        "deadlineISO": "2026-07-26T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "students with overdue or revised assignments",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "learners need to submit overdue or revised assignments during the weekend.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "adjusted to be released the next day",
+        "reason": "Exact release time not specified; assumes next day after class (Friday) is Saturday."
+      },
+      {
+        "rawText": "before next Monday’s class",
+        "reason": "Exact deadline time on Monday not specified; assumed end of day."
+      }
+    ]
+  },
+  "title": "BOH4M Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Tuckman's Team Development Model、Key Drivers of Team Success or Failure、Team Type Classification、Workplace Personality Assessment）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Tuckman’s team development model has five sequential stages: forming, storming, norming, performing, and adjourning.；Teams may regress to earlier stages when facing resource cuts or personnel changes, or may stagnate in storming or norming.；Key drivers of team success/failure include shared team norms, cohesion/diversity, and social loafer risk.",
+  "learningGoals": [
+    {
+      "id": "lg1",
+      "statement": "Identify and describe the five stages of Tuckman's team development model."
+    },
+    {
+      "id": "lg2",
+      "statement": "Explain how teams may regress or stagnate in Tuckman's stages."
+    },
+    {
+      "id": "lg3",
+      "statement": "Analyze key drivers of team success or failure."
+    },
+    {
+      "id": "lg4",
+      "statement": "Apply understanding of team dynamics to evaluate team scenarios."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "tuckman-model",
+      "name": "Tuckman's Team Development Model",
+      "nameEn": "Tuckman's Team Development Model",
+      "definition": "A model describing the five sequential stages of team development: forming, storming, norming, performing, and adjourning. Teams may regress or stagnate.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "BOH4M-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of group dynamics."
+    },
+    {
+      "id": "team-success-drivers",
+      "name": "Key Drivers of Team Success or Failure",
+      "nameEn": "Key Drivers of Team Success or Failure",
+      "definition": "Factors that influence team effectiveness: shared norms (expectations for work input, timeliness, quality), cohesion and diversity (high cohesion may cause groupthink, diversity brings friction but more perspectives), and social loafing (free-riding reduces morale and can cause failure).",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "BOH4M-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Apply an understanding of human behaviour to explain how individuals and groups function in the workplace."
+    },
+    {
+      "id": "team-type-classification",
+      "name": "Team Type Classification",
+      "nameEn": "Team Type Classification",
+      "definition": "Classification of teams based on purpose, duration, and structure. (Not elaborated in lesson notes but mentioned as a learning goal.)",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "BOH4M-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of group dynamics."
+    },
+    {
+      "id": "workplace-personality-assessment",
+      "name": "Workplace Personality Assessment",
+      "nameEn": "Workplace Personality Assessment",
+      "definition": "Tools used to assess personality traits in the workplace to improve team composition and management.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "BOH4M-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Apply an understanding of human behaviour to explain how individuals and groups function in the workplace."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg1",
+        "statement": "Identify and describe the five stages of Tuckman's team development model."
+      },
+      {
+        "id": "lg2",
+        "statement": "Explain how teams may regress or stagnate in Tuckman's stages."
+      },
+      {
+        "id": "lg3",
+        "statement": "Analyze key drivers of team success or failure."
+      },
+      {
+        "id": "lg4",
+        "statement": "Apply understanding of team dynamics to evaluate team scenarios."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-tuckman-linear",
+        "condition": "student picks wrong option on Q1 or does not meet rubric on Q4",
+        "systemAction": "assign reteach module for err-tuckman-linear",
+        "studentMessage": "You may think teams always move forward in a straight line. Revisit how Tuckman's model allows regression."
+      },
+      {
+        "errorId": "err-tuckman-stages-confusion",
+        "condition": "student picks wrong option on Q2 or Q3",
+        "systemAction": "assign reteach module for err-tuckman-stages-confusion",
+        "studentMessage": "Some stages may be confused. Review the order and characteristics of each stage."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-boh4m-s6-0724-q1",
+        "nodeId": "tuckman-model",
+        "errorId": "err-tuckman-linear",
+        "stem": "Which statement about Tuckman's team development model is correct?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg2",
+        "successCriteria": "Student recognizes that teams may regress or stagnate and do not always follow a strict linear progression.",
+        "ossdExpectation": "Demonstrate an understanding of group dynamics.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "BOH4M-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses knowledge of Tuckman's model, a key group dynamics concept.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if students understand that Tuckman stages are not always linear; regression or stagnation can occur.",
+        "commonMisconception": "Students believe teams always progress through stages in strict sequential order without going back.",
+        "remediationModule": "err-tuckman-linear",
+        "retestItem": "err-tuckman-linear",
+        "options": [
+          {
+            "label": "A",
+            "text": "Teams always progress through the five stages in order and never go back to an earlier stage.",
+            "correct": false,
+            "feedbackWrong": "This is a common misconception. Teams can regress to earlier stages when facing challenges like resource cuts or personnel changes."
+          },
+          {
+            "label": "B",
+            "text": "Teams may regress to earlier stages when facing resource cuts or personnel changes, or may stagnate in storming or norming.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Tuckman's model allows for regression and stagnation based on team experiences."
+          },
+          {
+            "label": "C",
+            "text": "Teams only move forward through forming, storming, norming, and performing; adjourning is optional.",
+            "correct": false,
+            "feedbackWrong": "Adjourning is a standard final stage in the model, and teams can regress even from performing."
+          },
+          {
+            "label": "D",
+            "text": "Teams never leave the performing stage once they reach it.",
+            "correct": false,
+            "feedbackWrong": "Teams can leave the performing stage due to changes, such as new members or shifting goals, and may regress."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-s6-0724-q2",
+        "nodeId": "tuckman-model",
+        "errorId": "err-tuckman-stages-confusion",
+        "stem": "In Tuckman's model, which stage is characterized by conflict and disagreement among team members?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg1",
+        "successCriteria": "Student correctly identifies the storming stage as the phase of conflict.",
+        "ossdExpectation": "Demonstrate an understanding of group dynamics.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "BOH4M-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses knowledge of Tuckman's model stages.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if students can distinguish storming from other stages, especially norming.",
+        "commonMisconception": "Students may confuse storming with norming, thinking conflict is normal during norming.",
+        "remediationModule": "err-tuckman-stages-confusion",
+        "retestItem": "err-tuckman-stages-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "Forming",
+            "correct": false,
+            "feedbackWrong": "Forming is the initial stage where team members are polite and try to understand their roles; conflict is minimal."
+          },
+          {
+            "label": "B",
+            "text": "Storming",
+            "correct": true,
+            "feedbackCorrect": "Correct! Storming is when team members start to express opinions, leading to conflict and disagreement."
+          },
+          {
+            "label": "C",
+            "text": "Norming",
+            "correct": false,
+            "feedbackWrong": "Norming is when the team resolves differences and establishes norms; it is more cooperative than conflictual."
+          },
+          {
+            "label": "D",
+            "text": "Performing",
+            "correct": false,
+            "feedbackWrong": "Performing is a stage of high productivity and collaboration; conflict is generally low."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-s6-0724-q3",
+        "nodeId": "tuckman-model",
+        "errorId": "err-tuckman-stages-confusion",
+        "stem": "Which stage is the final stage in Tuckman's five-stage model?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg1",
+        "successCriteria": "Student correctly identifies adjourning as the final stage.",
+        "ossdExpectation": "Demonstrate an understanding of group dynamics.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "BOH4M-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses recall of Tuckman's stage order.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if students remember that adjourning is the final stage, not performing.",
+        "commonMisconception": "Students often think performing is the final stage and overlook adjourning.",
+        "remediationModule": "err-tuckman-stages-confusion",
+        "retestItem": "err-tuckman-stages-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "Performing",
+            "correct": false,
+            "feedbackWrong": "Performing is the fourth stage; the final stage is adjourning, where the team disbands."
+          },
+          {
+            "label": "B",
+            "text": "Adjourning",
+            "correct": true,
+            "feedbackCorrect": "Correct! Adjourning is the fifth and final stage in Tuckman's model, when the team completes its work and disbands."
+          },
+          {
+            "label": "C",
+            "text": "Norming",
+            "correct": false,
+            "feedbackWrong": "Norming is the third stage, after storming and before performing."
+          },
+          {
+            "label": "D",
+            "text": "Storming",
+            "correct": false,
+            "feedbackWrong": "Storming is the second stage, not the final one."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-s6-0724-q4",
+        "nodeId": "tuckman-model",
+        "errorId": "err-tuckman-linear",
+        "stem": "A team had been performing well for months. After a key member left, the team started having conflicts and missed deadlines. Using Tuckman's model, explain what might have happened and why.",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg4",
+        "successCriteria": "Student explains that the team regressed from performing to an earlier stage (storming or possibly forming) due to the loss of a member, illustrating non-linear progression.",
+        "ossdExpectation": "Demonstrate an understanding of group dynamics.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "BOH4M-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Assesses application of Tuckman's model to a realistic team scenario.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if students can apply Tuckman's model to explain team regression, moving beyond a linear view.",
+        "commonMisconception": "Students may think the team had to start over from forming or that performing is permanent; they miss the concept of regression.",
+        "remediationModule": "err-tuckman-linear",
+        "retestItem": "err-tuckman-linear",
+        "rubric": "Full credit: mentions regression from performing to storming (or forming) due to the personnel change, explaining that the team lost cohesion and had to re-establish norms. Partial credit: identifies regression but does not specify stage. No credit: says the team is stuck in performing or does not use Tuckman.",
+        "sampleStrongAnswer": "The team likely regressed from the performing stage to the storming stage. The departure of a key member disrupted established norms and trust, causing conflicts as members struggled to adjust roles. This regression shows that Tuckman's stages are not strictly linear; teams can move backward when facing changes."
+      }
+    ],
+    "passRule": {
+      "pass": "3-4 correct",
+      "targetedRemediation": "2 correct",
+      "reteach": "0-1 correct"
+    }
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-tuckman-linear",
+      "condition": "student picks wrong option on Q1 or does not meet rubric on Q4",
+      "systemAction": "assign reteach module for err-tuckman-linear",
+      "studentMessage": "You may think teams always move forward in a straight line. Revisit how Tuckman's model allows regression."
+    },
+    {
+      "errorId": "err-tuckman-stages-confusion",
+      "condition": "student picks wrong option on Q2 or Q3",
+      "systemAction": "assign reteach module for err-tuckman-stages-confusion",
+      "studentMessage": "Some stages may be confused. Review the order and characteristics of each stage."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-tuckman-linear",
+      "trigger": "Student selects option A or D in Q1 or does not achieve full credit on Q4 in the diagnostic.",
+      "studentMisunderstanding": "Students often think teams always move forward through Tuckman's stages in a strict linear order, never regressing or stagnating.",
+      "miniLesson": {
+        "explain": "Tuckman's model describes five sequential stages—forming, storming, norming, performing, adjourning—but teams do not always progress linearly. They can regress to earlier stages due to changes like personnel turnover or resource cuts, or stagnate in storming or norming. For example, a team that was performing well may regress to storming after losing a key member, as new conflicts arise. Understanding this non-linearity is crucial for managing team dynamics.",
+        "example": "Consider a team that had reached the performing stage. After a key member left, the team started having conflicts and missed deadlines. According to Tuckman, this team regressed from performing back to storming because the change disrupted established norms and roles.",
+        "memoryAnchor": "Think of Tuckman's stages like a hiking trail: you can climb up, but you might also slide back down or get stuck in a muddy patch. It's not a one-way escalator."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: Tuckman's five stages always occur in the same order without any backtracking.",
+          "answer": "False. Teams may regress to earlier stages or stagnate; the model is not strictly linear."
+        },
+        {
+          "level": "L2",
+          "prompt": "Describe a situation where a team might regress from the norming stage to the storming stage.",
+          "answer": "If a new member joins who challenges existing norms, or if a major conflict arises, the team may regress to storming as they renegotiate roles and relationships."
+        },
+        {
+          "level": "L3",
+          "prompt": "Analyze the following scenario: A team has been in the performing stage for months. Due to budget cuts, the team loses two members and gains one new member. Using Tuckman's model, explain the likely impact on the team's stage and why.",
+          "answer": "The team will likely regress from performing to either storming or forming, because the change in composition disrupts established norms and trust. The new member needs to be integrated, and the loss of members requires role redefinition, leading to conflict (storming) or uncertainty (forming)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-tuckman-stages-confusion",
+      "trigger": "You confused the storming stage with norming, or thought performing is the final stage instead of adjourning.",
+      "studentMisunderstanding": "Students confuse the characteristics of storming and norming, or mistakenly believe performing is the last stage, overlooking adjourning.",
+      "miniLesson": {
+        "explain": "Tuckman's model has five sequential stages: forming, storming, norming, performing, and adjourning. Storming is marked by conflict and disagreement, while norming is when the team resolves differences and establishes cooperative norms. Performing is about high productivity, and adjourning is the final stage where the team disbands after completing goals.",
+        "example": "For instance, a new team might argue about roles (storming), then later agree on rules (norming). Many students think performing is the end, but in reality, teams eventually disband (adjourning).",
+        "memoryAnchor": "Remember: Storming = conflict (stormy weather); Norming = normalizing rules; After performing, the team adjourns (like a meeting ending)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which stage comes after storming? A) Forming B) Norming C) Performing D) Adjourning",
+          "answer": "B) Norming"
+        },
+        {
+          "level": "L2",
+          "prompt": "A team that has resolved its initial conflicts and started working collaboratively is in which stage? A) Storming B) Norming C) Performing D) Adjourning",
+          "answer": "B) Norming"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain the difference between storming and norming using a real-life example. Then, list all five stages in order.",
+          "answer": "Storming involves disagreements, e.g., team members argue about leadership. Norming is when they agree on roles and rules, e.g., they decide to take turns leading. The five stages are: forming, storming, norming, performing, adjourning."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-tuckman-linear",
+      "questions": [
+        {
+          "id": "retest-tuckman-linear-mc",
+          "type": "single_choice",
+          "stem": "Which of the following statements accurately describes Tuckman's model of team development?",
+          "options": [
+            "Teams always move through the five stages in strict order without any deviation.",
+            "Teams may progress, regress, or stagnate at any stage depending on circumstances.",
+            "Once a team reaches the performing stage, it can never go back to storming.",
+            "The adjourning stage is optional and often skipped in most teams."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-tuckman-linear-oe",
+          "type": "open_ended",
+          "stem": "Describe a realistic scenario in which a team that has been in the norming stage regresses to the storming stage. Explain why this regression happens, referring to Tuckman's model.",
+          "rubric": "Student describes a scenario where a team in norming experiences a disruption (e.g., new member, resource change, conflict) that causes them to revert to storming. Explanation must mention that the team must renegotiate norms and roles, leading to conflict characteristic of storming. Partial credit for scenario without clear explanation."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the response must include both a plausible scenario and a correct explanation of regression in Tuckman's model."
+    },
+    {
+      "forErrorId": "err-tuckman-stages-confusion",
+      "questions": [
+        {
+          "id": "tuckman-stages-q1",
+          "type": "single_choice",
+          "stem": "Which Tuckman stage is characterized by conflict and disagreement among team members?",
+          "options": [
+            "Forming",
+            "Storming",
+            "Norming",
+            "Performing",
+            "Adjourning"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "tuckman-stages-q2",
+          "type": "single_choice",
+          "stem": "What is the correct sequential order of Tuckman's team development stages?",
+          "options": [
+            "Forming, Storming, Norming, Performing, Adjourning",
+            "Forming, Norming, Storming, Performing, Adjourning",
+            "Storming, Forming, Norming, Performing, Adjourning",
+            "Forming, Storming, Performing, Norming, Adjourning"
+          ],
+          "correct": 0
+        }
+      ],
+      "passRule": "Both questions must be answered correctly to pass."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-07-24",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Xw84dXd2qov1L7x23i7cmYnUnih?from=vc_group_doc_link#doxcnGvajnLhXlUySoQJh2xsGxe",
+    "sourceTitle": "BOH4M.S6.Catherine 2026-07-24 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Tuckman’s team development model has five sequential stages: forming, storming, norming, performing, and adjourning.；Teams may regress to earlier stages when facing resource cuts or personnel changes, or may stagnate in storming or norming.；Key drivers of team success/failure include shared team norms, cohesion/diversity, and social loafer risk.",
+    "learningGoals": [
+      {
+        "id": "lg1",
+        "statement": "Identify and describe the five stages of Tuckman's team development model."
+      },
+      {
+        "id": "lg2",
+        "statement": "Explain how teams may regress or stagnate in Tuckman's stages."
+      },
+      {
+        "id": "lg3",
+        "statement": "Analyze key drivers of team success or failure."
+      },
+      {
+        "id": "lg4",
+        "statement": "Apply understanding of team dynamics to evaluate team scenarios."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Case Study Pre-task",
+        "studentAction": "Read the assigned leadership case, write 4-5 sentences for each of 4 questions, and reply to at least one peer's answer.",
+        "deadlineText": "Before next Monday's class (2026-07-27)",
+        "deadlineISO": "2026-07-27T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Deadline Reminder: complete before next Monday’s class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Unit 2 Major Assignment Release Adjusted",
+        "studentAction": "Wait for assignment release on Saturday; detailed explanation on Monday.",
+        "deadlineText": "Assignment release: next day (2026-07-25); explanation: next Monday (2026-07-27)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Major Assignment Update: adjusted to be released the next day, and will be explained in detail next Monday.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "deadline",
+        "title": "Submit Overdue/Revised Assignments",
+        "studentAction": "Submit any overdue or revised assignments during the weekend.",
+        "deadlineText": "Weekend (2026-07-25 to 2026-07-26)",
+        "deadlineISO": "2026-07-26T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "students with overdue or revised assignments",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "learners need to submit overdue or revised assignments during the weekend.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "adjusted to be released the next day",
+        "reason": "Exact release time not specified; assumes next day after class (Friday) is Saturday."
+      },
+      {
+        "rawText": "before next Monday’s class",
+        "reason": "Exact deadline time on Monday not specified; assumed end of day."
+      }
+    ],
+    "watchTags": [
+      "tuckman-model",
+      "team-success-drivers",
+      "team-type-classification",
+      "workplace-personality-assessment"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-tuckman-linear",
+        "condition": "student picks wrong option on Q1 or does not meet rubric on Q4",
+        "systemAction": "assign reteach module for err-tuckman-linear"
+      },
+      {
+        "errorId": "err-tuckman-stages-confusion",
+        "condition": "student picks wrong option on Q2 or Q3",
+        "systemAction": "assign reteach module for err-tuckman-stages-confusion"
+      }
+    ],
+    "nextActions": [
+      "[err-tuckman-linear] student picks wrong option on Q1 or does not meet rubric on Q4: You may think teams always move forward in a straight line. Revisit how Tuckman's model allows regression.",
+      "[err-tuckman-stages-confusion] student picks wrong option on Q2 or Q3: Some stages may be confused. Review the order and characteristics of each stage."
+    ],
+    "cards": [
+      {
+        "id": "diag-boh4m-s6-0724-q1",
+        "type": "choice",
+        "question": "Which statement about Tuckman's team development model is correct?",
+        "options": [
+          "Teams always progress through the five stages in order and never go back to an earlier stage.",
+          "Teams may regress to earlier stages when facing resource cuts or personnel changes, or may stagnate in storming or norming.",
+          "Teams only move forward through forming, storming, norming, and performing; adjourning is optional.",
+          "Teams never leave the performing stage once they reach it."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if students understand that Tuckman stages are not always linear; regression or stagnation can occur.",
+        "misconceptions": [
+          "This is a common misconception. Teams can regress to earlier stages when facing challenges like resource cuts or personnel changes.",
+          "✓ Correct! Tuckman's model allows for regression and stagnation based on team experiences.",
+          "Adjourning is a standard final stage in the model, and teams can regress even from performing.",
+          "Teams can leave the performing stage due to changes, such as new members or shifting goals, and may regress."
+        ],
+        "nodeId": "tuckman-model",
+        "errorId": "err-tuckman-linear",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg2",
+        "successCriteria": "Student recognizes that teams may regress or stagnate and do not always follow a strict linear progression.",
+        "ossdExpectation": "Demonstrate an understanding of group dynamics.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "BOH4M-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses knowledge of Tuckman's model, a key group dynamics concept.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students believe teams always progress through stages in strict sequential order without going back.",
+        "remediationModule": "err-tuckman-linear",
+        "retestItem": "err-tuckman-linear"
+      },
+      {
+        "id": "diag-boh4m-s6-0724-q2",
+        "type": "choice",
+        "question": "In Tuckman's model, which stage is characterized by conflict and disagreement among team members?",
+        "options": [
+          "Forming",
+          "Storming",
+          "Norming",
+          "Performing"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if students can distinguish storming from other stages, especially norming.",
+        "misconceptions": [
+          "Forming is the initial stage where team members are polite and try to understand their roles; conflict is minimal.",
+          "✓ Correct! Storming is when team members start to express opinions, leading to conflict and disagreement.",
+          "Norming is when the team resolves differences and establishes norms; it is more cooperative than conflictual.",
+          "Performing is a stage of high productivity and collaboration; conflict is generally low."
+        ],
+        "nodeId": "tuckman-model",
+        "errorId": "err-tuckman-stages-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg1",
+        "successCriteria": "Student correctly identifies the storming stage as the phase of conflict.",
+        "ossdExpectation": "Demonstrate an understanding of group dynamics.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "BOH4M-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses knowledge of Tuckman's model stages.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may confuse storming with norming, thinking conflict is normal during norming.",
+        "remediationModule": "err-tuckman-stages-confusion",
+        "retestItem": "err-tuckman-stages-confusion"
+      },
+      {
+        "id": "diag-boh4m-s6-0724-q3",
+        "type": "choice",
+        "question": "Which stage is the final stage in Tuckman's five-stage model?",
+        "options": [
+          "Performing",
+          "Adjourning",
+          "Norming",
+          "Storming"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if students remember that adjourning is the final stage, not performing.",
+        "misconceptions": [
+          "Performing is the fourth stage; the final stage is adjourning, where the team disbands.",
+          "✓ Correct! Adjourning is the fifth and final stage in Tuckman's model, when the team completes its work and disbands.",
+          "Norming is the third stage, after storming and before performing.",
+          "Storming is the second stage, not the final one."
+        ],
+        "nodeId": "tuckman-model",
+        "errorId": "err-tuckman-stages-confusion",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg1",
+        "successCriteria": "Student correctly identifies adjourning as the final stage.",
+        "ossdExpectation": "Demonstrate an understanding of group dynamics.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "BOH4M-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses recall of Tuckman's stage order.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often think performing is the final stage and overlook adjourning.",
+        "remediationModule": "err-tuckman-stages-confusion",
+        "retestItem": "err-tuckman-stages-confusion"
+      },
+      {
+        "id": "diag-boh4m-s6-0724-q4",
+        "type": "explain",
+        "question": "A team had been performing well for months. After a key member left, the team started having conflicts and missed deadlines. Using Tuckman's model, explain what might have happened and why.",
+        "correct": null,
+        "diagnosis": "Check if students can apply Tuckman's model to explain team regression, moving beyond a linear view.",
+        "nodeId": "tuckman-model",
+        "errorId": "err-tuckman-linear",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg4",
+        "successCriteria": "Student explains that the team regressed from performing to an earlier stage (storming or possibly forming) due to the loss of a member, illustrating non-linear progression.",
+        "ossdExpectation": "Demonstrate an understanding of group dynamics.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "BOH4M-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Assesses application of Tuckman's model to a realistic team scenario.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students may think the team had to start over from forming or that performing is permanent; they miss the concept of regression.",
+        "remediationModule": "err-tuckman-linear",
+        "retestItem": "err-tuckman-linear"
+      }
+    ]
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-27",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/PEEbdEcAyoLVMhxAJ6kcYrkRnGc?from=vc_group_doc_link#doxcnl6WN2Wmp3gP9JqRndS18Mc",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-27 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/PEEbdEcAyoLVMhxAJ6kcYrkRnGc?from=vc_group_doc_link#doxcnl6WN2Wmp3gP9JqRndS18Mc",
+    "title": "SPH3U.S6.Michael 2026-07-27 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-27/sources/sph3u-s6-michael-2026-07-27/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-27",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-27",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes review of two-box problem (Newton's third law, kinematics), introduction of a new friction sample problem, and administrative arrangements (assignment grouping, submission path, camera requirement, next class schedule).",
+    "academicContentSignals": [
+      "Newton's third law",
+      "kinematic equations",
+      "two-box problem calculation (acceleration, force, velocity after 4 s)",
+      "friction concepts (static friction coefficient, maximum static friction, applied force vs friction)",
+      "free body diagrams"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations include multiple assignment-related instructions and a camera requirement, but core academic review and new friction problem provide substantial learning content. Risk is moderate; ensure diagnostic focuses on physics concepts rather than logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete Unit 2 Lesson 7 homework (for students who finished Lessons 2 and 3)",
+        "studentAction": "Complete and submit Unit 2 Lesson 7 homework",
+        "deadlineText": "Immediate priority before next class (exact date not specified)",
+        "deadlineISO": null,
+        "platform": "course platform",
+        "link": null,
+        "appliesTo": "students who have submitted Unit 2 Lesson 2 and Lesson 3",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Only 2 students who have submitted both Unit 2 Lesson 2 and Lesson 3 are assigned to work on the unsubmitted Unit 2 Lesson 7 homework first.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Submit Unit 2 Lesson 2 and Lesson 3 homework (for unfinished students)",
+        "studentAction": "Prioritize and submit free body diagrams (Lesson 2) and Newton's laws (Lesson 3) homework",
+        "deadlineText": "During today's 10-minute work period",
+        "deadlineISO": null,
+        "platform": "course platform",
+        "link": null,
+        "appliesTo": "students who have not submitted Lesson 2 and Lesson 3",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The remaining students who have not submitted Lesson 2 (free body diagrams) and Lesson 3 (Newton's laws of motion) need to prioritize these two tasks.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "platform_link",
+        "title": "Homework submission path reminder",
+        "studentAction": "Upload homework to corresponding subfolders under 'homework' directory in the blue 'lessons' folder on the course platform",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "course platform",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All required homework must be uploaded to corresponding subfolders under the 'homework' directory in the course platform's blue 'lessons' folder.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Dedicated homework working period",
+        "studentAction": "Use the 10-minute period to complete assigned homework; ask instructor for help if needed",
+        "deadlineText": "During today's class (10-minute window)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The instructor sets a 10-minute dedicated working window for all students to finish their assigned homework before new course content is introduced.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "attendance_camera",
+        "title": "Camera requirement for attendance verification",
+        "studentAction": "Keep camera turned on throughout the session to verify attendance and engagement",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participating students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The instructor explicitly requires all participating students to turn on their cameras to verify attendance and ensure active engagement throughout the session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next class schedule: remaining content and work-energy unit",
+        "studentAction": "Attend next class for continuation of problem-solving and introduction to work and energy unit",
+        "deadlineText": "Next scheduled class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Remaining problem-solving content and the upcoming 'work and energy' unit will be fully covered in the next scheduled class session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Session closing instruction",
+        "studentAction": "Leave the call freely; staff will terminate recording",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The instructor states he cannot stop the ongoing recording, asks relevant staff to terminate it promptly, and informs all students to leave the call freely.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Exact due date for Unit 2 Lesson 7 homework is not specified; only that it should be worked on 'first'.",
+        "reason": "No explicit deadline given; relative priority but no due date."
+      }
+    ]
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Newton's Third Law in Two-Box System、Kinematic Equation for Constant Acceleration from Rest、Static Friction and Conditions for Motion）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Newton's third law states that for every action force there is an equal and opposite reaction force; this law applies to the interaction between the two boxes in the two-box problem.；The two-box problem involved a 160.0 N applied force on two boxes (32.0 kg and 8.0 kg) with friction (80.0 N on large, 20.0 N on small) starting from rest; the final velocity of the 8 kg box after 4.0 s is 6 m/s east.；For a 3 kg wooden block on a horizontal floor with static friction coefficient 0.50, an applied force of 6.8 N is less than the maximum static friction; thus the block does not move and the static friction force equals 6.8 N opposite to the applied force.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Apply Newton's third law to determine the force between two interacting objects in a system with friction."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Calculate the acceleration of a system of objects by dividing net force by total mass."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Determine static friction magnitude and motion condition using the coefficient of static friction and normal force."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "KN-SPH3U-NewtonThirdLaw-TwoBox",
+      "name": "Newton's Third Law in Two-Box System",
+      "nameEn": "Newton's Third Law in Two-Box System",
+      "definition": "In a two-box system pushed with friction, the forces between the boxes are action-reaction pairs. The large box exerts a force on the small box, and the small box exerts an equal opposite force on the large box. These internal forces do not affect the acceleration of the system as a whole.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "SPH3U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "KN-SPH3U-Kinematics-ConstantAcceleration",
+      "name": "Kinematic Equation for Constant Acceleration from Rest",
+      "nameEn": "Kinematic Equation for Constant Acceleration from Rest",
+      "definition": "For an object starting from rest with constant acceleration, the final velocity after time t is given by v = a*t. In the two-box problem, acceleration a = 1.5 m/s² and t = 4.0 s gave v = 6 m/s east.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "SPH3U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate uniform and non-uniform linear motion in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "KN-SPH3U-StaticFriction",
+      "name": "Static Friction and Conditions for Motion",
+      "nameEn": "Static Friction and Conditions for Motion",
+      "definition": "Static friction is a force that opposes the initiation of motion between two surfaces in contact. Its magnitude can vary from 0 up to a maximum given by f_s_max = μ_s * N, where μ_s is the coefficient of static friction and N is the normal force. If the applied force is less than f_s_max, the object remains at rest and the static friction force equals the applied force in magnitude and opposite in direction.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "SPH3U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply Newton's third law to determine the force between two interacting objects in a system with friction."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate the acceleration of a system of objects by dividing net force by total mass."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Determine static friction magnitude and motion condition using the coefficient of static friction and normal force."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-newton3-force-equal-applied",
+        "condition": "student selects wrong option on diagnosticCard question Q1",
+        "systemAction": "assign reteach module for err-newton3-force-equal-applied",
+        "studentMessage": "Review how forces between objects relate to net force, not just the applied force."
+      },
+      {
+        "errorId": "err-accel-force-partial-mass",
+        "condition": "student selects wrong option on diagnosticCard question Q2",
+        "systemAction": "assign reteach module for err-accel-force-partial-mass",
+        "studentMessage": "Remember to use total mass when calculating acceleration of a system."
+      },
+      {
+        "errorId": "err-static-friction-always-maximum",
+        "condition": "student selects wrong option on diagnosticCard question Q3",
+        "systemAction": "assign reteach module for err-static-friction-always-maximum",
+        "studentMessage": "Static friction adjusts to match applied force up to a maximum; it is not always at its maximum."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-S6-q1",
+        "nodeId": "KN-SPH3U-NewtonThirdLaw-TwoBox",
+        "errorId": "err-newton3-force-equal-applied",
+        "stem": "In the two‑box problem, the force that the large box exerts on the small box is:",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that the internal force depends on net force and friction, not just the applied force.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Aligns with investigating forces in systems using Newton's laws.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check understanding of Newton's third law in a multi‑object system.",
+        "commonMisconception": "Students believe the force between boxes equals the applied force.",
+        "remediationModule": "err-newton3-force-equal-applied",
+        "retestItem": "",
+        "options": [
+          {
+            "label": "A",
+            "text": "equal to the applied force (160 N)",
+            "correct": false,
+            "feedbackWrong": "Action‑reaction pairs are between the boxes, not between the hand and the small box. The force between boxes is not the same as the applied force."
+          },
+          {
+            "label": "B",
+            "text": "equal to the friction force on the small box",
+            "correct": false,
+            "feedbackWrong": "The small box accelerates, so the net force on it is not zero. The force from the large box must provide both the friction and the acceleration."
+          },
+          {
+            "label": "C",
+            "text": "equal to the mass of the small box times its acceleration",
+            "correct": false,
+            "feedbackWrong": "This is the net force on the small box, not the force exerted by the large box. You must add the friction force to get the contact force."
+          },
+          {
+            "label": "D",
+            "text": "equal to the mass of the small box times its acceleration plus the friction force on the small box",
+            "correct": true,
+            "feedbackCorrect": "Correct. The large box pushes the small box, so the force must overcome friction and provide net force."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-S6-q2",
+        "nodeId": "KN-SPH3U-NewtonThirdLaw-TwoBox",
+        "errorId": "err-accel-force-partial-mass",
+        "stem": "To find the acceleration of the two‑box system, you should divide the net force by:",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects total mass for system acceleration calculation.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies net force and mass relationship to a multi-object system.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check that students use total mass when applying F=ma to a system.",
+        "commonMisconception": "Students use only one mass, often the smaller or the one where force is applied.",
+        "remediationModule": "err-accel-force-partial-mass",
+        "retestItem": "",
+        "options": [
+          {
+            "label": "A",
+            "text": "the mass of the large box (32 kg)",
+            "correct": false,
+            "feedbackWrong": "The applied force accelerates the entire system, not just one box. You must use the total mass."
+          },
+          {
+            "label": "B",
+            "text": "the total mass of both boxes (40 kg)",
+            "correct": true,
+            "feedbackCorrect": "Correct. Newton's second law applies to the whole system using total mass."
+          },
+          {
+            "label": "C",
+            "text": "the mass of the small box (8 kg)",
+            "correct": false,
+            "feedbackWrong": "The small box is part of the system, but the net force acts on the system, so total mass is needed."
+          },
+          {
+            "label": "D",
+            "text": "the average mass of the two boxes",
+            "correct": false,
+            "feedbackWrong": "The average mass is not physically meaningful here; use total mass."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-S6-q3",
+        "nodeId": "KN-SPH3U-StaticFriction",
+        "errorId": "err-static-friction-always-maximum",
+        "stem": "A 3 kg wooden block on a horizontal floor has μₛ = 0.50. A horizontal force of 6.8 N is applied. What is the static friction force?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student recognizes that static friction matches applied force up to the maximum.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies static friction concept in a quantitative context.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check that students do not automatically compute μₛN as the friction force.",
+        "commonMisconception": "Students always use μₛN even when applied force is less.",
+        "remediationModule": "err-static-friction-always-maximum",
+        "retestItem": "",
+        "options": [
+          {
+            "label": "A",
+            "text": "14.7 N",
+            "correct": false,
+            "feedbackWrong": "This is the maximum possible static friction, but the applied force is less, so the static friction is not at its maximum."
+          },
+          {
+            "label": "B",
+            "text": "6.8 N",
+            "correct": true,
+            "feedbackCorrect": "Correct. Since the applied force is less than the maximum static friction, the block does not move, and static friction equals the applied force."
+          },
+          {
+            "label": "C",
+            "text": "0 N",
+            "correct": false,
+            "feedbackWrong": "The block is not moving, but static friction is present and balances the applied force to prevent motion."
+          },
+          {
+            "label": "D",
+            "text": "9.8 N",
+            "correct": false,
+            "feedbackWrong": "9.8 N is the weight, not the friction force. The maximum static friction is 14.7 N, not this value."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-newton3-force-equal-applied",
+      "condition": "student selects wrong option on diagnosticCard question Q1",
+      "systemAction": "assign reteach module for err-newton3-force-equal-applied",
+      "studentMessage": "Review how forces between objects relate to net force, not just the applied force."
+    },
+    {
+      "errorId": "err-accel-force-partial-mass",
+      "condition": "student selects wrong option on diagnosticCard question Q2",
+      "systemAction": "assign reteach module for err-accel-force-partial-mass",
+      "studentMessage": "Remember to use total mass when calculating acceleration of a system."
+    },
+    {
+      "errorId": "err-static-friction-always-maximum",
+      "condition": "student selects wrong option on diagnosticCard question Q3",
+      "systemAction": "assign reteach module for err-static-friction-always-maximum",
+      "studentMessage": "Static friction adjusts to match applied force up to a maximum; it is not always at its maximum."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-newton3-force-equal-applied",
+      "trigger": "Students incorrectly assume the force between two interacting objects equals the applied external force.",
+      "studentMisunderstanding": "In the two-box problem, students often think the large box pushes the small box with the same 160 N applied force, not accounting for friction and the fact that the large box also experiences friction and must accelerate itself.",
+      "miniLesson": {
+        "explain": "Newton's third law applies to interacting pairs. In a two-box system pushed by an external force, the force between boxes is not that external force. Instead, to find the force one box exerts on another, consider the net force on that box. For example, on the small box, net force equals its mass times acceleration. That net force is the difference between the force from the large box and the friction on the small box. Therefore, the force from large on small = mass_small * a + friction_small.",
+        "example": "In the two-box problem (32 kg and 8 kg, applied 160 N, friction 80 N on large, 20 N on small, acceleration 1.5 m/s²), the force large box exerts on small box is: F_large_on_small = 8 * 1.5 + 20 = 32 N east. This is much less than the 160 N applied force.",
+        "memoryAnchor": "The force between two objects in contact is not the same as the external push. It's like a chain: the external force must move both objects, but the force each link exerts is only what's needed to move the rest after it."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the two-box problem, which pair of forces is an action-reaction pair according to Newton's third law? A) The worker's push (160 N) and the friction on the large box (80 N) B) The force the large box exerts on the small box and the force the small box exerts on the large box C) The weight of the boxes and the normal force D) The applied force and the net force on the system",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "In the two-box problem, the small box (8 kg) accelerates at 1.5 m/s² east. The friction on the small box is 20 N west. Calculate the magnitude and direction of the force that the large box exerts on the small box.",
+          "answer": "32 N east"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the force the large box exerts on the small box in the two-box problem is not equal to the applied force of 160 N. Use Newton's laws and the known friction forces in your explanation.",
+          "answer": "The applied force of 160 N must accelerate both boxes and overcome friction on both. Part of the applied force goes to overcoming the 80 N friction on the large box and accelerating its 32 kg mass. The remaining force transmitted to the small box is only what is needed to accelerate it and overcome its own friction. Mathematically, net force on system = 160 - 80 - 20 = 60 N, giving acceleration 1.5 m/s². The force on small box = mass_small * a + friction_small = 8*1.5 + 20 = 32 N. Thus, it is not 160 N."
+        }
+      ]
+    },
+    {
+      "errorId": "err-accel-force-partial-mass",
+      "trigger": "When a student uses only one object's mass to calculate system acceleration, e.g., in the two-box problem.",
+      "studentMisunderstanding": "Students think that the acceleration of a system can be found by dividing net force by the mass of a single object, rather than the total mass of all objects in the system.",
+      "miniLesson": {
+        "explain": "When calculating acceleration of a system of objects that move together, use Newton's second law (F_net = m_total * a). The net force is the sum of all external forces. The total mass is the sum of all individual masses. Dividing net force by only part of the mass gives a larger acceleration than actually occurs because the force must move all the mass.",
+        "example": "In the two-box problem, a worker pushes a 32.0 kg box and an 8.0 kg box (total 40.0 kg) with 160.0 N. Friction on the large box is 80.0 N, on the small box is 20.0 N. Net force = 160 - 80 - 20 = 60.0 N. Acceleration = 60.0 N / 40.0 kg = 1.5 m/s². If you incorrectly used only the 32.0 kg mass, you'd get 60.0/32.0 = 1.875 m/s², which is too high.",
+        "memoryAnchor": "Total mass for total acceleration: Add all masses before you divide F_net. Think 'Team mass, not individual mass.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A system has a total mass of 40 kg. The net force on the system is 60 N. What is the acceleration?",
+          "answer": "1.5 m/s^2"
+        },
+        {
+          "level": "L2",
+          "prompt": "A worker pushes a 32.0 kg box and an 8.0 kg box together with a force of 160.0 N. Friction on the large box is 80.0 N, on the small box is 20.0 N. Calculate the acceleration of the system.",
+          "answer": "First, find net force: 160 - 80 - 20 = 60 N. Total mass = 32 + 8 = 40 kg. Acceleration = 60 N / 40 kg = 1.5 m/s^2."
+        },
+        {
+          "level": "L3",
+          "prompt": "Using the same two-box problem (32.0 kg and 8.0 kg, applied force 160.0 N, friction 80.0 N and 20.0 N), find the velocity of the 8.0 kg box after 4.0 seconds if it starts from rest. First calculate acceleration.",
+          "answer": "Acceleration = 1.5 m/s^2 (as before). Then v = a*t = 1.5 m/s^2 * 4.0 s = 6.0 m/s east."
+        }
+      ]
+    },
+    {
+      "errorId": "err-static-friction-always-maximum",
+      "trigger": "Diagnostic question Q3 revealed that you think static friction always equals the maximum possible value.",
+      "studentMisunderstanding": "You may believe that static friction is always at its maximum (μ_s * N), even when the applied force is smaller. In reality, static friction adjusts to match the applied force up to that maximum.",
+      "miniLesson": {
+        "explain": "Static friction opposes the start of motion. Its magnitude can vary from 0 up to a maximum given by f_s_max = μ_s * N. If the applied force is less than f_s_max, the object does not move and the static friction force equals the applied force in magnitude, opposite in direction. Only when the applied force reaches or exceeds f_s_max does friction become constant at f_s_max.",
+        "example": "A 3 kg wooden block on a horizontal floor has μ_s = 0.50. The maximum static friction is f_s_max = 0.50 * 3 * 9.8 = 14.7 N. A horizontal force of 6.8 N is applied, which is less than 14.7 N. Therefore, the block does not move, and static friction is 6.8 N opposite to the applied force.",
+        "memoryAnchor": "Think of static friction like a rubber band: it stretches just enough to hold an object still, but if you pull harder than its limit, it snaps and the object moves."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A 3 kg block on a horizontal floor has μ_s = 0.50. A force of 6.8 N is applied horizontally. What is the static friction force?",
+          "answer": "6.8 N (the block does not move because 6.8 N < 14.7 N)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Same 3 kg block (μ_s = 0.50). If the applied force is 6 N instead of 6.8 N, what is the static friction?",
+          "answer": "6 N (still less than 14.7 N, so friction equals applied force)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Same 3 kg block (μ_s = 0.50). If the applied force is 20 N, what is the static friction?",
+          "answer": "14.7 N (20 N exceeds maximum, so the block moves and static friction is at its maximum of 14.7 N)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-newton3-force-equal-applied",
+      "questions": [
+        {
+          "id": "q1-newton3-force-equal-applied",
+          "type": "single_choice",
+          "stem": "In the two-box problem (160 N applied force, 32 kg and 8 kg boxes, friction 80 N and 20 N respectively), which statement is correct about the force between the boxes?",
+          "options": [
+            "The force the large box exerts on the small box equals 160 N because the large box pushes the small box.",
+            "The force the large box exerts on the small box is less than 160 N because some applied force is used to overcome friction and accelerate the large box.",
+            "The force the large box exerts on the small box is zero because both boxes move together.",
+            "The force the large box exerts on the small box equals the friction on the small box (20 N) because the small box only feels friction."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-newton3-force-equal-applied",
+          "type": "open_ended",
+          "stem": "In the same two-box problem, calculate the magnitude of the force that the small box exerts on the large box. Show all steps clearly.",
+          "rubric": "1 mark: Correctly calculates system acceleration (1.5 m/s²). 1 mark: Correctly calculates net force on small box using F_net = m*a + friction (32 N). 1 mark: States that by Newton's third law, force small box exerts on large box has same magnitude (32 N)."
+        }
+      ],
+      "passRule": "Student must answer all questions correctly to pass."
+    },
+    {
+      "forErrorId": "err-accel-force-partial-mass",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A 32.0 kg box and an 8.0 kg box are pushed together on a frictionless surface with a force of 160.0 N. What is the acceleration of the system?",
+          "options": [
+            "5.00 m/s²",
+            "4.00 m/s²",
+            "20.0 m/s²",
+            "160 m/s²"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A 3.0 kg wooden block and a 0.5 kg block are connected and pulled horizontally with a force of 6.8 N. There is no friction. Calculate the acceleration of the system. Show your work.",
+          "rubric": "Total mass = 3.0 kg + 0.5 kg = 3.5 kg. Net force = 6.8 N. Using F = ma, a = 6.8 / 3.5 ≈ 1.94 m/s² (accept 1.9 m/s²). Award full credit for correct total mass and calculation."
+        }
+      ],
+      "passRule": "all_correct"
+    },
+    {
+      "forErrorId": "err-static-friction-always-maximum",
+      "questions": [
+        {
+          "id": "retest-static-friction-q1",
+          "type": "single_choice",
+          "stem": "A 3 kg wooden block on a horizontal floor has μ_s = 0.50. A horizontal force of 6.8 N is applied. What is the static friction force?",
+          "options": [
+            "6.8 N",
+            "14.7 N",
+            "0 N",
+            "3 N"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-static-friction-q2",
+          "type": "open_ended",
+          "stem": "Explain why static friction is not always equal to μ_s * N. Use a numerical example with a 3 kg block, μ_s = 0.50, and an applied force of 6.8 N to illustrate your explanation.",
+          "rubric": "Student must state that static friction matches the applied force up to the maximum μ_s * N. They should mention that since 6.8 N < 14.7 N, the block does not move and static friction equals 6.8 N, not 14.7 N."
+        }
+      ],
+      "passRule": "Q1 must be correct (option A). Q2 must correctly explain that static friction adjusts to applied force up to the maximum and include the correct numerical example."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-27",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/PEEbdEcAyoLVMhxAJ6kcYrkRnGc?from=vc_group_doc_link#doxcnl6WN2Wmp3gP9JqRndS18Mc",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-27 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Newton's third law states that for every action force there is an equal and opposite reaction force; this law applies to the interaction between the two boxes in the two-box problem.；The two-box problem involved a 160.0 N applied force on two boxes (32.0 kg and 8.0 kg) with friction (80.0 N on large, 20.0 N on small) starting from rest; the final velocity of the 8 kg box after 4.0 s is 6 m/s east.；For a 3 kg wooden block on a horizontal floor with static friction coefficient 0.50, an applied force of 6.8 N is less than the maximum static friction; thus the block does not move and the static friction force equals 6.8 N opposite to the applied force.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply Newton's third law to determine the force between two interacting objects in a system with friction."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate the acceleration of a system of objects by dividing net force by total mass."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Determine static friction magnitude and motion condition using the coefficient of static friction and normal force."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete Unit 2 Lesson 7 homework (for students who finished Lessons 2 and 3)",
+        "studentAction": "Complete and submit Unit 2 Lesson 7 homework",
+        "deadlineText": "Immediate priority before next class (exact date not specified)",
+        "deadlineISO": null,
+        "platform": "course platform",
+        "link": null,
+        "appliesTo": "students who have submitted Unit 2 Lesson 2 and Lesson 3",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Only 2 students who have submitted both Unit 2 Lesson 2 and Lesson 3 are assigned to work on the unsubmitted Unit 2 Lesson 7 homework first.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Submit Unit 2 Lesson 2 and Lesson 3 homework (for unfinished students)",
+        "studentAction": "Prioritize and submit free body diagrams (Lesson 2) and Newton's laws (Lesson 3) homework",
+        "deadlineText": "During today's 10-minute work period",
+        "deadlineISO": null,
+        "platform": "course platform",
+        "link": null,
+        "appliesTo": "students who have not submitted Lesson 2 and Lesson 3",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The remaining students who have not submitted Lesson 2 (free body diagrams) and Lesson 3 (Newton's laws of motion) need to prioritize these two tasks.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "platform_link",
+        "title": "Homework submission path reminder",
+        "studentAction": "Upload homework to corresponding subfolders under 'homework' directory in the blue 'lessons' folder on the course platform",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "course platform",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All required homework must be uploaded to corresponding subfolders under the 'homework' directory in the course platform's blue 'lessons' folder.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Dedicated homework working period",
+        "studentAction": "Use the 10-minute period to complete assigned homework; ask instructor for help if needed",
+        "deadlineText": "During today's class (10-minute window)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The instructor sets a 10-minute dedicated working window for all students to finish their assigned homework before new course content is introduced.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "attendance_camera",
+        "title": "Camera requirement for attendance verification",
+        "studentAction": "Keep camera turned on throughout the session to verify attendance and engagement",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all participating students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The instructor explicitly requires all participating students to turn on their cameras to verify attendance and ensure active engagement throughout the session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next class schedule: remaining content and work-energy unit",
+        "studentAction": "Attend next class for continuation of problem-solving and introduction to work and energy unit",
+        "deadlineText": "Next scheduled class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Remaining problem-solving content and the upcoming 'work and energy' unit will be fully covered in the next scheduled class session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Session closing instruction",
+        "studentAction": "Leave the call freely; staff will terminate recording",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The instructor states he cannot stop the ongoing recording, asks relevant staff to terminate it promptly, and informs all students to leave the call freely.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Exact due date for Unit 2 Lesson 7 homework is not specified; only that it should be worked on 'first'.",
+        "reason": "No explicit deadline given; relative priority but no due date."
+      }
+    ],
+    "watchTags": [
+      "KN-SPH3U-NewtonThirdLaw-TwoBox",
+      "KN-SPH3U-Kinematics-ConstantAcceleration",
+      "KN-SPH3U-StaticFriction"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "errorId": "err-newton3-force-equal-applied",
+        "condition": "student selects wrong option on diagnosticCard question Q1",
+        "systemAction": "assign reteach module for err-newton3-force-equal-applied"
+      },
+      {
+        "errorId": "err-accel-force-partial-mass",
+        "condition": "student selects wrong option on diagnosticCard question Q2",
+        "systemAction": "assign reteach module for err-accel-force-partial-mass"
+      },
+      {
+        "errorId": "err-static-friction-always-maximum",
+        "condition": "student selects wrong option on diagnosticCard question Q3",
+        "systemAction": "assign reteach module for err-static-friction-always-maximum"
+      }
+    ],
+    "nextActions": [
+      "[err-newton3-force-equal-applied] student selects wrong option on diagnosticCard question Q1: Review how forces between objects relate to net force, not just the applied force.",
+      "[err-accel-force-partial-mass] student selects wrong option on diagnosticCard question Q2: Remember to use total mass when calculating acceleration of a system.",
+      "[err-static-friction-always-maximum] student selects wrong option on diagnosticCard question Q3: Static friction adjusts to match applied force up to a maximum; it is not always at its maximum."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-S6-q1",
+        "type": "choice",
+        "question": "In the two‑box problem, the force that the large box exerts on the small box is:",
+        "options": [
+          "equal to the applied force (160 N)",
+          "equal to the friction force on the small box",
+          "equal to the mass of the small box times its acceleration",
+          "equal to the mass of the small box times its acceleration plus the friction force on the small box"
+        ],
+        "correct": 3,
+        "diagnosis": "Check understanding of Newton's third law in a multi‑object system.",
+        "misconceptions": [
+          "Action‑reaction pairs are between the boxes, not between the hand and the small box. The force between boxes is not the same as the applied force.",
+          "The small box accelerates, so the net force on it is not zero. The force from the large box must provide both the friction and the acceleration.",
+          "This is the net force on the small box, not the force exerted by the large box. You must add the friction force to get the contact force.",
+          "✓ Correct. The large box pushes the small box, so the force must overcome friction and provide net force."
+        ],
+        "nodeId": "KN-SPH3U-NewtonThirdLaw-TwoBox",
+        "errorId": "err-newton3-force-equal-applied",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that the internal force depends on net force and friction, not just the applied force.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Aligns with investigating forces in systems using Newton's laws.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Students believe the force between boxes equals the applied force.",
+        "remediationModule": "err-newton3-force-equal-applied",
+        "retestItem": "err-newton3-force-equal-applied"
+      },
+      {
+        "id": "diag-sph3u-S6-q2",
+        "type": "choice",
+        "question": "To find the acceleration of the two‑box system, you should divide the net force by:",
+        "options": [
+          "the mass of the large box (32 kg)",
+          "the total mass of both boxes (40 kg)",
+          "the mass of the small box (8 kg)",
+          "the average mass of the two boxes"
+        ],
+        "correct": 1,
+        "diagnosis": "Check that students use total mass when applying F=ma to a system.",
+        "misconceptions": [
+          "The applied force accelerates the entire system, not just one box. You must use the total mass.",
+          "✓ Correct. Newton's second law applies to the whole system using total mass.",
+          "The small box is part of the system, but the net force acts on the system, so total mass is needed.",
+          "The average mass is not physically meaningful here; use total mass."
+        ],
+        "nodeId": "KN-SPH3U-NewtonThirdLaw-TwoBox",
+        "errorId": "err-accel-force-partial-mass",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects total mass for system acceleration calculation.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies net force and mass relationship to a multi-object system.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students use only one mass, often the smaller or the one where force is applied.",
+        "remediationModule": "err-accel-force-partial-mass",
+        "retestItem": "err-accel-force-partial-mass"
+      },
+      {
+        "id": "diag-sph3u-S6-q3",
+        "type": "choice",
+        "question": "A 3 kg wooden block on a horizontal floor has μₛ = 0.50. A horizontal force of 6.8 N is applied. What is the static friction force?",
+        "options": [
+          "14.7 N",
+          "6.8 N",
+          "0 N",
+          "9.8 N"
+        ],
+        "correct": 1,
+        "diagnosis": "Check that students do not automatically compute μₛN as the friction force.",
+        "misconceptions": [
+          "This is the maximum possible static friction, but the applied force is less, so the static friction is not at its maximum.",
+          "✓ Correct. Since the applied force is less than the maximum static friction, the block does not move, and static friction equals the applied force.",
+          "The block is not moving, but static friction is present and balances the applied force to prevent motion.",
+          "9.8 N is the weight, not the friction force. The maximum static friction is 14.7 N, not this value."
+        ],
+        "nodeId": "KN-SPH3U-StaticFriction",
+        "errorId": "err-static-friction-always-maximum",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student recognizes that static friction matches applied force up to the maximum.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies static friction concept in a quantitative context.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students always use μₛN even when applied force is less.",
+        "remediationModule": "err-static-friction-always-maximum",
+        "retestItem": "err-static-friction-always-maximum"
+      }
+    ]
+  }
+}

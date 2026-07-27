@@ -1,0 +1,895 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-24",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HSIAduPsXowDPixtK19cq6a8nWd?from=vc_group_doc_link#doxcnOMopFJkQilUbab4HK69c9c",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-24 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/HSIAduPsXowDPixtK19cq6a8nWd?from=vc_group_doc_link#doxcnOMopFJkQilUbab4HK69c9c",
+    "title": "SPH3U.S6.Michael 2026-07-24 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-27/sources/sph3u-s6-michael-2026-07-24/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-24",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-24",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson consists of teacher-led problem walkthroughs (tension analysis and adjacent block system) followed by in-class practice and assignment instructions. Academic content dominates.",
+    "academicContentSignals": [
+      "tension force analysis using Newton's second law",
+      "calculating net force with combined mass for connected objects",
+      "free body diagram interpretation for multiple blocks",
+      "acceleration calculation for a system under external force",
+      "application of Newton's second law to rope tension problems"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations are present but secondary. Academic content from problem walkthroughs should be the primary focus of the diagnostic card. Ensure questions cover mechanics concepts rather than logistical details.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Complete hands-on activity quiz before written assignments",
+        "studentAction": "Complete the hands-on activity quiz to self-assess understanding of free body diagram concepts before starting written tasks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students are advised to first complete the hands-on activity quiz to self-assess their mastery of core free body diagram concepts before starting written assignment tasks.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "In-class independent practice period",
+        "studentAction": "Use the ~15-minute independent practice time to work on assigned exercises.",
+        "deadlineText": "By end of class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The in-class independent exercise period lasts for approximately 15 minutes, and the entire session will end at the top of the hour as originally scheduled.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Access Unit 2 Lesson 2 materials",
+        "studentAction": "Navigate to the blue 'Lessons' folder on the course page, then Unit 2 > Free Body Diagrams > Lesson 2.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "course page",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All required course materials are located in the blue 'Lessons' folder on the course page, under the Unit 2 > Free Body Diagrams > Lesson 2 directory.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Complete Unit 2 Lesson 2 worksheet homework",
+        "studentAction": "Complete the mandatory Unit 2 Lesson 2 worksheet.",
+        "deadlineText": "Next class (Monday)",
+        "deadlineISO": "2026-07-27T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students need to complete the mandatory Unit 2 Lesson 2 worksheet homework",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Optional preview of Unit 2 Lesson 3",
+        "studentAction": "Optionally start reviewing Unit 2 Lesson 3 content in advance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "may optionally start working on Unit 2 Lesson 3 content in advance.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Investigate net force, acceleration, and mass、Understand relationship between velocity change and unbalanced forces）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "In a system of connected objects, a rope that pulls multiple masses must support the combined weight of all masses it directly pulls.；Rope A pulls only mass 3 (7.0 kg), while Rope B pulls both mass 2 (11.0 kg) and mass 3 (7.0 kg).；The net force on Rope B is calculated using the combined mass of the two blocks (18.0 kg) and the system acceleration.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Calculate the acceleration of a system of connected objects by applying Newton's second law to the total mass."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Determine tension in a rope by isolating the object(s) the rope pulls and applying Newton's second law."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Identify and include friction forces when calculating net force on an object or system."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Recognize that all objects in a connected system have the same acceleration when treated as one system."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "SPH3U-C-OE02",
+      "name": "Investigate net force, acceleration, and mass",
+      "nameEn": "Investigate net force, acceleration, and mass",
+      "definition": "Students investigate the relationship between net force, mass, and acceleration in qualitative and quantitative terms, and solve related problems.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "SPH3U-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems."
+    },
+    {
+      "id": "SPH3U-C-OE03",
+      "name": "Understand relationship between velocity change and unbalanced forces",
+      "nameEn": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension",
+      "definition": "Students demonstrate understanding that unbalanced forces cause acceleration (change in velocity) in one dimension.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "SPH3U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Calculate the acceleration of a system of connected objects by applying Newton's second law to the total mass."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Determine tension in a rope by isolating the object(s) the rope pulls and applying Newton's second law."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Identify and include friction forces when calculating net force on an object or system."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recognize that all objects in a connected system have the same acceleration when treated as one system."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-tension-equal-assumption",
+        "condition": "Student chooses an option that assumes same tension in all ropes without considering which masses each rope pulls.",
+        "systemAction": "Assign reteach module for err-tension-equal-assumption.",
+        "studentMessage": "Tension in a rope depends on the total mass it directly pulls. Let's review how to isolate objects."
+      },
+      {
+        "errorId": "err-net-force-neglect-friction",
+        "condition": "Student chooses an option that omits friction forces when calculating net force.",
+        "systemAction": "Assign reteach module for err-net-force-neglect-friction.",
+        "studentMessage": "Remember to include friction when calculating net force. Let's practice with friction."
+      },
+      {
+        "errorId": "err-acceleration-per-object",
+        "condition": "Student chooses an option that calculates acceleration individually for each object instead of using system acceleration.",
+        "systemAction": "Assign reteach module for err-acceleration-per-object.",
+        "studentMessage": "All connected objects share the same acceleration. Let's treat them as one system."
+      },
+      {
+        "errorId": "err-mass-addition",
+        "condition": "Student chooses an option that uses incorrect total mass when calculating tension in a rope pulling multiple objects.",
+        "systemAction": "Assign reteach module for err-mass-addition.",
+        "studentMessage": "When a rope pulls multiple objects, use the combined mass of those objects. Let's review."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-c2-q1",
+        "nodeId": "SPH3U-C-OE02",
+        "errorId": "err-tension-equal-assumption",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that rope pulling more mass has greater tension.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets tension analysis in connected systems, a core problem-solving skill under C2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check whether student understands tension depends on which masses the rope pulls.",
+        "commonMisconception": "Assuming all ropes in a system have equal tension regardless of pulled masses.",
+        "remediationModule": "err-tension-equal-assumption",
+        "retestItem": "err-tension-equal-assumption",
+        "stem": "Three sleds (12.0 kg, 11.0 kg, 7.0 kg) are connected by ropes A and B and pulled east with 120 N. Rope A connects only the 7.0 kg sled to the 11.0 kg sled. Rope B connects the 11.0 kg sled to the 12.0 kg sled. Which rope has the greater tension?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Rope A, because it pulls the smallest mass.",
+            "correct": false,
+            "feedbackWrong": "Rope A pulls only the 7.0 kg sled, but rope B pulls both the 11.0 kg and 7.0 kg sleds, so rope B must support more force. Consider which masses each rope directly pulls."
+          },
+          {
+            "label": "B",
+            "text": "Rope B, because it pulls the combined mass of the 11.0 kg and 7.0 kg sleds.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Rope B must pull both the middle and right sled, so it experiences greater tension."
+          },
+          {
+            "label": "C",
+            "text": "Both ropes have the same tension because the system is moving together.",
+            "correct": false,
+            "feedbackWrong": "Although the system has the same acceleration, the tension in each rope differs because they pull different masses. The tension must supply the net force for the masses it directly accelerates."
+          },
+          {
+            "label": "D",
+            "text": "Rope A, because it is closest to the front.",
+            "correct": false,
+            "feedbackWrong": "Position alone does not determine tension. You must consider the mass each rope pulls."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-c2-q2",
+        "nodeId": "SPH3U-C-OE02",
+        "errorId": "err-net-force-neglect-friction",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly includes friction when calculating net force on a system.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires applying net force calculation including friction, as per C2 problem-solving.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student remembers to subtract friction from applied force to find net force.",
+        "commonMisconception": "Using only applied force as net force, ignoring friction.",
+        "remediationModule": "err-net-force-neglect-friction",
+        "retestItem": "err-net-force-neglect-friction",
+        "stem": "Two blocks are pushed together with 160 N applied force. The large block (32.0 kg) experiences 80.0 N friction, and the small block (8.0 kg) experiences 20.0 N friction. What is the net horizontal force on the two-block system?",
+        "options": [
+          {
+            "label": "A",
+            "text": "160 N",
+            "correct": false,
+            "feedbackWrong": "You forgot to include friction. The net force is the applied force minus the total friction force."
+          },
+          {
+            "label": "B",
+            "text": "80 N",
+            "correct": false,
+            "feedbackWrong": "You subtracted only the friction on the large block. You need to subtract both friction forces."
+          },
+          {
+            "label": "C",
+            "text": "60 N",
+            "correct": true,
+            "feedbackCorrect": "Correct! Net force = 160 N - (80 N + 20 N) = 60 N."
+          },
+          {
+            "label": "D",
+            "text": "140 N",
+            "correct": false,
+            "feedbackWrong": "You subtracted only the small block's friction. You need to subtract both friction forces."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-c2-q3",
+        "nodeId": "SPH3U-C-OE02",
+        "errorId": "err-acceleration-per-object",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student identifies that all objects in a connected system accelerate together.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Correct understanding of system acceleration is fundamental to solving connected-object problems under C2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes that all parts of a connected system share the same acceleration.",
+        "commonMisconception": "Thinking each object has its own acceleration calculated separately.",
+        "remediationModule": "err-acceleration-per-object",
+        "retestItem": "err-acceleration-per-object",
+        "stem": "Three sleds are connected by ropes and pulled east. Which statement about their accelerations is correct?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Each sled has its own acceleration depending on its mass.",
+            "correct": false,
+            "feedbackWrong": "Because the sleds are connected by taut ropes, they all move together with the same acceleration. You must treat the whole system."
+          },
+          {
+            "label": "B",
+            "text": "All three sleds have the same acceleration.",
+            "correct": true,
+            "feedbackCorrect": "Correct! The ropes keep them together, so they all accelerate at the same rate."
+          },
+          {
+            "label": "C",
+            "text": "The front sled accelerates more than the back sleds.",
+            "correct": false,
+            "feedbackWrong": "The applied force is on the front sled, but the tension in the ropes transmits force so that all sleds accelerate together."
+          },
+          {
+            "label": "D",
+            "text": "Acceleration depends on the tension in each rope, so they are all different.",
+            "correct": false,
+            "feedbackWrong": "While tensions differ, the acceleration of every sled must be the same because they are connected and move as one system."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-c2-q4",
+        "nodeId": "SPH3U-C-OE02",
+        "errorId": "err-mass-addition",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly selects the mass to use when calculating tension in a rope that pulls multiple objects.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires applying Newton's second law to find tension, a key skill under C2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student uses the correct combined mass when isolating the pulled objects to find tension.",
+        "commonMisconception": "Using only the mass of the object directly attached to the rope, or using total system mass.",
+        "remediationModule": "err-mass-addition",
+        "retestItem": "err-mass-addition",
+        "stem": "In the three-sled system (12.0 kg, 11.0 kg, 7.0 kg) pulled east with 120 N, the system acceleration is 4.0 m/s^2. Rope B connects the middle sled (11.0 kg) to the front sled (12.0 kg). To calculate the tension in Rope B using F_net = ma, which mass (or masses) should you use for 'm'? Explain your reasoning and then calculate the tension.",
+        "rubric": "Full credit: Student identifies that Rope B pulls both the middle and rear sleds (11.0 kg + 7.0 kg = 18.0 kg) because it must accelerate both. Then calculates T = m_total * a = 18.0 kg * 4.0 m/s^2 = 72 N. Partial credit: Correct mass choice but no calculation, or correct calculation with wrong mass.",
+        "sampleStrongAnswer": "Rope B pulls both the 11.0 kg and 7.0 kg sleds because it is attached to the middle sled and the rear sled is attached to it. So the mass is 18.0 kg. The tension is T = (11.0 + 7.0) * 4.0 = 72 N."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-tension-equal-assumption",
+      "condition": "Student chooses an option that assumes same tension in all ropes without considering which masses each rope pulls.",
+      "systemAction": "Assign reteach module for err-tension-equal-assumption.",
+      "studentMessage": "Tension in a rope depends on the total mass it directly pulls. Let's review how to isolate objects."
+    },
+    {
+      "errorId": "err-net-force-neglect-friction",
+      "condition": "Student chooses an option that omits friction forces when calculating net force.",
+      "systemAction": "Assign reteach module for err-net-force-neglect-friction.",
+      "studentMessage": "Remember to include friction when calculating net force. Let's practice with friction."
+    },
+    {
+      "errorId": "err-acceleration-per-object",
+      "condition": "Student chooses an option that calculates acceleration individually for each object instead of using system acceleration.",
+      "systemAction": "Assign reteach module for err-acceleration-per-object.",
+      "studentMessage": "All connected objects share the same acceleration. Let's treat them as one system."
+    },
+    {
+      "errorId": "err-mass-addition",
+      "condition": "Student chooses an option that uses incorrect total mass when calculating tension in a rope pulling multiple objects.",
+      "systemAction": "Assign reteach module for err-mass-addition.",
+      "studentMessage": "When a rope pulls multiple objects, use the combined mass of those objects. Let's review."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-tension-equal-assumption",
+      "trigger": "Student assumes all ropes have equal tension in a connected system.",
+      "studentMisunderstanding": "You assumed that tension is the same in all ropes, but tension depends on the total mass each rope directly pulls. A rope pulling more mass must have a greater tension.",
+      "miniLesson": {
+        "explain": "In a system of connected objects, the tension in a rope is determined by the total mass it accelerates. For example, in the three-sled problem, Rope A pulls only the 7.0 kg sled, while Rope B pulls both the 11.0 kg and 7.0 kg sleds (total 18.0 kg). Using Newton's second law, the tension in Rope B is larger because it must accelerate a larger mass.",
+        "example": "In the three-sled problem with 120 N applied force and masses 12.0 kg, 11.0 kg, 7.0 kg, the system acceleration is 4.0 m/s². Rope B tension = (11.0+7.0) * 4.0 = 72 N, while Rope A tension = 7.0 * 4.0 = 28 N.",
+        "memoryAnchor": "Think of a rope as pulling a 'train' of masses behind it. The more cars it pulls, the greater the tension."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Three sleds (12.0 kg, 11.0 kg, 7.0 kg) are connected by ropes A and B and pulled east with 120 N. Rope A connects the 7.0 kg sled to the 11.0 kg sled. Rope B connects the 11.0 kg sled to the 12.0 kg sled. Which rope has greater tension? (Just answer: Rope A or Rope B)",
+          "answer": "Rope B"
+        },
+        {
+          "level": "L2",
+          "prompt": "Rope B pulls the 11.0 kg and 7.0 kg sleds. What is the total mass that Rope B must accelerate? (Use numbers from fact bank: 11.0 and 7.0)",
+          "answer": "18.0 kg"
+        },
+        {
+          "level": "L3",
+          "prompt": "Using the fact that the applied force is 120 N and total mass of the three sleds is 30.0 kg, calculate the acceleration of the system. Then calculate the tension in Rope B, which pulls the 11.0 kg and 7.0 kg sleds. (Show your work and give the final tension in N.)",
+          "answer": "Acceleration: a = 120 N / 30.0 kg = 4.0 m/s². Tension in Rope B: T = (11.0 kg + 7.0 kg) * 4.0 m/s² = 18.0 kg * 4.0 m/s² = 72 N."
+        }
+      ]
+    },
+    {
+      "errorId": "err-net-force-neglect-friction",
+      "trigger": "Student chooses an option that omits friction forces when calculating net force.",
+      "studentMisunderstanding": "Students forget to include friction forces when calculating net force on an object or system.",
+      "miniLesson": {
+        "explain": "Net force is the vector sum of all forces acting on an object. When friction opposes motion, it reduces the applied force. Always subtract the total friction force from the applied force to get the net force. For example, in the adjacent block problem with 160 N applied and total friction 100 N (80 N on large + 20 N on small), the net force is 60 N.",
+        "example": "Two blocks are pushed with 160 N. Large block (32.0 kg) has 80.0 N friction, small block (8.0 kg) has 20.0 N friction. Total friction = 80.0 N + 20.0 N = 100.0 N. Net force = 160 N - 100 N = 60 N.",
+        "memoryAnchor": "Don't forget friction: Applied Force minus all friction forces equals Net Force."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What two forces must be considered when calculating net force in a system with applied force and friction?",
+          "answer": "Applied force and friction force (opposing motion)."
+        },
+        {
+          "level": "L2",
+          "prompt": "In the two-block problem (160 N applied, 32.0 kg and 8.0 kg blocks, friction 80.0 N and 20.0 N), what is the net force on the system?",
+          "answer": "60 N (160 - 80 - 20 = 60 N)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A 7.0 kg box is pulled with 120 N, and friction is 20.0 N. What is the net force on the box?",
+          "answer": "100 N (120.0 - 20.0 = 100 N)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-acceleration-per-object",
+      "trigger": "When asked to find the acceleration of a system of connected objects, the student calculates acceleration for each object individually using its own mass and the forces acting directly on it, rather than treating the entire system as one object.",
+      "studentMisunderstanding": "The student thinks that each object in a connected system can have its own separate acceleration, calculated independently using its mass and the net force on that object, ignoring that all objects move together and share the same acceleration.",
+      "miniLesson": {
+        "explain": "In a system of connected objects, all objects move together. Therefore, they all have the same acceleration. To find that acceleration, treat the entire set of connected objects as a single object with a combined mass. Use Newton's second law: a = F_net_total / m_total. Do not calculate accelerations separately for each object.",
+        "example": "Three sleds (12.0 kg, 11.0 kg, 7.0 kg) are connected by ropes and pulled east with 120 N. The total mass is 30.0 kg (12.0+11.0+7.0). The net force on the system is 120 N (neglecting friction). So acceleration a = 120 N / 30.0 kg = 4.0 m/s^2. Every sled has this same acceleration.",
+        "memoryAnchor": "Think of a train: all cars are connected, so they accelerate together. Treat the whole train as one object."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Three sleds (12.0 kg, 11.0 kg, 7.0 kg) are connected and pulled east with 120 N. A student tries to find the acceleration of the 7.0 kg sled by using only its mass and the tension in the rope attached to it. Explain why that approach is incorrect, then calculate the correct acceleration of the whole system.",
+          "answer": "The approach is incorrect because the sleds are connected, so they all have the same acceleration. The correct method uses the total mass of all sleds: total mass = 30.0 kg, net force = 120 N, so a = 120 N / 30.0 kg = 4.0 m/s^2."
+        },
+        {
+          "level": "L2",
+          "prompt": "Two blocks (32.0 kg and 8.0 kg) are pushed together with 160 N applied force. Friction on the large block is 80.0 N and on the small block is 20.0 N. Some students calculate acceleration for each block separately using the net force on each. Why is this wrong? What is the correct acceleration of both blocks?",
+          "answer": "It is wrong because the blocks are in contact and move together, so they share the same acceleration. Correct approach: total mass = 40.0 kg, total net force = 160 N - (80.0 N + 20.0 N) = 60 N, so a = 60 N / 40.0 kg = 1.5 m/s^2."
+        },
+        {
+          "level": "L3",
+          "prompt": "In the three-sled system (12.0 kg, 11.0 kg, 7.0 kg) pulled with 120 N, the system acceleration is 4.0 m/s^2 and the tension in rope B (connecting the 11.0 kg and 12.0 kg sleds) is 72 N (from F_net = ma using combined mass 18.0 kg). If you incorrectly tried to find the acceleration of the 12.0 kg sled using only its mass and the tension in rope B (72 N), what acceleration would you get? Compare it to the actual system acceleration and explain why the mismatch shows the error of calculating acceleration per object.",
+          "answer": "Incorrect acceleration: a = 72 N / 12.0 kg = 6.0 m/s^2. This differs from the system acceleration of 4.0 m/s^2, which is impossible because all sleds are connected and must have the same acceleration. The mismatch shows that using an individual mass and a tension that depends on other masses leads to a wrong acceleration; the correct method uses total mass and total net force on the system."
+        }
+      ]
+    },
+    {
+      "errorId": "err-mass-addition",
+      "trigger": "miscalculating the mass when finding tension in a rope that pulls multiple objects",
+      "studentMisunderstanding": "Students incorrectly use only the mass of the closest object or the total system mass when computing tension, instead of adding the masses of all objects the rope directly pulls.",
+      "miniLesson": {
+        "explain": "When a rope pulls multiple objects, the tension must accelerate the combined mass of all objects it directly pulls. Do not use the total system mass or only the adjacent object's mass.",
+        "example": "Three sleds (12.0 kg, 11.0 kg, 7.0 kg) are pulled east with 120 N. The system accelerates at 4.0 m/s². Rope B pulls the 11.0 kg and 7.0 kg sleds (combined 18.0 kg). Tension = 18.0 kg × 4.0 m/s² = 72 N.",
+        "memoryAnchor": "Add the masses behind the rope."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the three-sled system (12.0 kg, 11.0 kg, 7.0 kg) with ropes A and B, which masses does rope B directly pull?",
+          "answer": "Rope B directly pulls the 11.0 kg and 7.0 kg sleds (combined mass 18.0 kg)."
+        },
+        {
+          "level": "L2",
+          "prompt": "If the system acceleration is 4.0 m/s², what is the tension in rope B?",
+          "answer": "72 N (T = (11.0 kg + 7.0 kg) × 4.0 m/s² = 18.0 kg × 4.0 m/s² = 72 N)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Three sleds (12.0 kg, 11.0 kg, 7.0 kg) are pulled east with 120 N. Find the tension in rope B. (Hint: first find the system acceleration.)",
+          "answer": "a = 120 N / (12.0+11.0+7.0) kg = 120/30 = 4.0 m/s². T = (11.0+7.0) × 4.0 = 72 N."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-tension-equal-assumption",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In a system of three sleds connected by ropes, Rope A pulls only the 12.0 kg sled, while Rope B pulls both the 11.0 kg and 7.0 kg sleds. Which rope has the greater tension?",
+          "options": [
+            "Rope A",
+            "Rope B",
+            "Both equal",
+            "Depends on acceleration"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Two boxes (8.0 kg and 12.0 kg) are connected by a rope. A horizontal force of 120 N is applied to the 8.0 kg box, pulling the system to the right. There is no friction. Calculate the tension in the rope connecting the boxes. Show your reasoning.",
+          "rubric": "The rope only pulls the 12.0 kg box. First calculate acceleration: a = F_net / (m1+m2) = 120 N / 20.0 kg = 6.0 m/s^2. Then tension in rope = m2 * a = 12.0 kg * 6.0 m/s^2 = 72 N. Full credit for correct calculation and reasoning. Partial credit if acceleration correct but tension calculated as (m1+m2)*a or m1*a."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly for passing."
+    },
+    {
+      "forErrorId": "err-net-force-neglect-friction",
+      "questions": [
+        {
+          "id": "retest-net-friction-q1",
+          "type": "single_choice",
+          "stem": "A 12.0 kg crate is pulled across a rough floor with a horizontal force of 120 N. The friction force opposing the motion is 20.0 N. What is the net force acting on the crate?",
+          "options": [
+            "120 N",
+            "100 N",
+            "140 N",
+            "20 N"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-net-friction-q2",
+          "type": "open_ended",
+          "stem": "Two blocks are pushed together on a surface with friction. The applied force is 160 N. The large block (32.0 kg) experiences 80.0 N of friction, and the small block (8.0 kg) experiences 20.0 N of friction. Calculate the net force on the system.",
+          "rubric": "Correct answer: 60 N (subtract total friction 100 N from applied 160 N). Award full marks if answer is 60 N with correct reasoning shown."
+        }
+      ],
+      "passRule": "All questions correct"
+    },
+    {
+      "forErrorId": "err-acceleration-per-object",
+      "questions": [
+        {
+          "id": "retest-acc-q1",
+          "type": "single_choice",
+          "stem": "For a system of connected objects being pulled by an external force, the acceleration of each object is:",
+          "options": [
+            "the same for all objects because they are connected",
+            "different for each object depending on its mass",
+            "different for each object depending on the net force on that object",
+            "cannot be determined without more information"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-acc-q2",
+          "type": "open_ended",
+          "stem": "Two blocks, 32.0 kg and 8.0 kg, are in contact and pushed with 160 N. Friction on the large block is 80.0 N, on the small block is 20.0 N. Calculate the acceleration of the system. Show your work and explain why you treat them as one object.",
+          "rubric": "Correctly calculates total mass = 40.0 kg, total net force = 160 N - (80 N + 20 N) = 60 N, acceleration = 60 N / 40 kg = 1.5 m/s^2. Explanation must state that both blocks move together with the same acceleration, so treat the entire system as a single object."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-mass-addition",
+      "questions": [
+        {
+          "id": "retest-mass-addition-q1",
+          "type": "single_choice",
+          "stem": "Three sleds (12.0 kg, 11.0 kg, 7.0 kg) are connected by ropes A and B and pulled east with 120 N. Rope B connects the 11.0 kg sled to the 7.0 kg sled. Which masses does Rope B directly pull?",
+          "options": [
+            "Only the 11.0 kg sled",
+            "The 11.0 kg and 7.0 kg sleds",
+            "All three sleds",
+            "Only the 7.0 kg sled"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-mass-addition-q2",
+          "type": "open_ended",
+          "stem": "Using the same three-sled system, calculate the tension in Rope B. Show your steps.",
+          "rubric": "a = 120 N / (12.0+11.0+7.0) kg = 4.0 m/s^2; T = (11.0+7.0) kg × 4.0 m/s^2 = 72 N"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-24",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HSIAduPsXowDPixtK19cq6a8nWd?from=vc_group_doc_link#doxcnOMopFJkQilUbab4HK69c9c",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-24 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "In a system of connected objects, a rope that pulls multiple masses must support the combined weight of all masses it directly pulls.；Rope A pulls only mass 3 (7.0 kg), while Rope B pulls both mass 2 (11.0 kg) and mass 3 (7.0 kg).；The net force on Rope B is calculated using the combined mass of the two blocks (18.0 kg) and the system acceleration.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Calculate the acceleration of a system of connected objects by applying Newton's second law to the total mass."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Determine tension in a rope by isolating the object(s) the rope pulls and applying Newton's second law."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Identify and include friction forces when calculating net force on an object or system."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Recognize that all objects in a connected system have the same acceleration when treated as one system."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Complete hands-on activity quiz before written assignments",
+        "studentAction": "Complete the hands-on activity quiz to self-assess understanding of free body diagram concepts before starting written tasks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students are advised to first complete the hands-on activity quiz to self-assess their mastery of core free body diagram concepts before starting written assignment tasks.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "In-class independent practice period",
+        "studentAction": "Use the ~15-minute independent practice time to work on assigned exercises.",
+        "deadlineText": "By end of class session",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The in-class independent exercise period lasts for approximately 15 minutes, and the entire session will end at the top of the hour as originally scheduled.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Access Unit 2 Lesson 2 materials",
+        "studentAction": "Navigate to the blue 'Lessons' folder on the course page, then Unit 2 > Free Body Diagrams > Lesson 2.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "course page",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All required course materials are located in the blue 'Lessons' folder on the course page, under the Unit 2 > Free Body Diagrams > Lesson 2 directory.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Complete Unit 2 Lesson 2 worksheet homework",
+        "studentAction": "Complete the mandatory Unit 2 Lesson 2 worksheet.",
+        "deadlineText": "Next class (Monday)",
+        "deadlineISO": "2026-07-27T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students need to complete the mandatory Unit 2 Lesson 2 worksheet homework",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Optional preview of Unit 2 Lesson 3",
+        "studentAction": "Optionally start reviewing Unit 2 Lesson 3 content in advance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "may optionally start working on Unit 2 Lesson 3 content in advance.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "SPH3U-C-OE02",
+      "SPH3U-C-OE03"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-tension-equal-assumption",
+        "condition": "Student chooses an option that assumes same tension in all ropes without considering which masses each rope pulls.",
+        "systemAction": "Assign reteach module for err-tension-equal-assumption."
+      },
+      {
+        "errorId": "err-net-force-neglect-friction",
+        "condition": "Student chooses an option that omits friction forces when calculating net force.",
+        "systemAction": "Assign reteach module for err-net-force-neglect-friction."
+      },
+      {
+        "errorId": "err-acceleration-per-object",
+        "condition": "Student chooses an option that calculates acceleration individually for each object instead of using system acceleration.",
+        "systemAction": "Assign reteach module for err-acceleration-per-object."
+      },
+      {
+        "errorId": "err-mass-addition",
+        "condition": "Student chooses an option that uses incorrect total mass when calculating tension in a rope pulling multiple objects.",
+        "systemAction": "Assign reteach module for err-mass-addition."
+      }
+    ],
+    "nextActions": [
+      "[err-tension-equal-assumption] Student chooses an option that assumes same tension in all ropes without considering which masses each rope pulls.: Tension in a rope depends on the total mass it directly pulls. Let's review how to isolate objects.",
+      "[err-net-force-neglect-friction] Student chooses an option that omits friction forces when calculating net force.: Remember to include friction when calculating net force. Let's practice with friction.",
+      "[err-acceleration-per-object] Student chooses an option that calculates acceleration individually for each object instead of using system acceleration.: All connected objects share the same acceleration. Let's treat them as one system.",
+      "[err-mass-addition] Student chooses an option that uses incorrect total mass when calculating tension in a rope pulling multiple objects.: When a rope pulls multiple objects, use the combined mass of those objects. Let's review."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-c2-q1",
+        "type": "choice",
+        "question": "Three sleds (12.0 kg, 11.0 kg, 7.0 kg) are connected by ropes A and B and pulled east with 120 N. Rope A connects only the 7.0 kg sled to the 11.0 kg sled. Rope B connects the 11.0 kg sled to the 12.0 kg sled. Which rope has the greater tension?",
+        "options": [
+          "Rope A, because it pulls the smallest mass.",
+          "Rope B, because it pulls the combined mass of the 11.0 kg and 7.0 kg sleds.",
+          "Both ropes have the same tension because the system is moving together.",
+          "Rope A, because it is closest to the front."
+        ],
+        "correct": 1,
+        "diagnosis": "Check whether student understands tension depends on which masses the rope pulls.",
+        "misconceptions": [
+          "Rope A pulls only the 7.0 kg sled, but rope B pulls both the 11.0 kg and 7.0 kg sleds, so rope B must support more force. Consider which masses each rope directly pulls.",
+          "✓ Correct! Rope B must pull both the middle and right sled, so it experiences greater tension.",
+          "Although the system has the same acceleration, the tension in each rope differs because they pull different masses. The tension must supply the net force for the masses it directly accelerates.",
+          "Position alone does not determine tension. You must consider the mass each rope pulls."
+        ],
+        "nodeId": "SPH3U-C-OE02",
+        "errorId": "err-tension-equal-assumption",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that rope pulling more mass has greater tension.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets tension analysis in connected systems, a core problem-solving skill under C2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Assuming all ropes in a system have equal tension regardless of pulled masses.",
+        "remediationModule": "err-tension-equal-assumption",
+        "retestItem": "err-tension-equal-assumption"
+      },
+      {
+        "id": "diag-sph3u-c2-q2",
+        "type": "choice",
+        "question": "Two blocks are pushed together with 160 N applied force. The large block (32.0 kg) experiences 80.0 N friction, and the small block (8.0 kg) experiences 20.0 N friction. What is the net horizontal force on the two-block system?",
+        "options": [
+          "160 N",
+          "80 N",
+          "60 N",
+          "140 N"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student remembers to subtract friction from applied force to find net force.",
+        "misconceptions": [
+          "You forgot to include friction. The net force is the applied force minus the total friction force.",
+          "You subtracted only the friction on the large block. You need to subtract both friction forces.",
+          "✓ Correct! Net force = 160 N - (80 N + 20 N) = 60 N.",
+          "You subtracted only the small block's friction. You need to subtract both friction forces."
+        ],
+        "nodeId": "SPH3U-C-OE02",
+        "errorId": "err-net-force-neglect-friction",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly includes friction when calculating net force on a system.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires applying net force calculation including friction, as per C2 problem-solving.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Using only applied force as net force, ignoring friction.",
+        "remediationModule": "err-net-force-neglect-friction",
+        "retestItem": "err-net-force-neglect-friction"
+      },
+      {
+        "id": "diag-sph3u-c2-q3",
+        "type": "choice",
+        "question": "Three sleds are connected by ropes and pulled east. Which statement about their accelerations is correct?",
+        "options": [
+          "Each sled has its own acceleration depending on its mass.",
+          "All three sleds have the same acceleration.",
+          "The front sled accelerates more than the back sleds.",
+          "Acceleration depends on the tension in each rope, so they are all different."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student recognizes that all parts of a connected system share the same acceleration.",
+        "misconceptions": [
+          "Because the sleds are connected by taut ropes, they all move together with the same acceleration. You must treat the whole system.",
+          "✓ Correct! The ropes keep them together, so they all accelerate at the same rate.",
+          "The applied force is on the front sled, but the tension in the ropes transmits force so that all sleds accelerate together.",
+          "While tensions differ, the acceleration of every sled must be the same because they are connected and move as one system."
+        ],
+        "nodeId": "SPH3U-C-OE02",
+        "errorId": "err-acceleration-per-object",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student identifies that all objects in a connected system accelerate together.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Correct understanding of system acceleration is fundamental to solving connected-object problems under C2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking each object has its own acceleration calculated separately.",
+        "remediationModule": "err-acceleration-per-object",
+        "retestItem": "err-acceleration-per-object"
+      },
+      {
+        "id": "diag-sph3u-c2-q4",
+        "type": "explain",
+        "question": "In the three-sled system (12.0 kg, 11.0 kg, 7.0 kg) pulled east with 120 N, the system acceleration is 4.0 m/s^2. Rope B connects the middle sled (11.0 kg) to the front sled (12.0 kg). To calculate the tension in Rope B using F_net = ma, which mass (or masses) should you use for 'm'? Explain your reasoning and then calculate the tension.",
+        "correct": null,
+        "diagnosis": "Check if student uses the correct combined mass when isolating the pulled objects to find tension.",
+        "nodeId": "SPH3U-C-OE02",
+        "errorId": "err-mass-addition",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly selects the mass to use when calculating tension in a rope that pulls multiple objects.",
+        "ossdExpectation": "Investigate net force, acceleration, and mass in qualitative and quantitative terms, and solve related problems.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "SPH3U-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Requires applying Newton's second law to find tension, a key skill under C2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Using only the mass of the object directly attached to the rope, or using total system mass.",
+        "remediationModule": "err-mass-addition",
+        "retestItem": "err-mass-addition"
+      }
+    ]
+  }
+}

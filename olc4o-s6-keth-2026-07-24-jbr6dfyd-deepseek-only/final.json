@@ -1,0 +1,728 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-24",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/JBr6dFYdNoU817xnDrzcae8Indd?from=vc_group_doc_link#doxcn6fgHOVTabfiiLfPajmuSKg",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-24 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/JBr6dFYdNoU817xnDrzcae8Indd?from=vc_group_doc_link#doxcn6fgHOVTabfiiLfPajmuSKg",
+    "title": "OLC4O.S6.Keth 2026-07-24 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-27/sources/olc4o-s6-keth-2026-07-24-jbr6dfyd/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-24",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-24",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson is primarily instructional, with the teacher explaining the core logic of the 'Humans of My High School' assignment, interview techniques (5W1H, avoiding generic questions), and providing specific revision guidance for a student's AI-flagged work. While there are operational items like submission deadlines and individual corrections, the dominant focus is on teaching academic content and skills.",
+    "academicContentSignals": [
+      "Understanding the 'Humans of New York' project as inspiration for the assignment",
+      "Core principle: stories over opinions, unique experiences over universal statements",
+      "Interview techniques: open-ended questions, 5W1H framework for follow-up",
+      "Respectful interviewing: consent, avoiding forced answers, confidentiality",
+      "Differentiating interview stories from biographical listings",
+      "Revision principles: avoiding AI-flagged patterns (overly polished images, advanced vocabulary, illogical timelines)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low to moderate. The lesson contains substantial academic content that should be the focus of diagnostic questions. Operational reminders (submission platform, deadline, revision steps) are present but should not overshadow the learning objectives. At most 1-2 lightweight readiness check items for ops.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete in-class interview outline with a classmate",
+        "studentAction": "Interview a classmate and complete the interview outline, then upload the final outline to the designated Scholar link.",
+        "deadlineText": "Before next class (implied from context '随堂作业')",
+        "deadlineISO": null,
+        "platform": "Scholar",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "随堂作业为采访同班同学完成采访大纲...最终将完整的采访大纲上传至课堂指定的 scholar 链接",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Zhu Yucheng's assignment revision and re-submission",
+        "studentAction": "Revise assignment images to be natural, rewrite text using simple vocabulary and short sentences, adjust timeline to be realistic, then send a polite email to the foreign teacher requesting re-evaluation and upload the revised version.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Zhu Yucheng (specific student)",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "重新制作作业配图...改写作业正文...向外教发送态度诚恳的邮件...完成作业重交",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Collect partner feedback on interview skills",
+        "studentAction": "After the interview, ask your partner for feedback on your interviewing skills.",
+        "deadlineText": "Same as interview outline submission",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "完成采访后需向搭档收集针对自身采访技能的反馈",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "最终将完整的采访大纲上传至课堂指定的 scholar 链接",
+        "reason": "The Scholar link is not provided in the notes; only the platform name 'scholar' is mentioned."
+      },
+      {
+        "rawText": "按随堂作业要求完成同班同学采访大纲，按时上传",
+        "reason": "Exact deadline (date/time) is not specified; only implied 'before next class' from context."
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（作业核心定位、采访伦理准则）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The assignment 'Humans of My High School' is based on the 'Humans of New York' project, which has over 10 million Instagram followers.；The core of the assignment is to collect unique, individual stories from school community members, not general opinions or philosophies.；Interviewers must respect the interviewee, demonstrate active listening, and not force answers or share confidential information without permission.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Explain the purpose of the 'Humans of My High School' assignment and its connection to narrative writing."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Identify and apply ethical interview practices including respect, active listening, and confidentiality."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "olc4o-assignment-core-logic",
+      "name": "作业核心定位",
+      "nameEn": "Assignment Core Logic",
+      "definition": "The assignment 'Humans of My High School' is a narrative writing project inspired by 'Humans of New York', aiming to collect and document unique personal stories from school community members.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "olc4o-interview-ethics",
+      "name": "采访伦理准则",
+      "nameEn": "Interview Ethics",
+      "definition": "Interviewers must respect the interviewee, demonstrate active listening, not force answers, and maintain confidentiality as requested.",
+      "officialExpectationCode": "C1",
+      "officialNodeId": "OLC4O-C-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Explain the purpose of the 'Humans of My High School' assignment and its connection to narrative writing."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify and apply ethical interview practices including respect, active listening, and confidentiality."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-olc4o-assignment-core-logic",
+        "condition": "Student answers incorrectly on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-olc4o-assignment-core-logic",
+        "studentMessage": "Let's review the core purpose of the assignment."
+      },
+      {
+        "errorId": "err-olc4o-interview-ethics",
+        "condition": "Student answers incorrectly on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-olc4o-interview-ethics",
+        "studentMessage": "Let's review ethical interview practices."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-u2-0724-q1",
+        "nodeId": "olc4o-assignment-core-logic",
+        "errorId": "err-olc4o-assignment-core-logic",
+        "stem": "What is the main purpose of the 'Humans of My High School' assignment?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the correct option identifying the main purpose of the assignment.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question tests understanding of the assignment's purpose and form, aligning with B2's requirement to use knowledge of form and purpose.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if the student understands that the assignment aims to collect unique personal stories, not general opinions.",
+        "commonMisconception": "Students might think the assignment is about gathering opinions or creating a photo gallery.",
+        "remediationModule": "err-olc4o-assignment-core-logic",
+        "retestItem": "err-olc4o-assignment-core-logic",
+        "options": [
+          {
+            "label": "A",
+            "text": "To collect general opinions about school issues.",
+            "correct": false,
+            "feedbackWrong": "The assignment focuses on unique personal stories, not general opinions."
+          },
+          {
+            "label": "B",
+            "text": "To document unique personal stories from school community members.",
+            "correct": true,
+            "feedbackCorrect": "Correct! The assignment is inspired by 'Humans of New York' and aims to capture individual narratives."
+          },
+          {
+            "label": "C",
+            "text": "To create a photo gallery of students.",
+            "correct": false,
+            "feedbackWrong": "While photos may be included, the primary purpose is to collect stories, not just photos."
+          },
+          {
+            "label": "D",
+            "text": "To practice interview techniques without a final product.",
+            "correct": false,
+            "feedbackWrong": "The in-class practice is for preparation, but the actual assignment requires a final written product."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-u2-0724-q2",
+        "nodeId": "olc4o-interview-ethics",
+        "errorId": "err-olc4o-interview-ethics",
+        "stem": "Which of the following is an essential ethical practice when interviewing a participant?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects the correct option describing an ethical interview behavior.",
+        "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "OLC4O-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question addresses ethical communication in an interview context, aligning with C1's focus on communication skills in everyday life.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Verify that the student recognizes respect, active listening, and confidentiality as ethical requirements.",
+        "commonMisconception": "Students may think that recording everything verbatim or leading questions are acceptable.",
+        "remediationModule": "err-olc4o-interview-ethics",
+        "retestItem": "err-olc4o-interview-ethics",
+        "options": [
+          {
+            "label": "A",
+            "text": "Recording every word exactly as spoken to ensure accuracy.",
+            "correct": false,
+            "feedbackWrong": "Full transcription during the interview can be distracting; it's better to record keywords and maintain eye contact."
+          },
+          {
+            "label": "B",
+            "text": "Asking leading questions to guide the interviewee toward the desired answer.",
+            "correct": false,
+            "feedbackWrong": "Leading questions can bias the response and disrespect the interviewee's perspective."
+          },
+          {
+            "label": "C",
+            "text": "Thanking the interviewee and asking permission before sharing their story.",
+            "correct": true,
+            "feedbackCorrect": "Correct! This shows respect for the interviewee's autonomy and confidentiality."
+          },
+          {
+            "label": "D",
+            "text": "Focusing on your own opinion during the interview to build rapport.",
+            "correct": false,
+            "feedbackWrong": "The interview should focus on the interviewee's story, not the interviewer's opinions."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-u2-0724-q3",
+        "nodeId": "olc4o-assignment-core-logic",
+        "errorId": "err-olc4o-assignment-core-logic",
+        "stem": "Why is it important to use simple vocabulary and short sentences in the 'Humans of My High School' assignment?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student connects revision requirements to the goal of authentic storytelling and avoiding AI detection.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question applies the expectation to write appropriately for audience and purpose, using simple language for authenticity.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check understanding of the revision strategy to avoid AI detection and maintain authentic voice.",
+        "commonMisconception": "Students may think simplicity is only for readability or teacher preference.",
+        "remediationModule": "err-olc4o-assignment-core-logic",
+        "retestItem": "err-olc4o-assignment-core-logic",
+        "options": [
+          {
+            "label": "A",
+            "text": "To make the story easier to read for classmates.",
+            "correct": false,
+            "feedbackWrong": "While readability is a benefit, the primary reason discussed in class was to avoid AI detection."
+          },
+          {
+            "label": "B",
+            "text": "To avoid AI detection and ensure the story sounds authentically human.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Using natural, simple language helps the work appear genuine and not AI-generated."
+          },
+          {
+            "label": "C",
+            "text": "Because the teacher prefers simple writing.",
+            "correct": false,
+            "feedbackWrong": "The teacher's preference is not the core reason; it's about authenticity and avoiding AI flags."
+          },
+          {
+            "label": "D",
+            "text": "To save time during editing.",
+            "correct": false,
+            "feedbackWrong": "The editing time is not the main concern; the focus is on presenting authentic stories."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-u2-0724-q4",
+        "nodeId": "olc4o-interview-ethics",
+        "errorId": "err-olc4o-interview-ethics",
+        "stem": "During an interview, a participant shares a personal story but later asks you not to include it in the assignment. What should you do?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student chooses the ethical response of respecting the participant's request.",
+        "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "OLC4O-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This scenario applies ethical communication skills in a real-life interview context.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Assess the student's ability to act ethically when confidentiality is requested.",
+        "commonMisconception": "Students might prioritize getting interesting content over respecting the participant's wishes.",
+        "remediationModule": "err-olc4o-interview-ethics",
+        "retestItem": "err-olc4o-interview-ethics",
+        "options": [
+          {
+            "label": "A",
+            "text": "Include it anyway because it makes the story more interesting.",
+            "correct": false,
+            "feedbackWrong": "This violates the participant's trust and confidentiality."
+          },
+          {
+            "label": "B",
+            "text": "Respect their request and remove that part from the final piece.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Ethical interviewing requires honoring the participant's wishes."
+          },
+          {
+            "label": "C",
+            "text": "Ask them to reconsider, but still include it if they refuse.",
+            "correct": false,
+            "feedbackWrong": "Pushing them after they decline is disrespectful; you must accept their decision."
+          },
+          {
+            "label": "D",
+            "text": "Use the story but change the name to protect their identity.",
+            "correct": false,
+            "feedbackWrong": "Even with a name change, using the story without permission breaches confidentiality."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-olc4o-assignment-core-logic",
+      "condition": "Student answers incorrectly on any question targeting this errorId",
+      "systemAction": "assign reteach module for err-olc4o-assignment-core-logic",
+      "studentMessage": "Let's review the core purpose of the assignment."
+    },
+    {
+      "errorId": "err-olc4o-interview-ethics",
+      "condition": "Student answers incorrectly on any question targeting this errorId",
+      "systemAction": "assign reteach module for err-olc4o-interview-ethics",
+      "studentMessage": "Let's review ethical interview practices."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-olc4o-assignment-core-logic",
+      "trigger": "Student incorrectly identifies the purpose of the 'Humans of My High School' assignment, e.g., selecting 'general opinions' or 'photo gallery' instead of 'unique personal stories'.",
+      "studentMisunderstanding": "The student thinks the assignment is about gathering general opinions or creating a photo gallery, rather than collecting unique personal stories from school community members.",
+      "miniLesson": {
+        "explain": "The 'Humans of My High School' assignment is inspired by the 'Humans of New York' project, which has over 10 million Instagram followers. Its core is to collect unique, individual stories from school community members, not general opinions or philosophies. The goal is to document personal narratives that reveal the diversity and humanity within the school. Photos may accompany stories, but the focus is on the story, not the photo.",
+        "example": "Model assignment from student Chen Xuanlan demonstrates natural expression and focuses on a single person's unique experience, not broad opinions. In contrast, Zhu Yucheng's assignment was flagged for AI-generated content because it used overly polished photos, rare words like 'weekway', and unrealistic timelines—all of which detract from authentic storytelling.",
+        "memoryAnchor": "Think of the 'Humans of New York' project (10 million followers): every post is one person's real story, not a general opinion. Your assignment follows the same logic: find one person, tell their unique story."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the main purpose of the 'Humans of My High School' assignment? Choose the correct statement: A) To collect general opinions about school issues. B) To document unique personal stories from school community members. C) To create a photo gallery of students. D) To practice interview techniques without a final product.",
+          "answer": "B) To document unique personal stories from school community members."
+        },
+        {
+          "level": "L2",
+          "prompt": "You interview a teacher who shares her opinion on the school's cafeteria food. How should you use this in your assignment? Explain why.",
+          "answer": "You should not use it because the assignment requires unique personal stories, not general opinions. Instead, ask her about a specific personal experience related to the cafeteria that reveals something about her life or character."
+        },
+        {
+          "level": "L3",
+          "prompt": "Zhu Yucheng's assignment was flagged as AI-generated. List three specific issues from his submission that contradict the assignment's core logic, and explain why each is a problem.",
+          "answer": "1) Overly polished photos: The assignment prioritizes authentic storytelling, not professional photography. 2) Rare word 'weekway': Using uncommon vocabulary suggests AI generation rather than natural student writing. 3) Unrealistic timeline: A believable timeline is needed for a genuine personal story. These issues show focus on appearance and complexity rather than a unique, real human story."
+        }
+      ]
+    },
+    {
+      "errorId": "err-olc4o-interview-ethics",
+      "trigger": "Student incorrectly identifies ethical interview practices, such as recording every word or asking leading questions.",
+      "studentMisunderstanding": "Students may think that recording every word verbatim ensures accuracy, or that leading questions are acceptable to guide the story.",
+      "miniLesson": {
+        "explain": "Interview ethics require respecting the interviewee, demonstrating active listening, not forcing answers, and maintaining confidentiality as requested. At the start, thank the interviewee, explain the purpose, and state they can skip questions. During the interview, only record keywords and maintain eye contact. At the closing, thank them again, confirm which parts are not to be shared, and inform them about the publication channel and timeline.",
+        "example": "Standard opening: 'Thank you for allowing me to interview you today. My name is _______. Can you please tell me your name?' This shows respect and sets a comfortable tone.",
+        "memoryAnchor": "Respect, Listen, Protect: The three pillars of ethical interviewing."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What should you do at the start of an interview?",
+          "answer": "Thank the interviewee, explain the purpose, and state they can skip questions."
+        },
+        {
+          "level": "L2",
+          "prompt": "A participant looks uncomfortable when you ask a personal question. What should you do?",
+          "answer": "Respect their discomfort; don't force an answer. Move to another topic or give them space."
+        },
+        {
+          "level": "L3",
+          "prompt": "Your interviewee shares a very private story but does not explicitly say it's off the record. Later, you realize it might be sensitive. What is the ethical way to handle this?",
+          "answer": "When in doubt, ask for permission before including any sensitive information. Better to confirm what parts are not to be shared."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-olc4o-assignment-core-logic",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "What is the primary purpose of the 'Humans of My High School' assignment?",
+          "options": [
+            "To gather general opinions about school issues",
+            "To collect unique personal stories from school community members",
+            "To create a professional photo gallery of students",
+            "To practice interview techniques without a final product"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "You interview a student who says the school's sports program is great. How would you apply the assignment's core logic to turn this into a suitable story for your project?",
+          "rubric": "Student must explain that the assignment requires a unique personal story, not a general opinion. They should suggest asking for a specific experience that reveals something personal about the student, e.g., a memorable game, a challenge overcome, or a moment of teamwork. Accept any answer that clearly distinguishes between opinion and personal narrative."
+        }
+      ],
+      "passRule": "Answer single_choice correctly AND open_ended response demonstrates understanding that the assignment focuses on unique personal stories, not general opinions."
+    },
+    {
+      "forErrorId": "err-olc4o-interview-ethics",
+      "questions": [
+        {
+          "id": "err-olc4o-interview-ethics-q1",
+          "type": "single_choice",
+          "stem": "Which action best demonstrates ethical interviewing?",
+          "options": [
+            "Record every word verbatim to ensure accuracy.",
+            "Ask leading questions to guide the story.",
+            "Let the interviewee know they can skip any question.",
+            "Continue asking even if the interviewee looks uncomfortable."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "err-olc4o-interview-ethics-q2",
+          "type": "open_ended",
+          "stem": "List two specific actions you must take when closing an interview to respect confidentiality and inform the interviewee.",
+          "rubric": "1 point for each correct action: (1) Thank the interviewee again; (2) Confirm which parts are not to be shared (off the record); (3) Inform about publication channel and timeline. (Any two of these are acceptable.)"
+        }
+      ],
+      "passRule": "Answer all questions correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-24",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/JBr6dFYdNoU817xnDrzcae8Indd?from=vc_group_doc_link#doxcn6fgHOVTabfiiLfPajmuSKg",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-24 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "The assignment 'Humans of My High School' is based on the 'Humans of New York' project, which has over 10 million Instagram followers.；The core of the assignment is to collect unique, individual stories from school community members, not general opinions or philosophies.；Interviewers must respect the interviewee, demonstrate active listening, and not force answers or share confidential information without permission.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Explain the purpose of the 'Humans of My High School' assignment and its connection to narrative writing."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Identify and apply ethical interview practices including respect, active listening, and confidentiality."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete in-class interview outline with a classmate",
+        "studentAction": "Interview a classmate and complete the interview outline, then upload the final outline to the designated Scholar link.",
+        "deadlineText": "Before next class (implied from context '随堂作业')",
+        "deadlineISO": null,
+        "platform": "Scholar",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "随堂作业为采访同班同学完成采访大纲...最终将完整的采访大纲上传至课堂指定的 scholar 链接",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Zhu Yucheng's assignment revision and re-submission",
+        "studentAction": "Revise assignment images to be natural, rewrite text using simple vocabulary and short sentences, adjust timeline to be realistic, then send a polite email to the foreign teacher requesting re-evaluation and upload the revised version.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Zhu Yucheng (specific student)",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "重新制作作业配图...改写作业正文...向外教发送态度诚恳的邮件...完成作业重交",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Collect partner feedback on interview skills",
+        "studentAction": "After the interview, ask your partner for feedback on your interviewing skills.",
+        "deadlineText": "Same as interview outline submission",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "完成采访后需向搭档收集针对自身采访技能的反馈",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "最终将完整的采访大纲上传至课堂指定的 scholar 链接",
+        "reason": "The Scholar link is not provided in the notes; only the platform name 'scholar' is mentioned."
+      },
+      {
+        "rawText": "按随堂作业要求完成同班同学采访大纲，按时上传",
+        "reason": "Exact deadline (date/time) is not specified; only implied 'before next class' from context."
+      }
+    ],
+    "watchTags": [
+      "olc4o-assignment-core-logic",
+      "olc4o-interview-ethics"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-olc4o-assignment-core-logic",
+        "condition": "Student answers incorrectly on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-olc4o-assignment-core-logic"
+      },
+      {
+        "errorId": "err-olc4o-interview-ethics",
+        "condition": "Student answers incorrectly on any question targeting this errorId",
+        "systemAction": "assign reteach module for err-olc4o-interview-ethics"
+      }
+    ],
+    "nextActions": [
+      "[err-olc4o-assignment-core-logic] Student answers incorrectly on any question targeting this errorId: Let's review the core purpose of the assignment.",
+      "[err-olc4o-interview-ethics] Student answers incorrectly on any question targeting this errorId: Let's review ethical interview practices."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-u2-0724-q1",
+        "type": "choice",
+        "question": "What is the main purpose of the 'Humans of My High School' assignment?",
+        "options": [
+          "To collect general opinions about school issues.",
+          "To document unique personal stories from school community members.",
+          "To create a photo gallery of students.",
+          "To practice interview techniques without a final product."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if the student understands that the assignment aims to collect unique personal stories, not general opinions.",
+        "misconceptions": [
+          "The assignment focuses on unique personal stories, not general opinions.",
+          "✓ Correct! The assignment is inspired by 'Humans of New York' and aims to capture individual narratives.",
+          "While photos may be included, the primary purpose is to collect stories, not just photos.",
+          "The in-class practice is for preparation, but the actual assignment requires a final written product."
+        ],
+        "nodeId": "olc4o-assignment-core-logic",
+        "errorId": "err-olc4o-assignment-core-logic",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the correct option identifying the main purpose of the assignment.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question tests understanding of the assignment's purpose and form, aligning with B2's requirement to use knowledge of form and purpose.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students might think the assignment is about gathering opinions or creating a photo gallery.",
+        "remediationModule": "err-olc4o-assignment-core-logic",
+        "retestItem": "err-olc4o-assignment-core-logic"
+      },
+      {
+        "id": "diag-olc4o-u2-0724-q2",
+        "type": "choice",
+        "question": "Which of the following is an essential ethical practice when interviewing a participant?",
+        "options": [
+          "Recording every word exactly as spoken to ensure accuracy.",
+          "Asking leading questions to guide the interviewee toward the desired answer.",
+          "Thanking the interviewee and asking permission before sharing their story.",
+          "Focusing on your own opinion during the interview to build rapport."
+        ],
+        "correct": 2,
+        "diagnosis": "Verify that the student recognizes respect, active listening, and confidentiality as ethical requirements.",
+        "misconceptions": [
+          "Full transcription during the interview can be distracting; it's better to record keywords and maintain eye contact.",
+          "Leading questions can bias the response and disrespect the interviewee's perspective.",
+          "✓ Correct! This shows respect for the interviewee's autonomy and confidentiality.",
+          "The interview should focus on the interviewee's story, not the interviewer's opinions."
+        ],
+        "nodeId": "olc4o-interview-ethics",
+        "errorId": "err-olc4o-interview-ethics",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects the correct option describing an ethical interview behavior.",
+        "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "OLC4O-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question addresses ethical communication in an interview context, aligning with C1's focus on communication skills in everyday life.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think that recording everything verbatim or leading questions are acceptable.",
+        "remediationModule": "err-olc4o-interview-ethics",
+        "retestItem": "err-olc4o-interview-ethics"
+      },
+      {
+        "id": "diag-olc4o-u2-0724-q3",
+        "type": "choice",
+        "question": "Why is it important to use simple vocabulary and short sentences in the 'Humans of My High School' assignment?",
+        "options": [
+          "To make the story easier to read for classmates.",
+          "To avoid AI detection and ensure the story sounds authentically human.",
+          "Because the teacher prefers simple writing.",
+          "To save time during editing."
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding of the revision strategy to avoid AI detection and maintain authentic voice.",
+        "misconceptions": [
+          "While readability is a benefit, the primary reason discussed in class was to avoid AI detection.",
+          "✓ Correct! Using natural, simple language helps the work appear genuine and not AI-generated.",
+          "The teacher's preference is not the core reason; it's about authenticity and avoiding AI flags.",
+          "The editing time is not the main concern; the focus is on presenting authentic stories."
+        ],
+        "nodeId": "olc4o-assignment-core-logic",
+        "errorId": "err-olc4o-assignment-core-logic",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student connects revision requirements to the goal of authentic storytelling and avoiding AI detection.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question applies the expectation to write appropriately for audience and purpose, using simple language for authenticity.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may think simplicity is only for readability or teacher preference.",
+        "remediationModule": "err-olc4o-assignment-core-logic",
+        "retestItem": "err-olc4o-assignment-core-logic"
+      },
+      {
+        "id": "diag-olc4o-u2-0724-q4",
+        "type": "choice",
+        "question": "During an interview, a participant shares a personal story but later asks you not to include it in the assignment. What should you do?",
+        "options": [
+          "Include it anyway because it makes the story more interesting.",
+          "Respect their request and remove that part from the final piece.",
+          "Ask them to reconsider, but still include it if they refuse.",
+          "Use the story but change the name to protect their identity."
+        ],
+        "correct": 1,
+        "diagnosis": "Assess the student's ability to act ethically when confidentiality is requested.",
+        "misconceptions": [
+          "This violates the participant's trust and confidentiality.",
+          "✓ Correct! Ethical interviewing requires honoring the participant's wishes.",
+          "Pushing them after they decline is disrespectful; you must accept their decision.",
+          "Even with a name change, using the story without permission breaches confidentiality."
+        ],
+        "nodeId": "olc4o-interview-ethics",
+        "errorId": "err-olc4o-interview-ethics",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student chooses the ethical response of respecting the participant's request.",
+        "ossdExpectation": "Demonstrate understanding of the importance of communication skills in their everyday lives - at school, at work, and at home.",
+        "officialExpectationCode": "C1",
+        "officialNodeId": "OLC4O-C-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This scenario applies ethical communication skills in a real-life interview context.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students might prioritize getting interesting content over respecting the participant's wishes.",
+        "remediationModule": "err-olc4o-interview-ethics",
+        "retestItem": "err-olc4o-interview-ethics"
+      }
+    ]
+  }
+}
