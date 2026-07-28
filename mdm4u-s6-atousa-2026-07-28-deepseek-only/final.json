@@ -1,0 +1,654 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-28",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/BZQbdixm5oRzwuxAV3dcvhm1nQh?from=vc_group_doc_link#doxcnc0swTzZaMqyYVLKZeNr5Mf",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-28 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/BZQbdixm5oRzwuxAV3dcvhm1nQh?from=vc_group_doc_link#doxcnc0swTzZaMqyYVLKZeNr5Mf",
+    "title": "MDM4U.S6.Atousa 2026-07-28 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-28/sources/mdm4u-s6-atousa-2026-07-28/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-28",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-28",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes new instruction on geometric distribution (concepts, formulas, calculator and Python tools) followed by in-class exercise walkthroughs, making it a mix of instruction and guided practice.",
+    "academicContentSignals": [
+      "Geometric distribution: applies to independent repeated trials, variable Y is number of trials until first success.",
+      "Formula: P(Y=k) = (1-p)^(k-1) * p",
+      "Expected value: E(Y) = 1/p",
+      "Cumulative probability: P(Y ≤ k) = 1 - (1-p)^k",
+      "TI calculator: geometricPDF(p,k) for exact probability, geometricCDF(p,k) for cumulative.",
+      "Python: custom functions using power and multiplication, matplotlib for histograms.",
+      "In-class examples: lawn mower (p=0.2), roulette (p=1/38), class lucky day game (p=1/7)."
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations (calculator/Python practice assignments, positive mindset check) are present but secondary to the core academic instruction. Risk is low to medium; the diagnostic card should focus on geometric distribution mastery.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Calculator operation practice for geometric PDF and CDF",
+        "studentAction": "Complete TI calculator practice for geometricPDF and geometricCDF functions after class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "TI calculator",
+        "link": null,
+        "appliesTo": "all",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students must complete operation practice for TI calculator geometric PDF and CDF functions after class, to avoid score loss caused by unskilled operation during exams.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Python coding practice for geometric distribution",
+        "studentAction": "Independently complete geometric distribution calculation function encapsulation and probability histogram drawing coding exercises.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Python",
+        "link": null,
+        "appliesTo": "all",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students need to independently complete geometric distribution calculation function encapsulation and probability histogram drawing coding exercises.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "teacher_request",
+        "title": "Positive mindset practice check next day",
+        "studentAction": "Continuously practice positive thinking; teacher will check each student's practice feedback and corresponding positive event occurrence the next day.",
+        "deadlineText": "next day",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The teacher will randomly check students' positive thinking practice the next day.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Geometric Probability Distribution）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Geometric distribution applies to independent repeated trials with fixed single-trial success probability p, counting the number of trials until the first success.；The random variable Y takes positive integer values 1,2,3,... representing the trial of first success.；Exact probability formula: P(Y=k) = (1-p)^(k-1) * p.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify scenarios that follow a geometric distribution and distinguish them from binomial scenarios."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply the geometric probability formula P(Y=k) = (1-p)^(k-1)p to compute exact probabilities."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Interpret the expected value E(Y)=1/p as the average number of trials to first success."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "geo-dist",
+      "name": "Geometric Probability Distribution",
+      "nameEn": "Geometric Probability Distribution",
+      "definition": "A discrete probability distribution modeling the number of independent Bernoulli trials needed to achieve the first success, with constant success probability p per trial. Key properties: P(Y=k) = (1-p)^(k-1)p, E(Y)=1/p, P(Y≤k)=1-(1-p)^k.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "MDM4U-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify scenarios that follow a geometric distribution and distinguish them from binomial scenarios."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the geometric probability formula P(Y=k) = (1-p)^(k-1)p to compute exact probabilities."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Interpret the expected value E(Y)=1/p as the average number of trials to first success."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "condition": "2-3 correct",
+        "systemAction": "mark passed; unlock normal homework",
+        "studentMessage": "You have a solid grasp of the geometric distribution fundamentals."
+      },
+      {
+        "condition": "1 correct",
+        "systemAction": "assign reteach modules for missed errorIds, then retest",
+        "studentMessage": "You're on the right track but need to revisit some key ideas. Complete the 5-minute mini-lessons for the topics you missed, then retry."
+      },
+      {
+        "condition": "0 correct",
+        "systemAction": "start full reteach path for all three errorIds",
+        "studentMessage": "The geometric distribution concepts haven't clicked yet. Let's rebuild from the ground up with step-by-step guidance."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-geo-q1",
+        "nodeId": "geo-dist",
+        "errorId": "err-geo-confuse-binomial",
+        "stem": "Which of the following situations is most appropriate for modeling with a geometric distribution?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the scenario with independent trials counting to first success, not number of successes in fixed trials.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses understanding of a discrete probability distribution scenario.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can identify the geometric distribution's defining features: independent trials, constant p, count trials to first success.",
+        "commonMisconception": "Student thinks binomial and geometric are the same, or chooses a scenario with fixed number of trials.",
+        "remediationModule": "err-geo-confuse-binomial",
+        "retestItem": "err-geo-confuse-binomial",
+        "options": [
+          {
+            "label": "A",
+            "text": "Counting how many successes you get when you roll a dice 10 times.",
+            "correct": false,
+            "feedbackWrong": "This is binomial: fixed number of trials (10), counting successes."
+          },
+          {
+            "label": "B",
+            "text": "Rolling a dice until you get a 6, and counting how many rolls it took.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Geometric distribution counts trials until the first success (getting a 6)."
+          },
+          {
+            "label": "C",
+            "text": "Selecting 5 cards from a deck without replacement and counting how many are hearts.",
+            "correct": false,
+            "feedbackWrong": "This is hypergeometric, not geometric; trials are dependent (no replacement) and you count successes in a fixed sample."
+          },
+          {
+            "label": "D",
+            "text": "Spinning a spinner 20 times and recording the outcomes.",
+            "correct": false,
+            "feedbackWrong": "This is multinomial or categorical, not geometric; it doesn't focus on time until first success."
+          }
+        ],
+        "nextActionIfWrong": "Assign err-geo-confuse-binomial reteach module."
+      },
+      {
+        "id": "diag-mdm4u-geo-q2",
+        "nodeId": "geo-dist",
+        "errorId": "err-geo-wrong-formula",
+        "stem": "For a geometric distribution with success probability p = 0.25, what is P(Y = 4)?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly computes (0.75)^3 * 0.25.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires applying the geometric probability formula, a key algebraic representation.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Assess whether student uses the correct formula P(Y=k) = (1-p)^(k-1)p, not confusing exponents or using binomial formula.",
+        "commonMisconception": "Student uses p^k, or (1-p)^k p (forgetting the -1 on the exponent), or uses binomial formula.",
+        "remediationModule": "err-geo-wrong-formula",
+        "retestItem": "err-geo-wrong-formula",
+        "options": [
+          {
+            "label": "A",
+            "text": "(0.75)^4 * 0.25 ≈ 0.0791",
+            "correct": false,
+            "feedbackWrong": "Almost, but the exponent should be k-1 = 3, not 4. The correct exponent counts failures before the success."
+          },
+          {
+            "label": "B",
+            "text": "(0.25)^4 ≈ 0.0039",
+            "correct": false,
+            "feedbackWrong": "You used p^k, but the formula includes failure probability (1-p) raised to k-1 times p."
+          },
+          {
+            "label": "C",
+            "text": "(0.75)^3 * 0.25 ≈ 0.1055",
+            "correct": true,
+            "feedbackCorrect": "Correct! P(Y=4) = (1-0.25)^(4-1) * 0.25 = (0.75)^3 * 0.25 ≈ 0.1055."
+          },
+          {
+            "label": "D",
+            "text": "4 * 0.25 * (0.75)^3 ≈ 0.4219",
+            "correct": false,
+            "feedbackWrong": "That looks like the binomial formula for exactly 1 success in 4 trials, not geometric. Geometric does not have a combinatorial coefficient."
+          }
+        ],
+        "nextActionIfWrong": "Assign err-geo-wrong-formula reteach module."
+      },
+      {
+        "id": "diag-mdm4u-geo-q3",
+        "nodeId": "geo-dist",
+        "errorId": "err-geo-expectation-misapplied",
+        "stem": "In a geometric distribution with success probability p = 0.2, the expected value E(Y) = 1/p = 5. Interpret this value in the context of the distribution.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student explains that on average it takes 5 trials to get the first success, but individual results vary.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question evaluates understanding of expected value for a discrete distribution, a core component.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check if student understands expected value as a long-run average, not a guarantee, and can articulate it in context.",
+        "commonMisconception": "Student thinks E(Y) guarantees the first success occurs exactly on the 5th trial, or that it's the most likely value.",
+        "remediationModule": "err-geo-expectation-misapplied",
+        "retestItem": "err-geo-expectation-misapplied",
+        "rubric": "Full credit (2 points): Mentions that on average it takes 5 trials to achieve first success, and that this is a mean over many repetitions, not a guarantee. Partial credit (1 point): Only states that the expected number of trials is 5, but does not clarify it's an average. No credit: Says the first success always occurs on the 5th trial or misinterprets as mode.",
+        "sampleStrongAnswer": "The expected value of 5 means that if you repeat this process many times, the average number of trials needed to get the first success will be about 5. It does not mean that the first success is guaranteed to happen on the 5th trial; some attempts may take fewer or more trials.",
+        "nextActionIfWrong": "Assign err-geo-expectation-misapplied reteach module."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "condition": "2-3 correct",
+      "systemAction": "mark passed; unlock normal homework",
+      "studentMessage": "You have a solid grasp of the geometric distribution fundamentals."
+    },
+    {
+      "condition": "1 correct",
+      "systemAction": "assign reteach modules for missed errorIds, then retest",
+      "studentMessage": "You're on the right track but need to revisit some key ideas. Complete the 5-minute mini-lessons for the topics you missed, then retry."
+    },
+    {
+      "condition": "0 correct",
+      "systemAction": "start full reteach path for all three errorIds",
+      "studentMessage": "The geometric distribution concepts haven't clicked yet. Let's rebuild from the ground up with step-by-step guidance."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-geo-confuse-binomial",
+      "trigger": "Student selects a binomial scenario (e.g., counting successes in fixed trials) when asked to identify a geometric distribution.",
+      "studentMisunderstanding": "The student thinks that any distribution involving repeated trials with two outcomes is binomial. They fail to recognize that geometric distribution counts trials until the first success, not the number of successes in a fixed number of trials.",
+      "miniLesson": {
+        "explain": "The geometric distribution models the number of independent trials needed to achieve the first success, where each trial has the same success probability p. In contrast, the binomial distribution counts the number of successes in a fixed number of trials. Key phrase: geometric asks 'how many trials until first success?', binomial asks 'how many successes in n trials?'.",
+        "example": "Lawn mower pull start: p=0.2. Geometric: P(first success on 3rd pull) = (0.8)^2 * 0.2 = 0.128. Binomial would ask probability of getting exactly 1 success in 3 pulls, which is 3*0.2*(0.8)^2 = 0.384. They are different!",
+        "memoryAnchor": "Remember: 'Geometric = time until success' (think 'Geo' as in 'Earth', the first time you strike oil). 'Binomial = count of successes' (think 'Bi' as in 'two' outcomes in a fixed number of tries)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which scenario fits a geometric distribution? A) Rolling a die 10 times and counting how many 6's appear. B) Rolling a die until a 6 appears and recording the number of rolls. C) Drawing 5 cards from a deck without replacement and counting hearts. D) Randomly selecting 20 people and counting left-handers.",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "For a process with success probability p = 1/38 (e.g., roulette bet on a single number), calculate the probability that the first success occurs on the 5th trial using the geometric formula. Then, calculate the binomial probability of exactly 1 success in 5 trials with the same p. Are they the same? Explain briefly.",
+          "answer": "Geometric: P(Y=5) = (37/38)^4 * (1/38) ≈ 0.023. Binomial: P(X=1) = 5 * (1/38) * (37/38)^4 ≈ 0.115. They are different because geometric has no coefficient and counts failures before success; binomial includes the number of ways to place the one success."
+        },
+        {
+          "level": "L3",
+          "prompt": "A game has success probability p = 1/7. The class must decide: accept 10 homework assignments for sure, or play a round where everyone draws until first success and the number of trials determines the homework (one per trial). Use geometric cumulative probability to show that the probability of needing 10 or fewer trials is about 0.75. Would the expected value (E(Y)=7) and the cumulative probability affect your decision? Explain why this is a geometric scenario, not binomial.",
+          "answer": "P(Y≤10) = 1 - (6/7)^10 ≈ 0.75. Since there is a 75% chance of finishing in 10 or fewer trials, it might be better to play. This is geometric because we count trials to first success; binomial would require a fixed number of trials and count successes, which doesn't apply."
+        }
+      ]
+    },
+    {
+      "errorId": "err-geo-wrong-formula",
+      "trigger": "Student incorrectly writes P(Y=k) as p^k or (1-p)^k p, forgetting the (k-1) exponent on failure probability.",
+      "studentMisunderstanding": "Student thinks the exponent for (1-p) should be k instead of k-1, or uses p^k directly, missing the required failures before success.",
+      "miniLesson": {
+        "explain": "The geometric distribution counts trials until first success. The probability that the first success occurs on trial k is P(Y=k) = (1-p)^(k-1) * p. The exponent (k-1) represents the number of failures before the success. A common mistake is using (1-p)^k or p^k. Remember: you must have k-1 failures (each with probability 1-p) and then one success (probability p).",
+        "example": "For p = 0.2 (lawn mower pull start), P(Y=3) = (0.8)^2 * 0.2 = 0.128. This is correct because there are 2 failures (first two pulls) and then success on the third.",
+        "memoryAnchor": "The exponent on failure is one less than the trial number because you need failures before the success. Think: 'k-1 failures, then success.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For a geometric distribution with p = 0.2, find P(Y=4). Write the formula with numbers and compute the probability.",
+          "answer": "P(Y=4) = (1-0.2)^(4-1) * 0.2 = (0.8)^3 * 0.2 = 0.512 * 0.2 = 0.1024."
+        },
+        {
+          "level": "L2",
+          "prompt": "In a roulette game where the chance of winning on a specific number is p = 1/38, what is the probability that the first win occurs on the 5th bet? Express your answer as a decimal rounded to three decimal places.",
+          "answer": "P(Y=5) = (37/38)^4 * (1/38) ≈ 0.9736^4 * 0.0263 ≈ 0.8926 * 0.0263 ≈ 0.023."
+        },
+        {
+          "level": "L3",
+          "prompt": "A class uses a lucky day game with p = 1/7 to decide if they do homework. What is the probability that the first 'do homework' day occurs on the 7th day? Write the formula and compute the probability.",
+          "answer": "P(Y=7) = (6/7)^6 * (1/7) ≈ (0.8571)^6 * 0.1429 ≈ 0.3966 * 0.1429 ≈ 0.0567."
+        }
+      ]
+    },
+    {
+      "errorId": "err-geo-expectation-misapplied",
+      "trigger": "Student selects an incorrect expected value calculation or misinterprets the meaning of E(Y).",
+      "studentMisunderstanding": "The student thinks the expected value of a geometric distribution equals the success probability p or the failure probability 1-p, instead of 1/p. They may also believe that the expected value guarantees the first success occurs on that trial.",
+      "miniLesson": {
+        "explain": "In a geometric distribution, the expected value E(Y) represents the average number of trials needed to get the first success. The correct formula is E(Y) = 1/p, where p is the success probability for each trial. For example, if p = 1/38, then on average it takes 38 trials. It does NOT mean that the first success will always happen on the 38th trial; it's just the long-run average. Common mistakes include thinking E(Y) = p or E(Y) = 1-p. Remember: the larger the success probability, the fewer trials expected.",
+        "example": "Consider the roulette example where p = 1/38. The expected number of spins to win is 38. That means if you play many times, the average number of spins until your number appears is 38. Some attempts may succeed earlier (e.g., on the 5th spin) or later (e.g., on the 100th spin). The expected value does not guarantee a result on a specific trial.",
+        "memoryAnchor": "Recall: E(Y) = 1/p. Think '1 over p' — if p is small (like 1/38), the expected trials is large (38). If p is large, expected trials is small."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the formula for the expected value of a geometric distribution?",
+          "answer": "E(Y) = 1/p"
+        },
+        {
+          "level": "L2",
+          "prompt": "In roulette, the probability of winning on a single number is 1/38. What is the expected number of spins until you win?",
+          "answer": "38"
+        },
+        {
+          "level": "L3",
+          "prompt": "In a game with p = 1/7, the expected number of trials is 7. A classmate says 'That means you will always get a success on the 7th trial.' Is this correct? Explain.",
+          "answer": "No. The expected value is the average over many repetitions. It does not guarantee the exact trial of the first success. Some trials may succeed earlier or later."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-geo-confuse-binomial",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following scenarios is best modeled by a geometric distribution?",
+          "options": [
+            "Number of successes in 10 coin flips (binomial)",
+            "Number of rolls of a die until a 6 appears (geometric)",
+            "Number of red cards in a 5-card hand (hypergeometric)",
+            "Number of left-handed people in a sample of 20 (binomial if independence)"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A spinner has a 20% chance of landing on red. Calculate the probability that the first red occurs on the 3rd spin using the geometric formula. Then calculate the probability of exactly one red in three spins using the binomial formula. Show your work and explain why the two probabilities differ.",
+          "rubric": "Geometric: P(Y=3) = (0.8)^2 * 0.2 = 0.128. Binomial: P(X=1) = C(3,1)*0.2*0.8^2 = 3*0.2*0.64 = 0.384. The geometric distribution counts trials until first success, so it requires two failures before the success. The binomial distribution counts successes in a fixed number of trials and includes all arrangements of one success and two failures, hence the larger probability."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-geo-wrong-formula",
+      "questions": [
+        {
+          "id": "q1-geo-formula",
+          "type": "single_choice",
+          "stem": "Which of the following correctly gives the probability that the first success occurs on trial k in a geometric distribution with success probability p?",
+          "options": [
+            "p^k",
+            "(1-p)^k p",
+            "(1-p)^(k-1) p",
+            "(1-p)^k"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2-geo-apply",
+          "type": "open_ended",
+          "stem": "In a quality control process, the probability that an item is defective is 1/7. Items are inspected one by one until the first defective is found. What is the probability that the first defective is found on the 4th item? Write the formula with numbers and compute the probability as a decimal rounded to three decimal places.",
+          "rubric": "Check for correct formula: (6/7)^(4-1)*(1/7) = (6/7)^3*(1/7). Accept computed probability around 0.090 (0.08996)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the single choice, select option C. For the open-ended, the formula must correctly apply (1-p)^(k-1) p and the computed probability must be within 0.01 of 0.090."
+    },
+    {
+      "forErrorId": "err-geo-expectation-misapplied",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "For a geometric distribution with success probability p = 1/7, what is the expected number of trials until the first success?",
+          "options": [
+            "1/7",
+            "6/7",
+            "7",
+            "7/6"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "In a game where the probability of winning each round is 1/38, the expected number of rounds to win is 38. Explain why this does not mean that you are guaranteed to win on the 38th round.",
+          "rubric": "Student must explain that expected value is the long-run average over many repetitions, not a guarantee for any single attempt. Many repetitions will have varying trial numbers; some successes occur earlier or later than 38."
+        }
+      ],
+      "passRule": "Student selects the correct option in q1 and provides a reasonable explanation in q2, acknowledging that expectation is an average, not a guarantee."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-28",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/BZQbdixm5oRzwuxAV3dcvhm1nQh?from=vc_group_doc_link#doxcnc0swTzZaMqyYVLKZeNr5Mf",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-28 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Geometric distribution applies to independent repeated trials with fixed single-trial success probability p, counting the number of trials until the first success.；The random variable Y takes positive integer values 1,2,3,... representing the trial of first success.；Exact probability formula: P(Y=k) = (1-p)^(k-1) * p.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify scenarios that follow a geometric distribution and distinguish them from binomial scenarios."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the geometric probability formula P(Y=k) = (1-p)^(k-1)p to compute exact probabilities."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Interpret the expected value E(Y)=1/p as the average number of trials to first success."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Calculator operation practice for geometric PDF and CDF",
+        "studentAction": "Complete TI calculator practice for geometricPDF and geometricCDF functions after class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "TI calculator",
+        "link": null,
+        "appliesTo": "all",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students must complete operation practice for TI calculator geometric PDF and CDF functions after class, to avoid score loss caused by unskilled operation during exams.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Python coding practice for geometric distribution",
+        "studentAction": "Independently complete geometric distribution calculation function encapsulation and probability histogram drawing coding exercises.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Python",
+        "link": null,
+        "appliesTo": "all",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students need to independently complete geometric distribution calculation function encapsulation and probability histogram drawing coding exercises.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "teacher_request",
+        "title": "Positive mindset practice check next day",
+        "studentAction": "Continuously practice positive thinking; teacher will check each student's practice feedback and corresponding positive event occurrence the next day.",
+        "deadlineText": "next day",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The teacher will randomly check students' positive thinking practice the next day.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "geo-dist"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "condition": "2-3 correct",
+        "systemAction": "mark passed; unlock normal homework"
+      },
+      {
+        "condition": "1 correct",
+        "systemAction": "assign reteach modules for missed errorIds, then retest"
+      },
+      {
+        "condition": "0 correct",
+        "systemAction": "start full reteach path for all three errorIds"
+      }
+    ],
+    "nextActions": [
+      "2-3 correct: You have a solid grasp of the geometric distribution fundamentals.",
+      "1 correct: You're on the right track but need to revisit some key ideas. Complete the 5-minute mini-lessons for the topics you missed, then retry.",
+      "0 correct: The geometric distribution concepts haven't clicked yet. Let's rebuild from the ground up with step-by-step guidance."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-geo-q1",
+        "type": "choice",
+        "question": "Which of the following situations is most appropriate for modeling with a geometric distribution?",
+        "options": [
+          "Counting how many successes you get when you roll a dice 10 times.",
+          "Rolling a dice until you get a 6, and counting how many rolls it took.",
+          "Selecting 5 cards from a deck without replacement and counting how many are hearts.",
+          "Spinning a spinner 20 times and recording the outcomes."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can identify the geometric distribution's defining features: independent trials, constant p, count trials to first success.",
+        "misconceptions": [
+          "This is binomial: fixed number of trials (10), counting successes.",
+          "✓ Correct! Geometric distribution counts trials until the first success (getting a 6).",
+          "This is hypergeometric, not geometric; trials are dependent (no replacement) and you count successes in a fixed sample.",
+          "This is multinomial or categorical, not geometric; it doesn't focus on time until first success."
+        ],
+        "nodeId": "geo-dist",
+        "errorId": "err-geo-confuse-binomial",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects the scenario with independent trials counting to first success, not number of successes in fixed trials.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses understanding of a discrete probability distribution scenario.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks binomial and geometric are the same, or chooses a scenario with fixed number of trials.",
+        "remediationModule": "err-geo-confuse-binomial",
+        "retestItem": "err-geo-confuse-binomial"
+      },
+      {
+        "id": "diag-mdm4u-geo-q2",
+        "type": "choice",
+        "question": "For a geometric distribution with success probability p = 0.25, what is P(Y = 4)?",
+        "options": [
+          "(0.75)^4 * 0.25 ≈ 0.0791",
+          "(0.25)^4 ≈ 0.0039",
+          "(0.75)^3 * 0.25 ≈ 0.1055",
+          "4 * 0.25 * (0.75)^3 ≈ 0.4219"
+        ],
+        "correct": 2,
+        "diagnosis": "Assess whether student uses the correct formula P(Y=k) = (1-p)^(k-1)p, not confusing exponents or using binomial formula.",
+        "misconceptions": [
+          "Almost, but the exponent should be k-1 = 3, not 4. The correct exponent counts failures before the success.",
+          "You used p^k, but the formula includes failure probability (1-p) raised to k-1 times p.",
+          "✓ Correct! P(Y=4) = (1-0.25)^(4-1) * 0.25 = (0.75)^3 * 0.25 ≈ 0.1055.",
+          "That looks like the binomial formula for exactly 1 success in 4 trials, not geometric. Geometric does not have a combinatorial coefficient."
+        ],
+        "nodeId": "geo-dist",
+        "errorId": "err-geo-wrong-formula",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly computes (0.75)^3 * 0.25.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question requires applying the geometric probability formula, a key algebraic representation.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student uses p^k, or (1-p)^k p (forgetting the -1 on the exponent), or uses binomial formula.",
+        "remediationModule": "err-geo-wrong-formula",
+        "retestItem": "err-geo-wrong-formula"
+      },
+      {
+        "id": "diag-mdm4u-geo-q3",
+        "type": "explain",
+        "question": "In a geometric distribution with success probability p = 0.2, the expected value E(Y) = 1/p = 5. Interpret this value in the context of the distribution.",
+        "correct": null,
+        "diagnosis": "Check if student understands expected value as a long-run average, not a guarantee, and can articulate it in context.",
+        "nodeId": "geo-dist",
+        "errorId": "err-geo-expectation-misapplied",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student explains that on average it takes 5 trials to get the first success, but individual results vary.",
+        "ossdExpectation": "Demonstrate an understanding of discrete probability distributions, represent them numerically, graphically, and algebraically, determine expected values, and solve related problems from a variety of applications.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MDM4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question evaluates understanding of expected value for a discrete distribution, a core component.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Student thinks E(Y) guarantees the first success occurs exactly on the 5th trial, or that it's the most likely value.",
+        "remediationModule": "err-geo-expectation-misapplied",
+        "retestItem": "err-geo-expectation-misapplied"
+      }
+    ]
+  }
+}

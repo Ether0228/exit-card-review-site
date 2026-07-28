@@ -1,0 +1,1278 @@
+{
+  "sourceLesson": "CIA4U.S6.Bianca 2026-07-28",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HhnmdYVFxo0P3Lx7GAmcFn6unQZ?from=vc_group_doc_link#doxcnaudmvpEXUej0M2mzC1r8Tg",
+  "sourceTitle": "CIA4U.S6.Bianca 2026-07-28 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/HhnmdYVFxo0P3Lx7GAmcFn6unQZ?from=vc_group_doc_link#doxcnaudmvpEXUej0M2mzC1r8Tg",
+    "title": "CIA4U.S6.Bianca 2026-07-28 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-28/sources/cia4u-s6-bianca-2026-07-28/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "CIA4U",
+  "lessonDate": "2026-07-28",
+  "teacher": "Bianca",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-28",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes direct instruction on income inequality measurement and policy, case study videos, and group discussions. Also contains upcoming assignment/test reminders.",
+    "academicContentSignals": [
+      "Income inequality measurement: Lorenz curve and Gini index",
+      "US income distribution quintiles: bottom 20% holds 4%, top 20% holds 48.1%",
+      "Cross-country inequality ranking: Japan/Germany most equal, Brazil/South Africa least equal",
+      "Inequality trend drivers: trade with low-wage countries, skill-biased technological change",
+      "US poverty demographic breakdown: single-mother households 31.1%, married couples 5.9%",
+      "Canadian affordability crisis: food bank usage doubled, 1 in 5 users employed, homelessness nearly doubled",
+      "Root cause of Canadian affordability: 40-year stagnant productivity",
+      "2025 housing price drop temporary, affordability won't return to 2000 levels for 20-25 years",
+      "2026 food price inflation forecast 4%-6%",
+      "Government anti-poverty policy philosophies: utilitarianism, liberalism with maximin, libertarianism",
+      "Policy tools: minimum wage, welfare, negative income tax, in-kind transfers",
+      "Unintended side effects: high effective marginal tax rates",
+      "Proposed optimizations: phased benefit reduction, workfare, limited-term eligibility",
+      "Economic mobility: 4 out of 5 US millionaires self-made"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations include upcoming assignment deadline, test review schedule, homework requirements, and camera policy. While academic content is substantial, ops items could distract from core learning if overemphasized. Ensure diagnostic questions focus on income inequality, policy, and case study analysis.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Unit 2 Assignment 2",
+        "studentAction": "Submit Unit 2 Assignment 2 by tomorrow; if unable, request extension from instructor.",
+        "deadlineText": "The following day (July 29, 2026)",
+        "deadlineISO": "2026-07-29T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Unit 2 Assignment 2 is due the following day; participants who have not yet submitted may request extended time",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Test Review Session",
+        "studentAction": "Attend the final review lesson tomorrow to prepare for the test on Wednesday/Thursday.",
+        "deadlineText": "Review lesson: next day (July 29, 2026); Test: Wednesday (Thursday for participants' time zone)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The final Unit 2 review lesson will be held the next day, which will cover all key test content before the formal test scheduled for Wednesday (Thursday for participants’ time zone).",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Complete 3 short-answer review questions",
+        "studentAction": "Complete 3 short-answer review questions on income inequality, minimum wage, and economic mobility independently.",
+        "deadlineText": "After class (no specific deadline given)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "3 short-answer review questions covering core concepts of income inequality, minimum wage and economic mobility will be sent to all participants for independent completion.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Camera must be on during class",
+        "studentAction": "Keep camera on for the entire class; otherwise will be marked absent and removed.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu/online meeting",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The instructor reiterates that all participants must keep their cameras on for the full duration of the class, and non-compliant participants will be marked absent and removed from the meeting.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "CIA4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Income Inequality、Poverty Rate、Global Income Inequality Trends、Lorenz Curve and Gini Index）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 8 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Income inequality measures the gap in income between different social wealth classes.；Poverty rate is the percentage of the population with family income below the government-set absolute poverty line.；In the United States, the bottom 20% of families hold 4% of total pre-tax income, while the top 20% hold 48.1%.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Define income inequality and explain how it is measured using the Lorenz curve and Gini index."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Describe global income inequality trends and identify key differences among countries."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Analyze the Canadian affordability crisis in relation to productivity and poverty indicators."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Distinguish among utilitarianism, liberalism (maximin criterion), and libertarianism regarding income redistribution."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Explain common anti-poverty policy tools and the effective marginal tax rate trap."
+    },
+    {
+      "id": "lg-6",
+      "statement": "Differentiate between poverty rate and income inequality as distinct economic measures."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "income-inequality-definition",
+      "name": "Income Inequality",
+      "nameEn": "Income Inequality",
+      "definition": "The gap in income between different social wealth classes, measured using indicators such as the Lorenz curve and Gini index.",
+      "officialExpectationCode": "DD1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income."
+    },
+    {
+      "id": "poverty-rate-definition",
+      "name": "Poverty Rate",
+      "nameEn": "Poverty Rate",
+      "definition": "The percentage of the population whose family income falls below the government-set absolute poverty line.",
+      "officialExpectationCode": "DD1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income."
+    },
+    {
+      "id": "global-inequality-trends",
+      "name": "Global Income Inequality Trends",
+      "nameEn": "Global Income Inequality Trends",
+      "definition": "Since 1970, global income inequality has widened significantly, driven by expanded international trade with low-wage countries and skill-biased technological change.",
+      "officialExpectationCode": "EE3.1",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Analyse data on global economic disparities and explain the main causes and effects of economic marginalization."
+    },
+    {
+      "id": "lorenz-curve-gini",
+      "name": "Lorenz Curve and Gini Index",
+      "nameEn": "Lorenz Curve and Gini Index",
+      "definition": "The Lorenz curve is a graphical representation of income distribution; the Gini index is a numerical measure derived from it, ranging from 0 (perfect equality) to 1 (perfect inequality).",
+      "officialExpectationCode": "DD1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income."
+    },
+    {
+      "id": "canada-affordability-crisis",
+      "name": "Canadian Affordability Crisis",
+      "nameEn": "Canadian Affordability Crisis",
+      "definition": "Canada's ongoing affordability crisis is rooted in 40 years of stagnant productivity, reflected in doubled food bank usage since 2019 and near-doubled homelessness from 2018 to 2024.",
+      "officialExpectationCode": "DD1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income."
+    },
+    {
+      "id": "redistribution-philosophies",
+      "name": "Income Redistribution Philosophies",
+      "nameEn": "Income Redistribution Philosophies",
+      "definition": "Three main political philosophies: utilitarianism (maximize total utility), liberalism (maximin criterion to help the worst-off), and libertarianism (opposes mandatory redistribution, prioritizes individual property rights).",
+      "officialExpectationCode": "BB4.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain how governments with different political perspectives respond to economic challenges, including the allocation of limited resources among competing interests."
+    },
+    {
+      "id": "anti-poverty-tools",
+      "name": "Anti-Poverty Policy Tools",
+      "nameEn": "Anti-Poverty Policy Tools",
+      "definition": "Common tools include minimum wage laws, welfare programs, negative income tax, and in-kind transfers such as food stamps and public healthcare subsidies.",
+      "officialExpectationCode": "CC3.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain programs and policies of governments in various countries designed to narrow income inequality, and assess their effectiveness."
+    },
+    {
+      "id": "effective-marginal-tax-rate-trap",
+      "name": "Effective Marginal Tax Rate Trap",
+      "nameEn": "Effective Marginal Tax Rate Trap",
+      "definition": "Anti-poverty programs may create high effective marginal tax rates, meaning that as beneficiaries earn more income, they lose benefits at a rate that discourages formal full-time employment.",
+      "officialExpectationCode": "CC3.2",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain programs and policies of governments in various countries designed to narrow income inequality, and assess their effectiveness."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define income inequality and explain how it is measured using the Lorenz curve and Gini index."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Describe global income inequality trends and identify key differences among countries."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Analyze the Canadian affordability crisis in relation to productivity and poverty indicators."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Distinguish among utilitarianism, liberalism (maximin criterion), and libertarianism regarding income redistribution."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Explain common anti-poverty policy tools and the effective marginal tax rate trap."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Differentiate between poverty rate and income inequality as distinct economic measures."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-income-inequality-confusion",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module for err-income-inequality-confusion",
+        "studentMessage": "It looks like you may be mixing up income inequality with wealth or poverty. Let's clarify the definition and measurement."
+      },
+      {
+        "errorId": "err-gini-range",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module for err-gini-range",
+        "studentMessage": "Remember that the Gini index ranges from 0 to 1, not 0 to 100. A higher number means more inequality."
+      },
+      {
+        "errorId": "err-poverty-rate-vs-inequality",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for err-poverty-rate-vs-inequality",
+        "studentMessage": "Poverty rate and income inequality are related but distinct. Let's review the difference."
+      },
+      {
+        "errorId": "err-canada-productivity-cause",
+        "condition": "student picks wrong option on Q4",
+        "systemAction": "assign reteach module for err-canada-productivity-cause",
+        "studentMessage": "Canada's affordability crisis is not solely about housing or inflation; stagnant productivity is a root cause."
+      },
+      {
+        "errorId": "err-libertarian-redistribution",
+        "condition": "student picks wrong option on Q5",
+        "systemAction": "assign reteach module for err-libertarian-redistribution",
+        "studentMessage": "Libertarianism opposes mandatory redistribution. Let's revisit the three redistribution philosophies."
+      },
+      {
+        "errorId": "err-effective-marginal-tax-rate-misunderstanding",
+        "condition": "student does not mention benefit reductions or work disincentive in Q6",
+        "systemAction": "assign reteach module for err-effective-marginal-tax-rate-misunderstanding",
+        "studentMessage": "The effective marginal tax rate trap is about losing benefits as income rises, which can discourage work."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-cia4u-s6-q1",
+        "nodeId": "income-inequality-definition",
+        "errorId": "err-income-inequality-confusion",
+        "stem": "Which of the following best describes what the Lorenz curve and Gini index measure?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that Lorenz curve and Gini index measure income distribution/inequality, not wealth or absolute poverty.",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation DD1.3 covers income distribution measurement; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that income inequality is measured by Lorenz curve and Gini index, not other concepts.",
+        "commonMisconception": "Students may think the Gini index measures absolute poverty or wealth inequality instead of relative income distribution.",
+        "remediationModule": "err-income-inequality-confusion",
+        "retestItem": "err-income-inequality-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "The percentage of the population living below the poverty line",
+            "correct": false,
+            "feedbackWrong": "That describes the poverty rate, not the Lorenz curve or Gini index. The Lorenz curve and Gini index measure the distribution of income across the entire population."
+          },
+          {
+            "label": "B",
+            "text": "The distribution of income across a population, showing inequality",
+            "correct": true,
+            "feedbackCorrect": "Correct. The Lorenz curve shows the cumulative share of income held by different percentiles, and the Gini index summarizes that inequality."
+          },
+          {
+            "label": "C",
+            "text": "The total wealth held by the top 1% compared to the bottom 50%",
+            "correct": false,
+            "feedbackWrong": "That is a specific statistic about wealth inequality, not what the Lorenz curve and Gini index directly measure (they measure income distribution)."
+          },
+          {
+            "label": "D",
+            "text": "The rate of economic growth in a country",
+            "correct": false,
+            "feedbackWrong": "Economic growth is usually measured by GDP growth, not by the Lorenz curve or Gini index."
+          }
+        ],
+        "nextActionIfWrong": "err-income-inequality-confusion"
+      },
+      {
+        "id": "diag-cia4u-s6-q2",
+        "nodeId": "lorenz-curve-gini",
+        "errorId": "err-gini-range",
+        "stem": "What is the correct range of the Gini index, and what does a higher value indicate?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recalls that Gini index ranges from 0 to 1 and higher values mean greater inequality.",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation DD1.3 covers income distribution measurement; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "stemIntent": "Check if student correctly remembers the numerical range and interpretation of the Gini index.",
+        "commonMisconception": "Students may think the Gini index ranges from 0 to 100 (like a percentage) or that a higher value means more equality.",
+        "remediationModule": "err-gini-range",
+        "retestItem": "err-gini-range",
+        "options": [
+          {
+            "label": "A",
+            "text": "0 to 100; higher value means more equality",
+            "correct": false,
+            "feedbackWrong": "The Gini index is not on a 0–100 scale. It is a decimal between 0 and 1, and a higher value means more inequality, not more equality."
+          },
+          {
+            "label": "B",
+            "text": "0 to 1; higher value means greater inequality",
+            "correct": true,
+            "feedbackCorrect": "Correct. The Gini index ranges from 0 (perfect equality) to 1 (perfect inequality). A higher value indicates a more unequal distribution."
+          },
+          {
+            "label": "C",
+            "text": "1 to 100; higher value means more poverty",
+            "correct": false,
+            "feedbackWrong": "The Gini index is not measured on that scale, and it measures inequality, not poverty."
+          },
+          {
+            "label": "D",
+            "text": "0 to 1; higher value means more equality",
+            "correct": false,
+            "feedbackWrong": "The range is correct but the interpretation is reversed. A higher Gini index means more inequality, not equality."
+          }
+        ],
+        "nextActionIfWrong": "err-gini-range"
+      },
+      {
+        "id": "diag-cia4u-s6-q3",
+        "nodeId": "poverty-rate-definition",
+        "errorId": "err-poverty-rate-vs-inequality",
+        "stem": "How does the poverty rate differ from income inequality as measured by the Gini index?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-6",
+        "successCriteria": "Student distinguishes poverty rate (absolute threshold) from Gini index (relative distribution across all income levels).",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation DD1.3 covers both poverty and inequality measures; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that poverty rate is based on a fixed line while Gini index is a relative measure of distribution among all groups.",
+        "commonMisconception": "Students may think poverty rate and Gini index are interchangeable or that both measure the same thing.",
+        "remediationModule": "err-poverty-rate-vs-inequality",
+        "retestItem": "err-poverty-rate-vs-inequality",
+        "options": [
+          {
+            "label": "A",
+            "text": "The poverty rate measures the gap between rich and poor, while the Gini index counts those below a fixed income line.",
+            "correct": false,
+            "feedbackWrong": "That's reversed. The poverty rate counts those below a fixed line; the Gini index measures the overall gap in distribution."
+          },
+          {
+            "label": "B",
+            "text": "They are the same concept; both measure the number of people living in poverty.",
+            "correct": false,
+            "feedbackWrong": "They are distinct. Poverty rate is a headcount below a threshold, while the Gini index reflects inequality across all income levels, not just the poor."
+          },
+          {
+            "label": "C",
+            "text": "The poverty rate is a percentage of the population below a fixed income line, while the Gini index measures the relative distribution of income across the entire population.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Poverty rate is an absolute measure based on a line; the Gini index is a relative measure of inequality."
+          },
+          {
+            "label": "D",
+            "text": "The poverty rate compares income shares of the top and bottom 20%, while the Gini index uses a government-set line.",
+            "correct": false,
+            "feedbackWrong": "That description reverses the roles. The Gini index compares income shares across all percentiles; the poverty rate uses a fixed income line."
+          }
+        ],
+        "nextActionIfWrong": "err-poverty-rate-vs-inequality"
+      },
+      {
+        "id": "diag-cia4u-s6-q4",
+        "nodeId": "canada-affordability-crisis",
+        "errorId": "err-canada-productivity-cause",
+        "stem": "According to the lesson, what is the core root of Canada's ongoing affordability crisis?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies stagnant productivity as the root cause, not just housing prices or inflation.",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation DD1.3 covers standards of living; productivity is related but broader; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "stemIntent": "Check if student recalls the specific root cause highlighted in the lesson: stagnant productivity.",
+        "commonMisconception": "Students may attribute the crisis solely to rising housing costs or inflation, overlooking the productivity stagnation as the core root.",
+        "remediationModule": "err-canada-productivity-cause",
+        "retestItem": "err-canada-productivity-cause",
+        "options": [
+          {
+            "label": "A",
+            "text": "Rising housing prices",
+            "correct": false,
+            "feedbackWrong": "Housing is a symptom, not the root cause. The lesson identified stagnant productivity over 40 years as the core root."
+          },
+          {
+            "label": "B",
+            "text": "High inflation rates",
+            "correct": false,
+            "feedbackWrong": "Inflation is a factor, but the lesson attributed the affordability crisis primarily to sluggish productivity."
+          },
+          {
+            "label": "C",
+            "text": "Stagnant productivity over 40 years",
+            "correct": true,
+            "feedbackCorrect": "Correct. The lesson cited Moshe Lander's argument that Canada's 40-year stagnant productivity is the core root of the affordability crisis."
+          },
+          {
+            "label": "D",
+            "text": "Increased food bank usage",
+            "correct": false,
+            "feedbackWrong": "Food bank usage is an indicator of the crisis, not its root cause."
+          }
+        ],
+        "nextActionIfWrong": "err-canada-productivity-cause"
+      },
+      {
+        "id": "diag-cia4u-s6-q5",
+        "nodeId": "redistribution-philosophies",
+        "errorId": "err-libertarian-redistribution",
+        "stem": "Which of the following statements best reflects the libertarian view on income redistribution?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student correctly identifies that libertarianism opposes mandatory redistribution and prioritizes property rights.",
+        "ossdExpectation": "Explain how governments with different political perspectives respond to economic challenges, including the allocation of limited resources among competing interests.",
+        "officialExpectationCode": "BB4.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation BB4.2 covers government responses to challenges; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student distinguishes libertarianism from other redistribution philosophies.",
+        "commonMisconception": "Students may think libertarianism supports some redistribution or that it focuses on maximizing total utility.",
+        "remediationModule": "err-libertarian-redistribution",
+        "retestItem": "err-libertarian-redistribution",
+        "options": [
+          {
+            "label": "A",
+            "text": "The government should redistribute income to maximize total utility in society.",
+            "correct": false,
+            "feedbackWrong": "That is the utilitarian view. Libertarianism opposes mandatory redistribution."
+          },
+          {
+            "label": "B",
+            "text": "The government should redistribute income to help the worst-off, even if it limits inequality.",
+            "correct": false,
+            "feedbackWrong": "That is the liberal (maximin) view. Libertarianism does not support such redistribution."
+          },
+          {
+            "label": "C",
+            "text": "Mandatory redistribution violates individual property rights; the government should only enforce voluntary transfers.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Libertarianism prioritizes property rights and opposes mandatory redistribution."
+          },
+          {
+            "label": "D",
+            "text": "Some redistribution is acceptable if it does not reduce overall economic growth.",
+            "correct": false,
+            "feedbackWrong": "This is a pragmatic view, not specifically libertarian. Libertarianism generally opposes any mandatory redistribution."
+          }
+        ],
+        "nextActionIfWrong": "err-libertarian-redistribution"
+      },
+      {
+        "id": "diag-cia4u-s6-q6",
+        "nodeId": "effective-marginal-tax-rate-trap",
+        "errorId": "err-effective-marginal-tax-rate-misunderstanding",
+        "stem": "Briefly explain how anti-poverty programs can create an effective marginal tax rate trap, and why this may discourage low-income individuals from seeking full-time employment.",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-5",
+        "successCriteria": "Explanation includes loss of benefits as income rises (implicit tax) and the resulting disincentive to work.",
+        "ossdExpectation": "Explain programs and policies of governments in various countries designed to narrow income inequality, and assess their effectiveness.",
+        "officialExpectationCode": "CC3.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation CC3.2 covers policies to narrow inequality; includes effectiveness which may involve side effects.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student understands that effective marginal tax rate includes both income tax and benefit reductions, and can explain the work disincentive.",
+        "commonMisconception": "Students may think effective marginal tax rate refers only to income tax brackets, ignoring the impact of phasing out benefits.",
+        "remediationModule": "err-effective-marginal-tax-rate-misunderstanding",
+        "retestItem": "err-effective-marginal-tax-rate-misunderstanding",
+        "rubric": "Full credit (2 points): identifies that as income rises, benefits are reduced, creating a high effective marginal tax rate; explains that this can discourage full-time work because additional earnings are effectively taxed at a high rate. Partial credit (1 point): mentions benefit reduction but not clearly linked to work disincentive. No credit (0 points): only mentions income tax or gives incorrect answer.",
+        "sampleStrongAnswer": "Anti-poverty programs often phase out benefits as income increases. For example, as a welfare recipient earns more from work, they may lose food stamps, housing subsidies, or cash assistance. The combined loss of benefits plus income taxes can mean that for every additional dollar earned, the individual keeps very little, effectively a high marginal tax rate. This discourages low-income individuals from pursuing full-time formal employment because the net gain is small.",
+        "nextActionIfWrong": "err-effective-marginal-tax-rate-misunderstanding"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-income-inequality-confusion",
+      "condition": "student picks wrong option on Q1",
+      "systemAction": "assign reteach module for err-income-inequality-confusion",
+      "studentMessage": "It looks like you may be mixing up income inequality with wealth or poverty. Let's clarify the definition and measurement."
+    },
+    {
+      "errorId": "err-gini-range",
+      "condition": "student picks wrong option on Q2",
+      "systemAction": "assign reteach module for err-gini-range",
+      "studentMessage": "Remember that the Gini index ranges from 0 to 1, not 0 to 100. A higher number means more inequality."
+    },
+    {
+      "errorId": "err-poverty-rate-vs-inequality",
+      "condition": "student picks wrong option on Q3",
+      "systemAction": "assign reteach module for err-poverty-rate-vs-inequality",
+      "studentMessage": "Poverty rate and income inequality are related but distinct. Let's review the difference."
+    },
+    {
+      "errorId": "err-canada-productivity-cause",
+      "condition": "student picks wrong option on Q4",
+      "systemAction": "assign reteach module for err-canada-productivity-cause",
+      "studentMessage": "Canada's affordability crisis is not solely about housing or inflation; stagnant productivity is a root cause."
+    },
+    {
+      "errorId": "err-libertarian-redistribution",
+      "condition": "student picks wrong option on Q5",
+      "systemAction": "assign reteach module for err-libertarian-redistribution",
+      "studentMessage": "Libertarianism opposes mandatory redistribution. Let's revisit the three redistribution philosophies."
+    },
+    {
+      "errorId": "err-effective-marginal-tax-rate-misunderstanding",
+      "condition": "student does not mention benefit reductions or work disincentive in Q6",
+      "systemAction": "assign reteach module for err-effective-marginal-tax-rate-misunderstanding",
+      "studentMessage": "The effective marginal tax rate trap is about losing benefits as income rises, which can discourage work."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-income-inequality-confusion",
+      "trigger": "Student incorrectly identifies what the Lorenz curve and Gini index measure, e.g., selecting 'the percentage of the population below the poverty line' instead of 'the distribution of income across a population'.",
+      "studentMisunderstanding": "Students may confuse income inequality with wealth inequality, or think the Gini index measures absolute poverty rather than relative distribution.",
+      "miniLesson": {
+        "explain": "Income inequality measures the gap in income between different social wealth classes. It is distinct from wealth inequality, which measures assets (like property and investments). The Lorenz curve and Gini index are tools to measure income inequality: the Lorenz curve shows cumulative income shares by population percentiles, and the Gini index (0 = perfect equality, 1 = perfect inequality) summarizes that distribution. The poverty rate, by contrast, is the percentage of the population with family income below a fixed poverty line. These concepts are related but different.",
+        "example": "In the United States, the bottom 20% of families hold 4% of total pre-tax income, while the top 20% hold 48.1%. This is an example of income inequality. If we plotted this on a Lorenz curve, it would show a large bend away from the perfect equality line. The Gini index would be relatively high (around 0.39 for the US). Meanwhile, the US poverty rate (e.g., 31.1% for single-mother households) is a separate measure counting those below the poverty line.",
+        "memoryAnchor": "Think: Income inequality = how the pie is sliced (relative shares). Wealth inequality = who owns the bakery (assets). The Gini index tells you if the slices are uneven, not who is hungry (poverty line)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which measure shows the percentage of people below a fixed poverty line?",
+          "answer": "Poverty rate"
+        },
+        {
+          "level": "L2",
+          "prompt": "If a country's Gini index is 0.25, does that indicate high or low income inequality?",
+          "answer": "Low inequality"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the Lorenz curve and Gini index are considered relative measures of income distribution, not absolute measures like the poverty rate.",
+          "answer": "The Lorenz curve compares the actual distribution of income to a hypothetical perfect equality distribution across all population percentiles, and the Gini index quantifies that deviation. Both are relative because they depend on the entire distribution, not on a fixed income threshold. The poverty rate is an absolute measure because it uses a fixed income line (e.g., government-set poverty line) regardless of how income is distributed among other groups."
+        }
+      ]
+    },
+    {
+      "errorId": "err-gini-range",
+      "trigger": "student picks wrong option on Q2",
+      "studentMisunderstanding": "Students may incorrectly think the Gini index ranges from 0 to 100 instead of 0 to 1, or misinterpret higher values as indicating more equality.",
+      "miniLesson": {
+        "explain": "The Gini index is a numerical measure of income inequality derived from the Lorenz curve. It ranges from 0 (perfect equality, where everyone has the same income) to 1 (perfect inequality, where one person has all the income). A higher Gini index means greater inequality. It is not a percentage (0-100).",
+        "example": "In the United States, the bottom 20% of families hold only 4% of pre-tax income, while the top 20% hold 48.1%. This large gap would result in a high Gini index (close to 0.5). In contrast, Japan and Germany have more equal distributions, meaning their Gini indices are lower.",
+        "memoryAnchor": "Think of Gini like a distance from perfect equality: 0 means everyone is equal, 1 means one person has everything."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the correct numerical range of the Gini index?",
+          "answer": "0 to 1"
+        },
+        {
+          "level": "L2",
+          "prompt": "According to the lesson, Japan and Germany have the most equal income distribution, while Brazil and South Africa have the least equal. Which country would have a higher Gini index?",
+          "answer": "Brazil or South Africa"
+        },
+        {
+          "level": "L3",
+          "prompt": "Why does the United States have a high Gini index compared to other Western industrialized nations? Use data from the lesson.",
+          "answer": "The United States has the highest income inequality among all Western industrialized nations, so its Gini index is higher than that of countries like Japan and Germany."
+        }
+      ]
+    },
+    {
+      "errorId": "err-poverty-rate-vs-inequality",
+      "trigger": "student picks wrong option on Q3",
+      "studentMisunderstanding": "Students may think poverty rate and income inequality measure the same thing, but poverty rate is a count relative to a fixed line, while inequality compares distribution across all groups.",
+      "miniLesson": {
+        "explain": "The poverty rate is the percentage of the population whose family income falls below a government-set absolute poverty line. It measures how many people are in poverty. Income inequality, on the other hand, measures the gap in income between different social wealth classes across the entire population, often using tools like the Lorenz curve and Gini index. A country can have a low poverty rate but high inequality (e.g., a few very rich and many just above the poverty line) or high poverty rate but low inequality (e.g., most people are poor but incomes are similar).",
+        "example": "In the United States, the bottom 20% of families hold 4% of total pre-tax income, while the top 20% hold 48.1% – this shows high inequality. At the same time, the poverty rate varies by household type: 31.1% for single-mother households and 5.9% for married-couple households. These two statistics tell different stories: the poverty rate counts those below a fixed line, while the Gini index would reflect the overall distribution.",
+        "memoryAnchor": "Think of a ladder: Poverty rate counts how many people are on the bottom rung (below a line). Inequality measures how far apart the rungs are from top to bottom."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Define the poverty rate and income inequality using your own words.",
+          "answer": "Poverty rate is the percentage of the population with family income below the government-set absolute poverty line. Income inequality measures the gap in income between different social wealth classes, often using the Lorenz curve and Gini index."
+        },
+        {
+          "level": "L2",
+          "prompt": "Country X has a poverty rate of 5% but the top 20% earn 60% of all income. Is this an example of high or low inequality? Which measure tells you about the distribution of income across all groups?",
+          "answer": "This is an example of high income inequality. The poverty rate (5%) only tells you that few are below the poverty line, but the inequality measure (Gini index) would show a highly unequal distribution because the top 20% earn a very large share. So inequality is high despite low poverty."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain a scenario where a government might successfully lower the poverty rate but income inequality remains unchanged or even increases. Use concepts from the lesson.",
+          "answer": "If the government provides a small cash transfer to everyone just above the poverty line, many people may cross the poverty line, lowering the poverty rate. However, if the rich continue to earn much more and the poor gain very little relative to the rich, the overall income distribution remains unequal. The Gini index would still be high because the relative gap between rich and poor did not shrink. This shows that poverty rate and inequality are distinct."
+        }
+      ]
+    },
+    {
+      "errorId": "err-canada-productivity-cause",
+      "trigger": "Students often think that Canada's affordability crisis is caused primarily by rising housing prices or inflation.",
+      "studentMisunderstanding": "Students may overlook that the root cause is 40 years of stagnant productivity, as argued by economist Moshe Lander.",
+      "miniLesson": {
+        "explain": "Canada's affordability crisis is not simply a result of high housing costs or inflation. According to Moshe Lander of Concordia University, the core root is Canada’s 40-year stagnant productivity. When productivity growth is slow, wages and living standards do not keep pace with costs. This makes everyday expenses like food and housing harder to afford. For example, since 2019, Canadian food bank usage has doubled, and 1 in 5 food bank users have formal jobs. Homelessness nearly doubled from 2018 to 2024. These indicators show that the problem is deeper than temporary price spikes.",
+        "example": "Imagine a factory that produces the same number of widgets per hour as it did 40 years ago. Even if the price of each widget rises, the workers' real income growth is limited. That's like Canada's economy: productivity stagnation means overall economic growth is weak, leading to an affordability crisis despite some temporary price drops (like the 3% housing price drop in 2025).",
+        "memoryAnchor": "Remember: Productivity is the engine of prosperity. Canada's engine has been stalled for 40 years, causing the affordability crisis."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the core root of Canada's affordability crisis according to the lesson?",
+          "answer": "Stagnant productivity over 40 years."
+        },
+        {
+          "level": "L2",
+          "prompt": "Explain how stagnant productivity can lead to increased food bank usage and homelessness, even when some prices fall temporarily.",
+          "answer": "When productivity stagnates, incomes grow slowly, making it hard for people to afford rising costs. Even if housing prices drop a little (like 3% in 2025), incomes are still low, so affordability doesn't improve. More people rely on food banks (usage doubled since 2019) and homelessness has nearly doubled since 2018."
+        },
+        {
+          "level": "L3",
+          "prompt": "Critically: If Canada's productivity remains stagnant, why might the 2025 housing price drop (3%) be only temporary, and what does that say about long-term affordability?",
+          "answer": "The 3% drop is temporary because the underlying productivity problem hasn't been solved. Without productivity growth, real wages won't rise, so housing will remain unaffordable for decades. The lesson states affordability won't return to 2000 levels for 20-25 years. Productivity stagnation is the root cause; short-term price fluctuations don't fix the core issue."
+        }
+      ]
+    },
+    {
+      "errorId": "err-libertarian-redistribution",
+      "trigger": "Student incorrectly selects an option that does not match libertarianism's opposition to mandatory redistribution.",
+      "studentMisunderstanding": "Students may think libertarianism supports some redistribution, but it opposes mandatory redistribution and champions individual property rights.",
+      "miniLesson": {
+        "explain": "Libertarianism is one of three main redistribution philosophies. Unlike utilitarianism (maximize total utility) and liberalism (maximin criterion to help the worst-off), libertarianism opposes mandatory redistribution because it violates individual property rights. It prioritizes voluntary transfers and believes that any forced redistribution is unjust, even if it reduces inequality or increases overall well-being. In practice, this means libertarians generally oppose welfare, progressive taxation, and other government anti-poverty programs that require taking from some to give to others.",
+        "example": "Consider the fact that 4 out of 5 US millionaires built their wealth independently, while only 1 in 5 inherited it. A libertarian would argue that the wealth earned by the self-made millionaires is rightfully theirs, and the government should not forcibly redistribute it to others, even if inequality exists. Instead, any help should come from voluntary charity.",
+        "memoryAnchor": "Liberty means no forced sharing: Libertarians say 'my property, my rules.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the libertarian position on mandatory redistribution?",
+          "answer": "Libertarianism opposes mandatory redistribution because it violates individual property rights."
+        },
+        {
+          "level": "L2",
+          "prompt": "Explain how the libertarian view differs from the utilitarian view on income redistribution.",
+          "answer": "Utilitarianism supports redistribution if it increases total utility, while libertarianism opposes any mandatory redistribution, regardless of utility gains, because it infringes on property rights."
+        },
+        {
+          "level": "L3",
+          "prompt": "Using the fact that 4 out of 5 US millionaires built their wealth independently, explain why a libertarian would argue against a wealth tax on the top 1%.",
+          "answer": "A libertarian would argue that the wealth of self-made millionaires is rightfully theirs; taxing it away would be a violation of their property rights. Even if the tax reduces inequality, the libertarian prioritizes individual liberty and voluntary transfers over forced redistribution."
+        }
+      ]
+    },
+    {
+      "errorId": "err-effective-marginal-tax-rate-misunderstanding",
+      "trigger": "student does not mention benefit reductions or work disincentive in Q6",
+      "studentMisunderstanding": "Students think effective marginal tax rate refers only to income tax, not including benefit reductions, and may not see it as a disincentive to work.",
+      "miniLesson": {
+        "explain": "The effective marginal tax rate (EMTR) measures the proportion of an additional dollar of income that is taken through income taxes plus the reduction in government benefits. For low-income individuals receiving anti-poverty benefits, as they earn more from work, they may lose benefits like food stamps, housing subsidies, or cash assistance. This loss acts like an implicit tax. When combined with income taxes, the EMTR can be very high—sometimes exceeding 50% or even 100%—meaning the individual keeps very little of each extra dollar earned. This creates a 'trap' that discourages seeking formal full-time employment because working more may not significantly increase net income.",
+        "example": "Consider a single parent receiving $1,000/month in welfare and $200/month in food stamps. They start a part-time job earning $500/month. Their income rises by $500, but they lose $300 in welfare and $50 in food stamps. Their net gain is only $150. The marginal tax from benefits is 70% (($300+$50)/$500). If income taxes also apply, the effective marginal tax rate could be even higher. This illustrates why some low-income individuals may prefer not to work additional hours.",
+        "memoryAnchor": "Remember 'EMTR' as 'Every Marginal Tax Rate'—not just income tax, but also the hidden 'tax' of losing benefits. Think of it as a 'trap' that catches people when they try to earn more."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the effective marginal tax rate?",
+          "answer": "The effective marginal tax rate is the share of an additional dollar of income that is lost to income taxes plus reductions in government benefits."
+        },
+        {
+          "level": "L2",
+          "prompt": "Explain how losing benefits as income rises creates a high effective marginal tax rate. Use an example with numbers.",
+          "answer": "For example, if a person earns $200 more but loses $150 in benefits, the benefit reduction rate is 75% ($150/$200). That means for each extra dollar earned, they keep only $0.25 from benefits alone. Combined with income taxes, the effective marginal tax rate may exceed 75%, reducing the incentive to work more."
+        },
+        {
+          "level": "L3",
+          "prompt": "Why might a high effective marginal tax rate discourage low-income individuals from taking full-time employment? Propose a policy to reduce this disincentive.",
+          "answer": "A high EMTR means that increasing work effort yields little net income gain, making full-time employment less attractive than continuing to rely on benefits. This can trap individuals in poverty. One policy solution is to phase out benefits gradually (i.e., reduce benefits by a smaller percentage for each dollar earned), lowering the EMTR and preserving work incentives."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-income-inequality-confusion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following best describes what the Gini index measures?",
+          "options": [
+            "The percentage of the population living in poverty",
+            "The distribution of income across a population",
+            "The total wealth of a country",
+            "The unemployment rate"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Using the data that the bottom 20% of US families hold 4% of pre-tax income while the top 20% hold 48.1%, explain why this is an example of income inequality and not poverty rate. In your answer, define both terms.",
+          "rubric": "Student correctly distinguishes income inequality (relative shares) from poverty rate (absolute threshold). Uses the data to illustrate inequality. (At least two sentences showing understanding.)"
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the answer must correctly distinguish income inequality from poverty rate and reference the data."
+    },
+    {
+      "forErrorId": "err-gini-range",
+      "questions": [
+        {
+          "id": "gini-range-q1",
+          "type": "single_choice",
+          "stem": "Which of the following correctly describes the Gini index?",
+          "options": [
+            "It ranges from 0 to 100, with higher values indicating more equality.",
+            "It ranges from 0 to 1, with higher values indicating more equality.",
+            "It ranges from 0 to 1, with higher values indicating more inequality.",
+            "It ranges from 0 to 100, with higher values indicating more inequality."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "gini-range-q2",
+          "type": "open_ended",
+          "stem": "Country A has a Gini index of 0.25, and Country B has a Gini index of 0.60. Which country has more income inequality? Explain your answer using the correct interpretation of the Gini index.",
+          "rubric": "Must clearly identify Country B as having more inequality. Explanation must state that the Gini index ranges from 0 (perfect equality) to 1 (perfect inequality), and higher values indicate greater inequality. Reference to the given numbers is expected."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For Q2, the response must correctly identify Country B as more unequal and explain that higher Gini index means greater inequality, referencing the 0-1 scale."
+    },
+    {
+      "forErrorId": "err-poverty-rate-vs-inequality",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following best explains why a country can have a low poverty rate but high income inequality?",
+          "options": [
+            "Most people are poor, and income is equally distributed.",
+            "A large percentage of the population lives below the poverty line.",
+            "The poverty line is set very high, so few are below it, but the rich earn much more than the rest.",
+            "The Gini index is low, indicating equal distribution."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why the poverty rate and income inequality are different economic indicators. Use an example from the lesson data.",
+          "rubric": "A complete answer must define both terms clearly, and use a specific data point (e.g., US top 20% vs bottom 20% income shares, or food bank usage in Canada) to illustrate that they measure different aspects. The poverty rate counts those below a fixed line; inequality compares relative shares across all groups."
+        }
+      ],
+      "passRule": "Must answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-canada-productivity-cause",
+      "questions": [
+        {
+          "id": "retest-prod-cause-q1",
+          "type": "single_choice",
+          "stem": "According to economist Moshe Lander, what is the core root of Canada's ongoing affordability crisis?",
+          "options": [
+            "Rising housing prices",
+            "Inflation",
+            "Stagnant productivity",
+            "High food costs"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-prod-cause-q2",
+          "type": "open_ended",
+          "stem": "Explain how Canada's stagnant productivity over the past 40 years has contributed to the country's affordability crisis, using specific evidence from the lesson (e.g., food bank usage, homelessness).",
+          "rubric": "Student states that stagnant productivity leads to slow income growth, making it difficult to afford rising costs. Must mention: productivity stagnation as root cause, connection to increased food bank usage (doubled since 2019) and near-doubled homelessness (2018-2024). Accept temporary price drops (e.g., 3% housing drop in 2025) as insufficient because underlying productivity issue persists."
+        }
+      ],
+      "passRule": "Must correctly identify stagnant productivity in Q1 and provide a coherent explanation with at least two pieces of evidence in Q2."
+    },
+    {
+      "forErrorId": "err-libertarian-redistribution",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following best describes the libertarian position on government redistribution of income?",
+          "options": [
+            "It supports progressive taxation to reduce inequality.",
+            "It opposes mandatory redistribution because it violates property rights.",
+            "It supports redistribution only if it increases total utility.",
+            "It supports redistribution to help the worst-off in society."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why a libertarian would oppose a government policy that taxes the top 1% to fund social programs for the poor. In your response, refer to the difference between libertarianism and at least one other redistribution philosophy.",
+          "rubric": "Student correctly states that libertarianism opposes mandatory redistribution on grounds of property rights. Student contrasts with utilitarianism or liberalism (e.g., utilitarianism would support if total utility increases; liberalism would support to help worst-off). Answer may note that libertarians prefer voluntary charity. Must not suggest libertarianism supports any mandatory redistribution."
+        }
+      ],
+      "passRule": "Answer both questions correctly. For the open-ended, must clearly state opposition to mandatory redistribution and contrast with another philosophy."
+    },
+    {
+      "forErrorId": "err-effective-marginal-tax-rate-misunderstanding",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following best describes the 'effective marginal tax rate' (EMTR) for a low-income individual receiving government benefits?",
+          "options": [
+            "The tax rate applied to their first dollar of income.",
+            "The combined loss of income taxes and benefit reductions per additional dollar earned.",
+            "The average tax rate on all income.",
+            "The rate at which their benefits increase as income rises."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why a high effective marginal tax rate can discourage low-income individuals from seeking full-time employment. In your answer, include how benefit reductions contribute to the effective marginal tax rate and give a numerical example to illustrate the disincentive.",
+          "rubric": "The answer must mention that EMTR includes both income taxes and benefit reductions; explain that benefit reductions act like an implicit tax; provide a numerical example (e.g., earning $200 extra but losing $150 in benefits, net gain $50) showing a high EMTR; and state that the low net gain discourages working more hours or seeking full-time work."
+        }
+      ],
+      "passRule": "Student must answer Q1 correctly and provide a satisfactory explanation in Q2 that includes benefit reductions and a numerical example of disincentive."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-28",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HhnmdYVFxo0P3Lx7GAmcFn6unQZ?from=vc_group_doc_link#doxcnaudmvpEXUej0M2mzC1r8Tg",
+    "sourceTitle": "CIA4U.S6.Bianca 2026-07-28 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Income inequality measures the gap in income between different social wealth classes.；Poverty rate is the percentage of the population with family income below the government-set absolute poverty line.；In the United States, the bottom 20% of families hold 4% of total pre-tax income, while the top 20% hold 48.1%.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define income inequality and explain how it is measured using the Lorenz curve and Gini index."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Describe global income inequality trends and identify key differences among countries."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Analyze the Canadian affordability crisis in relation to productivity and poverty indicators."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Distinguish among utilitarianism, liberalism (maximin criterion), and libertarianism regarding income redistribution."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Explain common anti-poverty policy tools and the effective marginal tax rate trap."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Differentiate between poverty rate and income inequality as distinct economic measures."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Unit 2 Assignment 2",
+        "studentAction": "Submit Unit 2 Assignment 2 by tomorrow; if unable, request extension from instructor.",
+        "deadlineText": "The following day (July 29, 2026)",
+        "deadlineISO": "2026-07-29T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Unit 2 Assignment 2 is due the following day; participants who have not yet submitted may request extended time",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Test Review Session",
+        "studentAction": "Attend the final review lesson tomorrow to prepare for the test on Wednesday/Thursday.",
+        "deadlineText": "Review lesson: next day (July 29, 2026); Test: Wednesday (Thursday for participants' time zone)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The final Unit 2 review lesson will be held the next day, which will cover all key test content before the formal test scheduled for Wednesday (Thursday for participants’ time zone).",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Complete 3 short-answer review questions",
+        "studentAction": "Complete 3 short-answer review questions on income inequality, minimum wage, and economic mobility independently.",
+        "deadlineText": "After class (no specific deadline given)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "3 short-answer review questions covering core concepts of income inequality, minimum wage and economic mobility will be sent to all participants for independent completion.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "Camera must be on during class",
+        "studentAction": "Keep camera on for the entire class; otherwise will be marked absent and removed.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu/online meeting",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The instructor reiterates that all participants must keep their cameras on for the full duration of the class, and non-compliant participants will be marked absent and removed from the meeting.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "income-inequality-definition",
+      "poverty-rate-definition",
+      "global-inequality-trends",
+      "lorenz-curve-gini",
+      "canada-affordability-crisis",
+      "redistribution-philosophies",
+      "anti-poverty-tools",
+      "effective-marginal-tax-rate-trap"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-income-inequality-confusion",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module for err-income-inequality-confusion"
+      },
+      {
+        "errorId": "err-gini-range",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module for err-gini-range"
+      },
+      {
+        "errorId": "err-poverty-rate-vs-inequality",
+        "condition": "student picks wrong option on Q3",
+        "systemAction": "assign reteach module for err-poverty-rate-vs-inequality"
+      },
+      {
+        "errorId": "err-canada-productivity-cause",
+        "condition": "student picks wrong option on Q4",
+        "systemAction": "assign reteach module for err-canada-productivity-cause"
+      },
+      {
+        "errorId": "err-libertarian-redistribution",
+        "condition": "student picks wrong option on Q5",
+        "systemAction": "assign reteach module for err-libertarian-redistribution"
+      },
+      {
+        "errorId": "err-effective-marginal-tax-rate-misunderstanding",
+        "condition": "student does not mention benefit reductions or work disincentive in Q6",
+        "systemAction": "assign reteach module for err-effective-marginal-tax-rate-misunderstanding"
+      }
+    ],
+    "nextActions": [
+      "[err-income-inequality-confusion] student picks wrong option on Q1: It looks like you may be mixing up income inequality with wealth or poverty. Let's clarify the definition and measurement.",
+      "[err-gini-range] student picks wrong option on Q2: Remember that the Gini index ranges from 0 to 1, not 0 to 100. A higher number means more inequality.",
+      "[err-poverty-rate-vs-inequality] student picks wrong option on Q3: Poverty rate and income inequality are related but distinct. Let's review the difference.",
+      "[err-canada-productivity-cause] student picks wrong option on Q4: Canada's affordability crisis is not solely about housing or inflation; stagnant productivity is a root cause.",
+      "[err-libertarian-redistribution] student picks wrong option on Q5: Libertarianism opposes mandatory redistribution. Let's revisit the three redistribution philosophies.",
+      "[err-effective-marginal-tax-rate-misunderstanding] student does not mention benefit reductions or work disincentive in Q6: The effective marginal tax rate trap is about losing benefits as income rises, which can discourage work."
+    ],
+    "cards": [
+      {
+        "id": "diag-cia4u-s6-q1",
+        "type": "choice",
+        "question": "Which of the following best describes what the Lorenz curve and Gini index measure?",
+        "options": [
+          "The percentage of the population living below the poverty line",
+          "The distribution of income across a population, showing inequality",
+          "The total wealth held by the top 1% compared to the bottom 50%",
+          "The rate of economic growth in a country"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that income inequality is measured by Lorenz curve and Gini index, not other concepts.",
+        "misconceptions": [
+          "That describes the poverty rate, not the Lorenz curve or Gini index. The Lorenz curve and Gini index measure the distribution of income across the entire population.",
+          "✓ Correct. The Lorenz curve shows the cumulative share of income held by different percentiles, and the Gini index summarizes that inequality.",
+          "That is a specific statistic about wealth inequality, not what the Lorenz curve and Gini index directly measure (they measure income distribution).",
+          "Economic growth is usually measured by GDP growth, not by the Lorenz curve or Gini index."
+        ],
+        "nodeId": "income-inequality-definition",
+        "errorId": "err-income-inequality-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that Lorenz curve and Gini index measure income distribution/inequality, not wealth or absolute poverty.",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation DD1.3 covers income distribution measurement; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think the Gini index measures absolute poverty or wealth inequality instead of relative income distribution.",
+        "remediationModule": "err-income-inequality-confusion",
+        "retestItem": "err-income-inequality-confusion"
+      },
+      {
+        "id": "diag-cia4u-s6-q2",
+        "type": "choice",
+        "question": "What is the correct range of the Gini index, and what does a higher value indicate?",
+        "options": [
+          "0 to 100; higher value means more equality",
+          "0 to 1; higher value means greater inequality",
+          "1 to 100; higher value means more poverty",
+          "0 to 1; higher value means more equality"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student correctly remembers the numerical range and interpretation of the Gini index.",
+        "misconceptions": [
+          "The Gini index is not on a 0–100 scale. It is a decimal between 0 and 1, and a higher value means more inequality, not more equality.",
+          "✓ Correct. The Gini index ranges from 0 (perfect equality) to 1 (perfect inequality). A higher value indicates a more unequal distribution.",
+          "The Gini index is not measured on that scale, and it measures inequality, not poverty.",
+          "The range is correct but the interpretation is reversed. A higher Gini index means more inequality, not equality."
+        ],
+        "nodeId": "lorenz-curve-gini",
+        "errorId": "err-gini-range",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recalls that Gini index ranges from 0 to 1 and higher values mean greater inequality.",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation DD1.3 covers income distribution measurement; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "commonMisconception": "Students may think the Gini index ranges from 0 to 100 (like a percentage) or that a higher value means more equality.",
+        "remediationModule": "err-gini-range",
+        "retestItem": "err-gini-range"
+      },
+      {
+        "id": "diag-cia4u-s6-q3",
+        "type": "choice",
+        "question": "How does the poverty rate differ from income inequality as measured by the Gini index?",
+        "options": [
+          "The poverty rate measures the gap between rich and poor, while the Gini index counts those below a fixed income line.",
+          "They are the same concept; both measure the number of people living in poverty.",
+          "The poverty rate is a percentage of the population below a fixed income line, while the Gini index measures the relative distribution of income across the entire population.",
+          "The poverty rate compares income shares of the top and bottom 20%, while the Gini index uses a government-set line."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student understands that poverty rate is based on a fixed line while Gini index is a relative measure of distribution among all groups.",
+        "misconceptions": [
+          "That's reversed. The poverty rate counts those below a fixed line; the Gini index measures the overall gap in distribution.",
+          "They are distinct. Poverty rate is a headcount below a threshold, while the Gini index reflects inequality across all income levels, not just the poor.",
+          "✓ Correct. Poverty rate is an absolute measure based on a line; the Gini index is a relative measure of inequality.",
+          "That description reverses the roles. The Gini index compares income shares across all percentiles; the poverty rate uses a fixed income line."
+        ],
+        "nodeId": "poverty-rate-definition",
+        "errorId": "err-poverty-rate-vs-inequality",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-6",
+        "successCriteria": "Student distinguishes poverty rate (absolute threshold) from Gini index (relative distribution across all income levels).",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation DD1.3 covers both poverty and inequality measures; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think poverty rate and Gini index are interchangeable or that both measure the same thing.",
+        "remediationModule": "err-poverty-rate-vs-inequality",
+        "retestItem": "err-poverty-rate-vs-inequality"
+      },
+      {
+        "id": "diag-cia4u-s6-q4",
+        "type": "choice",
+        "question": "According to the lesson, what is the core root of Canada's ongoing affordability crisis?",
+        "options": [
+          "Rising housing prices",
+          "High inflation rates",
+          "Stagnant productivity over 40 years",
+          "Increased food bank usage"
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student recalls the specific root cause highlighted in the lesson: stagnant productivity.",
+        "misconceptions": [
+          "Housing is a symptom, not the root cause. The lesson identified stagnant productivity over 40 years as the core root.",
+          "Inflation is a factor, but the lesson attributed the affordability crisis primarily to sluggish productivity.",
+          "✓ Correct. The lesson cited Moshe Lander's argument that Canada's 40-year stagnant productivity is the core root of the affordability crisis.",
+          "Food bank usage is an indicator of the crisis, not its root cause."
+        ],
+        "nodeId": "canada-affordability-crisis",
+        "errorId": "err-canada-productivity-cause",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies stagnant productivity as the root cause, not just housing prices or inflation.",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation DD1.3 covers standards of living; productivity is related but broader; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "remember",
+        "commonMisconception": "Students may attribute the crisis solely to rising housing costs or inflation, overlooking the productivity stagnation as the core root.",
+        "remediationModule": "err-canada-productivity-cause",
+        "retestItem": "err-canada-productivity-cause"
+      },
+      {
+        "id": "diag-cia4u-s6-q5",
+        "type": "choice",
+        "question": "Which of the following statements best reflects the libertarian view on income redistribution?",
+        "options": [
+          "The government should redistribute income to maximize total utility in society.",
+          "The government should redistribute income to help the worst-off, even if it limits inequality.",
+          "Mandatory redistribution violates individual property rights; the government should only enforce voluntary transfers.",
+          "Some redistribution is acceptable if it does not reduce overall economic growth."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student distinguishes libertarianism from other redistribution philosophies.",
+        "misconceptions": [
+          "That is the utilitarian view. Libertarianism opposes mandatory redistribution.",
+          "That is the liberal (maximin) view. Libertarianism does not support such redistribution.",
+          "✓ Correct. Libertarianism prioritizes property rights and opposes mandatory redistribution.",
+          "This is a pragmatic view, not specifically libertarian. Libertarianism generally opposes any mandatory redistribution."
+        ],
+        "nodeId": "redistribution-philosophies",
+        "errorId": "err-libertarian-redistribution",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student correctly identifies that libertarianism opposes mandatory redistribution and prioritizes property rights.",
+        "ossdExpectation": "Explain how governments with different political perspectives respond to economic challenges, including the allocation of limited resources among competing interests.",
+        "officialExpectationCode": "BB4.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation BB4.2 covers government responses to challenges; no exact node in node bank.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think libertarianism supports some redistribution or that it focuses on maximizing total utility.",
+        "remediationModule": "err-libertarian-redistribution",
+        "retestItem": "err-libertarian-redistribution"
+      },
+      {
+        "id": "diag-cia4u-s6-q6",
+        "type": "explain",
+        "question": "Briefly explain how anti-poverty programs can create an effective marginal tax rate trap, and why this may discourage low-income individuals from seeking full-time employment.",
+        "correct": null,
+        "diagnosis": "Check if student understands that effective marginal tax rate includes both income tax and benefit reductions, and can explain the work disincentive.",
+        "nodeId": "effective-marginal-tax-rate-trap",
+        "errorId": "err-effective-marginal-tax-rate-misunderstanding",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-5",
+        "successCriteria": "Explanation includes loss of benefits as income rises (implicit tax) and the resulting disincentive to work.",
+        "ossdExpectation": "Explain programs and policies of governments in various countries designed to narrow income inequality, and assess their effectiveness.",
+        "officialExpectationCode": "CC3.2",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Specific expectation CC3.2 covers policies to narrow inequality; includes effectiveness which may involve side effects.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may think effective marginal tax rate refers only to income tax brackets, ignoring the impact of phasing out benefits.",
+        "remediationModule": "err-effective-marginal-tax-rate-misunderstanding",
+        "retestItem": "err-effective-marginal-tax-rate-misunderstanding"
+      }
+    ]
+  }
+}

@@ -1,0 +1,727 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-07-28",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Kqo6d3gSwoHM0MxhIlmc06E8nFg?from=vc_group_doc_link#doxcnowWLKHE8UZcIzJpobfRQub",
+  "sourceTitle": "OLC4O.S6.Keth 2026-07-28 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Kqo6d3gSwoHM0MxhIlmc06E8nFg?from=vc_group_doc_link#doxcnowWLKHE8UZcIzJpobfRQub",
+    "title": "OLC4O.S6.Keth 2026-07-28 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-28/sources/olc4o-s6-keth-2026-07-28/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-07-28",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-28",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson combines instruction on summarizing film/media content with hands-on practice (watching documentary, note-taking, drafting summary), plus significant administrative and operational content (deadlines, credit warnings).",
+    "academicContentSignals": [
+      "summarizing film and media content (core competency for unit exam and resume/cover letter modules)",
+      "note-taking: recording core thesis, key supporting evidence, critical concluding details",
+      "note-taking flexibility: adjusting notes as new information emerges",
+      "summary format: 8-10 grammatically correct sentences, single unified paragraph, no line breaks",
+      "documentary content: Terry Horton's $5 thrift store painting, possible Jackson Pollock, authenticity battle"
+    ],
+    "courseOverviewSignals": [
+      "Skill sequencing: summary skills built upon in resume and cover letter modules",
+      "Core competency for upcoming unit exam",
+      "Course structure: remaining 3 weeks, final exam August 23, portfolio cutoff August 17"
+    ],
+    "opsDominanceRisk": "High – numerous operational items (deadlines, compliance rules, credit warnings, platform instructions) could overshadow the core summarizing skill if not carefully balanced in diagnostic generation.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Assignment 1 deadline extension",
+        "studentAction": "Complete and submit Unit 2 Assignment 1 by the revised deadline.",
+        "deadlineText": "Friday exactly two weeks after this session (2026-07-28)",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The original due date... has been pushed back to the Friday exactly two weeks after this session",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Full English originality mandate",
+        "studentAction": "Write all sections of Assignment 1 in English from first draft; no Chinese content.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Full English Originality Mandate: Every section... must be created entirely in English from the first draft stage",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Zero tolerance for non-English or copied content",
+        "studentAction": "Avoid any non-English or unoriginal material; automatic zero with no resubmission.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Any submission containing non-English content or unoriginal copied material will receive an automatic zero",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Download worksheet from Schoology",
+        "studentAction": "Open the structured note-taking worksheet from Lesson 14B folder on Schoology before viewing.",
+        "deadlineText": "Before documentary viewing starts (during class)",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The dedicated structured note-taking worksheet... is available for immediate download from the Lesson 14B folder on the course Schoology page",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Homework: documentary summary + worksheet",
+        "studentAction": "Upload completed worksheet and 8-10 sentence summary to Schoology assignment folder before next class.",
+        "deadlineText": "Before the official start time of the next class",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Both the fully completed note-taking worksheet and the final written documentary summary must be uploaded... before the official start time of the next class",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Credit risk warning",
+        "studentAction": "Check email for official warning; catch up on all missing assignments immediately.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "School email",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The instructor has already sent a formal detailed warning email to every student’s official school-registered email address",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "deadline",
+        "title": "Portfolio submission cutoff",
+        "studentAction": "Submit all daily homework, portfolio components, and outstanding assignments by August 17.",
+        "deadlineText": "August 17",
+        "deadlineISO": "2026-08-17",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All required daily homework, portfolio components, and outstanding assignments... must be fully completed and submitted no later than August 17",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "deadline",
+        "title": "Final unit exam date",
+        "studentAction": "Prepare for cumulative unit exam on August 23.",
+        "deadlineText": "August 23",
+        "deadlineISO": "2026-08-23",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The final cumulative unit exam formally scheduled for August 23 of the current academic term",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "Make-up documentary available on Schoology",
+        "studentAction": "Rewatch missed segments via Schoology to complete notes and assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "Students who missed in-class viewing",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The full documentary has been uploaded to the Schoology page, so they can rewatch any sections needed",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-010",
+        "category": "follow_up_action",
+        "title": "Next class: Assignment 1 example walkthrough",
+        "studentAction": "Attend next class for walkthrough of high-scoring and failing examples.",
+        "deadlineText": "Next class (date not specified)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The very first activity of the next class will be a full detailed walkthrough of curated Assignment 1 examples",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "The original due date for Unit 2 Assignment 1, initially scheduled for the upcoming Friday, has been pushed back to the Friday exactly two weeks after this session",
+        "reason": "Ambiguous: 'Friday exactly two weeks after this session' – session is Tuesday, July 28; two weeks later is Tuesday, Aug 11, not Friday. Needs teacher clarification on actual date."
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Summarizing film and media content、Structured note-taking for documentaries）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Summarizing film and media content is a core competency for the unit exam and later resume/cover letter writing modules.；The documentary follows 73-year-old Terry Horton's 10-year battle to prove a $5 thrift store painting is a lost Jackson Pollock.；Jackson Pollock is a famous 20th century American artist; verified works sell for over $100 million.",
+  "learningGoals": [
+    {
+      "id": "lg-summarize-documentary",
+      "statement": "Students can identify the core thesis, key supporting evidence, and concluding details of a documentary and produce a coherent written summary."
+    },
+    {
+      "id": "lg-structured-note-taking",
+      "statement": "Students can use a structured note-taking worksheet to capture the main argument and supporting evidence from a non-fiction film."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "summarizing-documentary",
+      "name": "Summarizing film and media content",
+      "nameEn": "Summarizing film and media content",
+      "definition": "The ability to identify and record the core thesis, key supporting evidence, and concluding details of a non-fiction film or documentary, and then produce a coherent written summary of 8-10 grammatically correct sentences in a single paragraph.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "structured-note-taking-documentary",
+      "name": "Structured note-taking for documentaries",
+      "nameEn": "Structured note-taking for documentaries",
+      "definition": "The practice of using a dedicated note-taking worksheet to capture the core thesis, key supporting evidence, and concluding details while viewing a documentary, adjusting notes as new information emerges.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-summarize-documentary",
+        "statement": "Students can identify the core thesis, key supporting evidence, and concluding details of a documentary and produce a coherent written summary."
+      },
+      {
+        "id": "lg-structured-note-taking",
+        "statement": "Students can use a structured note-taking worksheet to capture the main argument and supporting evidence from a non-fiction film."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-summarizing-confusing-thesis-with-details",
+        "condition": "student selects a wrong option on Q1 that targets this errorId",
+        "systemAction": "assign reteach module for err-summarizing-confusing-thesis-with-details",
+        "studentMessage": "You seem to be confusing the main argument with minor details. Let's review how to identify the core thesis."
+      },
+      {
+        "errorId": "err-note-taking-focus-on-entertainment",
+        "condition": "student provides an insufficient or off-target response on Q2 that targets this errorId",
+        "systemAction": "assign reteach module for err-note-taking-focus-on-entertainment",
+        "studentMessage": "You may be focusing on entertaining moments rather than the documentary's main evidence. Let's practice structured note-taking."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-s6-0728-q1",
+        "nodeId": "summarizing-documentary",
+        "errorId": "err-summarizing-confusing-thesis-with-details",
+        "stem": "After watching the documentary about Terry Horton and the Jackson Pollock painting, which of the following best states the CORE THESIS of the documentary?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-summarize-documentary",
+        "successCriteria": "Student distinguishes the main argument from supporting details by selecting the option that captures the documentary's central focus.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses ability to identify core thesis for summary writing, matching B2's focus on writing summaries.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can differentiate the documentary's main argument (thesis) from minor or specific supporting details.",
+        "commonMisconception": "Students may mistake a supporting detail (e.g., forgery expert's role) or entertaining fact (e.g., painting value) for the central thesis.",
+        "remediationModule": "err-summarizing-confusing-thesis-with-details",
+        "retestItem": "err-summarizing-confusing-thesis-with-details",
+        "options": [
+          {
+            "label": "A",
+            "text": "The documentary shows how Jackson Pollock created his paintings in an intoxicated, high-energy style.",
+            "correct": false,
+            "feedbackWrong": "This is a supporting detail about Pollock's technique, not the main focus of the documentary. The documentary primarily follows Terry Horton's quest."
+          },
+          {
+            "label": "B",
+            "text": "The documentary focuses on Terry Horton's decade-long battle to prove a $5 thrift store painting is a lost Jackson Pollock, raising questions about art authentication and persistence.",
+            "correct": true,
+            "feedbackCorrect": "Correct. This captures the central narrative of the documentary."
+          },
+          {
+            "label": "C",
+            "text": "The documentary highlights the work of forgery expert John Myatt in identifying fake Jackson Pollock paintings.",
+            "correct": false,
+            "feedbackWrong": "John Myatt is a supporting character who provides expert opinion; he is not the core thesis."
+          },
+          {
+            "label": "D",
+            "text": "The documentary proves that thrift store paintings can be worth over $100 million if authenticated.",
+            "correct": false,
+            "feedbackWrong": "This is an implied possibility but not the main argument; the documentary focuses on the process and struggle, not the final value."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0728-q2",
+        "nodeId": "structured-note-taking-documentary",
+        "errorId": "err-note-taking-focus-on-entertainment",
+        "stem": "While watching the documentary, you are using a structured note-taking worksheet. List two specific pieces of information you should write down in the \"key supporting evidence\" section, and explain why each qualifies as evidence for the core thesis.",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-structured-note-taking",
+        "successCriteria": "Student identifies at least two pieces of evidence that directly support the documentary's thesis and clearly explains the connection.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses structured note-taking as a reading strategy to extract key content, matching A3's expectation.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can distinguish key supporting evidence from trivial details and apply structured note-taking strategies.",
+        "commonMisconception": "Students may list entertaining or trivial facts (e.g., the painting cost $5, Pollock's nickname) instead of evidence that directly advances the thesis.",
+        "remediationModule": "err-note-taking-focus-on-entertainment",
+        "retestItem": "err-note-taking-focus-on-entertainment",
+        "rubric": "Acceptable evidence examples: (1) Forgery expert John Myatt's statement that Pollock's style is extremely difficult to replicate due to his intoxicated, high-energy creative rhythm – this supports the thesis by establishing the challenge of authentication. (2) Terry Horton's 10-year investigation timeline and efforts – this directly shows the persistence central to the thesis. (3) Expert opinion on the painting's potential value (over $100 million if real) – this underscores the stakes. Each piece must be tied to the core thesis. Partial credit for one strong example with explanation.",
+        "sampleStrongAnswer": "Two pieces of evidence: First, the forgery expert John Myatt explained that Pollock's style is very hard to fake because he painted while intoxicated with high energy. This supports the thesis by showing why authenticating the painting is so difficult. Second, Terry Horton spent ten years researching and gathering proof. This evidence highlights the persistence and obsession that the documentary argues about him."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-summarizing-confusing-thesis-with-details",
+      "condition": "student selects a wrong option on Q1 that targets this errorId",
+      "systemAction": "assign reteach module for err-summarizing-confusing-thesis-with-details",
+      "studentMessage": "You seem to be confusing the main argument with minor details. Let's review how to identify the core thesis."
+    },
+    {
+      "errorId": "err-note-taking-focus-on-entertainment",
+      "condition": "student provides an insufficient or off-target response on Q2 that targets this errorId",
+      "systemAction": "assign reteach module for err-note-taking-focus-on-entertainment",
+      "studentMessage": "You may be focusing on entertaining moments rather than the documentary's main evidence. Let's practice structured note-taking."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-summarizing-confusing-thesis-with-details",
+      "trigger": "Student selects a supporting detail (e.g., option A, C, or D) instead of the core thesis in the diagnostic question.",
+      "studentMisunderstanding": "Students confuse the documentary's core thesis—Terry Horton's decade-long quest to authenticate a $5 thrift store painting as a lost Jackson Pollock—with minor details like the artist's technique, the forgery expert's role, or the potential value.",
+      "miniLesson": {
+        "explain": "The core thesis is the main argument or central focus of the documentary. It answers 'What is this documentary really about?' Supporting details provide evidence, context, or examples to back up that thesis. For example, the documentary's thesis is about Terry Horton's ten-year battle to prove a $5 painting is a lost Jackson Pollock. Details like Jackson Pollock's painting style or John Myatt's expertise are important but not the main point.",
+        "example": "Correct thesis: 'The documentary focuses on Terry Horton's decade-long battle to prove a $5 thrift store painting is a lost Jackson Pollock, raising questions about art authentication and persistence.' \nDetail (not thesis): 'Jackson Pollock created his paintings in an intoxicated, high-energy style.' This detail supports why authentication is difficult but is not the central narrative.",
+        "memoryAnchor": "Think of a thesis as the 'spine' of the documentary—it holds everything together. Details are the 'ribs' that support the spine. Without the spine, the ribs collapse."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "After watching the documentary, which of the following is the core thesis? \nA) Forgery expert John Myatt explains Pollock's style is hard to fake. \nB) Terry Horton's 10-year quest to authenticate a $5 painting as a lost Pollock. \nC) Verified Pollock paintings sell for over $100 million.",
+          "answer": "B) Terry Horton's 10-year quest to authenticate a $5 painting as a lost Pollock."
+        },
+        {
+          "level": "L2",
+          "prompt": "Explain why 'Jackson Pollock is a famous 20th century artist whose works sell for over $100 million' is a supporting detail, not the core thesis. Use information from the documentary.",
+          "answer": "This fact is a supporting detail because it provides context for why the painting's potential authenticity is significant, but the documentary's main focus is on Terry Horton's personal struggle to prove the painting is a Pollock, not on the general fame or value of Pollock's works."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write one sentence that states the core thesis of the documentary. Your sentence must include Terry Horton, the $5 painting, and Jackson Pollock, and it must be the main argument of the film.",
+          "answer": "The documentary's core thesis is that Terry Horton's decade-long effort to authenticate a $5 thrift store painting as a lost Jackson Pollock challenges our understanding of art and persistence."
+        }
+      ]
+    },
+    {
+      "errorId": "err-note-taking-focus-on-entertainment",
+      "trigger": "Focusing on entertaining moments instead of the documentary's main thesis and evidence",
+      "studentMisunderstanding": "Students may think that interesting or entertaining details (e.g., the painting cost $5, Pollock's nickname) are the main points to record in notes, rather than the core thesis and supporting evidence.",
+      "miniLesson": {
+        "explain": "When taking notes on a documentary, it's important to focus on the core thesis and key evidence that supports it, not just entertaining or trivial facts. The thesis is the main argument the filmmaker is making. Supporting evidence includes expert opinions, specific examples, and data that back up that argument. Entertaining details, while interesting, often do not help you understand the documentary's main point. For example, in the documentary about Terry Horton, the core thesis is his decade-long battle to prove a $5 thrift store painting is a lost Jackson Pollock. Key supporting evidence includes forgery expert John Myatt's statement that Pollock's style is extremely difficult to replicate due to his intoxicated, high-energy creative rhythm, and the fact that verified Pollock works sell for over $100 million. Entertaining details like the painting's low cost or Pollock's personal quirks are trivial and should not be the focus of your notes.",
+        "example": "Consider the documentary following 73-year-old Terry Horton. An entertaining detail might be that the painting cost $5, but that does not support the thesis. Key evidence: Myatt's expert opinion on the difficulty of forgery, and the 10-year length of Horton's investigation. These directly support the thesis about authentication and persistence.",
+        "memoryAnchor": "Think: 'Evidence, not entertainment' - ask yourself: Does this detail directly support the main argument? If not, it's probably just entertainment."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "From the list below, select which items should be recorded as 'key supporting evidence' in your notes for the documentary about Terry Horton. (Choose all that apply.)\n- The painting cost $5 at a thrift store.\n- Forgery expert John Myatt says Pollock's style is extremely difficult to replicate.\n- Terry Horton spent 10 years investigating the painting.\n- Jackson Pollock was a famous 20th century American artist.\n- Verified Pollock works sell for over $100 million.",
+          "answer": "Forgery expert John Myatt says Pollock's style is extremely difficult to replicate; Terry Horton spent 10 years investigating the painting; Verified Pollock works sell for over $100 million. (The other two are trivial or background facts.)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Write two specific pieces of key supporting evidence from the documentary that directly support the core thesis (Terry Horton's decade-long battle to prove a $5 painting is a lost Pollock). For each, explain why it qualifies as evidence.",
+          "answer": "1. John Myatt's expert opinion that Pollock's style is extremely difficult to replicate because of his intoxicated, high-energy rhythm. This supports the thesis by showing why authentication is challenging and why Horton's quest is significant. 2. The fact that Horton spent 10 years investigating. This directly demonstrates the persistence that is central to the thesis."
+        },
+        {
+          "level": "L3",
+          "prompt": "Using the structured note-taking worksheet, create a complete note entry for the documentary. Include: core thesis (1 sentence), at least two pieces of key supporting evidence (with brief explanation), and a concluding detail. Your response should be formatted as a bullet-point list with these sections. Use only facts from the lesson.",
+          "answer": "- Core thesis: The documentary focuses on Terry Horton's decade-long battle to prove a $5 thrift store painting is a lost Jackson Pollock, raising questions about art authentication and persistence.\n- Key supporting evidence 1: Forgery expert John Myatt notes that Pollock's style is extremely difficult to replicate due to his intoxicated, high-energy creative rhythm – this explains why authentication is hard and highlights Horton's challenge.\n- Key supporting evidence 2: Verified Pollock works sell for over $100 million – this underscores the stakes and why proving the painting's authenticity matters.\n- Concluding detail: After 10 years, the painting's status remains debated, showing the ongoing nature of the authentication process."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-summarizing-confusing-thesis-with-details",
+      "questions": [
+        {
+          "id": "q1_single",
+          "type": "single_choice",
+          "stem": "Which of the following is the core thesis of the documentary?",
+          "options": [
+            "Terry Horton spent ten years trying to prove a $5 thrift store painting is a lost Jackson Pollock.",
+            "Jackson Pollock's works are extremely valuable, selling for over $100 million.",
+            "John Myatt is an expert on forgery and explains Pollock's style is hard to fake.",
+            "The painting was bought at a thrift store for $5."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_open",
+          "type": "open_ended",
+          "stem": "Explain why 'The documentary highlights the difficulty of forging Jackson Pollock's style' is a supporting detail, not the core thesis. Use specific evidence from the documentary in your explanation.",
+          "rubric": "Student must state that the core thesis is Terry Horton's decade-long quest to authenticate a $5 painting as a lost Pollock, and the difficulty of forgery is just one piece of evidence that supports this thesis. Accept any reasonable explanation that clearly distinguishes between the main idea (the quest) and a supporting detail (forgery difficulty)."
+        }
+      ],
+      "passRule": "Student must answer Q1 correctly and provide a satisfactory explanation in Q2 that correctly identifies the core thesis and explains why the given statement is a detail."
+    },
+    {
+      "forErrorId": "err-note-taking-focus-on-entertainment",
+      "questions": [
+        {
+          "id": "retest-nt-01",
+          "type": "single_choice",
+          "stem": "When taking notes on the documentary about Terry Horton, which of the following is the best example of key supporting evidence to record?",
+          "options": [
+            "The painting cost $5 at a thrift store.",
+            "Forgery expert John Myatt says Pollock's style is extremely difficult to replicate.",
+            "Jackson Pollock was nicknamed “Jack the Dripper.”",
+            "Terry Horton is 73 years old."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-nt-02",
+          "type": "open_ended",
+          "stem": "In one sentence, state the core thesis of the documentary. Then list one piece of key supporting evidence that directly supports that thesis.",
+          "rubric": "Core thesis must mention Terry Horton's decade-long battle to prove the painting is a lost Jackson Pollock. Evidence must be from the lesson (e.g., Myatt's expert opinion on difficulty of forgery, the $100 million value of verified Pollocks, or the 10-year investigation)."
+        }
+      ],
+      "passRule": "Select the correct answer for the multiple-choice question and provide a response to the open-ended question that includes both the core thesis and a valid piece of key supporting evidence from the lesson."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-07-28",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Kqo6d3gSwoHM0MxhIlmc06E8nFg?from=vc_group_doc_link#doxcnowWLKHE8UZcIzJpobfRQub",
+    "sourceTitle": "OLC4O.S6.Keth 2026-07-28 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Summarizing film and media content is a core competency for the unit exam and later resume/cover letter writing modules.；The documentary follows 73-year-old Terry Horton's 10-year battle to prove a $5 thrift store painting is a lost Jackson Pollock.；Jackson Pollock is a famous 20th century American artist; verified works sell for over $100 million.",
+    "learningGoals": [
+      {
+        "id": "lg-summarize-documentary",
+        "statement": "Students can identify the core thesis, key supporting evidence, and concluding details of a documentary and produce a coherent written summary."
+      },
+      {
+        "id": "lg-structured-note-taking",
+        "statement": "Students can use a structured note-taking worksheet to capture the main argument and supporting evidence from a non-fiction film."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Assignment 1 deadline extension",
+        "studentAction": "Complete and submit Unit 2 Assignment 1 by the revised deadline.",
+        "deadlineText": "Friday exactly two weeks after this session (2026-07-28)",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The original due date... has been pushed back to the Friday exactly two weeks after this session",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Full English originality mandate",
+        "studentAction": "Write all sections of Assignment 1 in English from first draft; no Chinese content.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Full English Originality Mandate: Every section... must be created entirely in English from the first draft stage",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Zero tolerance for non-English or copied content",
+        "studentAction": "Avoid any non-English or unoriginal material; automatic zero with no resubmission.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Any submission containing non-English content or unoriginal copied material will receive an automatic zero",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Download worksheet from Schoology",
+        "studentAction": "Open the structured note-taking worksheet from Lesson 14B folder on Schoology before viewing.",
+        "deadlineText": "Before documentary viewing starts (during class)",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The dedicated structured note-taking worksheet... is available for immediate download from the Lesson 14B folder on the course Schoology page",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "Homework: documentary summary + worksheet",
+        "studentAction": "Upload completed worksheet and 8-10 sentence summary to Schoology assignment folder before next class.",
+        "deadlineText": "Before the official start time of the next class",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Both the fully completed note-taking worksheet and the final written documentary summary must be uploaded... before the official start time of the next class",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Credit risk warning",
+        "studentAction": "Check email for official warning; catch up on all missing assignments immediately.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "School email",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The instructor has already sent a formal detailed warning email to every student’s official school-registered email address",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "deadline",
+        "title": "Portfolio submission cutoff",
+        "studentAction": "Submit all daily homework, portfolio components, and outstanding assignments by August 17.",
+        "deadlineText": "August 17",
+        "deadlineISO": "2026-08-17",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All required daily homework, portfolio components, and outstanding assignments... must be fully completed and submitted no later than August 17",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "deadline",
+        "title": "Final unit exam date",
+        "studentAction": "Prepare for cumulative unit exam on August 23.",
+        "deadlineText": "August 23",
+        "deadlineISO": "2026-08-23",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The final cumulative unit exam formally scheduled for August 23 of the current academic term",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "Make-up documentary available on Schoology",
+        "studentAction": "Rewatch missed segments via Schoology to complete notes and assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "Students who missed in-class viewing",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The full documentary has been uploaded to the Schoology page, so they can rewatch any sections needed",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-010",
+        "category": "follow_up_action",
+        "title": "Next class: Assignment 1 example walkthrough",
+        "studentAction": "Attend next class for walkthrough of high-scoring and failing examples.",
+        "deadlineText": "Next class (date not specified)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The very first activity of the next class will be a full detailed walkthrough of curated Assignment 1 examples",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "The original due date for Unit 2 Assignment 1, initially scheduled for the upcoming Friday, has been pushed back to the Friday exactly two weeks after this session",
+        "reason": "Ambiguous: 'Friday exactly two weeks after this session' – session is Tuesday, July 28; two weeks later is Tuesday, Aug 11, not Friday. Needs teacher clarification on actual date."
+      }
+    ],
+    "watchTags": [
+      "summarizing-documentary",
+      "structured-note-taking-documentary"
+    ],
+    "totalQuestions": 2,
+    "completed": false,
+    "passScore": 2,
+    "diagnosisRules": [
+      {
+        "errorId": "err-summarizing-confusing-thesis-with-details",
+        "condition": "student selects a wrong option on Q1 that targets this errorId",
+        "systemAction": "assign reteach module for err-summarizing-confusing-thesis-with-details"
+      },
+      {
+        "errorId": "err-note-taking-focus-on-entertainment",
+        "condition": "student provides an insufficient or off-target response on Q2 that targets this errorId",
+        "systemAction": "assign reteach module for err-note-taking-focus-on-entertainment"
+      }
+    ],
+    "nextActions": [
+      "[err-summarizing-confusing-thesis-with-details] student selects a wrong option on Q1 that targets this errorId: You seem to be confusing the main argument with minor details. Let's review how to identify the core thesis.",
+      "[err-note-taking-focus-on-entertainment] student provides an insufficient or off-target response on Q2 that targets this errorId: You may be focusing on entertaining moments rather than the documentary's main evidence. Let's practice structured note-taking."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-s6-0728-q1",
+        "type": "choice",
+        "question": "After watching the documentary about Terry Horton and the Jackson Pollock painting, which of the following best states the CORE THESIS of the documentary?",
+        "options": [
+          "The documentary shows how Jackson Pollock created his paintings in an intoxicated, high-energy style.",
+          "The documentary focuses on Terry Horton's decade-long battle to prove a $5 thrift store painting is a lost Jackson Pollock, raising questions about art authentication and persistence.",
+          "The documentary highlights the work of forgery expert John Myatt in identifying fake Jackson Pollock paintings.",
+          "The documentary proves that thrift store paintings can be worth over $100 million if authenticated."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can differentiate the documentary's main argument (thesis) from minor or specific supporting details.",
+        "misconceptions": [
+          "This is a supporting detail about Pollock's technique, not the main focus of the documentary. The documentary primarily follows Terry Horton's quest.",
+          "✓ Correct. This captures the central narrative of the documentary.",
+          "John Myatt is a supporting character who provides expert opinion; he is not the core thesis.",
+          "This is an implied possibility but not the main argument; the documentary focuses on the process and struggle, not the final value."
+        ],
+        "nodeId": "summarizing-documentary",
+        "errorId": "err-summarizing-confusing-thesis-with-details",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-summarize-documentary",
+        "successCriteria": "Student distinguishes the main argument from supporting details by selecting the option that captures the documentary's central focus.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses ability to identify core thesis for summary writing, matching B2's focus on writing summaries.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may mistake a supporting detail (e.g., forgery expert's role) or entertaining fact (e.g., painting value) for the central thesis.",
+        "remediationModule": "err-summarizing-confusing-thesis-with-details",
+        "retestItem": "err-summarizing-confusing-thesis-with-details"
+      },
+      {
+        "id": "diag-olc4o-s6-0728-q2",
+        "type": "explain",
+        "question": "While watching the documentary, you are using a structured note-taking worksheet. List two specific pieces of information you should write down in the \"key supporting evidence\" section, and explain why each qualifies as evidence for the core thesis.",
+        "correct": null,
+        "diagnosis": "Check if student can distinguish key supporting evidence from trivial details and apply structured note-taking strategies.",
+        "nodeId": "structured-note-taking-documentary",
+        "errorId": "err-note-taking-focus-on-entertainment",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-structured-note-taking",
+        "successCriteria": "Student identifies at least two pieces of evidence that directly support the documentary's thesis and clearly explains the connection.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses structured note-taking as a reading strategy to extract key content, matching A3's expectation.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may list entertaining or trivial facts (e.g., the painting cost $5, Pollock's nickname) instead of evidence that directly advances the thesis.",
+        "remediationModule": "err-note-taking-focus-on-entertainment",
+        "retestItem": "err-note-taking-focus-on-entertainment"
+      }
+    ]
+  }
+}
