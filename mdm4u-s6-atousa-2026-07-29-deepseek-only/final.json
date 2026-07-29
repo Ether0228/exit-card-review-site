@@ -1,0 +1,948 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-29",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ZtkHdoyWqoYHqyxiBhqcpadAnPe?from=vc_group_doc_link#doxcnfUtiWDsEMW3k9itarYShNc",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-29 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/ZtkHdoyWqoYHqyxiBhqcpadAnPe?from=vc_group_doc_link#doxcnfUtiWDsEMW3k9itarYShNc",
+    "title": "MDM4U.S6.Atousa 2026-07-29 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-29/sources/mdm4u-s6-atousa-2026-07-29/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-29",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-29",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes systematic knowledge instruction (binomial theorem, grid path counting, Pascal's triangle, Pascal's identity) and in-class practice (11-question activity), making it a mixed instructional and practice session.",
+    "academicContentSignals": [
+      "Grid path counting: east/north movement, total routes = C(total steps, east steps)",
+      "Concrete example: 6 east and 5 north steps → C(11,6)=462",
+      "Special path scenarios: must pass through a point (product of counts), must avoid a point (total - paths through)",
+      "Checkerboard path: diagonal-only movement, connection to Pascal's Triangle",
+      "Pascal's Triangle rows correspond to binomial coefficients (a+b)^n",
+      "Binomial Theorem general term: C(n,r) * a^(n-r) * b^r",
+      "Specified term calculation: e.g., 5th term of (x²+2)^6 is 240x^4",
+      "Constant term finding: set variable exponent sum to 0, solve for r, substitute back",
+      "Constant term examples: (x+1/x)^10 → r=5 → 252; (x³+3/x)^8 → r=6 → 20412",
+      "Pascal's Identity: C(n,r) + C(n,r+1) = C(n+1,r+1)",
+      "Application of Pascal's Identity: e.g., C(6,4)+C(6,5)=C(7,5)=21",
+      "In-class activity standard answers for Pascal's Identity and grid path questions"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations are present (assignment announcement, uploading, grading feedback) but do not overshadow the substantial academic content. Ensure diagnostic focus remains on binomial theorem and combinatorics skills.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 2 Presentation Assignment Specifications",
+        "studentAction": "Prepare a presentation covering Unit 2 Lessons 1-3 with 3-4 coding demos and 1-2 calculator sections. Reference instructor materials on discussion board. Choose to present in class or submit pre-recorded video.",
+        "deadlineText": "No specific deadline announced; assignment release today or tomorrow",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The required presentation must cover all core content of Unit 2 Lesson 1, Lesson 2 and Lesson 3... at least 3 to 4 coding demonstration examples and 1 to 2 sections showing student calculator usage",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Assignment Release Timing",
+        "studentAction": "Check the course platform for the Unit 2 assignment release either today (July 29) or tomorrow (July 30).",
+        "deadlineText": "By end of day July 30, 2026",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "The official assignment release will be completed either on the same day of the class session or the following day",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Unit 1 Assignment Grading Progress",
+        "studentAction": "Wait for individual feedback on Unit 1 assignment; grading nearly complete.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who submitted Unit 1 assignment",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The grading of all submitted Unit 1 assignments is nearly complete, and detailed individual feedback will be released to students once the final verification is finished.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Next Class Plan: Review and Presentations",
+        "studentAction": "Prepare to continue reviewing remaining class activity questions and be ready to present your Unit 2 presentation assignment in subsequent classes.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The next class session will continue to review remaining class activity questions, and arrange time for students to present their Unit 2 presentation assignments.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Assignment release timing: 'either on the same day of the class session or the following day'",
+        "reason": "Exact release date not specified; inferred as July 29 or 30, 2026. Needs confirmation."
+      },
+      {
+        "rawText": "Platform for assignment upload not named in notes (likely the course management platform)",
+        "reason": "No specific platform given; operational detail missing."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Grid Path Counting、Pascal's Triangle and Binomial Coefficients、Binomial Theorem General Term、Pascal's Identity）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "For grid path counting with only east and north moves, total steps = east steps + north steps, and number of routes = C(total steps, east steps) = C(total steps, north steps).；For paths that must pass through an intermediate point, total routes = (routes start→intermediate) × (routes intermediate→end).；For paths that must avoid a point, total routes = total unrestricted routes - routes that pass through that point.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can count the number of shortest grid paths using combinations."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can apply the Binomial Theorem general term formula to find a specified term in an expansion."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can find the constant term in a binomial expansion by setting the variable exponent sum to zero."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Students can state and apply Pascal's Identity to simplify combination sums."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "grid-path-counting",
+      "name": "Grid Path Counting",
+      "nameEn": "Grid Path Counting",
+      "definition": "Counting the number of shortest paths on a grid moving only east and north (or equivalent directions) using combinations.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MDM4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event."
+    },
+    {
+      "id": "pascals-triangle-binomial-coefficients",
+      "name": "Pascal's Triangle and Binomial Coefficients",
+      "nameEn": "Pascal's Triangle and Binomial Coefficients",
+      "definition": "Pascal's Triangle generates binomial coefficients where each entry is the sum of the two above; each row corresponds to coefficients of (a+b)^n.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MDM4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event."
+    },
+    {
+      "id": "binomial-theorem-general-term",
+      "name": "Binomial Theorem General Term",
+      "nameEn": "Binomial Theorem General Term",
+      "definition": "The (r+1)th term in (a+b)^n is C(n,r) * a^(n-r) * b^r, with r from 0 to n.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MDM4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event."
+    },
+    {
+      "id": "pascals-identity",
+      "name": "Pascal's Identity",
+      "nameEn": "Pascal's Identity",
+      "definition": "C(n, r) + C(n, r+1) = C(n+1, r+1) for non-negative integers n and r.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MDM4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can count the number of shortest grid paths using combinations."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can apply the Binomial Theorem general term formula to find a specified term in an expansion."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can find the constant term in a binomial expansion by setting the variable exponent sum to zero."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can state and apply Pascal's Identity to simplify combination sums."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-grid-path-total-steps",
+        "condition": "Student picks wrong option on Q1 that indicates incorrect summation of steps.",
+        "systemAction": "Assign reteach module for err-grid-path-total-steps.",
+        "studentMessage": "You need to review how to determine total steps in grid path counting. The total steps is east steps plus north steps."
+      },
+      {
+        "errorId": "err-term-number-off-by-one",
+        "condition": "Student picks wrong option on Q2 that uses r as term number instead of r+1.",
+        "systemAction": "Assign reteach module for err-term-number-off-by-one.",
+        "studentMessage": "Remember: the (r+1)th term uses index r in the formula C(n,r). Be careful with the term number."
+      },
+      {
+        "errorId": "err-constant-term-exponent-sum",
+        "condition": "Student picks wrong option on Q3 that indicates incorrect exponent setup.",
+        "systemAction": "Assign reteach module for err-constant-term-exponent-sum.",
+        "studentMessage": "To find a constant term, set the exponent of the variable to zero and solve for r."
+      },
+      {
+        "errorId": "err-pascals-identity-direction",
+        "condition": "Student picks wrong option on Q4 that uses incorrect indices in Pascal's Identity.",
+        "systemAction": "Assign reteach module for err-pascals-identity-direction.",
+        "studentMessage": "Pascal's Identity: C(n, r) + C(n, r+1) = C(n+1, r+1). Check the indices."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-u2-0729-q1",
+        "nodeId": "grid-path-counting",
+        "errorId": "err-grid-path-total-steps",
+        "stem": "How many shortest routes are there from (0,0) to (4E, 3N) if you can only move east and north?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly uses combination with total steps = east + north.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Grid path counting uses combinations directly.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Apply combination formula to count grid paths.",
+        "commonMisconception": "Student adds east and north steps incorrectly, e.g., multiplies or uses only one component.",
+        "remediationModule": "err-grid-path-total-steps",
+        "retestItem": "err-grid-path-total-steps",
+        "options": [
+          {
+            "label": "A",
+            "text": "C(7,4) = 35",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "C(4,3) = 4",
+            "correct": false,
+            "feedbackWrong": "You used only the east and north numbers as n and r, but total steps is 4+3=7."
+          },
+          {
+            "label": "C",
+            "text": "12 routes",
+            "correct": false,
+            "feedbackWrong": "That is 4+3+? Actually 4+3=7, not 12. You may have multiplied."
+          },
+          {
+            "label": "D",
+            "text": "7 routes",
+            "correct": false,
+            "feedbackWrong": "7 is the total number of steps, but the number of routes is a combination, not the sum."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u2-0729-q2",
+        "nodeId": "binomial-theorem-general-term",
+        "errorId": "err-term-number-off-by-one",
+        "stem": "What is the 4th term in the expansion of (x^2 + 3)^5?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies r=3 for the 4th term and computes C(5,3)*(x^2)^2*3^3.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Binomial Theorem uses combinations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Apply general term formula to find a specific term.",
+        "commonMisconception": "Student uses r as the term number directly, so for 4th term uses r=4 instead of r=3.",
+        "remediationModule": "err-term-number-off-by-one",
+        "retestItem": "err-term-number-off-by-one",
+        "options": [
+          {
+            "label": "A",
+            "text": "270 x^4",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "810 x^4",
+            "correct": false,
+            "feedbackWrong": "You may have used r=4 (C(5,4)*x^2*81) or miscalculated coefficient. The 4th term has r=3."
+          },
+          {
+            "label": "C",
+            "text": "90 x^6",
+            "correct": false,
+            "feedbackWrong": "Check the exponent of x: (x^2)^(5-3) = (x^2)^2 = x^4, not x^6."
+          },
+          {
+            "label": "D",
+            "text": "270 x^6",
+            "correct": false,
+            "feedbackWrong": "The exponent of x is 4, not 6. Also check term number: 4th term uses r=3."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u2-0729-q3",
+        "nodeId": "binomial-theorem-general-term",
+        "errorId": "err-constant-term-exponent-sum",
+        "stem": "Find the constant term in the expansion of (x + 2/x)^6.",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student sets exponent of x to zero: 6-2r=0 => r=3, then computes C(6,3)*2^3=160.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Constant term problems require setting exponent sum to zero, a core skill.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Set exponent sum to zero to find constant term.",
+        "commonMisconception": "Student fails to set exponent sum to zero or solves incorrectly for r.",
+        "remediationModule": "err-constant-term-exponent-sum",
+        "retestItem": "err-constant-term-exponent-sum",
+        "options": [
+          {
+            "label": "A",
+            "text": "160",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "60",
+            "correct": false,
+            "feedbackWrong": "You may have used r=2, giving C(6,2)*2^2=15*4=60. But constant term requires r=3."
+          },
+          {
+            "label": "C",
+            "text": "20",
+            "correct": false,
+            "feedbackWrong": "That is just C(6,3)=20 without multiplying by 2^3."
+          },
+          {
+            "label": "D",
+            "text": "192",
+            "correct": false,
+            "feedbackWrong": "Check coefficient: 2^3=8, C(6,3)=20, product is 160, not 192."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-u2-0729-q4",
+        "nodeId": "pascals-identity",
+        "errorId": "err-pascals-identity-direction",
+        "stem": "Which of the following is a correct statement of Pascal's Identity?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student correctly identifies C(n, r) + C(n, r+1) = C(n+1, r+1).",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Pascal's Identity is a combinatorial identity within permutations and combinations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "stemIntent": "Recall and recognize Pascal's Identity.",
+        "commonMisconception": "Student confuses the indices, e.g., thinks C(n, r) + C(n, r+1) = C(n+1, r) or similar.",
+        "remediationModule": "err-pascals-identity-direction",
+        "retestItem": "err-pascals-identity-direction",
+        "options": [
+          {
+            "label": "A",
+            "text": "C(n, r) + C(n, r+1) = C(n+1, r+1)",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "C(n, r) + C(n+1, r) = C(n+1, r+1)",
+            "correct": false,
+            "feedbackWrong": "The left side indices are incorrect. Use the same n for the first two terms."
+          },
+          {
+            "label": "C",
+            "text": "C(n, r) + C(n, r) = C(n+1, r+1)",
+            "correct": false,
+            "feedbackWrong": "Both terms are C(n,r); identity uses consecutive indices in the second term."
+          },
+          {
+            "label": "D",
+            "text": "C(n, r) + C(n, r+1) = C(n, r+1)",
+            "correct": false,
+            "feedbackWrong": "This would imply C(n,r)=0, which is false. The right side should be C(n+1, r+1)."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-grid-path-total-steps",
+      "condition": "Student picks wrong option on Q1 that indicates incorrect summation of steps.",
+      "systemAction": "Assign reteach module for err-grid-path-total-steps.",
+      "studentMessage": "You need to review how to determine total steps in grid path counting. The total steps is east steps plus north steps."
+    },
+    {
+      "errorId": "err-term-number-off-by-one",
+      "condition": "Student picks wrong option on Q2 that uses r as term number instead of r+1.",
+      "systemAction": "Assign reteach module for err-term-number-off-by-one.",
+      "studentMessage": "Remember: the (r+1)th term uses index r in the formula C(n,r). Be careful with the term number."
+    },
+    {
+      "errorId": "err-constant-term-exponent-sum",
+      "condition": "Student picks wrong option on Q3 that indicates incorrect exponent setup.",
+      "systemAction": "Assign reteach module for err-constant-term-exponent-sum.",
+      "studentMessage": "To find a constant term, set the exponent of the variable to zero and solve for r."
+    },
+    {
+      "errorId": "err-pascals-identity-direction",
+      "condition": "Student picks wrong option on Q4 that uses incorrect indices in Pascal's Identity.",
+      "systemAction": "Assign reteach module for err-pascals-identity-direction.",
+      "studentMessage": "Pascal's Identity: C(n, r) + C(n, r+1) = C(n+1, r+1). Check the indices."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-term-number-off-by-one",
+      "trigger": "When asked to find the 4th term of (x^2+3)^5, the student writes C(5,4)*(x^2)^(5-4)*3^4 = 5*x^2*81 = 405x^2.",
+      "studentMisunderstanding": "The student uses the term number directly as r in the general term formula instead of r = term number - 1.",
+      "miniLesson": {
+        "explain": "The general term of (a+b)^n is T_{r+1}=C(n,r)*a^(n-r)*b^r, where r starts at 0. So the k-th term uses r=k-1.",
+        "example": "Find the 5th term of (x^2+2)^6. Since k=5, r=4. T_5 = C(6,4)*(x^2)^(2)*2^4 = 15*x^4*16 = 240x^4.",
+        "memoryAnchor": "Term number minus one equals r."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What value of r should you use to find the 3rd term in (a+b)^n?",
+          "answer": "r=2"
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the 3rd term of (x+1/x)^8 using the general term formula.",
+          "answer": "r=2, T_3 = C(8,2)*x^(8-2)*(1/x)^2 = 28*x^6*x^{-2} = 28x^4"
+        },
+        {
+          "level": "L3",
+          "prompt": "In the expansion of (x^2+2)^6, the term 240x^4 is which term number? (Hint: use the general term with known example.)",
+          "answer": "The 5th term"
+        }
+      ]
+    },
+    {
+      "errorId": "err-grid-path-total-steps",
+      "trigger": "Student says: 'I thought total steps was east times north' or 'I used only the east steps as total.'",
+      "studentMisunderstanding": "Student incorrectly adds or multiplies the east and north steps instead of summing them to find the total number of steps for choosing east moves.",
+      "miniLesson": {
+        "explain": "For grid paths moving only east (E) and north (N), the total number of steps is the sum of east steps and north steps. Then the number of different routes is C(total steps, east steps) or C(total steps, north steps).",
+        "example": "From (0,0) to (6E,5N): east steps = 6, north steps = 5, so total steps = 6 + 5 = 11. Number of routes = C(11, 6) = 462.",
+        "memoryAnchor": "Total steps = east + north. Then choose where the east steps go."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many shortest routes are there from (0,0) to (2E,2N) moving only east and north?",
+          "answer": "C(4,2) = 6"
+        },
+        {
+          "level": "L2",
+          "prompt": "How many shortest routes from (0,0) to (5E,2N)?",
+          "answer": "C(7,2) = 21"
+        },
+        {
+          "level": "L3",
+          "prompt": "How many shortest routes from (0,0) to (6E,5N)?",
+          "answer": "C(11,6) = 462"
+        }
+      ]
+    },
+    {
+      "errorId": "err-pascals-identity-direction",
+      "trigger": "Student incorrectly identifies Pascal's Identity by choosing an option with wrong indices, e.g., C(n, r) + C(n+1, r) = C(n+1, r+1).",
+      "studentMisunderstanding": "Student misapplies Pascal's Identity by using incorrect indices, often confusing the relationship between the terms.",
+      "miniLesson": {
+        "explain": "Pascal's Identity states that C(n, r) + C(n, r+1) = C(n+1, r+1). This means the sum of two consecutive combinations with the same n equals a combination with n+1 and the larger index. It reflects how numbers in Pascal's Triangle are formed.",
+        "example": "C(6,4) + C(6,5) = 15 + 6 = 21, and C(7,5) = 21, so the identity holds.",
+        "memoryAnchor": "In Pascal's Triangle, each number is the sum of the two numbers directly above it. The identity matches that pattern: the number at (n+1, r+1) is the sum of the two above it: (n, r) and (n, r+1)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Calculate: C(5,2) + C(5,3).",
+          "answer": "20"
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite C(6,3) + C(6,4) using Pascal's Identity.",
+          "answer": "C(7,4)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Given C(6,4)=15 and C(6,5)=6, find C(7,5) using Pascal's Identity.",
+          "answer": "21"
+        }
+      ]
+    },
+    {
+      "errorId": "err-constant-term-exponent-sum",
+      "trigger": "Student incorrectly identifies the constant term in a binomial expansion, failing to set the variable exponent sum to zero.",
+      "studentMisunderstanding": "The student does not understand that a constant term has no variable, so the exponent of the variable must be zero. They may forget to combine exponents from both terms or solve the equation incorrectly.",
+      "miniLesson": {
+        "explain": "To find the constant term in (a+b)^n, where a and b have variable factors, use the general term C(n,r)*a^(n-r)*b^r. Write each factor's exponent on the variable, add them, set the sum equal to zero, solve for r, then compute the coefficient.",
+        "example": "Find the constant term of (x+1/x)^10. General term: C(10,r)*x^(10-r)*(1/x)^r = C(10,r)*x^(10-2r). Set exponent 10-2r=0 → r=5. Constant term = C(10,5)=252.",
+        "memoryAnchor": "Constant term = no x. If term has x^p, set p=0 to find r."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Find the constant term in the expansion of (x+1/x)^6.",
+          "answer": "20"
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the constant term in the expansion of (x^2+1/x)^6.",
+          "answer": "15"
+        },
+        {
+          "level": "L3",
+          "prompt": "Find the constant term in the expansion of (x^3+3/x)^8.",
+          "answer": "20412"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-term-number-off-by-one",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "To find the 4th term in the expansion of (a+b)^n, what value of r should be used in the general term formula C(n,r)*a^(n-r)*b^r?",
+          "options": [
+            "r=3",
+            "r=4",
+            "r=5",
+            "r=2"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Find the 6th term of (x+1)^10. Express your answer in the form Ax^B.",
+          "rubric": "Correct answer: 252x^5. Award full marks for correct use of r=5 and correct calculation: C(10,5)*x^(10-5)*1^5 = 252*x^5. Deduct half if term number mistake but method otherwise correct."
+        }
+      ],
+      "passRule": "Student must answer both questions correctly. For question 1, correct option is r=3. For question 2, the answer must be 252x^5."
+    },
+    {
+      "forErrorId": "err-grid-path-total-steps",
+      "questions": [
+        {
+          "id": "grid-q1",
+          "type": "single_choice",
+          "stem": "How many shortest routes are there from (0,0) to (3E,2N) moving only east and north?",
+          "options": [
+            "10",
+            "5",
+            "6",
+            "20"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "grid-q2",
+          "type": "open_ended",
+          "stem": "How many shortest routes are there from (0,0) to (5E,5N) moving only east and north?",
+          "rubric": "252 or equivalent expression like C(10,5)=252"
+        }
+      ],
+      "passRule": "Both questions correct"
+    },
+    {
+      "forErrorId": "err-pascals-identity-direction",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following is the correct Pascal's Identity for C(5,2) + C(5,3)?",
+          "options": [
+            "C(6,3)",
+            "C(6,4)",
+            "C(5,3)",
+            "C(7,3)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Given C(5,2)=10 and C(5,3)=10, use Pascal's Identity to find C(6,3).",
+          "rubric": "Answer: 20. Must show correct application of identity."
+        }
+      ],
+      "passRule": "The student must answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-constant-term-exponent-sum",
+      "questions": [
+        {
+          "id": "err-constant-term-exponent-sum-q1",
+          "type": "single_choice",
+          "stem": "When finding the constant term in the expansion of $(x^2 + \\frac{1}{x})^6$, which equation do you set to find the value of $r$?",
+          "options": [
+            "$2(6-r) + r = 0$",
+            "$2(6-r) - r = 0$",
+            "$2(6-r) + (-r) = 0$",
+            "$2(6-r) - (-r) = 0$"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "err-constant-term-exponent-sum-q2",
+          "type": "open_ended",
+          "stem": "Find the constant term in the expansion of $(x^2 + \\frac{1}{x})^6$.",
+          "rubric": "The constant term is 15. Correct steps: General term: $C(6,r)(x^2)^{6-r}(1/x)^r = C(6,r)x^{12-2r-r} = C(6,r)x^{12-3r}$. Set $12-3r=0$, so $r=4$. Constant term = $C(6,4)=15$."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-29",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ZtkHdoyWqoYHqyxiBhqcpadAnPe?from=vc_group_doc_link#doxcnfUtiWDsEMW3k9itarYShNc",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-29 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "For grid path counting with only east and north moves, total steps = east steps + north steps, and number of routes = C(total steps, east steps) = C(total steps, north steps).；For paths that must pass through an intermediate point, total routes = (routes start→intermediate) × (routes intermediate→end).；For paths that must avoid a point, total routes = total unrestricted routes - routes that pass through that point.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can count the number of shortest grid paths using combinations."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can apply the Binomial Theorem general term formula to find a specified term in an expansion."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can find the constant term in a binomial expansion by setting the variable exponent sum to zero."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Students can state and apply Pascal's Identity to simplify combination sums."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 2 Presentation Assignment Specifications",
+        "studentAction": "Prepare a presentation covering Unit 2 Lessons 1-3 with 3-4 coding demos and 1-2 calculator sections. Reference instructor materials on discussion board. Choose to present in class or submit pre-recorded video.",
+        "deadlineText": "No specific deadline announced; assignment release today or tomorrow",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The required presentation must cover all core content of Unit 2 Lesson 1, Lesson 2 and Lesson 3... at least 3 to 4 coding demonstration examples and 1 to 2 sections showing student calculator usage",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "Assignment Release Timing",
+        "studentAction": "Check the course platform for the Unit 2 assignment release either today (July 29) or tomorrow (July 30).",
+        "deadlineText": "By end of day July 30, 2026",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "The official assignment release will be completed either on the same day of the class session or the following day",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Unit 1 Assignment Grading Progress",
+        "studentAction": "Wait for individual feedback on Unit 1 assignment; grading nearly complete.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who submitted Unit 1 assignment",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The grading of all submitted Unit 1 assignments is nearly complete, and detailed individual feedback will be released to students once the final verification is finished.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Next Class Plan: Review and Presentations",
+        "studentAction": "Prepare to continue reviewing remaining class activity questions and be ready to present your Unit 2 presentation assignment in subsequent classes.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The next class session will continue to review remaining class activity questions, and arrange time for students to present their Unit 2 presentation assignments.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Assignment release timing: 'either on the same day of the class session or the following day'",
+        "reason": "Exact release date not specified; inferred as July 29 or 30, 2026. Needs confirmation."
+      },
+      {
+        "rawText": "Platform for assignment upload not named in notes (likely the course management platform)",
+        "reason": "No specific platform given; operational detail missing."
+      }
+    ],
+    "watchTags": [
+      "grid-path-counting",
+      "pascals-triangle-binomial-coefficients",
+      "binomial-theorem-general-term",
+      "pascals-identity"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-grid-path-total-steps",
+        "condition": "Student picks wrong option on Q1 that indicates incorrect summation of steps.",
+        "systemAction": "Assign reteach module for err-grid-path-total-steps."
+      },
+      {
+        "errorId": "err-term-number-off-by-one",
+        "condition": "Student picks wrong option on Q2 that uses r as term number instead of r+1.",
+        "systemAction": "Assign reteach module for err-term-number-off-by-one."
+      },
+      {
+        "errorId": "err-constant-term-exponent-sum",
+        "condition": "Student picks wrong option on Q3 that indicates incorrect exponent setup.",
+        "systemAction": "Assign reteach module for err-constant-term-exponent-sum."
+      },
+      {
+        "errorId": "err-pascals-identity-direction",
+        "condition": "Student picks wrong option on Q4 that uses incorrect indices in Pascal's Identity.",
+        "systemAction": "Assign reteach module for err-pascals-identity-direction."
+      }
+    ],
+    "nextActions": [
+      "[err-grid-path-total-steps] Student picks wrong option on Q1 that indicates incorrect summation of steps.: You need to review how to determine total steps in grid path counting. The total steps is east steps plus north steps.",
+      "[err-term-number-off-by-one] Student picks wrong option on Q2 that uses r as term number instead of r+1.: Remember: the (r+1)th term uses index r in the formula C(n,r). Be careful with the term number.",
+      "[err-constant-term-exponent-sum] Student picks wrong option on Q3 that indicates incorrect exponent setup.: To find a constant term, set the exponent of the variable to zero and solve for r.",
+      "[err-pascals-identity-direction] Student picks wrong option on Q4 that uses incorrect indices in Pascal's Identity.: Pascal's Identity: C(n, r) + C(n, r+1) = C(n+1, r+1). Check the indices."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-u2-0729-q1",
+        "type": "choice",
+        "question": "How many shortest routes are there from (0,0) to (4E, 3N) if you can only move east and north?",
+        "options": [
+          "C(7,4) = 35",
+          "C(4,3) = 4",
+          "12 routes",
+          "7 routes"
+        ],
+        "correct": 0,
+        "diagnosis": "Apply combination formula to count grid paths.",
+        "misconceptions": [
+          "✓ 正确",
+          "You used only the east and north numbers as n and r, but total steps is 4+3=7.",
+          "That is 4+3+? Actually 4+3=7, not 12. You may have multiplied.",
+          "7 is the total number of steps, but the number of routes is a combination, not the sum."
+        ],
+        "nodeId": "grid-path-counting",
+        "errorId": "err-grid-path-total-steps",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly uses combination with total steps = east + north.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Grid path counting uses combinations directly.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student adds east and north steps incorrectly, e.g., multiplies or uses only one component.",
+        "remediationModule": "err-grid-path-total-steps",
+        "retestItem": "err-grid-path-total-steps"
+      },
+      {
+        "id": "diag-mdm4u-u2-0729-q2",
+        "type": "choice",
+        "question": "What is the 4th term in the expansion of (x^2 + 3)^5?",
+        "options": [
+          "270 x^4",
+          "810 x^4",
+          "90 x^6",
+          "270 x^6"
+        ],
+        "correct": 0,
+        "diagnosis": "Apply general term formula to find a specific term.",
+        "misconceptions": [
+          "✓ 正确",
+          "You may have used r=4 (C(5,4)*x^2*81) or miscalculated coefficient. The 4th term has r=3.",
+          "Check the exponent of x: (x^2)^(5-3) = (x^2)^2 = x^4, not x^6.",
+          "The exponent of x is 4, not 6. Also check term number: 4th term uses r=3."
+        ],
+        "nodeId": "binomial-theorem-general-term",
+        "errorId": "err-term-number-off-by-one",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies r=3 for the 4th term and computes C(5,3)*(x^2)^2*3^3.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Binomial Theorem uses combinations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student uses r as the term number directly, so for 4th term uses r=4 instead of r=3.",
+        "remediationModule": "err-term-number-off-by-one",
+        "retestItem": "err-term-number-off-by-one"
+      },
+      {
+        "id": "diag-mdm4u-u2-0729-q3",
+        "type": "choice",
+        "question": "Find the constant term in the expansion of (x + 2/x)^6.",
+        "options": [
+          "160",
+          "60",
+          "20",
+          "192"
+        ],
+        "correct": 0,
+        "diagnosis": "Set exponent sum to zero to find constant term.",
+        "misconceptions": [
+          "✓ 正确",
+          "You may have used r=2, giving C(6,2)*2^2=15*4=60. But constant term requires r=3.",
+          "That is just C(6,3)=20 without multiplying by 2^3.",
+          "Check coefficient: 2^3=8, C(6,3)=20, product is 160, not 192."
+        ],
+        "nodeId": "binomial-theorem-general-term",
+        "errorId": "err-constant-term-exponent-sum",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student sets exponent of x to zero: 6-2r=0 => r=3, then computes C(6,3)*2^3=160.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Constant term problems require setting exponent sum to zero, a core skill.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student fails to set exponent sum to zero or solves incorrectly for r.",
+        "remediationModule": "err-constant-term-exponent-sum",
+        "retestItem": "err-constant-term-exponent-sum"
+      },
+      {
+        "id": "diag-mdm4u-u2-0729-q4",
+        "type": "choice",
+        "question": "Which of the following is a correct statement of Pascal's Identity?",
+        "options": [
+          "C(n, r) + C(n, r+1) = C(n+1, r+1)",
+          "C(n, r) + C(n+1, r) = C(n+1, r+1)",
+          "C(n, r) + C(n, r) = C(n+1, r+1)",
+          "C(n, r) + C(n, r+1) = C(n, r+1)"
+        ],
+        "correct": 0,
+        "diagnosis": "Recall and recognize Pascal's Identity.",
+        "misconceptions": [
+          "✓ 正确",
+          "The left side indices are incorrect. Use the same n for the first two terms.",
+          "Both terms are C(n,r); identity uses consecutive indices in the second term.",
+          "This would imply C(n,r)=0, which is false. The right side should be C(n+1, r+1)."
+        ],
+        "nodeId": "pascals-identity",
+        "errorId": "err-pascals-identity-direction",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student correctly identifies C(n, r) + C(n, r+1) = C(n+1, r+1).",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Pascal's Identity is a combinatorial identity within permutations and combinations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "understand",
+        "commonMisconception": "Student confuses the indices, e.g., thinks C(n, r) + C(n, r+1) = C(n+1, r) or similar.",
+        "remediationModule": "err-pascals-identity-direction",
+        "retestItem": "err-pascals-identity-direction"
+      }
+    ]
+  }
+}

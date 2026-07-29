@@ -1,0 +1,702 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-29",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/QvutdBGesodEPzxuKl1c1g9rnkZ?from=vc_group_doc_link#doxcn8ahArqV2N1x6fMZ2RlPfEc",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-29 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/QvutdBGesodEPzxuKl1c1g9rnkZ?from=vc_group_doc_link#doxcn8ahArqV2N1x6fMZ2RlPfEc",
+    "title": "SPH3U.S6.Michael 2026-07-29 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-29/sources/sph3u-s6-michael-2026-07-29/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-29",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-29",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson consists of a review of friction concepts, worked sample problems, and an introduction to the new Work and Energy unit, all delivered as direct instruction.",
+    "academicContentSignals": [
+      "Friction categories: static and kinetic friction",
+      "Friction direction rule: kinetic friction opposite to motion",
+      "Sample problem: 250 kg ramp box displacement calculation",
+      "Sample problem: Connected sleigh system net force and tension",
+      "Sample problem: Sleigh tension derivation for 12 kg mass at 3 m/s²",
+      "Work definition as dot product: W = F·cosθ·d",
+      "Work classification: positive (0-90°), negative (180°), zero (perpendicular or no displacement)",
+      "Work calculation example: 50 N force on curling stone, work = 210 J",
+      "Unit learning objectives: work-energy theorem, kinetic/potential energy, energy conservation",
+      "Energy basics: kinetic and potential energy forms, energy conversion"
+    ],
+    "courseOverviewSignals": [
+      "Introduction to Work and Energy unit",
+      "Learners will master work definition, energy properties, work-energy theorem, and energy conservation for real-world problem solving"
+    ],
+    "opsDominanceRisk": "Low – operations are minimal and do not overshadow the core academic content.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Next class will cover unfinished content from current lecture",
+        "studentAction": "Be prepared to continue from where the lecture left off; no specific preparation required.",
+        "deadlineText": "Next physics class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "All unfinished content from the current lecture will be fully covered in the next scheduled physics class.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Friction and Dynamics、Work Definition and Calculation）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Friction is a motion-opposing force due to surface roughness and molecular attraction; static and kinetic are the main types.；Kinetic friction always acts opposite to the direction of motion.；Work is defined as W = F·cosθ·d, where θ is the angle between force and displacement.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify the direction of kinetic friction relative to motion."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Calculate work using W = F·cosθ·d and determine its sign based on the angle between force and displacement."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Apply the work formula to friction-related problems to find displacement or work done."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "friction-dynamics",
+      "name": "Friction and Dynamics",
+      "nameEn": "Friction and Newton's Laws in One Dimension",
+      "definition": "Friction is a force opposing motion; kinetic friction direction is opposite to motion. Static friction prevents motion up to a limit. Problems involve net force and acceleration.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "SPH3U-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension."
+    },
+    {
+      "id": "work-definition",
+      "name": "Work Definition and Calculation",
+      "nameEn": "Work: Definition, Formula, and Sign",
+      "definition": "Work is the dot product of force and displacement: W = F·cosθ·d. Positive work when force aids motion (0-90°), negative when opposes (180°), zero when perpendicular (90°) or no displacement.",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "SPH3U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the direction of kinetic friction relative to motion."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate work using W = F·cosθ·d and determine its sign based on the angle between force and displacement."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply the work formula to friction-related problems to find displacement or work done."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-friction-direction",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module for err-friction-direction",
+        "studentMessage": "Friction direction can be tricky. Let's revisit how friction always opposes relative motion."
+      },
+      {
+        "errorId": "err-work-sign",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module for err-work-sign",
+        "studentMessage": "Work sign depends on the angle between force and displacement. Let's clarify when work is positive, negative, or zero."
+      },
+      {
+        "errorId": "err-work-formula",
+        "condition": "student picks wrong option on Q3 or gives insufficient response on Q4",
+        "systemAction": "assign reteach module for err-work-formula",
+        "studentMessage": "Applying the work formula requires careful use of the cosine factor. Let's practice."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-u2-0729-q1",
+        "nodeId": "friction-dynamics",
+        "errorId": "err-friction-direction",
+        "stem": "A box is sliding to the right along a rough floor. What is the direction of the kinetic friction force acting on the box?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that kinetic friction opposes relative motion, so it acts to the left.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Friction direction is a direct application of unbalanced forces in one dimension.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding that kinetic friction always opposes the direction of motion, not acceleration or net force.",
+        "commonMisconception": "Students may think friction always opposes acceleration or the applied force direction.",
+        "remediationModule": "err-friction-direction",
+        "retestItem": "err-friction-direction",
+        "options": [
+          {
+            "label": "A",
+            "text": "To the right, in the same direction as motion",
+            "correct": false,
+            "feedbackWrong": "Friction opposes motion, so it cannot be in the same direction as the box's velocity."
+          },
+          {
+            "label": "B",
+            "text": "To the left, opposite to the direction of motion",
+            "correct": true,
+            "feedbackCorrect": "Correct! Kinetic friction always acts opposite to the relative motion of the surfaces."
+          },
+          {
+            "label": "C",
+            "text": "Upward, because friction is normal to the surface",
+            "correct": false,
+            "feedbackWrong": "Friction acts parallel to the surface, not perpendicular. Normal force is perpendicular."
+          },
+          {
+            "label": "D",
+            "text": "It depends on the acceleration of the box",
+            "correct": false,
+            "feedbackWrong": "Direction of kinetic friction does not depend on acceleration; it depends on relative motion."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-u2-0729-q2",
+        "nodeId": "work-definition",
+        "errorId": "err-work-sign",
+        "stem": "A person carries a suitcase horizontally at constant speed across a flat floor. Which statement describes the work done by the person on the suitcase?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that since force is vertical (to support weight) and displacement is horizontal, the angle is 90° and work is zero.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Work sign and zero work are fundamental to understanding work as energy transfer.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of when work is zero due to perpendicular force and displacement.",
+        "commonMisconception": "Students often think if force is applied, work must be done, ignoring the angle.",
+        "remediationModule": "err-work-sign",
+        "retestItem": "err-work-sign",
+        "options": [
+          {
+            "label": "A",
+            "text": "Positive work, because the person applies force to keep it moving",
+            "correct": false,
+            "feedbackWrong": "The force is vertical to support the weight, but displacement is horizontal. Since the angle is 90°, cos(90°)=0, so no work is done."
+          },
+          {
+            "label": "B",
+            "text": "Negative work, because the suitcase resists motion",
+            "correct": false,
+            "feedbackWrong": "Negative work occurs when force opposes displacement (angle 180°). Here force is perpendicular, so work is zero."
+          },
+          {
+            "label": "C",
+            "text": "Zero work, because the force is perpendicular to displacement",
+            "correct": true,
+            "feedbackCorrect": "Correct! Since the force is vertical and displacement horizontal, the angle is 90° and work is zero."
+          },
+          {
+            "label": "D",
+            "text": "Cannot determine without knowing the mass and speed",
+            "correct": false,
+            "feedbackWrong": "Work depends on force, displacement, and angle, not mass or speed directly. The angle alone determines zero work here."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-u2-0729-q3",
+        "nodeId": "work-definition",
+        "errorId": "err-work-formula",
+        "stem": "A student pushes a box with a constant force of 50 N at an angle of 30° above the horizontal. The box moves 8.0 m horizontally. How much work does the student do?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly calculates W = F·d·cosθ = 50 N × 8.0 m × cos(30°) ≈ 346 J.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Work calculation using formula is a specific expectation under work and energy.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to correctly apply work formula with proper angle and cosine.",
+        "commonMisconception": "Students may forget to use cosine or use the angle from horizontal incorrectly (e.g., use sin or omit cos).",
+        "remediationModule": "err-work-formula",
+        "retestItem": "err-work-formula",
+        "options": [
+          {
+            "label": "A",
+            "text": "400 J",
+            "correct": false,
+            "feedbackWrong": "You likely used W = F·d without cosine. The force is not parallel to displacement, so you must multiply by cos(30°)."
+          },
+          {
+            "label": "B",
+            "text": "346 J",
+            "correct": true,
+            "feedbackCorrect": "Correct! W = 50 N × 8.0 m × cos(30°) = 400 × 0.866 ≈ 346 J."
+          },
+          {
+            "label": "C",
+            "text": "200 J",
+            "correct": false,
+            "feedbackWrong": "You might have used sin(30°) instead of cos or halved incorrectly. Remember to use cosine of the angle between force and displacement."
+          },
+          {
+            "label": "D",
+            "text": "0 J",
+            "correct": false,
+            "feedbackWrong": "Work is not zero because the horizontal component of force contributes to displacement. Only perpendicular components yield zero work."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-u2-0729-q4",
+        "nodeId": "friction-dynamics",
+        "errorId": "err-work-formula",
+        "stem": "A 250 kg crate is pushed with a force of 140 N to the right across a rough floor. The crate stops after 0.36 m. Using the work formula, explain whether the work done by friction is positive, negative, or zero. Then calculate the magnitude of the work done by friction.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student states friction does negative work because it opposes displacement, then calculates W_friction = -F_friction × d (but F_friction is unknown from given data; student should recognize more info needed or calculate using work-energy theorem. A valid answer is: 'Friction does negative work because it opposes motion. Without knowing the friction force, I cannot calculate the exact magnitude, but if the crate stops, the net work is zero? Actually, applied force does positive work and friction does negative work of equal magnitude if constant speed? Since it stops, net work equals change in KE. Provide a clear reasoning.' Alternatively, if they assume constant friction force and that the applied force is 140 N and displacement 0.36 m, they might calculate W_applied = 50.4 J, and by work-energy theorem, W_friction = -50.4 J if final KE is zero and initial KE unknown. The problem is intended to see if they can reason about sign and formula.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Combines friction direction with work formula; aligns with both C3 and D3. Primarily D3 for work, but friction context ties to C3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Assess ability to integrate concepts: friction direction determines work sign, and apply work formula to a real scenario with missing data, requiring reasoning instead of pure calculation.",
+        "commonMisconception": "Students may claim friction does positive work or use incorrect angle (0° instead of 180°).",
+        "remediationModule": "err-work-formula",
+        "retestItem": "err-work-formula",
+        "rubric": "Full credit: correctly states friction does negative work because it opposes motion. Then either calculates magnitude using known numbers (e.g., F_friction = 140 N if net force zero? but crate stops so not constant speed) or explains that more information is needed. Partial credit: states negative work but calculation error. Minimal credit: only states sign or only calculation.",
+        "sampleStrongAnswer": "Friction does negative work because it acts opposite to the displacement (θ=180°, cos180°=-1). The magnitude of work done by friction is the product of friction force and displacement. However, we don't know the friction force directly. From the data, the applied force does W_applied = 140 N × 0.36 m × cos(0°) = 50.4 J positive work. Since the crate stops, its kinetic energy change is negative, and by work-energy theorem, the net work is the change in KE. If we assume the crate started from rest? Actually it stops after moving, so initial KE > 0. Without mass and speeds, we cannot precisely calculate friction work. But we can say friction work is negative and likely equal in magnitude to the change in KE plus applied work."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-friction-direction",
+      "condition": "student picks wrong option on Q1",
+      "systemAction": "assign reteach module for err-friction-direction",
+      "studentMessage": "Friction direction can be tricky. Let's revisit how friction always opposes relative motion."
+    },
+    {
+      "errorId": "err-work-sign",
+      "condition": "student picks wrong option on Q2",
+      "systemAction": "assign reteach module for err-work-sign",
+      "studentMessage": "Work sign depends on the angle between force and displacement. Let's clarify when work is positive, negative, or zero."
+    },
+    {
+      "errorId": "err-work-formula",
+      "condition": "student picks wrong option on Q3 or gives insufficient response on Q4",
+      "systemAction": "assign reteach module for err-work-formula",
+      "studentMessage": "Applying the work formula requires careful use of the cosine factor. Let's practice."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-friction-direction",
+      "trigger": "Student incorrectly identified the direction of kinetic friction on a diagnostic question.",
+      "studentMisunderstanding": "Students may think friction always acts opposite to acceleration rather than opposite to velocity, or apply kinetic friction direction incorrectly for static cases.",
+      "miniLesson": {
+        "explain": "Kinetic friction always opposes the relative motion between two surfaces in contact. This means it acts opposite to the direction in which an object is sliding, not necessarily opposite to its acceleration. For example, if a box is sliding to the right, kinetic friction acts to the left. This is true even if the box is slowing down (acceleration left) or speeding up (acceleration right) – friction always points opposite to velocity.",
+        "example": "Imagine you push a box to the right. As it slides, your hand applies a force to the right, but the floor exerts kinetic friction to the left. If you stop pushing, the box continues sliding right while friction still pulls left until it stops.",
+        "memoryAnchor": "Friction is like a brake: it always pulls opposite to the direction you're moving, not the direction you're pushing."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A book slides across a table to the north. What is the direction of the kinetic friction on the book?",
+          "answer": "South"
+        },
+        {
+          "level": "L2",
+          "prompt": "A 250 kg crate is pushed east with a force of 140 N. The crate moves east. What is the direction of the kinetic friction acting on the crate?",
+          "answer": "West"
+        },
+        {
+          "level": "L3",
+          "prompt": "A box is sliding to the right on a rough surface. It eventually stops. Describe the direction of kinetic friction throughout its motion. What happens to the friction direction when the box is at rest?",
+          "answer": "While sliding, kinetic friction always points left, opposite to motion. When it stops, kinetic friction disappears; static friction may act if there is an applied force trying to move it."
+        }
+      ]
+    },
+    {
+      "errorId": "err-work-sign",
+      "trigger": "Student picks wrong option on Q2 of the diagnostic assessment (work sign question).",
+      "studentMisunderstanding": "Students may confuse the conditions for positive, negative, and zero work, e.g., thinking work is always positive if force is applied, or not recognizing that the angle between force and displacement determines the sign.",
+      "miniLesson": {
+        "explain": "Work is defined as W = F·cosθ·d, where θ is the angle between the force and displacement vectors. The sign of work depends on θ: positive when 0° ≤ θ < 90° (force aids motion), zero when θ = 90° (force perpendicular), negative when 180° (force opposes motion). Key examples: lifting a box (positive work), friction slowing a box (negative work), carrying a suitcase horizontally (zero work because force is vertical, displacement horizontal).",
+        "example": "Consider a curling stone pushed with a 50 N force over 8 m on frictionless ice. The force is in the direction of displacement, so θ = 0° and work is positive: W = 50 × 8 × cos(0°) = 400 J. If friction acts opposite (180°), work is negative: e.g., W_friction = -F_friction × d. For zero work, imagine pushing against a wall with no displacement: d = 0, so W = 0 regardless of force.",
+        "memoryAnchor": "Work sign: Same direction = 'help' (positive); opposite = 'hinder' (negative); perpendicular or no movement = 'no work' (zero)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A person pushes a box with a force of 50 N at an angle of 0° relative to the displacement of 8 m. Is the work done by the person positive, negative, or zero?",
+          "answer": "Positive, since the force is parallel and in the same direction as motion (θ = 0°)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A man lifts a box vertically with a force of 50 N over a height of 3.5 m. Calculate the work done by the man and state whether it is positive or negative.",
+          "answer": "W = 50 N × 3.5 m × cos(0°) = 175 J. Positive work."
+        },
+        {
+          "level": "L3",
+          "prompt": "A crate is pushed with a force of 140 N eastward, but friction opposes motion. The crate moves 0.36 m east before stopping. If the friction force is constant and equal to 140 N westward, calculate the work done by friction and state its sign.",
+          "answer": "W_friction = 140 N × 0.36 m × cos(180°) = -50.4 J. Negative work because friction opposes displacement."
+        }
+      ]
+    },
+    {
+      "errorId": "err-work-formula",
+      "trigger": "Student incorrectly applies the work formula, e.g., omits the cosine factor or uses the wrong angle.",
+      "studentMisunderstanding": "Student may think work is simply force times distance regardless of direction, or may confuse which angle to use in the cosine factor.",
+      "miniLesson": {
+        "explain": "The work formula is W = F·cosθ·d, where θ is the angle between the force vector and the displacement vector. The cosine factor extracts the component of force that is parallel to the displacement. Only this component does work. A common mistake is to use the angle from horizontal incorrectly or to use sin instead of cos. Always identify the two vectors and measure the angle between them.",
+        "example": "If you push a box with a force of 50 N at an angle of 30° above the horizontal and the box moves 8.0 m horizontally, the work you do is calculated using the component of force in the direction of motion: F_parallel = 50 N × cos(30°) = 43.3 N. Then work = 43.3 N × 8.0 m = 346 J. If you had simply used F = 50 N, you would get 400 J, which is incorrect.",
+        "memoryAnchor": "Work is like a dot product: only the part of the force that pulls in the direction of motion counts. Think of a dog on a leash: if you pull at an angle, only the forward pull does work; the sideways pull just makes the dog turn, not move forward. Always multiply by the cosine of the angle between force and displacement."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the formula for work? What does θ represent?",
+          "answer": "W = F·cosθ·d; θ is the angle between the force and displacement vectors."
+        },
+        {
+          "level": "L2",
+          "prompt": "A force of 50 N is applied at an angle of 30° above the horizontal. The object moves 8.0 m horizontally. Calculate the work done.",
+          "answer": "W = 50 N × 8.0 m × cos(30°) = 400 × 0.8660 ≈ 346 J."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student calculates work for a force of 50 N at 30° over 8.0 m as W = 50 × 8.0 × sin(30°) = 200 J. Is this correct? If not, explain the error and give the correct answer.",
+          "answer": "No, the student used sin instead of cos. The formula is W = F·d·cosθ, where θ is the angle between force and displacement. Here θ=30°, so cos30°=0.866. Correct work = 50 × 8.0 × 0.866 = 346 J. Sin30° would be used only if we wanted the perpendicular component, but work uses the parallel component."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-friction-direction",
+      "questions": [
+        {
+          "id": "retest-friction-dir-q1",
+          "type": "single_choice",
+          "stem": "A box is sliding to the right across a rough floor. Which direction does kinetic friction act on the box?",
+          "options": [
+            "Right",
+            "Left",
+            "Up",
+            "Down"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-friction-dir-q2",
+          "type": "open_ended",
+          "stem": "A car accelerates to the right while its tires are spinning. Explain the direction of the kinetic friction force on the tires from the road.",
+          "rubric": "Must state that kinetic friction opposes relative sliding motion. Since the tire's bottom surface moves backward relative to the road (due to spinning), the kinetic friction force acts forward (to the right) to oppose that sliding. Accept any explanation that clearly identifies that friction direction depends on relative motion, not necessarily opposite to acceleration."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. Single choice answer must be 'Left'. Open-ended response must indicate that kinetic friction opposes the sliding direction; for spinning tires accelerating right, friction acts to the right because the tire slides backward."
+    },
+    {
+      "forErrorId": "err-work-sign",
+      "questions": [
+        {
+          "id": "rc_ws_1",
+          "type": "single_choice",
+          "stem": "A person pulls a sled with a force of 50 N at an angle of 30° above the horizontal. The sled moves 12 m horizontally. What is the sign of the work done by the person?",
+          "options": [
+            "Positive",
+            "Negative",
+            "Zero",
+            "Cannot be determined"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "rc_ws_2",
+          "type": "open_ended",
+          "stem": "A 250 kg box is pushed eastward with a force of 140 N. Kinetic friction opposes the motion with a constant force of 140 N westward. The box moves 0.36 m east before stopping. Calculate the work done by friction and state whether it is positive, negative, or zero.",
+          "rubric": "Correct calculation: W = 140 N × 0.36 m × cos(180°) = -50.4 J. Sign: negative. Award full marks for correct numerical answer with correct sign (including units optional). Partial credit for correct sign with calculation error."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended, the answer must include the correct numerical work (with sign) and the correct sign statement."
+    },
+    {
+      "forErrorId": "err-work-formula",
+      "questions": [
+        {
+          "id": "retest-err-work-formula-q1",
+          "type": "single_choice",
+          "stem": "Which expression correctly calculates the work done by a 50 N force applied at 30° to the direction of motion over a 12 m displacement?",
+          "options": [
+            "W = 50 N × 12 m × sin(30°)",
+            "W = 50 N × 12 m × cos(30°)",
+            "W = 50 N × 12 m",
+            "W = 50 N × 12 m × tan(30°"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-err-work-formula-q2",
+          "type": "open_ended",
+          "stem": "A worker applies a 140 N force at 40° above horizontal to push a crate 3.5 m across a rough floor. The crate moves horizontally. Calculate the work done by the worker. Use W = F·cosθ·d. Provide your answer with two significant figures.",
+          "rubric": "Correct formula (1 point): W = F·d·cosθ. Correct angle identification (1 point): angle between force and displacement is 40°. Correct calculation (1 point): cos40°≈0.766, W = 140×3.5×0.766 ≈ 375 J, rounded to 380 J (two sig figs). Accept 370–390 J."
+        }
+      ],
+      "passRule": "Student must answer all questions correctly to pass the retest."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-29",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/QvutdBGesodEPzxuKl1c1g9rnkZ?from=vc_group_doc_link#doxcn8ahArqV2N1x6fMZ2RlPfEc",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-29 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Friction is a motion-opposing force due to surface roughness and molecular attraction; static and kinetic are the main types.；Kinetic friction always acts opposite to the direction of motion.；Work is defined as W = F·cosθ·d, where θ is the angle between force and displacement.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the direction of kinetic friction relative to motion."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate work using W = F·cosθ·d and determine its sign based on the angle between force and displacement."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply the work formula to friction-related problems to find displacement or work done."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "announcement",
+        "title": "Next class will cover unfinished content from current lecture",
+        "studentAction": "Be prepared to continue from where the lecture left off; no specific preparation required.",
+        "deadlineText": "Next physics class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "All unfinished content from the current lecture will be fully covered in the next scheduled physics class.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "friction-dynamics",
+      "work-definition"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-friction-direction",
+        "condition": "student picks wrong option on Q1",
+        "systemAction": "assign reteach module for err-friction-direction"
+      },
+      {
+        "errorId": "err-work-sign",
+        "condition": "student picks wrong option on Q2",
+        "systemAction": "assign reteach module for err-work-sign"
+      },
+      {
+        "errorId": "err-work-formula",
+        "condition": "student picks wrong option on Q3 or gives insufficient response on Q4",
+        "systemAction": "assign reteach module for err-work-formula"
+      }
+    ],
+    "nextActions": [
+      "[err-friction-direction] student picks wrong option on Q1: Friction direction can be tricky. Let's revisit how friction always opposes relative motion.",
+      "[err-work-sign] student picks wrong option on Q2: Work sign depends on the angle between force and displacement. Let's clarify when work is positive, negative, or zero.",
+      "[err-work-formula] student picks wrong option on Q3 or gives insufficient response on Q4: Applying the work formula requires careful use of the cosine factor. Let's practice."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-u2-0729-q1",
+        "type": "choice",
+        "question": "A box is sliding to the right along a rough floor. What is the direction of the kinetic friction force acting on the box?",
+        "options": [
+          "To the right, in the same direction as motion",
+          "To the left, opposite to the direction of motion",
+          "Upward, because friction is normal to the surface",
+          "It depends on the acceleration of the box"
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding that kinetic friction always opposes the direction of motion, not acceleration or net force.",
+        "misconceptions": [
+          "Friction opposes motion, so it cannot be in the same direction as the box's velocity.",
+          "✓ Correct! Kinetic friction always acts opposite to the relative motion of the surfaces.",
+          "Friction acts parallel to the surface, not perpendicular. Normal force is perpendicular.",
+          "Direction of kinetic friction does not depend on acceleration; it depends on relative motion."
+        ],
+        "nodeId": "friction-dynamics",
+        "errorId": "err-friction-direction",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that kinetic friction opposes relative motion, so it acts to the left.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Friction direction is a direct application of unbalanced forces in one dimension.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think friction always opposes acceleration or the applied force direction.",
+        "remediationModule": "err-friction-direction",
+        "retestItem": "err-friction-direction"
+      },
+      {
+        "id": "diag-sph3u-u2-0729-q2",
+        "type": "choice",
+        "question": "A person carries a suitcase horizontally at constant speed across a flat floor. Which statement describes the work done by the person on the suitcase?",
+        "options": [
+          "Positive work, because the person applies force to keep it moving",
+          "Negative work, because the suitcase resists motion",
+          "Zero work, because the force is perpendicular to displacement",
+          "Cannot determine without knowing the mass and speed"
+        ],
+        "correct": 2,
+        "diagnosis": "Check understanding of when work is zero due to perpendicular force and displacement.",
+        "misconceptions": [
+          "The force is vertical to support the weight, but displacement is horizontal. Since the angle is 90°, cos(90°)=0, so no work is done.",
+          "Negative work occurs when force opposes displacement (angle 180°). Here force is perpendicular, so work is zero.",
+          "✓ Correct! Since the force is vertical and displacement horizontal, the angle is 90° and work is zero.",
+          "Work depends on force, displacement, and angle, not mass or speed directly. The angle alone determines zero work here."
+        ],
+        "nodeId": "work-definition",
+        "errorId": "err-work-sign",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies that since force is vertical (to support weight) and displacement is horizontal, the angle is 90° and work is zero.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Work sign and zero work are fundamental to understanding work as energy transfer.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often think if force is applied, work must be done, ignoring the angle.",
+        "remediationModule": "err-work-sign",
+        "retestItem": "err-work-sign"
+      },
+      {
+        "id": "diag-sph3u-u2-0729-q3",
+        "type": "choice",
+        "question": "A student pushes a box with a constant force of 50 N at an angle of 30° above the horizontal. The box moves 8.0 m horizontally. How much work does the student do?",
+        "options": [
+          "400 J",
+          "346 J",
+          "200 J",
+          "0 J"
+        ],
+        "correct": 1,
+        "diagnosis": "Check ability to correctly apply work formula with proper angle and cosine.",
+        "misconceptions": [
+          "You likely used W = F·d without cosine. The force is not parallel to displacement, so you must multiply by cos(30°).",
+          "✓ Correct! W = 50 N × 8.0 m × cos(30°) = 400 × 0.866 ≈ 346 J.",
+          "You might have used sin(30°) instead of cos or halved incorrectly. Remember to use cosine of the angle between force and displacement.",
+          "Work is not zero because the horizontal component of force contributes to displacement. Only perpendicular components yield zero work."
+        ],
+        "nodeId": "work-definition",
+        "errorId": "err-work-formula",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly calculates W = F·d·cosθ = 50 N × 8.0 m × cos(30°) ≈ 346 J.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Work calculation using formula is a specific expectation under work and energy.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may forget to use cosine or use the angle from horizontal incorrectly (e.g., use sin or omit cos).",
+        "remediationModule": "err-work-formula",
+        "retestItem": "err-work-formula"
+      },
+      {
+        "id": "diag-sph3u-u2-0729-q4",
+        "type": "explain",
+        "question": "A 250 kg crate is pushed with a force of 140 N to the right across a rough floor. The crate stops after 0.36 m. Using the work formula, explain whether the work done by friction is positive, negative, or zero. Then calculate the magnitude of the work done by friction.",
+        "correct": null,
+        "diagnosis": "Assess ability to integrate concepts: friction direction determines work sign, and apply work formula to a real scenario with missing data, requiring reasoning instead of pure calculation.",
+        "nodeId": "friction-dynamics",
+        "errorId": "err-work-formula",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student states friction does negative work because it opposes displacement, then calculates W_friction = -F_friction × d (but F_friction is unknown from given data; student should recognize more info needed or calculate using work-energy theorem. A valid answer is: 'Friction does negative work because it opposes motion. Without knowing the friction force, I cannot calculate the exact magnitude, but if the crate stops, the net work is zero? Actually, applied force does positive work and friction does negative work of equal magnitude if constant speed? Since it stops, net work equals change in KE. Provide a clear reasoning.' Alternatively, if they assume constant friction force and that the applied force is 140 N and displacement 0.36 m, they might calculate W_applied = 50.4 J, and by work-energy theorem, W_friction = -50.4 J if final KE is zero and initial KE unknown. The problem is intended to see if they can reason about sign and formula.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between changes in velocity and unbalanced forces in one dimension.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "SPH3U-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Combines friction direction with work formula; aligns with both C3 and D3. Primarily D3 for work, but friction context ties to C3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Students may claim friction does positive work or use incorrect angle (0° instead of 180°).",
+        "remediationModule": "err-work-formula",
+        "retestItem": "err-work-formula"
+      }
+    ]
+  }
+}

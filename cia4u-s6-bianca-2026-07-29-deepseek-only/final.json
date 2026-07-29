@@ -1,0 +1,973 @@
+{
+  "sourceLesson": "CIA4U.S6.Bianca 2026-07-29",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/T83FdKIQIoThwgxDzRicmbvAnIb?from=vc_group_doc_link#doxcnkJIFDHn7DDYyMeugFrRskg",
+  "sourceTitle": "CIA4U.S6.Bianca 2026-07-29 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/T83FdKIQIoThwgxDzRicmbvAnIb?from=vc_group_doc_link#doxcnkJIFDHn7DDYyMeugFrRskg",
+    "title": "CIA4U.S6.Bianca 2026-07-29 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-29/sources/cia4u-s6-bianca-2026-07-29/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "CIA4U",
+  "lessonDate": "2026-07-29",
+  "teacher": "Bianca",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-29",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes new instruction on Canadian worker rights and obligations (Lesson 9 content), plus group discussion (practice) and test review for the Unit 2 test, combining instruction, practice, and review.",
+    "academicContentSignals": [
+      "Worker Rights Classification Framework: moral rights vs legal rights",
+      "Employer mandatory and expected obligations: safe workplace, fair pay, training, loyalty, skill development",
+      "Employee responsibilities: professionalism, punctuality, confidentiality, honesty, reporting misconduct",
+      "Extended labor law: employment relationship as reciprocal exchange, union collective bargaining, strike rules (secret ballot and 7-day notice), dispute resolution (conciliation and arbitration)",
+      "Employment at will doctrine and exceptions (public policy, implied contract, good faith), wrongful discharge, progressive discipline",
+      "Unit 2 test review: income inequality definition, difference from poverty, causes (wage gaps, education gaps, unemployment, rising living costs), government policies (minimum wage, progressive tax, EI, child tax credit, affordable education)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations include test date/time/camera rules, assignment deadline, and homework reminder, but academic content is substantial. Risk is that operations could overshadow learning content in diagnostic generation; ensure exit card focuses on worker rights, labor law concepts, and test review content rather than logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Test - Next Day",
+        "studentAction": "Attend on time with cameras enabled for the full duration",
+        "deadlineText": "2026-07-30 (next class)",
+        "deadlineISO": "2026-07-30",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The unit test will be held in the next day’s class, and all students must attend on time with cameras enabled for the full duration to be eligible to take the formal assessment.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Assignment 2 Submission",
+        "studentAction": "Upload materials if not yet submitted",
+        "deadlineText": "2026-07-29 (day of lesson)",
+        "deadlineISO": "2026-07-29",
+        "platform": null,
+        "link": null,
+        "appliesTo": "5 students who have not submitted",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Assignment 2 is due on the day of this meeting, and 5 students have not yet submitted their work. Relevant students shall upload materials promptly to avoid negative impacts on their coursework grades.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Lesson 9 Post-Class Questions",
+        "studentAction": "Complete 3 assigned questions covering definition and value of two right types, 3 worker roles, and 3 worker rights",
+        "deadlineText": "Not specified in notes",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students shall complete 3 assigned post-class questions, covering the definition and value of two right types, 3 worker roles, and 3 worker rights, with answers based on in-class content.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "review_focus",
+        "title": "Unit 2 Test Review Content",
+        "studentAction": "Review income inequality definition, causes, government policies, and case study approach",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Core knowledge modules: definition of income inequality, difference from poverty, core causes including wage gaps, education gaps, unemployment, and rising living costs, and government policies: minimum wage hikes, progressive income tax, employment insurance, child tax credits, and affordable public education programs.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Lesson 9 post-class homework deadline is not specified in the notes; it may be due next class or later.",
+        "reason": "No explicit deadline given for the homework; needs human confirmation."
+      }
+    ]
+  },
+  "title": "CIA4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Classification of Worker Rights、Employer Obligations、Employee Responsibilities、Employment at Will）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 7 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Worker rights are classified into moral rights and legal rights.；Moral rights are non-contractual entitlements rooted in human nature and public conscience, including respect, safe conditions, and fair compensation.；Legal rights are codified in employment contracts, covering paid benefits, resignation, negotiation, and refusal of unsuitable contracts.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Distinguish between moral and legal worker rights and identify examples of each."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Explain the employment at will doctrine and its exceptions."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Describe the legal requirements for a union to call a strike."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Differentiate income inequality from poverty and identify government policies addressing it."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "CIA4U-LE9-001",
+      "name": "Classification of Worker Rights",
+      "nameEn": "Worker Rights Classification",
+      "definition": "Worker rights are divided into moral rights (non-contractual, based on human dignity and conscience) and legal rights (codified in employment contracts).",
+      "officialExpectationCode": "CC3.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights."
+    },
+    {
+      "id": "CIA4U-LE9-002",
+      "name": "Employer Obligations",
+      "nameEn": "Employer Obligations",
+      "definition": "Employers must provide a safe, clean, discrimination-free workplace, fair pay, and pre-onboarding training; additional ethical duties include loyalty, skill development, and statutory benefits.",
+      "officialExpectationCode": "CC3.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights."
+    },
+    {
+      "id": "CIA4U-LE9-003",
+      "name": "Employee Responsibilities",
+      "nameEn": "Employee Responsibilities",
+      "definition": "Employees must maintain professionalism, punctuality, confidentiality, honesty, report misconduct, and adapt to organizational culture.",
+      "officialExpectationCode": "CC3.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights."
+    },
+    {
+      "id": "CIA4U-LE9-004",
+      "name": "Employment at Will",
+      "nameEn": "Employment at Will",
+      "definition": "Under common law, employers may hire, fire, or promote freely unless restricted; employees may resign at any time. Exceptions: public policy, implied contract, good faith.",
+      "officialExpectationCode": "CC3.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights."
+    },
+    {
+      "id": "CIA4U-LE9-005",
+      "name": "Dispute Resolution",
+      "nameEn": "Dispute Resolution",
+      "definition": "Unresolvable labor disputes go to Workplace Relations Commission: first conciliation, then binding arbitration if mediation fails.",
+      "officialExpectationCode": "CC3.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights."
+    },
+    {
+      "id": "CIA4U-LE9-006",
+      "name": "Trade Union Rules",
+      "nameEn": "Trade Union Rules",
+      "definition": "Unions advocate via collective bargaining; official strikes require a secret ballot and 7-day advance notice to employers.",
+      "officialExpectationCode": "CC3.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights."
+    },
+    {
+      "id": "CIA4U-LE9-007",
+      "name": "Unit 2 Test Review",
+      "nameEn": "Unit 2 Test Review",
+      "definition": "Test covers income inequality (definition vs poverty, causes: wage/education gaps, unemployment, living costs) and government policies (minimum wage, progressive tax, employment insurance, child tax credits, public education).",
+      "officialExpectationCode": "DD1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between moral and legal worker rights and identify examples of each."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain the employment at will doctrine and its exceptions."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Describe the legal requirements for a union to call a strike."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Differentiate income inequality from poverty and identify government policies addressing it."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-worker-rights-moral-vs-legal",
+        "condition": "student picks wrong option on question 1",
+        "systemAction": "assign reteach module for err-worker-rights-moral-vs-legal",
+        "studentMessage": "Moral and legal rights are different. Let's review their definitions and examples."
+      },
+      {
+        "errorId": "err-employment-at-will-absolute",
+        "condition": "student picks wrong option on question 2",
+        "systemAction": "assign reteach module for err-employment-at-will-absolute",
+        "studentMessage": "Employment at will has important exceptions. Let's go over them."
+      },
+      {
+        "errorId": "err-strike-requirements",
+        "condition": "student picks wrong option on question 3",
+        "systemAction": "assign reteach module for err-strike-requirements",
+        "studentMessage": "Strikes require a secret ballot and notice. Let's check the rules."
+      },
+      {
+        "errorId": "err-income-inequality-definition",
+        "condition": "student picks wrong option on question 4",
+        "systemAction": "assign reteach module for err-income-inequality-definition",
+        "studentMessage": "Income inequality and poverty are different concepts. Let's clarify."
+      }
+    ],
+    "questions": [
+      {
+        "id": "cia4u-0901",
+        "nodeId": "CIA4U-LE9-001",
+        "errorId": "err-worker-rights-moral-vs-legal",
+        "stem": "Which of the following is a moral right that a worker may not have legally codified in their contract?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can correctly identify a moral right that is not necessarily a legal right.",
+        "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights.",
+        "officialExpectationCode": "CC3.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No specific node in Knowledge Node Bank for CC3.3; alignment based on official expectation code.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check student's ability to distinguish moral rights from legal rights.",
+        "commonMisconception": "Believing that all moral rights are legally enforceable or that legal rights are optional.",
+        "remediationModule": "err-worker-rights-moral-vs-legal",
+        "retestItem": "err-worker-rights-moral-vs-legal",
+        "options": [
+          {
+            "label": "A",
+            "text": "Right to a safe workplace",
+            "correct": false,
+            "feedbackWrong": "This is typically a legal right enforced by occupational health and safety laws."
+          },
+          {
+            "label": "B",
+            "text": "Right to fair compensation",
+            "correct": false,
+            "feedbackWrong": "Minimum wage and overtime laws codify fair pay as a legal right in many jurisdictions."
+          },
+          {
+            "label": "C",
+            "text": "Right to respect and dignity",
+            "correct": true,
+            "feedbackCorrect": "Correct. Respect and dignity are moral rights that may not be explicitly in a contract or law."
+          },
+          {
+            "label": "D",
+            "text": "Right to paid vacation",
+            "correct": false,
+            "feedbackWrong": "Paid vacation is a legal right if included in employment standards or contract."
+          }
+        ]
+      },
+      {
+        "id": "cia4u-0902",
+        "nodeId": "CIA4U-LE9-004",
+        "errorId": "err-employment-at-will-absolute",
+        "stem": "Under the employment at will doctrine, an employer can legally fire an employee for which of the following reasons?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student can identify a reason that is permissible under employment at will, recognizing exceptions.",
+        "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights.",
+        "officialExpectationCode": "CC3.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No specific node in Knowledge Node Bank for CC3.3; alignment based on official expectation code.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding that employment at will has exceptions for discrimination and public policy.",
+        "commonMisconception": "Assuming employment at will allows firing for any reason without exception.",
+        "remediationModule": "err-employment-at-will-absolute",
+        "retestItem": "err-employment-at-will-absolute",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reporting a safety violation to a regulator",
+            "correct": false,
+            "feedbackWrong": "This is an exception under public policy – retaliatory discharge is illegal."
+          },
+          {
+            "label": "B",
+            "text": "Because the employee is pregnant",
+            "correct": false,
+            "feedbackWrong": "Dismissal based on pregnancy is discriminatory and automatically wrongful discharge."
+          },
+          {
+            "label": "C",
+            "text": "Poor job performance",
+            "correct": true,
+            "feedbackCorrect": "Correct. Under employment at will, poor performance is a legitimate, non-protected reason for termination."
+          },
+          {
+            "label": "D",
+            "text": "Joining a labor union",
+            "correct": false,
+            "feedbackWrong": "Union membership is a protected activity; dismissal for joining a union is unlawful."
+          }
+        ]
+      },
+      {
+        "id": "cia4u-0903",
+        "nodeId": "CIA4U-LE9-006",
+        "errorId": "err-strike-requirements",
+        "stem": "Which of the following is required for a union to call a legal strike?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can state the correct procedure for a legal strike: secret ballot and notice.",
+        "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights.",
+        "officialExpectationCode": "CC3.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No specific node in Knowledge Node Bank for CC3.3; alignment based on official expectation code.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recognize",
+        "stemIntent": "Check knowledge of the legal prerequisites for a strike.",
+        "commonMisconception": "Thinking strikes can be called without a vote or with just a simple executive decision.",
+        "remediationModule": "err-strike-requirements",
+        "retestItem": "err-strike-requirements",
+        "options": [
+          {
+            "label": "A",
+            "text": "A vote by union management only",
+            "correct": false,
+            "feedbackWrong": "A secret ballot of all union members is required, not just management."
+          },
+          {
+            "label": "B",
+            "text": "A secret ballot vote and 7-day advance notice to the employer",
+            "correct": true,
+            "feedbackCorrect": "Correct. Both a secret ballot and 7-day notice are mandatory for a legal strike."
+          },
+          {
+            "label": "C",
+            "text": "Approval from the federal government",
+            "correct": false,
+            "feedbackWrong": "Government approval is not required; the process is governed by labor relations legislation."
+          },
+          {
+            "label": "D",
+            "text": "A majority vote by the general public",
+            "correct": false,
+            "feedbackWrong": "Only union members vote; public opinion is not a legal requirement."
+          }
+        ]
+      },
+      {
+        "id": "cia4u-0904",
+        "nodeId": "CIA4U-LE9-007",
+        "errorId": "err-income-inequality-definition",
+        "stem": "Which statement best distinguishes income inequality from poverty?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student can correctly differentiate the two concepts.",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No specific node in Knowledge Node Bank for DD1.3; alignment based on official expectation code.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that income inequality is about distribution, while poverty is about absolute deprivation.",
+        "commonMisconception": "Equating income inequality with poverty; thinking they are the same.",
+        "remediationModule": "err-income-inequality-definition",
+        "retestItem": "err-income-inequality-definition",
+        "options": [
+          {
+            "label": "A",
+            "text": "Income inequality refers to the gap between rich and poor; poverty refers to individuals lacking basic necessities.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Income inequality is a relative measure of distribution; poverty is an absolute measure of deprivation."
+          },
+          {
+            "label": "B",
+            "text": "Income inequality and poverty are the same concept.",
+            "correct": false,
+            "feedbackWrong": "They are distinct: inequality is about spread, poverty is about falling below a threshold."
+          },
+          {
+            "label": "C",
+            "text": "Income inequality measures absolute deprivation.",
+            "correct": false,
+            "feedbackWrong": "Income inequality measures relative differences, not absolute standards."
+          },
+          {
+            "label": "D",
+            "text": "Poverty only exists in developing countries.",
+            "correct": false,
+            "feedbackWrong": "Poverty exists in all countries, including developed ones, though definitions vary."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-worker-rights-moral-vs-legal",
+      "condition": "student picks wrong option on question 1",
+      "systemAction": "assign reteach module for err-worker-rights-moral-vs-legal",
+      "studentMessage": "Moral and legal rights are different. Let's review their definitions and examples."
+    },
+    {
+      "errorId": "err-employment-at-will-absolute",
+      "condition": "student picks wrong option on question 2",
+      "systemAction": "assign reteach module for err-employment-at-will-absolute",
+      "studentMessage": "Employment at will has important exceptions. Let's go over them."
+    },
+    {
+      "errorId": "err-strike-requirements",
+      "condition": "student picks wrong option on question 3",
+      "systemAction": "assign reteach module for err-strike-requirements",
+      "studentMessage": "Strikes require a secret ballot and notice. Let's check the rules."
+    },
+    {
+      "errorId": "err-income-inequality-definition",
+      "condition": "student picks wrong option on question 4",
+      "systemAction": "assign reteach module for err-income-inequality-definition",
+      "studentMessage": "Income inequality and poverty are different concepts. Let's clarify."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-worker-rights-moral-vs-legal",
+      "trigger": "Student confuses moral and legal worker rights, e.g., believing moral rights are legally enforceable or legal rights are optional.",
+      "studentMisunderstanding": "Moral rights are based on human dignity and conscience but are not necessarily codified in law or contracts. Legal rights are explicitly written in employment contracts or legislation and are enforceable by law.",
+      "miniLesson": {
+        "explain": "Worker rights fall into two categories: moral rights and legal rights. Moral rights are non-contractual entitlements rooted in human nature and public conscience, such as the right to respect, safe conditions, and fair compensation. These are not always legally enforceable unless incorporated into law. Legal rights are codified in employment contracts, covering paid benefits, resignation, negotiation, and refusal of unsuitable contracts. They are enforceable through legal processes. It is important to distinguish between what is morally expected and what is legally required from employers and the government.",
+        "example": "Consider the right to fair compensation. Morally, a worker deserves fair pay that matches their skills and qualifications. Legally, minimum wage laws guarantee a baseline compensation, but an employer may pay above that. If an employer pays less than minimum wage, that is a legal violation. However, if they pay minimum wage but the worker feels it is unfair given their skills, that is a moral issue that may not be legally actionable unless there is a contract specifying higher pay.",
+        "memoryAnchor": "Moral rights are about 'should'; legal rights are about 'must'. Think: Respect is a moral right; minimum wage is a legal right."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is a moral right? A. Right to a safe workplace (legal) B. Right to respect and dignity (moral) C. Right to minimum wage (legal)",
+          "answer": "B. Right to respect and dignity is a moral right, as it stems from human dignity and is not always explicitly codified in law."
+        },
+        {
+          "level": "L2",
+          "prompt": "A worker is paid below minimum wage. Is this a violation of moral rights, legal rights, or both? Explain why.",
+          "answer": "Both. Morally, fair compensation is owed to the worker, so it violates a moral right. Legally, minimum wage laws set a baseline, so paying below is a legal rights violation. Thus, it infringes on both moral and legal rights."
+        },
+        {
+          "level": "L3",
+          "prompt": "Why might employers choose to only follow legal rights and ignore moral rights? What are the potential consequences for the workplace?",
+          "answer": "Employers might follow only legal rights to minimize costs and avoid legal penalties. Ignoring moral rights can lead to low employee morale, high turnover, reduced productivity, and reputational damage. Over time, moral expectations often become codified into legal rights, so ignoring them may also lead to future legal liabilities."
+        }
+      ]
+    },
+    {
+      "errorId": "err-employment-at-will-absolute",
+      "trigger": "Student picks wrong option on question 2 about employment at will.",
+      "studentMisunderstanding": "The student believes employment at will gives employers an absolute right to fire employees for any reason, ignoring legal exceptions that protect employees from discrimination and retaliation.",
+      "miniLesson": {
+        "explain": "Employment at will means employers can generally hire, fire, or promote freely, and employees can resign at any time. However, this is not absolute. Exceptions include: (1) public policy – cannot fire for reporting violations or exercising legal rights; (2) implied contract – if employment manuals or promises create an expectation of job security; (3) good faith and fair dealing – cannot fire to avoid paying benefits. Dismissals based on protected characteristics (e.g., age, gender, pregnancy, union membership) are automatically wrongful discharge.",
+        "example": "An employer fires an employee for reporting a safety violation to the regulator. That is illegal under the public policy exception – the employee is protected from retaliation.",
+        "memoryAnchor": "Not absolute: think 'PIG' – Public policy, Implied contract, Good faith. Also remember protected classes (age, gender, pregnancy, union) can't be reasons for firing."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: Under employment at will, an employer can legally fire an employee for joining a labor union.",
+          "answer": "False. Joining a labor union is a protected activity, and such a dismissal would be automatically wrongful discharge."
+        },
+        {
+          "level": "L2",
+          "prompt": "An employee is fired after testifying in court against their employer for fraud. Does the employment at will doctrine allow this? Explain why or why not.",
+          "answer": "No. This is an exception under public policy – firing an employee for complying with a legal duty (testifying in court) is prohibited. The employee is protected from retaliation."
+        },
+        {
+          "level": "L3",
+          "prompt": "A company's employee handbook states 'employees will only be terminated for cause' but the company later fires a worker for poor performance without following progressive discipline. The worker sues, arguing an implied contract. Evaluate the worker's claim based on employment at will exceptions.",
+          "answer": "The worker's claim is valid. The handbook language creates an implied contract that termination only for cause. Under the implied contract exception, the employer cannot rely on at-will employment to fire without cause. The company must follow the stated policy, including progressive discipline if applicable."
+        }
+      ]
+    },
+    {
+      "errorId": "err-strike-requirements",
+      "trigger": "student picks wrong option on question 3",
+      "studentMisunderstanding": "Misunderstanding that strikes can be called without a vote or notice, or that all strikes are illegal.",
+      "miniLesson": {
+        "explain": "In Canada, a legal strike requires two steps: first, a secret ballot vote where a majority of union members must approve the strike; second, the union must give the employer at least 7 days' advance notice before the strike begins. This ensures democratic decision-making and gives the employer time to prepare.",
+        "example": "A union wants to strike for better wages. They hold a secret ballot; 60% vote yes. Then they notify the employer in writing. The strike can start no earlier than 7 days after that notice.",
+        "memoryAnchor": "‘Secret ballot + 7-day notice = legal strike’ – think of it as a secret vote and a week's note."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What two requirements must a union meet to call a legal strike?",
+          "answer": "A secret ballot vote and 7-day advance notice to the employer."
+        },
+        {
+          "level": "L2",
+          "prompt": "A union votes to strike on Monday, June 1. If they give notice that same day, what is the earliest date they can legally begin the strike?",
+          "answer": "Monday, June 8 (at least 7 days after notice)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Why is a secret ballot requirement important for a strike vote?",
+          "answer": "It ensures the decision reflects the true will of the members, prevents coercion or pressure, and upholds democratic principles within the union."
+        }
+      ]
+    },
+    {
+      "errorId": "err-income-inequality-definition",
+      "trigger": "student picks wrong option on question 4",
+      "studentMisunderstanding": "Equating income inequality with poverty; not distinguishing between unequal distribution and absolute deprivation.",
+      "miniLesson": {
+        "explain": "Income inequality measures the distribution of income across a population (e.g., the gap between high and low earners). Poverty measures the percentage of people whose income falls below a fixed threshold (poverty line). They are distinct concepts: high inequality can exist with low poverty, and vice versa. For example, a country may have a large gap between rich and poor but most people earn above the poverty line, while another may have a small gap but many fall below the line.",
+        "example": "Consider two countries: one has a large income gap but few in poverty; the other has a small gap but many in poverty. This shows inequality and poverty are different. The Unit 2 test covers income inequality definitions and government policies like minimum wage, progressive tax, employment insurance, child tax credits, and public education.",
+        "memoryAnchor": "Inequality is about the spread; poverty is about the floor."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What does income inequality measure?",
+          "answer": "Income inequality measures the distribution of income across a population, such as the gap between high and low earners."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student says, 'High income inequality always means high poverty.' Is this correct? Explain using the definitions.",
+          "answer": "No. Income inequality refers to unequal distribution, while poverty refers to absolute deprivation. A country can have high inequality (large gap) but low poverty if most people earn above the poverty line."
+        },
+        {
+          "level": "L3",
+          "prompt": "How can a government policy reduce income inequality without directly addressing poverty? Use an example from the lesson.",
+          "answer": "A progressive tax system reduces after-tax income inequality by taxing higher incomes at higher rates. However, it may not reduce poverty unless the revenue funds programs like employment insurance or child tax credits that target low-income households."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-worker-rights-moral-vs-legal",
+      "questions": [
+        {
+          "id": "q1-moral-legal-transfer",
+          "type": "single_choice",
+          "stem": "A worker feels they deserve a promotion because of their loyalty and hard work, but their employment contract does not guarantee promotions. Their employer promotes a less experienced candidate. Which statement best describes the worker's situation?",
+          "options": [
+            "The worker's legal rights have been violated because promotions should be based on merit.",
+            "The worker's moral rights have been violated, but no legal right to promotion exists.",
+            "Both moral and legal rights have been violated because the employer acted unfairly.",
+            "No rights have been violated because promotions are at the employer's discretion."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-moral-legal-explain",
+          "type": "open_ended",
+          "stem": "Explain the difference between a moral right and a legal right in the context of worker rights. Then, give one example of a conflict between moral and legal rights that a worker might face.",
+          "rubric": "Student correctly defines moral rights as non-legal entitlements based on human dignity (1 point) and legal rights as codified entitlements enforceable by law (1 point). Example shows a situation where a moral expectation is not legally required, or vice versa (1 point). Total 3 points. Partial credit for partial understanding."
+        }
+      ],
+      "passRule": "Answer both questions correctly: multiple-choice answer B and open-ended achieving at least 2 out of 3 points."
+    },
+    {
+      "forErrorId": "err-employment-at-will-absolute",
+      "questions": [
+        {
+          "id": "retest-001",
+          "type": "single_choice",
+          "stem": "Which of the following is a recognized exception to the employment at will doctrine?",
+          "options": [
+            "An employer's personal dislike of an employee",
+            "Firing an employee for reporting a safety violation to the government",
+            "Firing an employee for consistently arriving late",
+            "Firing an employee because the company is downsizing"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-002",
+          "type": "open_ended",
+          "stem": "Explain why an employer cannot fire a worker solely because the worker is pregnant. Reference the relevant exception to employment at will.",
+          "rubric": "Student must state that pregnancy is a protected characteristic (age, gender, pregnancy, union membership) and thus dismissal would be automatically wrongful discharge, which is an exception to employment at will. Reference to public policy or discrimination is acceptable."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly (single choice correct option, open-ended demonstrates understanding of exception)."
+    },
+    {
+      "forErrorId": "err-strike-requirements",
+      "questions": [
+        {
+          "id": "strike-req-q1",
+          "type": "single_choice",
+          "stem": "Which of the following is a required step for a legal strike in Canada?",
+          "options": [
+            "A unanimous vote from all union members",
+            "A secret ballot vote by union members",
+            "Approval from the employer",
+            "A public announcement in a newspaper"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "strike-req-q2",
+          "type": "open_ended",
+          "stem": "A union holds a strike vote on Tuesday, July 1, and 55% vote in favor. They notify the employer on the same day. What is the earliest date they can legally start the strike?",
+          "rubric": "Must state July 8 (or 7 days after July 1, counting July 2 as day 1, etc.). Accept exact date or calculation showing 7 days later."
+        },
+        {
+          "id": "strike-req-q3",
+          "type": "open_ended",
+          "stem": "Explain why a secret ballot is required for strike votes and why a 7-day notice period is mandated.",
+          "rubric": "Must mention: secret ballot ensures democratic decision and prevents coercion; notice period gives employer time to prepare and potentially negotiate."
+        }
+      ],
+      "passRule": "all correct"
+    },
+    {
+      "forErrorId": "err-income-inequality-definition",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "Which of the following best distinguishes income inequality from poverty?",
+          "options": [
+            "Income inequality measures the distribution of income across a population; poverty measures the percentage of people below a fixed income threshold.",
+            "Income inequality and poverty are two terms for the same economic condition.",
+            "Poverty is the primary cause of income inequality.",
+            "Income inequality only exists in countries with high poverty rates."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Explain why a country with high income inequality can still have low poverty rates. Refer to the definitions of income inequality and poverty.",
+          "rubric": "Student must state that income inequality refers to the gap between high and low earners (distribution), while poverty refers to the percentage of the population earning below a fixed poverty line (absolute deprivation). A country can have a large spread (high inequality) but if most people earn above the poverty line, the poverty rate can be low. Clear explanation using both definitions is required."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the rubric must be met."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-07-29",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/T83FdKIQIoThwgxDzRicmbvAnIb?from=vc_group_doc_link#doxcnkJIFDHn7DDYyMeugFrRskg",
+    "sourceTitle": "CIA4U.S6.Bianca 2026-07-29 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Worker rights are classified into moral rights and legal rights.；Moral rights are non-contractual entitlements rooted in human nature and public conscience, including respect, safe conditions, and fair compensation.；Legal rights are codified in employment contracts, covering paid benefits, resignation, negotiation, and refusal of unsuitable contracts.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between moral and legal worker rights and identify examples of each."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain the employment at will doctrine and its exceptions."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Describe the legal requirements for a union to call a strike."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Differentiate income inequality from poverty and identify government policies addressing it."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Test - Next Day",
+        "studentAction": "Attend on time with cameras enabled for the full duration",
+        "deadlineText": "2026-07-30 (next class)",
+        "deadlineISO": "2026-07-30",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The unit test will be held in the next day’s class, and all students must attend on time with cameras enabled for the full duration to be eligible to take the formal assessment.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Assignment 2 Submission",
+        "studentAction": "Upload materials if not yet submitted",
+        "deadlineText": "2026-07-29 (day of lesson)",
+        "deadlineISO": "2026-07-29",
+        "platform": null,
+        "link": null,
+        "appliesTo": "5 students who have not submitted",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Assignment 2 is due on the day of this meeting, and 5 students have not yet submitted their work. Relevant students shall upload materials promptly to avoid negative impacts on their coursework grades.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Lesson 9 Post-Class Questions",
+        "studentAction": "Complete 3 assigned questions covering definition and value of two right types, 3 worker roles, and 3 worker rights",
+        "deadlineText": "Not specified in notes",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students shall complete 3 assigned post-class questions, covering the definition and value of two right types, 3 worker roles, and 3 worker rights, with answers based on in-class content.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "review_focus",
+        "title": "Unit 2 Test Review Content",
+        "studentAction": "Review income inequality definition, causes, government policies, and case study approach",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Core knowledge modules: definition of income inequality, difference from poverty, core causes including wage gaps, education gaps, unemployment, and rising living costs, and government policies: minimum wage hikes, progressive income tax, employment insurance, child tax credits, and affordable public education programs.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Lesson 9 post-class homework deadline is not specified in the notes; it may be due next class or later.",
+        "reason": "No explicit deadline given for the homework; needs human confirmation."
+      }
+    ],
+    "watchTags": [
+      "CIA4U-LE9-001",
+      "CIA4U-LE9-002",
+      "CIA4U-LE9-003",
+      "CIA4U-LE9-004",
+      "CIA4U-LE9-005",
+      "CIA4U-LE9-006",
+      "CIA4U-LE9-007"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-worker-rights-moral-vs-legal",
+        "condition": "student picks wrong option on question 1",
+        "systemAction": "assign reteach module for err-worker-rights-moral-vs-legal"
+      },
+      {
+        "errorId": "err-employment-at-will-absolute",
+        "condition": "student picks wrong option on question 2",
+        "systemAction": "assign reteach module for err-employment-at-will-absolute"
+      },
+      {
+        "errorId": "err-strike-requirements",
+        "condition": "student picks wrong option on question 3",
+        "systemAction": "assign reteach module for err-strike-requirements"
+      },
+      {
+        "errorId": "err-income-inequality-definition",
+        "condition": "student picks wrong option on question 4",
+        "systemAction": "assign reteach module for err-income-inequality-definition"
+      }
+    ],
+    "nextActions": [
+      "[err-worker-rights-moral-vs-legal] student picks wrong option on question 1: Moral and legal rights are different. Let's review their definitions and examples.",
+      "[err-employment-at-will-absolute] student picks wrong option on question 2: Employment at will has important exceptions. Let's go over them.",
+      "[err-strike-requirements] student picks wrong option on question 3: Strikes require a secret ballot and notice. Let's check the rules.",
+      "[err-income-inequality-definition] student picks wrong option on question 4: Income inequality and poverty are different concepts. Let's clarify."
+    ],
+    "cards": [
+      {
+        "id": "cia4u-0901",
+        "type": "choice",
+        "question": "Which of the following is a moral right that a worker may not have legally codified in their contract?",
+        "options": [
+          "Right to a safe workplace",
+          "Right to fair compensation",
+          "Right to respect and dignity",
+          "Right to paid vacation"
+        ],
+        "correct": 2,
+        "diagnosis": "Check student's ability to distinguish moral rights from legal rights.",
+        "misconceptions": [
+          "This is typically a legal right enforced by occupational health and safety laws.",
+          "Minimum wage and overtime laws codify fair pay as a legal right in many jurisdictions.",
+          "✓ Correct. Respect and dignity are moral rights that may not be explicitly in a contract or law.",
+          "Paid vacation is a legal right if included in employment standards or contract."
+        ],
+        "nodeId": "CIA4U-LE9-001",
+        "errorId": "err-worker-rights-moral-vs-legal",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student can correctly identify a moral right that is not necessarily a legal right.",
+        "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights.",
+        "officialExpectationCode": "CC3.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No specific node in Knowledge Node Bank for CC3.3; alignment based on official expectation code.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Believing that all moral rights are legally enforceable or that legal rights are optional.",
+        "remediationModule": "err-worker-rights-moral-vs-legal",
+        "retestItem": "err-worker-rights-moral-vs-legal"
+      },
+      {
+        "id": "cia4u-0902",
+        "type": "choice",
+        "question": "Under the employment at will doctrine, an employer can legally fire an employee for which of the following reasons?",
+        "options": [
+          "Reporting a safety violation to a regulator",
+          "Because the employee is pregnant",
+          "Poor job performance",
+          "Joining a labor union"
+        ],
+        "correct": 2,
+        "diagnosis": "Check understanding that employment at will has exceptions for discrimination and public policy.",
+        "misconceptions": [
+          "This is an exception under public policy – retaliatory discharge is illegal.",
+          "Dismissal based on pregnancy is discriminatory and automatically wrongful discharge.",
+          "✓ Correct. Under employment at will, poor performance is a legitimate, non-protected reason for termination.",
+          "Union membership is a protected activity; dismissal for joining a union is unlawful."
+        ],
+        "nodeId": "CIA4U-LE9-004",
+        "errorId": "err-employment-at-will-absolute",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student can identify a reason that is permissible under employment at will, recognizing exceptions.",
+        "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights.",
+        "officialExpectationCode": "CC3.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No specific node in Knowledge Node Bank for CC3.3; alignment based on official expectation code.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Assuming employment at will allows firing for any reason without exception.",
+        "remediationModule": "err-employment-at-will-absolute",
+        "retestItem": "err-employment-at-will-absolute"
+      },
+      {
+        "id": "cia4u-0903",
+        "type": "choice",
+        "question": "Which of the following is required for a union to call a legal strike?",
+        "options": [
+          "A vote by union management only",
+          "A secret ballot vote and 7-day advance notice to the employer",
+          "Approval from the federal government",
+          "A majority vote by the general public"
+        ],
+        "correct": 1,
+        "diagnosis": "Check knowledge of the legal prerequisites for a strike.",
+        "misconceptions": [
+          "A secret ballot of all union members is required, not just management.",
+          "✓ Correct. Both a secret ballot and 7-day notice are mandatory for a legal strike.",
+          "Government approval is not required; the process is governed by labor relations legislation.",
+          "Only union members vote; public opinion is not a legal requirement."
+        ],
+        "nodeId": "CIA4U-LE9-006",
+        "errorId": "err-strike-requirements",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student can state the correct procedure for a legal strike: secret ballot and notice.",
+        "ossdExpectation": "Explain the role and rights of workers as well as the role of governments in shaping and enforcing these rights.",
+        "officialExpectationCode": "CC3.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No specific node in Knowledge Node Bank for CC3.3; alignment based on official expectation code.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recognize",
+        "commonMisconception": "Thinking strikes can be called without a vote or with just a simple executive decision.",
+        "remediationModule": "err-strike-requirements",
+        "retestItem": "err-strike-requirements"
+      },
+      {
+        "id": "cia4u-0904",
+        "type": "choice",
+        "question": "Which statement best distinguishes income inequality from poverty?",
+        "options": [
+          "Income inequality refers to the gap between rich and poor; poverty refers to individuals lacking basic necessities.",
+          "Income inequality and poverty are the same concept.",
+          "Income inequality measures absolute deprivation.",
+          "Poverty only exists in developing countries."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student understands that income inequality is about distribution, while poverty is about absolute deprivation.",
+        "misconceptions": [
+          "✓ Correct. Income inequality is a relative measure of distribution; poverty is an absolute measure of deprivation.",
+          "They are distinct: inequality is about spread, poverty is about falling below a threshold.",
+          "Income inequality measures relative differences, not absolute standards.",
+          "Poverty exists in all countries, including developed ones, though definitions vary."
+        ],
+        "nodeId": "CIA4U-LE9-007",
+        "errorId": "err-income-inequality-definition",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student can correctly differentiate the two concepts.",
+        "ossdExpectation": "Explain how economists measure and represent standards of living and distribution of income.",
+        "officialExpectationCode": "DD1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "No specific node in Knowledge Node Bank for DD1.3; alignment based on official expectation code.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Equating income inequality with poverty; thinking they are the same.",
+        "remediationModule": "err-income-inequality-definition",
+        "retestItem": "err-income-inequality-definition"
+      }
+    ]
+  }
+}
