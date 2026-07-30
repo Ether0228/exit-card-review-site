@@ -1,0 +1,555 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-07-30",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Ic9fdnCSConSmAx3IWKcy9w7n9g?from=vc_group_doc_link#doxcnLMzRfLdNGqU9LomQsOs9Nh",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-07-30 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Ic9fdnCSConSmAx3IWKcy9w7n9g?from=vc_group_doc_link#doxcnLMzRfLdNGqU9LomQsOs9Nh",
+    "title": "MDM4U.S6.Atousa 2026-07-30 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-30/sources/mdm4u-s6-atousa-2026-07-30/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-07-30",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "review_session",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-30",
+    "lessonType": "review_session",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session is a unit review and exercise coaching session focusing on combinatorics, binomial theorem, and probability, with a test review question walkthrough and assignment instructions. Academic content is central.",
+    "academicContentSignals": [
+      "Path counting (diagonal moves, sum of predecessors, 3D paths)",
+      "Binomial theorem (Pascal triangle, expansion of (a+2b)^4, negative term sign rule, general term formula, specific term extraction)",
+      "Probability (expected value calculation: checkout time, lottery, language proficiency, hypergeometric distribution)",
+      "Probability distribution validity check (sum of probabilities equals 1)",
+      "Assignment design: flexible tools, extra credit for extended content, submission format options"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low. Academic content dominates; operations are limited to assignment instructions and an announcement. Ensure assignment details do not overshadow learning diagnostics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Assignment tools and submission options",
+        "studentAction": "Complete the assignment using any tools (Excel, AI, online calculators, custom code). You may present live during class or submit a self-recorded presentation file.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students are allowed to use any tools including Excel, AI search engines and online calculators to complete the assignment. Students can choose to present the assignment live during class or submit a self-recorded presentation file.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Extra credit for extended content",
+        "studentAction": "Add content beyond the rubric requirements (e.g., new calculation methods) for extra credit. Ensure baseline rubric requirements are met first.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students who add content beyond the rubric requirements will receive extra credit, to support university-level learning preparation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "No mandatory pre-test work",
+        "studentAction": "No additional mandatory preparation required beyond the class review. Students are fully prepared for the unit test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "After completing all covered exercises and review content, students are fully prepared for the upcoming unit test, with no additional mandatory pre-test work required.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Assignment due date not mentioned",
+        "reason": "The notes do not specify a deadline for the assignment. It is unclear whether it is due before the unit test or later. Human confirmation needed."
+      },
+      {
+        "rawText": "Live presentation timing: 'during class'",
+        "reason": "It is unclear which specific class session the live presentation refers to (next class or later). Human confirmation needed."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Path Counting）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Path counting: each node's path count equals sum of path counts of all reachable preceding nodes. Valid moves are diagonal only.；Binomial coefficients: Pascal's triangle is symmetric; for powers less than 5, use memorized coefficients.；Binomial expansion with negative term: signs alternate based on the exponent of the negative term; even exponent gives positive.",
+  "learningGoals": [
+    {
+      "id": "lg-path-counting",
+      "statement": "Apply the additive principle to count paths in a grid with diagonal moves."
+    },
+    {
+      "id": "lg-binomial-theorem",
+      "statement": "Find a specific term in a binomial expansion with negative terms."
+    },
+    {
+      "id": "lg-expected-value",
+      "statement": "Calculate the expected number of successes in a hypergeometric distribution."
+    },
+    {
+      "id": "lg-probability-distribution",
+      "statement": "Verify that a set of probabilities sums to 1 for a valid distribution."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "mdm4u-path-counting",
+      "name": "Path Counting",
+      "nameEn": "Path Counting",
+      "definition": "Counting the number of ways to travel between two points following given movement rules, often using additive principle.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MDM4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-path-counting",
+        "statement": "Apply the additive principle to count paths in a grid with diagonal moves."
+      },
+      {
+        "id": "lg-binomial-theorem",
+        "statement": "Find a specific term in a binomial expansion with negative terms."
+      },
+      {
+        "id": "lg-expected-value",
+        "statement": "Calculate the expected number of successes in a hypergeometric distribution."
+      },
+      {
+        "id": "lg-probability-distribution",
+        "statement": "Verify that a set of probabilities sums to 1 for a valid distribution."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-mdm4u-path-counting",
+        "condition": "Student selects incorrect answer on question diag-mdm4u-q1",
+        "systemAction": "Assign reteach module for path counting additive principle.",
+        "studentMessage": "You need to review how path counting uses the sum of paths from preceding nodes."
+      },
+      {
+        "errorId": "err-mdm4u-binomial-sign",
+        "condition": "Student selects incorrect answer on question diag-mdm4u-q2",
+        "systemAction": "Assign reteach module for binomial theorem sign rules.",
+        "studentMessage": "Check the sign pattern in binomial expansions with negative terms."
+      },
+      {
+        "errorId": "err-mdm4u-hypergeometric-expectation",
+        "condition": "Student selects incorrect answer on question diag-mdm4u-q3",
+        "systemAction": "Assign reteach module for hypergeometric expectation formula.",
+        "studentMessage": "Review the formula for expected value in hypergeometric distributions."
+      },
+      {
+        "errorId": "err-mdm4u-prob-sum",
+        "condition": "Student selects incorrect answer on question diag-mdm4u-q4",
+        "systemAction": "Assign reteach module for probability distribution properties.",
+        "studentMessage": "Remember that all probabilities in a distribution must sum to 1."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-q1",
+        "nodeId": "mdm4u-path-counting",
+        "errorId": "err-mdm4u-path-counting",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-path-counting",
+        "successCriteria": "Student correctly applies additive principle to count paths.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Path counting is an application of combinatorial principles.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student understands that the number of paths to a node is the sum of paths from all preceding nodes.",
+        "commonMisconception": "Student may think paths multiply instead of add.",
+        "remediationModule": "err-mdm4u-path-counting",
+        "retestItem": "err-mdm4u-path-counting",
+        "stem": "In a grid where only diagonal moves are allowed, the number of paths to a node equals the sum of paths to all reachable preceding nodes. If node X can be reached from node Y with 4 paths and from node Z with 6 paths, how many paths lead to node X?",
+        "options": [
+          {
+            "label": "A",
+            "text": "10",
+            "correct": true,
+            "feedbackCorrect": "Correct! The paths add: 4 + 6 = 10."
+          },
+          {
+            "label": "B",
+            "text": "24",
+            "correct": false,
+            "feedbackWrong": "You multiplied instead of adding. The total paths is the sum of paths from all preceding nodes."
+          },
+          {
+            "label": "C",
+            "text": "4",
+            "correct": false,
+            "feedbackWrong": "You only considered one path to node X. You must include both Y and Z paths."
+          },
+          {
+            "label": "D",
+            "text": "6",
+            "correct": false,
+            "feedbackWrong": "You only considered one path to node X. You must include both Y and Z paths."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-q2",
+        "nodeId": "mdm4u-path-counting",
+        "errorId": "err-mdm4u-binomial-sign",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-binomial-theorem",
+        "successCriteria": "Student correctly identifies coefficient and sign in a binomial expansion with negative term.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Binomial theorem is combinatorial; specific term calculation aligns with permutation/combination applications.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check understanding of sign alternation when expanding (a - b)^n.",
+        "commonMisconception": "Student may forget sign depends on exponent of negative term.",
+        "remediationModule": "err-mdm4u-binomial-sign",
+        "retestItem": "err-mdm4u-binomial-sign",
+        "stem": "What is the coefficient of the term containing x^6 in the expansion of (4x - 2/x)^8?",
+        "options": [
+          {
+            "label": "A",
+            "text": "-262144",
+            "correct": true,
+            "feedbackCorrect": "Correct! The x^6 term has coefficient -262144."
+          },
+          {
+            "label": "B",
+            "text": "286720",
+            "correct": false,
+            "feedbackWrong": "286720 is the constant term, not the coefficient of x^6."
+          },
+          {
+            "label": "C",
+            "text": "262144",
+            "correct": false,
+            "feedbackWrong": "The sign is negative because the exponent on (-2/x) is odd in the term with x^6."
+          },
+          {
+            "label": "D",
+            "text": "-286720",
+            "correct": false,
+            "feedbackWrong": "-286720 is not the correct coefficient for x^6."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-mdm4u-path-counting",
+      "condition": "Student selects incorrect answer on question diag-mdm4u-q1",
+      "systemAction": "Assign reteach module for path counting additive principle.",
+      "studentMessage": "You need to review how path counting uses the sum of paths from preceding nodes."
+    },
+    {
+      "errorId": "err-mdm4u-binomial-sign",
+      "condition": "Student selects incorrect answer on question diag-mdm4u-q2",
+      "systemAction": "Assign reteach module for binomial theorem sign rules.",
+      "studentMessage": "Check the sign pattern in binomial expansions with negative terms."
+    },
+    {
+      "errorId": "err-mdm4u-hypergeometric-expectation",
+      "condition": "Student selects incorrect answer on question diag-mdm4u-q3",
+      "systemAction": "Assign reteach module for hypergeometric expectation formula.",
+      "studentMessage": "Review the formula for expected value in hypergeometric distributions."
+    },
+    {
+      "errorId": "err-mdm4u-prob-sum",
+      "condition": "Student selects incorrect answer on question diag-mdm4u-q4",
+      "systemAction": "Assign reteach module for probability distribution properties.",
+      "studentMessage": "Remember that all probabilities in a distribution must sum to 1."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-mdm4u-path-counting",
+      "trigger": "You multiplied instead of adding. The total paths to a node equals the sum of paths from all reachable preceding nodes.",
+      "studentMisunderstanding": "Confuses addition with multiplication in path counting; thinks path counts combine multiplicatively rather than additively.",
+      "miniLesson": {
+        "explain": "In path counting with valid moves (e.g., diagonals), the number of ways to reach a node is the sum of the ways to reach each node that leads directly to it. This is the additive principle. You add counts, never multiply them from different incoming paths.",
+        "example": "If node X is reachable from node Y (4 ways) and from node Z (6 ways), then total paths to X = 4 + 6 = 10.",
+        "memoryAnchor": "Paths Add Up – Sum, Don't Multiply!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In a diagonal grid, a node can be reached from two preceding nodes. There are 4 paths to the first preceding node and 6 paths to the second. How many paths lead to this node?",
+          "answer": "10"
+        },
+        {
+          "level": "L2",
+          "prompt": "Continuing the grid, a later node is reachable from two nodes that already have 10 and 13 paths respectively. What is the total number of paths to this later node?",
+          "answer": "23"
+        },
+        {
+          "level": "L3",
+          "prompt": "In a 3D grid, moves are allowed right, down, and into the page. How many paths are there from (0,0,0) to (2,2,1) using exactly 2 right, 2 down, and 1 into-the-page move?",
+          "answer": "30"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-mdm4u-path-counting",
+      "questions": [
+        {
+          "id": "retest-path-1",
+          "type": "single_choice",
+          "stem": "In a grid where valid moves are diagonals only, a node can be reached from two preceding nodes. There are 4 paths to the first preceding node and 6 paths to the second. How many paths lead to this node?",
+          "options": [
+            "4 + 6 = 10",
+            "4 × 6 = 24",
+            "6 - 4 = 2",
+            "Cannot determine"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "retest-path-2",
+          "type": "open_ended",
+          "stem": "A later node in the same grid is reachable from two nodes that already have 10 and 13 paths respectively. What is the total number of paths to this later node?",
+          "rubric": "Answer must be 23. Award full mark if answer is 23. Deduct all if answer is 130 (multiplication) or any other number. Accept 23."
+        }
+      ],
+      "passRule": "Both questions correct: Q1 correct option (0) and Q2 answer is 23."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-07-30",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Ic9fdnCSConSmAx3IWKcy9w7n9g?from=vc_group_doc_link#doxcnLMzRfLdNGqU9LomQsOs9Nh",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-07-30 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "review_session",
+    "objective": "Path counting: each node's path count equals sum of path counts of all reachable preceding nodes. Valid moves are diagonal only.；Binomial coefficients: Pascal's triangle is symmetric; for powers less than 5, use memorized coefficients.；Binomial expansion with negative term: signs alternate based on the exponent of the negative term; even exponent gives positive.",
+    "learningGoals": [
+      {
+        "id": "lg-path-counting",
+        "statement": "Apply the additive principle to count paths in a grid with diagonal moves."
+      },
+      {
+        "id": "lg-binomial-theorem",
+        "statement": "Find a specific term in a binomial expansion with negative terms."
+      },
+      {
+        "id": "lg-expected-value",
+        "statement": "Calculate the expected number of successes in a hypergeometric distribution."
+      },
+      {
+        "id": "lg-probability-distribution",
+        "statement": "Verify that a set of probabilities sums to 1 for a valid distribution."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Assignment tools and submission options",
+        "studentAction": "Complete the assignment using any tools (Excel, AI, online calculators, custom code). You may present live during class or submit a self-recorded presentation file.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students are allowed to use any tools including Excel, AI search engines and online calculators to complete the assignment. Students can choose to present the assignment live during class or submit a self-recorded presentation file.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Extra credit for extended content",
+        "studentAction": "Add content beyond the rubric requirements (e.g., new calculation methods) for extra credit. Ensure baseline rubric requirements are met first.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students who add content beyond the rubric requirements will receive extra credit, to support university-level learning preparation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "No mandatory pre-test work",
+        "studentAction": "No additional mandatory preparation required beyond the class review. Students are fully prepared for the unit test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "After completing all covered exercises and review content, students are fully prepared for the upcoming unit test, with no additional mandatory pre-test work required.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Assignment due date not mentioned",
+        "reason": "The notes do not specify a deadline for the assignment. It is unclear whether it is due before the unit test or later. Human confirmation needed."
+      },
+      {
+        "rawText": "Live presentation timing: 'during class'",
+        "reason": "It is unclear which specific class session the live presentation refers to (next class or later). Human confirmation needed."
+      }
+    ],
+    "watchTags": [
+      "mdm4u-path-counting"
+    ],
+    "totalQuestions": 2,
+    "completed": false,
+    "passScore": 2,
+    "diagnosisRules": [
+      {
+        "errorId": "err-mdm4u-path-counting",
+        "condition": "Student selects incorrect answer on question diag-mdm4u-q1",
+        "systemAction": "Assign reteach module for path counting additive principle."
+      },
+      {
+        "errorId": "err-mdm4u-binomial-sign",
+        "condition": "Student selects incorrect answer on question diag-mdm4u-q2",
+        "systemAction": "Assign reteach module for binomial theorem sign rules."
+      },
+      {
+        "errorId": "err-mdm4u-hypergeometric-expectation",
+        "condition": "Student selects incorrect answer on question diag-mdm4u-q3",
+        "systemAction": "Assign reteach module for hypergeometric expectation formula."
+      },
+      {
+        "errorId": "err-mdm4u-prob-sum",
+        "condition": "Student selects incorrect answer on question diag-mdm4u-q4",
+        "systemAction": "Assign reteach module for probability distribution properties."
+      }
+    ],
+    "nextActions": [
+      "[err-mdm4u-path-counting] Student selects incorrect answer on question diag-mdm4u-q1: You need to review how path counting uses the sum of paths from preceding nodes.",
+      "[err-mdm4u-binomial-sign] Student selects incorrect answer on question diag-mdm4u-q2: Check the sign pattern in binomial expansions with negative terms.",
+      "[err-mdm4u-hypergeometric-expectation] Student selects incorrect answer on question diag-mdm4u-q3: Review the formula for expected value in hypergeometric distributions.",
+      "[err-mdm4u-prob-sum] Student selects incorrect answer on question diag-mdm4u-q4: Remember that all probabilities in a distribution must sum to 1."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-q1",
+        "type": "choice",
+        "question": "In a grid where only diagonal moves are allowed, the number of paths to a node equals the sum of paths to all reachable preceding nodes. If node X can be reached from node Y with 4 paths and from node Z with 6 paths, how many paths lead to node X?",
+        "options": [
+          "10",
+          "24",
+          "4",
+          "6"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student understands that the number of paths to a node is the sum of paths from all preceding nodes.",
+        "misconceptions": [
+          "✓ Correct! The paths add: 4 + 6 = 10.",
+          "You multiplied instead of adding. The total paths is the sum of paths from all preceding nodes.",
+          "You only considered one path to node X. You must include both Y and Z paths.",
+          "You only considered one path to node X. You must include both Y and Z paths."
+        ],
+        "nodeId": "mdm4u-path-counting",
+        "errorId": "err-mdm4u-path-counting",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-path-counting",
+        "successCriteria": "Student correctly applies additive principle to count paths.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Path counting is an application of combinatorial principles.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may think paths multiply instead of add.",
+        "remediationModule": "err-mdm4u-path-counting",
+        "retestItem": "err-mdm4u-path-counting"
+      },
+      {
+        "id": "diag-mdm4u-q2",
+        "type": "choice",
+        "question": "What is the coefficient of the term containing x^6 in the expansion of (4x - 2/x)^8?",
+        "options": [
+          "-262144",
+          "286720",
+          "262144",
+          "-286720"
+        ],
+        "correct": 0,
+        "diagnosis": "Check understanding of sign alternation when expanding (a - b)^n.",
+        "misconceptions": [
+          "✓ Correct! The x^6 term has coefficient -262144.",
+          "286720 is the constant term, not the coefficient of x^6.",
+          "The sign is negative because the exponent on (-2/x) is odd in the term with x^6.",
+          "-286720 is not the correct coefficient for x^6."
+        ],
+        "nodeId": "mdm4u-path-counting",
+        "errorId": "err-mdm4u-binomial-sign",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-binomial-theorem",
+        "successCriteria": "Student correctly identifies coefficient and sign in a binomial expansion with negative term.",
+        "ossdExpectation": "Solve problems involving the application of permutations and combinations to determine the probability of an event.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "MDM4U-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "medium",
+        "alignmentNote": "Binomial theorem is combinatorial; specific term calculation aligns with permutation/combination applications.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student may forget sign depends on exponent of negative term.",
+        "remediationModule": "err-mdm4u-binomial-sign",
+        "retestItem": "err-mdm4u-binomial-sign"
+      }
+    ]
+  }
+}

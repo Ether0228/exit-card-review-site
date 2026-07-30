@@ -1,0 +1,997 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-07-30",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/NBmidlDR1ohZfYxbGIrcFIeSn3g?from=vc_group_doc_link#doxcnMOiIDoJe6LvujO1HPO2Cih",
+  "sourceTitle": "SPH3U.S6.Michael 2026-07-30 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/NBmidlDR1ohZfYxbGIrcFIeSn3g?from=vc_group_doc_link#doxcnMOiIDoJe6LvujO1HPO2Cih",
+    "title": "SPH3U.S6.Michael 2026-07-30 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-07-30/sources/sph3u-s6-michael-2026-07-30/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-07-30",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-30",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session includes explicit instruction on work and energy concepts, with examples and derivations of core formulas and principles.",
+    "academicContentSignals": [
+      "Work as scalar quantity, calculated as Fd cosθ",
+      "Only force component parallel to displacement does work",
+      "Work unit: joule (1 J = 1 N·m)",
+      "Net work example (shopping cart: 41 N force, 11 m, -35 N friction → net work 66 J)",
+      "Backpack carrying: force perpendicular to displacement → zero work",
+      "Energy as capability to perform work, measured in joules",
+      "Forms: kinetic, potential, thermal, chemical, electrical",
+      "Kinetic energy formula KE = ½mv²",
+      "Work-Energy Theorem: total work = change in kinetic energy",
+      "Gravitational potential energy: mass × gravity × height",
+      "Example: hockey puck (165 g, 5.0 N over 0.50 m) using work-energy theorem to find final velocity (5.5 m/s)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low risk; academic content is primary, operations are limited to one lab task and a website issue, which do not overshadow learning content.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Friction lab submission",
+        "studentAction": "Submit the friction lab within 7 days of today's class.",
+        "deadlineText": "within 7 days from July 30, 2026",
+        "deadlineISO": "2026-08-06",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The officially assigned friction lab for the current unit must be submitted within 7 days from the date of the meeting.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "follow_up_action",
+        "title": "Lab website access issue",
+        "studentAction": "Report if you cannot access the required lab website; teacher will investigate and provide resolution.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "unknown lab website",
+        "link": null,
+        "appliesTo": "students unable to access lab website",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students reported that the required lab website is inaccessible... Michael will conduct a dedicated investigation into the inaccessible lab website issue and provide a resolution for affected students.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "required lab website is inaccessible",
+        "reason": "Exact URL or platform name not specified in notes."
+      }
+    ]
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Work and Energy Concepts、Work-Energy Theorem、Kinetic Energy、Gravitational Potential Energy）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Work is a scalar quantity calculated as the product of force magnitude, displacement magnitude, and cosine of the angle between them: W = F * d * cosθ.；The SI unit of work is the joule (J), where 1 J = 1 N·m.；Only the component of force parallel to displacement does work; force perpendicular to displacement does zero work.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Define work as a scalar quantity and calculate work using W = F d cosθ."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply the work-energy theorem to relate net work to changes in kinetic energy."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Distinguish between kinetic energy and gravitational potential energy and recognize their dependence on reference points."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Compute kinetic energy using KE = ½mv² and understand its proportionality to velocity squared."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "SPH3U-D-OE03-work",
+      "name": "Work and Energy Concepts",
+      "nameEn": "Work and Energy Concepts",
+      "definition": "Work is a scalar quantity equal to the product of force, displacement, and cosine of the angle between them. Energy is the capacity to do work, measured in joules.",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "SPH3U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer."
+    },
+    {
+      "id": "SPH3U-D-OE02-work-energy-theorem",
+      "name": "Work-Energy Theorem",
+      "nameEn": "Work-Energy Theorem",
+      "definition": "The total work done on an object equals the change in its kinetic energy: W_total = ΔKE = ½m(v_f² - v_i²).",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "SPH3U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Investigate energy transformations and the law of conservation of energy, and solve related problems."
+    },
+    {
+      "id": "SPH3U-D-OE03-kinetic-energy",
+      "name": "Kinetic Energy",
+      "nameEn": "Kinetic Energy",
+      "definition": "Kinetic energy is the energy of motion, given by KE = ½mv², where m is mass and v is speed.",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "SPH3U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer."
+    },
+    {
+      "id": "SPH3U-D-OE03-gravitational-potential-energy",
+      "name": "Gravitational Potential Energy",
+      "nameEn": "Gravitational Potential Energy",
+      "definition": "Gravitational potential energy is the energy stored due to an object's position in a gravitational field, calculated as GPE = mgh, where h is height relative to a reference point.",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "SPH3U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define work as a scalar quantity and calculate work using W = F d cosθ."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the work-energy theorem to relate net work to changes in kinetic energy."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between kinetic energy and gravitational potential energy and recognize their dependence on reference points."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Compute kinetic energy using KE = ½mv² and understand its proportionality to velocity squared."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-work-perpendicular-force",
+        "condition": "student answers incorrectly on Q1 targeting perpendicular force and zero work",
+        "systemAction": "assign reteach module for err-work-perpendicular-force",
+        "studentMessage": "Let's review when a force does zero work."
+      },
+      {
+        "errorId": "err-work-friction-sign",
+        "condition": "student answers incorrectly on Q2 targeting net work with friction",
+        "systemAction": "assign reteach module for err-work-friction-sign",
+        "studentMessage": "Let's practice calculating net work including friction."
+      },
+      {
+        "errorId": "err-kinetic-energy-linear-velocity",
+        "condition": "student answers incorrectly on Q3 targeting kinetic energy scaling",
+        "systemAction": "assign reteach module for err-kinetic-energy-linear-velocity",
+        "studentMessage": "Let's learn how kinetic energy depends on speed."
+      },
+      {
+        "errorId": "err-work-energy-theorem-application",
+        "condition": "student answers incorrectly on Q4 targeting work-energy theorem calculation",
+        "systemAction": "assign reteach module for err-work-energy-theorem-application",
+        "studentMessage": "Let's practice applying the work-energy theorem."
+      },
+      {
+        "errorId": "err-gpe-reference-point",
+        "condition": "student answers poorly on Q5 open-ended about GPE reference point",
+        "systemAction": "assign reteach module for err-gpe-reference-point",
+        "studentMessage": "Let's understand how gravitational potential energy depends on a reference point."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-u3-0730-q1",
+        "nodeId": "SPH3U-D-OE03-work",
+        "errorId": "err-work-perpendicular-force",
+        "stem": "A person carries a 10 kg box horizontally across a room at constant speed. Which statement best describes the work done by the person on the box?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Identifies that a force perpendicular to displacement does zero work.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses work concept in D3 expectation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding that a vertical support force does no work when displacement is horizontal.",
+        "commonMisconception": "Thinking that any applied force does work regardless of direction.",
+        "remediationModule": "err-work-perpendicular-force",
+        "retestItem": "err-work-perpendicular-force",
+        "options": [
+          {
+            "label": "A",
+            "text": "Zero work because the lifting force is perpendicular to the horizontal displacement.",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "98 J of work because the box has weight.",
+            "correct": false,
+            "feedbackWrong": "The weight is vertical, but displacement is horizontal, so no work is done by the person. Work requires force component in the direction of displacement."
+          },
+          {
+            "label": "C",
+            "text": "Work depends on how fast the person walks.",
+            "correct": false,
+            "feedbackWrong": "Work is independent of speed when force is constant and displacement is horizontal; the perpendicular force does no work."
+          },
+          {
+            "label": "D",
+            "text": "Cannot determine without knowing the time taken.",
+            "correct": false,
+            "feedbackWrong": "Work is independent of time; only force, displacement, and the angle between them matter."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-u3-0730-q2",
+        "nodeId": "SPH3U-D-OE03-work",
+        "errorId": "err-work-friction-sign",
+        "stem": "A shopping cart is pushed with a 41 N horizontal force over 11 m, while a 35 N friction force acts opposite to the motion. What is the net work done on the cart?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Calculates net work as sum of work by all forces, treating friction work as negative.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Involves calculation of work, core to D3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Test ability to compute net work by correctly adding works with signs.",
+        "commonMisconception": "Adding frictional work as positive instead of negative.",
+        "remediationModule": "err-work-friction-sign",
+        "retestItem": "err-work-friction-sign",
+        "options": [
+          {
+            "label": "A",
+            "text": "66 J",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "451 J",
+            "correct": false,
+            "feedbackWrong": "You multiplied only the applied force by displacement, ignoring that friction does negative work."
+          },
+          {
+            "label": "C",
+            "text": "385 J",
+            "correct": false,
+            "feedbackWrong": "You seem to have subtracted the forces incorrectly or used the wrong sign for friction."
+          },
+          {
+            "label": "D",
+            "text": "6 J",
+            "correct": false,
+            "feedbackWrong": "You subtracted the forces but forgot to multiply by displacement. Net work is (41 N - 35 N) × 11 m = 66 J."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-u3-0730-q3",
+        "nodeId": "SPH3U-D-OE03-kinetic-energy",
+        "errorId": "err-kinetic-energy-linear-velocity",
+        "stem": "If the speed of an object doubles, its kinetic energy becomes:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Recognizes that kinetic energy is proportional to the square of speed.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses kinetic energy understanding under D3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding that KE ∝ v², not v.",
+        "commonMisconception": "Thinking KE is directly proportional to speed.",
+        "remediationModule": "err-kinetic-energy-linear-velocity",
+        "retestItem": "err-kinetic-energy-linear-velocity",
+        "options": [
+          {
+            "label": "A",
+            "text": "double",
+            "correct": false,
+            "feedbackWrong": "Kinetic energy depends on v², not v. Doubling speed quadruples KE."
+          },
+          {
+            "label": "B",
+            "text": "quadruple",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "C",
+            "text": "half",
+            "correct": false,
+            "feedbackWrong": "Increasing speed increases KE, not decreases."
+          },
+          {
+            "label": "D",
+            "text": "stay the same",
+            "correct": false,
+            "feedbackWrong": "KE depends on speed; changing speed changes KE."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-u3-0730-q4",
+        "nodeId": "SPH3U-D-OE02-work-energy-theorem",
+        "errorId": "err-work-energy-theorem-application",
+        "stem": "A 165 g hockey puck at rest is pushed 0.50 m with a 5.0 N horizontal force. Using the work-energy theorem, what is the final speed of the puck? (Ignore friction.)",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Applies W_total = ΔKE to solve for final speed correctly.",
+        "ossdExpectation": "Investigate energy transformations and the law of conservation of energy, and solve related problems.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "SPH3U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Involves solving problems using work-energy theorem under D2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Test ability to use the work-energy theorem to find final speed from net work.",
+        "commonMisconception": "Applying work-energy theorem to individual forces rather than net work, or forgetting that initial KE is zero.",
+        "remediationModule": "err-work-energy-theorem-application",
+        "retestItem": "err-work-energy-theorem-application",
+        "options": [
+          {
+            "label": "A",
+            "text": "5.5 m/s",
+            "correct": true,
+            "feedbackWrong": ""
+          },
+          {
+            "label": "B",
+            "text": "2.5 m/s",
+            "correct": false,
+            "feedbackWrong": "Check your calculation: Work = 5.0 N × 0.50 m = 2.5 J. Then ½mv² = 2.5 J → v = √(2×2.5/0.165) ≈ 5.5 m/s."
+          },
+          {
+            "label": "C",
+            "text": "11 m/s",
+            "correct": false,
+            "feedbackWrong": "You might have forgotten to take the square root or doubled the work incorrectly."
+          },
+          {
+            "label": "D",
+            "text": "0.8 m/s",
+            "correct": false,
+            "feedbackWrong": "This is too small; double-check the conversion of mass to kg and the formula."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-u3-0730-q5",
+        "nodeId": "SPH3U-D-OE03-gravitational-potential-energy",
+        "errorId": "err-gpe-reference-point",
+        "stem": "A student says that a 1 kg ball on a 2 m high shelf has exactly 19.6 J of gravitational potential energy. Is this value always correct? Explain your reasoning in terms of gravitational potential energy and reference points.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Explains that GPE depends on a chosen reference point; the value 19.6 J is only if the reference point is the floor.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses gravitational potential energy under D3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check understanding that GPE is relative to a reference level.",
+        "commonMisconception": "Treating GPE as an absolute quantity independent of reference point.",
+        "remediationModule": "err-gpe-reference-point",
+        "retestItem": "err-gpe-reference-point",
+        "rubric": "Full marks: Clearly states that the value depends on the reference point. A common reference is the floor, giving 19.6 J, but if the reference is the shelf itself, GPE = 0 J. So the statement is not always true. Partial: Mentions reference point but lacks clarity. Minimal: Restates the student's claim without critique.",
+        "sampleStrongAnswer": "No, the value is not always true because gravitational potential energy is measured relative to a chosen reference point. If the reference point is the floor, then GPE = mgh = 1 kg * 9.8 N/kg * 2 m = 19.6 J. However, if the reference point is the shelf itself, the height is 0, so GPE = 0 J. The student's statement assumes a specific reference point that may not always be valid."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-work-perpendicular-force",
+      "condition": "student answers incorrectly on Q1 targeting perpendicular force and zero work",
+      "systemAction": "assign reteach module for err-work-perpendicular-force",
+      "studentMessage": "Let's review when a force does zero work."
+    },
+    {
+      "errorId": "err-work-friction-sign",
+      "condition": "student answers incorrectly on Q2 targeting net work with friction",
+      "systemAction": "assign reteach module for err-work-friction-sign",
+      "studentMessage": "Let's practice calculating net work including friction."
+    },
+    {
+      "errorId": "err-kinetic-energy-linear-velocity",
+      "condition": "student answers incorrectly on Q3 targeting kinetic energy scaling",
+      "systemAction": "assign reteach module for err-kinetic-energy-linear-velocity",
+      "studentMessage": "Let's learn how kinetic energy depends on speed."
+    },
+    {
+      "errorId": "err-work-energy-theorem-application",
+      "condition": "student answers incorrectly on Q4 targeting work-energy theorem calculation",
+      "systemAction": "assign reteach module for err-work-energy-theorem-application",
+      "studentMessage": "Let's practice applying the work-energy theorem."
+    },
+    {
+      "errorId": "err-gpe-reference-point",
+      "condition": "student answers poorly on Q5 open-ended about GPE reference point",
+      "systemAction": "assign reteach module for err-gpe-reference-point",
+      "studentMessage": "Let's understand how gravitational potential energy depends on a reference point."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-work-perpendicular-force",
+      "trigger": "Student incorrectly answered diagnostic question Q1, selecting option B, C, or D, indicating a misunderstanding that a force perpendicular to displacement can do work.",
+      "studentMisunderstanding": "The student may think that any applied force does work regardless of its direction relative to displacement, not recognizing that only the component of force parallel to displacement contributes to work.",
+      "miniLesson": {
+        "explain": "Work is a scalar quantity calculated as W = F * d * cosθ, where θ is the angle between the force and displacement. When the force is perpendicular to the displacement (θ = 90°), cos90° = 0, so the work done is zero. Only the component of force parallel to displacement does work.",
+        "example": "When you carry a backpack horizontally, you exert an upward force to support its weight. Since the displacement is horizontal and the force is vertical (perpendicular), the work done by that upward force is zero. The backpack moves horizontally because of other forces, but the vertical support force does no work.",
+        "memoryAnchor": "Perpendicular force? Work = 0! If the force and displacement are at 90°, no work is done."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A person applies a 5.0 N upward force to a box while moving it 0.50 m horizontally at constant speed. How much work does the upward force do?",
+          "answer": "0 J (because the upward force is perpendicular to the horizontal displacement, so cos90° = 0)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A force of 35 N is applied vertically upward to a crate while it slides 11 m horizontally. Calculate the work done by this force.",
+          "answer": "W = 35 N * 11 m * cos90° = 35 N * 11 m * 0 = 0 J."
+        },
+        {
+          "level": "L3",
+          "prompt": "A 165 g hockey puck is pushed with a 5.0 N horizontal force over 0.50 m. Ignoring friction, what is the work done by the normal force (which is perpendicular to the ice)? Explain.",
+          "answer": "0 J. The normal force is perpendicular to the horizontal displacement of the puck, so the angle is 90° and cos90° = 0. Therefore, the normal force does no work on the puck."
+        }
+      ]
+    },
+    {
+      "errorId": "err-work-friction-sign",
+      "trigger": "A student adds the work done by friction as positive when calculating net work.",
+      "studentMisunderstanding": "The student believes work done by friction is positive, not understanding that friction opposes motion, so its work is negative.",
+      "miniLesson": {
+        "explain": "Work is a scalar, but its sign indicates the force's direction relative to displacement. Forces in the same direction as displacement do positive work; forces opposite do negative work. Friction always opposes motion, so its work is negative. Net work is the algebraic sum of all works. Example: applied force 41 N over 11 m gives W_app = 41 × 11 = 451 J. Friction 35 N opposite gives W_fric = -35 × 11 = -385 J. Net work = 451 + (-385) = 66 J.",
+        "example": "From the lesson: A shopping cart is pushed with a 41 N horizontal force over 11 m, while friction of 35 N acts opposite. The net work is 66 J because friction does negative work.",
+        "memoryAnchor": "Friction always fights motion, so its work is negative!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A friction force of 35 N acts opposite to the motion of a cart over 11 m. Calculate the work done by friction. Is it positive or negative?",
+          "answer": "-385 J, negative."
+        },
+        {
+          "level": "L2",
+          "prompt": "A cart is pushed with a 41 N force over 11 m while a 35 N friction force opposes. What is the net work done?",
+          "answer": "66 J"
+        },
+        {
+          "level": "L3",
+          "prompt": "You measure the net work on a cart as 66 J after pushing with 41 N over 11 m. What is the work done by friction? (Hint: net work = work by applied + work by friction)",
+          "answer": "Work by friction = 66 J - 451 J = -385 J"
+        }
+      ]
+    },
+    {
+      "errorId": "err-kinetic-energy-linear-velocity",
+      "trigger": "Student answered incorrectly on diagnostic question Q3 about kinetic energy scaling.",
+      "studentMisunderstanding": "The student believes that kinetic energy is proportional to velocity (linear), rather than proportional to the square of velocity.",
+      "miniLesson": {
+        "explain": "Kinetic energy (KE) is the energy of motion. Its formula is KE = ½mv², where m is mass and v is speed. The velocity is squared, meaning if you double the speed, KE becomes four times larger (not two times). For example, if speed triples, KE becomes nine times larger. This is because v² grows faster than v.",
+        "example": "Consider a 165 g (0.165 kg) hockey puck. When pushed from rest to 5.5 m/s, its KE = ½ * 0.165 * (5.5)² = 2.5 J. If the speed doubled to 11 m/s, KE = ½ * 0.165 * (11)² = 10 J, which is four times 2.5 J. So doubling speed quadruples KE.",
+        "memoryAnchor": "Remember: KE = ½ m v² → 'vee-squared'. If speed doubles, KE quadruples. 'Square the speed, four times the need.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If the speed of an object triples, how many times larger does its kinetic energy become?",
+          "answer": "9 times (because 3² = 9)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A 165 g hockey puck moves at 5.5 m/s. Calculate its kinetic energy.",
+          "answer": "First convert mass to kg: 165 g = 0.165 kg. KE = 0.5 * 0.165 * (5.5)² = 0.5 * 0.165 * 30.25 = 2.5 J (rounded)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Two hockey pucks have the same mass. Puck A moves at 5.5 m/s, and Puck B moves at 0.8 m/s. What is the ratio of KE_A to KE_B?",
+          "answer": "KE ratio = (v_A / v_B)² = (5.5 / 0.8)² = (6.875)² ≈ 47.3. So Puck A has about 47 times the kinetic energy of Puck B."
+        }
+      ]
+    },
+    {
+      "errorId": "err-work-energy-theorem-application",
+      "trigger": "Student answered incorrectly on question about applying work-energy theorem to find final speed.",
+      "studentMisunderstanding": "Student may think work-energy theorem applies to individual forces rather than net work.",
+      "miniLesson": {
+        "explain": "The work-energy theorem states that the total (net) work done on an object equals the change in its kinetic energy. It applies to the net work, which is the sum of work done by all forces. Do not apply it to individual forces separately; only the net work matters.",
+        "example": "For a 165 g hockey puck pushed 0.50 m by a 5.0 N horizontal force (no friction), the net work is 2.5 J. Using W_net = ΔKE, and initial KE = 0, we get ½mv² = 2.5 J, so v = √(2×2.5/0.165) ≈ 5.5 m/s.",
+        "memoryAnchor": "Remember: NET work = change in KE. Think 'Net' as the combined effect of all forces."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What does the work-energy theorem state? A) Work done by a single force equals change in KE. B) Net work done by all forces equals change in KE. C) Work done by gravity equals change in KE.",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "A shopping cart is pushed with 41 N force over 11 m, opposing friction 35 N. The net work is 66 J. If the cart starts from rest, what is its final kinetic energy?",
+          "answer": "66 J (since initial KE = 0, final KE = net work)"
+        },
+        {
+          "level": "L3",
+          "prompt": "A 165 g hockey puck is initially moving at 0.8 m/s. A constant 5.0 N horizontal force pushes it over a displacement of 0.50 m (no friction). Use the work-energy theorem to find the puck's final speed. (Hint: include initial kinetic energy.)",
+          "answer": "About 5.6 m/s. Work done = 5.0 × 0.50 = 2.5 J. Initial KE = ½×0.165×0.8² = 0.0528 J. Final KE = 0.0528 + 2.5 = 2.5528 J. v = √(2×2.5528/0.165) ≈ 5.6 m/s."
+        }
+      ]
+    },
+    {
+      "errorId": "err-gpe-reference-point",
+      "trigger": "The student answered poorly on an open-ended question about gravitational potential energy and reference points.",
+      "studentMisunderstanding": "The student may think that gravitational potential energy (GPE) is an absolute quantity, rather than depending on a chosen reference point.",
+      "miniLesson": {
+        "explain": "Gravitational potential energy (GPE) is the energy stored due to an object's position in a gravitational field. It is calculated as GPE = mgh, where h is the height relative to a chosen reference point. The value of GPE changes if you choose a different reference point. For example, a 1 kg ball on a 2 m high shelf has GPE = 19.6 J if the reference point is the floor, but GPE = 0 J if the reference point is the shelf itself. Always specify or agree on a reference point before calculating GPE.",
+        "example": "A 1 kg book is 1.5 m above the floor. If we choose the floor as reference, GPE = 1 * 9.8 * 1.5 = 14.7 J. If we choose the table 1 m above the floor as reference, then the book's height is 0.5 m relative to the table, so GPE = 1 * 9.8 * 0.5 = 4.9 J.",
+        "memoryAnchor": "GPE is like a balance: its value depends on where you set zero. The higher your reference, the lower the GPE."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A 2 kg rock sits on a 3 m high cliff. Choose the ground as reference. What is the rock's GPE? (Use g = 9.8 N/kg)",
+          "answer": "GPE = mgh = 2 kg * 9.8 N/kg * 3 m = 58.8 J"
+        },
+        {
+          "level": "L2",
+          "prompt": "The same 2 kg rock is now on a 3 m high cliff, but you choose the top of the cliff as the reference point. What is its GPE now?",
+          "answer": "Since the reference is the same height as the rock, h = 0, so GPE = 0 J"
+        },
+        {
+          "level": "L3",
+          "prompt": "A 0.5 kg book is lifted from the floor (reference) to a table 1.2 m high. Calculate the change in GPE. Then describe what happens if you instead choose the table as the reference point.",
+          "answer": "Change in GPE = mgh = 0.5 * 9.8 * 1.2 = 5.88 J (increase). If reference is the table, initial GPE = -0.5*9.8*1.2 = -5.88 J (since book is below table) and final GPE = 0 J, so change = +5.88 J. The change is the same, but absolute values differ."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-work-perpendicular-force",
+      "questions": [
+        {
+          "id": "retest-perp-q1",
+          "type": "single_choice",
+          "stem": "A person applies a vertical upward force of 12 N to a box while moving it horizontally 3.0 m at constant speed. How much work does the upward force do?",
+          "options": [
+            "36 J",
+            "0 J",
+            "12 J",
+            "3.0 J"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-perp-q2",
+          "type": "open_ended",
+          "stem": "A force of 5.0 N is applied vertically upward to a crate while it is pushed horizontally 12 m at constant speed. Calculate the work done by this vertical force. Show your calculation and explain whether the work is positive, negative, or zero.",
+          "rubric": "W = F d cosθ = 5.0 N × 12 m × cos90° = 0 J. The force is perpendicular to displacement (90° angle), so cos90° = 0 and work is zero. Full marks for correct calculation and clear explanation that perpendicular force does no work."
+        }
+      ],
+      "passRule": "Both questions answered correctly."
+    },
+    {
+      "forErrorId": "err-work-friction-sign",
+      "questions": [
+        {
+          "id": "q1-sign-of-friction-work",
+          "type": "single_choice",
+          "stem": "A box slides 2.0 m across a rough surface under a constant 10 N friction force opposite the direction of motion. The work done by friction is:",
+          "options": [
+            "20 J",
+            "-20 J",
+            "0 J",
+            "10 J"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-net-work-calc",
+          "type": "open_ended",
+          "stem": "A person pushes a heavy box with a 60 N horizontal force over 8.0 m. Kinetic friction of 25 N opposes the motion. Calculate the net work done on the box. Show your steps.",
+          "rubric": "Net work = 280 J. Award full credit if answer is 280 J with evidence of correct signs: work by applied force = 60 N × 8.0 m = 480 J, work by friction = -25 N × 8.0 m = -200 J, net = 480 J - 200 J = 280 J."
+        }
+      ],
+      "passRule": "Both questions must be correct."
+    },
+    {
+      "forErrorId": "err-kinetic-energy-linear-velocity",
+      "questions": [
+        {
+          "id": "ke-linear-velocity-retest-q1",
+          "type": "single_choice",
+          "stem": "A car's speed increases from 10 m/s to 20 m/s. How does its kinetic energy change?",
+          "options": [
+            "It becomes twice as large.",
+            "It becomes four times as large.",
+            "It becomes half as large.",
+            "It stays the same."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "ke-linear-velocity-retest-q2",
+          "type": "open_ended",
+          "stem": "A 2 kg ball is rolling at 3 m/s. Calculate its kinetic energy. Then, if the ball's speed is increased to 6 m/s, what is the new kinetic energy? Show your work.",
+          "rubric": "Correct calculation: KE = 0.5 * 2 * 3^2 = 9 J; new KE = 0.5 * 2 * 6^2 = 36 J. Recognizes that doubling speed quadruples KE (9 J to 36 J)."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-work-energy-theorem-application",
+      "questions": [
+        {
+          "id": "retest-single-1",
+          "type": "single_choice",
+          "stem": "Which statement correctly describes the work-energy theorem?",
+          "options": [
+            "The work done by the applied force equals the change in kinetic energy.",
+            "The net work done by all forces equals the change in kinetic energy.",
+            "The work done by friction equals the change in kinetic energy.",
+            "The work done by gravity equals the change in kinetic energy."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-open-1",
+          "type": "open_ended",
+          "stem": "A 165 g hockey puck is initially moving at 0.8 m/s. A constant 5.0 N horizontal force pushes it over a displacement of 0.50 m (no friction). Calculate the final speed of the puck using the work-energy theorem. Show your work.",
+          "rubric": "Correctly calculates initial KE = 0.5 * 0.165 * (0.8)^2 = 0.0528 J. Calculates work done = 5.0 * 0.50 = 2.5 J. Final KE = 0.0528 + 2.5 = 2.5528 J. Solves for v = sqrt(2 * 2.5528 / 0.165) ≈ 5.6 m/s. Accept answers between 5.5 and 5.7 m/s."
+        }
+      ],
+      "passRule": "Correct answer on retest-single-1 and final speed in retest-open-1 between 5.5 and 5.7 m/s."
+    },
+    {
+      "forErrorId": "err-gpe-reference-point",
+      "questions": [
+        {
+          "id": "gpe-ref-q1",
+          "type": "single_choice",
+          "stem": "Which of the following statements about gravitational potential energy (GPE) is correct?",
+          "options": [
+            "GPE is an absolute quantity independent of any reference point.",
+            "GPE is always zero at the Earth's surface.",
+            "The value of GPE depends on the chosen reference point.",
+            "GPE is the same regardless of where you measure height from."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "gpe-ref-q2",
+          "type": "open_ended",
+          "stem": "A 2.0 kg object sits on a shelf 2.5 m above the floor. (a) Calculate its gravitational potential energy relative to the floor. (b) Calculate its GPE relative to the shelf. (c) Explain why the two values are different. Use g = 9.8 N/kg.",
+          "rubric": "(a) 49 J (2.0*9.8*2.5). (b) 0 J (height relative to shelf is 0). (c) GPE depends on the reference point; floor gives h=2.5 m, shelf gives h=0 m, so values differ."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For Q1, choose option 3 (index 2). For Q2, correct calculation and explanation."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-07-30",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/NBmidlDR1ohZfYxbGIrcFIeSn3g?from=vc_group_doc_link#doxcnMOiIDoJe6LvujO1HPO2Cih",
+    "sourceTitle": "SPH3U.S6.Michael 2026-07-30 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Work is a scalar quantity calculated as the product of force magnitude, displacement magnitude, and cosine of the angle between them: W = F * d * cosθ.；The SI unit of work is the joule (J), where 1 J = 1 N·m.；Only the component of force parallel to displacement does work; force perpendicular to displacement does zero work.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Define work as a scalar quantity and calculate work using W = F d cosθ."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply the work-energy theorem to relate net work to changes in kinetic energy."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish between kinetic energy and gravitational potential energy and recognize their dependence on reference points."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Compute kinetic energy using KE = ½mv² and understand its proportionality to velocity squared."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Friction lab submission",
+        "studentAction": "Submit the friction lab within 7 days of today's class.",
+        "deadlineText": "within 7 days from July 30, 2026",
+        "deadlineISO": "2026-08-06",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The officially assigned friction lab for the current unit must be submitted within 7 days from the date of the meeting.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "follow_up_action",
+        "title": "Lab website access issue",
+        "studentAction": "Report if you cannot access the required lab website; teacher will investigate and provide resolution.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "unknown lab website",
+        "link": null,
+        "appliesTo": "students unable to access lab website",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Students reported that the required lab website is inaccessible... Michael will conduct a dedicated investigation into the inaccessible lab website issue and provide a resolution for affected students.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "required lab website is inaccessible",
+        "reason": "Exact URL or platform name not specified in notes."
+      }
+    ],
+    "watchTags": [
+      "SPH3U-D-OE03-work",
+      "SPH3U-D-OE02-work-energy-theorem",
+      "SPH3U-D-OE03-kinetic-energy",
+      "SPH3U-D-OE03-gravitational-potential-energy"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-work-perpendicular-force",
+        "condition": "student answers incorrectly on Q1 targeting perpendicular force and zero work",
+        "systemAction": "assign reteach module for err-work-perpendicular-force"
+      },
+      {
+        "errorId": "err-work-friction-sign",
+        "condition": "student answers incorrectly on Q2 targeting net work with friction",
+        "systemAction": "assign reteach module for err-work-friction-sign"
+      },
+      {
+        "errorId": "err-kinetic-energy-linear-velocity",
+        "condition": "student answers incorrectly on Q3 targeting kinetic energy scaling",
+        "systemAction": "assign reteach module for err-kinetic-energy-linear-velocity"
+      },
+      {
+        "errorId": "err-work-energy-theorem-application",
+        "condition": "student answers incorrectly on Q4 targeting work-energy theorem calculation",
+        "systemAction": "assign reteach module for err-work-energy-theorem-application"
+      },
+      {
+        "errorId": "err-gpe-reference-point",
+        "condition": "student answers poorly on Q5 open-ended about GPE reference point",
+        "systemAction": "assign reteach module for err-gpe-reference-point"
+      }
+    ],
+    "nextActions": [
+      "[err-work-perpendicular-force] student answers incorrectly on Q1 targeting perpendicular force and zero work: Let's review when a force does zero work.",
+      "[err-work-friction-sign] student answers incorrectly on Q2 targeting net work with friction: Let's practice calculating net work including friction.",
+      "[err-kinetic-energy-linear-velocity] student answers incorrectly on Q3 targeting kinetic energy scaling: Let's learn how kinetic energy depends on speed.",
+      "[err-work-energy-theorem-application] student answers incorrectly on Q4 targeting work-energy theorem calculation: Let's practice applying the work-energy theorem.",
+      "[err-gpe-reference-point] student answers poorly on Q5 open-ended about GPE reference point: Let's understand how gravitational potential energy depends on a reference point."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-u3-0730-q1",
+        "type": "choice",
+        "question": "A person carries a 10 kg box horizontally across a room at constant speed. Which statement best describes the work done by the person on the box?",
+        "options": [
+          "Zero work because the lifting force is perpendicular to the horizontal displacement.",
+          "98 J of work because the box has weight.",
+          "Work depends on how fast the person walks.",
+          "Cannot determine without knowing the time taken."
+        ],
+        "correct": 0,
+        "diagnosis": "Check understanding that a vertical support force does no work when displacement is horizontal.",
+        "misconceptions": [
+          "✓ 正确",
+          "The weight is vertical, but displacement is horizontal, so no work is done by the person. Work requires force component in the direction of displacement.",
+          "Work is independent of speed when force is constant and displacement is horizontal; the perpendicular force does no work.",
+          "Work is independent of time; only force, displacement, and the angle between them matter."
+        ],
+        "nodeId": "SPH3U-D-OE03-work",
+        "errorId": "err-work-perpendicular-force",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Identifies that a force perpendicular to displacement does zero work.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses work concept in D3 expectation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking that any applied force does work regardless of direction.",
+        "remediationModule": "err-work-perpendicular-force",
+        "retestItem": "err-work-perpendicular-force"
+      },
+      {
+        "id": "diag-sph3u-u3-0730-q2",
+        "type": "choice",
+        "question": "A shopping cart is pushed with a 41 N horizontal force over 11 m, while a 35 N friction force acts opposite to the motion. What is the net work done on the cart?",
+        "options": [
+          "66 J",
+          "451 J",
+          "385 J",
+          "6 J"
+        ],
+        "correct": 0,
+        "diagnosis": "Test ability to compute net work by correctly adding works with signs.",
+        "misconceptions": [
+          "✓ 正确",
+          "You multiplied only the applied force by displacement, ignoring that friction does negative work.",
+          "You seem to have subtracted the forces incorrectly or used the wrong sign for friction.",
+          "You subtracted the forces but forgot to multiply by displacement. Net work is (41 N - 35 N) × 11 m = 66 J."
+        ],
+        "nodeId": "SPH3U-D-OE03-work",
+        "errorId": "err-work-friction-sign",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Calculates net work as sum of work by all forces, treating friction work as negative.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Involves calculation of work, core to D3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Adding frictional work as positive instead of negative.",
+        "remediationModule": "err-work-friction-sign",
+        "retestItem": "err-work-friction-sign"
+      },
+      {
+        "id": "diag-sph3u-u3-0730-q3",
+        "type": "choice",
+        "question": "If the speed of an object doubles, its kinetic energy becomes:",
+        "options": [
+          "double",
+          "quadruple",
+          "half",
+          "stay the same"
+        ],
+        "correct": 1,
+        "diagnosis": "Check understanding that KE ∝ v², not v.",
+        "misconceptions": [
+          "Kinetic energy depends on v², not v. Doubling speed quadruples KE.",
+          "✓ 正确",
+          "Increasing speed increases KE, not decreases.",
+          "KE depends on speed; changing speed changes KE."
+        ],
+        "nodeId": "SPH3U-D-OE03-kinetic-energy",
+        "errorId": "err-kinetic-energy-linear-velocity",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Recognizes that kinetic energy is proportional to the square of speed.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses kinetic energy understanding under D3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking KE is directly proportional to speed.",
+        "remediationModule": "err-kinetic-energy-linear-velocity",
+        "retestItem": "err-kinetic-energy-linear-velocity"
+      },
+      {
+        "id": "diag-sph3u-u3-0730-q4",
+        "type": "choice",
+        "question": "A 165 g hockey puck at rest is pushed 0.50 m with a 5.0 N horizontal force. Using the work-energy theorem, what is the final speed of the puck? (Ignore friction.)",
+        "options": [
+          "5.5 m/s",
+          "2.5 m/s",
+          "11 m/s",
+          "0.8 m/s"
+        ],
+        "correct": 0,
+        "diagnosis": "Test ability to use the work-energy theorem to find final speed from net work.",
+        "misconceptions": [
+          "✓ 正确",
+          "Check your calculation: Work = 5.0 N × 0.50 m = 2.5 J. Then ½mv² = 2.5 J → v = √(2×2.5/0.165) ≈ 5.5 m/s.",
+          "You might have forgotten to take the square root or doubled the work incorrectly.",
+          "This is too small; double-check the conversion of mass to kg and the formula."
+        ],
+        "nodeId": "SPH3U-D-OE02-work-energy-theorem",
+        "errorId": "err-work-energy-theorem-application",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Applies W_total = ΔKE to solve for final speed correctly.",
+        "ossdExpectation": "Investigate energy transformations and the law of conservation of energy, and solve related problems.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "SPH3U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Involves solving problems using work-energy theorem under D2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Applying work-energy theorem to individual forces rather than net work, or forgetting that initial KE is zero.",
+        "remediationModule": "err-work-energy-theorem-application",
+        "retestItem": "err-work-energy-theorem-application"
+      },
+      {
+        "id": "diag-sph3u-u3-0730-q5",
+        "type": "explain",
+        "question": "A student says that a 1 kg ball on a 2 m high shelf has exactly 19.6 J of gravitational potential energy. Is this value always correct? Explain your reasoning in terms of gravitational potential energy and reference points.",
+        "correct": null,
+        "diagnosis": "Check understanding that GPE is relative to a reference level.",
+        "nodeId": "SPH3U-D-OE03-gravitational-potential-energy",
+        "errorId": "err-gpe-reference-point",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Explains that GPE depends on a chosen reference point; the value 19.6 J is only if the reference point is the floor.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses gravitational potential energy under D3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Treating GPE as an absolute quantity independent of reference point.",
+        "remediationModule": "err-gpe-reference-point",
+        "retestItem": "err-gpe-reference-point"
+      }
+    ]
+  }
+}
