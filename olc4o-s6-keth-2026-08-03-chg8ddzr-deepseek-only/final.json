@@ -1,0 +1,1556 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-08-03",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Chg8dDZReoVv8OxrP6XcG846ngc?from=vc_group_doc_link#doxcnTL4OCImukLurGVFHdl8AQd",
+  "sourceTitle": "OLC4O.S6.Keth 2026-08-03 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Chg8dDZReoVv8OxrP6XcG846ngc?from=vc_group_doc_link#doxcnTL4OCImukLurGVFHdl8AQd",
+    "title": "OLC4O.S6.Keth 2026-08-03 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-04/sources/olc4o-s6-keth-2026-08-03-chg8ddzr/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-08-03",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-08-03",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes substantial academic instruction on reflective writing and Unit 2 exam review, mixed with administrative items.",
+    "academicContentSignals": [
+      "definition and attributes of reflective writing",
+      "comparison of reflective and academic writing",
+      "Gibbs reflective cycle steps",
+      "essay structure: introduction, body, conclusion",
+      "writing basics: audience, purpose, style",
+      "pre-writing strategies: outlining, mind mapping",
+      "non-fiction narrative: 5W1H, real experiences",
+      "interview writing: opening, questions, closing",
+      "practical writing: cover letter and resume format"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "High risk because many operational items (assignments, deadlines, platforms, exam rules) could distract. Mitigation: prioritize academic content in exit card, limit ops to essential readiness checks.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "APM Reflective Writing Worksheet",
+        "studentAction": "完成APM Reflective Writing Worksheet 的所有问题，并上传至Schoology和OneNote",
+        "deadlineText": "下一次课前",
+        "deadlineISO": null,
+        "platform": "Schoology, OneNote",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "需完成本次课程布置的 APM Reflective Writing Worksheet 对应问题的全部作答... 需同步上传至 schoology 与 one note 两个平台",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "U2A1和U2A2提交截止",
+        "studentAction": "在8月7日前完成U2A1和U2A2的提交",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-06T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "U2A1、U2A2 两项单元作业需在 8 月 7 日前完成全部提交",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Unit 2考试规则",
+        "studentAction": "按时参加考试，不得使用AI生成内容，违规将得0分",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "必须按时参加考试，不得无故延迟... 考试过程中禁止完全使用 AI 生成内容作答",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "review_focus",
+        "title": "第二单元复习重点",
+        "studentAction": "复习写作基础三要素（受众、目的、文体），写作前置策略，非虚构记叙文5W1H，采访稿结构，实用文书（求职信、简历）",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "核心考点范围 写作基础三要素...",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "platform_link",
+        "title": "Schoology平台提交",
+        "studentAction": "将作业上传至Schoology",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "需同步上传至 schoology",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "platform_link",
+        "title": "OneNote平台提交",
+        "studentAction": "将作业上传至OneNote",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "需同步上传至 one note",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "APM Reflective Writing Worksheet 提交截止时间未明确，仅提及随堂作业",
+        "reason": "未指定确切时间，可能默认下次课前提交"
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Reflective Writing Definition、Reflective vs Academic Writing、Reflective Writing Process、Reflective Writing Structure）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 10 个知识节点之间可能存在 10 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Reflective writing is a deep response to experiences, opinions, or events, focusing on exploring learning paths, enhancing self-awareness, and strengthening writing skills.；Reflective writing differs from factual descriptions, simple right/wrong judgments, and standard academic papers; it explores deeper meaning rather than just conveying information.；Reflective writing shares similarities with academic writing: both require research, focus on core issues, use critical thinking, have structured paragraphs, formal style, and logical coherence.",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "node_reflective_definition",
+      "name": "Reflective Writing Definition",
+      "nameEn": "Reflective Writing Definition",
+      "definition": "Reflective writing is a deep response to experiences, opinions, or events that explores learning paths, self-awareness, and writing skills. It differs from factual descriptions, simple judgments, and academic papers by focusing on deeper meaning.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "node_reflective_vs_academic",
+      "name": "Reflective vs Academic Writing",
+      "nameEn": "Reflective vs Academic Writing",
+      "definition": "Reflective writing shares similarities with academic writing (research, critical thinking, structure, formal style) but differs by requiring personal emotions, first-person perspective, theory-practice integration, and sometimes less formal expression.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "node_reflective_process",
+      "name": "Reflective Writing Process",
+      "nameEn": "Reflective Writing Process",
+      "definition": "The reflective writing process includes: detailed recording of experience with emotional notes; theme extraction; factor analysis of influences; linking to past experiences and planning future actions (Gibbs reflective cycle).",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "OLC4O-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks."
+    },
+    {
+      "id": "node_reflective_structure",
+      "name": "Reflective Writing Structure",
+      "nameEn": "Reflective Writing Structure",
+      "definition": "In reflective writing, the introduction is 10% of total length and states theme and purpose; body uses topic sentences with examples; conclusion summarizes and suggests improvements.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "node_reflective_critical",
+      "name": "Reflective and Critical Thinking",
+      "nameEn": "Reflective and Critical Thinking",
+      "definition": "Reflective and critical thinking are intertwined processes that support behavior judgment, problem solving, and self-awareness improvement.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "OLC4O-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the reading and writing processes and of the role of reading and writing in learning."
+    },
+    {
+      "id": "node_writing_foundation",
+      "name": "Writing Foundation: Audience, Purpose, Genre",
+      "nameEn": "Writing Foundation: Audience, Purpose, Genre",
+      "definition": "Effective writing requires accurately identifying the audience and purpose to match the content framework and genre, e.g., persuasive writing for teenagers.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "node_prewriting",
+      "name": "Pre-writing Strategies",
+      "nameEn": "Pre-writing Strategies",
+      "definition": "Pre-writing strategies include background knowledge review, outlining, listing key points, relationship webs, and building structured frameworks to organize ideas before writing.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "OLC4O-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks."
+    },
+    {
+      "id": "node_narrative",
+      "name": "Non-fiction Narrative Writing",
+      "nameEn": "Non-fiction Narrative Writing",
+      "definition": "Non-fiction narrative writing must use complete sentences, correct tense, subject-verb agreement, proper punctuation, adhere to 5W1H, and be based on real experiences without fiction.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "node_interview",
+      "name": "Interview Writing",
+      "nameEn": "Interview Writing",
+      "definition": "Interview writing conventions: begin with a polite welcome; ask valuable, detailed questions; conclude by politely informing the interviewee about the publication channel.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "node_practical_writing",
+      "name": "Practical Writing (Cover Letter and Resume)",
+      "nameEn": "Practical Writing (Cover Letter and Resume)",
+      "definition": "Cover letter requires standard format (date, place, contact), clear purpose, and thanks. Resume must include personal background, education, experience, and contact information.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "8-10 correct",
+      "targetedRemediation": "4-7 correct",
+      "reteach": "0-3 correct"
+    },
+    "questions": [
+      {
+        "id": "q1",
+        "nodeId": "node_reflective_definition",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-reflective-definition-misconception",
+        "stem": "Which of the following best defines reflective writing?",
+        "options": [
+          {
+            "label": "A",
+            "text": "A simple diary entry that records daily events without analysis.",
+            "correct": false,
+            "feedbackWrong": "A diary entry might record events, but reflective writing goes deeper by exploring meaning and learning from the experience."
+          },
+          {
+            "label": "B",
+            "text": "A factual report that objectively presents data and avoids personal opinion.",
+            "correct": false,
+            "feedbackWrong": "A factual report focuses only on facts, but reflective writing involves personal insights and self-awareness."
+          },
+          {
+            "label": "C",
+            "text": "A personal response that explores the deeper meaning and learning from an experience.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Reflective writing is about deep personal exploration and learning."
+          },
+          {
+            "label": "D",
+            "text": "A fictional story that creates an imagined scenario to entertain the reader.",
+            "correct": false,
+            "feedbackWrong": "Reflective writing is based on real experiences, not fiction."
+          }
+        ],
+        "nextActionIfWrong": "Review the reflective writing definition module.",
+        "learningGoal": "Identify the characteristics of reflective writing.",
+        "successCriteria": "Student selects the option that describes reflective writing as a deep personal response exploring meaning and learning.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly aligns with writing personal reflections as a form.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student can distinguish reflective writing from other forms like diary, report, or fiction.",
+        "commonMisconception": "Confusing reflective writing with simple diary entries or narrative descriptions without deep analysis.",
+        "remediationModule": "err-reflective-definition-misconception",
+        "retestItem": "err-reflective-definition-misconception"
+      },
+      {
+        "id": "q2",
+        "nodeId": "node_reflective_vs_academic",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-reflective-vs-academic-formal",
+        "stem": "How does reflective writing differ from traditional academic writing?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Reflective writing must always be written in the third person.",
+            "correct": false,
+            "feedbackWrong": "Reflective writing often uses first person to express personal thoughts."
+          },
+          {
+            "label": "B",
+            "text": "Reflective writing avoids personal emotions and focuses only on facts.",
+            "correct": false,
+            "feedbackWrong": "Reflective writing specifically includes personal emotions and reactions."
+          },
+          {
+            "label": "C",
+            "text": "Reflective writing uses personal experiences and first-person perspective alongside critical analysis.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Reflective writing blends personal reflection with critical thinking."
+          },
+          {
+            "label": "D",
+            "text": "Reflective writing does not require any structure or logical flow.",
+            "correct": false,
+            "feedbackWrong": "Reflective writing still needs structure and logical coherence, like academic writing."
+          }
+        ],
+        "nextActionIfWrong": "Review the reflective vs academic writing module.",
+        "learningGoal": "Distinguish between reflective and academic writing.",
+        "successCriteria": "Student identifies the correct distinction including personal perspective and critical analysis.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Focuses on understanding the form of personal reflections.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands the unique personal and analytical blend in reflective writing.",
+        "commonMisconception": "Thinking reflective writing cannot include personal emotions or first-person because it is too informal.",
+        "remediationModule": "err-reflective-vs-academic-formal",
+        "retestItem": "err-reflective-vs-academic-formal"
+      },
+      {
+        "id": "q3",
+        "nodeId": "node_reflective_process",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-reflective-process-skip-analysis",
+        "stem": "According to the Gibbs Reflective Cycle, what step should you do after describing an experience?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Immediately write a conclusion about what you learned.",
+            "correct": false,
+            "feedbackWrong": "Jumping to conclusions skips the important analysis of feelings and themes."
+          },
+          {
+            "label": "B",
+            "text": "Extract key themes and analyze the factors that influenced the experience.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Theme extraction and analysis are essential steps after description."
+          },
+          {
+            "label": "C",
+            "text": "Write a fictional story based loosely on the experience.",
+            "correct": false,
+            "feedbackWrong": "Reflective writing is about real experience, not fiction."
+          },
+          {
+            "label": "D",
+            "text": "Forget the experience and move on to a new topic.",
+            "correct": false,
+            "feedbackWrong": "Reflection requires deeper engagement with the experience."
+          }
+        ],
+        "nextActionIfWrong": "Review the reflective writing process module.",
+        "learningGoal": "Describe the reflective writing process.",
+        "successCriteria": "Student identifies theme extraction and analysis as a key step after description.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The reflective process involves idea generation and organization, aligning with the writing process.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student knows the correct sequence of the reflective process, avoiding skipping analysis.",
+        "commonMisconception": "Skipping the theme extraction or factor analysis steps and just recounting events.",
+        "remediationModule": "err-reflective-process-skip-analysis",
+        "retestItem": "err-reflective-process-skip-analysis"
+      },
+      {
+        "id": "q4",
+        "nodeId": "node_reflective_structure",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-reflective-structure-intro-length",
+        "stem": "If your reflective writing piece should be 1000 words, approximately how long should the introduction be?",
+        "options": [
+          {
+            "label": "A",
+            "text": "50 words",
+            "correct": false,
+            "feedbackWrong": "50 words is too short for a 1000-word paper; introduction should be about 10%, which is 100 words."
+          },
+          {
+            "label": "B",
+            "text": "100 words",
+            "correct": true,
+            "feedbackCorrect": "Correct. The introduction should be about 10% of the total length."
+          },
+          {
+            "label": "C",
+            "text": "300 words",
+            "correct": false,
+            "feedbackWrong": "300 words is 30%, which would make the introduction too long and unbalanced."
+          },
+          {
+            "label": "D",
+            "text": "500 words",
+            "correct": false,
+            "feedbackWrong": "500 words is half the paper; the introduction should be only 10%."
+          }
+        ],
+        "nextActionIfWrong": "Review the reflective writing structure module.",
+        "learningGoal": "Apply the 10% introduction rule in reflective writing structure.",
+        "successCriteria": "Student calculates 10% of 1000 correctly as 100 words.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding structure is part of writing personal reflections.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can apply the 10% guideline to determine appropriate introduction length.",
+        "commonMisconception": "Writing an introduction that is too long or too short, not adhering to the 10% guideline.",
+        "remediationModule": "err-reflective-structure-intro-length",
+        "retestItem": "err-reflective-structure-intro-length"
+      },
+      {
+        "id": "q5",
+        "nodeId": "node_reflective_critical",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "errorId": "err-reflective-critical-separate",
+        "stem": "Which statement best describes the relationship between reflective thinking and critical thinking?",
+        "options": [
+          {
+            "label": "A",
+            "text": "They are completely separate skills used for different tasks.",
+            "correct": false,
+            "feedbackWrong": "They are not separate; they support each other in problem-solving and self-awareness."
+          },
+          {
+            "label": "B",
+            "text": "Critical thinking is only needed for academic writing, while reflective thinking is only for personal writing.",
+            "correct": false,
+            "feedbackWrong": "Both can be applied in various contexts and often overlap."
+          },
+          {
+            "label": "C",
+            "text": "Reflective thinking and critical thinking are intertwined and jointly improve self-awareness and decision-making.",
+            "correct": true,
+            "feedbackCorrect": "Correct. They are interconnected processes."
+          },
+          {
+            "label": "D",
+            "text": "Reflective thinking always comes before critical thinking in a sequence.",
+            "correct": false,
+            "feedbackWrong": "They do not have a fixed order; they work together simultaneously."
+          }
+        ],
+        "nextActionIfWrong": "Review the reflective and critical thinking module.",
+        "learningGoal": "Explain the relationship between reflective and critical thinking.",
+        "successCriteria": "Student identifies that they are intertwined and mutually supportive.",
+        "ossdExpectation": "Demonstrate understanding of the reading and writing processes and of the role of reading and writing in learning.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "OLC4O-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the role of reflection in learning connects to C3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student recognizes the interconnectedness of reflection and critical thinking.",
+        "commonMisconception": "Treating reflection and critical thinking as separate processes rather than intertwined.",
+        "remediationModule": "err-reflective-critical-separate",
+        "retestItem": "err-reflective-critical-separate"
+      },
+      {
+        "id": "q6",
+        "nodeId": "node_writing_foundation",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-writing-foundation-mismatch",
+        "stem": "You are asked to write a piece for teenagers about the importance of healthy eating. What genre should you most likely choose?",
+        "options": [
+          {
+            "label": "A",
+            "text": "A personal reflective essay",
+            "correct": false,
+            "feedbackWrong": "A reflective essay might be personal, but to convince teenagers, persuasive writing is more effective."
+          },
+          {
+            "label": "B",
+            "text": "A persuasive article",
+            "correct": true,
+            "feedbackCorrect": "Correct. Persuasive writing aims to convince the audience, which matches the purpose and teenage audience."
+          },
+          {
+            "label": "C",
+            "text": "An academic research report",
+            "correct": false,
+            "feedbackWrong": "A research report is too formal and might not engage teenagers effectively."
+          },
+          {
+            "label": "D",
+            "text": "A fictional short story",
+            "correct": false,
+            "feedbackWrong": "A story might entertain but not directly persuade about healthy eating."
+          }
+        ],
+        "nextActionIfWrong": "Review the writing foundation (audience, purpose, genre) module.",
+        "learningGoal": "Match genre to audience and purpose.",
+        "successCriteria": "Student selects persuasive writing as appropriate for convincing teenagers about healthy eating.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly aligns with matching form to audience and purpose.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can select the appropriate genre based on audience and purpose.",
+        "commonMisconception": "Not matching the genre to the audience and purpose, e.g., using informal style for a formal letter.",
+        "remediationModule": "err-writing-foundation-mismatch",
+        "retestItem": "err-writing-foundation-mismatch"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-reflective-definition-misconception",
+      "condition": "student answers incorrectly on any question with errorId err-reflective-definition-misconception",
+      "systemAction": "assign reteach module err-reflective-definition-misconception, then retest err-reflective-definition-misconception",
+      "studentMessage": "关于 Confusing reflective writing with simple diary entries or narrative descriptions without deep analysis. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-reflective-vs-academic-formal",
+      "condition": "student answers incorrectly on any question with errorId err-reflective-vs-academic-formal",
+      "systemAction": "assign reteach module err-reflective-vs-academic-formal, then retest err-reflective-vs-academic-formal",
+      "studentMessage": "关于 Thinking reflective writing cannot include personal emotions or first-person because it is too informal. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-reflective-process-skip-analysis",
+      "condition": "student answers incorrectly on any question with errorId err-reflective-process-skip-analysis",
+      "systemAction": "assign reteach module err-reflective-process-skip-analysis, then retest err-reflective-process-skip-analysis",
+      "studentMessage": "关于 Skipping the theme extraction or factor analysis steps and just recounting events. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-reflective-structure-intro-length",
+      "condition": "student answers incorrectly on any question with errorId err-reflective-structure-intro-length",
+      "systemAction": "assign reteach module err-reflective-structure-intro-length, then retest err-reflective-structure-intro-length",
+      "studentMessage": "关于 Writing an introduction that is too long or too short, not adhering to the 10% guideline. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-reflective-critical-separate",
+      "condition": "student answers incorrectly on any question with errorId err-reflective-critical-separate",
+      "systemAction": "assign reteach module err-reflective-critical-separate, then retest err-reflective-critical-separate",
+      "studentMessage": "关于 Treating reflection and critical thinking as separate processes rather than intertwined. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-writing-foundation-mismatch",
+      "condition": "student answers incorrectly on any question with errorId err-writing-foundation-mismatch",
+      "systemAction": "assign reteach module err-writing-foundation-mismatch, then retest err-writing-foundation-mismatch",
+      "studentMessage": "关于 Not matching the genre to the audience and purpose, e.g., using informal style for a formal letter. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-prewriting-no-outline",
+      "condition": "student answers incorrectly on any question with errorId err-prewriting-no-outline",
+      "systemAction": "assign reteach module err-prewriting-no-outline, then retest err-prewriting-no-outline",
+      "studentMessage": "关于 Starting to write without any pre-writing strategy like outlining or listing key points. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-narrative-fictional",
+      "condition": "student answers incorrectly on any question with errorId err-narrative-fictional",
+      "systemAction": "assign reteach module err-narrative-fictional, then retest err-narrative-fictional",
+      "studentMessage": "关于 Creating a fictional story instead of a true non-fiction narrative. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-interview-no-closing",
+      "condition": "student answers incorrectly on any question with errorId err-interview-no-closing",
+      "systemAction": "assign reteach module err-interview-no-closing, then retest err-interview-no-closing",
+      "studentMessage": "关于 Forgetting to include a polite closing and publication information in an interview write-up. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-practical-writing-missing-format",
+      "condition": "student answers incorrectly on any question with errorId err-practical-writing-missing-format",
+      "systemAction": "assign reteach module err-practical-writing-missing-format, then retest err-practical-writing-missing-format",
+      "studentMessage": "关于 Omitting standard elements like date, contact info, or objective from a cover letter or resume. 的理解还需要加强。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-reflective-definition-misconception",
+      "trigger": "When a student writes a personal reflection that merely recounts events without analyzing their meaning or learning.",
+      "studentMisunderstanding": "They think reflective writing is the same as a diary or a simple narrative of what happened.",
+      "miniLesson": {
+        "explain": "Reflective writing is a deep response to an experience, opinion, or event. It goes beyond simply describing what happened. Instead, it focuses on exploring learning paths, enhancing self-awareness, and strengthening writing skills. A diary entry records daily events without analysis; reflective writing extracts themes, analyzes influences, and connects to past experiences and future actions.",
+        "example": "Diary entry: 'I failed my math test and felt sad.' Reflective writing: 'When I failed my math test, I realized I had been skipping homework. This showed me that consistent practice is essential. I will now set aside 30 minutes daily to review, and I plan to ask my teacher for help.' The reflective version examines causes and plans change.",
+        "memoryAnchor": "A diary tells what happened; a reflection tells what it means."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is an example of reflective writing? A: 'I went to the beach and had a great time.' B: 'Going to the beach made me realize how much I need to relax and recharge; I plan to take more short breaks.'",
+          "answer": "Passage B because it includes analysis and a plan."
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite this diary entry as a reflective piece: 'I lost my phone and felt upset.'",
+          "answer": "Losing my phone upset me, but it revealed that I depend on it too much. I’ll keep it in a designated spot and set a reminder to check."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a short reflection (about 100 words) on a mistake you made. Include what happened, why it happened, and what you will do differently.",
+          "answer": "I forgot my friend's birthday. I realized I was too focused on my own schedule. To avoid this, I will use a calendar and set reminders."
+        }
+      ]
+    },
+    {
+      "errorId": "err-reflective-vs-academic-formal",
+      "trigger": "A student says, 'Reflective writing is academic writing, so it must be formal and objective and cannot include personal emotions or first-person.'",
+      "studentMisunderstanding": "The student believes that because reflective writing shares formal and structured characteristics with academic writing, it must remain impersonal and avoid any expression of personal feelings or 'I'. In fact, reflective writing uniquely requires linking personal emotions and actions and using first-person perspective, while still maintaining formal style and logical coherence.",
+      "miniLesson": {
+        "explain": "Reflective writing does share important similarities with academic writing—both require research, focus on core issues, use critical thinking, have structured paragraphs, use a formal style, and maintain logical coherence. However, reflective writing is not the same as a standard academic paper. It uniquely requires you to link personal emotions and actions, use a first-person perspective, integrate theory and practice, and sometimes use less formal expression. The key is not to choose between formality and personal voice, but to combine them: keep the clear structure and rigorous thinking of academic writing, while adding your own genuine reflection and insights.",
+        "example": "In an academic report, you might write: 'The data show a significant decrease in participant motivation.' In a reflective piece, you would instead write: 'I noticed that my own motivation dropped when I did not receive feedback, and I now understand how important timely responses are for maintaining engagement.' Both are written in a formal, structured style, but the reflective version adds personal experience and first-person perspective.",
+        "memoryAnchor": "Think of reflective writing as a formal letter with a personal note inside. The envelope and structure are formal—research, clear organization, and logic—but the content is your own voice, using 'I' and honest feelings. You can be personal without being informal."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which sentence is the best example of reflective writing?\nA) The experiment failed because the temperature was too high.\nB) I felt frustrated when the experiment failed, which taught me to control variables more carefully.\nC) In conclusion, the experiment resulted in a 15% failure rate.\nD) The apparatus was set up according to the manual.",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite the following academic sentence so that it shows reflective writing while still keeping a formal and structured tone:\n'The project missed its deadline due to poor scheduling.'\nWrite one sentence that includes personal emotion or a first-person insight.",
+          "answer": "When the project missed its deadline, I realized that my poor scheduling was the main cause, and I now understand that I need to create a more realistic timeline for future tasks."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate says: 'Reflective writing is just a diary entry, so it does not need structure or formal language.' Explain why this statement is incorrect. Use your knowledge of how reflective writing is similar to and different from academic writing. Write 2–3 sentences.",
+          "answer": "Reflective writing is not just a diary entry; it shares many features with academic writing, such as research, focus on core issues, critical thinking, structured paragraphs, formal style, and logical coherence. What makes it unique is that it also requires linking personal emotions and actions and using first-person perspective. Therefore, reflective writing combines the structure and formality of academic writing with personal insight, not informal carelessness."
+        }
+      ]
+    },
+    {
+      "errorId": "err-reflective-process-skip-analysis",
+      "trigger": "When the student describes an experience in a reflective writing task but does not extract themes or analyze contributing factors, producing only a chronological retelling of events.",
+      "studentMisunderstanding": "The student thinks that simply recounting what happened is enough for reflective writing, so they skip the essential steps of theme extraction and factor analysis.",
+      "miniLesson": {
+        "explain": "Reflective writing is a deep response to experiences, opinions, or events, focusing on exploring learning paths, enhancing self-awareness, and strengthening writing skills. It is not the same as a factual description or a simple retelling. The reflective writing process includes: detailed recording of the experience with noted moments of confidence or difficulty; theme extraction; factor analysis of influences; linking to past experiences and planning future responses. If you skip the theme extraction or factor analysis steps, you are just recounting events, not reflecting.",
+        "example": "Using the Gibbs reflective cycle from the lesson, if you wrote about a presentation, after describing what happened, you should extract themes (e.g., 'I feel anxious when I am not prepared') and analyze factors that influenced the experience (e.g., 'I did not practice out loud'). Then link to past experiences and plan future responses. Without these steps, the writing is only a story, not a reflection.",
+        "memoryAnchor": "Remember the 4 Ds: Describe → Dig into themes → Decide what matters → Do differently next time."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "After describing a personal experience in reflective writing, which step must you do next? Choose: A) Recount more details, B) Extract key themes, C) Write a conclusion immediately.",
+          "answer": "B) Extract key themes"
+        },
+        {
+          "level": "L2",
+          "prompt": "In the Gibbs Reflective Cycle, after you record the experience and note moments of confidence or difficulty, what should you do before writing a conclusion?",
+          "answer": "Extract themes from the experience and analyze the factors that influenced it (factor analysis), then link to past experiences and plan future responses."
+        },
+        {
+          "level": "L3",
+          "prompt": "Read this student reflection: 'I gave a presentation. I was nervous. I forgot some lines. It ended.' Which important step is missing? What should the writer add to make it a complete reflection?",
+          "answer": "The writer skipped theme extraction and factor analysis. They should add: themes that emerged (e.g., nervousness due to lack of preparation), factors that influenced the experience (e.g., not practicing aloud), and then connect to past experiences and plan a future response (e.g., practice in front of a friend before the next presentation)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-reflective-structure-intro-length",
+      "trigger": "Student writes a reflective piece whose introduction is noticeably longer or shorter than the recommended 10% of total length.",
+      "studentMisunderstanding": "The student does not understand that the introduction in reflective writing should be about 10% of the total length, and instead writes an introduction that is either too long, too detailed, or too brief.",
+      "miniLesson": {
+        "explain": "In reflective writing, the introduction should be about 10% of the total length. Its purpose is to state the theme and purpose of the reflection. For example, if your total piece is 1000 words, the introduction should be approximately 100 words. Keeping the introduction short and focused sets up the body, where topic sentences and examples carry the main analysis, and leads to a conclusion that summarizes viewpoints and improvement directions.",
+        "example": "If you write a 1000-word reflective piece, aim for a 100-word introduction. A good introduction briefly states what experience you are reflecting on and the theme you will explore, without diving into details or analysis. Details belong in the body paragraphs.",
+        "memoryAnchor": "Think '10% intro' – the introduction is like the front porch of a house: it is a small step that welcomes you in, not the whole house. Keep it about one tenth of the total."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A reflective essay should be 500 words long. Based on the 10% rule, approximately how many words should the introduction be?",
+          "answer": "50 words."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student writes a 1200-word reflective piece. Her introduction is 300 words. Is this appropriate? Explain why or why not.",
+          "answer": "No. 300 words is 25% of the total, which is too long. The introduction should be about 10%, which is 120 words."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a one-sentence evaluation of this introduction for an 800-word reflective essay: 'In this reflection, I will talk about my experience volunteering at a food bank. I was nervous, but it taught me about empathy and community.' Is it too long, too short, or about right? Explain.",
+          "answer": "About right, because it is roughly 80 words (close to 10% of 800), states the experience (volunteering at a food bank) and the theme (empathy and community)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-reflective-critical-separate",
+      "trigger": "When a student says, 'Reflection is just describing what I felt, while critical thinking is a separate skill for analyzing information.'",
+      "studentMisunderstanding": "The student believes reflective writing and critical thinking are two distinct processes that do not influence each other, rather than recognizing that they are intertwined and jointly support behavior judgment, problem solving, and self-awareness improvement.",
+      "miniLesson": {
+        "explain": "Reflective and critical thinking are not separate; they are intertwined. Reflection involves looking back at an experience, but doing it well requires critical thinking to analyze why things happened, what influenced the outcomes, and how to improve. Critical thinking, in turn, is deepened by reflection because personal experience provides concrete material for evaluation. Together they support behavior judgment, problem solving, and self-awareness improvement.",
+        "example": "Using the Gibbs reflective cycle, after describing a group project, you ask: 'What was I feeling? Why did I avoid contributing? What factors in the group led to that? How can I act differently next time?' The 'why' and 'how can I change' steps are critical thinking applied to your own experience. Without them, reflection is just a diary.",
+        "memoryAnchor": "Reflection is the mirror; critical thinking is the light that shines on it to see why and what's next."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which sentence shows reflective and critical thinking working together? A: 'I felt sad.' B: 'I felt sad because my argument was weak, so I will strengthen my evidence next time.'",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "After describing a time you failed a test, which step shows critical thinking in your reflection?",
+          "answer": "Asking 'What factors caused my poor performance?' and 'What should I change in my study habits?'"
+        },
+        {
+          "level": "L3",
+          "prompt": "Write one or two sentences reflecting on a recent mistake, making sure to include both your feeling and a critical analysis of why it happened and how you will improve.",
+          "answer": "I was embarrassed when I forgot my lines in the play; I realized I hadn't practiced enough because I underestimated the role, so I will schedule daily rehearsals and ask a friend to quiz me."
+        }
+      ]
+    },
+    {
+      "errorId": "err-writing-foundation-mismatch",
+      "trigger": "The student selects a genre that does not match the intended audience or purpose, such as choosing an academic research report when attempting to persuade teenagers.",
+      "studentMisunderstanding": "The student does not understand that effective writing starts by accurately identifying the audience and purpose, and then matching the content framework and genre to those elements. As a result, they may pick a genre that is too formal, too informal, or not aligned with the goal.",
+      "miniLesson": {
+        "explain": "Before you write, ask: Who is my audience? What is my purpose? Then choose the genre that fits that audience and purpose. For example, if the audience is teenagers and the purpose is to convince them to make healthy choices, persuasive writing is the right genre. A formal academic report may be too distant, while a fictional story may entertain but not persuade.",
+        "example": "You are asked to write about the importance of healthy eating for teenagers. Audience: teenagers. Purpose: to convince them to eat healthily. Best genre: persuasive article. An academic research report does not match this audience and purpose, and a reflective essay focuses on personal experience instead of direct persuasion.",
+        "memoryAnchor": "Audience + Purpose → Genre. Always ask 'Who am I writing for?' and 'What do I want them to do?' then choose the matching genre."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A teenager wants to persuade classmates to recycle more. Which genre should he choose?",
+          "answer": "Persuasive writing/speech/article."
+        },
+        {
+          "level": "L2",
+          "prompt": "You need to write a piece for teenagers convincing them to choose healthy snacks. Why is a persuasive article a better choice than a personal reflective essay?",
+          "answer": "Because a persuasive article is designed to convince readers by directly addressing their interests and using arguments, while a reflective essay focuses on personal experiences and is less suited to persuading a specific audience."
+        },
+        {
+          "level": "L3",
+          "prompt": "Create a quick plan for a piece on the importance of exercise for teens. State the audience, purpose, and genre, and list two content points you would include.",
+          "answer": "Audience: teenagers. Purpose: to persuade them to exercise. Genre: persuasive article. Content points: e.g., exercise improves physical health and mental well-being."
+        }
+      ]
+    },
+    {
+      "errorId": "err-prewriting-no-outline",
+      "trigger": "Diagnostic results indicate the student started writing without using any pre-writing strategy such as outlining or listing key points.",
+      "studentMisunderstanding": "I don't need to outline or list ideas before writing; I can just start and figure it out as I go.",
+      "miniLesson": {
+        "explain": "Pre-writing strategies help you organize your thoughts before drafting. They include background knowledge review, outlining, listing key points, relationship webs, and building three-dimensional frameworks. These strategies ensure your writing is logical, complete, and matches your audience and purpose. Without them, you may miss important ideas or lose focus. For a reflective piece, an outline would include an introduction (about 10% of the total length) stating theme and purpose, body paragraphs with topic sentences and examples, and a conclusion summarizing key viewpoints and improvements.",
+        "example": "Before writing a persuasive article for teenagers, you would first identify the audience and purpose, list your key points, and then create an outline with an introduction, body, and conclusion. This planning step makes the writing process smoother and the final piece more effective.",
+        "memoryAnchor": "Plan before you pen: review, list, outline, and connect."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Name at least two pre-writing strategies you can use before starting a writing task.",
+          "answer": "Outlining and listing key points."
+        },
+        {
+          "level": "L2",
+          "prompt": "Before writing a reflective essay, you decide to create an outline. What should your outline include to follow the correct reflective writing structure?",
+          "answer": "An introduction that states the theme and purpose and is about 10% of the total length, body paragraphs with topic sentences and examples, and a conclusion that summarizes viewpoints and improvement directions."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student wants to write a persuasive article for teenagers about the importance of healthy eating. Describe how the student could use pre-writing strategies to plan this article before drafting.",
+          "answer": "The student should review background knowledge on the topic, list key points, use a relationship web to connect ideas, and build a three-dimensional framework with an outline. The outline should include an introduction stating the theme and purpose, body paragraphs with topic sentences and examples, and a conclusion that summarizes viewpoints. This planning ensures the genre (persuasive writing) matches the teenage audience and the purpose."
+        }
+      ]
+    },
+    {
+      "errorId": "err-narrative-fictional",
+      "trigger": "Student's narrative includes invented events, characters, or settings, violating the non-fiction requirement of real experience.",
+      "studentMisunderstanding": "Student believes that a narrative can be fictional or can embellish with imaginary details, not realizing that non-fiction narrative writing must be based on true experiences.",
+      "miniLesson": {
+        "explain": "Non-fiction narrative writing tells a true story from real life. It must use complete sentences, correct tense, subject-verb agreement, proper punctuation, and answer the 5W1H questions (Who, What, When, Where, Why, How). The most important rule is: it must be based on real experience—no invented events, characters, or settings.",
+        "example": "Instead of writing 'I flew to Mars on a rocket,' which is fictional, a non-fiction narrative would be 'I visited the Ontario Science Centre with my class last Tuesday. We saw the Mars exhibit and I learned how rockets work.' This is a real experience that actually happened.",
+        "memoryAnchor": "Non-fiction = No fiction. Ask yourself: Did this really happen to me? If you made it up, it's not a non-fiction narrative."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following topics is a TRUE non-fiction narrative? A) My adventure with a talking dog B) My first day at a new school C) How I flew to the moon with my pet dragon D) The secret life of a superhero",
+          "answer": "B) My first day at a new school"
+        },
+        {
+          "level": "L2",
+          "prompt": "A student writes: 'I was walking home and suddenly a giant squirrel stole my backpack.' Why is this not a non-fiction narrative? Give one reason using the rule.",
+          "answer": "It includes a fictional event (a giant squirrel stealing) that is not based on real experience."
+        },
+        {
+          "level": "L3",
+          "prompt": "Rewrite the fictional sentence below so that it is a true non-fiction narrative: 'I found a treasure chest full of gold coins in the park.'",
+          "answer": "I found a shiny golden key in the park while walking my dog."
+        }
+      ]
+    },
+    {
+      "errorId": "err-interview-no-closing",
+      "trigger": "Student's interview write-up ends abruptly after the last answer, without a polite closing or information about the publication channel.",
+      "studentMisunderstanding": "The student thinks an interview write-up can simply end after the questions and answers, without a polite farewell or informing the interviewee where it will be published.",
+      "miniLesson": {
+        "explain": "A complete interview write-up must include a polite closing that thanks the interviewee and tells them where the interview will be published. This follows the interview writing convention: polite welcome, valuable questions, and closing with publication information.",
+        "example": "After the final answer, you might write: 'Thank you for sharing your experiences. This interview will appear in the school newspaper next week.'",
+        "memoryAnchor": "Remember: 'Close with thanks and where it appears' – like ending a conversation politely and giving the show's channel."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of these is a correct closing for an interview write-up? A) 'Well, that's all.' B) 'Thank you for your time. This interview will be published in the school newsletter.' C) 'I hope you liked answering my questions.' D) 'Bye now.'",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "You just finished interviewing a local artist for your class blog. Write one polite closing sentence that includes the publication channel.",
+          "answer": "Thank you for sharing your artistic journey. This interview will be featured on our class blog next Monday."
+        },
+        {
+          "level": "L3",
+          "prompt": "Read this interview ending: 'That's all my questions. Bye.' Identify what's missing and rewrite it to follow interview writing conventions.",
+          "answer": "It lacks a polite closing and publication information. A better ending: 'Thank you for taking the time to speak with me. This interview will appear in the school magazine's October issue.'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-practical-writing-missing-format",
+      "trigger": "Student omits standard elements such as date, place, contact information, clear purpose, or closing thanks from a cover letter or resume.",
+      "studentMisunderstanding": "Students believe a cover letter or resume is complete without standard format elements, but cover letters require date, place, contact information, clear statement of purpose, and closing thanks, and resumes require personal background, education, experience, and contact information.",
+      "miniLesson": {
+        "explain": "Practical writing like cover letters and resumes has strict conventions. A cover letter must use a standard format with date, place, contact information, a clear statement of purpose, and a closing expression of thanks. A resume must include personal background, education, experience, and contact information. Missing any of these elements makes the writing incomplete and unprofessional. Always check the format checklist before submitting.",
+        "example": "A cover letter that begins with 'Dear Sir/Madam' but has no date, no sender address, no contact information, and no statement of purpose is missing required elements. A complete cover letter starts with date and place, includes contact information, states the purpose clearly, and ends with thanks.",
+        "memoryAnchor": "Remember 'DPCPT' for cover letters: Date, Place, Contact, Purpose, Thanks. For resumes, remember 'BEEC': Background, Education, Experience, Contact."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is a required element in a cover letter? (A) date and place (B) a fictional story (C) a list of hobbies (D) an informal greeting",
+          "answer": "A. A cover letter must include date, place, contact information, a clear statement of purpose, and a closing expression of thanks."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student wrote a cover letter but forgot to include the date and contact information. Why is this a problem?",
+          "answer": "Cover letter conventions require a standard format with date, place, contact information, clear statement of purpose, and closing thanks. Omitting them makes the letter incomplete and unprofessional."
+        },
+        {
+          "level": "L3",
+          "prompt": "A resume lists only education and experience. What two required elements are missing?",
+          "answer": "The resume is missing personal background and contact information. A resume must include personal background, education, experience, and contact information."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-reflective-definition-misconception",
+      "questions": [
+        {
+          "id": "q1_retest",
+          "type": "single_choice",
+          "stem": "Which of the following statements best defines reflective writing?",
+          "options": [
+            "Writing that records daily events in a diary without any analysis.",
+            "Writing that describes an experience and then explores its meaning, learning, and future actions.",
+            "Writing that simply states opinions without providing reasons or evidence.",
+            "Writing that is entirely fictional and creative, with no connection to real experiences."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_retest",
+          "type": "open_ended",
+          "stem": "Read this diary entry: 'I tripped on stage during the school play and felt embarrassed.' In 2-3 sentences, rewrite this as a reflective piece, explaining what you learned from the experience and what you would do differently.",
+          "rubric": "Response must go beyond the simple fact of embarrassment. It should include at least two of the following: (1) analysis of why the event happened or what it revealed, (2) a stated learning or insight, (3) a plan or change for the future."
+        }
+      ],
+      "passRule": "q1 must be correct, and q2 must include at least two of the rubric criteria: analysis of the experience, a stated learning/insight, and a future plan/change."
+    },
+    {
+      "forErrorId": "err-reflective-vs-academic-formal",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A student says, \"Reflective writing is academic writing, so it must be formal and objective and cannot include personal emotions or first-person.\" Which statement corrects this misunderstanding?",
+          "options": [
+            "Reflective writing and academic writing are completely different; reflective writing is informal and academic writing is formal.",
+            "Reflective writing must avoid personal emotions and first-person in order to remain formal.",
+            "Reflective writing shares the formal structure and critical thinking of academic writing, but it also requires a personal, first-person reflection.",
+            "Reflective writing is the same as a diary entry and has no structure or formal language."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Rewrite the following sentence as a reflective writing sentence while still keeping a formal and structured tone:\n'The project missed its deadline due to poor scheduling.'\nYour rewrite should include a personal emotion or a first-person insight.",
+          "rubric": "The response must include a first-person perspective (e.g., 'I', 'my') and show a personal reflection or emotional insight about the scheduling issue, while maintaining a formal and structured tone (e.g., no slang or overly casual language)."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly. For Q2, the response must include first-person perspective and a personal reflection/emotion while retaining formal tone; otherwise, the answer is incorrect."
+    },
+    {
+      "forErrorId": "err-reflective-process-skip-analysis",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "In reflective writing, after you describe an experience in detail, what is the most important next step?",
+          "options": [
+            "Add more descriptive details",
+            "Extract the key themes and analyze factors that influenced the experience",
+            "Write an introduction",
+            "Edit for grammar"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "Read this short reflection: 'We worked on a science project together. We split tasks. We did our parts. We got a good grade.' Explain why this is not yet a meaningful reflection, and rewrite or extend it by adding at least one theme and one factor analysis that would make it truly reflective.",
+          "rubric": "The student should recognize that the original text merely recounts events without reflecting. They must identify the missing steps of theme extraction and factor analysis. A successful response includes a clear theme (e.g., 'clear communication led to success') and a factor analysis (e.g., 'we assigned tasks based on strengths, which made our work efficient'), and may also connect to past experiences or future plans."
+        }
+      ],
+      "passRule": "The student must select the correct answer (B) in Q1 and, in Q2, explicitly state that the reflection lacks theme extraction and factor analysis, and provide at least one plausible theme and one factor analysis."
+    },
+    {
+      "forErrorId": "err-reflective-structure-intro-length",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A reflective essay should be 1500 words long. Based on the 10% rule, approximately how many words should the introduction be?",
+          "options": [
+            "150 words",
+            "300 words",
+            "500 words",
+            "75 words"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A student writes a 600-word reflection. Their introduction is 120 words. Explain whether this introduction length is appropriate, and suggest how they could improve it.",
+          "rubric": "The response should note that 10% of 600 words is about 60 words, so 120 words is too long (20%). It should suggest shortening the introduction to roughly 60 words, so that the body and conclusion can carry the main analysis."
+        }
+      ],
+      "passRule": "Q1 must be correct, and Q2 must correctly identify that 120 words is too long (about 20% instead of 10%) and suggest shortening it to approximately 60 words."
+    },
+    {
+      "forErrorId": "err-reflective-critical-separate",
+      "questions": [
+        {
+          "id": "retest-reflective-critical-1",
+          "type": "single_choice",
+          "stem": "After a group presentation, you are writing a reflection. Which response best shows reflective and critical thinking working together?",
+          "options": [
+            "I was nervous during the presentation.",
+            "The presentation did not go well because of poor planning.",
+            "I felt frustrated and I now realize I did not delegate tasks clearly, so next time I will assign specific roles and check in earlier.",
+            "We presented last Friday in front of the class."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-reflective-critical-2",
+          "type": "open_ended",
+          "stem": "Think about a recent mistake or challenge in your learning. Write 1-3 sentences reflecting on it. Make sure you include your emotional response, a critical analysis of why it happened, and a specific way you will improve.",
+          "rubric": "The response must include all three elements: (1) a personal feeling or emotional reaction, (2) a reason or factor that explains why the situation occurred, and (3) a concrete action or improvement for the future. Example: 'I felt embarrassed after my presentation because I only practiced once; I will rehearse three times and ask a peer for feedback.'"
+        }
+      ],
+      "passRule": "Question 1 must select the correct option (index 2). Question 2 must include all three rubric elements: feeling, critical analysis of cause, and improvement/action. Both questions must be answered correctly to pass."
+    },
+    {
+      "forErrorId": "err-writing-foundation-mismatch",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "You need to convince your school principal to allow a new student club. Which genre best matches the audience and purpose?",
+          "options": [
+            "A personal reflective essay",
+            "A formal letter of request",
+            "A fictional short story",
+            "An academic research report"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "stem": "A children's hospital wants to teach young children (ages 6–9) how to wash their hands properly. Which genre best fits this audience and purpose?",
+          "options": [
+            "A persuasive editorial",
+            "A formal academic paper",
+            "An illustrated storybook with simple steps",
+            "A reflective journal"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q3",
+          "type": "open_ended",
+          "stem": "You need to encourage teenagers to join a community cleanup event. Explain why a social media post with visuals would be more effective than a formal academic paper, based on audience and purpose.",
+          "rubric": "The response should identify the audience (teenagers) and purpose (to encourage participation), and explain that a social media post is informal, engaging, and commonly used by teens, while an academic paper is too formal and does not directly appeal to this audience."
+        }
+      ],
+      "passRule": "Answer both multiple-choice questions correctly (q1 and q2). For q3, the open-ended response must mention the audience (teenagers), the purpose (encouraging participation), and explain that a social media post is a better match than a formal academic paper for that audience and purpose."
+    },
+    {
+      "forErrorId": "err-prewriting-no-outline",
+      "questions": [
+        {
+          "id": "retest_prewriting_q1",
+          "type": "single_choice",
+          "stem": "Before writing a reflective essay about a recent learning experience, which action is the most effective use of pre-writing?",
+          "options": [
+            "Start writing the first line immediately and adjust as you go.",
+            "Research similar essays online for inspiration.",
+            "List key points and create an outline with an introduction, body, and conclusion.",
+            "Write the conclusion first to lock in the main message."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest_prewriting_q2",
+          "type": "open_ended",
+          "stem": "Describe how you would use pre-writing strategies to plan a persuasive article for teenagers about reducing screen time. Name at least two specific strategies and explain what your outline would include.",
+          "rubric": "A complete response names at least two pre-writing strategies (e.g., background knowledge review, listing key points, outlining, relationship webs). It explains how these strategies help match the article to the teenage audience and persuasive purpose. The outline should include an introduction stating the position, body paragraphs with key reasons and supporting examples, and a conclusion that reinforces the argument."
+        }
+      ],
+      "passRule": "Q1 must select the correct option (index 2). Q2 must name at least two pre-writing strategies and describe an outline with a clear structure (introduction, body, conclusion). Both criteria must be met to pass."
+    },
+    {
+      "forErrorId": "err-narrative-fictional",
+      "questions": [
+        {
+          "id": "narrative_q1",
+          "type": "single_choice",
+          "stem": "For a non-fiction narrative assignment, which topic would be appropriate to write about?",
+          "options": [
+            "The day I discovered I could fly",
+            "My summer vacation at my grandmother's farm",
+            "The mystery of the haunted library",
+            "My journey to the center of the Earth"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "narrative_q2",
+          "type": "open_ended",
+          "stem": "Read this student's narrative for a non-fiction assignment: 'I was walking to school when a dragon landed in front of me and offered me a ride. We soared over the city and I arrived in seconds.' Explain why this is NOT a non-fiction narrative, and rewrite it to make it a true non-fiction narrative based on a real experience.",
+          "rubric": "Must state that the original includes fictional elements (dragon, flying) not based on real experience. The rewrite must describe a plausible real event (e.g., walking to school, seeing a bird, meeting a friend) and avoid invented elements."
+        }
+      ],
+      "passRule": "Answer Q1 correctly, and in Q2 identify the fictional element and provide a rewrite based on a real experience."
+    },
+    {
+      "forErrorId": "err-interview-no-closing",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "After interviewing the school's basketball coach for the school newspaper, which ending correctly follows interview writing conventions?",
+          "options": [
+            "A) That's all my questions. Bye.",
+            "B) Well, thanks for answering. I'll see you around.",
+            "C) Thank you for your time, Coach. This interview will be published in the school newspaper next Friday.",
+            "D) I hope this interview was good enough. See you later."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "You just interviewed a local librarian for your school's website. Write a polite closing for the interview that follows the conventions of interview writing.",
+          "rubric": "The response must include a polite expression of thanks (e.g., 'Thank you for your time') and explicitly mention the publication channel (e.g., 'will appear on our school website'). A specific timing detail is encouraged but not required."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For q1, select option C. For q2, the open-ended response must include a polite closing and the publication channel (school website)."
+    },
+    {
+      "forErrorId": "err-practical-writing-missing-format",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "According to cover letter conventions, which of the following is a required element that must appear at the top of the letter?",
+          "options": [
+            "Date and place",
+            "A fictional story",
+            "A list of hobbies",
+            "An informal greeting"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "List all four elements that a resume must include according to the lesson conventions. Then, briefly explain why omitting any one of these elements would make the resume incomplete.",
+          "rubric": "Must list all four: personal background, education, experience, and contact information. Explanation should mention that each element serves a necessary professional purpose, and missing any leaves the resume incomplete."
+        }
+      ],
+      "passRule": "The student must select the correct answer in the multiple-choice question and, in the open-ended question, list all four required resume elements and explain that omitting any one makes the resume incomplete and unprofessional."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-08-03",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Chg8dDZReoVv8OxrP6XcG846ngc?from=vc_group_doc_link#doxcnTL4OCImukLurGVFHdl8AQd",
+    "sourceTitle": "OLC4O.S6.Keth 2026-08-03 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Reflective writing is a deep response to experiences, opinions, or events, focusing on exploring learning paths, enhancing self-awareness, and strengthening writing skills.；Reflective writing differs from factual descriptions, simple right/wrong judgments, and standard academic papers; it explores deeper meaning rather than just conveying information.；Reflective writing shares similarities with academic writing: both require research, focus on core issues, use critical thinking, have structured paragraphs, formal style, and logical coherence.",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "APM Reflective Writing Worksheet",
+        "studentAction": "完成APM Reflective Writing Worksheet 的所有问题，并上传至Schoology和OneNote",
+        "deadlineText": "下一次课前",
+        "deadlineISO": null,
+        "platform": "Schoology, OneNote",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "需完成本次课程布置的 APM Reflective Writing Worksheet 对应问题的全部作答... 需同步上传至 schoology 与 one note 两个平台",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "U2A1和U2A2提交截止",
+        "studentAction": "在8月7日前完成U2A1和U2A2的提交",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-06T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "U2A1、U2A2 两项单元作业需在 8 月 7 日前完成全部提交",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Unit 2考试规则",
+        "studentAction": "按时参加考试，不得使用AI生成内容，违规将得0分",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "必须按时参加考试，不得无故延迟... 考试过程中禁止完全使用 AI 生成内容作答",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "review_focus",
+        "title": "第二单元复习重点",
+        "studentAction": "复习写作基础三要素（受众、目的、文体），写作前置策略，非虚构记叙文5W1H，采访稿结构，实用文书（求职信、简历）",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "核心考点范围 写作基础三要素...",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "platform_link",
+        "title": "Schoology平台提交",
+        "studentAction": "将作业上传至Schoology",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "需同步上传至 schoology",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "platform_link",
+        "title": "OneNote平台提交",
+        "studentAction": "将作业上传至OneNote",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "medium",
+        "confidence": "low",
+        "sourceEvidence": "需同步上传至 one note",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "APM Reflective Writing Worksheet 提交截止时间未明确，仅提及随堂作业",
+        "reason": "未指定确切时间，可能默认下次课前提交"
+      }
+    ],
+    "watchTags": [
+      "node_reflective_definition",
+      "node_reflective_vs_academic",
+      "node_reflective_process",
+      "node_reflective_structure",
+      "node_reflective_critical",
+      "node_writing_foundation",
+      "node_prewriting",
+      "node_narrative",
+      "node_interview",
+      "node_practical_writing"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-reflective-definition-misconception",
+        "condition": "student answers incorrectly on any question with errorId err-reflective-definition-misconception",
+        "systemAction": "assign reteach module err-reflective-definition-misconception, then retest err-reflective-definition-misconception"
+      },
+      {
+        "errorId": "err-reflective-vs-academic-formal",
+        "condition": "student answers incorrectly on any question with errorId err-reflective-vs-academic-formal",
+        "systemAction": "assign reteach module err-reflective-vs-academic-formal, then retest err-reflective-vs-academic-formal"
+      },
+      {
+        "errorId": "err-reflective-process-skip-analysis",
+        "condition": "student answers incorrectly on any question with errorId err-reflective-process-skip-analysis",
+        "systemAction": "assign reteach module err-reflective-process-skip-analysis, then retest err-reflective-process-skip-analysis"
+      },
+      {
+        "errorId": "err-reflective-structure-intro-length",
+        "condition": "student answers incorrectly on any question with errorId err-reflective-structure-intro-length",
+        "systemAction": "assign reteach module err-reflective-structure-intro-length, then retest err-reflective-structure-intro-length"
+      },
+      {
+        "errorId": "err-reflective-critical-separate",
+        "condition": "student answers incorrectly on any question with errorId err-reflective-critical-separate",
+        "systemAction": "assign reteach module err-reflective-critical-separate, then retest err-reflective-critical-separate"
+      },
+      {
+        "errorId": "err-writing-foundation-mismatch",
+        "condition": "student answers incorrectly on any question with errorId err-writing-foundation-mismatch",
+        "systemAction": "assign reteach module err-writing-foundation-mismatch, then retest err-writing-foundation-mismatch"
+      },
+      {
+        "errorId": "err-prewriting-no-outline",
+        "condition": "student answers incorrectly on any question with errorId err-prewriting-no-outline",
+        "systemAction": "assign reteach module err-prewriting-no-outline, then retest err-prewriting-no-outline"
+      },
+      {
+        "errorId": "err-narrative-fictional",
+        "condition": "student answers incorrectly on any question with errorId err-narrative-fictional",
+        "systemAction": "assign reteach module err-narrative-fictional, then retest err-narrative-fictional"
+      },
+      {
+        "errorId": "err-interview-no-closing",
+        "condition": "student answers incorrectly on any question with errorId err-interview-no-closing",
+        "systemAction": "assign reteach module err-interview-no-closing, then retest err-interview-no-closing"
+      },
+      {
+        "errorId": "err-practical-writing-missing-format",
+        "condition": "student answers incorrectly on any question with errorId err-practical-writing-missing-format",
+        "systemAction": "assign reteach module err-practical-writing-missing-format, then retest err-practical-writing-missing-format"
+      }
+    ],
+    "nextActions": [
+      "[err-reflective-definition-misconception] student answers incorrectly on any question with errorId err-reflective-definition-misconception: 关于 Confusing reflective writing with simple diary entries or narrative descriptions without deep analysis. 的理解还需要加强。",
+      "[err-reflective-vs-academic-formal] student answers incorrectly on any question with errorId err-reflective-vs-academic-formal: 关于 Thinking reflective writing cannot include personal emotions or first-person because it is too informal. 的理解还需要加强。",
+      "[err-reflective-process-skip-analysis] student answers incorrectly on any question with errorId err-reflective-process-skip-analysis: 关于 Skipping the theme extraction or factor analysis steps and just recounting events. 的理解还需要加强。",
+      "[err-reflective-structure-intro-length] student answers incorrectly on any question with errorId err-reflective-structure-intro-length: 关于 Writing an introduction that is too long or too short, not adhering to the 10% guideline. 的理解还需要加强。",
+      "[err-reflective-critical-separate] student answers incorrectly on any question with errorId err-reflective-critical-separate: 关于 Treating reflection and critical thinking as separate processes rather than intertwined. 的理解还需要加强。",
+      "[err-writing-foundation-mismatch] student answers incorrectly on any question with errorId err-writing-foundation-mismatch: 关于 Not matching the genre to the audience and purpose, e.g., using informal style for a formal letter. 的理解还需要加强。",
+      "[err-prewriting-no-outline] student answers incorrectly on any question with errorId err-prewriting-no-outline: 关于 Starting to write without any pre-writing strategy like outlining or listing key points. 的理解还需要加强。",
+      "[err-narrative-fictional] student answers incorrectly on any question with errorId err-narrative-fictional: 关于 Creating a fictional story instead of a true non-fiction narrative. 的理解还需要加强。",
+      "[err-interview-no-closing] student answers incorrectly on any question with errorId err-interview-no-closing: 关于 Forgetting to include a polite closing and publication information in an interview write-up. 的理解还需要加强。",
+      "[err-practical-writing-missing-format] student answers incorrectly on any question with errorId err-practical-writing-missing-format: 关于 Omitting standard elements like date, contact info, or objective from a cover letter or resume. 的理解还需要加强。"
+    ],
+    "cards": [
+      {
+        "id": "q1",
+        "type": "choice",
+        "question": "Which of the following best defines reflective writing?",
+        "options": [
+          "A simple diary entry that records daily events without analysis.",
+          "A factual report that objectively presents data and avoids personal opinion.",
+          "A personal response that explores the deeper meaning and learning from an experience.",
+          "A fictional story that creates an imagined scenario to entertain the reader."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student can distinguish reflective writing from other forms like diary, report, or fiction.",
+        "misconceptions": [
+          "A diary entry might record events, but reflective writing goes deeper by exploring meaning and learning from the experience.",
+          "A factual report focuses only on facts, but reflective writing involves personal insights and self-awareness.",
+          "✓ Correct. Reflective writing is about deep personal exploration and learning.",
+          "Reflective writing is based on real experiences, not fiction."
+        ],
+        "nodeId": "node_reflective_definition",
+        "errorId": "err-reflective-definition-misconception",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Identify the characteristics of reflective writing.",
+        "successCriteria": "Student selects the option that describes reflective writing as a deep personal response exploring meaning and learning.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly aligns with writing personal reflections as a form.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Confusing reflective writing with simple diary entries or narrative descriptions without deep analysis.",
+        "remediationModule": "err-reflective-definition-misconception",
+        "retestItem": "err-reflective-definition-misconception"
+      },
+      {
+        "id": "q2",
+        "type": "choice",
+        "question": "How does reflective writing differ from traditional academic writing?",
+        "options": [
+          "Reflective writing must always be written in the third person.",
+          "Reflective writing avoids personal emotions and focuses only on facts.",
+          "Reflective writing uses personal experiences and first-person perspective alongside critical analysis.",
+          "Reflective writing does not require any structure or logical flow."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student understands the unique personal and analytical blend in reflective writing.",
+        "misconceptions": [
+          "Reflective writing often uses first person to express personal thoughts.",
+          "Reflective writing specifically includes personal emotions and reactions.",
+          "✓ Correct. Reflective writing blends personal reflection with critical thinking.",
+          "Reflective writing still needs structure and logical coherence, like academic writing."
+        ],
+        "nodeId": "node_reflective_vs_academic",
+        "errorId": "err-reflective-vs-academic-formal",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Distinguish between reflective and academic writing.",
+        "successCriteria": "Student identifies the correct distinction including personal perspective and critical analysis.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Focuses on understanding the form of personal reflections.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking reflective writing cannot include personal emotions or first-person because it is too informal.",
+        "remediationModule": "err-reflective-vs-academic-formal",
+        "retestItem": "err-reflective-vs-academic-formal"
+      },
+      {
+        "id": "q3",
+        "type": "choice",
+        "question": "According to the Gibbs Reflective Cycle, what step should you do after describing an experience?",
+        "options": [
+          "Immediately write a conclusion about what you learned.",
+          "Extract key themes and analyze the factors that influenced the experience.",
+          "Write a fictional story based loosely on the experience.",
+          "Forget the experience and move on to a new topic."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows the correct sequence of the reflective process, avoiding skipping analysis.",
+        "misconceptions": [
+          "Jumping to conclusions skips the important analysis of feelings and themes.",
+          "✓ Correct. Theme extraction and analysis are essential steps after description.",
+          "Reflective writing is about real experience, not fiction.",
+          "Reflection requires deeper engagement with the experience."
+        ],
+        "nodeId": "node_reflective_process",
+        "errorId": "err-reflective-process-skip-analysis",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Describe the reflective writing process.",
+        "successCriteria": "Student identifies theme extraction and analysis as a key step after description.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The reflective process involves idea generation and organization, aligning with the writing process.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Skipping the theme extraction or factor analysis steps and just recounting events.",
+        "remediationModule": "err-reflective-process-skip-analysis",
+        "retestItem": "err-reflective-process-skip-analysis"
+      },
+      {
+        "id": "q4",
+        "type": "choice",
+        "question": "If your reflective writing piece should be 1000 words, approximately how long should the introduction be?",
+        "options": [
+          "50 words",
+          "100 words",
+          "300 words",
+          "500 words"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can apply the 10% guideline to determine appropriate introduction length.",
+        "misconceptions": [
+          "50 words is too short for a 1000-word paper; introduction should be about 10%, which is 100 words.",
+          "✓ Correct. The introduction should be about 10% of the total length.",
+          "300 words is 30%, which would make the introduction too long and unbalanced.",
+          "500 words is half the paper; the introduction should be only 10%."
+        ],
+        "nodeId": "node_reflective_structure",
+        "errorId": "err-reflective-structure-intro-length",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Apply the 10% introduction rule in reflective writing structure.",
+        "successCriteria": "Student calculates 10% of 1000 correctly as 100 words.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding structure is part of writing personal reflections.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Writing an introduction that is too long or too short, not adhering to the 10% guideline.",
+        "remediationModule": "err-reflective-structure-intro-length",
+        "retestItem": "err-reflective-structure-intro-length"
+      },
+      {
+        "id": "q5",
+        "type": "choice",
+        "question": "Which statement best describes the relationship between reflective thinking and critical thinking?",
+        "options": [
+          "They are completely separate skills used for different tasks.",
+          "Critical thinking is only needed for academic writing, while reflective thinking is only for personal writing.",
+          "Reflective thinking and critical thinking are intertwined and jointly improve self-awareness and decision-making.",
+          "Reflective thinking always comes before critical thinking in a sequence."
+        ],
+        "correct": 2,
+        "diagnosis": "Check if student recognizes the interconnectedness of reflection and critical thinking.",
+        "misconceptions": [
+          "They are not separate; they support each other in problem-solving and self-awareness.",
+          "Both can be applied in various contexts and often overlap.",
+          "✓ Correct. They are interconnected processes.",
+          "They do not have a fixed order; they work together simultaneously."
+        ],
+        "nodeId": "node_reflective_critical",
+        "errorId": "err-reflective-critical-separate",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Explain the relationship between reflective and critical thinking.",
+        "successCriteria": "Student identifies that they are intertwined and mutually supportive.",
+        "ossdExpectation": "Demonstrate understanding of the reading and writing processes and of the role of reading and writing in learning.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "OLC4O-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the role of reflection in learning connects to C3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Treating reflection and critical thinking as separate processes rather than intertwined.",
+        "remediationModule": "err-reflective-critical-separate",
+        "retestItem": "err-reflective-critical-separate"
+      },
+      {
+        "id": "q6",
+        "type": "choice",
+        "question": "You are asked to write a piece for teenagers about the importance of healthy eating. What genre should you most likely choose?",
+        "options": [
+          "A personal reflective essay",
+          "A persuasive article",
+          "An academic research report",
+          "A fictional short story"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student can select the appropriate genre based on audience and purpose.",
+        "misconceptions": [
+          "A reflective essay might be personal, but to convince teenagers, persuasive writing is more effective.",
+          "✓ Correct. Persuasive writing aims to convince the audience, which matches the purpose and teenage audience.",
+          "A research report is too formal and might not engage teenagers effectively.",
+          "A story might entertain but not directly persuade about healthy eating."
+        ],
+        "nodeId": "node_writing_foundation",
+        "errorId": "err-writing-foundation-mismatch",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Match genre to audience and purpose.",
+        "successCriteria": "Student selects persuasive writing as appropriate for convincing teenagers about healthy eating.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly aligns with matching form to audience and purpose.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Not matching the genre to the audience and purpose, e.g., using informal style for a formal letter.",
+        "remediationModule": "err-writing-foundation-mismatch",
+        "retestItem": "err-writing-foundation-mismatch"
+      }
+    ]
+  }
+}

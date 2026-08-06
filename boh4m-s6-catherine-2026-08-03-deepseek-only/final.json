@@ -1,0 +1,859 @@
+{
+  "sourceLesson": "BOH4M.S6.Catherine 2026-08-03",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/JkRVdKaknocEKdxkTW8cxdEdnNe?from=vc_group_doc_link#doxcnn1WTKQh0J2ubRTRUeJI1Ff",
+  "sourceTitle": "BOH4M.S6.Catherine 2026-08-03 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/JkRVdKaknocEKdxkTW8cxdEdnNe?from=vc_group_doc_link#doxcnn1WTKQh0J2ubRTRUeJI1Ff",
+    "title": "BOH4M.S6.Catherine 2026-08-03 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-03/sources/boh4m-s6-catherine-2026-08-03/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "BOH4M",
+  "lessonDate": "2026-08-03",
+  "teacher": "Catherine",
+  "section": "S6",
+  "subject": "business",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-08-03",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "Significant academic instruction on workplace motivation theory combined with multiple operational announcements, assignment release, and exam schedule.",
+    "academicContentSignals": [
+      "动机的定义与分类：内在动机vs外在动机，内在动力最为强大",
+      "影响个体表现的三个核心因素：个体动机、个人能力、外部环境",
+      "动机的四个主要来源：生物因素、情感因素、认知因素、社会因素",
+      "职场激励应用原则：经济下行背景、个性化奖励策略、跨文化适应"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Multiple operational items (attendance camera, cluster session, test date, assignment deadline) could overshadow the core motivation theory teaching. Prioritize academic exit card questions on motivation concepts and limit ops to 1-2 readiness check items.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "摄像头开启要求",
+        "studentAction": "上课期间保持摄像头开启以确认正式出勤",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "all attendees required to keep cameras on to confirm formal in-class participation",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "明天必修集群会议",
+        "studentAction": "明天按时参加必修集群会议，不得未经批准缺席",
+        "deadlineText": "明天 (2026-08-04)",
+        "deadlineISO": "2026-08-04T08:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "A mandatory cluster session will be held tomorrow, and all participants are required to attend on time without unapproved absence",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 正式考试",
+        "studentAction": "准备并参加周五的Unit 3考试",
+        "deadlineText": "Friday, August 7, 2026",
+        "deadlineISO": "2026-08-07T08:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "the official Unit 3 test on Friday",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Unit 3 Assignment 2: 三折手册作业",
+        "studentAction": "使用Canva（免费版）制作关于工作压力管理和工作生活平衡的三折手册，通过Schoology平台在周四前提交",
+        "deadlineText": "Thursday, August 6, 2026",
+        "deadlineISO": "2026-08-06T23:59:59+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The completed assignment must be submitted via the Schoology platform by this Thursday",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "mandatory cluster session will be held tomorrow",
+        "reason": "Platform/link for cluster session not specified; confirmation needed."
+      },
+      {
+        "rawText": "submitted via the Schoology platform",
+        "reason": "Exact Schoology assignment link not provided; confirmation needed."
+      }
+    ]
+  },
+  "title": "BOH4M Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Motivation Definition、Intrinsic vs Extrinsic Motivation、Factors Shaping Individual Performance、Four Primary Sources of Motivation）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 5 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Motivation is the invisible driving force that determines the level, direction, and persistence of effort invested in work, study, or daily life.；Intrinsic motivation comes from within (personal satisfaction, active initiative) and is the most powerful form of motivation.；Extrinsic motivation comes from external factors such as material rewards, peer pressure, and evaluations from family, school, or work.",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "node-motivation-definition",
+      "name": "Motivation Definition",
+      "nameEn": "Motivation Definition",
+      "definition": "Motivation is the invisible driving force that determines the level, direction, and persistence of effort a person puts into work, study, or daily activities.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    },
+    {
+      "id": "node-intrinsic-extrinsic",
+      "name": "Intrinsic vs Extrinsic Motivation",
+      "nameEn": "Intrinsic vs Extrinsic Motivation",
+      "definition": "Intrinsic motivation comes from internal satisfaction and is the most powerful form; extrinsic motivation arises from external rewards, pressure, or evaluations.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    },
+    {
+      "id": "node-factors-performance",
+      "name": "Factors Shaping Individual Performance",
+      "nameEn": "Factors Shaping Individual Performance",
+      "definition": "Performance results from three interacting factors: an individual's own motivation, their current ability (which can be improved through training), and the external environment (social circles, tools, information, resources).",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "BOH4M-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Apply an understanding of human behaviour to explain how individuals and groups function in the workplace."
+    },
+    {
+      "id": "node-sources-motivation",
+      "name": "Four Primary Sources of Motivation",
+      "nameEn": "Four Primary Sources of Motivation",
+      "definition": "Motivation originates from biological needs (food, water), emotions (fear, anger, love, hate), cognitive factors (interests, self-worth, career planning), and social influences (social circles, media, culture, religion).",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    },
+    {
+      "id": "node-workplace-application",
+      "name": "Workplace Motivation Application Principles",
+      "nameEn": "Workplace Motivation Application Principles",
+      "definition": "Effective workplace motivation requires individualized reward strategies tailored to employee needs (e.g., vacation for caregivers, salary for mortgage holders) and cross-cultural adaptation. In poor economic times, job security often outweighs pay increases.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "4-5 correct",
+      "targetedRemediation": "2-3 correct",
+      "reteach": "0-1 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-boh4m-s6-0803-q1",
+        "nodeId": "node-motivation-definition",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-motivation-force",
+        "stem": "Which of the following best describes motivation?",
+        "options": [
+          {
+            "label": "A",
+            "text": "It is an external force that managers can impose on employees to increase productivity.",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Motivation is an internal state; it cannot be imposed externally. Even the best manager can only encourage it, not create it."
+          },
+          {
+            "label": "B",
+            "text": "It is an internal driving force that determines the level, direction, and persistence of effort.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Motivation comes from within and shapes how hard, in what direction, and for how long a person works toward a goal."
+          },
+          {
+            "label": "C",
+            "text": "It is the same as ability; people are motivated when they have the skills to do a job.",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Motivation and ability are distinct; someone can have skills but lack the drive to use them."
+          },
+          {
+            "label": "D",
+            "text": "It is a temporary emotional state that fluctuates daily and has no lasting impact on performance.",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Motivation can be sustained and is a key predictor of long-term performance."
+          }
+        ],
+        "nextActionIfWrong": "Enter remediation module err-motivation-force.",
+        "learningGoal": "Define motivation and explain its internal nature.",
+        "successCriteria": "Student correctly identifies motivation as an internal driving force.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The definition of motivation is foundational to comparing motivation theories.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks understanding that motivation is internal, not externally imposed.",
+        "commonMisconception": "Thinking motivation can be imposed by managers.",
+        "remediationModule": "err-motivation-force",
+        "retestItem": "err-motivation-force"
+      },
+      {
+        "id": "diag-boh4m-s6-0803-q2",
+        "nodeId": "node-intrinsic-extrinsic",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-motivation-power",
+        "stem": "According to the lesson, which type of motivation is generally considered the most powerful?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Extrinsic, because money and rewards are the strongest drivers of performance.",
+            "correct": false,
+            "feedbackWrong": "Incorrect. While extrinsic rewards are common, intrinsic motivation—doing something for its own sake—is usually more powerful and longer-lasting."
+          },
+          {
+            "label": "B",
+            "text": "Intrinsic, because it comes from personal satisfaction and active initiative.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Intrinsic motivation, driven by internal enjoyment or purpose, is the most powerful form."
+          },
+          {
+            "label": "C",
+            "text": "They are equally powerful; it depends entirely on the situation.",
+            "correct": false,
+            "feedbackWrong": "Close, but the lesson emphasized that intrinsic motivation is generally the most powerful. Extrinsic can supplement but rarely outperforms intrinsic drive."
+          },
+          {
+            "label": "D",
+            "text": "Neither type is powerful; performance depends only on ability and environment.",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Motivation is a separate factor; without it, even high ability and a supportive environment may not lead to high performance."
+          }
+        ],
+        "nextActionIfWrong": "Enter remediation module err-motivation-power.",
+        "learningGoal": "Distinguish between intrinsic and extrinsic motivation and identify which is more powerful.",
+        "successCriteria": "Student selects intrinsic motivation as the most powerful.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Intrinsic vs extrinsic motivation is a key concept in comparing motivation approaches.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks misconception that extrinsic rewards are always stronger.",
+        "commonMisconception": "Believing extrinsic motivation is always more powerful.",
+        "remediationModule": "err-motivation-power",
+        "retestItem": "err-motivation-power"
+      },
+      {
+        "id": "diag-boh4m-s6-0803-q3",
+        "nodeId": "node-factors-performance",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-factors-performance",
+        "stem": "Individual performance is shaped by three main factors. Which of the following lists them correctly?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Motivation, ability, and external environment",
+            "correct": true,
+            "feedbackCorrect": "Correct. All three—internal drive, skills, and external conditions—must work together for strong performance."
+          },
+          {
+            "label": "B",
+            "text": "Intelligence, education, and luck",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Intelligence and education relate to ability, but motivation and environment are missing. Luck is not a performance factor."
+          },
+          {
+            "label": "C",
+            "text": "Salary, job title, and working hours",
+            "correct": false,
+            "feedbackWrong": "Incorrect. These are external rewards, not the core factors that determine performance."
+          },
+          {
+            "label": "D",
+            "text": "Training, experience, and personality",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Training and experience build ability, but motivation and environment are left out."
+          }
+        ],
+        "nextActionIfWrong": "Enter remediation module err-factors-performance.",
+        "learningGoal": "Identify the three factors that shape individual performance.",
+        "successCriteria": "Student correctly lists motivation, ability, and environment.",
+        "ossdExpectation": "Apply an understanding of human behaviour to explain how individuals and groups function in the workplace.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "BOH4M-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The three factors are central to understanding workplace human behaviour.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Checks retention of the three performance factors.",
+        "commonMisconception": "Omitting one factor or confusing with other variables.",
+        "remediationModule": "err-factors-performance",
+        "retestItem": "err-factors-performance"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-motivation-power",
+      "condition": "student answers incorrectly on any question with errorId err-motivation-power",
+      "systemAction": "assign reteach module err-motivation-power, then retest err-motivation-power",
+      "studentMessage": "关于 Confusing the relative power of intrinsic and extrinsic motivation—thinking extrinsic rewards are always stronger than internal satisfaction. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-motivation-force",
+      "condition": "student answers incorrectly on any question with errorId err-motivation-force",
+      "systemAction": "assign reteach module err-motivation-force, then retest err-motivation-force",
+      "studentMessage": "关于 Believing that motivation can be imposed on someone externally, rather than it being an internal state that must be self-generated. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-factors-performance",
+      "condition": "student answers incorrectly on any question with errorId err-factors-performance",
+      "systemAction": "assign reteach module err-factors-performance, then retest err-factors-performance",
+      "studentMessage": "关于 Omitting one of the three factors (motivation, ability, environment) or misunderstanding that all three jointly determine performance. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-sources-biological-vs-social",
+      "condition": "student answers incorrectly on any question with errorId err-sources-biological-vs-social",
+      "systemAction": "assign reteach module err-sources-biological-vs-social, then retest err-sources-biological-vs-social",
+      "studentMessage": "关于 Mixing up biological sources (e.g., food) with social sources (e.g., media influence) or failing to recognize cognitive sources like career planning. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-application-individualization",
+      "condition": "student answers incorrectly on any question with errorId err-application-individualization",
+      "systemAction": "assign reteach module err-application-individualization, then retest err-application-individualization",
+      "studentMessage": "关于 Assuming a one-size-fits-all reward strategy, neglecting that employees have different needs (e.g., vacation vs. salary) and that cultural backgrounds affect motivation. 的理解还需要加强。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-motivation-power",
+      "trigger": "Student answers that extrinsic motivation is more powerful, e.g., selecting 'Extrinsic, because money and rewards are the strongest drivers of performance' or states that external rewards always matter more than internal satisfaction.",
+      "studentMisunderstanding": "The student thinks extrinsic motivation is more powerful than intrinsic because external rewards are visible and tangible. In reality, intrinsic motivation—coming from personal satisfaction and active initiative—is the most powerful form of motivation.",
+      "miniLesson": {
+        "explain": "Motivation is the invisible driving force that determines the level, direction, and persistence of effort. There are two key types: intrinsic motivation comes from within (personal satisfaction, active initiative) and is the most powerful; extrinsic motivation comes from external factors such as material rewards, peer pressure, or evaluations. Because intrinsic motivation is self-generated, it lasts longer and drives effort even when external rewards are absent.",
+        "example": "Consider a caregiver who works because they genuinely love helping others (intrinsic) versus one who works only for a paycheck (extrinsic). When the paycheck is reduced or removed, the extrinsic motivation drops sharply, but the intrinsic caregiver keeps going because the satisfaction comes from the work itself.",
+        "memoryAnchor": "INside = INtrinsic = INcredibly powerful; EXtrinsic depends on EXternal rewards, so it can exit when rewards disappear."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which type of motivation is considered the most powerful according to the lesson? A) Intrinsic motivation B) Extrinsic motivation",
+          "answer": "A) Intrinsic motivation, because it comes from personal satisfaction and active initiative."
+        },
+        {
+          "level": "L2",
+          "prompt": "Maya practices the piano every evening because she loves music, even though no one gives her prizes or rewards. Is this intrinsic or extrinsic motivation? Explain why it is powerful.",
+          "answer": "This is intrinsic motivation because it comes from internal satisfaction. It is powerful because the drive is self-generated and does not depend on external rewards or pressure."
+        },
+        {
+          "level": "L3",
+          "prompt": "A manager oversees two employees: one loves the work itself (intrinsic), and the other mainly wants a bigger salary (extrinsic). According to the lesson, which employee likely has the more powerful motivation, and why should the manager still individualize rewards?",
+          "answer": "The intrinsically motivated employee likely has the more powerful motivation because intrinsic motivation is the most powerful form, coming from personal satisfaction and active initiative. However, the manager should still individualize rewards because employees have different needs—for example, caregivers may need extra vacation days, while employees with mortgages may respond better to a salary increase—and rewards must respect cross-cultural differences. In an economic downturn, many employees also prioritize job security over pay raises."
+        }
+      ]
+    },
+    {
+      "errorId": "err-motivation-force",
+      "trigger": "When a student says a manager can 'make' or 'force' someone to be motivated, or picks the diagnostic option stating motivation is an external force that can be imposed.",
+      "studentMisunderstanding": "The student believes motivation is something outside a person that can be directly given or forced by another person, such as a manager threatening or commanding. In reality, motivation is an internal state that each person must generate for themselves; others can only create supportive conditions or incentives.",
+      "miniLesson": {
+        "explain": "Motivation is the invisible driving force inside a person that determines the level, direction, and persistence of effort they put into work, study, or daily life. Because it is internal, it cannot be imposed from the outside. A manager, teacher, or parent can offer extrinsic rewards or create a positive environment, but the actual desire to act must come from within the individual. Intrinsic motivation, which comes from personal satisfaction and active initiative, is the most powerful form of motivation. This is why two employees in the same workplace with the same pay can have very different levels of motivation—one may be driven by genuine interest or purpose, while the other is just going through the motions.",
+        "example": "In a company, a manager cannot make a caregiver feel motivated by simply ordering them to work harder. The caregiver might be encouraged by extra vacation days because that addresses a personal need, but the drive to complete tasks still comes from inside them. Similarly, an employee with a mortgage may respond well to a salary increase, but that pay raise is just an external condition; it does not replace the internal motivation needed to sustain effort over time.",
+        "memoryAnchor": "Motivation is like a fire: leaders can bring fuel and wood (rewards, support, and a good environment), but they cannot light a fire inside someone else. The spark must come from the person themselves."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Complete the sentence using the lesson definition: Motivation is the ______ driving force that determines the level, direction, and persistence of effort.",
+          "answer": "invisible (or internal)"
+        },
+        {
+          "level": "L2",
+          "prompt": "True or False? A manager can 'give' motivation to an employee by offering a bonus. Explain your answer using the lesson definition of motivation.",
+          "answer": "False. Motivation is an internal driving force, not an external object that can be given. A bonus is an extrinsic reward that may influence behavior, but the actual motivation still has to come from within the employee."
+        },
+        {
+          "level": "L3",
+          "prompt": "A new manager says, 'If I just raise everyone's pay, they will be motivated.' Using the lesson's definition of motivation and the three factors that shape individual performance, explain why this plan is incomplete, and suggest one individualized reward strategy from the lesson that could better support motivation.",
+          "answer": "Raising pay alone is incomplete because motivation is an internal driving force, not something a pay raise can automatically create. Individual performance is shaped by three factors: motivation (internal desire), ability (skills that can be improved through training), and external environment (tools, support, and social conditions). The manager should address individual needs—for example, offering extra vacation days to a caregiver or a salary increase to an employee with a mortgage—and create a supportive environment. Even then, the manager cannot force motivation; the employee's internal drive must still be self-generated."
+        }
+      ]
+    },
+    {
+      "errorId": "err-factors-performance",
+      "trigger": "Activate when a student incorrectly identifies the three factors of individual performance, or selects an answer that omits one of the three (motivation, ability, environment) or confuses them with unrelated variables.",
+      "studentMisunderstanding": "Performance is caused by a single factor (like ability or salary) or by factors outside the individual's control; the student does not recognize that motivation, ability, and environment interact together to determine performance.",
+      "miniLesson": {
+        "explain": "Individual performance is shaped by three interacting factors: motivation (internal desire), ability (current skills, improvable through training), and external environment (social circles, tools, information, support). All three work together. If any one of them is weak, performance suffers. For example, a highly motivated and skilled employee may still underperform if the workspace lacks the necessary tools or support; conversely, a great environment cannot compensate for lack of motivation or ability.",
+        "example": "A skilled and highly motivated employee (high ability + high motivation) may still underperform if the workplace lacks necessary tools, information, or support (weak environment). Conversely, even with a great environment, a person without skills or motivation cannot perform well.",
+        "memoryAnchor": "Remember 'MAE': Motivation, Ability, and Environment together make performance. Just like a tripod – remove one leg, it falls."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "List the three factors that shape individual performance.",
+          "answer": "Motivation, ability, and external environment."
+        },
+        {
+          "level": "L2",
+          "prompt": "Riya is a talented graphic designer (high ability) who loves her job (high motivation) but her computer is outdated and her team rarely shares helpful resources. According to the three factors, why might her performance be lower than expected?",
+          "answer": "Because her external environment is weak – she lacks the tools and support needed to apply her ability and motivation."
+        },
+        {
+          "level": "L3",
+          "prompt": "Managers often focus only on training (ability) or rewards (motivation). Based on the three-factor model, what else must they consider, and how would you address it for a team with strong skills and drive but poor collaboration tools?",
+          "answer": "They must also consider the external environment. In that situation, improving collaboration tools and information flow would remove the environmental barrier, allowing the team's high motivation and ability to convert into high performance."
+        }
+      ]
+    },
+    {
+      "errorId": "err-sources-biological-vs-social",
+      "trigger": "Student misclassifies a biological need (e.g., hunger) as a social motivator or fails to recognize cognitive sources such as career planning.",
+      "studentMisunderstanding": "The student confuses the four sources of motivation, especially biological (basic needs like food) with social (media, culture, peers), and may overlook cognitive sources such as interests and career goals.",
+      "miniLesson": {
+        "explain": "Motivation flows from four primary sources, which are distinct yet sometimes overlapping. Biological sources come from basic survival needs like food and water. Emotional sources include feelings like fear, anger, love, and hate. Cognitive sources arise from your thoughts—interests, self-worth, and career goals. Social sources come from the people around you, media, culture, and religion. To avoid mixing them up, remember BECS: Biological, Emotional, Cognitive, Social.",
+        "example": "Feeling hunger while studying is biological motivation; scrolling social media to see what friends are doing influences you socially; planning a career in accounting is cognitive; being motivated by love for your family is emotional.",
+        "memoryAnchor": "BECS: Biological, Emotional, Cognitive, Social. Think of a 'BECS' tracker to separate the four sources."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A student says, 'I am hungry, so I want to get food from the cafeteria.' Which source of motivation is this? Answer options: (a) Biological (b) Emotional (c) Cognitive (d) Social",
+          "answer": "(a) Biological – because it is driven by the basic need for food, which is a survival requirement."
+        },
+        {
+          "level": "L2",
+          "prompt": "Identify the motivation source for each statement: 1) 'I exercise because I am afraid of heart disease.' 2) 'I exercise because my friends all go to the gym.' 3) 'I exercise to reach my goal of running a marathon.' Explain which source each represents.",
+          "answer": "1) Emotional – fear drives the behavior. 2) Social – influence from friends/social circle. 3) Cognitive – a personal career/performance goal (marathon) that stems from thinking and planning."
+        },
+        {
+          "level": "L3",
+          "prompt": "As a manager, you have two employees. One says, 'I'm hungry and need a longer lunch to eat properly.' Another says, 'I want to join a committee because my culture values community service.' Based on the four sources, what is motivating each employee? Propose an individualized reward or support for each, using the lesson's guidance that strategies must respect cultural differences and individual needs.",
+          "answer": "The hungry employee is motivated biologically, so support might include a flexible lunch schedule to ensure adequate food. The community-service employee is motivated socially/culturally, so the manager could offer paid time to volunteer or recognize their community involvement in a way that respects their cultural background. This aligns with the principle of individualized rewards and cross-cultural adaptation."
+        }
+      ]
+    },
+    {
+      "errorId": "err-application-individualization",
+      "trigger": "Student says, 'Giving everyone the same bonus is fair and should motivate everyone equally.'",
+      "studentMisunderstanding": "Assuming a one-size-fits-all reward strategy, neglecting that employees have different personal needs, job security priorities, and cultural backgrounds that affect motivation.",
+      "miniLesson": {
+        "explain": "Effective motivation is not one-size-fits-all. In the workplace, employees have different personal circumstances and cultural backgrounds, so a single reward, like money, will not motivate everyone equally. Managers must tailor rewards to each person's needs. In the current economic downturn, employees often care more about job security than pay raises. For example, a caregiver may value extra vacation days, while an employee with a mortgage may be more motivated by a salary increase. Also, motivation strategies must respect cross-cultural differences.",
+        "example": "A company has two employees: a caregiver who needs more time at home and a homeowner paying a mortgage. The caregiver may be motivated by extra vacation days, while the homeowner may respond better to a salary increase. A manager should adapt rewards to each person's situation and cultural context.",
+        "memoryAnchor": "Match the reward to the person: caregivers get time, mortgage holders get money, and always respect culture."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A manager gives every employee the exact same $100 bonus. Is this likely to motivate everyone equally? Why or why not?",
+          "answer": "No. A single cash bonus treats everyone the same, but employees have different needs and cultural backgrounds, so motivation levels will vary."
+        },
+        {
+          "level": "L2",
+          "prompt": "In a company, Maria is a caregiver for her elderly parents and James is paying off a mortgage. Using the lesson's principles, which individualized reward would you give each employee in a downturn, and why?",
+          "answer": "Maria should get extra vacation days because she is a caregiver; James should get a salary increase because he has a mortgage. In a downturn, job security is also a central priority for both."
+        },
+        {
+          "level": "L3",
+          "prompt": "A multinational manager wants to use a single cash bonus to motivate all team members from different cultural and religious backgrounds. Explain two problems with this plan and propose how to improve it.",
+          "answer": "Two problems: a single bonus ignores individual needs (e.g., caregivers value vacation, mortgage holders value salary) and may conflict with cultural or religious norms. Improve by personalizing reward options and aligning with cultural expectations while preserving job security."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-motivation-power",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Two employees work at a tech company. Employee A works late because they find coding personally fulfilling and enjoy solving problems. Employee B works late because they are paid overtime bonuses. Based on the lesson, which statement is most accurate?",
+          "options": [
+            "Employee A's motivation is more powerful because it comes from internal satisfaction.",
+            "Employee B's motivation is more powerful because money is a strong external reward.",
+            "Both have the same power because the outcome is identical.",
+            "External rewards always override internal satisfaction."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why intrinsic motivation is considered more powerful than extrinsic motivation, using a real-world or workplace example that was not used in the lesson. Include what happens when external rewards are removed.",
+          "rubric": "Student must clearly state that intrinsic motivation is more powerful because it comes from personal satisfaction and internal drive, and it persists even without external rewards. Extrinsic motivation depends on external factors, so when rewards are removed, motivation tends to drop. The example must be original and relevant, e.g., volunteering for personal satisfaction vs. working only for pay."
+        }
+      ],
+      "passRule": "Student must select the correct answer for the multiple-choice question (intrinsic is more powerful) and provide an open-ended explanation that (a) identifies intrinsic motivation as the stronger force, (b) explains that intrinsic motivation is internally driven and lasts even when external rewards are removed, and (c) gives an original example not from the lesson."
+    },
+    {
+      "forErrorId": "err-motivation-force",
+      "questions": [
+        {
+          "id": "err-motivation-force-q1",
+          "type": "single_choice",
+          "stem": "A manager believes that motivation can be forced by threatening to cut pay if employees don't work harder. Based on the lesson, what is the most accurate critique of this approach?",
+          "options": [
+            "Threats always work because fear is a strong motivator.",
+            "Motivation is an internal driving force that cannot be imposed from outside; threats may create short-term pressure but do not create genuine motivation.",
+            "Pay cuts are illegal, so the manager cannot use them.",
+            "Motivation is purely external, so threats are the most effective way to increase effort."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "err-motivation-force-q2",
+          "type": "open_ended",
+          "stem": "A manager says: \"If I give my employees a big bonus, they will automatically be motivated.\" Using the lesson's definition of motivation, explain whether this statement is correct. Then, give one individualized reward example from the lesson that shows how a manager can better support motivation.",
+          "rubric": "The response must state that motivation is an internal driving force that determines the level, direction, and persistence of effort, and therefore cannot be 'given' by an external bonus. A bonus is an extrinsic reward that may influence behavior, but the actual motivation must be self-generated inside the employee. The response should also mention an individualized reward strategy such as offering extra vacation days to a caregiver or a salary increase to an employee with a mortgage, showing that different employees have different needs and that the manager can create supportive conditions but not force motivation."
+        }
+      ],
+      "passRule": "Answer the single-choice question correctly (Q1 must be option B) and the open-ended response must clearly state that motivation is an internal, self-generated driving force and cannot be externally imposed, while also providing a relevant individualized reward example from the lesson."
+    },
+    {
+      "forErrorId": "err-factors-performance",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "According to the three-factor model, which THREE factors jointly determine an individual's performance?",
+          "options": [
+            "Motivation, ability, and external environment",
+            "Motivation, salary, and training",
+            "Ability, personality, and luck",
+            "External environment, intelligence, and effort"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A manager says: \"I've hired the most skilled people and pay them well, so their performance should be high.\" Using the three-factor model, explain why this reasoning is incomplete and give one possible environmental factor that could still lower performance.",
+          "rubric": "The student must identify that the manager overlooked at least one of the three factors (motivation or environment, or both). They must specifically mention that ability and pay (extrinsic motivation) are not sufficient, and that performance also depends on internal motivation and the external environment (e.g., tools, information, support, social circles). Acceptable examples: outdated equipment, poor team collaboration, lack of clear information, unsupportive work culture. Full credit requires: (1) naming the missing factor(s) explicitly, and (2) giving a plausible environmental factor. Partial credit if they name the missing factor but give no example or vice versa."
+        }
+      ],
+      "passRule": "Pass if Q1 is answered correctly (option A) and Q2 earns at least partial credit (identifies the missing factor(s) such as motivation or environment, and ideally gives a relevant environmental example)."
+    },
+    {
+      "forErrorId": "err-sources-biological-vs-social",
+      "questions": [
+        {
+          "id": "retest-sources-q1",
+          "type": "single_choice",
+          "stem": "Which of the following behaviors is most clearly driven by a biological source of motivation?",
+          "options": [
+            "Working extra hours to earn a bonus.",
+            "Eating a sandwich because you are hungry.",
+            "Joining a book club because your friends recommend it.",
+            "Setting a goal to start a business."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-sources-q2",
+          "type": "open_ended",
+          "stem": "A student is deciding to study at the library. They say: 'I'll grab a sandwich because I'm starving. My study group will be there, so I can work with them. Also, I want to become a nurse, so I need to pass this exam.' Identify three different sources of motivation in this statement. For each, name the source and justify your answer with one sentence.",
+          "rubric": "The student must correctly identify three sources: Biological (hunger/starving, sandwich), Social (study group/working with friends), Cognitive (career goal of becoming a nurse). They must name the sources as biological, social, and cognitive (or their synonyms from the lesson). Each justification must clearly connect the reason to the definition: hunger is a physical need, the study group is influence from others, and the career goal arises from thinking/planning."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. The single_choice must select the correct option (index 1). The open_ended must correctly identify all three sources (biological, social, cognitive) and provide a plausible justification for each."
+    },
+    {
+      "forErrorId": "err-application-individualization",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A manager believes that giving every employee the exact same bonus is fair and should motivate everyone equally. Why is this approach likely to fail?",
+          "options": [
+            "It is fair because everyone gets the same treatment.",
+            "Employees have different personal needs, cultural backgrounds, and priorities, so a one-size-fits-all reward will not motivate everyone equally.",
+            "Bonuses are not motivating at all.",
+            "Job security is the only motivation that matters."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "In the current economic downturn, a manager has two employees: Aisha, who is the primary caregiver for her elderly parents, and Ben, who is paying off a large mortgage. Explain how the manager should motivate each employee, and why a single cash bonus for both would be less effective.",
+          "rubric": "Award 1 point for suggesting extra vacation time or flexible hours for Aisha. Award 1 point for suggesting a salary increase or financial incentive for Ben. Award 1 point for explaining that a one-size-fits-all cash bonus fails to address individual needs and that job security is a key concern in a downturn. Award 1 point for mentioning cultural or personal circumstances."
+        }
+      ],
+      "passRule": "Answer Q1 correctly and score at least 3 out of 4 on Q2 rubric."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-08-03",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/JkRVdKaknocEKdxkTW8cxdEdnNe?from=vc_group_doc_link#doxcnn1WTKQh0J2ubRTRUeJI1Ff",
+    "sourceTitle": "BOH4M.S6.Catherine 2026-08-03 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Motivation is the invisible driving force that determines the level, direction, and persistence of effort invested in work, study, or daily life.；Intrinsic motivation comes from within (personal satisfaction, active initiative) and is the most powerful form of motivation.；Extrinsic motivation comes from external factors such as material rewards, peer pressure, and evaluations from family, school, or work.",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "摄像头开启要求",
+        "studentAction": "上课期间保持摄像头开启以确认正式出勤",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "all attendees required to keep cameras on to confirm formal in-class participation",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "announcement",
+        "title": "明天必修集群会议",
+        "studentAction": "明天按时参加必修集群会议，不得未经批准缺席",
+        "deadlineText": "明天 (2026-08-04)",
+        "deadlineISO": "2026-08-04T08:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "A mandatory cluster session will be held tomorrow, and all participants are required to attend on time without unapproved absence",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 正式考试",
+        "studentAction": "准备并参加周五的Unit 3考试",
+        "deadlineText": "Friday, August 7, 2026",
+        "deadlineISO": "2026-08-07T08:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "the official Unit 3 test on Friday",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "Unit 3 Assignment 2: 三折手册作业",
+        "studentAction": "使用Canva（免费版）制作关于工作压力管理和工作生活平衡的三折手册，通过Schoology平台在周四前提交",
+        "deadlineText": "Thursday, August 6, 2026",
+        "deadlineISO": "2026-08-06T23:59:59+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The completed assignment must be submitted via the Schoology platform by this Thursday",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "mandatory cluster session will be held tomorrow",
+        "reason": "Platform/link for cluster session not specified; confirmation needed."
+      },
+      {
+        "rawText": "submitted via the Schoology platform",
+        "reason": "Exact Schoology assignment link not provided; confirmation needed."
+      }
+    ],
+    "watchTags": [
+      "node-motivation-definition",
+      "node-intrinsic-extrinsic",
+      "node-factors-performance",
+      "node-sources-motivation",
+      "node-workplace-application"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "errorId": "err-motivation-power",
+        "condition": "student answers incorrectly on any question with errorId err-motivation-power",
+        "systemAction": "assign reteach module err-motivation-power, then retest err-motivation-power"
+      },
+      {
+        "errorId": "err-motivation-force",
+        "condition": "student answers incorrectly on any question with errorId err-motivation-force",
+        "systemAction": "assign reteach module err-motivation-force, then retest err-motivation-force"
+      },
+      {
+        "errorId": "err-factors-performance",
+        "condition": "student answers incorrectly on any question with errorId err-factors-performance",
+        "systemAction": "assign reteach module err-factors-performance, then retest err-factors-performance"
+      },
+      {
+        "errorId": "err-sources-biological-vs-social",
+        "condition": "student answers incorrectly on any question with errorId err-sources-biological-vs-social",
+        "systemAction": "assign reteach module err-sources-biological-vs-social, then retest err-sources-biological-vs-social"
+      },
+      {
+        "errorId": "err-application-individualization",
+        "condition": "student answers incorrectly on any question with errorId err-application-individualization",
+        "systemAction": "assign reteach module err-application-individualization, then retest err-application-individualization"
+      }
+    ],
+    "nextActions": [
+      "[err-motivation-power] student answers incorrectly on any question with errorId err-motivation-power: 关于 Confusing the relative power of intrinsic and extrinsic motivation—thinking extrinsic rewards are always stronger than internal satisfaction. 的理解还需要加强。",
+      "[err-motivation-force] student answers incorrectly on any question with errorId err-motivation-force: 关于 Believing that motivation can be imposed on someone externally, rather than it being an internal state that must be self-generated. 的理解还需要加强。",
+      "[err-factors-performance] student answers incorrectly on any question with errorId err-factors-performance: 关于 Omitting one of the three factors (motivation, ability, environment) or misunderstanding that all three jointly determine performance. 的理解还需要加强。",
+      "[err-sources-biological-vs-social] student answers incorrectly on any question with errorId err-sources-biological-vs-social: 关于 Mixing up biological sources (e.g., food) with social sources (e.g., media influence) or failing to recognize cognitive sources like career planning. 的理解还需要加强。",
+      "[err-application-individualization] student answers incorrectly on any question with errorId err-application-individualization: 关于 Assuming a one-size-fits-all reward strategy, neglecting that employees have different needs (e.g., vacation vs. salary) and that cultural backgrounds affect motivation. 的理解还需要加强。"
+    ],
+    "cards": [
+      {
+        "id": "diag-boh4m-s6-0803-q1",
+        "type": "choice",
+        "question": "Which of the following best describes motivation?",
+        "options": [
+          "It is an external force that managers can impose on employees to increase productivity.",
+          "It is an internal driving force that determines the level, direction, and persistence of effort.",
+          "It is the same as ability; people are motivated when they have the skills to do a job.",
+          "It is a temporary emotional state that fluctuates daily and has no lasting impact on performance."
+        ],
+        "correct": 1,
+        "diagnosis": "Checks understanding that motivation is internal, not externally imposed.",
+        "misconceptions": [
+          "Incorrect. Motivation is an internal state; it cannot be imposed externally. Even the best manager can only encourage it, not create it.",
+          "✓ Correct. Motivation comes from within and shapes how hard, in what direction, and for how long a person works toward a goal.",
+          "Incorrect. Motivation and ability are distinct; someone can have skills but lack the drive to use them.",
+          "Incorrect. Motivation can be sustained and is a key predictor of long-term performance."
+        ],
+        "nodeId": "node-motivation-definition",
+        "errorId": "err-motivation-force",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Define motivation and explain its internal nature.",
+        "successCriteria": "Student correctly identifies motivation as an internal driving force.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The definition of motivation is foundational to comparing motivation theories.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking motivation can be imposed by managers.",
+        "remediationModule": "err-motivation-force",
+        "retestItem": "err-motivation-force"
+      },
+      {
+        "id": "diag-boh4m-s6-0803-q2",
+        "type": "choice",
+        "question": "According to the lesson, which type of motivation is generally considered the most powerful?",
+        "options": [
+          "Extrinsic, because money and rewards are the strongest drivers of performance.",
+          "Intrinsic, because it comes from personal satisfaction and active initiative.",
+          "They are equally powerful; it depends entirely on the situation.",
+          "Neither type is powerful; performance depends only on ability and environment."
+        ],
+        "correct": 1,
+        "diagnosis": "Checks misconception that extrinsic rewards are always stronger.",
+        "misconceptions": [
+          "Incorrect. While extrinsic rewards are common, intrinsic motivation—doing something for its own sake—is usually more powerful and longer-lasting.",
+          "✓ Correct. Intrinsic motivation, driven by internal enjoyment or purpose, is the most powerful form.",
+          "Close, but the lesson emphasized that intrinsic motivation is generally the most powerful. Extrinsic can supplement but rarely outperforms intrinsic drive.",
+          "Incorrect. Motivation is a separate factor; without it, even high ability and a supportive environment may not lead to high performance."
+        ],
+        "nodeId": "node-intrinsic-extrinsic",
+        "errorId": "err-motivation-power",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Distinguish between intrinsic and extrinsic motivation and identify which is more powerful.",
+        "successCriteria": "Student selects intrinsic motivation as the most powerful.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Intrinsic vs extrinsic motivation is a key concept in comparing motivation approaches.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Believing extrinsic motivation is always more powerful.",
+        "remediationModule": "err-motivation-power",
+        "retestItem": "err-motivation-power"
+      },
+      {
+        "id": "diag-boh4m-s6-0803-q3",
+        "type": "choice",
+        "question": "Individual performance is shaped by three main factors. Which of the following lists them correctly?",
+        "options": [
+          "Motivation, ability, and external environment",
+          "Intelligence, education, and luck",
+          "Salary, job title, and working hours",
+          "Training, experience, and personality"
+        ],
+        "correct": 0,
+        "diagnosis": "Checks retention of the three performance factors.",
+        "misconceptions": [
+          "✓ Correct. All three—internal drive, skills, and external conditions—must work together for strong performance.",
+          "Incorrect. Intelligence and education relate to ability, but motivation and environment are missing. Luck is not a performance factor.",
+          "Incorrect. These are external rewards, not the core factors that determine performance.",
+          "Incorrect. Training and experience build ability, but motivation and environment are left out."
+        ],
+        "nodeId": "node-factors-performance",
+        "errorId": "err-factors-performance",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Identify the three factors that shape individual performance.",
+        "successCriteria": "Student correctly lists motivation, ability, and environment.",
+        "ossdExpectation": "Apply an understanding of human behaviour to explain how individuals and groups function in the workplace.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "BOH4M-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The three factors are central to understanding workplace human behaviour.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Omitting one factor or confusing with other variables.",
+        "remediationModule": "err-factors-performance",
+        "retestItem": "err-factors-performance"
+      }
+    ]
+  }
+}

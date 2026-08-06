@@ -1,0 +1,1136 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-08-03",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ImYXdNGWdodVZhxaGARcx4hLnFe?from=vc_group_doc_link#doxcnRbSCraqSY92fD3ecYBEp2f",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-08-03 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/ImYXdNGWdodVZhxaGARcx4hLnFe?from=vc_group_doc_link#doxcnRbSCraqSY92fD3ecYBEp2f",
+    "title": "MHF4U.S6.Taylor 2026-08-03 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-03/sources/mhf4u-s6-taylor-2026-08-03/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-08-03",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "review_session",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-03",
+    "lessonType": "review_session",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session is a pre-test briefing that reviews key Unit 2 concepts and skills (exponential/logarithmic conversions, solving equations, graphing, inverse relationship) while also communicating quiz administrative rules and follow-up tasks. It contains both academic review and operational information, but the primary intent is to prepare students for the quiz, making it a review session.",
+    "academicContentSignals": [
+      "Convert between exponential and logarithmic forms",
+      "Evaluate log values without calculator's log key",
+      "Solve exponential and logarithmic equations",
+      "Estimate logs via guess-and-check",
+      "Describe function features: asymptotes, domain, range",
+      "Explain inverse relationship between exponential and logarithmic functions",
+      "Graph logarithmic function with mapping notation, value table, labeled axes"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "The lesson contains substantial academic review content, but strict camera, submission, and materials rules are emphasized. To avoid ops overshadowing learning, the exit card must prioritize diagnosing math skills, with at most 2 lightweight readiness checks on test compliance.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Quiz Specifications",
+        "studentAction": "Note the quiz weight (3% of course) and mark allocation (50 marks: 18 K, 12 T, 10 C, 10 A).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The quiz accounts for 3% of the total course grade, with a full score of 50 marks distributed across 4 core assessment dimensions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_requirement",
+        "title": "Quiz Test-Taking Rules",
+        "studentAction": "Only non-graphing calculator allowed; no notes, phones, or other electronic devices. Closed-book test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Only standard non-graphing calculators are allowed; no other electronic devices, notes or reference materials are permitted for this closed-book test.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Answer Format Requirements",
+        "studentAction": "All answers must be handwritten on test paper or blank paper; show full reasoning and calculation steps to earn full marks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All answers must be handwritten on the provided test paper or separate blank paper, full reasoning and calculation processes must be shown to qualify for full marks.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "attendance_camera",
+        "title": "Camera On During Quiz",
+        "studentAction": "Keep your camera turned on throughout the entire quiz session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students must keep their cameras on throughout the test.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_requirement",
+        "title": "Submit Before Exiting",
+        "studentAction": "Submit the completed quiz before leaving the online session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "submit the completed quiz before exiting the online session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Unit 2 Assignment Upload",
+        "studentAction": "Start working on the Unit 2 assignment after completing the quiz. The instructor will upload it shortly.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The instructor will upload the Unit 2 assignment shortly, and students may start working on it immediately after completing the quiz.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "follow_up_action",
+        "title": "Complete Exit Card",
+        "studentAction": "Complete the assigned exit card (likely due before next class).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students are required to complete the assigned exit card.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "announcement",
+        "title": "Next Class Reminder",
+        "studentAction": "Next regular class is tomorrow, Tuesday, August 4, 2026, as scheduled.",
+        "deadlineText": "Next class: 2026-08-04",
+        "deadlineISO": "2026-08-04",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the next regular class will be held as scheduled the following day.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Converting Between Exponential and Logarithmic Forms、Evaluating Logarithms Without Calculator、Solving Exponential and Logarithmic Equations、Estimating Logarithms by Guess-and-Check）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 7 个知识节点之间可能存在 7 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The Unit 2 quiz assesses conversion between exponential and logarithmic forms.；Students must evaluate logarithms without a calculator's log key, referencing rules from the previous Thursday.；Solving exponential and logarithmic equations algebraically is required.",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "KN-ConvertExpLog",
+      "name": "Converting Between Exponential and Logarithmic Forms",
+      "nameEn": "Converting Between Exponential and Logarithmic Forms",
+      "definition": "Students can rewrite an exponential equation in logarithmic form and vice versa, understanding the base, exponent, and result relationship.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MHF4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions."
+    },
+    {
+      "id": "KN-EvalLogNoCalc",
+      "name": "Evaluating Logarithms Without Calculator",
+      "nameEn": "Evaluating Logarithms Without Calculator",
+      "definition": "Students evaluate logarithmic expressions by rewriting in exponential form and using known powers, without using a calculator's log key.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MHF4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions."
+    },
+    {
+      "id": "KN-SolveExpLogEq",
+      "name": "Solving Exponential and Logarithmic Equations",
+      "nameEn": "Solving Exponential and Logarithmic Equations",
+      "definition": "Students solve equations involving exponentials and logarithms algebraically, applying properties of exponents and logarithms.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "MHF4U-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve exponential and simple logarithmic equations in one variable algebraically, including those in problems arising from real-world applications."
+    },
+    {
+      "id": "KN-EstimateLogGuessCheck",
+      "name": "Estimating Logarithms by Guess-and-Check",
+      "nameEn": "Estimating Logarithms by Guess-and-Check",
+      "definition": "Students estimate the value of a logarithm by trying powers and refining the guess to get an approximate value, demonstrating understanding of continuous nature.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MHF4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions."
+    },
+    {
+      "id": "KN-KeyFeaturesLog",
+      "name": "Identifying Key Features of Logarithmic Functions",
+      "nameEn": "Identifying Key Features of Logarithmic Functions",
+      "definition": "Students identify and describe features such as vertical asymptote (x=0 for parent function, shifted for transformations), domain (x>0 or x>h), range (all real numbers), and intercepts.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MHF4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of the graphs of logarithmic functions, make connections among the numeric, graphical, and algebraic representations of logarithmic functions, and solve related problems graphically."
+    },
+    {
+      "id": "KN-InverseExpLog",
+      "name": "Inverse Relationship between Exponential and Logarithmic Functions",
+      "nameEn": "Inverse Relationship between Exponential and Logarithmic Functions",
+      "definition": "Students explain that y=log_b(x) is the inverse of y=b^x, with domains and ranges swapped, graphs symmetric about y=x, and how this connects to conversions.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MHF4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of the graphs of logarithmic functions, make connections among the numeric, graphical, and algebraic representations of logarithmic functions, and solve related problems graphically."
+    },
+    {
+      "id": "KN-GraphLogTransform",
+      "name": "Graphing Logarithmic Functions Using Transformations",
+      "nameEn": "Graphing Logarithmic Functions Using Transformations",
+      "definition": "Students apply transformations to parent logarithmic functions, using a value table and mapping notation to find key points, and draw the graph with labeled axes and intercepts.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "MHF4U-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Identify and describe some key features of the graphs of logarithmic functions, make connections among the numeric, graphical, and algebraic representations of logarithmic functions, and solve related problems graphically."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "7-9 correct",
+      "targetedRemediation": "4-6 correct",
+      "reteach": "0-3 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-mhf4u-u2-0803-q1",
+        "nodeId": "KN-ConvertExpLog",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-ConvertExpLog-misidentifyBaseExponent",
+        "stem": "Which exponential equation is equivalent to log₅(25)=2?",
+        "options": [
+          {
+            "label": "A",
+            "text": "5² = 25",
+            "correct": true,
+            "feedbackCorrect": "Correct. The base of the log becomes the base of the exponent, the result becomes the exponent, and the number inside the log becomes the result."
+          },
+          {
+            "label": "B",
+            "text": "2⁵ = 25",
+            "correct": false,
+            "feedbackWrong": "You swapped the base and the exponent. Remember: log_b(a)=c means b^c = a. Here b=5, c=2, a=25, not 2^5=25."
+          },
+          {
+            "label": "C",
+            "text": "25² = 5",
+            "correct": false,
+            "feedbackWrong": "You confused the positions. The base is 5, the exponent is 2, and the result is 25. The correct form is 5²=25."
+          },
+          {
+            "label": "D",
+            "text": "5^25 = 2",
+            "correct": false,
+            "feedbackWrong": "The exponent and result are swapped. The log result (2) is the exponent, so the exponential form is 5²=25."
+          }
+        ],
+        "nextActionIfWrong": "Enter err-ConvertExpLog-misidentifyBaseExponent remediation module.",
+        "learningGoal": "Convert between exponential and logarithmic forms accurately.",
+        "successCriteria": "Student correctly identifies the equivalent exponential equation from a logarithmic equation.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches expectation A1 on exponential-logarithmic relationship.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check understanding of the fundamental log-to-exponential conversion rule.",
+        "commonMisconception": "Misidentifying the base and exponent when converting between forms.",
+        "remediationModule": "err-ConvertExpLog-misidentifyBaseExponent",
+        "retestItem": "err-ConvertExpLog-misidentifyBaseExponent"
+      },
+      {
+        "id": "diag-mhf4u-u2-0803-q2",
+        "nodeId": "KN-EvalLogNoCalc",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-EvalLogNoCalc-forgetRewriteExponential",
+        "stem": "Evaluate log₂(8) without a calculator.",
+        "options": [
+          {
+            "label": "A",
+            "text": "3",
+            "correct": true,
+            "feedbackCorrect": "Correct. Rewriting as 2ˣ=8, since 2³=8, x=3."
+          },
+          {
+            "label": "B",
+            "text": "16",
+            "correct": false,
+            "feedbackWrong": "You multiplied base and argument? Use exponential form: 2 to what power gives 8? That power is the log value."
+          },
+          {
+            "label": "C",
+            "text": "4",
+            "correct": false,
+            "feedbackWrong": "2⁴=16, not 8. Try 2³."
+          },
+          {
+            "label": "D",
+            "text": "Cannot determine without calculator",
+            "correct": false,
+            "feedbackWrong": "You can determine this by rewriting as an exponential equation: 2ˣ=8. Find x by knowing your powers."
+          }
+        ],
+        "nextActionIfWrong": "Enter err-EvalLogNoCalc-forgetRewriteExponential remediation module.",
+        "learningGoal": "Evaluate logarithms without a calculator using exponential form.",
+        "successCriteria": "Student correctly computes the logarithm by converting to exponential form.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Matches A1 - evaluate logarithms.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to compute simple logarithms mentally by rewriting as exponential equation.",
+        "commonMisconception": "Forgetting to rewrite the log as an exponential equation to evaluate.",
+        "remediationModule": "err-EvalLogNoCalc-forgetRewriteExponential",
+        "retestItem": "err-EvalLogNoCalc-forgetRewriteExponential"
+      },
+      {
+        "id": "diag-mhf4u-u2-0803-q3",
+        "nodeId": "KN-SolveExpLogEq",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-SolveExpLogEq-dropLogIncorrectly",
+        "stem": "Solve: log₂(x+1) = 3",
+        "options": [
+          {
+            "label": "A",
+            "text": "x = 7",
+            "correct": true,
+            "feedbackCorrect": "Correct. Rewrite as 2³ = x+1 → 8 = x+1 → x=7."
+          },
+          {
+            "label": "B",
+            "text": "x = 5",
+            "correct": false,
+            "feedbackWrong": "You might have subtracted 1 first without converting from log form. Convert to exponential first: base 2 raised to power 3 equals x+1."
+          },
+          {
+            "label": "C",
+            "text": "x = 8",
+            "correct": false,
+            "feedbackWrong": "You might have set x+1=3 directly. Remember, the log equation log_b(y)=c means b^c = y."
+          },
+          {
+            "label": "D",
+            "text": "x = 2",
+            "correct": false,
+            "feedbackWrong": "You may have divided or misapplied. Use the definition: log₂(x+1)=3 → 2³ = x+1."
+          }
+        ],
+        "nextActionIfWrong": "Enter err-SolveExpLogEq-dropLogIncorrectly remediation module.",
+        "learningGoal": "Solve exponential and logarithmic equations algebraically.",
+        "successCriteria": "Student correctly solves a logarithmic equation by converting to exponential form.",
+        "ossdExpectation": "Solve exponential and simple logarithmic equations in one variable algebraically, including those in problems arising from real-world applications.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "MHF4U-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Matches A3 - solving logarithmic equations algebraically.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check ability to solve a simple log equation by using definition.",
+        "commonMisconception": "Incorrectly applying log properties such as dropping log without converting to exponential.",
+        "remediationModule": "err-SolveExpLogEq-dropLogIncorrectly",
+        "retestItem": "err-SolveExpLogEq-dropLogIncorrectly"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-ConvertExpLog-misidentifyBaseExponent",
+      "condition": "student answers incorrectly on any question with errorId err-ConvertExpLog-misidentifyBaseExponent",
+      "systemAction": "assign reteach module err-ConvertExpLog-misidentifyBaseExponent, then retest err-ConvertExpLog-misidentifyBaseExponent",
+      "studentMessage": "关于 Misidentifying base and exponent when converting between forms, e.g., writing log_b(a)=c as b^a=c. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-EvalLogNoCalc-forgetRewriteExponential",
+      "condition": "student answers incorrectly on any question with errorId err-EvalLogNoCalc-forgetRewriteExponential",
+      "systemAction": "assign reteach module err-EvalLogNoCalc-forgetRewriteExponential, then retest err-EvalLogNoCalc-forgetRewriteExponential",
+      "studentMessage": "关于 Forgetting to rewrite the log as an exponential equation to evaluate, e.g., trying to use calculator when not allowed. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-SolveExpLogEq-dropLogIncorrectly",
+      "condition": "student answers incorrectly on any question with errorId err-SolveExpLogEq-dropLogIncorrectly",
+      "systemAction": "assign reteach module err-SolveExpLogEq-dropLogIncorrectly, then retest err-SolveExpLogEq-dropLogIncorrectly",
+      "studentMessage": "关于 Incorrectly applying log properties, such as log(a+b) = log(a) + log(b). 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-EstimateLogGuessCheck-interpolateLinearly",
+      "condition": "student answers incorrectly on any question with errorId err-EstimateLogGuessCheck-interpolateLinearly",
+      "systemAction": "assign reteach module err-EstimateLogGuessCheck-interpolateLinearly, then retest err-EstimateLogGuessCheck-interpolateLinearly",
+      "studentMessage": "关于 Assuming the logarithm is linear and using proportional interpolation without checking powers. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-KeyFeaturesLog-confuseDomain",
+      "condition": "student answers incorrectly on any question with errorId err-KeyFeaturesLog-confuseDomain",
+      "systemAction": "assign reteach module err-KeyFeaturesLog-confuseDomain, then retest err-KeyFeaturesLog-confuseDomain",
+      "studentMessage": "关于 Confusing domain of log functions, thinking domain includes non-positive numbers or forgetting the shift. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-InverseExpLog-swapDomainRangeIncorrectly",
+      "condition": "student answers incorrectly on any question with errorId err-InverseExpLog-swapDomainRangeIncorrectly",
+      "systemAction": "assign reteach module err-InverseExpLog-swapDomainRangeIncorrectly, then retest err-InverseExpLog-swapDomainRangeIncorrectly",
+      "studentMessage": "关于 Not correctly swapping domain and range when describing the inverse, or missing symmetry line y=x. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-GraphLogTransform-misapplyMapping",
+      "condition": "student answers incorrectly on any question with errorId err-GraphLogTransform-misapplyMapping",
+      "systemAction": "assign reteach module err-GraphLogTransform-misapplyMapping, then retest err-GraphLogTransform-misapplyMapping",
+      "studentMessage": "关于 Misapplying mapping notation when applying transformations, e.g., adding/subtracting incorrectly for shifts. 的理解还需要加强。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-ConvertExpLog-misidentifyBaseExponent",
+      "trigger": "When asked to convert a logarithmic equation like log_b(a)=c to exponential form, the student writes b^a=c, placing the argument as the exponent and the log value as the result.",
+      "studentMisunderstanding": "The student does not understand which numbers are the base, exponent, and result in a logarithm, confusing the argument with the exponent and the log value with the result.",
+      "miniLesson": {
+        "explain": "A logarithm tells you what exponent you need to put on a base to get another number. The equation log_b(a) = c means 'the base b raised to the exponent c gives the result a.' So you can rewrite it as b^c = a. To convert, keep the base the same, put the log value (c) as the exponent, and set the result equal to the number inside the log (a).",
+        "example": "For log₅(25)=2, the base is 5, the exponent is 2, and the result is 25. In exponential form, this is 5²=25. Notice the base 5 stays the base, the exponent 2 is the log value, and 25 is the input of the log.",
+        "memoryAnchor": "The log is the exponent. Remember 'base – exponent – answer' (BEA): the base of the log stays the base, the log value is the exponent, and the number in the log is the answer."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Convert log₂(8)=3 to exponential form.",
+          "answer": "2³ = 8"
+        },
+        {
+          "level": "L2",
+          "prompt": "Convert log₅(25)=2 to exponential form.",
+          "answer": "5² = 25"
+        },
+        {
+          "level": "L3",
+          "prompt": "Write the logarithmic form of 2³=8.",
+          "answer": "log₂(8) = 3"
+        }
+      ]
+    },
+    {
+      "errorId": "err-EvalLogNoCalc-forgetRewriteExponential",
+      "trigger": "Student missed evaluating log₂(8) without a calculator (diagnostic q2), often choosing 'Cannot determine without calculator' or a wrong integer, showing they did not rewrite the log as an exponential equation.",
+      "studentMisunderstanding": "The student treats logarithms as a calculator operation rather than a question in exponential form. They forget that log_b(a)=c is equivalent to b^c=a, so without a calculator they don't know where to start and may attempt guesswork or give up.",
+      "miniLesson": {
+        "explain": "Remember: a logarithm is an exponent. log_b(a) asks 'what power of b gives a?' Rewrite the log as an exponential equation: log_b(a)=c means b^c=a. Then find c by using powers you know. You do not need the calculator's log key; you just need to recognize the inverse relationship between exponential and logarithmic forms.",
+        "example": "Evaluate log₂(8). Let log₂(8)=c. Rewrite as 2^c=8. Since 2³=8, c=3. So log₂(8)=3.",
+        "memoryAnchor": "Base to the answer equals the argument: b^c=a. Read the log as 'b to what power gives a?'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Evaluate log₂(8) by rewriting it as an exponential equation.",
+          "answer": "log₂(8)=c → 2^c=8 → c=3, so log₂(8)=3."
+        },
+        {
+          "level": "L2",
+          "prompt": "Estimate log₂(10). Start by rewriting it as an exponential equation, then use 2³=8 and 2^3.5≈11.3.",
+          "answer": "log₂(10)=c → 2^c=10. Since 8<10<11.3, c is between 3 and 3.5."
+        },
+        {
+          "level": "L3",
+          "prompt": "Solve for x: log₂(x)=3. Use the same rewrite-as-exponential strategy.",
+          "answer": "log₂(x)=3 → 2³=x → x=8."
+        }
+      ]
+    },
+    {
+      "errorId": "err-SolveExpLogEq-dropLogIncorrectly",
+      "trigger": "When solving a logarithmic equation, the student 'drops' the log symbol and sets the inside expression equal to the other side without converting to exponential form.",
+      "studentMisunderstanding": "The student treats the log as a removable label rather than the exponent. For example, from log₂(x+1)=3 they write x+1=3. The log function is not 'cancelled' when it is on only one side of the equation.",
+      "miniLesson": {
+        "explain": "A logarithm is an exponent. The equation log_b(A)=C means that the base b raised to the power C equals A. So when you see log₂(x+1)=3, you must rewrite it as 2³=x+1. Dropping the log without rewriting is the most common error. Also, log(a+b) is not log(a)+log(b); exponent rules apply to products/quotients, not sums.",
+        "example": "Solve log₂(x+1)=3. \nIncorrect: x+1=3 → x=2. \nCorrect: Rewrite in exponential form: 2³=x+1 → 8=x+1 → x=7. Check: log₂(7+1)=log₂(8)=3 because 2³=8.",
+        "memoryAnchor": "When you see log, think 'exponent'. log_b(A)=C is just a translation: b^C=A. Don't erase the log — exchange it for an exponent."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Convert log₂(x+1)=3 to exponential form. Do not solve for x yet.",
+          "answer": "2³ = x+1"
+        },
+        {
+          "level": "L2",
+          "prompt": "Solve log₂(x+1)=3 using exponential form.",
+          "answer": "2³ = x+1 → 8 = x+1 → x=7"
+        },
+        {
+          "level": "L3",
+          "prompt": "A student solves log₂(x+1)=3 by writing x+1=3 and gets x=2. Identify the error, solve correctly, and verify your answer.",
+          "answer": "The error is dropping the log without converting to exponential form. Correct: log₂(x+1)=3 → 2³=x+1 → 8=x+1 → x=7. Check: log₂(7+1)=log₂(8)=3, which matches the original equation."
+        }
+      ]
+    },
+    {
+      "errorId": "err-EstimateLogGuessCheck-interpolateLinearly",
+      "trigger": "When a student estimates a logarithm like log₂(10) by assuming it lies proportionally between known integer-log points (e.g., between log₂8=3 and log₂16=4) and uses linear interpolation without checking powers.",
+      "studentMisunderstanding": "The student believes the logarithmic function is linear, so equal changes in x produce equal changes in y. This leads to estimates like log₂10 ≈ 3.25, but the actual value is about 3.32. The student does not verify the estimate by converting back to exponential form or by using guess-and-check.",
+      "miniLesson": {
+        "explain": "A logarithm is an exponent: log₂(x) is the number y such that 2^y = x. The graph of y = log₂(x) is a curve, not a straight line. As x increases, the log grows more and more slowly. Therefore, you cannot linearly interpolate between two known points. For example, log₂8 = 3 and log₂16 = 4. Linear interpolation would suggest log₂10 = 3 + (10−8)/(16−8) = 3.25. But check: 2^3.25 = 2^3 × 2^0.25 = 8 × 1.189 = 9.51, not 10. To estimate accurately, use guess-and-check with powers: try y = 3.3 → 2^3.3 = 8 × 2^0.3 ≈ 8 × 1.23 = 9.85, too low; try y = 3.32 → 2^3.32 ≈ 8 × 1.25 = 10.0. So log₂10 ≈ 3.32. Always validate your estimate by checking the exponential form.",
+        "example": "Estimate log₂(10). Since 2^3 = 8 and 2^4 = 16, log₂10 is between 3 and 4. Guess-and-check: 2^3.3 = 2^3 · 2^0.3 ≈ 8 · 1.23 = 9.85 (too low). 2^3.32 ≈ 8 · 1.25 = 10.0 (close). Therefore log₂10 ≈ 3.32. Note: linear interpolation gave 3.25, which is too low because the log curve is not linear.",
+        "memoryAnchor": "Logs are exponents, not slopes: don't draw a straight line between powers—check your guess with b^guess."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Since 2^3 = 8 and 2^4 = 16, log₂(10) must be between which two whole numbers?",
+          "answer": "Between 3 and 4, because 2^3 = 8 < 10 < 16 = 2^4."
+        },
+        {
+          "level": "L2",
+          "prompt": "Use guess-and-check to estimate log₂(10) to two decimal places. Show your checks for y = 3.3 and y = 3.32.",
+          "answer": "For y = 3.3: 2^3.3 = 2^3 × 2^0.3 ≈ 8 × 1.23 = 9.84, too low. For y = 3.32: 2^3.32 ≈ 8 × 1.25 = 10.0, close. So log₂10 ≈ 3.32."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate claims log₂10 ≈ 3.25 because log₂8 = 3, log₂16 = 4, and 10 is one quarter of the way from 8 to 16. Explain the flaw in this reasoning and give a correct estimate using guess-and-check with exponential checks.",
+          "answer": "The flaw is assuming the logarithmic function is linear. Equal differences in x do not produce equal differences in log₂x because the log graph is curved. Check: 2^3.25 = 2^3 × 2^0.25 ≈ 8 × 1.189 = 9.51, not 10, so 3.25 is too low. A better estimate: 2^3.32 ≈ 8 × 1.25 = 10.0, so log₂10 ≈ 3.32."
+        }
+      ]
+    },
+    {
+      "errorId": "err-KeyFeaturesLog-confuseDomain",
+      "trigger": "Student identifies the domain of a logarithmic function as all real numbers, or includes non-positive values, or forgets to adjust the domain when a horizontal shift is present.",
+      "studentMisunderstanding": "The student confuses the domain of a logarithmic function with that of an exponential function, or forgets that the argument of a logarithm must be strictly positive. They may include zero or negative numbers in the domain, and may fail to shift the domain correctly for transformed functions such as f(x)=log_b(x-h).",
+      "miniLesson": {
+        "explain": "For a logarithmic function y = log_b(x), the input x (the argument) must be greater than 0 because b^y is always positive for any real y (when b > 0 and b ≠ 1). So the domain of the parent function is (0, ∞). For a transformed function like f(x) = log_b(x - h), set the argument (x - h) > 0. Solving gives x > h, so the domain is (h, ∞). The vertical asymptote is at x = h, where the argument equals zero.",
+        "example": "For f(x) = log₂(x + 1), set x + 1 > 0 → x > -1. Therefore the domain is (-1, ∞), and the vertical asymptote is x = -1.",
+        "memoryAnchor": "The log only accepts positive numbers: whatever is inside the log must be greater than zero. If the argument is (x - h), then x must be greater than h."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the domain of y = log₃(x)? Write your answer using interval notation.",
+          "answer": "(0, ∞) or x > 0."
+        },
+        {
+          "level": "L2",
+          "prompt": "State the domain of f(x) = log₂(x - 4). Show your reasoning.",
+          "answer": "Set the argument x - 4 > 0 → x > 4. Domain: (4, ∞)."
+        },
+        {
+          "level": "L3",
+          "prompt": "For g(x) = log₅(2 - x), find the domain. Be careful with the sign of x.",
+          "answer": "Set the argument 2 - x > 0 → -x > -2 → x < 2. Domain: (-∞, 2)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-InverseExpLog-swapDomainRangeIncorrectly",
+      "trigger": "When asked to describe the inverse relationship between y=2^x and y=log₂x, the student states that the domain and range are the same for both functions, swaps them incorrectly, or does not mention the symmetry about y=x.",
+      "studentMisunderstanding": "The student does not recognize that for an inverse function, the domain and range are exchanged. They may think that both functions have the same domain and range, or they swap them the wrong way (e.g., saying the log function has domain all real numbers), and they often omit the symmetry line y=x.",
+      "miniLesson": {
+        "explain": "For an inverse function, the domain and range are swapped. For y=2^x, the domain is all real numbers and the range is (0, ∞). Since y=log₂x is the inverse, its domain is (0, ∞) (the range of the exponential) and its range is all real numbers (the domain of the exponential). The graphs of the two functions are mirror images across the line y=x.",
+        "example": "y=2^x: domain = {x∈R}, range = {y>0}. y=log₂x: domain = {x>0}, range = {y∈R}. On a graph, each point (a,b) on y=2^x corresponds to point (b,a) on y=log₂x, reflecting across y=x.",
+        "memoryAnchor": "Swap the domain and range! Exponential output becomes log input; exponential input becomes log output. Symmetry line: y=x."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Fill in the blanks: For y=2^x, the domain is ______ and the range is ______. For y=log₂x, the domain is ______ and the range is ______.",
+          "answer": "All real numbers; y>0; x>0; all real numbers."
+        },
+        {
+          "level": "L2",
+          "prompt": "Which statement correctly describes the relationship between y=2^x and y=log₂x? A) They have the same domain and range. B) Their domains and ranges are swapped, and their graphs are symmetric about y=x. C) Their graphs are symmetric about the x-axis. D) The log function has domain all real numbers.",
+          "answer": "B"
+        },
+        {
+          "level": "L3",
+          "prompt": "Write 3-4 sentences explaining the inverse relationship between y=2^x and y=log₂x, covering domain, range, and symmetry.",
+          "answer": "The functions y=2^x and y=log₂x are inverses. The exponential has domain all real numbers and range all positive numbers, so the logarithmic has domain all positive numbers and range all real numbers. Their graphs are symmetric about the line y=x, and converting between forms uses the same base."
+        }
+      ]
+    },
+    {
+      "errorId": "err-GraphLogTransform-misapplyMapping",
+      "trigger": "When graphing f(x)=log₂(x+1), the student plots points shifted right instead of left, e.g., using (x,y)→(x+1,y) rather than (x,y)→(x−1,y), and marks the vertical asymptote at x=1 instead of x=−1.",
+      "studentMisunderstanding": "The student applies the horizontal transformation in the same direction as the sign inside the argument, forgetting that mapping notation uses x' = x - h. They also fail to track the vertical asymptote shift because they don't set the argument equal to zero (x+1=0 → x=−1). This often leads to adding 1 to x‑values when they should subtract 1.",
+      "miniLesson": {
+        "explain": "Mapping notation tells you how each point on the parent graph moves. For y = log₂(x - h) + k, points (x,y) move to (x + h, y + k). The h is the horizontal shift. Important: if the function is log₂(x + 1), rewrite it as log₂(x − (−1)), so h = −1. That means every parent point moves 1 unit left. The vertical asymptote also moves from x=0 to x=−1. Many students see '+1' and shift right; remember the formula: 'x minus h inside, so add h to x in mapping.'",
+        "example": "Graph f(x)=log₂(x+1). Parent points: (1,0), (2,1), (4,2). Since h=−1, mapping: (x,y)→(x−1,y). So: (1,0)→(0,0), (2,1)→(1,1), (4,2)→(3,2). The vertical asymptote x=0 becomes x=−1. Check: f(0)=log₂(1)=0, f(1)=log₂(2)=1, f(3)=log₂(4)=2. The graph is the parent shifted left 1.",
+        "memoryAnchor": "For log₂(x + 1), 'plus one' means move left. In mapping, you subtract 1 from x-coordinates: (x,y)→(x−1,y)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For f(x)=log₂(x−3), what is h and what is the correct mapping notation? Write your answer as (x,y)→( , ).",
+          "answer": "h=3, mapping is (x,y)→(x+3,y)."
+        },
+        {
+          "level": "L2",
+          "prompt": "The parent point (1,0) is on y=log₂x. For f(x)=log₂(x+1), apply the correct mapping to find the transformed point and the vertical asymptote.",
+          "answer": "(1,0)→(0,0); vertical asymptote is x=−1."
+        },
+        {
+          "level": "L3",
+          "prompt": "Graph f(x)=log₂(x+3)−2. Find the mapping notation, the images of parent points (1,0), (2,1), (4,2), and the vertical asymptote.",
+          "answer": "Rewrite as h=−3 and k=−2, so mapping is (x,y)→(x−3, y−2). Points: (1,0)→(−2,−2), (2,1)→(−1,−1), (4,2)→(1,0). Vertical asymptote is x=−3."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-ConvertExpLog-misidentifyBaseExponent",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which exponential equation is equivalent to log₂(16) = 4?",
+          "options": [
+            "2^16 = 4",
+            "2^4 = 16",
+            "4^2 = 16",
+            "16^2 = 4"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Write log₃(81) = 4 in exponential form, and state which number is the base and which is the exponent.",
+          "rubric": "Correct exponential form is 3^4 = 81. The base is 3 and the exponent is 4. Full marks require both the correct exponential form and correct identification of base and exponent. Partial credit if the form is correct but labels are missing or incorrect."
+        }
+      ],
+      "passRule": "Question 1 must be answered correctly (option B). For Question 2, the answer must include the correct exponential form 3^4 = 81, with 3 identified as the base and 4 as the exponent. Both questions must meet criteria to pass."
+    },
+    {
+      "forErrorId": "err-EvalLogNoCalc-forgetRewriteExponential",
+      "questions": [
+        {
+          "id": "eval-log-rewrite-mcq",
+          "type": "single_choice",
+          "stem": "To evaluate log₅(125) without a calculator, which exponential equation should you write first?",
+          "options": [
+            "5^x = 125",
+            "x^5 = 125",
+            "125^x = 5",
+            "5^125 = x"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "eval-log-open",
+          "type": "open_ended",
+          "stem": "Evaluate log₃(81) without using a calculator. Show the exponential equation you used and state the value.",
+          "rubric": "Correct response must include: letting log₃(81)=x, rewriting as 3^x=81, and concluding x=4 because 3^4=81. Award full credit if the exponential equation is written and the answer 4 is given. Partial credit if equation is correct but value wrong."
+        }
+      ],
+      "passRule": "Pass if Q1 selects option 0 and Q2 includes the exponential equation 3^x=81 and answer 4."
+    },
+    {
+      "forErrorId": "err-SolveExpLogEq-dropLogIncorrectly",
+      "questions": [
+        {
+          "id": "log_eq_exponential_step_mc",
+          "type": "single_choice",
+          "stem": "What is the correct first step to solve log₅(x+2) = 2?",
+          "options": [
+            "x + 2 = 2",
+            "5² = x + 2",
+            "5^(x+2) = 2",
+            "2^(x+2) = 5"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "log_property_sum_mc",
+          "type": "single_choice",
+          "stem": "Which of the following is always true for logarithms?",
+          "options": [
+            "log(a+b) = log a + log b",
+            "log(ab) = log a + log b",
+            "log(a+b) = log a · log b",
+            "log(a−b) = log a − log b"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "log_eq_solve_open",
+          "type": "open_ended",
+          "stem": "Solve log₃(x−1) = 4. Show the exponential form as your first step, solve for x, and verify your answer.",
+          "rubric": "First step: 3⁴ = x−1. Then x−1 = 81, so x = 82. Check: log₃(82−1) = log₃(81) = 4 because 3⁴ = 81."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. Q1 must select option B (5² = x+2). Q2 must select option B (log(ab) = log a + log b). Q3 must show exponential form 3⁴ = x−1, solve to x=82, and verify log₃(81)=4."
+    },
+    {
+      "forErrorId": "err-EstimateLogGuessCheck-interpolateLinearly",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following best explains why estimating log₂(10) by finding the point halfway between log₂8=3 and log₂16=4 is not valid?",
+          "options": [
+            "Because 10 is not halfway between 8 and 16; it is closer to 8.",
+            "Because the logarithmic function y=log₂(x) is nonlinear, so equal changes in x do not produce equal changes in y.",
+            "Because log₂(10) is actually less than 3.",
+            "Because you cannot compare logarithms with different bases."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Use guess-and-check to estimate log₃(20) to one decimal place. Show your initial known powers, your guesses, and the exponential checks that confirm your estimate. Do not use linear interpolation.",
+          "rubric": "Student identifies 3^2=9 and 3^3=27, so log₃(20) is between 2 and 3. They choose a guess (e.g., 2.7), compute 3^2.7 approximately (e.g., 9 × 3^0.7 ≈ 16.8), compare to 20, adjust (e.g., 2.8 → 3^2.8 ≈ 19.4, 2.9 → 3^2.9 ≈ 21.7), and state an estimate consistent with checks (2.8 is acceptable). No evidence of linear interpolation. At least two exponential checks required."
+        }
+      ],
+      "passRule": "Q1 must be B (index 1). Q2 must show a valid guess-and-check process with exponential checks and an estimate between 2.7 and 2.9."
+    },
+    {
+      "forErrorId": "err-KeyFeaturesLog-confuseDomain",
+      "questions": [
+        {
+          "id": "q1_domain_transformed_single",
+          "type": "single_choice",
+          "stem": "Which of the following is the domain of f(x) = log₃(x - 2)?",
+          "options": [
+            "(2, ∞)",
+            "[2, ∞)",
+            "(-∞, 2)",
+            "All real numbers"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_domain_open_reasoned",
+          "type": "open_ended",
+          "stem": "Determine the domain of g(x) = log₅(3 - x). Show your reasoning and write your answer in interval notation.",
+          "rubric": "Mentions that the argument must be strictly greater than 0 (3 - x > 0). Solves the inequality correctly to obtain x < 3. Expresses the domain as (-∞, 3). Full credit requires both the correct domain and coherent reasoning."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the single-choice question, the correct option (0) must be selected. For the open-ended question, the student must provide the domain (-∞, 3) with reasoning that shows they set the argument 3 - x > 0 and solved to x < 3."
+    },
+    {
+      "forErrorId": "err-InverseExpLog-swapDomainRangeIncorrectly",
+      "questions": [
+        {
+          "id": "q1_inverse_swap_check",
+          "type": "single_choice",
+          "stem": "Consider the inverse functions f(x)=5^x and g(x)=log₅x. Which statement correctly describes their domains and ranges?",
+          "options": [
+            "Both f and g have domain all real numbers and range (0,∞).",
+            "f has domain all real numbers and range (0,∞); g has domain (0,∞) and range all real numbers.",
+            "f has domain (0,∞) and range all real numbers; g has domain all real numbers and range (0,∞).",
+            "Both f and g have domain (0,∞) and range all real numbers."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_inverse_point_swap",
+          "type": "open_ended",
+          "stem": "The point (3, 8) lies on the graph of y=2^x. Using the inverse relationship between y=2^x and y=log₂x, state the corresponding point on the graph of y=log₂x and explain how the domain and range of the two functions are related.",
+          "rubric": "The student must state the point (8, 3). They must explain that because the functions are inverses, the x- and y-coordinates swap, so the domain and range are exchanged: y=2^x has domain all real numbers and range (0,∞), while y=log₂x has domain (0,∞) and range all real numbers. Accept any clear indication of point swapping and domain/range exchange."
+        },
+        {
+          "id": "q3_inverse_symmetry",
+          "type": "single_choice",
+          "stem": "The graphs of y=b^x and y=log_b x (for b>0, b≠1) are symmetric about which line?",
+          "options": [
+            "The x-axis",
+            "The y-axis",
+            "The line y=x",
+            "The line y=-x"
+          ],
+          "correct": 2
+        }
+      ],
+      "passRule": "All three questions must be answered correctly: Q1 must select the option 'f has domain all real numbers and range (0,∞); g has domain (0,∞) and range all real numbers.' Q2 must state the point (8, 3) and explain that the domain and range are swapped (inputs/outputs exchanged). Q3 must select the line y=x."
+    },
+    {
+      "forErrorId": "err-GraphLogTransform-misapplyMapping",
+      "questions": [
+        {
+          "id": "gq1",
+          "type": "single_choice",
+          "stem": "For the function f(x)=log₂(x−3), which mapping notation correctly transforms points from the parent graph y=log₂x?",
+          "options": [
+            "(x,y)→(x+3,y)",
+            "(x,y)→(x−3,y)",
+            "(x,y)→(x,y+3)",
+            "(x,y)→(x,y−3)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "gq2",
+          "type": "open_ended",
+          "stem": "The point (2,1) lies on y=log₂x. The function g(x)=log₂(x+1)−2 is a transformation of y=log₂x. Apply mapping notation to find the image of (2,1) under g, and state the vertical asymptote of g. Show your mapping and final answers.",
+          "rubric": "Correct mapping: (x,y)→(x−1,y−2). Image: (1,−1). Vertical asymptote: x=−1. Full credit requires correct mapping and both final values."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. Q1 must select option A ((x,y)→(x+3,y)). Q2 must give the image as (1,−1), vertical asymptote as x=−1, and show mapping (x,y)→(x−1,y−2) or equivalent."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-03",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ImYXdNGWdodVZhxaGARcx4hLnFe?from=vc_group_doc_link#doxcnRbSCraqSY92fD3ecYBEp2f",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-08-03 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "review_session",
+    "objective": "The Unit 2 quiz assesses conversion between exponential and logarithmic forms.；Students must evaluate logarithms without a calculator's log key, referencing rules from the previous Thursday.；Solving exponential and logarithmic equations algebraically is required.",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Quiz Specifications",
+        "studentAction": "Note the quiz weight (3% of course) and mark allocation (50 marks: 18 K, 12 T, 10 C, 10 A).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The quiz accounts for 3% of the total course grade, with a full score of 50 marks distributed across 4 core assessment dimensions.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_requirement",
+        "title": "Quiz Test-Taking Rules",
+        "studentAction": "Only non-graphing calculator allowed; no notes, phones, or other electronic devices. Closed-book test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Only standard non-graphing calculators are allowed; no other electronic devices, notes or reference materials are permitted for this closed-book test.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Answer Format Requirements",
+        "studentAction": "All answers must be handwritten on test paper or blank paper; show full reasoning and calculation steps to earn full marks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All answers must be handwritten on the provided test paper or separate blank paper, full reasoning and calculation processes must be shown to qualify for full marks.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "attendance_camera",
+        "title": "Camera On During Quiz",
+        "studentAction": "Keep your camera turned on throughout the entire quiz session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students must keep their cameras on throughout the test.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_requirement",
+        "title": "Submit Before Exiting",
+        "studentAction": "Submit the completed quiz before leaving the online session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "submit the completed quiz before exiting the online session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Unit 2 Assignment Upload",
+        "studentAction": "Start working on the Unit 2 assignment after completing the quiz. The instructor will upload it shortly.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The instructor will upload the Unit 2 assignment shortly, and students may start working on it immediately after completing the quiz.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "follow_up_action",
+        "title": "Complete Exit Card",
+        "studentAction": "Complete the assigned exit card (likely due before next class).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students are required to complete the assigned exit card.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "announcement",
+        "title": "Next Class Reminder",
+        "studentAction": "Next regular class is tomorrow, Tuesday, August 4, 2026, as scheduled.",
+        "deadlineText": "Next class: 2026-08-04",
+        "deadlineISO": "2026-08-04",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the next regular class will be held as scheduled the following day.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "KN-ConvertExpLog",
+      "KN-EvalLogNoCalc",
+      "KN-SolveExpLogEq",
+      "KN-EstimateLogGuessCheck",
+      "KN-KeyFeaturesLog",
+      "KN-InverseExpLog",
+      "KN-GraphLogTransform"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "errorId": "err-ConvertExpLog-misidentifyBaseExponent",
+        "condition": "student answers incorrectly on any question with errorId err-ConvertExpLog-misidentifyBaseExponent",
+        "systemAction": "assign reteach module err-ConvertExpLog-misidentifyBaseExponent, then retest err-ConvertExpLog-misidentifyBaseExponent"
+      },
+      {
+        "errorId": "err-EvalLogNoCalc-forgetRewriteExponential",
+        "condition": "student answers incorrectly on any question with errorId err-EvalLogNoCalc-forgetRewriteExponential",
+        "systemAction": "assign reteach module err-EvalLogNoCalc-forgetRewriteExponential, then retest err-EvalLogNoCalc-forgetRewriteExponential"
+      },
+      {
+        "errorId": "err-SolveExpLogEq-dropLogIncorrectly",
+        "condition": "student answers incorrectly on any question with errorId err-SolveExpLogEq-dropLogIncorrectly",
+        "systemAction": "assign reteach module err-SolveExpLogEq-dropLogIncorrectly, then retest err-SolveExpLogEq-dropLogIncorrectly"
+      },
+      {
+        "errorId": "err-EstimateLogGuessCheck-interpolateLinearly",
+        "condition": "student answers incorrectly on any question with errorId err-EstimateLogGuessCheck-interpolateLinearly",
+        "systemAction": "assign reteach module err-EstimateLogGuessCheck-interpolateLinearly, then retest err-EstimateLogGuessCheck-interpolateLinearly"
+      },
+      {
+        "errorId": "err-KeyFeaturesLog-confuseDomain",
+        "condition": "student answers incorrectly on any question with errorId err-KeyFeaturesLog-confuseDomain",
+        "systemAction": "assign reteach module err-KeyFeaturesLog-confuseDomain, then retest err-KeyFeaturesLog-confuseDomain"
+      },
+      {
+        "errorId": "err-InverseExpLog-swapDomainRangeIncorrectly",
+        "condition": "student answers incorrectly on any question with errorId err-InverseExpLog-swapDomainRangeIncorrectly",
+        "systemAction": "assign reteach module err-InverseExpLog-swapDomainRangeIncorrectly, then retest err-InverseExpLog-swapDomainRangeIncorrectly"
+      },
+      {
+        "errorId": "err-GraphLogTransform-misapplyMapping",
+        "condition": "student answers incorrectly on any question with errorId err-GraphLogTransform-misapplyMapping",
+        "systemAction": "assign reteach module err-GraphLogTransform-misapplyMapping, then retest err-GraphLogTransform-misapplyMapping"
+      }
+    ],
+    "nextActions": [
+      "[err-ConvertExpLog-misidentifyBaseExponent] student answers incorrectly on any question with errorId err-ConvertExpLog-misidentifyBaseExponent: 关于 Misidentifying base and exponent when converting between forms, e.g., writing log_b(a)=c as b^a=c. 的理解还需要加强。",
+      "[err-EvalLogNoCalc-forgetRewriteExponential] student answers incorrectly on any question with errorId err-EvalLogNoCalc-forgetRewriteExponential: 关于 Forgetting to rewrite the log as an exponential equation to evaluate, e.g., trying to use calculator when not allowed. 的理解还需要加强。",
+      "[err-SolveExpLogEq-dropLogIncorrectly] student answers incorrectly on any question with errorId err-SolveExpLogEq-dropLogIncorrectly: 关于 Incorrectly applying log properties, such as log(a+b) = log(a) + log(b). 的理解还需要加强。",
+      "[err-EstimateLogGuessCheck-interpolateLinearly] student answers incorrectly on any question with errorId err-EstimateLogGuessCheck-interpolateLinearly: 关于 Assuming the logarithm is linear and using proportional interpolation without checking powers. 的理解还需要加强。",
+      "[err-KeyFeaturesLog-confuseDomain] student answers incorrectly on any question with errorId err-KeyFeaturesLog-confuseDomain: 关于 Confusing domain of log functions, thinking domain includes non-positive numbers or forgetting the shift. 的理解还需要加强。",
+      "[err-InverseExpLog-swapDomainRangeIncorrectly] student answers incorrectly on any question with errorId err-InverseExpLog-swapDomainRangeIncorrectly: 关于 Not correctly swapping domain and range when describing the inverse, or missing symmetry line y=x. 的理解还需要加强。",
+      "[err-GraphLogTransform-misapplyMapping] student answers incorrectly on any question with errorId err-GraphLogTransform-misapplyMapping: 关于 Misapplying mapping notation when applying transformations, e.g., adding/subtracting incorrectly for shifts. 的理解还需要加强。"
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-u2-0803-q1",
+        "type": "choice",
+        "question": "Which exponential equation is equivalent to log₅(25)=2?",
+        "options": [
+          "5² = 25",
+          "2⁵ = 25",
+          "25² = 5",
+          "5^25 = 2"
+        ],
+        "correct": 0,
+        "diagnosis": "Check understanding of the fundamental log-to-exponential conversion rule.",
+        "misconceptions": [
+          "✓ Correct. The base of the log becomes the base of the exponent, the result becomes the exponent, and the number inside the log becomes the result.",
+          "You swapped the base and the exponent. Remember: log_b(a)=c means b^c = a. Here b=5, c=2, a=25, not 2^5=25.",
+          "You confused the positions. The base is 5, the exponent is 2, and the result is 25. The correct form is 5²=25.",
+          "The exponent and result are swapped. The log result (2) is the exponent, so the exponential form is 5²=25."
+        ],
+        "nodeId": "KN-ConvertExpLog",
+        "errorId": "err-ConvertExpLog-misidentifyBaseExponent",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "Convert between exponential and logarithmic forms accurately.",
+        "successCriteria": "Student correctly identifies the equivalent exponential equation from a logarithmic equation.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches expectation A1 on exponential-logarithmic relationship.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Misidentifying the base and exponent when converting between forms.",
+        "remediationModule": "err-ConvertExpLog-misidentifyBaseExponent",
+        "retestItem": "err-ConvertExpLog-misidentifyBaseExponent"
+      },
+      {
+        "id": "diag-mhf4u-u2-0803-q2",
+        "type": "choice",
+        "question": "Evaluate log₂(8) without a calculator.",
+        "options": [
+          "3",
+          "16",
+          "4",
+          "Cannot determine without calculator"
+        ],
+        "correct": 0,
+        "diagnosis": "Check ability to compute simple logarithms mentally by rewriting as exponential equation.",
+        "misconceptions": [
+          "✓ Correct. Rewriting as 2ˣ=8, since 2³=8, x=3.",
+          "You multiplied base and argument? Use exponential form: 2 to what power gives 8? That power is the log value.",
+          "2⁴=16, not 8. Try 2³.",
+          "You can determine this by rewriting as an exponential equation: 2ˣ=8. Find x by knowing your powers."
+        ],
+        "nodeId": "KN-EvalLogNoCalc",
+        "errorId": "err-EvalLogNoCalc-forgetRewriteExponential",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Evaluate logarithms without a calculator using exponential form.",
+        "successCriteria": "Student correctly computes the logarithm by converting to exponential form.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Matches A1 - evaluate logarithms.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Forgetting to rewrite the log as an exponential equation to evaluate.",
+        "remediationModule": "err-EvalLogNoCalc-forgetRewriteExponential",
+        "retestItem": "err-EvalLogNoCalc-forgetRewriteExponential"
+      },
+      {
+        "id": "diag-mhf4u-u2-0803-q3",
+        "type": "choice",
+        "question": "Solve: log₂(x+1) = 3",
+        "options": [
+          "x = 7",
+          "x = 5",
+          "x = 8",
+          "x = 2"
+        ],
+        "correct": 0,
+        "diagnosis": "Check ability to solve a simple log equation by using definition.",
+        "misconceptions": [
+          "✓ Correct. Rewrite as 2³ = x+1 → 8 = x+1 → x=7.",
+          "You might have subtracted 1 first without converting from log form. Convert to exponential first: base 2 raised to power 3 equals x+1.",
+          "You might have set x+1=3 directly. Remember, the log equation log_b(y)=c means b^c = y.",
+          "You may have divided or misapplied. Use the definition: log₂(x+1)=3 → 2³ = x+1."
+        ],
+        "nodeId": "KN-SolveExpLogEq",
+        "errorId": "err-SolveExpLogEq-dropLogIncorrectly",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "Solve exponential and logarithmic equations algebraically.",
+        "successCriteria": "Student correctly solves a logarithmic equation by converting to exponential form.",
+        "ossdExpectation": "Solve exponential and simple logarithmic equations in one variable algebraically, including those in problems arising from real-world applications.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "MHF4U-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Matches A3 - solving logarithmic equations algebraically.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Incorrectly applying log properties such as dropping log without converting to exponential.",
+        "remediationModule": "err-SolveExpLogEq-dropLogIncorrectly",
+        "retestItem": "err-SolveExpLogEq-dropLogIncorrectly"
+      }
+    ]
+  }
+}
