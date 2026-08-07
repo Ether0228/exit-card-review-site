@@ -1,0 +1,810 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-08-04",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ZfNtdMJlIo16LGx1sUZcuul5nfg?from=vc_group_doc_link#doxcnfCR7ytY18kQykWyMxJo2lc",
+  "sourceTitle": "OLC4O.S6.Keth 2026-08-04 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/ZfNtdMJlIo16LGx1sUZcuul5nfg?from=vc_group_doc_link#doxcnfCR7ytY18kQykWyMxJo2lc",
+    "title": "OLC4O.S6.Keth 2026-08-04 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-07/sources/olc4o-s6-keth-2026-08-04-zfntdmjl/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-08-04",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-08-04",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson included review of Unit 2 assignments with detailed feedback, and introduction to Unit 3 content (persuasive writing, reading skills, assessments). Students had independent work time. Therefore, it is a mixed session with instructional and review elements.",
+    "academicContentSignals": [
+      "Review of Unit 2 interview outline and narrative text assignments, focusing on completeness, details, word count, formatting.",
+      "Model assignment from Cheng Xiangyan demonstrating good structure and real-life logic.",
+      "Introduction to Unit 3: persuasive writing, reading for main idea and rhetorical devices.",
+      "Unit 3 includes exit cards, workbook, initial persuasive piece, final persuasive essay, unit test."
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "High risk: Many specific assignment deadlines, modification requirements, and submission instructions might overshadow the academic feedback and Unit 3 preview in an automated question generator. Ensure exit card questions probe understanding of writing criteria (e.g., why add details, what makes a good interview outline) and Unit 3 concepts (e.g., what is persuasive writing, what are rhetorical devices).",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "第二单元未完成作业提交截止",
+        "studentAction": "在8月7日前提交第二单元未完成的作业",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有未完成第二单元作业的学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "未完成学生可利用本次课堂时间推进，需在7日前提交",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "material_needed",
+        "title": "程湘妍第二单元作业可作为范本",
+        "studentAction": "参考程湘妍提交的作业框架进行修改",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "程湘妍提交的作业框架完整、符合真实创作逻辑，整体完成度较高，可作为其他学生的参考范本",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "采访提纲补充要求",
+        "studentAction": "在采访提纲中补充被采访同学的姓名和年级信息",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有需修改采访提纲的学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "采访大纲修改：需在大纲中补充受访同学的具体姓名、年级信息",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "叙事文本修改要求",
+        "studentAction": "扩充叙事文本至300字以上，补充受访对象受挫细节和共同学习场景细节",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有需修改叙事文本的学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "叙事文本修改：现有叙事文本仅242字，需补充受访对象受挫细节、共同学习场景细节，将字数提升至300字以上",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "文本格式规范修正",
+        "studentAction": "检查并修正文本中的大小写错误、单词连写问题，排查系统标红错误",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有提交叙事文本的学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "格式规范提醒：需修正文本中大小写错误、单词连写问题，后续提交文稿前需全面排查系统标红的错误内容",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "采访佐证材料提交",
+        "studentAction": "提交受访对象的单人照片，可选录制打码视频作为采访真实性佐证",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有提交采访作业的学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "素材提交要求：需提交受访对象的单人照片，同时可录制短片段打码视频，作为采访真实性的佐证材料即可。隐私保护规则：所有提交的音视频素材可对人脸进行打码处理",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "第三单元考核安排",
+        "studentAction": "注意第三单元将包括随堂离场卡、练习册作业、基础劝诫短文、最终版劝诫essay，完成后将组织单元测试",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "阶段作业设置：单元学习过程中需完成随堂离场卡、配套练习册作业，最终需提交基础劝诫短文、最终版劝诫 essay 两项大作业。单元收尾安排：完成所有作业提交后将组织单元统一测试",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "announcement",
+        "title": "第二单元考试成绩通知",
+        "studentAction": "第二单元考试成绩暂未公布，留意后续通知",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "当前第二单元的考试成绩暂未公布，后续将另行通知",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "class_policy",
+        "title": "课堂答疑方式",
+        "studentAction": "课堂剩余时间可通过公屏留言或开麦咨询作业问题",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu (公屏/语音)",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "本次课程剩余时间全部开放给学生自主完成作业，有任何疑问可通过公屏留言或开麦的方式直接咨询",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Writing Persuasive Texts、Reading Persuasive Texts、Revising Narrative Writing）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Unit 3 focuses on persuasive writing and reading, with core skills including main idea summarization and rhetorical device identification.；Unit 3 assignments include exit tickets, workbook exercises, a basic persuasive essay, a final persuasive essay, and a unit test.；For Unit 2 narrative assignments, students must expand texts from 242 words to over 300 by adding details of setbacks and shared learning scenes.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can identify the purpose of persuasive writing and adapt tone and evidence for a specific audience."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can distinguish the main idea from supporting details when reading persuasive texts."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students can apply revision strategies that add meaningful content rather than only fixing surface errors."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "node-persuasive-writing",
+      "name": "Writing Persuasive Texts",
+      "nameEn": "Writing Persuasive Texts",
+      "definition": "Students will learn to write persuasive essays (opinion pieces), progressing from a basic persuasive essay to a final persuasive essay, integrating form, audience, and purpose.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "node-persuasive-reading",
+      "name": "Reading Persuasive Texts",
+      "nameEn": "Reading Persuasive Texts",
+      "definition": "Students will practice reading strategies for persuasive texts, including identifying the main idea and recognizing rhetorical devices.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "OLC4O-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies."
+    },
+    {
+      "id": "node-revision-narrative",
+      "name": "Revising Narrative Writing",
+      "nameEn": "Revising Narrative Writing",
+      "definition": "Students revise narrative texts by adding details about setbacks and shared learning scenes to expand word count from 242 to over 300, correcting capitalization and word conjoining errors.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "OLC4O-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify the purpose of persuasive writing and adapt tone and evidence for a specific audience."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can distinguish the main idea from supporting details when reading persuasive texts."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can apply revision strategies that add meaningful content rather than only fixing surface errors."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-persuasive-purpose-audience",
+        "condition": "Student answers Q1 or Q4 incorrectly",
+        "systemAction": "Assign reteach module err-persuasive-purpose-audience",
+        "studentMessage": "We need to review the difference between persuasive, narrative, and informative writing before moving on."
+      },
+      {
+        "errorId": "err-main-idea-vs-detail",
+        "condition": "Student answers Q2 incorrectly",
+        "systemAction": "Assign reteach module err-main-idea-vs-detail",
+        "studentMessage": "Let's practice finding the main idea and separating it from supporting details."
+      },
+      {
+        "errorId": "err-revision-surface-only",
+        "condition": "Student answers Q3 incorrectly",
+        "systemAction": "Assign reteach module err-revision-surface-only",
+        "studentMessage": "We need to practice revision that adds content, not just fixes errors."
+      }
+    ],
+    "questions": [
+      {
+        "id": "olc4o-s6-q1",
+        "nodeId": "node-persuasive-writing",
+        "errorId": "err-persuasive-purpose-audience",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Chooses the correct purpose of a persuasive essay instead of narrative or informative purposes.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses persuasive writing purpose, which is part of writing forms and audience/purpose expectations under B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check whether the student can identify the persuasive genre's core purpose.",
+        "commonMisconception": "Student conflates persuasive writing with storytelling or objective explanation.",
+        "remediationModule": "err-persuasive-purpose-audience",
+        "retestItem": "err-persuasive-purpose-audience",
+        "stem": "In Unit 3, which sentence best describes the main purpose of a persuasive essay?",
+        "options": [
+          {
+            "label": "A",
+            "text": "To tell a personal story about a meaningful experience",
+            "correct": false,
+            "feedbackWrong": "That is a narrative purpose. Persuasive writing aims to convince the reader, not just to tell a story."
+          },
+          {
+            "label": "B",
+            "text": "To convince the reader to agree with a particular position",
+            "correct": true,
+            "feedbackCorrect": "Exactly. Persuasive essays are opinion pieces meant to convince the audience."
+          },
+          {
+            "label": "C",
+            "text": "To explain a topic fairly without taking a side",
+            "correct": false,
+            "feedbackWrong": "That describes informative or explanatory writing, not persuasive writing."
+          },
+          {
+            "label": "D",
+            "text": "To summarize the main points of another writer's text",
+            "correct": false,
+            "feedbackWrong": "Summarizing is a different task; a persuasive essay argues a position rather than simply summarizing."
+          }
+        ]
+      },
+      {
+        "id": "olc4o-s6-q2",
+        "nodeId": "node-persuasive-reading",
+        "errorId": "err-main-idea-vs-detail",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Selects the overall claim of a short persuasive passage rather than a supporting detail.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question assesses the reading strategy of identifying main idea versus supporting details in a persuasive text.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check whether the student can distinguish the main idea from supporting details when reading a persuasive text.",
+        "commonMisconception": "Student mistakes a supporting detail or an example for the main idea.",
+        "remediationModule": "err-main-idea-vs-detail",
+        "retestItem": "err-main-idea-vs-detail",
+        "stem": "Read this short passage:\n'Many students stay after class to finish homework. Longer library hours would also give students a quiet place to read. For these reasons, the school board should keep the library open until 6 p.m.'\nWhat is the main idea of this passage?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Many students stay after class to finish homework.",
+            "correct": false,
+            "feedbackWrong": "This is a supporting detail, not the main idea. It gives one reason for longer hours."
+          },
+          {
+            "label": "B",
+            "text": "The library has a quiet place to read.",
+            "correct": false,
+            "feedbackWrong": "This is another supporting detail, not the central claim."
+          },
+          {
+            "label": "C",
+            "text": "The school board should keep the library open later.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The main idea is the overall claim; the other choices are details that support it."
+          },
+          {
+            "label": "D",
+            "text": "The library is currently open until 6 p.m.",
+            "correct": false,
+            "feedbackWrong": "The passage argues for this change; it does not state the library is currently open until 6 p.m."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-persuasive-purpose-audience",
+      "condition": "Student answers Q1 or Q4 incorrectly",
+      "systemAction": "Assign reteach module err-persuasive-purpose-audience",
+      "studentMessage": "We need to review the difference between persuasive, narrative, and informative writing before moving on."
+    },
+    {
+      "errorId": "err-main-idea-vs-detail",
+      "condition": "Student answers Q2 incorrectly",
+      "systemAction": "Assign reteach module err-main-idea-vs-detail",
+      "studentMessage": "Let's practice finding the main idea and separating it from supporting details."
+    },
+    {
+      "errorId": "err-revision-surface-only",
+      "condition": "Student answers Q3 incorrectly",
+      "systemAction": "Assign reteach module err-revision-surface-only",
+      "studentMessage": "We need to practice revision that adds content, not just fixes errors."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-persuasive-purpose-audience",
+      "trigger": "Student confuses persuasive writing's purpose (to convince) with narrative or informative writing, or ignores audience when choosing evidence/tone.",
+      "studentMisunderstanding": "The student thinks a persuasive essay is meant to tell a story or explain a topic fairly, instead of to convince the reader to agree with a particular position. They also may not adjust their message for the specific audience.",
+      "miniLesson": {
+        "explain": "In Unit 3, persuasive writing is an opinion piece. Its purpose is to convince the reader to agree with your position. It is different from narrative writing, which tells a personal story, and informative writing, which explains a topic without taking a side. The OLC4O expectation says writers must understand the connections between form, audience, and purpose, so a persuasive text must be shaped to convince the people reading it.",
+        "example": "Unit 3 moves from a basic persuasive essay to a final persuasive essay. For each one, you need a clear opinion and reasons that would convince your reader. If you just tell a story or list both sides without arguing, you are not meeting the persuasive purpose.",
+        "memoryAnchor": "Persuade = 'I want YOU to agree.' If you're telling a story, it's narrative. If you're explaining both sides, it's informative. In persuasive writing, every sentence pushes the reader toward your position."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of these best describes the main purpose of a persuasive essay in Unit 3? (A) To tell a personal story, (B) To convince the reader to agree with an opinion, (C) To explain a topic without taking a side.",
+          "answer": "B. The purpose is to convince the reader to agree with a particular opinion."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student is writing a persuasive paragraph about school homework to present to parents. Which sentence would be most persuasive for that audience, and why? (A) 'I like homework.' (B) 'Homework should be limited because it takes time away from family activities.' (C) 'Homework is a topic people discuss.'",
+          "answer": "B. It states a clear position and gives a reason that parents would care about, connecting the persuasive form to the audience's values."
+        },
+        {
+          "level": "L3",
+          "prompt": "Read this sentence: 'The school has after-school activities.' Rewrite it as a persuasive claim for the principal, using the OLC4O idea that form, audience, and purpose are connected.",
+          "answer": "Possible answer: 'The school should expand after-school activities because they keep students engaged and give them a safe place to learn.' This turns a neutral statement into an opinion with reasons aimed at persuading the principal."
+        }
+      ]
+    },
+    {
+      "errorId": "err-main-idea-vs-detail",
+      "trigger": "Student answers Q2 incorrectly",
+      "studentMisunderstanding": "The student mistakes supporting details for the main idea when reading persuasive texts, treating examples or reasons as the central claim.",
+      "miniLesson": {
+        "explain": "The main idea is the writer's central claim in a persuasive text. Supporting details are the specific reasons, examples, or evidence used to prove that claim. When you read, ask: 'What is the author trying to convince me of?' The answer is the main idea. A detail may be true but it is not the main idea if it only supports the claim.",
+        "example": "Consider the passage: 'Many students stay after class to finish homework. Longer library hours would also give students a quiet place to read. For these reasons, the school board should keep the library open until 6 p.m.' Here, the main idea is the last sentence: the school board should keep the library open later. The first two sentences are supporting details that give reasons.",
+        "memoryAnchor": "Main idea = the umbrella; details = the rain. The umbrella covers all the details; the details explain the umbrella."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Read this short passage: 'Many students stay after class to finish homework. The school board should keep the library open until 6 p.m.' Which sentence is the main idea? Write that sentence.",
+          "answer": "The school board should keep the library open until 6 p.m."
+        },
+        {
+          "level": "L2",
+          "prompt": "Read this passage: 'Many students stay after class to finish homework. Longer library hours would also give students a quiet place to read. For these reasons, the school board should keep the library open until 6 p.m.' Which of the following is the main idea? A) Many students stay after class to finish homework. B) The library has a quiet place to read. C) The school board should keep the library open later. D) The library is currently open until 6 p.m.",
+          "answer": "C"
+        },
+        {
+          "level": "L3",
+          "prompt": "Read this passage: 'In Unit 3, students will complete exit tickets, workbook exercises, a basic persuasive essay, a final persuasive essay, and a unit test. These tasks all build skills in persuasive writing and reading. The main purpose of Unit 3 is to develop students' ability to write and understand persuasive texts.' What is the main idea of this passage? Write your answer in one sentence.",
+          "answer": "The main purpose of Unit 3 is to develop students' ability to write and understand persuasive texts."
+        }
+      ]
+    },
+    {
+      "errorId": "err-revision-surface-only",
+      "trigger": "Student answers Q3 incorrectly",
+      "studentMisunderstanding": "The student thinks revision only means fixing spelling and grammar and does not include adding content or details.",
+      "miniLesson": {
+        "explain": "Revision is more than correcting capitalization and word conjoining. In Unit 2, students had to expand their narrative texts from 242 words to over 300 by adding details about setbacks and shared learning scenes. This means revision must also add meaningful content, not only fix surface errors.",
+        "example": "A student's narrative was 242 words and seemed complete. To revise it properly, the student had to add details about a setback and a shared learning scene to reach 300+ words. Fixing capitals and joining words was part of the process, but expanding the story with new content was the main goal.",
+        "memoryAnchor": "Revise = add the missing story, not just fix the typos."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A classmate says, 'I fixed all the capitals and joined the words, so my revision is done.' Why is this not enough?",
+          "answer": "Because revision should also add content, like expanding the narrative from 242 words to over 300 by including setbacks and shared learning scenes."
+        },
+        {
+          "level": "L2",
+          "prompt": "Your narrative draft is 242 words. List two kinds of details you could add to meet the 300-word requirement.",
+          "answer": "Details about a setback and details about a shared learning scene."
+        },
+        {
+          "level": "L3",
+          "prompt": "Rewrite this short narrative section to show a real revision: 'We practiced for the talent show. On the day, we performed.' Add one setback and one shared learning scene to make the section longer than the original.",
+          "answer": "Example response: 'We practiced for the talent show for weeks. The day before, our main singer lost her voice, and we thought we would have to quit. After a long talk, we rearranged the song and practiced even harder. On the day, we performed together, and we learned that teamwork matters more than perfection.'"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-persuasive-purpose-audience",
+      "questions": [
+        {
+          "id": "err-persuasive-purpose-audience-q1",
+          "type": "single_choice",
+          "stem": "Which sentence best demonstrates the purpose of persuasive writing as taught in Unit 3?",
+          "options": [
+            "I went to the park yesterday and had a great time.",
+            "The park has a playground, a pond, and many trees.",
+            "Our town should build a new park because it would bring families together and improve health.",
+            "Some people like parks, while others prefer playgrounds."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "err-persuasive-purpose-audience-q2",
+          "type": "open_ended",
+          "stem": "A student wrote this sentence: 'The school library has many books.' Rewrite it as a persuasive claim addressed to the school principal. Explain how your word choice shows that you are trying to convince the principal specifically.",
+          "rubric": "The rewritten sentence must state a clear opinion (e.g., 'The school library should receive more funding') and include at least one reason that a principal would care about (e.g., student achievement, reading skills). The explanation must connect the wording to the principal's role or values. Responses that remain neutral, informational, or story-like are incorrect."
+        }
+      ],
+      "passRule": "The student must select option C (index 2) for question 1 and, for question 2, give a response that (a) takes a clear position, (b) gives a reason aimed at the principal, and (c) explicitly states how the wording considers the audience. If either part is missing, the student does not pass."
+    },
+    {
+      "forErrorId": "err-main-idea-vs-detail",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Read the passage: 'For the interview assignment, students must submit a single photo and a short coded video of the interviewee. These items show the interview happened and protect the person's privacy. Therefore, interview evidence must include both a photo and a video.' What is the main idea of this passage?",
+          "options": [
+            "A single photo of the interviewee is required.",
+            "A short coded video protects privacy.",
+            "Students must submit both a photo and a video as interview evidence.",
+            "The interview assignment requires an interviewee."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Read the passage: 'Unit 3 focuses on persuasive writing and reading. Students will practice identifying main ideas and rhetorical devices. They will also write an opinion piece. These skills help students express and evaluate arguments. The goal of Unit 3 is to become confident in persuasive texts.' Write the main idea in one sentence. Then list one supporting detail from the passage.",
+          "rubric": "Main idea must capture the central claim: Unit 3 aims to develop persuasive reading and writing skills (or similar). Supporting detail must be a specific example from the passage, such as 'practice identifying main ideas and rhetorical devices' or 'write an opinion piece.' A response that correctly states the main idea and provides at least one accurate supporting detail passes."
+        }
+      ],
+      "passRule": "Answer Q1 correctly and Q2 meets the rubric criteria."
+    },
+    {
+      "forErrorId": "err-revision-surface-only",
+      "questions": [
+        {
+          "id": "retest-revision-surface-q1",
+          "type": "single_choice",
+          "stem": "In Unit 2, a student's narrative draft is exactly 242 words and has no spelling or grammar mistakes. Based on the assignment requirements, which action would be a proper revision?",
+          "options": [
+            "Submit it immediately since it is error-free.",
+            "Add details about a setback and a shared learning scene to expand it beyond 300 words.",
+            "Only check for consistent verb tense.",
+            "Change the title to make it more interesting."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-revision-surface-q2",
+          "type": "open_ended",
+          "stem": "In your own words, explain the difference between editing and revising in this course. Provide one specific example of a content-focused revision a student could make.",
+          "rubric": "The answer must clearly state that revising goes beyond fixing surface errors (like spelling and grammar) and includes adding meaningful content or details. A valid example: expanding a narrative from 242 words to over 300 words by adding a setback and a shared learning scene."
+        }
+      ],
+      "passRule": "Q1 correct (answer B). Q2 response must mention that revision includes adding content/details and give an appropriate example (e.g., expanding narrative with setback and shared learning scene)."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-08-04",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/ZfNtdMJlIo16LGx1sUZcuul5nfg?from=vc_group_doc_link#doxcnfCR7ytY18kQykWyMxJo2lc",
+    "sourceTitle": "OLC4O.S6.Keth 2026-08-04 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Unit 3 focuses on persuasive writing and reading, with core skills including main idea summarization and rhetorical device identification.；Unit 3 assignments include exit tickets, workbook exercises, a basic persuasive essay, a final persuasive essay, and a unit test.；For Unit 2 narrative assignments, students must expand texts from 242 words to over 300 by adding details of setbacks and shared learning scenes.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify the purpose of persuasive writing and adapt tone and evidence for a specific audience."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can distinguish the main idea from supporting details when reading persuasive texts."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students can apply revision strategies that add meaningful content rather than only fixing surface errors."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "第二单元未完成作业提交截止",
+        "studentAction": "在8月7日前提交第二单元未完成的作业",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有未完成第二单元作业的学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "未完成学生可利用本次课堂时间推进，需在7日前提交",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "material_needed",
+        "title": "程湘妍第二单元作业可作为范本",
+        "studentAction": "参考程湘妍提交的作业框架进行修改",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "程湘妍提交的作业框架完整、符合真实创作逻辑，整体完成度较高，可作为其他学生的参考范本",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "采访提纲补充要求",
+        "studentAction": "在采访提纲中补充被采访同学的姓名和年级信息",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有需修改采访提纲的学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "采访大纲修改：需在大纲中补充受访同学的具体姓名、年级信息",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "assignment",
+        "title": "叙事文本修改要求",
+        "studentAction": "扩充叙事文本至300字以上，补充受访对象受挫细节和共同学习场景细节",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有需修改叙事文本的学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "叙事文本修改：现有叙事文本仅242字，需补充受访对象受挫细节、共同学习场景细节，将字数提升至300字以上",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "文本格式规范修正",
+        "studentAction": "检查并修正文本中的大小写错误、单词连写问题，排查系统标红错误",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有提交叙事文本的学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "格式规范提醒：需修正文本中大小写错误、单词连写问题，后续提交文稿前需全面排查系统标红的错误内容",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "采访佐证材料提交",
+        "studentAction": "提交受访对象的单人照片，可选录制打码视频作为采访真实性佐证",
+        "deadlineText": "8月7日前",
+        "deadlineISO": "2026-08-07T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有提交采访作业的学生",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "素材提交要求：需提交受访对象的单人照片，同时可录制短片段打码视频，作为采访真实性的佐证材料即可。隐私保护规则：所有提交的音视频素材可对人脸进行打码处理",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "第三单元考核安排",
+        "studentAction": "注意第三单元将包括随堂离场卡、练习册作业、基础劝诫短文、最终版劝诫essay，完成后将组织单元测试",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "阶段作业设置：单元学习过程中需完成随堂离场卡、配套练习册作业，最终需提交基础劝诫短文、最终版劝诫 essay 两项大作业。单元收尾安排：完成所有作业提交后将组织单元统一测试",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "announcement",
+        "title": "第二单元考试成绩通知",
+        "studentAction": "第二单元考试成绩暂未公布，留意后续通知",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "当前第二单元的考试成绩暂未公布，后续将另行通知",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "class_policy",
+        "title": "课堂答疑方式",
+        "studentAction": "课堂剩余时间可通过公屏留言或开麦咨询作业问题",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Feishu (公屏/语音)",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "本次课程剩余时间全部开放给学生自主完成作业，有任何疑问可通过公屏留言或开麦的方式直接咨询",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "node-persuasive-writing",
+      "node-persuasive-reading",
+      "node-revision-narrative"
+    ],
+    "totalQuestions": 2,
+    "completed": false,
+    "passScore": 2,
+    "diagnosisRules": [
+      {
+        "errorId": "err-persuasive-purpose-audience",
+        "condition": "Student answers Q1 or Q4 incorrectly",
+        "systemAction": "Assign reteach module err-persuasive-purpose-audience"
+      },
+      {
+        "errorId": "err-main-idea-vs-detail",
+        "condition": "Student answers Q2 incorrectly",
+        "systemAction": "Assign reteach module err-main-idea-vs-detail"
+      },
+      {
+        "errorId": "err-revision-surface-only",
+        "condition": "Student answers Q3 incorrectly",
+        "systemAction": "Assign reteach module err-revision-surface-only"
+      }
+    ],
+    "nextActions": [
+      "[err-persuasive-purpose-audience] Student answers Q1 or Q4 incorrectly: We need to review the difference between persuasive, narrative, and informative writing before moving on.",
+      "[err-main-idea-vs-detail] Student answers Q2 incorrectly: Let's practice finding the main idea and separating it from supporting details.",
+      "[err-revision-surface-only] Student answers Q3 incorrectly: We need to practice revision that adds content, not just fixes errors."
+    ],
+    "cards": [
+      {
+        "id": "olc4o-s6-q1",
+        "type": "choice",
+        "question": "In Unit 3, which sentence best describes the main purpose of a persuasive essay?",
+        "options": [
+          "To tell a personal story about a meaningful experience",
+          "To convince the reader to agree with a particular position",
+          "To explain a topic fairly without taking a side",
+          "To summarize the main points of another writer's text"
+        ],
+        "correct": 1,
+        "diagnosis": "Check whether the student can identify the persuasive genre's core purpose.",
+        "misconceptions": [
+          "That is a narrative purpose. Persuasive writing aims to convince the reader, not just to tell a story.",
+          "✓ Exactly. Persuasive essays are opinion pieces meant to convince the audience.",
+          "That describes informative or explanatory writing, not persuasive writing.",
+          "Summarizing is a different task; a persuasive essay argues a position rather than simply summarizing."
+        ],
+        "nodeId": "node-persuasive-writing",
+        "errorId": "err-persuasive-purpose-audience",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Chooses the correct purpose of a persuasive essay instead of narrative or informative purposes.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question directly assesses persuasive writing purpose, which is part of writing forms and audience/purpose expectations under B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student conflates persuasive writing with storytelling or objective explanation.",
+        "remediationModule": "err-persuasive-purpose-audience",
+        "retestItem": "err-persuasive-purpose-audience"
+      },
+      {
+        "id": "olc4o-s6-q2",
+        "type": "choice",
+        "question": "Read this short passage:\n'Many students stay after class to finish homework. Longer library hours would also give students a quiet place to read. For these reasons, the school board should keep the library open until 6 p.m.'\nWhat is the main idea of this passage?",
+        "options": [
+          "Many students stay after class to finish homework.",
+          "The library has a quiet place to read.",
+          "The school board should keep the library open later.",
+          "The library is currently open until 6 p.m."
+        ],
+        "correct": 2,
+        "diagnosis": "Check whether the student can distinguish the main idea from supporting details when reading a persuasive text.",
+        "misconceptions": [
+          "This is a supporting detail, not the main idea. It gives one reason for longer hours.",
+          "This is another supporting detail, not the central claim.",
+          "✓ Correct. The main idea is the overall claim; the other choices are details that support it.",
+          "The passage argues for this change; it does not state the library is currently open until 6 p.m."
+        ],
+        "nodeId": "node-persuasive-reading",
+        "errorId": "err-main-idea-vs-detail",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Selects the overall claim of a short persuasive passage rather than a supporting detail.",
+        "ossdExpectation": "Demonstrate understanding of the content and meaning of informational, narrative, and graphic texts that they have read using a variety of reading strategies.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "OLC4O-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question assesses the reading strategy of identifying main idea versus supporting details in a persuasive text.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Student mistakes a supporting detail or an example for the main idea.",
+        "remediationModule": "err-main-idea-vs-detail",
+        "retestItem": "err-main-idea-vs-detail"
+      }
+    ]
+  }
+}

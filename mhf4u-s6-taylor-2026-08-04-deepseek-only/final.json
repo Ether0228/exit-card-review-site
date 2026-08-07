@@ -1,0 +1,1067 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-08-04",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Jfj7dyK5lonWvGxjxwxcd9HEnyc?from=vc_group_doc_link#doxcnafpCUmTWe8WRUBBTHtGryc",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-08-04 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Jfj7dyK5lonWvGxjxwxcd9HEnyc?from=vc_group_doc_link#doxcnafpCUmTWe8WRUBBTHtGryc",
+    "title": "MHF4U.S6.Taylor 2026-08-04 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-07/sources/mhf4u-s6-taylor-2026-08-04/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-08-04",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-04",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Instructional session covering exponent rule review, logarithm law derivations, guided examples, and problem-solving practice, with some administrative announcements about upcoming test and assignments.",
+    "academicContentSignals": [
+      "Exponent rules (8 basic rules provided)",
+      "Logarithm product, quotient, power laws derivation",
+      "Guided calculation examples: log₃6+log₃4.5, log₂48−log₂3, log₅∛25",
+      "In-class exercise: decompose logₐ√(x³y²/W) into linear combination of logs",
+      "Equivalent logarithmic expressions and graph equivalence",
+      "Change of base formula: log_b x = log_c x / log_c b",
+      "Exponential equation solving methods and practice (unify bases, take logs, graph intersections; radon half-life, 2^(x+2)−2^x=24, compound interest)",
+      "Logarithmic equation solving rules and practice (log-exp conversion, same-base cancellation, validity check; Richter scale, negative solutions invalid)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Admin items like test date and assignment deadline risk dominating the exit card if not limited. Diagnostic should focus 80%+ on exponent/logarithm skills with only brief, lightweight reminders about logistics.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Test",
+        "studentAction": "Prepare for and write the Unit 2 test",
+        "deadlineText": "Next class (August 5, 2026)",
+        "deadlineISO": "2026-08-05T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The Unit 2 test held the next day covers all content taught in this session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Unit assignment and lesson exercises due",
+        "studentAction": "Submit unit assignment and lesson exercises",
+        "deadlineText": "August 5, 2026 (same as test date)",
+        "deadlineISO": "2026-08-05T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Without confirmed extension demand collected via exit cards, both the unit assignment and the lesson exercises are due on the official test date.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "teacher_request",
+        "title": "Extension request via exit card",
+        "studentAction": "If you need an assignment extension, submit request via exit card",
+        "deadlineText": "Before the test (August 5, 2026)",
+        "deadlineISO": "2026-08-04T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "students needing extension",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Without confirmed extension demand collected via exit cards...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Previous quiz challenge question is bonus only",
+        "studentAction": "Note that the challenge question in the previous quiz only counts as bonus and does not affect regular course grade",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The challenge question in the prior quiz is only for bonus marks, and will not be counted into regular course grade calculation.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Without confirmed extension demand collected via exit cards",
+        "reason": "Unclear if exit card is a specific digital tool or in-class activity; submission method and exact timing need confirmation."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Logarithm Laws、Exponential and Logarithmic Equations、Exponent Rules）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Eight basic exponent rules: product, quotient, power of a power, power of a product, power of a quotient, zero exponent, negative exponent, fractional exponent.；Logarithm definition: log_a x = y means a^y = x, with a>0, a≠1, x>0.；Logarithm laws: log_a(xy) = log_a x + log_a y, log_a(x/y) = log_a x - log_a y, log_a(x^n) = n log_a x.",
+  "learningGoals": [
+    {
+      "id": "LG1",
+      "statement": "Apply logarithm laws (product, quotient, power) to simplify and evaluate logarithmic expressions."
+    },
+    {
+      "id": "LG2",
+      "statement": "Solve exponential and logarithmic equations algebraically, checking for domain restrictions and extraneous solutions."
+    },
+    {
+      "id": "LG3",
+      "statement": "Use the change of base formula to evaluate logarithms with unfamiliar bases."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-S6-LOGLAWS",
+      "name": "Logarithm Laws",
+      "nameEn": "Logarithm Laws",
+      "definition": "For a>0, a≠1, x>0, y>0: product rule log_a(xy) = log_a x + log_a y, quotient rule log_a(x/y) = log_a x - log_a y, power rule log_a(x^n) = n log_a x.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "MHF4U-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions."
+    },
+    {
+      "id": "MHF4U-S6-EXPLOG-EQS",
+      "name": "Exponential and Logarithmic Equations",
+      "nameEn": "Exponential and Logarithmic Equations",
+      "definition": "Methods for solving exponential equations: unify bases, take common logarithm, or find graph intersection. For logarithmic equations: convert between logarithmic and exponential forms, cancel same-base logs, and always verify that solutions keep arguments positive.",
+      "officialExpectationCode": "A3",
+      "officialNodeId": "MHF4U-A-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve exponential and simple logarithmic equations in one variable algebraically, including those in problems arising from real-world applications."
+    },
+    {
+      "id": "MHF4U-S6-EXPRULES",
+      "name": "Exponent Rules",
+      "nameEn": "Exponent Rules",
+      "definition": "Eight basic exponent rules: product (a^m·a^n = a^(m+n)), quotient (a^m/a^n = a^(m-n)), power of a power ((a^m)^n = a^(mn)), power of a product ((ab)^n = a^n b^n), power of a quotient ((a/b)^n = a^n/b^n), zero exponent (a^0=1, a≠0), negative exponent (a^(-n)=1/a^n), fractional exponent (a^(m/n) = n√(a^m)).",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "LG1",
+        "statement": "Apply logarithm laws (product, quotient, power) to simplify and evaluate logarithmic expressions."
+      },
+      {
+        "id": "LG2",
+        "statement": "Solve exponential and logarithmic equations algebraically, checking for domain restrictions and extraneous solutions."
+      },
+      {
+        "id": "LG3",
+        "statement": "Use the change of base formula to evaluate logarithms with unfamiliar bases."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-log-laws-sum",
+        "condition": "student selects option A on Q1 (log_2 (8+4) = log_2 8 + log_2 4)",
+        "systemAction": "assign reteach module err-log-laws-sum",
+        "studentMessage": "The product rule only works for multiplication inside the log, not addition. Let's revisit how log laws apply."
+      },
+      {
+        "errorId": "err-log-domain",
+        "condition": "student does not select x > 5/2 on Q2",
+        "systemAction": "assign reteach module err-log-domain",
+        "studentMessage": "Remember, the argument of a logarithm must be strictly greater than zero. Review domain restrictions."
+      },
+      {
+        "errorId": "err-extraneous-check",
+        "condition": "student does not select option C on Q3",
+        "systemAction": "assign reteach module err-extraneous-check",
+        "studentMessage": "When solving log equations, always plug solutions back to ensure logs have valid arguments. Check for extraneous solutions."
+      },
+      {
+        "errorId": "err-change-base",
+        "condition": "student does not select option A on Q4",
+        "systemAction": "assign reteach module err-change-base",
+        "studentMessage": "The change of base formula is log_c x / log_c b, not the inverse. Practice with a few examples."
+      },
+      {
+        "errorId": "err-exponent-confusion",
+        "condition": "student does not select 2^6 on Q5",
+        "systemAction": "assign reteach module err-exponent-confusion",
+        "studentMessage": "For (a^m)^n, multiply the exponents: a^(m*n), not add. Let's drill exponent rules."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-s6-0804-q1",
+        "nodeId": "MHF4U-S6-LOGLAWS",
+        "errorId": "err-log-laws-sum",
+        "stem": "Which of the following correctly simplifies $\\log_2(8+4)$?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "LG1",
+        "successCriteria": "Student correctly identifies that the logarithm of a sum cannot be split into a sum of logarithms.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches A1 expectation on applying logarithm laws.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student mistakenly applies the product rule to a sum inside a logarithm.",
+        "commonMisconception": "Assuming $\\log(a+b) = \\log a + \\log b$.",
+        "remediationModule": "err-log-laws-sum",
+        "retestItem": "err-log-laws-sum",
+        "options": [
+          {
+            "label": "A",
+            "text": "$\\log_2 8 + \\log_2 4$",
+            "correct": false,
+            "feedbackWrong": "The product rule applies to multiplication, not addition. $\\log_2(8+4) = \\log_2 12$, not a sum of logs."
+          },
+          {
+            "label": "B",
+            "text": "$\\log_2 12$",
+            "correct": true,
+            "feedbackCorrect": "Correct. $8+4=12$, so the expression simplifies to $\\log_2 12$."
+          },
+          {
+            "label": "C",
+            "text": "$\\log_2 8 \\times \\log_2 4$",
+            "correct": false,
+            "feedbackWrong": "This is not a valid logarithmic simplification; the log of a sum is not the product of the logs."
+          },
+          {
+            "label": "D",
+            "text": "$\\log_2 (8\\times4)$",
+            "correct": false,
+            "feedbackWrong": "$8+4$ is not $8\\times4$. The argument inside the log must remain as the sum."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0804-q2",
+        "nodeId": "MHF4U-S6-LOGLAWS",
+        "errorId": "err-log-domain",
+        "stem": "What must be true for $\\log_3(2x-5)$ to represent a real number?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "LG1",
+        "successCriteria": "Student sets the argument $2x-5 > 0$ and solves correctly for $x > 5/2$.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the domain of logarithmic functions is fundamental to A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Diagnose if student recalls that log arguments must be positive and can solve a simple linear inequality.",
+        "commonMisconception": "Forgetting to check that arguments must be positive or solving the inequality incorrectly.",
+        "remediationModule": "err-log-domain",
+        "retestItem": "err-log-domain",
+        "options": [
+          {
+            "label": "A",
+            "text": "$x > \\frac{5}{2}$",
+            "correct": true,
+            "feedbackCorrect": "Correct. For the log to be defined, $2x-5 > 0 \\Rightarrow x > 5/2$."
+          },
+          {
+            "label": "B",
+            "text": "$x < \\frac{5}{2}$",
+            "correct": false,
+            "feedbackWrong": "If $x < 5/2$, then $2x-5$ becomes negative or zero, which is not allowed."
+          },
+          {
+            "label": "C",
+            "text": "$x > 0$",
+            "correct": false,
+            "feedbackWrong": "While the whole argument must be positive, the restriction is $2x-5 > 0$, not just $x > 0$."
+          },
+          {
+            "label": "D",
+            "text": "$x > 5$",
+            "correct": false,
+            "feedbackWrong": "Test $x=3$: $2(3)-5=1>0$, so $x > 5$ is too strict."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0804-q3",
+        "nodeId": "MHF4U-S6-EXPLOG-EQS",
+        "errorId": "err-extraneous-check",
+        "stem": "When solving $\\log_2(x-3) + \\log_2(x) = 2$, a student finds $x = -1$ and $x = 4$. Which statement is correct?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "LG2",
+        "successCriteria": "Student identifies $x = 4$ as valid because it makes both arguments positive, and rejects $x = -1$ as extraneous.",
+        "ossdExpectation": "Solve exponential and simple logarithmic equations in one variable algebraically, including those in problems arising from real-world applications.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "MHF4U-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Checking for extraneous solutions is an essential step in solving logarithmic equations, matching A3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Diagnose if student verifies domain after solving logarithmic equations.",
+        "commonMisconception": "Assuming all algebraic solutions are valid without checking if they make log arguments positive.",
+        "remediationModule": "err-extraneous-check",
+        "retestItem": "err-extraneous-check",
+        "options": [
+          {
+            "label": "A",
+            "text": "Both solutions are valid.",
+            "correct": false,
+            "feedbackWrong": "$x = -1$ makes $\\log_2(x-3) = \\log_2(-4)$, which is undefined."
+          },
+          {
+            "label": "B",
+            "text": "$x = -1$ is valid because it satisfies the original equation.",
+            "correct": false,
+            "feedbackWrong": "Even if it satisfies the transformed equation, a valid solution must keep all log arguments positive."
+          },
+          {
+            "label": "C",
+            "text": "$x = 4$ is valid because it makes both arguments positive.",
+            "correct": true,
+            "feedbackCorrect": "Correct. $x=4$ gives $\\log_2(1) + \\log_2(4) = 0+2=2$, and both arguments are positive."
+          },
+          {
+            "label": "D",
+            "text": "Neither solution is valid.",
+            "correct": false,
+            "feedbackWrong": "$x = 4$ works as shown above; only $x = -1$ is extraneous."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0804-q4",
+        "nodeId": "MHF4U-S6-LOGLAWS",
+        "errorId": "err-change-base",
+        "stem": "Which expression correctly calculates $\\log_5 20$ using common logarithms (base 10)?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "LG3",
+        "successCriteria": "Student selects $\\log(20) / \\log(5)$, applying the change of base formula $\\log_b x = \\frac{\\log_c x}{\\log_c b}$.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Change of base formula is part of evaluating logarithms, aligning with A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student inverts the change of base formula.",
+        "commonMisconception": "Writing $\\frac{\\log_c b}{\\log_c x}$ instead of $\\frac{\\log_c x}{\\log_c b}$.",
+        "remediationModule": "err-change-base",
+        "retestItem": "err-change-base",
+        "options": [
+          {
+            "label": "A",
+            "text": "$\\frac{\\log 20}{\\log 5}$",
+            "correct": true,
+            "feedbackCorrect": "Correct. Change of base: $\\log_5 20 = \\frac{\\log_{10} 20}{\\log_{10} 5}$."
+          },
+          {
+            "label": "B",
+            "text": "$\\frac{\\log 5}{\\log 20}$",
+            "correct": false,
+            "feedbackWrong": "This is the reciprocal; it would compute $\\log_{20} 5$."
+          },
+          {
+            "label": "C",
+            "text": "$\\log 20 - \\log 5$",
+            "correct": false,
+            "feedbackWrong": "That would be $\\log(20/5) = \\log 4$, not $\\log_5 20$."
+          },
+          {
+            "label": "D",
+            "text": "$\\log 20 + \\log 5$",
+            "correct": false,
+            "feedbackWrong": "That would be $\\log(20\\times5) = \\log 100 = 2$, not related."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0804-q5",
+        "nodeId": "MHF4U-S6-EXPRULES",
+        "errorId": "err-exponent-confusion",
+        "stem": "Simplify $(2^3)^2$.",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "LG1",
+        "successCriteria": "Student multiplies exponents to get $2^6 = 64$.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Exponent rules are prerequisite Grade 11 material not directly listed in MHF4U overall expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student correctly applies the power of a power rule vs. adding exponents.",
+        "commonMisconception": "Adding the exponents: $(a^m)^n = a^{m+n}$.",
+        "remediationModule": "err-exponent-confusion",
+        "retestItem": "err-exponent-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "$2^5$",
+            "correct": false,
+            "feedbackWrong": "That would be $2^3 \\cdot 2^2$, not a power of a power."
+          },
+          {
+            "label": "B",
+            "text": "$2^6$",
+            "correct": true,
+            "feedbackCorrect": "Correct. $(2^3)^2 = 2^{3\\times2} = 2^6$."
+          },
+          {
+            "label": "C",
+            "text": "$2^8$",
+            "correct": false,
+            "feedbackWrong": "That would be $2^4 \\cdot 2^4$, not the given expression."
+          },
+          {
+            "label": "D",
+            "text": "$2^1$",
+            "correct": false,
+            "feedbackWrong": "That would be $\\frac{2^3}{2^2}$, not a power of a power."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-log-laws-sum",
+      "condition": "student selects option A on Q1 (log_2 (8+4) = log_2 8 + log_2 4)",
+      "systemAction": "assign reteach module err-log-laws-sum",
+      "studentMessage": "The product rule only works for multiplication inside the log, not addition. Let's revisit how log laws apply."
+    },
+    {
+      "errorId": "err-log-domain",
+      "condition": "student does not select x > 5/2 on Q2",
+      "systemAction": "assign reteach module err-log-domain",
+      "studentMessage": "Remember, the argument of a logarithm must be strictly greater than zero. Review domain restrictions."
+    },
+    {
+      "errorId": "err-extraneous-check",
+      "condition": "student does not select option C on Q3",
+      "systemAction": "assign reteach module err-extraneous-check",
+      "studentMessage": "When solving log equations, always plug solutions back to ensure logs have valid arguments. Check for extraneous solutions."
+    },
+    {
+      "errorId": "err-change-base",
+      "condition": "student does not select option A on Q4",
+      "systemAction": "assign reteach module err-change-base",
+      "studentMessage": "The change of base formula is log_c x / log_c b, not the inverse. Practice with a few examples."
+    },
+    {
+      "errorId": "err-exponent-confusion",
+      "condition": "student does not select 2^6 on Q5",
+      "systemAction": "assign reteach module err-exponent-confusion",
+      "studentMessage": "For (a^m)^n, multiply the exponents: a^(m*n), not add. Let's drill exponent rules."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-log-laws-sum",
+      "trigger": "Student selects option A on Q1 (log_2 (8+4) = log_2 8 + log_2 4)",
+      "studentMisunderstanding": "The student incorrectly applies the product rule of logarithms to a sum, believing log(a+b) = log a + log b.",
+      "miniLesson": {
+        "explain": "The product rule for logarithms says that when adding two logs with the same base, you multiply their arguments: log_a(xy) = log_a x + log_a y. It does NOT say that the log of a sum equals the sum of the logs. In other words, log_a(x+y) is not log_a x + log_a y. The only operation that creates a sum of logs is multiplication inside a single log.",
+        "example": "From the lesson: log₃ 6 + log₃ 4.5 = log₃(6 × 4.5) = log₃ 27 = 3. Here the plus sign is between two logs, so we combine the arguments by multiplying. If the expression were log₃(6 + 4.5), it would be log₃ 10.5, which is not 3.",
+        "memoryAnchor": "Addition of logs → multiply inside. Addition inside one log → stop! No law allows splitting it."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which is correct: log₂(3+2) = log₂3 + log₂2, or log₂(3+2) = log₂5? Explain why.",
+          "answer": "The second is correct: since 3+2=5, log₂(3+2) = log₂5. The first would be log₂3 + log₂2 = log₂(3×2) = log₂6, which is not the same as log₂5."
+        },
+        {
+          "level": "L2",
+          "prompt": "Use the product law to evaluate log₃6 + log₃4.5.",
+          "answer": "log₃6 + log₃4.5 = log₃(6 × 4.5) = log₃27 = 3."
+        },
+        {
+          "level": "L3",
+          "prompt": "A friend says: 'Because log₃6 + log₃4.5 = 3, it means log₃(6+4.5) = 3.' Is the friend correct? Explain the correct law.",
+          "answer": "No. The product law says log_a(xy) = log_a x + log_a y, so log₃6 + log₃4.5 = log₃(6×4.5) = 3. The sum inside one log cannot be split; log₃(6+4.5) is a different value, not 3."
+        }
+      ]
+    },
+    {
+      "errorId": "err-log-domain",
+      "trigger": "Student does not select x > 5/2 on Q2 (log_3(2x-5))",
+      "studentMisunderstanding": "The student forgets that logarithm arguments must be strictly positive. They may accept negative or zero inputs as valid, causing them to miss domain restrictions or keep invalid solutions.",
+      "miniLesson": {
+        "explain": "A logarithm log_a x is only defined for x > 0 (with a > 0, a ≠ 1). Whenever a logarithm appears, its argument must be strictly greater than zero. When solving logarithmic equations, all algebraic solutions must be checked in the original equation to ensure every logarithm has a positive argument. Any solution that creates a zero or negative argument is rejected.",
+        "example": "For log_3(2x-5), the argument must be positive: 2x - 5 > 0. Solving gives x > 5/2. This means x = 2 is not allowed because 2(2)-5 = -1, but x = 3 is allowed because 2(3)-5 = 1 > 0.",
+        "memoryAnchor": "The log's food must always be positive. If the inside is zero or negative, the log cannot eat it — it becomes undefined."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For log_2(x-3) to be a real number, which inequality must hold? Write the domain for x.",
+          "answer": "x - 3 > 0, so x > 3."
+        },
+        {
+          "level": "L2",
+          "prompt": "Find the domain of log_3(2x-5).",
+          "answer": "2x - 5 > 0, so x > 5/2."
+        },
+        {
+          "level": "L3",
+          "prompt": "The equation log_2(x-3) + log_2(x) = 2 produces possible solutions x = -1 and x = 4. Which solution is valid in the original equation, and why is the other rejected?",
+          "answer": "x = 4 is valid because x-3 = 1 and x = 4, so both arguments are positive. x = -1 is rejected because x-3 = -4 and x = -1, which are not positive arguments for a logarithm."
+        }
+      ]
+    },
+    {
+      "errorId": "err-extraneous-check",
+      "trigger": "Student does not check for extraneous solutions after solving logarithmic equations, accepting all algebraic results without verifying argument positivity.",
+      "studentMisunderstanding": "Students often forget that logarithm arguments must be positive. After solving a logarithmic equation, they must substitute solutions back to ensure no argument is ≤0; otherwise, those solutions are extraneous and must be discarded.",
+      "miniLesson": {
+        "explain": "When solving logarithmic equations, always check your solutions. Any solution that makes the argument of any logarithm zero or negative is invalid (extraneous). This is because the domain of log_a(x) is x>0.",
+        "example": "Solve log_2(x-3) + log_2(x) = 2. Step 1: Combine logs: log_2(x(x-3)) = 2 → x^2 - 3x = 4 → x^2 - 3x - 4 = 0 → (x-4)(x+1)=0 → x=4, x=-1. Step 2: Check: For x=4, logs are log_2(1) and log_2(4), both valid. For x=-1, log_2(-4) is undefined. So only x=4 is valid.",
+        "memoryAnchor": "Remember: 'Logs love positives! Check before you accept.' Always test your solution in the original equation's log arguments."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Solve log_5(x) = 1 and check for extraneous solutions.",
+          "answer": "x=5, valid because argument 5 > 0."
+        },
+        {
+          "level": "L2",
+          "prompt": "Solve log_3(x) + log_3(x-2) = 1 and check for extraneous solutions.",
+          "answer": "Combine: log_3(x(x-2)) = 1 → x^2-2x = 3 → x^2-2x-3=0 → x=3, x=-1. Check: x=3 gives logs of 3 and 1 (ok); x=-1 gives log_3(-1) (undefined). Only x=3 is valid."
+        },
+        {
+          "level": "L3",
+          "prompt": "Solve log_3(x+4) - log_3(x-2) = 1 and check for extraneous solutions.",
+          "answer": "Combine: log_3((x+4)/(x-2)) = 1 → (x+4)/(x-2)=3 → x+4=3x-6 → 10=2x → x=5. Check: arguments are 9 and 3, both positive. So x=5 is valid."
+        }
+      ]
+    },
+    {
+      "errorId": "err-change-base",
+      "trigger": "Student does not select option A on Q4 (log(20)/log(5)) for log_5 20, selecting the inverted form instead.",
+      "studentMisunderstanding": "The student inverts the change of base formula, writing log_c b / log_c x instead of log_c x / log_c b. They likely confuse which value (the original base versus the argument) should be the numerator and which should be the denominator when converting to a new base.",
+      "miniLesson": {
+        "explain": "The change of base formula states: log_b x = log_c x / log_c b. It allows you to rewrite a logarithm with any new base c. The argument x is the numerator, and the original base b is the denominator. This is not simply flipping the fraction. To see why, let y = log_b x, so b^y = x. Taking log_c of both sides gives y log_c b = log_c x, so y = log_c x / log_c b. The argument x is divided by the base b, not the other way around.",
+        "example": "To evaluate log_2 48 using common logs, write: log_2 48 = log_10 48 / log_10 2. The argument 48 goes on top, the original base 2 goes on bottom. Similarly, log_3 6 = log_10 6 / log_10 3.",
+        "memoryAnchor": "Remember: 'argument up, base down'. The number inside the log (the argument) is the numerator, and the original base is the denominator: log_b x = log x / log b."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which expression correctly uses the change of base formula to evaluate log_2 48 with common logarithms?",
+          "answer": "log(48)/log(2)"
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite log_3 6 using natural logarithms (ln).",
+          "answer": "ln(6)/ln(3)"
+        },
+        {
+          "level": "L3",
+          "prompt": "A student writes log_5 25 = log(5)/log(25). What is the correct expression and the value of log_5 25?",
+          "answer": "The student swapped numerator and denominator. Correct: log(25)/log(5) = 2 because 5^2 = 25."
+        }
+      ]
+    },
+    {
+      "errorId": "err-exponent-confusion",
+      "trigger": "Student incorrectly simplified (2^3)^2, indicating confusion between multiplying and adding exponents.",
+      "studentMisunderstanding": "The student confuses the power of a power rule ((a^m)^n = a^(m*n)) with the product rule (a^m * a^n = a^(m+n)), often adding exponents when they should multiply.",
+      "miniLesson": {
+        "explain": "When you raise a power to another power, you multiply the exponents. For example, (2^3)^2 means you have (2^3) multiplied by itself: (2^3)*(2^3) = 2^(3+3) = 2^6, but a shortcut is to multiply the exponents: 3 * 2 = 6, so (2^3)^2 = 2^6. Do not add them; adding is for multiplying powers with the same base: 2^3 * 2^2 = 2^(3+2) = 2^5.",
+        "example": "Simplify (2^3)^2: Multiply 3 and 2 to get 6, so it equals 2^6 = 64. Contrast with 2^3 * 2^2 = 2^(3+2) = 2^5 = 32. Notice the parentheses: they indicate power of a power.",
+        "memoryAnchor": "Power of a power? Multiply the exponents! Product of powers? Add the exponents."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Simplify (2^3)^2 using the power of a power rule.",
+          "answer": "2^6"
+        },
+        {
+          "level": "L2",
+          "prompt": "Calculate and compare: (2^3)^2 and 2^3 * 2^2.",
+          "answer": "(2^3)^2 = 2^6 = 64; 2^3 * 2^2 = 2^5 = 32. So (2^3)^2 is larger."
+        },
+        {
+          "level": "L3",
+          "prompt": "Simplify (5^3)^2.",
+          "answer": "5^6"
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-log-laws-sum",
+      "questions": [
+        {
+          "id": "q1-single-choice",
+          "type": "single_choice",
+          "stem": "Which of the following is a correct use of the product law for logarithms?",
+          "options": [
+            "log₂(3+5) = log₂3 + log₂5",
+            "log₂(3×5) = log₂3 + log₂5",
+            "log₂(3−5) = log₂3 − log₂5",
+            "log₂(3÷5) = log₂3 ÷ log₂5"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-open-ended",
+          "type": "open_ended",
+          "stem": "A student writes: 'log₅25 + log₅5 = log₅(25+5) = log₅30.' Is this correct? If not, state the correct value and explain the logarithm law that applies.",
+          "rubric": "The student should say the statement is incorrect. The product law states log_a x + log_a y = log_a(xy), so log₅25 + log₅5 = log₅(25×5) = log₅125. Since 125 = 5³, the value is 3. The explanation should mention that addition of logs corresponds to multiplication of arguments, not addition of arguments."
+        }
+      ],
+      "passRule": "Must answer the single-choice question with the correct option (B) and provide a correct explanation in the open-ended response that clearly rejects the sum rule and evaluates to 3."
+    },
+    {
+      "forErrorId": "err-log-domain",
+      "questions": [
+        {
+          "id": "q1_domain",
+          "type": "single_choice",
+          "stem": "Which inequality gives the domain of the expression log₆(4 - 2x)?",
+          "options": [
+            "x < 2",
+            "x > 2",
+            "x < -2",
+            "x > -2"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_domain",
+          "type": "open_ended",
+          "stem": "Consider the equation log₂(x) + log₂(x - 2) = 3. After solving, you obtain x = -2 and x = 4. State which solution is valid and which is extraneous, and give the domain restriction that rejects the invalid one.",
+          "rubric": "Valid solution: x = 4. Extraneous: x = -2 because both logarithms require their arguments to be positive: x > 0 and x - 2 > 0, so x > 2. Since x = -2 gives arguments -2 and -4 (not positive), it is rejected."
+        }
+      ],
+      "passRule": "Q1 must be correct. Q2 must identify x=4 as valid, x=-2 as extraneous, and explicitly state that logarithm arguments must be positive (or that the domain is x>2, so x=-2 is excluded)."
+    },
+    {
+      "forErrorId": "err-extraneous-check",
+      "questions": [
+        {
+          "id": "extraneous-mc-1",
+          "type": "single_choice",
+          "stem": "When solving log_2(x-1) + log_2(x+1) = 3, the algebraic solutions are x = 3 and x = -3. What is the correct final solution set?",
+          "options": [
+            "{3}",
+            "{-3}",
+            "{3,-3}",
+            "∅"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "extraneous-open-1",
+          "type": "open_ended",
+          "stem": "Solve log_2(x+2) + log_2(x-1) = 2. Show your work and state the final solution set. Remember to check for extraneous solutions.",
+          "rubric": "Combines logs: log_2((x+2)(x-1)) = 2; rewrites as (x+2)(x-1) = 4; expands to x^2 + x - 6 = 0; factors to (x+3)(x-2) = 0; solutions x = -3 and x = 2; checks x = -3: log_2(-1) is undefined, reject; checks x = 2: log_2(4) + log_2(1) = 2, valid; final answer {2}."
+        }
+      ],
+      "passRule": "To pass, the student must select '{3}' on the multiple-choice question and provide a complete solution to the open-ended question that identifies x = 2 as the only valid solution and explicitly rejects x = -3 as extraneous."
+    },
+    {
+      "forErrorId": "err-change-base",
+      "questions": [
+        {
+          "id": "qcb1",
+          "type": "single_choice",
+          "stem": "Which expression correctly uses the change of base formula to evaluate log_3 48 using common logarithms?",
+          "options": [
+            "log(48)/log(3)",
+            "log(3)/log(48)",
+            "log(48 - 3)",
+            "log(48) * log(3)"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "qcb2",
+          "type": "open_ended",
+          "stem": "A student rewrites log_5 25 as log(5)/log(25). Identify the mistake (if any), write the correct change-of-base expression, and state the value of log_5 25.",
+          "rubric": "The student inverted the formula. Correct expression is log(25)/log(5). Since 5^2 = 25, log_5 25 = 2. Full credit for identifying inversion and giving correct expression; value 2 expected."
+        }
+      ],
+      "passRule": "Both questions correct; Q1 must select option 0, and Q2 must explicitly state the correct expression log(25)/log(5) and the value 2."
+    },
+    {
+      "forErrorId": "err-exponent-confusion",
+      "questions": [
+        {
+          "id": "sc-exponent-confusion-001",
+          "type": "single_choice",
+          "stem": "Which of the following is equal to (2^3)^2?",
+          "options": [
+            "2^5",
+            "2^6",
+            "2^8",
+            "2^9"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "oe-exponent-confusion-002",
+          "type": "open_ended",
+          "stem": "Simplify each expression and explain the difference: (3^2)^3 and 3^2 · 3^3.",
+          "rubric": "Correct: (3^2)^3 = 3^(2×3) = 3^6 = 729, because raise a power to a power by multiplying exponents. 3^2 · 3^3 = 3^(2+3) = 3^5 = 243, because multiplying same bases means add exponents. Must explicitly state that power-of-power uses multiplication and product-of-powers uses addition."
+        }
+      ],
+      "passRule": "Answer Q1 correctly (2^6) and Q2 with both simplified expressions (3^6 and 3^5 or 729 and 243) and clearly explain that power of a power multiplies exponents while product of powers adds exponents."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-04",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Jfj7dyK5lonWvGxjxwxcd9HEnyc?from=vc_group_doc_link#doxcnafpCUmTWe8WRUBBTHtGryc",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-08-04 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Eight basic exponent rules: product, quotient, power of a power, power of a product, power of a quotient, zero exponent, negative exponent, fractional exponent.；Logarithm definition: log_a x = y means a^y = x, with a>0, a≠1, x>0.；Logarithm laws: log_a(xy) = log_a x + log_a y, log_a(x/y) = log_a x - log_a y, log_a(x^n) = n log_a x.",
+    "learningGoals": [
+      {
+        "id": "LG1",
+        "statement": "Apply logarithm laws (product, quotient, power) to simplify and evaluate logarithmic expressions."
+      },
+      {
+        "id": "LG2",
+        "statement": "Solve exponential and logarithmic equations algebraically, checking for domain restrictions and extraneous solutions."
+      },
+      {
+        "id": "LG3",
+        "statement": "Use the change of base formula to evaluate logarithms with unfamiliar bases."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 2 Test",
+        "studentAction": "Prepare for and write the Unit 2 test",
+        "deadlineText": "Next class (August 5, 2026)",
+        "deadlineISO": "2026-08-05T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The Unit 2 test held the next day covers all content taught in this session.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Unit assignment and lesson exercises due",
+        "studentAction": "Submit unit assignment and lesson exercises",
+        "deadlineText": "August 5, 2026 (same as test date)",
+        "deadlineISO": "2026-08-05T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Without confirmed extension demand collected via exit cards, both the unit assignment and the lesson exercises are due on the official test date.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "teacher_request",
+        "title": "Extension request via exit card",
+        "studentAction": "If you need an assignment extension, submit request via exit card",
+        "deadlineText": "Before the test (August 5, 2026)",
+        "deadlineISO": "2026-08-04T23:59:59+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "students needing extension",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Without confirmed extension demand collected via exit cards...",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Previous quiz challenge question is bonus only",
+        "studentAction": "Note that the challenge question in the previous quiz only counts as bonus and does not affect regular course grade",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The challenge question in the prior quiz is only for bonus marks, and will not be counted into regular course grade calculation.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Without confirmed extension demand collected via exit cards",
+        "reason": "Unclear if exit card is a specific digital tool or in-class activity; submission method and exact timing need confirmation."
+      }
+    ],
+    "watchTags": [
+      "MHF4U-S6-LOGLAWS",
+      "MHF4U-S6-EXPLOG-EQS",
+      "MHF4U-S6-EXPRULES"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-log-laws-sum",
+        "condition": "student selects option A on Q1 (log_2 (8+4) = log_2 8 + log_2 4)",
+        "systemAction": "assign reteach module err-log-laws-sum"
+      },
+      {
+        "errorId": "err-log-domain",
+        "condition": "student does not select x > 5/2 on Q2",
+        "systemAction": "assign reteach module err-log-domain"
+      },
+      {
+        "errorId": "err-extraneous-check",
+        "condition": "student does not select option C on Q3",
+        "systemAction": "assign reteach module err-extraneous-check"
+      },
+      {
+        "errorId": "err-change-base",
+        "condition": "student does not select option A on Q4",
+        "systemAction": "assign reteach module err-change-base"
+      },
+      {
+        "errorId": "err-exponent-confusion",
+        "condition": "student does not select 2^6 on Q5",
+        "systemAction": "assign reteach module err-exponent-confusion"
+      }
+    ],
+    "nextActions": [
+      "[err-log-laws-sum] student selects option A on Q1 (log_2 (8+4) = log_2 8 + log_2 4): The product rule only works for multiplication inside the log, not addition. Let's revisit how log laws apply.",
+      "[err-log-domain] student does not select x > 5/2 on Q2: Remember, the argument of a logarithm must be strictly greater than zero. Review domain restrictions.",
+      "[err-extraneous-check] student does not select option C on Q3: When solving log equations, always plug solutions back to ensure logs have valid arguments. Check for extraneous solutions.",
+      "[err-change-base] student does not select option A on Q4: The change of base formula is log_c x / log_c b, not the inverse. Practice with a few examples.",
+      "[err-exponent-confusion] student does not select 2^6 on Q5: For (a^m)^n, multiply the exponents: a^(m*n), not add. Let's drill exponent rules."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-s6-0804-q1",
+        "type": "choice",
+        "question": "Which of the following correctly simplifies $\\log_2(8+4)$?",
+        "options": [
+          "$\\log_2 8 + \\log_2 4$",
+          "$\\log_2 12$",
+          "$\\log_2 8 \\times \\log_2 4$",
+          "$\\log_2 (8\\times4)$"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student mistakenly applies the product rule to a sum inside a logarithm.",
+        "misconceptions": [
+          "The product rule applies to multiplication, not addition. $\\log_2(8+4) = \\log_2 12$, not a sum of logs.",
+          "✓ Correct. $8+4=12$, so the expression simplifies to $\\log_2 12$.",
+          "This is not a valid logarithmic simplification; the log of a sum is not the product of the logs.",
+          "$8+4$ is not $8\\times4$. The argument inside the log must remain as the sum."
+        ],
+        "nodeId": "MHF4U-S6-LOGLAWS",
+        "errorId": "err-log-laws-sum",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "LG1",
+        "successCriteria": "Student correctly identifies that the logarithm of a sum cannot be split into a sum of logarithms.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly matches A1 expectation on applying logarithm laws.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Assuming $\\log(a+b) = \\log a + \\log b$.",
+        "remediationModule": "err-log-laws-sum",
+        "retestItem": "err-log-laws-sum"
+      },
+      {
+        "id": "diag-mhf4u-s6-0804-q2",
+        "type": "choice",
+        "question": "What must be true for $\\log_3(2x-5)$ to represent a real number?",
+        "options": [
+          "$x > \\frac{5}{2}$",
+          "$x < \\frac{5}{2}$",
+          "$x > 0$",
+          "$x > 5$"
+        ],
+        "correct": 0,
+        "diagnosis": "Diagnose if student recalls that log arguments must be positive and can solve a simple linear inequality.",
+        "misconceptions": [
+          "✓ Correct. For the log to be defined, $2x-5 > 0 \\Rightarrow x > 5/2$.",
+          "If $x < 5/2$, then $2x-5$ becomes negative or zero, which is not allowed.",
+          "While the whole argument must be positive, the restriction is $2x-5 > 0$, not just $x > 0$.",
+          "Test $x=3$: $2(3)-5=1>0$, so $x > 5$ is too strict."
+        ],
+        "nodeId": "MHF4U-S6-LOGLAWS",
+        "errorId": "err-log-domain",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "LG1",
+        "successCriteria": "Student sets the argument $2x-5 > 0$ and solves correctly for $x > 5/2$.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding the domain of logarithmic functions is fundamental to A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Forgetting to check that arguments must be positive or solving the inequality incorrectly.",
+        "remediationModule": "err-log-domain",
+        "retestItem": "err-log-domain"
+      },
+      {
+        "id": "diag-mhf4u-s6-0804-q3",
+        "type": "choice",
+        "question": "When solving $\\log_2(x-3) + \\log_2(x) = 2$, a student finds $x = -1$ and $x = 4$. Which statement is correct?",
+        "options": [
+          "Both solutions are valid.",
+          "$x = -1$ is valid because it satisfies the original equation.",
+          "$x = 4$ is valid because it makes both arguments positive.",
+          "Neither solution is valid."
+        ],
+        "correct": 2,
+        "diagnosis": "Diagnose if student verifies domain after solving logarithmic equations.",
+        "misconceptions": [
+          "$x = -1$ makes $\\log_2(x-3) = \\log_2(-4)$, which is undefined.",
+          "Even if it satisfies the transformed equation, a valid solution must keep all log arguments positive.",
+          "✓ Correct. $x=4$ gives $\\log_2(1) + \\log_2(4) = 0+2=2$, and both arguments are positive.",
+          "$x = 4$ works as shown above; only $x = -1$ is extraneous."
+        ],
+        "nodeId": "MHF4U-S6-EXPLOG-EQS",
+        "errorId": "err-extraneous-check",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "LG2",
+        "successCriteria": "Student identifies $x = 4$ as valid because it makes both arguments positive, and rejects $x = -1$ as extraneous.",
+        "ossdExpectation": "Solve exponential and simple logarithmic equations in one variable algebraically, including those in problems arising from real-world applications.",
+        "officialExpectationCode": "A3",
+        "officialNodeId": "MHF4U-A-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Checking for extraneous solutions is an essential step in solving logarithmic equations, matching A3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Assuming all algebraic solutions are valid without checking if they make log arguments positive.",
+        "remediationModule": "err-extraneous-check",
+        "retestItem": "err-extraneous-check"
+      },
+      {
+        "id": "diag-mhf4u-s6-0804-q4",
+        "type": "choice",
+        "question": "Which expression correctly calculates $\\log_5 20$ using common logarithms (base 10)?",
+        "options": [
+          "$\\frac{\\log 20}{\\log 5}$",
+          "$\\frac{\\log 5}{\\log 20}$",
+          "$\\log 20 - \\log 5$",
+          "$\\log 20 + \\log 5$"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student inverts the change of base formula.",
+        "misconceptions": [
+          "✓ Correct. Change of base: $\\log_5 20 = \\frac{\\log_{10} 20}{\\log_{10} 5}$.",
+          "This is the reciprocal; it would compute $\\log_{20} 5$.",
+          "That would be $\\log(20/5) = \\log 4$, not $\\log_5 20$.",
+          "That would be $\\log(20\\times5) = \\log 100 = 2$, not related."
+        ],
+        "nodeId": "MHF4U-S6-LOGLAWS",
+        "errorId": "err-change-base",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "LG3",
+        "successCriteria": "Student selects $\\log(20) / \\log(5)$, applying the change of base formula $\\log_b x = \\frac{\\log_c x}{\\log_c b}$.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Change of base formula is part of evaluating logarithms, aligning with A1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Writing $\\frac{\\log_c b}{\\log_c x}$ instead of $\\frac{\\log_c x}{\\log_c b}$.",
+        "remediationModule": "err-change-base",
+        "retestItem": "err-change-base"
+      },
+      {
+        "id": "diag-mhf4u-s6-0804-q5",
+        "type": "choice",
+        "question": "Simplify $(2^3)^2$.",
+        "options": [
+          "$2^5$",
+          "$2^6$",
+          "$2^8$",
+          "$2^1$"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student correctly applies the power of a power rule vs. adding exponents.",
+        "misconceptions": [
+          "That would be $2^3 \\cdot 2^2$, not a power of a power.",
+          "✓ Correct. $(2^3)^2 = 2^{3\\times2} = 2^6$.",
+          "That would be $2^4 \\cdot 2^4$, not the given expression.",
+          "That would be $\\frac{2^3}{2^2}$, not a power of a power."
+        ],
+        "nodeId": "MHF4U-S6-EXPRULES",
+        "errorId": "err-exponent-confusion",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "LG1",
+        "successCriteria": "Student multiplies exponents to get $2^6 = 64$.",
+        "ossdExpectation": "Demonstrate an understanding of the relationship between exponential expressions and logarithmic expressions, evaluate logarithms, and apply the laws of logarithms to simplify numeric expressions.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "MHF4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Exponent rules are prerequisite Grade 11 material not directly listed in MHF4U overall expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Adding the exponents: $(a^m)^n = a^{m+n}$.",
+        "remediationModule": "err-exponent-confusion",
+        "retestItem": "err-exponent-confusion"
+      }
+    ]
+  }
+}

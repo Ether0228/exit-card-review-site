@@ -1,0 +1,722 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-08-05",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/LYS5dFG89oh7eMxFJbqcuob4nuc?from=vc_group_doc_link#doxcnxG4siFc3KPTCvBC5cMtWib",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-08-05 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/LYS5dFG89oh7eMxFJbqcuob4nuc?from=vc_group_doc_link#doxcnxG4siFc3KPTCvBC5cMtWib",
+    "title": "MDM4U.S6.Atousa 2026-08-05 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-07/sources/mdm4u-s6-atousa-2026-08-05/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-08-05",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-05",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session is a teacher-led instructional lesson focused on histograms: definition, construction steps, calculator/Python methods, and worked examples (Q4 and Q5). While it includes homework and submission logistics, the dominant activity is teaching and practicing academic content.",
+    "academicContentSignals": [
+      "Histogram definition and distinction from bar charts (no gaps between bars for continuous data, gaps for discrete categorical data)",
+      "Axis configuration: X-axis represents continuous value intervals, Y-axis represents frequency",
+      "Identifying the highest frequency interval by reading the tallest bar",
+      "Choosing an appropriate number of intervals (between 5 and 10) and computing adjusted range and bin width",
+      "Setting interval boundaries with 0.5 endings to avoid data points falling on edges",
+      "Constructing a frequency table by counting data points in each interval",
+      "Plotting adjacent bars without gaps and labeling axes",
+      "TI-83/84 graphing calculator steps for histogram generation",
+      "Python matplotlib implementation for histogram generation",
+      "Worked example: exam scores with 7 intervals, bin width 8, first interval start 39.5, frequencies 3,4,3,3,6,3,3",
+      "Worked example: data with min 146, max 264, 6 intervals, bin width 20, first interval start 144.5, frequencies 4,7,4,3,3,2"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Although the notes contain many operational reminders (homework, submission deadlines, next-class schedule, platform references), the core of the lesson is academic instruction. The risk is that the generator could over-emphasize these logistics when creating the exit card. To avoid this, the diagnostic exit card should focus on histogram concepts and construction skills (at least 80% of questions), with at most 0-2 lightweight operational readiness checks (e.g., submission deadline) that do not replace academic mastery items.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Class Activity 2 histogram to course platform",
+        "studentAction": "Generate the final histogram using Python or an AI assistant and submit the completed work to the designated course platform before the next class.",
+        "deadlineText": "Before next class (Aug 6)",
+        "deadlineISO": "2026-08-06",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Generate the final histogram via tools such as Python or AI assistants, then submit the completed work to the designated course platform before the next class.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Histogram Definition and Purpose、Manual Histogram Construction Method、Using Technology to Create Histograms）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Histograms display continuous data with adjacent bars (no gaps) unlike bar charts for categorical data with gaps.；X-axis represents continuous intervals (bins); Y-axis represents frequency (count) within each interval.；The tallest bar corresponds to the interval with the highest frequency.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Distinguish histograms from bar charts by identifying continuous data, adjacent bars, and the role of frequencies."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Construct a histogram manually by choosing appropriate intervals, computing bin width, setting correct boundaries, and counting frequencies."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Use technology tools such as the TI-83/84 calculator or Python with matplotlib to generate accurate histograms."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "histogram-definition",
+      "name": "Histogram Definition and Purpose",
+      "nameEn": "Histogram Definition and Purpose",
+      "definition": "A histogram is a graphical representation of the distribution of continuous numerical data, using adjacent bars to show frequency within equal‑width intervals (bins).",
+      "officialExpectationCode": "D1",
+      "officialNodeId": "MDM4U-D-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries."
+    },
+    {
+      "id": "histogram-manual-construction",
+      "name": "Manual Histogram Construction Method",
+      "nameEn": "Manual Histogram Construction Method",
+      "definition": "Step‑by‑step process: choose 5–10 intervals, calculate and round range, determine bin width, set interval boundaries (with .5 offset for integer data), count frequencies, draw bars without gaps.",
+      "officialExpectationCode": "C1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "generate, using technology, the relevant graphical summaries of one-variable data (e.g., circle graphs, bar graphs, histograms, stem-and-leaf plots, boxplots) based on the type of data provided (e.g., categorical, ordinal, quantitative)"
+    },
+    {
+      "id": "histogram-technology-tools",
+      "name": "Using Technology to Create Histograms",
+      "nameEn": "Using Technology to Create Histograms",
+      "definition": "Methods to generate histograms via TI‑83/84 calculator or Python with matplotlib, including data input, plot configuration, and result verification.",
+      "officialExpectationCode": "C1.3",
+      "officialNodeId": null,
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "generate, using technology, the relevant graphical summaries of one-variable data (e.g., circle graphs, bar graphs, histograms, stem-and-leaf plots, boxplots) based on the type of data provided (e.g., categorical, ordinal, quantitative)"
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish histograms from bar charts by identifying continuous data, adjacent bars, and the role of frequencies."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Construct a histogram manually by choosing appropriate intervals, computing bin width, setting correct boundaries, and counting frequencies."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use technology tools such as the TI-83/84 calculator or Python with matplotlib to generate accurate histograms."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-histogram-barchart-confusion",
+        "condition": "student answers Question 1 incorrectly by choosing a bar-chart description or a swapped-axis option",
+        "systemAction": "assign reteach module for err-histogram-barchart-confusion",
+        "studentMessage": "Histograms and bar charts have different jobs. Let's review the no-gap rule and the continuous-data idea."
+      },
+      {
+        "errorId": "err-histogram-interval-boundaries",
+        "condition": "student answers Question 2 incorrectly by choosing a starting boundary that overlaps integer data points",
+        "systemAction": "assign reteach module for err-histogram-interval-boundaries",
+        "studentMessage": "Setting boundaries with the .5 offset keeps every score in exactly one interval. Let's practice this step."
+      },
+      {
+        "errorId": "err-histogram-interval-number",
+        "condition": "student answers Question 3 incorrectly by choosing exactly 7, fewer intervals, or an interval count equal to the number of data points",
+        "systemAction": "assign reteach module for err-histogram-interval-number",
+        "studentMessage": "The number of intervals changes how clearly the shape of the data appears. Let's look at why 5 to 10 works best."
+      },
+      {
+        "errorId": "err-histogram-frequency-count",
+        "condition": "student answers Question 4 incorrectly by selecting the wrong frequency for the interval",
+        "systemAction": "assign reteach module for err-histogram-frequency-count",
+        "studentMessage": "Counting frequencies carefully, especially at interval boundaries, is essential. Let's review the frequency-table step."
+      },
+      {
+        "errorId": "err-histogram-technology-settings",
+        "condition": "student answers Question 5 incorrectly by choosing a wrong TI-84 setting",
+        "systemAction": "assign reteach module for err-histogram-technology-settings",
+        "studentMessage": "A small setting mistake can produce a misleading histogram. Let's check the Stat Plot and WINDOW settings."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-s6-q1",
+        "nodeId": "histogram-definition",
+        "errorId": "err-histogram-barchart-confusion",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly states that histograms use adjacent bars for continuous numerical data and bar charts use gaps for categorical data.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question checks the student's ability to interpret a graphical summary of one-variable data, directly related to D1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks whether the learner can distinguish histograms from bar charts based on data type and bar spacing.",
+        "commonMisconception": "The learner thinks histograms and bar charts are interchangeable or that the only difference is axis orientation.",
+        "remediationModule": "err-histogram-barchart-confusion",
+        "retestItem": "err-histogram-barchart-confusion",
+        "stem": "Using the graphs shown in the figure, which statement correctly distinguishes a histogram from a bar chart?",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='600' height='300' viewBox='0 0 600 300'><text x='150' y='20' text-anchor='middle' font-size='16' font-weight='bold'>Histogram</text><text x='450' y='20' text-anchor='middle' font-size='16' font-weight='bold'>Bar Chart</text><g transform='translate(20,40)'><line x1='0' y1='200' x2='200' y2='200' stroke='black'/><line x1='0' y1='0' x2='0' y2='200' stroke='black'/><rect x='10' y='100' width='50' height='100' fill='steelblue' stroke='black'/><rect x='60' y='50' width='50' height='150' fill='steelblue' stroke='black'/><rect x='110' y='120' width='50' height='80' fill='steelblue' stroke='black'/><rect x='160' y='0' width='40' height='200' fill='steelblue' stroke='black'/><text x='100' y='220' text-anchor='middle' font-size='12'>Value</text><text x='-20' y='100' text-anchor='middle' font-size='12' transform='rotate(-90,-20,100)'>Frequency</text></g><g transform='translate(320,40)'><line x1='0' y1='200' x2='200' y2='200' stroke='black'/><line x1='0' y1='0' x2='0' y2='200' stroke='black'/><rect x='20' y='100' width='30' height='100' fill='orange' stroke='black'/><rect x='70' y='50' width='30' height='150' fill='orange' stroke='black'/><rect x='120' y='120' width='30' height='80' fill='orange' stroke='black'/><rect x='170' y='0' width='30' height='200' fill='orange' stroke='black'/><text x='100' y='220' text-anchor='middle' font-size='12'>Category</text><text x='-20' y='100' text-anchor='middle' font-size='12' transform='rotate(-90,-20,100)'>Count</text></g></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "A histogram uses adjacent bars for continuous numerical data; a bar chart uses gaps for categorical data.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Histograms display continuous data with no gaps between bars, while bar charts show separate categories with gaps."
+          },
+          {
+            "label": "B",
+            "text": "A histogram has gaps between bars because the data are categorical.",
+            "correct": false,
+            "feedbackWrong": "That describes a bar chart. Histograms use adjacent bars because the data are continuous."
+          },
+          {
+            "label": "C",
+            "text": "A histogram is the same as a bar chart with the X and Y axes swapped.",
+            "correct": false,
+            "feedbackWrong": "Swapping axes does not change the type of graph. Histograms use continuous intervals, not discrete categories."
+          },
+          {
+            "label": "D",
+            "text": "A histogram is only used for categorical data.",
+            "correct": false,
+            "feedbackWrong": "Histograms are for continuous numerical data. Categorical data are shown in bar charts."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-q2",
+        "nodeId": "histogram-manual-construction",
+        "errorId": "err-histogram-interval-boundaries",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly applies the boundary-offset rule to determine the first interval lower bound for integer data.",
+        "ossdExpectation": "generate, using technology, the relevant graphical summaries of one-variable data (e.g., circle graphs, bar graphs, histograms, stem-and-leaf plots, boxplots) based on the type of data provided (e.g., categorical, ordinal, quantitative)",
+        "officialExpectationCode": "C1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "The manual construction procedure supports the creation of histogram summaries described in C1.3, though no dedicated node exists in the Knowledge Node Bank.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Tests whether the student can set the first interval boundary correctly using the .5 offset for integer data.",
+        "commonMisconception": "The learner starts the first interval at the minimum data value, causing data points to fall exactly on the boundary.",
+        "remediationModule": "err-histogram-interval-boundaries",
+        "retestItem": "err-histogram-interval-boundaries",
+        "stem": "A data set of integer exam scores has min 41 and max 94. Using 7 intervals, the rounded range is 56 and the bin width is 8. What is the lower boundary of the first interval?",
+        "options": [
+          {
+            "label": "A",
+            "text": "39.5",
+            "correct": true,
+            "feedbackCorrect": "Correct. The first interval starts at 39.5 so no integer score lands exactly on a boundary."
+          },
+          {
+            "label": "B",
+            "text": "41",
+            "correct": false,
+            "feedbackWrong": "Starting at 41 would make 41 land exactly on the boundary, which creates ambiguity about which interval contains it."
+          },
+          {
+            "label": "C",
+            "text": "40.5",
+            "correct": false,
+            "feedbackWrong": "40.5 would still place integer scores in a way that does not fully use the offset needed to prevent boundary ambiguity."
+          },
+          {
+            "label": "D",
+            "text": "38.5",
+            "correct": false,
+            "feedbackWrong": "38.5 shifts the first interval too far down; the correct shift is half of the extra range beyond the actual range."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-histogram-barchart-confusion",
+      "condition": "student answers Question 1 incorrectly by choosing a bar-chart description or a swapped-axis option",
+      "systemAction": "assign reteach module for err-histogram-barchart-confusion",
+      "studentMessage": "Histograms and bar charts have different jobs. Let's review the no-gap rule and the continuous-data idea."
+    },
+    {
+      "errorId": "err-histogram-interval-boundaries",
+      "condition": "student answers Question 2 incorrectly by choosing a starting boundary that overlaps integer data points",
+      "systemAction": "assign reteach module for err-histogram-interval-boundaries",
+      "studentMessage": "Setting boundaries with the .5 offset keeps every score in exactly one interval. Let's practice this step."
+    },
+    {
+      "errorId": "err-histogram-interval-number",
+      "condition": "student answers Question 3 incorrectly by choosing exactly 7, fewer intervals, or an interval count equal to the number of data points",
+      "systemAction": "assign reteach module for err-histogram-interval-number",
+      "studentMessage": "The number of intervals changes how clearly the shape of the data appears. Let's look at why 5 to 10 works best."
+    },
+    {
+      "errorId": "err-histogram-frequency-count",
+      "condition": "student answers Question 4 incorrectly by selecting the wrong frequency for the interval",
+      "systemAction": "assign reteach module for err-histogram-frequency-count",
+      "studentMessage": "Counting frequencies carefully, especially at interval boundaries, is essential. Let's review the frequency-table step."
+    },
+    {
+      "errorId": "err-histogram-technology-settings",
+      "condition": "student answers Question 5 incorrectly by choosing a wrong TI-84 setting",
+      "systemAction": "assign reteach module for err-histogram-technology-settings",
+      "studentMessage": "A small setting mistake can produce a misleading histogram. Let's check the Stat Plot and WINDOW settings."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-histogram-barchart-confusion",
+      "trigger": "Student answered Q1 incorrectly by choosing a bar-chart description or a swapped-axis option.",
+      "studentMisunderstanding": "The student confuses histograms with bar charts, thinking they are interchangeable or that the only difference is axis orientation. They do not recognize that histograms use adjacent bars for continuous data while bar charts use gaps for categories.",
+      "miniLesson": {
+        "explain": "A histogram displays continuous numerical data using adjacent bars with no gaps, because data values flow across intervals on a continuous scale. A bar chart displays categorical data with separated bars, because each category is distinct. In a histogram, the x-axis represents continuous intervals (bins) and the y-axis represents frequency (count). In a bar chart, the x-axis represents categories and the y-axis represents count. The key difference: histograms have no gaps; bar charts have gaps.",
+        "example": "Look at the two graphs from the diagnostic question. The left graph is a histogram: the x-axis is labeled 'Value' and the bars touch, showing the distribution of scores in intervals like 39.5–47.5. The right graph is a bar chart: the x-axis is labeled 'Category' and the bars are separated, showing counts for distinct categories. Both can show counts, but the type of data is different.",
+        "memoryAnchor": "No gaps = continuous = histogram. Gaps = categorical = bar chart."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which graph type should you use to display the distribution of continuous numerical data such as exam scores?",
+          "answer": "Histogram, because exam scores are continuous numerical data and bars should be adjacent (no gaps)."
+        },
+        {
+          "level": "L2",
+          "prompt": "In the histogram from the lesson, bars are touching. What does the lack of gaps tell you about the data?",
+          "answer": "The data are continuous, so the intervals flow into one another without breaks. Only bar charts for categorical data have gaps."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate points to a histogram with bins [39.5,47.5), [47.5,55.5), ... and calls it a bar chart. How would you correct them using the fact that the bars touch?",
+          "answer": "It is a histogram because the x-axis shows continuous intervals (e.g., 39.5–47.5) and the bars are adjacent with no gaps. A bar chart would have separated bars for distinct categories, not continuous numeric intervals."
+        }
+      ]
+    },
+    {
+      "errorId": "err-histogram-interval-boundaries",
+      "trigger": "Student answers diagnostic Question 2 incorrectly by choosing a starting boundary that overlaps integer data points.",
+      "studentMisunderstanding": "The student does not use the .5 boundary offset for integer data, so data points can fall exactly on interval edges and become ambiguous. They may start at the minimum value or at an integer boundary.",
+      "miniLesson": {
+        "explain": "Histograms show continuous intervals, so every data point must belong to exactly one bin. For integer data, set boundaries that end in .5 (e.g., 39.5, 47.5) so no integer lies on an edge. In the exam-score example, min = 41, max = 94, actual range = 53, rounded range = 56, and bin width = 8. The extra range is 3; half of that extra is 1.5. So the first lower boundary is 41 − 1.5 = 39.5. Add the bin width repeatedly to get 47.5, 55.5, 63.5, 71.5, 79.5, 87.5, 95.5.",
+        "example": "Question 4 data set: bins [39.5,47.5), [47.5,55.5), [55.5,63.5), [63.5,71.5), [71.5,79.5), [79.5,87.5), [87.5,95.5) with frequencies 3, 4, 3, 3, 6, 3, 3. A score of 41 falls inside the first bin, not on a boundary.",
+        "memoryAnchor": "Integer data? Make every boundary end in .5 — data never sits on the fence."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For integer exam scores, which is the correct way to start the first interval? A) [41,49) B) [39.5,47.5) C) [40,48)",
+          "answer": "B — [39.5,47.5) uses the .5 offset so no integer score falls on a boundary."
+        },
+        {
+          "level": "L2",
+          "prompt": "For a data set with min = 146, max = 264, rounded range = 120, and bin width = 20, what is the lower boundary of the first interval after applying the .5-offset rule?",
+          "answer": "144.5. The actual range is 118, extra range is 2, half is 1; 146 − 1 = 145, then the .5 offset gives 144.5, and intervals end at 264.5."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate starts the first interval at 41 for the exam-score data. Explain why this is incorrect and write the correct first two intervals.",
+          "answer": "Starting at 41 puts the score 41 exactly on the boundary, so it is unclear which interval contains it. Correct first two intervals are [39.5,47.5) and [47.5,55.5); integer scores always fall inside rather than on an edge."
+        }
+      ]
+    },
+    {
+      "errorId": "err-histogram-interval-number",
+      "trigger": "Student chooses an interval count outside the 5–10 guideline (e.g., fewer than 5, more than 10, or equal to the number of data points).",
+      "studentMisunderstanding": "They believe any number of intervals is acceptable or that the interval count should equal the number of data points. This causes histograms that either hide distribution features (too few intervals) or fragment the data (too many intervals).",
+      "miniLesson": {
+        "explain": "A histogram shows how continuous data are distributed across equal-width intervals. Using too few intervals hides the shape of the distribution; using too many intervals fragments the data. The recommended number is 5–10 intervals. To find the number of intervals, divide the rounded range by the bin width.",
+        "example": "For the exam score dataset: min=41, max=94, actual range=53, rounded range=56, bin width=8. Number of intervals = 56 ÷ 8 = 7. This produces bins [39.5,47.5), [47.5,55.5), ..., [87.5,95.5) with frequencies 3,4,3,3,6,3,3. With 7 intervals, the distribution's shape is clearly visible. Using only 2 intervals would hide distribution features; using 15 intervals would fragment the data into too many small bars.",
+        "memoryAnchor": "5–10 intervals: the Goldilocks zone for histograms — not too few, not too many."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the recommended number of intervals for a histogram?",
+          "answer": "5 to 10 intervals."
+        },
+        {
+          "level": "L2",
+          "prompt": "For the exam score dataset (min 41, max 94, rounded range 56, bin width 8), how many intervals are used? Is this within the recommended range?",
+          "answer": "56 ÷ 8 = 7 intervals. Yes, 7 is within the recommended 5–10 range."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student creates a histogram with 20 intervals for a dataset with 30 data points. What is the likely problem, and what should they do instead?",
+          "answer": "20 intervals are too many and will fragment the data, making the distribution hard to read. They should choose between 5 and 10 intervals."
+        }
+      ]
+    },
+    {
+      "errorId": "err-histogram-frequency-count",
+      "trigger": "Student answers Question 4 incorrectly by selecting the wrong frequency for the interval",
+      "studentMisunderstanding": "The student struggles to count data points within histogram intervals correctly, especially when values lie at or near interval boundaries. They may double-count boundary values, omit values that fall near the edge, or lose track when manually tallying a larger data set.",
+      "miniLesson": {
+        "explain": "Once interval boundaries are fixed, counting frequencies must be exact. For each interval written as [L, U), include every data point x where L ≤ x < U. This means the lower boundary L is included and the upper boundary U is excluded. With integer data, boundaries are chosen to end in .5, so no integer data point can land exactly on a boundary. When counting, use a tally system: place one tally mark per data point in its correct interval, then total the tallies. After finishing, check that the sum of all interval frequencies equals the total number of data points.",
+        "example": "In the exam-score example, seven intervals run from [39.5,47.5) to [87.5,95.5). The frequency table shows 3, 4, 3, 3, 6, 3, 3. The value 6 in the interval [79.5,87.5) means exactly six scores satisfy 79.5 ≤ score < 87.5. A score cannot be counted in both [79.5,87.5) and [87.5,95.5) because the boundary 87.5 is excluded from the first interval and included in the next.",
+        "memoryAnchor": "Tally once, count once: L is in, U is out. Each dot belongs to exactly one bin; add your tallies to check."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the exam-score histogram, the interval [79.5,87.5) has frequency 6. What does the number 6 represent?",
+          "answer": "The number 6 represents the count of data points (exam scores) that lie in the interval from 79.5 up to, but not including, 87.5."
+        },
+        {
+          "level": "L2",
+          "prompt": "The seven intervals for the exam-score data have frequencies 3, 4, 3, 3, 6, 3, 3. Which interval has the highest frequency, and what is that frequency?",
+          "answer": "The interval [79.5,87.5) has the highest frequency, with 6 data points."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why a data point cannot be counted in both [39.5,47.5) and [47.5,55.5). Use the half-open interval rule to justify your answer.",
+          "answer": "The interval [39.5,47.5) contains values x such that 39.5 ≤ x < 47.5, so 47.5 is excluded. The interval [47.5,55.5) contains values x such that 47.5 ≤ x < 55.5, so 47.5 is included there. Since each data point has a single value, it can only belong to one interval, so it is counted exactly once."
+        }
+      ]
+    },
+    {
+      "errorId": "err-histogram-technology-settings",
+      "trigger": "Student answers Question 5 incorrectly by choosing a wrong TI-84 setting, such as forgetting to set Frequency to 1 or misconfiguring Xmin/Xscl.",
+      "studentMisunderstanding": "The student overlooks the required Stat Plot settings and WINDOW parameters, causing the calculator to produce a histogram that is mis-scaled, has incorrect bar widths, or fails to display the correct frequencies.",
+      "miniLesson": {
+        "explain": "When using a TI-83/84 to create a histogram, you must enter the data into L1 (STAT → Edit). Then open the Stat Plot menu (2nd + Y=), select the histogram icon, and set Frequency to 1. This tells the calculator that L1 contains data values, not frequencies. To adjust the scale, you can use ZOOM 9 for auto-scale, or set Xmin and Xscl manually in the WINDOW menu. For integer data, the first interval boundary should end in .5, and Xscl should equal the bin width. If Frequency is not 1 or Xscl is wrong, the histogram will not accurately represent the distribution of the data.",
+        "example": "For the exam score data with min 41 and max 94, using 7 intervals gives a rounded range of 56 and a bin width of 8. The first interval boundary should be 39.5. On the TI-84, enter the scores in L1, set Frequency to 1, and either press ZOOM 9 or set Xmin = 39.5 and Xscl = 8 in WINDOW. If you forget Frequency = 1 or set Xscl = 10, the histogram bars will be mis-aligned and the frequencies will be incorrect.",
+        "memoryAnchor": "Frequency 1, Xscl 8 – your histogram's first-rate!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "When creating a histogram on a TI-84, what value must the Frequency parameter be set to in the Stat Plot menu?",
+          "answer": "1"
+        },
+        {
+          "level": "L2",
+          "prompt": "For a dataset with min 41 and max 94, using 7 intervals and bin width 8, what should Xmin and Xscl be if you set the WINDOW manually instead of using ZOOM 9?",
+          "answer": "Xmin = 39.5 and Xscl = 8"
+        },
+        {
+          "level": "L3",
+          "prompt": "If a student forgets to set Frequency to 1 on the TI-84, what error is likely to appear in the histogram?",
+          "answer": "The calculator may treat the data in L1 as frequencies, so the bar heights will be wrong and the histogram will not correctly show how many data points are in each interval."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-histogram-barchart-confusion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A dataset contains the heights (in centimeters) of 200 adults. Which graph type should you use to display the distribution of these heights, and why?",
+          "options": [
+            "Bar chart, because heights are distinct categories.",
+            "Histogram, because heights are continuous numerical data and bars should touch.",
+            "Bar chart, because we are counting people.",
+            "Histogram, but bars should have gaps to show each exact height."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A friend says, \"A histogram is just a bar chart with the bars touching.\" Explain why this statement is incomplete. In your explanation, mention the type of data each graph is used for and the meaning of the x-axis in each case.",
+          "rubric": "A complete response should state that histograms display continuous numerical data with adjacent bars (no gaps) where the x-axis represents intervals (bins), while bar charts display categorical data with separated bars where the x-axis represents distinct categories. The friend's statement only notes the visual difference (bars touching) without addressing the underlying data types and the meaning of the x-axis."
+        }
+      ],
+      "passRule": "Question 1 is answered correctly (option B: 'Histogram, because heights are continuous numerical data and bars should touch.') AND Question 2 response explains that histograms are for continuous data with no gaps and bar charts are for categorical data with gaps, and explicitly describes the x-axis as intervals vs. categories."
+    },
+    {
+      "forErrorId": "err-histogram-interval-boundaries",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "For a data set of integer scores with minimum 23 and maximum 62, you decide to use 5 intervals. After rounding the range appropriately and applying the .5 boundary rule, what is the lower boundary of the first interval?",
+          "options": [
+            "23",
+            "22.5",
+            "23.5",
+            "22"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A classmate claims that for integer data with min = 146, max = 264, rounded range = 120, and bin width = 20, the first interval should start at 146. Explain why this is incorrect, and state the correct lower boundaries for the first two intervals.",
+          "rubric": "Must state that starting at 146 places 146 exactly on the boundary, causing ambiguity about which interval contains it. Must apply the .5 offset correctly: first lower bound = 144.5, second lower bound = 164.5."
+        },
+        {
+          "id": "q3",
+          "type": "single_choice",
+          "stem": "For integer data with minimum 12 and maximum 43, you choose 4 intervals. Which set of interval boundaries is correct for the first interval?",
+          "options": [
+            "[12,20)",
+            "[11.5,19.5)",
+            "[12.5,20.5)",
+            "[11,19)"
+          ],
+          "correct": 1
+        }
+      ],
+      "passRule": "All questions must be answered correctly. For the open-ended question, state that starting at 146 places a data point on the boundary, and provide the correct first two lower bounds: 144.5 and 164.5."
+    },
+    {
+      "forErrorId": "err-histogram-interval-number",
+      "questions": [
+        {
+          "id": "err-histogram-interval-number-q1",
+          "type": "single_choice",
+          "stem": "A data set has 62 observations. Which number of equal-width intervals is most appropriate for a histogram?",
+          "options": [
+            "2",
+            "7",
+            "25",
+            "62"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "err-histogram-interval-number-q2",
+          "type": "open_ended",
+          "stem": "A student creates a histogram for 80 test scores using 4 intervals. A classmate uses 20 intervals. Explain why both choices are likely to be less effective than using 7 intervals. Refer to how the shape of the distribution is shown or hidden.",
+          "rubric": "Mentions that 4 intervals are too few and may hide key features of the distribution (e.g., peaks or gaps), while 20 intervals are too many and may fragment the data into many bars with low counts, making the distribution unclear. Also states that 5–10 intervals (such as 7) is the recommended range for showing the distribution shape."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-histogram-frequency-count",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A dataset of ages (in years) is: 23, 24, 25, 25, 26, 27, 28, 29, 30, 30, 31, 32, 33, 35, 36. Histogram intervals are [22.5,25.5), [25.5,28.5), [28.5,31.5), [31.5,34.5), [34.5,37.5). How many data points fall into the interval [25.5,28.5)?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Using the same dataset, what is the frequency for the interval [31.5,34.5)? Enter the number.",
+          "rubric": "The frequency is 2, because 32 and 33 are the only ages in [31.5,34.5)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-histogram-technology-settings",
+      "questions": [
+        {
+          "id": "retest-ti84-settings-mcq",
+          "type": "single_choice",
+          "stem": "A student enters 50 exam scores into L1 on a TI-84 and wants to create a histogram. In the Stat Plot menu, which setting is incorrect if L2 is not used?",
+          "options": [
+            "Frequency: 1",
+            "Frequency: L2",
+            "Xscl: 8",
+            "Xmin: 39.5"
+          ],
+          "correct": 1
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-05",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/LYS5dFG89oh7eMxFJbqcuob4nuc?from=vc_group_doc_link#doxcnxG4siFc3KPTCvBC5cMtWib",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-08-05 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Histograms display continuous data with adjacent bars (no gaps) unlike bar charts for categorical data with gaps.；X-axis represents continuous intervals (bins); Y-axis represents frequency (count) within each interval.；The tallest bar corresponds to the interval with the highest frequency.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish histograms from bar charts by identifying continuous data, adjacent bars, and the role of frequencies."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Construct a histogram manually by choosing appropriate intervals, computing bin width, setting correct boundaries, and counting frequencies."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use technology tools such as the TI-83/84 calculator or Python with matplotlib to generate accurate histograms."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit Class Activity 2 histogram to course platform",
+        "studentAction": "Generate the final histogram using Python or an AI assistant and submit the completed work to the designated course platform before the next class.",
+        "deadlineText": "Before next class (Aug 6)",
+        "deadlineISO": "2026-08-06",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Generate the final histogram via tools such as Python or AI assistants, then submit the completed work to the designated course platform before the next class.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "histogram-definition",
+      "histogram-manual-construction",
+      "histogram-technology-tools"
+    ],
+    "totalQuestions": 2,
+    "completed": false,
+    "passScore": 2,
+    "diagnosisRules": [
+      {
+        "errorId": "err-histogram-barchart-confusion",
+        "condition": "student answers Question 1 incorrectly by choosing a bar-chart description or a swapped-axis option",
+        "systemAction": "assign reteach module for err-histogram-barchart-confusion"
+      },
+      {
+        "errorId": "err-histogram-interval-boundaries",
+        "condition": "student answers Question 2 incorrectly by choosing a starting boundary that overlaps integer data points",
+        "systemAction": "assign reteach module for err-histogram-interval-boundaries"
+      },
+      {
+        "errorId": "err-histogram-interval-number",
+        "condition": "student answers Question 3 incorrectly by choosing exactly 7, fewer intervals, or an interval count equal to the number of data points",
+        "systemAction": "assign reteach module for err-histogram-interval-number"
+      },
+      {
+        "errorId": "err-histogram-frequency-count",
+        "condition": "student answers Question 4 incorrectly by selecting the wrong frequency for the interval",
+        "systemAction": "assign reteach module for err-histogram-frequency-count"
+      },
+      {
+        "errorId": "err-histogram-technology-settings",
+        "condition": "student answers Question 5 incorrectly by choosing a wrong TI-84 setting",
+        "systemAction": "assign reteach module for err-histogram-technology-settings"
+      }
+    ],
+    "nextActions": [
+      "[err-histogram-barchart-confusion] student answers Question 1 incorrectly by choosing a bar-chart description or a swapped-axis option: Histograms and bar charts have different jobs. Let's review the no-gap rule and the continuous-data idea.",
+      "[err-histogram-interval-boundaries] student answers Question 2 incorrectly by choosing a starting boundary that overlaps integer data points: Setting boundaries with the .5 offset keeps every score in exactly one interval. Let's practice this step.",
+      "[err-histogram-interval-number] student answers Question 3 incorrectly by choosing exactly 7, fewer intervals, or an interval count equal to the number of data points: The number of intervals changes how clearly the shape of the data appears. Let's look at why 5 to 10 works best.",
+      "[err-histogram-frequency-count] student answers Question 4 incorrectly by selecting the wrong frequency for the interval: Counting frequencies carefully, especially at interval boundaries, is essential. Let's review the frequency-table step.",
+      "[err-histogram-technology-settings] student answers Question 5 incorrectly by choosing a wrong TI-84 setting: A small setting mistake can produce a misleading histogram. Let's check the Stat Plot and WINDOW settings."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-s6-q1",
+        "type": "choice",
+        "question": "Using the graphs shown in the figure, which statement correctly distinguishes a histogram from a bar chart?",
+        "options": [
+          "A histogram uses adjacent bars for continuous numerical data; a bar chart uses gaps for categorical data.",
+          "A histogram has gaps between bars because the data are categorical.",
+          "A histogram is the same as a bar chart with the X and Y axes swapped.",
+          "A histogram is only used for categorical data."
+        ],
+        "correct": 0,
+        "diagnosis": "Checks whether the learner can distinguish histograms from bar charts based on data type and bar spacing.",
+        "misconceptions": [
+          "✓ Correct. Histograms display continuous data with no gaps between bars, while bar charts show separate categories with gaps.",
+          "That describes a bar chart. Histograms use adjacent bars because the data are continuous.",
+          "Swapping axes does not change the type of graph. Histograms use continuous intervals, not discrete categories.",
+          "Histograms are for continuous numerical data. Categorical data are shown in bar charts."
+        ],
+        "nodeId": "histogram-definition",
+        "errorId": "err-histogram-barchart-confusion",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly states that histograms use adjacent bars for continuous numerical data and bar charts use gaps for categorical data.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question checks the student's ability to interpret a graphical summary of one-variable data, directly related to D1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "The learner thinks histograms and bar charts are interchangeable or that the only difference is axis orientation.",
+        "remediationModule": "err-histogram-barchart-confusion",
+        "retestItem": "err-histogram-barchart-confusion"
+      },
+      {
+        "id": "diag-mdm4u-s6-q2",
+        "type": "choice",
+        "question": "A data set of integer exam scores has min 41 and max 94. Using 7 intervals, the rounded range is 56 and the bin width is 8. What is the lower boundary of the first interval?",
+        "options": [
+          "39.5",
+          "41",
+          "40.5",
+          "38.5"
+        ],
+        "correct": 0,
+        "diagnosis": "Tests whether the student can set the first interval boundary correctly using the .5 offset for integer data.",
+        "misconceptions": [
+          "✓ Correct. The first interval starts at 39.5 so no integer score lands exactly on a boundary.",
+          "Starting at 41 would make 41 land exactly on the boundary, which creates ambiguity about which interval contains it.",
+          "40.5 would still place integer scores in a way that does not fully use the offset needed to prevent boundary ambiguity.",
+          "38.5 shifts the first interval too far down; the correct shift is half of the extra range beyond the actual range."
+        ],
+        "nodeId": "histogram-manual-construction",
+        "errorId": "err-histogram-interval-boundaries",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly applies the boundary-offset rule to determine the first interval lower bound for integer data.",
+        "ossdExpectation": "generate, using technology, the relevant graphical summaries of one-variable data (e.g., circle graphs, bar graphs, histograms, stem-and-leaf plots, boxplots) based on the type of data provided (e.g., categorical, ordinal, quantitative)",
+        "officialExpectationCode": "C1.3",
+        "officialNodeId": null,
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "The manual construction procedure supports the creation of histogram summaries described in C1.3, though no dedicated node exists in the Knowledge Node Bank.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "The learner starts the first interval at the minimum data value, causing data points to fall exactly on the boundary.",
+        "remediationModule": "err-histogram-interval-boundaries",
+        "retestItem": "err-histogram-interval-boundaries"
+      }
+    ]
+  }
+}

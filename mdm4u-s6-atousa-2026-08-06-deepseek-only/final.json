@@ -1,0 +1,1016 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-08-06",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Pd4EdL88foBjlex9MzIcnt4vn5c?from=vc_group_doc_link#doxcnZoPWnrBg7xP3D472jz3Rzc",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-08-06 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Pd4EdL88foBjlex9MzIcnt4vn5c?from=vc_group_doc_link#doxcnZoPWnrBg7xP3D472jz3Rzc",
+    "title": "MDM4U.S6.Atousa 2026-08-06 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-07/sources/mdm4u-s6-atousa-2026-08-06/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-08-06",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-06",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session covers new instruction on scatter plot fundamentals and guided practice on box plot exercises, combining both new learning and skill reinforcement.",
+    "academicContentSignals": [
+      "Box plot construction from five-number summary",
+      "Outlier detection using IQR method",
+      "Scatter plot definition and components",
+      "Independent/explanatory variable vs dependent/response variable",
+      "Correlation direction (positive, negative)",
+      "Correlation strength (strong, moderate, weak)",
+      "Correlation pattern (linear, non-linear, random)",
+      "Real-world application of scatter plots (e.g., movie revenue)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low risk, as academic content dominates. Ensure diagnostic card focuses on mastery of statistics concepts and only includes one or two operational reminders like Schoology submission if necessary.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Class Activity 3 Box Plot Submission",
+        "studentAction": "Complete Class Activity 3 box plot calculations, cross-reference with instructor's walkthrough, then attach results to Schoology for grading.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students must cross-reference their calculations with the instructor’s walkthrough, then attach completed results to Schoology for grading.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Class Activity 3 submission deadline not specified; may be due immediately or by next class.",
+        "reason": "No explicit due date or time provided in minutes."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Box Plot Construction and Outlier Detection、Scatter Plot Fundamentals、Explanatory and Response Variable Identification、Correlation Analysis）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "A box plot displays the five-number summary: minimum, Q1, median, Q3, maximum, and identifies outliers using the 1.5*IQR rule.；IQR = Q3 - Q1. Outlier boundaries are Q1 - 1.5*IQR and Q3 + 1.5*IQR.；A scatter plot graphs paired quantitative variables with the independent (explanatory) variable on the x-axis and dependent (response) variable on the y-axis.",
+  "learningGoals": [
+    {
+      "id": "lg-boxplot",
+      "statement": "Construct and interpret box plots, including calculating IQR and identifying outliers using the 1.5*IQR rule."
+    },
+    {
+      "id": "lg-scatterplot",
+      "statement": "Create scatter plots and correctly assign explanatory (independent) variables to the x-axis and response (dependent) variables to the y-axis."
+    },
+    {
+      "id": "lg-var-id",
+      "statement": "Identify explanatory and response variables in real-world contexts, recognizing that roles depend on the research hypothesis."
+    },
+    {
+      "id": "lg-correlation",
+      "statement": "Classify correlations by pattern (linear/non-linear/none), direction (positive/negative), and strength (strong/moderate/weak/none)."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "boxplot-outliers",
+      "name": "Box Plot Construction and Outlier Detection",
+      "nameEn": "Box Plot Construction and Outlier Detection",
+      "definition": "A box plot visualizes the five-number summary (min, Q1, median, Q3, max) and applies the 1.5*IQR rule to flag potential outliers.",
+      "officialExpectationCode": "D1",
+      "officialNodeId": "MDM4U-D-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries."
+    },
+    {
+      "id": "scatterplot-basics",
+      "name": "Scatter Plot Fundamentals",
+      "nameEn": "Scatter Plot Fundamentals",
+      "definition": "A scatter plot is a 2D graph of paired quantitative variables; the independent variable is on the x-axis, the dependent on the y-axis.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    },
+    {
+      "id": "var-id",
+      "name": "Explanatory and Response Variable Identification",
+      "nameEn": "Explanatory and Response Variable Identification",
+      "definition": "The explanatory (independent) variable is the suspected cause; the response (dependent) is the effect. Assignment depends on the study context.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    },
+    {
+      "id": "correlation",
+      "name": "Correlation Analysis",
+      "nameEn": "Correlation Analysis",
+      "definition": "Correlation describes a relationship between two variables: pattern (linear, non-linear, none), direction (positive, negative), and strength (strong, moderate, weak, none).",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-boxplot",
+        "statement": "Construct and interpret box plots, including calculating IQR and identifying outliers using the 1.5*IQR rule."
+      },
+      {
+        "id": "lg-scatterplot",
+        "statement": "Create scatter plots and correctly assign explanatory (independent) variables to the x-axis and response (dependent) variables to the y-axis."
+      },
+      {
+        "id": "lg-var-id",
+        "statement": "Identify explanatory and response variables in real-world contexts, recognizing that roles depend on the research hypothesis."
+      },
+      {
+        "id": "lg-correlation",
+        "statement": "Classify correlations by pattern (linear/non-linear/none), direction (positive/negative), and strength (strong/moderate/weak/none)."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "condition": "5-6 correct",
+        "systemAction": "mark passed; unlock next homework",
+        "studentMessage": "You've demonstrated a solid understanding of box plots, scatter plots, variable identification, and correlation basics. Great work!"
+      },
+      {
+        "condition": "3-4 correct",
+        "systemAction": "assign targeted reteach modules based on missed errorIds, then allow retest",
+        "studentMessage": "You have a good start, but some specific concepts need review. The system will provide short mini-lessons on your trouble areas before a quick retest."
+      },
+      {
+        "condition": "0-2 correct",
+        "systemAction": "start full reteach path covering all core errorIds, followed by retest",
+        "studentMessage": "Let's rebuild the foundations. The system will guide you through the key ideas of box plots, scatter plots, and correlation before reassessing."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-s6-0806-q1",
+        "nodeId": "boxplot-outliers",
+        "errorId": "err-boxplot-iqr-boundaries",
+        "stem": "Using Dataset 1 (min=10, Q1=26, median=34, Q3=44, max=47), what is the IQR and the lower and upper outlier boundaries using the 1.5*IQR rule?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-boxplot",
+        "successCriteria": "Correctly computes IQR and applies formula Q1-1.5*IQR and Q3+1.5*IQR.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question requires computing a numerical summary and applying an outlier rule, directly supporting the analysis of one-variable data.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Tests ability to compute IQR and outlier fences from five-number summary.",
+        "commonMisconception": "Subtracts 1.5*IQR from Q3 instead of Q1, or mixes up Dataset 1 and Dataset 2 values.",
+        "remediationModule": "err-boxplot-iqr-boundaries",
+        "retestItem": "err-boxplot-iqr-boundaries",
+        "options": [
+          {
+            "label": "A",
+            "text": "IQR = 18; lower boundary = -1, upper boundary = 71",
+            "correct": true,
+            "feedbackCorrect": "Correct! IQR = 44 - 26 = 18; lower fence = 26 - 1.5*18 = -1; upper fence = 44 + 1.5*18 = 71."
+          },
+          {
+            "label": "B",
+            "text": "IQR = 18; lower boundary = 26, upper boundary = 44",
+            "correct": false,
+            "feedbackWrong": "The boundaries are not simply Q1 and Q3; they must be extended by 1.5 times the IQR. Here, that gives -1 and 71."
+          },
+          {
+            "label": "C",
+            "text": "IQR = 10; lower boundary = 4, upper boundary = 44",
+            "correct": false,
+            "feedbackWrong": "Those are the values from Dataset 2. Recalculate using Dataset 1: Q3-Q1 = 44-26 = 18."
+          },
+          {
+            "label": "D",
+            "text": "IQR = 18; lower boundary = -27, upper boundary = 71",
+            "correct": false,
+            "feedbackWrong": "Check the lower fence formula: it's Q1 - 1.5*IQR, not (Q1 - Q3) - 1.5*IQR."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q2",
+        "nodeId": "boxplot-outliers",
+        "errorId": "err-boxplot-threshold-mistake",
+        "stem": "In a box plot, the whiskers extend from the box to the most extreme data point within the fences. If a data point lies exactly at the upper fence value (Q3 + 1.5*IQR), how is it represented?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-boxplot",
+        "successCriteria": "Distinguishes between data points at the fence (included in whisker) and true outliers (beyond the fence).",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interpreting box plot whiskers and outlier markers is central to one-variable data analysis.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks understanding that the fence is the threshold, not an outlier itself; data on the fence is not marked separately.",
+        "commonMisconception": "Believing that any point whose value equals a computed fence should be plotted as an outlier.",
+        "remediationModule": "err-boxplot-threshold-mistake",
+        "retestItem": "err-boxplot-threshold-mistake",
+        "options": [
+          {
+            "label": "A",
+            "text": "As an outlier with a special symbol (e.g., asterisk)",
+            "correct": false,
+            "feedbackWrong": "Points at the exact fence are not outliers—they are the farthest allowed within the whisker."
+          },
+          {
+            "label": "B",
+            "text": "As the endpoint of the upper whisker",
+            "correct": true,
+            "feedbackCorrect": "Yes! The fence is the boundary; a point at that value is still inside and becomes the end of the whisker."
+          },
+          {
+            "label": "C",
+            "text": "Inside the box, because it equals Q3 + something",
+            "correct": false,
+            "feedbackWrong": "The box represents the IQR (Q1 to Q3). The fence is far outside the box, so this point is at the whisker's tip."
+          },
+          {
+            "label": "D",
+            "text": "It is omitted from the plot",
+            "correct": false,
+            "feedbackWrong": "All data within the fences must appear in the plot; no data is omitted unless it exceeds the fences."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q3",
+        "nodeId": "scatterplot-basics",
+        "errorId": "err-scatter-axes-swap",
+        "stem": "When constructing a scatter plot, which variable is conventionally placed on the x-axis?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-scatterplot",
+        "successCriteria": "States that the explanatory (independent) variable belongs on the x-axis.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Correct axis assignment is a foundational skill for two-variable data analysis.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Assesses recall of the standard convention for scatter plot axis assignment.",
+        "commonMisconception": "Placing the response variable on the x-axis or choosing the variable with larger values.",
+        "remediationModule": "err-scatter-axes-swap",
+        "retestItem": "err-scatter-axes-swap",
+        "options": [
+          {
+            "label": "A",
+            "text": "The explanatory (independent) variable",
+            "correct": true,
+            "feedbackCorrect": "Exactly. The explanatory variable goes on the x-axis."
+          },
+          {
+            "label": "B",
+            "text": "The response (dependent) variable",
+            "correct": false,
+            "feedbackWrong": "The response is plotted on the y-axis, not the x-axis."
+          },
+          {
+            "label": "C",
+            "text": "The variable that was measured first",
+            "correct": false,
+            "feedbackWrong": "Measurement order doesn't determine axis placement; the causal role does."
+          },
+          {
+            "label": "D",
+            "text": "The variable with larger numerical values",
+            "correct": false,
+            "feedbackWrong": "Scale doesn't matter—axis placement is based on the variable's role (explanatory vs. response)."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q4",
+        "nodeId": "var-id",
+        "errorId": "err-var-id-context",
+        "stem": "A study investigates whether the number of hours spent practicing a sport predicts the number of wins in a season. What are the explanatory and response variables?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-var-id",
+        "successCriteria": "Identifies the explanatory variable as the predicted cause (practice hours) and the response as the effect (wins).",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Identifying variables correctly is essential before any two-variable analysis.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Evaluates ability to assign roles based on a study hypothesis, not just variable labels.",
+        "commonMisconception": "Assuming the variable that is easier to measure or that comes first in time is always the explanatory variable.",
+        "remediationModule": "err-var-id-context",
+        "retestItem": "err-var-id-context",
+        "options": [
+          {
+            "label": "A",
+            "text": "Explanatory: practice hours; Response: number of wins",
+            "correct": true,
+            "feedbackCorrect": "Right! Practice hours are the suspected cause, so it's the explanatory variable."
+          },
+          {
+            "label": "B",
+            "text": "Explanatory: number of wins; Response: practice hours",
+            "correct": false,
+            "feedbackWrong": "The study investigates whether practice hours predict wins, not the other way around."
+          },
+          {
+            "label": "C",
+            "text": "Both are response variables because they are measured",
+            "correct": false,
+            "feedbackWrong": "Even though both are measured, one is used to predict the other. Roles are determined by the research question."
+          },
+          {
+            "label": "D",
+            "text": "Impossible to determine without a graph",
+            "correct": false,
+            "feedbackWrong": "You can determine roles from the study description alone. Practice hours is the explanatory variable."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q5",
+        "nodeId": "correlation",
+        "errorId": "err-correlation-misclassify",
+        "stem": "A scatter plot of daily calorie intake vs. weight shows points tightly clustered along a straight line that slopes upward. Which best describes the correlation?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-correlation",
+        "successCriteria": "Classifies the correlation as strong, positive, and linear based on the description of point clustering and slope.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Correlation classification is a key part of two-variable data analysis.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Checks ability to simultaneously assess pattern, direction, and strength from a verbal description.",
+        "commonMisconception": "Confusing strength with direction (e.g., calling a strong positive correlation weak because the slope is positive) or ignoring the linear pattern.",
+        "remediationModule": "err-correlation-misclassify",
+        "retestItem": "err-correlation-misclassify",
+        "options": [
+          {
+            "label": "A",
+            "text": "Strong positive linear correlation",
+            "correct": true,
+            "feedbackCorrect": "Correct. Tight cluster = strong, upward slope = positive, straight pattern = linear."
+          },
+          {
+            "label": "B",
+            "text": "Weak positive linear correlation",
+            "correct": false,
+            "feedbackWrong": "'Tightly clustered' means strong, not weak."
+          },
+          {
+            "label": "C",
+            "text": "Strong negative linear correlation",
+            "correct": false,
+            "feedbackWrong": "Upward slope means positive direction, not negative."
+          },
+          {
+            "label": "D",
+            "text": "No correlation",
+            "correct": false,
+            "feedbackWrong": "A tight cluster along a straight line is the opposite of no correlation – it's a very strong correlation."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q6",
+        "nodeId": "correlation",
+        "errorId": "err-correlation-misclassify",
+        "stem": "Describe what makes a correlation both 'strong' and 'positive linear'. Provide an example of two variables that might show such a relationship and explain why the terms 'strong', 'positive', and 'linear' each apply.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-correlation",
+        "successCriteria": "Explains that strength refers to how closely points follow a straight line, positive means both variables increase together, and linear means the pattern is straight, not curved. Example should be appropriate and justified.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Explaining correlation characteristics integrates multiple aspects of two-variable analysis.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "justify",
+        "stemIntent": "Evaluates deep understanding of correlation descriptors by requiring a coherent explanation and example.",
+        "commonMisconception": "Treating 'strong' as synonymous with 'possible' or 'common', or ignoring the straight-line requirement.",
+        "remediationModule": "err-correlation-misclassify",
+        "retestItem": "err-correlation-misclassify",
+        "rubric": "Full credit: Defines strong (points tightly clustered around a line), positive (as one variable increases, the other also increases), linear (straight line pattern, not curved), and gives a relevant example (e.g., hours studied and exam score) with clear justification for each term. Partial credit: Correctly defines two of the three terms or gives example without full justification.",
+        "sampleStrongAnswer": "A strong positive linear correlation means the data points are very close to a straight line (strong), the line slopes upward (positive), and the relationship is linear, not curved. For example, the number of hours studied and the percentage score on an exam typically show this pattern: more study hours are associated with higher scores, and the points often lie near a straight line."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "condition": "5-6 correct",
+      "systemAction": "mark passed; unlock next homework",
+      "studentMessage": "You've demonstrated a solid understanding of box plots, scatter plots, variable identification, and correlation basics. Great work!"
+    },
+    {
+      "condition": "3-4 correct",
+      "systemAction": "assign targeted reteach modules based on missed errorIds, then allow retest",
+      "studentMessage": "You have a good start, but some specific concepts need review. The system will provide short mini-lessons on your trouble areas before a quick retest."
+    },
+    {
+      "condition": "0-2 correct",
+      "systemAction": "start full reteach path covering all core errorIds, followed by retest",
+      "studentMessage": "Let's rebuild the foundations. The system will guide you through the key ideas of box plots, scatter plots, and correlation before reassessing."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-boxplot-iqr-boundaries",
+      "trigger": "Student computes IQR as Q1 - Q3, or uses Q3 instead of Q1 when calculating the lower outlier boundary",
+      "studentMisunderstanding": "The student confuses the roles of Q1 and Q3. They may think IQR is Q1 - Q3, or they subtract 1.5*IQR from Q3 instead of from Q1, producing incorrect lower fences.",
+      "miniLesson": {
+        "explain": "A box plot uses the five-number summary: minimum, Q1, median, Q3, maximum. The IQR is always Q3 - Q1, so the bigger quartile minus the smaller quartile. Outlier boundaries are Q1 - 1.5*IQR and Q3 + 1.5*IQR. The lower boundary must be based on Q1, and the upper boundary must be based on Q3.",
+        "example": "Dataset 1: Q1=26, Q3=44. IQR = 44-26 = 18. Lower boundary = 26 - 1.5*18 = -1. Upper boundary = 44 + 1.5*18 = 71. A common mistake is using Q3 for the lower boundary: 44 - 1.5*18, which would place the lower fence above Q1, not below it.",
+        "memoryAnchor": "Remember: Q1 owns the lower fence, Q3 owns the upper fence. IQR = Q3 - Q1, always the bigger minus the smaller."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For Dataset 2, first calculate IQR using Q1 and Q3. Then use Q1 to calculate the lower outlier boundary.",
+          "answer": "IQR = Q3-Q1 = 29-19 = 10. Lower boundary = Q1 - 1.5*IQR = 19 - 1.5*10 = 4."
+        },
+        {
+          "level": "L2",
+          "prompt": "For Dataset 1, calculate the IQR and both outlier boundaries. If someone incorrectly substitutes Q3 for Q1 in the lower boundary, what mistake do they make?",
+          "answer": "IQR = 44-26 = 18. Lower boundary = 26 - 1.5*18 = -1. Upper boundary = 44 + 1.5*18 = 71. The mistake is computing the lower boundary as 44 - 1.5*18, which is not based on Q1 and gives the wrong fence."
+        },
+        {
+          "level": "L3",
+          "prompt": "A dataset has five-number summary 9,19,26,29,43. Verify that the outlier boundaries are 4 and 44, and explain why the lower boundary must use Q1 rather than Q3.",
+          "answer": "IQR = Q3-Q1 = 29-19 = 10. Lower boundary = Q1 - 1.5*IQR = 19 - 1.5*10 = 4. Upper boundary = Q3 + 1.5*IQR = 29 + 1.5*10 = 44. The lower boundary must use Q1 because it defines how far below the lower quartile a point must be to be an outlier; using Q3 would falsely place the lower fence near the upper part of the data."
+        }
+      ]
+    },
+    {
+      "errorId": "err-boxplot-threshold-mistake",
+      "trigger": "When a student marks the threshold fence itself (e.g., -1 or 71 in Dataset 1) as an outlier, rather than recognizing that only data points strictly beyond the fence are outliers.",
+      "studentMisunderstanding": "The student treats the computed fence values (Q1 - 1.5*IQR and Q3 + 1.5*IQR) as outliers themselves. The fences are only boundary cutoff points; a data value equal to a fence is still considered within the data range and is drawn as the whisker endpoint, not as an outlier.",
+      "miniLesson": {
+        "explain": "The 1.5*IQR rule creates fences to separate typical values from outliers. The lower fence is Q1 - 1.5*IQR, and the upper fence is Q3 + 1.5*IQR. For Dataset 1, IQR = 44 - 26 = 18, so lower fence = 26 - 1.5*18 = -1 and upper fence = 44 + 1.5*18 = 71. The fences themselves are not data points and are not outliers. If a data value is exactly -1 or exactly 71, it is still within the fences and becomes the end of the whisker. Only values less than -1 or greater than 71 are outliers. Since Dataset 1's minimum is 10 and maximum is 47, no values are beyond the fences, so the plot has no outliers.",
+        "example": "For Dataset 2, IQR = 29 - 19 = 10, so lower fence = 19 - 1.5*10 = 4 and upper fence = 29 + 1.5*10 = 44. The actual minimum is 9 and the actual maximum is 43. Both are inside the fences, so there are no outliers. If a data value were exactly 4, it would equal the lower fence, not be an outlier, and would be the endpoint of the lower whisker.",
+        "memoryAnchor": "Remember: fences are the property line. Standing on the line is still your yard. Only stepping beyond the fence is trespassing. In a box plot, only points beyond the fence are outliers."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Dataset 1 has fences -1 and 71. Is the value 71 an outlier? Why or why not?",
+          "answer": "No, 71 is exactly at the upper fence, not beyond it. A value has to be strictly greater than 71 to be an outlier, so 71 would be the endpoint of the upper whisker."
+        },
+        {
+          "level": "L2",
+          "prompt": "For Dataset 1 (min=10, Q1=26, median=34, Q3=44, max=47), list the fences and explain why there are no outliers.",
+          "answer": "IQR = Q3 - Q1 = 44 - 26 = 18. Lower fence = Q1 - 1.5*IQR = 26 - 27 = -1. Upper fence = Q3 + 1.5*IQR = 44 + 27 = 71. The minimum data value is 10, which is greater than -1, and the maximum is 47, which is less than 71. Since no values fall below -1 or above 71, there are no outliers."
+        },
+        {
+          "level": "L3",
+          "prompt": "Dataset 2 has Q1=19, Q3=29, IQR=10, fences 4 and 44, with minimum 9 and maximum 43. If the dataset contained another value exactly equal to 4, would 4 be an outlier? Describe exactly how you would represent it on a box plot.",
+          "answer": "No, 4 is the lower fence, so it is not an outlier. It would be the endpoint of the lower whisker, not shown with an outlier symbol. Only values less than 4 (strictly below the fence) would be plotted as outliers."
+        }
+      ]
+    },
+    {
+      "errorId": "err-scatter-axes-swap",
+      "trigger": "You placed the response variable on the x-axis when constructing a scatter plot.",
+      "studentMisunderstanding": "You may have assumed the variable that comes first in the phrase or has smaller numbers goes on the x-axis. In fact, axis placement is determined by the variable's role: the explanatory variable (suspected cause) goes on the x-axis, and the response variable (suspected effect) goes on the y-axis. This convention comes from the research hypothesis, not from the order variables are listed or their magnitudes.",
+      "miniLesson": {
+        "explain": "A scatter plot always places the explanatory (independent) variable on the x-axis and the response (dependent) variable on the y-axis. The explanatory variable is the suspected cause, and the response variable is the suspected effect. Flipping the axes would distort the visual relationship and make it harder to interpret which variable affects which.",
+        "example": "In a study of how basketball practice hours affect free throw success, practice hours are explanatory and free throw success is response. So practice hours go on the x-axis and free throw success on the y-axis. Similarly, for fertilizer amount → plant height, fertilizer amount is on the x-axis and plant height on the y-axis.",
+        "memoryAnchor": "Remember: 'x = cause, y = effect.' The explanatory variable is the 'cause' and sits on the horizontal (x) axis; the response variable is the 'effect' and sits on the vertical (y) axis."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which variable belongs on the x-axis in a scatter plot: the explanatory variable or the response variable?",
+          "answer": "Explanatory variable."
+        },
+        {
+          "level": "L2",
+          "prompt": "A researcher wants to see if fertilizer amount (in kg) predicts plant height (in cm). Which variable goes on the x-axis and which on the y-axis?",
+          "answer": "Fertilizer amount on the x-axis, plant height on the y-axis."
+        },
+        {
+          "level": "L3",
+          "prompt": "The following data were collected: Fertilizer amount (kg): 10, 34, 44, 19; Plant height (cm): 47, 26, 18, 29. Identify the explanatory and response variables, then write the coordinates for each pair as they would appear on a correct scatter plot.",
+          "answer": "Explanatory: fertilizer amount (x-axis); response: plant height (y-axis). Coordinates: (10,47), (34,26), (44,18), (19,29)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-var-id-context",
+      "trigger": "When a student labels a variable as explanatory or response based on its inherent nature or measurement order, rather than the research hypothesis.",
+      "studentMisunderstanding": "The student believes certain variables are always explanatory or always response (e.g., 'time' or 'amount' is always explanatory), instead of checking which variable is the suspected cause and which is the effect in the specific study context.",
+      "miniLesson": {
+        "explain": "In any study, the explanatory (independent) variable is the suspected cause or predictor, and the response (dependent) variable is the possible effect or outcome. These roles are not fixed properties of the variables; they depend on the research question. To decide, ask: 'Which variable is being used to explain or predict the other?' and 'Which one changes as a result?' The variable that plays the role of the suspected cause is explanatory; the variable that is the outcome is response.",
+        "example": "From the lesson: 'fertilizer amount → plant height.' The research hypothesis is that fertilizer amount explains plant height, so fertilizer amount is explanatory and plant height is response. But if a different study asked whether plant height predicts how much fertilizer is needed, then plant height would be explanatory and fertilizer amount would be response—the context changes the roles.",
+        "memoryAnchor": "Cause goes on the x-axis; effect goes on the y-axis. Always ask 'What causes or predicts what?' The cause is explanatory, the effect is response. There is no 'always'—the research question names the order."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the study 'basketball practice hours → free throw success', which variable is explanatory and which is response?",
+          "answer": "Explanatory: basketball practice hours; Response: free throw success. Practice hours are the suspected cause."
+        },
+        {
+          "level": "L2",
+          "prompt": "A health researcher investigates whether education level can predict income. Identify the explanatory and response variables and explain why roles are assigned this way.",
+          "answer": "Explanatory: education level; Response: income. Because the research hypothesis looks at education level as the suspected influence on income, not the reverse."
+        },
+        {
+          "level": "L3",
+          "prompt": "For the variables 'running speed' and 'pulse rate', explain why different studies could assign them different roles. Give one example where running speed is explanatory and one where pulse rate is explanatory, and state why the research question matters.",
+          "answer": "If the study asks 'does running speed affect pulse rate?', then running speed is explanatory and pulse rate is response. If the study asks 'does resting pulse rate affect how fast someone can run?', then pulse rate is explanatory and running speed is response. The roles depend on which variable is treated as the suspected cause in each study's hypothesis."
+        }
+      ]
+    },
+    {
+      "errorId": "err-correlation-misclassify",
+      "trigger": "Triggered when a student labels a correlation as strong because the slope is positive or steep, or calls a curved pattern linear because both variables are related.",
+      "studentMisunderstanding": "The student confuses strength with direction or pattern: they think 'strong' means the line points upward or is steep, and they treat any close relationship as linear even when the points follow a curve. Strength is about how tightly points cluster around a trend line, direction is about upward or downward slope, and pattern must be straight for a linear label.",
+      "miniLesson": {
+        "explain": "Correlation classifies two-variable relationships using three separate features: pattern, direction, and strength. Pattern asks whether the relationship is linear, non-linear, or none. Direction asks whether the variables tend to increase together (positive) or whether one increases while the other decreases (negative). Strength asks how closely the points cluster around a trend line: strong, moderate, weak, or none. These features are independent. A strong correlation can be positive or negative; a weak correlation can still be positive. Also, the word 'linear' only applies when the points follow a straight-line pattern. A tight U-shaped curve is non-linear, even though the pattern is very consistent.",
+        "example": "Study hours and exam score often show a positive linear correlation: as study hours increase, exam score tends to increase. If the points are tightly clustered around a straight upward-sloping line, the correlation is strong. If the points are more spread out but still generally rise, the strength is moderate or weak. The positive direction comes from the upward slope, not from how strong the clustering is. Similarly, excess speed and traffic fine amount show a positive direction because the fine increases with excess speed, but if the points are widely scattered, the strength would be weak or none, not strong.",
+        "memoryAnchor": "S-D-P in order: Squeeze (Strength = how close the points are), Direction (up/down), Pattern (straight/curve). Strong is about squeeze, not about whether the line goes up or down. A curved path is not a linear pattern."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Look at the description: 'A scatter plot of study hours and exam scores shows points tightly clustered around a straight upward-sloping line.' Classify the correlation by pattern, direction, and strength.",
+          "answer": "Pattern: linear; direction: positive; strength: strong. The points are tightly clustered (strong), the line slopes upward (positive), and the pattern is a straight line (linear)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A scatter plot of excess speed and traffic fine amount has points that generally rise from left to right, but they are very spread out with no obvious straight line. A student says 'This is a strong negative correlation.' What is wrong? Give the correct classification using pattern, direction, and strength.",
+          "answer": "The student confused strength with direction and sign. The direction is positive because the fine amount increases as excess speed increases, not negative. Because the points are widely spread, the strength is weak or none, not strong. Correct classification: pattern is unclear or weak linear, direction is positive, strength is weak/none."
+        },
+        {
+          "level": "L3",
+          "prompt": "A teacher says: 'There is a perfect relationship: as x increases, y first decreases and then increases, making a U-shape. That is a strong positive linear correlation.' Evaluate this statement using pattern, direction, and strength. What is the correct description?",
+          "answer": "The statement is incorrect. The pattern is non-linear (curved, U-shaped), so it cannot be called linear. Direction is not a single positive or negative label because the curve goes down and then up. Strength in the linear sense is not defined; a consistent U-shape indicates a strong non-linear/curvilinear association, not a strong positive linear correlation. Correct description: non-linear pattern, no single overall direction, and strong non-linear association."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-boxplot-iqr-boundaries",
+      "questions": [
+        {
+          "id": "q1-boxplot-boundaries",
+          "type": "single_choice",
+          "stem": "A box plot has five-number summary: min=10, Q1=26, median=34, Q3=44, max=47. Which calculation correctly finds the IQR and the lower outlier boundary?",
+          "options": [
+            "IQR = 44 - 26 = 18; lower boundary = 26 - 1.5(18) = -1",
+            "IQR = 26 - 44 = -18; lower boundary = 44 - 1.5(18) = 17",
+            "IQR = 44 - 26 = 18; lower boundary = 44 - 1.5(18) = 17",
+            "IQR = 44 - 26 = 18; lower boundary = 26 + 1.5(18) = 53"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-verify-boundaries",
+          "type": "open_ended",
+          "stem": "A different dataset has five-number summary: min=9, Q1=19, median=26, Q3=29, max=43. Calculate the IQR and both outlier boundaries. Then explain why the lower boundary uses Q1 rather than Q3.",
+          "rubric": "IQR = 29 - 19 = 10. Lower boundary = 19 - 1.5(10) = 4. Upper boundary = 29 + 1.5(10) = 44. Explanation must state that the lower boundary measures how far below Q1 a point must be to be considered an outlier, so Q1 is the starting point; using Q3 would not identify low outliers."
+        }
+      ],
+      "passRule": "Q1 must be correct. Q2 must show IQR=10, boundaries 4 and 44, and an explanation that the lower boundary is based on Q1 because outliers are defined relative to the lower quartile."
+    },
+    {
+      "forErrorId": "err-boxplot-threshold-mistake",
+      "questions": [
+        {
+          "id": "q1_threshold_mcq",
+          "type": "single_choice",
+          "stem": "A dataset has Q1 = 19 and Q3 = 29, so the outlier fences are 4 and 44. The dataset contains the values -1, 4, 9, 19, 26, 29, 43, 44, and 71. According to the 1.5×IQR rule, which values are outliers?",
+          "options": [
+            "4 and 44",
+            "-1 and 71",
+            "9 and 43",
+            "-1, 4, 44, and 71"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_threshold_explain",
+          "type": "open_ended",
+          "stem": "Explain why a data value of 4 is NOT an outlier for the dataset in Question 1, even though it equals the lower fence.",
+          "rubric": "The fence is a boundary, not a data point. Only values strictly below the lower fence or strictly above the upper fence are outliers. A value exactly at the fence (equal to 4) is considered inside the acceptable range, so it is not an outlier; it would be drawn as the endpoint of the lower whisker, not as an outlier point."
+        }
+      ],
+      "passRule": "Answer both questions correctly."
+    },
+    {
+      "forErrorId": "err-scatter-axes-swap",
+      "questions": [
+        {
+          "id": "scatter-axes-swap-q1",
+          "type": "single_choice",
+          "stem": "A health researcher records hours of sleep per night and stress level (score) for 20 adults. They want to see whether sleep affects stress. If they construct a scatter plot, how should the axes be labelled?",
+          "options": [
+            "Sleep hours on the x-axis, stress score on the y-axis",
+            "Stress score on the x-axis, sleep hours on the y-axis",
+            "Stress score on both axes",
+            "Either axis, as long as each point is plotted"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "scatter-axes-swap-q2",
+          "type": "open_ended",
+          "stem": "A researcher wants to study whether fertilizer amount (kg) predicts plant height (cm). They collect data: Fertilizer amount (kg): 10, 34, 44, 19; Plant height (cm): 47, 26, 18, 29. Identify the explanatory and response variables, and write the four ordered pairs as they would appear on a correctly labelled scatter plot (x-coordinate first).",
+          "rubric": "A correct response must state that fertilizer amount is the explanatory variable (x-axis) and plant height is the response variable (y-axis), and list the ordered pairs as (10,47), (34,26), (44,18), (19,29). Accept equivalent wording."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. Question 1 must select option A. Question 2 must correctly identify the axes and list all four ordered pairs with the x-coordinate as the explanatory variable."
+    },
+    {
+      "forErrorId": "err-var-id-context",
+      "questions": [
+        {
+          "id": "q1_var_role_context",
+          "type": "single_choice",
+          "stem": "In a study, a researcher asks: 'Does the amount of time a student spends playing video games predict their score on a math test?' Which variable is explanatory and which is response?",
+          "options": [
+            "Explanatory: math test score; Response: time playing video games",
+            "Explanatory: time playing video games; Response: math test score",
+            "Both variables are explanatory because they are both measured in numbers",
+            "Neither variable is explanatory because the study is observational"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_var_role_time",
+          "type": "single_choice",
+          "stem": "A student says, 'Time is always the explanatory variable because it comes first in any study.' What is the best response?",
+          "options": [
+            "The student is correct because time cannot be an outcome.",
+            "The student is incorrect; explanatory and response roles depend on the research question, not on which variable is measured first.",
+            "The student is correct only when the study is about growth.",
+            "The student is incorrect because time is always the response variable since it is measured last."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q3_var_role_reversal",
+          "type": "open_ended",
+          "stem": "For the paired variables 'outdoor temperature' and 'ice cream sales', one researcher studies whether outdoor temperature predicts ice cream sales. A second researcher studies whether ice cream sales predict outdoor temperature. Identify the explanatory and response variables in each study. Then explain why the roles differ.",
+          "rubric": "First study: explanatory = outdoor temperature, response = ice cream sales. Second study: explanatory = ice cream sales, response = outdoor temperature. Explanation must state that the roles are determined by the research hypothesis/which variable is treated as the suspected cause, not by a fixed property of the variables. (Partial credit if only one study is correctly identified.)"
+        }
+      ],
+      "passRule": "All three questions must be answered correctly. For Q1 and Q2 choose the correct single option. For Q3, the response must identify both variable assignments correctly and explicitly state that the role depends on the research context."
+    },
+    {
+      "forErrorId": "err-correlation-misclassify",
+      "questions": [
+        {
+          "id": "q1-correlation-strength-vs-direction",
+          "type": "single_choice",
+          "stem": "A scatter plot shows that as the number of hours spent playing video games increases, reaction time also increases. The points follow a straight upward-sloping line but are very widely spread. How should this correlation be classified?",
+          "options": [
+            "Linear, positive, weak",
+            "Linear, positive, strong",
+            "Non-linear, positive, moderate",
+            "Linear, negative, weak"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-correlation-curved-pattern",
+          "type": "open_ended",
+          "stem": "A study measures plant height against fertilizer amount. The scatter plot shows points tightly packed along a curve that rises quickly and then flattens out. A student says: 'This is a strong positive linear correlation.' Explain what is incorrect in the student's statement and give the correct classification (pattern, direction, strength).",
+          "rubric": "The student incorrectly calls a curved relationship linear. Correct classification: pattern is non-linear (curvilinear), direction is positive (as fertilizer increases, plant height increases, but the rate slows), and strength is strong as a non-linear association, not a strong positive linear correlation. The word 'linear' only applies to a straight-line pattern; closeness alone does not make a relationship linear."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. Q1 must select option A. Q2 must clearly state the pattern is non-linear (not linear), direction is positive, and strength is strong only in the non-linear sense."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-06",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Pd4EdL88foBjlex9MzIcnt4vn5c?from=vc_group_doc_link#doxcnZoPWnrBg7xP3D472jz3Rzc",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-08-06 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "A box plot displays the five-number summary: minimum, Q1, median, Q3, maximum, and identifies outliers using the 1.5*IQR rule.；IQR = Q3 - Q1. Outlier boundaries are Q1 - 1.5*IQR and Q3 + 1.5*IQR.；A scatter plot graphs paired quantitative variables with the independent (explanatory) variable on the x-axis and dependent (response) variable on the y-axis.",
+    "learningGoals": [
+      {
+        "id": "lg-boxplot",
+        "statement": "Construct and interpret box plots, including calculating IQR and identifying outliers using the 1.5*IQR rule."
+      },
+      {
+        "id": "lg-scatterplot",
+        "statement": "Create scatter plots and correctly assign explanatory (independent) variables to the x-axis and response (dependent) variables to the y-axis."
+      },
+      {
+        "id": "lg-var-id",
+        "statement": "Identify explanatory and response variables in real-world contexts, recognizing that roles depend on the research hypothesis."
+      },
+      {
+        "id": "lg-correlation",
+        "statement": "Classify correlations by pattern (linear/non-linear/none), direction (positive/negative), and strength (strong/moderate/weak/none)."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Class Activity 3 Box Plot Submission",
+        "studentAction": "Complete Class Activity 3 box plot calculations, cross-reference with instructor's walkthrough, then attach results to Schoology for grading.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students must cross-reference their calculations with the instructor’s walkthrough, then attach completed results to Schoology for grading.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Class Activity 3 submission deadline not specified; may be due immediately or by next class.",
+        "reason": "No explicit due date or time provided in minutes."
+      }
+    ],
+    "watchTags": [
+      "boxplot-outliers",
+      "scatterplot-basics",
+      "var-id",
+      "correlation"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "condition": "5-6 correct",
+        "systemAction": "mark passed; unlock next homework"
+      },
+      {
+        "condition": "3-4 correct",
+        "systemAction": "assign targeted reteach modules based on missed errorIds, then allow retest"
+      },
+      {
+        "condition": "0-2 correct",
+        "systemAction": "start full reteach path covering all core errorIds, followed by retest"
+      }
+    ],
+    "nextActions": [
+      "5-6 correct: You've demonstrated a solid understanding of box plots, scatter plots, variable identification, and correlation basics. Great work!",
+      "3-4 correct: You have a good start, but some specific concepts need review. The system will provide short mini-lessons on your trouble areas before a quick retest.",
+      "0-2 correct: Let's rebuild the foundations. The system will guide you through the key ideas of box plots, scatter plots, and correlation before reassessing."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-s6-0806-q1",
+        "type": "choice",
+        "question": "Using Dataset 1 (min=10, Q1=26, median=34, Q3=44, max=47), what is the IQR and the lower and upper outlier boundaries using the 1.5*IQR rule?",
+        "options": [
+          "IQR = 18; lower boundary = -1, upper boundary = 71",
+          "IQR = 18; lower boundary = 26, upper boundary = 44",
+          "IQR = 10; lower boundary = 4, upper boundary = 44",
+          "IQR = 18; lower boundary = -27, upper boundary = 71"
+        ],
+        "correct": 0,
+        "diagnosis": "Tests ability to compute IQR and outlier fences from five-number summary.",
+        "misconceptions": [
+          "✓ Correct! IQR = 44 - 26 = 18; lower fence = 26 - 1.5*18 = -1; upper fence = 44 + 1.5*18 = 71.",
+          "The boundaries are not simply Q1 and Q3; they must be extended by 1.5 times the IQR. Here, that gives -1 and 71.",
+          "Those are the values from Dataset 2. Recalculate using Dataset 1: Q3-Q1 = 44-26 = 18.",
+          "Check the lower fence formula: it's Q1 - 1.5*IQR, not (Q1 - Q3) - 1.5*IQR."
+        ],
+        "nodeId": "boxplot-outliers",
+        "errorId": "err-boxplot-iqr-boundaries",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-boxplot",
+        "successCriteria": "Correctly computes IQR and applies formula Q1-1.5*IQR and Q3+1.5*IQR.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question requires computing a numerical summary and applying an outlier rule, directly supporting the analysis of one-variable data.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Subtracts 1.5*IQR from Q3 instead of Q1, or mixes up Dataset 1 and Dataset 2 values.",
+        "remediationModule": "err-boxplot-iqr-boundaries",
+        "retestItem": "err-boxplot-iqr-boundaries"
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q2",
+        "type": "choice",
+        "question": "In a box plot, the whiskers extend from the box to the most extreme data point within the fences. If a data point lies exactly at the upper fence value (Q3 + 1.5*IQR), how is it represented?",
+        "options": [
+          "As an outlier with a special symbol (e.g., asterisk)",
+          "As the endpoint of the upper whisker",
+          "Inside the box, because it equals Q3 + something",
+          "It is omitted from the plot"
+        ],
+        "correct": 1,
+        "diagnosis": "Checks understanding that the fence is the threshold, not an outlier itself; data on the fence is not marked separately.",
+        "misconceptions": [
+          "Points at the exact fence are not outliers—they are the farthest allowed within the whisker.",
+          "✓ Yes! The fence is the boundary; a point at that value is still inside and becomes the end of the whisker.",
+          "The box represents the IQR (Q1 to Q3). The fence is far outside the box, so this point is at the whisker's tip.",
+          "All data within the fences must appear in the plot; no data is omitted unless it exceeds the fences."
+        ],
+        "nodeId": "boxplot-outliers",
+        "errorId": "err-boxplot-threshold-mistake",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-boxplot",
+        "successCriteria": "Distinguishes between data points at the fence (included in whisker) and true outliers (beyond the fence).",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interpreting box plot whiskers and outlier markers is central to one-variable data analysis.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Believing that any point whose value equals a computed fence should be plotted as an outlier.",
+        "remediationModule": "err-boxplot-threshold-mistake",
+        "retestItem": "err-boxplot-threshold-mistake"
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q3",
+        "type": "choice",
+        "question": "When constructing a scatter plot, which variable is conventionally placed on the x-axis?",
+        "options": [
+          "The explanatory (independent) variable",
+          "The response (dependent) variable",
+          "The variable that was measured first",
+          "The variable with larger numerical values"
+        ],
+        "correct": 0,
+        "diagnosis": "Assesses recall of the standard convention for scatter plot axis assignment.",
+        "misconceptions": [
+          "✓ Exactly. The explanatory variable goes on the x-axis.",
+          "The response is plotted on the y-axis, not the x-axis.",
+          "Measurement order doesn't determine axis placement; the causal role does.",
+          "Scale doesn't matter—axis placement is based on the variable's role (explanatory vs. response)."
+        ],
+        "nodeId": "scatterplot-basics",
+        "errorId": "err-scatter-axes-swap",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-scatterplot",
+        "successCriteria": "States that the explanatory (independent) variable belongs on the x-axis.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Correct axis assignment is a foundational skill for two-variable data analysis.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Placing the response variable on the x-axis or choosing the variable with larger values.",
+        "remediationModule": "err-scatter-axes-swap",
+        "retestItem": "err-scatter-axes-swap"
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q4",
+        "type": "choice",
+        "question": "A study investigates whether the number of hours spent practicing a sport predicts the number of wins in a season. What are the explanatory and response variables?",
+        "options": [
+          "Explanatory: practice hours; Response: number of wins",
+          "Explanatory: number of wins; Response: practice hours",
+          "Both are response variables because they are measured",
+          "Impossible to determine without a graph"
+        ],
+        "correct": 0,
+        "diagnosis": "Evaluates ability to assign roles based on a study hypothesis, not just variable labels.",
+        "misconceptions": [
+          "✓ Right! Practice hours are the suspected cause, so it's the explanatory variable.",
+          "The study investigates whether practice hours predict wins, not the other way around.",
+          "Even though both are measured, one is used to predict the other. Roles are determined by the research question.",
+          "You can determine roles from the study description alone. Practice hours is the explanatory variable."
+        ],
+        "nodeId": "var-id",
+        "errorId": "err-var-id-context",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-var-id",
+        "successCriteria": "Identifies the explanatory variable as the predicted cause (practice hours) and the response as the effect (wins).",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Identifying variables correctly is essential before any two-variable analysis.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Assuming the variable that is easier to measure or that comes first in time is always the explanatory variable.",
+        "remediationModule": "err-var-id-context",
+        "retestItem": "err-var-id-context"
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q5",
+        "type": "choice",
+        "question": "A scatter plot of daily calorie intake vs. weight shows points tightly clustered along a straight line that slopes upward. Which best describes the correlation?",
+        "options": [
+          "Strong positive linear correlation",
+          "Weak positive linear correlation",
+          "Strong negative linear correlation",
+          "No correlation"
+        ],
+        "correct": 0,
+        "diagnosis": "Checks ability to simultaneously assess pattern, direction, and strength from a verbal description.",
+        "misconceptions": [
+          "✓ Correct. Tight cluster = strong, upward slope = positive, straight pattern = linear.",
+          "'Tightly clustered' means strong, not weak.",
+          "Upward slope means positive direction, not negative.",
+          "A tight cluster along a straight line is the opposite of no correlation – it's a very strong correlation."
+        ],
+        "nodeId": "correlation",
+        "errorId": "err-correlation-misclassify",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-correlation",
+        "successCriteria": "Classifies the correlation as strong, positive, and linear based on the description of point clustering and slope.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Correlation classification is a key part of two-variable data analysis.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Confusing strength with direction (e.g., calling a strong positive correlation weak because the slope is positive) or ignoring the linear pattern.",
+        "remediationModule": "err-correlation-misclassify",
+        "retestItem": "err-correlation-misclassify"
+      },
+      {
+        "id": "diag-mdm4u-s6-0806-q6",
+        "type": "explain",
+        "question": "Describe what makes a correlation both 'strong' and 'positive linear'. Provide an example of two variables that might show such a relationship and explain why the terms 'strong', 'positive', and 'linear' each apply.",
+        "correct": null,
+        "diagnosis": "Evaluates deep understanding of correlation descriptors by requiring a coherent explanation and example.",
+        "nodeId": "correlation",
+        "errorId": "err-correlation-misclassify",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-correlation",
+        "successCriteria": "Explains that strength refers to how closely points follow a straight line, positive means both variables increase together, and linear means the pattern is straight, not curved. Example should be appropriate and justified.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Explaining correlation characteristics integrates multiple aspects of two-variable analysis.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "justify",
+        "commonMisconception": "Treating 'strong' as synonymous with 'possible' or 'common', or ignoring the straight-line requirement.",
+        "remediationModule": "err-correlation-misclassify",
+        "retestItem": "err-correlation-misclassify"
+      }
+    ]
+  }
+}

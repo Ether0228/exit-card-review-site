@@ -1,0 +1,1310 @@
+{
+  "sourceLesson": "BOH4M.S6.Catherine 2026-08-05",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/KULzd1JSmoAvhnxoaiec0wXCnmd?from=vc_group_doc_link#doxcnuQcExiW9nENkR2dDKKfvXe",
+  "sourceTitle": "BOH4M.S6.Catherine 2026-08-05 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/KULzd1JSmoAvhnxoaiec0wXCnmd?from=vc_group_doc_link#doxcnuQcExiW9nENkR2dDKKfvXe",
+    "title": "BOH4M.S6.Catherine 2026-08-05 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-07/sources/boh4m-s6-catherine-2026-08-05/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "BOH4M",
+  "lessonDate": "2026-08-05",
+  "teacher": "Catherine",
+  "section": "S6",
+  "subject": "business",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-08-05",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session's core was an instructional lesson on motivational theories (process, reinforcement, and incentive frameworks), with administrative announcements about camera policy, warning emails, grading weights, and upcoming deadlines. Substantial academic content was taught, so a diagnostic exit card is warranted.",
+    "academicContentSignals": [
+      "Process theories: how individuals assign value to rewards and decide work effort based on preferences, support, and expected outcomes",
+      "Equity vs equality distinction: equality = identical allocation, equity = tailored support for equal access to success",
+      "Equity theory managerial implications: address anger from underpayment, guilt from overpayment, minimize negative reward comparisons, pay is a common dispute source",
+      "Expectancy theory core variables: expectancy (effort leads to performance), instrumentality (support/tools), valence (rewards aligned with individual needs)",
+      "Goal setting theory: specific, challenging, prioritized goals; timely midpoint feedback; reward completed goals",
+      "Reinforcement theory: based on operant conditioning and law of effect; external consequences shape behavior",
+      "Reinforcement types: positive reinforcement, negative reinforcement, punishment to reduce unwanted behaviors",
+      "Implementation best practices: rewards contingent on demonstrated behaviors and delivered immediately; punishment private with clear guidance",
+      "Workplace incentive frameworks: merit pay, skill-based pay, performance bonuses, profit sharing, gain sharing, stock ownership plans",
+      "Cross-theory validation: incentive structures align employee actions with organizational interests via reinforcement, goal-setting, and expectancy theories"
+    ],
+    "courseOverviewSignals": [
+      "Grading weight breakdown: 5 units each with 2 assignments (3% each) + 1 cumulative assignment + 5 unit tests + 1 final exam",
+      "Warning email criteria: based on missing assignments, low attendance, and consistent lack of participation",
+      "Course progress warning system and student responsibility to proactively seek support"
+    ],
+    "opsDominanceRisk": "The lesson contained a heavy layer of administrative content (camera policy, warning emails, grading weights, upcoming deadlines and platform activities), which could overshadow the motivational-theory content in the exit card. To mitigate, the diagnostic card must prioritize Motivation Theories mastery and include at most 0-2 lightweight readiness checks on operations.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Mandatory camera-on policy",
+        "studentAction": "Keep your camera activated for the entire session",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Mandatory Camera Policy: All attendees are required to keep their cameras activated throughout the session, with a full roll call completed at the start",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Warning email criteria and grading structure",
+        "studentAction": "Understand the risk factors (missing assignments, low attendance, no participation) and proactively reach out to the instructor if at risk",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students (especially at-risk students)",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Warning emails are sent to students at high risk of course failure, triggered by a combination of missing assignments, low attendance, and consistent lack of in-class participation. Each of the 5 course units includes 2 separate 3% weighted assignments, plus 1 cumulative assignment, 5 unit tests and 1 final exam.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "platform_link",
+        "title": "Lesson 5 hands-on consolidation activities on Schoology",
+        "studentAction": "Complete the Lesson 5 hands-on and consolidation activities on Schoology after the break",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "A 15-minute break will be provided after the core teaching segment, followed by non-submitted hands-on and consolidation activities for Lesson 5 hosted on the Schoology platform.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "deadline",
+        "title": "Brochure design assignment submission",
+        "studentAction": "Continue working on the brochure design assignment and submit by this Friday",
+        "deadlineText": "Coming Friday (2026-08-07)",
+        "deadlineISO": "2026-08-07",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students may continue working on their brochure design assignment after completing in-class practice, with a submission deadline of the coming Friday.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 assessment on Friday",
+        "studentAction": "Prepare for the Unit 3 assessment by reviewing past unit slides and homework questions",
+        "deadlineText": "Friday (2026-08-07)",
+        "deadlineISO": "2026-08-07",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The Unit 3 assessment will be held on Friday, with review of past unit slides and homework questions recommended for preparation.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "BOH4M Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Process Theories of Motivation、Equity Theory、Expectancy Theory、Goal Setting Theory）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 6 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Process theories describe how individuals assign value to rewards and decide on work effort based on personal preferences, available support, and expected outcomes.；Equity theory focuses on fairness perceptions; equality means identical resource allocation, equity means tailored support based on individual needs.；Equity theory predicts that underpayment leads to anger, overpayment leads to guilt, and pay is a common source of workplace disputes.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Compare process theories of motivation (equity, expectancy, goal setting) with content theories."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Apply equity theory to distinguish between equity and equality in workplace resource allocation."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Diagnose motivation problems using expectancy theory's three variables (expectancy, instrumentality, valence)."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Classify management actions as positive reinforcement, negative reinforcement, or punishment."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Differentiate incentive plans such as profit sharing, gain sharing, merit pay, and skill-based pay."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "BOH4M_C3_ProcessTheories",
+      "name": "Process Theories of Motivation",
+      "nameEn": "Process Theories of Motivation",
+      "definition": "Process theories describe how individuals assign value to rewards and decide on work effort based on personal preferences, available support, and expected outcomes. Key theories include Equity Theory, Expectancy Theory, and Goal Setting Theory.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    },
+    {
+      "id": "BOH4M_C3_EquityTheory",
+      "name": "Equity Theory",
+      "nameEn": "Equity Theory",
+      "definition": "Equity theory focuses on fairness perceptions in the workplace. It distinguishes between equality (identical allocation) and equity (tailored support). Inequitable perceptions lead to employee anger (underpayment) or guilt (overpayment).",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    },
+    {
+      "id": "BOH4M_C3_ExpectancyTheory",
+      "name": "Expectancy Theory",
+      "nameEn": "Expectancy Theory",
+      "definition": "Expectancy theory proposes that motivation is a function of expectancy (effort leads to performance), instrumentality (performance leads to outcomes), and valence (value of outcomes). All three must be high for strong motivation.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    },
+    {
+      "id": "BOH4M_C3_GoalSettingTheory",
+      "name": "Goal Setting Theory",
+      "nameEn": "Goal Setting Theory",
+      "definition": "Goal setting theory states that specific, challenging, and prioritized goals, combined with timely feedback and rewards for achievement, enhance motivation and performance.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    },
+    {
+      "id": "BOH4M_C3_ReinforcementTheory",
+      "name": "Reinforcement Theory",
+      "nameEn": "Reinforcement Theory",
+      "definition": "Reinforcement theory uses operant conditioning principles to shape behavior through positive reinforcement (adding pleasant stimulus), negative reinforcement (removing unpleasant stimulus), and punishment (adding unpleasant stimulus).",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    },
+    {
+      "id": "BOH4M_C3_IncentivePlans",
+      "name": "Incentive Plans",
+      "nameEn": "Incentive Plans",
+      "definition": "Incentive plans are organizational tools to align employee actions with company goals. Examples include merit pay, skill-based pay, bonuses, profit sharing, gain sharing, and stock ownership plans.",
+      "officialExpectationCode": "C3",
+      "officialNodeId": "BOH4M-C-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Compare process theories of motivation (equity, expectancy, goal setting) with content theories."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply equity theory to distinguish between equity and equality in workplace resource allocation."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Diagnose motivation problems using expectancy theory's three variables (expectancy, instrumentality, valence)."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Classify management actions as positive reinforcement, negative reinforcement, or punishment."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Differentiate incentive plans such as profit sharing, gain sharing, merit pay, and skill-based pay."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-process-theories-confuse-with-content",
+        "condition": "Student incorrectly answers the question targeting process vs. content theories.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "You might be mixing up process theories with content theories. Let's clarify the difference."
+      },
+      {
+        "errorId": "err-equity-eq-vs-eq",
+        "condition": "Student incorrectly answers the question on equity vs. equality.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "It's easy to confuse equity with equality. Equity is about fairness, not sameness."
+      },
+      {
+        "errorId": "err-expectancy-ignoring-valence",
+        "condition": "Student incorrectly answers a question on expectancy theory components.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "Remember, motivation requires all three: expectancy, instrumentality, and valence. One missing can kill drive."
+      },
+      {
+        "errorId": "err-goal-setting-vague-goals",
+        "condition": "Student incorrectly answers the question on effective goal setting.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "Vague goals don't motivate. Specific, challenging goals with feedback work best."
+      },
+      {
+        "errorId": "err-reinforcement-punish-vs-neg",
+        "condition": "Student incorrectly answers a reinforcement classification question.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "Negative reinforcement removes something bad; punishment adds something bad. They're not the same."
+      },
+      {
+        "errorId": "err-incentive-plan-confusion",
+        "condition": "Student incorrectly answers the incentive plan differentiation question.",
+        "systemAction": "Assign reteach module for this errorId.",
+        "studentMessage": "Profit sharing and gain sharing are different. Gain sharing ties rewards to specific improvements."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-boh4m-c3-q1",
+        "nodeId": "BOH4M_C3_ProcessTheories",
+        "errorId": "err-process-theories-confuse-with-content",
+        "stem": "Which statement best distinguishes process theories of motivation from content theories?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies that process theories explain how motivation occurs, not what the needs are.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question directly assesses the learner's ability to compare motivation theories as per C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Assess ability to differentiate process theories from content theories.",
+        "commonMisconception": "Confusing process theories (how motivation works) with content theories (what motivates).",
+        "remediationModule": "err-process-theories-confuse-with-content",
+        "retestItem": "err-process-theories-confuse-with-content",
+        "options": [
+          {
+            "label": "A",
+            "text": "Process theories focus on what motivates people, while content theories focus on how motivation occurs.",
+            "correct": false,
+            "feedbackWrong": "This reverses the roles. Remember: content theories identify the 'what' (needs like Maslow's), while process theories explain the 'how' (decision-making)."
+          },
+          {
+            "label": "B",
+            "text": "Process theories explain how people decide to exert effort, while content theories identify the needs that drive behavior.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Process theories like equity and expectancy describe the cognitive process behind motivation, whereas content theories like Maslow's focus on internal needs."
+          },
+          {
+            "label": "C",
+            "text": "Process theories are based on reinforcement, while content theories are based on goal setting.",
+            "correct": false,
+            "feedbackWrong": "Reinforcement is a process theory, and goal setting is also a process theory. This classification is inaccurate."
+          },
+          {
+            "label": "D",
+            "text": "Process theories are only used in business, while content theories are only used in psychology.",
+            "correct": false,
+            "feedbackWrong": "Both sets of theories are applied across fields, including business management."
+          }
+        ],
+        "nextActionIfWrong": "Enter the err-process-theories-confuse-with-content reteach module."
+      },
+      {
+        "id": "diag-boh4m-c3-q2",
+        "nodeId": "BOH4M_C3_EquityTheory",
+        "errorId": "err-equity-eq-vs-eq",
+        "stem": "A manager gives all team members the same bonus regardless of performance, explaining 'I treat everyone equally.' According to equity theory, this approach may cause problems because:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Explains that fairness (equity) considers individual contributions, not just equal distribution.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies equity theory, a key process theory under OSSD expectation C3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Test understanding of equity vs. equality in a workplace scenario.",
+        "commonMisconception": "Confusing equity (fairness) with equality (sameness).",
+        "remediationModule": "err-equity-eq-vs-eq",
+        "retestItem": "err-equity-eq-vs-eq",
+        "options": [
+          {
+            "label": "A",
+            "text": "Employees always prefer unequal pay distributions.",
+            "correct": false,
+            "feedbackWrong": "Equity theory does not say people always want unequal pay; it says they want rewards proportional to their inputs."
+          },
+          {
+            "label": "B",
+            "text": "Equity theory suggests that fairness means tailoring rewards to individual contributions, not giving everyone the same.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Equity theory focuses on a fair balance between what employees give (inputs) and what they receive (outputs). Identical rewards for unequal contributions create perceived inequity."
+          },
+          {
+            "label": "C",
+            "text": "Equality always leads to guilt among high performers.",
+            "correct": false,
+            "feedbackWrong": "Guilt can occur in over-reward situations, but equality alone isn't guaranteed to cause guilt; the theory focuses on the perception of fairness relative to others."
+          },
+          {
+            "label": "D",
+            "text": "Equity theory states that identical rewards increase motivation because they uphold equality.",
+            "correct": false,
+            "feedbackWrong": "Equity theory values fairness over equality. Identical rewards can demotivate high performers who feel under-rewarded."
+          }
+        ],
+        "nextActionIfWrong": "Enter the err-equity-eq-vs-eq reteach module."
+      },
+      {
+        "id": "diag-boh4m-c3-q3",
+        "nodeId": "BOH4M_C3_ExpectancyTheory",
+        "errorId": "err-expectancy-ignoring-valence",
+        "stem": "An employee believes that if they work hard, they can meet their sales target (high expectancy), and they trust that meeting the target will lead to a bonus (high instrumentality). However, the employee is not motivated because the bonus is only $10. Which component of expectancy theory is low?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Identifies that the low value of the reward (valence) explains the lack of motivation.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies expectancy theory, a core process theory under C3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Diagnose which expectancy variable is deficient in a realistic workplace scenario.",
+        "commonMisconception": "Believing that high expectancy alone ensures motivation without considering instrumentality or valence.",
+        "remediationModule": "err-expectancy-ignoring-valence",
+        "retestItem": "err-expectancy-ignoring-valence",
+        "options": [
+          {
+            "label": "A",
+            "text": "Expectancy",
+            "correct": false,
+            "feedbackWrong": "Expectancy is high because the employee believes effort will lead to performance. The problem isn't expectancy."
+          },
+          {
+            "label": "B",
+            "text": "Instrumentality",
+            "correct": false,
+            "feedbackWrong": "Instrumentality is high because the employee trusts that performance leads to the bonus. The issue is with the value of the bonus itself."
+          },
+          {
+            "label": "C",
+            "text": "Valence",
+            "correct": true,
+            "feedbackCorrect": "Correct! Valence refers to the value an individual places on the expected outcome. Even if expectancy and instrumentality are high, low valence (the $10 bonus feels worthless) will undermine motivation."
+          },
+          {
+            "label": "D",
+            "text": "Equity",
+            "correct": false,
+            "feedbackWrong": "Equity is part of a different theory. Expectancy theory's three components are expectancy, instrumentality, and valence."
+          }
+        ],
+        "nextActionIfWrong": "Enter the err-expectancy-ignoring-valence reteach module."
+      },
+      {
+        "id": "diag-boh4m-c3-q4",
+        "nodeId": "BOH4M_C3_GoalSettingTheory",
+        "errorId": "err-goal-setting-vague-goals",
+        "stem": "According to goal setting theory, which of the following goals would most effectively motivate a sales team?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Selects the goal that is specific, challenging, and measurable.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Evaluates understanding of goal setting theory principles under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Assess knowledge of what makes a goal effective according to goal setting theory.",
+        "commonMisconception": "Assuming that any goal motivates; failing to specify and challenge goals appropriately.",
+        "remediationModule": "err-goal-setting-vague-goals",
+        "retestItem": "err-goal-setting-vague-goals",
+        "options": [
+          {
+            "label": "A",
+            "text": "'Do your best to increase sales.'",
+            "correct": false,
+            "feedbackWrong": "'Do your best' is vague and not measurable. Goal setting theory emphasizes specific, challenging goals."
+          },
+          {
+            "label": "B",
+            "text": "'Try to improve sales if possible.'",
+            "correct": false,
+            "feedbackWrong": "This goal lacks specificity and challenge. Phrases like 'if possible' reduce commitment."
+          },
+          {
+            "label": "C",
+            "text": "'Increase sales by 5% within the next quarter.'",
+            "correct": true,
+            "feedbackCorrect": "Correct! This goal is specific (5%), challenging yet attainable, and time-bound (next quarter). Goal setting theory states such goals enhance motivation and performance."
+          },
+          {
+            "label": "D",
+            "text": "'Maintain current sales levels.'",
+            "correct": false,
+            "feedbackWrong": "Maintaining current levels is not challenging and lacks growth; challenging goals drive higher performance."
+          }
+        ],
+        "nextActionIfWrong": "Enter the err-goal-setting-vague-goals reteach module."
+      },
+      {
+        "id": "diag-boh4m-c3-q5",
+        "nodeId": "BOH4M_C3_ReinforcementTheory",
+        "errorId": "err-reinforcement-punish-vs-neg",
+        "stem": "A manager removes a strict daily progress report requirement after an employee consistently meets deadlines, making the employee more likely to continue meeting deadlines. This is an example of:",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Correctly identifies negative reinforcement (removing an aversive stimulus) as distinct from punishment.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies reinforcement theory, a process-based motivation approach under C3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "classify",
+        "stemIntent": "Assess the ability to distinguish negative reinforcement from punishment in a workplace context.",
+        "commonMisconception": "Confusing negative reinforcement (removing unpleasant stimulus) with punishment (adding unpleasant stimulus).",
+        "remediationModule": "err-reinforcement-punish-vs-neg",
+        "retestItem": "err-reinforcement-punish-vs-neg",
+        "options": [
+          {
+            "label": "A",
+            "text": "Positive reinforcement",
+            "correct": false,
+            "feedbackWrong": "Positive reinforcement adds a pleasant stimulus. Here, the manager is removing a burdensome report, not adding a reward."
+          },
+          {
+            "label": "B",
+            "text": "Negative reinforcement",
+            "correct": true,
+            "feedbackCorrect": "Correct! Negative reinforcement increases desired behavior (meeting deadlines) by removing an unpleasant requirement (daily report). It is not punishment; it strengthens the behavior."
+          },
+          {
+            "label": "C",
+            "text": "Punishment",
+            "correct": false,
+            "feedbackWrong": "Punishment adds an unpleasant stimulus to decrease behavior. This scenario removes something unpleasant to increase behavior, which is negative reinforcement."
+          },
+          {
+            "label": "D",
+            "text": "Extinction",
+            "correct": false,
+            "feedbackWrong": "Extinction involves ignoring the behavior to reduce it. This scenario actively removes a requirement to reinforce behavior."
+          }
+        ],
+        "nextActionIfWrong": "Enter the err-reinforcement-punish-vs-neg reteach module."
+      },
+      {
+        "id": "diag-boh4m-c3-q6",
+        "nodeId": "BOH4M_C3_IncentivePlans",
+        "errorId": "err-incentive-plan-confusion",
+        "stem": "A manufacturing plant shares 30% of the savings from reduced material waste with all production employees. This is an example of:",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Correctly identifies gain sharing as a reward tied to specific operational improvements.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Evaluates knowledge of incentive plans, which are practical applications of multiple motivation theories under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Distinguish between types of incentive plans based on their design.",
+        "commonMisconception": "Confusing profit sharing (company-wide profits) with gain sharing (specific productivity gains).",
+        "remediationModule": "err-incentive-plan-confusion",
+        "retestItem": "err-incentive-plan-confusion",
+        "options": [
+          {
+            "label": "A",
+            "text": "Profit sharing",
+            "correct": false,
+            "feedbackWrong": "Profit sharing distributes a portion of overall company profits, not savings from a specific improvement like material waste reduction."
+          },
+          {
+            "label": "B",
+            "text": "Gain sharing",
+            "correct": true,
+            "feedbackCorrect": "Correct! Gain sharing rewards employees for specific operational gains, such as reduced waste, improved quality, or cost savings."
+          },
+          {
+            "label": "C",
+            "text": "Merit pay",
+            "correct": false,
+            "feedbackWrong": "Merit pay bases compensation on individual performance appraisals, not group savings from a specific project."
+          },
+          {
+            "label": "D",
+            "text": "Skill-based pay",
+            "correct": false,
+            "feedbackWrong": "Skill-based pay rewards employees for acquiring new competencies, not for cost-saving achievements."
+          }
+        ],
+        "nextActionIfWrong": "Enter the err-incentive-plan-confusion reteach module."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-process-theories-confuse-with-content",
+      "condition": "Student incorrectly answers the question targeting process vs. content theories.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "You might be mixing up process theories with content theories. Let's clarify the difference."
+    },
+    {
+      "errorId": "err-equity-eq-vs-eq",
+      "condition": "Student incorrectly answers the question on equity vs. equality.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "It's easy to confuse equity with equality. Equity is about fairness, not sameness."
+    },
+    {
+      "errorId": "err-expectancy-ignoring-valence",
+      "condition": "Student incorrectly answers a question on expectancy theory components.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "Remember, motivation requires all three: expectancy, instrumentality, and valence. One missing can kill drive."
+    },
+    {
+      "errorId": "err-goal-setting-vague-goals",
+      "condition": "Student incorrectly answers the question on effective goal setting.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "Vague goals don't motivate. Specific, challenging goals with feedback work best."
+    },
+    {
+      "errorId": "err-reinforcement-punish-vs-neg",
+      "condition": "Student incorrectly answers a reinforcement classification question.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "Negative reinforcement removes something bad; punishment adds something bad. They're not the same."
+    },
+    {
+      "errorId": "err-incentive-plan-confusion",
+      "condition": "Student incorrectly answers the incentive plan differentiation question.",
+      "systemAction": "Assign reteach module for this errorId.",
+      "studentMessage": "Profit sharing and gain sharing are different. Gain sharing ties rewards to specific improvements."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-process-theories-confuse-with-content",
+      "trigger": "The student chooses an answer that swaps the definitions of process theories and content theories, such as labeling equity theory as content or Maslow's hierarchy as process.",
+      "studentMisunderstanding": "The student treats process theories as lists of needs or rewards and treats content theories as explanations of how motivation is calculated. They cannot distinguish 'what motivates' from 'how motivation happens.'",
+      "miniLesson": {
+        "explain": "Process theories describe how individuals assign value to rewards and decide on work effort based on personal preferences, available support, and expected outcomes. They focus on the mental sequence that leads to motivation. Content theories, by contrast, identify the specific needs that drive behavior (for example, Maslow's hierarchy). The key difference: content theories answer 'WHAT do people need?' while process theories answer 'HOW do people decide to put in effort?' Equity theory, expectancy theory, goal setting theory, and reinforcement theory are all process theories because they explain the mechanism of motivation.",
+        "example": "An employee who learns that a coworker with less experience received the same raise feels unmotivated. Equity theory explains this by analyzing how the employee compares their inputs and outputs to others—that is a process. If instead we say 'the employee has a need for recognition,' we are using a content theory because we are naming a need, not explaining the calculation.",
+        "memoryAnchor": "Process = Path (How the mind travels); Content = Cravings (What the mind wants)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Classify each theory as 'process' or 'content': equity theory, Maslow's hierarchy, expectancy theory.",
+          "answer": "Equity theory = process; Maslow's hierarchy = content; expectancy theory = process."
+        },
+        {
+          "level": "L2",
+          "prompt": "A manager says, 'I will motivate my team by giving them more money and recognition.' Identify whether this statement reflects process or content theories, and give one process-theory question the manager should also ask.",
+          "answer": "The statement reflects content theories because it focuses on needs/rewards. A process question would be: 'Do my employees believe their effort will lead to good performance, and do they value the rewards I offer?' This examines how motivation is decided, not just what is offered."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student claims: 'Equity theory is a content theory because fairness is something people want.' Explain the mistake and correct the statement.",
+          "answer": "The mistake is confusing a need with a process. Equity theory explains how people evaluate fairness by comparing their inputs and outcomes with others; it predicts anger with underpayment and guilt with overpayment. It does not simply list fairness as a need. Corrected: 'Equity theory is a process theory because it describes the comparison process people use to decide how much effort to exert.'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-equity-eq-vs-eq",
+      "trigger": "Student incorrectly answered the diagnostic question on equity versus equality in reward allocation.",
+      "studentMisunderstanding": "Believing that equity means treating everyone the same (equality), rather than providing individualized support based on needs and contributions.",
+      "miniLesson": {
+        "explain": "Equity theory focuses on fairness perceptions in the workplace. Equity is not the same as equality. Equality means giving everyone identical resources, while equity means tailoring support to each person's individual needs. When rewards are equal but contributions differ, employees compare their input to their output and the output of others. Underpayment leads to anger; overpayment leads to guilt. To be fair, managers must balance inputs and outcomes so each employee feels valued relative to their effort.",
+        "example": "A manager gives every employee the same annual bonus, thinking this is fair. According to equity theory, high performers who contribute more to the team will perceive the equal bonus as underpayment, because the reward does not reflect their higher input. This anger may reduce their motivation. Equity, instead, would tailor the bonus to each person's performance and responsibilities, making rewards feel fair even though they are not identical.",
+        "memoryAnchor": "Equity = Fair, not equal. Equality gives everyone the same slice; equity gives everyone what they need to thrive."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Equality means giving everyone ______ resources, while equity means providing ______ support based on individual needs.",
+          "answer": "Equality means giving everyone identical resources; equity means providing tailored support based on individual needs."
+        },
+        {
+          "level": "L2",
+          "prompt": "According to equity theory, if an employee is underpaid compared to a coworker with less effort, the employee is likely to feel ______.",
+          "answer": "anger (underpayment leads to anger)"
+        },
+        {
+          "level": "L3",
+          "prompt": "A manager has a team of 5 and must distribute a reward pool. One employee is a top performer, another is a new hire, and the rest perform at average levels. Should the manager give everyone the same reward or tailor rewards? Explain your answer using equity theory.",
+          "answer": "The manager should tailor rewards to each employee's contribution. Giving everyone the same reward is equality, but it will make the top performer feel underpaid and angry. Equity theory says outcomes should match inputs, so the top performer should receive a higher reward, the new hire a lower reward, and average performers an amount proportional to their effort. This creates perceived fairness and avoids anger or guilt."
+        }
+      ]
+    },
+    {
+      "errorId": "err-expectancy-ignoring-valence",
+      "trigger": "When diagnosing an employee's low motivation, the student focuses only on whether the employee believes they can succeed (expectancy) and ignores whether the reward actually matters to the employee (valence).",
+      "studentMisunderstanding": "The student mistakenly believes that high expectancy (confidence that effort leads to performance) alone guarantees motivation, without considering instrumentality (performance leads to outcomes) and valence (the value of the outcome).",
+      "miniLesson": {
+        "explain": "Expectancy theory says motivation depends on three variables: expectancy (belief that effort leads to performance), instrumentality (belief that performance leads to outcomes), and valence (value placed on the outcome). All three must be high for strong motivation. If any one is low, motivation drops. A student who only looks at expectancy misses the fact that employees need to also see a clear link between performance and rewards, and they need to actually value those rewards.",
+        "example": "An employee is confident that working harder will help them reach their sales target (high expectancy) and trusts that reaching the target will earn a bonus (high instrumentality). But the bonus is only a $15 gift card. The employee doesn't care about that reward, so valence is low. Even with high expectancy and instrumentality, motivation is weak because the outcome isn't valuable to the employee.",
+        "memoryAnchor": "Think of motivation as a chain: Effort → Performance → Outcome → Value. If any link is weak, the chain breaks. High confidence alone isn't enough—the reward must actually matter."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "An employee is confident they can finish a project on time (high expectancy) and knows that finishing the project will earn a promotion (high instrumentality). However, the employee is not interested in the promotion because they plan to leave the company. Which component of expectancy theory is low?",
+          "answer": "Valence is low, because the employee places little value on the promotion."
+        },
+        {
+          "level": "L2",
+          "prompt": "A salesperson works hard because they believe effort leads to more calls (expectancy) and more calls lead to sales (instrumentality). But the company only pays a $15 bonus for meeting targets, and the salesperson feels the bonus is not worth the extra effort. Using expectancy theory, explain why motivation is low.",
+          "answer": "Motivation is low because valence is low. The $15 bonus has little value to the employee, so even high expectancy and instrumentality do not produce strong motivation."
+        },
+        {
+          "level": "L3",
+          "prompt": "A manager says, 'My employees are confident they can achieve their goals, so they should be motivated.' Explain why this statement is incomplete using expectancy theory, and describe what the manager should check.",
+          "answer": "The manager only considers expectancy. Motivation also depends on instrumentality—whether performance will actually lead to outcomes—and valence—whether employees value those outcomes. The manager should verify that rewards are clearly tied to performance and that the rewards are meaningful to employees."
+        }
+      ]
+    },
+    {
+      "errorId": "err-goal-setting-vague-goals",
+      "trigger": "The student assumes any goal or vague instruction like 'do your best' is enough to motivate employees.",
+      "studentMisunderstanding": "The student thinks motivation comes from merely having a goal, without considering goal setting theory's requirements: goals must be specific, challenging, and prioritized, with timely midpoint feedback and rewards for completion. Vague goals fail because they do not focus effort or signal what success looks like.",
+      "miniLesson": {
+        "explain": "Goal setting theory explains that vague goals like 'do your best' are weak motivators. Effective goals are specific (so the employee knows exactly what to do), challenging (to push performance), prioritized (so attention goes to the most important target), and supported with timely midpoint feedback and rewards for completion. Without these elements, goals do not direct effort or create commitment.",
+        "example": "Compare 'Try to improve sales if possible' with 'Increase sales by 5% within the next quarter.' The second goal is specific, measurable, time-bound, and challenging. It gives a clear target and a deadline, so it motivates effort more powerfully.",
+        "memoryAnchor": "Vague goals are like fog; specific goals are like a GPS. The four clues from goal setting theory: Specific, Challenging, Prioritized, Feedback + Reward."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which goal follows goal setting theory? (A) 'Do your best.' (B) 'Increase sales by 5% within the next quarter.' Choose A or B.",
+          "answer": "B. It is specific, measurable, time-bound, and challenging, while 'Do your best' is vague and unstretchable."
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite this vague goal using goal setting theory: 'Improve customer service.' Use a number from the allowed list (3%, 5, 2, or 15).",
+          "answer": "One correct rewrite: 'Reduce customer complaint response time by 15% within the next 2 months.' This includes a specific target, a deadline, and a challenging, measurable outcome."
+        },
+        {
+          "level": "L3",
+          "prompt": "A manager wants to motivate a production team to reduce errors. Write a goal statement using goal setting theory, and describe when feedback and reward should occur.",
+          "answer": "Goal: 'Reduce production errors by 5% within the next quarter, prioritizing the two most common error types.' Provide timely midpoint feedback (e.g., at 6 weeks) to track progress, and reward goal completion (e.g., a team bonus) when the target is met."
+        }
+      ]
+    },
+    {
+      "errorId": "err-reinforcement-punish-vs-neg",
+      "trigger": "Student incorrectly classifies a workplace scenario as punishment when it is actually negative reinforcement (e.g., removing an unpleasant requirement to increase a desired behavior).",
+      "studentMisunderstanding": "The student believes that negative reinforcement and punishment are the same because both involve unpleasant stimuli, failing to notice that negative reinforcement removes an unpleasant stimulus to increase desired behavior, while punishment adds an unpleasant stimulus to reduce undesired behavior.",
+      "miniLesson": {
+        "explain": "In reinforcement theory, behavior can be shaped in three ways: positive reinforcement adds a pleasant stimulus to increase a behavior, negative reinforcement removes an unpleasant stimulus to increase a behavior, and punishment adds an unpleasant stimulus to decrease a behavior. The confusion often arises because both negative reinforcement and punishment involve unpleasant situations, but they work in opposite directions: negative reinforcement increases the frequency of a desired behavior by taking away something the person does not like, while punishment decreases the frequency of an undesired behavior by adding something the person does not like. To classify correctly, always ask two questions: Is a stimulus being added or removed? Is the behavior increasing or decreasing? Removing an unpleasant condition to reward a good behavior is negative reinforcement; adding an unpleasant condition to stop a bad behavior is punishment.",
+        "example": "A manager removes a strict daily progress report requirement after an employee consistently meets deadlines, and the employee is more likely to keep meeting deadlines. Because the manager removed an unpleasant requirement (the daily report) and the desired behavior (meeting deadlines) increased, this is negative reinforcement. If, instead, the manager gave the employee a written warning for missing a deadline, the warning would add an unpleasant stimulus to reduce the behavior of missing deadlines — that is punishment.",
+        "memoryAnchor": "Negative reinforcement = minus an annoyance to increase a plus behavior. Think of a thorn: remove the thorn (the bad thing) and the rose (good behavior) grows. Punishment = plus a bad thing to decrease a bad behavior."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the difference between negative reinforcement and punishment in terms of the stimulus and the behavior?",
+          "answer": "Negative reinforcement removes an unpleasant stimulus to increase a desired behavior; punishment adds an unpleasant stimulus to reduce an undesired behavior."
+        },
+        {
+          "level": "L2",
+          "prompt": "A store employee often leaves the counter messy. The manager starts making the employee stay after hours to clean up (an unpleasant task) whenever the counter is messy, and the messiness decreases. Is this negative reinforcement or punishment? Explain using reinforcement theory.",
+          "answer": "This is punishment. The manager adds an unpleasant stimulus (staying after hours) to decrease the undesired behavior (messy counter). Negative reinforcement would require removing an unpleasant stimulus to increase a desired behavior, which is not happening here."
+        },
+        {
+          "level": "L3",
+          "prompt": "A warehouse worker frequently misses safety protocols. The supervisor adds a safety training session (unpleasant) every time a protocol is missed, and violations decrease. Meanwhile, another worker receives buzzes from a scanner when they forget to wear safety goggles; when they correctly wear goggles, the buzzing stops, and correct wearing increases. Identify which is punishment and which is negative reinforcement, and explain why the distinction matters for a manager.",
+          "answer": "The added safety training session is punishment because it adds an unpleasant stimulus to reduce missed protocols. Stopping the buzzing when goggles are worn is negative reinforcement because removing the unpleasant buzzing increases the desired behavior of wearing goggles. The distinction matters because managers should use reinforcement to strengthen good behaviors and punishment to weaken bad behaviors; confusing them can lead to unintended consequences, like punishing behavior you actually want to increase."
+        }
+      ]
+    },
+    {
+      "errorId": "err-incentive-plan-confusion",
+      "trigger": "Student confuses profit sharing with gain sharing, often selecting 'profit sharing' for scenarios that describe rewards tied to specific productivity or cost-saving improvements.",
+      "studentMisunderstanding": "The student thinks profit sharing and gain sharing are interchangeable terms, not recognizing that profit sharing distributes company-wide profits, while gain sharing rewards specific operational gains like reduced waste or increased efficiency.",
+      "miniLesson": {
+        "explain": "Profit sharing and gain sharing are both incentive plans, but they differ in what they reward. Profit sharing gives employees a share of the company's overall profits. Gain sharing rewards employees for specific improvements in performance, such as reducing waste, improving quality, or cutting costs. The key is: profit = company-wide results, gain = specific improvements.",
+        "example": "Company A gives employees 15% of its annual total profits—that's profit sharing because it depends on overall company success. Company B gives employees 3% of the savings from reduced material waste—that's gain sharing because it rewards a specific operational improvement.",
+        "memoryAnchor": "Think: Profit = big pool of company money; Gain = trophy for a specific win."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A firm shares 5% of its total profits with all employees. What incentive plan is this?",
+          "answer": "Profit sharing."
+        },
+        {
+          "level": "L2",
+          "prompt": "A factory rewards workers with 2% of the savings from speed improvements. Is this profit sharing or gain sharing?",
+          "answer": "Gain sharing."
+        },
+        {
+          "level": "L3",
+          "prompt": "A company gives a bonus when the whole company makes a profit, and another bonus when the sales team cuts refunds by 3%. Name both plans.",
+          "answer": "Profit sharing (company-wide profits) and gain sharing (specific refund reduction)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-process-theories-confuse-with-content",
+      "questions": [
+        {
+          "id": "transfer_q1",
+          "type": "single_choice",
+          "stem": "Which of the following is correctly identified as a process theory of motivation?",
+          "options": [
+            "Maslow's hierarchy of needs",
+            "Herzberg's two-factor theory",
+            "Equity theory",
+            "McClelland's acquired needs theory"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "transfer_q2",
+          "type": "open_ended",
+          "stem": "Explain the difference between a content theory and a process theory using a specific workplace example. Then classify the following theory: Goal setting theory. Provide one reason for your classification.",
+          "rubric": "Student correctly explains that content theories focus on WHAT motivates (needs) and process theories focus on HOW motivation occurs (decision/evaluation process). Student classifies Goal setting theory as a process theory, with a valid reason such as it explains how specific, challenging goals and feedback influence effort and persistence."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. Q1 must select option C (Equity theory). Q2 must demonstrate a clear understanding of the content/process distinction and correctly classify Goal setting theory as a process theory with a supporting reason."
+    },
+    {
+      "forErrorId": "err-equity-eq-vs-eq",
+      "questions": [
+        {
+          "id": "eq-vs-eq-q1",
+          "type": "single_choice",
+          "stem": "A manager notices that two employees contribute differently to the team. The manager decides to give each employee a bonus that matches their individual effort and output. Which concept does this practice best reflect?",
+          "options": [
+            "Equality",
+            "Equity",
+            "Expectancy",
+            "Valence"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "eq-vs-eq-q2",
+          "type": "open_ended",
+          "stem": "Explain the difference between equity and equality in motivation theory. Give one workplace example of each.",
+          "rubric": "Answer must clearly distinguish equity (fairness based on individual needs and contributions) from equality (identical treatment for everyone). Provide a relevant example, e.g., equality is giving everyone the same bonus, equity is giving bonuses proportional to performance or providing tailored support based on individual needs."
+        }
+      ],
+      "passRule": "Student must answer the multiple-choice question correctly (Equity) and the open-ended answer must mention the key distinction (equity = tailored/needs-based fairness; equality = identical/same treatment) and include a valid workplace example."
+    },
+    {
+      "forErrorId": "err-expectancy-ignoring-valence",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which scenario best illustrates that high expectancy alone is NOT sufficient for motivation?",
+          "options": [
+            "An employee is confident they can finish a report on time, but they do not care about the company's planned recognition for it.",
+            "An employee is unsure they can finish a report on time, so they are not motivated.",
+            "An employee is confident they can finish a report, and the reward for finishing is a paid day off.",
+            "An employee knows that finishing a report leads to a promotion, and the promotion is highly valued."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Using expectancy theory, explain why an employee with high confidence in their ability to perform (high expectancy) and a clear performance-outcome link (high instrumentality) might still lack motivation. Give a brief example.",
+          "rubric": "Must identify that valence (the value the employee places on the outcome) is low, and provide a coherent example where the reward is not valued. Example: employee expects effort leads to performance, performance leads to a reward they don't care about (e.g., a $15 gift card, an unwanted prize), so motivation weakens."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. Q1 must select option A (index 0). Q2 must explicitly mention low valence and give a valid example where the reward is not valued."
+    },
+    {
+      "forErrorId": "err-goal-setting-vague-goals",
+      "questions": [
+        {
+          "id": "goalset-q1",
+          "type": "single_choice",
+          "stem": "A manager announces: \"Let's all work hard to improve customer satisfaction this quarter.\" According to goal setting theory, why is this goal likely to be ineffective?",
+          "options": [
+            "It is too difficult to achieve.",
+            "It lacks specificity and a clear target.",
+            "It does not include a reward.",
+            "It is not related to employee skills."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "goalset-q2",
+          "type": "open_ended",
+          "stem": "A sales team has been told to \"increase sales as much as possible.\" Using goal setting theory, write a revised goal statement that would motivate the team more effectively. Include a specific target, a timeline, and one way the manager could provide feedback or reward.",
+          "rubric": "The response must include: (1) a specific, measurable target (e.g., a number like 5% or 15% increase in sales), (2) a clear timeline (e.g., by end of quarter), and (3) a feedback or reward mechanism (e.g., monthly progress reviews, bonus upon achievement). Example: 'Increase sales by 15% within the next quarter, with monthly progress reviews and a team bonus if the target is met.' A vague or non-specific goal like 'do better' or 'increase sales' does not satisfy the rubric."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly (option B: It lacks specificity and a clear target). Q2 must demonstrate understanding of goal setting theory by including a specific, measurable target, a timeline, and a feedback or reward element."
+    },
+    {
+      "forErrorId": "err-reinforcement-punish-vs-neg",
+      "questions": [
+        {
+          "id": "retest-q1",
+          "type": "single_choice",
+          "stem": "A call center supervisor stops playing loud background noise whenever an agent is on a call with a customer. As a result, agents now spend more time on calls with customers. This is an example of:",
+          "options": [
+            "Punishment",
+            "Negative reinforcement",
+            "Positive reinforcement",
+            "Extinction"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-q2",
+          "type": "open_ended",
+          "stem": "In your own words, explain the difference between negative reinforcement and punishment. Then give one original example of each from a workplace setting (not from the lesson).",
+          "rubric": "The response must clearly state that negative reinforcement removes an unpleasant stimulus to increase desired behavior, while punishment adds an unpleasant stimulus to decrease undesired behavior. Each example must correctly match: the negative reinforcement example must involve removal of something unpleasant leading to an increase in desired behavior, and the punishment example must involve adding something unpleasant leading to a decrease in undesired behavior."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. For the open-ended question, the explanation must accurately distinguish the two concepts and both examples must be correctly classified."
+    },
+    {
+      "forErrorId": "err-incentive-plan-confusion",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A factory reduces material waste by 3% and gives workers a bonus equal to 2% of those savings. Which incentive plan does this describe?",
+          "options": [
+            "Profit sharing",
+            "Gain sharing",
+            "Skill-based pay",
+            "Merit pay"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain the difference between profit sharing and gain sharing, and give one example of when a company would use each.",
+          "rubric": "Response must define profit sharing as distributing company-wide profits and gain sharing as rewarding specific operational improvements (e.g., reduced waste, cost savings). Provide a valid example for each."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. The open-ended response must clearly distinguish profit sharing (company-wide profits) from gain sharing (specific performance gains) with appropriate examples."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-08-05",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/KULzd1JSmoAvhnxoaiec0wXCnmd?from=vc_group_doc_link#doxcnuQcExiW9nENkR2dDKKfvXe",
+    "sourceTitle": "BOH4M.S6.Catherine 2026-08-05 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Process theories describe how individuals assign value to rewards and decide on work effort based on personal preferences, available support, and expected outcomes.；Equity theory focuses on fairness perceptions; equality means identical resource allocation, equity means tailored support based on individual needs.；Equity theory predicts that underpayment leads to anger, overpayment leads to guilt, and pay is a common source of workplace disputes.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Compare process theories of motivation (equity, expectancy, goal setting) with content theories."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Apply equity theory to distinguish between equity and equality in workplace resource allocation."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Diagnose motivation problems using expectancy theory's three variables (expectancy, instrumentality, valence)."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Classify management actions as positive reinforcement, negative reinforcement, or punishment."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Differentiate incentive plans such as profit sharing, gain sharing, merit pay, and skill-based pay."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Mandatory camera-on policy",
+        "studentAction": "Keep your camera activated for the entire session",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Mandatory Camera Policy: All attendees are required to keep their cameras activated throughout the session, with a full roll call completed at the start",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Warning email criteria and grading structure",
+        "studentAction": "Understand the risk factors (missing assignments, low attendance, no participation) and proactively reach out to the instructor if at risk",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students (especially at-risk students)",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Warning emails are sent to students at high risk of course failure, triggered by a combination of missing assignments, low attendance, and consistent lack of in-class participation. Each of the 5 course units includes 2 separate 3% weighted assignments, plus 1 cumulative assignment, 5 unit tests and 1 final exam.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "platform_link",
+        "title": "Lesson 5 hands-on consolidation activities on Schoology",
+        "studentAction": "Complete the Lesson 5 hands-on and consolidation activities on Schoology after the break",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "A 15-minute break will be provided after the core teaching segment, followed by non-submitted hands-on and consolidation activities for Lesson 5 hosted on the Schoology platform.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "deadline",
+        "title": "Brochure design assignment submission",
+        "studentAction": "Continue working on the brochure design assignment and submit by this Friday",
+        "deadlineText": "Coming Friday (2026-08-07)",
+        "deadlineISO": "2026-08-07",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Students may continue working on their brochure design assignment after completing in-class practice, with a submission deadline of the coming Friday.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 assessment on Friday",
+        "studentAction": "Prepare for the Unit 3 assessment by reviewing past unit slides and homework questions",
+        "deadlineText": "Friday (2026-08-07)",
+        "deadlineISO": "2026-08-07",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The Unit 3 assessment will be held on Friday, with review of past unit slides and homework questions recommended for preparation.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "BOH4M_C3_ProcessTheories",
+      "BOH4M_C3_EquityTheory",
+      "BOH4M_C3_ExpectancyTheory",
+      "BOH4M_C3_GoalSettingTheory",
+      "BOH4M_C3_ReinforcementTheory",
+      "BOH4M_C3_IncentivePlans"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-process-theories-confuse-with-content",
+        "condition": "Student incorrectly answers the question targeting process vs. content theories.",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-equity-eq-vs-eq",
+        "condition": "Student incorrectly answers the question on equity vs. equality.",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-expectancy-ignoring-valence",
+        "condition": "Student incorrectly answers a question on expectancy theory components.",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-goal-setting-vague-goals",
+        "condition": "Student incorrectly answers the question on effective goal setting.",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-reinforcement-punish-vs-neg",
+        "condition": "Student incorrectly answers a reinforcement classification question.",
+        "systemAction": "Assign reteach module for this errorId."
+      },
+      {
+        "errorId": "err-incentive-plan-confusion",
+        "condition": "Student incorrectly answers the incentive plan differentiation question.",
+        "systemAction": "Assign reteach module for this errorId."
+      }
+    ],
+    "nextActions": [
+      "[err-process-theories-confuse-with-content] Student incorrectly answers the question targeting process vs. content theories.: You might be mixing up process theories with content theories. Let's clarify the difference.",
+      "[err-equity-eq-vs-eq] Student incorrectly answers the question on equity vs. equality.: It's easy to confuse equity with equality. Equity is about fairness, not sameness.",
+      "[err-expectancy-ignoring-valence] Student incorrectly answers a question on expectancy theory components.: Remember, motivation requires all three: expectancy, instrumentality, and valence. One missing can kill drive.",
+      "[err-goal-setting-vague-goals] Student incorrectly answers the question on effective goal setting.: Vague goals don't motivate. Specific, challenging goals with feedback work best.",
+      "[err-reinforcement-punish-vs-neg] Student incorrectly answers a reinforcement classification question.: Negative reinforcement removes something bad; punishment adds something bad. They're not the same.",
+      "[err-incentive-plan-confusion] Student incorrectly answers the incentive plan differentiation question.: Profit sharing and gain sharing are different. Gain sharing ties rewards to specific improvements."
+    ],
+    "cards": [
+      {
+        "id": "diag-boh4m-c3-q1",
+        "type": "choice",
+        "question": "Which statement best distinguishes process theories of motivation from content theories?",
+        "options": [
+          "Process theories focus on what motivates people, while content theories focus on how motivation occurs.",
+          "Process theories explain how people decide to exert effort, while content theories identify the needs that drive behavior.",
+          "Process theories are based on reinforcement, while content theories are based on goal setting.",
+          "Process theories are only used in business, while content theories are only used in psychology."
+        ],
+        "correct": 1,
+        "diagnosis": "Assess ability to differentiate process theories from content theories.",
+        "misconceptions": [
+          "This reverses the roles. Remember: content theories identify the 'what' (needs like Maslow's), while process theories explain the 'how' (decision-making).",
+          "✓ Correct! Process theories like equity and expectancy describe the cognitive process behind motivation, whereas content theories like Maslow's focus on internal needs.",
+          "Reinforcement is a process theory, and goal setting is also a process theory. This classification is inaccurate.",
+          "Both sets of theories are applied across fields, including business management."
+        ],
+        "nodeId": "BOH4M_C3_ProcessTheories",
+        "errorId": "err-process-theories-confuse-with-content",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies that process theories explain how motivation occurs, not what the needs are.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question directly assesses the learner's ability to compare motivation theories as per C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Confusing process theories (how motivation works) with content theories (what motivates).",
+        "remediationModule": "err-process-theories-confuse-with-content",
+        "retestItem": "err-process-theories-confuse-with-content"
+      },
+      {
+        "id": "diag-boh4m-c3-q2",
+        "type": "choice",
+        "question": "A manager gives all team members the same bonus regardless of performance, explaining 'I treat everyone equally.' According to equity theory, this approach may cause problems because:",
+        "options": [
+          "Employees always prefer unequal pay distributions.",
+          "Equity theory suggests that fairness means tailoring rewards to individual contributions, not giving everyone the same.",
+          "Equality always leads to guilt among high performers.",
+          "Equity theory states that identical rewards increase motivation because they uphold equality."
+        ],
+        "correct": 1,
+        "diagnosis": "Test understanding of equity vs. equality in a workplace scenario.",
+        "misconceptions": [
+          "Equity theory does not say people always want unequal pay; it says they want rewards proportional to their inputs.",
+          "✓ Correct! Equity theory focuses on a fair balance between what employees give (inputs) and what they receive (outputs). Identical rewards for unequal contributions create perceived inequity.",
+          "Guilt can occur in over-reward situations, but equality alone isn't guaranteed to cause guilt; the theory focuses on the perception of fairness relative to others.",
+          "Equity theory values fairness over equality. Identical rewards can demotivate high performers who feel under-rewarded."
+        ],
+        "nodeId": "BOH4M_C3_EquityTheory",
+        "errorId": "err-equity-eq-vs-eq",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Explains that fairness (equity) considers individual contributions, not just equal distribution.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies equity theory, a key process theory under OSSD expectation C3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Confusing equity (fairness) with equality (sameness).",
+        "remediationModule": "err-equity-eq-vs-eq",
+        "retestItem": "err-equity-eq-vs-eq"
+      },
+      {
+        "id": "diag-boh4m-c3-q3",
+        "type": "choice",
+        "question": "An employee believes that if they work hard, they can meet their sales target (high expectancy), and they trust that meeting the target will lead to a bonus (high instrumentality). However, the employee is not motivated because the bonus is only $10. Which component of expectancy theory is low?",
+        "options": [
+          "Expectancy",
+          "Instrumentality",
+          "Valence",
+          "Equity"
+        ],
+        "correct": 2,
+        "diagnosis": "Diagnose which expectancy variable is deficient in a realistic workplace scenario.",
+        "misconceptions": [
+          "Expectancy is high because the employee believes effort will lead to performance. The problem isn't expectancy.",
+          "Instrumentality is high because the employee trusts that performance leads to the bonus. The issue is with the value of the bonus itself.",
+          "✓ Correct! Valence refers to the value an individual places on the expected outcome. Even if expectancy and instrumentality are high, low valence (the $10 bonus feels worthless) will undermine motivation.",
+          "Equity is part of a different theory. Expectancy theory's three components are expectancy, instrumentality, and valence."
+        ],
+        "nodeId": "BOH4M_C3_ExpectancyTheory",
+        "errorId": "err-expectancy-ignoring-valence",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Identifies that the low value of the reward (valence) explains the lack of motivation.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies expectancy theory, a core process theory under C3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Believing that high expectancy alone ensures motivation without considering instrumentality or valence.",
+        "remediationModule": "err-expectancy-ignoring-valence",
+        "retestItem": "err-expectancy-ignoring-valence"
+      },
+      {
+        "id": "diag-boh4m-c3-q4",
+        "type": "choice",
+        "question": "According to goal setting theory, which of the following goals would most effectively motivate a sales team?",
+        "options": [
+          "'Do your best to increase sales.'",
+          "'Try to improve sales if possible.'",
+          "'Increase sales by 5% within the next quarter.'",
+          "'Maintain current sales levels.'"
+        ],
+        "correct": 2,
+        "diagnosis": "Assess knowledge of what makes a goal effective according to goal setting theory.",
+        "misconceptions": [
+          "'Do your best' is vague and not measurable. Goal setting theory emphasizes specific, challenging goals.",
+          "This goal lacks specificity and challenge. Phrases like 'if possible' reduce commitment.",
+          "✓ Correct! This goal is specific (5%), challenging yet attainable, and time-bound (next quarter). Goal setting theory states such goals enhance motivation and performance.",
+          "Maintaining current levels is not challenging and lacks growth; challenging goals drive higher performance."
+        ],
+        "nodeId": "BOH4M_C3_GoalSettingTheory",
+        "errorId": "err-goal-setting-vague-goals",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Selects the goal that is specific, challenging, and measurable.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Evaluates understanding of goal setting theory principles under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Assuming that any goal motivates; failing to specify and challenge goals appropriately.",
+        "remediationModule": "err-goal-setting-vague-goals",
+        "retestItem": "err-goal-setting-vague-goals"
+      },
+      {
+        "id": "diag-boh4m-c3-q5",
+        "type": "choice",
+        "question": "A manager removes a strict daily progress report requirement after an employee consistently meets deadlines, making the employee more likely to continue meeting deadlines. This is an example of:",
+        "options": [
+          "Positive reinforcement",
+          "Negative reinforcement",
+          "Punishment",
+          "Extinction"
+        ],
+        "correct": 1,
+        "diagnosis": "Assess the ability to distinguish negative reinforcement from punishment in a workplace context.",
+        "misconceptions": [
+          "Positive reinforcement adds a pleasant stimulus. Here, the manager is removing a burdensome report, not adding a reward.",
+          "✓ Correct! Negative reinforcement increases desired behavior (meeting deadlines) by removing an unpleasant requirement (daily report). It is not punishment; it strengthens the behavior.",
+          "Punishment adds an unpleasant stimulus to decrease behavior. This scenario removes something unpleasant to increase behavior, which is negative reinforcement.",
+          "Extinction involves ignoring the behavior to reduce it. This scenario actively removes a requirement to reinforce behavior."
+        ],
+        "nodeId": "BOH4M_C3_ReinforcementTheory",
+        "errorId": "err-reinforcement-punish-vs-neg",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Correctly identifies negative reinforcement (removing an aversive stimulus) as distinct from punishment.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Applies reinforcement theory, a process-based motivation approach under C3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "classify",
+        "commonMisconception": "Confusing negative reinforcement (removing unpleasant stimulus) with punishment (adding unpleasant stimulus).",
+        "remediationModule": "err-reinforcement-punish-vs-neg",
+        "retestItem": "err-reinforcement-punish-vs-neg"
+      },
+      {
+        "id": "diag-boh4m-c3-q6",
+        "type": "choice",
+        "question": "A manufacturing plant shares 30% of the savings from reduced material waste with all production employees. This is an example of:",
+        "options": [
+          "Profit sharing",
+          "Gain sharing",
+          "Merit pay",
+          "Skill-based pay"
+        ],
+        "correct": 1,
+        "diagnosis": "Distinguish between types of incentive plans based on their design.",
+        "misconceptions": [
+          "Profit sharing distributes a portion of overall company profits, not savings from a specific improvement like material waste reduction.",
+          "✓ Correct! Gain sharing rewards employees for specific operational gains, such as reduced waste, improved quality, or cost savings.",
+          "Merit pay bases compensation on individual performance appraisals, not group savings from a specific project.",
+          "Skill-based pay rewards employees for acquiring new competencies, not for cost-saving achievements."
+        ],
+        "nodeId": "BOH4M_C3_IncentivePlans",
+        "errorId": "err-incentive-plan-confusion",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-5",
+        "successCriteria": "Correctly identifies gain sharing as a reward tied to specific operational improvements.",
+        "ossdExpectation": "Compare theories of how to motivate individuals and teams in a productive work environment.",
+        "officialExpectationCode": "C3",
+        "officialNodeId": "BOH4M-C-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Evaluates knowledge of incentive plans, which are practical applications of multiple motivation theories under C3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Confusing profit sharing (company-wide profits) with gain sharing (specific productivity gains).",
+        "remediationModule": "err-incentive-plan-confusion",
+        "retestItem": "err-incentive-plan-confusion"
+      }
+    ]
+  }
+}
