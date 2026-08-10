@@ -1,0 +1,864 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-08-07",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/YocHd7ma5omJzZxrkP9cEua8nAs?from=vc_group_doc_link#doxcn9rceoxpvqRrkYt6i5UCAKd",
+  "sourceTitle": "OLC4O.S6.Keth 2026-08-07 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/YocHd7ma5omJzZxrkP9cEua8nAs?from=vc_group_doc_link#doxcn9rceoxpvqRrkYt6i5UCAKd",
+    "title": "OLC4O.S6.Keth 2026-08-07 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-10/sources/olc4o-s6-keth-2026-08-07-yochd7ma/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-08-07",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-08-07",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "Mixed instruction and administration: lesson covers rhetorical triangle academic content while also communicating course submission rules, portfolio conference eligibility, and urgent overdue deadlines.",
+    "academicContentSignals": [
+      "Rhetorical Triangle (Aristotle)",
+      "Logos: logical appeal using facts and statistics",
+      "Pathos: emotional appeal (positive/negative variants, prioritization over logos)",
+      "Ethos: credibility through authority, certification, endorsement",
+      "Synthesis of appeals in persuasive content",
+      "Common classification mistakes (e.g., authority figure delivering facts)",
+      "Validity assessment: forced manipulation undermines persuasion",
+      "Pre-assignment preparation for Unit 3: identifying appeals in ads"
+    ],
+    "courseOverviewSignals": [
+      "Academic integrity and plagiarism definition",
+      "Portfolio conference weight (20%) and eligibility",
+      "University readiness expectation: independent learning",
+      "Assignment protocol: check Schoology before asking teacher"
+    ],
+    "opsDominanceRisk": "High: large volume of administrative reminders (deadlines, policies, portfolio conference) risk overshadowing the rhetorical appeals instructional content. Mitigation: limit diagnostic card to 1–2 readiness questions on urgent operations (e.g., overdue submission lock) and focus exit card on logos/pathos/ethos identification and synthesis.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "deadline",
+        "title": "Overdue assignment submission lock",
+        "studentAction": "Submit all outstanding overdue assignments immediately, as the platform will lock submissions permanently within the next 3–4 hours.",
+        "deadlineText": "within 3–4 hours after class (approx. 15:00 Aug 7)",
+        "deadlineISO": "2026-08-07T15:00:00+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students with overdue work",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "'students with outstanding overdue assignments have approximately 3 to 4 hours to submit work before the platform locks submissions permanently'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "Portfolio conference eligibility cutoff",
+        "studentAction": "Submit all required work before August 17 to be eligible for the portfolio conference; no late submissions accepted.",
+        "deadlineText": "August 17 (first class after break)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students, especially those with incomplete assignments",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "'Hard Cutoff Date: No late submissions will be accepted after August 17 … students with incomplete work will be barred from the portfolio conference entirely'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Scavenger hunt worksheet: rhetorical appeals practice",
+        "studentAction": "Select 3 original advertisements from Bilibili/YouTube (not covered in class), complete the scavenger hunt worksheet identifying logos/pathos/ethos with source URLs and effectiveness assessment. Take a clear screenshot and upload to OneNote; paste ad source links in submission comment.",
+        "deadlineText": "before next class (Aug 17)",
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "'Students must select 3 original advertisements … Complete the scavenger hunt worksheet … upload to OneNote … paste all corresponding ad source links in the submission comment section'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_or_quiz",
+        "title": "Upcoming assessments: Unit 3 test and final exam",
+        "studentAction": "Prepare for Unit 3 test and final exam scheduled around August 20.",
+        "deadlineText": "around August 20",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "'final exam scheduled around August 20'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Late submission after platform lock",
+        "studentAction": "If submitting after platform lock, send a formal written explanation via email to the instructor; acceptance not guaranteed.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "students who miss the lock deadline",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "'Any submissions made after the platform cutoff will require a formal written explanation sent via email … with no guarantee of acceptance'",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "teacher_request",
+        "title": "Check Schoology for assignment step-by-step guidelines",
+        "studentAction": "Before asking teacher for clarification, check Schoology for detailed step-by-step assignment breakdown.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "'All assignment requirements have been broken into clear step-by-step guidelines on Schoology, and students must check the platform first before asking for clarification'",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "class_policy",
+        "title": "Academic integrity warning",
+        "studentAction": "Avoid plagiarism: do not copy course examples, use unlabeled AI generation, uncredited machine translation, or unmarked internet sources. Recent plagiarism case detected.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "'Plagiarism Definition: … all count as formal plagiarism and academic misconduct … A recent Unit 2 Assignment 2 submission was found to be nearly identical to a published course example'",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Students must select 3 original advertisements … Complete the scavenger hunt worksheet … upload to OneNote …",
+        "reason": "No explicit due date; likely to be completed before next class (Aug 17) but not explicitly stated."
+      },
+      {
+        "rawText": "approximately 3 to 4 hours to submit work before the platform locks",
+        "reason": "Exact lock time and platform name not specified; inferred from class end time."
+      }
+    ]
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Rhetorical Triangle、Logos、Pathos、Ethos）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 10 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Plagiarism includes copying course examples, unlabeled AI generation, uncredited machine translation, and unmarked internet sources; intent does not excuse misconduct.；Students are expected to independently check assignment guidelines on Schoology before asking for clarification.；The portfolio conference is worth 20% of the final grade; no late submissions accepted after August 17, and incomplete work bars participation.",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "OLC4O-S6-Keth-20260807-RhetoricalTriangle",
+      "name": "Rhetorical Triangle",
+      "nameEn": "Rhetorical Triangle",
+      "definition": "Aristotle's framework for analyzing persuasive texts through three appeals: logos, pathos, ethos.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "OLC4O-S6-Keth-20260807-Logos",
+      "name": "Logos",
+      "nameEn": "Logos",
+      "definition": "Logical appeal using verifiable facts, statistics, and causal reasoning; verification of data authenticity is critical.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "OLC4O-S6-Keth-20260807-Pathos",
+      "name": "Pathos",
+      "nameEn": "Pathos",
+      "definition": "Emotional appeal evoking joy, empathy, or anxiety; audiences often prioritize emotional over logical appeals.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "OLC4O-S6-Keth-20260807-Ethos",
+      "name": "Ethos",
+      "nameEn": "Ethos",
+      "definition": "Credibility appeal through professional authority, certification, or celebrity endorsement; blends logos and pathos to build trust.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "OLC4O-S6-Keth-20260807-Synthesis",
+      "name": "Synthesis of Appeals",
+      "nameEn": "Synthesis of Appeals",
+      "definition": "High-effect persuasive content blends multiple appeals; e.g., car ad combining family footage (pathos), braking data (logos), safety certification (ethos).",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "OLC4O-S6-Keth-20260807-CommonMistakes",
+      "name": "Common Mistakes in Appeal Classification",
+      "nameEn": "Common Mistakes in Appeal Classification",
+      "definition": "Misclassifying facts from authorities as pure logos, or assuming any human presence indicates pathos without intentional emotional manipulation.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "OLC4O-S6-Keth-20260807-ValidityAssessment",
+      "name": "Validity Assessment of Persuasive Appeals",
+      "nameEn": "Validity Assessment of Persuasive Appeals",
+      "definition": "Audiences reject content if they detect forced emotional manipulation, even when the supporting facts are accurate.",
+      "officialExpectationCode": "A2",
+      "officialNodeId": "OLC4O-A-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction."
+    },
+    {
+      "id": "OLC4O-S6-Keth-20260807-AcademicIntegrity",
+      "name": "Academic Integrity (Plagiarism)",
+      "nameEn": "Academic Integrity (Plagiarism)",
+      "definition": "Plagiarism includes copying course examples, unlabeled AI, uncredited translation, or unmarked sources; unintentional copying is still misconduct.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "OLC4O-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of their own roles and responsibilities in the learning process."
+    },
+    {
+      "id": "OLC4O-S6-Keth-20260807-IndependentLearning",
+      "name": "Independent Learning Expectation",
+      "nameEn": "Independent Learning Expectation",
+      "definition": "Students must check Schoology guidelines before seeking clarification; Grade 11/12 students are expected to demonstrate independent initiative.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "OLC4O-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of their own roles and responsibilities in the learning process."
+    },
+    {
+      "id": "OLC4O-S6-Keth-20260807-PortfolioConference",
+      "name": "Portfolio Conference Eligibility and Weight",
+      "nameEn": "Portfolio Conference Eligibility and Weight",
+      "definition": "Worth 20% of final grade; no late submissions accepted after August 17; incomplete work bars participation in the 10-minute conference.",
+      "officialExpectationCode": "C4",
+      "officialNodeId": "OLC4O-C-OE04",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of their own growth in literacy during the course."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "5-6 correct",
+      "targetedRemediation": "3-4 correct",
+      "reteach": "0-2 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-olc4o-s6-0807-q1",
+        "nodeId": "OLC4O-S6-Keth-20260807-CommonMistakes",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-logos-misclassifying",
+        "stem": "A toothpaste advertisement states, “Recommended by the Canadian Dental Association.” What is the primary rhetorical appeal used?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Logos",
+            "correct": false,
+            "feedbackWrong": "While the ad mentions a dental association, it is not providing verifiable data or statistics; it relies on the authority’s credibility."
+          },
+          {
+            "label": "B",
+            "text": "Pathos",
+            "correct": false,
+            "feedbackWrong": "There is no intentional emotional manipulation, such as fear or joy, invoked here."
+          },
+          {
+            "label": "C",
+            "text": "Ethos",
+            "correct": true,
+            "feedbackCorrect": "Correct. The Canadian Dental Association's endorsement builds credibility and trust, making it ethos."
+          },
+          {
+            "label": "D",
+            "text": "Synthesis",
+            "correct": false,
+            "feedbackWrong": "The ad focuses on a single appeal (credibility) rather than blending multiple appeals."
+          }
+        ],
+        "nextActionIfWrong": "Go to the err-logos-misclassifying reteach module.",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies an authority endorsement as ethos.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question aligns with A2 as it requires understanding persuasive text features.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "classify",
+        "stemIntent": "Determine if a dental association recommendation is ethos or logos.",
+        "commonMisconception": "Assuming any mention of professionals equals logical appeal.",
+        "remediationModule": "err-logos-misclassifying",
+        "retestItem": "err-logos-misclassifying"
+      },
+      {
+        "id": "diag-olc4o-s6-0807-q2",
+        "nodeId": "OLC4O-S6-Keth-20260807-CommonMistakes",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-pathos-overgeneralizing",
+        "stem": "An insurance advertisement features a retired teacher giving a testimonial about her financial security. What is the primary rhetorical appeal?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Ethos",
+            "correct": true,
+            "feedbackCorrect": "Correct. A testimonial from a credible authority (retired teacher) builds trust—ethos."
+          },
+          {
+            "label": "B",
+            "text": "Pathos",
+            "correct": false,
+            "feedbackWrong": "Although a person is telling a story, the primary appeal is her credibility as a teacher, not intentional emotional manipulation."
+          },
+          {
+            "label": "C",
+            "text": "Logos",
+            "correct": false,
+            "feedbackWrong": "No statistics or logical reasoning are provided in a testimonial."
+          },
+          {
+            "label": "D",
+            "text": "None of the above",
+            "correct": false,
+            "feedbackWrong": "There is a clear appeal; it is based on the speaker’s trustworthiness."
+          }
+        ],
+        "nextActionIfWrong": "Go to the err-pathos-overgeneralizing reteach module.",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies a testimonial as ethos rather than pathos.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question requires distinguishing between ethos and pathos, a key text feature.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "classify",
+        "stemIntent": "Differentiate between an authority-based testimonial (ethos) and emotional appeal (pathos).",
+        "commonMisconception": "Labeling any human presence as pathos without considering intentional emotional manipulation.",
+        "remediationModule": "err-pathos-overgeneralizing",
+        "retestItem": "err-pathos-overgeneralizing"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-logos-misclassifying",
+      "condition": "student answers incorrectly on any question with errorId err-logos-misclassifying",
+      "systemAction": "assign reteach module err-logos-misclassifying, then retest err-logos-misclassifying",
+      "studentMessage": "关于 Mistaking statements from an authority figure as pure logos without verifying the underlying data. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-pathos-overgeneralizing",
+      "condition": "student answers incorrectly on any question with errorId err-pathos-overgeneralizing",
+      "systemAction": "assign reteach module err-pathos-overgeneralizing, then retest err-pathos-overgeneralizing",
+      "studentMessage": "关于 Labeling any human presence in an ad as pathos, ignoring the need for intentional emotional manipulation. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-ethos-confusion",
+      "condition": "student answers incorrectly on any question with errorId err-ethos-confusion",
+      "systemAction": "assign reteach module err-ethos-confusion, then retest err-ethos-confusion",
+      "studentMessage": "关于 Failing to recognize that ethos can incorporate elements of logos (qualifications) and pathos (character), treating it as a completely separate appeal. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-synthesis-oversimplifying",
+      "condition": "student answers incorrectly on any question with errorId err-synthesis-oversimplifying",
+      "systemAction": "assign reteach module err-synthesis-oversimplifying, then retest err-synthesis-oversimplifying",
+      "studentMessage": "关于 Assuming an ad uses only one rhetorical appeal, rather than blending logos, pathos, and ethos. 的理解还需要加强。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-logos-misclassifying",
+      "trigger": "A student labels a statement from an authority figure (e.g., 'Recommended by the Canadian Dental Association') as logos without checking for supporting data.",
+      "studentMisunderstanding": "The student assumes that any mention of a credible expert or organization is a logical appeal, but logos requires verifiable facts, statistics, or causal reasoning—not just authority.",
+      "miniLesson": {
+        "explain": "Logos is the appeal to logic through facts, statistics, and causal reasoning. Ethos is the appeal to credibility through authority, certification, or endorsement. When an ad says 'Recommended by the Canadian Dental Association,' it is using the organization's credibility to persuade you—that's ethos, not logos. To be logos, the ad must give verifiable data, like 'reduces plaque by 85%.' Always ask: is this a fact I can check, or is this a person/group I trust?",
+        "example": "Toothpaste ad: 'Recommended by the Canadian Dental Association' = ethos. The same ad claiming 'reduces plaque by 85%' = logos. The car ad showing braking distance data = logos; the safety certification badge = ethos.",
+        "memoryAnchor": "Logos = Logic with Numbers; Ethos = Expert Says So. If an expert recommends it without data, that's ethos."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Is the statement 'Recommended by the Canadian Dental Association' an example of logos? Answer yes or no.",
+          "answer": "No. It is ethos because it relies on the authority's credibility, not on verifiable data."
+        },
+        {
+          "level": "L2",
+          "prompt": "In the car ad, explain which appeal is used by the braking distance data and which appeal is used by the safety certification badge. Give one sentence for each.",
+          "answer": "Braking distance data is logos because it gives measurable facts. The safety certification badge is ethos because it uses an authority's credibility."
+        },
+        {
+          "level": "L3",
+          "prompt": "A scientist says 'This toothpaste is excellent.' Is that logos? If not, what would the scientist need to say to make it logos? Use the 85% example.",
+          "answer": "No, that statement is ethos because it only uses the scientist's credibility. To make it logos, the scientist would need to provide verifiable evidence, such as 'In clinical trials, this toothpaste reduced plaque by 85%.'"
+        }
+      ]
+    },
+    {
+      "errorId": "err-pathos-overgeneralizing",
+      "trigger": "A student identifies pathos whenever an advertisement contains a person, without checking for intentional emotional manipulation.",
+      "studentMisunderstanding": "The student believes any human presence or personal story automatically counts as pathos, ignoring the requirement that pathos deliberately evokes emotions like joy, empathy, or anxiety.",
+      "miniLesson": {
+        "explain": "Pathos is one of the three appeals in Aristotle's rhetorical triangle. It works by evoking emotions such as joy, empathy, or anxiety. Not every image of a person is pathos. To count as pathos, the creator must intentionally try to make the audience feel an emotion. For example, a car ad that shows family travel footage is using pathos to create warmth, but the same ad also uses braking-distance data (logos) and a safety certification (ethos). If you see an authority figure giving a testimonial, that is ethos because it builds trust through credibility, not pathos, unless a specific emotion is being deliberately triggered. Audiences reject content if they sense forced emotional manipulation, so real pathos must be both intentional and subtle.",
+        "example": "A toothpaste ad claiming 85% plaque reduction is logos (a statistic). A safety certification in a car ad is ethos (authority). A family laughing together in a car ad is pathos only because it is designed to trigger joy. If an ad simply has a person standing there with no emotional pull, it is not pathos.",
+        "memoryAnchor": "A face is not a feeling. Ask: 'What emotion is this ad trying to make me feel?' If the answer is 'none,' it is not pathos."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is pathos? A) a toothpaste ad citing 85% plaque reduction, B) a car ad showing family travel footage, C) a car ad displaying a safety certification. Explain your choice.",
+          "answer": "B. Family travel footage is pathos because it intentionally evokes warmth and family togetherness. A is logos (a statistic), and C is ethos (authority/certification)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A car ad shows a family driving and laughing, then displays braking-distance data and a safety certification. A student claims the whole ad is pathos because it shows people. Explain why this is incorrect and identify each appeal.",
+          "answer": "The student is overgeneralizing. The family footage is pathos (intentional emotional appeal), but the braking-distance data is logos (fact/statistic), and the safety certification is ethos (credibility). An ad can blend multiple appeals; the presence of people alone does not make everything pathos."
+        },
+        {
+          "level": "L3",
+          "prompt": "Create a one-sentence toothpaste ad that uses both logos and pathos. Use the 85% plaque-reduction statistic for logos and an emotional appeal for pathos. Label each part.",
+          "answer": "Example: 'Reduce plaque by 85% (logos) so you can smile with confidence at every family gathering (pathos).' Accept any answer that clearly labels the statistic as logos and an intentional emotional phrase as pathos."
+        }
+      ]
+    },
+    {
+      "errorId": "err-ethos-confusion",
+      "trigger": "When asked how ethos works in an argument, a student says it is completely separate from logos and pathos.",
+      "studentMisunderstanding": "Students believe ethos is a standalone appeal, not recognizing that credibility is constructed through logical qualifications (logos) and emotional character (pathos).",
+      "miniLesson": {
+        "explain": "Ethos is not isolated; it gains strength by integrating logical evidence (logos) and emotional connection (pathos). For example, in the car ad, the safety certification (ethos) is supported by braking distance data (logos) and family travel footage (pathos). The certification alone may be dismissed, but when combined, it builds genuine trust. Audiences reject forced manipulation, so effective ethos must feel authentic and earned through both facts and feeling.",
+        "example": "Car ad: safety certification badges (ethos) rely on braking distance data (logos) and family footage (pathos) to create trust.",
+        "memoryAnchor": "Think of a handshake: a firm grip needs both strength (logos) and warmth (pathos) to feel trustworthy. Ethos is that handshake."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What two elements does ethos typically blend to build trust?",
+          "answer": "Logical appeal (logos) and emotional appeal (pathos)."
+        },
+        {
+          "level": "L2",
+          "prompt": "In the car ad, explain how the safety certification (ethos) depends on the braking distance data and the family footage.",
+          "answer": "The braking data provides logical proof, while the family footage creates an emotional bond; the certification alone would be empty without these, so ethos blends logos and pathos."
+        },
+        {
+          "level": "L3",
+          "prompt": "Evaluate this statement: 'Ethos is independent of logos and pathos.' Use evidence from the car ad to argue against it.",
+          "answer": "The car ad shows the safety certification (ethos) is reinforced by braking distance data (logos) and family footage (pathos); thus, ethos cannot stand alone and must incorporate both."
+        }
+      ]
+    },
+    {
+      "errorId": "err-synthesis-oversimplifying",
+      "trigger": "Student says: 'That car ad is just pathos because it shows a family.'",
+      "studentMisunderstanding": "The student assumes an advertisement uses only one rhetorical appeal and does not recognize that effective persuasion often synthesizes multiple appeals (logos, pathos, and ethos).",
+      "miniLesson": {
+        "explain": "Persuasive texts, especially advertisements, rarely rely on a single appeal. Aristotle's rhetorical triangle shows that logos (facts/statistics), pathos (emotion), and ethos (credibility) can all work together in one message. For example, a car ad might show a family having fun (pathos), include braking distance data (logos), and display a safety certification (ethos). When you analyze an ad, ask which appeals are present, not just one.",
+        "example": "In the lesson's car ad: family travel footage appeals to pathos, braking distance data appeals to logos, and the safety certification appeals to ethos. All three are combined in the same advertisement.",
+        "memoryAnchor": "Think of a fully loaded car: it has an engine (logos), comfortable seats (pathos), and a safety rating (ethos). A complete ad uses all three."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the car ad example from the lesson, which appeals are combined? List them.",
+          "answer": "Logos, pathos, and ethos: braking distance data (logos), family footage (pathos), and safety certification (ethos)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A toothpaste ad says it reduces plaque by 85% and is recommended by the Canadian Dental Association. Which two appeals are used?",
+          "answer": "Logos (the 85% plaque reduction statistic) and ethos (the endorsement from the Canadian Dental Association)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student claims the car ad is only pathos because it shows a family. How would you correct them using the rhetorical triangle?",
+          "answer": "I would explain that the ad also uses logos through published braking distance data and ethos through a safety certification, so it synthesizes all three appeals, not just pathos."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-logos-misclassifying",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following claims is the clearest example of logos?",
+          "options": [
+            "A. The best-selling car in Canada",
+            "B. Rated 5 stars by safety experts",
+            "C. In 2023, 85% of our customers reported fewer breakouts after 4 weeks",
+            "D. Loved by families everywhere"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "The slogan 'Recommended by 9 out of 10 pediatricians' is often thought to be logos. Explain why this is actually ethos, and rewrite the slogan so that it genuinely uses logos.",
+          "rubric": "The explanation must state that the original relies on the authority or endorsement of pediatricians, not on verifiable data about the product. The rewritten slogan must include specific, checkable evidence (e.g., a statistic from a study or trial, such as 'In a clinical study, our product reduced fever in 9 out of 10 children within 30 minutes'). A response that only says 'add numbers' without making the product's effect verifiable is partially correct."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly (option C). Q2 must clearly identify the original as ethos due to reliance on authority, and provide an appropriate revision with verifiable data. Both criteria must be met to pass."
+    },
+    {
+      "forErrorId": "err-pathos-overgeneralizing",
+      "questions": [
+        {
+          "id": "pathos-transfer-mc",
+          "type": "single_choice",
+          "stem": "Which scenario best demonstrates pathos, as defined in the rhetorical triangle?",
+          "options": [
+            "A dentist with 20 years of experience recommends a toothpaste brand.",
+            "A commercial shows a rescue dog being adopted, with slow sad music and a close-up of the dog's eyes.",
+            "A cereal box lists 10 grams of whole grains per serving.",
+            "A celebrity appears in a car advertisement but shows no emotion and says nothing."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "pathos-transfer-open",
+          "type": "open_ended",
+          "stem": "A public service announcement about home fire safety shows a firefighter demonstrating how to install a smoke alarm. The narrator says, 'Smoke alarms cut the risk of dying in a home fire by 50%.' A student claims the entire ad is pathos because it shows a person. Explain why this claim is incorrect, identify each appeal used, and state what would need to be present for the firefighter's presence to count as pathos.",
+          "rubric": "Response must reject the idea that human presence alone is pathos. Identify the firefighter as ethos (credibility/authority) and the statistic as logos. To count as pathos, the ad would need to intentionally evoke an emotion, such as showing a family escaping a fire or a survivor describing loss."
+        }
+      ],
+      "passRule": "Score 2/2: Q1 selects option B, and Q2 explicitly rejects human-presence-equals-pathos, correctly labels the firefighter as ethos and the statistic as logos, and identifies that intentional emotional manipulation is required for pathos."
+    },
+    {
+      "forErrorId": "err-ethos-confusion",
+      "questions": [
+        {
+          "id": "ethos-confusion-q1",
+          "type": "single_choice",
+          "stem": "A public service ad features a doctor explaining vaccine safety. The ad includes the doctor’s medical degree, statistics on immunity rates, and close-up shots of smiling children. Which statement BEST explains how ethos operates in this ad?",
+          "options": [
+            "Ethos is only the doctor’s degree; it has no connection to the statistics or the children.",
+            "Ethos blends the doctor’s credentials (ethos) with the statistics (logos) and the smiling children (pathos) to build trust.",
+            "Ethos is weaker when logos and pathos are used at the same time.",
+            "Ethos is identical to pathos because both rely on emotion."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "ethos-confusion-q2",
+          "type": "open_ended",
+          "stem": "In a 30-second ad, a former smoker talks about quitting (pathos), lung cancer statistics appear on screen (logos), and the narrator identifies the speaker as a certified health coach (ethos). Explain how the certified health coach’s ethos is strengthened by the logos and pathos in the ad. Why would the ad be less persuasive if the coach’s credentials appeared alone, without the statistics or the personal story?",
+          "rubric": "Student must state that ethos is not separate from logos and pathos but is supported by them. Specifically, the health coach’s credentials gain credibility when backed by factual statistics (logos) and the emotional story of the former smoker (pathos). The response must also explain that standalone credentials feel hollow or forced, and that audiences reject unearned trust. Mention of 'blending', 'integration', or 'support' is required."
+        }
+      ],
+      "passRule": "Question 1 must be answered correctly (option 2). Question 2 must explicitly state that ethos is strengthened by combining logos and pathos, and must use at least one concrete detail from the ad (e.g., health coach credentials, lung cancer statistics, or the personal story) to show that ethos relies on both logical and emotional support."
+    },
+    {
+      "forErrorId": "err-synthesis-oversimplifying",
+      "questions": [
+        {
+          "id": "synth-retest-1",
+          "type": "single_choice",
+          "stem": "An ad for a student support service shows a stressed student taking a deep breath, states that \"using the service reduces course-drop rates,\" and is recommended by an academic advisor. How would you classify this ad?",
+          "options": [
+            "It uses only pathos because the student is stressed.",
+            "It uses logos and pathos, but no ethos.",
+            "It uses all three: pathos (stressed student), logos (course-drop statistic), and ethos (academic advisor).",
+            "It uses only ethos because it is recommended by an advisor."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "synth-retest-2",
+          "type": "open_ended",
+          "stem": "A public service announcement about distracted driving shows a driver laughing and then looking sad, includes the phrase \"crashes rise sharply when you glance at a phone,\" and is narrated by a retired police officer. Identify which rhetorical appeals are present and explain how they work together in this single PSA.",
+          "rubric": "Must name at least two of the three appeals. For full credit: pathos (the driver's emotional shift), logos (the cause-effect claim about crash risk), and ethos (the retired police officer as a credible source). The explanation should show that the appeals are combined, not that only one is used."
+        }
+      ],
+      "passRule": "Pass if question 1 is answered correctly (C) and question 2 names at least two of the three appeals (pathos/logos/ethos) with evidence from the PSA."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-08-07",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/YocHd7ma5omJzZxrkP9cEua8nAs?from=vc_group_doc_link#doxcn9rceoxpvqRrkYt6i5UCAKd",
+    "sourceTitle": "OLC4O.S6.Keth 2026-08-07 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Plagiarism includes copying course examples, unlabeled AI generation, uncredited machine translation, and unmarked internet sources; intent does not excuse misconduct.；Students are expected to independently check assignment guidelines on Schoology before asking for clarification.；The portfolio conference is worth 20% of the final grade; no late submissions accepted after August 17, and incomplete work bars participation.",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "deadline",
+        "title": "Overdue assignment submission lock",
+        "studentAction": "Submit all outstanding overdue assignments immediately, as the platform will lock submissions permanently within the next 3–4 hours.",
+        "deadlineText": "within 3–4 hours after class (approx. 15:00 Aug 7)",
+        "deadlineISO": "2026-08-07T15:00:00+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students with overdue work",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "'students with outstanding overdue assignments have approximately 3 to 4 hours to submit work before the platform locks submissions permanently'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "deadline",
+        "title": "Portfolio conference eligibility cutoff",
+        "studentAction": "Submit all required work before August 17 to be eligible for the portfolio conference; no late submissions accepted.",
+        "deadlineText": "August 17 (first class after break)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students, especially those with incomplete assignments",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "'Hard Cutoff Date: No late submissions will be accepted after August 17 … students with incomplete work will be barred from the portfolio conference entirely'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Scavenger hunt worksheet: rhetorical appeals practice",
+        "studentAction": "Select 3 original advertisements from Bilibili/YouTube (not covered in class), complete the scavenger hunt worksheet identifying logos/pathos/ethos with source URLs and effectiveness assessment. Take a clear screenshot and upload to OneNote; paste ad source links in submission comment.",
+        "deadlineText": "before next class (Aug 17)",
+        "deadlineISO": null,
+        "platform": "OneNote",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "'Students must select 3 original advertisements … Complete the scavenger hunt worksheet … upload to OneNote … paste all corresponding ad source links in the submission comment section'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_or_quiz",
+        "title": "Upcoming assessments: Unit 3 test and final exam",
+        "studentAction": "Prepare for Unit 3 test and final exam scheduled around August 20.",
+        "deadlineText": "around August 20",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "'final exam scheduled around August 20'",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Late submission after platform lock",
+        "studentAction": "If submitting after platform lock, send a formal written explanation via email to the instructor; acceptance not guaranteed.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "email",
+        "link": null,
+        "appliesTo": "students who miss the lock deadline",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "'Any submissions made after the platform cutoff will require a formal written explanation sent via email … with no guarantee of acceptance'",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "teacher_request",
+        "title": "Check Schoology for assignment step-by-step guidelines",
+        "studentAction": "Before asking teacher for clarification, check Schoology for detailed step-by-step assignment breakdown.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "'All assignment requirements have been broken into clear step-by-step guidelines on Schoology, and students must check the platform first before asking for clarification'",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "class_policy",
+        "title": "Academic integrity warning",
+        "studentAction": "Avoid plagiarism: do not copy course examples, use unlabeled AI generation, uncredited machine translation, or unmarked internet sources. Recent plagiarism case detected.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "'Plagiarism Definition: … all count as formal plagiarism and academic misconduct … A recent Unit 2 Assignment 2 submission was found to be nearly identical to a published course example'",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Students must select 3 original advertisements … Complete the scavenger hunt worksheet … upload to OneNote …",
+        "reason": "No explicit due date; likely to be completed before next class (Aug 17) but not explicitly stated."
+      },
+      {
+        "rawText": "approximately 3 to 4 hours to submit work before the platform locks",
+        "reason": "Exact lock time and platform name not specified; inferred from class end time."
+      }
+    ],
+    "watchTags": [
+      "OLC4O-S6-Keth-20260807-RhetoricalTriangle",
+      "OLC4O-S6-Keth-20260807-Logos",
+      "OLC4O-S6-Keth-20260807-Pathos",
+      "OLC4O-S6-Keth-20260807-Ethos",
+      "OLC4O-S6-Keth-20260807-Synthesis",
+      "OLC4O-S6-Keth-20260807-CommonMistakes",
+      "OLC4O-S6-Keth-20260807-ValidityAssessment",
+      "OLC4O-S6-Keth-20260807-AcademicIntegrity",
+      "OLC4O-S6-Keth-20260807-IndependentLearning",
+      "OLC4O-S6-Keth-20260807-PortfolioConference"
+    ],
+    "totalQuestions": 2,
+    "completed": false,
+    "passScore": 2,
+    "diagnosisRules": [
+      {
+        "errorId": "err-logos-misclassifying",
+        "condition": "student answers incorrectly on any question with errorId err-logos-misclassifying",
+        "systemAction": "assign reteach module err-logos-misclassifying, then retest err-logos-misclassifying"
+      },
+      {
+        "errorId": "err-pathos-overgeneralizing",
+        "condition": "student answers incorrectly on any question with errorId err-pathos-overgeneralizing",
+        "systemAction": "assign reteach module err-pathos-overgeneralizing, then retest err-pathos-overgeneralizing"
+      },
+      {
+        "errorId": "err-ethos-confusion",
+        "condition": "student answers incorrectly on any question with errorId err-ethos-confusion",
+        "systemAction": "assign reteach module err-ethos-confusion, then retest err-ethos-confusion"
+      },
+      {
+        "errorId": "err-synthesis-oversimplifying",
+        "condition": "student answers incorrectly on any question with errorId err-synthesis-oversimplifying",
+        "systemAction": "assign reteach module err-synthesis-oversimplifying, then retest err-synthesis-oversimplifying"
+      }
+    ],
+    "nextActions": [
+      "[err-logos-misclassifying] student answers incorrectly on any question with errorId err-logos-misclassifying: 关于 Mistaking statements from an authority figure as pure logos without verifying the underlying data. 的理解还需要加强。",
+      "[err-pathos-overgeneralizing] student answers incorrectly on any question with errorId err-pathos-overgeneralizing: 关于 Labeling any human presence in an ad as pathos, ignoring the need for intentional emotional manipulation. 的理解还需要加强。",
+      "[err-ethos-confusion] student answers incorrectly on any question with errorId err-ethos-confusion: 关于 Failing to recognize that ethos can incorporate elements of logos (qualifications) and pathos (character), treating it as a completely separate appeal. 的理解还需要加强。",
+      "[err-synthesis-oversimplifying] student answers incorrectly on any question with errorId err-synthesis-oversimplifying: 关于 Assuming an ad uses only one rhetorical appeal, rather than blending logos, pathos, and ethos. 的理解还需要加强。"
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-s6-0807-q1",
+        "type": "choice",
+        "question": "A toothpaste advertisement states, “Recommended by the Canadian Dental Association.” What is the primary rhetorical appeal used?",
+        "options": [
+          "Logos",
+          "Pathos",
+          "Ethos",
+          "Synthesis"
+        ],
+        "correct": 2,
+        "diagnosis": "Determine if a dental association recommendation is ethos or logos.",
+        "misconceptions": [
+          "While the ad mentions a dental association, it is not providing verifiable data or statistics; it relies on the authority’s credibility.",
+          "There is no intentional emotional manipulation, such as fear or joy, invoked here.",
+          "✓ Correct. The Canadian Dental Association's endorsement builds credibility and trust, making it ethos.",
+          "The ad focuses on a single appeal (credibility) rather than blending multiple appeals."
+        ],
+        "nodeId": "OLC4O-S6-Keth-20260807-CommonMistakes",
+        "errorId": "err-logos-misclassifying",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies an authority endorsement as ethos.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question aligns with A2 as it requires understanding persuasive text features.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "classify",
+        "commonMisconception": "Assuming any mention of professionals equals logical appeal.",
+        "remediationModule": "err-logos-misclassifying",
+        "retestItem": "err-logos-misclassifying"
+      },
+      {
+        "id": "diag-olc4o-s6-0807-q2",
+        "type": "choice",
+        "question": "An insurance advertisement features a retired teacher giving a testimonial about her financial security. What is the primary rhetorical appeal?",
+        "options": [
+          "Ethos",
+          "Pathos",
+          "Logos",
+          "None of the above"
+        ],
+        "correct": 0,
+        "diagnosis": "Differentiate between an authority-based testimonial (ethos) and emotional appeal (pathos).",
+        "misconceptions": [
+          "✓ Correct. A testimonial from a credible authority (retired teacher) builds trust—ethos.",
+          "Although a person is telling a story, the primary appeal is her credibility as a teacher, not intentional emotional manipulation.",
+          "No statistics or logical reasoning are provided in a testimonial.",
+          "There is a clear appeal; it is based on the speaker’s trustworthiness."
+        ],
+        "nodeId": "OLC4O-S6-Keth-20260807-CommonMistakes",
+        "errorId": "err-pathos-overgeneralizing",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies a testimonial as ethos rather than pathos.",
+        "ossdExpectation": "Demonstrate understanding of the organizational structure and features of a variety of informational, narrative, and graphic texts, including information paragraphs, opinion pieces, textbooks, newspaper reports and magazine stories, and short fiction.",
+        "officialExpectationCode": "A2",
+        "officialNodeId": "OLC4O-A-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question requires distinguishing between ethos and pathos, a key text feature.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "classify",
+        "commonMisconception": "Labeling any human presence as pathos without considering intentional emotional manipulation.",
+        "remediationModule": "err-pathos-overgeneralizing",
+        "retestItem": "err-pathos-overgeneralizing"
+      }
+    ]
+  }
+}

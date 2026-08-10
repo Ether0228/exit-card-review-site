@@ -1,0 +1,773 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-08-10",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/XlyDdBd5kola6Ex0jxLcWRO2nMe?from=vc_group_doc_link#doxcnj02gpdcXiQiNvfe20WmR3f",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-08-10 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/XlyDdBd5kola6Ex0jxLcWRO2nMe?from=vc_group_doc_link#doxcnj02gpdcXiQiNvfe20WmR3f",
+    "title": "MDM4U.S6.Atousa 2026-08-10 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-10/sources/mdm4u-s6-atousa-2026-08-10/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-08-10",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-10",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The lesson includes direct instruction on linear regression (technology and manual methods) and walkthroughs of class activities 5 and 6, blending new concept teaching with application guidance.",
+    "academicContentSignals": [
+      "Variable pre-definition (independent vs dependent) in regression",
+      "Extracting slope, intercept, r, R^2 from tool outputs",
+      "Interpretability constraint of y-intercept when x=0 outside observed range",
+      "Residual analysis for model fit (random distribution)",
+      "Predicting with regression equation (substituting x)",
+      "Manual calculation workflow: tabulating sums of x, y, x^2, y^2, xy",
+      "Manual derivation of slope and intercept via least squares",
+      "Manual correlation coefficient and R^2 computation",
+      "Example: student grade 7-point dataset (slope 0.62, intercept 29.58, R^2 0.86)",
+      "Excel: scatter plot, trendline, equation display, r and R^2",
+      "Interpreting slope and R^2 in context (NBA wins vs attendance)",
+      "Residual: observed minus predicted, residual plot check",
+      "NBA dataset: r=0.632, R^2=0.39",
+      "Paint drying time: additive vs drying time, moderate correlation",
+      "Tool choice: Excel recommended, avoid Python unless familiar"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "The lesson includes administrative reminders (homework deadlines, exam policies) that could distract from learning diagnostics. Ensure exit-card questions focus on regression concepts and limit readiness checks to 1-2 items.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete Class Activity 5 and 6 before next class",
+        "studentAction": "Complete all remaining questions in Class Activity 5 and all assigned questions in Class Activity 6. Use the shared answer key to self-check your work.",
+        "deadlineText": "Before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All enrolled students are required to complete all remaining questions in Class Activity 5 and all assigned questions in Class Activity 6 prior to the start of the next class, and reference the shared answer key for self-checking.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "follow_up_action",
+        "title": "David to upload Unit 1 assignment",
+        "studentAction": "David should upload his pending Unit 1 written assignment to the course learning platform.",
+        "deadlineText": "Promptly",
+        "deadlineISO": null,
+        "platform": "course learning platform",
+        "link": null,
+        "appliesTo": "David",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Student David has formally confirmed that the pending Unit 1 written assignment will be uploaded to the course learning platform promptly for instructor grading and feedback review.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Formulas will be provided during exams",
+        "studentAction": "Note that you do not need to memorize linear regression formulas; they will be provided on in-class and online exams.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All required linear regression calculation formulas, including slope, intercept, and correlation coefficient formulas, will be provided during both in-class and online exams, eliminating the need for rote memorization.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_requirement",
+        "title": "Online exam is open-book",
+        "studentAction": "For the scheduled online exam, you may reference external resources and search for formulas during the timed window.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The scheduled open-book online exam allows students to reference external learning resources and search for relevant calculation formulas during the official timed exam window.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "reference the shared answer key for self-checking",
+        "reason": "Location of the answer key not specified in the notes."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Linear Regression Model、Interpreting Regression Coefficients、Assessing Model Fit、Prediction Using Regression）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "In linear regression, clearly distinguish independent (x) and dependent (y) variables based on causal association.；Technology tools (e.g., Excel) provide slope, y-intercept, correlation coefficient r, and coefficient of determination R-squared.；r close to ±1 indicates strong linear correlation; R-squared indicates the proportion of variation in y explained by x.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify the independent (x) and dependent (y) variables in a two-variable regression context based on causal association."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Interpret regression coefficients (slope and intercept), correlation coefficient r, and coefficient of determination R² in context."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Evaluate model fit using residual patterns and use the regression equation to make predictions."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "KN-LR-model",
+      "name": "Linear Regression Model",
+      "nameEn": "Linear Regression Model",
+      "definition": "A method to model the relationship between two variables by fitting a linear equation to observed data. Involves identifying independent (x) and dependent (y) variables, computing slope and intercept, and evaluating fit.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    },
+    {
+      "id": "KN-LR-coefficients",
+      "name": "Interpreting Regression Coefficients",
+      "nameEn": "Interpreting Regression Coefficients",
+      "definition": "The slope represents the average change in the dependent variable per unit change in the independent variable. The intercept is the predicted value of y when x=0, but may lack real-world meaning if x=0 is outside the data range.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    },
+    {
+      "id": "KN-LR-fit",
+      "name": "Assessing Model Fit",
+      "nameEn": "Assessing Model Fit",
+      "definition": "Model fit is evaluated using correlation coefficient r (strength and direction of linear relationship), coefficient of determination R² (proportion of variance explained), and residual analysis (randomness of residuals confirms good fit).",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    },
+    {
+      "id": "KN-LR-prediction",
+      "name": "Prediction Using Regression",
+      "nameEn": "Prediction Using Regression",
+      "definition": "Once a regression equation is established, it can be used to predict the dependent variable for given values of the independent variable by substitution.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the independent (x) and dependent (y) variables in a two-variable regression context based on causal association."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Interpret regression coefficients (slope and intercept), correlation coefficient r, and coefficient of determination R² in context."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Evaluate model fit using residual patterns and use the regression equation to make predictions."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-LR-confuse-variables",
+        "condition": "student picks wrong option on a question targeting this errorId",
+        "systemAction": "assign reteach module for err-LR-confuse-variables",
+        "studentMessage": "That part is a common slip — let’s fix it with a short re-teach before moving on."
+      },
+      {
+        "errorId": "err-LR-intercept-meaningless",
+        "condition": "student picks wrong option on a question targeting this errorId",
+        "systemAction": "assign reteach module for err-LR-intercept-meaningless",
+        "studentMessage": "Interpreting the intercept needs a check of the data range. Let’s do a quick re-teach."
+      },
+      {
+        "errorId": "err-LR-residual-pattern",
+        "condition": "student picks wrong option on a question targeting this errorId",
+        "systemAction": "assign reteach module for err-LR-residual-pattern",
+        "studentMessage": "Residual plots tell us about fit — let’s review how to read them."
+      },
+      {
+        "errorId": "err-LR-r-square-misinterpret",
+        "condition": "student picks wrong option on a question targeting this errorId",
+        "systemAction": "assign reteach module for err-LR-r-square-misinterpret",
+        "studentMessage": "R² and r are related but different measures. Let’s re-teach that distinction."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-s6-q1",
+        "nodeId": "KN-LR-model",
+        "errorId": "err-LR-confuse-variables",
+        "stem": "In a study, weekly study time (hours) is used to explain test score (%). Which variable is the dependent variable (y)?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies the dependent variable as the outcome being predicted by the explanatory variable.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses identification of variables in a two-variable regression context, aligned with D2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks whether the student can distinguish independent and dependent variables based on the direction of explanation.",
+        "commonMisconception": "Student chooses the explanatory variable as y because they think it 'comes first' or is more important.",
+        "remediationModule": "err-LR-confuse-variables",
+        "retestItem": "retest-err-LR-confuse-variables",
+        "options": [
+          {
+            "label": "A",
+            "text": "Weekly study time, because it is measured in hours.",
+            "correct": false,
+            "feedbackWrong": "Measurement unit does not determine which variable is dependent. Study time is the explanatory variable (x)."
+          },
+          {
+            "label": "B",
+            "text": "Weekly study time, because it is used to explain the test score.",
+            "correct": false,
+            "feedbackWrong": "The variable used to explain is the independent variable (x), not the dependent variable."
+          },
+          {
+            "label": "C",
+            "text": "Test score, because it is the outcome being predicted.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The test score is the outcome that depends on study time, so it is the dependent variable (y)."
+          },
+          {
+            "label": "D",
+            "text": "Test score, because it is measured in percent.",
+            "correct": false,
+            "feedbackWrong": "Measurement unit does not determine the dependent variable. The outcome being predicted determines y."
+          }
+        ]
+      },
+      {
+        "id": "diag-mdm4u-s6-q2",
+        "nodeId": "KN-LR-coefficients",
+        "errorId": "err-LR-intercept-meaningless",
+        "stem": "For the grade dataset, the regression equation is Data Management mark = 0.62 × Grade 12 average + 29.58. The data include Grade 12 averages from 65% to 95%. What is the best interpretation of the intercept 29.58?",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Recognizes that the intercept has no practical meaning when x=0 is outside the observed data range.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses interpretation of regression coefficients in context under D2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks whether the student understands that a meaningless intercept is common when x=0 lies outside the data range.",
+        "commonMisconception": "Student assumes the intercept is a real baseline value even when x=0 is outside the range of observed data.",
+        "remediationModule": "err-LR-intercept-meaningless",
+        "retestItem": "retest-err-LR-intercept-meaningless",
+        "options": [
+          {
+            "label": "A",
+            "text": "Every student will score at least 29.58 in Data Management.",
+            "correct": false,
+            "feedbackWrong": "The intercept is not a minimum score; it is the predicted y-value when x=0."
+          },
+          {
+            "label": "B",
+            "text": "A student with a Grade 12 average of 0% would be predicted to score 29.58, so this is the baseline mark.",
+            "correct": false,
+            "feedbackWrong": "No student in the data has an average near 0%, so extrapolating to x=0 is not meaningful."
+          },
+          {
+            "label": "C",
+            "text": "A one-point increase in Grade 12 average raises the predicted Data Management mark by 29.58.",
+            "correct": false,
+            "feedbackWrong": "29.58 is the intercept, not the slope. The slope is 0.62."
+          },
+          {
+            "label": "D",
+            "text": "Since x=0 is outside the observed data range, the intercept is not a meaningful prediction by itself.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The intercept is a mathematical value, but it should not be interpreted as a real prediction when x=0 is outside the observed data range."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-LR-confuse-variables",
+      "condition": "student picks wrong option on a question targeting this errorId",
+      "systemAction": "assign reteach module for err-LR-confuse-variables",
+      "studentMessage": "That part is a common slip — let’s fix it with a short re-teach before moving on."
+    },
+    {
+      "errorId": "err-LR-intercept-meaningless",
+      "condition": "student picks wrong option on a question targeting this errorId",
+      "systemAction": "assign reteach module for err-LR-intercept-meaningless",
+      "studentMessage": "Interpreting the intercept needs a check of the data range. Let’s do a quick re-teach."
+    },
+    {
+      "errorId": "err-LR-residual-pattern",
+      "condition": "student picks wrong option on a question targeting this errorId",
+      "systemAction": "assign reteach module for err-LR-residual-pattern",
+      "studentMessage": "Residual plots tell us about fit — let’s review how to read them."
+    },
+    {
+      "errorId": "err-LR-r-square-misinterpret",
+      "condition": "student picks wrong option on a question targeting this errorId",
+      "systemAction": "assign reteach module for err-LR-r-square-misinterpret",
+      "studentMessage": "R² and r are related but different measures. Let’s re-teach that distinction."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-LR-confuse-variables",
+      "trigger": "The student identifies the explanatory variable as the dependent variable, or swaps x and y when writing or using a regression equation.",
+      "studentMisunderstanding": "They think the variable that is mentioned first, measured in a particular unit, or used to explain something is automatically y. Actually, y is always the outcome being predicted or explained, and x is the predictor or cause.",
+      "miniLesson": {
+        "explain": "In linear regression, the independent variable (x) is the input or cause, and the dependent variable (y) is the outcome or effect. The regression equation is always written as y = slope × x + intercept, so you substitute x to predict y. To tell them apart, ask: 'Which variable changes because of the other?' The one that changes as a result is y.",
+        "example": "In the grade dataset, the goal is to use Grade 12 overall average to explain Data Management marks. So x = Grade 12 average and y = Data Management mark. The correct equation is: Data Management mark = 0.62 × Grade 12 average + 29.58. If you swap them, you would be predicting Grade 12 average from Data Management mark, which is not the intended question.",
+        "memoryAnchor": "x-plain, y-result: x is the cause, y is the effect. The x value goes in, the y value comes out."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the paint drying experiment, the amount of additive (oz) is used to explain drying time (hours). Which variable is the independent variable (x) and which is the dependent variable (y)?",
+          "answer": "x = amount of additive (oz); y = drying time (hours), because additive amount is used to explain the drying time."
+        },
+        {
+          "level": "L2",
+          "prompt": "For the grade dataset, the regression equation is: Data Management mark = 0.62 × Grade 12 average + 29.58. Which variable is y and which is x?",
+          "answer": "y = Data Management mark; x = Grade 12 average, because Grade 12 average is used to explain or predict the Data Management mark."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student wrote the equation as Grade 12 average = 0.62 × Data Management mark + 29.58. Explain why this is incorrect and write the correct regression equation using the grade dataset facts.",
+          "answer": "The student swapped x and y. Since Grade 12 average is the explanatory variable and Data Management mark is the outcome, the correct equation is Data Management mark = 0.62 × Grade 12 average + 29.58. Swapping the variables changes the meaning of the slope and intercept, and it no longer answers the original question."
+        }
+      ]
+    },
+    {
+      "errorId": "err-LR-intercept-meaningless",
+      "trigger": "A student assumes the y-intercept always has a real-world interpretation even when x=0 is far outside the range of observed data.",
+      "studentMisunderstanding": "The student thinks the intercept is a meaningful baseline or minimum value in the context, without checking whether x=0 is within or near the data range.",
+      "miniLesson": {
+        "explain": "In a regression equation y = slope·x + intercept, the intercept is the predicted y-value when x = 0. However, this interpretation is only valid if x = 0 is within (or close to) the range of x-values in the data. When x = 0 is outside the observed range, the intercept is a mathematical constant that positions the line, but it does not represent a real-world prediction.",
+        "example": "For the grade dataset, the regression equation is Data Management mark = 0.62 × Grade 12 average + 29.58. The slope 0.62 means each additional percentage point in Grade 12 average is associated with a predicted increase of 0.62 points in Data Management mark. The intercept 29.58 would be the predicted Data Management mark if a student had a Grade 12 average of 0%, but all observed Grade 12 averages are around typical high-school values, far above 0%. Therefore, the intercept has no meaningful real-world interpretation for these students.",
+        "memoryAnchor": "If x=0 is not in your data, don't give the intercept a real-world story."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the regression equation Data Management mark = 0.62 × Grade 12 average + 29.58, what is the mathematical meaning of 29.58?",
+          "answer": "It is the predicted Data Management mark when the Grade 12 average is 0%."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student claims that the intercept 29.58 means every student will score at least 29.58 in Data Management. Explain why this is incorrect using the concept of the data range.",
+          "answer": "Because 29.58 is the predicted mark only when the Grade 12 average is 0%, and since all observed Grade 12 averages are much higher than 0%, the intercept is not a meaningful baseline for the students in the data."
+        },
+        {
+          "level": "L3",
+          "prompt": "Your friend says, 'Since the intercept is 29.58, we can predict that a student with a Grade 12 average of 0% would score 29.58.' Is this a valid prediction? Justify your answer in one sentence.",
+          "answer": "No, because 0% is outside the observed data range, so the prediction is an extrapolation that lacks real-world meaning."
+        }
+      ]
+    },
+    {
+      "errorId": "err-LR-residual-pattern",
+      "trigger": "Diagnosed when a student believes that large residuals alone automatically mean a poor model fit, without checking whether the residuals are randomly distributed.",
+      "studentMisunderstanding": "The student thinks a regression model is good only if residuals are very small, and that any residual pattern is acceptable as long as residuals are not large. They miss the key rule: residuals must be small and randomly scattered around zero to confirm a good fit.",
+      "miniLesson": {
+        "explain": "A residual is the difference between an observed y-value and the predicted y-value from the regression line. A well-fitting model should have residuals that are small and randomly scattered around zero. If the residual plot shows a clear pattern — such as a curve or a fan shape — then the linear model is missing something, even if the residuals themselves are not large. So when you assess fit, always check for randomness in the residual plot first; the size of individual residuals alone is not enough to declare a model poor or good.",
+        "example": "For the grade dataset, the regression equation is Data Management mark = 0.62 × Grade 12 average + 29.58, with R² = 0.86. Imagine you plot the residuals and see a clear U-shaped curve. That pattern tells you the linear model does not capture the true relationship, even though R² is high. In contrast, if the residual plot looks like a random cloud of points scattered around zero, then the linear model is a good fit, regardless of a few moderately sized residuals.",
+        "memoryAnchor": "Think: 'Residuals should look like a random cloud — not a rainbow, not a fan, and not a line. Random cloud = good fit; rainbow/fan = rethink the model.'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For a regression model, what does a randomly scattered residual plot indicate?",
+          "answer": "A randomly scattered residual plot indicates that the linear model is a good fit, because the residuals are randomly distributed around zero."
+        },
+        {
+          "level": "L2",
+          "prompt": "A residual plot shows points forming a clear U-shape, and all residuals are less than 5 units from zero. Is the model fit good? Explain.",
+          "answer": "No, the model fit is not good. The U-shape is a clear pattern, which suggests the linear model is not appropriate, even though the residuals are small."
+        },
+        {
+          "level": "L3",
+          "prompt": "In the NBA dataset, r = 0.632 and R² = 0.39. Someone says the model is poor because some residuals are large. Explain why this claim is incomplete and what else should be checked.",
+          "answer": "The claim is incomplete because large residuals alone do not prove a model is poor. You must also check whether the residuals are randomly scattered. If the residual plot shows no pattern, the linear model may still be reasonable despite some large residuals. On the other hand, a patterned residual plot would indicate a poor fit, regardless of residual size."
+        }
+      ]
+    },
+    {
+      "errorId": "err-LR-r-square-misinterpret",
+      "trigger": "A student says 'R² = 0.86, so the correlation is 0.86' or otherwise treats R² as the correlation coefficient instead of the proportion of variation explained.",
+      "studentMisunderstanding": "The student confuses the coefficient of determination R² with the correlation coefficient r, thinking R² measures strength/direction of association rather than the proportion of variation in y explained by x.",
+      "miniLesson": {
+        "explain": "In linear regression, r and R² tell different things. r, the correlation coefficient, measures the strength and direction of the linear relationship and ranges from -1 to +1. R², the coefficient of determination, is the proportion of variation in the dependent variable (y) explained by the independent variable (x); it ranges from 0 to 1. A high R² means the regression line explains most of the variability in y, not that the correlation coefficient is equal to R².",
+        "example": "In the student grade dataset, R² = 0.86. This means 86% of the variation in Data Management marks is explained by Grade 12 average. It does not mean the correlation is 0.86. In the NBA dataset, r = 0.632 (moderate positive correlation) and R² = 0.39, meaning 39% of variation in home wins is explained by average home attendance.",
+        "memoryAnchor": "R² is 'proportion explained' — it answers 'how much variation in y does the line explain?' r is 'strength/direction' — it answers 'how strong and which way is the linear relationship?'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For the NBA data, r = 0.632 and R² = 0.39. What does the 0.39 represent?",
+          "answer": "0.39 (or 39%) is the proportion of variation in y (home wins) explained by x (average home attendance)."
+        },
+        {
+          "level": "L2",
+          "prompt": "For the student grade dataset, R² = 0.86. A classmate claims that this means the correlation coefficient is 0.86. Explain why that claim is incorrect.",
+          "answer": "The claim is incorrect because R² is not r. R² = 0.86 means that 86% of the variation in Data Management marks is explained by Grade 12 average. The correlation coefficient r is a separate measure of strength and direction; it is not equal to R²."
+        },
+        {
+          "level": "L3",
+          "prompt": "For the paint drying experiment, r ≈ 0.5 and R² ≈ 0.33. Write a complete interpretation that correctly uses both values.",
+          "answer": "There is a moderate positive linear correlation between additive amount and drying time (r ≈ 0.5). About 33% of the variation in drying time is explained by the amount of additive (R² ≈ 0.33)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-LR-confuse-variables",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A researcher wants to use a car's age (years) to predict its price (dollars). Which variable is the independent variable (x) and which is the dependent variable (y)?",
+          "options": [
+            "x = price, y = age",
+            "x = age, y = price",
+            "x = age, y = age",
+            "x = price, y = price"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "stem": "For the car data, Excel gives the equation price = 0.62 × age + 29.58. A student instead writes age = 0.62 × price + 29.58. What is the main mistake?",
+          "options": [
+            "The intercept is wrong.",
+            "The independent and dependent variables are swapped.",
+            "The slope should be negative.",
+            "Price should not be in the equation."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q3",
+          "type": "open_ended",
+          "stem": "A study uses hours of weekly exercise (x) to predict resting heart rate (y). The regression output gives slope = -0.5 and intercept = 75. Write the regression equation and identify which variable is independent and which is dependent.",
+          "rubric": "Equation must be written as y = -0.5x + 75, or equivalently resting heart rate = -0.5 × hours of weekly exercise + 75. The student must clearly state that x = hours of weekly exercise (independent/explanatory) and y = resting heart rate (dependent/outcome). The response should show understanding that x is the predictor and y is the outcome."
+        }
+      ],
+      "passRule": "Both multiple-choice questions must be answered correctly AND the open-ended response must correctly identify x and y and write the equation in y = ... form."
+    },
+    {
+      "forErrorId": "err-LR-intercept-meaningless",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A paint company collects data on the amount of additive (in ounces) used and the time it takes for paint to dry (in hours). The data includes additive amounts between 2 and 10 ounces. The regression equation is: drying time = 2.5 + 0.5 × additive amount. What is the correct interpretation of the intercept (2.5)?",
+          "options": [
+            "The predicted drying time when no additive is used (0 oz), which is a valid real-world prediction because 0 oz is a possible amount.",
+            "The predicted drying time when no additive is used (0 oz), but since 0 oz is outside the observed data range, this prediction is an extrapolation and may not be meaningful.",
+            "The increase in drying time for each additional ounce of additive.",
+            "The correlation between additive amount and drying time."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "In the regression equation Data Management mark = 0.62 × Grade 12 average + 29.58, the observed Grade 12 averages in the data range from 65% to 95%. A student claims: \"The intercept is 29.58, so a student with a Grade 12 average of 0% would score 29.58 in Data Management.\" Explain why this interpretation is not appropriate, and state what the intercept actually represents mathematically.",
+          "rubric": "The response must state that mathematically, 29.58 is the predicted Data Management mark when the Grade 12 average is 0%. It must then explain that since 0% is outside the observed data range (65% to 95%), this prediction is an extrapolation and lacks real-world meaning. The intercept should not be treated as a meaningful baseline for the students in the data."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly (option B). Q2 response must explicitly mention that x=0 is outside the observed data range and therefore the intercept is an extrapolation without real-world meaning."
+    },
+    {
+      "forErrorId": "err-LR-residual-pattern",
+      "questions": [
+        {
+          "id": "q1_residual_pattern_check",
+          "type": "single_choice",
+          "stem": "A regression analysis produces two residual plots. Plot A shows residuals randomly scattered around zero, with a few points that are relatively far from zero. Plot B shows all residuals close to zero, but the points display a clear U-shaped curve. Which residual plot better supports the conclusion that a linear model is appropriate?",
+          "options": [
+            "Plot A, because random scatter is more important than the size of a few residuals.",
+            "Plot B, because small residuals always confirm a good fit.",
+            "Plot A, because larger residuals are always desirable.",
+            "Neither plot supports a linear model."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_residual_pattern_explain",
+          "type": "open_ended",
+          "stem": "A real-estate analyst models house age (years) as a predictor of selling price ($1000s). The regression equation is Predicted Price = 0.62 × Age + 29.58, with R² = 0.86. The residual plot shows a clear fan shape: the spread of residuals increases as age increases, even though no individual residual is larger than 2. Is the linear model a good fit? Explain using the idea of residual analysis.",
+          "rubric": "Must say the model is not a good fit because the fan shape is a non-random pattern; residual analysis checks for random scatter around zero, not just small residual size. Award credit if answer mentions that a pattern (fan shape) indicates the linear model is inadequate, and small residuals alone do not justify a good fit."
+        }
+      ],
+      "passRule": "Q1 must be correct. For Q2, the student must state that a patterned residual plot (fan shape) indicates a poor fit and explicitly mention that residual size alone is not sufficient; random scatter around zero is required for a good fit."
+    },
+    {
+      "forErrorId": "err-LR-r-square-misinterpret",
+      "questions": [
+        {
+          "id": "q1-r2-misinterpret-sc",
+          "type": "single_choice",
+          "stem": "For the paint drying experiment, the regression analysis gives r ≈ 0.5 and R² ≈ 0.33. A student says, 'Since R² = 0.33, the correlation is 0.33.' Which statement best corrects this error?",
+          "options": [
+            "They are right, R² and r are the same thing.",
+            "R² = 0.33 means that 33% of the variation in drying time is explained by the amount of additive; r ≈ 0.5 is the correlation coefficient.",
+            "R² = 0.33 means the correlation is moderate and negative.",
+            "R² = 0.33 means 33% of the data points lie exactly on the line."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-r2-misinterpret-oe",
+          "type": "open_ended",
+          "stem": "In the student grade dataset, R² = 0.86. In your own words, explain what this value tells you about the relationship between Grade 12 average and Data Management marks. Be sure to mention whether it represents the correlation coefficient or not.",
+          "rubric": "Recognizes that R² = 0.86 means 86% of the variation in Data Management marks is explained by Grade 12 average. States explicitly that R² is not the correlation coefficient; r is a separate measure of strength/direction. Does not say correlation equals 0.86."
+        }
+      ],
+      "passRule": "Must answer Q1 correctly. Q2 must explicitly state R² is the proportion of variation explained, not the correlation coefficient, and must not incorrectly equate R² with r."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-10",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/XlyDdBd5kola6Ex0jxLcWRO2nMe?from=vc_group_doc_link#doxcnj02gpdcXiQiNvfe20WmR3f",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-08-10 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "In linear regression, clearly distinguish independent (x) and dependent (y) variables based on causal association.；Technology tools (e.g., Excel) provide slope, y-intercept, correlation coefficient r, and coefficient of determination R-squared.；r close to ±1 indicates strong linear correlation; R-squared indicates the proportion of variation in y explained by x.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify the independent (x) and dependent (y) variables in a two-variable regression context based on causal association."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Interpret regression coefficients (slope and intercept), correlation coefficient r, and coefficient of determination R² in context."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Evaluate model fit using residual patterns and use the regression equation to make predictions."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete Class Activity 5 and 6 before next class",
+        "studentAction": "Complete all remaining questions in Class Activity 5 and all assigned questions in Class Activity 6. Use the shared answer key to self-check your work.",
+        "deadlineText": "Before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "All enrolled students are required to complete all remaining questions in Class Activity 5 and all assigned questions in Class Activity 6 prior to the start of the next class, and reference the shared answer key for self-checking.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "follow_up_action",
+        "title": "David to upload Unit 1 assignment",
+        "studentAction": "David should upload his pending Unit 1 written assignment to the course learning platform.",
+        "deadlineText": "Promptly",
+        "deadlineISO": null,
+        "platform": "course learning platform",
+        "link": null,
+        "appliesTo": "David",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Student David has formally confirmed that the pending Unit 1 written assignment will be uploaded to the course learning platform promptly for instructor grading and feedback review.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Formulas will be provided during exams",
+        "studentAction": "Note that you do not need to memorize linear regression formulas; they will be provided on in-class and online exams.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All required linear regression calculation formulas, including slope, intercept, and correlation coefficient formulas, will be provided during both in-class and online exams, eliminating the need for rote memorization.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_requirement",
+        "title": "Online exam is open-book",
+        "studentAction": "For the scheduled online exam, you may reference external resources and search for formulas during the timed window.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The scheduled open-book online exam allows students to reference external learning resources and search for relevant calculation formulas during the official timed exam window.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "reference the shared answer key for self-checking",
+        "reason": "Location of the answer key not specified in the notes."
+      }
+    ],
+    "watchTags": [
+      "KN-LR-model",
+      "KN-LR-coefficients",
+      "KN-LR-fit",
+      "KN-LR-prediction"
+    ],
+    "totalQuestions": 2,
+    "completed": false,
+    "passScore": 2,
+    "diagnosisRules": [
+      {
+        "errorId": "err-LR-confuse-variables",
+        "condition": "student picks wrong option on a question targeting this errorId",
+        "systemAction": "assign reteach module for err-LR-confuse-variables"
+      },
+      {
+        "errorId": "err-LR-intercept-meaningless",
+        "condition": "student picks wrong option on a question targeting this errorId",
+        "systemAction": "assign reteach module for err-LR-intercept-meaningless"
+      },
+      {
+        "errorId": "err-LR-residual-pattern",
+        "condition": "student picks wrong option on a question targeting this errorId",
+        "systemAction": "assign reteach module for err-LR-residual-pattern"
+      },
+      {
+        "errorId": "err-LR-r-square-misinterpret",
+        "condition": "student picks wrong option on a question targeting this errorId",
+        "systemAction": "assign reteach module for err-LR-r-square-misinterpret"
+      }
+    ],
+    "nextActions": [
+      "[err-LR-confuse-variables] student picks wrong option on a question targeting this errorId: That part is a common slip — let’s fix it with a short re-teach before moving on.",
+      "[err-LR-intercept-meaningless] student picks wrong option on a question targeting this errorId: Interpreting the intercept needs a check of the data range. Let’s do a quick re-teach.",
+      "[err-LR-residual-pattern] student picks wrong option on a question targeting this errorId: Residual plots tell us about fit — let’s review how to read them.",
+      "[err-LR-r-square-misinterpret] student picks wrong option on a question targeting this errorId: R² and r are related but different measures. Let’s re-teach that distinction."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-s6-q1",
+        "type": "choice",
+        "question": "In a study, weekly study time (hours) is used to explain test score (%). Which variable is the dependent variable (y)?",
+        "options": [
+          "Weekly study time, because it is measured in hours.",
+          "Weekly study time, because it is used to explain the test score.",
+          "Test score, because it is the outcome being predicted.",
+          "Test score, because it is measured in percent."
+        ],
+        "correct": 2,
+        "diagnosis": "Checks whether the student can distinguish independent and dependent variables based on the direction of explanation.",
+        "misconceptions": [
+          "Measurement unit does not determine which variable is dependent. Study time is the explanatory variable (x).",
+          "The variable used to explain is the independent variable (x), not the dependent variable.",
+          "✓ Correct. The test score is the outcome that depends on study time, so it is the dependent variable (y).",
+          "Measurement unit does not determine the dependent variable. The outcome being predicted determines y."
+        ],
+        "nodeId": "KN-LR-model",
+        "errorId": "err-LR-confuse-variables",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies the dependent variable as the outcome being predicted by the explanatory variable.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses identification of variables in a two-variable regression context, aligned with D2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student chooses the explanatory variable as y because they think it 'comes first' or is more important.",
+        "remediationModule": "err-LR-confuse-variables",
+        "retestItem": "retest-err-LR-confuse-variables"
+      },
+      {
+        "id": "diag-mdm4u-s6-q2",
+        "type": "choice",
+        "question": "For the grade dataset, the regression equation is Data Management mark = 0.62 × Grade 12 average + 29.58. The data include Grade 12 averages from 65% to 95%. What is the best interpretation of the intercept 29.58?",
+        "options": [
+          "Every student will score at least 29.58 in Data Management.",
+          "A student with a Grade 12 average of 0% would be predicted to score 29.58, so this is the baseline mark.",
+          "A one-point increase in Grade 12 average raises the predicted Data Management mark by 29.58.",
+          "Since x=0 is outside the observed data range, the intercept is not a meaningful prediction by itself."
+        ],
+        "correct": 3,
+        "diagnosis": "Checks whether the student understands that a meaningless intercept is common when x=0 lies outside the data range.",
+        "misconceptions": [
+          "The intercept is not a minimum score; it is the predicted y-value when x=0.",
+          "No student in the data has an average near 0%, so extrapolating to x=0 is not meaningful.",
+          "29.58 is the intercept, not the slope. The slope is 0.62.",
+          "✓ Correct. The intercept is a mathematical value, but it should not be interpreted as a real prediction when x=0 is outside the observed data range."
+        ],
+        "nodeId": "KN-LR-coefficients",
+        "errorId": "err-LR-intercept-meaningless",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Recognizes that the intercept has no practical meaning when x=0 is outside the observed data range.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses interpretation of regression coefficients in context under D2.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student assumes the intercept is a real baseline value even when x=0 is outside the range of observed data.",
+        "remediationModule": "err-LR-intercept-meaningless",
+        "retestItem": "retest-err-LR-intercept-meaningless"
+      }
+    ]
+  }
+}

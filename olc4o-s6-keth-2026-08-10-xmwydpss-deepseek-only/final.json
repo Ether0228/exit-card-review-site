@@ -1,0 +1,1183 @@
+{
+  "sourceLesson": "OLC4O.S6.Keth 2026-08-10",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/XMWydpsssotKZNx1CYocQ5Nfnnb?from=vc_group_doc_link#doxcnqWiXaE5rHiM8KSdwlScb8e",
+  "sourceTitle": "OLC4O.S6.Keth 2026-08-10 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/XMWydpsssotKZNx1CYocQ5Nfnnb?from=vc_group_doc_link#doxcnqWiXaE5rHiM8KSdwlScb8e",
+    "title": "OLC4O.S6.Keth 2026-08-10 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-10/sources/olc4o-s6-keth-2026-08-10-xmwydpss/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "OLC4O",
+  "lessonDate": "2026-08-10",
+  "teacher": "Keth",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-08-10",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson is primarily an instructional briefing on the Unit 3 assignment, covering the rhetorical triangle, film analysis, and essay structure. Academic content is taught, not just logistics.",
+    "academicContentSignals": [
+      "Rhetorical triangle framework (logos, pathos, ethos) and its application in media analysis",
+      "Background, rules, and core themes of documentary 'Super Size Me'",
+      "Specific examples of logos (statistics, charts), pathos (personal discomfort footage), and ethos (expert testimonies) in the film",
+      "Structure of a rhetorical analysis essay: 5-paragraph format with introduction, body paragraphs on specific appeals, comparative analysis, and conclusion",
+      "Scoring rubric criteria: Knowledge & Understanding, Thinking & Inquiry, Application, Communication",
+      "Common error: mistranslation of 'pathos' as 'sadness'"
+    ],
+    "courseOverviewSignals": [
+      "Unit 3 focuses on critical media literacy through documentary analysis",
+      "Students will apply the rhetorical triangle to evaluate persuasive techniques in film"
+    ],
+    "opsDominanceRisk": "The lesson includes a high density of assignment logistics (submission rules, platform uploads, screening arrangements) that could overshadow diagnostic focus. Mitigation: exit card will prioritize conceptual mastery over operational details.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 3 Assignment 1: Two-Part Submission",
+        "studentAction": "Complete both Task 1 (8 short-answer questions) and Task 2 (500-word rhetorical analysis essay) and submit as two separate documents.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Two-Part Submission Rule ... any submission missing either ... automatic zero",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Automatic Zero for Incomplete Submissions",
+        "studentAction": "Ensure both parts are submitted separately to avoid automatic zero.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "any submission missing either ... automatic zero with no eligibility for resubmission",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Super Size Me Documentary (with subtitles)",
+        "studentAction": "Watch the full documentary during class or via course platform if absent.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Course platform (Unit 3 Assignment 1 section)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Resource Upload: The full uncut Super Size Me documentary ... will be uploaded to the Unit 3 Assignment 1 section of the course platform",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Complete Assignment Instruction Page",
+        "studentAction": "Access the assignment instructions from the course platform.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Course platform (Unit 3 Assignment 1 section)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the complete assignment instruction page, will be uploaded ... course platform",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Independent Proofreading Mandate",
+        "studentAction": "Proofread your own work thoroughly; do not rely on automated tools or tutors.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All proofreading work must be completed independently by the submitting student",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "Use of Correct Rhetorical Terminology",
+        "studentAction": "Use the standard terms logos, pathos, ethos; avoid mistranslations like 'sadness' for pathos.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "explicitly use the standard universally accepted rhetorical terms ... avoid incorrect machine translations",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Unit 2 Submission Portal Reopened",
+        "studentAction": "Submit overdue Unit 2 assignments if you still have them.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who missed Unit 2 submission",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "submission portal for previously overdue Unit 2 assignments has been temporarily reopened",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-008",
+        "category": "announcement",
+        "title": "Next Class Topic: Informational Texts",
+        "studentAction": "Prepare for next class on structured analysis of informational texts.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The next scheduled class session will cover structured analysis of informational texts",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "In-Class Documentary Screening Arrangements",
+        "studentAction": "Attend the in-class screening; no group break, but you may leave for restroom/drinks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "the full 85-minute documentary will be screened ... with no scheduled group break, and students may leave temporarily",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "OLC4O Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Rhetorical Appeals、Documentary Analysis、Assignment Structure and Process、Scoring Criteria and Common Errors）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The assignment is Unit 3, based on the 2004 documentary Super Size Me.；The film cost $65,000 to produce and had a large cultural impact.；Director Morgan Spurlock followed four rules for 30 days: eat every McDonald's menu item at least once; accept supersize only when offered; cap daily steps at 5000; consume only plain water outside McDonald's.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students will be able to identify and explain the three rhetorical appeals (logos, pathos, ethos) as used in the documentary Super Size Me."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students will be able to recall key facts about the documentary and use specific evidence to support analysis."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students will be able to describe the structure and requirements of the Unit 3 assignment and recognize common errors."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "node-rhetorical-appeals",
+      "name": "Rhetorical Appeals",
+      "nameEn": "Rhetorical Appeals",
+      "definition": "The three persuasive strategies (logos, pathos, ethos) used to analyze the documentary Super Size Me. Logos appeals to logic with statistics and data; pathos appeals to emotion with personal footage; ethos establishes credibility with expert testimony. The combined use creates a strong argument.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "OLC4O-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate."
+    },
+    {
+      "id": "node-documentary-analysis",
+      "name": "Documentary Analysis",
+      "nameEn": "Documentary Analysis",
+      "definition": "The ability to read and respond to the documentary Super Size Me by identifying key facts (the 4 rules, themes, production details) and using them to support analytical claims.",
+      "officialExpectationCode": "A1",
+      "officialNodeId": "OLC4O-A-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate the ability to read and respond to a variety of texts."
+    },
+    {
+      "id": "node-assignment-structure",
+      "name": "Assignment Structure and Process",
+      "nameEn": "Assignment Structure and Process",
+      "definition": "The two-part assignment requires a separate Analytical Audit (8 short-answer questions) and a 500-word Rhetorical Analysis Essay with a 5-paragraph structure. The writing process involves generating ideas, organizing them, and producing a polished final draft. Missing either component results in a zero.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "OLC4O-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks."
+    },
+    {
+      "id": "node-scoring-and-errors",
+      "name": "Scoring Criteria and Common Errors",
+      "nameEn": "Scoring Criteria and Common Errors",
+      "definition": "The assignment is scored on Knowledge (accurate terminology and details), Thinking (well-chosen evidence and nuanced reasoning), Application (linking scenes to appeals and real-world context), and Communication (logical flow, vocabulary, proofreading). Common errors include mistranslating 'pathos' as 'sadness', failing to submit two separate documents, and neglecting self-proofreading.",
+      "officialExpectationCode": "C2",
+      "officialNodeId": "OLC4O-C-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+      "ossdExpectation": "Demonstrate understanding of their own roles and responsibilities in the learning process."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students will be able to identify and explain the three rhetorical appeals (logos, pathos, ethos) as used in the documentary Super Size Me."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students will be able to recall key facts about the documentary and use specific evidence to support analysis."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students will be able to describe the structure and requirements of the Unit 3 assignment and recognize common errors."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-rhetoric-pathos-mistranslation",
+        "condition": "incorrect answer on Q targeting this errorId",
+        "systemAction": "assign reteach module for err-rhetoric-pathos-mistranslation",
+        "studentMessage": "Review the correct meaning of 'pathos' as emotional appeal in rhetoric."
+      },
+      {
+        "errorId": "err-task-single-document",
+        "condition": "incorrect answer on Q targeting this errorId",
+        "systemAction": "assign reteach module for err-task-single-document",
+        "studentMessage": "Make sure you submit both tasks as separate documents to avoid an automatic zero."
+      },
+      {
+        "errorId": "err-essay-structure-omission",
+        "condition": "incorrect answer on Q targeting this errorId",
+        "systemAction": "assign reteach module for err-essay-structure-omission",
+        "studentMessage": "Ensure your essay follows the required 5‑paragraph structure with all required parts."
+      },
+      {
+        "errorId": "err-evidence-generalization",
+        "condition": "does not provide specific verifiable evidence from the documentary in open‑ended response",
+        "systemAction": "assign reteach module for err-evidence-generalization",
+        "studentMessage": "Use exact facts, statistics, or scenes from Super Size Me to support your analysis."
+      },
+      {
+        "errorId": "err-proofreading-reliance",
+        "condition": "incorrect answer on Q targeting this errorId",
+        "systemAction": "assign reteach module for err-proofreading-reliance",
+        "studentMessage": "Practice self‑proofreading by reading your work aloud; avoid over‑relying on tools or others."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-olc4o-s6-0810-q1",
+        "nodeId": "node-rhetorical-appeals",
+        "errorId": "err-rhetoric-pathos-mistranslation",
+        "stem": "In rhetorical analysis, the term 'pathos' refers to:",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies pathos as emotional appeal.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Rhetorical appeals are a key part of writing forms and persuasive purpose.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student knows the correct meaning of 'pathos' as emotional appeal, not the common mistranslation as sadness.",
+        "commonMisconception": "Students often translate 'pathos' as sadness, but it is the broader appeal to emotion.",
+        "remediationModule": "err-rhetoric-pathos-mistranslation",
+        "retestItem": "err-rhetoric-pathos-mistranslation",
+        "options": [
+          {
+            "label": "A",
+            "text": "Sadness",
+            "correct": false,
+            "feedbackWrong": "Pathos is a rhetorical term meaning emotional appeal, not sadness. The correct term is broader."
+          },
+          {
+            "label": "B",
+            "text": "Emotional appeal",
+            "correct": true,
+            "feedbackCorrect": "Correct. Pathos refers to the appeal to the audience's emotions."
+          },
+          {
+            "label": "C",
+            "text": "Logical reasoning",
+            "correct": false,
+            "feedbackWrong": "Logical reasoning is logos, not pathos. Pathos targets emotions."
+          },
+          {
+            "label": "D",
+            "text": "Credibility",
+            "correct": false,
+            "feedbackWrong": "Credibility is ethos. Pathos is about emotional connection."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0810-q2",
+        "nodeId": "node-assignment-structure",
+        "errorId": "err-task-single-document",
+        "stem": "For the Unit 3 assignment on Super Size Me, how many separate documents must you submit?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly states that two separate documents are required.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Producing two separate final pieces reflects the writing process outcome.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Ensure student understands that both tasks must be submitted as two documents, not combined.",
+        "commonMisconception": "Students may think one document is sufficient if it contains both parts.",
+        "remediationModule": "err-task-single-document",
+        "retestItem": "err-task-single-document",
+        "options": [
+          {
+            "label": "A",
+            "text": "1",
+            "correct": false,
+            "feedbackWrong": "You must submit the Analytical Audit and the Rhetorical Analysis Essay as two separate documents. Failing to do so results in an automatic zero."
+          },
+          {
+            "label": "B",
+            "text": "2",
+            "correct": true,
+            "feedbackCorrect": "Correct. Submit both tasks as separate files."
+          },
+          {
+            "label": "C",
+            "text": "3",
+            "correct": false,
+            "feedbackWrong": "Only two documents are required: the Audit and the Essay."
+          },
+          {
+            "label": "D",
+            "text": "1 with both parts combined",
+            "correct": false,
+            "feedbackWrong": "No, they must be separate documents. Combining them leads to an automatic zero."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0810-q3",
+        "nodeId": "node-assignment-structure",
+        "errorId": "err-essay-structure-omission",
+        "stem": "What is the correct paragraph structure for the Rhetorical Analysis Essay on Super Size Me?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies the required 5‑paragraph structure with all parts.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "A structured 5‑paragraph essay reflects the organizing and drafting stage of the writing process.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check that student knows the specific required essay sections to avoid missing parts.",
+        "commonMisconception": "Students may forget that the essay must contain a dedicated paragraph comparing the appeals' frequency vs. effectiveness.",
+        "remediationModule": "err-essay-structure-omission",
+        "retestItem": "err-essay-structure-omission",
+        "options": [
+          {
+            "label": "A",
+            "text": "3‑paragraph: intro, body, conclusion",
+            "correct": false,
+            "feedbackWrong": "The assignment requires a longer structure with three body paragraphs, not just one."
+          },
+          {
+            "label": "B",
+            "text": "5‑paragraph: introduction, 3 body paragraphs, conclusion",
+            "correct": true,
+            "feedbackCorrect": "Correct. The essay must include an intro with thesis, three body paragraphs (scene examples, comparison of appeals, effectiveness judgment), and a conclusion."
+          },
+          {
+            "label": "C",
+            "text": "5‑paragraph with 4 body paragraphs",
+            "correct": false,
+            "feedbackWrong": "Only three body paragraphs are required; each serves a distinct analytical purpose."
+          },
+          {
+            "label": "D",
+            "text": "No required structure as long as it is an essay",
+            "correct": false,
+            "feedbackWrong": "A specific 5‑paragraph format is required to meet the assignment's expectations."
+          }
+        ]
+      },
+      {
+        "id": "diag-olc4o-s6-0810-q4",
+        "nodeId": "node-documentary-analysis",
+        "errorId": "err-evidence-generalization",
+        "stem": "In the Analytical Audit for Super Size Me, you must cite specific documentary evidence. Provide one example of logos from the film and explain why it is logos.",
+        "type": "open_ended",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student provides a concrete, verifiable fact/statistic from the documentary and correctly identifies its logical appeal.",
+        "ossdExpectation": "Demonstrate the ability to read and respond to a variety of texts.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "OLC4O-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The ability to cite and explain evidence from a documentary text directly aligns with A1.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Ensure student can provide specific, documentary‑based evidence rather than vague generalizations.",
+        "commonMisconception": "Students often state 'there were statistics' without giving an actual number or fact from the film.",
+        "remediationModule": "err-evidence-generalization",
+        "retestItem": "err-evidence-generalization",
+        "rubric": "Answer should mention a specific statistic or fact from the documentary (e.g., '7+ hours of exercise to burn a supersize meal' or other verifiable data) and correctly identify it as a logical appeal based on data.",
+        "sampleStrongAnswer": "One example of logos is the statistic that it takes over 7 hours of continuous exercise to burn the calories from a supersize McDonald's meal. This is logos because it uses numerical data to appeal to the audience's logic and reason."
+      },
+      {
+        "id": "diag-olc4o-s6-0810-q5",
+        "nodeId": "node-scoring-and-errors",
+        "errorId": "err-proofreading-reliance",
+        "stem": "Which of the following is the BEST strategy for proofreading your assignment?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects self‑proofreading by reading aloud as the recommended method.",
+        "ossdExpectation": "Demonstrate understanding of their own roles and responsibilities in the learning process.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "OLC4O-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Taking responsibility for independent proofreading is a key learning‑process skill.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Reinforce that independent proofreading is an essential responsibility, not a task to outsource.",
+        "commonMisconception": "Students may think using spellcheck or having someone else fix errors is sufficient proofreading.",
+        "remediationModule": "err-proofreading-reliance",
+        "retestItem": "err-proofreading-reliance",
+        "options": [
+          {
+            "label": "A",
+            "text": "Run it through an online grammar checker and submit",
+            "correct": false,
+            "feedbackWrong": "Relying solely on a tool does not develop your own proofreading ability, which is required."
+          },
+          {
+            "label": "B",
+            "text": "Have a tutor rewrite unclear sections",
+            "correct": false,
+            "feedbackWrong": "Proofreading means you check and correct your own work, not someone else doing it."
+          },
+          {
+            "label": "C",
+            "text": "Read your work aloud slowly and check for errors",
+            "correct": true,
+            "feedbackCorrect": "Correct. Self‑proofreading by reading aloud helps you catch errors independently."
+          },
+          {
+            "label": "D",
+            "text": "Ask a friend to write your conclusion",
+            "correct": false,
+            "feedbackWrong": "This is plagiarism and does not involve any proofreading from you."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-rhetoric-pathos-mistranslation",
+      "condition": "incorrect answer on Q targeting this errorId",
+      "systemAction": "assign reteach module for err-rhetoric-pathos-mistranslation",
+      "studentMessage": "Review the correct meaning of 'pathos' as emotional appeal in rhetoric."
+    },
+    {
+      "errorId": "err-task-single-document",
+      "condition": "incorrect answer on Q targeting this errorId",
+      "systemAction": "assign reteach module for err-task-single-document",
+      "studentMessage": "Make sure you submit both tasks as separate documents to avoid an automatic zero."
+    },
+    {
+      "errorId": "err-essay-structure-omission",
+      "condition": "incorrect answer on Q targeting this errorId",
+      "systemAction": "assign reteach module for err-essay-structure-omission",
+      "studentMessage": "Ensure your essay follows the required 5‑paragraph structure with all required parts."
+    },
+    {
+      "errorId": "err-evidence-generalization",
+      "condition": "does not provide specific verifiable evidence from the documentary in open‑ended response",
+      "systemAction": "assign reteach module for err-evidence-generalization",
+      "studentMessage": "Use exact facts, statistics, or scenes from Super Size Me to support your analysis."
+    },
+    {
+      "errorId": "err-proofreading-reliance",
+      "condition": "incorrect answer on Q targeting this errorId",
+      "systemAction": "assign reteach module for err-proofreading-reliance",
+      "studentMessage": "Practice self‑proofreading by reading your work aloud; avoid over‑relying on tools or others."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-rhetoric-pathos-mistranslation",
+      "trigger": "The student selects 'Sadness' when asked to define 'pathos' in a rhetorical context.",
+      "studentMisunderstanding": "The student equates the rhetorical term 'pathos' with sadness, failing to recognize that pathos is the appeal to the audience's emotions, which includes a wide range of feelings beyond sadness.",
+      "miniLesson": {
+        "explain": "In the rhetorical triangle, pathos is one of the three persuasive appeals. It refers to the use of emotional connection to persuade an audience. This is a standard rhetorical term and should not be translated as 'sadness.' In Super Size Me, for example, Spurlock's raw footage of post-meal vomiting and mood swings is pathos because it creates an emotional connection through disgust, pity, and concern—not only sadness. Remember, pathos can evoke any emotion, such as anger, hope, fear, or sympathy.",
+        "example": "In the documentary, when Morgan Spurlock experiences post-meal vomiting, viewers feel visceral disgust and concern for his health. That emotional response is pathos. The scene is not meant to make you merely sad; it makes you emotionally invested in his condition. Similarly, his mood swings generate frustration and worry, all of which are pathos.",
+        "memoryAnchor": "Think: 'Pathos = Passion for emotions.' Pathos is the emotional appeal, and sadness is just one of many emotions it can stir."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is the correct definition of 'pathos' in rhetorical analysis? A) Sadness B) Appeal to emotion C) Use of statistics D) Expert credibility.",
+          "answer": "B) Appeal to emotion. Pathos is the rhetorical appeal to the audience's emotions, not a synonym for sadness."
+        },
+        {
+          "level": "L2",
+          "prompt": "Using a specific detail from Super Size Me, give one example of pathos and explain why it is pathos.",
+          "answer": "Spurlock's post-meal vomiting is an example of pathos. It appeals to the audience's emotions by creating feelings of disgust and concern, drawing the viewer into his physical suffering."
+        },
+        {
+          "level": "L3",
+          "prompt": "Why is it inaccurate to translate 'pathos' as 'sadness'? Support your answer with a scenario from Super Size Me that evokes an emotion other than sadness.",
+          "answer": "Pathos is a broader appeal to any emotion; sadness is only one possible emotion. For example, Spurlock's mood swings in Super Size Me are pathos because they evoke frustration and worry, not necessarily sadness. If a student describes pathos only as sadness, they miss the full range of emotional appeals used in the documentary."
+        }
+      ]
+    },
+    {
+      "errorId": "err-task-single-document",
+      "trigger": "Student answers that only one document is needed or plans to combine both tasks into a single file.",
+      "studentMisunderstanding": "The student believes that combining the Analytical Audit and the Rhetorical Analysis Essay into one document is acceptable, but the assignment requires two separate files; combining them results in an automatic zero.",
+      "miniLesson": {
+        "explain": "The Unit 3 assignment on Super Size Me consists of two separate tasks: the Analytical Audit and the Rhetorical Analysis Essay. The Analytical Audit has 8 short-answer questions (2-3 sentences each) covering film facts and personal reflections. The Rhetorical Analysis Essay is a 500-word, 5-paragraph essay. Both tasks must be submitted as separate documents. Missing either component results in an automatic zero.",
+        "example": "Think of the two tasks as separate dishes: the Analytical Audit (8 questions) and the Rhetorical Analysis Essay (500 words). Just as a buffet requires separate plates, these two tasks must be submitted as separate files. If you combine them into one document, it is as if you failed to submit one of them, risking an automatic zero.",
+        "memoryAnchor": "Two tasks, two files: separate or score zero!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many separate documents must you submit for the Unit 3 assignment on Super Size Me?",
+          "answer": "Two: the Analytical Audit and the Rhetorical Analysis Essay."
+        },
+        {
+          "level": "L2",
+          "prompt": "You have finished both tasks. What is the correct way to submit them to avoid an automatic zero?",
+          "answer": "Save the Analytical Audit and the Rhetorical Analysis Essay as two separate files and submit both. Do not combine them into one document."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate says, 'I put both tasks in one file because it's easier for the teacher.' Explain why this is risky and what the consequence is.",
+          "answer": "It is risky because the assignment requires two separate documents. Combining them into one file means a required component is missing, which results in an automatic zero. The Analytical Audit (8 short-answer questions) and the Rhetorical Analysis Essay (500-word, 5-paragraph essay) must each be submitted as its own file."
+        }
+      ]
+    },
+    {
+      "errorId": "err-essay-structure-omission",
+      "trigger": "Student omits a required essay paragraph (e.g., no dedicated comparison of appeals or no conclusion) in the Rhetorical Analysis Essay.",
+      "studentMisunderstanding": "The student thinks any essay with an introduction, body, and conclusion is acceptable, not realizing that the 500-word Rhetorical Analysis Essay requires a specific 5-paragraph structure where each body paragraph has a distinct analytical purpose.",
+      "miniLesson": {
+        "explain": "The Rhetorical Analysis Essay must be 500 words and follow a 5-paragraph structure: Introduction, Body 1, Body 2, Body 3, Conclusion. Each part has a non-negotiable job. Introduction: name the film (Super Size Me), the director (Morgan Spurlock), and present a thesis on persuasive effectiveness. Body 1: identify scene examples for each appeal (logos, pathos, ethos) with description. Body 2: compare appeals, distinguishing the most frequent from the most effective with justification. Body 3: give an overall judgment of long-term effectiveness, citing the real-world outcome (McDonald's cancelled supersize menu 6 weeks after release). Conclusion: summarize findings and reflect on critical media literacy. Omitting any of these sections means the essay does not meet the assignment structure, so it loses marks in Thinking and Communication.",
+        "example": "Use this skeleton: Intro (Super Size Me + Spurlock + thesis) → Body 1 (Scene examples: 7+ hours of exercise = logos; vomiting and mood swings = pathos; US Surgeon General = ethos) → Body 2 ('Most frequent is pathos, but most effective is logos because...') → Body 3 ('McDonald's cancelled supersize menu 6 weeks after release, proving long-term impact') → Conclusion (summary + media literacy reflection).",
+        "memoryAnchor": "5 paragraphs = 5 fingers. Intro, examples, compare, effectiveness, conclusion. If one finger is missing, the hand can't wave an A."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A student's essay outline is: Introduction → Body 1 (scene examples for each appeal) → Body 2 (compare appeals) → Conclusion. Which required paragraph is missing?",
+          "answer": "Body 3 — overall judgment of long-term effectiveness, citing the real-world outcome (McDonald's cancelled supersize menu 6 weeks after release)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Put these five sentences in the correct 5-paragraph order. Write only the numbers. 1) 'Super Size Me, directed by Morgan Spurlock, is persuasive because it combines all three appeals.' 2) 'The most frequent appeal is pathos, but the most effective is logos.' 3) 'This makes the film a lasting warning about fast food.' 4) 'Logos appears in the fact that 7+ hours of exercise are needed to burn a supersize meal.' 5) 'McDonald's cancelled supersize menu 6 weeks after release.'",
+          "answer": "1 → 4 → 2 → 5 → 3. That is Intro, Body 1, Body 2, Body 3, Conclusion."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write a complete Body 2 paragraph (3–4 sentences) comparing the most frequent appeal with the most effective appeal in Super Size Me. Use at least one fact from the fact bank to justify your claim.",
+          "answer": "Sample: In Super Size Me, pathos is the most frequent appeal because the film repeatedly shows Spurlock's vomiting and mood swings. However, logos is the most effective appeal because the verified statistic that a supersize meal requires 7+ hours of exercise to burn directly challenges the audience's reasoning. This combination makes the argument memorable and difficult to dismiss."
+        }
+      ]
+    },
+    {
+      "errorId": "err-evidence-generalization",
+      "trigger": "Student makes a claim without citing a specific verifiable detail from the documentary, e.g., saying 'statistics show' or 'the film uses evidence' without naming the statistic or scene.",
+      "studentMisunderstanding": "The student assumes that general references to evidence are acceptable in analysis. They do not yet understand that a strong analytical argument requires concrete, named facts or scenes from the text to prove the claim and demonstrate close viewing.",
+      "miniLesson": {
+        "explain": "When you analyze Super Size Me, you must support every statement with a specific, verifiable fact from the film. Instead of writing 'the film uses statistics', say exactly which statistic: for example, it takes over 7 hours of continuous exercise to burn a supersize McDonald's meal. That precise detail is logos because it uses evidence to appeal to reason. Similarly, to show pathos, name Spurlock's on-camera vomiting or mood swings; to show ethos, cite the US Surgeon General or the doctors interviewed. The rubric rewards 'well-selected evidence' and 'nuanced reasoning', so using exact facts improves both your Thinking and Application marks.",
+        "example": "Weak: 'The movie has a lot of scientific data.'\\nStrong: 'The film uses logos when it states that a supersize meal requires more than 7 hours of continuous exercise to burn, making the audience realize the high caloric cost of fast food.'",
+        "memoryAnchor": "Name the number or name the scene. If you can't name a specific fact, you don't have evidence yet."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is a specific piece of evidence from Super Size Me that supports the claim: 'The film uses logos to show the high cost of a supersize meal'?\nA) Spurlock's vomiting\nB) 7+ hours of exercise needed to burn the meal\nC) The film cost $65,000 to make\nD) McDonald's cancelled supersize 6 weeks later",
+          "answer": "B) 7+ hours of exercise needed to burn the meal"
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite this vague sentence so it includes a specific fact from the documentary: 'Super Size Me uses statistics to prove how unhealthy the food is.' Use a number from the film in your answer.",
+          "answer": "Super Size Me uses logos by showing that it takes over 7 hours of continuous exercise to burn a supersize McDonald's meal, proving how unhealthy the food is."
+        },
+        {
+          "level": "L3",
+          "prompt": "Provide one specific example of pathos from the documentary and explain why it is pathos, using a concrete detail from the film rather than a general feeling.",
+          "answer": "Spurlock's on-camera vomiting and mood swings are shown directly, letting the audience see his physical discomfort. This creates an emotional connection, which is pathos because it appeals to viewers' emotions rather than to logic or credibility."
+        }
+      ]
+    },
+    {
+      "errorId": "err-proofreading-reliance",
+      "trigger": "Student selects 'run it through an online grammar checker' as the best proofreading strategy in the diagnostic question.",
+      "studentMisunderstanding": "The student believes that using grammar-check tools or having tutors edit their work is sufficient proofreading, not realizing that independent self-proofreading is a required responsibility in the Communication category.",
+      "miniLesson": {
+        "explain": "Proofreading is the final step of the writing process and is your own responsibility. In the Unit 3 assignment, the scoring rubric's Communication category explicitly includes proofreading. Independent proofreading means you, the writer, carefully check your own work—reading aloud is an effective method. No tool or tutor can replace this step. The expectation is that you take ownership of your final polished piece.",
+        "example": "For your 500-word, 5-paragraph essay, you should read each paragraph aloud to catch awkward sentences and spelling errors. A grammar checker might flag a comma, but it will not catch a confusing thesis or a weak transition. Just as the documentary used real footage and expert testimony to build credibility, your own careful proofreading builds the credibility of your work.",
+        "memoryAnchor": "You are the final editor—no tool or tutor can replace your own eyes."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the best strategy to proofread your assignment according to the lesson? Choose the correct option: (A) Run it through an online grammar checker, (B) Have a tutor rewrite unclear sections, (C) Read your work aloud slowly and check for errors, (D) Ask a friend to write your conclusion.",
+          "answer": "C. Read your work aloud slowly and check for errors."
+        },
+        {
+          "level": "L2",
+          "prompt": "Your classmate says, 'I'll just use a grammar checker and have my tutor fix the mistakes.' Explain why this approach is insufficient and what they should do instead, based on the assignment requirements.",
+          "answer": "The assignment requires independent proofreading as part of the Communication criterion. Using only tools or tutors means the student is not developing their own proofreading skills. They should read their 500-word essay aloud and make corrections themselves to ensure the final polished piece is their own work."
+        },
+        {
+          "level": "L3",
+          "prompt": "Analyze why independent proofreading is listed in the scoring rubric under Communication, and connect this to the OLC4O expectation that students understand their own roles and responsibilities in the learning process. Use evidence from the lesson.",
+          "answer": "Communication in the rubric includes proofreading because it reflects a student's ability to deliver a polished, clear, and correct final product independently. The expectation 'demonstrate understanding of their own roles and responsibilities' means students must take ownership of their writing process. Proofreading is a self-monitoring task that cannot be outsourced; relying on tools or tutors contradicts this responsibility. Practicing independent proofreading, such as reading aloud, ensures accuracy and demonstrates maturity as a learner."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-rhetoric-pathos-mistranslation",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In a rhetorical analysis of Super Size Me, which of the following is a clear example of pathos?",
+          "options": [
+            "The statistic that a supersize meal requires over 7 hours of exercise to burn off",
+            "Testimony from the U.S. Surgeon General about obesity risks",
+            "Raw footage of Morgan Spurlock vomiting after eating a McDonald's meal",
+            "The fact that the film cost $65,000 to produce"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Using a specific scene from Super Size Me, explain why it is an example of pathos. Make sure your explanation shows that pathos is not the same as sadness.",
+          "rubric": "Response must identify a specific documentary moment (e.g., Spurlock vomiting, mood swings, physical discomfort) and state that pathos appeals to a range of emotions (e.g., disgust, concern, worry, fear), explicitly noting that sadness is only one possible emotion. The answer should avoid simply equating pathos with sadness."
+        }
+      ],
+      "passRule": "The student selects the correct answer for Q1 (option index 2) and for Q2 demonstrates that pathos is an emotional appeal broader than sadness, referencing a concrete scene and naming an emotion other than sadness."
+    },
+    {
+      "forErrorId": "err-task-single-document",
+      "questions": [
+        {
+          "id": "retest_single_doc_q1",
+          "type": "single_choice",
+          "stem": "For the Unit 3 Super Size Me assignment, what is the correct way to submit the Analytical Audit and the Rhetorical Analysis Essay?",
+          "options": [
+            "As one combined document with both tasks together",
+            "As two separate documents",
+            "Either way is acceptable",
+            "Only the essay needs to be submitted"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest_single_doc_q2",
+          "type": "open_ended",
+          "stem": "A classmate says, \"I'll put both the Analytical Audit and the Rhetorical Analysis Essay in a single file to make it easier for the teacher.\" Explain why this is a problem and state the exact consequence.",
+          "rubric": "Student must clearly state that the assignment requires two separate documents (the 8-question Analytical Audit and the 500-word 5-paragraph Rhetorical Analysis Essay). Combining them into one file causes a required component to be missing, which results in an automatic zero."
+        }
+      ],
+      "passRule": "The student must select 'As two separate documents' for the single-choice question, and in the open-ended response explicitly mention the need for two separate files, the automatic zero consequence, and ideally reference both required tasks (Analytical Audit and Rhetorical Analysis Essay)."
+    },
+    {
+      "forErrorId": "err-essay-structure-omission",
+      "questions": [
+        {
+          "id": "err-essay-structure-omission-q1",
+          "type": "single_choice",
+          "stem": "A student hands in a Rhetorical Analysis Essay with this outline: Introduction (film, director, thesis) → Body 1 (scene examples for logos, pathos, ethos) → Body 2 (comparison of most frequent vs. most effective appeal) → Conclusion (summary and media literacy reflection). Which required paragraph is missing?",
+          "options": [
+            "Body 3: overall judgment of long-term effectiveness with real-world outcome",
+            "Body 2: comparison should not be included",
+            "Introduction should include a personal story",
+            "Conclusion should repeat the thesis word-for-word"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "err-essay-structure-omission-q2",
+          "type": "open_ended",
+          "stem": "Write a complete 5-paragraph outline for a 500-word Rhetorical Analysis Essay on Super Size Me. For each paragraph, give the paragraph's purpose and one specific detail or example you would include.",
+          "rubric": "The response must include exactly five paragraphs in this order: Introduction (name film and director, present thesis on persuasive effectiveness), Body 1 (describe scene examples for each appeal: logos, pathos, ethos), Body 2 (compare appeals, distinguishing most frequent from most effective with justification), Body 3 (overall judgment of long-term effectiveness, citing real-world outcome such as McDonald's cancelling supersize menu 6 weeks after release), Conclusion (summarize findings and reflect on critical media literacy). Each paragraph should have both a purpose and a concrete example from the documentary or real-world impact. Omission of any required element indicates the student has not yet mastered the structure."
+        }
+      ],
+      "passRule": "Q1 correct AND Q2 includes all five required paragraph purposes in the correct order, with at least one concrete example from the documentary for Body 1 and the real-world outcome for Body 3."
+    },
+    {
+      "forErrorId": "err-evidence-generalization",
+      "questions": [
+        {
+          "id": "q1-evidence-ethos",
+          "type": "single_choice",
+          "stem": "You are writing a paragraph about ethos in Super Size Me. Which sentence provides the most specific, verifiable evidence?",
+          "options": [
+            "The film is credible because it uses experts.",
+            "Spurlock includes on-camera interviews with the US Surgeon General and other doctors to support his claims.",
+            "The documentary has a lot of authority.",
+            "Many people trust what the film says."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-evidence-specific",
+          "type": "open_ended",
+          "stem": "Read this weak claim: 'Super Size Me convincingly shows that fast food is unhealthy.' Rewrite the claim so it includes a specific fact from the film (a number, scene, or real-world outcome) and labels which rhetorical appeal it illustrates. Do not use 'pathos' as 'sadness.'",
+          "rubric": "Response must (1) include a verifiable detail from Super Size Me, such as 7+ hours of exercise to burn a supersize meal, McDonald's cancelling supersize 6 weeks after release, Spurlock's on-camera vomiting or mood swings, or US Surgeon General testimony; (2) correctly connect that detail to one rhetorical appeal (logos = statistics/data, pathos = emotional physical footage, ethos = expert testimony); (3) use the standard rhetorical term for pathos if mentioned, not 'sadness.' Full credit example: 'The film uses logos by showing that it takes over 7 hours of continuous exercise to burn a supersize McDonald's meal, proving how unhealthy the food is.'"
+        }
+      ],
+      "passRule": "Pass: Question 1 selects option B. Question 2 includes at least one named verifiable fact from Super Size Me and correctly labels the corresponding rhetorical appeal (logos, pathos, or ethos) without mistranslating pathos."
+    },
+    {
+      "forErrorId": "err-proofreading-reliance",
+      "questions": [
+        {
+          "id": "prq1",
+          "type": "single_choice",
+          "stem": "In the Unit 3 assignment, which action best demonstrates the independent proofreading that the Communication rubric requires?",
+          "options": [
+            "Running your essay through an online grammar checker",
+            "Having a tutor rewrite unclear sections",
+            "Reading your final draft aloud slowly and checking for errors yourself",
+            "Asking a friend to proofread for you"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "prq2",
+          "type": "open_ended",
+          "stem": "Your classmate says, 'I'll just use a grammar checker and my tutor can fix the mistakes.' Based on the assignment requirements, explain why this plan is insufficient and describe one independent proofreading strategy you would recommend.",
+          "rubric": "Response must state that independent proofreading is required by the Communication criterion, that relying solely on tools or tutors does not fulfill this responsibility, and recommend a specific self-check strategy such as reading aloud or reading backwards. It should connect to taking ownership of the final polished piece."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. For the open-ended question, the answer must explicitly reference independent proofreading as a personal responsibility and name at least one self-proofreading strategy."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "OLC4O.S6.Keth 2026-08-10",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/XMWydpsssotKZNx1CYocQ5Nfnnb?from=vc_group_doc_link#doxcnqWiXaE5rHiM8KSdwlScb8e",
+    "sourceTitle": "OLC4O.S6.Keth 2026-08-10 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "The assignment is Unit 3, based on the 2004 documentary Super Size Me.；The film cost $65,000 to produce and had a large cultural impact.；Director Morgan Spurlock followed four rules for 30 days: eat every McDonald's menu item at least once; accept supersize only when offered; cap daily steps at 5000; consume only plain water outside McDonald's.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students will be able to identify and explain the three rhetorical appeals (logos, pathos, ethos) as used in the documentary Super Size Me."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students will be able to recall key facts about the documentary and use specific evidence to support analysis."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students will be able to describe the structure and requirements of the Unit 3 assignment and recognize common errors."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 3 Assignment 1: Two-Part Submission",
+        "studentAction": "Complete both Task 1 (8 short-answer questions) and Task 2 (500-word rhetorical analysis essay) and submit as two separate documents.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Two-Part Submission Rule ... any submission missing either ... automatic zero",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "class_policy",
+        "title": "Automatic Zero for Incomplete Submissions",
+        "studentAction": "Ensure both parts are submitted separately to avoid automatic zero.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "any submission missing either ... automatic zero with no eligibility for resubmission",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Super Size Me Documentary (with subtitles)",
+        "studentAction": "Watch the full documentary during class or via course platform if absent.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Course platform (Unit 3 Assignment 1 section)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Resource Upload: The full uncut Super Size Me documentary ... will be uploaded to the Unit 3 Assignment 1 section of the course platform",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Complete Assignment Instruction Page",
+        "studentAction": "Access the assignment instructions from the course platform.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Course platform (Unit 3 Assignment 1 section)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the complete assignment instruction page, will be uploaded ... course platform",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Independent Proofreading Mandate",
+        "studentAction": "Proofread your own work thoroughly; do not rely on automated tools or tutors.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "All proofreading work must be completed independently by the submitting student",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "Use of Correct Rhetorical Terminology",
+        "studentAction": "Use the standard terms logos, pathos, ethos; avoid mistranslations like 'sadness' for pathos.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "explicitly use the standard universally accepted rhetorical terms ... avoid incorrect machine translations",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Unit 2 Submission Portal Reopened",
+        "studentAction": "Submit overdue Unit 2 assignments if you still have them.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "Students who missed Unit 2 submission",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "submission portal for previously overdue Unit 2 assignments has been temporarily reopened",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-008",
+        "category": "announcement",
+        "title": "Next Class Topic: Informational Texts",
+        "studentAction": "Prepare for next class on structured analysis of informational texts.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The next scheduled class session will cover structured analysis of informational texts",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "In-Class Documentary Screening Arrangements",
+        "studentAction": "Attend the in-class screening; no group break, but you may leave for restroom/drinks.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "the full 85-minute documentary will be screened ... with no scheduled group break, and students may leave temporarily",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "node-rhetorical-appeals",
+      "node-documentary-analysis",
+      "node-assignment-structure",
+      "node-scoring-and-errors"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-rhetoric-pathos-mistranslation",
+        "condition": "incorrect answer on Q targeting this errorId",
+        "systemAction": "assign reteach module for err-rhetoric-pathos-mistranslation"
+      },
+      {
+        "errorId": "err-task-single-document",
+        "condition": "incorrect answer on Q targeting this errorId",
+        "systemAction": "assign reteach module for err-task-single-document"
+      },
+      {
+        "errorId": "err-essay-structure-omission",
+        "condition": "incorrect answer on Q targeting this errorId",
+        "systemAction": "assign reteach module for err-essay-structure-omission"
+      },
+      {
+        "errorId": "err-evidence-generalization",
+        "condition": "does not provide specific verifiable evidence from the documentary in open‑ended response",
+        "systemAction": "assign reteach module for err-evidence-generalization"
+      },
+      {
+        "errorId": "err-proofreading-reliance",
+        "condition": "incorrect answer on Q targeting this errorId",
+        "systemAction": "assign reteach module for err-proofreading-reliance"
+      }
+    ],
+    "nextActions": [
+      "[err-rhetoric-pathos-mistranslation] incorrect answer on Q targeting this errorId: Review the correct meaning of 'pathos' as emotional appeal in rhetoric.",
+      "[err-task-single-document] incorrect answer on Q targeting this errorId: Make sure you submit both tasks as separate documents to avoid an automatic zero.",
+      "[err-essay-structure-omission] incorrect answer on Q targeting this errorId: Ensure your essay follows the required 5‑paragraph structure with all required parts.",
+      "[err-evidence-generalization] does not provide specific verifiable evidence from the documentary in open‑ended response: Use exact facts, statistics, or scenes from Super Size Me to support your analysis.",
+      "[err-proofreading-reliance] incorrect answer on Q targeting this errorId: Practice self‑proofreading by reading your work aloud; avoid over‑relying on tools or others."
+    ],
+    "cards": [
+      {
+        "id": "diag-olc4o-s6-0810-q1",
+        "type": "choice",
+        "question": "In rhetorical analysis, the term 'pathos' refers to:",
+        "options": [
+          "Sadness",
+          "Emotional appeal",
+          "Logical reasoning",
+          "Credibility"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student knows the correct meaning of 'pathos' as emotional appeal, not the common mistranslation as sadness.",
+        "misconceptions": [
+          "Pathos is a rhetorical term meaning emotional appeal, not sadness. The correct term is broader.",
+          "✓ Correct. Pathos refers to the appeal to the audience's emotions.",
+          "Logical reasoning is logos, not pathos. Pathos targets emotions.",
+          "Credibility is ethos. Pathos is about emotional connection."
+        ],
+        "nodeId": "node-rhetorical-appeals",
+        "errorId": "err-rhetoric-pathos-mistranslation",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies pathos as emotional appeal.",
+        "ossdExpectation": "Use knowledge of writing forms, and of the connections between form, audience, and purpose, to write summaries, information paragraphs, opinion pieces (i.e., series of paragraphs expressing an opinion), news reports, and personal reflections, incorporating graphic elements where necessary and appropriate.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "OLC4O-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Rhetorical appeals are a key part of writing forms and persuasive purpose.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often translate 'pathos' as sadness, but it is the broader appeal to emotion.",
+        "remediationModule": "err-rhetoric-pathos-mistranslation",
+        "retestItem": "err-rhetoric-pathos-mistranslation"
+      },
+      {
+        "id": "diag-olc4o-s6-0810-q2",
+        "type": "choice",
+        "question": "For the Unit 3 assignment on Super Size Me, how many separate documents must you submit?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "1 with both parts combined"
+        ],
+        "correct": 1,
+        "diagnosis": "Ensure student understands that both tasks must be submitted as two documents, not combined.",
+        "misconceptions": [
+          "You must submit the Analytical Audit and the Rhetorical Analysis Essay as two separate documents. Failing to do so results in an automatic zero.",
+          "✓ Correct. Submit both tasks as separate files.",
+          "Only two documents are required: the Audit and the Essay.",
+          "No, they must be separate documents. Combining them leads to an automatic zero."
+        ],
+        "nodeId": "node-assignment-structure",
+        "errorId": "err-task-single-document",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly states that two separate documents are required.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Producing two separate final pieces reflects the writing process outcome.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may think one document is sufficient if it contains both parts.",
+        "remediationModule": "err-task-single-document",
+        "retestItem": "err-task-single-document"
+      },
+      {
+        "id": "diag-olc4o-s6-0810-q3",
+        "type": "choice",
+        "question": "What is the correct paragraph structure for the Rhetorical Analysis Essay on Super Size Me?",
+        "options": [
+          "3‑paragraph: intro, body, conclusion",
+          "5‑paragraph: introduction, 3 body paragraphs, conclusion",
+          "5‑paragraph with 4 body paragraphs",
+          "No required structure as long as it is an essay"
+        ],
+        "correct": 1,
+        "diagnosis": "Check that student knows the specific required essay sections to avoid missing parts.",
+        "misconceptions": [
+          "The assignment requires a longer structure with three body paragraphs, not just one.",
+          "✓ Correct. The essay must include an intro with thesis, three body paragraphs (scene examples, comparison of appeals, effectiveness judgment), and a conclusion.",
+          "Only three body paragraphs are required; each serves a distinct analytical purpose.",
+          "A specific 5‑paragraph format is required to meet the assignment's expectations."
+        ],
+        "nodeId": "node-assignment-structure",
+        "errorId": "err-essay-structure-omission",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly identifies the required 5‑paragraph structure with all parts.",
+        "ossdExpectation": "Demonstrate the ability to use the writing process by generating and organizing ideas and producing first drafts, revised drafts, and final polished pieces to complete a variety of writing tasks.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "OLC4O-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "A structured 5‑paragraph essay reflects the organizing and drafting stage of the writing process.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may forget that the essay must contain a dedicated paragraph comparing the appeals' frequency vs. effectiveness.",
+        "remediationModule": "err-essay-structure-omission",
+        "retestItem": "err-essay-structure-omission"
+      },
+      {
+        "id": "diag-olc4o-s6-0810-q4",
+        "type": "explain",
+        "question": "In the Analytical Audit for Super Size Me, you must cite specific documentary evidence. Provide one example of logos from the film and explain why it is logos.",
+        "correct": null,
+        "diagnosis": "Ensure student can provide specific, documentary‑based evidence rather than vague generalizations.",
+        "nodeId": "node-documentary-analysis",
+        "errorId": "err-evidence-generalization",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student provides a concrete, verifiable fact/statistic from the documentary and correctly identifies its logical appeal.",
+        "ossdExpectation": "Demonstrate the ability to read and respond to a variety of texts.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "OLC4O-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The ability to cite and explain evidence from a documentary text directly aligns with A1.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students often state 'there were statistics' without giving an actual number or fact from the film.",
+        "remediationModule": "err-evidence-generalization",
+        "retestItem": "err-evidence-generalization"
+      },
+      {
+        "id": "diag-olc4o-s6-0810-q5",
+        "type": "choice",
+        "question": "Which of the following is the BEST strategy for proofreading your assignment?",
+        "options": [
+          "Run it through an online grammar checker and submit",
+          "Have a tutor rewrite unclear sections",
+          "Read your work aloud slowly and check for errors",
+          "Ask a friend to write your conclusion"
+        ],
+        "correct": 2,
+        "diagnosis": "Reinforce that independent proofreading is an essential responsibility, not a task to outsource.",
+        "misconceptions": [
+          "Relying solely on a tool does not develop your own proofreading ability, which is required.",
+          "Proofreading means you check and correct your own work, not someone else doing it.",
+          "✓ Correct. Self‑proofreading by reading aloud helps you catch errors independently.",
+          "This is plagiarism and does not involve any proofreading from you."
+        ],
+        "nodeId": "node-scoring-and-errors",
+        "errorId": "err-proofreading-reliance",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects self‑proofreading by reading aloud as the recommended method.",
+        "ossdExpectation": "Demonstrate understanding of their own roles and responsibilities in the learning process.",
+        "officialExpectationCode": "C2",
+        "officialNodeId": "OLC4O-C-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/english12curr.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Taking responsibility for independent proofreading is a key learning‑process skill.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students may think using spellcheck or having someone else fix errors is sufficient proofreading.",
+        "remediationModule": "err-proofreading-reliance",
+        "retestItem": "err-proofreading-reliance"
+      }
+    ]
+  }
+}
