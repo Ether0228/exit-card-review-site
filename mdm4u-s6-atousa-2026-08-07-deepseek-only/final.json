@@ -1,0 +1,811 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-08-07",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/D2hbd49AioFYlvxAYsQcIQv2nTc?from=vc_group_doc_link#doxcnpdpsoxNrHA4vMrRnrJgMyb",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-08-07 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/D2hbd49AioFYlvxAYsQcIQv2nTc?from=vc_group_doc_link#doxcnpdpsoxNrHA4vMrRnrJgMyb",
+    "title": "MDM4U.S6.Atousa 2026-08-07 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-07/sources/mdm4u-s6-atousa-2026-08-07/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-08-07",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-07",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The lesson covers core linear regression theory (r, R-squared, residuals), technology steps, and case walkthroughs, with only ancillary operational announcements.",
+    "academicContentSignals": [
+      "Correlation coefficient (r) range, strength, and direction interpretation",
+      "Coefficient of determination (R-squared) definition and interpretation (proportion of variance explained)",
+      "Regression line equation (ŷ = a + bx) and its use for prediction, including extrapolation",
+      "Residual calculation and sign interpretation for model fit evaluation",
+      "Graphing calculator steps for linear regression (diagnostic on, data entry, STAT CALC, scatter plot/line)",
+      "Excel steps for linear regression (scatter plot, trendline addition)",
+      "Used car price vs. mileage regression case: equation, residual calculation, interpretation",
+      "Vertebrate bone length regression case: femur vs. humerus with R-squared 0.98",
+      "Class Activity 5 walkthrough: matching scatter plots to r values, acid rain regression, t-shirt sales regression"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Moderate risk: several operational items about overdue assignments, final exam date, submission platforms, and report cards could overshadow learning content if not carefully separated. Ensure exit card focuses on regression mastery, while readiness check handles administrative reminders.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete Class Activity 4",
+        "studentAction": "Prioritize completing Class Activity 4 over the weekend.",
+        "deadlineText": "Over the weekend (August 8-9, 2026)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "\"Prioritize completing Class Activity 4 over the weekend\"",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "follow_up_action",
+        "title": "David: Submit overdue Unit 1 and 2 assignments",
+        "studentAction": "Submit overdue Unit 1 and Unit 2 assignments by Monday, August 10, 2026.",
+        "deadlineText": "Monday, August 10, 2026",
+        "deadlineISO": "2026-08-10T23:59:59+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "David",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "\"Atousa explicitly requests David to submit his overdue Unit 1 and Unit 2 assignments by the coming Monday\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Final Exam Date",
+        "studentAction": "Note the final exam date: August 24/25, 2026.",
+        "deadlineText": "August 25, 2026 (China time)",
+        "deadlineISO": "2026-08-25T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "\"The final exam is scheduled for August 24 (Toronto time zone), which corresponds to August 25 for students located in the China time zone.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "platform_link",
+        "title": "Assignment Submission Platform",
+        "studentAction": "Upload all class activity and assignment answers to Schoology or the Unit 3 discussion board.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "\"All class activity and assignment answers should be uploaded to Schoology or the dedicated Unit 3 discussion board\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "follow_up_action",
+        "title": "Watch Calculator Regression Tutorials",
+        "studentAction": "Watch dedicated YouTube tutorials on calculator linear regression operations to supplement practice gaps.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "YouTube",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "\"Students are advised to watch dedicated YouTube tutorials on calculator linear regression operations to supplement in-person practice gaps.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "Class Activities as Evidence",
+        "studentAction": "Complete and submit class activities, as they will be used as evidence for Ontario provincial inspection.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"All submitted class activity answers will be directly used as student work evidence for Ontario provincial education inspection requirements.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Next Class Content",
+        "studentAction": "Prepare for Monday's class: will cover Python coding for regression analysis and remaining Class Activity 5 questions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"The next class on Monday will cover additional linear regression tools including Python coding for regression analysis, and walk through remaining class activity questions.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "class_policy",
+        "title": "Post-Midterm Collection Rule",
+        "studentAction": "Be aware that in-class activity submissions will be collected during class time after the midterm period.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"After the midterm period, in-class activity submissions will be collected during class time to fully meet regulatory documentation requirements.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "Report Card Finalized (July 26)",
+        "studentAction": "Note that the first report card was finalized on July 26, pending only David's Unit 1 assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"The first student report card will be finalized on July 26, pending only David’s Unit 1 assignment submission to complete all official records.\"",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Correlation Coefficient (r)、Coefficient of Determination (R²)、Regression Line (Line of Best Fit)、Residual）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The correlation coefficient r measures the strength and direction of a linear relationship between two quantitative variables; r ranges from -1 to 1.；Correlation is classified as strong if |r| > 0.8, weak if |r| < 0.5, and r = 0 indicates no linear correlation.；The coefficient of determination R² ranges from 0 to 1 and represents the proportion of variance in the dependent variable predictable from the independent variable.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Interpret the correlation coefficient r, including strength and direction, and distinguish correlation from causation."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Explain the meaning of the coefficient of determination R² in context."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Use a regression equation to make predictions and calculate residuals to assess model fit."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MDM4U-LinearRegression-CorrelationCoefficient",
+      "name": "Correlation Coefficient (r)",
+      "nameEn": "Correlation Coefficient",
+      "definition": "A measure of the strength and direction of a linear relationship between two quantitative variables. It ranges from -1 to 1. Absolute value close to 1 indicates strong correlation; r = 0 indicates no linear correlation.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    },
+    {
+      "id": "MDM4U-LinearRegression-CoefficientOfDetermination",
+      "name": "Coefficient of Determination (R²)",
+      "nameEn": "Coefficient of Determination",
+      "definition": "The proportion of the variance in the dependent variable that is predictable from the independent variable. It ranges from 0 to 1. For example, R² = 0.85 means 85% of the variation in y is explained by the linear model.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    },
+    {
+      "id": "MDM4U-LinearRegression-RegressionLine",
+      "name": "Regression Line (Line of Best Fit)",
+      "nameEn": "Regression Line",
+      "definition": "The line that best fits a set of two‑variable data, given by ŷ = a + bx, where b is the slope and a is the y‑intercept. It is used to predict the value of the dependent variable for a given independent variable.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    },
+    {
+      "id": "MDM4U-LinearRegression-Residual",
+      "name": "Residual",
+      "nameEn": "Residual",
+      "definition": "The difference between an observed value of the dependent variable and the value predicted by the regression line: residual = observed – predicted. Positive residuals indicate the point is above the line, negative below. Small, patternless residuals suggest a good linear fit.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Interpret the correlation coefficient r, including strength and direction, and distinguish correlation from causation."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain the meaning of the coefficient of determination R² in context."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use a regression equation to make predictions and calculate residuals to assess model fit."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-correlation-causation",
+        "condition": "student answers Q1 incorrectly or Q6 poorly",
+        "systemAction": "assign reteach module err-correlation-causation",
+        "studentMessage": "Correlation does not imply causation. Let's review how to interpret r without jumping to causal conclusions."
+      },
+      {
+        "errorId": "err-rsquared-interpretation",
+        "condition": "student answers Q2 incorrectly",
+        "systemAction": "assign reteach module err-rsquared-interpretation",
+        "studentMessage": "R² tells us the proportion of variation explained, not the percentage of correct predictions. Let's clarify."
+      },
+      {
+        "errorId": "err-extrapolation",
+        "condition": "student answers Q3 incorrectly",
+        "systemAction": "assign reteach module err-extrapolation",
+        "studentMessage": "Be cautious about using regression models far beyond the original data range. Let's practice identifying when predictions are unreliable."
+      },
+      {
+        "errorId": "err-residual-pattern",
+        "condition": "student answers Q4 or Q5 incorrectly",
+        "systemAction": "assign reteach module err-residual-pattern",
+        "studentMessage": "Patterns in residual plots can indicate that a linear model isn't the best fit. Let's review what different patterns mean."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-d2-0815-q1",
+        "nodeId": "MDM4U-LinearRegression-CorrelationCoefficient",
+        "errorId": "err-correlation-causation",
+        "stem": "A scatter plot of study hours vs test scores yields r = 0.89. What is the most accurate interpretation?",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'><rect width='400' height='300' fill='white'/><line x1='50' y1='250' x2='380' y2='250' stroke='black' stroke-width='2'/><line x1='50' y1='250' x2='50' y2='20' stroke='black' stroke-width='2'/><text x='200' y='20' font-family='Arial' font-size='14' text-anchor='middle'>Study Hours vs Test Scores</text><text x='20' y='270' font-family='Arial' font-size='12' transform='rotate(-90 20 270)'>Test Scores</text><text x='380' y='280' font-family='Arial' font-size='12' text-anchor='end'>Study Hours</text><g fill='steelblue'><circle cx='70' cy='225' r='5'/><circle cx='110' cy='205' r='5'/><circle cx='150' cy='185' r='5'/><circle cx='190' cy='175' r='5'/><circle cx='230' cy='155' r='5'/><circle cx='270' cy='135' r='5'/><circle cx='310' cy='120' r='5'/><circle cx='350' cy='100' r='5'/></g></svg>",
+        "type": "single_choice",
+        "options": [
+          {
+            "label": "A",
+            "text": "Test scores cause study hours to increase.",
+            "correct": false,
+            "feedbackWrong": "Correlation does not imply causation. A high r value indicates a relationship but does not prove one variable causes the other."
+          },
+          {
+            "label": "B",
+            "text": "There is a strong positive linear relationship between study hours and test scores.",
+            "correct": true,
+            "feedbackCorrect": "Correct. r = 0.89 indicates a strong positive linear association."
+          },
+          {
+            "label": "C",
+            "text": "The correlation is weak because 0.89 is less than 1.",
+            "correct": false,
+            "feedbackWrong": "A correlation close to 1 is considered strong, not weak. Remember that |r| > 0.8 generally indicates a strong correlation."
+          },
+          {
+            "label": "D",
+            "text": "89% of test scores are determined by study hours.",
+            "correct": false,
+            "feedbackWrong": "This confuses r with R². R² is the proportion of variation explained, not r itself."
+          }
+        ],
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly interprets the strength and direction of r without implying causation.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets interpretation of correlation coefficient as part of two‑variable data analysis.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student distinguishes between correlation and causation.",
+        "commonMisconception": "High correlation implies causation.",
+        "remediationModule": "err-correlation-causation",
+        "retestItem": "err-correlation-causation"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-correlation-causation",
+      "condition": "student answers Q1 incorrectly or Q6 poorly",
+      "systemAction": "assign reteach module err-correlation-causation",
+      "studentMessage": "Correlation does not imply causation. Let's review how to interpret r without jumping to causal conclusions."
+    },
+    {
+      "errorId": "err-rsquared-interpretation",
+      "condition": "student answers Q2 incorrectly",
+      "systemAction": "assign reteach module err-rsquared-interpretation",
+      "studentMessage": "R² tells us the proportion of variation explained, not the percentage of correct predictions. Let's clarify."
+    },
+    {
+      "errorId": "err-extrapolation",
+      "condition": "student answers Q3 incorrectly",
+      "systemAction": "assign reteach module err-extrapolation",
+      "studentMessage": "Be cautious about using regression models far beyond the original data range. Let's practice identifying when predictions are unreliable."
+    },
+    {
+      "errorId": "err-residual-pattern",
+      "condition": "student answers Q4 or Q5 incorrectly",
+      "systemAction": "assign reteach module err-residual-pattern",
+      "studentMessage": "Patterns in residual plots can indicate that a linear model isn't the best fit. Let's review what different patterns mean."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-correlation-causation",
+      "trigger": "Student incorrectly interprets a strong correlation as evidence of causation.",
+      "studentMisunderstanding": "Confusing correlation with causation; believing that a high |r| value proves that changes in one variable cause changes in another.",
+      "miniLesson": {
+        "explain": "The correlation coefficient r measures the strength and direction of a linear relationship between two quantitative variables. It ranges from -1 to 1. A value close to 1 or -1 indicates a strong linear association, but this does not mean that changes in one variable cause changes in the other. There could be third variables or coincidence. Always remember: correlation does not imply causation.",
+        "example": "Consider the relationship between femur length and humerus length in vertebrates. The regression line is humerus = -3.6 + 1.2 * femur, with R² = 0.98, indicating a very strong positive linear correlation. However, a longer femur does not cause a longer humerus; both are influenced by overall body size. This shows that even a perfect correlation does not establish causation.",
+        "memoryAnchor": "Correlation does not equal causation."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A student finds a strong negative correlation (r = -0.9) between the number of hours spent watching TV and GPA. Which statement is correct?",
+          "answer": "More TV watching is associated with lower GPA, but it does not prove causation."
+        },
+        {
+          "level": "L2",
+          "prompt": "The regression line for used car price (y) on mileage (x) is price = -0.1629 * mileage + 38257. The correlation is strong and negative. Does this mean that higher mileage causes lower prices? Explain.",
+          "answer": "No, correlation does not imply causation. The strong negative correlation indicates that as mileage increases, price tends to decrease, but it does not prove that mileage is the cause; other factors (e.g., age, condition) may contribute."
+        },
+        {
+          "level": "L3",
+          "prompt": "A researcher finds that R² = 0.85 for a model predicting weekly sales from number of ads, with r = 0.92. The researcher claims that increasing ads causes higher sales. Evaluate this claim.",
+          "answer": "The high correlation (r = 0.92) and R² = 0.85 indicate a strong linear relationship and that 85% of the variation in sales is explained by the number of ads. However, this does not prove causation. There could be lurking variables (e.g., season, promotions) that affect both. Correlation does not imply causation."
+        }
+      ]
+    },
+    {
+      "errorId": "err-rsquared-interpretation",
+      "trigger": "A student incorrectly interprets the coefficient of determination R² as the percentage of accurate predictions or the percentage of data points on the line, rather than as the proportion of variance explained.",
+      "studentMisunderstanding": "The student thinks R² = 0.85 means 85% of predictions from the regression model are correct, instead of understanding it as '85% of the variation in the dependent variable is explained by the linear model, while 15% is unexplained.'",
+      "miniLesson": {
+        "explain": "The coefficient of determination, R², ranges from 0 to 1 and indicates how well the regression line explains the variability of the dependent variable. A value of 0.85 means 85% of the variation in y is explained by the linear model; the remaining 15% is due to other factors. It does NOT mean the model is correct 85% of the time.",
+        "example": "In the bone length regression, humerus = -3.6 + 1.2 * femur, with R² = 0.98. This tells us that 98% of the variation in humerus length is explained by the linear relationship with femur length; only 2% of the variation is left unexplained. It is not a statement about the percentage of correct predictions.",
+        "memoryAnchor": "R² is 'explained variation' – the fraction of the ups and downs in y that the line accounts for. It is not a percent-correct score."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A regression model for bone lengths gives R² = 0.98. Choose the correct interpretation: (a) The model makes correct predictions 98% of the time. (b) 98% of the variation in humerus length is explained by the linear relationship with femur length.",
+          "answer": "The correct interpretation is (b). R² = 0.98 means that 98% of the variation in humerus length is explained by the linear model."
+        },
+        {
+          "level": "L2",
+          "prompt": "One model has R² = 0.85 and another has R² = 0.60. What does the difference in R² indicate about the fit of each model?",
+          "answer": "The model with R² = 0.85 explains 85% of the variation in the dependent variable, while the model with R² = 0.60 explains only 60%. The model with 0.85 has a stronger explanatory power and accounts for more of the variability."
+        },
+        {
+          "level": "L3",
+          "prompt": "If a regression model has R² = 0.85, what percentage of the variation in the dependent variable is NOT explained by the model? Explain why.",
+          "answer": "15% of the variation is not explained. Since R² represents the explained proportion, the unexplained proportion is 100% - 85% = 15%."
+        }
+      ]
+    },
+    {
+      "errorId": "err-extrapolation",
+      "trigger": "Student answers Q3 incorrectly or uses regression model to predict far beyond the observed x-range without acknowledging uncertainty.",
+      "studentMisunderstanding": "Extrapolation is using a regression model to predict values outside the range of the original data. This is risky because the linear relationship may not hold beyond the observed data, and uncertainty increases with distance from the data range.",
+      "miniLesson": {
+        "explain": "A regression equation is built from a set of data. It summarizes the trend only within the range of x-values you observed. When you predict for x-values outside that range, you have no evidence that the linear trend continues. For example, the acid rain model pH = 5.43 – 0.0053·week was based on a limited span of weeks. Predicting pH for week 500 assumes the same rate of decline for a long time, which may not be realistic. Always check the range of your data and avoid extrapolating farther than the data supports.",
+        "example": "Suppose pH data were collected for weeks 1 to 50, and the regression equation is pH = 5.43 – 0.0053·week. Predicting the pH at week 45 (inside the range) is reasonable. Predicting the pH at week 500 gives 5.43 – 0.0053(500) = 2.78, but that is extrapolation far beyond the data. We cannot be confident the linear decline continues.",
+        "memoryAnchor": "If the x-value is far outside your data, the prediction is a guess, not a result."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "The acid rain regression equation is pH = 5.43 – 0.0053·week, and the data were collected for weeks 1 to 50. Which prediction is safer: week 45 or week 500? Explain in one sentence.",
+          "answer": "Week 45 is safer because it lies within the observed data range, while week 500 is extrapolation far beyond the data."
+        },
+        {
+          "level": "L2",
+          "prompt": "Use the bone length model humerus = -3.6 + 1.2(femur). If the original femur lengths ranged from 30 cm to 80 cm, is it appropriate to predict the humerus length for a femur of 120 cm? Why or why not?",
+          "answer": "No, because 120 cm is far outside the range of femur lengths used to build the model; the linear relationship may not hold, so the prediction is extrapolation and could be unreliable."
+        },
+        {
+          "level": "L3",
+          "prompt": "A regression model for used car price is price = -0.1629(mileage) + 38257, based on cars with mileage between 5,000 and 100,000 km. A student uses this equation to predict the price of a car with 200,000 km. Identify the error and explain what the student should do.",
+          "answer": "The error is extrapolation: 200,000 km is far outside the mileage range of the data used to create the model. The student should not use the equation for that prediction without more data; they could gather data from higher-mileage cars or explicitly state the limitation of extrapolation."
+        }
+      ]
+    },
+    {
+      "errorId": "err-residual-pattern",
+      "trigger": "Student answers Q4 or Q5 incorrectly: they believe that any pattern in a residual plot means the linear model is bad, rather than recognizing that a pattern may indicate a non-linear model could better describe the relationship.",
+      "studentMisunderstanding": "The student thinks that every pattern in a residual plot is a sign that the regression model is completely wrong. In truth, small residuals with no apparent pattern support a good linear fit, while a clear pattern suggests that a non-linear model may be more appropriate.",
+      "miniLesson": {
+        "explain": "Residual = observed y – predicted y. A positive residual means the point lies above the regression line, and a negative residual means it lies below. To assess model fit, we look at all residuals together in a residual plot. If the residuals are small and show no apparent pattern, the linear model fits well. If the residuals show a pattern (for example, a curve), this suggests the relationship may not be linear, so a non-linear model may be better. This does not mean the linear model is 'bad'—it means there may be a better model. In the bone length example, R² = 0.98 and the residuals were small and patternless, confirming a strong linear fit. A curved residual pattern would point toward trying a non-linear model.",
+        "example": "In the used car example, the regression line was price = -0.1629*mileage + 38257. For a car with mileage 7583, the predicted price was 26075 but the actual price was 21099, so the residual = 21099 - 26075 = -4765. This negative residual tells us the car sold below the line. One residual alone does not show a pattern; we must examine all residuals together. If they are randomly scattered around zero, a linear model is appropriate; if they form a curve, a non-linear model may be more suitable.",
+        "memoryAnchor": "Think of residuals as 'miss distances' from the line. Random, small misses = good linear fit. Curved pattern of misses = the line is not following the true shape, so try a non-linear model."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For the used car regression, price = -0.1629*mileage + 38257, a car with mileage 7583 had a predicted price of 26075 and an actual price of 21099. Calculate the residual and state whether the point lies above or below the regression line.",
+          "answer": "Residual = observed y - predicted y = 21099 - 26075 = -4765. Since the residual is negative, the point lies below the regression line."
+        },
+        {
+          "level": "L2",
+          "prompt": "Imagine you examine a residual plot from the bone length regression (humerus = -3.6 + 1.2*femur, R² = 0.98). The residuals are small and scattered randomly around zero with no apparent pattern. What does this indicate about the linear model?",
+          "answer": "Small residuals with no apparent pattern indicate a good linear fit. The linear model is appropriate for the relationship between femur and humerus lengths."
+        },
+        {
+          "level": "L3",
+          "prompt": "Suppose the residual plot for the acid rain regression (pH = 5.43 – 0.0053*week) shows a clear curved pattern instead of random scatter. What should you conclude about the model, and what would you try next?",
+          "answer": "A clear pattern in the residuals suggests that the linear model may not be the best fit. The relationship between week and pH might be non-linear, so a curved model could be more appropriate."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-correlation-causation",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "In a coastal town, researchers found a strong positive correlation (r = 0.9) between daily ice cream sales and the number of drownings. Which statement is most justified?",
+          "options": [
+            "Buying ice cream makes people more likely to drown.",
+            "The strong correlation proves that increased ice cream sales cause more drownings.",
+            "Ice cream sales and drownings are associated, but the correlation alone does not prove that one causes the other.",
+            "There is no relationship between ice cream sales and drownings because correlation does not imply causation."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A study reports a very strong negative correlation (r = -0.95) between the number of firefighters sent to a fire and the amount of property damage: more firefighters are associated with less damage. A newspaper claims that sending more firefighters causes less damage. Explain why this conclusion may be wrong, and suggest a plausible confounding (third) variable that could explain the strong correlation.",
+          "rubric": "Student must explicitly state that correlation does not imply causation and reject the causal claim. They must identify a credible confounding variable, such as fire severity (larger fires draw more firefighters and cause more damage), response time, building size, or weather conditions. Full credit requires both components: recognizing the correlation-causation error and providing a plausible third variable."
+        }
+      ],
+      "passRule": "For Q1, answer must select option index 2. For Q2, response must explicitly say that correlation does not prove causation and must offer a plausible confounding variable. Both conditions must be met to pass."
+    },
+    {
+      "forErrorId": "err-rsquared-interpretation",
+      "questions": [
+        {
+          "id": "r2-interp-mc",
+          "type": "single_choice",
+          "stem": "A regression model for two variables x and y has a coefficient of determination of R² = 0.85. Which of the following is the correct interpretation?",
+          "options": [
+            "The model gives a correct prediction for 85% of the data points.",
+            "85% of the variation in y is explained by the linear relation with x; the other 15% is unexplained.",
+            "The correlation coefficient r must be 0.85.",
+            "85% of the observed y-values lie exactly on the regression line."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "r2-interp-open",
+          "type": "open_ended",
+          "stem": "A scientist models humerus bone length using femur length: humerus = -3.6 + 1.2(femur), with R² = 0.98. Explain in your own words what R² tells you about this model. Be sure to mention what it says about prediction accuracy and what percentage of the variation is unexplained.",
+          "rubric": "The student must state that 98% of the variation in humerus length is explained by the linear relationship with femur length; that 2% of the variation is unexplained; and that R² is not a measure of the percentage of correct predictions (e.g., it does not mean the model predicts correctly 98% of the time)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For question 1, the correct option (index 1) must be selected. For question 2, the written answer must explicitly mention that 98% of the variation is explained, 2% is unexplained, and that R² is not a percentage of correct predictions."
+    },
+    {
+      "forErrorId": "err-extrapolation",
+      "questions": [
+        {
+          "id": "extrap_01",
+          "type": "single_choice",
+          "stem": "A researcher measured the pH of rainwater each week for 50 consecutive weeks. The regression line is pH = 5.43 – 0.0053·week. He uses this line to predict the pH at week 500. Which statement is the best reason why this prediction is not trustworthy?",
+          "options": [
+            "Week 500 is far outside the range of data used to create the model, so the relationship may not stay linear.",
+            "The slope is negative, so the pH would become negative, which is impossible.",
+            "The R² value is not known, so the model cannot be used for prediction.",
+            "Only 50 weeks of data are not enough to build any regression model."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "extrap_02",
+          "type": "open_ended",
+          "stem": "The regression equation price = -0.1629·mileage + 38257 was derived from a sample of used cars with mileage between 5,000 and 100,000 km. A student uses this equation to predict the price of a car with 200,000 km. Explain why this prediction is likely to be inaccurate, and suggest one action the student could take to make a better prediction.",
+          "rubric": "Full credit (2 points): Student states that 200,000 km is outside the range of the data (extrapolation), so the linear relationship may not continue, and suggests collecting data from cars with higher mileage (or restricting predictions to the observed mileage range). Partial credit (1 point): Student identifies extrapolation but does not give a remedy, or gives a remedy but does not explain the risk. No credit: Student does not mention extrapolation or data range."
+        }
+      ],
+      "passRule": "Pass if Q1 is answered correctly and Q2 earns at least 1 point on the rubric (i.e., demonstrates understanding that extrapolation is risky)."
+    },
+    {
+      "forErrorId": "err-residual-pattern",
+      "questions": [
+        {
+          "id": "err-residual-pattern-q1",
+          "type": "single_choice",
+          "stem": "A residual plot for a linear regression shows residuals scattered randomly around zero with no clear pattern. What is the most reasonable conclusion?",
+          "options": [
+            "The linear model is a good fit for the data.",
+            "The linear model is invalid because all residuals should be exactly zero.",
+            "The residuals indicate a strong non-linear relationship.",
+            "The correlation coefficient must be negative."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "err-residual-pattern-q2",
+          "type": "open_ended",
+          "stem": "In the used car example, the regression line is price = -0.1629*mileage + 38257. For a car with mileage = 7583, the predicted price is 26075 and the actual price is 21099, so the residual is -4765. Explain what the sign and size of this residual tell you, and describe how you would use a residual plot to decide whether the overall linear model is appropriate.",
+          "rubric": "Student should state that residual = observed - predicted = 21099 - 26075 = -4765, so the point lies below the regression line (0.5 mark). They should explain that a single negative residual is not enough to judge the model; instead, all residuals should be examined together in a residual plot (0.5 mark). If residuals are small and randomly scattered around zero with no pattern, the linear model is appropriate; if they show a clear pattern (e.g., a curve), a non-linear model may be better (1 mark). Maximum 2 marks."
+        }
+      ],
+      "passRule": "Correct answer on Q1 AND at least 1.5 out of 2 marks on Q2 (must include both the calculation/interpretation of the residual and the idea that a pattern in residual plot indicates possible non-linear model)."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-07",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/D2hbd49AioFYlvxAYsQcIQv2nTc?from=vc_group_doc_link#doxcnpdpsoxNrHA4vMrRnrJgMyb",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-08-07 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "The correlation coefficient r measures the strength and direction of a linear relationship between two quantitative variables; r ranges from -1 to 1.；Correlation is classified as strong if |r| > 0.8, weak if |r| < 0.5, and r = 0 indicates no linear correlation.；The coefficient of determination R² ranges from 0 to 1 and represents the proportion of variance in the dependent variable predictable from the independent variable.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Interpret the correlation coefficient r, including strength and direction, and distinguish correlation from causation."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain the meaning of the coefficient of determination R² in context."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use a regression equation to make predictions and calculate residuals to assess model fit."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete Class Activity 4",
+        "studentAction": "Prioritize completing Class Activity 4 over the weekend.",
+        "deadlineText": "Over the weekend (August 8-9, 2026)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "\"Prioritize completing Class Activity 4 over the weekend\"",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "follow_up_action",
+        "title": "David: Submit overdue Unit 1 and 2 assignments",
+        "studentAction": "Submit overdue Unit 1 and Unit 2 assignments by Monday, August 10, 2026.",
+        "deadlineText": "Monday, August 10, 2026",
+        "deadlineISO": "2026-08-10T23:59:59+08:00",
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "David",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "\"Atousa explicitly requests David to submit his overdue Unit 1 and Unit 2 assignments by the coming Monday\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_or_quiz",
+        "title": "Final Exam Date",
+        "studentAction": "Note the final exam date: August 24/25, 2026.",
+        "deadlineText": "August 25, 2026 (China time)",
+        "deadlineISO": "2026-08-25T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "\"The final exam is scheduled for August 24 (Toronto time zone), which corresponds to August 25 for students located in the China time zone.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "platform_link",
+        "title": "Assignment Submission Platform",
+        "studentAction": "Upload all class activity and assignment answers to Schoology or the Unit 3 discussion board.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "\"All class activity and assignment answers should be uploaded to Schoology or the dedicated Unit 3 discussion board\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "follow_up_action",
+        "title": "Watch Calculator Regression Tutorials",
+        "studentAction": "Watch dedicated YouTube tutorials on calculator linear regression operations to supplement practice gaps.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "YouTube",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "\"Students are advised to watch dedicated YouTube tutorials on calculator linear regression operations to supplement in-person practice gaps.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "class_policy",
+        "title": "Class Activities as Evidence",
+        "studentAction": "Complete and submit class activities, as they will be used as evidence for Ontario provincial inspection.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"All submitted class activity answers will be directly used as student work evidence for Ontario provincial education inspection requirements.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "announcement",
+        "title": "Next Class Content",
+        "studentAction": "Prepare for Monday's class: will cover Python coding for regression analysis and remaining Class Activity 5 questions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"The next class on Monday will cover additional linear regression tools including Python coding for regression analysis, and walk through remaining class activity questions.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-008",
+        "category": "class_policy",
+        "title": "Post-Midterm Collection Rule",
+        "studentAction": "Be aware that in-class activity submissions will be collected during class time after the midterm period.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"After the midterm period, in-class activity submissions will be collected during class time to fully meet regulatory documentation requirements.\"",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-009",
+        "category": "announcement",
+        "title": "Report Card Finalized (July 26)",
+        "studentAction": "Note that the first report card was finalized on July 26, pending only David's Unit 1 assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "\"The first student report card will be finalized on July 26, pending only David’s Unit 1 assignment submission to complete all official records.\"",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "MDM4U-LinearRegression-CorrelationCoefficient",
+      "MDM4U-LinearRegression-CoefficientOfDetermination",
+      "MDM4U-LinearRegression-RegressionLine",
+      "MDM4U-LinearRegression-Residual"
+    ],
+    "totalQuestions": 1,
+    "completed": false,
+    "passScore": 1,
+    "diagnosisRules": [
+      {
+        "errorId": "err-correlation-causation",
+        "condition": "student answers Q1 incorrectly or Q6 poorly",
+        "systemAction": "assign reteach module err-correlation-causation"
+      },
+      {
+        "errorId": "err-rsquared-interpretation",
+        "condition": "student answers Q2 incorrectly",
+        "systemAction": "assign reteach module err-rsquared-interpretation"
+      },
+      {
+        "errorId": "err-extrapolation",
+        "condition": "student answers Q3 incorrectly",
+        "systemAction": "assign reteach module err-extrapolation"
+      },
+      {
+        "errorId": "err-residual-pattern",
+        "condition": "student answers Q4 or Q5 incorrectly",
+        "systemAction": "assign reteach module err-residual-pattern"
+      }
+    ],
+    "nextActions": [
+      "[err-correlation-causation] student answers Q1 incorrectly or Q6 poorly: Correlation does not imply causation. Let's review how to interpret r without jumping to causal conclusions.",
+      "[err-rsquared-interpretation] student answers Q2 incorrectly: R² tells us the proportion of variation explained, not the percentage of correct predictions. Let's clarify.",
+      "[err-extrapolation] student answers Q3 incorrectly: Be cautious about using regression models far beyond the original data range. Let's practice identifying when predictions are unreliable.",
+      "[err-residual-pattern] student answers Q4 or Q5 incorrectly: Patterns in residual plots can indicate that a linear model isn't the best fit. Let's review what different patterns mean."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-d2-0815-q1",
+        "type": "choice",
+        "question": "A scatter plot of study hours vs test scores yields r = 0.89. What is the most accurate interpretation?",
+        "options": [
+          "Test scores cause study hours to increase.",
+          "There is a strong positive linear relationship between study hours and test scores.",
+          "The correlation is weak because 0.89 is less than 1.",
+          "89% of test scores are determined by study hours."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student distinguishes between correlation and causation.",
+        "misconceptions": [
+          "Correlation does not imply causation. A high r value indicates a relationship but does not prove one variable causes the other.",
+          "✓ Correct. r = 0.89 indicates a strong positive linear association.",
+          "A correlation close to 1 is considered strong, not weak. Remember that |r| > 0.8 generally indicates a strong correlation.",
+          "This confuses r with R². R² is the proportion of variation explained, not r itself."
+        ],
+        "nodeId": "MDM4U-LinearRegression-CorrelationCoefficient",
+        "errorId": "err-correlation-causation",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly interprets the strength and direction of r without implying causation.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly targets interpretation of correlation coefficient as part of two‑variable data analysis.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "High correlation implies causation.",
+        "remediationModule": "err-correlation-causation",
+        "retestItem": "err-correlation-causation"
+      }
+    ]
+  }
+}

@@ -1,0 +1,928 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-08-07",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/RjwMdG1twoyBfkx7MmmcDrAEnlb?from=vc_group_doc_link#doxcntgKkWiULQvuqwThng7ctcd",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-08-07 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/RjwMdG1twoyBfkx7MmmcDrAEnlb?from=vc_group_doc_link#doxcntgKkWiULQvuqwThng7ctcd",
+    "title": "MHF4U.S6.Taylor 2026-08-07 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-10/sources/mhf4u-s6-taylor-2026-08-07/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-08-07",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-07",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "Mainly covers new trigonometry content: exact value calculation, properties of trig function graphs, and transformation rules, with in-class practice examples. Instruction dominates.",
+    "academicContentSignals": [
+      "Exact value calculation workflow: angle positioning, parameter matching using special triangles (1-1-√2, 1-√3-2), sign verification with CAST rule, calculator radian mode reminder",
+      "Demonstrated calculation cases: cot(3π/2)=0, cos(5π/4)=-1/√2, csc(11π/6)=-2, solving tan(θ)=-7/24 for θ in (0,2π)",
+      "Core properties of primary trig functions: sine/cosine period 2π, amplitude 1, domain all reals, range [-1,1]; tangent period π, asymptotes at ±π/2, ±3π/2, range all reals",
+      "Reciprocal trig functions: asymptote mapping rule, cosecant/secant period 2π, domain excludes multiples of π and odd multiples of π/2, range (-∞,-1]∪[1,∞); cotangent period π, domain excludes integer multiples of π",
+      "Transformation rules: standard form f(x)=a sin[k(x-d)]+c or cos; parameter mapping (|a|=amplitude, 2π/|k|=period, c=central axis); operation order: stretches/reflections (a,k) first, then translations (d,c)",
+      "Sample exercise: f(x)=3sin[2(x+π/6)]-1 to identify transformation properties and map base sine points",
+      "Pending: full graphing of sample function and dedicated homework next Monday"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Moderate: Follow-up work arrangements (assignment upload, homework release, weekly logs) could distract from core trigonometry diagnostics if over-weighted. Limit readiness checks to essential upcoming actions (e.g., note review, log submission readiness) and keep exit card focused on exact values, graphs, and transformations.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Review Unit 3 Lesson 1 lecture notes",
+        "studentAction": "Review the uploaded Unit 3 Lesson 1 notes on the course platform before next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Course Platform",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Reference lecture notes for Unit 3 Lesson 1 are already uploaded to the course platform for student review",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "follow_up_action",
+        "title": "Prepare weekly learning log",
+        "studentAction": "Be ready to submit your weekly learning log after the weekend.",
+        "deadlineText": "after the weekend",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "...collect weekly learning logs after the weekend",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Upload Unit 3 assignment materials to the course platform during the weekend",
+        "reason": "Unclear if this is a student submission action or teacher upload of materials for students; likely teacher action, no student action required."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Exact Trigonometric Value Calculation、Properties of Trigonometric Function Graphs、Sine and Cosine Transformations）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 3 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Exact trigonometric value calculation uses angle positioning (convert radian to mixed fraction to find quadrant and related acute angle), parameter matching (use 1-1-√2 for π/4 and 1-√3-2 for π/6 special triangles), sign verification (CAST rule).；cot(3π/2) = 0 because the terminal point is (0,–1) and cot = x/y.；cos(5π/4) = –1/√2 using quadrant III and related acute angle π/4.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Calculate exact trigonometric values using special triangles, CAST sign determination, and quadrant location."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Describe and compare key features of primary and reciprocal trigonometric function graphs, including asymptotes."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Apply transformation parameters to sine and cosine functions to determine amplitude, period, phase shift, and vertical shift."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "KN_EXACT_VALUES",
+      "name": "Exact Trigonometric Value Calculation",
+      "nameEn": "Exact Trigonometric Value Calculation",
+      "definition": "A procedure to compute exact trig values for any angle by converting to radians, locating the quadrant via mixed fraction, using special triangles (π/4 and π/6) to obtain coordinates, applying CAST to determine sign, and evaluating the function's ratio.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    },
+    {
+      "id": "KN_TRIG_GRAPHS",
+      "name": "Properties of Trigonometric Function Graphs",
+      "nameEn": "Properties of Trigonometric Function Graphs",
+      "definition": "Key features of primary (sine, cosine, tangent) and reciprocal (cosecant, secant, cotangent) graphs: period, amplitude, domain, range, asymptotes, and relationships between base and reciprocal functions.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    },
+    {
+      "id": "KN_TRANSFORMATIONS",
+      "name": "Sine and Cosine Transformations",
+      "nameEn": "Sine and Cosine Transformations",
+      "definition": "Transformation rules for sine and cosine in the form a·trig[k(x–d)]+c: amplitude |a|, period 2π/|k|, central axis y=c, phase shift d, and the correct order of applying stretches before translations.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Calculate exact trigonometric values using special triangles, CAST sign determination, and quadrant location."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Describe and compare key features of primary and reciprocal trigonometric function graphs, including asymptotes."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply transformation parameters to sine and cosine functions to determine amplitude, period, phase shift, and vertical shift."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-exactval-sign",
+        "condition": "Student picks wrong option on Q1",
+        "systemAction": "Assign reteach module err-exactval-sign; retest after completion",
+        "studentMessage": "Let's review how CAST tells you the sign of each trig function in the quadrant."
+      },
+      {
+        "errorId": "err-exactval-triangle",
+        "condition": "Student picks wrong option on Q2",
+        "systemAction": "Assign reteach module err-exactval-triangle; retest after completion",
+        "studentMessage": "Let's review how to match the related acute angle with the correct special triangle."
+      },
+      {
+        "errorId": "err-graph-asymptote",
+        "condition": "Student picks wrong option on Q3",
+        "systemAction": "Assign reteach module err-graph-asymptote; retest after completion",
+        "studentMessage": "Let's review where reciprocal trig graphs have vertical asymptotes."
+      },
+      {
+        "errorId": "err-transform-order",
+        "condition": "Student picks wrong option on Q4",
+        "systemAction": "Assign reteach module err-transform-order; retest after completion",
+        "studentMessage": "Let's review the correct order for applying stretches, reflections, and translations."
+      },
+      {
+        "errorId": "err-transform-shift-direction",
+        "condition": "Student picks wrong option on Q5",
+        "systemAction": "Assign reteach module err-transform-shift-direction; retest after completion",
+        "studentMessage": "Let's review how to read the horizonal shift from the factored form of a trig function."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-s6-q1",
+        "nodeId": "KN_EXACT_VALUES",
+        "errorId": "err-exactval-sign",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student uses quadrant position and CAST to determine that cos(5π/4) is negative.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Exact value calculation and sign verification connect to trigonometric ratios and their representations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check whether the student applies CAST to determine the sign of cos(5π/4).",
+        "commonMisconception": "Student thinks cosine is positive in QIII or forgets to apply the CAST rule.",
+        "remediationModule": "err-exactval-sign",
+        "retestItem": "err-exactval-sign",
+        "stem": "What is the sign of cos(5π/4)?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Positive, because cosine is the x-coordinate",
+            "correct": false,
+            "feedbackWrong": "Cosine is the x-coordinate, but in quadrant III the x-coordinate is negative."
+          },
+          {
+            "label": "B",
+            "text": "Negative, since 5π/4 is in quadrant III where cosine is negative",
+            "correct": true,
+            "feedbackCorrect": "Correct. 5π/4 is in quadrant III, and the CAST rule makes cosine negative."
+          },
+          {
+            "label": "C",
+            "text": "Zero, because the angle lies on an axis",
+            "correct": false,
+            "feedbackWrong": "5π/4 is not on an axis; it lies in quadrant III."
+          },
+          {
+            "label": "D",
+            "text": "Positive, because 5π/4 is in quadrant II",
+            "correct": false,
+            "feedbackWrong": "5π/4 is not in quadrant II; it is in quadrant III."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-q2",
+        "nodeId": "KN_EXACT_VALUES",
+        "errorId": "err-exactval-triangle",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies π/6 as the related acute angle for 11π/6 and selects the 1-√3-2 special triangle.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Choosing the correct special triangle is part of exact trigonometric value calculation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check whether the student matches the related acute angle to the correct special triangle.",
+        "commonMisconception": "Student uses the 1-1-√2 triangle for a π/6 reference angle or confuses the related acute angle.",
+        "remediationModule": "err-exactval-triangle",
+        "retestItem": "err-exactval-triangle",
+        "stem": "To find csc(11π/6), which related acute angle and special triangle should you use?",
+        "options": [
+          {
+            "label": "A",
+            "text": "π/6; 1-√3-2 triangle",
+            "correct": true,
+            "feedbackCorrect": "Correct. The related acute angle is π/6, which uses the 1-√3-2 special triangle."
+          },
+          {
+            "label": "B",
+            "text": "π/4; 1-1-√2 triangle",
+            "correct": false,
+            "feedbackWrong": "The reference angle for 11π/6 is π/6, not π/4."
+          },
+          {
+            "label": "C",
+            "text": "π/3; 1-√3-2 triangle",
+            "correct": false,
+            "feedbackWrong": "The reference angle is π/6, not π/3."
+          },
+          {
+            "label": "D",
+            "text": "π/6; 1-1-√2 triangle",
+            "correct": false,
+            "feedbackWrong": "The π/6 reference angle uses the 1-√3-2 triangle, not the 1-1-√2 triangle."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-q3",
+        "nodeId": "KN_TRIG_GRAPHS",
+        "errorId": "err-graph-asymptote",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student knows that y = csc x has vertical asymptotes at the x-intercepts of y = sin x.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding reciprocal trig graph features connects to the graphical representation of trigonometric functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check whether the student connects reciprocal asymptotes to the zeros of the base function.",
+        "commonMisconception": "Student places cosecant asymptotes at zeros of cosine instead of zeros of sine.",
+        "remediationModule": "err-graph-asymptote",
+        "retestItem": "err-graph-asymptote",
+        "stem": "For the graph of y = csc(x), where do the vertical asymptotes occur?",
+        "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 200\"><rect width=\"400\" height=\"200\" fill=\"white\"/><line x1=\"20\" y1=\"100\" x2=\"380\" y2=\"100\" stroke=\"black\"/><line x1=\"20\" y1=\"20\" x2=\"20\" y2=\"180\" stroke=\"black\"/><path d=\"M20,100 C60,100 80,20 120,20 C160,20 180,100 220,100 C260,100 280,180 320,180 C360,180 380,100 380,100\" stroke=\"blue\" fill=\"none\"/><line x1=\"120\" y1=\"20\" x2=\"120\" y2=\"180\" stroke=\"red\" stroke-dasharray=\"4\"/><line x1=\"220\" y1=\"20\" x2=\"220\" y2=\"180\" stroke=\"red\" stroke-dasharray=\"4\"/><line x1=\"320\" y1=\"20\" x2=\"320\" y2=\"180\" stroke=\"red\" stroke-dasharray=\"4\"/><text x=\"20\" y=\"195\" font-size=\"8\" text-anchor=\"middle\">0</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "At values where sin x = 0",
+            "correct": true,
+            "feedbackCorrect": "Correct. Since csc x = 1/sin x, it is undefined where sin x = 0."
+          },
+          {
+            "label": "B",
+            "text": "At values where cos x = 0",
+            "correct": false,
+            "feedbackWrong": "cos x = 0 gives asymptotes for sec x, not csc x."
+          },
+          {
+            "label": "C",
+            "text": "At values where sin x = ±1",
+            "correct": false,
+            "feedbackWrong": "When sin x = ±1, csc x = ±1, so the graph is defined."
+          },
+          {
+            "label": "D",
+            "text": "At values where cos x = ±1",
+            "correct": false,
+            "feedbackWrong": "When cos x = ±1, csc x is defined; these are not asymptotes."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-q4",
+        "nodeId": "KN_TRANSFORMATIONS",
+        "errorId": "err-transform-order",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student states that stretches and reflections are applied before translations for trig functions.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Transformation order directly affects the algebraic and graphical representation of sine and cosine functions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check whether the student knows the correct order for applying transformations to a trigonometric graph.",
+        "commonMisconception": "Student applies translations before stretches, which changes the reference points incorrectly.",
+        "remediationModule": "err-transform-order",
+        "retestItem": "err-transform-order",
+        "stem": "When transforming a sine or cosine function, which transformation order is correct?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Apply stretches/reflections first, then horizontal and vertical translations",
+            "correct": true,
+            "feedbackCorrect": "Correct. Stretches/reflections must be applied before translations."
+          },
+          {
+            "label": "B",
+            "text": "Apply horizontal and vertical translations first, then stretches/reflections",
+            "correct": false,
+            "feedbackWrong": "Translating first changes the points before the stretch is applied, so the final graph is wrong."
+          },
+          {
+            "label": "C",
+            "text": "Apply horizontal shift first, then vertical stretch, then vertical shift",
+            "correct": false,
+            "feedbackWrong": "The standard order is stretches/reflections before all translations."
+          },
+          {
+            "label": "D",
+            "text": "Any order is fine because transformations commute",
+            "correct": false,
+            "feedbackWrong": "The order matters when multiple transformations are combined."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-exactval-sign",
+      "condition": "Student picks wrong option on Q1",
+      "systemAction": "Assign reteach module err-exactval-sign; retest after completion",
+      "studentMessage": "Let's review how CAST tells you the sign of each trig function in the quadrant."
+    },
+    {
+      "errorId": "err-exactval-triangle",
+      "condition": "Student picks wrong option on Q2",
+      "systemAction": "Assign reteach module err-exactval-triangle; retest after completion",
+      "studentMessage": "Let's review how to match the related acute angle with the correct special triangle."
+    },
+    {
+      "errorId": "err-graph-asymptote",
+      "condition": "Student picks wrong option on Q3",
+      "systemAction": "Assign reteach module err-graph-asymptote; retest after completion",
+      "studentMessage": "Let's review where reciprocal trig graphs have vertical asymptotes."
+    },
+    {
+      "errorId": "err-transform-order",
+      "condition": "Student picks wrong option on Q4",
+      "systemAction": "Assign reteach module err-transform-order; retest after completion",
+      "studentMessage": "Let's review the correct order for applying stretches, reflections, and translations."
+    },
+    {
+      "errorId": "err-transform-shift-direction",
+      "condition": "Student picks wrong option on Q5",
+      "systemAction": "Assign reteach module err-transform-shift-direction; retest after completion",
+      "studentMessage": "Let's review how to read the horizonal shift from the factored form of a trig function."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-exactval-sign",
+      "trigger": "Student picks wrong option on Q1",
+      "studentMisunderstanding": "The student does not use the quadrant location to determine the correct sign of the trigonometric value, often giving a positive result when the ratio is negative or vice versa.",
+      "miniLesson": {
+        "explain": "Before evaluating an exact trig ratio, locate the angle in its quadrant. Then use the CAST rule to decide which ratios are positive there. In Quadrant I all are positive, in Quadrant II sine (and cosecant) are positive, in Quadrant III tangent (and cotangent) are positive, and in Quadrant IV cosine (and secant) are positive. For example, 5π/4 is in Quadrant III. The related acute angle is π/4, so the reference value is 1/√2, but because x is negative in Quadrant III, cos(5π/4) = –1/√2.",
+        "example": "cos(5π/4): 5π/4 is in QIII. Using the π/4 special triangle, the absolute value is 1/√2. In QIII, cosine (the x-coordinate) is negative, so cos(5π/4) = –1/√2.",
+        "memoryAnchor": "CAST: All Students Take Calculus — QI: All, QII: Sine, QIII: Tangent, QIV: Cosine. Remember: cosine is the x-coordinate, so it is positive on the right and negative on the left."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the sign of csc(11π/6)? (Hint: 11π/6 is in QIV.)",
+          "answer": "csc(11π/6) is negative because 11π/6 is in QIV, where sine is negative, and cosecant has the same sign as sine."
+        },
+        {
+          "level": "L2",
+          "prompt": "Which trigonometric ratios are positive in QIII according to the CAST rule?",
+          "answer": "Only tangent and cotangent are positive in QIII. Sine and cosine (and their reciprocals) are negative."
+        },
+        {
+          "level": "L3",
+          "prompt": "If tan(θ) = –7/24 and 0 < θ < 2π, in which two quadrants does θ lie? Use CAST to justify your answer.",
+          "answer": "θ lies in QII and QIV. Tangent = sine/cosine. For tan to be negative, sine and cosine must have opposite signs: in QII sine is positive and cosine is negative, and in QIV sine is negative and cosine is positive."
+        }
+      ]
+    },
+    {
+      "errorId": "err-exactval-triangle",
+      "trigger": "Student chooses an incorrect special triangle for a reference angle (e.g., selecting the 1-1-√2 triangle for a π/6 reference angle).",
+      "studentMisunderstanding": "The student confuses which special triangle corresponds to which reference angle, often mixing up π/4 and π/6, or the ratios of the 1-√3-2 triangle with the 1-1-√2 triangle.",
+      "miniLesson": {
+        "explain": "Exact trigonometric values come from two special right triangles: 1-1-√2 (for angles of π/4) and 1-√3-2 (for angles of π/6 and π/3). For any angle, first find the related acute angle—the angle between the terminal arm and the x-axis. Then match that acute angle to the correct special triangle. For example, π/6 always uses the 1-√3-2 triangle, where opposite = 1, adjacent = √3, hypotenuse = 2. If you use the wrong triangle, you will get the wrong ratio even if you correctly apply the sign from CAST.",
+        "example": "To find csc(11π/6): 11π/6 is in quadrant IV, so the related acute angle is 2π – 11π/6 = π/6. Since π/6 uses the 1-√3-2 triangle, sin(π/6) = 1/2, so csc(π/6) = 2. Because sine is negative in QIV, csc(11π/6) = –2.",
+        "memoryAnchor": "π/6 → 1-√3-2; π/4 → 1-1-√2. Always match the reference angle to its triangle before computing."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which special triangle do you use for a reference angle of π/4?",
+          "answer": "The 1-1-√2 triangle."
+        },
+        {
+          "level": "L2",
+          "prompt": "Use the correct special triangle to find cos(5π/4).",
+          "answer": "5π/4 is in quadrant III, reference angle is π/4, so use the 1-1-√2 triangle. In QIII cosine is negative, so cos(5π/4) = –1/√2."
+        },
+        {
+          "level": "L3",
+          "prompt": "Find csc(11π/6). First identify the reference angle and the special triangle, then compute the value.",
+          "answer": "11π/6 is in quadrant IV, reference angle is π/6, and the special triangle is 1-√3-2. In this triangle, csc(π/6) = 2. Since sine is negative in QIV, csc(11π/6) = –2."
+        }
+      ]
+    },
+    {
+      "errorId": "err-graph-asymptote",
+      "trigger": "The student mixed up which base graph’s x-intercepts create the vertical asymptotes for reciprocal trig functions, such as putting y = csc x asymptotes where cos x = 0 instead of where sin x = 0.",
+      "studentMisunderstanding": "Reciprocal trig graphs are drawn by looking at zeros of the wrong base function; the student needs to recall csc = 1/sin and sec = 1/cos.",
+      "miniLesson": {
+        "explain": "A reciprocal trig graph has a vertical asymptote wherever its base function has an x-intercept. For y = csc x, since csc x = 1/sin x, the graph is undefined at sin x = 0, so vertical asymptotes occur at x = 0, π, and every integer multiple of π. For y = sec x, the base function is cos x, so asymptotes occur where cos x = 0. For y = cot x, cot x = cos x/sin x, so its asymptotes also occur at sin x = 0.",
+        "example": "At x = 0, sin(0) = 0, so csc(0) = 1/0 is undefined. Therefore, y = csc x has a vertical asymptote at x = 0. Check: if you used cos x = 0, you would expect an asymptote at x = π/2, but csc(π/2) = 1, which is a defined point, so that can't be correct.",
+        "memoryAnchor": "Zero below the fraction makes the reciprocal blow up: csc is 1 over sine, so it breaks where sine equals zero; sec is 1 over cosine, so it breaks where cosine equals zero."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the condition for a vertical asymptote on the graph of y = csc(x)?",
+          "answer": "sin(x) = 0; the asymptotes occur at x-values like 0, π, 2π, etc."
+        },
+        {
+          "level": "L2",
+          "prompt": "Which reciprocal graphs have vertical asymptotes where sin(x) = 0, and which has asymptotes where cos(x) = 0?",
+          "answer": "csc(x) and cot(x) have asymptotes where sin(x) = 0; sec(x) has asymptotes where cos(x) = 0."
+        },
+        {
+          "level": "L3",
+          "prompt": "For the function y = 1/sin(x), list the vertical asymptotes on the interval [0, 2π].",
+          "answer": "x = 0, π, and 2π (i.e., x = kπ for integer k)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-transform-order",
+      "trigger": "Student applies translations before stretches/reflections when transforming trig function graphs (e.g., on diagnostic Q4).",
+      "studentMisunderstanding": "Applying translations before stretches/reflections when transforming function points.",
+      "miniLesson": {
+        "explain": "For a sine or cosine function written as f(x) = a·sin[k(x–d)] + c, the parameters a and k are stretches/reflections. They must be applied first because they change the shape and scale of the graph. The parameters d and c are translations, which slide the graph afterward. If you translate first, the stretch/compression will also affect your shift, so the graph ends up in the wrong position.",
+        "example": "For f(x)=3sin[2(x+π/6)]–1: first apply the vertical stretch by factor 3 and the horizontal compression by factor 1/2 (period π, because period = 2π/|k| with k=2). Then apply the horizontal shift left by π/6 (d=–π/6) and the vertical shift down by 1 (c=–1).",
+        "memoryAnchor": "Stretch first, slide second: handle a and k before d and c."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "When graphing f(x)=3sin[2(x+π/6)]–1, which should you do first: apply the vertical stretch by 3, or shift the graph left by π/6?",
+          "answer": "Apply the vertical stretch by 3 first. Translations come after stretches/reflections."
+        },
+        {
+          "level": "L2",
+          "prompt": "Write the correct order of transformations for f(x)=3sin[2(x+π/6)]–1 using a=3, k=2, d=–π/6, c=–1.",
+          "answer": "1) Apply stretches/reflections: vertical stretch by factor 3 and horizontal compression by factor 1/2 (period π). 2) Apply horizontal shift left by π/6 (d=–π/6). 3) Apply vertical shift down by 1 (c=–1)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Start with the point (0,0) on y=sin x. Apply the transformations in the correct order to find its image on f(x)=3sin[2(x+π/6)]–1.",
+          "answer": "After stretch/reflection: (0/2, 3·0) = (0,0). After horizontal shift by –π/6: (0 + (–π/6), 0) = (–π/6, 0). After vertical shift by –1: (–π/6, –1). The image point is (–π/6, –1)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-transform-shift-direction",
+      "trigger": "Student chooses the wrong direction for a horizontal shift, e.g., thinking x+π/6 shifts right instead of left.",
+      "studentMisunderstanding": "The student sees a plus sign in the argument x+π/6 and assumes the graph shifts to the right. For a sine/cosine function written as a·sin[k(x–d)]+c, the horizontal shift is read from the value of d, so x+π/6 must be rewritten as x–(–π/6), making d=–π/6, which means a left shift by π/6.",
+      "miniLesson": {
+        "explain": "When analyzing transformations of sine and cosine functions, first rewrite the function in the form f(x)=a·sin[k(x–d)]+c or f(x)=a·cos[k(x–d)]+c. The value of d controls the horizontal shift. If the argument is x+π/6, rewrite it as x–(–π/6). Therefore d=–π/6, and the graph shifts left by π/6. The visible sign in front of π/6 is the opposite of the direction: a plus sign inside the bracket means a left shift, and a minus sign means a right shift.",
+        "example": "In f(x)=3sin[2(x+π/6)]–1, rewrite the inside as 2(x–(–π/6)). So d=–π/6; the graph shifts left π/6, not right. The other parameters are amplitude 3, period π, and vertical shift –1.",
+        "memoryAnchor": "Inside the bracket, the sign flips: '+' means left, '–' means right."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For g(x)=sin(x+π/6), which direction does the graph shift and by how much?",
+          "answer": "The graph shifts left by π/6."
+        },
+        {
+          "level": "L2",
+          "prompt": "For f(x)=3sin[2(x+π/6)]–1, what is the horizontal shift d and in which direction?",
+          "answer": "d=–π/6, so the graph shifts left by π/6."
+        },
+        {
+          "level": "L3",
+          "prompt": "Compare f(x)=3sin[2(x+π/6)]–1 with h(x)=3sin[2(x–π/6)]–1. How do their horizontal shifts differ?",
+          "answer": "f(x) shifts left by π/6 (d=–π/6), while h(x) shifts right by π/6 (d=+π/6)."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-exactval-sign",
+      "questions": [
+        {
+          "id": "sign_mc_q1",
+          "type": "single_choice",
+          "stem": "According to the CAST rule, which statement about 5π/4 is true?",
+          "options": [
+            "It lies in QII, so sine is positive.",
+            "It lies in QIII, so tangent is positive.",
+            "It lies in QIV, so cosine is positive.",
+            "It lies in QI, so all ratios are positive."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "sign_exact_q2",
+          "type": "open_ended",
+          "stem": "Evaluate csc(11π/6). Identify the quadrant, state its sign using CAST, and give the exact value.",
+          "rubric": "11π/6 is in QIV. Sine is negative in QIV, so cosecant is also negative. The related acute angle is π/6, and |csc(π/6)| = 2. Therefore csc(11π/6) = –2."
+        }
+      ],
+      "passRule": "Q1 must select option B (index 1). Q2 must include: QIV, negative sign from CAST, and exact value –2."
+    },
+    {
+      "forErrorId": "err-exactval-triangle",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "For an angle with a related acute angle of π/6, which special triangle must be used to determine its exact trigonometric ratios?",
+          "options": [
+            "1-1-√2",
+            "1-√3-2",
+            "3-4-5",
+            "No special triangle is needed"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Find the exact value of sec(5π/4). In your solution, state the related acute angle and the special triangle you use.",
+          "rubric": "The related acute angle is π/4, so the special triangle is 1-1-√2. In QIII, cosine is negative, so cos(5π/4) = –1/√2. Thus sec(5π/4) = –√2. Full credit requires explicitly identifying the π/4 triangle and the negative sign."
+        },
+        {
+          "id": "q3",
+          "type": "open_ended",
+          "stem": "Find the exact value of cot(11π/6). In your solution, state the related acute angle and the special triangle you use.",
+          "rubric": "The related acute angle is π/6, so the special triangle is 1-√3-2. For 11π/6 in QIV, the terminal point is (√3/2, –1/2), so x = √3/2, y = –1/2, and cot = x/y = –√3. (Accept equivalent reasoning using cos/sin.) Full credit requires identifying the π/6 triangle and applying the sign correctly."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-graph-asymptote",
+      "questions": [
+        {
+          "id": "asym-q1",
+          "type": "single_choice",
+          "stem": "Which base-function zeros create the vertical asymptotes of y = csc x?",
+          "options": [
+            "The zeros of cos x, because csc x = 1/cos x",
+            "The zeros of sin x, because csc x = 1/sin x",
+            "The zeros of tan x, because csc x = 1/tan x",
+            "There are no vertical asymptotes because csc x is defined everywhere"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "asym-q2",
+          "type": "open_ended",
+          "stem": "On the interval [0, 2π], list the x-values of the vertical asymptotes of y = sec x.",
+          "rubric": "Must list x = π/2 and x = 3π/2. If the response includes x = 0, x = π, or x = 2π, it is incorrect."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. Q1 must select index 1. Q2 must list both x = π/2 and x = 3π/2."
+    },
+    {
+      "forErrorId": "err-transform-order",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "When graphing f(x)=2cos[3(x–π/6)]+1 from y=cos x, which of the following must be applied before the horizontal and vertical shifts?",
+          "options": [
+            "Vertical stretch by factor 2 and horizontal compression by factor 1/3",
+            "Horizontal shift right π/6",
+            "Vertical shift up 1",
+            "Reflection in the x-axis"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Start with the point (0,1) on y=cos x. Apply the transformations in the correct order to find the image point on f(x)=2cos[3(x–π/6)]+1. Show your steps.",
+          "rubric": "Apply vertical stretch by 2 and horizontal compression by 1/3 first: (0,1) → (0,2). Then apply horizontal shift right π/6: (0,2) → (π/6,2). Then apply vertical shift up 1: (π/6,2) → (π/6,3). Final answer: (π/6,3)."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. q1 correct answer is index 0. q2 must show stretches/reflections before translations and give image point (π/6,3)."
+    },
+    {
+      "forErrorId": "err-transform-shift-direction",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Consider f(x)=2cos[2(x+π/6)]–1. What is the horizontal shift?",
+          "options": [
+            "Left by π/6",
+            "Right by π/6",
+            "Left by π/3",
+            "Right by π/3"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Rewrite f(x)=3cos[2(x+π/6)]–1 in the form a·cos[k(x–d)]+c. Then state the horizontal shift and direction.",
+          "rubric": "f(x)=3cos[2(x–(–π/6))]–1, so d=–π/6; the graph shifts left by π/6."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-07",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/RjwMdG1twoyBfkx7MmmcDrAEnlb?from=vc_group_doc_link#doxcntgKkWiULQvuqwThng7ctcd",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-08-07 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Exact trigonometric value calculation uses angle positioning (convert radian to mixed fraction to find quadrant and related acute angle), parameter matching (use 1-1-√2 for π/4 and 1-√3-2 for π/6 special triangles), sign verification (CAST rule).；cot(3π/2) = 0 because the terminal point is (0,–1) and cot = x/y.；cos(5π/4) = –1/√2 using quadrant III and related acute angle π/4.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Calculate exact trigonometric values using special triangles, CAST sign determination, and quadrant location."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Describe and compare key features of primary and reciprocal trigonometric function graphs, including asymptotes."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Apply transformation parameters to sine and cosine functions to determine amplitude, period, phase shift, and vertical shift."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "follow_up_action",
+        "title": "Review Unit 3 Lesson 1 lecture notes",
+        "studentAction": "Review the uploaded Unit 3 Lesson 1 notes on the course platform before next class.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Course Platform",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Reference lecture notes for Unit 3 Lesson 1 are already uploaded to the course platform for student review",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "follow_up_action",
+        "title": "Prepare weekly learning log",
+        "studentAction": "Be ready to submit your weekly learning log after the weekend.",
+        "deadlineText": "after the weekend",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "...collect weekly learning logs after the weekend",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Upload Unit 3 assignment materials to the course platform during the weekend",
+        "reason": "Unclear if this is a student submission action or teacher upload of materials for students; likely teacher action, no student action required."
+      }
+    ],
+    "watchTags": [
+      "KN_EXACT_VALUES",
+      "KN_TRIG_GRAPHS",
+      "KN_TRANSFORMATIONS"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-exactval-sign",
+        "condition": "Student picks wrong option on Q1",
+        "systemAction": "Assign reteach module err-exactval-sign; retest after completion"
+      },
+      {
+        "errorId": "err-exactval-triangle",
+        "condition": "Student picks wrong option on Q2",
+        "systemAction": "Assign reteach module err-exactval-triangle; retest after completion"
+      },
+      {
+        "errorId": "err-graph-asymptote",
+        "condition": "Student picks wrong option on Q3",
+        "systemAction": "Assign reteach module err-graph-asymptote; retest after completion"
+      },
+      {
+        "errorId": "err-transform-order",
+        "condition": "Student picks wrong option on Q4",
+        "systemAction": "Assign reteach module err-transform-order; retest after completion"
+      },
+      {
+        "errorId": "err-transform-shift-direction",
+        "condition": "Student picks wrong option on Q5",
+        "systemAction": "Assign reteach module err-transform-shift-direction; retest after completion"
+      }
+    ],
+    "nextActions": [
+      "[err-exactval-sign] Student picks wrong option on Q1: Let's review how CAST tells you the sign of each trig function in the quadrant.",
+      "[err-exactval-triangle] Student picks wrong option on Q2: Let's review how to match the related acute angle with the correct special triangle.",
+      "[err-graph-asymptote] Student picks wrong option on Q3: Let's review where reciprocal trig graphs have vertical asymptotes.",
+      "[err-transform-order] Student picks wrong option on Q4: Let's review the correct order for applying stretches, reflections, and translations.",
+      "[err-transform-shift-direction] Student picks wrong option on Q5: Let's review how to read the horizonal shift from the factored form of a trig function."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-s6-q1",
+        "type": "choice",
+        "question": "What is the sign of cos(5π/4)?",
+        "options": [
+          "Positive, because cosine is the x-coordinate",
+          "Negative, since 5π/4 is in quadrant III where cosine is negative",
+          "Zero, because the angle lies on an axis",
+          "Positive, because 5π/4 is in quadrant II"
+        ],
+        "correct": 1,
+        "diagnosis": "Check whether the student applies CAST to determine the sign of cos(5π/4).",
+        "misconceptions": [
+          "Cosine is the x-coordinate, but in quadrant III the x-coordinate is negative.",
+          "✓ Correct. 5π/4 is in quadrant III, and the CAST rule makes cosine negative.",
+          "5π/4 is not on an axis; it lies in quadrant III.",
+          "5π/4 is not in quadrant II; it is in quadrant III."
+        ],
+        "nodeId": "KN_EXACT_VALUES",
+        "errorId": "err-exactval-sign",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student uses quadrant position and CAST to determine that cos(5π/4) is negative.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Exact value calculation and sign verification connect to trigonometric ratios and their representations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student thinks cosine is positive in QIII or forgets to apply the CAST rule.",
+        "remediationModule": "err-exactval-sign",
+        "retestItem": "err-exactval-sign"
+      },
+      {
+        "id": "diag-mhf4u-s6-q2",
+        "type": "choice",
+        "question": "To find csc(11π/6), which related acute angle and special triangle should you use?",
+        "options": [
+          "π/6; 1-√3-2 triangle",
+          "π/4; 1-1-√2 triangle",
+          "π/3; 1-√3-2 triangle",
+          "π/6; 1-1-√2 triangle"
+        ],
+        "correct": 0,
+        "diagnosis": "Check whether the student matches the related acute angle to the correct special triangle.",
+        "misconceptions": [
+          "✓ Correct. The related acute angle is π/6, which uses the 1-√3-2 special triangle.",
+          "The reference angle for 11π/6 is π/6, not π/4.",
+          "The reference angle is π/6, not π/3.",
+          "The π/6 reference angle uses the 1-√3-2 triangle, not the 1-1-√2 triangle."
+        ],
+        "nodeId": "KN_EXACT_VALUES",
+        "errorId": "err-exactval-triangle",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies π/6 as the related acute angle for 11π/6 and selects the 1-√3-2 special triangle.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Choosing the correct special triangle is part of exact trigonometric value calculation.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student uses the 1-1-√2 triangle for a π/6 reference angle or confuses the related acute angle.",
+        "remediationModule": "err-exactval-triangle",
+        "retestItem": "err-exactval-triangle"
+      },
+      {
+        "id": "diag-mhf4u-s6-q3",
+        "type": "choice",
+        "question": "For the graph of y = csc(x), where do the vertical asymptotes occur?",
+        "options": [
+          "At values where sin x = 0",
+          "At values where cos x = 0",
+          "At values where sin x = ±1",
+          "At values where cos x = ±1"
+        ],
+        "correct": 0,
+        "diagnosis": "Check whether the student connects reciprocal asymptotes to the zeros of the base function.",
+        "misconceptions": [
+          "✓ Correct. Since csc x = 1/sin x, it is undefined where sin x = 0.",
+          "cos x = 0 gives asymptotes for sec x, not csc x.",
+          "When sin x = ±1, csc x = ±1, so the graph is defined.",
+          "When cos x = ±1, csc x is defined; these are not asymptotes."
+        ],
+        "nodeId": "KN_TRIG_GRAPHS",
+        "errorId": "err-graph-asymptote",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student knows that y = csc x has vertical asymptotes at the x-intercepts of y = sin x.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Understanding reciprocal trig graph features connects to the graphical representation of trigonometric functions.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Student places cosecant asymptotes at zeros of cosine instead of zeros of sine.",
+        "remediationModule": "err-graph-asymptote",
+        "retestItem": "err-graph-asymptote"
+      },
+      {
+        "id": "diag-mhf4u-s6-q4",
+        "type": "choice",
+        "question": "When transforming a sine or cosine function, which transformation order is correct?",
+        "options": [
+          "Apply stretches/reflections first, then horizontal and vertical translations",
+          "Apply horizontal and vertical translations first, then stretches/reflections",
+          "Apply horizontal shift first, then vertical stretch, then vertical shift",
+          "Any order is fine because transformations commute"
+        ],
+        "correct": 0,
+        "diagnosis": "Check whether the student knows the correct order for applying transformations to a trigonometric graph.",
+        "misconceptions": [
+          "✓ Correct. Stretches/reflections must be applied before translations.",
+          "Translating first changes the points before the stretch is applied, so the final graph is wrong.",
+          "The standard order is stretches/reflections before all translations.",
+          "The order matters when multiple transformations are combined."
+        ],
+        "nodeId": "KN_TRANSFORMATIONS",
+        "errorId": "err-transform-order",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student states that stretches and reflections are applied before translations for trig functions.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Transformation order directly affects the algebraic and graphical representation of sine and cosine functions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Student applies translations before stretches, which changes the reference points incorrectly.",
+        "remediationModule": "err-transform-order",
+        "retestItem": "err-transform-order"
+      }
+    ]
+  }
+}

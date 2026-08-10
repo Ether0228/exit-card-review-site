@@ -1,0 +1,1299 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-08-10",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Hmr5dgSYBoBviZxLjmbcvx71nVd?from=vc_group_doc_link#doxcnosf9eI4IXCUD3heZRi5Goh",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-08-10 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Hmr5dgSYBoBviZxLjmbcvx71nVd?from=vc_group_doc_link#doxcnosf9eI4IXCUD3heZRi5Goh",
+    "title": "MHF4U.S6.Taylor 2026-08-10 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-10/sources/mhf4u-s6-taylor-2026-08-10/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-08-10",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-10",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session covered trigonometric function transformations, modeling examples, and plotting rules; this is direct instruction of new academic content.",
+    "academicContentSignals": [
+      "Trigonometric function transformation review and plotting rules",
+      "Two-stage transformation execution: amplitude and horizontal compression for f(x)=3 sin 2(x+π/6)-1",
+      "Final parameter calculation using mapping rule (x/2 - π/6, 3y - 1) to plot transformed function",
+      "Guided modeling example: 24-hour temperature curve deriving T(t)=6 cos(π/12 (t-17))+19",
+      "Mass-on-spring vibration modeling: rewriting h(t)=10 sin(2πt+1.5π)+15, finding times when height=18",
+      "Function selection guidance: cosine preferred for graphs with max near y-axis, sine for midline crossing near origin",
+      "Mandatory plotting specifications: 4-quadrant Cartesian plane, arrows for infinite ends, labeled axes with units"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Moderate risk: multiple homework and policy reminders present alongside rich instruction; diagnostic card must focus on trigonometric transformation and modeling content, with only 1-2 lightweight readiness checks for key deadlines.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "deadline",
+        "title": "Unit 3 Lesson 2 Part 3 Homework Due",
+        "studentAction": "Complete and submit the assigned homework.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The assigned Unit 3 Lesson 2 Part 3 homework is due before the next class",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Weekend Learning Log Submission",
+        "studentAction": "Submit the weekend learning log if not already done.",
+        "deadlineText": "as soon as possible (overdue)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "students must submit the weekend learning log if they have not already done so",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Homework Question Submission Rule",
+        "studentAction": "Specify exact question numbers and lesson parts when submitting homework queries.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students must specify exact question numbers and corresponding lesson parts when submitting homework queries",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "teacher_request",
+        "title": "Calculator Mode Reminder",
+        "studentAction": "Ensure calculator is set to correct radian/degree mode for trig calculations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students using calculators for trigonometric calculations must confirm the device is set to the correct radian/degree mode",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Syllabus Progress and Q&A Time",
+        "studentAction": "Note that teaching will follow the syllabus and each session includes homework Q&A time.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Teaching will prioritize alignment with the scheduled syllabus... with dedicated time reserved for homework Q&A in each session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Upcoming Unit 3 Quiz Review Session",
+        "studentAction": "Know that a review session will precede the Unit 3 quiz.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The Unit 3 quiz will be preceded by a full review session covering all content from the three completed lessons",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Trigonometric Function Transformations、Graphing Conventions、Sinusoidal Modelling、Solving Trigonometric Equations Graphically）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Trigonometric function transformations are applied in two stages: first amplitude and horizontal stretch/compression (affecting x), then phase shift and vertical shift (via mapping notation).；The mapping rule for y = a sin(k(x - d)) + c is (x/k + d, ay + c), applied to key points to obtain the transformed graph.；For the example f(x) = 3 sin 2(x + π/6) – 1, the intermediate function after amplitude and period is 3 sin 2x, and final points are obtained using (x/2 – π/6, 3y – 1).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Apply transformations (amplitude, period, phase shift, vertical shift) to trigonometric functions using mapping notation in the correct order."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Construct accurate graphs of trigonometric functions with proper axes, arrows, and labels."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Derive a sinusoidal model from real-world data by determining midline, amplitude, period, and phase shift, and choose the appropriate trigonometric function."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Solve trigonometric equations graphically and identify times that satisfy given height on upward or downward segments."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-B-transformation-order",
+      "name": "Trigonometric Function Transformations",
+      "nameEn": "Trigonometric Function Transformations",
+      "definition": "The order in which amplitude, period, phase shift, and vertical shift are applied to the base sine or cosine function, using mapping notation to obtain the final graph points.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    },
+    {
+      "id": "MHF4U-B-graphing-conventions",
+      "name": "Graphing Conventions",
+      "nameEn": "Graphing Conventions for Trigonometric Functions",
+      "definition": "Requirements for a complete graph: standard four‑quadrant Cartesian plane, arrows to show infinite behaviour, and labelled axes with variable names and units.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    },
+    {
+      "id": "MHF4U-B-sinusoidal-modeling",
+      "name": "Sinusoidal Modelling",
+      "nameEn": "Sinusoidal Modelling",
+      "definition": "Deriving a sinusoidal function (sine or cosine) from real‑world periodic data by calculating midline, amplitude, period factor, and phase shift, and selecting the appropriate trigonometric function based on the graph's behaviour near the y‑axis.",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "MHF4U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities."
+    },
+    {
+      "id": "MHF4U-B-equation-solving-graphical",
+      "name": "Solving Trigonometric Equations Graphically",
+      "nameEn": "Solving Trigonometric Equations Graphically",
+      "definition": "Finding times or angles that satisfy a given trigonometric equation by graphing the function and a constant, then identifying intersection points on intervals where the function is increasing (upward segments).",
+      "officialExpectationCode": "B3",
+      "officialNodeId": "MHF4U-B-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply transformations (amplitude, period, phase shift, vertical shift) to trigonometric functions using mapping notation in the correct order."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Construct accurate graphs of trigonometric functions with proper axes, arrows, and labels."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Derive a sinusoidal model from real-world data by determining midline, amplitude, period, and phase shift, and choose the appropriate trigonometric function."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Solve trigonometric equations graphically and identify times that satisfy given height on upward or downward segments."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-transformation-order",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-transformation-order",
+        "studentMessage": "You mistakenly applied the horizontal shift before factoring out the coefficient. Remember: the mapping is (x/k + d, ay + c) after factoring k from the argument."
+      },
+      {
+        "errorId": "err-graph-arrow-labels",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-graph-arrow-labels",
+        "studentMessage": "Your graph is missing essential conventions. Always add arrows at the ends and label axes with both variable and unit."
+      },
+      {
+        "errorId": "err-midline-amplitude",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-midline-amplitude",
+        "studentMessage": "You confused midline and amplitude. Midline = (max+min)/2, amplitude = (max−min)/2."
+      },
+      {
+        "errorId": "err-sine-vs-cosine",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-sine-vs-cosine",
+        "studentMessage": "Choosing sine vs. cosine depends on the start of the period. A cosine curve fits when the graph has a maximum near the y-axis."
+      },
+      {
+        "errorId": "err-calculator-mode",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-calculator-mode",
+        "studentMessage": "You likely had your calculator in the wrong mode. For radian functions, always switch to radian mode."
+      },
+      {
+        "errorId": "err-intersection-direction",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-intersection-direction",
+        "studentMessage": "You included an intersection point where the function is decreasing. For 'upward segments', only use times where derivative > 0."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-s6-0810-q1",
+        "nodeId": "MHF4U-B-transformation-order",
+        "errorId": "err-transformation-order",
+        "type": "single_choice",
+        "stem": "Given f(x) = 2 sin(3(x – π/4)) + 1, which mapping correctly generates points on the transformed graph from the base sine function?",
+        "options": [
+          {
+            "label": "A",
+            "text": "(x/3 + π/4, 2y + 1)",
+            "correct": true,
+            "feedbackCorrect": "Correct. The mapping factors k=3: (x/k + d, ay + c) = (x/3 + π/4, 2y + 1)."
+          },
+          {
+            "label": "B",
+            "text": "(x/3 – π/4, 2y + 1)",
+            "correct": false,
+            "feedbackWrong": "The horizontal shift is +π/4, not –π/4. Check the sign inside the brackets."
+          },
+          {
+            "label": "C",
+            "text": "(x/3 + π/4, 2y – 1)",
+            "correct": false,
+            "feedbackWrong": "The vertical shift is +1, so the y-coordinate should be 2y+1, not 2y–1."
+          },
+          {
+            "label": "D",
+            "text": "(3x + π/4, y/2 + 1)",
+            "correct": false,
+            "feedbackWrong": "The horizontal factor should be x/3, not 3x, and the amplitude is 2 not 1/2."
+          }
+        ],
+        "nextActionIfWrong": "err-transformation-order",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly applies the mapping rule (x/k + d, ay + c) to generate transformed points.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses B2: connecting algebraic and graphical representations through transformations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Test if student can correctly apply the two-stage mapping order (amplitude/period then phase/vertical shift) without mixing horizontal operations.",
+        "commonMisconception": "Applying the horizontal shift before factoring k, leading to an incorrect phase shift.",
+        "remediationModule": "err-transformation-order",
+        "retestItem": "err-transformation-order"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q2",
+        "nodeId": "MHF4U-B-graphing-conventions",
+        "errorId": "err-graph-arrow-labels",
+        "type": "single_choice",
+        "stem": "Which statement correctly describes the required conventions for a complete graph of a trigonometric function?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Ends of the graph must have arrows, and axes must be labelled with variable and unit.",
+            "correct": true,
+            "feedbackCorrect": "Yes. Arrows indicate infinite behaviour, and labels provide context."
+          },
+          {
+            "label": "B",
+            "text": "Ends do not need arrows; axes must be labelled with variable only.",
+            "correct": false,
+            "feedbackWrong": "Trigonometric functions extend infinitely; arrows are essential. Units are also needed when real-world quantities are involved."
+          },
+          {
+            "label": "C",
+            "text": "Ends must have arrows; axes must be labelled with variable but unit is optional.",
+            "correct": false,
+            "feedbackWrong": "Units provide meaning to numerical values; they are required."
+          },
+          {
+            "label": "D",
+            "text": "Arrows are only needed if the function continues; axes must be labelled with variable and unit.",
+            "correct": false,
+            "feedbackWrong": "The function always continues; arrows must always be drawn."
+          }
+        ],
+        "nextActionIfWrong": "err-graph-arrow-labels",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies arrows and axis labels (with units) as non-negotiable graph features.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Graphing conventions are part of the 'graphical representations' aspect of B2.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "construct",
+        "stemIntent": "Verify that students know the basic visual standards required for a properly presented trig graph.",
+        "commonMisconception": "Believing that arrows are optional or that axis labels do not require units.",
+        "remediationModule": "err-graph-arrow-labels",
+        "retestItem": "err-graph-arrow-labels"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q3",
+        "nodeId": "MHF4U-B-sinusoidal-modeling",
+        "errorId": "err-midline-amplitude",
+        "type": "single_choice",
+        "stem": "A sinusoidal function models daily temperature. The maximum temperature is 28°C and the minimum is 14°C. What are the midline and amplitude?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Midline 21°C, amplitude 7°C",
+            "correct": true,
+            "feedbackCorrect": "Correct. Midline = (28+14)/2 = 21, amplitude = (28−14)/2 = 7."
+          },
+          {
+            "label": "B",
+            "text": "Midline 21°C, amplitude 14°C",
+            "correct": false,
+            "feedbackWrong": "14°C is the total range, not the amplitude. Amplitude is half the range."
+          },
+          {
+            "label": "C",
+            "text": "Midline 14°C, amplitude 7°C",
+            "correct": false,
+            "feedbackWrong": "The midline is the average, not the minimum."
+          },
+          {
+            "label": "D",
+            "text": "Midline 7°C, amplitude 21°C",
+            "correct": false,
+            "feedbackWrong": "These numbers are swapped. Midline is the average, amplitude is half the difference."
+          }
+        ],
+        "nextActionIfWrong": "err-midline-amplitude",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly computes midline and amplitude from max/min data.",
+        "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "MHF4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Midline and amplitude are foundational for sinusoidal modelling, which falls under B3 problem solving.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student can extract midline and amplitude from real-world max/min values using standard formulas.",
+        "commonMisconception": "Using (max+min)/2 for amplitude or using max−min without halving.",
+        "remediationModule": "err-midline-amplitude",
+        "retestItem": "err-midline-amplitude"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q4",
+        "nodeId": "MHF4U-B-sinusoidal-modeling",
+        "errorId": "err-sine-vs-cosine",
+        "type": "single_choice",
+        "stem": "A periodic phenomenon reaches its maximum at t = 0 and has a period of 24 hours. Which function type best models this data?",
+        "options": [
+          {
+            "label": "A",
+            "text": "f(t) = A sin(π/12 t) + C",
+            "correct": false,
+            "feedbackWrong": "Sine with no phase shift starts at the midline, not a maximum. You would need a phase shift."
+          },
+          {
+            "label": "B",
+            "text": "f(t) = A cos(π/12 t) + C",
+            "correct": true,
+            "feedbackCorrect": "Correct. Cosine without a phase shift has its maximum at t = 0."
+          },
+          {
+            "label": "C",
+            "text": "f(t) = A sin(π/12 (t – 6)) + C",
+            "correct": false,
+            "feedbackWrong": "This sine curve is shifted 6 hours right, but the maximum is not necessarily at t = 0."
+          },
+          {
+            "label": "D",
+            "text": "f(t) = A cos(π/12 (t – 12)) + C",
+            "correct": false,
+            "feedbackWrong": "This cosine curve is shifted right by 12 hours; its maximum is at t = 12, not at t = 0."
+          }
+        ],
+        "nextActionIfWrong": "err-sine-vs-cosine",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student chooses the correct parent function (sine vs cosine) based on the graph's behaviour at the y‑axis.",
+        "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "MHF4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Selecting sine vs cosine is a key modelling decision within B3 problem solving.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Diagnose if student can reason about the initial value of a periodic function to select the appropriate trigonometric model.",
+        "commonMisconception": "Arbitrarily choosing sine or cosine without analysing the start of the period; assuming sine always starts at origin.",
+        "remediationModule": "err-sine-vs-cosine",
+        "retestItem": "err-sine-vs-cosine"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q5",
+        "nodeId": "MHF4U-B-equation-solving-graphical",
+        "errorId": "err-calculator-mode",
+        "type": "single_choice",
+        "stem": "In the spring model h(t) = 10 sin(2πt + 1.5π) + 15, a student solves h(t) = 18 and obtains t ≈ 17.2 s instead of the expected 0.3 s. What is the most likely cause of this error?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The calculator was in degree mode instead of radian mode.",
+            "correct": true,
+            "feedbackCorrect": "Yes. In degree mode, sin(2π rad) is misinterpreted, leading to an absurdly large time."
+          },
+          {
+            "label": "B",
+            "text": "The student used sine instead of cosine.",
+            "correct": false,
+            "feedbackWrong": "Using the wrong function type would shift the entire curve, not just scale the time incorrectly."
+          },
+          {
+            "label": "C",
+            "text": "The amplitude was miscalculated as 10.",
+            "correct": false,
+            "feedbackWrong": "The amplitude is correct; miscalculation would give a different height, not a wrong time."
+          },
+          {
+            "label": "D",
+            "text": "The horizontal shift was omitted.",
+            "correct": false,
+            "feedbackWrong": "Omitting the shift would offset the times slightly, but not by an order of magnitude."
+          }
+        ],
+        "nextActionIfWrong": "err-calculator-mode",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recognizes that degree-mode computation corrupts radian-based trigonometric calculations.",
+        "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "MHF4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Solving trig equations numerically is a core part of B3; mode awareness is a practical skill for correct solutions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student can troubleshoot unrealistic numerical answers by identifying calculator mode as a common pitfall.",
+        "commonMisconception": "Assuming the calculator automatically handles radian/degree regardless of mode; not checking mode before solving trig equations.",
+        "remediationModule": "err-calculator-mode",
+        "retestItem": "err-calculator-mode"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q6",
+        "nodeId": "MHF4U-B-equation-solving-graphical",
+        "errorId": "err-intersection-direction",
+        "type": "single_choice",
+        "stem": "For h(t) = 10 sin(2πt + 1.5π) + 15, solving h = 18 on upward segments yields t = 0.3, 1.3, 2.3. The equation also gives t = 0.8, which satisfies h = 18. Why is t = 0.8 not an accepted solution?",
+        "options": [
+          {
+            "label": "A",
+            "text": "At t = 0.8 the function is decreasing, not increasing.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The problem specifies 'on upward segments', so only points where the derivative is positive are valid."
+          },
+          {
+            "label": "B",
+            "text": "t = 0.8 is outside the domain of the function.",
+            "correct": false,
+            "feedbackWrong": "The domain is all real numbers; 0.8 is perfectly valid as an input."
+          },
+          {
+            "label": "C",
+            "text": "The amplitude 10 is not large enough to reach 18.",
+            "correct": false,
+            "feedbackWrong": "The amplitude is 10 around a midline of 15, so maximum is 25; 18 is reachable."
+          },
+          {
+            "label": "D",
+            "text": "t = 0.8 gives h = 16, not 18.",
+            "correct": false,
+            "feedbackWrong": "The numbers show that h(0.8) does equal 18, but the question is about direction."
+          }
+        ],
+        "nextActionIfWrong": "err-intersection-direction",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student distinguishes between intersection points and applies the 'increasing' condition to select correct solutions.",
+        "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "MHF4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Filtering solutions by monotonic behaviour is a graphical problem‑solving skill under B3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Test if student can reason about the direction of motion and reject extraneous solutions from a trigonometric equation.",
+        "commonMisconception": "Including all points where the equation holds, without considering whether the function is increasing or decreasing.",
+        "remediationModule": "err-intersection-direction",
+        "retestItem": "err-intersection-direction"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-transformation-order",
+      "condition": "student picks wrong option on Q that targets this errorId",
+      "systemAction": "assign reteach module for err-transformation-order",
+      "studentMessage": "You mistakenly applied the horizontal shift before factoring out the coefficient. Remember: the mapping is (x/k + d, ay + c) after factoring k from the argument."
+    },
+    {
+      "errorId": "err-graph-arrow-labels",
+      "condition": "student picks wrong option on Q that targets this errorId",
+      "systemAction": "assign reteach module for err-graph-arrow-labels",
+      "studentMessage": "Your graph is missing essential conventions. Always add arrows at the ends and label axes with both variable and unit."
+    },
+    {
+      "errorId": "err-midline-amplitude",
+      "condition": "student picks wrong option on Q that targets this errorId",
+      "systemAction": "assign reteach module for err-midline-amplitude",
+      "studentMessage": "You confused midline and amplitude. Midline = (max+min)/2, amplitude = (max−min)/2."
+    },
+    {
+      "errorId": "err-sine-vs-cosine",
+      "condition": "student picks wrong option on Q that targets this errorId",
+      "systemAction": "assign reteach module for err-sine-vs-cosine",
+      "studentMessage": "Choosing sine vs. cosine depends on the start of the period. A cosine curve fits when the graph has a maximum near the y-axis."
+    },
+    {
+      "errorId": "err-calculator-mode",
+      "condition": "student picks wrong option on Q that targets this errorId",
+      "systemAction": "assign reteach module for err-calculator-mode",
+      "studentMessage": "You likely had your calculator in the wrong mode. For radian functions, always switch to radian mode."
+    },
+    {
+      "errorId": "err-intersection-direction",
+      "condition": "student picks wrong option on Q that targets this errorId",
+      "systemAction": "assign reteach module for err-intersection-direction",
+      "studentMessage": "You included an intersection point where the function is decreasing. For 'upward segments', only use times where derivative > 0."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-transformation-order",
+      "trigger": "Student picks the incorrect mapping rule or transformation order on a diagnostic item targeting this errorId.",
+      "studentMisunderstanding": "Applying the horizontal shift before factoring the coefficient k, leading to an incorrect phase shift (e.g., shifting x without dividing by k).",
+      "miniLesson": {
+        "explain": "Transformations of trigonometric functions are applied in two stages. First apply amplitude and horizontal stretch/compression (affecting x). Then apply phase shift and vertical shift. The mapping rule for y = a sin(k(x-d)) + c is (x/k + d, ay + c). If you shift before dividing by k, you change the phase shift by a factor of k.",
+        "example": "For f(x) = 3 sin 2(x + π/6) – 1, first build the intermediate function 3 sin 2x (amplitude 3, period π). Then map each point (x, y) on that intermediate graph to (x/2 – π/6, 3y – 1). This correctly applies the left shift π/6 and the vertical shift –1 after the horizontal compression.",
+        "memoryAnchor": "Rewrite as a sin(k(x-d)) + c, then use (x/k + d, ay + c). Always divide by k before adding d."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For f(x) = 3 sin 2(x + π/6) – 1, what is the mapping rule for the x-coordinate? Answer in the form x/2 + [shift].",
+          "answer": "x/2 – π/6"
+        },
+        {
+          "level": "L2",
+          "prompt": "To graph f(x) = 3 sin 2(x + π/6) – 1, what is the correct intermediate function after applying the first stage (amplitude and period)?",
+          "answer": "3 sin 2x"
+        },
+        {
+          "level": "L3",
+          "prompt": "A student transforms f(x) = 3 sin 2(x + π/6) – 1 by first shifting the graph left by π/6 and then compressing horizontally by a factor of 2. Explain why this is incorrect and state the correct mapping.",
+          "answer": "The phase shift must be applied after factoring out the coefficient 2. Correct mapping is (x/2 – π/6, 3y – 1). The intermediate function after amplitude and period is 3 sin 2x, then the phase/vertical shifts are applied."
+        }
+      ]
+    },
+    {
+      "errorId": "err-graph-arrow-labels",
+      "trigger": "Student's graph is missing arrows at the ends or lacks axis labels with variable and unit.",
+      "studentMisunderstanding": "Arrows are optional extras, or axis labels only need the variable name and not the unit.",
+      "miniLesson": {
+        "explain": "A complete trigonometric graph must be drawn on a standard four‑quadrant Cartesian plane. Arrows at both ends indicate that the curve continues infinitely, which is true for all sine and cosine functions. Labels with the variable and its unit tell the reader what the numbers represent. Without these, the graph is incomplete and cannot be used for modelling or communication.",
+        "example": "For the temperature model T(t)=6cos(π/12(t–17))+19, when t is in hours and T is in °C, the horizontal axis must be labelled 't (hours)' and the vertical axis 'T (°C)'. Both ends of the curve must have arrows, because the temperature pattern repeats before t=0 and after any finite interval.",
+        "memoryAnchor": "Arrows = infinite extension; labels = meaningful context. No arrows? No infinity. No unit? No meaning."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What must be drawn at the ends of every trigonometric function graph?",
+          "answer": "Arrows to show the graph continues infinitely."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student draws the graph of T(t)=6cos(π/12(t–17))+19 and forgets the arrows at both ends. Why is this a problem?",
+          "answer": "Trig functions like temperature cycles continue infinitely; arrows show that the curve does not stop at the edges. Without arrows, the graph incorrectly suggests the curve ends."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student's graph of T(t)=6cos(π/12(t–17))+19 has no arrows and the axes are unlabelled. The horizontal axis is time (hours) and the vertical axis is temperature (°C). Write two corrections the student must make.",
+          "answer": "1. Add arrows to both ends of the curve to show the temperature cycle continues. 2. Label the horizontal axis 't (hours)' and the vertical axis 'T (°C)'."
+        }
+      ]
+    },
+    {
+      "errorId": "err-midline-amplitude",
+      "trigger": "Student incorrectly calculates midline and/or amplitude from maximum and minimum values, often swapping the formulas.",
+      "studentMisunderstanding": "The student confuses the formula for midline with the formula for amplitude, using (max + min)/2 for amplitude and (max – min)/2 for midline. In reality, midline is the average value (middle of the range) and amplitude is half the vertical distance between max and min.",
+      "miniLesson": {
+        "explain": "For any sinusoidal function, the midline is the horizontal line halfway between the maximum and minimum values: C = (max + min)/2. The amplitude is the vertical distance from the midline to the maximum (or minimum), which is half the total range: A = (max – min)/2. These two parameters describe different features: midline tells you the vertical shift, amplitude tells you how far the curve moves above and below that shift.",
+        "example": "For the temperature model T(t) = 6 cos(π/12 (t – 17)) + 19, the maximum temperature is 25°C and the minimum is 13°C. Then midline = (25+13)/2 = 19°C, amplitude = (25−13)/2 = 6°C. Notice the +19 in the equation is the midline and the coefficient 6 is the amplitude.",
+        "memoryAnchor": "Think of a see‑saw: the midline is the resting level in the middle, and the amplitude is how far each end goes up or down. Midline = (top + bottom)/2, Amplitude = (top − bottom)/2. The midline has a plus sign, the amplitude has a minus sign."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A sinusoid has a maximum of 25 and a minimum of 13. Find the midline and the amplitude.",
+          "answer": "Midline = (25+13)/2 = 19; Amplitude = (25−13)/2 = 6."
+        },
+        {
+          "level": "L2",
+          "prompt": "Given the function T(t) = 6 cos(π/12 (t – 17)) + 19, identify the amplitude and the midline.",
+          "answer": "Amplitude = 6, midline = 19."
+        },
+        {
+          "level": "L3",
+          "prompt": "A 24‑hour temperature cycle has a high of 25°C at t = 17 h and a low of 13°C. Use the formulas to determine the midline and amplitude, and then write the cosine model in the form T(t) = A cos(k(t – d)) + C.",
+          "answer": "Midline = 19, amplitude = 6, and since the period is 24 h, k = 2π/24 = π/12. The cosine model is T(t) = 6 cos(π/12 (t – 17)) + 19."
+        }
+      ]
+    },
+    {
+      "errorId": "err-sine-vs-cosine",
+      "trigger": "Student repeatedly chooses sine when the curve has a maximum near the y-axis, or chooses cosine when the curve crosses the midline near the origin.",
+      "studentMisunderstanding": "The student does not base the sine-vs-cosine choice on the graph's starting behaviour. They pick one function arbitrarily instead of checking whether the maximum occurs near the y-axis (cosine) or whether the midline is crossed near the origin (sine).",
+      "miniLesson": {
+        "explain": "When choosing between sine and cosine for a sinusoidal model, look at the graph at t = 0. Without a phase shift, cosine begins at a maximum, while sine begins at the midline. In the lesson, a temperature model used cosine because the maximum occurred at t = 17, so after the phase shift the crest was near the y-axis. If data cross the midline near the origin and then rise, sine is the better match. There is no fixed rule; the starting point of the period determines the function type.",
+        "example": "For T(t) = 6 cos(π/12(t - 17)) + 19, the maximum of 25°C occurs at t = 17, so cosine is chosen because the crest is shifted 17 hours right. If the graph instead crossed the midline at t = 0 and then rose, a sine model would be more natural.",
+        "memoryAnchor": "C for Cosine, C for Crest: cosine starts at a crest (maximum). S for Sine, S for Start-at-midline: sine starts in the middle."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A periodic temperature reaches its maximum at t = 0. Which parent function should you use: sine or cosine? State the reason.",
+          "answer": "Use cosine, because the graph starts at a maximum, which matches the natural starting point of a cosine curve."
+        },
+        {
+          "level": "L2",
+          "prompt": "Daily temperatures have max 25°C, min 13°C, and the maximum occurs at t = 17. Write the sinusoidal model and identify the function type.",
+          "answer": "T(t) = 6 cos(π/12(t - 17)) + 19; cosine is used because the maximum is at t = 17 and cosine naturally starts at a maximum."
+        },
+        {
+          "level": "L3",
+          "prompt": "A periodic temperature has a period factor of π/12, amplitude 6, midline 19, and a maximum at t = 6. Write the model and justify your choice of sine or cosine.",
+          "answer": "T(t) = 6 cos(π/12(t - 6)) + 19; use cosine because the maximum is shifted 6 hours to the right, so the crest location matches cosine's starting shape."
+        }
+      ]
+    },
+    {
+      "errorId": "err-calculator-mode",
+      "trigger": "You likely had your calculator in the wrong mode. For radian functions, always switch to radian mode.",
+      "studentMisunderstanding": "Assuming the calculator automatically handles radian/degree regardless of mode; forgetting to check mode when solving trigonometric equations with radians.",
+      "miniLesson": {
+        "explain": "When working with trigonometric functions in mathematics, angles are often measured in radians. For example, the function h(t) = 10 sin(2πt + 1.5π) + 15 uses 2π and 1.5π, which are radian measures. If your calculator is set to degree mode, it interprets these numbers as degrees (e.g., 2π ≈ 6.28 degrees instead of 6.28 radians), leading to dramatically incorrect results. Always check that your calculator is in radian mode when the argument includes π or when the period is expressed in terms of π.",
+        "example": "Consider solving h(t) = 18 for the spring model. The equation becomes 10 sin(2πt + 1.5π) + 15 = 18, so sin(2πt + 1.5π) = 0.3. In radian mode, arcsin(0.3) ≈ 0.3047 rad, then solving for t gives t ≈ 0.3 seconds. In degree mode, arcsin(0.3) ≈ 17.46 degrees, and mixing degrees with radian terms like 2πt leads to t ≈ 17 seconds (as seen in the error). This is why radian mode is crucial.",
+        "memoryAnchor": "Radian Mode for Radian Functions – Check your MODE before you start!"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "You need to evaluate 3 sin(2x) for x = π/6. What calculator mode should you use?",
+          "answer": "Radian mode, because the angle is given in radians (π/6)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student solved h(t) = 18 for h(t) = 10 sin(2πt + 1.5π) + 15 and got t ≈ 17. What mistake did they make?",
+          "answer": "They used degree mode instead of radian mode."
+        },
+        {
+          "level": "L3",
+          "prompt": "For the mass-on-spring model h(t) = 10 sin(2π(t + 0.75)) + 15, find the first time the height is 18 meters on an upward segment. Ensure your calculator is in radian mode.",
+          "answer": "0.3"
+        }
+      ]
+    },
+    {
+      "errorId": "err-intersection-direction",
+      "trigger": "When asked for times on upward segments, student reports all intersection points with the horizontal line, including those where the function is decreasing.",
+      "studentMisunderstanding": "The student treats any solution of h(t)=18 as valid and ignores the monotonic direction (increasing vs decreasing) required by the problem.",
+      "miniLesson": {
+        "explain": "Some problems ask for times when an object is moving upward. On a sinusoid, a horizontal line like y=18 crosses the curve on both rising and falling parts. Only intersections where the function is increasing (derivative > 0) are valid. For h(t)=10 sin(2πt+1.5π)+15, rewrite as h(t)=10 sin(2π(t+0.75))+15. Intersections with y=18 occur periodically; on the upward segments the accepted times are t≈0.3, 1.3, 2.3.",
+        "example": "The line y=18 meets the spring curve many times. At t=0.3 the curve is rising; at t=1.3 and 2.3 it is rising again one period later. If you also identify an intersection on a falling section, reject it because derivative < 0.",
+        "memoryAnchor": "Upward means 'slope positive' — catch only the rising intersections, not the falling ones."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For h(t)=10 sin(2πt+1.5π)+15, the upward-segment solutions to h=18 are 0.3, 1.3, and 2.3. What additional condition must hold at each accepted time?",
+          "answer": "The function must be increasing there (derivative > 0)."
+        },
+        {
+          "level": "L2",
+          "prompt": "In the model h(t)=10 sin(2π(t+0.75))+15, you find t≈0.3, 1.3, 2.3 for h=18. How can you confirm these are on upward segments, and what would make a different intersection invalid?",
+          "answer": "Check the slope/graph: the function is rising at those times. An intersection on a decreasing part is invalid because the problem asks for upward segments only."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate says the times when the spring reaches h=18 are 0.3, 1.3, 2.3. How would you correct their statement and what steps would you use to verify each time?",
+          "answer": "Correct it: those are only the times on upward segments; other intersections exist on downward segments. Verify each time by checking the function is increasing there (derivative > 0) before accepting it."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-transformation-order",
+      "questions": [
+        {
+          "id": "err-transformation-order-q1",
+          "type": "single_choice",
+          "stem": "Which sequence correctly describes how to graph y = 6 cos(π/12(t - 17)) + 19 using two-stage transformations?",
+          "options": [
+            "Graph y = 6 cos(π/12 t) first, then shift right 17 and up 19.",
+            "Graph y = 6 cos t, then shift right 17, then compress horizontally by π/12.",
+            "Graph y = 6 cos(t - 17), then compress horizontally by π/12.",
+            "Graph y = 6 cos(π/12(t - 17)), then stretch vertically."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "err-transformation-order-q2",
+          "type": "open_ended",
+          "stem": "For f(x) = 3 sin 2(x + π/6) – 1, a student incorrectly applies the horizontal shift before the horizontal compression. Write one sentence correcting the error and state the correct mapping rule.",
+          "rubric": "Must say the horizontal shift must be applied after factoring out the coefficient 2, and the correct mapping is (x/2 – π/6, 3y – 1)."
+        }
+      ],
+      "passRule": "Question 1 must be correct. Question 2 must include both the correct order (shift after compression) and the correct mapping (x/2 – π/6, 3y – 1)."
+    },
+    {
+      "forErrorId": "err-graph-arrow-labels",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following describes a complete graph of a trigonometric function?",
+          "options": [
+            "The curve has arrows at both ends, and the axes are labelled with the variable only.",
+            "The curve has arrows at both ends, and the axes are labelled with the variable and its unit.",
+            "The curve has no arrows, and the axes are labelled with the variable and its unit.",
+            "The curve has no arrows, and the axes are labelled with the variable only."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "For the mass-spring function h(t) = 10 sin(2π(t + 0.75)) + 15, where t is in seconds and h is in cm, state the two essential graph features that are often omitted, and specify exactly how the axes must be labelled.",
+          "rubric": "Must mention both arrows at the ends of the curve to show infinite extension, and axes labels with variable and unit: horizontal axis labelled 't (s)' and vertical axis labelled 'h (cm)'."
+        }
+      ],
+      "passRule": "Q1: select option B (index 1). Q2: mention both arrows and axis labels with units (t in s, h in cm)."
+    },
+    {
+      "forErrorId": "err-midline-amplitude",
+      "questions": [
+        {
+          "id": "q1_midline_amp_formula",
+          "type": "single_choice",
+          "stem": "A spring's maximum height is 19 cm and its minimum height is 15 cm. Which statement correctly gives the midline and amplitude?",
+          "options": [
+            "midline = 17 cm, amplitude = 2 cm",
+            "midline = 2 cm, amplitude = 17 cm",
+            "midline = 17 cm, amplitude = 4 cm",
+            "midline = 15 cm, amplitude = 4 cm"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_spring_model",
+          "type": "open_ended",
+          "stem": "A spring oscillates between a maximum of 19 cm and a minimum of 15 cm. The period is 1 second and at t = 0 it is at the midline moving upward. Write the sinusoidal function h(t) = A sin(k t) + C that models this motion.",
+          "rubric": "Amplitude A = (19-15)/2 = 2; Midline C = (19+15)/2 = 17; Period 1 s gives k = 2π; Therefore h(t) = 2 sin(2π t) + 17. Accept equivalent forms that clearly show amplitude 2 and midline 17 (not swapped)."
+        }
+      ],
+      "passRule": "Q1 must be correct. Q2 must have amplitude = 2 and midline = 17 in the final equation, with k = 2π, and must not swap amplitude and midline."
+    },
+    {
+      "forErrorId": "err-sine-vs-cosine",
+      "questions": [
+        {
+          "id": "q1_spring_max_initial",
+          "type": "single_choice",
+          "stem": "A mass on a spring has a height modelled by a sinusoidal function with midline 15 cm, amplitude 10 cm, and period 1 s. At t = 0, the mass is at its highest point (25 cm). Which parent function is the more natural starting point for this model?",
+          "options": [
+            "sine",
+            "cosine",
+            "either sine or cosine equally",
+            "cannot be determined from the information given"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_temperature_model_justify",
+          "type": "open_ended",
+          "stem": "A 24-hour temperature cycle has a maximum of 25°C and a minimum of 13°C. The maximum occurs 17 hours after midnight. Write a sinusoidal model for T(t) using the appropriate sine or cosine parent function, and justify why you chose that parent function.",
+          "rubric": "Model: T(t) = 6 cos(π/12(t − 17)) + 19 (or algebraically equivalent). Justification: Cosine is chosen because the maximum occurs at t = 17; a cosine function naturally starts at a maximum (crest), so shifting the cosine curve 17 hours right matches the given crest location. Award full credit only if both the correct model and the crest-based justification appear."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly (cosine). Q2 must include the correct model T(t) = 6 cos(π/12(t − 17)) + 19 (or algebraically equivalent) and a justification that explicitly connects the choice of cosine to the maximum occurring at t = 17."
+    },
+    {
+      "forErrorId": "err-calculator-mode",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A temperature model is given by T(t) = 6 cos(π/12 (t – 17)) + 19. A student wants to find the first time after t = 0 when T = 25°C. Before solving, which calculator mode should they select?",
+          "options": [
+            "Degree mode",
+            "Radian mode",
+            "Gradient mode",
+            "It doesn't matter since cos is an even function"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "For the mass-on-spring motion h(t) = 10 sin(2πt + 1.5π) + 15, a student's calculator is in degree mode. They correctly solve sin(2πt + 1.5π) = 0.3 but get t ≈ 17 seconds by mixing the degree arcsine with the radian argument. Explain why this is incorrect and describe the first step you would take to avoid this error.",
+          "rubric": "The explanation must state that 2πt and 1.5π are in radians, so the calculator must be set to radian mode before using inverse sine. Degree mode makes arcsin(0.3) ≈ 17.46° and treating the radian expression as degrees leads to a wrong time. The first step is to set the calculator to RAD mode."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. Q1 must select 'Radian mode'. Q2 must explicitly mention radian mode and the need to check/set the calculator to RAD before solving."
+    },
+    {
+      "forErrorId": "err-intersection-direction",
+      "questions": [
+        {
+          "id": "q1-intersection-direction-mc",
+          "type": "single_choice",
+          "stem": "For h(t)=10 sin(2π(t+0.75))+15, the horizontal line h(t)=18 is drawn on the graph. A student lists every x-value where the line meets the curve. The problem asks only for times when the mass is moving upward. Which statement best describes the correct solution set?",
+          "options": [
+            "0.3, 1.3, and 2.3 only, because those are the intersections where the function is increasing.",
+            "All intersections are valid, because the mass reaches h=18 at every intersection.",
+            "Only the first intersection is valid, because afterward the graph repeats.",
+            "0.3, 1.3, and 2.3 only, because those are all the intersections in one positive period."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-intersection-direction-oe",
+          "type": "open_ended",
+          "stem": "After solving h(t)=18 algebraically, a student finds several t-values but cannot tell which correspond to upward motion. Write one mathematical condition that each accepted t-value must satisfy, and explain why a t-value obtained from a falling branch fails the condition.",
+          "rubric": "Accepted t-values must lie on an interval where h is increasing, equivalently h'(t) > 0 or the slope of the tangent is positive. A falling branch has h'(t) < 0, so it does not satisfy the upward-motion condition."
+        }
+      ],
+      "passRule": "Q1 must select option 0; Q2 must mention that accepted times require h increasing, positive slope, or derivative > 0."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-10",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Hmr5dgSYBoBviZxLjmbcvx71nVd?from=vc_group_doc_link#doxcnosf9eI4IXCUD3heZRi5Goh",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-08-10 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Trigonometric function transformations are applied in two stages: first amplitude and horizontal stretch/compression (affecting x), then phase shift and vertical shift (via mapping notation).；The mapping rule for y = a sin(k(x - d)) + c is (x/k + d, ay + c), applied to key points to obtain the transformed graph.；For the example f(x) = 3 sin 2(x + π/6) – 1, the intermediate function after amplitude and period is 3 sin 2x, and final points are obtained using (x/2 – π/6, 3y – 1).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Apply transformations (amplitude, period, phase shift, vertical shift) to trigonometric functions using mapping notation in the correct order."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Construct accurate graphs of trigonometric functions with proper axes, arrows, and labels."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Derive a sinusoidal model from real-world data by determining midline, amplitude, period, and phase shift, and choose the appropriate trigonometric function."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Solve trigonometric equations graphically and identify times that satisfy given height on upward or downward segments."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "deadline",
+        "title": "Unit 3 Lesson 2 Part 3 Homework Due",
+        "studentAction": "Complete and submit the assigned homework.",
+        "deadlineText": "before next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "The assigned Unit 3 Lesson 2 Part 3 homework is due before the next class",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Weekend Learning Log Submission",
+        "studentAction": "Submit the weekend learning log if not already done.",
+        "deadlineText": "as soon as possible (overdue)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "students must submit the weekend learning log if they have not already done so",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Homework Question Submission Rule",
+        "studentAction": "Specify exact question numbers and lesson parts when submitting homework queries.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students must specify exact question numbers and corresponding lesson parts when submitting homework queries",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "teacher_request",
+        "title": "Calculator Mode Reminder",
+        "studentAction": "Ensure calculator is set to correct radian/degree mode for trig calculations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Students using calculators for trigonometric calculations must confirm the device is set to the correct radian/degree mode",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "announcement",
+        "title": "Syllabus Progress and Q&A Time",
+        "studentAction": "Note that teaching will follow the syllabus and each session includes homework Q&A time.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Teaching will prioritize alignment with the scheduled syllabus... with dedicated time reserved for homework Q&A in each session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Upcoming Unit 3 Quiz Review Session",
+        "studentAction": "Know that a review session will precede the Unit 3 quiz.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The Unit 3 quiz will be preceded by a full review session covering all content from the three completed lessons",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "MHF4U-B-transformation-order",
+      "MHF4U-B-graphing-conventions",
+      "MHF4U-B-sinusoidal-modeling",
+      "MHF4U-B-equation-solving-graphical"
+    ],
+    "totalQuestions": 6,
+    "completed": false,
+    "passScore": 6,
+    "diagnosisRules": [
+      {
+        "errorId": "err-transformation-order",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-transformation-order"
+      },
+      {
+        "errorId": "err-graph-arrow-labels",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-graph-arrow-labels"
+      },
+      {
+        "errorId": "err-midline-amplitude",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-midline-amplitude"
+      },
+      {
+        "errorId": "err-sine-vs-cosine",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-sine-vs-cosine"
+      },
+      {
+        "errorId": "err-calculator-mode",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-calculator-mode"
+      },
+      {
+        "errorId": "err-intersection-direction",
+        "condition": "student picks wrong option on Q that targets this errorId",
+        "systemAction": "assign reteach module for err-intersection-direction"
+      }
+    ],
+    "nextActions": [
+      "[err-transformation-order] student picks wrong option on Q that targets this errorId: You mistakenly applied the horizontal shift before factoring out the coefficient. Remember: the mapping is (x/k + d, ay + c) after factoring k from the argument.",
+      "[err-graph-arrow-labels] student picks wrong option on Q that targets this errorId: Your graph is missing essential conventions. Always add arrows at the ends and label axes with both variable and unit.",
+      "[err-midline-amplitude] student picks wrong option on Q that targets this errorId: You confused midline and amplitude. Midline = (max+min)/2, amplitude = (max−min)/2.",
+      "[err-sine-vs-cosine] student picks wrong option on Q that targets this errorId: Choosing sine vs. cosine depends on the start of the period. A cosine curve fits when the graph has a maximum near the y-axis.",
+      "[err-calculator-mode] student picks wrong option on Q that targets this errorId: You likely had your calculator in the wrong mode. For radian functions, always switch to radian mode.",
+      "[err-intersection-direction] student picks wrong option on Q that targets this errorId: You included an intersection point where the function is decreasing. For 'upward segments', only use times where derivative > 0."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-s6-0810-q1",
+        "type": "choice",
+        "question": "Given f(x) = 2 sin(3(x – π/4)) + 1, which mapping correctly generates points on the transformed graph from the base sine function?",
+        "options": [
+          "(x/3 + π/4, 2y + 1)",
+          "(x/3 – π/4, 2y + 1)",
+          "(x/3 + π/4, 2y – 1)",
+          "(3x + π/4, y/2 + 1)"
+        ],
+        "correct": 0,
+        "diagnosis": "Test if student can correctly apply the two-stage mapping order (amplitude/period then phase/vertical shift) without mixing horizontal operations.",
+        "misconceptions": [
+          "✓ Correct. The mapping factors k=3: (x/k + d, ay + c) = (x/3 + π/4, 2y + 1).",
+          "The horizontal shift is +π/4, not –π/4. Check the sign inside the brackets.",
+          "The vertical shift is +1, so the y-coordinate should be 2y+1, not 2y–1.",
+          "The horizontal factor should be x/3, not 3x, and the amplitude is 2 not 1/2."
+        ],
+        "nodeId": "MHF4U-B-transformation-order",
+        "errorId": "err-transformation-order",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly applies the mapping rule (x/k + d, ay + c) to generate transformed points.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly assesses B2: connecting algebraic and graphical representations through transformations.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Applying the horizontal shift before factoring k, leading to an incorrect phase shift.",
+        "remediationModule": "err-transformation-order",
+        "retestItem": "err-transformation-order"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q2",
+        "type": "choice",
+        "question": "Which statement correctly describes the required conventions for a complete graph of a trigonometric function?",
+        "options": [
+          "Ends of the graph must have arrows, and axes must be labelled with variable and unit.",
+          "Ends do not need arrows; axes must be labelled with variable only.",
+          "Ends must have arrows; axes must be labelled with variable but unit is optional.",
+          "Arrows are only needed if the function continues; axes must be labelled with variable and unit."
+        ],
+        "correct": 0,
+        "diagnosis": "Verify that students know the basic visual standards required for a properly presented trig graph.",
+        "misconceptions": [
+          "✓ Yes. Arrows indicate infinite behaviour, and labels provide context.",
+          "Trigonometric functions extend infinitely; arrows are essential. Units are also needed when real-world quantities are involved.",
+          "Units provide meaning to numerical values; they are required.",
+          "The function always continues; arrows must always be drawn."
+        ],
+        "nodeId": "MHF4U-B-graphing-conventions",
+        "errorId": "err-graph-arrow-labels",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student identifies arrows and axis labels (with units) as non-negotiable graph features.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Graphing conventions are part of the 'graphical representations' aspect of B2.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "construct",
+        "commonMisconception": "Believing that arrows are optional or that axis labels do not require units.",
+        "remediationModule": "err-graph-arrow-labels",
+        "retestItem": "err-graph-arrow-labels"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q3",
+        "type": "choice",
+        "question": "A sinusoidal function models daily temperature. The maximum temperature is 28°C and the minimum is 14°C. What are the midline and amplitude?",
+        "options": [
+          "Midline 21°C, amplitude 7°C",
+          "Midline 21°C, amplitude 14°C",
+          "Midline 14°C, amplitude 7°C",
+          "Midline 7°C, amplitude 21°C"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can extract midline and amplitude from real-world max/min values using standard formulas.",
+        "misconceptions": [
+          "✓ Correct. Midline = (28+14)/2 = 21, amplitude = (28−14)/2 = 7.",
+          "14°C is the total range, not the amplitude. Amplitude is half the range.",
+          "The midline is the average, not the minimum.",
+          "These numbers are swapped. Midline is the average, amplitude is half the difference."
+        ],
+        "nodeId": "MHF4U-B-sinusoidal-modeling",
+        "errorId": "err-midline-amplitude",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly computes midline and amplitude from max/min data.",
+        "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "MHF4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Midline and amplitude are foundational for sinusoidal modelling, which falls under B3 problem solving.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Using (max+min)/2 for amplitude or using max−min without halving.",
+        "remediationModule": "err-midline-amplitude",
+        "retestItem": "err-midline-amplitude"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q4",
+        "type": "choice",
+        "question": "A periodic phenomenon reaches its maximum at t = 0 and has a period of 24 hours. Which function type best models this data?",
+        "options": [
+          "f(t) = A sin(π/12 t) + C",
+          "f(t) = A cos(π/12 t) + C",
+          "f(t) = A sin(π/12 (t – 6)) + C",
+          "f(t) = A cos(π/12 (t – 12)) + C"
+        ],
+        "correct": 1,
+        "diagnosis": "Diagnose if student can reason about the initial value of a periodic function to select the appropriate trigonometric model.",
+        "misconceptions": [
+          "Sine with no phase shift starts at the midline, not a maximum. You would need a phase shift.",
+          "✓ Correct. Cosine without a phase shift has its maximum at t = 0.",
+          "This sine curve is shifted 6 hours right, but the maximum is not necessarily at t = 0.",
+          "This cosine curve is shifted right by 12 hours; its maximum is at t = 12, not at t = 0."
+        ],
+        "nodeId": "MHF4U-B-sinusoidal-modeling",
+        "errorId": "err-sine-vs-cosine",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student chooses the correct parent function (sine vs cosine) based on the graph's behaviour at the y‑axis.",
+        "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "MHF4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Selecting sine vs cosine is a key modelling decision within B3 problem solving.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Arbitrarily choosing sine or cosine without analysing the start of the period; assuming sine always starts at origin.",
+        "remediationModule": "err-sine-vs-cosine",
+        "retestItem": "err-sine-vs-cosine"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q5",
+        "type": "choice",
+        "question": "In the spring model h(t) = 10 sin(2πt + 1.5π) + 15, a student solves h(t) = 18 and obtains t ≈ 17.2 s instead of the expected 0.3 s. What is the most likely cause of this error?",
+        "options": [
+          "The calculator was in degree mode instead of radian mode.",
+          "The student used sine instead of cosine.",
+          "The amplitude was miscalculated as 10.",
+          "The horizontal shift was omitted."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student can troubleshoot unrealistic numerical answers by identifying calculator mode as a common pitfall.",
+        "misconceptions": [
+          "✓ Yes. In degree mode, sin(2π rad) is misinterpreted, leading to an absurdly large time.",
+          "Using the wrong function type would shift the entire curve, not just scale the time incorrectly.",
+          "The amplitude is correct; miscalculation would give a different height, not a wrong time.",
+          "Omitting the shift would offset the times slightly, but not by an order of magnitude."
+        ],
+        "nodeId": "MHF4U-B-equation-solving-graphical",
+        "errorId": "err-calculator-mode",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student recognizes that degree-mode computation corrupts radian-based trigonometric calculations.",
+        "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "MHF4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Solving trig equations numerically is a core part of B3; mode awareness is a practical skill for correct solutions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Assuming the calculator automatically handles radian/degree regardless of mode; not checking mode before solving trig equations.",
+        "remediationModule": "err-calculator-mode",
+        "retestItem": "err-calculator-mode"
+      },
+      {
+        "id": "diag-mhf4u-s6-0810-q6",
+        "type": "choice",
+        "question": "For h(t) = 10 sin(2πt + 1.5π) + 15, solving h = 18 on upward segments yields t = 0.3, 1.3, 2.3. The equation also gives t = 0.8, which satisfies h = 18. Why is t = 0.8 not an accepted solution?",
+        "options": [
+          "At t = 0.8 the function is decreasing, not increasing.",
+          "t = 0.8 is outside the domain of the function.",
+          "The amplitude 10 is not large enough to reach 18.",
+          "t = 0.8 gives h = 16, not 18."
+        ],
+        "correct": 0,
+        "diagnosis": "Test if student can reason about the direction of motion and reject extraneous solutions from a trigonometric equation.",
+        "misconceptions": [
+          "✓ Correct. The problem specifies 'on upward segments', so only points where the derivative is positive are valid.",
+          "The domain is all real numbers; 0.8 is perfectly valid as an input.",
+          "The amplitude is 10 around a midline of 15, so maximum is 25; 18 is reachable.",
+          "The numbers show that h(0.8) does equal 18, but the question is about direction."
+        ],
+        "nodeId": "MHF4U-B-equation-solving-graphical",
+        "errorId": "err-intersection-direction",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student distinguishes between intersection points and applies the 'increasing' condition to select correct solutions.",
+        "ossdExpectation": "Solve problems involving trigonometric equations and prove trigonometric identities.",
+        "officialExpectationCode": "B3",
+        "officialNodeId": "MHF4U-B-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Filtering solutions by monotonic behaviour is a graphical problem‑solving skill under B3.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Including all points where the equation holds, without considering whether the function is increasing or decreasing.",
+        "remediationModule": "err-intersection-direction",
+        "retestItem": "err-intersection-direction"
+      }
+    ]
+  }
+}

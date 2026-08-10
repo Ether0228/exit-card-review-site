@@ -1,0 +1,832 @@
+{
+  "sourceLesson": "CIA4U.S6.Bianca 2026-08-07",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Ff0JdRBz1ohEDbxg9c3cjGQdnNS?from=vc_group_doc_link#doxcnd6A6dgTjGOGZydkTssE3qh",
+  "sourceTitle": "CIA4U.S6.Bianca 2026-08-07 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Ff0JdRBz1ohEDbxg9c3cjGQdnNS?from=vc_group_doc_link#doxcnd6A6dgTjGOGZydkTssE3qh",
+    "title": "CIA4U.S6.Bianca 2026-08-07 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-07/sources/cia4u-s6-bianca-2026-08-07/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "CIA4U",
+  "lessonDate": "2026-08-07",
+  "teacher": "Bianca",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-08-07",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes substantial academic instruction on the Bank of Canada and the US Federal Reserve, followed by group discussion (practice) and administrative reminders (homework, test notice, camera policy).",
+    "academicContentSignals": [
+      "Bank of Canada establishment (1934 Act, private->nationalized 1938, HQ Ottawa)",
+      "Board of directors structure (15 members, governor, senior deputy, deputy minister of finance, 12 external directors, 3-year terms)",
+      "Four core functions: currency issuance (monopoly by 1945), government funds management, financial system stability (lender of last resort), monetary policy (inflation control)",
+      "Independence: Minister of Finance can issue directive, but never used; transparency measures (MPR, press conferences, website)",
+      "US Federal Reserve System: Board of Governors (7 members, 14-year terms), FOMC (8 meetings/year), regional banks (NY, Chicago, SF largest)",
+      "Monetary policy tools: reserve requirements, open market operations, discount rate",
+      "Video: historical chaos of colonial currency, Great Depression impetus, victory bonds, polymer notes",
+      "Video: 2% inflation target, interest rate transmission mechanism",
+      "Expert interview: oil supply shock impact, temporary tax cut vs. structural adjustment"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low-medium; substantial academic content exists; administrative items are limited and can be captured as lightweight readiness checks. Prioritize diagnostic items on BoC structure/functions, independence, and Fed comparison.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Enable video",
+        "studentAction": "Students who haven't turned on cameras must enable video for class participation.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the instructor repeatedly reminded students who had not turned on their cameras to enable video for class participation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Submit Unit 3 Assignment 1",
+        "studentAction": "7 students must finish and submit Unit 3 Assignment 1 before leaving class.",
+        "deadlineText": "before leaving class on 2026-08-07 (by 11:49 AM Beijing time)",
+        "deadlineISO": "2026-08-07T11:49:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "7 students who haven't submitted",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "11 out of 18 students have completed the submission of Unit 3 Assignment 1, and the remaining students must finish and submit the assignment before leaving the class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Late submission policy",
+        "studentAction": "Students needing extra time must inform instructor in advance to avoid penalty.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students needing extension",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students who need additional time to complete the assignment must inform the instructor in advance, so the instructor can confirm the delay request and avoid unnecessary penalty.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 comprehensive test",
+        "studentAction": "Prepare for test; review materials will be provided.",
+        "deadlineText": "mid next week (week of 2026-08-10)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The comprehensive test for Unit 3 will be held in the middle of next week, and the instructor will provide targeted review materials and guidance for all students before the test.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "follow_up_action",
+        "title": "Test review materials",
+        "studentAction": "Await review materials from instructor.",
+        "deadlineText": "sometime before mid next week",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "the instructor will provide targeted review materials and guidance for all students before the test",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Homework: short answer questions on Bank of Canada",
+        "studentAction": "Answer three questions: official start time of operations, four core functions, and comment on independence. Submit via chat box link when posted.",
+        "deadlineText": "after class (exact deadline pending); submission link will be sent in chat box",
+        "deadlineISO": null,
+        "platform": "Feishu chat",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students need to answer three questions: the official start time of the Bank of Canada’s operations, its four core functions, and a short paragraph commenting on the bank’s independence. The instructor will send the full question list and unified submission entry to the class chat box for centralized collection after the class ends.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "The comprehensive test for Unit 3 will be held in the middle of next week",
+        "reason": "Exact date and time not specified; only 'mid next week' given."
+      },
+      {
+        "rawText": "instructor will send the full question list and unified submission entry to the class chat box for centralized collection after the class ends",
+        "reason": "Exact submission link and deadline not yet provided; relative timing 'after class' may be same day but unconfirmed."
+      }
+    ]
+  },
+  "title": "CIA4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Bank of Canada Establishment and Governance、Core Functions of the Bank of Canada、Independence and Transparency of the Bank of Canada、Structure of the U.S. Federal Reserve System）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The Bank of Canada was created by the Bank of Canada Act in 1934 and began operations in 1935.；It was originally a private institution, nationalized in 1938, and gained a monopoly on banknote issuance by 1945.；The Bank of Canada's headquarters are in Ottawa, and it is governed by a 15-member board including the governor, senior deputy governor, deputy minister of finance, and 12 external directors.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Explain the establishment timeline, governance, and limited independence of the Bank of Canada."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Describe the four core functions of the Bank of Canada and how monetary policy transmission affects inflation and spending."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Compare the structure of the Bank of Canada with the U.S. Federal Reserve System, including the composition and role of the FOMC."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "node-boc-establishment",
+      "name": "Bank of Canada Establishment and Governance",
+      "nameEn": "Bank of Canada Establishment and Governance",
+      "definition": "The Bank of Canada was established via the Bank of Canada Act in 1934, launched operations in 1935, nationalized in 1938, and acquired a banknote monopoly by 1945. It is governed by a 15-member board and operates with partial independence under federal oversight.",
+      "officialExpectationCode": "DD3.1",
+      "officialNodeId": "CIA4U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Analyse the role of the Bank of Canada, with a particular emphasis on monetary policy."
+    },
+    {
+      "id": "node-boc-functions",
+      "name": "Core Functions of the Bank of Canada",
+      "nameEn": "Core Functions of the Bank of Canada",
+      "definition": "The Bank of Canada's four core functions are: currency issuance and management, government funds management, financial system stability, and monetary policy implementation. Its ultimate goal is low and stable inflation (2% target) to protect purchasing power.",
+      "officialExpectationCode": "DD3.1",
+      "officialNodeId": "CIA4U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Analyse the role of the Bank of Canada, with a particular emphasis on monetary policy."
+    },
+    {
+      "id": "node-boc-independence",
+      "name": "Independence and Transparency of the Bank of Canada",
+      "nameEn": "Independence and Transparency of the Bank of Canada",
+      "definition": "The Bank of Canada is not fully independent; the Minister of Finance can issue a binding directive on monetary policy, though this power has never been used. It enhances transparency through reports, press conferences, and a public website.",
+      "officialExpectationCode": "DD3.1",
+      "officialNodeId": "CIA4U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Analyse the role of the Bank of Canada, with a particular emphasis on monetary policy."
+    },
+    {
+      "id": "node-us-fed-structure",
+      "name": "Structure of the U.S. Federal Reserve System",
+      "nameEn": "Structure of the U.S. Federal Reserve System",
+      "definition": "The U.S. Federal Reserve includes the Board of Governors, 12 regional banks, the FOMC, and member banks. The FOMC sets policy rates at 8 annual meetings. Board members serve 14-year terms; the chair serves 4 years. The three largest regional banks hold over 50% of system assets.",
+      "officialExpectationCode": "DD3.1",
+      "officialNodeId": "CIA4U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+      "ossdExpectation": "Analyse various aspects of monetary policy in Canada and their impact on the economy. (Comparative study of central banking structures)",
+      "_note": "Comparison with U.S. Fed is used to deepen understanding of monetary policy systems, linking to international economic analysis under Strand E where appropriate."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Explain the establishment timeline, governance, and limited independence of the Bank of Canada."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Describe the four core functions of the Bank of Canada and how monetary policy transmission affects inflation and spending."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Compare the structure of the Bank of Canada with the U.S. Federal Reserve System, including the composition and role of the FOMC."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-boc-timeline",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q1",
+        "systemAction": "assign reteach module err-boc-timeline",
+        "studentMessage": "Let's review the early timeline of the Bank of Canada: 1934 Act, 1935 operations, 1938 nationalization, 1945 banknote monopoly."
+      },
+      {
+        "errorId": "err-boc-functions",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q2 OR does not meet rubric on diag-cia4u-s6-0807-q6",
+        "systemAction": "assign reteach module err-boc-functions",
+        "studentMessage": "The four core functions are connected but distinct. Let's practice classifying them with quick scenarios."
+      },
+      {
+        "errorId": "err-boc-independence",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q3",
+        "systemAction": "assign reteach module err-boc-independence",
+        "studentMessage": "The Bank of Canada is not fully independent. Let's clarify the Minister of Finance's reserve directive power."
+      },
+      {
+        "errorId": "err-fed-composition",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q4",
+        "systemAction": "assign reteach module err-fed-composition",
+        "studentMessage": "Let's review who actually sits on the FOMC and how the Fed is structured."
+      },
+      {
+        "errorId": "err-inflation-target",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q5",
+        "systemAction": "assign reteach module err-inflation-target",
+        "studentMessage": "The 2% target is about protecting purchasing power. Let's revisit why low and stable inflation matters."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-cia4u-s6-0807-q1",
+        "nodeId": "node-boc-establishment",
+        "errorId": "err-boc-timeline",
+        "stem": "Which sequence correctly describes the Bank of Canada's early history?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly recalls the chronological milestones in the Bank of Canada's establishment.",
+        "ossdExpectation": "Analyse the role of the Bank of Canada, with a particular emphasis on monetary policy.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "CIA4U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The establishment timeline supports analysis of the Bank of Canada's evolving institutional role.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks whether the student can distinguish the correct order of the Bank of Canada's founding dates.",
+        "commonMisconception": "Students may think operations began in the same year the Bank of Canada Act was passed or that nationalization came first.",
+        "remediationModule": "err-boc-timeline",
+        "retestItem": "retest-err-boc-timeline",
+        "options": [
+          {
+            "label": "A",
+            "text": "Act passed 1934; operations began 1935; nationalized 1938; banknote monopoly by 1945.",
+            "correct": true,
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "Operations began 1934; Act passed 1935; nationalized 1945; banknote monopoly 1938.",
+            "correct": false,
+            "feedbackWrong": "Not quite. The Act was passed first, in 1934, and operations did not begin until 1935. Nationalization came in 1938, and the banknote monopoly came after that."
+          },
+          {
+            "label": "C",
+            "text": "Act passed 1938; operations began 1934; nationalized 1935; banknote monopoly 1945.",
+            "correct": false,
+            "feedbackWrong": "The Act was passed before operations, and nationalization occurred after the bank was already operating. The correct order is 1934, 1935, 1938, 1945."
+          },
+          {
+            "label": "D",
+            "text": "Act passed 1935; operations began 1938; nationalized 1934; banknote monopoly 1945.",
+            "correct": false,
+            "feedbackWrong": "All three decades are mixed up. The Bank of Canada began operations in 1935 and was nationalized in 1938, not the reverse."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-boc-timeline",
+      "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q1",
+      "systemAction": "assign reteach module err-boc-timeline",
+      "studentMessage": "Let's review the early timeline of the Bank of Canada: 1934 Act, 1935 operations, 1938 nationalization, 1945 banknote monopoly."
+    },
+    {
+      "errorId": "err-boc-functions",
+      "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q2 OR does not meet rubric on diag-cia4u-s6-0807-q6",
+      "systemAction": "assign reteach module err-boc-functions",
+      "studentMessage": "The four core functions are connected but distinct. Let's practice classifying them with quick scenarios."
+    },
+    {
+      "errorId": "err-boc-independence",
+      "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q3",
+      "systemAction": "assign reteach module err-boc-independence",
+      "studentMessage": "The Bank of Canada is not fully independent. Let's clarify the Minister of Finance's reserve directive power."
+    },
+    {
+      "errorId": "err-fed-composition",
+      "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q4",
+      "systemAction": "assign reteach module err-fed-composition",
+      "studentMessage": "Let's review who actually sits on the FOMC and how the Fed is structured."
+    },
+    {
+      "errorId": "err-inflation-target",
+      "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q5",
+      "systemAction": "assign reteach module err-inflation-target",
+      "studentMessage": "The 2% target is about protecting purchasing power. Let's revisit why low and stable inflation matters."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-boc-independence",
+      "trigger": "Student believes the Bank of Canada is fully independent from the Government of Canada and has no legal accountability to the Minister of Finance.",
+      "studentMisunderstanding": "The Bank of Canada is not fully independent. The Minister of Finance can issue a binding directive on monetary policy, but this power has never been used. The Bank's 2% inflation target is agreed with the federal government, and its governance structure includes government representation and approval, so it has operational independence rather than full independence.",
+      "miniLesson": {
+        "explain": "The Bank of Canada has operational independence in day-to-day monetary policy decisions, but it is not fully independent from the federal government. The Bank of Canada Act gives the Minister of Finance a legal power to issue a binding directive on monetary policy. This reserve power has never been used, but its existence shows that the Bank is ultimately accountable to the elected government. The Bank's 2% inflation target is also agreed with the federal government, not chosen unilaterally. The 15-member board includes the deputy minister of finance, and the governor and senior deputy governor are appointed for a renewable 7-year term subject to federal government approval. These facts all point to 'independence within government' rather than 'independence from government.'",
+        "example": "When the Bank of Canada and the federal government renewed the 2% inflation-control target, they did so jointly. If the Minister of Finance ever disagreed with a monetary policy decision, he could issue a binding directive to change it. That this power has never been used shows how seriously both sides treat the Bank's credibility, but the legal power still exists. Transparency measures such as regular Monetary Policy Reports, eight annual press conferences, and the website bankofcanada.ca help maintain public trust in the Bank's decisions.",
+        "memoryAnchor": "Think: the Bank drives the car, but the Minister holds the emergency brake. The brake has never been pulled, but it is still there. The Bank is independent within government, not independent from government."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: The Bank of Canada is fully independent from the Government of Canada. If false, name the legal power the Minister of Finance holds over monetary policy.",
+          "answer": "False. The Bank of Canada is not fully independent; the Minister of Finance can issue a binding directive on monetary policy, though this power has never been used."
+        },
+        {
+          "level": "L2",
+          "prompt": "The Minister of Finance has the legal power to direct the Bank of Canada's monetary policy. Explain one reason why this power has never been used, even though it exists.",
+          "answer": "Using it would undermine the Bank's credibility and make monetary policy appear politically influenced. If the public believed inflation was being managed for political gain, inflation expectations could rise, making it harder to maintain the 2% target. That is why the power remains a reserve tool."
+        },
+        {
+          "level": "L3",
+          "prompt": "Using at least two features from the Bank of Canada's governance structure or inflation-targeting agreement, argue whether 'full independence' or 'operational independence' is a better description of the Bank's relationship to the federal government.",
+          "answer": "Operational independence is the better description. The Bank's 15-member board includes the deputy minister of finance, and the governor and senior deputy governor are appointed for a renewable 7-year term subject to federal government approval. Additionally, the 2% inflation target is agreed with the federal government, and the Minister of Finance can issue a binding directive on monetary policy. These features mean the Bank has day-to-day operational freedom but is ultimately accountable within the government framework, so it is not fully independent."
+        }
+      ]
+    },
+    {
+      "errorId": "err-boc-functions",
+      "trigger": "Student chooses an incorrect option on diag-cia4u-s6-0807-q2 OR does not meet rubric on diag-cia4u-s6-0807-q6",
+      "studentMisunderstanding": "Mixing up the four core functions of the Bank of Canada (currency issuance and management, government funds management, financial system stability, and monetary policy implementation). The student may conflate them, e.g., treating open market operations as currency issuance or viewing lender-of-last-resort actions as government funds management.",
+      "miniLesson": {
+        "explain": "The Bank of Canada has four distinct core functions: 1) Currency issuance and management – producing and managing physical banknotes, like the upgrade from cotton paper to polymer. 2) Government funds management – acting as a fiscal agent to manage federal debt, foreign exchange reserves, and international financial transactions, which can influence exchange rates. 3) Financial system stability – acting as the lender of last resort to prevent bank runs and overseeing the national payment system. 4) Monetary policy implementation – using tools like open market operations to keep inflation low and stable at the 2% target, protecting purchasing power. These functions are related but separate: money creation is not the same as setting interest rates, managing government accounts, or stabilizing the banking system.",
+        "example": "Selling victory bonds during WWII is an example of government funds management, because it involves managing federal finances and debt. In contrast, using open market operations to influence interest rates is monetary policy implementation – that is about steering inflation to the 2% target, not about issuing currency or balancing the government's books.",
+        "memoryAnchor": "Think of the Bank of Canada as wearing four hats: the Mint (currency), the Treasurer (government funds), the Firefighter (financial stability), and the Thermostat (monetary policy). The Thermostat is always set to 2%."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "The Bank of Canada distributes new polymer $20 notes. Which of the four core functions is being fulfilled?",
+          "answer": "Currency issuance and management."
+        },
+        {
+          "level": "L2",
+          "prompt": "A major bank is facing a run, and the Bank of Canada steps in as the lender of last resort to provide emergency funds and prevent a panic. Which core function is this?",
+          "answer": "Financial system stability."
+        },
+        {
+          "level": "L3",
+          "prompt": "A Bank of Canada official is managing federal government debt, foreign exchange reserves, and international transactions to influence the exchange rate. Which core function is being performed, and why is it different from monetary policy implementation?",
+          "answer": "Government funds management. This is different from monetary policy implementation because it focuses on managing the government's own finances and external reserves, not on using interest rate tools to achieve the 2% inflation target."
+        }
+      ]
+    },
+    {
+      "errorId": "err-boc-timeline",
+      "trigger": "Student selects an incorrect option on diag-cia4u-s6-0807-q1 that misorders the Bank of Canada's establishment timeline (e.g., reversing 1934 and 1935, or placing nationalization before operations).",
+      "studentMisunderstanding": "Confusing the chronological milestones of the Bank of Canada's creation: thinking the Bank of Canada Act was passed in 1935 or that operations began in 1934, or that nationalization occurred before operations began.",
+      "miniLesson": {
+        "explain": "The Bank of Canada was not created all at once. It went through a clear sequence: first, the Bank of Canada Act was passed in 1934; then the Bank began operations in 1935; it was nationalized in 1938; and it gained a monopoly on banknote issuance by 1945. Remember the order: Act (1934) → Operations (1935) → Nationalization (1938) → Monopoly (1945).",
+        "example": "From the fact bank: 'The Bank of Canada was created by the Bank of Canada Act in 1934 and began operations in 1935.' It was 'originally a private institution, nationalized in 1938, and gained a monopoly on banknote issuance by 1945.' So the correct timeline is 1934, 1935, 1938, 1945.",
+        "memoryAnchor": "Think of a staircase: 'Act in 34, open the door in 35, go public in 38, sole printer by 45.' The numbers rise in order: 34 → 35 → 38 → 45."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Arrange these milestones in the correct chronological order: banknote monopoly, operations begin, Bank of Canada Act passed, nationalization.",
+          "answer": "1) Bank of Canada Act passed in 1934, 2) operations began in 1935, 3) nationalized in 1938, 4) banknote monopoly by 1945."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student writes: 'The Bank of Canada was created in 1935, then nationalized in 1934, and gained a note monopoly in 1938.' Identify the errors and give the correct timeline using the fact bank.",
+          "answer": "The errors are: the Act was passed in 1934, not 1935; nationalization happened in 1938, not 1934; and the note monopoly came by 1945, not 1938. The correct sequence is: Act 1934 → operations 1935 → nationalization 1938 → monopoly 1945."
+        },
+        {
+          "level": "L3",
+          "prompt": "Using the fact bank, explain why the Bank of Canada's timeline matters for understanding its role as a central bank (e.g., why public control and a note monopoly were gained after it began operating).",
+          "answer": "The timeline shows a gradual evolution: created by the Bank of Canada Act in 1934, operations began in 1935, it was nationalized in 1938, and it gained a monopoly on banknote issuance by 1945. This progression meant the Bank first established itself as a private institution, then became publicly controlled, and finally became the sole issuer of banknotes. That supports its core functions of currency issuance and financial system stability, helping consolidate the banking system and build public trust."
+        }
+      ]
+    },
+    {
+      "errorId": "err-fed-composition",
+      "trigger": "Student chooses an incorrect option on diag-cia4u-s6-0807-q4, revealing confusion about FOMC voting membership or Fed leadership terms.",
+      "studentMisunderstanding": "Believing all 12 regional Federal Reserve bank presidents vote on the FOMC, or confusing the Board of Governors' 14-year term with the chair's 4-year term.",
+      "miniLesson": {
+        "explain": "The U.S. Federal Reserve System includes the Board of Governors, 12 regional Federal Reserve Banks, and the FOMC. The FOMC does NOT include all 12 regional presidents as voters. It has 7 members from the Board of Governors, the president of the New York Fed (always), and 4 other regional bank presidents who rotate. That makes 12 voting members total. Also, Board of Governors members serve a non-renewable 14-year term, while the chair serves a separate 4-year term.",
+        "example": "In a given year, the FOMC voting seats are exactly: 7 Governors + 1 New York Fed president + 4 rotating regional presidents = 12 voting members. The other regional presidents still attend and contribute to discussion but do not vote that year. So the FOMC is not 19 members, and it definitely does not give all 12 regional banks a vote.",
+        "memoryAnchor": "N.Y. plus four: New York always votes, four rotate from the other regions. Governors hold 14-year terms; the chair's term is only 4."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many voting members are on the FOMC, and who are they?",
+          "answer": "12 voting members: 7 Board of Governors members, the New York Fed president, and 4 rotating regional bank presidents."
+        },
+        {
+          "level": "L2",
+          "prompt": "A classmate says, 'All 12 regional Fed presidents vote on the FOMC.' Why is that incorrect? Explain using the rotating system.",
+          "answer": "That is incorrect because only the New York Fed president always votes; the other 11 regional presidents rotate, and only 4 of them vote at any given time. The remaining regional presidents attend meetings but do not vote that year."
+        },
+        {
+          "level": "L3",
+          "prompt": "Compare the appointment terms of U.S. Federal Reserve Board members and the Bank of Canada's governor and senior deputy governor.",
+          "answer": "U.S. Federal Reserve Board members are appointed for a non-renewable 14-year term, and the chair serves a separate 4-year term. In Canada, the Bank of Canada's governor and senior deputy governor are appointed for renewable 7-year terms. This shows a key contrast: U.S. Board terms are much longer but non-renewable, while Canada's leadership terms are shorter but renewable."
+        }
+      ]
+    },
+    {
+      "errorId": "err-inflation-target",
+      "trigger": "Student misidentifies the Bank of Canada's inflation target as 3% instead of 2%, or is unable to explain why a 2% target is important.",
+      "studentMisunderstanding": "The student confuses the numerical inflation target or believes the goal is to eliminate inflation entirely. They do not connect the 2% target to maintaining low and stable inflation in order to protect purchasing power.",
+      "miniLesson": {
+        "explain": "The Bank of Canada's monetary policy has a primary goal of keeping inflation low and stable. The specific target, agreed with the federal government, is 2%. This target protects the purchasing power of money. When inflation is around 2%, prices rise slowly and predictably, so people's money does not lose value quickly. If inflation rises above 2%, the Bank of Canada can raise interest rates to curb excessive spending and slow inflation. If inflation falls too low, it can cut rates to reduce borrowing costs and stimulate the economy.",
+        "example": "Imagine a basket of goods costs $100. With 2% annual inflation, the same basket costs about $102 one year later. This small, stable increase means your savings and income still buy almost the same amount. If inflation unexpectedly jumped to 4%, the Bank of Canada would likely raise its policy interest rate to discourage spending, cool the economy, and push inflation back toward the 2% target.",
+        "memoryAnchor": "Think '2 for your money': the Bank of Canada targets 2% inflation so your dollar keeps close to 98% of its purchasing power each year. Two percent is the sweet spot — low enough to be stable, high enough to avoid deflation."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the Bank of Canada's official inflation target, and why does it matter?",
+          "answer": "The target is 2%, agreed with the federal government. It matters because low and stable inflation protects the purchasing power of money."
+        },
+        {
+          "level": "L2",
+          "prompt": "If inflation is running at 4%, what would the Bank of Canada likely do with its interest rate, and how would that affect household spending?",
+          "answer": "It would raise interest rates. Higher rates make borrowing more expensive, which curbs excessive spending and slows inflation, bringing it back toward the 2% target."
+        },
+        {
+          "level": "L3",
+          "prompt": "Based on Governor David Dodge's example, explain why a temporary fuel excise tax cut is not enough to solve high inflation, and explain what the 2% inflation target is intended to protect.",
+          "answer": "Dodge noted that a temporary fuel excise tax cut provides only short-term relief, not a substitute for long-term structural adjustment. The 2% target is intended to protect purchasing power and keep inflation low and stable over the long run, which requires monetary policy actions like interest rate adjustments rather than temporary tax measures."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-boc-independence",
+      "questions": [
+        {
+          "id": "transfer-q1",
+          "type": "single_choice",
+          "stem": "Which scenario best illustrates the Bank of Canada's legal accountability to the Government of Canada?",
+          "options": [
+            "The Minister of Finance may set interest rates at any time.",
+            "The Minister of Finance can issue a binding directive on monetary policy, although the power has never been used.",
+            "The Prime Minister can dismiss the Governor for any reason.",
+            "The federal government must approve every individual bond purchase by the Bank."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "transfer-q2",
+          "type": "open_ended",
+          "stem": "The Bank of Canada is often described as having 'operational independence' rather than 'full independence.' Using one governance feature or formal agreement from the lesson, explain how this limited independence is designed to keep monetary policy credible and effective.",
+          "rubric": "A complete response must (1) accurately identify a relevant feature such as the Minister of Finance's binding directive power, the 2% inflation target agreed jointly with the federal government, or the deputy minister of finance's membership on the board; (2) explain that this feature ties the Bank to democratic accountability while preserving day-to-day autonomy; and (3) note that the power is rarely used or structured to avoid political interference in inflation control. Partial credit for identifying the feature but not fully explaining the credibility rationale."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the response must identify at least one relevant governance feature and explain how that feature maintains credibility while ensuring accountability."
+    },
+    {
+      "forErrorId": "err-boc-functions",
+      "questions": [
+        {
+          "id": "retest-boc-functions-q1",
+          "type": "single_choice",
+          "stem": "The Bank of Canada conducts open market operations by buying government securities to lower interest rates and stimulate the economy. This is an example of which core function?",
+          "options": [
+            "Currency issuance and management",
+            "Government funds management",
+            "Financial system stability",
+            "Monetary policy implementation"
+          ],
+          "correct": 3
+        },
+        {
+          "id": "retest-boc-functions-q2",
+          "type": "single_choice",
+          "stem": "Which of the following activities is primarily part of the Bank of Canada's financial system stability function?",
+          "options": [
+            "Printing polymer banknotes",
+            "Acting as lender of last resort",
+            "Managing foreign exchange reserves",
+            "Setting the inflation target"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-boc-functions-q3",
+          "type": "open_ended",
+          "stem": "Describe two of the four core functions of the Bank of Canada. For each, give one specific example of an action the Bank might take. Be sure to choose two different functions and clearly distinguish between them.",
+          "rubric": "Award up to 3 points: 1 point for each correctly named function (must be from the four) and 1 point for each relevant example, with clear distinction. Assign 0-3 based on accuracy and clarity."
+        }
+      ],
+      "passRule": "All multiple-choice questions must be answered correctly, and the open-ended response must clearly identify at least two distinct core functions with accurate examples."
+    },
+    {
+      "forErrorId": "err-boc-timeline",
+      "questions": [
+        {
+          "id": "retest-boc-timeline-q1",
+          "type": "single_choice",
+          "stem": "Which of the following lists the Bank of Canada milestones in the correct chronological order?",
+          "options": [
+            "Act passed (1934) → nationalized (1938) → operations began (1935) → note monopoly (1945)",
+            "Operations began (1935) → Act passed (1934) → nationalized (1938) → note monopoly (1945)",
+            "Act passed (1934) → operations began (1935) → nationalized (1938) → note monopoly (1945)",
+            "Act passed (1934) → operations began (1935) → note monopoly (1945) → nationalized (1938)"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-boc-timeline-q2",
+          "type": "open_ended",
+          "stem": "A magazine article says: 'The Bank of Canada was established in 1935 and immediately became publicly owned, with the exclusive right to issue banknotes.' Explain the inaccuracies in this statement and provide the correct timeline using the fact bank.",
+          "rubric": "The response should note that: (1) the Bank of Canada Act was passed in 1934, and the Bank began operations in 1935, so 'established in 1935' is misleading; (2) the Bank was originally a private institution and was nationalized in 1938, not immediately publicly owned; (3) it gained a monopoly on banknote issuance by 1945. The correct chronological order is: 1934 Act, 1935 operations begin, 1938 nationalization, 1945 note monopoly."
+        }
+      ],
+      "passRule": "Q1 must be correct (option C). Q2 must identify at least two of the three inaccuracies and list all four milestones in the correct order."
+    },
+    {
+      "forErrorId": "err-fed-composition",
+      "questions": [
+        {
+          "id": "fedcomp-q1",
+          "type": "single_choice",
+          "stem": "Which of the following correctly describes voting membership on the Federal Open Market Committee (FOMC)?",
+          "options": [
+            "All 12 regional Federal Reserve Bank presidents vote on every FOMC decision.",
+            "The FOMC has 12 voting members: 7 Board members, the New York Fed president, and 4 rotating regional presidents.",
+            "The FOMC has 19 voting members because all regional presidents attend and vote.",
+            "Only the 12 regional bank presidents vote, and the Board members do not vote."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "fedcomp-q2",
+          "type": "single_choice",
+          "stem": "In the U.S. Federal Reserve System, how do the terms of the Board of Governors members and the Chair differ?",
+          "options": [
+            "Board members serve a 14-year non-renewable term; the Chair serves a separate 4-year term.",
+            "Board members serve a 4-year term; the Chair serves a 14-year non-renewable term.",
+            "Both serve 7-year renewable terms, like the Bank of Canada's governor.",
+            "Both serve 14-year terms, but the Chair can be reappointed."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "fedcomp-q3",
+          "type": "open_ended",
+          "stem": "A news report says that the president of the Federal Reserve Bank of Chicago is not a voting member of the FOMC this year. Explain why this can happen and identify how many regional bank presidents have a vote on the FOMC this year.",
+          "rubric": "Student must explain that the FOMC includes the New York Fed president plus four rotating regional presidents from the other eleven districts, so Chicago is not one of the current rotating voters. Must state that five regional presidents vote in total (New York + four rotating). If student says all 12 regional presidents vote or otherwise misstates the rotation, do not pass."
+        }
+      ],
+      "passRule": "Must answer Q1 and Q2 correctly and provide an open-ended response that satisfies the rubric for Q3."
+    },
+    {
+      "forErrorId": "err-inflation-target",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "The Bank of Canada’s monetary policy is guided by an inflation-control target. Which statement correctly describes this target and its purpose?",
+          "options": [
+            "0% inflation – to eliminate all price increases",
+            "2% inflation – to keep prices low and stable, thereby protecting the purchasing power of money",
+            "3% inflation – to encourage maximum economic growth",
+            "5% inflation – to reduce the unemployment rate"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Suppose inflation is running at 4%, well above the 2% target. Explain what action the Bank of Canada would likely take and how this action helps restore the 2% target. Then explain why a temporary fuel excise tax cut, as mentioned in the lesson, would not be a sufficient solution.",
+          "rubric": "Student should state that the Bank would raise its policy interest rate to discourage spending and borrowing, cooling the economy and slowing inflation back toward 2%. The second part should note that a temporary tax cut only provides short-term relief and does not address underlying demand pressures or structural causes of inflation, so it cannot replace monetary policy. Also mention that the 2% target protects purchasing power."
+        }
+      ],
+      "passRule": "Answer Q1 correctly AND Q2 with at least two key points from the rubric."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-08-07",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Ff0JdRBz1ohEDbxg9c3cjGQdnNS?from=vc_group_doc_link#doxcnd6A6dgTjGOGZydkTssE3qh",
+    "sourceTitle": "CIA4U.S6.Bianca 2026-08-07 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "The Bank of Canada was created by the Bank of Canada Act in 1934 and began operations in 1935.；It was originally a private institution, nationalized in 1938, and gained a monopoly on banknote issuance by 1945.；The Bank of Canada's headquarters are in Ottawa, and it is governed by a 15-member board including the governor, senior deputy governor, deputy minister of finance, and 12 external directors.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Explain the establishment timeline, governance, and limited independence of the Bank of Canada."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Describe the four core functions of the Bank of Canada and how monetary policy transmission affects inflation and spending."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Compare the structure of the Bank of Canada with the U.S. Federal Reserve System, including the composition and role of the FOMC."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "attendance_camera",
+        "title": "Enable video",
+        "studentAction": "Students who haven't turned on cameras must enable video for class participation.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "the instructor repeatedly reminded students who had not turned on their cameras to enable video for class participation.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Submit Unit 3 Assignment 1",
+        "studentAction": "7 students must finish and submit Unit 3 Assignment 1 before leaving class.",
+        "deadlineText": "before leaving class on 2026-08-07 (by 11:49 AM Beijing time)",
+        "deadlineISO": "2026-08-07T11:49:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "7 students who haven't submitted",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "11 out of 18 students have completed the submission of Unit 3 Assignment 1, and the remaining students must finish and submit the assignment before leaving the class.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "class_policy",
+        "title": "Late submission policy",
+        "studentAction": "Students needing extra time must inform instructor in advance to avoid penalty.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "students needing extension",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Students who need additional time to complete the assignment must inform the instructor in advance, so the instructor can confirm the delay request and avoid unnecessary penalty.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 comprehensive test",
+        "studentAction": "Prepare for test; review materials will be provided.",
+        "deadlineText": "mid next week (week of 2026-08-10)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The comprehensive test for Unit 3 will be held in the middle of next week, and the instructor will provide targeted review materials and guidance for all students before the test.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "follow_up_action",
+        "title": "Test review materials",
+        "studentAction": "Await review materials from instructor.",
+        "deadlineText": "sometime before mid next week",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "the instructor will provide targeted review materials and guidance for all students before the test",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-006",
+        "category": "assignment",
+        "title": "Homework: short answer questions on Bank of Canada",
+        "studentAction": "Answer three questions: official start time of operations, four core functions, and comment on independence. Submit via chat box link when posted.",
+        "deadlineText": "after class (exact deadline pending); submission link will be sent in chat box",
+        "deadlineISO": null,
+        "platform": "Feishu chat",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All students need to answer three questions: the official start time of the Bank of Canada’s operations, its four core functions, and a short paragraph commenting on the bank’s independence. The instructor will send the full question list and unified submission entry to the class chat box for centralized collection after the class ends.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "The comprehensive test for Unit 3 will be held in the middle of next week",
+        "reason": "Exact date and time not specified; only 'mid next week' given."
+      },
+      {
+        "rawText": "instructor will send the full question list and unified submission entry to the class chat box for centralized collection after the class ends",
+        "reason": "Exact submission link and deadline not yet provided; relative timing 'after class' may be same day but unconfirmed."
+      }
+    ],
+    "watchTags": [
+      "node-boc-establishment",
+      "node-boc-functions",
+      "node-boc-independence",
+      "node-us-fed-structure"
+    ],
+    "totalQuestions": 1,
+    "completed": false,
+    "passScore": 1,
+    "diagnosisRules": [
+      {
+        "errorId": "err-boc-timeline",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q1",
+        "systemAction": "assign reteach module err-boc-timeline"
+      },
+      {
+        "errorId": "err-boc-functions",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q2 OR does not meet rubric on diag-cia4u-s6-0807-q6",
+        "systemAction": "assign reteach module err-boc-functions"
+      },
+      {
+        "errorId": "err-boc-independence",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q3",
+        "systemAction": "assign reteach module err-boc-independence"
+      },
+      {
+        "errorId": "err-fed-composition",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q4",
+        "systemAction": "assign reteach module err-fed-composition"
+      },
+      {
+        "errorId": "err-inflation-target",
+        "condition": "student chooses an incorrect option on diag-cia4u-s6-0807-q5",
+        "systemAction": "assign reteach module err-inflation-target"
+      }
+    ],
+    "nextActions": [
+      "[err-boc-timeline] student chooses an incorrect option on diag-cia4u-s6-0807-q1: Let's review the early timeline of the Bank of Canada: 1934 Act, 1935 operations, 1938 nationalization, 1945 banknote monopoly.",
+      "[err-boc-functions] student chooses an incorrect option on diag-cia4u-s6-0807-q2 OR does not meet rubric on diag-cia4u-s6-0807-q6: The four core functions are connected but distinct. Let's practice classifying them with quick scenarios.",
+      "[err-boc-independence] student chooses an incorrect option on diag-cia4u-s6-0807-q3: The Bank of Canada is not fully independent. Let's clarify the Minister of Finance's reserve directive power.",
+      "[err-fed-composition] student chooses an incorrect option on diag-cia4u-s6-0807-q4: Let's review who actually sits on the FOMC and how the Fed is structured.",
+      "[err-inflation-target] student chooses an incorrect option on diag-cia4u-s6-0807-q5: The 2% target is about protecting purchasing power. Let's revisit why low and stable inflation matters."
+    ],
+    "cards": [
+      {
+        "id": "diag-cia4u-s6-0807-q1",
+        "type": "choice",
+        "question": "Which sequence correctly describes the Bank of Canada's early history?",
+        "options": [
+          "Act passed 1934; operations began 1935; nationalized 1938; banknote monopoly by 1945.",
+          "Operations began 1934; Act passed 1935; nationalized 1945; banknote monopoly 1938.",
+          "Act passed 1938; operations began 1934; nationalized 1935; banknote monopoly 1945.",
+          "Act passed 1935; operations began 1938; nationalized 1934; banknote monopoly 1945."
+        ],
+        "correct": 0,
+        "diagnosis": "Checks whether the student can distinguish the correct order of the Bank of Canada's founding dates.",
+        "misconceptions": [
+          "✓ 正确",
+          "Not quite. The Act was passed first, in 1934, and operations did not begin until 1935. Nationalization came in 1938, and the banknote monopoly came after that.",
+          "The Act was passed before operations, and nationalization occurred after the bank was already operating. The correct order is 1934, 1935, 1938, 1945.",
+          "All three decades are mixed up. The Bank of Canada began operations in 1935 and was nationalized in 1938, not the reverse."
+        ],
+        "nodeId": "node-boc-establishment",
+        "errorId": "err-boc-timeline",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly recalls the chronological milestones in the Bank of Canada's establishment.",
+        "ossdExpectation": "Analyse the role of the Bank of Canada, with a particular emphasis on monetary policy.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "CIA4U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The establishment timeline supports analysis of the Bank of Canada's evolving institutional role.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students may think operations began in the same year the Bank of Canada Act was passed or that nationalization came first.",
+        "remediationModule": "err-boc-timeline",
+        "retestItem": "retest-err-boc-timeline"
+      }
+    ]
+  }
+}

@@ -1,0 +1,448 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-08-07",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/MFYkduwWVoUWkmxi8DNcoNk0nhb?from=vc_group_doc_link#doxcnB9jkPALcbmFRsVikwmWpmd",
+  "sourceTitle": "SPH3U.S6.Michael 2026-08-07 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/MFYkduwWVoUWkmxi8DNcoNk0nhb?from=vc_group_doc_link#doxcnB9jkPALcbmFRsVikwmWpmd",
+    "title": "SPH3U.S6.Michael 2026-08-07 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-10/sources/sph3u-s6-michael-2026-08-07/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-08-07",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-08-07",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The session combines review of previous thermal concepts, explicit instruction on heat-transfer modes and the Q=mcΔT framework, and in-class practice with example calculations, so it is best classified as a mixed instructional/practice lesson.",
+    "academicContentSignals": [
+      "Hot/cold perception is based on the direction of heat flow, not an inherent property of the object",
+      "Thermal equilibrium: two objects at different temperatures reach the same temperature after enough heat transfer; time depends on thermal conductivity",
+      "Temperature scales: Celsius based on water freezing/boiling, Kelvin based on absolute zero, Fahrenheit based on brine solution freezing/boiling",
+      "Thermal energy of a substance equals the sum of internal particles' kinetic and potential energy; potential energy depends on inter-particle forces",
+      "Conduction: heat transfer by direct contact, e.g. hot coffee cup to hand",
+      "Convection: heat transfer by fluid flow, e.g. convection currents in boiling water",
+      "Radiation: heat transfer via electromagnetic photons without a medium, e.g. solar heat reaching Earth",
+      "Specific heat capacity: energy required to raise the temperature of 1 kg of a substance by 1°C",
+      "Heat calculation formula: Q = mcΔT; positive result means heat absorbed, negative result means heat released",
+      "Worked examples: 2000 ml water 15°C to 40°C absorbs about 20.9 kJ; 1.2 kg copper pot 130°C to 21°C releases about 50 kJ; iron block mass derived as 14 kg; unknown metal identified with c ≈ 925 J/(kg·°C)"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Low. The minutes contain no homework, deadline, submission, platform, or administrative logistics, so the main risk is under-diagnosing the substantial thermal physics content. The exit card should focus on heat transfer concepts, specific heat definitions, and Q=mcΔT calculations.",
+    "opsItems": [],
+    "uncertainItems": []
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Thermal Energy Transfer）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Warm or cold perception is not an inherent physical property; it depends on the direction of heat flow into or out of the human body.；Two objects at different temperatures reach the same temperature after sufficient heat transfer; the time depends on their thermal conductivity.；Celsius is based on water's freezing and boiling points, Kelvin on absolute zero, and Fahrenheit on the freezing and boiling points of a brine solution.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Distinguish between conduction, convection, and radiation and the conditions necessary for each."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Explain real-world phenomena using the correct heat transfer method and mechanism."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "thermal-energy-transfer",
+      "name": "Thermal Energy Transfer",
+      "nameEn": "Thermal Energy Transfer",
+      "definition": "Heat is transferred by conduction, convection, or radiation; the amount of heat transferred is calculated using Q = mcΔT, and the sign of Q indicates whether a substance absorbs or releases heat.",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "SPH3U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between conduction, convection, and radiation and the conditions necessary for each."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain real-world phenomena using the correct heat transfer method and mechanism."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "condition": "2-3 correct",
+        "systemAction": "mark passed; unlock next lesson",
+        "studentMessage": "Good understanding of heat transfer methods. You can proceed."
+      },
+      {
+        "condition": "1 correct",
+        "systemAction": "assign reteach module for err-heat-transfer-medium, then retest",
+        "studentMessage": "You have some confusion about heat transfer modes. Review the module and try again."
+      },
+      {
+        "condition": "0 correct",
+        "systemAction": "start full reteach path: err-heat-transfer-medium, then retest",
+        "studentMessage": "Let's revisit the basics of heat transfer methods before moving on."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-sph3u-s6-0807-q1",
+        "nodeId": "thermal-energy-transfer",
+        "errorId": "err-heat-transfer-medium",
+        "stem": "Which method of heat transfer requires particles to be in direct contact?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies conduction as requiring direct particle contact.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Thermal energy transfer includes the three modes of heat transfer, directly aligning with D3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "stemIntent": "Check if student knows that conduction requires direct contact via particle collisions.",
+        "commonMisconception": "Believing radiation needs a medium, or that conduction does not involve direct particle interaction.",
+        "remediationModule": "err-heat-transfer-medium",
+        "retestItem": "err-heat-transfer-medium",
+        "options": [
+          {
+            "label": "A",
+            "text": "Conduction",
+            "correct": true,
+            "feedbackCorrect": "Correct. Conduction occurs through particle collisions when objects are in direct contact."
+          },
+          {
+            "label": "B",
+            "text": "Convection",
+            "correct": false,
+            "feedbackWrong": "Convection involves fluid movement, not direct particle-to-particle contact at the macroscopic level. While it requires a medium, the defining feature is bulk fluid flow."
+          },
+          {
+            "label": "C",
+            "text": "Radiation",
+            "correct": false,
+            "feedbackWrong": "Radiation transfers heat via electromagnetic waves and does not require any medium; it can travel through vacuum."
+          },
+          {
+            "label": "D",
+            "text": "All of them require direct contact",
+            "correct": false,
+            "feedbackWrong": "Only conduction requires direct contact between particles. Radiation does not even require a medium."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0807-q2",
+        "nodeId": "thermal-energy-transfer",
+        "errorId": "err-heat-transfer-medium",
+        "stem": "A satellite in space receives heat from the Sun. Which method of heat transfer is primarily responsible?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly selects radiation because it does not require a medium.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Application of thermal energy transfer concepts to a real-world scenario aligns with D3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Probe if student understands that radiation does not need a medium, unlike conduction or convection.",
+        "commonMisconception": "Thinking that heat cannot travel through vacuum, or that convection or conduction could occur in space.",
+        "remediationModule": "err-heat-transfer-medium",
+        "retestItem": "err-heat-transfer-medium",
+        "options": [
+          {
+            "label": "A",
+            "text": "Conduction",
+            "correct": false,
+            "feedbackWrong": "Conduction requires direct contact between objects; space is a vacuum with no particles for contact."
+          },
+          {
+            "label": "B",
+            "text": "Convection",
+            "correct": false,
+            "feedbackWrong": "Convection requires fluid movement; there is no fluid (liquid or gas) in the vacuum of space."
+          },
+          {
+            "label": "C",
+            "text": "Radiation",
+            "correct": true,
+            "feedbackCorrect": "Correct. Radiation transfers heat via electromagnetic waves and does not require a medium, so it works in space."
+          },
+          {
+            "label": "D",
+            "text": "Both convection and radiation",
+            "correct": false,
+            "feedbackWrong": "Convection cannot occur in space because there is no fluid. Only radiation can transfer heat in a vacuum."
+          }
+        ]
+      },
+      {
+        "id": "diag-sph3u-s6-0807-q3",
+        "nodeId": "thermal-energy-transfer",
+        "errorId": "err-heat-transfer-medium",
+        "stem": "Describe how a hot air balloon rises, identify the heat transfer method involved, and explain why this method cannot occur in a solid.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies convection, describes hot air expansion and buoyancy, and explains that solids lack particle mobility.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question requires explaining heat transfer in a real context, directly supporting D3 understanding.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "justify",
+        "stemIntent": "Assess ability to connect convection mechanism to particle behaviour and differentiate from conduction in solids.",
+        "commonMisconception": "Confusing convection with radiation, or thinking solids can convect heat.",
+        "remediationModule": "err-heat-transfer-medium",
+        "retestItem": "err-heat-transfer-medium",
+        "rubric": "Full marks require: identifying convection as the method, describing that hot air expands and rises due to lower density, and explaining that convection requires fluid movement (particles can move freely), whereas in a solid, particles are fixed and cannot flow.",
+        "sampleStrongAnswer": "A hot air balloon rises because the burner heats the air inside, causing it to expand and become less dense than the surrounding cold air. This less dense hot air rises, carrying the balloon upward. This is convection. Convection cannot happen in a solid because the particles in a solid are held in fixed positions and cannot flow like liquids or gases."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "condition": "2-3 correct",
+      "systemAction": "mark passed; unlock next lesson",
+      "studentMessage": "Good understanding of heat transfer methods. You can proceed."
+    },
+    {
+      "condition": "1 correct",
+      "systemAction": "assign reteach module for err-heat-transfer-medium, then retest",
+      "studentMessage": "You have some confusion about heat transfer modes. Review the module and try again."
+    },
+    {
+      "condition": "0 correct",
+      "systemAction": "start full reteach path: err-heat-transfer-medium, then retest",
+      "studentMessage": "Let's revisit the basics of heat transfer methods before moving on."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-heat-transfer-medium",
+      "trigger": "Diagnostic responses confuse which heat transfer method works through a vacuum or which modes require direct particle interactions.",
+      "studentMisunderstanding": "Students may think radiation requires a medium to travel through, or that conduction and convection do not involve particle interactions. In fact, conduction uses direct contact between particles, convection uses the bulk movement of fluids, and radiation transfers energy via electromagnetic photons without any medium.",
+      "miniLesson": {
+        "explain": "Heat transfers in three ways. Conduction transfers heat through direct contact, like a hot coffee cup heating a hand. Convection transfers heat through fluid flow, like hot water rising and cold water sinking during boiling. Radiation transfers heat as electromagnetic photons without requiring a medium, like solar heat reaching Earth.",
+        "example": "A satellite in space receives heat from the Sun. Space is a vacuum, so there is no medium for conduction or convection. Only radiation works because it does not require a medium.",
+        "memoryAnchor": "Remember: 'Contact = Conduction, Currents = Convection, Cosmic = Radiation' — radiation runs through empty space."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which method of heat transfer requires particles to be in direct contact?",
+          "answer": "Conduction"
+        },
+        {
+          "level": "L2",
+          "prompt": "A satellite in space receives heat from the Sun. Why can convection not occur in space?",
+          "answer": "Convection requires fluid flow, and space is a vacuum with no fluid (liquid or gas) for convection to happen."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why a hot air balloon rises using convection, and explain why convection cannot happen in a solid.",
+          "answer": "A hot air balloon rises because heated air expands, becomes less dense than the surrounding cooler air, and rises. This is convection, which requires fluids (liquids or gases) where particles can move and flow. In a solid, particles are held in fixed positions, so they cannot flow; therefore convection cannot occur in a solid."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-heat-transfer-medium",
+      "questions": [
+        {
+          "id": "q1_radiation_vacuum",
+          "type": "single_choice",
+          "stem": "A spacecraft in vacuum uses a radiator panel to release excess heat into space. Which statement best explains how this works?",
+          "options": [
+            "Conduction through the spacecraft's metal hull",
+            "Convection of air around the panel",
+            "Radiation, because electromagnetic waves can travel through a vacuum",
+            "Radiation, because the vacuum acts as a conductor"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2_conduction_medium",
+          "type": "open_ended",
+          "stem": "When you hold a metal rod with one end in a flame, the other end quickly becomes too hot to hold. Explain the heat transfer method and the role of the medium (the rod) in this process.",
+          "rubric": "Must state conduction; must say heat travels through direct contact / particle collisions within the metal; must explain that a medium (the rod) is required for conduction, unlike radiation."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly AND Q2 must explicitly mention conduction and that conduction requires a medium/particle collisions."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-08-07",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/MFYkduwWVoUWkmxi8DNcoNk0nhb?from=vc_group_doc_link#doxcnB9jkPALcbmFRsVikwmWpmd",
+    "sourceTitle": "SPH3U.S6.Michael 2026-08-07 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Warm or cold perception is not an inherent physical property; it depends on the direction of heat flow into or out of the human body.；Two objects at different temperatures reach the same temperature after sufficient heat transfer; the time depends on their thermal conductivity.；Celsius is based on water's freezing and boiling points, Kelvin on absolute zero, and Fahrenheit on the freezing and boiling points of a brine solution.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Distinguish between conduction, convection, and radiation and the conditions necessary for each."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Explain real-world phenomena using the correct heat transfer method and mechanism."
+      }
+    ],
+    "courseOpsItems": [],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "thermal-energy-transfer"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "condition": "2-3 correct",
+        "systemAction": "mark passed; unlock next lesson"
+      },
+      {
+        "condition": "1 correct",
+        "systemAction": "assign reteach module for err-heat-transfer-medium, then retest"
+      },
+      {
+        "condition": "0 correct",
+        "systemAction": "start full reteach path: err-heat-transfer-medium, then retest"
+      }
+    ],
+    "nextActions": [
+      "2-3 correct: Good understanding of heat transfer methods. You can proceed.",
+      "1 correct: You have some confusion about heat transfer modes. Review the module and try again.",
+      "0 correct: Let's revisit the basics of heat transfer methods before moving on."
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-s6-0807-q1",
+        "type": "choice",
+        "question": "Which method of heat transfer requires particles to be in direct contact?",
+        "options": [
+          "Conduction",
+          "Convection",
+          "Radiation",
+          "All of them require direct contact"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student knows that conduction requires direct contact via particle collisions.",
+        "misconceptions": [
+          "✓ Correct. Conduction occurs through particle collisions when objects are in direct contact.",
+          "Convection involves fluid movement, not direct particle-to-particle contact at the macroscopic level. While it requires a medium, the defining feature is bulk fluid flow.",
+          "Radiation transfers heat via electromagnetic waves and does not require any medium; it can travel through vacuum.",
+          "Only conduction requires direct contact between particles. Radiation does not even require a medium."
+        ],
+        "nodeId": "thermal-energy-transfer",
+        "errorId": "err-heat-transfer-medium",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies conduction as requiring direct particle contact.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Thermal energy transfer includes the three modes of heat transfer, directly aligning with D3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "commonMisconception": "Believing radiation needs a medium, or that conduction does not involve direct particle interaction.",
+        "remediationModule": "err-heat-transfer-medium",
+        "retestItem": "err-heat-transfer-medium"
+      },
+      {
+        "id": "diag-sph3u-s6-0807-q2",
+        "type": "choice",
+        "question": "A satellite in space receives heat from the Sun. Which method of heat transfer is primarily responsible?",
+        "options": [
+          "Conduction",
+          "Convection",
+          "Radiation",
+          "Both convection and radiation"
+        ],
+        "correct": 2,
+        "diagnosis": "Probe if student understands that radiation does not need a medium, unlike conduction or convection.",
+        "misconceptions": [
+          "Conduction requires direct contact between objects; space is a vacuum with no particles for contact.",
+          "Convection requires fluid movement; there is no fluid (liquid or gas) in the vacuum of space.",
+          "✓ Correct. Radiation transfers heat via electromagnetic waves and does not require a medium, so it works in space.",
+          "Convection cannot occur in space because there is no fluid. Only radiation can transfer heat in a vacuum."
+        ],
+        "nodeId": "thermal-energy-transfer",
+        "errorId": "err-heat-transfer-medium",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly selects radiation because it does not require a medium.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Application of thermal energy transfer concepts to a real-world scenario aligns with D3.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Thinking that heat cannot travel through vacuum, or that convection or conduction could occur in space.",
+        "remediationModule": "err-heat-transfer-medium",
+        "retestItem": "err-heat-transfer-medium"
+      },
+      {
+        "id": "diag-sph3u-s6-0807-q3",
+        "type": "explain",
+        "question": "Describe how a hot air balloon rises, identify the heat transfer method involved, and explain why this method cannot occur in a solid.",
+        "correct": null,
+        "diagnosis": "Assess ability to connect convection mechanism to particle behaviour and differentiate from conduction in solids.",
+        "nodeId": "thermal-energy-transfer",
+        "errorId": "err-heat-transfer-medium",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies convection, describes hot air expansion and buoyancy, and explains that solids lack particle mobility.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question requires explaining heat transfer in a real context, directly supporting D3 understanding.",
+        "achievementCategory": "Communication",
+        "cognitiveAction": "justify",
+        "commonMisconception": "Confusing convection with radiation, or thinking solids can convect heat.",
+        "remediationModule": "err-heat-transfer-medium",
+        "retestItem": "err-heat-transfer-medium"
+      }
+    ]
+  }
+}
