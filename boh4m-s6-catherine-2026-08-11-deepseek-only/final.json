@@ -1,0 +1,838 @@
+{
+  "sourceLesson": "BOH4M.S6.Catherine 2026-08-11",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/EdiYdCCsdoU2m1xf2A5cKbiWnjc?from=vc_group_doc_link#doxcnkU2d7A7w7luicxWiKDlKhf",
+  "sourceTitle": "BOH4M.S6.Catherine 2026-08-11 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/EdiYdCCsdoU2m1xf2A5cKbiWnjc?from=vc_group_doc_link#doxcnkU2d7A7w7luicxWiKDlKhf",
+    "title": "BOH4M.S6.Catherine 2026-08-11 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-11/sources/boh4m-s6-catherine-2026-08-11/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "BOH4M",
+  "lessonDate": "2026-08-11",
+  "teacher": "Catherine",
+  "section": "S6",
+  "subject": "business",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-08-11",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The class began with student business project sharing (practice/application), then the teacher delivered instruction on strategic planning core concepts and process, followed by the official release of Unit 4 Assignment 1 with detailed requirements and deadlines. Both academic learning and operational announcements were significant.",
+    "academicContentSignals": [
+      "Strategic management/planning definition and equivalence",
+      "Three core planning questions: current position, mid-term target, steps to reach target",
+      "Competitive advantage defined as temporary strengths to outperform rivals",
+      "Tesla’s full self-driving and battery as example of temporary competitive advantage",
+      "Benefits of formal strategic planning: maximize advantages, holistic view, cross-department collaboration",
+      "Limitation: strategic planning not needed for all businesses, especially small community-focused ones",
+      "Standard planning process: strategy formulation (SWOT, PEST, Porter’s Five Forces), resource allocation, implementation, evaluation",
+      "Supplementary instructional video on 5-step strategic management process with fictional EV manufacturer case"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "High. The detailed assignment release (due date, three separate files, report structure parts A–C, citation rules, and in-class work plans) risks overshadowing the academic instruction. To maintain balance, the diagnostic exit card must prioritize questions on strategic planning concepts and limit operational items to 1–2 readiness-check questions.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 4 Assignment 1 – Submit Three Files",
+        "studentAction": "Complete Unit 4 Assignment 1 individually (10% of total course score). Submit three files: a written project report, a project introduction PowerPoint deck, and a recorded self-presentation of the project.",
+        "deadlineText": "8 days from class date (2026-08-11)",
+        "deadlineISO": "2026-08-19T23:59:59+08:00",
+        "platform": "Course LMS (Feishu/class platform)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Unit 4 Assignment 1 is the only graded task for the entire unit, accounting for 10 % of the total course score... Students need to submit three separate files... The assignment submission deadline is set for 8 days from the class date.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Written Report Structure Requirements",
+        "studentAction": "The written report must include: Part A – Project Description (core positioning, target users, location, team, funding); Part B – Management Style Explanation (suitable management style, rationale, staffing needs); Part C – Operational Arrangement (goals, checkpoints, compensation, task division).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Part A: Project Description ... Part B: Management Style Explanation ... Part C: Operational Arrangement ...",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Citation Requirement",
+        "studentAction": "All external sources used in the written report must have in-text citations and a complete reference list at the end.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All external resources cited in the written report must be properly marked with both in-text citations and a complete reference list at the end of the submitted document.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "follow_up_action",
+        "title": "In-Class Work Time in Subsequent Sessions",
+        "studentAction": "Additional class time in upcoming sessions will be allocated for drafting and completing the assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "additional in-class work time allocated in subsequent sessions to support students in drafting and completing the task.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "platform_link",
+        "title": "Past Student Examples on Course Platform",
+        "studentAction": "Review past student examples published on the course platform as reference for the assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Course Platform (likely Feishu/LMS)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "low",
+        "sourceEvidence": "reference past student examples published on the course platform.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "reference past student examples published on the course platform",
+        "reason": "Exact link or location of past examples not provided in minutes; needs teacher confirmation."
+      }
+    ]
+  },
+  "title": "BOH4M Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Strategic Planning Concept、Competitive Advantage、Strategic Planning Process）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Strategic management (academic term) and strategic planning (corporate practice term) are equivalent, referring to formulating, implementing, and evaluating cross-functional decisions to achieve organizational goals.；All formal strategic planning revolves around three core questions: the organization’s current position, its mid-term target, and the actionable steps to reach it.；Competitive advantage means core strengths that allow an organization to outperform industry peers; all competitive advantages are temporary and can be surpassed.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students will understand that competitive advantages are temporary and can be surpassed by competitors."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students will recognize that formal strategic planning is not universally required or feasible for all organizations, particularly small ones."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students will correctly identify the sequence of steps in the strategic planning process."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "node_strategic_planning_concept",
+      "name": "Strategic Planning Concept",
+      "nameEn": "Strategic Planning Concept",
+      "definition": "The process of formulating, implementing, and evaluating cross-functional decisions to enable an organization to achieve its long-term objectives. Academic term: strategic management; corporate practice term: strategic planning; they are equivalent. Revolves around three questions: current position, target, actionable steps.",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "BOH4M-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Analyse the relationship between strategic planning and the success of an organization."
+    },
+    {
+      "id": "node_competitive_advantage",
+      "name": "Competitive Advantage",
+      "nameEn": "Competitive Advantage",
+      "definition": "Core strengths an organization uses to outperform industry peers. All competitive advantages are temporary and can be surpassed by competitors over time. Example: Tesla's self-driving tech and battery performance.",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "BOH4M-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Analyse the relationship between strategic planning and the success of an organization."
+    },
+    {
+      "id": "node_strategic_planning_process",
+      "name": "Strategic Planning Process",
+      "nameEn": "Strategic Planning Process",
+      "definition": "Standard process includes: 1) Strategy formulation (using tools like SWOT, PEST, Porter's Five Forces), 2) Resource allocation, 3) Implementation, 4) Regular effectiveness evaluation. May be expanded to a 5-step model as per supplementary video.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "BOH4M-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of appropriate planning tools and techniques in a variety of situations."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students will understand that competitive advantages are temporary and can be surpassed by competitors."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students will recognize that formal strategic planning is not universally required or feasible for all organizations, particularly small ones."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students will correctly identify the sequence of steps in the strategic planning process."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-competitive-advantage-permanent",
+        "condition": "student incorrectly answers a question tagged with err-competitive-advantage-permanent",
+        "systemAction": "assign reteach module for err-competitive-advantage-permanent",
+        "studentMessage": "You may have missed that competitive advantages don't last forever. Let's review the temporary nature of advantages."
+      },
+      {
+        "errorId": "err-strategic-planning-universal",
+        "condition": "student incorrectly answers a question tagged with err-strategic-planning-universal",
+        "systemAction": "assign reteach module for err-strategic-planning-universal",
+        "studentMessage": "It looks like you think strategic planning is needed for every business. The lesson showed that small companies often skip formal planning. Let's revisit that."
+      },
+      {
+        "errorId": "err-process-steps-order",
+        "condition": "student incorrectly answers a question tagged with err-process-steps-order",
+        "systemAction": "assign reteach module for err-process-steps-order",
+        "studentMessage": "You might have mixed up the order of strategic planning steps. Let's clarify the correct sequence."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-boh4m-s6-q1",
+        "nodeId": "node_competitive_advantage",
+        "errorId": "err-competitive-advantage-permanent",
+        "stem": "Which statement best describes the nature of competitive advantage?",
+        "type": "single_choice",
+        "options": [
+          {
+            "label": "A",
+            "text": "It is a permanent strength that guarantees long-term market leadership.",
+            "correct": false,
+            "feedbackWrong": "Incorrect. Competitive advantages are not permanent; they can be eroded by competitors over time."
+          },
+          {
+            "label": "B",
+            "text": "It is a core strength that helps outperform competitors, but it is temporary and can be surpassed.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Competitive advantages are temporary and can be overtaken, as seen with Tesla’s self-driving tech."
+          },
+          {
+            "label": "C",
+            "text": "It is only relevant to technology companies, not traditional industries.",
+            "correct": false,
+            "feedbackWrong": "Not accurate. Competitive advantage applies to any industry, not just tech."
+          },
+          {
+            "label": "D",
+            "text": "It refers to a company’s ability to avoid all competition.",
+            "correct": false,
+            "feedbackWrong": "Wrong. Competition is always present; advantage is about relative superiority, not elimination."
+          }
+        ],
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects option B, recognizing that competitive advantages are core strengths but temporary.",
+        "ossdExpectation": "Analyse the relationship between strategic planning and the success of an organization.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "BOH4M-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly aligns with D3 expectation on strategic planning and organizational success, as competitive advantage is a key strategic planning concept.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Assess if the student understands that competitive advantages are not permanent.",
+        "commonMisconception": "Assuming that a strong market position lasts forever.",
+        "remediationModule": "err-competitive-advantage-permanent",
+        "retestItem": "err-competitive-advantage-permanent"
+      },
+      {
+        "id": "diag-boh4m-s6-q2",
+        "nodeId": "node_strategic_planning_concept",
+        "errorId": "err-strategic-planning-universal",
+        "stem": "A small community coffee shop with limited resources wants to improve its performance. According to the lesson, is formal strategic planning necessary for this business?",
+        "type": "single_choice",
+        "options": [
+          {
+            "label": "A",
+            "text": "No, because small businesses often lack the scale and resources for formal strategic planning.",
+            "correct": true,
+            "feedbackCorrect": "Correct! Small, community-focused businesses may not need formal strategic planning."
+          },
+          {
+            "label": "B",
+            "text": "Yes, every business must engage in formal strategic planning to succeed.",
+            "correct": false,
+            "feedbackWrong": "Not true. The lesson noted that small businesses with limited scope often skip formal planning."
+          },
+          {
+            "label": "C",
+            "text": "Yes, but only if the owner has a business degree.",
+            "correct": false,
+            "feedbackWrong": "The need for strategic planning depends on scale and resources, not on the owner’s education."
+          },
+          {
+            "label": "D",
+            "text": "No, because coffee shops do not have any competitors.",
+            "correct": false,
+            "feedbackWrong": "Coffee shops do face competition; the reason is resource limitations, not lack of competition."
+          }
+        ],
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects option A, showing they can apply the concept that strategic planning is not universal.",
+        "ossdExpectation": "Analyse the relationship between strategic planning and the success of an organization.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "BOH4M-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Aligns with D3 expectation by applying the analysis of when strategic planning contributes to success.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if the student correctly applies the lesson’s point that not all businesses need formal strategic planning.",
+        "commonMisconception": "Believing strategic planning is a one-size-fits-all requirement.",
+        "remediationModule": "err-strategic-planning-universal",
+        "retestItem": "err-strategic-planning-universal"
+      },
+      {
+        "id": "diag-boh4m-s6-q3",
+        "nodeId": "node_strategic_planning_process",
+        "errorId": "err-process-steps-order",
+        "stem": "Which sequence correctly orders the standard strategic planning process?",
+        "type": "single_choice",
+        "options": [
+          {
+            "label": "A",
+            "text": "Formulation → Resource allocation → Implementation → Evaluation",
+            "correct": true,
+            "feedbackCorrect": "Correct! The process starts with formulation, then allocates resources, implements, and evaluates."
+          },
+          {
+            "label": "B",
+            "text": "Implementation → Formulation → Evaluation → Resource allocation",
+            "correct": false,
+            "feedbackWrong": "That order is backwards. Implementation cannot come before formulation."
+          },
+          {
+            "label": "C",
+            "text": "Resource allocation → Formulation → Implementation → Evaluation",
+            "correct": false,
+            "feedbackWrong": "Resource allocation follows strategy formulation; you must decide the strategy first."
+          },
+          {
+            "label": "D",
+            "text": "Evaluation → Implementation → Formulation → Resource allocation",
+            "correct": false,
+            "feedbackWrong": "Evaluation is the last step to assess effectiveness, not the first."
+          }
+        ],
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects option A, the correct sequence.",
+        "ossdExpectation": "Demonstrate an understanding of appropriate planning tools and techniques in a variety of situations.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "BOH4M-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses D2, which includes understanding planning process steps as a tool.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Verify that the student knows the correct sequence of strategic planning steps.",
+        "commonMisconception": "Confusing the order, such as thinking implementation precedes formulation.",
+        "remediationModule": "err-process-steps-order",
+        "retestItem": "err-process-steps-order"
+      },
+      {
+        "id": "diag-boh4m-s6-q4",
+        "nodeId": "node_competitive_advantage",
+        "errorId": "err-competitive-advantage-permanent",
+        "stem": "Use Tesla as an example to explain why a competitive advantage is only temporary.",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student response describes Tesla’s current advantage (self-driving, battery) and acknowledges that competitors can catch up, making it temporary.",
+        "ossdExpectation": "Analyse the relationship between strategic planning and the success of an organization.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "BOH4M-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Uses analysis of competitive advantage within strategic planning context (D3).",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Evaluate whether the student can analyze the temporary nature of competitive advantage using a concrete example.",
+        "commonMisconception": "Failing to recognize that even a strong current advantage like Tesla’s tech will face competition.",
+        "rubric": "A complete answer must: (1) identify a specific Tesla advantage (e.g., self-driving technology, battery performance), (2) state that it currently provides an edge, and (3) explain that competitors are investing in similar R&D and could eventually catch up, making the advantage temporary.",
+        "sampleStrongAnswer": "Tesla’s competitive advantage in self-driving technology and battery efficiency allows it to lead the electric vehicle market. However, other automakers like GM and Ford are rapidly developing their own autonomous and battery technologies. Because technology evolves quickly and patents expire, Tesla’s advantage will erode over time, demonstrating that all competitive advantages are temporary.",
+        "remediationModule": "err-competitive-advantage-permanent",
+        "retestItem": "err-competitive-advantage-permanent"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-competitive-advantage-permanent",
+      "condition": "student incorrectly answers a question tagged with err-competitive-advantage-permanent",
+      "systemAction": "assign reteach module for err-competitive-advantage-permanent",
+      "studentMessage": "You may have missed that competitive advantages don't last forever. Let's review the temporary nature of advantages."
+    },
+    {
+      "errorId": "err-strategic-planning-universal",
+      "condition": "student incorrectly answers a question tagged with err-strategic-planning-universal",
+      "systemAction": "assign reteach module for err-strategic-planning-universal",
+      "studentMessage": "It looks like you think strategic planning is needed for every business. The lesson showed that small companies often skip formal planning. Let's revisit that."
+    },
+    {
+      "errorId": "err-process-steps-order",
+      "condition": "student incorrectly answers a question tagged with err-process-steps-order",
+      "systemAction": "assign reteach module for err-process-steps-order",
+      "studentMessage": "You might have mixed up the order of strategic planning steps. Let's clarify the correct sequence."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-competitive-advantage-permanent",
+      "trigger": "Student incorrectly answers a question about the permanence of competitive advantage, believing it is a long-term guarantee rather than temporary.",
+      "studentMisunderstanding": "The student thinks that once a company builds a competitive advantage, it will last forever. In reality, all competitive advantages are temporary and can be surpassed by competitors over time. This misconception ignores the dynamic nature of markets, ongoing innovation, and the continuous efforts of rivals to close the gap.",
+      "miniLesson": {
+        "explain": "A competitive advantage is a core strength that allows an organization to outperform its industry peers. However, no advantage is permanent. All competitive advantages are temporary and can be surpassed by competitors. This happens because competitors innovate, technology evolves, and market conditions shift. Even a strong advantage like Tesla's self-driving technology and battery performance is temporary; it was built on earlier R&D investment, but other companies are now investing heavily in similar technologies and will eventually catch up.",
+        "example": "Tesla currently has a competitive advantage in electric vehicles through its full self-driving technology and battery performance. This advantage allowed Tesla to lead the market. Yet other automakers such as GM and Ford are rapidly developing their own autonomous systems and batteries. As they close the technology gap, Tesla's edge will shrink. This demonstrates that even the strongest competitive advantage is only temporary.",
+        "memoryAnchor": "Today's edge is tomorrow's starting line. Even Tesla can be overtaken."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Fill in the blank: All competitive advantages are ______ and can be surpassed by competitors.",
+          "answer": "temporary"
+        },
+        {
+          "level": "L2",
+          "prompt": "A local coffee shop gains a loyal customer base through a popular rewards program. A national chain opens nearby with a similar rewards program and lower prices. What is likely to happen to the coffee shop's competitive advantage?",
+          "answer": "The coffee shop's competitive advantage is temporary. The national chain can copy or improve the rewards program, drawing away customers and diminishing the shop's edge."
+        },
+        {
+          "level": "L3",
+          "prompt": "Using Tesla as an example, explain why a competitive advantage is temporary, and identify one factor that could erode Tesla's current leadership in electric vehicles.",
+          "answer": "Tesla's advantage in self-driving technology and battery performance lets it outperform rivals, but this edge is temporary. Other automakers are investing heavily in autonomous driving and battery innovation. Once a competitor achieves comparable or superior technology, Tesla's advantage will no longer be unique, proving that competitive advantages are temporary."
+        }
+      ]
+    },
+    {
+      "errorId": "err-strategic-planning-universal",
+      "trigger": "Student incorrectly answers a question tagged with err-strategic-planning-universal, e.g., choosing that every business must have formal strategic planning.",
+      "studentMisunderstanding": "The student believes formal strategic planning is required for all businesses, but the lesson emphasized that small community-focused operations often lack the scale and resources to conduct formal planning.",
+      "miniLesson": {
+        "explain": "Strategic planning is a valuable tool, but it is not mandatory for every organization. The lesson clearly stated that strategic planning is not required for all businesses; small community-focused operations lack the scale and resources for formal planning. Larger firms with more complex operations may need formal plans to coordinate across departments and long time horizons, but a small local shop can often succeed with intuitive, day-to-day decisions.",
+        "example": "Think of a small community coffee shop. The owner likely focuses on daily tasks like ordering supplies, serving customers, and managing a tiny team. They do not need a multi-year strategic plan or tools like PEST or Porter's Five Forces. In contrast, a large company like Tesla needs formal planning to align R&D, production, and marketing. The lesson used the community coffee shop as an example of a business that can skip formal planning due to limited size and resources.",
+        "memoryAnchor": "Remember: 'Small shop, skip the plan; big company, strategic stand.' Formal planning needs scale and resources."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "True or False: Every business, regardless of size, must create a formal strategic plan.",
+          "answer": "False. Strategic planning is not required for all businesses; small community-focused operations lack the scale and resources for formal planning."
+        },
+        {
+          "level": "L2",
+          "prompt": "Why might a small community coffee shop choose not to use formal strategic planning?",
+          "answer": "A small community coffee shop might not use formal strategic planning because it lacks the scale and resources needed for such an approach. The owner can make quick, direct decisions based on daily needs, so a formal plan is not necessary."
+        },
+        {
+          "level": "L3",
+          "prompt": "A friend says, 'All successful businesses use formal strategic planning.' Based on the lesson, is this statement accurate? Explain your reasoning.",
+          "answer": "The statement is not entirely accurate. While strategic planning is beneficial for many organizations, it is not universal. The lesson states that strategic planning is not required for all businesses; small community-focused operations lack the scale and resources for formal planning. Therefore, a successful small business may rely on simpler, informal decision-making rather than a formal strategic plan."
+        }
+      ]
+    },
+    {
+      "errorId": "err-process-steps-order",
+      "trigger": "When the student is asked to identify the sequence of strategic planning steps and selects an incorrect order, such as putting implementation before formulation or evaluation first.",
+      "studentMisunderstanding": "The student likely thinks that the process can start with resource allocation or implementation, or that evaluation is the beginning, not the end. They may not realize that a strategy must be formulated first to guide all subsequent decisions.",
+      "miniLesson": {
+        "explain": "The standard strategic planning process follows a fixed order. First, strategy formulation uses tools like SWOT, PEST, and Porter’s Five Forces to define the organization’s current position and target. Second, resource allocation distributes the necessary funds, people, and materials to carry out the chosen strategy. Third, implementation executes the plan across the organization. Fourth, regular effectiveness evaluation checks whether the strategy is working and makes adjustments. Formulation always comes first because you cannot wisely allocate resources or take action without a clear strategy; evaluation is the final step that feeds back into future planning.",
+        "example": "A healthy tea brand wants to enter the market. It starts by conducting a PEST and SWOT analysis to understand demand and competition (formulation). Then it assigns a budget and hires staff (resource allocation). Next, it launches the product and runs a marketing campaign (implementation). Finally, it reviews sales data and customer feedback to refine the strategy (evaluation).",
+        "memoryAnchor": "Remember FAIE: Formulate, Allocate, Implement, Evaluate. Think of building a house: draw the blueprint (formulate), buy materials and hire workers (allocate), build the house (implement), then inspect it (evaluate)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which of the following is the correct order of the strategic planning process? A) Implementation, Evaluation, Formulation, Resource allocation B) Formulation, Resource allocation, Implementation, Evaluation C) Resource allocation, Formulation, Evaluation, Implementation D) Evaluation, Implementation, Resource allocation, Formulation",
+          "answer": "B"
+        },
+        {
+          "level": "L2",
+          "prompt": "A local electric motorcycle rental business wants to expand. Arrange these activities in the correct order according to the strategic planning process: (1) Evaluate rental usage data and customer satisfaction, (2) Allocate funding for new bikes, (3) Conduct a PEST analysis to assess market demand, (4) Launch the expanded rental service. Write the numbers in the correct sequence.",
+          "answer": "3, 2, 4, 1"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why strategy formulation must precede resource allocation and implementation in the strategic planning process. Refer to the three core questions and give a business example (e.g., Tesla) to support your answer.",
+          "answer": "Formulation is the starting point because it answers the three core questions: where the organization is now, where it wants to be, and what steps will get it there. Without this analysis, a company cannot know what resources to allocate or what actions to take. For example, Tesla’s strategic advantage in self-driving and battery technology began with a formulated strategy based on R&D planning. Only after that did it allocate resources to R&D and production, implement by rolling out vehicles, and then evaluate to keep improving. If Tesla had allocated resources before formulating its strategy, it would have wasted investment on unproven directions."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-competitive-advantage-permanent",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A popular smartphone maker has a unique camera feature that customers love. Which scenario best illustrates why its competitive advantage is temporary?",
+          "options": [
+            "The company's market share will keep growing because the feature is patented for 20 years.",
+            "Competitors will eventually release phones with similar or better cameras, reducing the company's edge.",
+            "The advantage is based on brand loyalty and will never disappear.",
+            "The company can relax because no other firm has the resources to copy the camera technology."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why a competitive advantage is only temporary. Use a specific example from an industry other than electric vehicles (e.g., fashion, food, retail, entertainment) to support your explanation.",
+          "rubric": "The student must: (1) explicitly state that competitive advantages are temporary because competitors can imitate, innovate, or adapt over time; (2) provide a concrete example from a different industry; (3) explain a mechanism that erodes the advantage (e.g., copycats, new technology, changing consumer tastes)."
+        }
+      ],
+      "passRule": "Answer q1 correctly (select option index 1) AND provide a response to q2 that includes all three rubric elements: temporary nature, a concrete non-Tesla example, and a clear mechanism for erosion."
+    },
+    {
+      "forErrorId": "err-strategic-planning-universal",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which of the following businesses is most likely to be able to succeed WITHOUT a formal strategic plan?",
+          "options": [
+            "A large multinational automaker",
+            "A local family-run bakery serving a small neighborhood",
+            "A tech startup preparing for an IPO",
+            "A regional hospital network"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why a small community bookstore might choose not to create a formal strategic plan, and describe a condition under which it might later need one.",
+          "rubric": "Mentions that small community-focused operations lack the scale and resources for formal planning (1 point). Explains that if the bookstore grows, expands, or faces greater competition, it may need formal strategic planning to coordinate decisions (1 point)."
+        }
+      ],
+      "passRule": "Answer q1 correctly and provide a response to q2 that addresses both the reason (small scale/lack of resources) and a trigger for future formal planning (e.g., growth, expansion, increased complexity)."
+    },
+    {
+      "forErrorId": "err-process-steps-order",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A local live theater company wants to expand its audience. Management decides to follow the standard strategic planning process. Which sequence correctly shows the order of steps?",
+          "options": [
+            "Evaluate current shows, allocate funds, formulate a new strategy, implement changes",
+            "Formulate a strategy using SWOT and PEST, allocate budget and staff, implement the plan, evaluate the results",
+            "Allocate resources first, then formulate a strategy, implement, evaluate",
+            "Implement a pilot program, evaluate it, formulate a strategy, then allocate resources"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain why the first step in strategic planning is always strategy formulation. In your answer, identify the three core questions that formulation answers and include a brief example from a business of your choice (e.g., a healthy tea brand or an automotive manufacturing project).",
+          "rubric": "The response must state that formulation comes first because it defines the organization's current position, target, and actionable steps, which are necessary before allocating resources or implementing. It must identify the three core questions. The example should illustrate that allocation and implementation depend on the formulated strategy. Response should be at least 2-3 sentences."
+        }
+      ],
+      "passRule": "To pass, the student must select the correct answer (B) in the multiple-choice question and provide a complete open-ended response that correctly explains why formulation is the first step, identifies the three core questions, and uses a coherent business example."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-08-11",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/EdiYdCCsdoU2m1xf2A5cKbiWnjc?from=vc_group_doc_link#doxcnkU2d7A7w7luicxWiKDlKhf",
+    "sourceTitle": "BOH4M.S6.Catherine 2026-08-11 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Strategic management (academic term) and strategic planning (corporate practice term) are equivalent, referring to formulating, implementing, and evaluating cross-functional decisions to achieve organizational goals.；All formal strategic planning revolves around three core questions: the organization’s current position, its mid-term target, and the actionable steps to reach it.；Competitive advantage means core strengths that allow an organization to outperform industry peers; all competitive advantages are temporary and can be surpassed.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students will understand that competitive advantages are temporary and can be surpassed by competitors."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students will recognize that formal strategic planning is not universally required or feasible for all organizations, particularly small ones."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students will correctly identify the sequence of steps in the strategic planning process."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Unit 4 Assignment 1 – Submit Three Files",
+        "studentAction": "Complete Unit 4 Assignment 1 individually (10% of total course score). Submit three files: a written project report, a project introduction PowerPoint deck, and a recorded self-presentation of the project.",
+        "deadlineText": "8 days from class date (2026-08-11)",
+        "deadlineISO": "2026-08-19T23:59:59+08:00",
+        "platform": "Course LMS (Feishu/class platform)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Unit 4 Assignment 1 is the only graded task for the entire unit, accounting for 10 % of the total course score... Students need to submit three separate files... The assignment submission deadline is set for 8 days from the class date.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Written Report Structure Requirements",
+        "studentAction": "The written report must include: Part A – Project Description (core positioning, target users, location, team, funding); Part B – Management Style Explanation (suitable management style, rationale, staffing needs); Part C – Operational Arrangement (goals, checkpoints, compensation, task division).",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Part A: Project Description ... Part B: Management Style Explanation ... Part C: Operational Arrangement ...",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "assignment",
+        "title": "Citation Requirement",
+        "studentAction": "All external sources used in the written report must have in-text citations and a complete reference list at the end.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All external resources cited in the written report must be properly marked with both in-text citations and a complete reference list at the end of the submitted document.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "follow_up_action",
+        "title": "In-Class Work Time in Subsequent Sessions",
+        "studentAction": "Additional class time in upcoming sessions will be allocated for drafting and completing the assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "additional in-class work time allocated in subsequent sessions to support students in drafting and completing the task.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "platform_link",
+        "title": "Past Student Examples on Course Platform",
+        "studentAction": "Review past student examples published on the course platform as reference for the assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Course Platform (likely Feishu/LMS)",
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "low",
+        "confidence": "low",
+        "sourceEvidence": "reference past student examples published on the course platform.",
+        "needsHumanConfirmation": true
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "reference past student examples published on the course platform",
+        "reason": "Exact link or location of past examples not provided in minutes; needs teacher confirmation."
+      }
+    ],
+    "watchTags": [
+      "node_strategic_planning_concept",
+      "node_competitive_advantage",
+      "node_strategic_planning_process"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-competitive-advantage-permanent",
+        "condition": "student incorrectly answers a question tagged with err-competitive-advantage-permanent",
+        "systemAction": "assign reteach module for err-competitive-advantage-permanent"
+      },
+      {
+        "errorId": "err-strategic-planning-universal",
+        "condition": "student incorrectly answers a question tagged with err-strategic-planning-universal",
+        "systemAction": "assign reteach module for err-strategic-planning-universal"
+      },
+      {
+        "errorId": "err-process-steps-order",
+        "condition": "student incorrectly answers a question tagged with err-process-steps-order",
+        "systemAction": "assign reteach module for err-process-steps-order"
+      }
+    ],
+    "nextActions": [
+      "[err-competitive-advantage-permanent] student incorrectly answers a question tagged with err-competitive-advantage-permanent: You may have missed that competitive advantages don't last forever. Let's review the temporary nature of advantages.",
+      "[err-strategic-planning-universal] student incorrectly answers a question tagged with err-strategic-planning-universal: It looks like you think strategic planning is needed for every business. The lesson showed that small companies often skip formal planning. Let's revisit that.",
+      "[err-process-steps-order] student incorrectly answers a question tagged with err-process-steps-order: You might have mixed up the order of strategic planning steps. Let's clarify the correct sequence."
+    ],
+    "cards": [
+      {
+        "id": "diag-boh4m-s6-q1",
+        "type": "choice",
+        "question": "Which statement best describes the nature of competitive advantage?",
+        "options": [
+          "It is a permanent strength that guarantees long-term market leadership.",
+          "It is a core strength that helps outperform competitors, but it is temporary and can be surpassed.",
+          "It is only relevant to technology companies, not traditional industries.",
+          "It refers to a company’s ability to avoid all competition."
+        ],
+        "correct": 1,
+        "diagnosis": "Assess if the student understands that competitive advantages are not permanent.",
+        "misconceptions": [
+          "Incorrect. Competitive advantages are not permanent; they can be eroded by competitors over time.",
+          "✓ Correct! Competitive advantages are temporary and can be overtaken, as seen with Tesla’s self-driving tech.",
+          "Not accurate. Competitive advantage applies to any industry, not just tech.",
+          "Wrong. Competition is always present; advantage is about relative superiority, not elimination."
+        ],
+        "nodeId": "node_competitive_advantage",
+        "errorId": "err-competitive-advantage-permanent",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects option B, recognizing that competitive advantages are core strengths but temporary.",
+        "ossdExpectation": "Analyse the relationship between strategic planning and the success of an organization.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "BOH4M-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly aligns with D3 expectation on strategic planning and organizational success, as competitive advantage is a key strategic planning concept.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Assuming that a strong market position lasts forever.",
+        "remediationModule": "err-competitive-advantage-permanent",
+        "retestItem": "err-competitive-advantage-permanent"
+      },
+      {
+        "id": "diag-boh4m-s6-q2",
+        "type": "choice",
+        "question": "A small community coffee shop with limited resources wants to improve its performance. According to the lesson, is formal strategic planning necessary for this business?",
+        "options": [
+          "No, because small businesses often lack the scale and resources for formal strategic planning.",
+          "Yes, every business must engage in formal strategic planning to succeed.",
+          "Yes, but only if the owner has a business degree.",
+          "No, because coffee shops do not have any competitors."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if the student correctly applies the lesson’s point that not all businesses need formal strategic planning.",
+        "misconceptions": [
+          "✓ Correct! Small, community-focused businesses may not need formal strategic planning.",
+          "Not true. The lesson noted that small businesses with limited scope often skip formal planning.",
+          "The need for strategic planning depends on scale and resources, not on the owner’s education.",
+          "Coffee shops do face competition; the reason is resource limitations, not lack of competition."
+        ],
+        "nodeId": "node_strategic_planning_concept",
+        "errorId": "err-strategic-planning-universal",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student selects option A, showing they can apply the concept that strategic planning is not universal.",
+        "ossdExpectation": "Analyse the relationship between strategic planning and the success of an organization.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "BOH4M-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Aligns with D3 expectation by applying the analysis of when strategic planning contributes to success.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Believing strategic planning is a one-size-fits-all requirement.",
+        "remediationModule": "err-strategic-planning-universal",
+        "retestItem": "err-strategic-planning-universal"
+      },
+      {
+        "id": "diag-boh4m-s6-q3",
+        "type": "choice",
+        "question": "Which sequence correctly orders the standard strategic planning process?",
+        "options": [
+          "Formulation → Resource allocation → Implementation → Evaluation",
+          "Implementation → Formulation → Evaluation → Resource allocation",
+          "Resource allocation → Formulation → Implementation → Evaluation",
+          "Evaluation → Implementation → Formulation → Resource allocation"
+        ],
+        "correct": 0,
+        "diagnosis": "Verify that the student knows the correct sequence of strategic planning steps.",
+        "misconceptions": [
+          "✓ Correct! The process starts with formulation, then allocates resources, implements, and evaluates.",
+          "That order is backwards. Implementation cannot come before formulation.",
+          "Resource allocation follows strategy formulation; you must decide the strategy first.",
+          "Evaluation is the last step to assess effectiveness, not the first."
+        ],
+        "nodeId": "node_strategic_planning_process",
+        "errorId": "err-process-steps-order",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects option A, the correct sequence.",
+        "ossdExpectation": "Demonstrate an understanding of appropriate planning tools and techniques in a variety of situations.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "BOH4M-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly addresses D2, which includes understanding planning process steps as a tool.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Confusing the order, such as thinking implementation precedes formulation.",
+        "remediationModule": "err-process-steps-order",
+        "retestItem": "err-process-steps-order"
+      },
+      {
+        "id": "diag-boh4m-s6-q4",
+        "type": "explain",
+        "question": "Use Tesla as an example to explain why a competitive advantage is only temporary.",
+        "correct": null,
+        "diagnosis": "Evaluate whether the student can analyze the temporary nature of competitive advantage using a concrete example.",
+        "nodeId": "node_competitive_advantage",
+        "errorId": "err-competitive-advantage-permanent",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student response describes Tesla’s current advantage (self-driving, battery) and acknowledges that competitors can catch up, making it temporary.",
+        "ossdExpectation": "Analyse the relationship between strategic planning and the success of an organization.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "BOH4M-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Uses analysis of competitive advantage within strategic planning context (D3).",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Failing to recognize that even a strong current advantage like Tesla’s tech will face competition.",
+        "remediationModule": "err-competitive-advantage-permanent",
+        "retestItem": "err-competitive-advantage-permanent"
+      }
+    ]
+  }
+}

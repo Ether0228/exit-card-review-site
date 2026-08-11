@@ -1,0 +1,933 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-08-11",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/XAdxdWdo8oNqB4xNQIKc3dmNnJf?from=vc_group_doc_link#doxcnkNIedMG5i4iUd2TQTyzbwh",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-08-11 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/XAdxdWdo8oNqB4xNQIKc3dmNnJf?from=vc_group_doc_link#doxcnkNIedMG5i4iUd2TQTyzbwh",
+    "title": "MDM4U.S6.Atousa 2026-08-11 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-11/sources/mdm4u-s6-atousa-2026-08-11/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-08-11",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-11",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "Lesson includes substantial academic content covering misleading data types and hands-on linear regression calculation, with only administrative reminders interspersed.",
+    "academicContentSignals": [
+      "misleading data types",
+      "axis manipulation",
+      "truncated Y-axis",
+      "pictorial graph distortion",
+      "sampling bias",
+      "linear regression manual calculation",
+      "correlation coefficient",
+      "coefficient of determination",
+      "model interpretation"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Multiple homework, practice reminders, and upcoming test schedule items could dilute the exit card's focus on statistics mastery; must prioritize diagnostic questions on misleading data and linear regression over operational to-dos.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete Unit 3 Class Activity 6 Question 2",
+        "studentAction": "Complete Question 2 of Unit 3 Class Activity 6 as independent homework.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Pending class activities: Complete Unit 3 Class Activity 6 Question 2 as independent homework",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Complete Class Activity 7",
+        "studentAction": "Finish Unit 3 Class Activity 7, focusing on identifying structural errors in misleading graph examples.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "and finish Class Activity 7 focused on identifying structural errors in misleading graph examples.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "Practice manual linear regression calculation repeatedly",
+        "studentAction": "Prioritize repeated practice of manual linear regression calculation steps, as identical question types will appear on the upcoming Unit 3 test.",
+        "deadlineText": "Before Unit 3 test",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Practice reminder: Prioritize repeated practice of manual linear regression calculation, as identical question types will appear in the upcoming formal Unit 3 assessment.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Next class: Unit 3 test review session",
+        "studentAction": "Prepare for the next class session, which will be fully dedicated to Unit 3 test review, covering all core content from the first 7 lessons.",
+        "deadlineText": "next Tuesday",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Test review session: The next session (scheduled for Tuesday) will be fully dedicated to Unit 3 test review.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Formula sheet provided for final exam",
+        "studentAction": "Note that all required formulas for linear regression and other calculations will be provided during the final exam.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "all required formulas will be provided for final exams.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "material_needed",
+        "title": "Calculator permitted for summation steps",
+        "studentAction": "Use a calculator for summation steps when performing linear regression calculations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "calculators permitted for summation steps",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "The next session (scheduled for Tuesday)",
+        "reason": "The next session date is ambiguous. It could be the following Tuesday (Aug 18) or another day if the schedule includes multiple meetings per week."
+      },
+      {
+        "rawText": "Complete Unit 3 Class Activity 6 Question 2 as independent homework",
+        "reason": "No deadline specified; need teacher confirmation on due date."
+      },
+      {
+        "rawText": "finish Class Activity 7",
+        "reason": "No deadline specified; need teacher confirmation on due date."
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Misleading Data、Linear Regression）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 4 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Misleading data can result from axis manipulations such as truncating the y-axis, using inconsistent x- and y-axis scaling, or adjusting vertical scale to alter perceived trend severity.；Pictorial graphs can mislead when icon areas are not proportional to the data magnitudes they represent, exaggerating differences (e.g., Titanic crew icon area 9× first class but only 3× the headcount).；Sampling flaws such as very small sample sizes or selective sampling can produce spurious correlations or inflated positive metrics that vanish with complete data.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify and explain how data representations can be misleading through axis manipulation, scaling, pictorial distortion, or biased sampling."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Calculate and interpret the least-squares regression line, correlation coefficient r, and coefficient of determination r² from bivariate data."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MDM4U_MisleadingData",
+      "name": "Misleading Data",
+      "nameEn": "Misleading Data",
+      "definition": "Techniques and flaws that distort the interpretation of statistical information, including axis misrepresentation (truncation, inconsistent scaling), visual exaggeration (pictorial area distortion), and sampling biases (small or selective samples).",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "MDM4U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the applications of data management used by the media and the advertising industry and in various occupations."
+    },
+    {
+      "id": "MDM4U_LinearRegression",
+      "name": "Linear Regression",
+      "nameEn": "Linear Regression",
+      "definition": "A method to model the linear relationship between two quantitative variables by finding the least‑squares line of best fit y = a + bx, along with measures of strength (r) and explanatory power (r²).",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and explain how data representations can be misleading through axis manipulation, scaling, pictorial distortion, or biased sampling."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate and interpret the least-squares regression line, correlation coefficient r, and coefficient of determination r² from bivariate data."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-misleading-truncated-axis",
+        "condition": "Student picks wrong option on question targeting this errorId",
+        "systemAction": "Assign reteach module for err-misleading-truncated-axis",
+        "studentMessage": "You misunderstood how a truncated y-axis can exaggerate differences. Let's review that before moving on."
+      },
+      {
+        "errorId": "err-misleading-sample-size",
+        "condition": "Student picks wrong option on question targeting this errorId",
+        "systemAction": "Assign reteach module for err-misleading-sample-size",
+        "studentMessage": "Small samples can lead to misleading conclusions. Let's go over why sample size matters."
+      },
+      {
+        "errorId": "err-regression-r-vs-r2",
+        "condition": "Student picks wrong option on question targeting this errorId",
+        "systemAction": "Assign reteach module for err-regression-r-vs-r2",
+        "studentMessage": "Remember, r² is the proportion of variance explained, not the strength of correlation. Let's clarify that."
+      },
+      {
+        "errorId": "err-regression-calculation",
+        "condition": "Student's open response shows misunderstanding of the slope formula components",
+        "systemAction": "Assign reteach module for err-regression-calculation",
+        "studentMessage": "You need to be careful with the sum of squares. Let's practice the formula steps again."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-s6-0811-q1",
+        "nodeId": "MDM4U_MisleadingData",
+        "errorId": "err-misleading-truncated-axis",
+        "stem": "A news article shows a bar graph where the y-axis starts at 34 and increases by 2, while the actual data values range from 34 to 50. Why might this graph mislead viewers?",
+        "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"400\" viewBox=\"0 0 500 400\"><rect width=\"500\" height=\"400\" fill=\"white\"/><text x=\"40\" y=\"35\" text-anchor=\"end\" font-size=\"12\">50</text><text x=\"40\" y=\"75\" text-anchor=\"end\" font-size=\"12\">48</text><text x=\"40\" y=\"115\" text-anchor=\"end\" font-size=\"12\">46</text><text x=\"40\" y=\"155\" text-anchor=\"end\" font-size=\"12\">44</text><text x=\"40\" y=\"195\" text-anchor=\"end\" font-size=\"12\">42</text><text x=\"40\" y=\"235\" text-anchor=\"end\" font-size=\"12\">40</text><text x=\"40\" y=\"275\" text-anchor=\"end\" font-size=\"12\">38</text><text x=\"40\" y=\"315\" text-anchor=\"end\" font-size=\"12\">36</text><text x=\"40\" y=\"355\" text-anchor=\"end\" font-size=\"12\">34</text><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"360\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"50\" y1=\"360\" x2=\"450\" y2=\"360\" stroke=\"black\" stroke-width=\"2\"/><rect x=\"100\" y=\"320\" width=\"60\" height=\"40\" fill=\"steelblue\"/><text x=\"130\" y=\"375\" text-anchor=\"middle\" font-size=\"12\">Category A: 36</text><rect x=\"200\" y=\"280\" width=\"60\" height=\"80\" fill=\"steelblue\"/><text x=\"230\" y=\"375\" text-anchor=\"middle\" font-size=\"12\">Category B: 38</text><rect x=\"300\" y=\"40\" width=\"60\" height=\"320\" fill=\"steelblue\"/><text x=\"330\" y=\"375\" text-anchor=\"middle\" font-size=\"12\">Category C: 50</text></svg>",
+        "type": "single_choice",
+        "options": [
+          {
+            "label": "A",
+            "text": "It exaggerates differences because the baseline is not zero, making small changes appear large.",
+            "correct": true,
+            "feedbackCorrect": "Correct. A truncated axis can visually magnify minor differences."
+          },
+          {
+            "label": "B",
+            "text": "It is not misleading because the y-axis is clearly labeled.",
+            "correct": false,
+            "feedbackWrong": "Even with labels, starting the axis far from zero misrepresents the relative size of differences."
+          },
+          {
+            "label": "C",
+            "text": "The data values are too small to be shown on a graph.",
+            "correct": false,
+            "feedbackWrong": "The data values are not too small; the issue is the axis range being cut off."
+          },
+          {
+            "label": "D",
+            "text": "It shows a perfect positive correlation.",
+            "correct": false,
+            "feedbackWrong": "This has nothing to do with correlation; the problem is the axis scaling."
+          }
+        ],
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that a truncated axis exaggerates visual differences.",
+        "ossdExpectation": "Demonstrate an understanding of the applications of data management used by the media and the advertising industry and in various occupations.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "MDM4U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Misleading graphs are directly covered in D3 expectations about media data use.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that truncating the y-axis can distort perception of differences.",
+        "commonMisconception": "Assuming any graph with a non‑zero start is automatically misleading without context.",
+        "remediationModule": "err-misleading-truncated-axis",
+        "retestItem": "err-misleading-truncated-axis"
+      },
+      {
+        "id": "diag-mdm4u-s6-0811-q2",
+        "nodeId": "MDM4U_MisleadingData",
+        "errorId": "err-misleading-sample-size",
+        "stem": "A company conducts an employee aptitude vs. productivity study using only 3 employees and finds a very high positive correlation. They conclude that aptitude strongly predicts productivity for all employees. What is the main flaw in this conclusion?",
+        "type": "single_choice",
+        "options": [
+          {
+            "label": "A",
+            "text": "The sample size is too small, making the correlation unreliable and possibly spurious.",
+            "correct": true,
+            "feedbackCorrect": "Correct. A sample of only 3 does not provide reliable evidence for a general claim."
+          },
+          {
+            "label": "B",
+            "text": "The correlation coefficient must be negative.",
+            "correct": false,
+            "feedbackWrong": "There is no rule that aptitude and productivity have a negative correlation; the flaw is the tiny sample."
+          },
+          {
+            "label": "C",
+            "text": "Aptitude and productivity cannot be measured.",
+            "correct": false,
+            "feedbackWrong": "They can be measured; the issue is the sampling, not measurement."
+          },
+          {
+            "label": "D",
+            "text": "The company should have used a bar graph.",
+            "correct": false,
+            "feedbackWrong": "A bar graph would not fix the underlying problem of an insufficient sample size."
+          }
+        ],
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that small samples can produce misleading correlations.",
+        "ossdExpectation": "Demonstrate an understanding of the applications of data management used by the media and the advertising industry and in various occupations.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "MDM4U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Sampling bias and its impact on conclusions is part of D3 media applications.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "evaluate",
+        "stemIntent": "Check if student identifies small sample size as a source of misleading conclusions.",
+        "commonMisconception": "Believing a strong correlation from a tiny sample is reliable.",
+        "remediationModule": "err-misleading-sample-size",
+        "retestItem": "err-misleading-sample-size"
+      },
+      {
+        "id": "diag-mdm4u-s6-0811-q3",
+        "nodeId": "MDM4U_LinearRegression",
+        "errorId": "err-regression-r-vs-r2",
+        "stem": "For a bivariate dataset, the correlation coefficient r = 0.95. What does the value r² = 0.9025 tell us?",
+        "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\"><rect width=\"400\" height=\"300\" fill=\"white\"/><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"240\" stroke=\"black\" stroke-width=\"2\"/><line x1=\"40\" y1=\"240\" x2=\"360\" y2=\"240\" stroke=\"black\" stroke-width=\"2\"/><text x=\"30\" y=\"30\" font-size=\"12\" text-anchor=\"end\">y</text><text x=\"350\" y=\"270\" font-size=\"12\" text-anchor=\"start\">x</text><line x1=\"50\" y1=\"200\" x2=\"340\" y2=\"60\" stroke=\"red\" stroke-width=\"2\" stroke-dasharray=\"5,3\"/><circle cx=\"60\" cy=\"195\" r=\"4\" fill=\"blue\"/><circle cx=\"100\" cy=\"180\" r=\"4\" fill=\"blue\"/><circle cx=\"140\" cy=\"160\" r=\"4\" fill=\"blue\"/><circle cx=\"180\" cy=\"140\" r=\"4\" fill=\"blue\"/><circle cx=\"220\" cy=\"120\" r=\"4\" fill=\"blue\"/><circle cx=\"260\" cy=\"100\" r=\"4\" fill=\"blue\"/><circle cx=\"300\" cy=\"80\" r=\"4\" fill=\"blue\"/><circle cx=\"330\" cy=\"65\" r=\"4\" fill=\"blue\"/><text x=\"280\" y=\"160\" font-size=\"12\" fill=\"red\">Regression line</text><text x=\"280\" y=\"180\" font-size=\"12\" fill=\"blue\">Data points</text></svg>",
+        "type": "single_choice",
+        "options": [
+          {
+            "label": "A",
+            "text": "It is the proportion of variance in the dependent variable explained by the independent variable.",
+            "correct": true,
+            "feedbackCorrect": "Correct. r² indicates that about 90% of the variability is accounted for by the linear model."
+          },
+          {
+            "label": "B",
+            "text": "It is the strength of the correlation, indicating a very strong relationship.",
+            "correct": false,
+            "feedbackWrong": "r² is not the strength; r measures the strength. r² is the explained variance."
+          },
+          {
+            "label": "C",
+            "text": "It tells us the slope of the regression line is 0.9025.",
+            "correct": false,
+            "feedbackWrong": "The slope (b) is a separate parameter, not equal to r²."
+          },
+          {
+            "label": "D",
+            "text": "It is the p-value for the correlation test.",
+            "correct": false,
+            "feedbackWrong": "A p-value would be used for hypothesis testing, not r²."
+          }
+        ],
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly interprets r² as explained variance.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interpreting r and r² is a core part of two-variable data analysis under D2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check that student distinguishes between r (strength) and r² (explained variance).",
+        "commonMisconception": "Confusing r with r², thinking r² measures correlation strength.",
+        "remediationModule": "err-regression-r-vs-r2",
+        "retestItem": "err-regression-r-vs-r2"
+      },
+      {
+        "id": "diag-mdm4u-s6-0811-q4",
+        "nodeId": "MDM4U_LinearRegression",
+        "errorId": "err-regression-calculation",
+        "stem": "In the formula for the slope of the least-squares regression line, b = [nΣxy - ΣxΣy] / [nΣx² - (Σx)²], a student mistakenly uses Σx instead of Σx² in the denominator. Explain how this error would affect the calculated slope and why it is essential to use Σx².",
+        "type": "open_ended",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student explains that omitting the square distorts the denominator and leads to an incorrect slope, and relates this to the variance of x.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly involves algebraic calculation and interpretation of regression components from D2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Check if student understands the importance of squared terms in the slope formula and can identify the consequence of a common mistake.",
+        "commonMisconception": "Mishandling summation pre‑computations, such as forgetting to square x before summing.",
+        "remediationModule": "err-regression-calculation",
+        "retestItem": "err-regression-calculation",
+        "rubric": "Answer should explain that using Σx instead of Σx² changes the denominator dramatically (it would not match the sum of squares) and therefore yields a slope that does not minimize the sum of squared residuals. The correct denominator captures the variance of the independent variable.",
+        "sampleStrongAnswer": "Using Σx instead of Σx² would produce an incorrect denominator because Σx² is the sum of squared x‑values, which measures the spread of x. Without squaring, the denominator no longer reflects the total variation in x, resulting in a slope that does not fit the data properly. This violates the least‑squares criterion."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-misleading-truncated-axis",
+      "condition": "Student picks wrong option on question targeting this errorId",
+      "systemAction": "Assign reteach module for err-misleading-truncated-axis",
+      "studentMessage": "You misunderstood how a truncated y-axis can exaggerate differences. Let's review that before moving on."
+    },
+    {
+      "errorId": "err-misleading-sample-size",
+      "condition": "Student picks wrong option on question targeting this errorId",
+      "systemAction": "Assign reteach module for err-misleading-sample-size",
+      "studentMessage": "Small samples can lead to misleading conclusions. Let's go over why sample size matters."
+    },
+    {
+      "errorId": "err-regression-r-vs-r2",
+      "condition": "Student picks wrong option on question targeting this errorId",
+      "systemAction": "Assign reteach module for err-regression-r-vs-r2",
+      "studentMessage": "Remember, r² is the proportion of variance explained, not the strength of correlation. Let's clarify that."
+    },
+    {
+      "errorId": "err-regression-calculation",
+      "condition": "Student's open response shows misunderstanding of the slope formula components",
+      "systemAction": "Assign reteach module for err-regression-calculation",
+      "studentMessage": "You need to be careful with the sum of squares. Let's practice the formula steps again."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-misleading-truncated-axis",
+      "trigger": "A graph's y-axis does not start at zero, and you conclude it is automatically misleading without checking the labels or context.",
+      "studentMisunderstanding": "Assuming any graph with a non-zero starting y-axis is automatically misleading, without considering whether the context justifies the cut and labels are clear.",
+      "miniLesson": {
+        "explain": "A truncated y-axis begins at a value other than zero and can exaggerate the visual difference between data points. For example, a bar graph showing percentages from 34% to 50% on a scale that starts at 34 makes the difference from 34% to 36% look huge, even though it is only a 2-point change. However, a truncated axis is not always misleading if the cut is clearly labeled, the context explains why the axis was cut, and the reader understands that the visual scale begins at the cut. The problem arises when the truncation is hidden or used to make small differences appear large.",
+        "example": "In a Fox News graph, the y-axis was truncated starting at 34% instead of 0%, which exaggerated the visual difference in support for renewing tax cuts. The actual data values were close, but the graph made the difference look much larger than it really was.",
+        "memoryAnchor": "Trim the y-axis, tiny changes look drastic. Always check the axis labels and starting point before trusting the visual difference."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A bar graph shows the same data points (36, 38, 50) but the y-axis starts at 34 instead of 0. What is the main visual effect of this truncation?",
+          "answer": "It exaggerates the differences between the values, making small differences like 36 vs 38 appear much larger than they are."
+        },
+        {
+          "level": "L2",
+          "prompt": "A newspaper publishes a line graph of a company's profit margin from 2015 to 2020. The y-axis starts at 10% and is clearly labeled 'Profit margin (%)'. Is this graph automatically misleading? Explain.",
+          "answer": "No, it is not automatically misleading. Since the axis is clearly labeled as starting at 10%, readers can see the truncation and interpret the changes correctly. It only becomes misleading if the truncation is hidden or the labels are unclear, causing viewers to think the changes are larger than they really are."
+        },
+        {
+          "level": "L3",
+          "prompt": "Describe how you would check a graph to decide whether its truncated y-axis is being used appropriately or is misleading. Use the Fox News example from the lesson to support your answer.",
+          "answer": "You would check three things: (1) Is the axis starting point clearly labeled? (2) Does the context or caption explain why the axis starts at that value? (3) Does the graph make small differences look dramatic without warning? In the Fox News example, the y-axis started at 34% without a clear contextual reason, making the differences appear larger than they actually were, so it was misleading. If the labels are clear and readers are informed, truncation can be used appropriately, but it must not hide the real magnitude of differences."
+        }
+      ]
+    },
+    {
+      "errorId": "err-misleading-sample-size",
+      "trigger": "Student incorrectly answered diagnostic question on sample size reliability, believing a strong correlation from a small sample is trustworthy.",
+      "studentMisunderstanding": "The student believes that a strong correlation from a very small sample is reliable evidence for a general trend, ignoring that small samples can produce spurious patterns that often disappear with complete data.",
+      "miniLesson": {
+        "explain": "Sampling flaws such as very small sample sizes or selective sampling can produce spurious correlations or inflated positive metrics that vanish with complete data. A high correlation from a tiny sample is not reliable because it may be due to chance and not represent the broader population.",
+        "example": "In the lesson, a 3-person systematic sample falsely indicated a strong aptitude–productivity correlation; when the full data were considered, the correlation disappeared. This shows how a tiny sample can invent a pattern that is not real.",
+        "memoryAnchor": "Small sample = shaky pattern. A tiny sample can invent a trend that disappears with more data."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A company uses only 3 employees to conclude that aptitude strongly predicts productivity. Why is this conclusion unreliable?",
+          "answer": "Because the sample size is too small; the observed correlation may be spurious and not hold for all employees."
+        },
+        {
+          "level": "L2",
+          "prompt": "A market survey of only 5 customers finds that 80% prefer a new product. The company claims the product is a success. What is the main statistical problem with this claim?",
+          "answer": "The sample size is too small; the results may not represent the general customer population and could change with a larger sample."
+        },
+        {
+          "level": "L3",
+          "prompt": "A researcher claims that shoe size is a good predictor of salary based on a sample of 10 people with a high correlation. How would you critically evaluate this claim?",
+          "answer": "I would reject the claim because the sample of 10 is far too small to establish a reliable correlation. Small samples can produce spurious correlations, and the correlation should be checked with a much larger and representative sample before drawing any conclusion."
+        }
+      ]
+    },
+    {
+      "errorId": "err-regression-r-vs-r2",
+      "trigger": "Student picks wrong option on question targeting this errorId, e.g., choosing 'It is the strength of the correlation' for what r² tells us (diag-mdm4u-s6-0811-q3).",
+      "studentMisunderstanding": "The student confuses the correlation coefficient r with the coefficient of determination r², believing that r² describes the strength or direction of the linear relationship rather than the proportion of variance in the dependent variable explained by the independent variable.",
+      "miniLesson": {
+        "explain": "The correlation coefficient r measures the strength and direction of a linear relationship, from -1 to +1. The coefficient of determination r² is r squared and tells us the proportion of variance in the dependent variable that is explained by the independent variable in the linear regression model. r² is always between 0 and 1, and when expressed as a percentage, it describes explanatory power. For example, r = 0.9486 indicates a strong positive linear correlation. Its square is r² = 0.8998, which means that 89.98% of the variance in the dependent variable is explained by the independent variable. Do not say r² is the strength of the correlation; strength is judged by |r|.",
+        "example": "For the Great Sand Dunes wind velocity vs. sand drift rate data, the regression line was y = -79.92 + 1.07x. We found r = 0.9486 and r² = 0.8998. The r value close to +1 tells us that the linear relationship is strong and positive. The r² value of 0.8998 tells us that wind velocity explains 89.98% of the variance in sand drift rate. The other 10.02% of the variance is due to other factors or random variation.",
+        "memoryAnchor": "Think: r = relationship (strength/direction), r² = rooted in explanation (proportion of variance explained)."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "If the correlation coefficient is r = 0.9486, what is the coefficient of determination r², and what does that value mean in one sentence?",
+          "answer": "r² = 0.8998. It means 89.98% of the variance in the dependent variable is explained by the independent variable."
+        },
+        {
+          "level": "L2",
+          "prompt": "For the sand drift dataset, r = 0.9486 and r² = 0.8998. Which of these is a correct interpretation? A) The correlation is strong because r is close to +1. B) 89.98% of the variance in drift rate is explained by wind velocity. C) Both A and B are correct. D) Neither A nor B is correct. Explain your choice.",
+          "answer": "C. Both are correct. r = 0.9486 close to +1 means a strong positive linear correlation, and r² = 0.8998 means that 89.98% of the variance in drift rate is explained by wind velocity."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given the regression equation y = -79.92 + 1.07x with r = 0.9486, calculate r² and interpret it in the context of wind velocity and sand drift rate. Also state what the remaining percentage represents.",
+          "answer": "r² = 0.9486² = 0.8998, or 89.98%. This means 89.98% of the variance in sand drift rate is explained by wind velocity through the regression line. The remaining 100% - 89.98% = 10.02% of the variance is not explained by the model; it is due to other factors or random variability."
+        }
+      ]
+    },
+    {
+      "errorId": "err-regression-calculation",
+      "trigger": "Student incorrectly computes the regression line, especially by using Σx instead of Σx² in the slope formula or by mis-squaring values before summing.",
+      "studentMisunderstanding": "I can just add up the x-values and use that total in the denominator; I do not need to square each x before summing.",
+      "miniLesson": {
+        "explain": "Manual linear regression requires computing the sums of x, y, x², y², and xy. The slope is b = (nΣxy − ΣxΣy) / (nΣx² − (Σx)²), and the y-intercept is a = (Σy − bΣx)/n. The key is that Σx² means you square every x-value first, then add those squares. It is not the same as (Σx)², which is the total of x-values squared after adding. A common mistake is to forget the squaring step before summing, which makes the denominator too small and the slope incorrect.",
+        "example": "For the Great Sand Dunes wind velocity vs. sand drift dataset, the correct regression line was y = −79.92 + 1.07x. That slope and intercept were obtained by correctly summing all x, y, x², y², and xy values. If a student mistakenly used Σx rather than Σx² in the denominator, the slope would not come out to 1.07 and the line would not minimize the squared residuals. Once the calculations are correct, r = 0.9486 and r² = 0.8998, meaning 89.98% of the variance in drift rate is explained by wind velocity.",
+        "memoryAnchor": "Add squares, don't square the sum. The denominator needs Σx² — square every x BEFORE you add."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which expression is the correct denominator in the slope formula for least-squares regression?",
+          "answer": "nΣx² − (Σx)². Remember to square each x-value first, then sum the squares."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student made an error by using Σx instead of Σx² in the denominator. Why does this lead to an incorrect slope?",
+          "answer": "Because Σx² is the sum of each x-value squared, not the sum of the x-values themselves. Using Σx removes the squares and makes the denominator no longer reflect the total variation in x, so the calculated slope does not satisfy the least-squares criterion and will not match the correct regression line."
+        },
+        {
+          "level": "L3",
+          "prompt": "For the sand drift dataset, the correct regression line is y = −79.92 + 1.07x, with r = 0.9486 and r² = 0.8998. How would you verify that the slope and intercept were calculated correctly before interpreting these results?",
+          "answer": "First, check the summations: compute Σx, Σy, Σx², Σy², and Σxy. Then substitute into b = (nΣxy − ΣxΣy) / (nΣx² − (Σx)²) to confirm b = 1.07, and into a = (Σy − bΣx)/n to confirm a = −79.92. Once the line is verified, r² = 0.8998 means 89.98% of the variance in drift rate is explained by wind velocity."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-misleading-truncated-axis",
+      "questions": [
+        {
+          "id": "truncated-axis-transfer-1",
+          "type": "single_choice",
+          "stem": "A newspaper graph compares two percentages: 36% and 38%. The y-axis starts at 34% and is clearly labeled 'Percent'. Which conclusion is correct?",
+          "options": [
+            "The graph is misleading because no graph may start at a value other than zero.",
+            "The graph is definitely misleading because it exaggerates a small difference.",
+            "The graph is not automatically misleading; the clear label lets readers see the axis starts at 34%, so they can judge the actual difference.",
+            "The graph is misleading because the values are too close to compare."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "truncated-axis-transfer-2",
+          "type": "open_ended",
+          "stem": "Give one situation where a truncated y-axis is acceptable and one where it would be misleading. Explain what you would check to decide.",
+          "rubric": "The response must include: (1) an acceptable example where the axis is clearly labeled and the context justifies starting above zero, allowing readers to see the truncation; (2) a misleading example where the truncation is hidden, unexplained, or used to exaggerate small differences; (3) an explicit mention of checking the axis starting point and labels, not just assuming that a non-zero start automatically makes the graph misleading."
+        }
+      ],
+      "passRule": "Student must select option 2 in Q1, and in Q2 must identify both an acceptable clearly labeled truncation and a misleading hidden/unexplained truncation, while explaining that the axis starting point and labels need to be checked rather than assuming truncation is always misleading."
+    },
+    {
+      "forErrorId": "err-misleading-sample-size",
+      "questions": [
+        {
+          "id": "err-misleading-sample-size-q1",
+          "type": "single_choice",
+          "stem": "A researcher finds a very high correlation (r = 0.95) between hours of study and test scores using data from only 8 students. Which is the most reasonable conclusion?",
+          "options": [
+            "The high correlation proves that more study causes higher scores for all students.",
+            "The result is reliable because r = 0.95 is very close to 1.",
+            "The result is likely unreliable because the sample is too small to support such a strong claim.",
+            "The correlation is strong, but we need to check if the graph has a truncated axis."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "err-misleading-sample-size-q2",
+          "type": "open_ended",
+          "stem": "A company claims that a new training program improves productivity based on a study of only 4 employees who all showed improvement. Explain why this claim may be misleading and suggest what the company should do before making such a claim.",
+          "rubric": "Award 3 points: 1 point for identifying that the sample size is too small; 1 point for explaining that results from a tiny sample may be spurious or not generalizable; 1 point for suggesting collecting data from a larger, representative sample (e.g., all employees or random selection) before drawing conclusions."
+        }
+      ],
+      "passRule": "Student must answer the single_choice correctly and score at least 2 out of 3 points on the open-ended question."
+    },
+    {
+      "forErrorId": "err-regression-r-vs-r2",
+      "questions": [
+        {
+          "id": "retest-r-vs-r2-q1",
+          "type": "single_choice",
+          "stem": "For the sand drift regression, r = 0.9486. Which of the following is the correct interpretation of r²?",
+          "options": [
+            "It is the strength of the linear relationship, same as r but squared.",
+            "It equals 0.8998, meaning 89.98% of the variance in sand drift rate is explained by wind velocity.",
+            "It equals 0.8998, meaning the correlation is 0.8998 times as strong as 0.9486.",
+            "It is the slope of the regression line."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-r-vs-r2-q2",
+          "type": "open_ended",
+          "stem": "In a study on study time and test score, the regression line has r = 0.8. Calculate r² and state specifically what that value tells you about the relationship between study time and test score.",
+          "rubric": "r² = 0.8² = 0.64 = 64%. This means 64% of the variance in test scores is explained by study time; the remaining 36% is due to other factors. The answer must mention proportion/percentage of variance explained, not simply say 'correlation strength'."
+        }
+      ],
+      "passRule": "Student must select the correct option in Question 1 and provide a correct r² calculation with an interpretation about explained variance in Question 2."
+    },
+    {
+      "forErrorId": "err-regression-calculation",
+      "questions": [
+        {
+          "id": "regcalc-q1",
+          "type": "single_choice",
+          "stem": "For x-values 1, 2, 3, which expression gives the value of Σx²?",
+          "options": [
+            "(1+2+3)²",
+            "1² + 2² + 3²",
+            "1+2+3",
+            "1² × 2² × 3²"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "regcalc-q2",
+          "type": "open_ended",
+          "stem": "A classmate used Σx instead of Σx² in the denominator of the slope formula when computing the regression line for the sand drift dataset. Write a short explanation of the correct denominator, why the error makes the slope wrong, and what the correct slope and intercept should be.",
+          "rubric": "Must state that the correct denominator is nΣx² − (Σx)², where Σx² means squaring each x-value before summing. Must explain that using Σx makes the denominator too small and gives a slope that does not minimize squared residuals. Must mention the correct slope is 1.07 and intercept is −79.92 for the sand drift line."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly, and Q2 must explicitly identify the correct denominator and the correct slope/intercept values."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-11",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/XAdxdWdo8oNqB4xNQIKc3dmNnJf?from=vc_group_doc_link#doxcnkNIedMG5i4iUd2TQTyzbwh",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-08-11 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Misleading data can result from axis manipulations such as truncating the y-axis, using inconsistent x- and y-axis scaling, or adjusting vertical scale to alter perceived trend severity.；Pictorial graphs can mislead when icon areas are not proportional to the data magnitudes they represent, exaggerating differences (e.g., Titanic crew icon area 9× first class but only 3× the headcount).；Sampling flaws such as very small sample sizes or selective sampling can produce spurious correlations or inflated positive metrics that vanish with complete data.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and explain how data representations can be misleading through axis manipulation, scaling, pictorial distortion, or biased sampling."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate and interpret the least-squares regression line, correlation coefficient r, and coefficient of determination r² from bivariate data."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Complete Unit 3 Class Activity 6 Question 2",
+        "studentAction": "Complete Question 2 of Unit 3 Class Activity 6 as independent homework.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Pending class activities: Complete Unit 3 Class Activity 6 Question 2 as independent homework",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Complete Class Activity 7",
+        "studentAction": "Finish Unit 3 Class Activity 7, focusing on identifying structural errors in misleading graph examples.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "and finish Class Activity 7 focused on identifying structural errors in misleading graph examples.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "follow_up_action",
+        "title": "Practice manual linear regression calculation repeatedly",
+        "studentAction": "Prioritize repeated practice of manual linear regression calculation steps, as identical question types will appear on the upcoming Unit 3 test.",
+        "deadlineText": "Before Unit 3 test",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Practice reminder: Prioritize repeated practice of manual linear regression calculation, as identical question types will appear in the upcoming formal Unit 3 assessment.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "announcement",
+        "title": "Next class: Unit 3 test review session",
+        "studentAction": "Prepare for the next class session, which will be fully dedicated to Unit 3 test review, covering all core content from the first 7 lessons.",
+        "deadlineText": "next Tuesday",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Test review session: The next session (scheduled for Tuesday) will be fully dedicated to Unit 3 test review.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "Formula sheet provided for final exam",
+        "studentAction": "Note that all required formulas for linear regression and other calculations will be provided during the final exam.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "all required formulas will be provided for final exams.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "material_needed",
+        "title": "Calculator permitted for summation steps",
+        "studentAction": "Use a calculator for summation steps when performing linear regression calculations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "calculators permitted for summation steps",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "The next session (scheduled for Tuesday)",
+        "reason": "The next session date is ambiguous. It could be the following Tuesday (Aug 18) or another day if the schedule includes multiple meetings per week."
+      },
+      {
+        "rawText": "Complete Unit 3 Class Activity 6 Question 2 as independent homework",
+        "reason": "No deadline specified; need teacher confirmation on due date."
+      },
+      {
+        "rawText": "finish Class Activity 7",
+        "reason": "No deadline specified; need teacher confirmation on due date."
+      }
+    ],
+    "watchTags": [
+      "MDM4U_MisleadingData",
+      "MDM4U_LinearRegression"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-misleading-truncated-axis",
+        "condition": "Student picks wrong option on question targeting this errorId",
+        "systemAction": "Assign reteach module for err-misleading-truncated-axis"
+      },
+      {
+        "errorId": "err-misleading-sample-size",
+        "condition": "Student picks wrong option on question targeting this errorId",
+        "systemAction": "Assign reteach module for err-misleading-sample-size"
+      },
+      {
+        "errorId": "err-regression-r-vs-r2",
+        "condition": "Student picks wrong option on question targeting this errorId",
+        "systemAction": "Assign reteach module for err-regression-r-vs-r2"
+      },
+      {
+        "errorId": "err-regression-calculation",
+        "condition": "Student's open response shows misunderstanding of the slope formula components",
+        "systemAction": "Assign reteach module for err-regression-calculation"
+      }
+    ],
+    "nextActions": [
+      "[err-misleading-truncated-axis] Student picks wrong option on question targeting this errorId: You misunderstood how a truncated y-axis can exaggerate differences. Let's review that before moving on.",
+      "[err-misleading-sample-size] Student picks wrong option on question targeting this errorId: Small samples can lead to misleading conclusions. Let's go over why sample size matters.",
+      "[err-regression-r-vs-r2] Student picks wrong option on question targeting this errorId: Remember, r² is the proportion of variance explained, not the strength of correlation. Let's clarify that.",
+      "[err-regression-calculation] Student's open response shows misunderstanding of the slope formula components: You need to be careful with the sum of squares. Let's practice the formula steps again."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-s6-0811-q1",
+        "type": "choice",
+        "question": "A news article shows a bar graph where the y-axis starts at 34 and increases by 2, while the actual data values range from 34 to 50. Why might this graph mislead viewers?",
+        "options": [
+          "It exaggerates differences because the baseline is not zero, making small changes appear large.",
+          "It is not misleading because the y-axis is clearly labeled.",
+          "The data values are too small to be shown on a graph.",
+          "It shows a perfect positive correlation."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student understands that truncating the y-axis can distort perception of differences.",
+        "misconceptions": [
+          "✓ Correct. A truncated axis can visually magnify minor differences.",
+          "Even with labels, starting the axis far from zero misrepresents the relative size of differences.",
+          "The data values are not too small; the issue is the axis range being cut off.",
+          "This has nothing to do with correlation; the problem is the axis scaling."
+        ],
+        "nodeId": "MDM4U_MisleadingData",
+        "errorId": "err-misleading-truncated-axis",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student correctly identifies that a truncated axis exaggerates visual differences.",
+        "ossdExpectation": "Demonstrate an understanding of the applications of data management used by the media and the advertising industry and in various occupations.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "MDM4U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Misleading graphs are directly covered in D3 expectations about media data use.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Assuming any graph with a non‑zero start is automatically misleading without context.",
+        "remediationModule": "err-misleading-truncated-axis",
+        "retestItem": "err-misleading-truncated-axis"
+      },
+      {
+        "id": "diag-mdm4u-s6-0811-q2",
+        "type": "choice",
+        "question": "A company conducts an employee aptitude vs. productivity study using only 3 employees and finds a very high positive correlation. They conclude that aptitude strongly predicts productivity for all employees. What is the main flaw in this conclusion?",
+        "options": [
+          "The sample size is too small, making the correlation unreliable and possibly spurious.",
+          "The correlation coefficient must be negative.",
+          "Aptitude and productivity cannot be measured.",
+          "The company should have used a bar graph."
+        ],
+        "correct": 0,
+        "diagnosis": "Check if student identifies small sample size as a source of misleading conclusions.",
+        "misconceptions": [
+          "✓ Correct. A sample of only 3 does not provide reliable evidence for a general claim.",
+          "There is no rule that aptitude and productivity have a negative correlation; the flaw is the tiny sample.",
+          "They can be measured; the issue is the sampling, not measurement.",
+          "A bar graph would not fix the underlying problem of an insufficient sample size."
+        ],
+        "nodeId": "MDM4U_MisleadingData",
+        "errorId": "err-misleading-sample-size",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student recognizes that small samples can produce misleading correlations.",
+        "ossdExpectation": "Demonstrate an understanding of the applications of data management used by the media and the advertising industry and in various occupations.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "MDM4U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Sampling bias and its impact on conclusions is part of D3 media applications.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "evaluate",
+        "commonMisconception": "Believing a strong correlation from a tiny sample is reliable.",
+        "remediationModule": "err-misleading-sample-size",
+        "retestItem": "err-misleading-sample-size"
+      },
+      {
+        "id": "diag-mdm4u-s6-0811-q3",
+        "type": "choice",
+        "question": "For a bivariate dataset, the correlation coefficient r = 0.95. What does the value r² = 0.9025 tell us?",
+        "options": [
+          "It is the proportion of variance in the dependent variable explained by the independent variable.",
+          "It is the strength of the correlation, indicating a very strong relationship.",
+          "It tells us the slope of the regression line is 0.9025.",
+          "It is the p-value for the correlation test."
+        ],
+        "correct": 0,
+        "diagnosis": "Check that student distinguishes between r (strength) and r² (explained variance).",
+        "misconceptions": [
+          "✓ Correct. r² indicates that about 90% of the variability is accounted for by the linear model.",
+          "r² is not the strength; r measures the strength. r² is the explained variance.",
+          "The slope (b) is a separate parameter, not equal to r².",
+          "A p-value would be used for hypothesis testing, not r²."
+        ],
+        "nodeId": "MDM4U_LinearRegression",
+        "errorId": "err-regression-r-vs-r2",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly interprets r² as explained variance.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Interpreting r and r² is a core part of two-variable data analysis under D2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Confusing r with r², thinking r² measures correlation strength.",
+        "remediationModule": "err-regression-r-vs-r2",
+        "retestItem": "err-regression-r-vs-r2"
+      },
+      {
+        "id": "diag-mdm4u-s6-0811-q4",
+        "type": "explain",
+        "question": "In the formula for the slope of the least-squares regression line, b = [nΣxy - ΣxΣy] / [nΣx² - (Σx)²], a student mistakenly uses Σx instead of Σx² in the denominator. Explain how this error would affect the calculated slope and why it is essential to use Σx².",
+        "correct": null,
+        "diagnosis": "Check if student understands the importance of squared terms in the slope formula and can identify the consequence of a common mistake.",
+        "nodeId": "MDM4U_LinearRegression",
+        "errorId": "err-regression-calculation",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student explains that omitting the square distorts the denominator and leads to an incorrect slope, and relates this to the variance of x.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Directly involves algebraic calculation and interpretation of regression components from D2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Mishandling summation pre‑computations, such as forgetting to square x before summing.",
+        "remediationModule": "err-regression-calculation",
+        "retestItem": "err-regression-calculation"
+      }
+    ]
+  }
+}
