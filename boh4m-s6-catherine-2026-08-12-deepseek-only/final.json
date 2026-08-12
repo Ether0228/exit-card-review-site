@@ -1,0 +1,794 @@
+{
+  "sourceLesson": "BOH4M.S6.Catherine 2026-08-12",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Eep3drMfhoqjVTxSIZScnQAlnxe?from=vc_group_doc_link#doxcn4B34Hu3b0lsi4ANK9Nz81f",
+  "sourceTitle": "BOH4M.S6.Catherine 2026-08-12 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/Eep3drMfhoqjVTxSIZScnQAlnxe?from=vc_group_doc_link#doxcn4B34Hu3b0lsi4ANK9Nz81f",
+    "title": "BOH4M.S6.Catherine 2026-08-12 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-12/sources/boh4m-s6-catherine-2026-08-12/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "BOH4M",
+  "lessonDate": "2026-08-12",
+  "teacher": "Catherine",
+  "section": "S6",
+  "subject": "business",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-08-12",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": false,
+    "lessonTypeReason": "The lesson includes new academic instruction on strategic management and Ansoff Matrix, followed by assignment briefing and in-class assignment work time.",
+    "academicContentSignals": [
+      "Strategic management definition and purpose",
+      "Core implementation steps and constraints",
+      "Competitive advantage attribute",
+      "Strategic management formula (SM = SF + SI)",
+      "Resource allocation in strategic implementation",
+      "Three strategic environment types: monopoly, legal poly, hyper competition",
+      "Ansoff Matrix framework (existing/new products and markets)",
+      "Market penetration strategy",
+      "Market development strategy",
+      "Product development strategy",
+      "Diversification strategies: horizontal, vertical, concentric, conglomerate",
+      "Ansoff Matrix consolidation video"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "The lesson contains a detailed assignment briefing (10% of grade) and a unit test reminder. Without careful extraction, the diagnostic card might overemphasize assignment logistics and overlook the core academic content on strategic management and the Ansoff Matrix. Ensure that exit card questions prioritize mastery of these concepts.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit Test Coverage Reminder",
+        "studentAction": "Review strategic management and planning content from the recent sessions for the upcoming unit test.",
+        "deadlineText": "before the upcoming unit test (date TBD)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Key content of strategic management and planning covered in the previous and current sessions is listed as core test scope for the upcoming unit test.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Unit 4 Assignment",
+        "studentAction": "Complete the Unit 4 assignment: written report, presentation slides, and a recorded video of the presentation.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "This is the only assignment for Unit 4, accounting for 10% of the total course score... Required Submission Materials: written report, presentation slides, and recorded video.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Reference Materials for Unit 4 Assignment",
+        "studentAction": "Consult the two sets of past excellent student works (reports and slides) provided as references.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Two sets of past excellent student works, including complete written reports and supporting slides, are provided for students to refer to.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "15-minute Break",
+        "studentAction": "Take a 15-minute break after the summary video playback.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A 15-minute break is arranged right after the summary video playback.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "In-class Assignment Work Session",
+        "studentAction": "Use the 25-minute on-site session after the break to draft and work on the Unit 4 assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "A 25-minute on-site working session is arranged after the break, for students to draft and work on the Unit 4 assignment content.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next Class Preview",
+        "studentAction": "Prepare for the next class, which will cover other practical strategic planning tools.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The next course session will continue to explore and explain other practical strategic planning tools to help students master the full set of strategic management methods.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Unit Test Reminder: Key content of strategic management and planning covered in the previous and current sessions is listed as core test scope for the upcoming unit test.",
+        "reason": "Date of the unit test is not specified in the notes."
+      },
+      {
+        "rawText": "Unit 4 Assignment: Required Submission Materials: written report, presentation slides, and recorded video.",
+        "reason": "Assignment submission deadline is not mentioned in the notes."
+      },
+      {
+        "rawText": "Two sets of past excellent student works are provided for students to refer to.",
+        "reason": "Location or platform where these reference materials are posted is not specified."
+      }
+    ]
+  },
+  "title": "BOH4M Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Strategic Management Fundamentals、Ansoff Matrix）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是不同概念之间的联系可能还没有建立起来，容易被零散记忆。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Strategic management is a cross-functional method to formulate, implement, and evaluate decisions to help organizations achieve goals; it does not guarantee success.；Strategic management formula: SM = SF (strategic formulation) + SI (strategic implementation); implementation requires resource allocation.；Three competitive environment types: monopoly (no competition), legal oligopoly (few large players), hyper competition (many brands, temporary advantages).",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Explain strategic management as a cross-functional planning method and recognize that it does not guarantee business success."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Use the Ansoff Matrix product and market dimensions to identify the four growth strategies."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Distinguish types of diversification (horizontal, vertical, concentric, conglomerate) and apply them to business examples."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "node-strategic-management",
+      "name": "Strategic Management Fundamentals",
+      "nameEn": "Strategic Management Fundamentals",
+      "definition": "Strategic management (strategic planning) is a cross-functional decision formulation, implementation, and evaluation method to help organizations achieve goals. It confirms current position, sets objectives, and develops actionable steps. It is time and cost-intensive, often requiring third-party consultants. Its core purpose is to gain and sustain competitive advantage. Formula: SM = SF + SI; implementation depends on resource allocation.",
+      "officialExpectationCode": "D1",
+      "officialNodeId": "BOH4M-D-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Analyse the importance of planning to the success of an organization."
+    },
+    {
+      "id": "node-ansoff-matrix",
+      "name": "Ansoff Matrix",
+      "nameEn": "Ansoff Matrix",
+      "definition": "A planning tool that helps firms determine growth strategies by analyzing products and markets. Dimensions: existing/new products and existing/new markets. Strategies: market penetration (existing/existing, increase market share), market development (existing product, new market), product development (new product, existing market), diversification (new product, new market). Diversification includes horizontal, vertical, concentric, and conglomerate.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "BOH4M-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of appropriate planning tools and techniques in a variety of situations."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Explain strategic management as a cross-functional planning method and recognize that it does not guarantee business success."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Use the Ansoff Matrix product and market dimensions to identify the four growth strategies."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish types of diversification (horizontal, vertical, concentric, conglomerate) and apply them to business examples."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-sm-no-guarantee",
+        "condition": "Student chooses an option on Q1 that treats strategic management as a guaranteed success.",
+        "systemAction": "Assign reteach module err-sm-no-guarantee and schedule retest within 24 hours.",
+        "studentMessage": "Strategic management is a planning method, not a guarantee. Let's review what it can and cannot do."
+      },
+      {
+        "errorId": "err-ansoff-confuse-strategies",
+        "condition": "Student confuses market penetration with market development on Q2.",
+        "systemAction": "Assign reteach module err-ansoff-confuse-strategies and schedule retest within 24 hours.",
+        "studentMessage": "The Ansoff Matrix's two dimensions—products and markets—can help you tell these growth strategies apart."
+      },
+      {
+        "errorId": "err-ansoff-diversification-types",
+        "condition": "Student misidentifies the diversification type in Q3's open response.",
+        "systemAction": "Assign reteach module err-ansoff-diversification-types and schedule retest within 24 hours.",
+        "studentMessage": "Diversification has more than one form—horizontal, vertical, concentric, and conglomerate each serve a different purpose."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-boh4m-s6-20260812-q1",
+        "nodeId": "node-strategic-management",
+        "errorId": "err-sm-no-guarantee",
+        "stem": "Which statement best describes strategic management in an organization?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Recognizes strategic management as a structured planning method without overstating its outcome.",
+        "ossdExpectation": "Analyse the importance of planning to the success of an organization.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "BOH4M-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question addresses the role and limits of strategic planning, matching D1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check whether students understand the scope and limits of strategic management.",
+        "commonMisconception": "Believing strategic management guarantees business success.",
+        "remediationModule": "err-sm-no-guarantee",
+        "retestItem": "err-sm-no-guarantee",
+        "options": [
+          {
+            "label": "A",
+            "text": "A method that helps formulate, implement, and evaluate decisions to achieve goals, but does not guarantee success.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Strategic management is a planning method, not a promise of success.",
+            "feedbackWrong": null
+          },
+          {
+            "label": "B",
+            "text": "A one-time decision that always guarantees an organization will outperform competitors.",
+            "correct": false,
+            "feedbackWrong": "Strategic management is ongoing and never a guarantee; external factors and execution matter."
+          },
+          {
+            "label": "C",
+            "text": "A financial audit used only to reduce costs.",
+            "correct": false,
+            "feedbackWrong": "That is a narrow operational tool, not the cross-functional strategic planning approach."
+          },
+          {
+            "label": "D",
+            "text": "A process that works only for large corporations, not small businesses.",
+            "correct": false,
+            "feedbackWrong": "Strategic management can be adapted to organizations of different sizes."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-s6-20260812-q2",
+        "nodeId": "node-ansoff-matrix",
+        "errorId": "err-ansoff-confuse-strategies",
+        "stem": "A local bakery has a strong bread product but wants to enter a nearby city where it has no customers. Using the Ansoff Matrix, this is an example of:",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Correctly applies existing product/new market to identify market development.",
+        "ossdExpectation": "Demonstrate an understanding of appropriate planning tools and techniques in a variety of situations.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "BOH4M-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The Ansoff Matrix is a planning tool, and the question tests applying its product/market dimensions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check whether students can apply the Ansoff product/market grid to a realistic scenario.",
+        "commonMisconception": "Confusing market development with market penetration because both involve selling.",
+        "remediationModule": "err-ansoff-confuse-strategies",
+        "retestItem": "err-ansoff-confuse-strategies",
+        "options": [
+          {
+            "label": "A",
+            "text": "Market penetration, because the bakery is selling more bread.",
+            "correct": false,
+            "feedbackWrong": "Market penetration means selling the existing product to the existing market. Here the bakery is entering a new city, a new market."
+          },
+          {
+            "label": "B",
+            "text": "Market development, because the existing product is being sold in a new market.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The bread is the existing product, and the nearby city is a new market.",
+            "feedbackWrong": null
+          },
+          {
+            "label": "C",
+            "text": "Product development, because a new product is being created for the existing market.",
+            "correct": false,
+            "feedbackWrong": "The bread is the existing product; the city is a new market, not a new product."
+          },
+          {
+            "label": "D",
+            "text": "Diversification, because the bakery is expanding into a completely new industry.",
+            "correct": false,
+            "feedbackWrong": "Diversification requires a new product and a new market; this scenario keeps the same product."
+          }
+        ]
+      },
+      {
+        "id": "diag-boh4m-s6-20260812-q3",
+        "nodeId": "node-ansoff-matrix",
+        "errorId": "err-ansoff-diversification-types",
+        "stem": "Using the Ansoff Matrix, explain why a construction company that starts producing its own building materials is a form of diversification, and identify the specific type.",
+        "type": "open_ended",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies vertical diversification and justifies the upstream expansion explanation.",
+        "ossdExpectation": "Demonstrate an understanding of appropriate planning tools and techniques in a variety of situations.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "BOH4M-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question applies Ansoff diversification types to a new example, matching D2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "justify",
+        "stemIntent": "Check whether students can apply Ansoff diversification types to an example and justify their reasoning.",
+        "commonMisconception": "Assuming any new product for a related industry is conglomerate rather than vertical.",
+        "remediationModule": "err-ansoff-diversification-types",
+        "retestItem": "err-ansoff-diversification-types",
+        "rubric": "Full credit: identifies vertical diversification and explains that producing building materials moves upstream in the same value chain. Partial credit: identifies it as diversification but gives the wrong type or weak justification.",
+        "sampleStrongAnswer": "This is vertical diversification. The construction company is expanding into the production of its own raw materials, which is upstream in its existing value chain, rather than entering an unrelated industry as in conglomerate diversification."
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-sm-no-guarantee",
+      "condition": "Student chooses an option on Q1 that treats strategic management as a guaranteed success.",
+      "systemAction": "Assign reteach module err-sm-no-guarantee and schedule retest within 24 hours.",
+      "studentMessage": "Strategic management is a planning method, not a guarantee. Let's review what it can and cannot do."
+    },
+    {
+      "errorId": "err-ansoff-confuse-strategies",
+      "condition": "Student confuses market penetration with market development on Q2.",
+      "systemAction": "Assign reteach module err-ansoff-confuse-strategies and schedule retest within 24 hours.",
+      "studentMessage": "The Ansoff Matrix's two dimensions—products and markets—can help you tell these growth strategies apart."
+    },
+    {
+      "errorId": "err-ansoff-diversification-types",
+      "condition": "Student misidentifies the diversification type in Q3's open response.",
+      "systemAction": "Assign reteach module err-ansoff-diversification-types and schedule retest within 24 hours.",
+      "studentMessage": "Diversification has more than one form—horizontal, vertical, concentric, and conglomerate each serve a different purpose."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-sm-no-guarantee",
+      "trigger": "Student chooses an option on Q1 that treats strategic management as a guaranteed success.",
+      "studentMisunderstanding": "Assuming strategic management guarantees business success, when it is a method with no guarantee.",
+      "miniLesson": {
+        "explain": "Strategic management is a cross-functional method to formulate, implement, and evaluate decisions to help organizations achieve goals; it does not guarantee success. The formula is SM = SF + SI, and implementation depends on resource allocation. Even with a solid plan, organizations operate in competitive environments such as monopoly, legal oligopoly, and hyper competition, where success is never certain.",
+        "example": "Apple releases a new iPhone each year as a product development strategy, but it still operates in hyper-competition with many brands and temporary advantages. Even with careful strategic management, Apple cannot guarantee success because competitors constantly respond and market conditions change.",
+        "memoryAnchor": "Think of a GPS: it gives directions but doesn't drive the car. Strategic management is a roadmap, not a guarantee of arrival."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which best describes strategic management?",
+          "answer": "A cross-functional method to formulate, implement, and evaluate decisions to help achieve goals, but it does not guarantee success."
+        },
+        {
+          "level": "L2",
+          "prompt": "A company uses strategic management and sets clear objectives. Does this guarantee the company will outperform competitors? Explain using a competitive environment from the lesson.",
+          "answer": "No. Strategic management does not guarantee success. For example, in hyper competition there are many brands and temporary advantages, so outcomes depend on execution and market conditions, not just the plan."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why strategic management, even with successful implementation (SI), may not lead to sustained competitive advantage in a hyper-competitive environment.",
+          "answer": "Strategic management is SM = SF + SI; implementation requires resource allocation. In hyper competition, many brands compete and advantages are temporary, so even a well-implemented strategy may not guarantee durable success."
+        }
+      ]
+    },
+    {
+      "errorId": "err-ansoff-confuse-strategies",
+      "trigger": "Student selects market penetration when a scenario describes selling an existing product in a new market.",
+      "studentMisunderstanding": "The student confuses market penetration (existing product, existing market) with market development (existing product, new market). They focus only on the product being the same and overlook the market dimension change.",
+      "miniLesson": {
+        "explain": "The Ansoff Matrix uses two dimensions: products (existing/new) and markets (existing/new). Market penetration means selling the existing product in the existing market to gain a larger share (e.g., via price cuts or promotions). Market development means taking the same existing product and selling it in a new market, such as a new geographic region or a new customer segment. The key difference is the market: in penetration, the market stays the same; in development, the market is new.",
+        "example": "A company sells a successful snack in Toronto and decides to start selling the same snack in Vancouver, where it currently has no customers. This is market development because the product is existing but the market (Vancouver) is new.",
+        "memoryAnchor": "Penetration digs deeper into the SAME market; Development expands to a NEW market. Same product, but ask: 'Are the customers new?'"
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which Ansoff strategy uses an existing product with an existing market?",
+          "answer": "Market penetration."
+        },
+        {
+          "level": "L2",
+          "prompt": "A cell phone company sells its current phone model to customers in a neighbouring country for the first time. Which Ansoff strategy is this?",
+          "answer": "Market development, because the product is existing and the market (neighbouring country) is new."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain the difference between market penetration and market development using the two dimensions of the Ansoff Matrix, and provide an example of each.",
+          "answer": "Market penetration uses existing products in existing markets, aiming to increase share through tactics like price cuts or promotions. Market development uses existing products in new markets, such as expanding to a new city. For example, a bakery selling more bread to its current customers is penetration, while the same bakery selling that bread to customers in a new city is development. The critical distinction is the market dimension."
+        }
+      ]
+    },
+    {
+      "errorId": "err-ansoff-diversification-types",
+      "trigger": "When a student identifies any diversification as conglomerate, ignoring the relationship between the new product and existing business, such as calling vertical diversification conglomerate.",
+      "studentMisunderstanding": "Mistaking all diversification for conglomerate diversification, ignoring horizontal, vertical, and concentric types.",
+      "miniLesson": {
+        "explain": "Diversification means entering a new product and a new market, but it has four types. Horizontal diversification offers a new product to existing customers. Vertical diversification expands upstream or downstream in the value chain. Concentric diversification introduces a new product that is technologically similar to current products. Conglomerate diversification moves into unrelated industries. The type depends on how the new venture relates to the current business.",
+        "example": "A construction company producing its own building materials is vertical diversification because it moves upstream into supply. A bakery selling pre-made baking dough to consumers is concentric because dough is technologically similar to baking. Apple making cars is horizontal because it targets existing customers with a new product.",
+        "memoryAnchor": "Remember HVC: Horizontal for your customers, Vertical for your supply chain, Concentric for similar tech, and Conglomerate for completely unrelated."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Match the diversification type to its definition: (1) Horizontal, (2) Vertical, (3) Concentric, (4) Conglomerate. A. New product for existing customers; B. Upstream/downstream expansion; C. Technologically similar new product; D. Unrelated new industry.",
+          "answer": "1-A, 2-B, 3-C, 4-D"
+        },
+        {
+          "level": "L2",
+          "prompt": "A bakery starts selling pre-made baking dough to consumers. Which type of diversification is this? Explain.",
+          "answer": "Concentric diversification, because the dough is a new product for a new market (consumers) but is technologically similar to the bakery's existing products."
+        },
+        {
+          "level": "L3",
+          "prompt": "A construction company begins producing its own building materials. Some argue this is conglomerate diversification. Explain why this is vertical diversification instead.",
+          "answer": "It is vertical diversification, not conglomerate, because producing building materials is upstream in the construction value chain. Conglomerate diversification would involve entering an unrelated industry, such as a tech company buying a food chain."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-sm-no-guarantee",
+      "questions": [
+        {
+          "id": "q1-no-guarantee-transfer",
+          "type": "single_choice",
+          "stem": "Why might a firm with a well-implemented strategic plan still fail?",
+          "options": [
+            "Strategic management is only a method and cannot guarantee success.",
+            "Strategic management always works if the plan is detailed.",
+            "Strategic management requires government approval.",
+            "Strategic management causes failure in competitive markets."
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-no-guarantee-open",
+          "type": "open_ended",
+          "stem": "A company has completed all steps of strategic management and allocated resources. Does this ensure success? Explain your reasoning using the strategic management formula and one competitive environment from the lesson.",
+          "rubric": "Student must explicitly state that strategic management does NOT guarantee success. They should reference the formula SM = SF + SI and note that implementation depends on resource allocation. They should also explain that in a competitive environment (e.g., hyper competition with many brands and temporary advantages), outcomes are uncertain despite a solid plan."
+        }
+      ],
+      "passRule": "Q1 must be correct. Q2 must explicitly reject the idea of guaranteed success and correctly reference the formula and a competitive environment."
+    },
+    {
+      "forErrorId": "err-ansoff-confuse-strategies",
+      "questions": [
+        {
+          "id": "ansoff-confuse-retest-1",
+          "type": "single_choice",
+          "stem": "A candy company has sold its chocolate bars in British Columbia for several years. This year, it starts selling the same chocolate bars to retailers in Alberta, a province where it has never sold before. According to Ansoff's Matrix, which growth strategy is the company using?",
+          "options": [
+            "Market penetration",
+            "Market development",
+            "Product development",
+            "Diversification"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "ansoff-confuse-retest-2",
+          "type": "open_ended",
+          "stem": "A fitness equipment manufacturer currently sells its treadmills to gyms in Canada. It considers two growth options: (1) running a social media campaign to attract more Canadian gyms to buy its existing treadmill model, and (2) selling its existing treadmill model to home customers in the United States for the first time. Identify the Ansoff strategy for each option and explain, using the product/market dimensions, why they are different.",
+          "rubric": "Correctly classifies option (1) as market penetration (existing product, existing market) and option (2) as market development (existing product, new market). The explanation explicitly references both dimensions and notes that the key difference is whether the market is existing (penetration) or new (development). Full credit if both classifications and the dimension-based reasoning are present. Partial credit if only one classification is correct or the explanation omits the market dimension."
+        }
+      ],
+      "passRule": "Answer Q1 correctly (market development). For Q2, correctly classify both scenarios as market penetration and market development, and explicitly state that the difference lies in the market dimension (existing vs. new)."
+    },
+    {
+      "forErrorId": "err-ansoff-diversification-types",
+      "questions": [
+        {
+          "id": "retest-diversification-1",
+          "type": "single_choice",
+          "stem": "A smartphone manufacturer decides to produce its own display screens instead of buying them from suppliers. Which type of diversification does this represent?",
+          "options": [
+            "Horizontal diversification",
+            "Vertical diversification",
+            "Concentric diversification",
+            "Conglomerate diversification"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-diversification-2",
+          "type": "open_ended",
+          "stem": "A clothing retailer starts selling coffee in its stores. Some people argue this is conglomerate diversification. Explain whether this is actually conglomerate or a different type of diversification, and justify your reasoning.",
+          "rubric": "The student should identify this as horizontal diversification (new product for existing customers) and explain that it is not conglomerate because the target customers are the same (the retailer's existing clientele) and the new product, while unrelated to clothing, still leverages the existing customer relationship. Conglomerate diversification would involve entering a completely unrelated industry with no clear connection to the current customer base or business operations."
+        }
+      ],
+      "passRule": "Answer all questions correctly to pass."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "BOH4M.S6.Catherine 2026-08-12",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/Eep3drMfhoqjVTxSIZScnQAlnxe?from=vc_group_doc_link#doxcn4B34Hu3b0lsi4ANK9Nz81f",
+    "sourceTitle": "BOH4M.S6.Catherine 2026-08-12 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Strategic management is a cross-functional method to formulate, implement, and evaluate decisions to help organizations achieve goals; it does not guarantee success.；Strategic management formula: SM = SF (strategic formulation) + SI (strategic implementation); implementation requires resource allocation.；Three competitive environment types: monopoly (no competition), legal oligopoly (few large players), hyper competition (many brands, temporary advantages).",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Explain strategic management as a cross-functional planning method and recognize that it does not guarantee business success."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Use the Ansoff Matrix product and market dimensions to identify the four growth strategies."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Distinguish types of diversification (horizontal, vertical, concentric, conglomerate) and apply them to business examples."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit Test Coverage Reminder",
+        "studentAction": "Review strategic management and planning content from the recent sessions for the upcoming unit test.",
+        "deadlineText": "before the upcoming unit test (date TBD)",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Key content of strategic management and planning covered in the previous and current sessions is listed as core test scope for the upcoming unit test.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Unit 4 Assignment",
+        "studentAction": "Complete the Unit 4 assignment: written report, presentation slides, and a recorded video of the presentation.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "This is the only assignment for Unit 4, accounting for 10% of the total course score... Required Submission Materials: written report, presentation slides, and recorded video.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Reference Materials for Unit 4 Assignment",
+        "studentAction": "Consult the two sets of past excellent student works (reports and slides) provided as references.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "Two sets of past excellent student works, including complete written reports and supporting slides, are provided for students to refer to.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "class_policy",
+        "title": "15-minute Break",
+        "studentAction": "Take a 15-minute break after the summary video playback.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "A 15-minute break is arranged right after the summary video playback.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "assignment",
+        "title": "In-class Assignment Work Session",
+        "studentAction": "Use the 25-minute on-site session after the break to draft and work on the Unit 4 assignment.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "A 25-minute on-site working session is arranged after the break, for students to draft and work on the Unit 4 assignment content.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "announcement",
+        "title": "Next Class Preview",
+        "studentAction": "Prepare for the next class, which will cover other practical strategic planning tools.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "The next course session will continue to explore and explain other practical strategic planning tools to help students master the full set of strategic management methods.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Unit Test Reminder: Key content of strategic management and planning covered in the previous and current sessions is listed as core test scope for the upcoming unit test.",
+        "reason": "Date of the unit test is not specified in the notes."
+      },
+      {
+        "rawText": "Unit 4 Assignment: Required Submission Materials: written report, presentation slides, and recorded video.",
+        "reason": "Assignment submission deadline is not mentioned in the notes."
+      },
+      {
+        "rawText": "Two sets of past excellent student works are provided for students to refer to.",
+        "reason": "Location or platform where these reference materials are posted is not specified."
+      }
+    ],
+    "watchTags": [
+      "node-strategic-management",
+      "node-ansoff-matrix"
+    ],
+    "totalQuestions": 3,
+    "completed": false,
+    "passScore": 3,
+    "diagnosisRules": [
+      {
+        "errorId": "err-sm-no-guarantee",
+        "condition": "Student chooses an option on Q1 that treats strategic management as a guaranteed success.",
+        "systemAction": "Assign reteach module err-sm-no-guarantee and schedule retest within 24 hours."
+      },
+      {
+        "errorId": "err-ansoff-confuse-strategies",
+        "condition": "Student confuses market penetration with market development on Q2.",
+        "systemAction": "Assign reteach module err-ansoff-confuse-strategies and schedule retest within 24 hours."
+      },
+      {
+        "errorId": "err-ansoff-diversification-types",
+        "condition": "Student misidentifies the diversification type in Q3's open response.",
+        "systemAction": "Assign reteach module err-ansoff-diversification-types and schedule retest within 24 hours."
+      }
+    ],
+    "nextActions": [
+      "[err-sm-no-guarantee] Student chooses an option on Q1 that treats strategic management as a guaranteed success.: Strategic management is a planning method, not a guarantee. Let's review what it can and cannot do.",
+      "[err-ansoff-confuse-strategies] Student confuses market penetration with market development on Q2.: The Ansoff Matrix's two dimensions—products and markets—can help you tell these growth strategies apart.",
+      "[err-ansoff-diversification-types] Student misidentifies the diversification type in Q3's open response.: Diversification has more than one form—horizontal, vertical, concentric, and conglomerate each serve a different purpose."
+    ],
+    "cards": [
+      {
+        "id": "diag-boh4m-s6-20260812-q1",
+        "type": "choice",
+        "question": "Which statement best describes strategic management in an organization?",
+        "options": [
+          "A method that helps formulate, implement, and evaluate decisions to achieve goals, but does not guarantee success.",
+          "A one-time decision that always guarantees an organization will outperform competitors.",
+          "A financial audit used only to reduce costs.",
+          "A process that works only for large corporations, not small businesses."
+        ],
+        "correct": 0,
+        "diagnosis": "Check whether students understand the scope and limits of strategic management.",
+        "misconceptions": [
+          "✓ Correct. Strategic management is a planning method, not a promise of success.",
+          "Strategic management is ongoing and never a guarantee; external factors and execution matter.",
+          "That is a narrow operational tool, not the cross-functional strategic planning approach.",
+          "Strategic management can be adapted to organizations of different sizes."
+        ],
+        "nodeId": "node-strategic-management",
+        "errorId": "err-sm-no-guarantee",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Recognizes strategic management as a structured planning method without overstating its outcome.",
+        "ossdExpectation": "Analyse the importance of planning to the success of an organization.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "BOH4M-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question addresses the role and limits of strategic planning, matching D1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Believing strategic management guarantees business success.",
+        "remediationModule": "err-sm-no-guarantee",
+        "retestItem": "err-sm-no-guarantee"
+      },
+      {
+        "id": "diag-boh4m-s6-20260812-q2",
+        "type": "choice",
+        "question": "A local bakery has a strong bread product but wants to enter a nearby city where it has no customers. Using the Ansoff Matrix, this is an example of:",
+        "options": [
+          "Market penetration, because the bakery is selling more bread.",
+          "Market development, because the existing product is being sold in a new market.",
+          "Product development, because a new product is being created for the existing market.",
+          "Diversification, because the bakery is expanding into a completely new industry."
+        ],
+        "correct": 1,
+        "diagnosis": "Check whether students can apply the Ansoff product/market grid to a realistic scenario.",
+        "misconceptions": [
+          "Market penetration means selling the existing product to the existing market. Here the bakery is entering a new city, a new market.",
+          "✓ Correct. The bread is the existing product, and the nearby city is a new market.",
+          "The bread is the existing product; the city is a new market, not a new product.",
+          "Diversification requires a new product and a new market; this scenario keeps the same product."
+        ],
+        "nodeId": "node-ansoff-matrix",
+        "errorId": "err-ansoff-confuse-strategies",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Correctly applies existing product/new market to identify market development.",
+        "ossdExpectation": "Demonstrate an understanding of appropriate planning tools and techniques in a variety of situations.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "BOH4M-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The Ansoff Matrix is a planning tool, and the question tests applying its product/market dimensions.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Confusing market development with market penetration because both involve selling.",
+        "remediationModule": "err-ansoff-confuse-strategies",
+        "retestItem": "err-ansoff-confuse-strategies"
+      },
+      {
+        "id": "diag-boh4m-s6-20260812-q3",
+        "type": "explain",
+        "question": "Using the Ansoff Matrix, explain why a construction company that starts producing its own building materials is a form of diversification, and identify the specific type.",
+        "correct": null,
+        "diagnosis": "Check whether students can apply Ansoff diversification types to an example and justify their reasoning.",
+        "nodeId": "node-ansoff-matrix",
+        "errorId": "err-ansoff-diversification-types",
+        "bloomLevel": "evaluate",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies vertical diversification and justifies the upstream expansion explanation.",
+        "ossdExpectation": "Demonstrate an understanding of appropriate planning tools and techniques in a variety of situations.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "BOH4M-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/business1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "The question applies Ansoff diversification types to a new example, matching D2.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "justify",
+        "commonMisconception": "Assuming any new product for a related industry is conglomerate rather than vertical.",
+        "remediationModule": "err-ansoff-diversification-types",
+        "retestItem": "err-ansoff-diversification-types"
+      }
+    ]
+  }
+}

@@ -1,0 +1,902 @@
+{
+  "sourceLesson": "SPH3U.S6.Michael 2026-08-11",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HZZKdWJogoact0xNV9nc8i8engc?from=vc_group_doc_link#doxcnNcQfZFHmvdsTfyOng0Z0Rc",
+  "sourceTitle": "SPH3U.S6.Michael 2026-08-11 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/HZZKdWJogoact0xNV9nc8i8engc?from=vc_group_doc_link#doxcnNcQfZFHmvdsTfyOng0Z0Rc",
+    "title": "SPH3U.S6.Michael 2026-08-11 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-12/sources/sph3u-s6-michael-2026-08-11/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "SPH3U",
+  "lessonDate": "2026-08-11",
+  "teacher": "Michael",
+  "section": "S6",
+  "subject": "science",
+  "lessonType": "instruction",
+  "courseOpsExtract": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-08-11",
+    "lessonType": "instruction",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The lesson contains substantial new academic content: completion of thermal physics (latent heat, heating systems) and introduction to nuclear physics (atomic structure, isotopes). This is primarily instructional, accompanied by test and assignment announcements.",
+    "academicContentSignals": [
+      "Latent heat of fusion and vaporization definitions and calculations",
+      "Phase change heat calculation: total heat absorbed = temperature rise heat + latent heat",
+      "Household heating systems: electrical, forced air, hot water",
+      "Nuclear physics module learning outcomes: atomic structure, isotopes, radioactive decay, half-life, fission-fusion",
+      "Atomic structure: protons, neutrons, electrons, Bohr/Rutherford model, gold foil experiment",
+      "Isotope definition: same protons, different neutrons; carbon-12, carbon-13, carbon-14 examples",
+      "Electron shell configuration: first shell max 2, second max 8"
+    ],
+    "courseOverviewSignals": [
+      "Learners will master atomic structure, isotope identification, radioactive decay, half-life calculation and fission-fusion comparison by the end of the chapter",
+      "Core Research Scope: This module focuses on nuclear reactions, including atomic mass variation, single-atom fission and multi-atom fusion processes"
+    ],
+    "opsDominanceRisk": "Risk: Test and assignment reminders could overshadow the nuclear physics introduction. Mitigation: Prioritize academic content; limit readiness checks to 2 items (test reminder, isotope task).",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Thermal Physics Test",
+        "studentAction": "Prepare for the thermal physics test covering previously taught content.",
+        "deadlineText": "next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "A formal course assessment covering previously taught thermal physics content will be conducted in the class session held on the following day.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Isotope Structure Drawing",
+        "studentAction": "Complete the isotope structure drawing practice task in class on Thursday.",
+        "deadlineText": "Thursday, August 13, 2026",
+        "deadlineISO": "2026-08-13T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The isotope structure drawing practice task will be arranged and completed in the class on Thursday as scheduled.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Upcoming Nuclear Physics Topics",
+        "studentAction": "Be aware that upcoming classes will cover radioactive decay, half-life calculation, nuclear fission, and nuclear power generation.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Subsequent teaching will cover radioactive decay, half-life calculation, nuclear fission and nuclear power generation in sequential order.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "A formal course assessment covering previously taught thermal physics content will be conducted in the class session held on the following day.",
+        "reason": "Next class date is not explicitly stated; assumed to be August 12, 2026, but should be confirmed."
+      }
+    ]
+  },
+  "title": "SPH3U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Thermal Phase Changes and Latent Heat、Household Heating Systems、Atomic Structure and Subatomic Particles、Isotopes）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 4 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Phase changes (solid ↔ liquid ↔ gas) involve thermal energy gain or loss; temperature rises when moving to higher-energy states and drops otherwise.；Latent heat of fusion is the energy required to change 1 kg of solid to liquid at constant temperature.；Latent heat of vaporization is the energy required to change 1 kg of liquid to gas at constant temperature.",
+  "learningGoals": [],
+  "knowledgeNodes": [
+    {
+      "id": "SPH3U-thermal-phase-changes",
+      "name": "Thermal Phase Changes and Latent Heat",
+      "nameEn": "Thermal Phase Changes and Latent Heat",
+      "definition": "Concepts and calculations related to changes of state (solid, liquid, gas), latent heat of fusion and vaporization, and temperature-energy relationships during phase transitions.",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "SPH3U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer."
+    },
+    {
+      "id": "SPH3U-thermal-heating-systems",
+      "name": "Household Heating Systems",
+      "nameEn": "Household Heating Systems",
+      "definition": "Examples of technologies that apply thermal energy transformations: electrical heating, forced air heating, and hot water (boiler/radiator) systems.",
+      "officialExpectationCode": "D1",
+      "officialNodeId": "SPH3U-D-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Analyse technologies that apply energy transformations, and assess their social and environmental impact."
+    },
+    {
+      "id": "SPH3U-nuclear-atomic-structure",
+      "name": "Atomic Structure and Subatomic Particles",
+      "nameEn": "Atomic Structure and Subatomic Particles",
+      "definition": "Model of the atom: nucleus (protons, neutrons) and orbiting electrons; atomic number, mass number, electron shell configuration (2, 8).",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "SPH3U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer."
+    },
+    {
+      "id": "SPH3U-nuclear-isotopes",
+      "name": "Isotopes",
+      "nameEn": "Isotopes",
+      "definition": "Atoms of the same element (same atomic number) with different numbers of neutrons, resulting in different mass numbers (e.g., carbon-12, carbon-13, carbon-14).",
+      "officialExpectationCode": "D3",
+      "officialNodeId": "SPH3U-D-OE03",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+      "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer."
+    }
+  ],
+  "diagnosticCard": {
+    "targetMinutes": 8,
+    "passRule": {
+      "pass": "4-5 correct",
+      "targetedRemediation": "2-3 correct",
+      "reteach": "0-1 correct"
+    },
+    "questions": [
+      {
+        "id": "diag-sph3u-s6-0811-q1",
+        "nodeId": "SPH3U-thermal-phase-changes",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-latent-heat-confuse-temp-rise",
+        "stem": "A student heats ice at 0°C until it completely melts, while continuing to supply heat. They measure the temperature during this process. What will they observe?",
+        "options": [
+          {
+            "label": "A",
+            "text": "The temperature rises steadily as heat is added.",
+            "correct": false,
+            "feedbackWrong": "You assumed temperature always rises with heat. But during a phase change, the added energy goes into breaking bonds, not raising temperature. Remember latent heat."
+          },
+          {
+            "label": "B",
+            "text": "The temperature stays constant at 0°C until all the ice has melted.",
+            "correct": true,
+            "feedbackCorrect": "Correct. During melting at constant pressure, temperature remains at 0°C while latent heat of fusion is absorbed."
+          },
+          {
+            "label": "C",
+            "text": "The temperature drops because the ice cools its surroundings.",
+            "correct": false,
+            "feedbackWrong": "You might be mixing up the effect on surroundings with the system. The ice-water system is absorbing heat, so its temperature does not drop; it stays constant."
+          },
+          {
+            "label": "D",
+            "text": "The temperature rises until all ice melts, then stays constant.",
+            "correct": false,
+            "feedbackWrong": "This reverses the order. Temperature remains constant during the phase change, then rises once all ice has melted."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module err-latent-heat-confuse-temp-rise.",
+        "learningGoal": "lg-thermal-latent",
+        "successCriteria": "Student correctly identifies that temperature remains constant during a phase change.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses understanding of thermal energy transfer during phase changes, directly linked to D3 energy concepts.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student recognizes that latent heat is absorbed without a temperature rise.",
+        "commonMisconception": "Mistaking the constant-temperature energy input during a phase change for a temperature increase.",
+        "remediationModule": "err-latent-heat-confuse-temp-rise",
+        "retestItem": "err-latent-heat-confuse-temp-rise"
+      },
+      {
+        "id": "diag-sph3u-s6-0811-q2",
+        "nodeId": "SPH3U-thermal-phase-changes",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "errorId": "err-latent-heat-ignore-phase-change",
+        "stem": "Ice at -10°C is heated until it becomes water at 20°C. Which expression represents the total heat absorbed?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Q = mcΔT (from -10°C to 0°C)",
+            "correct": false,
+            "feedbackWrong": "This only covers heating the ice to 0°C, but not the melting or heating of water. Total heat includes all steps."
+          },
+          {
+            "label": "B",
+            "text": "Q = mL_fusion",
+            "correct": false,
+            "feedbackWrong": "This is only the latent heat of fusion, ignoring the temperature changes of ice and water."
+          },
+          {
+            "label": "C",
+            "text": "Q = mcΔT (from 0°C to 20°C)",
+            "correct": false,
+            "feedbackWrong": "This only heats the water, missing both the ice heating and the phase change energy."
+          },
+          {
+            "label": "D",
+            "text": "Q = mcΔT (ice from -10 to 0) + mL_fusion + mcΔT (water from 0 to 20)",
+            "correct": true,
+            "feedbackCorrect": "Correct. The total heat is the sum of heating ice, melting, and heating water."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module err-latent-heat-ignore-phase-change.",
+        "learningGoal": "lg-thermal-latent",
+        "successCriteria": "Student correctly sums sensible and latent heat contributions when a phase change occurs.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Application of energy transfer during phase changes aligns with D3 expectation to solve related problems.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if student remembers to add the latent heat term when a phase change is crossed.",
+        "commonMisconception": "Forgetting to add the latent heat term (Q=mL) when calculating total heat for a scenario crossing a phase boundary.",
+        "remediationModule": "err-latent-heat-ignore-phase-change",
+        "retestItem": "err-latent-heat-ignore-phase-change"
+      },
+      {
+        "id": "diag-sph3u-s6-0811-q3",
+        "nodeId": "SPH3U-nuclear-atomic-structure",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "errorId": "err-atomic-number-mass-number-confusion",
+        "stem": "What does the atomic number of an element represent?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Number of neutrons",
+            "correct": false,
+            "feedbackWrong": "Atomic number is not the neutron count; it's the number of protons. Neutrons contribute to mass number."
+          },
+          {
+            "label": "B",
+            "text": "Number of protons",
+            "correct": true,
+            "feedbackCorrect": "Correct. The atomic number equals the number of protons in the nucleus."
+          },
+          {
+            "label": "C",
+            "text": "Number of protons + neutrons",
+            "correct": false,
+            "feedbackWrong": "This is the mass number, not atomic number. Mass number = protons + neutrons."
+          },
+          {
+            "label": "D",
+            "text": "Number of electrons in the outer shell",
+            "correct": false,
+            "feedbackWrong": "Electron count in the outer shell relates to chemical properties, not atomic number."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module err-atomic-number-mass-number-confusion.",
+        "learningGoal": "lg-nuclear-structure",
+        "successCriteria": "Student correctly identifies atomic number as proton count.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Atomic structure is foundational for nuclear energy topics under D3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student confuses atomic number with mass number.",
+        "commonMisconception": "Confusing atomic number (protons) with mass number (protons + neutrons).",
+        "remediationModule": "err-atomic-number-mass-number-confusion",
+        "retestItem": "err-atomic-number-mass-number-confusion"
+      },
+      {
+        "id": "diag-sph3u-s6-0811-q4",
+        "nodeId": "SPH3U-nuclear-isotopes",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "errorId": "err-isotope-same-protons-different-neutrons",
+        "stem": "Which statement is true about carbon-12 and carbon-14?",
+        "options": [
+          {
+            "label": "A",
+            "text": "They have different numbers of protons.",
+            "correct": false,
+            "feedbackWrong": "If proton number differed, they would be different elements. Isotopes have the same atomic number."
+          },
+          {
+            "label": "B",
+            "text": "They have different numbers of neutrons.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Carbon-12 has 6 neutrons, carbon-14 has 8 neutrons; both have 6 protons."
+          },
+          {
+            "label": "C",
+            "text": "They have different atomic numbers.",
+            "correct": false,
+            "feedbackWrong": "Isotopes of the same element have identical atomic numbers. Carbon always has atomic number 6."
+          },
+          {
+            "label": "D",
+            "text": "They have the same mass number.",
+            "correct": false,
+            "feedbackWrong": "Mass numbers differ: 12 vs 14. Isotopes vary in mass number due to neutron count."
+          }
+        ],
+        "nextActionIfWrong": "Enter reteach module err-isotope-same-protons-different-neutrons.",
+        "learningGoal": "lg-nuclear-structure",
+        "successCriteria": "Student correctly identifies that isotopes differ in neutron count, not proton count.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Isotope concept underlies nuclear energy and radioactivity, part of D3 understanding.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if student understands that isotopes differ by neutron number while proton number stays the same.",
+        "commonMisconception": "Thinking that isotopes have different numbers of protons, not neutrons.",
+        "remediationModule": "err-isotope-same-protons-different-neutrons",
+        "retestItem": "err-isotope-same-protons-different-neutrons"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-latent-heat-confuse-temp-rise",
+      "condition": "student answers incorrectly on any question with errorId err-latent-heat-confuse-temp-rise",
+      "systemAction": "assign reteach module err-latent-heat-confuse-temp-rise, then retest err-latent-heat-confuse-temp-rise",
+      "studentMessage": "关于 Mistaking the constant-temperature energy input during a phase change for a temperature increase. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-latent-heat-ignore-phase-change",
+      "condition": "student answers incorrectly on any question with errorId err-latent-heat-ignore-phase-change",
+      "systemAction": "assign reteach module err-latent-heat-ignore-phase-change, then retest err-latent-heat-ignore-phase-change",
+      "studentMessage": "关于 Forgetting to add the latent heat term (Q=mL) when calculating total heat for a temperature change that crosses a phase boundary. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-isotope-same-protons-different-neutrons",
+      "condition": "student answers incorrectly on any question with errorId err-isotope-same-protons-different-neutrons",
+      "systemAction": "assign reteach module err-isotope-same-protons-different-neutrons, then retest err-isotope-same-protons-different-neutrons",
+      "studentMessage": "关于 Thinking that isotopes have different numbers of protons, not neutrons. 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-atomic-number-mass-number-confusion",
+      "condition": "student answers incorrectly on any question with errorId err-atomic-number-mass-number-confusion",
+      "systemAction": "assign reteach module err-atomic-number-mass-number-confusion, then retest err-atomic-number-mass-number-confusion",
+      "studentMessage": "关于 Confusing atomic number (protons) with mass number (protons + neutrons). 的理解还需要加强。"
+    },
+    {
+      "errorId": "err-electron-shell-max",
+      "condition": "student answers incorrectly on any question with errorId err-electron-shell-max",
+      "systemAction": "assign reteach module err-electron-shell-max, then retest err-electron-shell-max",
+      "studentMessage": "关于 Incorrectly assigning more than 2 electrons to the first shell or more than 8 to the second shell. 的理解还需要加强。"
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-latent-heat-confuse-temp-rise",
+      "trigger": "When a student says: 'If we keep adding heat, the temperature will keep going up.'",
+      "studentMisunderstanding": "The student thinks that adding thermal energy always increases temperature, not realizing that during a phase change (like melting or boiling) the temperature stays constant while latent heat is absorbed.",
+      "miniLesson": {
+        "explain": "During a phase change, thermal energy is gained or lost but temperature stays constant. For example, pure water at standard pressure melts at 0°C and boils at 100°C. The energy added while ice melts at 0°C is called latent heat of fusion; it breaks bonds between molecules instead of raising the temperature. Similarly, latent heat of vaporization is needed to change liquid to gas at constant temperature. Only after the phase change is complete does additional heating cause a temperature rise.",
+        "example": "Ice at 0°C absorbs heat to become liquid water at 0°C. The temperature remains at 0°C until all ice is melted. Only then does further heating raise the temperature above 0°C.",
+        "memoryAnchor": "Plateau in the change: temperature stays, bonds break."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What happens to the temperature of ice at 0°C while it melts completely?",
+          "answer": "The temperature stays constant at 0°C until all the ice has melted."
+        },
+        {
+          "level": "L2",
+          "prompt": "Ice at -10°C is heated until it becomes water at 20°C. Describe what happens to the temperature during each stage.",
+          "answer": "Temperature rises from -10°C to 0°C, then stays constant at 0°C while the ice melts, then rises from 0°C to 20°C."
+        },
+        {
+          "level": "L3",
+          "prompt": "Why does the temperature remain at 0°C during melting, even though heat is added?",
+          "answer": "The added heat is used as latent heat of fusion to break the bonds between molecules, changing solid to liquid, rather than increasing the kinetic energy of the molecules, so temperature does not rise."
+        }
+      ]
+    },
+    {
+      "errorId": "err-latent-heat-ignore-phase-change",
+      "trigger": "When a calculation asks for total heat absorbed or released over a temperature change that crosses a phase boundary, the student omits the Q=mL term and only uses Q=mcΔT.",
+      "studentMisunderstanding": "The student thinks all heat added to a substance always raises its temperature, so they forget to include the latent heat term (Q=mL) that is required during a phase change at constant temperature.",
+      "miniLesson": {
+        "explain": "Heating a substance doesn't always raise its temperature. At a phase change, the temperature remains constant while the substance absorbs or releases latent heat. The total heat for a process that crosses a phase boundary must include both sensible heat (Q=mcΔT) and latent heat (Q=mL). For example, to go from ice below 0°C to liquid water above 0°C, you need: heat the ice to 0°C (Q=mcΔT), melt the ice at 0°C (Q=mL_fusion), and heat the water to the final temperature (Q=mcΔT). Do not skip the middle step.",
+        "example": "Pure water melts at 0°C. If you have ice at a temperature below 0°C and you want liquid water at 0°C, the total heat is: Q = mcΔT (heating ice to 0°C) + mL_fusion (melting the ice). The mL_fusion term is essential and is not included in mcΔT.",
+        "memoryAnchor": "Flat temperature on a heating curve? Use mL! When the graph goes flat, the energy is going into changing phase, not raising temperature."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What extra energy term must be included when a solid changes to a liquid at constant temperature?",
+          "answer": "Latent heat of fusion, Q = mL_fusion."
+        },
+        {
+          "level": "L2",
+          "prompt": "Suppose ice starts below 0°C and ends as liquid water above 0°C. List all three energy contributions that must be added together.",
+          "answer": "1) Heating the ice to 0°C (Q=mcΔT), 2) melting the ice at 0°C (Q=mL_fusion), 3) heating the water from 0°C to the final temperature (Q=mcΔT)."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate writes Q_total = mcΔT for changing ice at 0°C into water at 0°C. Since ΔT=0, they get Q=0. What is missing and what is the correct total?",
+          "answer": "The phase change is missing. Even though temperature stays constant, energy is required to melt the ice, so the correct total is Q_total = mL_fusion, not 0."
+        }
+      ]
+    },
+    {
+      "errorId": "err-isotope-same-protons-different-neutrons",
+      "trigger": "Student incorrectly states that isotopes have different numbers of protons.",
+      "studentMisunderstanding": "The student believes isotopes are atoms of the same element with different proton counts. Actually, isotopes share the same number of protons (atomic number) and differ only in the number of neutrons.",
+      "miniLesson": {
+        "explain": "Isotopes are atoms of the same element (same proton count) with different numbers of neutrons, hence different mass numbers. Atomic number = number of protons; mass number = protons + neutrons. Changing the neutron count changes the mass number but not the element.",
+        "example": "Carbon-12 has 6 protons and 6 neutrons. Carbon-14 also has 6 protons but 8 neutrons. Both are carbon because they have 6 protons, but they are isotopes because their neutron numbers differ.",
+        "memoryAnchor": "Protons make the element; neutrons make the isotope."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many protons are in both carbon-12 and carbon-14?",
+          "answer": "Both have 6 protons; they differ in neutrons, not protons."
+        },
+        {
+          "level": "L2",
+          "prompt": "An atom has atomic number 6 and mass number 13. How many neutrons does it contain?",
+          "answer": "7 neutrons (mass number 13 - atomic number 6 = 7)."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why carbon-12, carbon-13, and carbon-14 are all isotopes of carbon.",
+          "answer": "They all have the same number of protons (6), but different neutron counts: carbon-12 has 6 neutrons, carbon-13 has 7, carbon-14 has 8. Thus their mass numbers differ (12, 13, 14)."
+        }
+      ]
+    },
+    {
+      "errorId": "err-atomic-number-mass-number-confusion",
+      "trigger": "When asked what the atomic number represents, the student chooses 'protons + neutrons' or otherwise treats atomic number as the mass number.",
+      "studentMisunderstanding": "The student confuses atomic number (number of protons) with mass number (protons + neutrons), so they may think that adding neutrons changes the atomic number or that atomic number identifies the total particle count.",
+      "miniLesson": {
+        "explain": "Atoms consist of a nucleus containing protons (+) and neutrons (0), with electrons (–) orbiting in energy levels. The atomic number is the number of protons in the nucleus. The mass number is the number of protons plus neutrons. In a neutral atom, electrons = protons. Because neutrons have mass but no charge, changing the neutron count changes the mass number but not the atomic number.",
+        "example": "Carbon has atomic number 6, so every carbon atom has exactly 6 protons. Carbon-12 has mass number 12 = 6 protons + 6 neutrons. Carbon-13 has mass number 13 = 6 protons + 7 neutrons. Carbon-14 has mass number 14 = 6 protons + 8 neutrons.",
+        "memoryAnchor": "Atomic number = your ID card (only protons). Mass number = your full headcount (protons + neutrons). Changing neutrons changes the headcount, not your ID."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the atomic number of carbon, and what does it equal?",
+          "answer": "Carbon's atomic number is 6. It equals the number of protons in a carbon atom."
+        },
+        {
+          "level": "L2",
+          "prompt": "A carbon atom has 6 protons and 8 neutrons. What are its atomic number and mass number? Explain.",
+          "answer": "Atomic number = 6 (protons). Mass number = 6 + 8 = 14. This is the carbon-14 isotope."
+        },
+        {
+          "level": "L3",
+          "prompt": "Carbon-13 and carbon-14 are isotopes of carbon. How do their atomic numbers and mass numbers compare? Be specific.",
+          "answer": "Both have atomic number 6 because they both have 6 protons. Carbon-13 has mass number 13 = 6 protons + 7 neutrons, while carbon-14 has mass number 14 = 6 protons + 8 neutrons."
+        }
+      ]
+    },
+    {
+      "errorId": "err-electron-shell-max",
+      "trigger": "Student incorrectly assigns more than 2 electrons to the first shell or more than 8 to the second shell.",
+      "studentMisunderstanding": "Electrons can be placed in shells without any capacity limits, such as putting 3 or more electrons in the first shell or 9 or more in the second shell.",
+      "miniLesson": {
+        "explain": "Electrons are arranged in energy levels called shells around the nucleus. Each shell has a strict maximum capacity: the first shell holds at most 2 electrons, and the second shell holds at most 8 electrons. For a neutral atom, the number of electrons equals the number of protons. When filling shells, you fill the first shell completely before placing electrons in the second shell. For example, carbon has 6 electrons: 2 go in the first shell, and the remaining 4 go in the second shell.",
+        "example": "A neutral carbon atom has 6 protons, so it must have 6 electrons. The correct electron arrangement is 2 electrons in the first shell and 4 electrons in the second shell. It would be incorrect to draw 3 electrons in the first shell or 9 electrons in the second shell because those exceed the maximum capacities.",
+        "memoryAnchor": "Shell 1 is a ‘double seat’ (max 2). Shell 2 is an ‘octet limo’ (max 8). Remember: 2, then 8."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the maximum number of electrons that can occupy the first electron shell?",
+          "answer": "2"
+        },
+        {
+          "level": "L2",
+          "prompt": "A neutral carbon atom has 6 electrons. Using the 2, 8 shell rule, how many electrons are in the first shell and how many in the second shell?",
+          "answer": "First shell: 2 electrons. Second shell: 4 electrons."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student writes the electron arrangement for carbon as 3, 3. Why is this arrangement impossible?",
+          "answer": "The first shell can hold at most 2 electrons, so placing 3 in the first shell is impossible. Carbon has 6 electrons, so the correct arrangement is 2 in the first shell and 4 in the second shell."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-latent-heat-confuse-temp-rise",
+      "questions": [
+        {
+          "id": "lc_temperature_1",
+          "type": "single_choice",
+          "stem": "A pot of water is boiling at 100°C while the stove continues to add heat. Which statement best describes the temperature of the water?",
+          "options": [
+            "The water's temperature rises above 100°C as heat is added.",
+            "The water's temperature stays at 100°C until all the liquid water has boiled away.",
+            "The water's temperature rises only if the pot is covered with a lid.",
+            "The water's temperature drops slightly because of evaporation."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "lc_temperature_2",
+          "type": "open_ended",
+          "stem": "A piece of ice at 0°C is left in a warm room. It slowly melts into liquid water still at 0°C. Why does the temperature remain at 0°C even though thermal energy is being absorbed from the room? In your answer, name the type of thermal energy involved and describe what happens to that energy on a molecular level.",
+          "rubric": "The student must state that the temperature stays constant during melting because the absorbed energy is latent heat of fusion. The energy is used to break the intermolecular bonds between water molecules rather than increasing their average kinetic energy, so the temperature does not rise until the phase change is complete."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. The multiple-choice answer must be option 2, and the open-ended response must correctly identify that temperature stays constant during a phase change and that the absorbed energy is latent heat used to break intermolecular bonds."
+    },
+    {
+      "forErrorId": "err-latent-heat-ignore-phase-change",
+      "questions": [
+        {
+          "id": "latent-heat-retest-1",
+          "type": "single_choice",
+          "stem": "A student heats a block of ice at -5°C until it becomes liquid water at 10°C. During the melting part of the process, what happens to the temperature of the ice-water mixture?",
+          "options": [
+            "It increases steadily from 0°C to 10°C.",
+            "It remains at 0°C until all the ice has melted.",
+            "It decreases because melting is endothermic.",
+            "It jumps instantly to 100°C."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "latent-heat-retest-2",
+          "type": "open_ended",
+          "stem": "Write a step-by-step plan (using formulas, not necessarily numeric values) to calculate the total thermal energy needed to convert 2.0 kg of ice at -10°C into liquid water at 25°C. Include the melting step explicitly and explain why it contributes Q = mL_fusion even though the temperature does not change during melting.",
+          "rubric": "Must list three steps: (1) heating ice from -10°C to 0°C using Q = m·c_ice·ΔT; (2) melting ice at 0°C using Q = m·L_fusion and stating that temperature stays constant; (3) heating water from 0°C to 25°C using Q = m·c_water·ΔT. Must state that the total heat is the sum of all three terms and that omitting the middle mL_fusion term is the common error."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the response must include all three energy contributions and explicitly identify the latent heat term (Q = mL_fusion) as required during the constant-temperature melting step."
+    },
+    {
+      "forErrorId": "err-isotope-same-protons-different-neutrons",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "Which statement correctly describes isotopes of an element?",
+          "options": [
+            "Isotopes have different numbers of electrons.",
+            "Isotopes have different numbers of protons.",
+            "Isotopes have the same number of protons but different numbers of neutrons.",
+            "Isotopes have the same number of neutrons but different numbers of protons."
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Chlorine-35 and chlorine-37 are isotopes of chlorine. Chlorine has an atomic number of 17. Explain how these isotopes are alike and how they differ in terms of protons, neutrons, and electrons.",
+          "rubric": "Must state that both have 17 protons and 17 electrons (in neutral atoms), but chlorine-35 has 18 neutrons and chlorine-37 has 20 neutrons; the different neutron counts give different mass numbers (35 and 37)."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly (option index 2) and Q2 must correctly identify that protons (and electrons) are the same while neutrons differ, including the specific neutron counts (18 for Cl-35, 20 for Cl-37)."
+    },
+    {
+      "forErrorId": "err-atomic-number-mass-number-confusion",
+      "questions": [
+        {
+          "id": "amnc-q1",
+          "type": "single_choice",
+          "stem": "An atom has 6 protons and 8 neutrons. Which row correctly identifies its atomic number and mass number?",
+          "options": [
+            "Atomic number = 6; mass number = 14",
+            "Atomic number = 8; mass number = 14",
+            "Atomic number = 14; mass number = 6",
+            "Atomic number = 6; mass number = 8"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "amnc-q2",
+          "type": "open_ended",
+          "stem": "Carbon-13 and carbon-14 are isotopes of carbon. Explain, in terms of protons and neutrons, why they have different mass numbers but the same atomic number.",
+          "rubric": "States that both have atomic number 6 because they both have 6 protons. Explains that carbon-13 has mass number 13 = 6 protons + 7 neutrons, while carbon-14 has mass number 14 = 6 protons + 8 neutrons. Must explicitly use the definitions: atomic number = number of protons, mass number = protons + neutrons, and note that the difference in neutrons causes the mass number difference while the atomic number stays the same."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly. Q2 must include: atomic number is protons (same for both isotopes = 6), mass number is protons + neutrons, and the neutron count differs (13 has 7 neutrons, 14 has 8 neutrons)."
+    },
+    {
+      "forErrorId": "err-electron-shell-max",
+      "questions": [
+        {
+          "id": "shell-max-q1",
+          "type": "single_choice",
+          "stem": "A neutral carbon-14 atom has 6 electrons. Which electron shell arrangement is correct?",
+          "options": [
+            "First shell: 2 electrons, Second shell: 4 electrons",
+            "First shell: 3 electrons, Second shell: 3 electrons",
+            "First shell: 2 electrons, Second shell: 8 electrons",
+            "First shell: 4 electrons, Second shell: 2 electrons"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "shell-max-q2",
+          "type": "open_ended",
+          "stem": "Explain why an atom cannot have 9 electrons in its second electron shell. State the maximum capacity of the first shell and the second shell.",
+          "rubric": "First shell max = 2 electrons. Second shell max = 8 electrons. 9 exceeds the second shell's capacity, so it is impossible. Electrons fill the first shell before the second, but even so the second shell cannot hold more than 8."
+        }
+      ],
+      "passRule": "Q1: must select option 0 (2,4). Q2: must state first shell max 2, second shell max 8, and that 9 electrons in the second shell is impossible because it exceeds the maximum capacity."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "SPH3U.S6.Michael 2026-08-11",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/HZZKdWJogoact0xNV9nc8i8engc?from=vc_group_doc_link#doxcnNcQfZFHmvdsTfyOng0Z0Rc",
+    "sourceTitle": "SPH3U.S6.Michael 2026-08-11 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "instruction",
+    "objective": "Phase changes (solid ↔ liquid ↔ gas) involve thermal energy gain or loss; temperature rises when moving to higher-energy states and drops otherwise.；Latent heat of fusion is the energy required to change 1 kg of solid to liquid at constant temperature.；Latent heat of vaporization is the energy required to change 1 kg of liquid to gas at constant temperature.",
+    "learningGoals": [],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Thermal Physics Test",
+        "studentAction": "Prepare for the thermal physics test covering previously taught content.",
+        "deadlineText": "next class",
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "A formal course assessment covering previously taught thermal physics content will be conducted in the class session held on the following day.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "assignment",
+        "title": "Isotope Structure Drawing",
+        "studentAction": "Complete the isotope structure drawing practice task in class on Thursday.",
+        "deadlineText": "Thursday, August 13, 2026",
+        "deadlineISO": "2026-08-13T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The isotope structure drawing practice task will be arranged and completed in the class on Thursday as scheduled.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "announcement",
+        "title": "Upcoming Nuclear Physics Topics",
+        "studentAction": "Be aware that upcoming classes will cover radioactive decay, half-life calculation, nuclear fission, and nuclear power generation.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "low",
+        "confidence": "high",
+        "sourceEvidence": "Subsequent teaching will cover radioactive decay, half-life calculation, nuclear fission and nuclear power generation in sequential order.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "A formal course assessment covering previously taught thermal physics content will be conducted in the class session held on the following day.",
+        "reason": "Next class date is not explicitly stated; assumed to be August 12, 2026, but should be confirmed."
+      }
+    ],
+    "watchTags": [
+      "SPH3U-thermal-phase-changes",
+      "SPH3U-thermal-heating-systems",
+      "SPH3U-nuclear-atomic-structure",
+      "SPH3U-nuclear-isotopes"
+    ],
+    "totalQuestions": 4,
+    "completed": false,
+    "passScore": 4,
+    "diagnosisRules": [
+      {
+        "errorId": "err-latent-heat-confuse-temp-rise",
+        "condition": "student answers incorrectly on any question with errorId err-latent-heat-confuse-temp-rise",
+        "systemAction": "assign reteach module err-latent-heat-confuse-temp-rise, then retest err-latent-heat-confuse-temp-rise"
+      },
+      {
+        "errorId": "err-latent-heat-ignore-phase-change",
+        "condition": "student answers incorrectly on any question with errorId err-latent-heat-ignore-phase-change",
+        "systemAction": "assign reteach module err-latent-heat-ignore-phase-change, then retest err-latent-heat-ignore-phase-change"
+      },
+      {
+        "errorId": "err-isotope-same-protons-different-neutrons",
+        "condition": "student answers incorrectly on any question with errorId err-isotope-same-protons-different-neutrons",
+        "systemAction": "assign reteach module err-isotope-same-protons-different-neutrons, then retest err-isotope-same-protons-different-neutrons"
+      },
+      {
+        "errorId": "err-atomic-number-mass-number-confusion",
+        "condition": "student answers incorrectly on any question with errorId err-atomic-number-mass-number-confusion",
+        "systemAction": "assign reteach module err-atomic-number-mass-number-confusion, then retest err-atomic-number-mass-number-confusion"
+      },
+      {
+        "errorId": "err-electron-shell-max",
+        "condition": "student answers incorrectly on any question with errorId err-electron-shell-max",
+        "systemAction": "assign reteach module err-electron-shell-max, then retest err-electron-shell-max"
+      }
+    ],
+    "nextActions": [
+      "[err-latent-heat-confuse-temp-rise] student answers incorrectly on any question with errorId err-latent-heat-confuse-temp-rise: 关于 Mistaking the constant-temperature energy input during a phase change for a temperature increase. 的理解还需要加强。",
+      "[err-latent-heat-ignore-phase-change] student answers incorrectly on any question with errorId err-latent-heat-ignore-phase-change: 关于 Forgetting to add the latent heat term (Q=mL) when calculating total heat for a temperature change that crosses a phase boundary. 的理解还需要加强。",
+      "[err-isotope-same-protons-different-neutrons] student answers incorrectly on any question with errorId err-isotope-same-protons-different-neutrons: 关于 Thinking that isotopes have different numbers of protons, not neutrons. 的理解还需要加强。",
+      "[err-atomic-number-mass-number-confusion] student answers incorrectly on any question with errorId err-atomic-number-mass-number-confusion: 关于 Confusing atomic number (protons) with mass number (protons + neutrons). 的理解还需要加强。",
+      "[err-electron-shell-max] student answers incorrectly on any question with errorId err-electron-shell-max: 关于 Incorrectly assigning more than 2 electrons to the first shell or more than 8 to the second shell. 的理解还需要加强。"
+    ],
+    "cards": [
+      {
+        "id": "diag-sph3u-s6-0811-q1",
+        "type": "choice",
+        "question": "A student heats ice at 0°C until it completely melts, while continuing to supply heat. They measure the temperature during this process. What will they observe?",
+        "options": [
+          "The temperature rises steadily as heat is added.",
+          "The temperature stays constant at 0°C until all the ice has melted.",
+          "The temperature drops because the ice cools its surroundings.",
+          "The temperature rises until all ice melts, then stays constant."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student recognizes that latent heat is absorbed without a temperature rise.",
+        "misconceptions": [
+          "You assumed temperature always rises with heat. But during a phase change, the added energy goes into breaking bonds, not raising temperature. Remember latent heat.",
+          "✓ Correct. During melting at constant pressure, temperature remains at 0°C while latent heat of fusion is absorbed.",
+          "You might be mixing up the effect on surroundings with the system. The ice-water system is absorbing heat, so its temperature does not drop; it stays constant.",
+          "This reverses the order. Temperature remains constant during the phase change, then rises once all ice has melted."
+        ],
+        "nodeId": "SPH3U-thermal-phase-changes",
+        "errorId": "err-latent-heat-confuse-temp-rise",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-thermal-latent",
+        "successCriteria": "Student correctly identifies that temperature remains constant during a phase change.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Question assesses understanding of thermal energy transfer during phase changes, directly linked to D3 energy concepts.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Mistaking the constant-temperature energy input during a phase change for a temperature increase.",
+        "remediationModule": "err-latent-heat-confuse-temp-rise",
+        "retestItem": "err-latent-heat-confuse-temp-rise"
+      },
+      {
+        "id": "diag-sph3u-s6-0811-q2",
+        "type": "choice",
+        "question": "Ice at -10°C is heated until it becomes water at 20°C. Which expression represents the total heat absorbed?",
+        "options": [
+          "Q = mcΔT (from -10°C to 0°C)",
+          "Q = mL_fusion",
+          "Q = mcΔT (from 0°C to 20°C)",
+          "Q = mcΔT (ice from -10 to 0) + mL_fusion + mcΔT (water from 0 to 20)"
+        ],
+        "correct": 3,
+        "diagnosis": "Check if student remembers to add the latent heat term when a phase change is crossed.",
+        "misconceptions": [
+          "This only covers heating the ice to 0°C, but not the melting or heating of water. Total heat includes all steps.",
+          "This is only the latent heat of fusion, ignoring the temperature changes of ice and water.",
+          "This only heats the water, missing both the ice heating and the phase change energy.",
+          "✓ Correct. The total heat is the sum of heating ice, melting, and heating water."
+        ],
+        "nodeId": "SPH3U-thermal-phase-changes",
+        "errorId": "err-latent-heat-ignore-phase-change",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-thermal-latent",
+        "successCriteria": "Student correctly sums sensible and latent heat contributions when a phase change occurs.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Application of energy transfer during phase changes aligns with D3 expectation to solve related problems.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Forgetting to add the latent heat term (Q=mL) when calculating total heat for a scenario crossing a phase boundary.",
+        "remediationModule": "err-latent-heat-ignore-phase-change",
+        "retestItem": "err-latent-heat-ignore-phase-change"
+      },
+      {
+        "id": "diag-sph3u-s6-0811-q3",
+        "type": "choice",
+        "question": "What does the atomic number of an element represent?",
+        "options": [
+          "Number of neutrons",
+          "Number of protons",
+          "Number of protons + neutrons",
+          "Number of electrons in the outer shell"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student confuses atomic number with mass number.",
+        "misconceptions": [
+          "Atomic number is not the neutron count; it's the number of protons. Neutrons contribute to mass number.",
+          "✓ Correct. The atomic number equals the number of protons in the nucleus.",
+          "This is the mass number, not atomic number. Mass number = protons + neutrons.",
+          "Electron count in the outer shell relates to chemical properties, not atomic number."
+        ],
+        "nodeId": "SPH3U-nuclear-atomic-structure",
+        "errorId": "err-atomic-number-mass-number-confusion",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-nuclear-structure",
+        "successCriteria": "Student correctly identifies atomic number as proton count.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Atomic structure is foundational for nuclear energy topics under D3.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Confusing atomic number (protons) with mass number (protons + neutrons).",
+        "remediationModule": "err-atomic-number-mass-number-confusion",
+        "retestItem": "err-atomic-number-mass-number-confusion"
+      },
+      {
+        "id": "diag-sph3u-s6-0811-q4",
+        "type": "choice",
+        "question": "Which statement is true about carbon-12 and carbon-14?",
+        "options": [
+          "They have different numbers of protons.",
+          "They have different numbers of neutrons.",
+          "They have different atomic numbers.",
+          "They have the same mass number."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if student understands that isotopes differ by neutron number while proton number stays the same.",
+        "misconceptions": [
+          "If proton number differed, they would be different elements. Isotopes have the same atomic number.",
+          "✓ Correct. Carbon-12 has 6 neutrons, carbon-14 has 8 neutrons; both have 6 protons.",
+          "Isotopes of the same element have identical atomic numbers. Carbon always has atomic number 6.",
+          "Mass numbers differ: 12 vs 14. Isotopes vary in mass number due to neutron count."
+        ],
+        "nodeId": "SPH3U-nuclear-isotopes",
+        "errorId": "err-isotope-same-protons-different-neutrons",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-nuclear-structure",
+        "successCriteria": "Student correctly identifies that isotopes differ in neutron count, not proton count.",
+        "ossdExpectation": "Demonstrate an understanding of work, efficiency, power, gravitational potential energy, kinetic energy, nuclear energy, and thermal energy transfer.",
+        "officialExpectationCode": "D3",
+        "officialNodeId": "SPH3U-D-OE03",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2009science11_12.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Isotope concept underlies nuclear energy and radioactivity, part of D3 understanding.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking that isotopes have different numbers of protons, not neutrons.",
+        "remediationModule": "err-isotope-same-protons-different-neutrons",
+        "retestItem": "err-isotope-same-protons-different-neutrons"
+      }
+    ]
+  }
+}
