@@ -1,0 +1,987 @@
+{
+  "sourceLesson": "MDM4U.S6.Atousa 2026-08-12",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/E4pDdgKrHog7wRxWzbGclgN8nRh?from=vc_group_doc_link#doxcn6yD7tXUov0nZs0S7r68d9d",
+  "sourceTitle": "MDM4U.S6.Atousa 2026-08-12 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/E4pDdgKrHog7wRxWzbGclgN8nRh?from=vc_group_doc_link#doxcn6yD7tXUov0nZs0S7r68d9d",
+    "title": "MDM4U.S6.Atousa 2026-08-12 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-12/sources/mdm4u-s6-atousa-2026-08-12/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MDM4U",
+  "lessonDate": "2026-08-12",
+  "teacher": "Atousa",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-12",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "Mixed: students reviewed misleading graphs and linear regression (academic content), discussed unit test scheduling, assignment rules, and career guidance. Substantial subject-matter instruction occurred, warranting a diagnostic exit card, but upcoming deadlines also justify a readiness check.",
+    "academicContentSignals": [
+      "Misleading graph features: truncated y‑axes, small scales, unlabeled axes, small samples, suggestive captions",
+      "Correcting misleading graphs: reset y‑axis to zero, even scale increments, restore true data fluctuations",
+      "Linear regression manual workflow: compute Σx, Σy, Σxy, Σx², Σy²; use formulas for slope and correlation",
+      "Excel regression: insert scatter plot, add trendline to auto‑generate equation and coefficients",
+      "Residual rule: residual = observed − predicted; batch computation in Excel"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "High risk: the notes contain many operational items (test schedule, submission platform, assignment policies, career advice). To prevent ops from overshadowing learning content, the diagnostic exit card must prioritize the academic review concepts and limit readiness checks to 1–2 critical items (e.g., test review submission deadline).",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit test review answers on Schoology",
+        "studentAction": "选择至少10道感兴趣的复习题，用任意方法（如手算、Excel、编程）解答，并在单元测试前将所有答案上传至Schoology平台。",
+        "deadlineText": "Before the unit test (tentatively Thursday, August 13, 2026)",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students may select at least 10 review questions … All completed answers must be uploaded to the Schoology platform before the unit test.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit test on graphical data display and linear relationships",
+        "studentAction": "复习核心概念（误导图表识别、线性回归计算），为单元测试做好准备。",
+        "deadlineText": "Thursday, August 13, 2026 (tentative)",
+        "deadlineISO": "2026-08-13T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "low",
+        "sourceEvidence": "The unit test is tentatively scheduled for Thursday, with no 100% confirmed final release of the exact test date.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Download 13-page test review document",
+        "studentAction": "从平台下载13页的复习文档（含答案，无详细步骤），用于自主练习。",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology (推测)",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "A 13-page test review document has been uploaded for student use, with attached answer keys that only list final results.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "单元测试日期暂定周四（2026-08-13），但未100%确认",
+        "reason": "测试日期仍是暂定，学生需等待官方最终通知。"
+      },
+      {
+        "rawText": "Schoology平台链接或具体文件夹路径未提及",
+        "reason": "上传位置仅说明为Schoology，但未提供直接链接或路径，需确认。"
+      }
+    ]
+  },
+  "title": "MDM4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Misleading graphs and one-variable data summaries、Linear regression and residuals）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 2 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "Misleading graphs often use a truncated y-axis starting above zero, overly small scale increments, unlabeled axes, small sample sizes, or suggestive captions.；To correct a misleading graph, reset the y-axis to zero, use evenly spaced scale increments, and show the true magnitude of data fluctuations.；Manual linear regression requires computing Σx, Σy, Σxy, Σx², and Σy², then substituting into formulas for slope and correlation coefficient.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Identify and correct misleading features in graphical data displays."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Calculate linear regression statistics manually using appropriate sums."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Use Excel to generate regression equations and compute residuals correctly."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MDM4U-D-OE01",
+      "name": "Misleading graphs and one-variable data summaries",
+      "nameEn": "Misleading graphs and one-variable data summaries",
+      "definition": "Graphical summaries can mislead viewers through truncated axes, uneven scales, unlabeled axes, small samples, or suggestive captions. Correcting them involves resetting axes, using even scales, and presenting true data magnitude.",
+      "officialExpectationCode": "D1",
+      "officialNodeId": "MDM4U-D-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries."
+    },
+    {
+      "id": "MDM4U-D-OE02",
+      "name": "Linear regression and residuals",
+      "nameEn": "Linear regression and residuals",
+      "definition": "Linear regression identifies a linear relationship between two variables using sums such as Σx, Σy, Σxy, Σx², and Σy² to compute slope and correlation. Residuals are observed minus predicted values, and tools like Excel can automate regression.",
+      "officialExpectationCode": "D2",
+      "officialNodeId": "MDM4U-D-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and correct misleading features in graphical data displays."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate linear regression statistics manually using appropriate sums."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use Excel to generate regression equations and compute residuals correctly."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "condition": "4-5 correct",
+        "systemAction": "mark passed; unlock normal homework reminder",
+        "studentMessage": "Great job! You have a solid understanding of misleading graphs and regression basics."
+      },
+      {
+        "condition": "2-3 correct",
+        "systemAction": "assign reteach modules matching missed errorIds, then retest",
+        "studentMessage": "You're on the right track, but need to review a few concepts. Complete the targeted review and retest."
+      },
+      {
+        "condition": "0-1 correct",
+        "systemAction": "start full reteach path: err-graphs-truncated-axis-only -> err-graphs-correct-zoom-in -> err-regression-sum-confusion -> err-residual-sign -> err-excel-trendline-chart-type -> retest",
+        "studentMessage": "Let's revisit the key concepts from this lesson. Complete the full review to build a strong foundation."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mdm4u-s6-0812-q1",
+        "nodeId": "MDM4U-D-OE01",
+        "errorId": "err-graphs-truncated-axis-only",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "stem": "A bar graph showing company profits over 5 years uses a y-axis that starts at $10 million instead of $0. Which of the following is the most accurate statement about how this graph can mislead?",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' width='400' height='300' viewBox='0 0 400 300'><rect width='400' height='300' fill='white'/><line x1='80' y1='30' x2='80' y2='250' stroke='black' stroke-width='2'/><line x1='80' y1='250' x2='370' y2='250' stroke='black' stroke-width='2'/><text x='70' y='250' text-anchor='end' font-size='12'>$10M</text><text x='70' y='200' text-anchor='end' font-size='12'>$12M</text><text x='70' y='150' text-anchor='end' font-size='12'>$14M</text><text x='70' y='100' text-anchor='end' font-size='12'>$16M</text><text x='70' y='50' text-anchor='end' font-size='12'>$18M</text><rect x='100' y='150' width='40' height='100' fill='steelblue'/><rect x='160' y='130' width='40' height='120' fill='steelblue'/><rect x='220' y='170' width='40' height='80' fill='steelblue'/><rect x='280' y='110' width='40' height='140' fill='steelblue'/><rect x='340' y='90' width='40' height='160' fill='steelblue'/><text x='120' y='270' text-anchor='middle' font-size='12'>2019</text><text x='180' y='270' text-anchor='middle' font-size='12'>2020</text><text x='240' y='270' text-anchor='middle' font-size='12'>2021</text><text x='300' y='270' text-anchor='middle' font-size='12'>2022</text><text x='360' y='270' text-anchor='middle' font-size='12'>2023</text><text x='200' y='20' text-anchor='middle' font-size='14' font-weight='bold'>Company Profits (y-axis starts at $10M)</text></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "It exaggerates differences because the axis is truncated.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Starting the y-axis above zero makes small differences appear larger, exaggerating the visual impact."
+          },
+          {
+            "label": "B",
+            "text": "It is accurate because the axis labels are clear.",
+            "correct": false,
+            "feedbackWrong": "Clear labels do not correct the distortion caused by a truncated axis. The visual impression is still misleading."
+          },
+          {
+            "label": "C",
+            "text": "It is misleading only if the sample size is small.",
+            "correct": false,
+            "feedbackWrong": "Sample size is a separate issue. A graph can mislead through its axis scale regardless of sample size."
+          },
+          {
+            "label": "D",
+            "text": "It is not misleading because the graph includes a title.",
+            "correct": false,
+            "feedbackWrong": "A title does not affect how the data is visually scaled. The truncated axis still distorts the message."
+          }
+        ],
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that a truncated y-axis is a common misleading feature.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Misleading graphs directly relate to the interpretation of one-variable data graphical summaries.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Checks if the student recognizes that a truncated axis is a misleading feature.",
+        "commonMisconception": "Thinking that a truncated y-axis is the only possible misleading feature, or that other elements like labels or titles can fix it.",
+        "remediationModule": "err-graphs-truncated-axis-only",
+        "retestItem": "err-graphs-truncated-axis-only"
+      },
+      {
+        "id": "diag-mdm4u-s6-0812-q2",
+        "nodeId": "MDM4U-D-OE01",
+        "errorId": "err-graphs-correct-zoom-in",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "stem": "A line graph of temperature changes uses a y-axis from 20°C to 25°C to emphasize daily fluctuations. Which correction would make the graph less misleading?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Zoom in closer on the graph.",
+            "correct": false,
+            "feedbackWrong": "Zooming in would further distort the scale, making fluctuations appear even larger."
+          },
+          {
+            "label": "B",
+            "text": "Reset the y-axis to start at 0°C.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Resetting the axis to zero shows the true magnitude of the temperature changes and reduces exaggerated visual effects."
+          },
+          {
+            "label": "C",
+            "text": "Use a smaller sample size.",
+            "correct": false,
+            "feedbackWrong": "A smaller sample size would likely introduce more uncertainty, not fix the axis distortion."
+          },
+          {
+            "label": "D",
+            "text": "Add a trendline.",
+            "correct": false,
+            "feedbackWrong": "A trendline describes a relationship but does not address the misleading axis scale."
+          }
+        ],
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects resetting the y-axis to zero as the correct method to fix a misleading graph.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Correcting misleading graphs is part of interpreting and drawing conclusions from data.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Checks if the student knows the correct correction for a truncated axis graph.",
+        "commonMisconception": "Thinking that zooming in or adding a trendline can fix a misleading axis scale.",
+        "remediationModule": "err-graphs-correct-zoom-in",
+        "retestItem": "err-graphs-correct-zoom-in"
+      },
+      {
+        "id": "diag-mdm4u-s6-0812-q3",
+        "nodeId": "MDM4U-D-OE02",
+        "errorId": "err-regression-sum-confusion",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "stem": "When performing manual linear regression, which set of sums is necessary and sufficient for computing the slope of the regression line?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Σx and Σy only",
+            "correct": false,
+            "feedbackWrong": "These alone are insufficient; you also need Σxy and Σx² for the slope formula."
+          },
+          {
+            "label": "B",
+            "text": "Σxy and Σx² only",
+            "correct": false,
+            "feedbackWrong": "Σx and Σy are also needed to complete the slope calculation (nΣxy - ΣxΣy) / (nΣx² - (Σx)²)."
+          },
+          {
+            "label": "C",
+            "text": "Σx, Σy, Σxy, Σx²",
+            "correct": true,
+            "feedbackCorrect": "Correct. These four sums are the minimum required to compute the slope."
+          },
+          {
+            "label": "D",
+            "text": "Σx, Σy, Σxy, Σy²",
+            "correct": false,
+            "feedbackWrong": "Σy² is needed for the correlation coefficient, not the slope. You need Σx², not Σy²."
+          }
+        ],
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies the set of sums needed for linear regression slope calculation.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Manual linear regression is a numerical method for analyzing two-variable data.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "stemIntent": "Checks understanding of which sums feed into the manual linear regression slope formula.",
+        "commonMisconception": "Confusing Σxy with Σx·Σy, or thinking Σy² is needed for slope.",
+        "remediationModule": "err-regression-sum-confusion",
+        "retestItem": "err-regression-sum-confusion"
+      },
+      {
+        "id": "diag-mdm4u-s6-0812-q4",
+        "nodeId": "MDM4U-D-OE02",
+        "errorId": "err-residual-sign",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "stem": "For a data point with an observed y-value of 15 and a model-predicted y-value of 12, what is the residual?",
+        "options": [
+          {
+            "label": "A",
+            "text": "-3",
+            "correct": false,
+            "feedbackWrong": "This is predicted minus observed (12 - 15). Residuals are observed minus predicted."
+          },
+          {
+            "label": "B",
+            "text": "3",
+            "correct": true,
+            "feedbackCorrect": "Correct. Residual = observed - predicted = 15 - 12 = 3."
+          },
+          {
+            "label": "C",
+            "text": "27",
+            "correct": false,
+            "feedbackWrong": "This is the sum, not the difference."
+          },
+          {
+            "label": "D",
+            "text": "-27",
+            "correct": false,
+            "feedbackWrong": "This is the negative sum, not the residual."
+          }
+        ],
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly computes residual as observed minus predicted.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Residuals are a key component of evaluating regression models in two-variable analysis.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Checks that the student applies the correct order for residual calculation.",
+        "commonMisconception": "Computing residual as predicted minus observed instead of the correct order.",
+        "remediationModule": "err-residual-sign",
+        "retestItem": "err-residual-sign"
+      },
+      {
+        "id": "diag-mdm4u-s6-0812-q5",
+        "nodeId": "MDM4U-D-OE02",
+        "errorId": "err-excel-trendline-chart-type",
+        "type": "single_choice",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "stem": "A student wants to add a linear trendline and display the regression equation in Microsoft Excel. What is the critical first step before adding the trendline?",
+        "options": [
+          {
+            "label": "A",
+            "text": "Create a line chart of the data.",
+            "correct": false,
+            "feedbackWrong": "A line chart treats x-values as categories, not numeric values, so it does not produce a correct regression trendline."
+          },
+          {
+            "label": "B",
+            "text": "Create a scatter plot (X,Y) of the data.",
+            "correct": true,
+            "feedbackCorrect": "Correct. A scatter plot treats both x and y as numeric, allowing Excel to compute a proper linear trendline and equation."
+          },
+          {
+            "label": "C",
+            "text": "Compute Σx and Σy manually.",
+            "correct": false,
+            "feedbackWrong": "This is not necessary; Excel can generate the trendline directly from the scatter plot data."
+          },
+          {
+            "label": "D",
+            "text": "Insert a pivot table.",
+            "correct": false,
+            "feedbackWrong": "A pivot table is used for data summarization, not for creating a trendline."
+          }
+        ],
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies that a scatter plot is required to add a correct linear trendline in Excel.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Using Excel to create scatter plots and trendlines is a graphical method for two-variable analysis.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "stemIntent": "Checks if the student knows the correct chart type prerequisite for adding a trendline in Excel.",
+        "commonMisconception": "Using a line chart instead of a scatter plot, which prevents correct regression equation generation.",
+        "remediationModule": "err-excel-trendline-chart-type",
+        "retestItem": "err-excel-trendline-chart-type"
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "condition": "4-5 correct",
+      "systemAction": "mark passed; unlock normal homework reminder",
+      "studentMessage": "Great job! You have a solid understanding of misleading graphs and regression basics."
+    },
+    {
+      "condition": "2-3 correct",
+      "systemAction": "assign reteach modules matching missed errorIds, then retest",
+      "studentMessage": "You're on the right track, but need to review a few concepts. Complete the targeted review and retest."
+    },
+    {
+      "condition": "0-1 correct",
+      "systemAction": "start full reteach path: err-graphs-truncated-axis-only -> err-graphs-correct-zoom-in -> err-regression-sum-confusion -> err-residual-sign -> err-excel-trendline-chart-type -> retest",
+      "studentMessage": "Let's revisit the key concepts from this lesson. Complete the full review to build a strong foundation."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-graphs-truncated-axis-only",
+      "trigger": "A student identifies a truncated y-axis as the only possible misleading feature and ignores other issues like uneven scales, missing labels, or suggestive captions.",
+      "studentMisunderstanding": "The student believes that a graph is not misleading once the axes are labelled or a title is added, or that the only visual distortion to watch for is a truncated y-axis. In reality, misleading graphs often combine multiple features such as starting the axis above zero, using overly small scale increments, leaving axes unlabeled, relying on small sample sizes, or using suggestive captions.",
+      "miniLesson": {
+        "explain": "Misleading graphs often use a truncated y-axis starting above zero, overly small scale increments, unlabeled axes, small sample sizes, or suggestive captions. A graph can still be misleading even if the axes have clear labels and a title. To correct a misleading graph, reset the y-axis to zero, use evenly spaced scale increments, and show the true magnitude of the data fluctuations.",
+        "example": "A misleading stock price line graph uses a truncated y-axis to exaggerate price fluctuations. Simply relabelling the axis would not fix it; the y-axis must start at zero and use even spacing so the true size of the fluctuations is visible.",
+        "memoryAnchor": "Start at zero, keep spacing even, label clearly, caption honestly."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A bar graph of team points uses a y-axis that starts at 40 instead of 0, and the axis labels are clear. Name two other features, besides the truncated y-axis, that could still make the graph misleading.",
+          "answer": "Overly small scale increments, unlabeled axes, small sample sizes, or suggestive captions (any two)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A line graph of stock prices uses a y-axis from $45 to $55 to show daily movements. Explain the correct fix and why simply zooming in further would not make the graph honest.",
+          "answer": "Reset the y-axis to zero and use evenly spaced scale increments so the true magnitude of the price fluctuations is shown. Zooming in further would only exaggerate the apparent size of the changes, so it is not a correction."
+        },
+        {
+          "level": "L3",
+          "prompt": "A company profit graph uses a truncated y-axis, overly small scale increments, no axis labels, and a caption saying 'Profits skyrocket.' List each misleading feature and its correction.",
+          "answer": "Truncated y-axis: reset it to zero. Overly small scale increments: use evenly spaced increments. Unlabeled axes: add clear axis labels. Suggestive caption: replace it with a neutral, factual caption."
+        }
+      ]
+    },
+    {
+      "errorId": "err-graphs-correct-zoom-in",
+      "trigger": "When asked to correct a misleading graph, the student suggests zooming in to see the data more clearly instead of resetting the y-axis to zero.",
+      "studentMisunderstanding": "The student believes that magnifying a graph reveals the true pattern, not realizing that a truncated y-axis or uneven scale still distorts the visual impression even when zoomed in.",
+      "miniLesson": {
+        "explain": "Misleading graphs often use a truncated y-axis starting above zero, overly small scale increments, unlabeled axes, small sample sizes, or suggestive captions. To correct a misleading graph, reset the y-axis to zero, use evenly spaced scale increments, and show the true magnitude of data fluctuations. Zooming in does not fix the distortion; it can exaggerate it further.",
+        "example": "In the lesson, a misleading stock price line graph used a truncated y-axis that exaggerated price fluctuations. Correcting the graph meant resetting the y-axis to zero so the fluctuations appear in their true proportion. Similarly, a bar graph with small scale increments made small differences look large; the fix was to use even increments and a zero baseline.",
+        "memoryAnchor": "Zooming in is a funhouse mirror: it magnifies the distortion. Always reset the y-axis to zero to see the true magnitude."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the first correction you should make to a graph whose y-axis starts above zero?",
+          "answer": "Reset the y-axis to zero."
+        },
+        {
+          "level": "L2",
+          "prompt": "A bar graph uses very small scale increments to make small differences look large. Your friend says 'zoom in even more.' Why is this wrong, and what are two proper corrections?",
+          "answer": "Zooming in would make the small differences appear even larger. Corrections: reset the y-axis to zero and use evenly spaced scale increments."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why 'zooming in' does not correct a misleading graph. Describe the correct approach using the terms 'truncated y-axis' and 'even scale increments.'",
+          "answer": "Zooming in only magnifies the distortion created by a truncated y-axis and uneven scale. To correct a misleading graph, reset the y-axis to zero and use evenly spaced scale increments, which shows the true magnitude of fluctuations."
+        }
+      ]
+    },
+    {
+      "errorId": "err-regression-sum-confusion",
+      "trigger": "Student selects an incomplete set of sums for slope (e.g., only Σx and Σy) or writes Σx·Σy instead of Σxy in the regression formula.",
+      "studentMisunderstanding": "The student believes the slope can be found with just the totals Σx and Σy, or that the product of the sums (Σx·Σy) is the same as the sum of the products (Σxy). This leads to incorrect substitution into the slope formula.",
+      "miniLesson": {
+        "explain": "Manual linear regression requires computing five sums: Σx, Σy, Σxy, Σx², and Σy². The slope of the regression line uses only Σx, Σy, Σxy, and Σx²; Σy² is needed later for the correlation coefficient. The critical distinction is that Σxy means you first multiply each paired x and y value, then add those products. Σx·Σy means you add all x's, add all y's, then multiply the two totals—these are not interchangeable. Using the wrong one changes both the slope and the resulting regression equation.",
+        "example": "Take two data points (x₁, y₁) and (x₂, y₂). Σxy = x₁y₁ + x₂y₂, while Σx·Σy = (x₁+x₂)(y₁+y₂). Most of the time these are different, so substituting one for the other gives an incorrect slope. In Excel, the trendline does this automatically, but when calculating manually you must be careful to list each product before adding.",
+        "memoryAnchor": "Remember your dance partners: Σxy is every x dancing with its own y—pair each one, then add. Σx·Σy is all the x's on one side and all the y's on the other—they never meet, so their product is not a real measure of the relationship."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which four sums are needed to calculate the slope of a regression line?",
+          "answer": "Σx, Σy, Σxy, and Σx²."
+        },
+        {
+          "level": "L2",
+          "prompt": "For the data points (1, 2) and (3, 4), calculate Σxy and Σx·Σy. Are they the same?",
+          "answer": "Σxy = 1×2 + 3×4 = 2 + 12 = 14. Σx = 1+3 = 4, Σy = 2+4 = 6, so Σx·Σy = 4×6 = 24. They are different."
+        },
+        {
+          "level": "L3",
+          "prompt": "Given the points (1,2), (2,3), (3,5), compute the slope of the least-squares regression line using the formula slope = (nΣxy - ΣxΣy) / (nΣx² - (Σx)²).",
+          "answer": "Σx = 6, Σy = 10, Σxy = 1×2 + 2×3 + 3×5 = 2 + 6 + 15 = 23, Σx² = 1² + 2² + 3² = 1 + 4 + 9 = 14, n = 3. Slope = (3×23 - 6×10) / (3×14 - 6²) = (69 - 60) / (42 - 36) = 9 / 6 = 1.5."
+        }
+      ]
+    },
+    {
+      "errorId": "err-residual-sign",
+      "trigger": "Student computes residual as predicted minus observed instead of observed minus predicted.",
+      "studentMisunderstanding": "Student reverses the order in the residual formula, confusing predicted and observed values, leading to incorrect signs.",
+      "miniLesson": {
+        "explain": "A residual measures how far a model's prediction is from the actual observed data point. By definition, residual = observed value minus predicted value. If the model predicts higher than the actual, the residual is negative; if lower, the residual is positive. The sign tells you whether the model over- or under-predicts.",
+        "example": "For a data point with observed y = 15 and model-predicted y = 12, the residual is 15 - 12 = 3, not 12 - 15 = -3. A positive residual means the observed value is above the prediction.",
+        "memoryAnchor": "Think 'O-P': Observed minus Predicted. The actual goes first, just like 'O' comes before 'P' in the alphabet."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Given observed y = 20 and predicted y = 18, what is the residual?",
+          "answer": "2 (residual = observed - predicted = 20 - 18 = 2)"
+        },
+        {
+          "level": "L2",
+          "prompt": "A regression model predicts y = 30 for x = 5, but the observed y value is 27. Calculate the residual and state whether the model over-predicted or under-predicted.",
+          "answer": "Residual = 27 - 30 = -3. The model over-predicted because the residual is negative."
+        },
+        {
+          "level": "L3",
+          "prompt": "In an Excel residual calculation for a point, the observed y is in cell B2 and the predicted y from the trendline is in cell C2. Write the Excel formula to calculate the residual and determine the sign if B2=12.5 and C2=14.",
+          "answer": "Formula: =B2-C2. With B2=12.5 and C2=14, residual = 12.5 - 14 = -1.5, indicating the model over-predicted."
+        }
+      ]
+    },
+    {
+      "errorId": "err-excel-trendline-chart-type",
+      "trigger": "Student chooses a line chart instead of a scatter plot when adding a trendline in Excel.",
+      "studentMisunderstanding": "The student thinks a line chart and a scatter plot are interchangeable for adding a trendline. They do not realize that a line chart treats x-values as categories, not numbers, so Excel cannot generate a correct regression equation.",
+      "miniLesson": {
+        "explain": "In Excel, a linear regression trendline gives the correct equation only when it is added to a scatter plot (X,Y). In a scatter plot, both axes are numeric and Excel uses the true x-values to compute the regression line. In a line chart, the x-axis is treated as a set of equally spaced categories, so the trendline is based on category positions rather than the actual numbers. This leads to an incorrect equation and can cause mismatches with manual calculations. The correct workflow is: insert a scatter plot, right-click a data point, choose 'Add Trendline', then select 'Linear'. The equation and coefficients are generated automatically.",
+        "example": "In the lesson, the instructor added a trendline to a scatter plot and produced the regression equation automatically. Students who used a line chart found that their trendline did not match the manual regression results because the line chart's x-axis was categorical. Switching to a scatter plot corrected the issue and produced the same equation as manual calculation.",
+        "memoryAnchor": "Scatter = numbers, Line = categories. Need a regression equation? Start with an X,Y scatter plot."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "Which type of chart must you create in Excel before adding a linear trendline?",
+          "answer": "A scatter plot (X,Y)."
+        },
+        {
+          "level": "L2",
+          "prompt": "Why does a line chart give an incorrect trendline for a set of numeric (x,y) data?",
+          "answer": "Because a line chart treats the x-values as category labels, not numeric values, so Excel calculates the trendline using category positions instead of the true x-values."
+        },
+        {
+          "level": "L3",
+          "prompt": "A student adds a trendline to a line chart and gets one equation. When they redo it with a scatter plot, the equation is different. Explain what caused the difference and describe the correct procedure to get the right regression equation.",
+          "answer": "The line chart treats the x-values as categories, so the trendline is fitted to category spacing, not the actual numeric x-values. The scatter plot uses the real x-values, giving the correct regression equation. To get the correct equation, insert a scatter plot, right-click a data point, choose Add Trendline, and select Linear."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-graphs-truncated-axis-only",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A graph titled 'Temperature Rise' shows a line going sharply upward. The y-axis starts at 15°C and goes to 20°C, with tick marks every 0.1°C. The x-axis is labeled 'Month', but the months are not shown. The caption says 'Dangerous warming!' Which statement best identifies the misleading features?",
+          "options": [
+            "A. The only problem is the truncated y-axis; once it is reset to zero, the graph is honest.",
+            "B. The graph is misleading because of the truncated y-axis and the overly small scale increments, but the missing month labels are not a problem if the title is clear.",
+            "C. The graph is honest because the data points are correct and the axes are somewhat labeled.",
+            "D. The graph is misleading because of the truncated y-axis, the overly small scale increments, the missing month labels, and the suggestive caption."
+          ],
+          "correct": 3
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "Explain two ways a graph can be misleading other than starting the y-axis above zero. For each way, describe the specific correction that should be applied.",
+          "rubric": "Student must name two distinct features from: overly small scale increments, unlabeled axes, small sample size, suggestive caption, uneven scale spacing, etc., and provide a corresponding correction (e.g., use even spacing, add labels, show sample size, replace caption with neutral wording). Partial credit for one valid feature with correction."
+        }
+      ],
+      "passRule": "To pass, the student must answer Q1 correctly (option D) and provide in Q2 at least two valid misleading features with their corrections as described in the rubric."
+    },
+    {
+      "forErrorId": "err-graphs-correct-zoom-in",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A line graph shows monthly sales, but the y-axis starts at $90,000 instead of $0, making a small increase look dramatic. Which correction best reveals the true trend?",
+          "options": [
+            "Zoom in on the graph to see the data points more closely.",
+            "Reset the y-axis to 0 and use even scale increments.",
+            "Change the line to a bar graph.",
+            "Remove the axis labels to simplify the view."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A student says, \"If a graph is misleading because the y-axis doesn't start at zero, I can just zoom into the graph to see the data more accurately.\" Explain why zooming in is not a valid correction, and describe the proper way to fix the graph.",
+          "rubric": "The response must explicitly state that zooming in magnifies the distortion rather than fixing it, and must mention resetting the y-axis to zero. For full credit, also mention using evenly spaced scale increments to show the true magnitude of fluctuations."
+        }
+      ],
+      "passRule": "For q1, the correct answer must be option B (index 1). For q2, the response must explicitly state that zooming in is not a valid correction and must mention resetting the y-axis to zero. If both criteria are met, the student passes."
+    },
+    {
+      "forErrorId": "err-regression-sum-confusion",
+      "questions": [
+        {
+          "id": "q1-sumxy-identification",
+          "type": "single_choice",
+          "stem": "For a dataset with n pairs (x, y), which sum is calculated by first multiplying each xᵢ by its corresponding yᵢ and then adding those products?",
+          "options": [
+            "Σx · Σy",
+            "Σ(xᵢ + yᵢ)",
+            "Σxy",
+            "Σx²"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "q2-slope-computation",
+          "type": "open_ended",
+          "stem": "Given the data points (2,3), (4,5), (6,7), (8,9), compute the slope of the least-squares regression line by hand. Show the five sums (Σx, Σy, Σxy, Σx², Σy²) and then use the slope formula: b = (nΣxy − ΣxΣy) / (nΣx² − (Σx)²).",
+          "rubric": "1 point: Correct sums (Σx=20, Σy=24, Σxy=140, Σx²=120, Σy²=164). 1 point: Correct substitution into the formula with n=4. 1 point: Final slope = 1. Award full credit only if Σxy is computed as 1×2 + 2×3 + ... style, not as Σx·Σy. If Σxy is wrong but the formula substitution is otherwise correct, award partial credit."
+        }
+      ],
+      "passRule": "To pass, the student must answer Q1 correctly (option 3) and score at least 2 out of 3 points on Q2, including the correct slope of 1 and evidence of using Σxy (sum of products) rather than Σx·Σy."
+    },
+    {
+      "forErrorId": "err-residual-sign",
+      "questions": [
+        {
+          "id": "residual-sign-q1",
+          "type": "single_choice",
+          "stem": "For a data point, the observed value is 8 and the predicted value from the regression model is 10. What is the residual?",
+          "options": [
+            "2",
+            "-2",
+            "18",
+            "-18"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "residual-sign-q2",
+          "type": "open_ended",
+          "stem": "For a data point, the observed value is 7 and the predicted value from the regression line is 5.5. Calculate the residual and state whether the model under-predicted or over-predicted this point.",
+          "rubric": "Residual = 7 − 5.5 = 1.5. Since the residual is positive, the observed value is above the prediction, so the model under-predicted."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. For the open-ended question, the residual must be 1.5 and the interpretation must correctly state under-predicted."
+    },
+    {
+      "forErrorId": "err-excel-trendline-chart-type",
+      "questions": [
+        {
+          "id": "q1_trendline_chart_type",
+          "type": "single_choice",
+          "stem": "A student wants to add a linear trendline to a scatter of numeric x and y data in Excel. Which chart type must they create before adding the trendline?",
+          "options": [
+            "Line chart",
+            "Scatter plot",
+            "Column chart",
+            "Pie chart"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2_explain_mismatch",
+          "type": "open_ended",
+          "stem": "A student creates a line chart for the same (x,y) data, adds a trendline, and gets y = 0.5x + 10. A classmate uses a scatter plot and gets y = 0.7x + 8. Explain why the equations differ and describe the correct Excel procedure.",
+          "rubric": "Mentions that line chart treats x-values as categories rather than numeric values; scatter plot uses actual numeric x; correct procedure: insert scatter plot, right-click data point, Add Trendline, choose Linear."
+        }
+      ],
+      "passRule": "Q1 must be correct; Q2 must include the category-vs-numeric reason and the correct scatter plot procedure."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MDM4U.S6.Atousa 2026-08-12",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/E4pDdgKrHog7wRxWzbGclgN8nRh?from=vc_group_doc_link#doxcn6yD7tXUov0nZs0S7r68d9d",
+    "sourceTitle": "MDM4U.S6.Atousa 2026-08-12 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "Misleading graphs often use a truncated y-axis starting above zero, overly small scale increments, unlabeled axes, small sample sizes, or suggestive captions.；To correct a misleading graph, reset the y-axis to zero, use evenly spaced scale increments, and show the true magnitude of data fluctuations.；Manual linear regression requires computing Σx, Σy, Σxy, Σx², and Σy², then substituting into formulas for slope and correlation coefficient.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Identify and correct misleading features in graphical data displays."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Calculate linear regression statistics manually using appropriate sums."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Use Excel to generate regression equations and compute residuals correctly."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "assignment",
+        "title": "Submit test review answers on Schoology",
+        "studentAction": "选择至少10道感兴趣的复习题，用任意方法（如手算、Excel、编程）解答，并在单元测试前将所有答案上传至Schoology平台。",
+        "deadlineText": "Before the unit test (tentatively Thursday, August 13, 2026)",
+        "deadlineISO": null,
+        "platform": "Schoology",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "Students may select at least 10 review questions … All completed answers must be uploaded to the Schoology platform before the unit test.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_or_quiz",
+        "title": "Unit test on graphical data display and linear relationships",
+        "studentAction": "复习核心概念（误导图表识别、线性回归计算），为单元测试做好准备。",
+        "deadlineText": "Thursday, August 13, 2026 (tentative)",
+        "deadlineISO": "2026-08-13T00:00:00+08:00",
+        "platform": null,
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "high",
+        "confidence": "low",
+        "sourceEvidence": "The unit test is tentatively scheduled for Thursday, with no 100% confirmed final release of the exact test date.",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-003",
+        "category": "material_needed",
+        "title": "Download 13-page test review document",
+        "studentAction": "从平台下载13页的复习文档（含答案，无详细步骤），用于自主练习。",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "Schoology (推测)",
+        "link": null,
+        "appliesTo": "所有学生",
+        "importance": "medium",
+        "confidence": "medium",
+        "sourceEvidence": "A 13-page test review document has been uploaded for student use, with attached answer keys that only list final results.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "单元测试日期暂定周四（2026-08-13），但未100%确认",
+        "reason": "测试日期仍是暂定，学生需等待官方最终通知。"
+      },
+      {
+        "rawText": "Schoology平台链接或具体文件夹路径未提及",
+        "reason": "上传位置仅说明为Schoology，但未提供直接链接或路径，需确认。"
+      }
+    ],
+    "watchTags": [
+      "MDM4U-D-OE01",
+      "MDM4U-D-OE02"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "condition": "4-5 correct",
+        "systemAction": "mark passed; unlock normal homework reminder"
+      },
+      {
+        "condition": "2-3 correct",
+        "systemAction": "assign reteach modules matching missed errorIds, then retest"
+      },
+      {
+        "condition": "0-1 correct",
+        "systemAction": "start full reteach path: err-graphs-truncated-axis-only -> err-graphs-correct-zoom-in -> err-regression-sum-confusion -> err-residual-sign -> err-excel-trendline-chart-type -> retest"
+      }
+    ],
+    "nextActions": [
+      "4-5 correct: Great job! You have a solid understanding of misleading graphs and regression basics.",
+      "2-3 correct: You're on the right track, but need to review a few concepts. Complete the targeted review and retest.",
+      "0-1 correct: Let's revisit the key concepts from this lesson. Complete the full review to build a strong foundation."
+    ],
+    "cards": [
+      {
+        "id": "diag-mdm4u-s6-0812-q1",
+        "type": "choice",
+        "question": "A bar graph showing company profits over 5 years uses a y-axis that starts at $10 million instead of $0. Which of the following is the most accurate statement about how this graph can mislead?",
+        "options": [
+          "It exaggerates differences because the axis is truncated.",
+          "It is accurate because the axis labels are clear.",
+          "It is misleading only if the sample size is small.",
+          "It is not misleading because the graph includes a title."
+        ],
+        "correct": 0,
+        "diagnosis": "Checks if the student recognizes that a truncated axis is a misleading feature.",
+        "misconceptions": [
+          "✓ Correct. Starting the y-axis above zero makes small differences appear larger, exaggerating the visual impact.",
+          "Clear labels do not correct the distortion caused by a truncated axis. The visual impression is still misleading.",
+          "Sample size is a separate issue. A graph can mislead through its axis scale regardless of sample size.",
+          "A title does not affect how the data is visually scaled. The truncated axis still distorts the message."
+        ],
+        "nodeId": "MDM4U-D-OE01",
+        "errorId": "err-graphs-truncated-axis-only",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that a truncated y-axis is a common misleading feature.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Misleading graphs directly relate to the interpretation of one-variable data graphical summaries.",
+        "achievementCategory": "Thinking",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Thinking that a truncated y-axis is the only possible misleading feature, or that other elements like labels or titles can fix it.",
+        "remediationModule": "err-graphs-truncated-axis-only",
+        "retestItem": "err-graphs-truncated-axis-only"
+      },
+      {
+        "id": "diag-mdm4u-s6-0812-q2",
+        "type": "choice",
+        "question": "A line graph of temperature changes uses a y-axis from 20°C to 25°C to emphasize daily fluctuations. Which correction would make the graph less misleading?",
+        "options": [
+          "Zoom in closer on the graph.",
+          "Reset the y-axis to start at 0°C.",
+          "Use a smaller sample size.",
+          "Add a trendline."
+        ],
+        "correct": 1,
+        "diagnosis": "Checks if the student knows the correct correction for a truncated axis graph.",
+        "misconceptions": [
+          "Zooming in would further distort the scale, making fluctuations appear even larger.",
+          "✓ Correct. Resetting the axis to zero shows the true magnitude of the temperature changes and reduces exaggerated visual effects.",
+          "A smaller sample size would likely introduce more uncertainty, not fix the axis distortion.",
+          "A trendline describes a relationship but does not address the misleading axis scale."
+        ],
+        "nodeId": "MDM4U-D-OE01",
+        "errorId": "err-graphs-correct-zoom-in",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student selects resetting the y-axis to zero as the correct method to fix a misleading graph.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from one-variable data using numerical and graphical summaries.",
+        "officialExpectationCode": "D1",
+        "officialNodeId": "MDM4U-D-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Correcting misleading graphs is part of interpreting and drawing conclusions from data.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Thinking that zooming in or adding a trendline can fix a misleading axis scale.",
+        "remediationModule": "err-graphs-correct-zoom-in",
+        "retestItem": "err-graphs-correct-zoom-in"
+      },
+      {
+        "id": "diag-mdm4u-s6-0812-q3",
+        "type": "choice",
+        "question": "When performing manual linear regression, which set of sums is necessary and sufficient for computing the slope of the regression line?",
+        "options": [
+          "Σx and Σy only",
+          "Σxy and Σx² only",
+          "Σx, Σy, Σxy, Σx²",
+          "Σx, Σy, Σxy, Σy²"
+        ],
+        "correct": 2,
+        "diagnosis": "Checks understanding of which sums feed into the manual linear regression slope formula.",
+        "misconceptions": [
+          "These alone are insufficient; you also need Σxy and Σx² for the slope formula.",
+          "Σx and Σy are also needed to complete the slope calculation (nΣxy - ΣxΣy) / (nΣx² - (Σx)²).",
+          "✓ Correct. These four sums are the minimum required to compute the slope.",
+          "Σy² is needed for the correlation coefficient, not the slope. You need Σx², not Σy²."
+        ],
+        "nodeId": "MDM4U-D-OE02",
+        "errorId": "err-regression-sum-confusion",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly identifies the set of sums needed for linear regression slope calculation.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Manual linear regression is a numerical method for analyzing two-variable data.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Confusing Σxy with Σx·Σy, or thinking Σy² is needed for slope.",
+        "remediationModule": "err-regression-sum-confusion",
+        "retestItem": "err-regression-sum-confusion"
+      },
+      {
+        "id": "diag-mdm4u-s6-0812-q4",
+        "type": "choice",
+        "question": "For a data point with an observed y-value of 15 and a model-predicted y-value of 12, what is the residual?",
+        "options": [
+          "-3",
+          "3",
+          "27",
+          "-27"
+        ],
+        "correct": 1,
+        "diagnosis": "Checks that the student applies the correct order for residual calculation.",
+        "misconceptions": [
+          "This is predicted minus observed (12 - 15). Residuals are observed minus predicted.",
+          "✓ Correct. Residual = observed - predicted = 15 - 12 = 3.",
+          "This is the sum, not the difference.",
+          "This is the negative sum, not the residual."
+        ],
+        "nodeId": "MDM4U-D-OE02",
+        "errorId": "err-residual-sign",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student correctly computes residual as observed minus predicted.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Residuals are a key component of evaluating regression models in two-variable analysis.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Computing residual as predicted minus observed instead of the correct order.",
+        "remediationModule": "err-residual-sign",
+        "retestItem": "err-residual-sign"
+      },
+      {
+        "id": "diag-mdm4u-s6-0812-q5",
+        "type": "choice",
+        "question": "A student wants to add a linear trendline and display the regression equation in Microsoft Excel. What is the critical first step before adding the trendline?",
+        "options": [
+          "Create a line chart of the data.",
+          "Create a scatter plot (X,Y) of the data.",
+          "Compute Σx and Σy manually.",
+          "Insert a pivot table."
+        ],
+        "correct": 1,
+        "diagnosis": "Checks if the student knows the correct chart type prerequisite for adding a trendline in Excel.",
+        "misconceptions": [
+          "A line chart treats x-values as categories, not numeric values, so it does not produce a correct regression trendline.",
+          "✓ Correct. A scatter plot treats both x and y as numeric, allowing Excel to compute a proper linear trendline and equation.",
+          "This is not necessary; Excel can generate the trendline directly from the scatter plot data.",
+          "A pivot table is used for data summarization, not for creating a trendline."
+        ],
+        "nodeId": "MDM4U-D-OE02",
+        "errorId": "err-excel-trendline-chart-type",
+        "bloomLevel": "analyze",
+        "scaffoldLevel": "L3",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student identifies that a scatter plot is required to add a correct linear trendline in Excel.",
+        "ossdExpectation": "Analyse, interpret, and draw conclusions from two-variable data using numerical, graphical, and algebraic summaries.",
+        "officialExpectationCode": "D2",
+        "officialNodeId": "MDM4U-D-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "Using Excel to create scatter plots and trendlines is a graphical method for two-variable analysis.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "analyze",
+        "commonMisconception": "Using a line chart instead of a scatter plot, which prevents correct regression equation generation.",
+        "remediationModule": "err-excel-trendline-chart-type",
+        "retestItem": "err-excel-trendline-chart-type"
+      }
+    ]
+  }
+}

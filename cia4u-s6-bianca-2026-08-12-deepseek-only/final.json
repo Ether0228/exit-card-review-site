@@ -1,0 +1,1244 @@
+{
+  "sourceLesson": "CIA4U.S6.Bianca 2026-08-12",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/CyqvdmcUtoJ1vRx8aSwceGHgnSe?from=vc_group_doc_link#doxcn8zVNNwZoVUerdchvW27Qke",
+  "sourceTitle": "CIA4U.S6.Bianca 2026-08-12 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/CyqvdmcUtoJ1vRx8aSwceGHgnSe?from=vc_group_doc_link#doxcn8zVNNwZoVUerdchvW27Qke",
+    "title": "CIA4U.S6.Bianca 2026-08-12 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-12/sources/cia4u-s6-bianca-2026-08-12/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "CIA4U",
+  "lessonDate": "2026-08-12",
+  "teacher": "Bianca",
+  "section": "S6",
+  "subject": "unknown",
+  "lessonType": "review_session",
+  "courseOpsExtract": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-08-12",
+    "lessonType": "review_session",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The session is an exam-day briefing for the Unit 3 fiscal and monetary policy test, but it also includes review of academic content: the required test modules (fiscal policy, monetary targets, policy interaction, current assessment, recommendations), citation skills, and genre awareness. Because concrete subject-learning content appears in the notes, the exit card should diagnose mastery of these concepts and skills, not only test logistics.",
+    "academicContentSignals": [
+      "Unit 3 test required modules: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, improvement recommendations",
+      "Argumentation/citation skill: support arguments with at least 3 reliable sources, including class notes, course materials, and credible economic research",
+      "Genre awareness: produce a research paper format (2-3 pages, double-spaced, clear headings) rather than a formal essay"
+    ],
+    "courseOverviewSignals": [],
+    "opsDominanceRisk": "Operations dominate the session as an exam briefing, but the presence of academic content (test modules and writing skills) requires a diagnostic exit card. The risk is letting logistics such as camera rules, formatting, and citation rules crowd out the core learning content. Mitigation: focus the diagnostic card on the five required economic policy modules and the citation/genre skills, and keep any logistics to no more than 1-2 lightweight readiness checks. Avoid asking scored questions about uncertain operational facts.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 Fiscal and Monetary Policy Test",
+        "studentAction": "Complete the Unit 3 test during the session according to the briefing instructions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "This meeting ... is a briefing for the Unit 3 fiscal and monetary policy test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_requirement",
+        "title": "Mandatory Response Components",
+        "studentAction": "Ensure your response covers all 5 core sections: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Responses must cover 5 core sections: Canadian fiscal policy definition, Canada’s monetary targets, policy interaction, current policy assessment, and improvement recommendations.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Citation & Source Rule",
+        "studentAction": "Support all arguments with at least 3 properly cited reliable sources, including class notes, course materials, and credible economic research.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All arguments must be supported by at least 3 properly cited reliable sources, including class notes, course materials and credible economic research.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_requirement",
+        "title": "Format Specifications",
+        "studentAction": "Write a research paper of 2 to 3 pages, double-spaced, with clear headings, and frame it as a research paper rather than a formal essay.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The response shall be 2 to 3 pages in length, double-spaced, structured with clear headings, and framed as a research paper rather than a formal essay.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "No Microphones During Test",
+        "studentAction": "Keep microphones off during the test to avoid disturbing others; send any questions to the instructor via the meeting chat box.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Test takers are prohibited from using microphones during the test ... all questions shall be sent to the instructor via the meeting chat box.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "attendance_camera",
+        "title": "Continuous Camera Presence Required",
+        "studentAction": "Keep your camera continuously on throughout the session; the instructor will monitor attendance and participation via live camera feeds.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Continuous camera presence is mandatory for all participants, as the instructor will monitor attendance and participation via live camera feeds.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": []
+  },
+  "title": "CIA4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Unit 3 Test Mandatory Content Sections、Unit 3 Test Source Citation Requirements、Unit 3 Test Format Specifications、Unit 3 Test Communication Rules）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 5 个知识节点之间可能存在 5 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "The Unit 3 test assesses fiscal and monetary policy knowledge through a written research paper.；The response must include five mandatory sections: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations.；All arguments require support from at least three properly cited reliable sources, including class notes, course materials, and credible economic research.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Students can identify the five mandatory sections required in the Unit 3 written test response."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Students can recall the formatting and citation requirements for the test."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Students understand the communication rules and submission protocols during the test."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "CIA4U.S6.Unit3Test-MandatorySections",
+      "name": "Unit 3 Test Mandatory Content Sections",
+      "nameEn": "Unit 3 Test Mandatory Content Sections",
+      "definition": "The written response must include five specific sections: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations.",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    },
+    {
+      "id": "CIA4U.S6.Unit3Test-CitationRequirements",
+      "name": "Unit 3 Test Source Citation Requirements",
+      "nameEn": "Unit 3 Test Source Citation Requirements",
+      "definition": "All arguments must be supported by at least three properly cited reliable sources, which can include class notes, course materials, and credible economic research.",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    },
+    {
+      "id": "CIA4U.S6.Unit3Test-FormatSpecs",
+      "name": "Unit 3 Test Format Specifications",
+      "nameEn": "Unit 3 Test Format Specifications",
+      "definition": "The paper must be 2–3 pages, double-spaced, with clear headings, and written as a research paper (not a formal essay).",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    },
+    {
+      "id": "CIA4U.S6.Unit3Test-CommunicationRules",
+      "name": "Unit 3 Test Communication Rules",
+      "nameEn": "Unit 3 Test Communication Rules",
+      "definition": "Microphones must remain off during the test; all questions must be submitted via the meeting chat box. Continuous camera presence is required for attendance verification.",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    },
+    {
+      "id": "CIA4U.S6.Unit3Test-SubmissionProtocol",
+      "name": "Unit 3 Test Submission Protocol",
+      "nameEn": "Unit 3 Test Submission Protocol",
+      "definition": "The completed test document must be uploaded within 10 minutes after the briefing; students must double-check they upload the correct file. Technical issues require immediate email contact with the instructor.",
+      "officialExpectationCode": null,
+      "officialNodeId": null,
+      "sourceUrl": null,
+      "ossdExpectation": null
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify the five mandatory sections required in the Unit 3 written test response."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can recall the formatting and citation requirements for the test."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students understand the communication rules and submission protocols during the test."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-test-missing-required-section",
+        "condition": "student answers Q1 or Q2 incorrectly",
+        "systemAction": "assign reteach module for err-test-missing-required-section",
+        "studentMessage": "Review the list of five mandatory sections for the test."
+      },
+      {
+        "errorId": "err-test-insufficient-citations",
+        "condition": "student answers Q3 incorrectly",
+        "systemAction": "assign reteach module for err-test-insufficient-citations",
+        "studentMessage": "Remember to use at least three reliable sources and cite them properly."
+      },
+      {
+        "errorId": "err-test-incorrect-format",
+        "condition": "student answers Q4 incorrectly",
+        "systemAction": "assign reteach module for err-test-incorrect-format",
+        "studentMessage": "Check the formatting guidelines: 2-3 pages, double-spaced, headings, research paper style."
+      },
+      {
+        "errorId": "err-test-communication-violation",
+        "condition": "student answers Q5 incorrectly",
+        "systemAction": "assign reteach module for err-test-communication-violation",
+        "studentMessage": "During the test, keep your microphone off and use the chat for questions; camera must stay on."
+      },
+      {
+        "errorId": "err-test-late-submission",
+        "condition": "student answers Q6 or Q7 incorrectly",
+        "systemAction": "assign reteach module for err-test-late-submission",
+        "studentMessage": "Upload your test document within 10 minutes after the briefing; email the instructor if you have technical issues."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-cia4u-s6-0812-q1",
+        "nodeId": "CIA4U.S6.Unit3Test-MandatorySections",
+        "errorId": "err-test-missing-required-section",
+        "stem": "How many mandatory sections must be included in the Unit 3 written response?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies that there are five mandatory sections.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "stemIntent": "Checks recall of the number of required sections.",
+        "commonMisconception": "Thinking there are three or four sections.",
+        "remediationModule": "err-test-missing-required-section",
+        "retestItem": "err-test-missing-required-section",
+        "options": [
+          {
+            "label": "A",
+            "text": "3",
+            "correct": false,
+            "feedbackWrong": "The test requires more sections to cover fiscal and monetary policy thoroughly."
+          },
+          {
+            "label": "B",
+            "text": "4",
+            "correct": false,
+            "feedbackWrong": "One more section is required; check the briefing notes."
+          },
+          {
+            "label": "C",
+            "text": "5",
+            "correct": true,
+            "feedbackCorrect": "Correct. The five sections are: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations."
+          },
+          {
+            "label": "D",
+            "text": "6",
+            "correct": false,
+            "feedbackWrong": "That's too many; the test specifies exactly five sections."
+          }
+        ]
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q2",
+        "nodeId": "CIA4U.S6.Unit3Test-MandatorySections",
+        "errorId": "err-test-missing-required-section",
+        "stem": "List the five mandatory sections required in the Unit 3 written response.",
+        "type": "open_ended",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Lists all five sections accurately: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "stemIntent": "Checks recall of the specific mandatory sections.",
+        "commonMisconception": "Omitting one section or confusing the order.",
+        "remediationModule": "err-test-missing-required-section",
+        "retestItem": "err-test-missing-required-section",
+        "rubric": "Full credit for all five sections exactly as taught: 1) Canadian fiscal policy definition, 2) Canada's monetary targets, 3) policy interaction, 4) current policy assessment, 5) improvement recommendations.",
+        "sampleStrongAnswer": "1. Canadian fiscal policy definition 2. Canada's monetary targets 3. Policy interaction 4. Current policy assessment 5. Improvement recommendations"
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q3",
+        "nodeId": "CIA4U.S6.Unit3Test-CitationRequirements",
+        "errorId": "err-test-insufficient-citations",
+        "stem": "What is the minimum number of reliable sources required to support your arguments in the test?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Correctly identifies that at least three sources are required.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "stemIntent": "Checks recall of the citation requirement.",
+        "commonMisconception": "Thinking one or two sources are enough.",
+        "remediationModule": "err-test-insufficient-citations",
+        "retestItem": "err-test-insufficient-citations",
+        "options": [
+          {
+            "label": "A",
+            "text": "1",
+            "correct": false,
+            "feedbackWrong": "The test requires more than one source to ensure a well-supported argument."
+          },
+          {
+            "label": "B",
+            "text": "2",
+            "correct": false,
+            "feedbackWrong": "You need at least three sources to meet the requirement."
+          },
+          {
+            "label": "C",
+            "text": "3",
+            "correct": true,
+            "feedbackCorrect": "Correct. At least three reliable sources, such as class notes, course materials, and credible economic research, must be properly cited."
+          },
+          {
+            "label": "D",
+            "text": "4",
+            "correct": false,
+            "feedbackWrong": "The minimum is three, not four."
+          }
+        ]
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q4",
+        "nodeId": "CIA4U.S6.Unit3Test-FormatSpecs",
+        "errorId": "err-test-incorrect-format",
+        "stem": "Describe the required format for the Unit 3 test paper, including page length, spacing, and structure.",
+        "type": "open_ended",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Describes the format: 2-3 pages, double-spaced, with clear headings, written as a research paper (not a formal essay).",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "describe",
+        "stemIntent": "Checks understanding of the formatting guidelines.",
+        "commonMisconception": "Writing it as a formal essay or ignoring spacing/page limits.",
+        "remediationModule": "err-test-incorrect-format",
+        "retestItem": "err-test-incorrect-format",
+        "rubric": "Full credit for mentioning: 2-3 pages, double-spaced, clear headings, research paper style (not essay).",
+        "sampleStrongAnswer": "The paper should be 2-3 pages, double-spaced, with clear headings for each section, and written as a research paper rather than a formal essay."
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q5",
+        "nodeId": "CIA4U.S6.Unit3Test-CommunicationRules",
+        "errorId": "err-test-communication-violation",
+        "stem": "What are the rules regarding microphone use during the test?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies that microphones must be off.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "stemIntent": "Checks recall of the microphone rule.",
+        "commonMisconception": "Thinking microphones can be on for questions.",
+        "remediationModule": "err-test-communication-violation",
+        "retestItem": "err-test-communication-violation",
+        "options": [
+          {
+            "label": "A",
+            "text": "Microphones must be on throughout.",
+            "correct": false,
+            "feedbackWrong": "Microphones should remain off to avoid disruptions."
+          },
+          {
+            "label": "B",
+            "text": "Microphones must be off; questions go in the chat.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Keep your mic off and send any questions via the meeting chat."
+          },
+          {
+            "label": "C",
+            "text": "Only the instructor's mic is on.",
+            "correct": false,
+            "feedbackWrong": "That's partially true, but the rule is for all students to turn off mics."
+          },
+          {
+            "label": "D",
+            "text": "No rule about microphones.",
+            "correct": false,
+            "feedbackWrong": "There is a rule: microphones must be off."
+          }
+        ]
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q6",
+        "nodeId": "CIA4U.S6.Unit3Test-SubmissionProtocol",
+        "errorId": "err-test-late-submission",
+        "stem": "How long do you have to upload the completed test document after the briefing ends?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies the 10-minute upload window.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "stemIntent": "Checks recall of the submission deadline.",
+        "commonMisconception": "Thinking there is unlimited time or a longer window.",
+        "remediationModule": "err-test-late-submission",
+        "retestItem": "err-test-late-submission",
+        "options": [
+          {
+            "label": "A",
+            "text": "5 minutes",
+            "correct": false,
+            "feedbackWrong": "You have a bit more time, but not much."
+          },
+          {
+            "label": "B",
+            "text": "10 minutes",
+            "correct": true,
+            "feedbackCorrect": "Correct. You must upload within 10 minutes after the briefing."
+          },
+          {
+            "label": "C",
+            "text": "15 minutes",
+            "correct": false,
+            "feedbackWrong": "The window is shorter than 15 minutes."
+          },
+          {
+            "label": "D",
+            "text": "No time limit",
+            "correct": false,
+            "feedbackWrong": "There is a strict 10-minute upload deadline."
+          }
+        ]
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q7",
+        "nodeId": "CIA4U.S6.Unit3Test-SubmissionProtocol",
+        "errorId": "err-test-late-submission",
+        "stem": "What should you do if you encounter a technical issue during submission?",
+        "type": "single_choice",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies that they should email the instructor immediately.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "stemIntent": "Checks recall of the technical issue procedure.",
+        "commonMisconception": "Waiting or trying again without notifying the instructor.",
+        "remediationModule": "err-test-late-submission",
+        "retestItem": "err-test-late-submission",
+        "options": [
+          {
+            "label": "A",
+            "text": "Keep trying to upload without contacting anyone.",
+            "correct": false,
+            "feedbackWrong": "You must notify the instructor immediately if there are technical issues."
+          },
+          {
+            "label": "B",
+            "text": "Email the instructor immediately.",
+            "correct": true,
+            "feedbackCorrect": "Correct. Technical issues require immediate email contact with the instructor."
+          },
+          {
+            "label": "C",
+            "text": "Wait until the next class to explain.",
+            "correct": false,
+            "feedbackWrong": "You need to contact the instructor right away, not wait."
+          },
+          {
+            "label": "D",
+            "text": "Upload the file to any platform and send a link.",
+            "correct": false,
+            "feedbackWrong": "Use the designated submission method and email the instructor about the issue."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-test-missing-required-section",
+      "condition": "student answers Q1 or Q2 incorrectly",
+      "systemAction": "assign reteach module for err-test-missing-required-section",
+      "studentMessage": "Review the list of five mandatory sections for the test."
+    },
+    {
+      "errorId": "err-test-insufficient-citations",
+      "condition": "student answers Q3 incorrectly",
+      "systemAction": "assign reteach module for err-test-insufficient-citations",
+      "studentMessage": "Remember to use at least three reliable sources and cite them properly."
+    },
+    {
+      "errorId": "err-test-incorrect-format",
+      "condition": "student answers Q4 incorrectly",
+      "systemAction": "assign reteach module for err-test-incorrect-format",
+      "studentMessage": "Check the formatting guidelines: 2-3 pages, double-spaced, headings, research paper style."
+    },
+    {
+      "errorId": "err-test-communication-violation",
+      "condition": "student answers Q5 incorrectly",
+      "systemAction": "assign reteach module for err-test-communication-violation",
+      "studentMessage": "During the test, keep your microphone off and use the chat for questions; camera must stay on."
+    },
+    {
+      "errorId": "err-test-late-submission",
+      "condition": "student answers Q6 or Q7 incorrectly",
+      "systemAction": "assign reteach module for err-test-late-submission",
+      "studentMessage": "Upload your test document within 10 minutes after the briefing; email the instructor if you have technical issues."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-test-missing-required-section",
+      "trigger": "Diagnostic shows the student cannot name all five mandatory sections or omits one in their test response.",
+      "studentMisunderstanding": "The student thinks the written response only needs a general discussion of fiscal and monetary policy, not a specific structure with five required sections.",
+      "miniLesson": {
+        "explain": "The Unit 3 test is a written research paper. Your response must include five mandatory sections. Missing any one means the response does not meet the test requirements. The five mandatory sections are: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations. Each section must be clearly headed in your paper.",
+        "example": "If a student writes about fiscal policy and monetary policy but forgets the 'policy interaction' section, they have four sections, not five. The response would be marked incomplete. The required list is: 1) Canadian fiscal policy definition, 2) Canada's monetary targets, 3) policy interaction, 4) current policy assessment, 5) improvement recommendations.",
+        "memoryAnchor": "Think '5-Section Check': Def, Targets, Interaction, Assessment, Recommendations — check them off like a test-day checklist."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many mandatory sections are required in the Unit 3 written response, and what are they?",
+          "answer": "Five: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations."
+        },
+        {
+          "level": "L2",
+          "prompt": "A classmate wrote only four sections: Canadian fiscal policy definition, Canada's monetary targets, current policy assessment, and improvement recommendations. Which mandatory section did they miss?",
+          "answer": "Policy interaction."
+        },
+        {
+          "level": "L3",
+          "prompt": "Before uploading your test, list all five required section headings in the correct order to include in your paper.",
+          "answer": "1. Canadian fiscal policy definition, 2. Canada's monetary targets, 3. Policy interaction, 4. Current policy assessment, 5. Improvement recommendations."
+        }
+      ]
+    },
+    {
+      "errorId": "err-test-insufficient-citations",
+      "trigger": "The student selects fewer than three sources or fails to provide proper citations in the test response.",
+      "studentMisunderstanding": "The student thinks one or two sources are enough to support an argument, or that listing a source is the same as properly citing it.",
+      "miniLesson": {
+        "explain": "The Unit 3 test requires all arguments to be supported by at least three properly cited reliable sources. Reliable sources include class notes, course materials, and credible economic research. A proper citation means you clearly identify the source for each claim, not just mention it in general. Meeting the minimum of three sources for each key argument ensures your paper is well-supported and meets the test expectation.",
+        "example": "If you write: 'Canada's monetary policy uses inflation targeting to guide interest rates,' you must support that with at least three sources. For instance, you could cite the Bank of Canada website, your class notes from the lesson on monetary targets, and a credible economics textbook. Each source must be properly cited in the text and listed in your references.",
+        "memoryAnchor": "Remember the rule of three: three sources for every argument. A stool with three legs is stable, and a paper with three citations per argument is solid."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the minimum number of reliable sources you must cite to support each argument in the Unit 3 test?",
+          "answer": "At least three reliable sources must be cited for each argument."
+        },
+        {
+          "level": "L2",
+          "prompt": "List three types of reliable sources you are allowed to use, and explain why each type is considered reliable for this test.",
+          "answer": "Three allowed types are: class notes, course materials, and credible economic research. Class notes and course materials are reliable because they come from your instructor and the official course. Credible economic research is reliable because it is published by recognized institutions or experts in economics."
+        },
+        {
+          "level": "L3",
+          "prompt": "Write one claim about Canadian fiscal or monetary policy and include proper citations from three different reliable sources.",
+          "answer": "Example: 'The Government of Canada uses fiscal policy to manage the economy by adjusting spending and taxation (Department of Finance, 2025; Class Notes, CIA4U, 2026; Economics Today, 2024).' This includes three separate citations from reliable sources."
+        }
+      ]
+    },
+    {
+      "errorId": "err-test-incorrect-format",
+      "trigger": "The student answers Q4 incorrectly or demonstrates misunderstanding of the required paper format for the Unit 3 test response.",
+      "studentMisunderstanding": "The student does not follow the required page length (2-3 pages), double-spacing, clear headings, or research paper style, possibly submitting a formal essay or using incorrect formatting.",
+      "miniLesson": {
+        "explain": "The Unit 3 test is a written research paper that must follow specific format guidelines: it must be 2-3 pages long, double-spaced, structured with clear headings, and presented as a research paper rather than a formal essay.",
+        "example": "A correctly formatted response would be 2-3 pages long, double-spaced, with each of the five mandatory sections clearly headed (e.g., 'Canadian Fiscal Policy Definition', 'Canada's Monetary Targets', 'Policy Interaction', 'Current Policy Assessment', 'Improvement Recommendations').",
+        "memoryAnchor": "2-3 pages, double-spaced, heading each section, research paper style – not an essay."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What are the page length and spacing requirements for the Unit 3 test paper?",
+          "answer": "The paper must be 2-3 pages long and double-spaced."
+        },
+        {
+          "level": "L2",
+          "prompt": "Should the Unit 3 test response be written as a formal essay or a research paper?",
+          "answer": "It should be written as a research paper, not a formal essay, with clear headings."
+        },
+        {
+          "level": "L3",
+          "prompt": "List all the format requirements for the Unit 3 test response.",
+          "answer": "2-3 pages, double-spaced, clear headings, and presented as a research paper rather than a formal essay."
+        }
+      ]
+    },
+    {
+      "errorId": "err-test-communication-violation",
+      "trigger": "Student answers diagnostic question about communication rules incorrectly",
+      "studentMisunderstanding": "The student may believe they can speak aloud or turn off their camera during the test, not realizing that microphones are prohibited, questions must be typed in chat, and continuous camera presence is required for attendance verification.",
+      "miniLesson": {
+        "explain": "During the Unit 3 test, all microphones must be off. If you have a question, send it through the meeting chat box. You must keep your camera on for the entire test so the instructor can verify your attendance. This rule helps maintain a quiet, secure testing environment and ensures everyone is present.",
+        "example": "Imagine you are writing your test and you realize you are unsure about what to include in the policy interaction section. Instead of unmuting and asking aloud, you type your question in the meeting chat. Meanwhile, your camera remains on so the instructor sees you are still working.",
+        "memoryAnchor": "Mics off, chat on, camera stays on."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "What is the rule about using your microphone during the test?",
+          "answer": "Microphones must be off. Questions must be sent via the meeting chat box."
+        },
+        {
+          "level": "L2",
+          "prompt": "During the test, a classmate speaks aloud to ask a question. What should they do instead, and why?",
+          "answer": "They should turn their microphone off (if on) and type the question in the meeting chat. The rule says microphones are prohibited, and all questions must go through chat."
+        },
+        {
+          "level": "L3",
+          "prompt": "You are about to upload your test, but you notice your camera turned off. Explain why this is a problem and what you should do immediately.",
+          "answer": "Continuous camera presence is mandatory for attendance verification. Turning off your camera violates the test rules. You must turn it back on immediately and keep it on for the rest of the session."
+        }
+      ]
+    },
+    {
+      "errorId": "err-test-late-submission",
+      "trigger": "Student uploads the test document after the 10-minute uploading window following the briefing.",
+      "studentMisunderstanding": "The student may think that the submission deadline is flexible or that a short delay will be accepted. They may not recognize that the 10-minute upload window is a strict requirement, and that any technical issue must be reported immediately by email to the instructor.",
+      "miniLesson": {
+        "explain": "For this Unit 3 test, the submission protocol is strict. Once the briefing ends, you have exactly 10 minutes to upload your completed test document. There is no grace period. You must also double-check that you are uploading the correct dedicated test document. If you experience any technical issue during submission, you must email the instructor immediately, not wait or keep silent. This ensures that the issue is documented and that you are following the official procedure.",
+        "example": "Suppose the briefing ends at 2:00 PM. You must have your test document uploaded by 2:10 PM. If your internet connection fails at 2:08 PM, you should immediately email the instructor to report the problem and keep trying to upload. You should not assume that a late upload after 2:10 PM will be accepted without explanation.",
+        "memoryAnchor": "Remember the 10-minute rule: 10 minutes to upload. If tech trouble appears, email right away—don't delay."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "How many minutes do you have after the briefing ends to upload the completed test document?",
+          "answer": "10 minutes"
+        },
+        {
+          "level": "L2",
+          "prompt": "List the two key actions you must take right before or while uploading your test document to avoid a late submission mistake.",
+          "answer": "Upload the completed test document within 10 minutes and double-check that you are uploading the correct dedicated test document."
+        },
+        {
+          "level": "L3",
+          "prompt": "Scenario: The briefing ends, and you have 9 minutes left. Your internet suddenly stops working and you cannot upload. What should you do, and why is this the required action?",
+          "answer": "Email the instructor immediately to report the technical issue, because the test rules state that technical issues during submission require immediate email contact with the instructor. This puts the problem on record and shows you are following the protocol, even though you may not be able to upload within the 10-minute window."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-test-missing-required-section",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "The Unit 3 written response must include five mandatory sections. According to the test briefing, which of the following is NOT one of those five sections?",
+          "options": [
+            "Canadian fiscal policy definition",
+            "Historical evolution of the Bank of Canada",
+            "Policy interaction",
+            "Improvement recommendations"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A student hands in a research paper with these section headings: 1) Canadian Fiscal Policy Definition, 2) Policy Interaction, 3) Current Policy Assessment, 4) Improvement Recommendations. The instructor returns it for missing one of the five mandatory sections. Which section is missing, and what should that section address?",
+          "rubric": "The student must identify 'Canada's monetary targets' as the missing section and explain that it should describe the Bank of Canada's monetary policy targets (e.g., inflation control target) and/or how those targets are determined."
+        }
+      ],
+      "passRule": "All questions must be answered correctly. For Q1, the correct option must be selected. For Q2, the student must name the missing section exactly ('Canada's monetary targets') and provide a clear explanation of what that section covers."
+    },
+    {
+      "forErrorId": "err-test-insufficient-citations",
+      "questions": [
+        {
+          "id": "retest-question-1",
+          "type": "single_choice",
+          "stem": "In the Unit 3 test, which of the following response excerpts correctly meets the source citation requirement?",
+          "options": [
+            "A paragraph about fiscal policy cites the same textbook three times.",
+            "A claim about monetary policy is supported by one class note, one Bank of Canada report, and one economics textbook.",
+            "A claim about policy interaction includes two sources in the text and two more in the reference list.",
+            "An argument about policy recommendations is based on personal opinion, with no citations."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-question-2",
+          "type": "open_ended",
+          "stem": "You read a classmate's draft. She writes: 'I used three sources: my class notes, the course textbook, and a news article from a blog. I listed all three in my references, but I only mentioned the class notes in the text.' Explain two problems with this approach and what she should do to meet the Unit 3 citation requirement.",
+          "rubric": "Response must identify two distinct problems: (1) the blog is not a reliable source (or not clearly credible economic research), so it does not count as one of the three reliable sources; (2) proper citation requires in-text citations for each source used to support a claim, not just listing them in references. The advice must include that the student should replace the blog with a credible source and cite all three sources in the text of the paper."
+        }
+      ],
+      "passRule": "Student must select the correct single-choice option (index 1) and, in the written response, identify both problems (unreliable source and missing in-text citations) with appropriate corrective advice."
+    },
+    {
+      "forErrorId": "err-test-incorrect-format",
+      "questions": [
+        {
+          "id": "retest-format-q1",
+          "type": "single_choice",
+          "stem": "During the Unit 3 test, a student submits a response that is 4 pages long, single-spaced, contains no headings, and is written as a formal essay. Which format requirement(s) does the response violate?",
+          "options": [
+            "Page length only",
+            "Double-spacing only",
+            "All of the above (page length, double-spacing, headings, research paper style)",
+            "None of the above"
+          ],
+          "correct": 2
+        },
+        {
+          "id": "retest-format-q2",
+          "type": "open_ended",
+          "stem": "State the required format specifications for the Unit 3 test paper. Be specific about page length, line spacing, use of headings, and the overall style (research paper vs. essay).",
+          "rubric": "Must mention all four elements: (1) 2–3 pages in length; (2) double-spaced; (3) structured with clear headings; (4) presented as a research paper, not a formal essay. Accept paraphrases; partial credit for 3 of 4."
+        }
+      ],
+      "passRule": "The student must answer Q1 correctly (select C) and provide a complete response to Q2 that covers all four required format elements."
+    },
+    {
+      "forErrorId": "err-test-communication-violation",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "During the Unit 3 test, you have a question about one of the required sections. What is the correct way to ask it?",
+          "options": [
+            "Unmute your microphone and ask the instructor directly.",
+            "Type your question in the meeting chat box.",
+            "Send an email to the instructor and wait for a reply.",
+            "Wait until after the test to ask."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2",
+          "type": "single_choice",
+          "stem": "Which of the following best describes the camera requirement during the test?",
+          "options": [
+            "You may turn your camera off briefly if you need a break.",
+            "Your camera must stay on for the entire test to verify your attendance.",
+            "You only need your camera on during the briefing, not during the test.",
+            "You can turn your camera off once you submit your document."
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q3",
+          "type": "open_ended",
+          "stem": "The instructor notices that a student's microphone is on during the test. In 2–3 sentences, explain the communication rule the student is violating and what they should do instead.",
+          "rubric": "The response must state that microphones are prohibited during the test, so the student should turn off the microphone. It should also mention that questions must be sent via the meeting chat box, and that the camera must remain on for the entire session for attendance verification."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-test-late-submission",
+      "questions": [
+        {
+          "id": "q1_upload_deadline",
+          "type": "single_choice",
+          "stem": "The briefing ends at 10:20 AM. Your completed test document must be uploaded by:",
+          "options": [
+            "10:30 AM",
+            "10:40 AM",
+            "10:25 AM",
+            "11:00 AM"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_tech_issue_protocol",
+          "type": "open_ended",
+          "stem": "Imagine you are about to upload your test, but the submission page keeps crashing and you cannot get it to work as the 10-minute window ends. What should you do, and why is this the correct action according to the test rules?",
+          "rubric": "Answer must mention emailing the instructor immediately and explain that this is required for technical issues during submission. It should also note that this documents the problem and follows the official protocol. Accept equivalent phrasing."
+        }
+      ],
+      "passRule": "Q1 must be answered correctly, and Q2 must demonstrate understanding of emailing the instructor immediately upon technical issues, as described in the rubric."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "CIA4U.S6.Bianca 2026-08-12",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/CyqvdmcUtoJ1vRx8aSwceGHgnSe?from=vc_group_doc_link#doxcn8zVNNwZoVUerdchvW27Qke",
+    "sourceTitle": "CIA4U.S6.Bianca 2026-08-12 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "review_session",
+    "objective": "The Unit 3 test assesses fiscal and monetary policy knowledge through a written research paper.；The response must include five mandatory sections: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations.；All arguments require support from at least three properly cited reliable sources, including class notes, course materials, and credible economic research.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Students can identify the five mandatory sections required in the Unit 3 written test response."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Students can recall the formatting and citation requirements for the test."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Students understand the communication rules and submission protocols during the test."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 Fiscal and Monetary Policy Test",
+        "studentAction": "Complete the Unit 3 test during the session according to the briefing instructions.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "This meeting ... is a briefing for the Unit 3 fiscal and monetary policy test",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "exam_requirement",
+        "title": "Mandatory Response Components",
+        "studentAction": "Ensure your response covers all 5 core sections: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Responses must cover 5 core sections: Canadian fiscal policy definition, Canada’s monetary targets, policy interaction, current policy assessment, and improvement recommendations.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "exam_requirement",
+        "title": "Citation & Source Rule",
+        "studentAction": "Support all arguments with at least 3 properly cited reliable sources, including class notes, course materials, and credible economic research.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "All arguments must be supported by at least 3 properly cited reliable sources, including class notes, course materials and credible economic research.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-004",
+        "category": "exam_requirement",
+        "title": "Format Specifications",
+        "studentAction": "Write a research paper of 2 to 3 pages, double-spaced, with clear headings, and frame it as a research paper rather than a formal essay.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "The response shall be 2 to 3 pages in length, double-spaced, structured with clear headings, and framed as a research paper rather than a formal essay.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "class_policy",
+        "title": "No Microphones During Test",
+        "studentAction": "Keep microphones off during the test to avoid disturbing others; send any questions to the instructor via the meeting chat box.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "Test takers are prohibited from using microphones during the test ... all questions shall be sent to the instructor via the meeting chat box.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "attendance_camera",
+        "title": "Continuous Camera Presence Required",
+        "studentAction": "Keep your camera continuously on throughout the session; the instructor will monitor attendance and participation via live camera feeds.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "All students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Continuous camera presence is mandatory for all participants, as the instructor will monitor attendance and participation via live camera feeds.",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [],
+    "watchTags": [
+      "CIA4U.S6.Unit3Test-MandatorySections",
+      "CIA4U.S6.Unit3Test-CitationRequirements",
+      "CIA4U.S6.Unit3Test-FormatSpecs",
+      "CIA4U.S6.Unit3Test-CommunicationRules",
+      "CIA4U.S6.Unit3Test-SubmissionProtocol"
+    ],
+    "totalQuestions": 7,
+    "completed": false,
+    "passScore": 7,
+    "diagnosisRules": [
+      {
+        "errorId": "err-test-missing-required-section",
+        "condition": "student answers Q1 or Q2 incorrectly",
+        "systemAction": "assign reteach module for err-test-missing-required-section"
+      },
+      {
+        "errorId": "err-test-insufficient-citations",
+        "condition": "student answers Q3 incorrectly",
+        "systemAction": "assign reteach module for err-test-insufficient-citations"
+      },
+      {
+        "errorId": "err-test-incorrect-format",
+        "condition": "student answers Q4 incorrectly",
+        "systemAction": "assign reteach module for err-test-incorrect-format"
+      },
+      {
+        "errorId": "err-test-communication-violation",
+        "condition": "student answers Q5 incorrectly",
+        "systemAction": "assign reteach module for err-test-communication-violation"
+      },
+      {
+        "errorId": "err-test-late-submission",
+        "condition": "student answers Q6 or Q7 incorrectly",
+        "systemAction": "assign reteach module for err-test-late-submission"
+      }
+    ],
+    "nextActions": [
+      "[err-test-missing-required-section] student answers Q1 or Q2 incorrectly: Review the list of five mandatory sections for the test.",
+      "[err-test-insufficient-citations] student answers Q3 incorrectly: Remember to use at least three reliable sources and cite them properly.",
+      "[err-test-incorrect-format] student answers Q4 incorrectly: Check the formatting guidelines: 2-3 pages, double-spaced, headings, research paper style.",
+      "[err-test-communication-violation] student answers Q5 incorrectly: During the test, keep your microphone off and use the chat for questions; camera must stay on.",
+      "[err-test-late-submission] student answers Q6 or Q7 incorrectly: Upload your test document within 10 minutes after the briefing; email the instructor if you have technical issues."
+    ],
+    "cards": [
+      {
+        "id": "diag-cia4u-s6-0812-q1",
+        "type": "choice",
+        "question": "How many mandatory sections must be included in the Unit 3 written response?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct": 2,
+        "diagnosis": "Checks recall of the number of required sections.",
+        "misconceptions": [
+          "The test requires more sections to cover fiscal and monetary policy thoroughly.",
+          "One more section is required; check the briefing notes.",
+          "✓ Correct. The five sections are: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations.",
+          "That's too many; the test specifies exactly five sections."
+        ],
+        "nodeId": "CIA4U.S6.Unit3Test-MandatorySections",
+        "errorId": "err-test-missing-required-section",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Correctly identifies that there are five mandatory sections.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "commonMisconception": "Thinking there are three or four sections.",
+        "remediationModule": "err-test-missing-required-section",
+        "retestItem": "err-test-missing-required-section"
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q2",
+        "type": "explain",
+        "question": "List the five mandatory sections required in the Unit 3 written response.",
+        "correct": null,
+        "diagnosis": "Checks recall of the specific mandatory sections.",
+        "nodeId": "CIA4U.S6.Unit3Test-MandatorySections",
+        "errorId": "err-test-missing-required-section",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Lists all five sections accurately: Canadian fiscal policy definition, Canada's monetary targets, policy interaction, current policy assessment, and improvement recommendations.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "recall",
+        "commonMisconception": "Omitting one section or confusing the order.",
+        "remediationModule": "err-test-missing-required-section",
+        "retestItem": "err-test-missing-required-section"
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q3",
+        "type": "choice",
+        "question": "What is the minimum number of reliable sources required to support your arguments in the test?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct": 2,
+        "diagnosis": "Checks recall of the citation requirement.",
+        "misconceptions": [
+          "The test requires more than one source to ensure a well-supported argument.",
+          "You need at least three sources to meet the requirement.",
+          "✓ Correct. At least three reliable sources, such as class notes, course materials, and credible economic research, must be properly cited.",
+          "The minimum is three, not four."
+        ],
+        "nodeId": "CIA4U.S6.Unit3Test-CitationRequirements",
+        "errorId": "err-test-insufficient-citations",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-2",
+        "successCriteria": "Correctly identifies that at least three sources are required.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "commonMisconception": "Thinking one or two sources are enough.",
+        "remediationModule": "err-test-insufficient-citations",
+        "retestItem": "err-test-insufficient-citations"
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q4",
+        "type": "explain",
+        "question": "Describe the required format for the Unit 3 test paper, including page length, spacing, and structure.",
+        "correct": null,
+        "diagnosis": "Checks understanding of the formatting guidelines.",
+        "nodeId": "CIA4U.S6.Unit3Test-FormatSpecs",
+        "errorId": "err-test-incorrect-format",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Describes the format: 2-3 pages, double-spaced, with clear headings, written as a research paper (not a formal essay).",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "describe",
+        "commonMisconception": "Writing it as a formal essay or ignoring spacing/page limits.",
+        "remediationModule": "err-test-incorrect-format",
+        "retestItem": "err-test-incorrect-format"
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q5",
+        "type": "choice",
+        "question": "What are the rules regarding microphone use during the test?",
+        "options": [
+          "Microphones must be on throughout.",
+          "Microphones must be off; questions go in the chat.",
+          "Only the instructor's mic is on.",
+          "No rule about microphones."
+        ],
+        "correct": 1,
+        "diagnosis": "Checks recall of the microphone rule.",
+        "misconceptions": [
+          "Microphones should remain off to avoid disruptions.",
+          "✓ Correct. Keep your mic off and send any questions via the meeting chat.",
+          "That's partially true, but the rule is for all students to turn off mics.",
+          "There is a rule: microphones must be off."
+        ],
+        "nodeId": "CIA4U.S6.Unit3Test-CommunicationRules",
+        "errorId": "err-test-communication-violation",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies that microphones must be off.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "commonMisconception": "Thinking microphones can be on for questions.",
+        "remediationModule": "err-test-communication-violation",
+        "retestItem": "err-test-communication-violation"
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q6",
+        "type": "choice",
+        "question": "How long do you have to upload the completed test document after the briefing ends?",
+        "options": [
+          "5 minutes",
+          "10 minutes",
+          "15 minutes",
+          "No time limit"
+        ],
+        "correct": 1,
+        "diagnosis": "Checks recall of the submission deadline.",
+        "misconceptions": [
+          "You have a bit more time, but not much.",
+          "✓ Correct. You must upload within 10 minutes after the briefing.",
+          "The window is shorter than 15 minutes.",
+          "There is a strict 10-minute upload deadline."
+        ],
+        "nodeId": "CIA4U.S6.Unit3Test-SubmissionProtocol",
+        "errorId": "err-test-late-submission",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies the 10-minute upload window.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "commonMisconception": "Thinking there is unlimited time or a longer window.",
+        "remediationModule": "err-test-late-submission",
+        "retestItem": "err-test-late-submission"
+      },
+      {
+        "id": "diag-cia4u-s6-0812-q7",
+        "type": "choice",
+        "question": "What should you do if you encounter a technical issue during submission?",
+        "options": [
+          "Keep trying to upload without contacting anyone.",
+          "Email the instructor immediately.",
+          "Wait until the next class to explain.",
+          "Upload the file to any platform and send a link."
+        ],
+        "correct": 1,
+        "diagnosis": "Checks recall of the technical issue procedure.",
+        "misconceptions": [
+          "You must notify the instructor immediately if there are technical issues.",
+          "✓ Correct. Technical issues require immediate email contact with the instructor.",
+          "You need to contact the instructor right away, not wait.",
+          "Use the designated submission method and email the instructor about the issue."
+        ],
+        "nodeId": "CIA4U.S6.Unit3Test-SubmissionProtocol",
+        "errorId": "err-test-late-submission",
+        "bloomLevel": "remember",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Correctly identifies that they should email the instructor immediately.",
+        "ossdExpectation": "Use the economic inquiry process and the concepts of economic thinking when investigating current Canadian and international economic issues.",
+        "officialExpectationCode": "A1",
+        "officialNodeId": "CIA4U-A-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/2015cws11and12.pdf",
+        "alignmentConfidence": "weak",
+        "alignmentNote": "Test briefing aligns with inquiry process expectations.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "identify",
+        "commonMisconception": "Waiting or trying again without notifying the instructor.",
+        "remediationModule": "err-test-late-submission",
+        "retestItem": "err-test-late-submission"
+      }
+    ]
+  }
+}
