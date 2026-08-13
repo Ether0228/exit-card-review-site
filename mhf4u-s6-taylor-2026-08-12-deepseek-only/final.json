@@ -1,0 +1,1297 @@
+{
+  "sourceLesson": "MHF4U.S6.Taylor 2026-08-12",
+  "sourceFormat": "feishu_ai_minutes_link",
+  "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/DqqJdqhs1o5uyWxaM60cVaqPnBb?from=vc_group_doc_link#doxcnOx6RQuXhPsyxbMS4G01blg",
+  "sourceTitle": "MHF4U.S6.Taylor 2026-08-12 智能纪要",
+  "sourceMeta": {
+    "format": "feishu_ai_minutes_link",
+    "url": "https://ccnmm1dl3xlx.feishu.cn/docx/DqqJdqhs1o5uyWxaM60cVaqPnBb?from=vc_group_doc_link#doxcnOx6RQuXhPsyxbMS4G01blg",
+    "title": "MHF4U.S6.Taylor 2026-08-12 智能纪要",
+    "inputMode": "local_file",
+    "localInput": "/Users/zhujing/.exit-card-automation/dashboard/artifacts/course-chat-ingestion/automation-2026-08-13/sources/mhf4u-s6-taylor-2026-08-12/source-combined.md"
+  },
+  "methodology": "TeachAny",
+  "courseCode": "MHF4U",
+  "lessonDate": "2026-08-12",
+  "teacher": "Taylor",
+  "section": "S6",
+  "subject": "math",
+  "lessonType": "mixed",
+  "courseOpsExtract": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-12",
+    "lessonType": "mixed",
+    "generateDiagnosticExitCard": true,
+    "generateReadinessCheck": true,
+    "lessonTypeReason": "The lesson is a pre-quiz review and briefing: it contains substantial trigonometry review content (Ferris wheel modeling, function selection, reciprocal functions, arc length, graphing) alongside quiz logistics and requirements.",
+    "academicContentSignals": [
+      "Deriving amplitude, vertical shift, k value, and phase shift for Ferris wheel model h(t) = -15cos(π/4 (t-1)) + 17",
+      "Factoring out k from trigonometric arguments to standardize function form",
+      "Selecting positive/negative cosine or sine based on starting position and direction for word problems",
+      "Deriving vertical asymptotes for reciprocal functions from denominator zeros (tan: cos=0, cot: sin=0)",
+      "Arc length formula θ = a/r and linear velocity = angular velocity × radius",
+      "Trigonometric graphing using mapping notation, key point tables, and midline y = c"
+    ],
+    "courseOverviewSignals": [
+      "Unit 3 trigonometry quiz covers Knowledge & Understanding, Thinking & Inquiry, and Application sections",
+      "Quiz content includes degree-radian conversion, exact values, parameter table completion, vertical asymptote explanation, quadrant angles, terminal arm values, standard position radian measure, equation writing, mass-spring height, Ferris wheel calculations"
+    ],
+    "opsDominanceRisk": "High risk if quiz access, camera rules, and percentage weight are over-weighted during generation. Keep the diagnostic card focused on trigonometry concepts (function modeling, asymptotes, formulas), with quiz access/camera as at most 1-2 lightweight readiness checks.",
+    "opsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 Lesson 3 Quiz weight: 3%",
+        "studentAction": "Remember the quiz is worth 3% of the total course score.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "quiz carries a 3 % total score weight",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "attendance_camera",
+        "title": "Cameras on during quiz",
+        "studentAction": "Keep your camera on for the entire duration of the quiz session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "participants are required to keep their cameras on for the full duration of the quiz session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "platform_link",
+        "title": "Quiz location: Unit 3 evaluation section",
+        "studentAction": "Find the Unit 3 Lesson 3 Quiz in the Unit 3 evaluation section before the quiz starts.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "course platform (unspecified)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The quiz is located in the Unit 3 evaluation section",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Reference formulas provided at end of quiz sheet",
+        "studentAction": "Know that arc length, angular velocity, and Pythagorean identity formulas are provided at the end of the quiz sheet; focus on applying them rather than memorizing.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "reference formulas for arc length, angular velocity and Pythagorean identity provided at the end of the quiz sheet",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_requirement",
+        "title": "Reciprocal function drawing not required for current quiz",
+        "studentAction": "Do not study full in-depth drawing of cosecant, secant, and cotangent for this quiz; it is only for the upcoming formal test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Full in-depth drawing of cosecant, secant and cotangent functions is not required for the current quiz, only for the upcoming formal test.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "follow_up_action",
+        "title": "Next class: full reciprocal function graphs",
+        "studentAction": "Attend next class if you want full plotting details for cosecant, secant, and cotangent; not required for the current quiz.",
+        "deadlineText": "Next class (2026-08-13)",
+        "deadlineISO": "2026-08-13",
+        "platform": null,
+        "link": null,
+        "appliesTo": "students interested in full reciprocal graphing",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Full plotting details for the three reciprocal functions will be covered in the next day’s class",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "review_focus",
+        "title": "Unit 3 Lesson 3 Quiz content focus",
+        "studentAction": "Review degree-radian conversion, exact value calculation, parameter table completion, vertical asymptote explanation, quadrant angle exact values, terminal arm point trig values, standard position radian measure, equation writing, mass-spring height, and Ferris wheel angular velocity/travel distance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Quiz Content Breakdown: Knowledge & Understanding Section... Thinking & Inquiry Section... Application Section...",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "uncertainItems": [
+      {
+        "rawText": "Quiz date and time are not specified in the notes; only quiz access location, weight, and camera rule are given.",
+        "reason": "Exact quiz schedule is absent, so no deadlineISO can be assigned for the quiz itself."
+      }
+    ]
+  },
+  "title": "MHF4U Exit Card Learning Package",
+  "problemAnchor": "本节课的核心概念（Ferris Wheel Cosine Model Parameters、Standardizing Trig Function Argument by Factoring k、Trig Function Selection for Word Problems、Reciprocal Function Asymptote and Domain Rules）之间有什么联系？学生在理解上最容易卡在哪里？",
+  "abt": {
+    "and": "你已经完成了本节课的学习。",
+    "but": "但是这 6 个知识节点之间可能存在 6 种典型错误理解，学生容易记住零散规则却在综合判断时互相打架。",
+    "therefore": "系统先诊断你卡在哪个知识节点，再用对应补救模块带你重新理解，最后用复测确认是否真正连起来。"
+  },
+  "objective": "For the Ferris wheel problem, the height function is h(t) = -15cos(π/4 (t-1)) + 17.；The amplitude is -15, vertical shift is 17, k is π/4, and the 1-unit right phase shift accounts for the 1-minute ride delay.；To standardize a trigonometric function, factor out k from the argument by dividing constant terms by k.",
+  "learningGoals": [
+    {
+      "id": "lg-1",
+      "statement": "Write and interpret sinusoidal models from context, including correct amplitude sign for starting position."
+    },
+    {
+      "id": "lg-2",
+      "statement": "Standardize trigonometric function arguments by factoring k to correctly identify phase shift."
+    },
+    {
+      "id": "lg-3",
+      "statement": "Select the appropriate sine or cosine function based on the starting point of a periodic situation."
+    },
+    {
+      "id": "lg-4",
+      "statement": "Identify vertical asymptotes of reciprocal trigonometric functions by setting the denominator equal to zero."
+    },
+    {
+      "id": "lg-5",
+      "statement": "Use radian measure correctly in arc length and velocity formulas."
+    },
+    {
+      "id": "lg-6",
+      "statement": "Identify key features of transformed trigonometric graphs, especially the midline y = c."
+    }
+  ],
+  "knowledgeNodes": [
+    {
+      "id": "MHF4U-S6-Taylor-2026-08-12-ferris-wheel-cosine-model",
+      "name": "Ferris Wheel Cosine Model Parameters",
+      "nameEn": "Ferris Wheel Cosine Model Parameters",
+      "definition": "Given a Ferris wheel with a 1-minute ride delay, the height function is h(t) = -15cos(π/4 (t-1)) + 17, where amplitude = -15, vertical shift = 17, k = π/4, and the phase shift is 1 unit right.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    },
+    {
+      "id": "MHF4U-S6-Taylor-2026-08-12-k-factoring",
+      "name": "Standardizing Trig Function Argument by Factoring k",
+      "nameEn": "Standardizing Trig Function Argument by Factoring k",
+      "definition": "Factor out the k coefficient from the trigonometric argument by dividing constant terms by k, producing a standardized form for graphing and shift verification.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    },
+    {
+      "id": "MHF4U-S6-Taylor-2026-08-12-function-selection",
+      "name": "Trig Function Selection for Word Problems",
+      "nameEn": "Trig Function Selection for Word Problems",
+      "definition": "Choose positive cosine when starting at maximum, negative cosine when starting at minimum, positive sine when starting at midline moving upward, and negative sine when starting at midline moving downward.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    },
+    {
+      "id": "MHF4U-S6-Taylor-2026-08-12-reciprocal-asymptotes",
+      "name": "Reciprocal Function Asymptote and Domain Rules",
+      "nameEn": "Reciprocal Function Asymptote and Domain Rules",
+      "definition": "Vertical asymptotes occur where the reciprocal function's denominator equals zero: tan (sin/cos) excludes cos = 0 points; cot (cos/sin) excludes sin = 0 points.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    },
+    {
+      "id": "MHF4U-S6-Taylor-2026-08-12-arc-length-velocity",
+      "name": "Arc Length and Angular/Linear Velocity Formulas",
+      "nameEn": "Arc Length and Angular/Linear Velocity Formulas",
+      "definition": "Arc length follows θ = a/r with θ in radians; linear velocity equals angular velocity multiplied by radius; forms can be rearranged to solve for any variable.",
+      "officialExpectationCode": "B1",
+      "officialNodeId": "MHF4U-B-OE01",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Demonstrate an understanding of the meaning and application of radian measure."
+    },
+    {
+      "id": "MHF4U-S6-Taylor-2026-08-12-graphing-transformation",
+      "name": "Graphing Trigonometric Functions Using Transformations",
+      "nameEn": "Graphing Trigonometric Functions Using Transformations",
+      "definition": "Use transformation mapping notation and pre-built key point tables to plot trig functions; the midline is defined as y = c from the standard function form.",
+      "officialExpectationCode": "B2",
+      "officialNodeId": "MHF4U-B-OE02",
+      "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+      "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems."
+    }
+  ],
+  "diagnosticCard": {
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Write and interpret sinusoidal models from context, including correct amplitude sign for starting position."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Standardize trigonometric function arguments by factoring k to correctly identify phase shift."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Select the appropriate sine or cosine function based on the starting point of a periodic situation."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Identify vertical asymptotes of reciprocal trigonometric functions by setting the denominator equal to zero."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Use radian measure correctly in arc length and velocity formulas."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Identify key features of transformed trigonometric graphs, especially the midline y = c."
+      }
+    ],
+    "targetMinutes": 8,
+    "diagnosisRules": [
+      {
+        "errorId": "err-ferris-wheel-amplitude-sign",
+        "condition": "Student selects incorrect option on question targeting err-ferris-wheel-amplitude-sign.",
+        "systemAction": "assign reteach module for err-ferris-wheel-amplitude-sign",
+        "studentMessage": "The sign of the amplitude matters more than you think. Let's review how a negative cosine indicates a minimum start."
+      },
+      {
+        "errorId": "err-k-factoring-phase-shift",
+        "condition": "Student selects incorrect option on question targeting err-k-factoring-phase-shift.",
+        "systemAction": "assign reteach module for err-k-factoring-phase-shift",
+        "studentMessage": "Factoring k is the key to seeing the real phase shift. Let's practice dividing that constant by k."
+      },
+      {
+        "errorId": "err-function-selection-start-point",
+        "condition": "Student selects incorrect option on question targeting err-function-selection-start-point.",
+        "systemAction": "assign reteach module for err-function-selection-start-point",
+        "studentMessage": "Which trig function you pick depends on where the motion starts. Let's review the four starting patterns."
+      },
+      {
+        "errorId": "err-reciprocal-asymptote-denominator",
+        "condition": "Student selects incorrect option on question targeting err-reciprocal-asymptote-denominator.",
+        "systemAction": "assign reteach module for err-reciprocal-asymptote-denominator",
+        "studentMessage": "Asymptotes come from the denominator, not the numerator. Let's review tan and cot definitions."
+      },
+      {
+        "errorId": "err-arc-length-radian-vs-degree",
+        "condition": "Student selects incorrect option on question targeting err-arc-length-radian-vs-degree.",
+        "systemAction": "assign reteach module for err-arc-length-radian-vs-degree",
+        "studentMessage": "The arc length formula is built on radian measure. Let's go over why radians are required."
+      },
+      {
+        "errorId": "err-graphing-midline-from-k",
+        "condition": "Student selects incorrect option on question targeting err-graphing-midline-from-k.",
+        "systemAction": "assign reteach module for err-graphing-midline-from-k",
+        "studentMessage": "The midline is the vertical center of the graph, given by y = c, not by the k-value."
+      }
+    ],
+    "questions": [
+      {
+        "id": "diag-mhf4u-s6-0826-q1",
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-ferris-wheel-cosine-model",
+        "errorId": "err-ferris-wheel-amplitude-sign",
+        "stem": "The Ferris wheel height function is h(t) = -15cos(π/4 (t-1)) + 17. What does the leading negative sign on the 15 represent?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that the negative sign indicates the wheel starts at its minimum height, not maximum.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question connects an algebraic transformation (negative cosine) to its graphical starting position, which is central to B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if the student understands that the negative sign flips the cosine to start at a minimum, not a maximum.",
+        "commonMisconception": "Students often treat amplitude as always positive and ignore the vertical reflection's meaning for starting position.",
+        "remediationModule": "err-ferris-wheel-amplitude-sign",
+        "retestItem": "err-ferris-wheel-amplitude-sign",
+        "figureSvg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 250'><line x1='20' y1='230' x2='380' y2='230' stroke='black' stroke-width='1'/><line x1='20' y1='20' x2='20' y2='230' stroke='black' stroke-width='1'/><text x='25' y='20' font-size='10' fill='black'>h(t)</text><text x='380' y='240' font-size='10' fill='black'>t</text><line x1='20' y1='125' x2='380' y2='125' stroke='gray' stroke-dasharray='4' stroke-width='1'/><text x='25' y='120' font-size='10' fill='gray'>y=17</text><polyline points='20,190.5 42.5,210.6 65,217.6 87.5,210.6 110,190.5 132.5,160.5 155,125 177.5,89.5 200,59.6 222.5,39.4 245,32.4 267.5,39.4 290,59.6 312.5,89.5 335,125 357.5,160.5 380,190.5' fill='none' stroke='blue' stroke-width='2'/></svg>",
+        "options": [
+          {
+            "label": "A",
+            "text": "The wheel starts at its highest point, so the amplitude is positive 15.",
+            "correct": false,
+            "feedbackWrong": "A negative cosine does not start at a maximum. The negative sign actually flips the graph so it starts at a minimum."
+          },
+          {
+            "label": "B",
+            "text": "The wheel starts at its lowest point because the cosine is inverted, so the amplitude is -15.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The negative sign on the cosine indicates the graph is reflected vertically, starting at the minimum."
+          },
+          {
+            "label": "C",
+            "text": "The wheel starts at the midline moving upward, so the negative sign indicates a sine function.",
+            "correct": false,
+            "feedbackWrong": "The function is still cosine, not sine. A negative sine would also start at midline moving downward, not upward."
+          },
+          {
+            "label": "D",
+            "text": "The wheel has amplitude 15 but the negative sign is a vertical reflection, not related to starting position.",
+            "correct": false,
+            "feedbackWrong": "Vertical reflection is exactly what changes the starting position from maximum to minimum. So it is directly related."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0826-q2",
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-k-factoring",
+        "errorId": "err-k-factoring-phase-shift",
+        "stem": "Given h(t) = -15cos(π/4 (t-1)) + 17, which step correctly standardizes the argument to verify the phase shift?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly factors k from the argument and identifies the phase shift as 1 unit right.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question targets the algebraic manipulation needed to connect a trigonometric expression to its transformed graph.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Diagnose whether the student knows to divide the constant term by k when standardizing the phase shift.",
+        "commonMisconception": "Students often read the phase shift directly from the parentheses without factoring k, or misapply the division.",
+        "remediationModule": "err-k-factoring-phase-shift",
+        "retestItem": "err-k-factoring-phase-shift",
+        "options": [
+          {
+            "label": "A",
+            "text": "Keep it as -15cos(π/4 t - π/4) + 17 and identify the phase shift as -π/4.",
+            "correct": false,
+            "feedbackWrong": "The constant term must be divided by k (π/4) to get the actual horizontal shift. -π/4 divided by π/4 is -1, not the phase shift itself."
+          },
+          {
+            "label": "B",
+            "text": "Divide the constant -π/4 by π/4 to get -1, giving the standardized form π/4(t - 1).",
+            "correct": true,
+            "feedbackCorrect": "Correct. Factoring out π/4 from π/4(t-1) gives π/4 t - π/4, so dividing the constant by π/4 yields -1, confirming a 1-unit right shift."
+          },
+          {
+            "label": "C",
+            "text": "Multiply the constant -π/4 by π/4 to get -π^2/16, so the phase shift is -π^2/16.",
+            "correct": false,
+            "feedbackWrong": "You should divide, not multiply, by k when factoring. Multiplying changes the value incorrectly."
+          },
+          {
+            "label": "D",
+            "text": "The phase shift is already 1 because it appears in the parentheses, so no extra step is needed.",
+            "correct": false,
+            "feedbackWrong": "While (t-1) does show a right shift of 1, the standardization step is required to prove it when the argument is not already factored. Always factor k explicitly."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0826-q3",
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-function-selection",
+        "errorId": "err-function-selection-start-point",
+        "stem": "A ride starts at its maximum height. Which trigonometric function is the best initial choice to model its height?",
+        "type": "single_choice",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects positive cosine for a maximum starting point.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This tests the ability to connect real-world starting conditions to an appropriate trigonometric model.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "stemIntent": "Check if the student knows which trig function corresponds to which starting point in a periodic context.",
+        "commonMisconception": "Students often mix up sine and cosine starting positions, especially maximum vs midline.",
+        "remediationModule": "err-function-selection-start-point",
+        "retestItem": "err-function-selection-start-point",
+        "options": [
+          {
+            "label": "A",
+            "text": "positive cosine",
+            "correct": true,
+            "feedbackCorrect": "Correct. Positive cosine starts at its maximum value."
+          },
+          {
+            "label": "B",
+            "text": "negative cosine",
+            "correct": false,
+            "feedbackWrong": "Negative cosine starts at its minimum, not maximum."
+          },
+          {
+            "label": "C",
+            "text": "positive sine",
+            "correct": false,
+            "feedbackWrong": "Positive sine starts at the midline moving upward, not at a maximum."
+          },
+          {
+            "label": "D",
+            "text": "negative sine",
+            "correct": false,
+            "feedbackWrong": "Negative sine starts at the midline moving downward, not at a maximum."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0826-q4",
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-reciprocal-asymptotes",
+        "errorId": "err-reciprocal-asymptote-denominator",
+        "stem": "Which statement correctly identifies the vertical asymptotes of tan(x)?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student identifies that tan(x) = sin(x)/cos(x) and asymptotes occur where cos(x) = 0.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This tests the reciprocal relationship and domain restrictions central to B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if the student sets the denominator, not the numerator, equal to zero when finding asymptotes.",
+        "commonMisconception": "Students often set the numerator equal to zero, thinking zeros of the function create asymptotes.",
+        "remediationModule": "err-reciprocal-asymptote-denominator",
+        "retestItem": "err-reciprocal-asymptote-denominator",
+        "options": [
+          {
+            "label": "A",
+            "text": "tan(x) = sin(x)/cos(x), so asymptotes occur where sin(x) = 0.",
+            "correct": false,
+            "feedbackWrong": "You set the numerator equal to zero. Asymptotes occur from the denominator, not the numerator."
+          },
+          {
+            "label": "B",
+            "text": "tan(x) = sin(x)/cos(x), so asymptotes occur where cos(x) = 0.",
+            "correct": true,
+            "feedbackCorrect": "Correct. The denominator cos(x) cannot be zero, so those x-values are excluded as vertical asymptotes."
+          },
+          {
+            "label": "C",
+            "text": "tan(x) = cos(x)/sin(x), so asymptotes occur where sin(x) = 0.",
+            "correct": false,
+            "feedbackWrong": "That is the definition of cot(x), not tan(x). And for cot, sin(x)=0 does give asymptotes."
+          },
+          {
+            "label": "D",
+            "text": "tan(x) = cos(x)/sin(x), so asymptotes occur where cos(x) = 0.",
+            "correct": false,
+            "feedbackWrong": "That uses the wrong definition of tan. tan is sin/cos, not cos/sin."
+          }
+        ]
+      },
+      {
+        "id": "diag-mhf4u-s6-0826-q5",
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-arc-length-velocity",
+        "errorId": "err-arc-length-radian-vs-degree",
+        "stem": "In the formula θ = a/r, what unit must θ be measured in?",
+        "type": "single_choice",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student identifies radians as the required unit for θ in the arc length formula.",
+        "ossdExpectation": "Demonstrate an understanding of the meaning and application of radian measure.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MHF4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question directly assesses the radian measure application required by B1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "stemIntent": "Check if the student knows that the arc length formula is derived from radian measure and cannot use degrees.",
+        "commonMisconception": "Students often plug degrees into θ = a/r, forgetting that the formula assumes radian measure.",
+        "remediationModule": "err-arc-length-radian-vs-degree",
+        "retestItem": "err-arc-length-radian-vs-degree",
+        "options": [
+          {
+            "label": "A",
+            "text": "degrees",
+            "correct": false,
+            "feedbackWrong": "Degrees do not work directly in θ = a/r. The formula is built on the definition of radian measure."
+          },
+          {
+            "label": "B",
+            "text": "radians",
+            "correct": true,
+            "feedbackCorrect": "Correct. Radian measure is required because the formula is a definition of radians."
+          },
+          {
+            "label": "C",
+            "text": "either degrees or radians, as long as consistent",
+            "correct": false,
+            "feedbackWrong": "Only radians work in this formula. Degrees must be converted first."
+          },
+          {
+            "label": "D",
+            "text": "revolutions",
+            "correct": false,
+            "feedbackWrong": "Revolutions are a measure of angular displacement but not directly usable without conversion to radians."
+          }
+        ]
+      }
+    ]
+  },
+  "diagnosisRules": [
+    {
+      "errorId": "err-ferris-wheel-amplitude-sign",
+      "condition": "Student selects incorrect option on question targeting err-ferris-wheel-amplitude-sign.",
+      "systemAction": "assign reteach module for err-ferris-wheel-amplitude-sign",
+      "studentMessage": "The sign of the amplitude matters more than you think. Let's review how a negative cosine indicates a minimum start."
+    },
+    {
+      "errorId": "err-k-factoring-phase-shift",
+      "condition": "Student selects incorrect option on question targeting err-k-factoring-phase-shift.",
+      "systemAction": "assign reteach module for err-k-factoring-phase-shift",
+      "studentMessage": "Factoring k is the key to seeing the real phase shift. Let's practice dividing that constant by k."
+    },
+    {
+      "errorId": "err-function-selection-start-point",
+      "condition": "Student selects incorrect option on question targeting err-function-selection-start-point.",
+      "systemAction": "assign reteach module for err-function-selection-start-point",
+      "studentMessage": "Which trig function you pick depends on where the motion starts. Let's review the four starting patterns."
+    },
+    {
+      "errorId": "err-reciprocal-asymptote-denominator",
+      "condition": "Student selects incorrect option on question targeting err-reciprocal-asymptote-denominator.",
+      "systemAction": "assign reteach module for err-reciprocal-asymptote-denominator",
+      "studentMessage": "Asymptotes come from the denominator, not the numerator. Let's review tan and cot definitions."
+    },
+    {
+      "errorId": "err-arc-length-radian-vs-degree",
+      "condition": "Student selects incorrect option on question targeting err-arc-length-radian-vs-degree.",
+      "systemAction": "assign reteach module for err-arc-length-radian-vs-degree",
+      "studentMessage": "The arc length formula is built on radian measure. Let's go over why radians are required."
+    },
+    {
+      "errorId": "err-graphing-midline-from-k",
+      "condition": "Student selects incorrect option on question targeting err-graphing-midline-from-k.",
+      "systemAction": "assign reteach module for err-graphing-midline-from-k",
+      "studentMessage": "The midline is the vertical center of the graph, given by y = c, not by the k-value."
+    }
+  ],
+  "reteachModules": [
+    {
+      "errorId": "err-ferris-wheel-amplitude-sign",
+      "trigger": "Student selects incorrect option on question targeting err-ferris-wheel-amplitude-sign.",
+      "studentMisunderstanding": "The student treats amplitude as always positive and ignores the vertical reflection meaning of the leading negative sign, losing the connection between a negative cosine and starting at the minimum.",
+      "miniLesson": {
+        "explain": "In a sinusoidal height model, the midline is y = c. Amplitude is the vertical distance from the midline, but the leading sign of the cosine term is the orientation. Positive cosine starts at the maximum (midline + amplitude). Negative cosine starts at the minimum (midline - amplitude). In h(t) = -15cos(π/4 (t-1)) + 17, the midline is 17, the amplitude magnitude is 15, and the negative sign reflects the cosine so the ride starts at the minimum height.",
+        "example": "At the moment the ride begins, t = 1 because of the 1-unit right shift. h(1) = -15cos(π/4 (1-1)) + 17 = -15cos(0) + 17 = -15 + 17, which is the midline minus the amplitude. A positive cosine would give 17 + 15, starting at the maximum.",
+        "memoryAnchor": "Negative cosine? You've been flipped to the floor. Positive cosine? You're at the top. The sign tells you where you start, not just how big the wave is."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In h(t) = -15cos(π/4 (t-1)) + 17, what is the signed amplitude and what does its sign tell you about the starting height?",
+          "answer": "The signed amplitude is -15. The negative sign means the cosine is reflected vertically, so the Ferris wheel starts at its minimum height."
+        },
+        {
+          "level": "L2",
+          "prompt": "A Ferris wheel starts at its minimum height, has midline 17 and radius 15, and uses k = π/4 with a 1-minute ride delay. Write the cosine equation.",
+          "answer": "h(t) = -15cos(π/4 (t-1)) + 17. Negative cosine is used because the ride starts at the minimum."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the leading negative sign in h(t) = -15cos(π/4 (t-1)) + 17 matters beyond amplitude magnitude. Use the starting time t = 1 in your explanation.",
+          "answer": "The negative sign determines the starting point. At t = 1, h(1) = -15cos(0) + 17 = 17 - 15, placing the height 15 units below the midline. This matches a minimum start. Without the negative sign, h(1) would be 17 + 15, the maximum. So the signed coefficient gives both the amplitude magnitude and the vertical orientation."
+        }
+      ]
+    },
+    {
+      "errorId": "err-k-factoring-phase-shift",
+      "trigger": "When a student identifies the phase shift by reading the constant inside the argument before factoring out k, often treating -π/4 as the shift instead of dividing by π/4.",
+      "studentMisunderstanding": "Students think the horizontal shift is simply the constant term shown in the unfactored expression. They forget to divide that constant by k, so they get -π/4 instead of the correct 1-unit right shift.",
+      "miniLesson": {
+        "explain": "To read a phase shift, the trigonometric argument must be written in the form k(t - c). If you see an argument like kt + b, you must first factor out k and divide the constant term by k. In h(t) = -15cos(π/4 (t-1)) + 17, the argument is already factored, so the phase shift is clearly 1 unit to the right. If it were written as -15cos(π/4 t - π/4) + 17, you would rewrite it as π/4(t - 1) by dividing the -π/4 by π/4.",
+        "example": "Start with h(t) = -15cos(π/4 t - π/4) + 17. Factor k = π/4 out of the argument: π/4 t - π/4 = π/4(t - 1). Now compare to the standard form k(t - c). Since t - 1 = t - 1, c = 1, so the phase shift is 1 unit right, not -π/4.",
+        "memoryAnchor": "Divide by k before you declare the shift."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In h(t) = -15cos(π/4(t-1)) + 17, identify the value of k and the constant inside the parentheses.",
+          "answer": "k = π/4 and the constant is -1."
+        },
+        {
+          "level": "L2",
+          "prompt": "Rewrite -15cos(π/4 t - π/4) + 17 by factoring out k, then state the phase shift.",
+          "answer": "-15cos(π/4(t - 1)) + 17; phase shift is 1 unit to the right."
+        },
+        {
+          "level": "L3",
+          "prompt": "A classmate says the phase shift in -15cos(π/4 t - π/4) + 17 is -π/4. Use the standardization step to correct their error.",
+          "answer": "Divide the constant -π/4 by k = π/4 to get -1, giving π/4(t - 1). The phase shift is 1 unit to the right, not -π/4."
+        }
+      ]
+    },
+    {
+      "errorId": "err-function-selection-start-point",
+      "trigger": "Student selects an incorrect function type when the starting point (maximum, minimum, or midline) is given.",
+      "studentMisunderstanding": "The student confuses which trigonometric function (sine or cosine, positive or negative) corresponds to a starting point at maximum, minimum, or midline. They may think positive sine starts at maximum, or that cosine always starts at maximum regardless of shift.",
+      "miniLesson": {
+        "explain": "The choice of trig function depends on where the cycle starts at the reference point (usually t=0 or the phase-shifted start). Positive cosine starts at the maximum, negative cosine starts at the minimum, positive sine starts at the midline moving upward, and negative sine starts at the midline moving downward. The sign on the amplitude flips the starting point vertically.",
+        "example": "For a Ferris wheel that starts at its lowest point, use negative cosine. This matches h(t) = -15cos(π/4 (t-1)) + 17. If it started at the highest point, use positive cosine. If it started at the midline going up, use positive sine; going down, use negative sine.",
+        "memoryAnchor": "C-S-M: Cosine Starts at Max or Min, Sine Starts at Midline. Then add + for high/up and − for low/down."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "A Ferris wheel starts at its maximum height. Which function type should you choose: positive cosine, negative cosine, positive sine, or negative sine?",
+          "answer": "Positive cosine"
+        },
+        {
+          "level": "L2",
+          "prompt": "In the equation h(t) = -15cos(π/4 (t-1)) + 17, the negative sign on 15 tells you that the Ferris wheel starts at its ______.",
+          "answer": "minimum (lowest point)"
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain, in your own words, why a positive sine function is used when a ride starts at the midline moving upward, and why positive cosine is used when it starts at the maximum.",
+          "answer": "Positive sine starts at the midline and increases, which matches moving upward; positive cosine starts at its maximum value, which matches starting at the highest point."
+        }
+      ]
+    },
+    {
+      "errorId": "err-reciprocal-asymptote-denominator",
+      "trigger": "Student sets the numerator equal to zero when finding vertical asymptotes of reciprocal trigonometric functions.",
+      "studentMisunderstanding": "The student confuses zeros of a function (numerator zero) with points where the function is undefined (denominator zero). For tan(x) = sin(x)/cos(x), they incorrectly use sin(x)=0 to locate asymptotes, but the actual asymptotes occur where cos(x)=0 because the denominator cannot be zero.",
+      "miniLesson": {
+        "explain": "Vertical asymptotes of a reciprocal trigonometric function occur where the function is undefined, meaning the denominator of the fraction equals zero. For tan(x) = sin(x)/cos(x), the denominator is cos(x), so vertical asymptotes occur at all x-values where cos(x)=0. For cot(x) = cos(x)/sin(x), the denominator is sin(x), so vertical asymptotes occur at all x-values where sin(x)=0. Setting the numerator to zero instead gives the x-intercepts of the function, not its asymptotes.",
+        "example": "Think about tan(x). The numerator sin(x)=0 at multiples of π, and those are exactly the x-intercepts of tan(x). But a vertical asymptote appears where tan(x) is undefined, which happens when its denominator cos(x)=0. So check the denominator, not the numerator, for asymptotes.",
+        "memoryAnchor": "Denominator zero? Undefined → asymptote. Numerator zero? Zero output → x-intercept. Don't let the numerator gatecrash the asymptote party."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "For tan(x), which expression must be zero to create a vertical asymptote: sin(x) or cos(x)?",
+          "answer": "cos(x), because tan(x) = sin(x)/cos(x) and the denominator is cos(x)."
+        },
+        {
+          "level": "L2",
+          "prompt": "A student claims cot(x) has vertical asymptotes where cos(x)=0. Is that correct? Explain using the definition of cot(x).",
+          "answer": "No. cot(x) = cos(x)/sin(x), so the denominator is sin(x). Vertical asymptotes occur where sin(x)=0, not cos(x)=0."
+        },
+        {
+          "level": "L3",
+          "prompt": "At x = π/4, do tan(x) or cot(x) have vertical asymptotes? Explain by checking their denominators.",
+          "answer": "Neither. At x = π/4, both cos(π/4) and sin(π/4) are nonzero, so both tan(x) and cot(x) are defined. Vertical asymptotes require the denominator to be exactly zero, which is not the case here."
+        }
+      ]
+    },
+    {
+      "errorId": "err-arc-length-radian-vs-degree",
+      "trigger": "Student selects an incorrect option on a question targeting err-arc-length-radian-vs-degree, indicating they believe degrees can be used directly in the arc length formula θ = a/r.",
+      "studentMisunderstanding": "The student thinks θ in the formula θ = a/r can be measured in degrees, not understanding that this formula is the definition of a radian and therefore requires radian measure. They may also confuse angular velocity units, not recognizing that v = rω needs ω in rad/s.",
+      "miniLesson": {
+        "explain": "The formula θ = a/r is the definition of a radian: one radian is the angle formed when the arc length equals the radius. Because it is a definition, θ must be in radians. If an angle is given in degrees, convert it to radians first before using it. The related formula linear velocity = angular velocity × radius (v = rω) also requires ω to be in radians per unit time to give linear velocity in matching distance units.",
+        "example": "A Ferris wheel has radius 17 m. If a seat travels through π/4 radians, the arc length is a = rθ = 17 × (π/4) = 17π/4 m. If someone tried to use a degree measure there, the formula would not work because the ratio a/r is equal to the angle only when that angle is measured in radians.",
+        "memoryAnchor": "θ = a/r is the definition of a radian — it only makes sense in radians. If you see degrees, convert them to radians before you plug in."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the formula θ = a/r, what unit must θ be expressed in? Fill in the blank: θ must be measured in ______.",
+          "answer": "radians"
+        },
+        {
+          "level": "L2",
+          "prompt": "A wheel with radius 17 m rotates through π/4 radians. What arc length does a point on its rim travel? Use a = rθ.",
+          "answer": "a = 17 × π/4 = 17π/4 m"
+        },
+        {
+          "level": "L3",
+          "prompt": "A point on a wheel of radius 1 m moves along an arc of π/4 m in 1 second. Determine its angular displacement in radians and its angular velocity in rad/s. Explain why the radian unit is essential.",
+          "answer": "θ = a/r = (π/4)/1 = π/4 rad. Since this happens in 1 s, ω = θ/t = π/4 rad/s. Radians are essential because the relation a = rθ only holds when θ is in radians; using degrees would break the formula."
+        }
+      ]
+    },
+    {
+      "errorId": "err-graphing-midline-from-k",
+      "trigger": "You thought the midline was 0, but in y = a·sin(k(x-d)) + c the midline is y = c, not 0.",
+      "studentMisunderstanding": "The k-value and phase shift control horizontal stretching and shifting, but they do not move the graph up or down. Students often ignore c and draw the midline at y = 0, losing the vertical center of the graph.",
+      "miniLesson": {
+        "explain": "The midline is the horizontal line halfway between the maximum and minimum values of a sinusoidal function. In standard form y = a·sin(k(x-d)) + c or y = a·cos(k(x-d)) + c, the midline is exactly y = c. The vertical shift c moves the whole graph up or down. For example, if c = 17, the graph oscillates around y = 17, not y = 0.",
+        "example": "For h(t) = -15cos(π/4(t-1)) + 17, the vertical shift is 17, so the midline is y = 17. The amplitude is |−15| = 15, so the maximum is 17 + 15 = 32 and the minimum is 17 − 15 = 2. The k-value π/4 and the 1-unit right shift do not change the midline.",
+        "memoryAnchor": "Remember: 'C is the Center line.' The k-value moves the graph left/right, but the c-value moves it up/down. So the midline is always y = c."
+      },
+      "guidedPractice": [
+        {
+          "level": "L1",
+          "prompt": "In the function h(t) = -15cos(π/4(t-1)) + 17, what is the midline? Write the equation of the midline.",
+          "answer": "y = 17"
+        },
+        {
+          "level": "L2",
+          "prompt": "For a trigonometric function y = a·cos(k(t-d)) + c, suppose a = -15, k = π/4, d = 1, and c = 17. What is the midline, and what are the maximum and minimum y-values?",
+          "answer": "Midline: y = 17. Maximum: 17 + 15 = 32. Minimum: 17 − 15 = 2."
+        },
+        {
+          "level": "L3",
+          "prompt": "Explain why the k-value π/4 and the phase shift 1 do not affect the midline of h(t) = -15cos(π/4(t-1)) + 17. Then state the midline.",
+          "answer": "The k-value and phase shift only affect the horizontal stretch and horizontal shift of the graph. They do not move the graph vertically. The vertical shift is determined by c, which is 17, so the midline is y = 17."
+        }
+      ]
+    }
+  ],
+  "retestCards": [
+    {
+      "forErrorId": "err-ferris-wheel-amplitude-sign",
+      "questions": [
+        {
+          "id": "retest-ferris-amplitude-sign-q1",
+          "type": "single_choice",
+          "stem": "A Ferris wheel has a radius of 15 m, a midline of 17 m, and completes one full revolution every 8 minutes. The wheel starts at its minimum height at t = 0. Which equation correctly models its height h(t) in metres?",
+          "options": [
+            "h(t) = 15 cos(π/4 t) + 17",
+            "h(t) = -15 cos(π/4 t) + 17",
+            "h(t) = 15 sin(π/4 t) + 17",
+            "h(t) = -15 sin(π/4 t) + 17"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-ferris-amplitude-sign-q2",
+          "type": "open_ended",
+          "stem": "For the Ferris wheel model h(t) = -15cos(π/4 (t-1)) + 17, explain what the -15 in front of the cosine tells you about the starting height. Use the value at t = 1 in your explanation.",
+          "rubric": "The -15 is the signed amplitude: its magnitude 15 is the radius, and the negative sign reflects the cosine vertically, meaning the wheel starts at its minimum height. At t = 1, cos(0) = 1, so h(1) = -15 + 17 = 2, which is the midline (17) minus the amplitude (15). Thus the start is at the minimum. If the sign were positive, the start would be at the maximum."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-k-factoring-phase-shift",
+      "questions": [
+        {
+          "id": "q1_k_factor_mc",
+          "type": "single_choice",
+          "stem": "For the height function h(t) = -15cos(π/4 t - π/4) + 17, what is the correct phase shift after standardizing the argument?",
+          "options": [
+            "1 unit to the right",
+            "π/4 unit to the right",
+            "1 unit to the left",
+            "π/4 unit to the left"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2_k_factor_open",
+          "type": "open_ended",
+          "stem": "Rewrite h(t) = -15cos(π/4 t - π/4) + 17 by factoring out k from the argument to obtain the standard form, and then state the phase shift.",
+          "rubric": "Must show h(t) = -15cos(π/4(t-1)) + 17 and state the phase shift is 1 unit to the right. Correct final answer: h(t) = -15cos(π/4(t-1)) + 17, phase shift = 1 unit right."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-function-selection-start-point",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single_choice",
+          "stem": "A pendulum is released from its highest point at t=0, which corresponds to maximum displacement. Which trigonometric function should be used to model its displacement from equilibrium?",
+          "options": [
+            "Positive cosine",
+            "Negative cosine",
+            "Positive sine",
+            "Negative sine"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2",
+          "type": "open_ended",
+          "stem": "A Ferris wheel starts at its lowest point. Your friend says, 'Since the wheel starts at the bottom, I'll use positive sine because sine starts at the origin and goes up.' Explain why your friend's reasoning is incorrect, and identify the correct function type.",
+          "rubric": "The student must state that positive sine starts at the midline moving upward, not at the minimum. The correct function is negative cosine because the Ferris wheel starts at its minimum, and the negative cosine function begins at its lowest value."
+        }
+      ],
+      "passRule": "Both questions must be answered correctly. Q1 must select option 0. Q2 must explicitly mention 'negative cosine' and explain that sine starts at the midline, not at the minimum."
+    },
+    {
+      "forErrorId": "err-reciprocal-asymptote-denominator",
+      "questions": [
+        {
+          "id": "q1-recip-denom-mc",
+          "type": "single_choice",
+          "stem": "For y = sec(x), where do the vertical asymptotes occur?",
+          "options": [
+            "Where cos(x) = 0",
+            "Where sin(x) = 0",
+            "Where cos(x) = 1",
+            "Where sin(x) = 1"
+          ],
+          "correct": 0
+        },
+        {
+          "id": "q2-recip-denom-oe",
+          "type": "open_ended",
+          "stem": "For y = cot(x), a student claims vertical asymptotes occur where cos(x) = 0. Explain why this is wrong and give the correct condition for the asymptotes.",
+          "rubric": "cot(x) = cos(x)/sin(x), so the denominator is sin(x). Vertical asymptotes occur where the denominator is zero: sin(x) = 0, i.e., x = nπ, n ∈ Z. The student incorrectly used the numerator (cos(x)=0), which gives x-intercepts, not asymptotes."
+        }
+      ],
+      "passRule": "Q1 must select 'Where cos(x) = 0'. Q2 must state that cot(x) has denominator sin(x), so vertical asymptotes occur where sin(x) = 0 (x = nπ), and explicitly reject cos(x) = 0 as the correct condition."
+    },
+    {
+      "forErrorId": "err-arc-length-radian-vs-degree",
+      "questions": [
+        {
+          "id": "retest-arc-length-1",
+          "type": "single_choice",
+          "stem": "A bicycle wheel has a radius of 35 cm. If the wheel rotates through an angle of 60°, which expression gives the distance (arc length) traveled by a point on the rim?",
+          "options": [
+            "35 × 60 cm",
+            "35 × (π/3) cm",
+            "35 × (π/6) cm",
+            "60 / 35 cm"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "retest-arc-length-2",
+          "type": "open_ended",
+          "stem": "A wheel with radius 2 m has an angular velocity of 30° per second. Find the linear velocity of a point on the rim in m/s. Show your work.",
+          "rubric": "Convert 30° to radians: 30° = π/6 rad. Since ω = π/6 rad/s, use v = rω = 2 × π/6 = π/3 m/s ≈ 1.047 m/s. Full credit requires converting degrees to radians before applying the formula."
+        }
+      ],
+      "passRule": "All questions must be answered correctly."
+    },
+    {
+      "forErrorId": "err-graphing-midline-from-k",
+      "questions": [
+        {
+          "id": "q1-midline-identification",
+          "type": "single_choice",
+          "stem": "For the function h(t) = -15cos(π/4(t-1)) + 17, what is the equation of the midline?",
+          "options": [
+            "y = 0",
+            "y = 17",
+            "y = -15",
+            "y = π/4"
+          ],
+          "correct": 1
+        },
+        {
+          "id": "q2-midline-explanation",
+          "type": "open_ended",
+          "stem": "Determine the midline of h(t) = -15cos(π/4(t-1)) + 17, and explain in one or two sentences why the values k = π/4 and the phase shift of 1 unit do not affect the midline.",
+          "rubric": "State y = 17 as the midline. Explanation should indicate that k and the phase shift only affect horizontal stretching and shifting, not vertical movement; the midline is determined by the vertical shift c = 17."
+        }
+      ],
+      "passRule": "The single-choice answer must be y = 17, and the open-ended response must correctly state y = 17 and include an explanation that k and phase shift do not change the midline because vertical shift c determines it."
+    }
+  ],
+  "teacherEscalation": {
+    "condition": "student fails the same retest twice or scores in the lowest tier on two consecutive lesson diagnostics",
+    "message": "该学生需要人工短辅导；问题不是单题错误，而是核心概念系统没有建立。"
+  },
+  "dashboardFormat": {
+    "sourceLesson": "MHF4U.S6.Taylor 2026-08-12",
+    "sourceFormat": "feishu_ai_minutes_link",
+    "sourceUrl": "https://ccnmm1dl3xlx.feishu.cn/docx/DqqJdqhs1o5uyWxaM60cVaqPnBb?from=vc_group_doc_link#doxcnOx6RQuXhPsyxbMS4G01blg",
+    "sourceTitle": "MHF4U.S6.Taylor 2026-08-12 智能纪要",
+    "methodology": "TeachAny",
+    "lessonType": "mixed",
+    "objective": "For the Ferris wheel problem, the height function is h(t) = -15cos(π/4 (t-1)) + 17.；The amplitude is -15, vertical shift is 17, k is π/4, and the 1-unit right phase shift accounts for the 1-minute ride delay.；To standardize a trigonometric function, factor out k from the argument by dividing constant terms by k.",
+    "learningGoals": [
+      {
+        "id": "lg-1",
+        "statement": "Write and interpret sinusoidal models from context, including correct amplitude sign for starting position."
+      },
+      {
+        "id": "lg-2",
+        "statement": "Standardize trigonometric function arguments by factoring k to correctly identify phase shift."
+      },
+      {
+        "id": "lg-3",
+        "statement": "Select the appropriate sine or cosine function based on the starting point of a periodic situation."
+      },
+      {
+        "id": "lg-4",
+        "statement": "Identify vertical asymptotes of reciprocal trigonometric functions by setting the denominator equal to zero."
+      },
+      {
+        "id": "lg-5",
+        "statement": "Use radian measure correctly in arc length and velocity formulas."
+      },
+      {
+        "id": "lg-6",
+        "statement": "Identify key features of transformed trigonometric graphs, especially the midline y = c."
+      }
+    ],
+    "courseOpsItems": [
+      {
+        "id": "ops-001",
+        "category": "exam_or_quiz",
+        "title": "Unit 3 Lesson 3 Quiz weight: 3%",
+        "studentAction": "Remember the quiz is worth 3% of the total course score.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "quiz carries a 3 % total score weight",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-002",
+        "category": "attendance_camera",
+        "title": "Cameras on during quiz",
+        "studentAction": "Keep your camera on for the entire duration of the quiz session.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "participants are required to keep their cameras on for the full duration of the quiz session",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-003",
+        "category": "platform_link",
+        "title": "Quiz location: Unit 3 evaluation section",
+        "studentAction": "Find the Unit 3 Lesson 3 Quiz in the Unit 3 evaluation section before the quiz starts.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": "course platform (unspecified)",
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "medium",
+        "sourceEvidence": "The quiz is located in the Unit 3 evaluation section",
+        "needsHumanConfirmation": true
+      },
+      {
+        "id": "ops-004",
+        "category": "material_needed",
+        "title": "Reference formulas provided at end of quiz sheet",
+        "studentAction": "Know that arc length, angular velocity, and Pythagorean identity formulas are provided at the end of the quiz sheet; focus on applying them rather than memorizing.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "medium",
+        "confidence": "high",
+        "sourceEvidence": "reference formulas for arc length, angular velocity and Pythagorean identity provided at the end of the quiz sheet",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-005",
+        "category": "exam_requirement",
+        "title": "Reciprocal function drawing not required for current quiz",
+        "studentAction": "Do not study full in-depth drawing of cosecant, secant, and cotangent for this quiz; it is only for the upcoming formal test.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Full in-depth drawing of cosecant, secant and cotangent functions is not required for the current quiz, only for the upcoming formal test.",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-006",
+        "category": "follow_up_action",
+        "title": "Next class: full reciprocal function graphs",
+        "studentAction": "Attend next class if you want full plotting details for cosecant, secant, and cotangent; not required for the current quiz.",
+        "deadlineText": "Next class (2026-08-13)",
+        "deadlineISO": "2026-08-13",
+        "platform": null,
+        "link": null,
+        "appliesTo": "students interested in full reciprocal graphing",
+        "importance": "low",
+        "confidence": "medium",
+        "sourceEvidence": "Full plotting details for the three reciprocal functions will be covered in the next day’s class",
+        "needsHumanConfirmation": false
+      },
+      {
+        "id": "ops-007",
+        "category": "review_focus",
+        "title": "Unit 3 Lesson 3 Quiz content focus",
+        "studentAction": "Review degree-radian conversion, exact value calculation, parameter table completion, vertical asymptote explanation, quadrant angle exact values, terminal arm point trig values, standard position radian measure, equation writing, mass-spring height, and Ferris wheel angular velocity/travel distance.",
+        "deadlineText": null,
+        "deadlineISO": null,
+        "platform": null,
+        "link": null,
+        "appliesTo": "all students",
+        "importance": "high",
+        "confidence": "high",
+        "sourceEvidence": "Quiz Content Breakdown: Knowledge & Understanding Section... Thinking & Inquiry Section... Application Section...",
+        "needsHumanConfirmation": false
+      }
+    ],
+    "courseOpsUncertainItems": [
+      {
+        "rawText": "Quiz date and time are not specified in the notes; only quiz access location, weight, and camera rule are given.",
+        "reason": "Exact quiz schedule is absent, so no deadlineISO can be assigned for the quiz itself."
+      }
+    ],
+    "watchTags": [
+      "MHF4U-S6-Taylor-2026-08-12-ferris-wheel-cosine-model",
+      "MHF4U-S6-Taylor-2026-08-12-k-factoring",
+      "MHF4U-S6-Taylor-2026-08-12-function-selection",
+      "MHF4U-S6-Taylor-2026-08-12-reciprocal-asymptotes",
+      "MHF4U-S6-Taylor-2026-08-12-arc-length-velocity",
+      "MHF4U-S6-Taylor-2026-08-12-graphing-transformation"
+    ],
+    "totalQuestions": 5,
+    "completed": false,
+    "passScore": 5,
+    "diagnosisRules": [
+      {
+        "errorId": "err-ferris-wheel-amplitude-sign",
+        "condition": "Student selects incorrect option on question targeting err-ferris-wheel-amplitude-sign.",
+        "systemAction": "assign reteach module for err-ferris-wheel-amplitude-sign"
+      },
+      {
+        "errorId": "err-k-factoring-phase-shift",
+        "condition": "Student selects incorrect option on question targeting err-k-factoring-phase-shift.",
+        "systemAction": "assign reteach module for err-k-factoring-phase-shift"
+      },
+      {
+        "errorId": "err-function-selection-start-point",
+        "condition": "Student selects incorrect option on question targeting err-function-selection-start-point.",
+        "systemAction": "assign reteach module for err-function-selection-start-point"
+      },
+      {
+        "errorId": "err-reciprocal-asymptote-denominator",
+        "condition": "Student selects incorrect option on question targeting err-reciprocal-asymptote-denominator.",
+        "systemAction": "assign reteach module for err-reciprocal-asymptote-denominator"
+      },
+      {
+        "errorId": "err-arc-length-radian-vs-degree",
+        "condition": "Student selects incorrect option on question targeting err-arc-length-radian-vs-degree.",
+        "systemAction": "assign reteach module for err-arc-length-radian-vs-degree"
+      },
+      {
+        "errorId": "err-graphing-midline-from-k",
+        "condition": "Student selects incorrect option on question targeting err-graphing-midline-from-k.",
+        "systemAction": "assign reteach module for err-graphing-midline-from-k"
+      }
+    ],
+    "nextActions": [
+      "[err-ferris-wheel-amplitude-sign] Student selects incorrect option on question targeting err-ferris-wheel-amplitude-sign.: The sign of the amplitude matters more than you think. Let's review how a negative cosine indicates a minimum start.",
+      "[err-k-factoring-phase-shift] Student selects incorrect option on question targeting err-k-factoring-phase-shift.: Factoring k is the key to seeing the real phase shift. Let's practice dividing that constant by k.",
+      "[err-function-selection-start-point] Student selects incorrect option on question targeting err-function-selection-start-point.: Which trig function you pick depends on where the motion starts. Let's review the four starting patterns.",
+      "[err-reciprocal-asymptote-denominator] Student selects incorrect option on question targeting err-reciprocal-asymptote-denominator.: Asymptotes come from the denominator, not the numerator. Let's review tan and cot definitions.",
+      "[err-arc-length-radian-vs-degree] Student selects incorrect option on question targeting err-arc-length-radian-vs-degree.: The arc length formula is built on radian measure. Let's go over why radians are required.",
+      "[err-graphing-midline-from-k] Student selects incorrect option on question targeting err-graphing-midline-from-k.: The midline is the vertical center of the graph, given by y = c, not by the k-value."
+    ],
+    "cards": [
+      {
+        "id": "diag-mhf4u-s6-0826-q1",
+        "type": "choice",
+        "question": "The Ferris wheel height function is h(t) = -15cos(π/4 (t-1)) + 17. What does the leading negative sign on the 15 represent?",
+        "options": [
+          "The wheel starts at its highest point, so the amplitude is positive 15.",
+          "The wheel starts at its lowest point because the cosine is inverted, so the amplitude is -15.",
+          "The wheel starts at the midline moving upward, so the negative sign indicates a sine function.",
+          "The wheel has amplitude 15 but the negative sign is a vertical reflection, not related to starting position."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if the student understands that the negative sign flips the cosine to start at a minimum, not a maximum.",
+        "misconceptions": [
+          "A negative cosine does not start at a maximum. The negative sign actually flips the graph so it starts at a minimum.",
+          "✓ Correct. The negative sign on the cosine indicates the graph is reflected vertically, starting at the minimum.",
+          "The function is still cosine, not sine. A negative sine would also start at midline moving downward, not upward.",
+          "Vertical reflection is exactly what changes the starting position from maximum to minimum. So it is directly related."
+        ],
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-ferris-wheel-cosine-model",
+        "errorId": "err-ferris-wheel-amplitude-sign",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-1",
+        "successCriteria": "Student identifies that the negative sign indicates the wheel starts at its minimum height, not maximum.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question connects an algebraic transformation (negative cosine) to its graphical starting position, which is central to B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often treat amplitude as always positive and ignore the vertical reflection's meaning for starting position.",
+        "remediationModule": "err-ferris-wheel-amplitude-sign",
+        "retestItem": "err-ferris-wheel-amplitude-sign"
+      },
+      {
+        "id": "diag-mhf4u-s6-0826-q2",
+        "type": "choice",
+        "question": "Given h(t) = -15cos(π/4 (t-1)) + 17, which step correctly standardizes the argument to verify the phase shift?",
+        "options": [
+          "Keep it as -15cos(π/4 t - π/4) + 17 and identify the phase shift as -π/4.",
+          "Divide the constant -π/4 by π/4 to get -1, giving the standardized form π/4(t - 1).",
+          "Multiply the constant -π/4 by π/4 to get -π^2/16, so the phase shift is -π^2/16.",
+          "The phase shift is already 1 because it appears in the parentheses, so no extra step is needed."
+        ],
+        "correct": 1,
+        "diagnosis": "Diagnose whether the student knows to divide the constant term by k when standardizing the phase shift.",
+        "misconceptions": [
+          "The constant term must be divided by k (π/4) to get the actual horizontal shift. -π/4 divided by π/4 is -1, not the phase shift itself.",
+          "✓ Correct. Factoring out π/4 from π/4(t-1) gives π/4 t - π/4, so dividing the constant by π/4 yields -1, confirming a 1-unit right shift.",
+          "You should divide, not multiply, by k when factoring. Multiplying changes the value incorrectly.",
+          "While (t-1) does show a right shift of 1, the standardization step is required to prove it when the argument is not already factored. Always factor k explicitly."
+        ],
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-k-factoring",
+        "errorId": "err-k-factoring-phase-shift",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L2",
+        "learningGoal": "lg-2",
+        "successCriteria": "Student correctly factors k from the argument and identifies the phase shift as 1 unit right.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question targets the algebraic manipulation needed to connect a trigonometric expression to its transformed graph.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students often read the phase shift directly from the parentheses without factoring k, or misapply the division.",
+        "remediationModule": "err-k-factoring-phase-shift",
+        "retestItem": "err-k-factoring-phase-shift"
+      },
+      {
+        "id": "diag-mhf4u-s6-0826-q3",
+        "type": "choice",
+        "question": "A ride starts at its maximum height. Which trigonometric function is the best initial choice to model its height?",
+        "options": [
+          "positive cosine",
+          "negative cosine",
+          "positive sine",
+          "negative sine"
+        ],
+        "correct": 0,
+        "diagnosis": "Check if the student knows which trig function corresponds to which starting point in a periodic context.",
+        "misconceptions": [
+          "✓ Correct. Positive cosine starts at its maximum value.",
+          "Negative cosine starts at its minimum, not maximum.",
+          "Positive sine starts at the midline moving upward, not at a maximum.",
+          "Negative sine starts at the midline moving downward, not at a maximum."
+        ],
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-function-selection",
+        "errorId": "err-function-selection-start-point",
+        "bloomLevel": "apply",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-3",
+        "successCriteria": "Student selects positive cosine for a maximum starting point.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This tests the ability to connect real-world starting conditions to an appropriate trigonometric model.",
+        "achievementCategory": "Application",
+        "cognitiveAction": "apply",
+        "commonMisconception": "Students often mix up sine and cosine starting positions, especially maximum vs midline.",
+        "remediationModule": "err-function-selection-start-point",
+        "retestItem": "err-function-selection-start-point"
+      },
+      {
+        "id": "diag-mhf4u-s6-0826-q4",
+        "type": "choice",
+        "question": "Which statement correctly identifies the vertical asymptotes of tan(x)?",
+        "options": [
+          "tan(x) = sin(x)/cos(x), so asymptotes occur where sin(x) = 0.",
+          "tan(x) = sin(x)/cos(x), so asymptotes occur where cos(x) = 0.",
+          "tan(x) = cos(x)/sin(x), so asymptotes occur where sin(x) = 0.",
+          "tan(x) = cos(x)/sin(x), so asymptotes occur where cos(x) = 0."
+        ],
+        "correct": 1,
+        "diagnosis": "Check if the student sets the denominator, not the numerator, equal to zero when finding asymptotes.",
+        "misconceptions": [
+          "You set the numerator equal to zero. Asymptotes occur from the denominator, not the numerator.",
+          "✓ Correct. The denominator cos(x) cannot be zero, so those x-values are excluded as vertical asymptotes.",
+          "That is the definition of cot(x), not tan(x). And for cot, sin(x)=0 does give asymptotes.",
+          "That uses the wrong definition of tan. tan is sin/cos, not cos/sin."
+        ],
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-reciprocal-asymptotes",
+        "errorId": "err-reciprocal-asymptote-denominator",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-4",
+        "successCriteria": "Student identifies that tan(x) = sin(x)/cos(x) and asymptotes occur where cos(x) = 0.",
+        "ossdExpectation": "Make connections between trigonometric ratios and the graphical and algebraic representations of the corresponding trigonometric functions and between trigonometric functions and their reciprocals, and use these connections to solve problems.",
+        "officialExpectationCode": "B2",
+        "officialNodeId": "MHF4U-B-OE02",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This tests the reciprocal relationship and domain restrictions central to B2.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often set the numerator equal to zero, thinking zeros of the function create asymptotes.",
+        "remediationModule": "err-reciprocal-asymptote-denominator",
+        "retestItem": "err-reciprocal-asymptote-denominator"
+      },
+      {
+        "id": "diag-mhf4u-s6-0826-q5",
+        "type": "choice",
+        "question": "In the formula θ = a/r, what unit must θ be measured in?",
+        "options": [
+          "degrees",
+          "radians",
+          "either degrees or radians, as long as consistent",
+          "revolutions"
+        ],
+        "correct": 1,
+        "diagnosis": "Check if the student knows that the arc length formula is derived from radian measure and cannot use degrees.",
+        "misconceptions": [
+          "Degrees do not work directly in θ = a/r. The formula is built on the definition of radian measure.",
+          "✓ Correct. Radian measure is required because the formula is a definition of radians.",
+          "Only radians work in this formula. Degrees must be converted first.",
+          "Revolutions are a measure of angular displacement but not directly usable without conversion to radians."
+        ],
+        "nodeId": "MHF4U-S6-Taylor-2026-08-12-arc-length-velocity",
+        "errorId": "err-arc-length-radian-vs-degree",
+        "bloomLevel": "understand",
+        "scaffoldLevel": "L1",
+        "learningGoal": "lg-5",
+        "successCriteria": "Student identifies radians as the required unit for θ in the arc length formula.",
+        "ossdExpectation": "Demonstrate an understanding of the meaning and application of radian measure.",
+        "officialExpectationCode": "B1",
+        "officialNodeId": "MHF4U-B-OE01",
+        "sourceUrl": "https://www.edu.gov.on.ca/eng/curriculum/secondary/math1112currb.pdf",
+        "alignmentConfidence": "strong",
+        "alignmentNote": "This question directly assesses the radian measure application required by B1.",
+        "achievementCategory": "Knowledge and Understanding",
+        "cognitiveAction": "interpret",
+        "commonMisconception": "Students often plug degrees into θ = a/r, forgetting that the formula assumes radian measure.",
+        "remediationModule": "err-arc-length-radian-vs-degree",
+        "retestItem": "err-arc-length-radian-vs-degree"
+      }
+    ]
+  }
+}
